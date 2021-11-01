@@ -208,13 +208,21 @@ int qvm_load_map(qvm_t *qvm, char *map_filename)
             continue;
         }
 
-        // TODO: check address overflow for S_DATA, S_LIT and S_BSS
-
         // correct the address for literal and bss section
         if (section_id == S_LIT)
             address += qvm->sections[S_LIT].length;
         else if (section_id == S_BSS)
             address += qvm->sections[S_LIT].length + qvm->sections[S_BSS].length;
+
+        // check address overflow for S_DATA, S_LIT and S_BSS
+        if (section_id == S_LIT && address > qvm->sections[S_DATA].length + qvm->sections[S_LIT].length){
+            printf("Warning: Line %i of map file was ignored: Invalid literal address.\n", line_count);
+            continue;
+        }
+        else if (section_id == S_BSS && address > qvm->sections[S_DATA].length + qvm->sections[S_LIT].length + qvm->sections[S_BSS].length) {
+            printf("Warning: Line %i of map file was ignored: Invalid bss address.\n", line_count);
+            continue;
+        }
 
         // create a new map entry
         if (!(entry = map_new())) {
