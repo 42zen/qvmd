@@ -194,22 +194,12 @@ qvm_variable_t *var_cut(qvm_t *qvm, qvm_function_t *function, unsigned int addre
         // cut the variable if needed
         if (var->address < address) {
             if (!var->next || var->next->address > address) {
-                /*// create a new variable
-                if (!(new_var = var_new()))
-                    return 0;
-
-                // set the new variable address
-                new_var->address = address;*/
-
                 // create a new variable
                 if (!(new_var = var_create(qvm, function, address, 0, NULL)))
                     return NULL;
 
                 // set the new var size
                 new_var->size = var->size - (address - var->address);
-                
-                /*// put the new variable inbetween
-                var->next = new_var;*/
 
                 // change the variable size
                 var->size = address - var->address;
