@@ -201,7 +201,7 @@ int qvm_load_map(qvm_t *qvm, char *map_filename)
         }
 
         // check if name is only alphanum char
-        if (!str_is_alnum(map->name)) {
+        if (!str_is_print(line)) {
             printf("Warning: Line %i of map file was ignored: Invalid name.\n", line_count);
             continue;
         }
@@ -214,12 +214,12 @@ int qvm_load_map(qvm_t *qvm, char *map_filename)
 
         // correct the address for literal and bss section
         if (section_id == S_LIT)
-            address += qvm->sections[S_LIT].length;
+            address += qvm->sections[S_DATA].length;
         else if (section_id == S_BSS)
-            address += qvm->sections[S_LIT].length + qvm->sections[S_BSS].length;
+            address += qvm->sections[S_DATA].length + qvm->sections[S_LIT].length;
 
         // check address overflow for S_DATA, S_LIT and S_BSS
-        if (section_id == S_LIT && address > qvm->sections[S_DATA].length + qvm->sections[S_LIT].length){
+        if (section_id == S_LIT && address > qvm->sections[S_DATA].length + qvm->sections[S_LIT].length) {
             printf("Warning: Line %i of map file was ignored: Invalid literal address.\n", line_count);
             continue;
         }
