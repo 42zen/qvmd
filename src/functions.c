@@ -1,5 +1,6 @@
 #include "qvmd.h"
 
+void                        func_init(qvm_function_t *func);
 static qvm_function_t       *func_new(void);
 qvm_function_t              *func_find(qvm_t *qvm, unsigned int address);
 qvm_function_t              *func_add_syscall(qvm_t *qvm, unsigned int address);
@@ -7,6 +8,20 @@ int                         func_rename(qvm_function_t *func, char *name);
 static qvm_function_list_t  *func_list_new(void);
 static qvm_function_list_t  *func_list_find(qvm_function_list_t *list, qvm_function_t *func);
 qvm_function_list_t         *func_list_add(qvm_function_list_t **list, qvm_function_t *func);
+
+void func_init(qvm_function_t *func)
+{
+    func->address = 0;
+    *func->name = 0;
+    func->stack_size = 0;
+    func->return_size = 0;
+    func->opblock_start = NULL;
+    func->opblock_end = NULL;
+    func->locals = NULL;
+    func->next = NULL;
+    func->calls = NULL;
+    func->called_by = NULL;
+}
 
 static qvm_function_t *func_new(void)
 {
@@ -19,16 +34,7 @@ static qvm_function_t *func_new(void)
     }
 
     // initialize the function
-    func->address = 0;
-    *func->name = 0;
-    func->stack_size = 0;
-    func->return_size = 0;
-    func->opblock_start = NULL;
-    func->opblock_end = NULL;
-    func->locals = NULL;
-    func->next = NULL;
-    func->calls = NULL;
-    func->called_by = NULL;
+    func_init(func);
 
     // return the function
     return func;

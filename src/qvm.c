@@ -325,7 +325,9 @@ static int qvm_load_functions(qvm_t *qvm)
         return 0;
     }
 
-    // TODO: func_init on all function!
+    // initialize all functions
+    for (unsigned int i = 0; i < qvm->functions_count; i++)
+        func_init(&qvm->functions[i]);
 
     // load the functions data
     qvm_load_functions_data(qvm);
