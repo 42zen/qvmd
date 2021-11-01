@@ -30,9 +30,9 @@ The QVM format was created for Quake3 but is used by Wolfenstein, Call of Duty, 
   - Change to the directory containing this readme.
   - Run 'make'.
 
-# Documentations :
+# Documentations
   - <a href="https://www.icculus.org/~phaethon/q3mc/q3vm_specs.html">QVM Specifications</a>
   - <a href="https://github.com/ioquake/ioq3">IOQ3 Source Code</a>
 
-# Author :
+# Author
   - Mathias Bochet aka <a href="https://github.com/19zen">zen</a>
