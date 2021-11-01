@@ -49,7 +49,11 @@ static qvm_t *qvm_new(void)
     qvm->map = NULL;
     qvm->restored_calls_perc = 0.0f;
 
-    // TODO: init sections[]
+    // init all qvm sections
+    for (int i = S_CODE; i < S_MAX; i++) {
+        qvm->sections[i].content = NULL;
+        qvm->sections[i].length = 0;
+    }
 
     // return the qvm
     return qvm;
