@@ -200,7 +200,11 @@ int qvm_load_map(qvm_t *qvm, char *map_filename)
             continue;
         }
 
-        // TODO: check if name is only alphanum char
+        // check if name is only alphanum char
+        if (!str_is_alnum(map->name)) {
+            printf("Warning: Line %i of map file was ignored: Invalid name.\n", line_count);
+            continue;
+        }
 
         // check if the section id is valid
         if (section_id < 0 || section_id >= S_MAX) {

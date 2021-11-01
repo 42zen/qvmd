@@ -13,6 +13,7 @@ SRC = src/qvmd.c \
       src/opcodes.c \
       src/options.c \
       src/qvm.c \
+      src/strings.c \
       src/variables.c
 
 OBJ = $(SRC:.c=.o)

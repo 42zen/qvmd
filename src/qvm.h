@@ -14,6 +14,7 @@ typedef struct qvm_s                                        qvm_t;
 #include "jumppoints.h"
 #include "variables.h"
 #include "map.h"
+#include "strings.h"
 
 typedef struct __attribute__((__packed__)) qvm_header_s {
     int             magic;
