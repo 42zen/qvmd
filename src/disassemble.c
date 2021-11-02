@@ -4,7 +4,7 @@ int             qvm_disassemble(qvm_t *qvm, char *filename);
 static void     qvm_disassemble_header(qvm_t *qvm, file_t *file);
 static void     qvm_disassemble_functions(qvm_t *qvm, file_t *file);
 static void     qvm_disassemble_function_header(file_t *file, qvm_function_t *func);
-static void     qvm_disassemble_function_code(file_t *file, qvm_function_t *func);
+static void     qvm_disassemble_function_code(qvm_t *qvm, file_t *file, qvm_function_t *func);
 
 int qvm_disassemble(qvm_t *qvm, char *filename)
 {
@@ -57,10 +57,11 @@ static void qvm_disassemble_functions(qvm_t *qvm, file_t *file)
         qvm_disassemble_function_header(file, func);
 
         // print the function code
-        qvm_disassemble_function_code(file, func);
+        qvm_disassemble_function_code(qvm, file, func);
 
-        // print an end of line after the function
-        file_print(file, "\n");
+        // print an end of line after the function if needed
+        if (i + 1 < qvm->functions_count)
+            file_print(file, "\n");
     }
 }
 
@@ -73,42 +74,27 @@ static void qvm_disassemble_function_header(file_t *file, qvm_function_t *func)
     file_print(file, "%s:\n", func->name);
 }
 
-static void qvm_disassemble_function_code(file_t *file, qvm_function_t *func)
+static void qvm_disassemble_function_code(qvm_t *qvm, file_t *file, qvm_function_t *func)
 {
-    qvm_opblock_t   *opb;
     qvm_opcode_t    *op;
+    qvm_jumppoint_t *jmp;
 
-    // browse all function opblocks
-    for (opb = func->opblock_start; opb != func->opblock_end; opb = opb->next) {
-        // ignore all function enter opblock
-        if (opb->info->id == OPB_FUNC_ENTER)
-            continue;
+    for (unsigned int i = 0; i < func->op_size; i++) {
+        // get the current opcode
+        op = &qvm->opcodes[func->address + i];
 
-        // if the opblock have opcodes
-        if (opb->opcodes_count || opb->info->id == OPB_JUMP_POINT) {
-            // print the opblock code decompiled in comment
-            file_print(file, "\t; ");
-            opb_print(file, opb);
-            file_print(file, "\n");
+        // print the jumppoint if needed
+        if ((jmp = jumppoint_find(qvm, func->address + i)))
+            file_print(file, "\n%s:\n", jmp->name);
 
-            // browse all opblock opcodes
-            for (unsigned int j = 0; j < opb->opcodes_count; j++) {
-                // get the current opcode
-                op = &opb->opcodes[j];
+        // print the opcode name
+        file_print(file, "0x%-6x %s", func->address + i, op->info->name);
 
-                // print the opcode name
-                file_print(file, "\t%s", op->info->name);
+        // print the opcode parameter if needed
+        if (op->info->param_size)
+            file_print(file, " 0x%x", op->value);
 
-                // print the opcode parameter if needed
-                if (op->info->param_size)
-                    file_print(file, " 0x%x", op->value);
-
-                // print an end of line after the opcode
-                file_print(file, "\n");
-            }
-                
-            // print an end of line after the opblock
-            file_print(file, "\n");
-        }
+        // print the end of line
+        file_print(file, "\n");
     }
 }
