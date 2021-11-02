@@ -5,7 +5,7 @@
 	Opcodes Count: 105045
 	Functions Count: 522
 	Syscalls Count: 70
-	Globals Count: 672
+	Globals Count: 686
 	Calls Restored: 94.34
 */
 
@@ -32,15 +32,22 @@ char	randSeed[128] = "\x00\x00\x00\x00\xc9\x49\x00\x00\xfb\x49\x00\x00\x9c\x4a\x
 char	commands[168] = "\x85\x52\x00\x00\x00\x41\x01\x00\x7b\x52\x00\x00\x75\x40\x01\x00\x71\x52\x00\x00\x12\x41\x01\x00\x67\x52\x00\x00\x28\x41\x01\x00\x5e\x52\x00\x00\x45\x41\x01\x00\x55\x52\x00\x00\x5b\x41\x01\x00\x4d\x52\x00\x00\xd8\x57\x00\x00\x45\x52\x00\x00\xf0\x57\x00\x00\x3d\x52\x00\x00\x12\x58\x00\x00\x37\x52\x00\x00\xea\x45\x01\x00\x31\x52\x00\x00\xfa\x45\x01\x00\x2a\x52\x00\x00\xac\x57\x00\x00\x21\x52\x00\x00\xc2\x57\x00\x00\x18\x52\x00\x00\x3d\x67\x01\x00\x0f\x52\x00\x00\x93\x67\x01\x00\x08\x52\x00\x00\xe9\x67\x01\x00\x03\x52\x00\x00\x7a\x57\x00\x00\xf7\x51\x00\x00\x20\x58\x00\x00\xe9\x51\x00\x00\x4b\x58\x00\x00\xde\x51\x00\x00\x76\x58\x00\x00\xd1\x51\x00\x00\x8d\x07\x01\x00";
 char	drawTeamOverlayModificationCount[180] = "\xff\xff\xff\xff\xba\x59\x00\x00\xde\x59\x00\x00\x02\x5a\x00\x00\x26\x5a\x00\x00\x00\x00\x80\x3f\xd7\xa3\x30\x3f\x00\x00\x00\x00\x00\x00\x80\x3f\x00\x00\x80\x3f\xcd\xcc\x4c\x3e\xcd\xcc\x4c\x3e\x00\x00\x80\x3f\x00\x00\x00\x3f\x00\x00\x00\x3f\x00\x00\x00\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\xcd\xcc\x4c\x3e\x00\x00\x80\x3f\xcd\xcc\x4c\x3e\x00\x00\x80\x3f\x00\x00\x80\x3f\xcd\xcc\x4c\x3e\xcd\xcc\x4c\x3e\x00\x00\x80\x3f\x00\x00\x80\x3f\xcd\xcc\x4c\x3e\xcd\xcc\x4c\x3e\x00\x00\x80\x3f\xcd\xcc\x4c\x3e\xcd\xcc\x4c\x3e\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x33\x33\x33\x3f\x33\x33\x33\x3f\x33\x33\x33\x3f\x00\x00\x80\x3f"; // Used by: CG_UpdateCvars
 char	propMap[1536] = "\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x0b\x00\x00\x00\x7a\x00\x00\x00\x07\x00\x00\x00\x9a\x00\x00\x00\xb5\x00\x00\x00\x0e\x00\x00\x00\x37\x00\x00\x00\x7a\x00\x00\x00\x11\x00\x00\x00\x4f\x00\x00\x00\x7a\x00\x00\x00\x12\x00\x00\x00\x65\x00\x00\x00\x7a\x00\x00\x00\x17\x00\x00\x00\x99\x00\x00\x00\x7a\x00\x00\x00\x12\x00\x00\x00\x09\x00\x00\x00\x5d\x00\x00\x00\x07\x00\x00\x00\xcf\x00\x00\x00\x7a\x00\x00\x00\x08\x00\x00\x00\xe6\x00\x00\x00\x7a\x00\x00\x00\x09\x00\x00\x00\xb1\x00\x00\x00\x7a\x00\x00\x00\x12\x00\x00\x00\x1e\x00\x00\x00\x98\x00\x00\x00\x12\x00\x00\x00\x55\x00\x00\x00\xb5\x00\x00\x00\x07\x00\x00\x00\x22\x00\x00\x00\x5d\x00\x00\x00\x0b\x00\x00\x00\x6e\x00\x00\x00\xb5\x00\x00\x00\x06\x00\x00\x00\x82\x00\x00\x00\x98\x00\x00\x00\x0e\x00\x00\x00\x16\x00\x00\x00\x40\x00\x00\x00\x11\x00\x00\x00\x29\x00\x00\x00\x40\x00\x00\x00\x0c\x00\x00\x00\x3a\x00\x00\x00\x40\x00\x00\x00\x11\x00\x00\x00\x4e\x00\x00\x00\x40\x00\x00\x00\x12\x00\x00\x00\x62\x00\x00\x00\x40\x00\x00\x00\x13\x00\x00\x00\x78\x00\x00\x00\x40\x00\x00\x00\x12\x00\x00\x00\x8d\x00\x00\x00\x40\x00\x00\x00\x12\x00\x00\x00\xcc\x00\x00\x00\x40\x00\x00\x00\x10\x00\x00\x00\xa2\x00\x00\x00\x40\x00\x00\x00\x11\x00\x00\x00\xb6\x00\x00\x00\x40\x00\x00\x00\x12\x00\x00\x00\x3b\x00\x00\x00\xb5\x00\x00\x00\x07\x00\x00\x00\x23\x00\x00\x00\xb5\x00\x00\x00\x07\x00\x00\x00\xcb\x00\x00\x00\x98\x00\x00\x00\x0e\x00\x00\x00\x38\x00\x00\x00\x5d\x00\x00\x00\x0e\x00\x00\x00\xe4\x00\x00\x00\x98\x00\x00\x00\x0e\x00\x00\x00\xb1\x00\x00\x00\xb5\x00\x00\x00\x12\x00\x00\x00\x1c\x00\x00\x00\x7a\x00\x00\x00\x16\x00\x00\x00\x05\x00\x00\x00\x04\x00\x00\x00\x12\x00\x00\x00\x1b\x00\x00\x00\x04\x00\x00\x00\x12\x00\x00\x00\x30\x00\x00\x00\x04\x00\x00\x00\x12\x00\x00\x00\x45\x00\x00\x00\x04\x00\x00\x00\x11\x00\x00\x00\x5a\x00\x00\x00\x04\x00\x00\x00\x0d\x00\x00\x00\x6a\x00\x00\x00\x04\x00\x00\x00\x0d\x00\x00\x00\x79\x00\x00\x00\x04\x00\x00\x00\x12\x00\x00\x00\x8f\x00\x00\x00\x04\x00\x00\x00\x11\x00\x00\x00\xa4\x00\x00\x00\x04\x00\x00\x00\x08\x00\x00\x00\xaf\x00\x00\x00\x04\x00\x00\x00\x10\x00\x00\x00\xc3\x00\x00\x00\x04\x00\x00\x00\x12\x00\x00\x00\xd8\x00\x00\x00\x04\x00\x00\x00\x0c\x00\x00\x00\xe6\x00\x00\x00\x04\x00\x00\x00\x17\x00\x00\x00\x06\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\x1b\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\x30\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\x44\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\x5a\x00\x00\x00\x22\x00\x00\x00\x11\x00\x00\x00\x6e\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\x82\x00\x00\x00\x22\x00\x00\x00\x0e\x00\x00\x00\x92\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\xa6\x00\x00\x00\x22\x00\x00\x00\x13\x00\x00\x00\xb9\x00\x00\x00\x22\x00\x00\x00\x1d\x00\x00\x00\xd7\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\xea\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\x05\x00\x00\x00\x40\x00\x00\x00\x0e\x00\x00\x00\x3c\x00\x00\x00\x98\x00\x00\x00\x07\x00\x00\x00\x6a\x00\x00\x00\x97\x00\x00\x00\x0d\x00\x00\x00\x53\x00\x00\x00\x98\x00\x00\x00\x07\x00\x00\x00\x80\x00\x00\x00\x7a\x00\x00\x00\x11\x00\x00\x00\x04\x00\x00\x00\x98\x00\x00\x00\x15\x00\x00\x00\x86\x00\x00\x00\xb5\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x04\x00\x00\x00\x12\x00\x00\x00\x1b\x00\x00\x00\x04\x00\x00\x00\x12\x00\x00\x00\x30\x00\x00\x00\x04\x00\x00\x00\x12\x00\x00\x00\x45\x00\x00\x00\x04\x00\x00\x00\x11\x00\x00\x00\x5a\x00\x00\x00\x04\x00\x00\x00\x0d\x00\x00\x00\x6a\x00\x00\x00\x04\x00\x00\x00\x0d\x00\x00\x00\x79\x00\x00\x00\x04\x00\x00\x00\x12\x00\x00\x00\x8f\x00\x00\x00\x04\x00\x00\x00\x11\x00\x00\x00\xa4\x00\x00\x00\x04\x00\x00\x00\x08\x00\x00\x00\xaf\x00\x00\x00\x04\x00\x00\x00\x10\x00\x00\x00\xc3\x00\x00\x00\x04\x00\x00\x00\x12\x00\x00\x00\xd8\x00\x00\x00\x04\x00\x00\x00\x0c\x00\x00\x00\xe6\x00\x00\x00\x04\x00\x00\x00\x17\x00\x00\x00\x06\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\x1b\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\x30\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\x44\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\x5a\x00\x00\x00\x22\x00\x00\x00\x11\x00\x00\x00\x6e\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\x82\x00\x00\x00\x22\x00\x00\x00\x0e\x00\x00\x00\x92\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\xa6\x00\x00\x00\x22\x00\x00\x00\x13\x00\x00\x00\xb9\x00\x00\x00\x22\x00\x00\x00\x1d\x00\x00\x00\xd7\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\xea\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\x05\x00\x00\x00\x40\x00\x00\x00\x0e\x00\x00\x00\x99\x00\x00\x00\x98\x00\x00\x00\x0d\x00\x00\x00\x0b\x00\x00\x00\xb5\x00\x00\x00\x05\x00\x00\x00\xb4\x00\x00\x00\x98\x00\x00\x00\x0d\x00\x00\x00\x4f\x00\x00\x00\x5d\x00\x00\x00\x11\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff";
-char	propMapB[932] = "\x0b\x00\x00\x00\x0c\x00\x00\x00\x21\x00\x00\x00\x31\x00\x00\x00\x0c\x00\x00\x00\x1f\x00\x00\x00\x55\x00\x00\x00\x0c\x00\x00\x00\x1f\x00\x00\x00\x78\x00\x00\x00\x0c\x00\x00\x00\x1e\x00\x00\x00\x9c\x00\x00\x00\x0c\x00\x00\x00\x15\x00\x00\x00\xb7\x00\x00\x00\x0c\x00\x00\x00\x15\x00\x00\x00\xcf\x00\x00\x00\x0c\x00\x00\x00\x20\x00\x00\x00\x0d\x00\x00\x00\x37\x00\x00\x00\x1e\x00\x00\x00\x31\x00\x00\x00\x37\x00\x00\x00\x0d\x00\x00\x00\x42\x00\x00\x00\x37\x00\x00\x00\x1d\x00\x00\x00\x65\x00\x00\x00\x37\x00\x00\x00\x1f\x00\x00\x00\x87\x00\x00\x00\x37\x00\x00\x00\x15\x00\x00\x00\x9e\x00\x00\x00\x37\x00\x00\x00\x28\x00\x00\x00\xcc\x00\x00\x00\x37\x00\x00\x00\x20\x00\x00\x00\x0c\x00\x00\x00\x61\x00\x00\x00\x1f\x00\x00\x00\x30\x00\x00\x00\x61\x00\x00\x00\x1f\x00\x00\x00\x52\x00\x00\x00\x61\x00\x00\x00\x1e\x00\x00\x00\x76\x00\x00\x00\x61\x00\x00\x00\x1e\x00\x00\x00\x99\x00\x00\x00\x61\x00\x00\x00\x1e\x00\x00\x00\xb9\x00\x00\x00\x61\x00\x00\x00\x19\x00\x00\x00\xd5\x00\x00\x00\x61\x00\x00\x00\x1e\x00\x00\x00\x0b\x00\x00\x00\x8b\x00\x00\x00\x20\x00\x00\x00\x2a\x00\x00\x00\x8b\x00\x00\x00\x33\x00\x00\x00\x5d\x00\x00\x00\x8b\x00\x00\x00\x20\x00\x00\x00\x7e\x00\x00\x00\x8b\x00\x00\x00\x1f\x00\x00\x00\x9e\x00\x00\x00\x8b\x00\x00\x00\x19\x00\x00\x00\x92\x00\x00\x00\x6f\x9d\x00\x00\x77\x9d\x00\x00\x7f\x9d\x00\x00\x87\x9d\x00\x00\x8f\x9d\x00\x00\x97\x9d\x00\x00\x9f\x9d\x00\x00\xa7\x9d\x00\x00\xbd\x9d\x00\x00\xbd\x9d\x00\x00\xbd\x9d\x00\x00\xaf\x9d\x00\x00\xb7\x9d\x00\x00\xb6\x9f\x00\x00\xbb\x9f\x00\x00\xc0\x9f\x00\x00\xb1\x9f\x00\x00\xcf\x9f\x00\x00\xac\x9f\x00\x00\xa7\x9f\x00\x00\xc5\x9f\x00\x00\xca\x9f\x00\x00\x0b\xa1\x00\x00\x01\xa1\x00\x00\x06\xa1\x00\x00\x10\xa1\x00\x00\x18\xa1\x00\x00\x20\xa1\x00\x00\x28\xa1\x00\x00\x30\xa1\x00\x00\x38\xa1\x00\x00\x40\xa1\x00\x00\x45\xa1\x00\x00\x4a\xa1\x00\x00\x4a\xa1\x00\x00\x5a\xa1\x00\x00\x5a\xa1\x00\x00\x5a\xa1\x00\x00\x5a\xa1\x00\x00\x52\xa1\x00\x00\x5a\xa1\x00\x00\x5a\xa1\x00\x00\x5a\xa1\x00\x00\x5a\xa1\x00\x00\xfc\xa0\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80\x3f\xf8\xa3\x00\x00\x28\xa4\x00\x00\x50\xa4\x00\x00\x78\xa4\x00\x00\xa0\xa4\x00\x00\x52\xa5\x00\x00\x52\xa5\x00\x00\x52\xa5\x00\x00\x52\xa5\x00\x00\xc8\xa4\x00\x00\xed\xa4\x00\x00\x1c\xa5\x00\x00\xbb\xa5\x00\x00\x16\xa6\x00\x00\x5c\xa6\x00\x00\x75\xa6\x00\x00\x8e\xa6\x00\x00\xa7\xa6\x00\x00\xca\xa6\x00\x00\x44\xa7\x00\x00\x9f\xa7\x00\x00\xb6\xa7\x00\x00\xcf\xa7\x00\x00\xe0\xa7\x00\x00\xf1\xa7\x00\x00\x02\xa8\x00\x00\x13\xa8\x00\x00\x24\xa8\x00\x00\x35\xa8\x00\x00\x46\xa8\x00\x00\x57\xa8\x00\x00\x68\xa8\x00\x00\x79\xa8\x00\x00\x8a\xa8\x00\x00\x9b\xa8\x00\x00\xac\xa8\x00\x00\xbd\xa8\x00\x00\xce\xa8\x00\x00\xdf\xa8\x00\x00\x47\xa9\x00\x00\x2e\xa9\x00\x00\xf0\xa8\x00\x00\x0f\xa9\x00\x00\x67\xa9\x00\x00\x5e\xab\x00\x00\xb6\xab\x00\x00\x17\xac\x00\x00\x2a\xab\x00\x00\x00\xab\x00\x00\xb9\xa9\x00\x00\xe3\xa9\x00\x00\x10\xaa\x00\x00\x38\xaa\x00\x00\x4d\xab\x00\x00\x82\xae\x00\x00\x2d\xad\x00\x00\x4d\xad\x00\x00\x4d\xad\x00\x00\x4d\xad\x00\x00\xa3\xad\x00\x00\xb4\xad\x00\x00\xdd\xad\x00\x00\x06\xae\x00\x00\x2f\xae\x00\x00\x9a\xa9\x00\x00\x82\xae\x00\x00\x82\xae\x00\x00\x82\xae\x00\x00\x82\xae\x00\x00\x82\xae\x00\x00\x82\xae\x00\x00\x82\xae\x00\x00\x82\xae\x00\x00\x71\xae\x00\x00\x59\xae\x00\x00\x39\xa6\x00\x00\x37\xac\x00\x00\x4e\xac\x00\x00\x65\xac\x00\x00\x82\xac\x00\x00\x9f\xac\x00\x00\xd2\xac\x00\x00\x93\xae\x00\x00\x93\xae\x00\x00\x05\xad\x00\x00\x0d\xad\x00\x00\x15\xad\x00\x00\x1d\xad\x00\x00\x25\xad\x00\x00\x84\xb2\x00\x00\x8e\xb2\x00\x00\x89\xb2\x00\x00\x93\xb2\x00\x00\x98\xb2\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80\x3f\x54\xbe\x00\x00\x1e\xbe\x00\x00\x16\xbe\x00\x00\x26\xbe\x00\x00\x2e\xbe\x00\x00\x3e\xbe\x00\x00\x36\xbe\x00\x00\x46\xbe\x00\x00\x4e\xbe\x00\x00";
+char	propMapB[496] = "\x0b\x00\x00\x00\x0c\x00\x00\x00\x21\x00\x00\x00\x31\x00\x00\x00\x0c\x00\x00\x00\x1f\x00\x00\x00\x55\x00\x00\x00\x0c\x00\x00\x00\x1f\x00\x00\x00\x78\x00\x00\x00\x0c\x00\x00\x00\x1e\x00\x00\x00\x9c\x00\x00\x00\x0c\x00\x00\x00\x15\x00\x00\x00\xb7\x00\x00\x00\x0c\x00\x00\x00\x15\x00\x00\x00\xcf\x00\x00\x00\x0c\x00\x00\x00\x20\x00\x00\x00\x0d\x00\x00\x00\x37\x00\x00\x00\x1e\x00\x00\x00\x31\x00\x00\x00\x37\x00\x00\x00\x0d\x00\x00\x00\x42\x00\x00\x00\x37\x00\x00\x00\x1d\x00\x00\x00\x65\x00\x00\x00\x37\x00\x00\x00\x1f\x00\x00\x00\x87\x00\x00\x00\x37\x00\x00\x00\x15\x00\x00\x00\x9e\x00\x00\x00\x37\x00\x00\x00\x28\x00\x00\x00\xcc\x00\x00\x00\x37\x00\x00\x00\x20\x00\x00\x00\x0c\x00\x00\x00\x61\x00\x00\x00\x1f\x00\x00\x00\x30\x00\x00\x00\x61\x00\x00\x00\x1f\x00\x00\x00\x52\x00\x00\x00\x61\x00\x00\x00\x1e\x00\x00\x00\x76\x00\x00\x00\x61\x00\x00\x00\x1e\x00\x00\x00\x99\x00\x00\x00\x61\x00\x00\x00\x1e\x00\x00\x00\xb9\x00\x00\x00\x61\x00\x00\x00\x19\x00\x00\x00\xd5\x00\x00\x00\x61\x00\x00\x00\x1e\x00\x00\x00\x0b\x00\x00\x00\x8b\x00\x00\x00\x20\x00\x00\x00\x2a\x00\x00\x00\x8b\x00\x00\x00\x33\x00\x00\x00\x5d\x00\x00\x00\x8b\x00\x00\x00\x20\x00\x00\x00\x7e\x00\x00\x00\x8b\x00\x00\x00\x1f\x00\x00\x00\x9e\x00\x00\x00\x8b\x00\x00\x00\x19\x00\x00\x00\x92\x00\x00\x00\x6f\x9d\x00\x00\x77\x9d\x00\x00\x7f\x9d\x00\x00\x87\x9d\x00\x00\x8f\x9d\x00\x00\x97\x9d\x00\x00\x9f\x9d\x00\x00\xa7\x9d\x00\x00\xbd\x9d\x00\x00\xbd\x9d\x00\x00\xbd\x9d\x00\x00\xaf\x9d\x00\x00\xb7\x9d\x00\x00\xb6\x9f\x00\x00\xbb\x9f\x00\x00\xc0\x9f\x00\x00\xb1\x9f\x00\x00\xcf\x9f\x00\x00\xac\x9f\x00\x00\xa7\x9f\x00\x00\xc5\x9f\x00\x00\xca\x9f\x00\x00\x0b\xa1\x00\x00\x01\xa1\x00\x00\x06\xa1\x00\x00\x10\xa1\x00\x00\x18\xa1\x00\x00\x20\xa1\x00\x00\x28\xa1\x00\x00\x30\xa1\x00\x00\x38\xa1\x00\x00\x40\xa1\x00\x00\x45\xa1\x00\x00\x4a\xa1\x00\x00\x4a\xa1\x00\x00\x5a\xa1\x00\x00\x5a\xa1\x00\x00\x5a\xa1\x00\x00\x5a\xa1\x00\x00\x52\xa1\x00\x00\x5a\xa1\x00\x00\x5a\xa1\x00\x00\x5a\xa1\x00\x00\x5a\xa1\x00\x00\xfc\xa0\x00\x00";
+char	global_18d8[12] = "\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80\x3f"; // Used by: CG_EntityEvent
+char	global_18e4[376] = "\xf8\xa3\x00\x00\x28\xa4\x00\x00\x50\xa4\x00\x00\x78\xa4\x00\x00\xa0\xa4\x00\x00\x52\xa5\x00\x00\x52\xa5\x00\x00\x52\xa5\x00\x00\x52\xa5\x00\x00\xc8\xa4\x00\x00\xed\xa4\x00\x00\x1c\xa5\x00\x00\xbb\xa5\x00\x00\x16\xa6\x00\x00\x5c\xa6\x00\x00\x75\xa6\x00\x00\x8e\xa6\x00\x00\xa7\xa6\x00\x00\xca\xa6\x00\x00\x44\xa7\x00\x00\x9f\xa7\x00\x00\xb6\xa7\x00\x00\xcf\xa7\x00\x00\xe0\xa7\x00\x00\xf1\xa7\x00\x00\x02\xa8\x00\x00\x13\xa8\x00\x00\x24\xa8\x00\x00\x35\xa8\x00\x00\x46\xa8\x00\x00\x57\xa8\x00\x00\x68\xa8\x00\x00\x79\xa8\x00\x00\x8a\xa8\x00\x00\x9b\xa8\x00\x00\xac\xa8\x00\x00\xbd\xa8\x00\x00\xce\xa8\x00\x00\xdf\xa8\x00\x00\x47\xa9\x00\x00\x2e\xa9\x00\x00\xf0\xa8\x00\x00\x0f\xa9\x00\x00\x67\xa9\x00\x00\x5e\xab\x00\x00\xb6\xab\x00\x00\x17\xac\x00\x00\x2a\xab\x00\x00\x00\xab\x00\x00\xb9\xa9\x00\x00\xe3\xa9\x00\x00\x10\xaa\x00\x00\x38\xaa\x00\x00\x4d\xab\x00\x00\x82\xae\x00\x00\x2d\xad\x00\x00\x4d\xad\x00\x00\x4d\xad\x00\x00\x4d\xad\x00\x00\xa3\xad\x00\x00\xb4\xad\x00\x00\xdd\xad\x00\x00\x06\xae\x00\x00\x2f\xae\x00\x00\x9a\xa9\x00\x00\x82\xae\x00\x00\x82\xae\x00\x00\x82\xae\x00\x00\x82\xae\x00\x00\x82\xae\x00\x00\x82\xae\x00\x00\x82\xae\x00\x00\x82\xae\x00\x00\x71\xae\x00\x00\x59\xae\x00\x00\x39\xa6\x00\x00\x37\xac\x00\x00\x4e\xac\x00\x00\x65\xac\x00\x00\x82\xac\x00\x00\x9f\xac\x00\x00\xd2\xac\x00\x00\x93\xae\x00\x00\x93\xae\x00\x00\x05\xad\x00\x00\x0d\xad\x00\x00\x15\xad\x00\x00\x1d\xad\x00\x00\x25\xad\x00\x00\x84\xb2\x00\x00\x8e\xb2\x00\x00\x89\xb2\x00\x00\x93\xb2\x00\x00\x98\xb2\x00\x00";
+char	global_1a5c[12] = "\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80\x3f"; // Used by: CG_AddScorePlum
+char	global_1a68[36] = "\x54\xbe\x00\x00\x1e\xbe\x00\x00\x16\xbe\x00\x00\x26\xbe\x00\x00\x2e\xbe\x00\x00\x3e\xbe\x00\x00\x36\xbe\x00\x00\x46\xbe\x00\x00\x4e\xbe\x00\x00";
 char	shaderAnimNames[128] = "\x1c\x61\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00";
 char	shaderAnimCounts[128] = "\x17\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00";
 char	shaderAnimSTRatio[128] = "\x00\x00\x80\x3f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00";
 int		cl_numparticles = 1024; // Used by: CG_ClearParticles
 int		initparticles = 0; // Used by: CG_AddParticles, CG_ClearParticles
 int		roll = 0;
-char	cg_customSoundNames[324] = "\x92\x67\x00\x00\x86\x67\x00\x00\x7a\x67\x00\x00\x6f\x67\x00\x00\x61\x67\x00\x00\x53\x67\x00\x00\x45\x67\x00\x00\x36\x67\x00\x00\x28\x67\x00\x00\x1e\x67\x00\x00\x13\x67\x00\x00\x08\x67\x00\x00\xfd\x66\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x16\x00\x00\x00\x2d\x00\x00\x00\xea\xff\xff\xff\x00\x00\x00\x00\x16\x00\x00\x00\xd3\xff\xff\xff\xea\xff\xff\xff\x00\x00\x70\xc1\x00\x00\x70\xc1\x00\x00\x00\x00\x00\x00\x70\x41\x00\x00\x70\x41\x00\x00\x00\x40\xd4\x18\x01\x00\xd4\x18\x01\x00\xd4\x18\x01\x00\xe7\x18\x01\x00\xd4\x18\x01\x00\x00\x00\x80\xc0\x00\x00\x80\xc0\x00\x00\x80\xc0\x00\x00\x80\x40\x00\x00\x80\x40\x00\x00\x80\x40\xac\x58\x01\x00\xbe\x59\x01\x00\x1e\x5a\x01\x00\xba\x5a\x01\x00\x47\x5a\x01\x00\xde\x58\x01\x00\x52\x5b\x01\x00\x06\x5b\x01\x00\xa2\x5b\x01\x00\x57\x59\x01\x00\x96\x6a\x01\x00\x82\x6a\x01\x00\x89\x69\x01\x00\xa4\x69\x01\x00\x5e\x69\x01\x00\x40\x6a\x01\x00\x55\x6a\x01\x00\x6a\x6a\x01\x00\x3b\x6c\x01\x00\x3b\x6c\x01\x00\x4b\x6c\x01\x00\x4b\x6c\x01\x00\x3b\x6c\x01\x00\x3b\x6c\x01\x00";
-int		vec3_origin = 0; // Used by: AnglesToAxis, CG_DamageFeedback, CG_Portal
+char	cg_customSoundNames[160] = "\x92\x67\x00\x00\x86\x67\x00\x00\x7a\x67\x00\x00\x6f\x67\x00\x00\x61\x67\x00\x00\x53\x67\x00\x00\x45\x67\x00\x00\x36\x67\x00\x00\x28\x67\x00\x00\x1e\x67\x00\x00\x13\x67\x00\x00\x08\x67\x00\x00\xfd\x66\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x16\x00\x00\x00\x2d\x00\x00\x00\xea\xff\xff\xff\x00\x00\x00\x00\x16\x00\x00\x00\xd3\xff\xff\xff\xea\xff\xff\xff";
+char	global_1cb8[12] = "\x00\x00\x70\xc1\x00\x00\x70\xc1\x00\x00\x00\x00"; // Used by: CG_PlayerShadow
+char	global_1cc4[12] = "\x00\x00\x70\x41\x00\x00\x70\x41\x00\x00\x00\x40"; // Used by: CG_PlayerShadow
+char	global_1cd0[140] = "\xd4\x18\x01\x00\xd4\x18\x01\x00\xd4\x18\x01\x00\xe7\x18\x01\x00\xd4\x18\x01\x00\x00\x00\x80\xc0\x00\x00\x80\xc0\x00\x00\x80\xc0\x00\x00\x80\x40\x00\x00\x80\x40\x00\x00\x80\x40\xac\x58\x01\x00\xbe\x59\x01\x00\x1e\x5a\x01\x00\xba\x5a\x01\x00\x47\x5a\x01\x00\xde\x58\x01\x00\x52\x5b\x01\x00\x06\x5b\x01\x00\xa2\x5b\x01\x00\x57\x59\x01\x00\x96\x6a\x01\x00\x82\x6a\x01\x00\x89\x69\x01\x00\xa4\x69\x01\x00\x5e\x69\x01\x00\x40\x6a\x01\x00\x55\x6a\x01\x00\x6a\x6a\x01\x00\x3b\x6c\x01\x00\x3b\x6c\x01\x00\x4b\x6c\x01\x00\x4b\x6c\x01\x00\x3b\x6c\x01\x00\x3b\x6c\x01\x00";
+int		vec3_origin = 0; // Used by: AnglesToAxis, ByteToDir, CG_ClipMoveToEntities, CG_DamageFeedback, CG_Portal, PM_NoclipMove
 int		global_1d60 = 0; // Used by: AnglesToAxis, CG_DamageFeedback, CG_Portal
 int		global_1d64 = 0; // Used by: AnglesToAxis, CG_DamageFeedback, CG_Portal
 char	axisDefault[36] = "\x00\x00\x80\x3f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80\x3f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80\x3f";
@@ -260,7 +267,8 @@ int		bss_dc778; // Used by: CG_AddViewWeapon, CG_AddPlayerWeapon, CG_DrawActiveF
 int		bss_dc77c; // Used by: CG_DrawActiveFrame, CG_CalcViewValues, CG_PredictPlayerState, CG_TouchTriggerPrediction
 int		bss_dc780; // Used by: CG_PredictPlayerState
 char	bss_dc784[8]; // Used by: CG_CalcFov, CG_DrawOldScoreboard, CG_TouchTriggerPrediction
-char	bss_dc78c[32]; // Used by: CG_OffsetFirstPersonView
+char	bss_dc78c[20]; // Used by: CG_OffsetFirstPersonView
+char	bss_dc7a0[12]; // Used by: CG_OffsetFirstPersonView
 char	bss_dc7ac[24]; // Used by: CG_DrawStatusBar
 char	bss_dc7c4[36]; // Used by: CG_PredictPlayerState
 int		bss_dc7e8; // Used by: CG_AddViewWeapon
@@ -278,7 +286,8 @@ int		bss_dc8d8; // Used by: CG_DrawStatusBar
 char	bss_dc8dc[100]; // Used by: CG_DrawStatusBar
 char	bss_dc940[8]; // Used by: CG_TouchTriggerPrediction
 int		bss_dc948; // Used by: CG_TouchTriggerPrediction
-char	bss_dc94c[724]; // Used by: CG_TouchTriggerPrediction
+char	bss_dc94c[8]; // Used by: CG_TouchTriggerPrediction
+char	bss_dc954[716];
 int		bss_dcc20; // Used by: CG_PredictPlayerState
 int		bss_dcc24; // Used by: CG_CalcViewValues, CG_PredictPlayerState
 int		bss_dcc28; // Used by: CG_CalcViewValues, CG_PredictPlayerState
@@ -292,32 +301,34 @@ int		bss_dcc84; // Used by: CG_OffsetFirstPersonView, CG_TransitionPlayerState
 int		bss_dcc88; // Used by: CG_CalculateWeaponPosition, CG_OffsetFirstPersonView, CG_EntityEvent
 int		bss_dcc8c; // Used by: CG_CalculateWeaponPosition, CG_OffsetFirstPersonView, CG_EntityEvent
 int		bss_dcc90; // Used by: CG_OutOfAmmoChange, CG_Weapon_f, CG_PrevWeapon_f, CG_NextWeapon_f, CG_DrawWeaponSelect, CG_DrawActiveFrame, CG_Respawn, CG_ItemPickup, CG_Init
-int		bss_dcc94; // Used by: CG_AddPacketEntities
+int		bss_dcc94; // Used by: CG_AddPacketEntities, CG_Item
 int		bss_dcc98; // Used by: CG_AddPacketEntities
-char	bss_dcc9c[40]; // Used by: CG_AddPacketEntities
-int		bss_dccc4; // Used by: CG_AddPacketEntities
+int		bss_dcc9c; // Used by: CG_AddPacketEntities
+char	bss_dcca0[36];
+int		bss_dccc4; // Used by: CG_AddPacketEntities, CG_Item
 int		bss_dccc8; // Used by: CG_AddPacketEntities
-char	bss_dcccc[40]; // Used by: CG_AddPacketEntities
+int		bss_dcccc; // Used by: CG_AddPacketEntities
+char	bss_dccd0[36];
 int		bss_dccf4; // Used by: CG_CalcVrect, CG_TileClear, CG_DrawCrosshair
 int		bss_dccf8; // Used by: CG_CalcVrect, CG_TileClear, CG_DrawCrosshair
 int		bss_dccfc; // Used by: CG_CalcFov, CG_CalcVrect, CG_TileClear, CG_DrawCrosshair
 int		bss_dcd00; // Used by: CG_CalcFov, CG_CalcVrect, CG_TileClear, CG_DrawCrosshair
 int		bss_dcd04; // Used by: CG_CalcFov, CG_DrawCrosshair3D
 int		bss_dcd08; // Used by: CG_CalcFov
-int		bss_dcd0c; // Used by: CG_CalcViewValues, CG_DamageBlendBlob, CG_OffsetThirdPersonView, CG_TestModel_f, CG_AddScorePlum, CG_AddFallScaleFade, CG_AddScaleFade, CG_AddMoveScaleFade, CG_DrawCrosshair3D, CG_Viewpos_f
+int		bss_dcd0c; // Used by: CG_AddViewWeapon, CG_CalculateWeaponPosition, CG_CalcViewValues, CG_DamageBlendBlob, CG_OffsetThirdPersonView, CG_AddTestModel, CG_TestModel_f, CG_AddScorePlum, CG_AddFallScaleFade, CG_AddScaleFade, CG_AddMoveScaleFade, CG_ScanForCrosshairEntity, CG_DrawCrosshair3D, CG_Viewpos_f
 int		bss_dcd10; // Used by: CG_CalcViewValues, CG_DamageBlendBlob, CG_OffsetThirdPersonView, CG_TestModel_f, CG_AddScorePlum, CG_AddFallScaleFade, CG_AddScaleFade, CG_AddMoveScaleFade, CG_DrawCrosshair3D, CG_Viewpos_f
 int		bss_dcd14; // Used by: CG_CalcViewValues, CG_DamageBlendBlob, CG_OffsetThirdPersonView, CG_TestModel_f, CG_AddScorePlum, CG_AddFallScaleFade, CG_AddScaleFade, CG_AddMoveScaleFade, CG_DrawCrosshair3D, CG_Viewpos_f
-int		bss_dcd18; // Used by: CG_AddViewWeapon, CG_DamageBlendBlob, CG_OffsetFirstPersonView, CG_TestModel_f, CG_DamageFeedback, CG_ScanForCrosshairEntity, CG_DrawCrosshair3D
+int		bss_dcd18; // Used by: CG_AddViewWeapon, CG_DamageBlendBlob, CG_OffsetFirstPersonView, CG_AddTestModel, CG_TestModel_f, CG_DamageFeedback, CG_AddParticles, CG_ScanForCrosshairEntity, CG_DrawCrosshair3D
 int		bss_dcd1c; // Used by: CG_AddViewWeapon, CG_DamageBlendBlob, CG_OffsetFirstPersonView, CG_TestModel_f, CG_DamageFeedback, CG_ScanForCrosshairEntity, CG_DrawCrosshair3D
 int		bss_dcd20; // Used by: CG_AddViewWeapon, CG_DamageBlendBlob, CG_OffsetFirstPersonView, CG_TestModel_f, CG_DamageFeedback, CG_ScanForCrosshairEntity, CG_DrawCrosshair3D
-int		bss_dcd24; // Used by: CG_Tracer, CG_AddViewWeapon, CG_DamageBlendBlob, CG_OffsetFirstPersonView, CG_DamageFeedback, CG_EntityEvent
+int		bss_dcd24; // Used by: CG_Tracer, CG_AddViewWeapon, CG_DamageBlendBlob, CG_OffsetFirstPersonView, CG_AddTestModel, CG_DamageFeedback, CG_AddParticles, CG_EntityEvent
 int		bss_dcd28; // Used by: CG_Tracer, CG_AddViewWeapon, CG_DamageBlendBlob, CG_OffsetFirstPersonView, CG_DamageFeedback, CG_EntityEvent
 int		bss_dcd2c; // Used by: CG_Tracer, CG_AddViewWeapon, CG_DamageBlendBlob, CG_OffsetFirstPersonView, CG_DamageFeedback, CG_EntityEvent
-int		bss_dcd30; // Used by: CG_Tracer, CG_AddViewWeapon, CG_DamageBlendBlob, CG_DamageFeedback
+int		bss_dcd30; // Used by: CG_Tracer, CG_AddViewWeapon, CG_DamageBlendBlob, CG_AddTestModel, CG_DamageFeedback, CG_AddParticles
 int		bss_dcd34; // Used by: CG_Tracer, CG_AddViewWeapon, CG_DamageBlendBlob, CG_DamageFeedback
 int		bss_dcd38; // Used by: CG_Tracer, CG_AddViewWeapon, CG_DamageBlendBlob, CG_DamageFeedback
 char	bss_dcd3c[296]; // Used by: CG_DrawActiveFrame
-int		bss_dce64; // Used by: CG_CalcViewValues, CG_OffsetThirdPersonView
+int		bss_dce64; // Used by: CG_CalculateWeaponPosition, CG_CalcViewValues, CG_OffsetThirdPersonView
 char	bss_dce68[8]; // Used by: CG_OffsetThirdPersonView, CG_TestModel_f, CG_Viewpos_f
 int		bss_dce70; // Used by: CG_CalcFov, CG_ZoomUp_f, CG_ZoomDown_f
 int		bss_dce74; // Used by: CG_CalcFov, CG_ZoomUp_f, CG_ZoomDown_f
@@ -379,7 +390,8 @@ int		bss_deb4c; // Used by: CG_TestGun_f
 char	bss_deb50[20]; // Used by: CG_DrawActiveFrame, CG_AddTestModel, CG_TestGun_f, CG_TestModel_f
 char	bss_deb64[12]; // Used by: CG_AddTestModel
 char	bss_deb70[12]; // Used by: CG_AddTestModel
-char	bss_deb7c[16]; // Used by: CG_AddTestModel
+char	bss_deb7c[12]; // Used by: CG_AddTestModel
+int		bss_deb88;
 int		bss_deb8c; // Used by: CG_AddTestModel, CG_TestModel_f
 int		bss_deb90; // Used by: CG_TestModel_f
 int		bss_deb94; // Used by: CG_TestModel_f
@@ -601,9 +613,10 @@ int		bss_104514; // Used by: PmoveSingle, PM_DropTimers, PM_Weapon, PM_Footsteps
 int		bss_104518; // Used by: PmoveSingle, PM_GroundTrace, PM_GroundTraceMissed, PM_CorrectAllSolid, PM_DeadMove, PM_CheckJump, PM_Friction
 int		bss_10451c; // Used by: PM_SlideMove, PM_GroundTrace, PM_GroundTraceMissed, PM_CorrectAllSolid, PM_GrappleMove, PM_AirMove, PM_WaterMove, PM_CheckJump
 char	bss_104520[24]; // Used by: PM_GroundTrace, PM_CorrectAllSolid
-int		bss_104538; // Used by: PM_WalkMove, PM_WaterMove
+int		bss_104538; // Used by: PM_SlideMove, PM_WalkMove, PM_WaterMove
 int		bss_10453c; // Used by: PM_WalkMove, PM_WaterMove
-char	bss_104540[12]; // Used by: PM_WalkMove, PM_WaterMove
+int		bss_104540; // Used by: PM_WalkMove, PM_WaterMove
+char	bss_104544[8];
 char	bss_10454c[12]; // Used by: PM_CrashLand, PM_FootstepForSurface, PM_WalkMove, PM_Friction
 int		bss_104558; // Used by: PM_SlideMove
 char	bss_10455c[8]; // Used by: PmoveSingle
@@ -626,7 +639,8 @@ int		bss_104f24; // Used by: CG_FadeColor
 int		bss_104f28; // Used by: CG_FadeColor
 int		bss_104f2c; // Used by: CG_FadeColor
 char	bss_104f30[8]; // Used by: CG_ScorePlum
-char	bss_104f38[68]; // Used by: CG_ScorePlum
+int		bss_104f38; // Used by: CG_ScorePlum
+char	bss_104f3c[64];
 char	loadingItemIcons[104];
 char	loadingPlayerIcons[64];
 int		loadingItemIconCount; // Used by: CG_LoadingItem, CG_DrawLoadingIcons
@@ -641,8 +655,8 @@ int		cg_activeMarkPolys; // Used by: CG_AllocMark
 char	bss_129960[284]; // Used by: CG_AddMarks, CG_AllocMark, CG_InitMarkPolys
 char	cg_markPolys[73728];
 int		oldtime; // Used by: CG_AddParticles, CG_ClearParticles
-char	rup[12];
-char	rright[12];
+char	rup[12]; // Used by: CG_AddParticleToScene
+char	rright[12]; // Used by: CG_AddParticleToScene
 char	rforward[12];
 int		vup; // Used by: CG_AddParticles, CG_AddParticleToScene
 int		bss_13baa8; // Used by: CG_AddParticleToScene
@@ -2121,7 +2135,7 @@ void BG_EvaluateTrajectory(int arg_0, int arg_1, int arg_2) {
 	if (*(int *)local_1c < 0x0) goto jmp_11e2;
 	if (*(int *)local_1c > 0x5) goto jmp_11e2;
 	goto *(int *)((*(int *)local_1c << 0x2) + 0xd38);
-	block_copy(arg_2, (arg_0 + 0xc), 0xc);
+	block_copy((arg_0 + 0xc), arg_2, 0xc);
 	goto jmp_11ed;
 	local_14 = (0x3a83126f * (float)(arg_1 - *(int *)(arg_0 + 0x4)));
 	*(int *)arg_2 = (*(int *)(arg_0 + 0xc) + (*(int *)(arg_0 + 0x18) * local_14));
@@ -2191,7 +2205,7 @@ void BG_EvaluateTrajectoryDelta(int arg_0, int arg_1, int arg_2) {
 	*(int *)(local_24 + 0x4) = local_28;
 	*(int *)local_24 = local_28;
 	goto jmp_12e9;
-	block_copy(arg_2, (arg_0 + 0x18), 0xc);
+	block_copy((arg_0 + 0x18), arg_2, 0xc);
 	goto jmp_12e9;
 	local_2c = arg_0;
 	local_18 = ((float)(arg_1 - *(int *)(local_2c + 0x4)) / (float)*(int *)(local_2c + 0x8));
@@ -2211,11 +2225,11 @@ void BG_EvaluateTrajectoryDelta(int arg_0, int arg_1, int arg_2) {
 	*(int *)local_38 = local_3c;
 	goto jmp_12e9;
 jmp_12aa:
-	block_copy(arg_2, (arg_0 + 0x18), 0xc);
+	block_copy((arg_0 + 0x18), arg_2, 0xc);
 	goto jmp_12e9;
 	local_38 = arg_0;
 	local_18 = (0x3a83126f * (float)(arg_1 - *(int *)(local_38 + 0x4)));
-	block_copy(arg_2, (local_38 + 0x18), 0xc);
+	block_copy((local_38 + 0x18), arg_2, 0xc);
 	local_3c = (arg_2 + 0x8);
 	*(int *)local_3c = (*(int *)local_3c - (0x44480000 * local_18));
 	goto jmp_12e9;
@@ -2283,7 +2297,7 @@ jmp_136e:
 jmp_1379:
 	*(int *)(arg_0 + 0x1c0) = *(int *)arg_1;
 	*(int *)(arg_0 + 0x1cc) = *(int *)(arg_0 + 0x1c8);
-	block_copy((arg_0 + 0x20), (arg_1 + 0x68), 0xc);
+	block_copy((arg_1 + 0x68), (arg_0 + 0x20), 0xc);
 jmp_1394:
 }
 
@@ -2322,7 +2336,7 @@ jmp_13c5:
 jmp_13cb:
 	*(int *)arg_1 = *(int *)(arg_0 + 0x8c);
 	*(int *)(arg_1 + 0xc) = 0x1;
-	block_copy((arg_1 + 0x18), (arg_0 + 0x14), 0xc);
+	block_copy((arg_0 + 0x14), (arg_1 + 0x18), 0xc);
 	if (arg_2 == 0x0) goto jmp_1410;
 	local_10 = (arg_1 + 0x18);
 	*(int *)local_10 = (float)(int)*(int *)local_10;
@@ -2331,9 +2345,9 @@ jmp_13cb:
 	*(int *)local_18 = (arg_1 + 0x20);
 	*(int *)*(int *)local_18 = (float)(int)*(int *)*(int *)local_18;
 jmp_1410:
-	block_copy((arg_1 + 0x24), (arg_0 + 0x20), 0xc);
+	block_copy((arg_0 + 0x20), (arg_1 + 0x24), 0xc);
 	*(int *)(arg_1 + 0x30) = 0x1;
-	block_copy((arg_1 + 0x3c), (arg_0 + 0x98), 0xc);
+	block_copy((arg_0 + 0x98), (arg_1 + 0x3c), 0xc);
 	if (arg_2 == 0x0) goto jmp_1456;
 	local_10 = (arg_1 + 0x3c);
 	*(int *)local_10 = (float)(int)*(int *)local_10;
@@ -2420,7 +2434,7 @@ jmp_15b9:
 jmp_15bf:
 	*(int *)arg_1 = *(int *)(arg_0 + 0x8c);
 	*(int *)(arg_1 + 0xc) = 0x3;
-	block_copy((arg_1 + 0x18), (arg_0 + 0x14), 0xc);
+	block_copy((arg_0 + 0x14), (arg_1 + 0x18), 0xc);
 	if (arg_3 == 0x0) goto jmp_1604;
 	local_10 = (arg_1 + 0x18);
 	*(int *)local_10 = (float)(int)*(int *)local_10;
@@ -2429,11 +2443,11 @@ jmp_15bf:
 	*(int *)local_18 = (arg_1 + 0x20);
 	*(int *)*(int *)local_18 = (float)(int)*(int *)*(int *)local_18;
 jmp_1604:
-	block_copy((arg_1 + 0x24), (arg_0 + 0x20), 0xc);
+	block_copy((arg_0 + 0x20), (arg_1 + 0x24), 0xc);
 	*(int *)(arg_1 + 0x10) = arg_2;
 	*(int *)(arg_1 + 0x14) = 0x32;
 	*(int *)(arg_1 + 0x30) = 0x1;
-	block_copy((arg_1 + 0x3c), (arg_0 + 0x98), 0xc);
+	block_copy((arg_0 + 0x98), (arg_1 + 0x3c), 0xc);
 	if (arg_3 == 0x0) goto jmp_1657;
 	local_10 = (arg_1 + 0x3c);
 	*(int *)local_10 = (float)(int)*(int *)local_10;
@@ -2707,7 +2721,7 @@ void PM_Friction(void) {
 	int		local_38;
 
 	local_c = (*(int *)*(int *)pm + 0x20);
-	block_copy(local_1c, local_c, 0xc);
+	block_copy(local_c, local_1c, 0xc);
 	if (bss_104518 == 0x0) goto jmp_1927;
 	local_24 = 0x0;
 jmp_1927:
@@ -3133,7 +3147,7 @@ jmp_1e5f:
 	if (local_18 < 0x3) goto jmp_1e5f;
 	local_28 = (local_28 + (local_1c * (float)(char)*(char *)(*(int *)pm + 0x1b)));
 jmp_1ea8:
-	block_copy(local_30, &local_20, 0xc);
+	block_copy(&local_20, local_30, 0xc);
 	local_48 = VectorNormalize(local_30);
 	local_2c = local_48;
 	if (local_2c <= ((float)*(int *)(*(int *)*(int *)pm + 0x34) * pm_swimScale)) goto jmp_1ece;
@@ -3142,7 +3156,7 @@ jmp_1ece:
 	PM_Accelerate(local_30, local_2c, pm_wateraccelerate);
 	if (bss_10451c == 0x0) goto jmp_1f59;
 	local_4c = *(int *)*(int *)pm;
-	if ((((*(int *)(local_4c + 0x20) * bss_104538) + (*(int *)(local_4c + 0x24) * bss_10453c)) + (*(int *)(local_4c + 0x28) * *(int *)bss_104540)) >= 0x0) goto jmp_1f59;
+	if ((((*(int *)(local_4c + 0x20) * bss_104538) + (*(int *)(local_4c + 0x24) * bss_10453c)) + (*(int *)(local_4c + 0x28) * bss_104540)) >= 0x0) goto jmp_1f59;
 	local_50 = VectorLength((*(int *)*(int *)pm + 0x20));
 	local_3c = local_50;
 	local_54 = (*(int *)*(int *)pm + 0x20);
@@ -3200,7 +3214,7 @@ jmp_1f88:
 	if (local_14 < 0x3) goto jmp_1f88;
 	local_24 = (local_24 + (local_18 * (float)(char)*(char *)(*(int *)pm + 0x1b)));
 jmp_1fd1:
-	block_copy(local_28, &local_1c, 0xc);
+	block_copy(&local_1c, local_28, 0xc);
 	*(int *)local_3c = VectorNormalize(local_28);
 	local_34 = *(int *)local_3c;
 	PM_Accelerate(local_28, local_34, pm_flyaccelerate);
@@ -3236,7 +3250,7 @@ void PM_AirMove(void) {
 	local_5c = *(int *)pm;
 	local_28 = (float)(char)*(char *)(local_5c + 0x19);
 	local_2c = (float)(char)*(char *)(local_5c + 0x1a);
-	block_copy(local_44, (local_5c + 0x4), 0x18);
+	block_copy((local_5c + 0x4), local_44, 0x18);
 	local_60 = PM_CmdScale(local_44);
 	local_40 = local_60;
 	PM_SetMovementDir();
@@ -3251,7 +3265,7 @@ jmp_2030:
 	local_18 = (local_18 + 0x1);
 	if (local_18 < 0x2) goto jmp_2030;
 	local_24 = 0x0;
-	block_copy(local_30, local_1c, 0xc);
+	block_copy(local_1c, local_30, 0xc);
 	local_64 = VectorNormalize(local_30);
 	local_3c = local_64;
 	local_3c = (local_3c * local_40);
@@ -3315,7 +3329,7 @@ jmp_212b:
 	local_10 = (local_3c * local_10);
 	local_14 = (0x44480000 * local_14);
 jmp_2142:
-	block_copy((*(int *)*(int *)pm + 0x20), &local_c, 0xc);
+	block_copy(&local_c, (*(int *)*(int *)pm + 0x20), 0xc);
 	bss_10451c = 0x0;
 }
 
@@ -3356,7 +3370,7 @@ void PM_WalkMove(void) {
 	int		local_98;
 
 	if (*(int *)(*(int *)pm + 0xd0) <= 0x2) goto jmp_216e;
-	if ((((pml * bss_104538) + (bss_1044f0 * bss_10453c)) + (*(int *)bss_1044f4 * *(int *)bss_104540)) <= 0x0) goto jmp_216e;
+	if ((((pml * bss_104538) + (bss_1044f0 * bss_10453c)) + (*(int *)bss_1044f4 * bss_104540)) <= 0x0) goto jmp_216e;
 	PM_WaterMove();
 	goto jmp_2350;
 jmp_216e:
@@ -3373,7 +3387,7 @@ jmp_2187:
 	local_68 = *(int *)pm;
 	local_28 = (float)(char)*(char *)(local_68 + 0x19);
 	local_2c = (float)(char)*(char *)(local_68 + 0x1a);
-	block_copy(local_48, (local_68 + 0x4), 0x18);
+	block_copy((local_68 + 0x4), local_48, 0x18);
 	local_6c = PM_CmdScale(local_48);
 	local_44 = local_6c;
 	PM_SetMovementDir();
@@ -3390,7 +3404,7 @@ jmp_21e1:
 	*(int *)(local_74 + local_1c) = ((*(int *)(local_74 + 0x1044ec) * local_28) + (*(int *)(local_74 + 0x1044f8) * local_2c));
 	local_18 = (local_18 + 0x1);
 	if (local_18 < 0x3) goto jmp_21e1;
-	block_copy(local_38, local_1c, 0xc);
+	block_copy(local_1c, local_38, 0xc);
 	local_74 = VectorNormalize(local_38);
 	local_30 = local_74;
 	local_30 = (local_30 * local_44);
@@ -3526,7 +3540,7 @@ void PM_NoclipMove(void) {
 	local_54 = VectorLength((*(int *)*(int *)pm + 0x20));
 	local_2c = local_54;
 	if (local_2c >= 0x3f800000) goto jmp_23ee;
-	block_copy((*(int *)*(int *)pm + 0x20), 0x1d5c, 0xc);
+	block_copy(&vec3_origin, (*(int *)*(int *)pm + 0x20), 0xc);
 	goto jmp_245c;
 jmp_23ee:
 	local_48 = 0x0;
@@ -3563,7 +3577,7 @@ jmp_2482:
 	local_14 = (local_14 + 0x1);
 	if (local_14 < 0x3) goto jmp_2482;
 	local_20 = (local_20 + (float)(char)*(char *)(*(int *)pm + 0x1b));
-	block_copy(local_34, local_18, 0xc);
+	block_copy(local_18, local_34, 0xc);
 	local_64 = VectorNormalize(local_34);
 	local_40 = local_64;
 	local_40 = (local_40 * local_44);
@@ -3713,7 +3727,7 @@ jmp_2654:
 jmp_2657:
 	local_30 = 0xffffffff;
 jmp_265a:
-	block_copy(&local_24, (*(int *)*(int *)pm + 0x14), 0xc);
+	block_copy((*(int *)*(int *)pm + 0x14), &local_24, 0xc);
 	local_24 = (local_24 + (float)local_38);
 	local_28 = (local_28 + (float)local_34);
 	local_2c = (local_2c + (float)local_30);
@@ -3741,7 +3755,7 @@ jmp_265a:
 #define next_call_arg_5 "*(int *)(local_48 + 0x8c)"
 #define next_call_arg_6 "*(int *)(local_44 + 0x1c)"
 	(*(*(int *)(local_44 + 0xe0)))();
-	block_copy(bss_104520, arg_0, 0x38);
+	block_copy(arg_0, bss_104520, 0x38);
 	return 0x1;
 jmp_26fd:
 	local_30 = (local_30 + 0x1);
@@ -3779,7 +3793,7 @@ void PM_GroundTraceMissed(void) {
 	if (*(int *)(*(int *)pm + 0x20) == 0x0) goto jmp_2744;
 	Com_Printf(0x50ab, *(int *)c_pmove);
 jmp_2744:
-	block_copy(local_24, (*(int *)*(int *)pm + 0x14), 0xc);
+	block_copy((*(int *)*(int *)pm + 0x14), local_24, 0xc);
 	local_2c = (local_2c - 0x42800000);
 #define next_call_arg_0 "local_30"
 	local_68 = *(int *)pm;
@@ -3848,7 +3862,7 @@ void PM_GroundTrace(void) {
 #define next_call_arg_5 "*(int *)(local_70 + 0x8c)"
 #define next_call_arg_6 "*(int *)(local_6c + 0x1c)"
 	(*(*(int *)(local_6c + 0xe0)))();
-	block_copy(bss_104520, local_24, 0x38);
+	block_copy(local_24, bss_104520, 0x38);
 	if (*(int *)local_24 == 0x0) goto jmp_2826;
 	local_74 = PM_CorrectAllSolid(local_24);
 	if (local_74 != 0x0) goto jmp_2826;
@@ -4629,8 +4643,8 @@ jmp_32c7:
 	bss_104514 = 0xc8;
 jmp_32ce:
 	*(int *)*(int *)*(int *)pm = *(int *)(arg_0 + 0x4);
-	block_copy(bss_10455c, (*(int *)*(int *)pm + 0x14), 0xc);
-	block_copy(bss_104568, (*(int *)*(int *)pm + 0x20), 0xc);
+	block_copy((*(int *)*(int *)pm + 0x14), bss_10455c, 0xc);
+	block_copy((*(int *)*(int *)pm + 0x20), bss_104568, 0xc);
 	bss_104510 = (0x3a83126f * (float)bss_104514);
 	local_44 = *(int *)pm;
 	PM_UpdateViewAngles(*(int *)local_44, (local_44 + 0x4));
@@ -4835,10 +4849,10 @@ int PM_SlideMove(int arg_0) {
 
 	arg_0 = arg_0;
 	local_f4 = 0x4;
-	block_copy(local_f8, (*(int *)*(int *)pm + 0x20), 0xc);
+	block_copy((*(int *)*(int *)pm + 0x20), local_f8, 0xc);
 	if (arg_0 == 0x0) goto jmp_3535;
 	local_104 = *(int *)pm;
-	block_copy(&local_98, (*(int *)local_104 + 0x20), 0xc);
+	block_copy((*(int *)local_104 + 0x20), &local_98, 0xc);
 	local_a0 = (local_a0 - ((float)*(int *)(*(int *)local_104 + 0x30) * bss_104510));
 	local_108 = (*(int *)*(int *)pm + 0x28);
 	*(int *)local_108 = (0x3f000000 * (*(int *)local_108 + local_a0));
@@ -4850,7 +4864,7 @@ jmp_3535:
 	local_e0 = bss_104510;
 	if (bss_10451c == 0x0) goto jmp_3545;
 	local_84 = 0x1;
-	block_copy(&local_28, 0x104538, 0xc);
+	block_copy(&bss_104538, &local_28, 0xc);
 	goto jmp_3548;
 jmp_3545:
 	local_84 = 0x0;
@@ -4882,7 +4896,7 @@ jmp_3563:
 	return 0x1;
 jmp_35e4:
 	if (local_ac <= 0x0) goto jmp_35ef;
-	block_copy((*(int *)*(int *)pm + 0x14), local_b0, 0xc);
+	block_copy(local_b0, (*(int *)*(int *)pm + 0x14), 0xc);
 jmp_35ef:
 	if (local_ac != 0x3f800000) goto jmp_35f5;
 	goto jmp_38bf;
@@ -4917,7 +4931,7 @@ jmp_368e:
 	if (local_74 >= local_84) goto jmp_3695;
 	goto jmp_38b4;
 jmp_3695:
-	block_copy(((0xc * local_84) + &local_28), &local_bc, 0xc);
+	block_copy(&local_bc, ((0xc * local_84) + &local_28), 0xc);
 	local_84 = (local_84 + 0x1);
 	local_74 = 0x0;
 	goto jmp_38af;
@@ -4998,9 +5012,9 @@ jmp_388e:
 	local_70 = (local_70 + 0x1);
 jmp_3894:
 	if (local_70 < local_84) goto jmp_3716;
-	block_copy((*(int *)*(int *)pm + 0x20), &local_64, 0xc);
+	block_copy(&local_64, (*(int *)*(int *)pm + 0x20), 0xc);
 	if (arg_0 == 0x0) goto jmp_38b4;
-	block_copy(&local_98, &local_8c, 0xc);
+	block_copy(&local_8c, &local_98, 0xc);
 	goto jmp_38b4;
 jmp_38a9:
 	local_74 = (local_74 + 0x1);
@@ -5012,10 +5026,10 @@ jmp_38ba:
 	if (local_f0 < local_f4) goto jmp_3563;
 jmp_38bf:
 	if (arg_0 == 0x0) goto jmp_38ca;
-	block_copy((*(int *)*(int *)pm + 0x20), &local_98, 0xc);
+	block_copy(&local_98, (*(int *)*(int *)pm + 0x20), 0xc);
 jmp_38ca:
 	if (*(int *)(*(int *)*(int *)pm + 0x10) == 0x0) goto jmp_38d9;
-	block_copy((*(int *)*(int *)pm + 0x20), local_f8, 0xc);
+	block_copy(local_f8, (*(int *)*(int *)pm + 0x20), 0xc);
 jmp_38d9:
 	if (local_f0 == 0x0) goto jmp_38e2;
 	local_104 = 0x1;
@@ -5063,13 +5077,13 @@ void PM_StepSlideMove(int arg_0) {
 	int		local_ac;
 
 	local_90 = *(int *)pm;
-	block_copy(local_68, (*(int *)local_90 + 0x14), 0xc);
-	block_copy(local_80, (*(int *)local_90 + 0x20), 0xc);
+	block_copy((*(int *)local_90 + 0x14), local_68, 0xc);
+	block_copy((*(int *)local_90 + 0x20), local_80, 0xc);
 	local_94 = PM_SlideMove(arg_0);
 	if (local_94 != 0x0) goto jmp_390a;
 	goto jmp_3a6f;
 jmp_390a:
-	block_copy(local_74, local_68, 0xc);
+	block_copy(local_68, local_74, 0xc);
 	local_7c = (local_7c - 0x41900000);
 #define next_call_arg_0 "local_24"
 #define next_call_arg_1 "local_68"
@@ -5090,7 +5104,7 @@ jmp_390a:
 jmp_3968:
 	goto jmp_3a6f;
 jmp_396a:
-	block_copy(&local_5c, local_68, 0xc);
+	block_copy(local_68, &local_5c, 0xc);
 	local_64 = (local_64 + 0x41900000);
 #define next_call_arg_0 "local_24"
 #define next_call_arg_1 "local_68"
@@ -5107,10 +5121,10 @@ jmp_396a:
 	goto jmp_3a6f;
 jmp_39b0:
 	local_8c = (local_38 - local_70);
-	block_copy((*(int *)*(int *)pm + 0x14), local_30, 0xc);
-	block_copy((*(int *)*(int *)pm + 0x20), local_80, 0xc);
+	block_copy(local_30, (*(int *)*(int *)pm + 0x14), 0xc);
+	block_copy(local_80, (*(int *)*(int *)pm + 0x20), 0xc);
 	PM_SlideMove(arg_0);
-	block_copy(local_74, (*(int *)*(int *)pm + 0x14), 0xc);
+	block_copy((*(int *)*(int *)pm + 0x14), local_74, 0xc);
 	local_7c = (local_7c - local_8c);
 #define next_call_arg_0 "local_24"
 	local_a4 = *(int *)pm;
@@ -5123,7 +5137,7 @@ jmp_39b0:
 #define next_call_arg_6 "*(int *)(local_a4 + 0x1c)"
 	(*(*(int *)(local_a4 + 0xe0)))();
 	if (*(int *)local_24 != 0x0) goto jmp_3a13;
-	block_copy((*(int *)*(int *)pm + 0x14), local_30, 0xc);
+	block_copy(local_30, (*(int *)*(int *)pm + 0x14), 0xc);
 jmp_3a13:
 	if (local_2c >= 0x3f800000) goto jmp_3a2b;
 	local_ac = (*(int *)*(int *)pm + 0x20);
@@ -8082,7 +8096,7 @@ jmp_5adc:
 	memset(&local_18, 0x0, 0x170);
 	memset(&local_188, 0x0, 0x8c);
 	AnglesToAxis(arg_7, local_1a4);
-	block_copy(local_1cc, arg_6, 0xc);
+	block_copy(arg_6, local_1cc, 0xc);
 	*(int *)local_190 = arg_4;
 	*(int *)local_1f4 = arg_5;
 	local_18c = 0x40;
@@ -10165,7 +10179,7 @@ jmp_73f0:
 	memset(&local_24, 0x0, 0x8c);
 	local_24 = 0x2;
 	*(int *)local_28 = 0x18;
-	block_copy(local_68, local_158, 0xc);
+	block_copy(local_158, local_68, 0xc);
 	*(int *)local_a8 = (((((local_188 / 0x44200000) * local_184) * local_154) * local_134) / local_130);
 	*(int *)local_94 = local_18c;
 	trap_R_AddRefEntityToScene(&local_24);
@@ -10197,7 +10211,7 @@ void CG_ScanForCrosshairEntity(void) {
 	int		local_7c;
 	int		local_80;
 
-	block_copy(&local_5c, 0xdcd0c, 0xc);
+	block_copy(&bss_dcd0c, &local_5c, 0xc);
 	local_78 = 0x48000000;
 	local_68 = (local_5c + (local_78 * bss_dcd18));
 	local_6c = (local_60 + (local_78 * bss_dcd1c));
@@ -11783,7 +11797,7 @@ void CG_BubbleTrail(int arg_0, int arg_1, int arg_2) {
 	if (*(int *)bss_7dd8 == 0x0) goto jmp_8470;
 	goto jmp_85f9;
 jmp_8470:
-	block_copy(&local_c, arg_0, 0xc);
+	block_copy(arg_0, &local_c, 0xc);
 	local_18 = (*(int *)arg_1 - *(int *)arg_0);
 	local_34 = 0x4;
 	local_1c = (*(int *)(arg_1 + local_34) - *(int *)(arg_0 + local_34));
@@ -11823,7 +11837,7 @@ jmp_84f2:
 	*(int *)(local_4c + 0x78) = 0x3f800000;
 	*(int *)(local_4c + 0x20) = 0x2;
 	*(int *)(local_4c + 0x24) = bss_dc760;
-	block_copy((local_4c + 0x2c), &local_c, 0xc);
+	block_copy(&local_c, (local_4c + 0x2c), 0xc);
 	local_60 = rand();
 	*(int *)(local_4c + 0x38) = (0x40a00000 * (0x40000000 * (((float)(local_60 & 0x7fff) / 0x46fffe00) - 0x3f000000)));
 	local_64 = rand();
@@ -11890,9 +11904,9 @@ jmp_8689:
 	*(int *)(local_c + 0x78) = arg_6;
 	*(int *)(local_c + 0x20) = 0x2;
 	*(int *)(local_c + 0x24) = arg_8;
-	block_copy((local_c + 0x38), arg_1, 0xc);
-	block_copy((local_c + 0x2c), arg_0, 0xc);
-	block_copy((local_10 + 0x44), arg_0, 0xc);
+	block_copy(arg_1, (local_c + 0x38), 0xc);
+	block_copy(arg_0, (local_c + 0x2c), 0xc);
+	block_copy(arg_0, (local_10 + 0x44), 0xc);
 	*(int *)(local_10 + 0x70) = arg_11;
 	if (*(int *)bss_e66b4 != 0x3) goto jmp_86f3;
 	*(int *)(local_10 + 0x70) = bss_104234;
@@ -11971,7 +11985,7 @@ void CG_SpawnEffect(int arg_0) {
 	*(int *)(local_10 + 0x70) = bss_1042f4;
 	*(int *)(local_10 + 0x8) = bss_1042f0;
 	AxisClear((local_10 + 0x1c));
-	block_copy((local_10 + 0x44), arg_0, 0xc);
+	block_copy(arg_0, (local_10 + 0x44), 0xc);
 	local_24 = (local_10 + 0x4c);
 	*(int *)local_24 = (*(int *)local_24 - 0x41c00000);
 }
@@ -12019,15 +12033,15 @@ jmp_882f:
 	*(int *)(local_10 + 0x70) = local_34;
 	*(int *)(local_10 + 0x6c) = local_34;
 	*(int *)(local_10 + 0x7c) = (float)arg_2;
-	block_copy((local_10 + 0x2c), arg_1, 0xc);
+	block_copy(arg_1, (local_10 + 0x2c), 0xc);
 	local_38 = *(int *)(arg_1 + 0x8);
 	local_3c = 0x41a00000;
-	if (local_38 < (*(int *)bss_104f38 - local_3c)) goto jmp_88c1;
-	if (local_38 > (*(int *)bss_104f38 + local_3c)) goto jmp_88c1;
+	if (local_38 < (bss_104f38 - local_3c)) goto jmp_88c1;
+	if (local_38 > (bss_104f38 + local_3c)) goto jmp_88c1;
 	local_40 = (local_10 + 0x34);
 	*(int *)local_40 = (*(int *)local_40 - 0x41a00000);
 jmp_88c1:
-	block_copy(bss_104f30, arg_1, 0xc);
+	block_copy(arg_1, bss_104f30, 0xc);
 	local_14 = (local_10 + 0x98);
 	*(int *)local_14 = 0x2;
 	*(int *)(local_14 + 0x84) = 0x41800000;
@@ -12089,14 +12103,14 @@ jmp_88fd:
 	goto jmp_89a0;
 jmp_896b:
 	*(int *)(local_10 + 0x8) = 0x1;
-	block_copy(&local_14, arg_0, 0xc);
+	block_copy(arg_0, &local_14, 0xc);
 	if (arg_1 != 0x0) goto jmp_8983;
 	AxisClear((local_10 + 0xb4));
 	goto jmp_89a0;
 jmp_8983:
 	local_3c = rand();
 	local_30 = (float)(local_3c %% 0x168);
-	block_copy((local_10 + 0xb4), arg_1, 0xc);
+	block_copy(arg_1, (local_10 + 0xb4), 0xc);
 	RotateAroundDirection((local_10 + 0xb4), local_30);
 jmp_89a0:
 	*(int *)(local_10 + 0x10) = (bss_dc760 - local_2c);
@@ -12104,8 +12118,8 @@ jmp_89a0:
 	*(int *)(local_10 + 0x118) = ((float)*(int *)(local_10 + 0x10) / 0x447a0000);
 	*(int *)(local_10 + 0xa0) = arg_2;
 	*(int *)(local_10 + 0x108) = arg_3;
-	block_copy((local_10 + 0xdc), &local_14, 0xc);
-	block_copy((local_10 + 0xec), &local_14, 0xc);
+	block_copy(&local_14, (local_10 + 0xdc), 0xc);
+	block_copy(&local_14, (local_10 + 0xec), 0xc);
 	local_48 = 0x3f800000;
 	*(int *)(local_10 + 0x74) = local_48;
 	*(int *)(local_10 + 0x70) = local_48;
@@ -12137,7 +12151,7 @@ jmp_8a02:
 	*(int *)(local_8 + 0x8) = 0x1;
 	*(int *)(local_8 + 0x10) = bss_dc760;
 	*(int *)(local_8 + 0x14) = (*(int *)(local_8 + 0x10) + 0x1f4);
-	block_copy((local_8 + 0xdc), arg_0, 0xc);
+	block_copy(arg_0, (local_8 + 0xdc), 0xc);
 	*(int *)(local_8 + 0x98) = 0x2;
 	local_14 = rand();
 	*(int *)(local_8 + 0x120) = (float)(local_14 %% 0x168);
@@ -12172,12 +12186,12 @@ void CG_LaunchGib(int arg_0, int arg_1, int arg_2) {
 	*(int *)(local_10 + 0x10) = bss_dc760;
 	*(int *)local_20 = rand();
 	*(int *)(local_10 + 0x14) = (int)((float)(*(int *)(local_10 + 0x10) + 0x1388) + (0x453b8000 * ((float)(*(int *)local_20 & 0x7fff) / 0x46fffe00)));
-	block_copy((local_14 + 0x44), arg_0, 0xc);
+	block_copy(arg_0, (local_14 + 0x44), 0xc);
 	AxisCopy(0x1d68, (local_14 + 0x1c));
 	*(int *)(local_14 + 0x8) = arg_2;
 	*(int *)(local_10 + 0x20) = 0x5;
-	block_copy((local_10 + 0x2c), arg_0, 0xc);
-	block_copy((local_10 + 0x38), arg_1, 0xc);
+	block_copy(arg_0, (local_10 + 0x2c), 0xc);
+	block_copy(arg_1, (local_10 + 0x38), 0xc);
 	*(int *)(local_10 + 0x24) = bss_dc760;
 	*(int *)(local_10 + 0x68) = 0x3f19999a;
 	*(int *)(local_10 + 0x94) = 0x1;
@@ -12235,7 +12249,7 @@ void CG_GibPlayer(int arg_0) {
 	if (*(int *)bss_8dc8 != 0x0) goto jmp_8aed;
 	goto jmp_8de3;
 jmp_8aed:
-	block_copy(local_20, arg_0, 0xc);
+	block_copy(arg_0, local_20, 0xc);
 	local_2c = rand();
 	local_14 = (0x437a0000 * (0x40000000 * (((float)(local_2c & 0x7fff) / 0x46fffe00) - 0x3f000000)));
 	local_30 = rand();
@@ -12252,7 +12266,7 @@ jmp_8b4c:
 	if (*(int *)bss_c948 != 0x0) goto jmp_8b52;
 	goto jmp_8de3;
 jmp_8b52:
-	block_copy(local_20, arg_0, 0xc);
+	block_copy(arg_0, local_20, 0xc);
 	local_3c = rand();
 	local_14 = (0x437a0000 * (0x40000000 * (((float)(local_3c & 0x7fff) / 0x46fffe00) - 0x3f000000)));
 	local_40 = rand();
@@ -12260,7 +12274,7 @@ jmp_8b52:
 	local_44 = rand();
 	local_1c = ((0x437a0000 * (0x40000000 * (((float)(local_44 & 0x7fff) / 0x46fffe00) - 0x3f000000))) + 0x437a0000);
 	CG_LaunchGib(local_20, &local_14, bss_1041a4);
-	block_copy(local_20, arg_0, 0xc);
+	block_copy(arg_0, local_20, 0xc);
 	local_48 = rand();
 	local_14 = (0x437a0000 * (0x40000000 * (((float)(local_48 & 0x7fff) / 0x46fffe00) - 0x3f000000)));
 	local_4c = rand();
@@ -12268,7 +12282,7 @@ jmp_8b52:
 	local_50 = rand();
 	local_1c = ((0x437a0000 * (0x40000000 * (((float)(local_50 & 0x7fff) / 0x46fffe00) - 0x3f000000))) + 0x437a0000);
 	CG_LaunchGib(local_20, &local_14, bss_1041a8);
-	block_copy(local_20, arg_0, 0xc);
+	block_copy(arg_0, local_20, 0xc);
 	local_54 = rand();
 	local_14 = (0x437a0000 * (0x40000000 * (((float)(local_54 & 0x7fff) / 0x46fffe00) - 0x3f000000)));
 	local_58 = rand();
@@ -12276,7 +12290,7 @@ jmp_8b52:
 	local_5c = rand();
 	local_1c = ((0x437a0000 * (0x40000000 * (((float)(local_5c & 0x7fff) / 0x46fffe00) - 0x3f000000))) + 0x437a0000);
 	CG_LaunchGib(local_20, &local_14, bss_1041ac);
-	block_copy(local_20, arg_0, 0xc);
+	block_copy(arg_0, local_20, 0xc);
 	local_60 = rand();
 	local_14 = (0x437a0000 * (0x40000000 * (((float)(local_60 & 0x7fff) / 0x46fffe00) - 0x3f000000)));
 	local_64 = rand();
@@ -12284,7 +12298,7 @@ jmp_8b52:
 	local_68 = rand();
 	local_1c = ((0x437a0000 * (0x40000000 * (((float)(local_68 & 0x7fff) / 0x46fffe00) - 0x3f000000))) + 0x437a0000);
 	CG_LaunchGib(local_20, &local_14, bss_1041b0);
-	block_copy(local_20, arg_0, 0xc);
+	block_copy(arg_0, local_20, 0xc);
 	local_6c = rand();
 	local_14 = (0x437a0000 * (0x40000000 * (((float)(local_6c & 0x7fff) / 0x46fffe00) - 0x3f000000)));
 	local_70 = rand();
@@ -12292,7 +12306,7 @@ jmp_8b52:
 	local_74 = rand();
 	local_1c = ((0x437a0000 * (0x40000000 * (((float)(local_74 & 0x7fff) / 0x46fffe00) - 0x3f000000))) + 0x437a0000);
 	CG_LaunchGib(local_20, &local_14, bss_1041b4);
-	block_copy(local_20, arg_0, 0xc);
+	block_copy(arg_0, local_20, 0xc);
 	local_78 = rand();
 	local_14 = (0x437a0000 * (0x40000000 * (((float)(local_78 & 0x7fff) / 0x46fffe00) - 0x3f000000)));
 	local_7c = rand();
@@ -12300,7 +12314,7 @@ jmp_8b52:
 	local_80 = rand();
 	local_1c = ((0x437a0000 * (0x40000000 * (((float)(local_80 & 0x7fff) / 0x46fffe00) - 0x3f000000))) + 0x437a0000);
 	CG_LaunchGib(local_20, &local_14, bss_1041b8);
-	block_copy(local_20, arg_0, 0xc);
+	block_copy(arg_0, local_20, 0xc);
 	local_84 = rand();
 	local_14 = (0x437a0000 * (0x40000000 * (((float)(local_84 & 0x7fff) / 0x46fffe00) - 0x3f000000)));
 	local_88 = rand();
@@ -12308,7 +12322,7 @@ jmp_8b52:
 	local_8c = rand();
 	local_1c = ((0x437a0000 * (0x40000000 * (((float)(local_8c & 0x7fff) / 0x46fffe00) - 0x3f000000))) + 0x437a0000);
 	CG_LaunchGib(local_20, &local_14, bss_1041bc);
-	block_copy(local_20, arg_0, 0xc);
+	block_copy(arg_0, local_20, 0xc);
 	local_90 = rand();
 	local_14 = (0x437a0000 * (0x40000000 * (((float)(local_90 & 0x7fff) / 0x46fffe00) - 0x3f000000)));
 	local_94 = rand();
@@ -12316,7 +12330,7 @@ jmp_8b52:
 	local_98 = rand();
 	local_1c = ((0x437a0000 * (0x40000000 * (((float)(local_98 & 0x7fff) / 0x46fffe00) - 0x3f000000))) + 0x437a0000);
 	CG_LaunchGib(local_20, &local_14, bss_1041c0);
-	block_copy(local_20, arg_0, 0xc);
+	block_copy(arg_0, local_20, 0xc);
 	local_9c = rand();
 	local_14 = (0x437a0000 * (0x40000000 * (((float)(local_9c & 0x7fff) / 0x46fffe00) - 0x3f000000)));
 	local_a0 = rand();
@@ -12350,12 +12364,12 @@ void CG_LaunchExplode(int arg_0, int arg_1, int arg_2) {
 	*(int *)(local_10 + 0x10) = bss_dc760;
 	*(int *)local_20 = rand();
 	*(int *)(local_10 + 0x14) = (int)((float)(*(int *)(local_10 + 0x10) + 0x2710) + (0x45bb8000 * ((float)(*(int *)local_20 & 0x7fff) / 0x46fffe00)));
-	block_copy((local_14 + 0x44), arg_0, 0xc);
+	block_copy(arg_0, (local_14 + 0x44), 0xc);
 	AxisCopy(0x1d68, (local_14 + 0x1c));
 	*(int *)(local_14 + 0x8) = arg_2;
 	*(int *)(local_10 + 0x20) = 0x5;
-	block_copy((local_10 + 0x2c), arg_0, 0xc);
-	block_copy((local_10 + 0x38), arg_1, 0xc);
+	block_copy(arg_0, (local_10 + 0x2c), 0xc);
+	block_copy(arg_1, (local_10 + 0x38), 0xc);
 	*(int *)(local_10 + 0x24) = bss_dc760;
 	*(int *)(local_10 + 0x68) = 0x3dcccccd;
 	*(int *)(local_10 + 0x94) = 0x2;
@@ -12398,7 +12412,7 @@ void CG_BigExplode(int arg_0) {
 	if (*(int *)bss_8dc8 != 0x0) goto jmp_8e6f;
 	goto jmp_8ff2;
 jmp_8e6f:
-	block_copy(local_20, arg_0, 0xc);
+	block_copy(arg_0, local_20, 0xc);
 	local_2c = rand();
 	local_14 = (0x42c80000 * (0x40000000 * (((float)(local_2c & 0x7fff) / 0x46fffe00) - 0x3f000000)));
 	local_30 = rand();
@@ -12406,7 +12420,7 @@ jmp_8e6f:
 	local_34 = rand();
 	local_1c = ((0x42c80000 * (0x40000000 * (((float)(local_34 & 0x7fff) / 0x46fffe00) - 0x3f000000))) + 0x43160000);
 	CG_LaunchExplode(local_20, &local_14, bss_1041cc);
-	block_copy(local_20, arg_0, 0xc);
+	block_copy(arg_0, local_20, 0xc);
 	local_38 = rand();
 	local_14 = (0x42c80000 * (0x40000000 * (((float)(local_38 & 0x7fff) / 0x46fffe00) - 0x3f000000)));
 	local_3c = rand();
@@ -12414,7 +12428,7 @@ jmp_8e6f:
 	local_40 = rand();
 	local_1c = ((0x42c80000 * (0x40000000 * (((float)(local_40 & 0x7fff) / 0x46fffe00) - 0x3f000000))) + 0x43160000);
 	CG_LaunchExplode(local_20, &local_14, bss_1041cc);
-	block_copy(local_20, arg_0, 0xc);
+	block_copy(arg_0, local_20, 0xc);
 	local_44 = rand();
 	local_14 = (0x3fc00000 * (0x42c80000 * (0x40000000 * (((float)(local_44 & 0x7fff) / 0x46fffe00) - 0x3f000000))));
 	local_48 = rand();
@@ -12422,7 +12436,7 @@ jmp_8e6f:
 	local_4c = rand();
 	local_1c = ((0x42c80000 * (0x40000000 * (((float)(local_4c & 0x7fff) / 0x46fffe00) - 0x3f000000))) + 0x43160000);
 	CG_LaunchExplode(local_20, &local_14, bss_1041cc);
-	block_copy(local_20, arg_0, 0xc);
+	block_copy(arg_0, local_20, 0xc);
 	local_50 = rand();
 	local_54 = 0x40000000;
 	local_14 = (local_54 * (0x42c80000 * (local_54 * (((float)(local_50 & 0x7fff) / 0x46fffe00) - 0x3f000000))));
@@ -12432,7 +12446,7 @@ jmp_8e6f:
 	local_60 = rand();
 	local_1c = ((0x42c80000 * (0x40000000 * (((float)(local_60 & 0x7fff) / 0x46fffe00) - 0x3f000000))) + 0x43160000);
 	CG_LaunchExplode(local_20, &local_14, bss_1041cc);
-	block_copy(local_20, arg_0, 0xc);
+	block_copy(arg_0, local_20, 0xc);
 	local_64 = rand();
 	local_14 = (0x40200000 * (0x42c80000 * (0x40000000 * (((float)(local_64 & 0x7fff) / 0x46fffe00) - 0x3f000000))));
 	local_68 = rand();
@@ -12467,7 +12481,7 @@ void CG_PositionEntityOnTag(int arg_0, int arg_1, int arg_2, int arg_3) {
 	arg_1 = arg_1;
 	trap_R_LerpTag(local_24, arg_2, *(int *)(arg_1 + 0x60), *(int *)(arg_1 + 0x50), (0x3f800000 - *(int *)(arg_1 + 0x64)), arg_3);
 	local_58 = 0x44;
-	block_copy((arg_0 + local_58), (arg_1 + local_58), 0xc);
+	block_copy((arg_1 + local_58), (arg_0 + local_58), 0xc);
 	local_20 = 0x0;
 jmp_902d:
 	local_5c = (arg_0 + 0x44);
@@ -12511,7 +12525,7 @@ void CG_PositionRotatedEntityOnTag(int arg_0, int arg_1, int arg_2, int arg_3) {
 	arg_1 = arg_1;
 	trap_R_LerpTag(local_24, arg_2, *(int *)(arg_1 + 0x60), *(int *)(arg_1 + 0x50), (0x3f800000 - *(int *)(arg_1 + 0x64)), arg_3);
 	local_7c = 0x44;
-	block_copy((arg_0 + local_7c), (arg_1 + local_7c), 0xc);
+	block_copy((arg_1 + local_7c), (arg_0 + local_7c), 0xc);
 	local_20 = 0x0;
 jmp_90f6:
 	*(int *)local_80 = (arg_0 + 0x44);
@@ -12634,8 +12648,8 @@ jmp_929a:
 	local_64 = *(int *)(local_a0 + 0xac);
 	local_74 = local_64;
 	*(int *)local_78 = 0x0;
-	block_copy(local_58, (arg_0 + 0x2b4), 0xc);
-	block_copy(local_68, (arg_0 + 0x2b4), 0xc);
+	block_copy((arg_0 + 0x2b4), local_58, 0xc);
+	block_copy((arg_0 + 0x2b4), local_68, 0xc);
 	*(int *)local_1c = *(int *)((*(int *)(local_a0 + 0xa0) << 0x2) + 0xe7420);
 	if (*(int *)local_a0 != *(int *)(bss_c2330 + 0xb8)) goto jmp_92d8;
 	local_18 = (local_18 | 0x2);
@@ -12750,7 +12764,7 @@ jmp_937b:
 	if (*(int *)(local_a4 + 0x24) == 0x8) goto jmp_93c5;
 	memset(&local_18, 0x0, 0x8c);
 	local_18 = 0x2;
-	block_copy(local_5c, (arg_0 + 0x2b4), 0xc);
+	block_copy((arg_0 + 0x2b4), local_5c, 0xc);
 	*(int *)local_9c = 0x41600000;
 	local_88 = *(int *)((0x18 * *(int *)(local_ac + 0xa0)) + 0xd2e0);
 	local_8c = 0xff;
@@ -12766,11 +12780,11 @@ jmp_93c5:
 	*(int *)local_cc = (*(int *)local_cc + ((0x40800000 * local_c8) + 0x40800000));
 	memset(&local_18, 0x0, 0x8c);
 	if (*(int *)(local_a4 + 0x24) != 0x4) goto jmp_940e;
-	block_copy((arg_0 + 0x2c0), 0xdccc4, 0xc);
+	block_copy(&bss_dccc4, (arg_0 + 0x2c0), 0xc);
 	AxisCopy(0xdccd0, &local_34);
 	goto jmp_941b;
 jmp_940e:
-	block_copy((arg_0 + 0x2c0), 0xdcc94, 0xc);
+	block_copy(&bss_dcc94, (arg_0 + 0x2c0), 0xc);
 	AxisCopy(0xdcca0, &local_34);
 jmp_941b:
 	local_a8 = 0x0;
@@ -12794,8 +12808,8 @@ jmp_94b3:
 	*(char *)local_8f = *(char *)(local_d4 + 0x67);
 jmp_94e8:
 	local_20 = *(int *)((0x18 * *(int *)(local_ac + 0xa0)) + 0xd2d0);
-	block_copy(local_5c, (arg_0 + 0x2b4), 0xc);
-	block_copy(local_6c, (arg_0 + 0x2b4), 0xc);
+	block_copy((arg_0 + 0x2b4), local_5c, 0xc);
+	block_copy((arg_0 + 0x2b4), local_6c, 0xc);
 	local_58 = 0x0;
 	local_b4 = (bss_dc760 - *(int *)(arg_0 + 0x1bc));
 	if (local_b4 < 0x0) goto jmp_9560;
@@ -12839,7 +12853,7 @@ jmp_95b8:
 	if (*(int *)(local_a8 + 0x10) == 0x0) goto jmp_9617;
 	memset(&local_e0, 0x0, 0x8c);
 	local_e8 = *(int *)(local_a8 + 0x10);
-	block_copy(&local_ec, local_24, 0xc);
+	block_copy(local_24, &local_ec, 0xc);
 	local_f8 = local_30;
 	local_e4 = local_1c;
 	local_170 = 0x0;
@@ -12916,7 +12930,7 @@ void CG_Missile(int arg_0) {
 	*(int *)(*(int *)local_ac + 0xc0) = 0x0;
 jmp_96cf:
 	local_a8 = ((0x84 * *(int *)(*(int *)local_ac + 0xc0)) + 0xeacc);
-	block_copy((arg_0 + 0x2c0), (*(int *)local_ac + 0x74), 0xc);
+	block_copy((*(int *)local_ac + 0x74), (arg_0 + 0x2c0), 0xc);
 	if (*(int *)(local_a8 + 0x58) == 0x0) goto jmp_96f7;
 	(*(*(int *)(local_a8 + 0x58)))(arg_0, local_a8);
 jmp_96f7:
@@ -12928,8 +12942,8 @@ jmp_971e:
 	trap_S_AddLoopingSound(*(int *)arg_0, (arg_0 + 0x2b4), local_b4, *(int *)(local_a8 + 0x54));
 jmp_9746:
 	memset(&local_1c, 0x0, 0x8c);
-	block_copy(local_60, (arg_0 + 0x2b4), 0xc);
-	block_copy(local_70, (arg_0 + 0x2b4), 0xc);
+	block_copy((arg_0 + 0x2b4), local_60, 0xc);
+	block_copy((arg_0 + 0x2b4), local_70, 0xc);
 	if (*(int *)(arg_0 + 0xc0) != 0x8) goto jmp_9776;
 	local_1c = 0x2;
 	local_a0 = 0x41800000;
@@ -12984,11 +12998,11 @@ void CG_Grapple(int arg_0) {
 	*(int *)(local_a0 + 0xc0) = 0x0;
 jmp_97e0:
 	*(int *)local_a4 = ((0x84 * *(int *)(local_a0 + 0xc0)) + 0xeacc);
-	block_copy((arg_0 + 0x2c0), (local_a0 + 0x74), 0xc);
+	block_copy((local_a0 + 0x74), (arg_0 + 0x2c0), 0xc);
 	CG_GrappleTrail(arg_0, *(int *)local_a4);
 	memset(&local_14, 0x0, 0x8c);
-	block_copy(local_58, (arg_0 + 0x2b4), 0xc);
-	block_copy(local_68, (arg_0 + 0x2b4), 0xc);
+	block_copy((arg_0 + 0x2b4), local_58, 0xc);
+	block_copy((arg_0 + 0x2b4), local_68, 0xc);
 	*(int *)local_7c = (cg & 0x1);
 	*(int *)local_1c = *(int *)(*(int *)local_a4 + 0x50);
 	local_18 = (*(int *)(*(int *)local_a4 + 0x6c) | 0x40);
@@ -13022,8 +13036,8 @@ void CG_Mover(int arg_0) {
 	arg_0 = arg_0;
 	local_a0 = arg_0;
 	memset(&local_14, 0x0, 0x8c);
-	block_copy(local_58, (arg_0 + 0x2b4), 0xc);
-	block_copy(local_68, (arg_0 + 0x2b4), 0xc);
+	block_copy((arg_0 + 0x2b4), local_58, 0xc);
+	block_copy((arg_0 + 0x2b4), local_68, 0xc);
 	AnglesToAxis((arg_0 + 0x2c0), local_30);
 	local_18 = 0x40;
 	*(int *)local_7c = ((bss_dc760 >> 0x6) & 0x1);
@@ -13061,8 +13075,8 @@ void CG_Beam(int arg_0) {
 
 	local_a0 = arg_0;
 	memset(&local_14, 0x0, 0x8c);
-	block_copy(local_58, (local_a0 + 0x18), 0xc);
-	block_copy(local_68, (local_a0 + 0x68), 0xc);
+	block_copy((local_a0 + 0x18), local_58, 0xc);
+	block_copy((local_a0 + 0x68), local_68, 0xc);
 	AxisClear(local_30);
 	local_14 = 0x3;
 	*(int *)local_18 = 0x40;
@@ -13095,8 +13109,8 @@ void CG_Portal(int arg_0) {
 
 	local_a0 = arg_0;
 	memset(local_14, 0x0, 0x8c);
-	block_copy(local_58, (arg_0 + 0x2b4), 0xc);
-	block_copy(local_68, (local_a0 + 0x68), 0xc);
+	block_copy((arg_0 + 0x2b4), local_58, 0xc);
+	block_copy((local_a0 + 0x68), local_68, 0xc);
 	ByteToDir(*(int *)(local_a0 + 0xb8), local_30);
 	PerpendicularVector(&local_3c, local_30);
 	local_3c = (vec3_origin - local_3c);
@@ -13173,7 +13187,7 @@ void CG_RotatePoint(int arg_0, int arg_1) {
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
-	block_copy(&local_8, arg_0, 0xc);
+	block_copy(arg_0, &local_8, 0xc);
 	*(int *)arg_0 = (((*(int *)arg_1 * local_8) + (*(int *)(arg_1 + 0x4) * local_c)) + (*(int *)(arg_1 + 0x8) * *(int *)local_10));
 	*(int *)(arg_0 + 0x4) = (((*(int *)(arg_1 + 0xc) * local_8) + (*(int *)(arg_1 + 0x10) * local_c)) + (*(int *)(arg_1 + 0x14) * *(int *)local_10));
 	*(int *)(arg_0 + 0x8) = (((*(int *)(arg_1 + 0x18) * local_8) + (*(int *)(arg_1 + 0x1c) * local_c)) + (*(int *)(arg_1 + 0x20) * *(int *)local_10));
@@ -13234,15 +13248,15 @@ void CG_AdjustPositionForMover(int arg_0, int arg_1, int arg_2, int arg_3, int a
 	if (arg_1 <= 0x0) goto jmp_9a42;
 	if (arg_1 < 0x3fe) goto jmp_9a4e;
 jmp_9a42:
-	block_copy(arg_4, arg_0, 0xc);
-	block_copy(arg_6, arg_5, 0xc);
+	block_copy(arg_0, arg_4, 0xc);
+	block_copy(arg_5, arg_6, 0xc);
 	goto jmp_9b84;
 jmp_9a4e:
 	local_44 = ((0x2cc * arg_1) + 0xf30c);
 	*(int *)local_d0 = 0x4;
 	if (*(int *)(local_44 + *(int *)local_d0) == *(int *)local_d0) goto jmp_9a6e;
-	block_copy(arg_4, arg_0, 0xc);
-	block_copy(arg_6, arg_5, 0xc);
+	block_copy(arg_0, arg_4, 0xc);
+	block_copy(arg_5, arg_6, 0xc);
 	goto jmp_9b84;
 jmp_9a6e:
 	BG_EvaluateTrajectory((local_44 + 0xc), arg_2, &local_20);
@@ -13260,7 +13274,7 @@ jmp_9a6e:
 	local_38 = (*(int *)arg_0 - local_20);
 	local_3c = (*(int *)(arg_0 + 0x4) - local_24);
 	local_40 = (*(int *)(arg_0 + 0x8) - local_28);
-	block_copy(&local_54, &local_38, 0xc);
+	block_copy(&local_38, &local_54, 0xc);
 	CG_RotatePoint(&local_54, local_84);
 	local_48 = (local_54 - local_38);
 	local_4c = (local_58 - local_3c);
@@ -13392,8 +13406,8 @@ void CG_TeamBase(int arg_0) {
 	if (bss_e66f8 != 0x4) goto jmp_9d2f;
 	memset(local_14, 0x0, 0x8c);
 	*(int *)local_14 = 0x0;
-	block_copy(local_20, (arg_0 + 0x2b4), 0xc);
-	block_copy(local_58, (arg_0 + 0x2b4), 0xc);
+	block_copy((arg_0 + 0x2b4), local_20, 0xc);
+	block_copy((arg_0 + 0x2b4), local_58, 0xc);
 	AnglesToAxis((arg_0 + 0x74), local_30);
 	if (*(int *)(arg_0 + 0xa0) != 0x1) goto jmp_9d19;
 	local_1c = bss_104188;
@@ -13488,10 +13502,10 @@ jmp_9df0:
 jmp_9df3:
 	bss_dcc94 = 0x0;
 	bss_dcc98 = ((float)(0x168 * (bss_dc760 & 0x7ff)) / 0x45000000);
-	*(int *)bss_dcc9c = 0x0;
+	bss_dcc9c = 0x0;
 	bss_dccc4 = 0x0;
 	bss_dccc8 = ((float)(0x168 * (bss_dc760 & 0x3ff)) / 0x44800000);
-	*(int *)bss_dcccc = 0x0;
+	bss_dcccc = 0x0;
 	AnglesToAxis(0xdcc94, 0xdcca0);
 	AnglesToAxis(0xdccc4, 0xdccd0);
 	local_1c = 0xdc780;
@@ -14129,7 +14143,7 @@ jmp_a5b5:
 	if (*(int *)bss_b2f8 == 0x0) goto jmp_a5c4;
 	CG_Printf(0x58bc);
 jmp_a5c4:
-	block_copy(&local_68, 0x18d8, 0xc);
+	block_copy(global_18d8, &local_68, 0xc);
 #define next_call_arg_0 "(arg_0 + 0x2b4)"
 #define next_call_arg_1 "&local_68"
 #define next_call_arg_2 "0x42000000"
@@ -15217,7 +15231,7 @@ void CG_ReflectVelocity(int arg_0, int arg_1) {
 	*(int *)*(int *)local_40 = (*(int *)*(int *)local_40 * *(int *)(arg_0 + 0x68));
 	*(int *)local_48 = (arg_0 + 0x40);
 	*(int *)*(int *)local_48 = (*(int *)*(int *)local_48 * *(int *)(arg_0 + 0x68));
-	block_copy((arg_0 + 0x2c), (arg_1 + 0xc), 0xc);
+	block_copy((arg_1 + 0xc), (arg_0 + 0x2c), 0xc);
 	*(int *)(arg_0 + 0x24) = bss_dc760;
 	if (*(int *)arg_1 != 0x0) goto jmp_b660;
 	if (*(int *)(arg_1 + 0x20) <= 0x0) goto jmp_b666;
@@ -15253,7 +15267,7 @@ void CG_AddFragment(int arg_0) {
 	if (*(int *)(arg_0 + 0x20) != 0x0) goto jmp_b6cf;
 	local_68 = (*(int *)(arg_0 + 0x14) - bss_dc760);
 	if (local_68 >= 0x3e8) goto jmp_b6c5;
-	block_copy((arg_0 + 0xa4), (arg_0 + 0xdc), 0xc);
+	block_copy((arg_0 + 0xdc), (arg_0 + 0xa4), 0xc);
 	local_74 = (arg_0 + 0x9c);
 	*(int *)local_74 = (*(int *)local_74 | 0x80);
 	local_78 = (arg_0 + 0xe4);
@@ -15277,7 +15291,7 @@ jmp_b6cf:
 #define next_call_arg_6 "0x1"
 	CG_Trace();
 	if (local_2c != 0x3f800000) goto jmp_b736;
-	block_copy((arg_0 + 0xdc), local_5c, 0xc);
+	block_copy(local_5c, (arg_0 + 0xdc), 0xc);
 	if ((*(int *)(arg_0 + 0xc) & 0x2) == 0x0) goto jmp_b71f;
 	BG_EvaluateTrajectory((arg_0 + 0x44), bss_dc760, local_6c);
 	AnglesToAxis(local_6c, (arg_0 + 0xb4));
@@ -15584,7 +15598,7 @@ void CG_AddSpriteExplosion(int arg_0) {
 	char	local_c8[8];
 
 	arg_0 = arg_0;
-	block_copy(local_1c, (arg_0 + 0x98), 0x8c);
+	block_copy((arg_0 + 0x98), local_1c, 0x8c);
 	local_b0 = *(int *)(arg_0 + 0x14);
 	*(int *)local_a8 = ((float)(local_b0 - bss_dc760) / (float)(local_b0 - *(int *)(arg_0 + 0x10)));
 	if (*(int *)local_a8 <= 0x3f800000) goto jmp_bb02;
@@ -15663,7 +15677,7 @@ void CG_AddScorePlum(int arg_0) {
 	int		local_bc;
 
 	arg_0 = arg_0;
-	block_copy(local_84, 0x1a5c, 0xc);
+	block_copy(global_1a5c, local_84, 0xc);
 	local_1c = (arg_0 + 0x98);
 	local_64 = ((float)(*(int *)(arg_0 + 0x14) - bss_dc760) * *(int *)(arg_0 + 0x1c));
 	local_20 = (int)*(int *)(arg_0 + 0x7c);
@@ -15710,7 +15724,7 @@ jmp_bc5c:
 	*(char *)(local_1c + 0x77) = 0xff;
 jmp_bc62:
 	*(int *)(local_1c + 0x84) = 0x40800000;
-	block_copy(&local_24, (arg_0 + 0x2c), 0xc);
+	block_copy((arg_0 + 0x2c), &local_24, 0xc);
 	local_2c = (local_2c + (0x42dc0000 - (0x42c80000 * local_64)));
 	local_74 = (bss_dcd0c - local_24);
 	local_78 = (bss_dcd10 - local_28);
@@ -16057,7 +16071,7 @@ jmp_c100:
 	local_16d8 = local_16e0;
 	goto jmp_c18b;
 jmp_c108:
-	block_copy(local_16d8, ((0xc * (*(int *)local_4c + local_48)) + local_5c), 0xc);
+	block_copy(((0xc * (*(int *)local_4c + local_48)) + local_5c), local_16d8, 0xc);
 	local_17d0 = (*(int *)local_16d8 - *(int *)arg_1);
 	local_17e4 = 0x4;
 	local_17d4 = (*(int *)(local_16d8 + local_17e4) - *(int *)(arg_1 + local_17e4));
@@ -16451,7 +16465,7 @@ jmp_c4fe:
 jmp_c514:
 	if (*(int *)(arg_1 + 0x8) <= *(int *)(arg_0 + 0x5c)) goto jmp_c5f1;
 	*(int *)(arg_0 + 0x4) = (float)bss_dc760;
-	block_copy((arg_0 + 0xc), arg_1, 0xc);
+	block_copy(arg_1, (arg_0 + 0xc), 0xc);
 	local_110 = rand();
 	*(int *)(arg_0 + 0x14) = (*(int *)(arg_0 + 0x58) + (0x40800000 * (0x40000000 * (((float)(local_110 & 0x7fff) / 0x46fffe00) - 0x3f000000))));
 	if (*(int *)(arg_0 + 0x40) != 0xe) goto jmp_c5f1;
@@ -16463,7 +16477,7 @@ jmp_c514:
 jmp_c57f:
 	if (*(int *)(arg_1 + 0x8) >= *(int *)(arg_0 + 0x5c)) goto jmp_c5f1;
 	*(int *)(arg_0 + 0x4) = (float)bss_dc760;
-	block_copy((arg_0 + 0xc), arg_1, 0xc);
+	block_copy(arg_1, (arg_0 + 0xc), 0xc);
 	goto jmp_c5b3;
 jmp_c59b:
 	local_114 = (arg_0 + 0x14);
@@ -16497,7 +16511,7 @@ jmp_c621:
 	local_18 = (local_18 + (vright * -*(int *)local_11c));
 	local_1c = (local_1c + (bss_13bab4 * -*(int *)local_11c));
 	local_20 = (local_20 + (bss_13bab8 * -*(int *)(arg_0 + 0x4c)));
-	block_copy(&local_24, &local_18, 0xc);
+	block_copy(&local_18, &local_24, 0xc);
 	local_30 = 0x0;
 	local_34 = 0x0;
 	local_38 = 0xff;
@@ -16520,7 +16534,7 @@ jmp_c6b4:
 	local_18 = (local_18 + (vright * *(int *)local_134));
 	local_1c = (local_1c + (bss_13bab4 * *(int *)local_134));
 	local_20 = (local_20 + (bss_13bab8 * *(int *)(arg_0 + 0x4c)));
-	block_copy(&local_3c, &local_18, 0xc);
+	block_copy(&local_18, &local_3c, 0xc);
 	local_48 = 0x0;
 	local_4c = 0x3f800000;
 	local_50 = 0xff;
@@ -16543,7 +16557,7 @@ jmp_c748:
 	local_18 = (local_18 + (vright * *(int *)local_14c));
 	local_1c = (local_1c + (bss_13bab4 * *(int *)local_14c));
 	local_20 = (local_20 + (bss_13bab8 * *(int *)(arg_0 + 0x4c)));
-	block_copy(&local_54, &local_18, 0xc);
+	block_copy(&local_18, &local_54, 0xc);
 	local_60 = 0x3f800000;
 	local_64 = 0x3f800000;
 	local_68 = 0xff;
@@ -16566,7 +16580,7 @@ jmp_c7d9:
 	local_18 = (local_18 + (vright * -*(int *)local_164));
 	local_1c = (local_1c + (bss_13bab4 * -*(int *)local_164));
 	local_20 = (local_20 + (bss_13bab8 * -*(int *)(arg_0 + 0x4c)));
-	block_copy(&local_6c, &local_18, 0xc);
+	block_copy(&local_18, &local_6c, 0xc);
 	local_78 = 0x3f800000;
 	local_7c = 0x0;
 	local_80 = 0xff;
@@ -16591,7 +16605,7 @@ jmp_c873:
 	local_18 = (local_18 + (vright * -*(int *)local_11c));
 	local_1c = (local_1c + (bss_13bab4 * -*(int *)local_11c));
 	local_20 = (local_20 + (bss_13bab8 * -*(int *)(arg_0 + 0x4c)));
-	block_copy(local_84, &local_18, 0xc);
+	block_copy(&local_18, local_84, 0xc);
 	local_90 = 0x3f800000;
 	local_94 = 0x0;
 	local_98 = 0xff;
@@ -16614,7 +16628,7 @@ jmp_c906:
 	local_18 = (local_18 + (vright * -*(int *)local_134));
 	local_1c = (local_1c + (bss_13bab4 * -*(int *)local_134));
 	local_20 = (local_20 + (bss_13bab8 * -*(int *)(arg_0 + 0x4c)));
-	block_copy(local_9c, &local_18, 0xc);
+	block_copy(&local_18, local_9c, 0xc);
 	local_a8 = 0x0;
 	local_ac = 0x0;
 	local_b0 = 0xff;
@@ -16637,7 +16651,7 @@ jmp_c99a:
 	local_18 = (local_18 + (vright * *(int *)local_14c));
 	local_1c = (local_1c + (bss_13bab4 * *(int *)local_14c));
 	local_20 = (local_20 + (bss_13bab8 * *(int *)(arg_0 + 0x4c)));
-	block_copy(local_b4, &local_18, 0xc);
+	block_copy(&local_18, local_b4, 0xc);
 	local_c0 = 0x0;
 	local_c4 = 0x3f800000;
 	local_c8 = 0xff;
@@ -16693,7 +16707,7 @@ jmp_cb15:
 	local_1c = (local_1c + (bss_13bab4 * local_150));
 	local_20 = (local_20 + (bss_13bab8 * -local_dc));
 jmp_cb64:
-	block_copy(&local_24, &local_18, 0xc);
+	block_copy(&local_18, &local_24, 0xc);
 	local_30 = 0x0;
 	local_34 = 0x0;
 	local_38 = 0xff;
@@ -16712,7 +16726,7 @@ jmp_cba8:
 	local_1c = (local_1c + (bss_13baa8 * local_148));
 	local_20 = (local_20 + (bss_13baac * (0x40000000 * local_cc)));
 jmp_cbce:
-	block_copy(&local_3c, &local_18, 0xc);
+	block_copy(&local_18, &local_3c, 0xc);
 	local_48 = 0x0;
 	local_4c = 0x3f800000;
 	local_50 = 0xff;
@@ -16731,7 +16745,7 @@ jmp_cc12:
 	local_1c = (local_1c + (bss_13bab4 * local_148));
 	local_20 = (local_20 + (bss_13bab8 * (0x40000000 * local_dc)));
 jmp_cc38:
-	block_copy(&local_54, &local_18, 0xc);
+	block_copy(&local_18, &local_54, 0xc);
 	local_60 = 0x3f800000;
 	local_64 = 0x3f800000;
 	local_68 = 0xff;
@@ -16750,7 +16764,7 @@ jmp_cc7c:
 	local_1c = (local_1c + (bss_13baa8 * local_148));
 	local_20 = (local_20 + (bss_13baac * (0xc0000000 * local_cc)));
 jmp_cca2:
-	block_copy(&local_6c, &local_18, 0xc);
+	block_copy(&local_18, &local_6c, 0xc);
 	local_78 = 0x3f800000;
 	local_7c = 0x0;
 	local_80 = 0xff;
@@ -16839,8 +16853,8 @@ jmp_cdd9:
 	AngleVectors(&local_134, 0x0, &local_e8, &local_f4);
 	goto jmp_ce4b;
 jmp_ce45:
-	block_copy(&local_e8, 0x13ba8c, 0xc);
-	block_copy(&local_f4, 0x13ba80, 0xc);
+	block_copy(rright, &local_e8, 0xc);
+	block_copy(rup, &local_f4, 0xc);
 jmp_ce4b:
 	if (*(int *)(arg_0 + 0x64) == 0x0) goto jmp_cea3;
 	local_138 = -local_cc;
@@ -16862,7 +16876,7 @@ jmp_cea3:
 	local_1c = (local_1c + (bss_13bab4 * -*(int *)local_13c));
 	local_20 = (local_20 + (bss_13bab8 * -*(int *)(arg_0 + 0x4c)));
 jmp_cf02:
-	block_copy(&local_24, &local_18, 0xc);
+	block_copy(&local_18, &local_24, 0xc);
 	local_30 = 0x0;
 	local_34 = 0x0;
 	local_138 = (0x437f0000 * local_d0);
@@ -16921,7 +16935,7 @@ jmp_cfed:
 	local_1c = (local_1c + (bss_13bab4 * *(int *)local_16c));
 	local_20 = (local_20 + (bss_13bab8 * *(int *)(arg_0 + 0x4c)));
 jmp_d049:
-	block_copy(&local_3c, &local_18, 0xc);
+	block_copy(&local_18, &local_3c, 0xc);
 	local_48 = 0x0;
 	local_4c = 0x3f800000;
 	local_168 = (0x437f0000 * local_d0);
@@ -16979,7 +16993,7 @@ jmp_d12e:
 	local_1c = (local_1c + (bss_13bab4 * *(int *)local_19c));
 	local_20 = (local_20 + (bss_13bab8 * *(int *)(arg_0 + 0x4c)));
 jmp_d187:
-	block_copy(&local_54, &local_18, 0xc);
+	block_copy(&local_18, &local_54, 0xc);
 	local_60 = 0x3f800000;
 	local_64 = 0x3f800000;
 	local_198 = (0x437f0000 * local_d0);
@@ -17037,7 +17051,7 @@ jmp_d26e:
 	local_1c = (local_1c + (bss_13bab4 * -*(int *)local_1cc));
 	local_20 = (local_20 + (bss_13bab8 * -*(int *)(arg_0 + 0x4c)));
 jmp_d2ca:
-	block_copy(&local_6c, &local_18, 0xc);
+	block_copy(&local_18, &local_6c, 0xc);
 	local_78 = 0x3f800000;
 	local_7c = 0x0;
 	local_1c8 = (0x437f0000 * local_d0);
@@ -17089,8 +17103,8 @@ jmp_d376:
 	AngleVectors(&local_12c, 0x0, &local_110, &local_11c);
 	goto jmp_d3a2;
 jmp_d39c:
-	block_copy(&local_11c, 0x13baa4, 0xc);
-	block_copy(&local_110, 0x13bab0, 0xc);
+	block_copy(&vup, &local_11c, 0xc);
+	block_copy(&vright, &local_110, 0xc);
 jmp_d3a2:
 	local_13c = (arg_0 + 0x48);
 	local_18 = (*(int *)arg_1 + (local_11c * -*(int *)local_13c));
@@ -17100,7 +17114,7 @@ jmp_d3a2:
 	local_18 = (local_18 + (local_110 * -*(int *)local_140));
 	local_1c = (local_1c + (local_114 * -*(int *)local_140));
 	local_20 = (local_20 + (local_118 * -*(int *)(arg_0 + 0x4c)));
-	block_copy(&local_24, &local_18, 0xc);
+	block_copy(&local_18, &local_24, 0xc);
 	local_30 = 0x0;
 	local_34 = 0x0;
 	local_38 = 0x6f;
@@ -17123,7 +17137,7 @@ jmp_d432:
 	local_18 = (local_18 + (local_110 * *(int *)local_158));
 	local_1c = (local_1c + (local_114 * *(int *)local_158));
 	local_20 = (local_20 + (local_118 * *(int *)(arg_0 + 0x4c)));
-	block_copy(&local_3c, &local_18, 0xc);
+	block_copy(&local_18, &local_3c, 0xc);
 	local_48 = 0x0;
 	local_4c = 0x3f800000;
 	local_50 = 0x6f;
@@ -17146,7 +17160,7 @@ jmp_d4c3:
 	local_18 = (local_18 + (local_110 * *(int *)local_170));
 	local_1c = (local_1c + (local_114 * *(int *)local_170));
 	local_20 = (local_20 + (local_118 * *(int *)(arg_0 + 0x4c)));
-	block_copy(&local_54, &local_18, 0xc);
+	block_copy(&local_18, &local_54, 0xc);
 	local_60 = 0x3f800000;
 	local_64 = 0x3f800000;
 	local_68 = 0x6f;
@@ -17169,7 +17183,7 @@ jmp_d551:
 	local_18 = (local_18 + (local_110 * -*(int *)local_188));
 	local_1c = (local_1c + (local_114 * -*(int *)local_188));
 	local_20 = (local_20 + (local_118 * -*(int *)(arg_0 + 0x4c)));
-	block_copy(&local_6c, &local_18, 0xc);
+	block_copy(&local_18, &local_6c, 0xc);
 	local_78 = 0x3f800000;
 	local_7c = 0x0;
 	local_80 = 0x6f;
@@ -17221,7 +17235,7 @@ jmp_d687:
 	local_140 = cos(((0x40490fdb * (float)*(int *)(arg_0 + 0x74)) / 0x43340000));
 	local_144 = sqrt(0x40000000);
 	local_114 = ((local_dc * local_140) * local_144);
-	block_copy(&local_24, arg_1, 0xc);
+	block_copy(arg_1, &local_24, 0xc);
 	local_24 = (local_24 - local_110);
 	*(int *)local_28 = (*(int *)local_28 - local_114);
 	local_30 = 0x0;
@@ -17254,7 +17268,7 @@ jmp_d73d:
 jmp_d742:
 	local_3a = local_160;
 	local_3b = 0xff;
-	block_copy(&local_3c, arg_1, 0xc);
+	block_copy(arg_1, &local_3c, 0xc);
 	local_3c = (local_3c - local_114);
 	*(int *)local_40 = (*(int *)local_40 + local_110);
 	local_48 = 0x0;
@@ -17287,7 +17301,7 @@ jmp_d7c1:
 jmp_d7c6:
 	local_52 = local_184;
 	local_53 = 0xff;
-	block_copy(&local_54, arg_1, 0xc);
+	block_copy(arg_1, &local_54, 0xc);
 	local_54 = (local_54 + local_110);
 	*(int *)local_58 = (*(int *)local_58 + local_114);
 	local_60 = 0x3f800000;
@@ -17320,7 +17334,7 @@ jmp_d845:
 jmp_d84a:
 	local_6a = local_1a8;
 	local_6b = 0xff;
-	block_copy(&local_6c, arg_1, 0xc);
+	block_copy(arg_1, &local_6c, 0xc);
 	local_6c = (local_6c + local_114);
 	*(int *)local_70 = (*(int *)local_70 - local_110);
 	local_78 = 0x3f800000;
@@ -17356,7 +17370,7 @@ jmp_d8ce:
 	goto jmp_dc4e;
 jmp_d8d7:
 	if (*(int *)(arg_0 + 0x40) != 0x2) goto jmp_d988;
-	block_copy(&local_24, arg_1, 0xc);
+	block_copy(arg_1, &local_24, 0xc);
 	local_24 = (local_24 - *(int *)(arg_0 + 0x48));
 	*(int *)local_28 = (*(int *)local_28 - *(int *)(arg_0 + 0x4c));
 	local_30 = 0x0;
@@ -17365,7 +17379,7 @@ jmp_d8d7:
 	local_39 = 0xff;
 	local_3a = 0xff;
 	local_3b = 0xff;
-	block_copy(&local_3c, arg_1, 0xc);
+	block_copy(arg_1, &local_3c, 0xc);
 	local_3c = (local_3c - *(int *)(arg_0 + 0x48));
 	*(int *)local_40 = (*(int *)local_40 + *(int *)(arg_0 + 0x4c));
 	local_48 = 0x0;
@@ -17374,7 +17388,7 @@ jmp_d8d7:
 	local_51 = 0xff;
 	local_52 = 0xff;
 	local_53 = 0xff;
-	block_copy(&local_54, arg_1, 0xc);
+	block_copy(arg_1, &local_54, 0xc);
 	local_54 = (local_54 + *(int *)(arg_0 + 0x48));
 	*(int *)local_58 = (*(int *)local_58 + *(int *)(arg_0 + 0x4c));
 	local_60 = 0x3f800000;
@@ -17383,7 +17397,7 @@ jmp_d8d7:
 	local_69 = 0xff;
 	local_6a = 0xff;
 	local_6b = 0xff;
-	block_copy(&local_6c, arg_1, 0xc);
+	block_copy(arg_1, &local_6c, 0xc);
 	local_6c = (local_6c + *(int *)(arg_0 + 0x48));
 	*(int *)local_70 = (*(int *)local_70 - *(int *)(arg_0 + 0x4c));
 	local_78 = 0x3f800000;
@@ -17441,7 +17455,7 @@ jmp_daac:
 	local_1c = (local_1c + (bss_13bab4 * local_168));
 	local_20 = (local_20 + (bss_13bab8 * -local_dc));
 jmp_dafb:
-	block_copy(&local_24, &local_18, 0xc);
+	block_copy(&local_18, &local_24, 0xc);
 	local_30 = 0x0;
 	local_34 = 0x0;
 	local_38 = 0xff;
@@ -17460,7 +17474,7 @@ jmp_db3f:
 	local_1c = (local_1c + (bss_13baa8 * local_160));
 	local_20 = (local_20 + (bss_13baac * (0x40000000 * local_cc)));
 jmp_db65:
-	block_copy(&local_3c, &local_18, 0xc);
+	block_copy(&local_18, &local_3c, 0xc);
 	local_48 = 0x0;
 	local_4c = 0x3f800000;
 	local_50 = 0xff;
@@ -17479,7 +17493,7 @@ jmp_dba9:
 	local_1c = (local_1c + (bss_13bab4 * local_160));
 	local_20 = (local_20 + (bss_13bab8 * (0x40000000 * local_dc)));
 jmp_dbcf:
-	block_copy(&local_54, &local_18, 0xc);
+	block_copy(&local_18, &local_54, 0xc);
 	local_60 = 0x3f800000;
 	local_64 = 0x3f800000;
 	local_68 = 0xff;
@@ -17498,7 +17512,7 @@ jmp_dc13:
 	local_1c = (local_1c + (bss_13baa8 * local_160));
 	local_20 = (local_20 + (bss_13baac * (0xc0000000 * local_cc)));
 jmp_dc39:
-	block_copy(&local_6c, &local_18, 0xc);
+	block_copy(&local_18, &local_6c, 0xc);
 	local_78 = 0x3f800000;
 	local_7c = 0x0;
 	local_80 = 0xff;
@@ -17552,9 +17566,9 @@ void CG_AddParticles(void) {
 	if (initparticles != 0x0) goto jmp_dc90;
 	CG_ClearParticles();
 jmp_dc90:
-	block_copy(vforward, 0xdcd18, 0xc);
-	block_copy(&vright, 0xdcd24, 0xc);
-	block_copy(&vup, 0xdcd30, 0xc);
+	block_copy(&bss_dcd18, vforward, 0xc);
+	block_copy(&bss_dcd24, &vright, 0xc);
+	block_copy(&bss_dcd30, &vup, 0xc);
 	vectoangles(0xdcd18, local_40);
 	local_4c = 0x1c14;
 	*(int *)local_4c = (*(int *)local_4c + (0x3dcccccd * ((float)bss_dc760 - oldtime)));
@@ -17708,7 +17722,7 @@ jmp_df2e:
 	if (local_10 == 0x0) goto jmp_df44;
 	*(int *)(local_c + 0x20) = 0xc1200000;
 jmp_df44:
-	block_copy((local_c + 0xc), (arg_1 + 0x5c), 0xc);
+	block_copy((arg_1 + 0x5c), (local_c + 0xc), 0xc);
 	*(int *)local_28 = 0x0;
 	*(int *)(local_c + 0x1c) = *(int *)local_28;
 	*(int *)(local_c + 0x18) = *(int *)local_28;
@@ -17784,7 +17798,7 @@ jmp_e016:
 jmp_e086:
 	*(int *)(local_c + 0x40) = 0x1;
 jmp_e08c:
-	block_copy((local_c + 0xc), arg_1, 0xc);
+	block_copy(arg_1, (local_c + 0xc), 0xc);
 	local_1c = rand();
 	local_20 = (local_c + 0xc);
 	*(int *)local_20 = (*(int *)local_20 + ((0x40000000 * (((float)(local_1c & 0x7fff) / 0x46fffe00) - 0x3f000000)) * arg_4));
@@ -17870,7 +17884,7 @@ jmp_e171:
 jmp_e20a:
 	*(int *)(local_c + 0x40) = 0xd;
 jmp_e210:
-	block_copy((local_c + 0xc), arg_1, 0xc);
+	block_copy(arg_1, (local_c + 0xc), 0xc);
 	local_28 = rand();
 	local_2c = (local_c + 0xc);
 	*(int *)local_2c = (*(int *)local_2c + ((0x40000000 * (((float)(local_28 & 0x7fff) / 0x46fffe00) - 0x3f000000)) * arg_4));
@@ -17942,7 +17956,7 @@ jmp_e2f9:
 	*(int *)(local_c + 0x50) = 0x42000000;
 	*(int *)(local_c + 0x54) = 0x42000000;
 	*(int *)(local_c + 0x40) = 0x3;
-	block_copy((local_c + 0xc), (arg_1 + 0x5c), 0xc);
+	block_copy((arg_1 + 0x5c), (local_c + 0xc), 0xc);
 	*(int *)local_20 = 0x0;
 	*(int *)(local_c + 0x1c) = *(int *)local_20;
 	*(int *)(local_c + 0x18) = *(int *)local_20;
@@ -17995,7 +18009,7 @@ jmp_e3f8:
 	*(int *)(local_8 + 0x54) = 0x3f000000;
 	*(int *)(local_8 + 0x44) = *(int *)bss_1041f8;
 	*(int *)(local_8 + 0x40) = 0x3;
-	block_copy((local_8 + 0xc), arg_0, 0xc);
+	block_copy(arg_0, (local_8 + 0xc), 0xc);
 	*(int *)(local_8 + 0x18) = *(int *)arg_1;
 	*(int *)(local_8 + 0x1c) = *(int *)(arg_1 + 0x4);
 	*(int *)(local_8 + 0x20) = *(int *)(arg_1 + 0x8);
@@ -18071,8 +18085,8 @@ jmp_e55b:
 	*(int *)(local_14 + 0x54) = ((float)arg_5 * *(int *)((local_10 << 0x2) + 0x1b8c));
 	*(int *)(local_14 + 0x8) = (float)(bss_dc760 + arg_3);
 	*(int *)(local_14 + 0x40) = 0x6;
-	block_copy((local_14 + 0xc), arg_1, 0xc);
-	block_copy((local_14 + 0x18), arg_2, 0xc);
+	block_copy(arg_1, (local_14 + 0xc), 0xc);
+	block_copy(arg_2, (local_14 + 0x18), 0xc);
 	local_28 = 0x0;
 	*(int *)(local_14 + 0x2c) = local_28;
 	*(int *)(local_14 + 0x28) = local_28;
@@ -18284,7 +18298,7 @@ jmp_e765:
 	*(int *)(local_c + 0x54) = (0x40000000 * *(int *)(local_c + 0x4c));
 	*(int *)(local_c + 0x8) = (float)(bss_dc760 + 0x1f4);
 	*(int *)(local_c + 0x40) = 0xc;
-	block_copy((local_c + 0xc), arg_1, 0xc);
+	block_copy(arg_1, (local_c + 0xc), 0xc);
 	*(int *)(local_c + 0x18) = 0x0;
 	*(int *)(local_c + 0x1c) = 0x0;
 	*(int *)(local_c + 0x20) = 0x41a00000;
@@ -18340,7 +18354,7 @@ jmp_e8a8:
 	*(int *)(local_c + 0x50) = (float)((*(int *)local_1c %% 0x3) + 0x4);
 	*(int *)(local_c + 0x54) = *(int *)(local_c + 0x50);
 	*(int *)(local_c + 0x40) = 0x3;
-	block_copy((local_c + 0xc), arg_1, 0xc);
+	block_copy(arg_1, (local_c + 0xc), 0xc);
 	*(int *)(local_c + 0x18) = 0x0;
 	*(int *)(local_c + 0x1c) = 0x0;
 	*(int *)(local_c + 0x20) = 0xc1a00000;
@@ -18403,7 +18417,7 @@ jmp_e956:
 	*(int *)(local_c + 0x50) = 0x40400000;
 	*(int *)(local_c + 0x54) = 0x3f800000;
 	*(int *)(local_c + 0x40) = 0x3;
-	block_copy((local_c + 0xc), (arg_1 + 0x5c), 0xc);
+	block_copy((arg_1 + 0x5c), (local_c + 0xc), 0xc);
 	*(int *)(local_c + 0x18) = (*(int *)(arg_1 + 0x68) * (0x41800000 * local_10));
 	*(int *)(local_c + 0x1c) = (*(int *)(arg_1 + 0x6c) * (0x41800000 * local_10));
 	*(int *)(local_c + 0x20) = *(int *)(arg_1 + 0x70);
@@ -18479,7 +18493,7 @@ jmp_eae5:
 jmp_eafd:
 	*(int *)(local_c + 0x40) = 0x9;
 	*(int *)(local_c + 0x68) = 0x1;
-	block_copy((local_c + 0xc), (arg_1 + 0x5c), 0xc);
+	block_copy((arg_1 + 0x5c), (local_c + 0xc), 0xc);
 	local_28 = rand();
 	*(int *)local_2c = (local_c + 0x14);
 	*(int *)*(int *)local_2c = (*(int *)*(int *)local_2c + ((0x3f000000 * (0x40000000 * (((float)(local_28 & 0x7fff) / 0x46fffe00) - 0x3f000000))) + 0x3f0ccccd));
@@ -18663,7 +18677,7 @@ jmp_ece3:
 	if (free_particles != 0x0) goto jmp_ece9;
 	goto jmp_edd5;
 jmp_ece9:
-	block_copy(local_14, (arg_2 + 0xc), 0xc);
+	block_copy((arg_2 + 0xc), local_14, 0xc);
 	local_24 = ValidBloodPool(local_14);
 	local_20 = local_24;
 	if (local_20 != 0x0) goto jmp_ecff;
@@ -18688,7 +18702,7 @@ jmp_ecff:
 	*(int *)(local_c + 0x50) = (0x41800000 * local_10);
 	*(int *)(local_c + 0x54) = (0x41800000 * local_10);
 	*(int *)(local_c + 0x40) = 0x9;
-	block_copy((local_c + 0xc), local_14, 0xc);
+	block_copy(local_14, (local_c + 0xc), 0xc);
 	*(int *)(local_c + 0x18) = 0x0;
 	*(int *)(local_c + 0x1c) = 0x0;
 	*(int *)(local_c + 0x20) = 0x0;
@@ -18751,7 +18765,7 @@ jmp_ee10:
 	if (local_3c >= 0x3f800000) goto jmp_ee17;
 	local_3c = 0x3f800000;
 jmp_ee17:
-	block_copy(&local_1c, arg_1, 0xc);
+	block_copy(arg_1, &local_1c, 0xc);
 	local_38 = 0x0;
 	goto jmp_ef14;
 jmp_ee20:
@@ -18779,7 +18793,7 @@ jmp_ee44:
 	*(int *)(local_18 + 0x50) = 0x42000000;
 	*(int *)(local_18 + 0x54) = 0x42000000;
 	*(int *)(local_18 + 0x40) = 0x3;
-	block_copy((local_18 + 0xc), arg_1, 0xc);
+	block_copy(arg_1, (local_18 + 0xc), 0xc);
 	*(int *)(local_18 + 0x18) = 0x0;
 	*(int *)(local_18 + 0x1c) = 0x0;
 	*(int *)(local_18 + 0x20) = 0xbf800000;
@@ -18845,7 +18859,7 @@ jmp_ef27:
 	*(int *)(local_8 + 0x54) = 0x3f000000;
 	*(int *)(local_8 + 0x44) = *(int *)bss_1041f8;
 	*(int *)(local_8 + 0x40) = 0x3;
-	block_copy((local_8 + 0xc), arg_0, 0xc);
+	block_copy(arg_0, (local_8 + 0xc), 0xc);
 	local_18 = rand();
 	local_1c = (local_8 + 0xc);
 	*(int *)local_1c = (*(int *)local_1c + ((0x40000000 * (((float)(local_18 & 0x7fff) / 0x46fffe00) - 0x3f000000)) * arg_3));
@@ -18935,7 +18949,7 @@ jmp_f0f5:
 	if (local_40 >= 0x3f800000) goto jmp_f0fc;
 	local_40 = 0x3f800000;
 jmp_f0fc:
-	block_copy(&local_1c, arg_1, 0xc);
+	block_copy(arg_1, &local_1c, 0xc);
 	local_3c = 0x0;
 	goto jmp_f29e;
 jmp_f105:
@@ -18977,7 +18991,7 @@ jmp_f19f:
 	*(int *)(local_18 + 0x54) = 0x41800000;
 jmp_f1eb:
 	*(int *)(local_18 + 0x40) = 0x3;
-	block_copy((local_18 + 0xc), &local_1c, 0xc);
+	block_copy(&local_1c, (local_18 + 0xc), 0xc);
 	local_7c = rand();
 	*(int *)(local_18 + 0x18) = (0x40c00000 * (0x40000000 * (((float)(local_7c & 0x7fff) / 0x46fffe00) - 0x3f000000)));
 	local_80 = rand();
@@ -19047,7 +19061,7 @@ jmp_f312:
 	*(int *)(local_c + 0x50) = (float)arg_2;
 	*(int *)(local_c + 0x54) = (float)arg_2;
 	*(int *)(local_c + 0x40) = 0xf;
-	block_copy((local_c + 0xc), arg_1, 0xc);
+	block_copy(arg_1, (local_c + 0xc), 0xc);
 	*(int *)(local_c + 0x64) = 0x0;
 jmp_f34d:
 }
@@ -19946,7 +19960,7 @@ void CG_CopyClientInfoModel(int arg_0, int arg_1) {
 	arg_0 = arg_0;
 	arg_1 = arg_1;
 	local_14 = 0x1f8;
-	block_copy((arg_1 + local_14), (arg_0 + local_14), 0xc);
+	block_copy((arg_0 + local_14), (arg_1 + local_14), 0xc);
 	local_18 = 0x204;
 	*(int *)(arg_1 + local_18) = *(int *)(arg_0 + local_18);
 	local_1c = 0x208;
@@ -20449,7 +20463,7 @@ jmp_1077c:
 	CG_LoadClientInfo(arg_0, &local_14);
 jmp_10784:
 	local_14 = 0x1;
-	block_copy(local_6d4, &local_14, 0x6b4);
+	block_copy(&local_14, local_6d4, 0x6b4);
 jmp_1078b:
 }
 
@@ -20843,7 +20857,7 @@ void CG_PlayerAngles(int arg_0, int arg_1, int arg_2, int arg_3) {
 	int		local_b8;
 
 	arg_0 = arg_0;
-	block_copy(&local_38, (arg_0 + 0x2c0), 0xc);
+	block_copy((arg_0 + 0x2c0), &local_38, 0xc);
 	local_64 = AngleMod(*(int *)local_3c);
 	*(int *)local_3c = local_64;
 	local_68 = 0x0;
@@ -20895,7 +20909,7 @@ jmp_10d29:
 	if (*(int *)(local_60 + 0x1f4) == 0x0) goto jmp_10d67;
 	local_20 = 0x0;
 jmp_10d67:
-	block_copy(&local_48, (arg_0 + 0x24), 0xc);
+	block_copy((arg_0 + 0x24), &local_48, 0xc);
 	local_90 = VectorNormalize(&local_48);
 	local_58 = local_90;
 	if (local_58 == 0x0) goto jmp_10dc2;
@@ -20958,7 +20972,7 @@ jmp_10e45:
 	if (*(int *)(arg_0 + 0x1b4) >= bss_dc760) goto jmp_10e62;
 	*(int *)(arg_0 + 0x1b4) = bss_dc760;
 jmp_10e62:
-	block_copy(local_38, (arg_0 + 0x2b4), 0xc);
+	block_copy((arg_0 + 0x2b4), local_38, 0xc);
 	local_40 = (local_40 - 0x41800000);
 #define next_call_arg_0 "local_38"
 #define next_call_arg_1 "0x1d5c"
@@ -21006,7 +21020,7 @@ void CG_TrailItem(int arg_0, int arg_1) {
 	int		local_d0;
 
 	arg_0 = arg_0;
-	block_copy(&local_a0, (arg_0 + 0x2c0), 0xc);
+	block_copy((arg_0 + 0x2c0), &local_a0, 0xc);
 	local_d0 = 0x0;
 	local_a0 = local_d0;
 	local_a8 = local_d0;
@@ -21077,7 +21091,7 @@ void CG_PlayerFlag(int arg_0, int arg_1, int arg_2) {
 	arg_2 = arg_2;
 	memset(&local_20, 0x0, 0x8c);
 	local_28 = bss_104174;
-	block_copy(local_2c, (arg_2 + 0xc), 0xc);
+	block_copy((arg_2 + 0xc), local_2c, 0xc);
 	local_38 = *(int *)(arg_2 + 0x18);
 	local_24 = *(int *)(arg_2 + 0x4);
 	CG_PositionEntityOnTag(&local_20, arg_2, *(int *)(arg_2 + 0x8), 0x6278);
@@ -21085,7 +21099,7 @@ void CG_PlayerFlag(int arg_0, int arg_1, int arg_2) {
 	memset(&local_ac, 0x0, 0x8c);
 	local_b4 = bss_104178;
 	*(int *)local_118 = arg_1;
-	block_copy(local_b8, (arg_2 + 0xc), 0xc);
+	block_copy((arg_2 + 0xc), local_b8, 0xc);
 	local_c4 = *(int *)(arg_2 + 0x18);
 	local_b0 = *(int *)(arg_2 + 0x4);
 	*(int *)local_16c = 0x0;
@@ -21111,7 +21125,7 @@ jmp_10fa8:
 	local_158 = 0x1;
 jmp_10fae:
 	if (local_158 == 0x0) goto jmp_11064;
-	block_copy(&local_144, (arg_0 + 0x24), 0xc);
+	block_copy((arg_0 + 0x24), &local_144, 0xc);
 	local_14c = (local_14c + 0x42c80000);
 	VectorNormalize(&local_144);
 	local_154 = (((local_54 * local_144) + (local_58 * local_148)) + (*(int *)local_5c * local_14c));
@@ -21272,7 +21286,7 @@ jmp_111f9:
 	local_a0 = 0x0;
 jmp_111fc:
 	memset(&local_14, 0x0, 0x8c);
-	block_copy(local_58, (arg_0 + 0x2b4), 0xc);
+	block_copy((arg_0 + 0x2b4), local_58, 0xc);
 	*(int *)local_60 = (*(int *)local_60 + 0x42400000);
 	local_14 = 0x2;
 	local_84 = arg_1;
@@ -21367,8 +21381,8 @@ int CG_PlayerShadow(int arg_0, int arg_1) {
 	char	local_94[8];
 
 	arg_0 = arg_0;
-	block_copy(local_7c, 0x1cb8, 0xc);
-	block_copy(local_88, 0x1cc4, 0xc);
+	block_copy(global_1cb8, local_7c, 0xc);
+	block_copy(global_1cc4, local_88, 0xc);
 	*(int *)arg_1 = 0x0;
 	if (*(int *)bss_ca58 != 0x0) goto jmp_11323;
 	return 0x0;
@@ -21376,7 +21390,7 @@ jmp_11323:
 	if ((*(int *)(arg_0 + 0xbc) & 0x10) == 0x0) goto jmp_11330;
 	return 0x0;
 jmp_11330:
-	block_copy(local_70, (arg_0 + 0x2b4), 0xc);
+	block_copy((arg_0 + 0x2b4), local_70, 0xc);
 	local_78 = (local_78 - 0x43000000);
 	trap_CM_BoxTrace(&local_34, (arg_0 + 0x2b4), local_70, local_7c, local_88, 0x0, 0x2010001);
 	if (local_3c == 0x3f800000) goto jmp_11361;
@@ -21454,14 +21468,14 @@ void CG_PlayerSplash(int arg_0) {
 	if (*(int *)bss_ca58 != 0x0) goto jmp_113a6;
 	goto jmp_11495;
 jmp_113a6:
-	block_copy(local_c8, (arg_0 + 0x2b4), 0xc);
+	block_copy((arg_0 + 0x2b4), local_c8, 0xc);
 	local_d0 = (local_d0 - 0x41c00000);
 	local_d8 = CG_PointContents(local_c8, 0x0);
 	local_d4 = local_d8;
 	if ((local_d4 & 0x38) != 0x0) goto jmp_113c6;
 	goto jmp_11495;
 jmp_113c6:
-	block_copy(local_bc, (arg_0 + 0x2b4), 0xc);
+	block_copy((arg_0 + 0x2b4), local_bc, 0xc);
 	local_c4 = (local_c4 + 0x42000000);
 	local_dc = CG_PointContents(local_bc, 0x0);
 	local_d4 = local_dc;
@@ -21480,7 +21494,7 @@ jmp_113e6:
 	if (local_8c != 0x3f800000) goto jmp_11402;
 	goto jmp_11495;
 jmp_11402:
-	block_copy(&local_24, local_90, 0xc);
+	block_copy(local_90, &local_24, 0xc);
 	local_e4 = 0x42000000;
 	local_24 = (local_24 - local_e4);
 	*(int *)local_28 = (*(int *)local_28 - local_e4);
@@ -21490,7 +21504,7 @@ jmp_11402:
 	local_39 = 0xff;
 	local_3a = 0xff;
 	local_3b = 0xff;
-	block_copy(&local_3c, local_90, 0xc);
+	block_copy(local_90, &local_3c, 0xc);
 	local_3c = (local_3c - 0x42000000);
 	*(int *)local_40 = (*(int *)local_40 + 0x42000000);
 	local_48 = 0x0;
@@ -21499,7 +21513,7 @@ jmp_11402:
 	local_51 = 0xff;
 	local_52 = 0xff;
 	local_53 = 0xff;
-	block_copy(&local_54, local_90, 0xc);
+	block_copy(local_90, &local_54, 0xc);
 	local_54 = (local_54 + 0x42000000);
 	*(int *)local_58 = (*(int *)local_58 + 0x42000000);
 	local_60 = 0x3f800000;
@@ -21508,7 +21522,7 @@ jmp_11402:
 	local_69 = 0xff;
 	local_6a = 0xff;
 	local_6b = 0xff;
-	block_copy(&local_6c, local_90, 0xc);
+	block_copy(local_90, &local_6c, 0xc);
 	local_6c = (local_6c + 0x42000000);
 	*(int *)local_70 = (*(int *)local_70 - 0x42000000);
 	local_78 = 0x3f800000;
@@ -21736,11 +21750,11 @@ jmp_116ea:
 	local_1cc = (local_1cc | 0x80);
 	local_2c = *(int *)(local_13c + 0x20c);
 	*(int *)local_90 = *(int *)(local_13c + 0x210);
-	block_copy(local_68, (arg_0 + 0x2b4), 0xc);
-	block_copy(local_30, (arg_0 + 0x2b4), 0xc);
+	block_copy((arg_0 + 0x2b4), local_68, 0xc);
+	block_copy((arg_0 + 0x2b4), local_30, 0xc);
 	local_3c = local_1d4;
 	local_28 = local_1cc;
-	block_copy(local_78, local_68, 0xc);
+	block_copy(local_68, local_78, 0xc);
 	CG_AddRefEntityWithPowerups(&local_24, arg_0, *(int *)(local_13c + 0x44));
 	if (local_2c != 0x0) goto jmp_11729;
 	goto jmp_117bf;
@@ -21750,7 +21764,7 @@ jmp_11729:
 	goto jmp_117bf;
 jmp_11736:
 	*(int *)local_11c = *(int *)(local_13c + 0x218);
-	block_copy(local_bc, (arg_0 + 0x2b4), 0xc);
+	block_copy((arg_0 + 0x2b4), local_bc, 0xc);
 	CG_PositionRotatedEntityOnTag(&local_b0, &local_24, *(int *)(local_13c + 0x20c), 0x614e);
 	local_c8 = local_1d4;
 	local_b4 = local_1cc;
@@ -21760,7 +21774,7 @@ jmp_11736:
 	goto jmp_117bf;
 jmp_11775:
 	*(int *)local_1ac = *(int *)(local_13c + 0x220);
-	block_copy(local_14c, (arg_0 + 0x2b4), 0xc);
+	block_copy((arg_0 + 0x2b4), local_14c, 0xc);
 	CG_PositionRotatedEntityOnTag(&local_140, &local_b0, *(int *)(local_13c + 0x214), 0x6145);
 	local_158 = local_1d4;
 	local_144 = local_1cc;
@@ -21789,8 +21803,8 @@ void CG_ResetPlayerEntity(int arg_0) {
 	CG_ClearLerpFrame(((0x6b4 * *(int *)(arg_0 + 0xa8)) + 0xe8c24), (arg_0 + 0x1f4), *(int *)(arg_0 + 0xc8));
 	BG_EvaluateTrajectory((arg_0 + 0xc), bss_dc760, (arg_0 + 0x2b4));
 	BG_EvaluateTrajectory((arg_0 + 0x30), bss_dc760, (arg_0 + 0x2c0));
-	block_copy((arg_0 + 0x290), (arg_0 + 0x2b4), 0xc);
-	block_copy((arg_0 + 0x29c), (arg_0 + 0x2c0), 0xc);
+	block_copy((arg_0 + 0x2b4), (arg_0 + 0x290), 0xc);
+	block_copy((arg_0 + 0x2c0), (arg_0 + 0x29c), 0xc);
 	memset((arg_0 + 0x1c4), 0x0, 0x30);
 	*(int *)(arg_0 + 0x1d8) = *(int *)(arg_0 + 0x2a0);
 	*(int *)(arg_0 + 0x1dc) = 0x0;
@@ -22327,7 +22341,7 @@ void CG_TransitionPlayerState(int arg_0, int arg_1) {
 	*(int *)local_14 = 0x8c;
 	if (*(int *)(arg_0 + *(int *)local_14) == *(int *)(arg_1 + *(int *)local_14)) goto jmp_11fc5;
 	bss_dc754 = 0x1;
-	block_copy(arg_1, arg_0, 0x1d4);
+	block_copy(arg_0, arg_1, 0x1d4);
 jmp_11fc5:
 	local_1c = 0xa8;
 	if (*(int *)(arg_0 + local_1c) == *(int *)(arg_1 + local_1c)) goto jmp_11ff1;
@@ -22466,7 +22480,7 @@ jmp_12125:
 	if (*(int *)(local_2c + 0xb0) != 0xffffff) goto jmp_1214f;
 	local_b0 = trap_CM_InlineModel(*(int *)(local_2c + 0xa0));
 	local_70 = local_b0;
-	block_copy(local_98, (local_68 + 0x2c0), 0xc);
+	block_copy((local_68 + 0x2c0), local_98, 0xc);
 	BG_EvaluateTrajectory((local_68 + 0xc), bss_dc768, local_8c);
 	goto jmp_121b1;
 jmp_1214f:
@@ -22485,15 +22499,15 @@ jmp_1214f:
 	local_88 = (float)local_ac;
 	local_c0 = trap_CM_TempBoxModel(&local_74, &local_80);
 	local_70 = local_c0;
-	block_copy(local_98, 0x1d5c, 0xc);
-	block_copy(local_8c, (local_68 + 0x2b4), 0xc);
+	block_copy(&vec3_origin, local_98, 0xc);
+	block_copy((local_68 + 0x2b4), local_8c, 0xc);
 jmp_121b1:
 	trap_CM_TransformedBoxTrace(&local_30, arg_0, arg_3, arg_1, arg_2, local_70, arg_5, local_8c, local_98);
 	if (local_30 != 0x0) goto jmp_121d8;
 	if (*(int *)local_38 >= *(int *)(arg_6 + 0x8)) goto jmp_121e3;
 jmp_121d8:
 	local_64 = *(int *)local_2c;
-	block_copy(arg_6, &local_30, 0x38);
+	block_copy(&local_30, arg_6, 0x38);
 	goto jmp_121ed;
 jmp_121e3:
 	if (local_34 == 0x0) goto jmp_121ed;
@@ -22533,7 +22547,7 @@ jmp_12221:
 jmp_12224:
 	local_58 = local_5c;
 	CG_ClipMoveToEntities(arg_1, arg_2, arg_3, arg_4, arg_5, arg_6, local_24);
-	block_copy(arg_0, local_24, 0x38);
+	block_copy(local_24, arg_0, 0x38);
 }
 
 /*
@@ -22618,7 +22632,7 @@ void CG_InterpolatePlayerState(int arg_0) {
 	local_20 = 0xdc780;
 	local_18 = bss_c2330;
 	local_1c = *(int *)bss_c2334;
-	block_copy(local_20, (bss_c2330 + 0x2c), 0x1d4);
+	block_copy((bss_c2330 + 0x2c), local_20, 0x1d4);
 	if (arg_0 == 0x0) goto jmp_122f0;
 	local_44 = trap_GetCurrentCmdNumber();
 	local_40 = local_44;
@@ -22840,7 +22854,7 @@ void CG_PredictPlayerState(void) {
 	bss_dc77c = 0x0;
 	if (bss_dcc20 != 0x0) goto jmp_12587;
 	bss_dcc20 = 0x1;
-	block_copy(&bss_dc780, (bss_c2330 + 0x2c), 0x1d4);
+	block_copy((bss_c2330 + 0x2c), &bss_dc780, 0x1d4);
 jmp_12587:
 	local_234 = 0x0;
 	if (bss_c2314 != local_234) goto jmp_12599;
@@ -22876,7 +22890,7 @@ jmp_125e9:
 	local_23c = 0x0;
 jmp_125ec:
 	bss_15d300 = local_23c;
-	block_copy(local_28, 0xdc780, 0x1d4);
+	block_copy(&bss_dc780, local_28, 0x1d4);
 	local_240 = trap_GetCurrentCmdNumber();
 	local_1fc = local_240;
 	local_24 = ((local_1fc - 0x40) + 0x1);
@@ -22893,11 +22907,11 @@ jmp_12627:
 	local_248 = 0x0;
 	if (bss_dc758 != local_248) goto jmp_1264f;
 	if (bss_dc754 != local_248) goto jmp_1264f;
-	block_copy(&bss_dc780, (*(int *)bss_c2334 + 0x2c), 0x1d4);
+	block_copy((*(int *)bss_c2334 + 0x2c), &bss_dc780, 0x1d4);
 	bss_dc768 = *(int *)(*(int *)bss_c2334 + 0x8);
 	goto jmp_1265c;
 jmp_1264f:
-	block_copy(&bss_dc780, (bss_c2330 + 0x2c), 0x1d4);
+	block_copy((bss_c2330 + 0x2c), &bss_dc780, 0x1d4);
 	bss_dc768 = *(int *)(bss_c2330 + 0x8);
 jmp_1265c:
 	if (*(int *)bss_8548 >= 0x8) goto jmp_1266e;
@@ -24589,8 +24603,8 @@ void CG_ResetEntity(int arg_0) {
 	*(int *)(arg_0 + 0x1ac) = 0x0;
 jmp_13cb8:
 	*(int *)(arg_0 + 0x1b4) = *(int *)(bss_c2330 + 0x8);
-	block_copy((arg_0 + 0x2b4), (arg_0 + 0x5c), 0xc);
-	block_copy((arg_0 + 0x2c0), (arg_0 + 0x74), 0xc);
+	block_copy((arg_0 + 0x5c), (arg_0 + 0x2b4), 0xc);
+	block_copy((arg_0 + 0x74), (arg_0 + 0x2c0), 0xc);
 	if (*(int *)(arg_0 + 0x4) != 0x1) goto jmp_13ce1;
 	CG_ResetPlayerEntity(arg_0);
 jmp_13ce1:
@@ -24609,7 +24623,7 @@ Called by: CG_TransitionSnapshot
 void CG_TransitionEntity(int arg_0) {
 
 	arg_0 = arg_0;
-	block_copy(arg_0, (arg_0 + 0xd0), 0xd0);
+	block_copy((arg_0 + 0xd0), arg_0, 0xd0);
 	*(int *)(arg_0 + 0x1a4) = 0x1;
 	if (*(int *)(arg_0 + 0x1a0) != 0x0) goto jmp_13d02;
 	CG_ResetEntity(arg_0);
@@ -25069,10 +25083,10 @@ void CG_AddTestModel(void) {
 	goto jmp_14201;
 jmp_1418e:
 	if (bss_dec14 == 0x0) goto jmp_141fc;
-	block_copy(&bss_deb8c, 0xdcd0c, 0xc);
-	block_copy(bss_deb64, 0xdcd18, 0xc);
-	block_copy(bss_deb70, 0xdcd24, 0xc);
-	block_copy(bss_deb7c, 0xdcd30, 0xc);
+	block_copy(&bss_dcd0c, &bss_deb8c, 0xc);
+	block_copy(&bss_dcd18, bss_deb64, 0xc);
+	block_copy(&bss_dcd24, bss_deb70, 0xc);
+	block_copy(&bss_dcd30, bss_deb7c, 0xc);
 	local_c = 0x0;
 jmp_141a1:
 	local_14 = (local_c << 0x2);
@@ -25177,7 +25191,7 @@ void CG_OffsetThirdPersonView(void) {
 
 	local_b0 = 0xdcd14;
 	*(int *)local_b0 = (*(int *)local_b0 + (float)*(int *)bss_dc824);
-	block_copy(&local_54, 0xdce64, 0xc);
+	block_copy(&bss_dce64, &local_54, 0xc);
 	if (*(int *)bss_dc838 > 0x0) goto jmp_1428f;
 	*(int *)local_58 = (float)*(int *)bss_dc848;
 	*(int *)bss_dce68 = (float)*(int *)bss_dc848;
@@ -25195,7 +25209,7 @@ jmp_14296:
 	local_30 = (bss_dcd0c + (local_b8 * local_3c));
 	local_34 = (bss_dcd10 + (local_b8 * local_40));
 	local_38 = (bss_dcd14 + (0x44000000 * local_44));
-	block_copy(&local_24, 0xdcd0c, 0xc);
+	block_copy(&bss_dcd0c, &local_24, 0xc);
 	local_2c = (local_2c + 0x41000000);
 	local_bc = 0xdce64;
 	*(int *)local_bc = (0x3f000000 * *(int *)local_bc);
@@ -25213,12 +25227,12 @@ jmp_14296:
 	if (*(int *)bss_7ee8 != 0x0) goto jmp_14394;
 	CG_Trace(local_6c, 0xdcd0c, 0x1ce4, 0x1cf0, &local_24, bss_dc80c, 0x1);
 	if (local_74 == 0x3f800000) goto jmp_14394;
-	block_copy(&local_24, local_78, 0xc);
+	block_copy(local_78, &local_24, 0xc);
 	local_2c = (local_2c + (0x42000000 * (0x3f800000 - local_74)));
 	CG_Trace(local_6c, 0xdcd0c, 0x1ce4, 0x1cf0, &local_24, bss_dc80c, 0x1);
-	block_copy(&local_24, local_78, 0xc);
+	block_copy(local_78, &local_24, 0xc);
 jmp_14394:
-	block_copy(&bss_dcd0c, &local_24, 0xc);
+	block_copy(&local_24, &bss_dcd0c, 0xc);
 	local_30 = (local_30 - bss_dcd0c);
 	local_34 = (local_34 - bss_dcd10);
 	local_38 = (local_38 - bss_dcd14);
@@ -25312,7 +25326,7 @@ jmp_1447f:
 	local_38 = (local_c + 0x8);
 	*(int *)local_38 = (*(int *)local_38 + (local_28 * bss_deb34));
 jmp_144ab:
-	block_copy(&local_10, 0xdc7a0, 0xc);
+	block_copy(bss_dc7a0, &local_10, 0xc);
 	local_8 = (((local_10 * bss_dcd18) + (local_14 * bss_dcd1c)) + (local_18 * bss_dcd20));
 	*(int *)local_c = (*(int *)local_c + (local_8 * *(int *)bss_d0b4));
 	local_8 = (((local_10 * bss_dcd24) + (local_14 * bss_dcd28)) + (local_18 * bss_dcd2c));
@@ -25598,8 +25612,8 @@ int CG_CalcViewValues(void) {
 	CG_CalcVrect();
 	local_14 = 0xdc780;
 	if (*(int *)(local_14 + 0x4) != 0x5) goto jmp_1482c;
-	block_copy(&bss_dcd0c, (local_14 + 0x14), 0xc);
-	block_copy(&bss_dce64, (local_14 + 0x98), 0xc);
+	block_copy((local_14 + 0x14), &bss_dcd0c, 0xc);
+	block_copy((local_14 + 0x98), &bss_dce64, 0xc);
 	AnglesToAxis(0xdce64, 0xdcd18);
 	local_18 = CG_CalcFov();
 	return local_18;
@@ -25612,8 +25626,8 @@ jmp_1482c:
 	local_28 = *(int *)(local_14 + 0x24);
 	local_2c = sqrt(((local_24 * local_24) + (local_28 * local_28)));
 	bss_deb40 = local_2c;
-	block_copy(&bss_dcd0c, (local_14 + 0x14), 0xc);
-	block_copy(&bss_dce64, (local_14 + 0x98), 0xc);
+	block_copy((local_14 + 0x14), &bss_dcd0c, 0xc);
+	block_copy((local_14 + 0x98), &bss_dce64, 0xc);
 	if (*(int *)bss_8438 == 0x0) goto jmp_1489d;
 	if (bss_dc760 <= *(int *)bss_deb44) goto jmp_1489d;
 	*(int *)bss_deb44 = (bss_dc760 + *(int *)bss_8328);
@@ -25902,7 +25916,7 @@ jmp_14b0e:
 	*(int *)(local_50 + 0x44) = (*(int *)(arg_0 + 0x2b4) + local_60);
 	*(int *)(local_50 + 0x48) = (*(int *)(arg_0 + 0x2b8) + local_64);
 	*(int *)(local_50 + 0x4c) = (*(int *)(arg_0 + 0x2bc) + local_68);
-	block_copy((local_10 + 0x2c), (local_50 + 0x44), 0xc);
+	block_copy((local_50 + 0x44), (local_10 + 0x2c), 0xc);
 	local_8c = CG_PointContents((local_50 + 0x44), 0xffffffff);
 	if ((local_8c & 0x20) == 0x0) goto jmp_14c21;
 	local_6c = 0x3dcccccd;
@@ -26019,7 +26033,7 @@ jmp_14d57:
 	*(int *)(local_50 + 0x44) = (*(int *)(arg_0 + 0x2b4) + local_60);
 	*(int *)(local_50 + 0x48) = (*(int *)(arg_0 + 0x2b8) + local_64);
 	*(int *)(local_50 + 0x4c) = (*(int *)(arg_0 + 0x2bc) + local_68);
-	block_copy((local_10 + 0x2c), (local_50 + 0x44), 0xc);
+	block_copy((local_50 + 0x44), (local_10 + 0x2c), 0xc);
 	local_8c = CG_PointContents((local_50 + 0x44), 0xffffffff);
 	if ((local_8c & 0x20) == 0x0) goto jmp_14e3b;
 	local_70 = 0x3dcccccd;
@@ -26129,8 +26143,8 @@ void CG_RailTrail(int arg_0, int arg_1, int arg_2) {
 	*(int *)(local_2c + 0x80) = ((float)bss_dc760 / 0x447a0000);
 	*(int *)local_2c = 0x4;
 	*(int *)(local_2c + 0x70) = bss_1041dc;
-	block_copy((local_2c + 0x44), arg_1, 0xc);
-	block_copy((local_2c + 0x54), arg_2, 0xc);
+	block_copy(arg_1, (local_2c + 0x44), 0xc);
+	block_copy(arg_2, (local_2c + 0x54), 0xc);
 	local_224 = (0x437f0000 * *(int *)(arg_0 + 0x4c));
 	local_228 = 0x4f000000;
 	if (local_224 < local_228) goto jmp_14fa9;
@@ -26171,7 +26185,7 @@ jmp_15000:
 	*(int *)local_248 = (*(int *)local_248 - 0x41000000);
 	goto jmp_152b3;
 jmp_15061:
-	block_copy(&local_20, arg_1, 0xc);
+	block_copy(arg_1, &local_20, 0xc);
 	local_30 = (*(int *)arg_2 - *(int *)arg_1);
 	local_24c = 0x4;
 	local_34 = (*(int *)(arg_2 + local_24c) - *(int *)(arg_1 + local_24c));
@@ -26246,13 +26260,13 @@ jmp_151e2:
 	*(int *)(local_18 + 0x78) = 0x3f800000;
 	*(int *)(local_18 + 0x20) = 0x2;
 	*(int *)(local_18 + 0x24) = bss_dc760;
-	block_copy(&local_1f0, &local_20, 0xc);
+	block_copy(&local_20, &local_1f0, 0xc);
 	local_290 = 0x40800000;
 	local_294 = (0xc * local_3c);
 	local_1f0 = (local_1f0 + (local_290 * *(int *)(local_294 + &local_40)));
 	local_1f4 = (local_1f4 + (local_290 * *(int *)(local_294 + &local_44)));
 	local_1f8 = (local_1f8 + (0x40800000 * *(int *)((0xc * local_3c) + local_48)));
-	block_copy((local_18 + 0x2c), &local_1f0, 0xc);
+	block_copy(&local_1f0, (local_18 + 0x2c), 0xc);
 	*(int *)(local_18 + 0x38) = (0x40c00000 * *(int *)((0xc * local_3c) + &local_40));
 	*(int *)(local_18 + 0x3c) = (0x40c00000 * *(int *)((0xc * local_3c) + &local_44));
 	*(int *)(local_18 + 0x40) = (0x40c00000 * *(int *)((0xc * local_3c) + local_48));
@@ -26449,7 +26463,7 @@ jmp_153c3:
 	*(int *)(local_3c + 0x44) = (local_74 + local_64);
 	*(int *)(local_3c + 0x48) = (local_78 + local_68);
 	*(int *)(local_3c + 0x4c) = (local_7c + local_6c);
-	block_copy((local_14 + 0x2c), (local_3c + 0x44), 0xc);
+	block_copy((local_3c + 0x44), (local_14 + 0x2c), 0xc);
 	local_a4 = CG_PointContents((local_3c + 0x44), 0xffffffff);
 	if ((local_a4 & 0x20) == 0x0) goto jmp_154e9;
 	local_70 = 0x3dcccccd;
@@ -26548,13 +26562,13 @@ void CG_GrappleTrail(int arg_0) {
 	BG_EvaluateTrajectory((local_bc + 0xc), bss_dc760, local_b0);
 	*(int *)(arg_0 + 0x1b4) = bss_dc760;
 	memset(local_18, 0x0, 0x8c);
-	block_copy(&local_5c, ((0x2cc * *(int *)(arg_0 + 0x8c)) + 0xf5c0), 0xc);
+	block_copy(((0x2cc * *(int *)(arg_0 + 0x8c)) + 0xf5c0), &local_5c, 0xc);
 	*(int *)local_64 = (*(int *)local_64 + 0x41d00000);
 	AngleVectors(((0x2cc * *(int *)(arg_0 + 0x8c)) + 0xf5cc), local_c0, 0x0, &local_a4);
 	local_5c = (local_5c + (0xc0c00000 * local_a4));
 	local_60 = (local_60 + (0xc0c00000 * local_a8));
 	*(int *)local_64 = (*(int *)local_64 + (0xc0c00000 * local_ac));
-	block_copy(local_6c, local_b0, 0xc);
+	block_copy(local_b0, local_6c, 0xc);
 	local_cc = Distance(&local_5c, local_6c);
 	if (local_cc >= 0x42800000) goto jmp_156db;
 	goto jmp_156f8;
@@ -26983,8 +26997,8 @@ void CG_CalculateWeaponPosition(int arg_0, int arg_1) {
 	char	local_2c[8];
 
 	arg_1 = arg_1;
-	block_copy(arg_0, 0xdcd0c, 0xc);
-	block_copy(arg_1, 0xdce64, 0xc);
+	block_copy(&bss_dcd0c, arg_0, 0xc);
+	block_copy(&bss_dce64, arg_1, 0xc);
 	if ((bss_deb3c & 0x1) == 0x0) goto jmp_15d47;
 	local_c = -bss_deb40;
 	goto jmp_15d4b;
@@ -27101,7 +27115,7 @@ jmp_15ea6:
 #define next_call_arg_2 "local_120"
 #define next_call_arg_3 "local_120"
 	AngleVectors();
-	block_copy(&local_b0, (arg_0 + 0x2b4), 0xc);
+	block_copy((arg_0 + 0x2b4), &local_b0, 0xc);
 	goto jmp_15ee1;
 jmp_15ec8:
 #define next_call_arg_0 "(arg_0 + 0x2c0)"
@@ -27110,7 +27124,7 @@ jmp_15ec8:
 #define next_call_arg_2 "local_110"
 #define next_call_arg_3 "local_110"
 	AngleVectors();
-	block_copy(&local_b0, (arg_0 + 0x2b4), 0xc);
+	block_copy((arg_0 + 0x2b4), &local_b0, 0xc);
 jmp_15ee1:
 	local_10c = (*(int *)(arg_0 + 0xc4) & 0xffffff7f);
 	if (local_10c == 0xd) goto jmp_15ef2;
@@ -27138,8 +27152,8 @@ jmp_15f00:
 #define next_call_arg_5 "*(int *)arg_0"
 #define next_call_arg_6 "0x6000001"
 	CG_Trace();
-	block_copy(&local_78, &local_d4, 0xc);
-	block_copy(&local_68, arg_1, 0xc);
+	block_copy(&local_d4, &local_78, 0xc);
+	block_copy(arg_1, &local_68, 0xc);
 	*(int *)local_24 = 0x6;
 	*(int *)local_94 = bss_1041e0;
 	trap_R_AddRefEntityToScene(local_24);
@@ -27316,7 +27330,7 @@ void CG_AddPlayerWeapon(int arg_0, int arg_1, int arg_2) {
 	CG_RegisterWeapon(local_16c);
 	local_168 = ((0x84 * local_16c) + 0xeacc);
 	memset(&local_20, 0x0, 0x8c);
-	block_copy(local_2c, (arg_0 + 0xc), 0xc);
+	block_copy((arg_0 + 0xc), local_2c, 0xc);
 	local_38 = *(int *)(arg_0 + 0x18);
 	local_24 = *(int *)(arg_0 + 0x4);
 	if (local_16c != 0x7) goto jmp_16161;
@@ -27351,7 +27365,7 @@ jmp_161a9:
 	trap_S_AddLoopingSound(*(int *)arg_2, (arg_2 + 0x2b4), 0x1d5c, *(int *)(local_168 + 0x7c));
 jmp_161c4:
 	trap_R_LerpTag(&local_138, *(int *)(arg_0 + 0x8), *(int *)(arg_0 + 0x60), *(int *)(arg_0 + 0x50), (0x3f800000 - *(int *)(arg_0 + 0x64)), 0x6ce3);
-	block_copy(&local_64, (arg_0 + 0x44), 0xc);
+	block_copy((arg_0 + 0x44), &local_64, 0xc);
 	local_64 = (local_64 + (*(int *)(arg_0 + 0x1c) * local_138));
 	local_68 = (local_68 + (*(int *)(arg_0 + 0x20) * local_138));
 	*(int *)local_6c = (*(int *)local_6c + (*(int *)(arg_0 + 0x24) * local_138));
@@ -27377,7 +27391,7 @@ jmp_16275:
 	CG_AddWeaponWithPowerups(&local_20, *(int *)(arg_2 + 0xbc));
 	if (*(int *)(local_168 + 0x10) == 0x0) goto jmp_16317;
 	memset(&local_17c, 0x0, 0x8c);
-	block_copy(local_188, (arg_0 + 0xc), 0xc);
+	block_copy((arg_0 + 0xc), local_188, 0xc);
 	local_194 = *(int *)(arg_0 + 0x18);
 	local_180 = *(int *)(arg_0 + 0x4);
 	local_184 = *(int *)(local_168 + 0x10);
@@ -27405,7 +27419,7 @@ jmp_1634c:
 	goto jmp_1648b;
 jmp_16358:
 	memset(&local_ac, 0x0, 0x8c);
-	block_copy(local_b8, (arg_0 + 0xc), 0xc);
+	block_copy((arg_0 + 0xc), local_b8, 0xc);
 	local_c4 = *(int *)(arg_0 + 0x18);
 	local_b0 = *(int *)(arg_0 + 0x4);
 	local_b4 = *(int *)(local_168 + 0x14);
@@ -27507,7 +27521,7 @@ jmp_164a4:
 jmp_164aa:
 	if (*(int *)bss_a528 != 0x0) goto jmp_164e8;
 	if ((bss_dc7e8 & 0x100) == 0x0) goto jmp_165f4;
-	block_copy(&local_c0, 0xdcd0c, 0xc);
+	block_copy(&bss_dcd0c, &local_c0, 0xc);
 	local_cc = 0xc1000000;
 	local_c0 = (local_c0 + (local_cc * bss_dcd30));
 	local_c4 = (local_c4 + (local_cc * bss_dcd34));
@@ -28051,9 +28065,9 @@ jmp_16ad8:
 	local_94 = CG_MakeExplosion(arg_2, arg_3, local_44, local_50, local_64, local_5c);
 	local_40 = local_94;
 	*(int *)(local_40 + 0x80) = local_60;
-	block_copy((local_40 + 0x84), &local_34, 0xc);
+	block_copy(&local_34, (local_40 + 0x84), 0xc);
 	if (arg_0 != 0x7) goto jmp_16b93;
-	block_copy((local_40 + 0x6c), ((0x6b4 * arg_1) + 0xe8c70), 0xc);
+	block_copy(((0x6b4 * arg_1) + 0xe8c70), (local_40 + 0x6c), 0xc);
 	local_a0 = (0x437f0000 * *(int *)(local_40 + 0x6c));
 	local_a4 = 0x4f000000;
 	if (local_a0 < local_a4) goto jmp_16b2f;
@@ -28535,7 +28549,7 @@ int CG_CalcMuzzlePoint(int arg_0, int arg_1) {
 
 	arg_1 = arg_1;
 	if (arg_0 != *(int *)(bss_c2330 + 0xb8)) goto jmp_17142;
-	block_copy(arg_1, (bss_c2330 + 0x40), 0xc);
+	block_copy((bss_c2330 + 0x40), arg_1, 0xc);
 	local_2c = (arg_1 + 0x8);
 	*(int *)local_2c = (*(int *)local_2c + (float)*(int *)(bss_c2330 + 0xd0));
 #define next_call_arg_0 "(bss_c2330 + 0xc4)"
@@ -28555,7 +28569,7 @@ jmp_17142:
 	if (*(int *)(local_24 + 0x1a4) != 0x0) goto jmp_17155;
 	return 0x0;
 jmp_17155:
-	block_copy(arg_1, (local_24 + 0x18), 0xc);
+	block_copy((local_24 + 0x18), arg_1, 0xc);
 #define next_call_arg_0 "(local_24 + 0x3c)"
 #define next_call_arg_1 "&local_18"
 	local_2c = 0x0;
@@ -29006,10 +29020,10 @@ void ByteToDir(int arg_0, int arg_1) {
 	if (arg_0 < 0x0) goto jmp_17594;
 	if (arg_0 < 0xa2) goto jmp_1759a;
 jmp_17594:
-	block_copy(arg_1, 0x1d5c, 0xc);
+	block_copy(&vec3_origin, arg_1, 0xc);
 	goto jmp_175a3;
 jmp_1759a:
-	block_copy(arg_1, ((0xc * arg_0) + 0x1ebc), 0xc);
+	block_copy(((0xc * arg_0) + 0x1ebc), arg_1, 0xc);
 jmp_175a3:
 }
 
@@ -29337,7 +29351,7 @@ void RotateAroundDirection(int arg_0, int arg_1) {
 	PerpendicularVector((arg_0 + 0xc), arg_0);
 	if (arg_1 == 0x0) goto jmp_17915;
 	local_2c = (arg_0 + 0xc);
-	block_copy(local_1c, local_2c, 0xc);
+	block_copy(local_2c, local_1c, 0xc);
 	RotatePointAroundVector(local_2c, arg_0, local_1c, arg_1);
 jmp_17915:
 	CrossProduct(arg_0, (arg_0 + 0xc), (arg_0 + 0x18));
@@ -29466,11 +29480,11 @@ void AxisCopy(int arg_0, int arg_1) {
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
-	block_copy(arg_1, arg_0, 0xc);
+	block_copy(arg_0, arg_1, 0xc);
 	local_8 = 0xc;
-	block_copy((arg_1 + local_8), (arg_0 + local_8), 0xc);
+	block_copy((arg_0 + local_8), (arg_1 + local_8), 0xc);
 	local_c = 0x18;
-	block_copy((arg_1 + local_c), (arg_0 + local_c), 0xc);
+	block_copy((arg_0 + local_c), (arg_1 + local_c), 0xc);
 }
 
 /*
@@ -30877,7 +30891,7 @@ void Long64Swap(int arg_0, int arg_1) {
 	local_d = *(char *)(arg_1 + 0x2);
 	local_e = *(char *)(arg_1 + 0x1);
 	local_f = *(char *)arg_1;
-	block_copy(arg_0, &local_8, 0x8);
+	block_copy(&local_8, arg_0, 0x8);
 }
 
 /*
@@ -30890,7 +30904,7 @@ Stack Size: 0x8
 */
 void Long64NoSwap(int arg_0, int arg_1) {
 
-	block_copy(arg_0, arg_1, 0x8);
+	block_copy(arg_1, arg_0, 0x8);
 }
 
 /*

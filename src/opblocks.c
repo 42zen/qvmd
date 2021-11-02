@@ -295,11 +295,13 @@ int opb_load_variables(qvm_t *qvm, qvm_opblock_t *opb)
             if (!(opb->op1->variable = var_get(qvm, NULL, opb->op1->opcode->value, 0, opb->function)))
                 return 0;
             opb->op1->info = &qvm_opblocks_info[OPB_GLOBAL_ADR];
+            var_get(qvm, NULL, opb->op1->opcode->value + opb->opcode->value, 0, NULL);
         }
         if (opb->op2->info->id == OPB_CONST) {
             if (!(opb->op2->variable = var_get(qvm, NULL, opb->op2->opcode->value, 0, opb->function)))
                 return 0;
             opb->op2->info = &qvm_opblocks_info[OPB_GLOBAL_ADR];
+            var_get(qvm, NULL, opb->op2->opcode->value + opb->opcode->value, 0, NULL);
         }
     }
 
