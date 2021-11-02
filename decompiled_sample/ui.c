@@ -5,7 +5,7 @@
 	Opcodes Count: 87240
 	Functions Count: 605
 	Syscalls Count: 59
-	Globals Count: 3362
+	Globals Count: 4705
 	Calls Restored: 97.96
 */
 
@@ -13,9 +13,11 @@ char	global_0[48] = "\x00\x00\x00\x00\x15\x00\x00\x00\x19\x00\x00\x00\x20\x00\x0
 char	cvarTable[784] = "\x24\xbb\x00\x00\x12\x35\x00\x00\x0f\x35\x00\x00\x01\x00\x00\x00\x14\xba\x00\x00\xfe\x34\x00\x00\xfc\x34\x00\x00\x01\x00\x00\x00\x04\xb9\x00\x00\xe7\x34\x00\x00\xfc\x34\x00\x00\x01\x00\x00\x00\xf4\xb7\x00\x00\xd2\x34\x00\x00\xcf\x34\x00\x00\x01\x00\x00\x00\xe4\xb6\x00\x00\xbd\x34\x00\x00\xfc\x34\x00\x00\x01\x00\x00\x00\xd4\xb5\x00\x00\xab\x34\x00\x00\x0f\x35\x00\x00\x01\x00\x00\x00\xc4\xb4\x00\x00\x9a\x34\x00\x00\x98\x34\x00\x00\x01\x00\x00\x00\xb4\xb3\x00\x00\x84\x34\x00\x00\x82\x34\x00\x00\x01\x00\x00\x00\xa4\xb2\x00\x00\x71\x34\x00\x00\x6e\x34\x00\x00\x01\x00\x00\x00\x94\xb1\x00\x00\x5e\x34\x00\x00\xfc\x34\x00\x00\x01\x00\x00\x00\x84\xb0\x00\x00\x51\x34\x00\x00\x50\x34\x00\x00\x50\x00\x00\x00\x74\xaf\x00\x00\x45\x34\x00\x00\x50\x34\x00\x00\x50\x00\x00\x00\x64\xae\x00\x00\x39\x34\x00\x00\x50\x34\x00\x00\x01\x00\x00\x00\x54\xad\x00\x00\x2d\x34\x00\x00\x50\x34\x00\x00\x01\x00\x00\x00\x44\xac\x00\x00\x21\x34\x00\x00\x50\x34\x00\x00\x01\x00\x00\x00\x34\xab\x00\x00\x15\x34\x00\x00\x50\x34\x00\x00\x01\x00\x00\x00\x24\xaa\x00\x00\x09\x34\x00\x00\x50\x34\x00\x00\x01\x00\x00\x00\x14\xa9\x00\x00\xfe\x33\x00\x00\x50\x34\x00\x00\x01\x00\x00\x00\x04\xa8\x00\x00\xf3\x33\x00\x00\x50\x34\x00\x00\x01\x00\x00\x00\xf4\xa6\x00\x00\xe9\x33\x00\x00\xe7\x33\x00\x00\x21\x00\x00\x00\xe4\xa5\x00\x00\xd8\x33\x00\x00\x50\x34\x00\x00\x40\x00\x00\x00\xd4\xa4\x00\x00\xc7\x33\x00\x00\x98\x34\x00\x00\x01\x00\x00\x00\xc4\xa3\x00\x00\xb4\x33\x00\x00\xfc\x34\x00\x00\x01\x00\x00\x00\xb4\xa2\x00\x00\xa2\x33\x00\x00\xa0\x33\x00\x00\x01\x00\x00\x00\xa4\xa1\x00\x00\x8d\x33\x00\x00\x98\x34\x00\x00\x01\x00\x00\x00\x94\xa0\x00\x00\x79\x33\x00\x00\x98\x34\x00\x00\x01\x00\x00\x00\x84\x9f\x00\x00\x6c\x33\x00\x00\x67\x33\x00\x00\x01\x00\x00\x00\x74\x9e\x00\x00\x56\x33\x00\x00\xa0\x33\x00\x00\x01\x00\x00\x00\x64\x9d\x00\x00\x40\x33\x00\x00\x98\x34\x00\x00\x01\x00\x00\x00\x54\x9c\x00\x00\x37\x33\x00\x00\x98\x34\x00\x00\x01\x00\x00\x00\x44\x9b\x00\x00\x2f\x33\x00\x00\x50\x34\x00\x00\x01\x00\x00\x00\x34\x9a\x00\x00\x27\x33\x00\x00\x50\x34\x00\x00\x01\x00\x00\x00\x24\x99\x00\x00\x1f\x33\x00\x00\x50\x34\x00\x00\x01\x00\x00\x00\x14\x98\x00\x00\x17\x33\x00\x00\x50\x34\x00\x00\x01\x00\x00\x00\x04\x97\x00\x00\x0f\x33\x00\x00\x50\x34\x00\x00\x01\x00\x00\x00\xf4\x95\x00\x00\x07\x33\x00\x00\x50\x34\x00\x00\x01\x00\x00\x00\xe4\x94\x00\x00\xff\x32\x00\x00\x50\x34\x00\x00\x01\x00\x00\x00\xd4\x93\x00\x00\xf7\x32\x00\x00\x50\x34\x00\x00\x01\x00\x00\x00\xc4\x92\x00\x00\xef\x32\x00\x00\x50\x34\x00\x00\x01\x00\x00\x00\xb4\x91\x00\x00\xe6\x32\x00\x00\x50\x34\x00\x00\x01\x00\x00\x00\xa4\x90\x00\x00\xdd\x32\x00\x00\x50\x34\x00\x00\x01\x00\x00\x00\x94\x8f\x00\x00\xd4\x32\x00\x00\x50\x34\x00\x00\x01\x00\x00\x00\x84\x8e\x00\x00\xcb\x32\x00\x00\x50\x34\x00\x00\x01\x00\x00\x00\x74\x8d\x00\x00\xc2\x32\x00\x00\x50\x34\x00\x00\x01\x00\x00\x00\x64\x8c\x00\x00\xb9\x32\x00\x00\x50\x34\x00\x00\x01\x00\x00\x00\x54\x8b\x00\x00\xb0\x32\x00\x00\x50\x34\x00\x00\x01\x00\x00\x00\x44\x8a\x00\x00\xa0\x32\x00\x00\xfc\x34\x00\x00\x40\x00\x00\x00\x34\x89\x00\x00\x98\x32\x00\x00\x98\x34\x00\x00\x40\x00\x00\x00\x00\x00\x00\x00\x88\x32\x00\x00\x50\x34\x00\x00\x00\x00\x00\x00";
 int		cvarTableSize = 49; // Used by: UI_UpdateCvars, UI_RegisterCvars
 char	bg_itemlist[1924] = "\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x8d\x49\x00\x00\x8d\x49\x00\x00\x7c\x49\x00\x00\x64\x49\x00\x00\x44\x49\x00\x00\x1d\x49\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0b\x49\x00\x00\xff\x48\x00\x00\x05\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x8d\x49\x00\x00\x8d\x49\x00\x00\xed\x48\x00\x00\xd5\x48\x00\x00\xb1\x48\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x9e\x48\x00\x00\x98\x48\x00\x00\x32\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x8d\x49\x00\x00\x8d\x49\x00\x00\x88\x48\x00\x00\xd5\x48\x00\x00\x64\x48\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x54\x48\x00\x00\x48\x48\x00\x00\x64\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x8d\x49\x00\x00\x8d\x49\x00\x00\x36\x48\x00\x00\x1d\x48\x00\x00\xf6\x47\x00\x00\xce\x47\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xbc\x47\x00\x00\xb3\x47\x00\x00\x05\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x8d\x49\x00\x00\x8d\x49\x00\x00\xa7\x47\x00\x00\x8e\x47\x00\x00\x66\x47\x00\x00\x3d\x47\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x2a\x47\x00\x00\x20\x47\x00\x00\x19\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x8d\x49\x00\x00\x8d\x49\x00\x00\x0e\x47\x00\x00\xf5\x46\x00\x00\xce\x46\x00\x00\xa6\x46\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x96\x46\x00\x00\x8c\x46\x00\x00\x32\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x8d\x49\x00\x00\x8d\x49\x00\x00\x7b\x46\x00\x00\x62\x46\x00\x00\x3c\x46\x00\x00\x15\x46\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x04\x46\x00\x00\xf8\x45\x00\x00\x64\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x8d\x49\x00\x00\x8d\x49\x00\x00\xe8\x45\x00\x00\xd2\x45\x00\x00\xac\x45\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x97\x45\x00\x00\x8e\x45\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x8d\x49\x00\x00\x8d\x49\x00\x00\x7f\x45\x00\x00\xd2\x45\x00\x00\x5b\x45\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x47\x45\x00\x00\x3f\x45\x00\x00\x0a\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x8d\x49\x00\x00\x8d\x49\x00\x00\x2d\x45\x00\x00\xd2\x45\x00\x00\x03\x45\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xec\x44\x00\x00\xe1\x44\x00\x00\x28\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x8d\x49\x00\x00\x8d\x49\x00\x00\xca\x44\x00\x00\xd2\x45\x00\x00\xa4\x44\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x90\x44\x00\x00\x7f\x44\x00\x00\x0a\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00\x8d\x49\x00\x00\x39\x44\x00\x00\x23\x44\x00\x00\xd2\x45\x00\x00\xff\x43\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xec\x43\x00\x00\xdc\x43\x00\x00\x0a\x00\x00\x00\x01\x00\x00\x00\x05\x00\x00\x00\x8d\x49\x00\x00\x8d\x49\x00\x00\xcb\x43\x00\x00\xd2\x45\x00\x00\xa3\x43\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x8d\x43\x00\x00\x7f\x43\x00\x00\x64\x00\x00\x00\x01\x00\x00\x00\x06\x00\x00\x00\x8d\x49\x00\x00\x8d\x49\x00\x00\x70\x43\x00\x00\xd2\x45\x00\x00\x4c\x43\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x38\x43\x00\x00\x30\x43\x00\x00\x0a\x00\x00\x00\x01\x00\x00\x00\x07\x00\x00\x00\x8d\x49\x00\x00\x8d\x49\x00\x00\x1f\x43\x00\x00\xd2\x45\x00\x00\xfd\x42\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xea\x42\x00\x00\xdf\x42\x00\x00\x32\x00\x00\x00\x01\x00\x00\x00\x08\x00\x00\x00\x8d\x49\x00\x00\x8d\x49\x00\x00\xd4\x42\x00\x00\xd2\x45\x00\x00\xb8\x42\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa8\x42\x00\x00\xa1\x42\x00\x00\x14\x00\x00\x00\x01\x00\x00\x00\x09\x00\x00\x00\x8d\x49\x00\x00\x8d\x49\x00\x00\x8c\x42\x00\x00\xd2\x45\x00\x00\x68\x42\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x54\x42\x00\x00\x45\x42\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x0a\x00\x00\x00\x8d\x49\x00\x00\x8d\x49\x00\x00\x39\x42\x00\x00\x22\x42\x00\x00\xff\x41\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xeb\x41\x00\x00\xe4\x41\x00\x00\x0a\x00\x00\x00\x02\x00\x00\x00\x03\x00\x00\x00\x8d\x49\x00\x00\x8d\x49\x00\x00\xd7\x41\x00\x00\x22\x42\x00\x00\xb1\x41\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x9a\x41\x00\x00\x92\x41\x00\x00\x32\x00\x00\x00\x02\x00\x00\x00\x02\x00\x00\x00\x8d\x49\x00\x00\x8d\x49\x00\x00\x84\x41\x00\x00\x22\x42\x00\x00\x61\x41\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x4d\x41\x00\x00\x44\x41\x00\x00\x05\x00\x00\x00\x02\x00\x00\x00\x04\x00\x00\x00\x8d\x49\x00\x00\x8d\x49\x00\x00\x39\x41\x00\x00\x22\x42\x00\x00\x17\x41\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x04\x41\x00\x00\xfe\x40\x00\x00\x1e\x00\x00\x00\x02\x00\x00\x00\x08\x00\x00\x00\x8d\x49\x00\x00\x8d\x49\x00\x00\xef\x40\x00\x00\x22\x42\x00\x00\xca\x40\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xb4\x40\x00\x00\xaa\x40\x00\x00\x3c\x00\x00\x00\x02\x00\x00\x00\x06\x00\x00\x00\x8d\x49\x00\x00\x8d\x49\x00\x00\x9d\x40\x00\x00\x22\x42\x00\x00\x7b\x40\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x68\x40\x00\x00\x60\x40\x00\x00\x05\x00\x00\x00\x02\x00\x00\x00\x05\x00\x00\x00\x8d\x49\x00\x00\x8d\x49\x00\x00\x55\x40\x00\x00\x22\x42\x00\x00\x32\x40\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x1e\x40\x00\x00\x18\x40\x00\x00\x0a\x00\x00\x00\x02\x00\x00\x00\x07\x00\x00\x00\x8d\x49\x00\x00\x8d\x49\x00\x00\x0f\x40\x00\x00\x22\x42\x00\x00\xf0\x3f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xe0\x3f\x00\x00\xd7\x3f\x00\x00\x0f\x00\x00\x00\x02\x00\x00\x00\x09\x00\x00\x00\x8d\x49\x00\x00\x8d\x49\x00\x00\xc3\x3f\x00\x00\xaa\x3f\x00\x00\x82\x3f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x71\x3f\x00\x00\x5d\x3f\x00\x00\x3c\x00\x00\x00\x06\x00\x00\x00\x01\x00\x00\x00\x8d\x49\x00\x00\x8d\x49\x00\x00\x4d\x3f\x00\x00\xaa\x3f\x00\x00\x29\x3f\x00\x00\xfe\x3e\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xf1\x3e\x00\x00\xea\x3e\x00\x00\x3c\x00\x00\x00\x06\x00\x00\x00\x02\x00\x00\x00\x8d\x49\x00\x00\xcf\x3e\x00\x00\xc5\x3e\x00\x00\xaa\x3e\x00\x00\x89\x3e\x00\x00\x63\x3e\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x58\x3e\x00\x00\x4c\x3e\x00\x00\x1e\x00\x00\x00\x05\x00\x00\x00\x01\x00\x00\x00\x8d\x49\x00\x00\x1c\x3e\x00\x00\x10\x3e\x00\x00\xf8\x3d\x00\x00\xd5\x3d\x00\x00\xad\x3d\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x9c\x3d\x00\x00\x90\x3d\x00\x00\x1e\x00\x00\x00\x05\x00\x00\x00\x02\x00\x00\x00\x8d\x49\x00\x00\x60\x3d\x00\x00\x55\x3d\x00\x00\x3f\x3d\x00\x00\x1d\x3d\x00\x00\xf6\x3c\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xea\x3c\x00\x00\xe4\x3c\x00\x00\x1e\x00\x00\x00\x05\x00\x00\x00\x03\x00\x00\x00\x8d\x49\x00\x00\x8d\x49\x00\x00\xd9\x3c\x00\x00\xbc\x3c\x00\x00\x9a\x3c\x00\x00\x73\x3c\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x67\x3c\x00\x00\x5a\x3c\x00\x00\x1e\x00\x00\x00\x05\x00\x00\x00\x04\x00\x00\x00\x8d\x49\x00\x00\x8d\x49\x00\x00\x4f\x3c\x00\x00\x32\x3c\x00\x00\x10\x3c\x00\x00\xe9\x3b\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xdd\x3b\x00\x00\xd0\x3b\x00\x00\x1e\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x8d\x49\x00\x00\xba\x3b\x00\x00\xae\x3b\x00\x00\x97\x3b\x00\x00\x74\x3b\x00\x00\x4c\x3b\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x3f\x3b\x00\x00\x38\x3b\x00\x00\x3c\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x8d\x49\x00\x00\x97\x3b\x00\x00\x27\x3b\x00\x00\x00\x00\x00\x00\x0f\x3b\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xfe\x3a\x00\x00\xf5\x3a\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x07\x00\x00\x00\x8d\x49\x00\x00\x8d\x49\x00\x00\xe3\x3a\x00\x00\x00\x00\x00\x00\xcb\x3a\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xba\x3a\x00\x00\xb0\x3a\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x8d\x49\x00\x00\x8d\x49\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00";
-char	bg_numItems[88] = "\x24\x00\x00\x00\x50\x03\x00\x00\x64\x02\x00\x00\x68\x02\x00\x00\x7f\x02\x00\x00\x98\x02\x00\x00\xd7\x02\x00\x00\x41\x03\x00\x00\x57\x03\x00\x00\xdb\x02\x00\x00\x75\x03\x00\x00\x75\x03\x00\x00\x7e\x03\x00\x00\x1e\x04\x00\x00\xc4\x03\x00\x00\x86\x04\x00\x00\x07\x05\x00\x00\x07\x05\x00\x00\x23\x05\x00\x00\x7e\x05\x00\x00\x2c\x05\x00\x00\xb5\x05\x00\x00"; // Used by: BG_CanItemBeGrabbed, BG_FindItemForHoldable, BG_FindItemForPowerup
+int		bg_numItems = 36; // Used by: BG_CanItemBeGrabbed, BG_FindItemForHoldable, BG_FindItemForPowerup
+char	global_acc[84] = "\x50\x03\x00\x00\x64\x02\x00\x00\x68\x02\x00\x00\x7f\x02\x00\x00\x98\x02\x00\x00\xd7\x02\x00\x00\x41\x03\x00\x00\x57\x03\x00\x00\xdb\x02\x00\x00\x75\x03\x00\x00\x75\x03\x00\x00\x7e\x03\x00\x00\x1e\x04\x00\x00\xc4\x03\x00\x00\x86\x04\x00\x00\x07\x05\x00\x00\x07\x05\x00\x00\x23\x05\x00\x00\x7e\x05\x00\x00\x2c\x05\x00\x00\xb5\x05\x00\x00";
 char	eventnames[332] = "\xd3\x39\x00\x00\xc7\x39\x00\x00\xb5\x39\x00\x00\xa7\x39\x00\x00\x9b\x39\x00\x00\x93\x39\x00\x00\x89\x39\x00\x00\x7f\x39\x00\x00\x74\x39\x00\x00\x69\x39\x00\x00\x5b\x39\x00\x00\x4c\x39\x00\x00\x40\x39\x00\x00\x34\x39\x00\x00\x2c\x39\x00\x00\x1d\x39\x00\x00\x0e\x39\x00\x00\xff\x38\x00\x00\xf0\x38\x00\x00\xe1\x38\x00\x00\xcb\x38\x00\x00\xc1\x38\x00\x00\xb0\x38\x00\x00\xa1\x38\x00\x00\x94\x38\x00\x00\x87\x38\x00\x00\x7a\x38\x00\x00\x6d\x38\x00\x00\x60\x38\x00\x00\x53\x38\x00\x00\x46\x38\x00\x00\x39\x38\x00\x00\x2c\x38\x00\x00\x1f\x38\x00\x00\x11\x38\x00\x00\x03\x38\x00\x00\xf5\x37\x00\x00\xe7\x37\x00\x00\xd9\x37\x00\x00\xcb\x37\x00\x00\xbb\x37\x00\x00\xaf\x37\x00\x00\x99\x37\x00\x00\x82\x37\x00\x00\x70\x37\x00\x00\x5f\x37\x00\x00\x4f\x37\x00\x00\x3a\x37\x00\x00\x26\x37\x00\x00\x13\x37\x00\x00\x04\x37\x00\x00\xf4\x36\x00\x00\xde\x36\x00\x00\xd1\x36\x00\x00\xc6\x36\x00\x00\xbc\x36\x00\x00\xb4\x36\x00\x00\xaa\x36\x00\x00\xa0\x36\x00\x00\x96\x36\x00\x00\x8a\x36\x00\x00\x7a\x36\x00\x00\x64\x36\x00\x00\x53\x36\x00\x00\x45\x36\x00\x00\x38\x36\x00\x00\x20\x36\x00\x00\x06\x36\x00\x00\xfa\x35\x00\x00\xe8\x35\x00\x00\xd9\x35\x00\x00\xc9\x35\x00\x00\xbf\x35\x00\x00\xae\x35\x00\x00\xa0\x35\x00\x00\x8c\x35\x00\x00\x83\x35\x00\x00\x76\x35\x00\x00\x6a\x35\x00\x00\x58\x35\x00\x00\x47\x35\x00\x00\x34\x35\x00\x00\x24\x35\x00\x00";
-char	randSeed[128] = "\x00\x00\x00\x00\xe5\x19\x00\x00\x17\x1a\x00\x00\xb8\x1a\x00\x00\x11\x1b\x00\x00\x2f\x1b\x00\x00\x8f\x1b\x00\x00\xfa\x1b\x00\x00\x1c\x1c\x00\x00\x84\x20\x00\x00\x3f\x1f\x00\x00\x55\x1c\x00\x00\xa7\x1e\x00\x00\x58\x1e\x00\x00\xf6\x1e\x00\x00\x5f\x20\x00\x00\x55\x1c\x00\x00\x5f\x20\x00\x00\x5f\x20\x00\x00\x5f\x20\x00\x00\x5f\x20\x00\x00\xcb\x1f\x00\x00\xcf\x1c\x00\x00\x97\x1f\x00\x00\x5f\x20\x00\x00\x5f\x20\x00\x00\x65\x1f\x00\x00\x5f\x20\x00\x00\x50\x1d\x00\x00\x5f\x20\x00\x00\x50\x20\x00\x00\xd7\x1d\x00\x00"; // Used by: srand
+int		randSeed = 0; // Used by: srand
+char	global_c70[124] = "\xe5\x19\x00\x00\x17\x1a\x00\x00\xb8\x1a\x00\x00\x11\x1b\x00\x00\x2f\x1b\x00\x00\x8f\x1b\x00\x00\xfa\x1b\x00\x00\x1c\x1c\x00\x00\x84\x20\x00\x00\x3f\x1f\x00\x00\x55\x1c\x00\x00\xa7\x1e\x00\x00\x58\x1e\x00\x00\xf6\x1e\x00\x00\x5f\x20\x00\x00\x55\x1c\x00\x00\x5f\x20\x00\x00\x5f\x20\x00\x00\x5f\x20\x00\x00\x5f\x20\x00\x00\xcb\x1f\x00\x00\xcf\x1c\x00\x00\x97\x1f\x00\x00\x5f\x20\x00\x00\x5f\x20\x00\x00\x65\x1f\x00\x00\x5f\x20\x00\x00\x50\x1d\x00\x00\x5f\x20\x00\x00\x50\x20\x00\x00\xd7\x1d\x00\x00";
 char	skillNames[24] = "\xd5\x4a\x00\x00\xc9\x4a\x00\x00\xba\x4a\x00\x00\xb1\x4a\x00\x00\xa6\x4a\x00\x00\x00\x00\x00\x00";
 char	teamNames1[8] = "\xa1\x4a\x00\x00\x00\x00\x00\x00";
 char	teamNames2[12] = "\x9d\x4a\x00\x00\x98\x4a\x00\x00\x00\x00\x00\x00";
@@ -97,7 +99,8 @@ char	s_ivo_templates[240] = "\x06\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x0
 char	builtinResolutions[52] = "\x8c\x86\x00\x00\x84\x86\x00\x00\x7c\x86\x00\x00\x74\x86\x00\x00\x6c\x86\x00\x00\x64\x86\x00\x00\x5b\x86\x00\x00\x52\x86\x00\x00\x48\x86\x00\x00\x3e\x86\x00\x00\x34\x86\x00\x00\x2c\x86\x00\x00\x00\x00\x00\x00";
 char	knownRatios[64] = "\x25\x86\x00\x00\x21\x86\x00\x00\x1a\x86\x00\x00\x16\x86\x00\x00\x0f\x86\x00\x00\x0b\x86\x00\x00\x04\x86\x00\x00\xff\x85\x00\x00\xf8\x85\x00\x00\xf2\x85\x00\x00\xeb\x85\x00\x00\xe7\x85\x00\x00\xe0\x85\x00\x00\xdb\x85\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00";
 int		resolutions = 10344; // Used by: GraphicsOptions_MenuInit, GraphicsOptions_GetResolutions, GraphicsOptions_GetAspectRatios
-char	resolutionsDetected[168] = "\x00\x00\x00\x00\xf4\x27\x01\x00\x0f\x28\x01\x00\x9e\x27\x01\x00\x7f\x27\x01\x00\xef\x27\x01\x00\x0f\x28\x01\x00\xf9\x27\x01\x00\x01\x28\x01\x00\x09\x28\x01\x00\x76\x27\x01\x00\xc2\x84\x00\x00\xbb\x84\x00\x00\x00\x00\x00\x00\xc2\x84\x00\x00\xb4\x84\x00\x00\xad\x84\x00\x00\x00\x00\x00\x00\x9b\x84\x00\x00\x8e\x84\x00\x00\x87\x84\x00\x00\x82\x84\x00\x00\x7a\x84\x00\x00\x73\x84\x00\x00\x00\x00\x00\x00\x6a\x84\x00\x00\x63\x84\x00\x00\x00\x00\x00\x00\xc2\x84\x00\x00\xb4\x84\x00\x00\xad\x84\x00\x00\x00\x00\x00\x00\x5a\x84\x00\x00\x50\x84\x00\x00\x00\x00\x00\x00\x4c\x84\x00\x00\x45\x84\x00\x00\x40\x84\x00\x00\x00\x00\x00\x00\x3c\x84\x00\x00\x39\x84\x00\x00\x00\x00\x00\x00"; // Used by: GraphicsOptions_SetMenuItems, GraphicsOptions_ApplyChanges, GraphicsOptions_GetResolutions, GraphicsOptions_FindDetectedResolution, GraphicsOptions_FindBuiltinResolution
+int		resolutionsDetected = 0; // Used by: GraphicsOptions_SetMenuItems, GraphicsOptions_ApplyChanges, GraphicsOptions_GetResolutions, GraphicsOptions_FindDetectedResolution, GraphicsOptions_FindBuiltinResolution
+char	global_28e4[164] = "\xf4\x27\x01\x00\x0f\x28\x01\x00\x9e\x27\x01\x00\x7f\x27\x01\x00\xef\x27\x01\x00\x0f\x28\x01\x00\xf9\x27\x01\x00\x01\x28\x01\x00\x09\x28\x01\x00\x76\x27\x01\x00\xc2\x84\x00\x00\xbb\x84\x00\x00\x00\x00\x00\x00\xc2\x84\x00\x00\xb4\x84\x00\x00\xad\x84\x00\x00\x00\x00\x00\x00\x9b\x84\x00\x00\x8e\x84\x00\x00\x87\x84\x00\x00\x82\x84\x00\x00\x7a\x84\x00\x00\x73\x84\x00\x00\x00\x00\x00\x00\x6a\x84\x00\x00\x63\x84\x00\x00\x00\x00\x00\x00\xc2\x84\x00\x00\xb4\x84\x00\x00\xad\x84\x00\x00\x00\x00\x00\x00\x5a\x84\x00\x00\x50\x84\x00\x00\x00\x00\x00\x00\x4c\x84\x00\x00\x45\x84\x00\x00\x40\x84\x00\x00\x00\x00\x00\x00\x3c\x84\x00\x00\x39\x84\x00\x00\x00\x00\x00\x00";
 int		vec3_origin = 0; // Used by: AnglesToAxis, ByteToDir
 int		global_298c = 0; // Used by: AnglesToAxis
 int		global_2990 = 0; // Used by: AnglesToAxis
@@ -118,12 +121,14 @@ char	colorMdGrey[16] = "\x00\x00\x00\x3f\x00\x00\x00\x3f\x00\x00\x00\x3f\x00\x00
 char	colorDkGrey[16] = "\x00\x00\x80\x3e\x00\x00\x80\x3e\x00\x00\x80\x3e\x00\x00\x80\x3f";
 char	g_color_table[128] = "\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80\x3f\x00\x00\x00\x00\x00\x00\x80\x3f\x00\x00\x00\x00\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x00\x00\x00\x00\x80\x3f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x00\x00\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x00\x00\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f";
 char	bytedirs[1948] = "\x4f\x96\x06\xbf\x00\x00\x00\x00\x44\xc4\x59\x3f\xf0\xbe\xe2\xbe\xab\x96\x74\x3e\x6d\x3b\x5d\x3f\xf6\x29\x97\xbe\x00\x00\x00\x00\x9a\x96\x74\x3f\x7a\x37\x9e\xbe\x00\x00\x00\x3f\xbd\x1b\x4f\x3f\xea\x5b\x26\xbe\x5f\x96\x86\x3e\x68\x78\x73\x3f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80\x3f\x00\x00\x00\x00\x44\xc4\x59\x3f\x4f\x96\x06\x3f\xf6\x29\x17\xbe\xef\x70\x37\x3f\x12\x85\x2e\x3f\xf6\x29\x17\x3e\xef\x70\x37\x3f\x12\x85\x2e\x3f\x00\x00\x00\x00\x4f\x96\x06\x3f\x44\xc4\x59\x3f\x7a\x37\x9e\x3e\x00\x00\x00\x3f\xbd\x1b\x4f\x3f\x4f\x96\x06\x3f\x00\x00\x00\x00\x44\xc4\x59\x3f\xf6\x29\x97\x3e\x00\x00\x00\x00\x9a\x96\x74\x3f\xf0\xbe\xe2\x3e\xab\x96\x74\x3e\x6d\x3b\x5d\x3f\xea\x5b\x26\x3e\x5f\x96\x86\x3e\x68\x78\x73\x3f\x12\x85\x2e\xbf\xf6\x29\x17\x3e\xef\x70\x37\x3f\xbd\x1b\x4f\xbf\x7a\x37\x9e\x3e\x00\x00\x00\x3f\x14\x79\x16\xbf\x33\xc4\xd9\x3e\x49\x2d\x30\x3f\x44\xc4\x59\xbf\x4f\x96\x06\x3f\x00\x00\x00\x00\x6d\x3b\x5d\xbf\xf0\xbe\xe2\x3e\xab\x96\x74\x3e\xef\x70\x37\xbf\x12\x85\x2e\x3f\xf6\x29\x17\x3e\x49\x2d\x30\xbf\x14\x79\x16\x3f\x33\xc4\xd9\x3e\x00\x00\x00\xbf\xbd\x1b\x4f\x3f\x7a\x37\x9e\x3e\xab\x96\x74\xbe\x6d\x3b\x5d\x3f\xf0\xbe\xe2\x3e\x33\xc4\xd9\xbe\x49\x2d\x30\x3f\x14\x79\x16\x3f\xef\x70\x37\xbf\x12\x85\x2e\x3f\xf6\x29\x17\xbe\x00\x00\x00\xbf\xbd\x1b\x4f\x3f\x7a\x37\x9e\xbe\x4f\x96\x06\xbf\x44\xc4\x59\x3f\x00\x00\x00\x00\x00\x00\x00\x00\x44\xc4\x59\x3f\x4f\x96\x06\xbf\xab\x96\x74\xbe\x6d\x3b\x5d\x3f\xf0\xbe\xe2\xbe\x00\x00\x00\x00\x9a\x96\x74\x3f\xf6\x29\x97\xbe\x5f\x96\x86\xbe\x68\x78\x73\x3f\xea\x5b\x26\xbe\x00\x00\x00\x00\x00\x00\x80\x3f\x00\x00\x00\x00\x00\x00\x00\x00\x9a\x96\x74\x3f\xf6\x29\x97\x3e\x5f\x96\x86\xbe\x68\x78\x73\x3f\xea\x5b\x26\x3e\xab\x96\x74\x3e\x6d\x3b\x5d\x3f\xf0\xbe\xe2\x3e\x5f\x96\x86\x3e\x68\x78\x73\x3f\xea\x5b\x26\x3e\x00\x00\x00\x3f\xbd\x1b\x4f\x3f\x7a\x37\x9e\x3e\xab\x96\x74\x3e\x6d\x3b\x5d\x3f\xf0\xbe\xe2\xbe\x5f\x96\x86\x3e\x68\x78\x73\x3f\xea\x5b\x26\xbe\x00\x00\x00\x3f\xbd\x1b\x4f\x3f\x7a\x37\x9e\xbe\x44\xc4\x59\x3f\x4f\x96\x06\x3f\x00\x00\x00\x00\xef\x70\x37\x3f\x12\x85\x2e\x3f\xf6\x29\x17\x3e\xef\x70\x37\x3f\x12\x85\x2e\x3f\xf6\x29\x17\xbe\x4f\x96\x06\x3f\x44\xc4\x59\x3f\x00\x00\x00\x00\x33\xc4\xd9\x3e\x49\x2d\x30\x3f\x14\x79\x16\x3f\x6d\x3b\x5d\x3f\xf0\xbe\xe2\x3e\xab\x96\x74\x3e\x49\x2d\x30\x3f\x14\x79\x16\x3f\x33\xc4\xd9\x3e\xbd\x1b\x4f\x3f\x7a\x37\x9e\x3e\x00\x00\x00\x3f\x12\x85\x2e\x3f\xf6\x29\x17\x3e\xef\x70\x37\x3f\x14\x79\x16\x3f\x33\xc4\xd9\x3e\x49\x2d\x30\x3f\x9a\x96\x74\x3f\xf6\x29\x97\x3e\x00\x00\x00\x00\x00\x00\x80\x3f\x00\x00\x00\x00\x00\x00\x00\x00\x68\x78\x73\x3f\xea\x5b\x26\x3e\x5f\x96\x86\x3e\x44\xc4\x59\x3f\x4f\x96\x06\xbf\x00\x00\x00\x00\x9a\x96\x74\x3f\xf6\x29\x97\xbe\x00\x00\x00\x00\x6d\x3b\x5d\x3f\xf0\xbe\xe2\xbe\xab\x96\x74\x3e\x68\x78\x73\x3f\xea\x5b\x26\xbe\x5f\x96\x86\x3e\xbd\x1b\x4f\x3f\x7a\x37\x9e\xbe\x00\x00\x00\x3f\x12\x85\x2e\x3f\xf6\x29\x17\xbe\xef\x70\x37\x3f\x44\xc4\x59\x3f\x00\x00\x00\x00\x4f\x96\x06\x3f\x6d\x3b\x5d\x3f\xf0\xbe\xe2\x3e\xab\x96\x74\xbe\xbd\x1b\x4f\x3f\x7a\x37\x9e\x3e\x00\x00\x00\xbf\x68\x78\x73\x3f\xea\x5b\x26\x3e\x5f\x96\x86\xbe\x4f\x96\x06\x3f\x00\x00\x00\x00\x44\xc4\x59\xbf\x12\x85\x2e\x3f\xf6\x29\x17\x3e\xef\x70\x37\xbf\x12\x85\x2e\x3f\xf6\x29\x17\xbe\xef\x70\x37\xbf\x44\xc4\x59\x3f\x00\x00\x00\x00\x4f\x96\x06\xbf\xbd\x1b\x4f\x3f\x7a\x37\x9e\xbe\x00\x00\x00\xbf\x6d\x3b\x5d\x3f\xf0\xbe\xe2\xbe\xab\x96\x74\xbe\x68\x78\x73\x3f\xea\x5b\x26\xbe\x5f\x96\x86\xbe\xf6\x29\x17\x3e\xef\x70\x37\x3f\x12\x85\x2e\xbf\x7a\x37\x9e\x3e\x00\x00\x00\x3f\xbd\x1b\x4f\xbf\x33\xc4\xd9\x3e\x49\x2d\x30\x3f\x14\x79\x16\xbf\xf0\xbe\xe2\x3e\xab\x96\x74\x3e\x6d\x3b\x5d\xbf\x14\x79\x16\x3f\x33\xc4\xd9\x3e\x49\x2d\x30\xbf\x49\x2d\x30\x3f\x14\x79\x16\x3f\x33\xc4\xd9\xbe\xf6\x29\x17\xbe\xef\x70\x37\x3f\x12\x85\x2e\xbf\x7a\x37\x9e\xbe\x00\x00\x00\x3f\xbd\x1b\x4f\xbf\x00\x00\x00\x00\x4f\x96\x06\x3f\x44\xc4\x59\xbf\x4f\x96\x06\xbf\x00\x00\x00\x00\x44\xc4\x59\xbf\xf0\xbe\xe2\xbe\xab\x96\x74\x3e\x6d\x3b\x5d\xbf\xf6\x29\x97\xbe\x00\x00\x00\x00\x9a\x96\x74\xbf\xea\x5b\x26\xbe\x5f\x96\x86\x3e\x68\x78\x73\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80\xbf\xf6\x29\x97\x3e\x00\x00\x00\x00\x9a\x96\x74\xbf\xea\x5b\x26\x3e\x5f\x96\x86\x3e\x68\x78\x73\xbf\xf0\xbe\xe2\xbe\xab\x96\x74\xbe\x6d\x3b\x5d\xbf\x7a\x37\x9e\xbe\x00\x00\x00\xbf\xbd\x1b\x4f\xbf\xea\x5b\x26\xbe\x5f\x96\x86\xbe\x68\x78\x73\xbf\x00\x00\x00\x00\x44\xc4\x59\xbf\x4f\x96\x06\xbf\xf6\x29\x17\xbe\xef\x70\x37\xbf\x12\x85\x2e\xbf\xf6\x29\x17\x3e\xef\x70\x37\xbf\x12\x85\x2e\xbf\x00\x00\x00\x00\x4f\x96\x06\xbf\x44\xc4\x59\xbf\x7a\x37\x9e\x3e\x00\x00\x00\xbf\xbd\x1b\x4f\xbf\xf0\xbe\xe2\x3e\xab\x96\x74\xbe\x6d\x3b\x5d\xbf\xea\x5b\x26\x3e\x5f\x96\x86\xbe\x68\x78\x73\xbf\xab\x96\x74\x3e\x6d\x3b\x5d\xbf\xf0\xbe\xe2\xbe\x00\x00\x00\x3f\xbd\x1b\x4f\xbf\x7a\x37\x9e\xbe\x33\xc4\xd9\x3e\x49\x2d\x30\xbf\x14\x79\x16\xbf\xef\x70\x37\x3f\x12\x85\x2e\xbf\xf6\x29\x17\xbe\x49\x2d\x30\x3f\x14\x79\x16\xbf\x33\xc4\xd9\xbe\x14\x79\x16\x3f\x33\xc4\xd9\xbe\x49\x2d\x30\xbf\x00\x00\x00\x00\x9a\x96\x74\xbf\xf6\x29\x97\xbe\x00\x00\x00\x00\x00\x00\x80\xbf\x00\x00\x00\x00\x5f\x96\x86\x3e\x68\x78\x73\xbf\xea\x5b\x26\xbe\x00\x00\x00\x00\x44\xc4\x59\xbf\x4f\x96\x06\x3f\x00\x00\x00\x00\x9a\x96\x74\xbf\xf6\x29\x97\x3e\xab\x96\x74\x3e\x6d\x3b\x5d\xbf\xf0\xbe\xe2\x3e\x5f\x96\x86\x3e\x68\x78\x73\xbf\xea\x5b\x26\x3e\x00\x00\x00\x3f\xbd\x1b\x4f\xbf\x7a\x37\x9e\x3e\xef\x70\x37\x3f\x12\x85\x2e\xbf\xf6\x29\x17\x3e\x4f\x96\x06\x3f\x44\xc4\x59\xbf\x00\x00\x00\x00\xab\x96\x74\xbe\x6d\x3b\x5d\xbf\xf0\xbe\xe2\xbe\x00\x00\x00\xbf\xbd\x1b\x4f\xbf\x7a\x37\x9e\xbe\x5f\x96\x86\xbe\x68\x78\x73\xbf\xea\x5b\x26\xbe\x44\xc4\x59\xbf\x4f\x96\x06\xbf\x00\x00\x00\x00\xef\x70\x37\xbf\x12\x85\x2e\xbf\xf6\x29\x17\xbe\xef\x70\x37\xbf\x12\x85\x2e\xbf\xf6\x29\x17\x3e\x4f\x96\x06\xbf\x44\xc4\x59\xbf\x00\x00\x00\x00\x00\x00\x00\xbf\xbd\x1b\x4f\xbf\x7a\x37\x9e\x3e\xab\x96\x74\xbe\x6d\x3b\x5d\xbf\xf0\xbe\xe2\x3e\x5f\x96\x86\xbe\x68\x78\x73\xbf\xea\x5b\x26\x3e\x6d\x3b\x5d\xbf\xf0\xbe\xe2\xbe\xab\x96\x74\x3e\xbd\x1b\x4f\xbf\x7a\x37\x9e\xbe\x00\x00\x00\x3f\x49\x2d\x30\xbf\x14\x79\x16\xbf\x33\xc4\xd9\x3e\x12\x85\x2e\xbf\xf6\x29\x17\xbe\xef\x70\x37\x3f\xf0\xbe\xe2\xbe\xab\x96\x74\xbe\x6d\x3b\x5d\x3f\x14\x79\x16\xbf\x33\xc4\xd9\xbe\x49\x2d\x30\x3f\x7a\x37\x9e\xbe\x00\x00\x00\xbf\xbd\x1b\x4f\x3f\xf6\x29\x17\xbe\xef\x70\x37\xbf\x12\x85\x2e\x3f\x33\xc4\xd9\xbe\x49\x2d\x30\xbf\x14\x79\x16\x3f\xea\x5b\x26\xbe\x5f\x96\x86\xbe\x68\x78\x73\x3f\xf0\xbe\xe2\x3e\xab\x96\x74\xbe\x6d\x3b\x5d\x3f\xea\x5b\x26\x3e\x5f\x96\x86\xbe\x68\x78\x73\x3f\x7a\x37\x9e\x3e\x00\x00\x00\xbf\xbd\x1b\x4f\x3f\xf6\x29\x17\x3e\xef\x70\x37\xbf\x12\x85\x2e\x3f\x00\x00\x00\x00\x4f\x96\x06\xbf\x44\xc4\x59\x3f\x33\xc4\xd9\x3e\x49\x2d\x30\xbf\x14\x79\x16\x3f\x14\x79\x16\x3f\x33\xc4\xd9\xbe\x49\x2d\x30\x3f\x49\x2d\x30\x3f\x14\x79\x16\xbf\x33\xc4\xd9\x3e\x9a\x96\x74\xbf\xf6\x29\x97\x3e\x00\x00\x00\x00\x68\x78\x73\xbf\xea\x5b\x26\x3e\x5f\x96\x86\x3e\x00\x00\x80\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x44\xc4\x59\xbf\x00\x00\x00\x00\x4f\x96\x06\x3f\x9a\x96\x74\xbf\xf6\x29\x97\xbe\x00\x00\x00\x00\x68\x78\x73\xbf\xea\x5b\x26\xbe\x5f\x96\x86\x3e\x6d\x3b\x5d\xbf\xf0\xbe\xe2\x3e\xab\x96\x74\xbe\x68\x78\x73\xbf\xea\x5b\x26\x3e\x5f\x96\x86\xbe\xbd\x1b\x4f\xbf\x7a\x37\x9e\x3e\x00\x00\x00\xbf\x6d\x3b\x5d\xbf\xf0\xbe\xe2\xbe\xab\x96\x74\xbe\x68\x78\x73\xbf\xea\x5b\x26\xbe\x5f\x96\x86\xbe\xbd\x1b\x4f\xbf\x7a\x37\x9e\xbe\x00\x00\x00\xbf\x12\x85\x2e\xbf\xf6\x29\x17\x3e\xef\x70\x37\xbf\x12\x85\x2e\xbf\xf6\x29\x17\xbe\xef\x70\x37\xbf\x44\xc4\x59\xbf\x00\x00\x00\x00\x4f\x96\x06\xbf\x49\x2d\x30\xbf\x14\x79\x16\x3f\x33\xc4\xd9\xbe\x14\x79\x16\xbf\x33\xc4\xd9\x3e\x49\x2d\x30\xbf\x33\xc4\xd9\xbe\x49\x2d\x30\x3f\x14\x79\x16\xbf\x33\xc4\xd9\xbe\x49\x2d\x30\xbf\x14\x79\x16\xbf\x14\x79\x16\xbf\x33\xc4\xd9\xbe\x49\x2d\x30\xbf\x49\x2d\x30\xbf\x14\x79\x16\xbf\x33\xc4\xd9\xbe\x00\x00\x00\x00";
-char	global_3284[9256] = "\x00\x00\x00\x00\x67\x5f\x6c\x6f\x63\x61\x6c\x54\x65\x61\x6d\x50\x72\x65\x66\x00\x75\x69\x5f\x69\x6f\x71\x33\x00\x75\x69\x5f\x63\x64\x6b\x65\x79\x63\x68\x65\x63\x6b\x65\x64\x00\x73\x65\x72\x76\x65\x72\x31\x36\x00\x73\x65\x72\x76\x65\x72\x31\x35\x00\x73\x65\x72\x76\x65\x72\x31\x34\x00\x73\x65\x72\x76\x65\x72\x31\x33\x00\x73\x65\x72\x76\x65\x72\x31\x32\x00\x73\x65\x72\x76\x65\x72\x31\x31\x00\x73\x65\x72\x76\x65\x72\x31\x30\x00\x73\x65\x72\x76\x65\x72\x39\x00\x73\x65\x72\x76\x65\x72\x38\x00\x73\x65\x72\x76\x65\x72\x37\x00\x73\x65\x72\x76\x65\x72\x36\x00\x73\x65\x72\x76\x65\x72\x35\x00\x73\x65\x72\x76\x65\x72\x34\x00\x73\x65\x72\x76\x65\x72\x33\x00\x73\x65\x72\x76\x65\x72\x32\x00\x73\x65\x72\x76\x65\x72\x31\x00\x63\x67\x5f\x6d\x61\x72\x6b\x73\x00\x63\x67\x5f\x64\x72\x61\x77\x43\x72\x6f\x73\x73\x68\x61\x69\x72\x4e\x61\x6d\x65\x73\x00\x63\x67\x5f\x64\x72\x61\x77\x43\x72\x6f\x73\x73\x68\x61\x69\x72\x00\x32\x35\x30\x30\x00\x63\x67\x5f\x62\x72\x61\x73\x73\x54\x69\x6d\x65\x00\x75\x69\x5f\x62\x72\x6f\x77\x73\x65\x72\x53\x68\x6f\x77\x45\x6d\x70\x74\x79\x00\x75\x69\x5f\x62\x72\x6f\x77\x73\x65\x72\x53\x68\x6f\x77\x46\x75\x6c\x6c\x00\x34\x00\x75\x69\x5f\x62\x72\x6f\x77\x73\x65\x72\x53\x6f\x72\x74\x4b\x65\x79\x00\x75\x69\x5f\x62\x72\x6f\x77\x73\x65\x72\x47\x61\x6d\x65\x54\x79\x70\x65\x00\x75\x69\x5f\x62\x72\x6f\x77\x73\x65\x72\x4d\x61\x73\x74\x65\x72\x00\x75\x69\x5f\x73\x70\x53\x65\x6c\x65\x63\x74\x69\x6f\x6e\x00\x32\x00\x67\x5f\x73\x70\x53\x6b\x69\x6c\x6c\x00\x67\x5f\x73\x70\x56\x69\x64\x65\x6f\x73\x00\x67\x5f\x73\x70\x41\x77\x61\x72\x64\x73\x00\x67\x5f\x73\x70\x53\x63\x6f\x72\x65\x73\x35\x00\x67\x5f\x73\x70\x53\x63\x6f\x72\x65\x73\x34\x00\x67\x5f\x73\x70\x53\x63\x6f\x72\x65\x73\x33\x00\x67\x5f\x73\x70\x53\x63\x6f\x72\x65\x73\x32\x00\x67\x5f\x73\x70\x53\x63\x6f\x72\x65\x73\x31\x00\x67\x5f\x62\x6f\x74\x73\x46\x69\x6c\x65\x00\x00\x67\x5f\x61\x72\x65\x6e\x61\x73\x46\x69\x6c\x65\x00\x75\x69\x5f\x63\x74\x66\x5f\x66\x72\x69\x65\x6e\x64\x6c\x79\x00\x33\x30\x00\x75\x69\x5f\x63\x74\x66\x5f\x74\x69\x6d\x65\x6c\x69\x6d\x69\x74\x00\x38\x00\x75\x69\x5f\x63\x74\x66\x5f\x63\x61\x70\x74\x75\x72\x65\x6c\x69\x6d\x69\x74\x00\x31\x00\x75\x69\x5f\x74\x65\x61\x6d\x5f\x66\x72\x69\x65\x6e\x64\x6c\x79\x00\x75\x69\x5f\x74\x65\x61\x6d\x5f\x74\x69\x6d\x65\x6c\x69\x6d\x69\x74\x00\x75\x69\x5f\x74\x65\x61\x6d\x5f\x66\x72\x61\x67\x6c\x69\x6d\x69\x74\x00\x31\x35\x00\x75\x69\x5f\x74\x6f\x75\x72\x6e\x65\x79\x5f\x74\x69\x6d\x65\x6c\x69\x6d\x69\x74\x00\x75\x69\x5f\x74\x6f\x75\x72\x6e\x65\x79\x5f\x66\x72\x61\x67\x6c\x69\x6d\x69\x74\x00\x30\x00\x75\x69\x5f\x66\x66\x61\x5f\x74\x69\x6d\x65\x6c\x69\x6d\x69\x74\x00\x32\x30\x00\x75\x69\x5f\x66\x66\x61\x5f\x66\x72\x61\x67\x6c\x69\x6d\x69\x74\x00\x00\x45\x56\x5f\x54\x41\x55\x4e\x54\x5f\x50\x41\x54\x52\x4f\x4c\x00\x45\x56\x5f\x54\x41\x55\x4e\x54\x5f\x47\x55\x41\x52\x44\x42\x41\x53\x45\x00\x45\x56\x5f\x54\x41\x55\x4e\x54\x5f\x47\x45\x54\x46\x4c\x41\x47\x00\x45\x56\x5f\x54\x41\x55\x4e\x54\x5f\x46\x4f\x4c\x4c\x4f\x57\x4d\x45\x00\x45\x56\x5f\x54\x41\x55\x4e\x54\x5f\x4e\x4f\x00\x45\x56\x5f\x54\x41\x55\x4e\x54\x5f\x59\x45\x53\x00\x45\x56\x5f\x54\x41\x55\x4e\x54\x00\x45\x56\x5f\x53\x54\x4f\x50\x4c\x4f\x4f\x50\x49\x4e\x47\x53\x4f\x55\x4e\x44\x00\x45\x56\x5f\x44\x45\x42\x55\x47\x5f\x4c\x49\x4e\x45\x00\x45\x56\x5f\x4c\x49\x47\x48\x54\x4e\x49\x4e\x47\x42\x4f\x4c\x54\x00\x45\x56\x5f\x4a\x55\x49\x43\x45\x44\x00\x45\x56\x5f\x49\x4e\x56\x55\x4c\x5f\x49\x4d\x50\x41\x43\x54\x00\x45\x56\x5f\x4f\x42\x45\x4c\x49\x53\x4b\x50\x41\x49\x4e\x00\x45\x56\x5f\x4f\x42\x45\x4c\x49\x53\x4b\x45\x58\x50\x4c\x4f\x44\x45\x00\x45\x56\x5f\x4b\x41\x4d\x49\x4b\x41\x5a\x45\x00\x45\x56\x5f\x50\x52\x4f\x58\x49\x4d\x49\x54\x59\x5f\x4d\x49\x4e\x45\x5f\x54\x52\x49\x47\x47\x45\x52\x00\x45\x56\x5f\x50\x52\x4f\x58\x49\x4d\x49\x54\x59\x5f\x4d\x49\x4e\x45\x5f\x53\x54\x49\x43\x4b\x00\x45\x56\x5f\x53\x43\x4f\x52\x45\x50\x4c\x55\x4d\x00\x45\x56\x5f\x47\x49\x42\x5f\x50\x4c\x41\x59\x45\x52\x00\x45\x56\x5f\x50\x4f\x57\x45\x52\x55\x50\x5f\x52\x45\x47\x45\x4e\x00\x45\x56\x5f\x50\x4f\x57\x45\x52\x55\x50\x5f\x42\x41\x54\x54\x4c\x45\x53\x55\x49\x54\x00\x45\x56\x5f\x50\x4f\x57\x45\x52\x55\x50\x5f\x51\x55\x41\x44\x00\x45\x56\x5f\x4f\x42\x49\x54\x55\x41\x52\x59\x00\x45\x56\x5f\x44\x45\x41\x54\x48\x33\x00\x45\x56\x5f\x44\x45\x41\x54\x48\x32\x00\x45\x56\x5f\x44\x45\x41\x54\x48\x31\x00\x45\x56\x5f\x50\x41\x49\x4e\x00\x45\x56\x5f\x42\x55\x4c\x4c\x45\x54\x00\x45\x56\x5f\x53\x48\x4f\x54\x47\x55\x4e\x00\x45\x56\x5f\x52\x41\x49\x4c\x54\x52\x41\x49\x4c\x00\x45\x56\x5f\x4d\x49\x53\x53\x49\x4c\x45\x5f\x4d\x49\x53\x53\x5f\x4d\x45\x54\x41\x4c\x00\x45\x56\x5f\x4d\x49\x53\x53\x49\x4c\x45\x5f\x4d\x49\x53\x53\x00\x45\x56\x5f\x4d\x49\x53\x53\x49\x4c\x45\x5f\x48\x49\x54\x00\x45\x56\x5f\x42\x55\x4c\x4c\x45\x54\x5f\x48\x49\x54\x5f\x57\x41\x4c\x4c\x00\x45\x56\x5f\x42\x55\x4c\x4c\x45\x54\x5f\x48\x49\x54\x5f\x46\x4c\x45\x53\x48\x00\x45\x56\x5f\x47\x4c\x4f\x42\x41\x4c\x5f\x54\x45\x41\x4d\x5f\x53\x4f\x55\x4e\x44\x00\x45\x56\x5f\x47\x4c\x4f\x42\x41\x4c\x5f\x53\x4f\x55\x4e\x44\x00\x45\x56\x5f\x47\x45\x4e\x45\x52\x41\x4c\x5f\x53\x4f\x55\x4e\x44\x00\x45\x56\x5f\x47\x52\x45\x4e\x41\x44\x45\x5f\x42\x4f\x55\x4e\x43\x45\x00\x45\x56\x5f\x50\x4c\x41\x59\x45\x52\x5f\x54\x45\x4c\x45\x50\x4f\x52\x54\x5f\x4f\x55\x54\x00\x45\x56\x5f\x50\x4c\x41\x59\x45\x52\x5f\x54\x45\x4c\x45\x50\x4f\x52\x54\x5f\x49\x4e\x00\x45\x56\x5f\x49\x54\x45\x4d\x5f\x50\x4f\x50\x00\x45\x56\x5f\x49\x54\x45\x4d\x5f\x52\x45\x53\x50\x41\x57\x4e\x00\x45\x56\x5f\x55\x53\x45\x5f\x49\x54\x45\x4d\x31\x35\x00\x45\x56\x5f\x55\x53\x45\x5f\x49\x54\x45\x4d\x31\x34\x00\x45\x56\x5f\x55\x53\x45\x5f\x49\x54\x45\x4d\x31\x33\x00\x45\x56\x5f\x55\x53\x45\x5f\x49\x54\x45\x4d\x31\x32\x00\x45\x56\x5f\x55\x53\x45\x5f\x49\x54\x45\x4d\x31\x31\x00\x45\x56\x5f\x55\x53\x45\x5f\x49\x54\x45\x4d\x31\x30\x00\x45\x56\x5f\x55\x53\x45\x5f\x49\x54\x45\x4d\x39\x00\x45\x56\x5f\x55\x53\x45\x5f\x49\x54\x45\x4d\x38\x00\x45\x56\x5f\x55\x53\x45\x5f\x49\x54\x45\x4d\x37\x00\x45\x56\x5f\x55\x53\x45\x5f\x49\x54\x45\x4d\x36\x00\x45\x56\x5f\x55\x53\x45\x5f\x49\x54\x45\x4d\x35\x00\x45\x56\x5f\x55\x53\x45\x5f\x49\x54\x45\x4d\x34\x00\x45\x56\x5f\x55\x53\x45\x5f\x49\x54\x45\x4d\x33\x00\x45\x56\x5f\x55\x53\x45\x5f\x49\x54\x45\x4d\x32\x00\x45\x56\x5f\x55\x53\x45\x5f\x49\x54\x45\x4d\x31\x00\x45\x56\x5f\x55\x53\x45\x5f\x49\x54\x45\x4d\x30\x00\x45\x56\x5f\x46\x49\x52\x45\x5f\x57\x45\x41\x50\x4f\x4e\x00\x45\x56\x5f\x43\x48\x41\x4e\x47\x45\x5f\x57\x45\x41\x50\x4f\x4e\x00\x45\x56\x5f\x4e\x4f\x41\x4d\x4d\x4f\x00\x45\x56\x5f\x47\x4c\x4f\x42\x41\x4c\x5f\x49\x54\x45\x4d\x5f\x50\x49\x43\x4b\x55\x50\x00\x45\x56\x5f\x49\x54\x45\x4d\x5f\x50\x49\x43\x4b\x55\x50\x00\x45\x56\x5f\x57\x41\x54\x45\x52\x5f\x43\x4c\x45\x41\x52\x00\x45\x56\x5f\x57\x41\x54\x45\x52\x5f\x55\x4e\x44\x45\x52\x00\x45\x56\x5f\x57\x41\x54\x45\x52\x5f\x4c\x45\x41\x56\x45\x00\x45\x56\x5f\x57\x41\x54\x45\x52\x5f\x54\x4f\x55\x43\x48\x00\x45\x56\x5f\x4a\x55\x4d\x50\x00\x45\x56\x5f\x4a\x55\x4d\x50\x5f\x50\x41\x44\x00\x45\x56\x5f\x46\x41\x4c\x4c\x5f\x46\x41\x52\x00\x45\x56\x5f\x46\x41\x4c\x4c\x5f\x4d\x45\x44\x49\x55\x4d\x00\x45\x56\x5f\x46\x41\x4c\x4c\x5f\x53\x48\x4f\x52\x54\x00\x45\x56\x5f\x53\x54\x45\x50\x5f\x31\x36\x00\x45\x56\x5f\x53\x54\x45\x50\x5f\x31\x32\x00\x45\x56\x5f\x53\x54\x45\x50\x5f\x38\x00\x45\x56\x5f\x53\x54\x45\x50\x5f\x34\x00\x45\x56\x5f\x53\x57\x49\x4d\x00\x45\x56\x5f\x46\x4f\x4f\x54\x57\x41\x44\x45\x00\x45\x56\x5f\x46\x4f\x4f\x54\x53\x50\x4c\x41\x53\x48\x00\x45\x56\x5f\x46\x4f\x4f\x54\x53\x54\x45\x50\x5f\x4d\x45\x54\x41\x4c\x00\x45\x56\x5f\x46\x4f\x4f\x54\x53\x54\x45\x50\x00\x45\x56\x5f\x4e\x4f\x4e\x45\x00\x42\x47\x5f\x45\x76\x61\x6c\x75\x61\x74\x65\x54\x72\x61\x6a\x65\x63\x74\x6f\x72\x79\x44\x65\x6c\x74\x61\x3a\x20\x75\x6e\x6b\x6e\x6f\x77\x6e\x20\x74\x72\x54\x79\x70\x65\x3a\x20\x25\x69\x00\x42\x47\x5f\x45\x76\x61\x6c\x75\x61\x74\x65\x54\x72\x61\x6a\x65\x63\x74\x6f\x72\x79\x3a\x20\x75\x6e\x6b\x6e\x6f\x77\x6e\x20\x74\x72\x54\x79\x70\x65\x3a\x20\x25\x69\x00\x42\x47\x5f\x43\x61\x6e\x49\x74\x65\x6d\x42\x65\x47\x72\x61\x62\x62\x65\x64\x3a\x20\x49\x54\x5f\x42\x41\x44\x00\x42\x47\x5f\x43\x61\x6e\x49\x74\x65\x6d\x42\x65\x47\x72\x61\x62\x62\x65\x64\x3a\x20\x69\x6e\x64\x65\x78\x20\x6f\x75\x74\x20\x6f\x66\x20\x72\x61\x6e\x67\x65\x00\x43\x6f\x75\x6c\x64\x6e\x27\x74\x20\x66\x69\x6e\x64\x20\x69\x74\x65\x6d\x20\x66\x6f\x72\x20\x77\x65\x61\x70\x6f\x6e\x20\x25\x69\x00\x48\x6f\x6c\x64\x61\x62\x6c\x65\x49\x74\x65\x6d\x20\x6e\x6f\x74\x20\x66\x6f\x75\x6e\x64\x00\x42\x6c\x75\x65\x20\x46\x6c\x61\x67\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x66\x5f\x62\x6c\x75\x31\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x66\x6c\x61\x67\x73\x2f\x62\x5f\x66\x6c\x61\x67\x2e\x6d\x64\x33\x00\x74\x65\x61\x6d\x5f\x43\x54\x46\x5f\x62\x6c\x75\x65\x66\x6c\x61\x67\x00\x52\x65\x64\x20\x46\x6c\x61\x67\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x66\x5f\x72\x65\x64\x31\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x66\x6c\x61\x67\x73\x2f\x72\x5f\x66\x6c\x61\x67\x2e\x6d\x64\x33\x00\x74\x65\x61\x6d\x5f\x43\x54\x46\x5f\x72\x65\x64\x66\x6c\x61\x67\x00\x46\x6c\x69\x67\x68\x74\x00\x69\x63\x6f\x6e\x73\x2f\x66\x6c\x69\x67\x68\x74\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x69\x6e\x73\x74\x61\x6e\x74\x2f\x66\x6c\x69\x67\x68\x74\x5f\x72\x69\x6e\x67\x2e\x6d\x64\x33\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x69\x6e\x73\x74\x61\x6e\x74\x2f\x66\x6c\x69\x67\x68\x74\x2e\x6d\x64\x33\x00\x73\x6f\x75\x6e\x64\x2f\x69\x74\x65\x6d\x73\x2f\x66\x6c\x69\x67\x68\x74\x2e\x77\x61\x76\x00\x69\x74\x65\x6d\x5f\x66\x6c\x69\x67\x68\x74\x00\x73\x6f\x75\x6e\x64\x2f\x69\x74\x65\x6d\x73\x2f\x72\x65\x67\x65\x6e\x2e\x77\x61\x76\x00\x52\x65\x67\x65\x6e\x65\x72\x61\x74\x69\x6f\x6e\x00\x69\x63\x6f\x6e\x73\x2f\x72\x65\x67\x65\x6e\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x69\x6e\x73\x74\x61\x6e\x74\x2f\x72\x65\x67\x65\x6e\x5f\x72\x69\x6e\x67\x2e\x6d\x64\x33\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x69\x6e\x73\x74\x61\x6e\x74\x2f\x72\x65\x67\x65\x6e\x2e\x6d\x64\x33\x00\x73\x6f\x75\x6e\x64\x2f\x69\x74\x65\x6d\x73\x2f\x72\x65\x67\x65\x6e\x65\x72\x61\x74\x69\x6f\x6e\x2e\x77\x61\x76\x00\x69\x74\x65\x6d\x5f\x72\x65\x67\x65\x6e\x00\x49\x6e\x76\x69\x73\x69\x62\x69\x6c\x69\x74\x79\x00\x69\x63\x6f\x6e\x73\x2f\x69\x6e\x76\x69\x73\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x69\x6e\x73\x74\x61\x6e\x74\x2f\x69\x6e\x76\x69\x73\x5f\x72\x69\x6e\x67\x2e\x6d\x64\x33\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x69\x6e\x73\x74\x61\x6e\x74\x2f\x69\x6e\x76\x69\x73\x2e\x6d\x64\x33\x00\x73\x6f\x75\x6e\x64\x2f\x69\x74\x65\x6d\x73\x2f\x69\x6e\x76\x69\x73\x69\x62\x69\x6c\x69\x74\x79\x2e\x77\x61\x76\x00\x69\x74\x65\x6d\x5f\x69\x6e\x76\x69\x73\x00\x53\x70\x65\x65\x64\x00\x69\x63\x6f\x6e\x73\x2f\x68\x61\x73\x74\x65\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x69\x6e\x73\x74\x61\x6e\x74\x2f\x68\x61\x73\x74\x65\x5f\x72\x69\x6e\x67\x2e\x6d\x64\x33\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x69\x6e\x73\x74\x61\x6e\x74\x2f\x68\x61\x73\x74\x65\x2e\x6d\x64\x33\x00\x73\x6f\x75\x6e\x64\x2f\x69\x74\x65\x6d\x73\x2f\x68\x61\x73\x74\x65\x2e\x77\x61\x76\x00\x69\x74\x65\x6d\x5f\x68\x61\x73\x74\x65\x00\x73\x6f\x75\x6e\x64\x2f\x69\x74\x65\x6d\x73\x2f\x61\x69\x72\x6f\x75\x74\x2e\x77\x61\x76\x20\x73\x6f\x75\x6e\x64\x2f\x69\x74\x65\x6d\x73\x2f\x70\x72\x6f\x74\x65\x63\x74\x33\x2e\x77\x61\x76\x00\x42\x61\x74\x74\x6c\x65\x20\x53\x75\x69\x74\x00\x69\x63\x6f\x6e\x73\x2f\x65\x6e\x76\x69\x72\x6f\x73\x75\x69\x74\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x69\x6e\x73\x74\x61\x6e\x74\x2f\x65\x6e\x76\x69\x72\x6f\x5f\x72\x69\x6e\x67\x2e\x6d\x64\x33\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x69\x6e\x73\x74\x61\x6e\x74\x2f\x65\x6e\x76\x69\x72\x6f\x2e\x6d\x64\x33\x00\x73\x6f\x75\x6e\x64\x2f\x69\x74\x65\x6d\x73\x2f\x70\x72\x6f\x74\x65\x63\x74\x2e\x77\x61\x76\x00\x69\x74\x65\x6d\x5f\x65\x6e\x76\x69\x72\x6f\x00\x73\x6f\x75\x6e\x64\x2f\x69\x74\x65\x6d\x73\x2f\x64\x61\x6d\x61\x67\x65\x32\x2e\x77\x61\x76\x20\x73\x6f\x75\x6e\x64\x2f\x69\x74\x65\x6d\x73\x2f\x64\x61\x6d\x61\x67\x65\x33\x2e\x77\x61\x76\x00\x51\x75\x61\x64\x20\x44\x61\x6d\x61\x67\x65\x00\x69\x63\x6f\x6e\x73\x2f\x71\x75\x61\x64\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x69\x6e\x73\x74\x61\x6e\x74\x2f\x71\x75\x61\x64\x5f\x72\x69\x6e\x67\x2e\x6d\x64\x33\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x69\x6e\x73\x74\x61\x6e\x74\x2f\x71\x75\x61\x64\x2e\x6d\x64\x33\x00\x73\x6f\x75\x6e\x64\x2f\x69\x74\x65\x6d\x73\x2f\x71\x75\x61\x64\x64\x61\x6d\x61\x67\x65\x2e\x77\x61\x76\x00\x69\x74\x65\x6d\x5f\x71\x75\x61\x64\x00\x73\x6f\x75\x6e\x64\x2f\x69\x74\x65\x6d\x73\x2f\x75\x73\x65\x5f\x6d\x65\x64\x6b\x69\x74\x2e\x77\x61\x76\x00\x4d\x65\x64\x6b\x69\x74\x00\x69\x63\x6f\x6e\x73\x2f\x6d\x65\x64\x6b\x69\x74\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x68\x6f\x6c\x64\x61\x62\x6c\x65\x2f\x6d\x65\x64\x6b\x69\x74\x5f\x73\x70\x68\x65\x72\x65\x2e\x6d\x64\x33\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x68\x6f\x6c\x64\x61\x62\x6c\x65\x2f\x6d\x65\x64\x6b\x69\x74\x2e\x6d\x64\x33\x00\x68\x6f\x6c\x64\x61\x62\x6c\x65\x5f\x6d\x65\x64\x6b\x69\x74\x00\x50\x65\x72\x73\x6f\x6e\x61\x6c\x20\x54\x65\x6c\x65\x70\x6f\x72\x74\x65\x72\x00\x69\x63\x6f\x6e\x73\x2f\x74\x65\x6c\x65\x70\x6f\x72\x74\x65\x72\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x68\x6f\x6c\x64\x61\x62\x6c\x65\x2f\x74\x65\x6c\x65\x70\x6f\x72\x74\x65\x72\x2e\x6d\x64\x33\x00\x73\x6f\x75\x6e\x64\x2f\x69\x74\x65\x6d\x73\x2f\x68\x6f\x6c\x64\x61\x62\x6c\x65\x2e\x77\x61\x76\x00\x68\x6f\x6c\x64\x61\x62\x6c\x65\x5f\x74\x65\x6c\x65\x70\x6f\x72\x74\x65\x72\x00\x42\x66\x67\x20\x41\x6d\x6d\x6f\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x61\x5f\x62\x66\x67\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x61\x6d\x6d\x6f\x2f\x62\x66\x67\x61\x6d\x2e\x6d\x64\x33\x00\x61\x6d\x6d\x6f\x5f\x62\x66\x67\x00\x53\x6c\x75\x67\x73\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x61\x5f\x72\x61\x69\x6c\x67\x75\x6e\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x61\x6d\x6d\x6f\x2f\x72\x61\x69\x6c\x67\x75\x6e\x61\x6d\x2e\x6d\x64\x33\x00\x61\x6d\x6d\x6f\x5f\x73\x6c\x75\x67\x73\x00\x52\x6f\x63\x6b\x65\x74\x73\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x61\x5f\x72\x6f\x63\x6b\x65\x74\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x61\x6d\x6d\x6f\x2f\x72\x6f\x63\x6b\x65\x74\x61\x6d\x2e\x6d\x64\x33\x00\x61\x6d\x6d\x6f\x5f\x72\x6f\x63\x6b\x65\x74\x73\x00\x4c\x69\x67\x68\x74\x6e\x69\x6e\x67\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x61\x5f\x6c\x69\x67\x68\x74\x6e\x69\x6e\x67\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x61\x6d\x6d\x6f\x2f\x6c\x69\x67\x68\x74\x6e\x69\x6e\x67\x61\x6d\x2e\x6d\x64\x33\x00\x61\x6d\x6d\x6f\x5f\x6c\x69\x67\x68\x74\x6e\x69\x6e\x67\x00\x43\x65\x6c\x6c\x73\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x61\x5f\x70\x6c\x61\x73\x6d\x61\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x61\x6d\x6d\x6f\x2f\x70\x6c\x61\x73\x6d\x61\x61\x6d\x2e\x6d\x64\x33\x00\x61\x6d\x6d\x6f\x5f\x63\x65\x6c\x6c\x73\x00\x47\x72\x65\x6e\x61\x64\x65\x73\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x61\x5f\x67\x72\x65\x6e\x61\x64\x65\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x61\x6d\x6d\x6f\x2f\x67\x72\x65\x6e\x61\x64\x65\x61\x6d\x2e\x6d\x64\x33\x00\x61\x6d\x6d\x6f\x5f\x67\x72\x65\x6e\x61\x64\x65\x73\x00\x42\x75\x6c\x6c\x65\x74\x73\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x61\x5f\x6d\x61\x63\x68\x69\x6e\x65\x67\x75\x6e\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x61\x6d\x6d\x6f\x2f\x6d\x61\x63\x68\x69\x6e\x65\x67\x75\x6e\x61\x6d\x2e\x6d\x64\x33\x00\x61\x6d\x6d\x6f\x5f\x62\x75\x6c\x6c\x65\x74\x73\x00\x53\x68\x65\x6c\x6c\x73\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x61\x5f\x73\x68\x6f\x74\x67\x75\x6e\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x61\x6d\x6d\x6f\x2f\x73\x68\x6f\x74\x67\x75\x6e\x61\x6d\x2e\x6d\x64\x33\x00\x73\x6f\x75\x6e\x64\x2f\x6d\x69\x73\x63\x2f\x61\x6d\x5f\x70\x6b\x75\x70\x2e\x77\x61\x76\x00\x61\x6d\x6d\x6f\x5f\x73\x68\x65\x6c\x6c\x73\x00\x47\x72\x61\x70\x70\x6c\x69\x6e\x67\x20\x48\x6f\x6f\x6b\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x77\x5f\x67\x72\x61\x70\x70\x6c\x65\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x77\x65\x61\x70\x6f\x6e\x73\x32\x2f\x67\x72\x61\x70\x70\x6c\x65\x2f\x67\x72\x61\x70\x70\x6c\x65\x2e\x6d\x64\x33\x00\x77\x65\x61\x70\x6f\x6e\x5f\x67\x72\x61\x70\x70\x6c\x69\x6e\x67\x68\x6f\x6f\x6b\x00\x42\x46\x47\x31\x30\x4b\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x77\x5f\x62\x66\x67\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x77\x65\x61\x70\x6f\x6e\x73\x32\x2f\x62\x66\x67\x2f\x62\x66\x67\x2e\x6d\x64\x33\x00\x77\x65\x61\x70\x6f\x6e\x5f\x62\x66\x67\x00\x50\x6c\x61\x73\x6d\x61\x20\x47\x75\x6e\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x77\x5f\x70\x6c\x61\x73\x6d\x61\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x77\x65\x61\x70\x6f\x6e\x73\x32\x2f\x70\x6c\x61\x73\x6d\x61\x2f\x70\x6c\x61\x73\x6d\x61\x2e\x6d\x64\x33\x00\x77\x65\x61\x70\x6f\x6e\x5f\x70\x6c\x61\x73\x6d\x61\x67\x75\x6e\x00\x52\x61\x69\x6c\x67\x75\x6e\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x77\x5f\x72\x61\x69\x6c\x67\x75\x6e\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x77\x65\x61\x70\x6f\x6e\x73\x32\x2f\x72\x61\x69\x6c\x67\x75\x6e\x2f\x72\x61\x69\x6c\x67\x75\x6e\x2e\x6d\x64\x33\x00\x77\x65\x61\x70\x6f\x6e\x5f\x72\x61\x69\x6c\x67\x75\x6e\x00\x4c\x69\x67\x68\x74\x6e\x69\x6e\x67\x20\x47\x75\x6e\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x77\x5f\x6c\x69\x67\x68\x74\x6e\x69\x6e\x67\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x77\x65\x61\x70\x6f\x6e\x73\x32\x2f\x6c\x69\x67\x68\x74\x6e\x69\x6e\x67\x2f\x6c\x69\x67\x68\x74\x6e\x69\x6e\x67\x2e\x6d\x64\x33\x00\x77\x65\x61\x70\x6f\x6e\x5f\x6c\x69\x67\x68\x74\x6e\x69\x6e\x67\x00\x52\x6f\x63\x6b\x65\x74\x20\x4c\x61\x75\x6e\x63\x68\x65\x72\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x77\x5f\x72\x6f\x63\x6b\x65\x74\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x77\x65\x61\x70\x6f\x6e\x73\x32\x2f\x72\x6f\x63\x6b\x65\x74\x6c\x2f\x72\x6f\x63\x6b\x65\x74\x6c\x2e\x6d\x64\x33\x00\x77\x65\x61\x70\x6f\x6e\x5f\x72\x6f\x63\x6b\x65\x74\x6c\x61\x75\x6e\x63\x68\x65\x72\x00\x73\x6f\x75\x6e\x64\x2f\x77\x65\x61\x70\x6f\x6e\x73\x2f\x67\x72\x65\x6e\x61\x64\x65\x2f\x68\x67\x72\x65\x6e\x62\x31\x61\x2e\x77\x61\x76\x20\x73\x6f\x75\x6e\x64\x2f\x77\x65\x61\x70\x6f\x6e\x73\x2f\x67\x72\x65\x6e\x61\x64\x65\x2f\x68\x67\x72\x65\x6e\x62\x32\x61\x2e\x77\x61\x76\x00\x47\x72\x65\x6e\x61\x64\x65\x20\x4c\x61\x75\x6e\x63\x68\x65\x72\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x77\x5f\x67\x72\x65\x6e\x61\x64\x65\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x77\x65\x61\x70\x6f\x6e\x73\x32\x2f\x67\x72\x65\x6e\x61\x64\x65\x6c\x2f\x67\x72\x65\x6e\x61\x64\x65\x6c\x2e\x6d\x64\x33\x00\x77\x65\x61\x70\x6f\x6e\x5f\x67\x72\x65\x6e\x61\x64\x65\x6c\x61\x75\x6e\x63\x68\x65\x72\x00\x4d\x61\x63\x68\x69\x6e\x65\x67\x75\x6e\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x77\x5f\x6d\x61\x63\x68\x69\x6e\x65\x67\x75\x6e\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x77\x65\x61\x70\x6f\x6e\x73\x32\x2f\x6d\x61\x63\x68\x69\x6e\x65\x67\x75\x6e\x2f\x6d\x61\x63\x68\x69\x6e\x65\x67\x75\x6e\x2e\x6d\x64\x33\x00\x77\x65\x61\x70\x6f\x6e\x5f\x6d\x61\x63\x68\x69\x6e\x65\x67\x75\x6e\x00\x53\x68\x6f\x74\x67\x75\x6e\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x77\x5f\x73\x68\x6f\x74\x67\x75\x6e\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x77\x65\x61\x70\x6f\x6e\x73\x32\x2f\x73\x68\x6f\x74\x67\x75\x6e\x2f\x73\x68\x6f\x74\x67\x75\x6e\x2e\x6d\x64\x33\x00\x77\x65\x61\x70\x6f\x6e\x5f\x73\x68\x6f\x74\x67\x75\x6e\x00\x47\x61\x75\x6e\x74\x6c\x65\x74\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x77\x5f\x67\x61\x75\x6e\x74\x6c\x65\x74\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x77\x65\x61\x70\x6f\x6e\x73\x32\x2f\x67\x61\x75\x6e\x74\x6c\x65\x74\x2f\x67\x61\x75\x6e\x74\x6c\x65\x74\x2e\x6d\x64\x33\x00\x73\x6f\x75\x6e\x64\x2f\x6d\x69\x73\x63\x2f\x77\x5f\x70\x6b\x75\x70\x2e\x77\x61\x76\x00\x77\x65\x61\x70\x6f\x6e\x5f\x67\x61\x75\x6e\x74\x6c\x65\x74\x00\x4d\x65\x67\x61\x20\x48\x65\x61\x6c\x74\x68\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x68\x5f\x6d\x65\x67\x61\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x68\x65\x61\x6c\x74\x68\x2f\x6d\x65\x67\x61\x5f\x73\x70\x68\x65\x72\x65\x2e\x6d\x64\x33\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x68\x65\x61\x6c\x74\x68\x2f\x6d\x65\x67\x61\x5f\x63\x72\x6f\x73\x73\x2e\x6d\x64\x33\x00\x73\x6f\x75\x6e\x64\x2f\x69\x74\x65\x6d\x73\x2f\x6d\x5f\x68\x65\x61\x6c\x74\x68\x2e\x77\x61\x76\x00\x69\x74\x65\x6d\x5f\x68\x65\x61\x6c\x74\x68\x5f\x6d\x65\x67\x61\x00\x35\x30\x20\x48\x65\x61\x6c\x74\x68\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x68\x5f\x72\x65\x64\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x68\x65\x61\x6c\x74\x68\x2f\x6c\x61\x72\x67\x65\x5f\x73\x70\x68\x65\x72\x65\x2e\x6d\x64\x33\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x68\x65\x61\x6c\x74\x68\x2f\x6c\x61\x72\x67\x65\x5f\x63\x72\x6f\x73\x73\x2e\x6d\x64\x33\x00\x73\x6f\x75\x6e\x64\x2f\x69\x74\x65\x6d\x73\x2f\x6c\x5f\x68\x65\x61\x6c\x74\x68\x2e\x77\x61\x76\x00\x69\x74\x65\x6d\x5f\x68\x65\x61\x6c\x74\x68\x5f\x6c\x61\x72\x67\x65\x00\x32\x35\x20\x48\x65\x61\x6c\x74\x68\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x68\x5f\x79\x65\x6c\x6c\x6f\x77\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x68\x65\x61\x6c\x74\x68\x2f\x6d\x65\x64\x69\x75\x6d\x5f\x73\x70\x68\x65\x72\x65\x2e\x6d\x64\x33\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x68\x65\x61\x6c\x74\x68\x2f\x6d\x65\x64\x69\x75\x6d\x5f\x63\x72\x6f\x73\x73\x2e\x6d\x64\x33\x00\x73\x6f\x75\x6e\x64\x2f\x69\x74\x65\x6d\x73\x2f\x6e\x5f\x68\x65\x61\x6c\x74\x68\x2e\x77\x61\x76\x00\x69\x74\x65\x6d\x5f\x68\x65\x61\x6c\x74\x68\x00\x35\x20\x48\x65\x61\x6c\x74\x68\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x68\x5f\x67\x72\x65\x65\x6e\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x68\x65\x61\x6c\x74\x68\x2f\x73\x6d\x61\x6c\x6c\x5f\x73\x70\x68\x65\x72\x65\x2e\x6d\x64\x33\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x68\x65\x61\x6c\x74\x68\x2f\x73\x6d\x61\x6c\x6c\x5f\x63\x72\x6f\x73\x73\x2e\x6d\x64\x33\x00\x73\x6f\x75\x6e\x64\x2f\x69\x74\x65\x6d\x73\x2f\x73\x5f\x68\x65\x61\x6c\x74\x68\x2e\x77\x61\x76\x00\x69\x74\x65\x6d\x5f\x68\x65\x61\x6c\x74\x68\x5f\x73\x6d\x61\x6c\x6c\x00\x48\x65\x61\x76\x79\x20\x41\x72\x6d\x6f\x72\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x72\x5f\x72\x65\x64\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x61\x72\x6d\x6f\x72\x2f\x61\x72\x6d\x6f\x72\x5f\x72\x65\x64\x2e\x6d\x64\x33\x00\x69\x74\x65\x6d\x5f\x61\x72\x6d\x6f\x72\x5f\x62\x6f\x64\x79\x00\x41\x72\x6d\x6f\x72\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x72\x5f\x79\x65\x6c\x6c\x6f\x77\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x61\x72\x6d\x6f\x72\x2f\x61\x72\x6d\x6f\x72\x5f\x79\x65\x6c\x2e\x6d\x64\x33\x00\x73\x6f\x75\x6e\x64\x2f\x6d\x69\x73\x63\x2f\x61\x72\x32\x5f\x70\x6b\x75\x70\x2e\x77\x61\x76\x00\x69\x74\x65\x6d\x5f\x61\x72\x6d\x6f\x72\x5f\x63\x6f\x6d\x62\x61\x74\x00\x41\x72\x6d\x6f\x72\x20\x53\x68\x61\x72\x64\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x72\x5f\x73\x68\x61\x72\x64\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x61\x72\x6d\x6f\x72\x2f\x73\x68\x61\x72\x64\x5f\x73\x70\x68\x65\x72\x65\x2e\x6d\x64\x33\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x61\x72\x6d\x6f\x72\x2f\x73\x68\x61\x72\x64\x2e\x6d\x64\x33\x00\x73\x6f\x75\x6e\x64\x2f\x6d\x69\x73\x63\x2f\x61\x72\x31\x5f\x70\x6b\x75\x70\x2e\x77\x61\x76\x00\x69\x74\x65\x6d\x5f\x61\x72\x6d\x6f\x72\x5f\x73\x68\x61\x72\x64\x00\x00\x00\x00\x30\x31\x32\x33\x34\x35\x36\x37\x38\x39\x61\x62\x63\x64\x65\x66\x00\x30\x31\x32\x33\x34\x35\x36\x37\x38\x39\x41\x42\x43\x44\x45\x46\x00\x3c\x4e\x55\x4c\x4c\x3e\x00\x30\x78\x00\x69\x6e\x69\x74\x79\x00\x69\x6e\x66\x00\x6e\x61\x6e\x00\x6d\x65\x6e\x75\x2f\x61\x72\x74\x2f\x62\x61\x63\x6b\x5f\x31\x00\x6d\x65\x6e\x75\x2f\x61\x72\x74\x2f\x62\x61\x63\x6b\x5f\x30\x00\x6d\x65\x6e\x75\x2f\x61\x72\x74\x2f\x61\x63\x63\x65\x70\x74\x5f\x31\x00\x6d\x65\x6e\x75\x2f\x61\x72\x74\x2f\x61\x63\x63\x65\x70\x74\x5f\x30\x00\x54\x65\x61\x6d\x3a\x20\x00\x67\x5f\x73\x70\x53\x6b\x69\x6c\x6c\x00\x53\x6b\x69\x6c\x6c\x3a\x00\x6d\x65\x6e\x75\x2f\x61\x72\x74\x2f\x61\x72\x72\x6f\x77\x73\x5f\x76\x65\x72\x74\x5f\x62\x6f\x74\x00\x6d\x65\x6e\x75\x2f\x61\x72\x74\x2f\x61\x72\x72\x6f\x77\x73\x5f\x76\x65\x72\x74\x5f\x74\x6f\x70\x00\x6d\x65\x6e\x75\x2f\x61\x72\x74\x2f\x61\x72\x72\x6f\x77\x73\x5f\x76\x65\x72\x74\x5f\x30\x00\x6d\x65\x6e\x75\x2f\x61\x72\x74\x2f\x61\x64\x64\x62\x6f\x74\x66\x72\x61\x6d\x65\x00\x41\x44\x44\x20\x42\x4f\x54\x53\x00\x67\x5f\x67\x61\x6d\x65\x74\x79\x70\x65\x00\x42\x6c\x75\x65\x00\x52\x65\x64\x00\x46\x72\x65\x65\x00\x4e\x69\x67\x68\x74\x6d\x61\x72\x65\x21\x00\x48\x61\x72\x64\x63\x6f\x72\x65\x00\x48\x75\x72\x74\x20\x4d\x65\x20\x50\x6c\x65\x6e\x74\x79\x00\x42\x72\x69\x6e\x67\x20\x49\x74\x20\x4f\x6e\x00\x49\x20\x43\x61\x6e\x20\x57\x69\x6e\x00\x6e\x61\x6d\x65\x00\x61\x64\x64\x62\x6f\x74\x20\x25\x73\x20\x25\x69\x20\x25\x73\x20\x25\x69\x0a\x00\x28\x25\x64\x2c\x25\x64\x29\x00\x75\x69\x5f\x63\x64\x6b\x65\x79\x00\x69\x61\x6d\x61\x6d\x6f\x6e\x6b\x65\x79\x00\x69\x61\x6d\x61\x63\x68\x65\x61\x74\x65\x72\x00\x75\x69\x5f\x74\x65\x61\x6d\x4f\x72\x64\x65\x72\x73\x00\x75\x69\x5f\x63\x69\x6e\x65\x6d\x61\x74\x69\x63\x73\x00\x75\x69\x5f\x63\x61\x63\x68\x65\x00\x70\x6f\x73\x74\x67\x61\x6d\x65\x00\x6c\x65\x76\x65\x6c\x73\x65\x6c\x65\x63\x74\x00\x55\x49\x5f\x53\x65\x74\x41\x63\x74\x69\x76\x65\x4d\x65\x6e\x75\x3a\x20\x62\x61\x64\x20\x65\x6e\x75\x6d\x20\x25\x64\x0a\x00\x31\x00\x42\x61\x64\x20\x43\x44\x20\x4b\x65\x79\x00\x49\x6e\x73\x65\x72\x74\x20\x74\x68\x65\x20\x43\x44\x00\x71\x75\x69\x74\x0a\x00\x30\x00\x63\x6c\x5f\x70\x61\x75\x73\x65\x64\x00\x55\x49\x5f\x50\x6f\x70\x4d\x65\x6e\x75\x3a\x20\x6d\x65\x6e\x75\x20\x73\x74\x61\x63\x6b\x20\x75\x6e\x64\x65\x72\x66\x6c\x6f\x77\x00\x55\x49\x5f\x50\x75\x73\x68\x4d\x65\x6e\x75\x3a\x20\x6d\x65\x6e\x75\x20\x73\x74\x61\x63\x6b\x20\x6f\x76\x65\x72\x66\x6c\x6f\x77\x00\x64\x31\x0a\x00\x6d\x65\x6e\x75\x2f\x61\x72\x74\x2f\x62\x61\x63\x6b\x5f\x31\x00\x6d\x65\x6e\x75\x2f\x61\x72\x74\x2f\x62\x61\x63\x6b\x5f\x30\x00\x6d\x65\x6e\x75\x2f\x61\x72\x74\x2f\x61\x63\x63\x65\x70\x74\x5f\x31\x00\x6d\x65\x6e\x75\x2f\x61\x72\x74\x2f\x61\x63\x63\x65\x70\x74\x5f\x30\x00\x43\x44\x20\x4b\x65\x79\x3a\x00\x6d\x65\x6e\x75\x2f\x61\x72\x74\x2f\x63\x75\x74\x5f\x66\x72\x61\x6d\x65\x00\x43\x44\x20\x4b\x45\x59\x00\x31\x00\x75\x69\x5f\x63\x64\x6b\x65\x79\x63\x68\x65\x63\x6b\x65\x64\x00\x54\x68\x65\x20\x43\x44\x20\x4b\x65\x79\x20\x69\x73\x20\x6e\x6f\x74\x20\x76\x61\x6c\x69\x64\x00\x54\x68\x65\x20\x43\x44\x20\x4b\x65\x79\x20\x61\x70\x70\x65\x61\x72\x73\x20\x74\x6f\x20\x62\x65\x20\x76\x61\x6c\x69\x64\x2c\x20\x74\x68\x61\x6e\x6b\x20\x79\x6f\x75\x00\x50\x6c\x65\x61\x73\x65\x20\x65\x6e\x74\x65\x72\x20\x79\x6f\x75\x72\x20\x43\x44\x20\x4b\x65\x79\x00\x6d\x65\x6e\x75\x2f\x61\x72\x74\x2f\x62\x61\x63\x6b\x5f\x31\x00\x6d\x65\x6e\x75\x2f\x61\x72\x74\x2f\x62\x61\x63\x6b\x5f\x30\x00\x45\x4e\x44\x00\x54\x69\x65\x72\x20\x37\x00\x54\x69\x65\x72\x20\x36\x00\x54\x69\x65\x72\x20\x35\x00\x54\x69\x65\x72\x20\x34\x00\x54\x69\x65\x72\x20\x33\x00\x54\x69\x65\x72\x20\x32\x00\x54\x69\x65\x72\x20\x31\x00\x49\x4e\x54\x52\x4f\x00\x49\x44\x20\x4c\x4f\x47\x4f\x00\x6d\x65\x6e\x75\x2f\x61\x72\x74\x2f\x66\x72\x61\x6d\x65\x31\x5f\x72\x00\x6d\x65\x6e\x75\x2f\x61\x72\x74\x2f\x66\x72\x61\x6d\x65\x32\x5f\x6c\x00\x43\x49\x4e\x45\x4d\x41\x54\x49\x43\x53\x00\x64\x69\x73\x63\x6f\x6e\x6e\x65\x63\x74\x3b\x20\x63\x69\x6e\x65\x6d\x61\x74\x69\x63\x20\x25\x73\x2e\x52\x6f\x51\x0a\x00\x64\x69\x73\x63\x6f\x6e\x6e\x65\x63\x74\x3b\x20\x63\x69\x6e\x65\x6d\x61\x74\x69\x63\x20\x64\x65\x6d\x6f\x45\x6e\x64\x2e\x52\x6f\x51\x20\x31\x0a\x00\x75\x69\x5f\x63\x69\x6e\x65\x6d\x61\x74\x69\x63\x73\x20\x25\x69\x00\x6e\x65\x78\x74\x6d\x61\x70\x00\x65\x6e\x64\x00\x74\x69\x65\x72\x37\x00\x74\x69\x65\x72\x36\x00\x74\x69\x65\x72\x35\x00\x74\x69\x65\x72\x34\x00\x74\x69\x65\x72\x33\x00\x74\x69\x65\x72\x32\x00\x74\x69\x65\x72\x31\x00\x69\x6e\x74\x72\x6f\x00\x69\x64\x6c\x6f\x67\x6f\x00\x4f\x4b\x00\x4e\x4f\x00\x59\x45\x53\x00\x59\x45\x53\x2f\x4e\x4f\x00\x2f\x00\x6d\x65\x6e\x75\x2f\x61\x72\x74\x2f\x63\x75\x74\x5f\x66\x72\x61\x6d\x65\x00\x44\x6f\x77\x6e\x6c\x6f\x61\x64\x69\x6e\x67\x3a\x00\x45\x73\x74\x69\x6d\x61\x74\x65\x64\x20\x74\x69\x6d\x65\x20\x6c\x65\x66\x74\x3a\x00\x54\x72\x61\x6e\x73\x66\x65\x72\x20\x72\x61\x74\x65\x3a\x00\x00\x64\x69\x73\x63\x6f\x6e\x6e\x65\x63\x74\x0a\x00\x41\x77\x61\x69\x74\x69\x6e\x67\x20\x67\x61\x6d\x65\x73\x74\x61\x74\x65\x2e\x2e\x2e\x00\x63\x6c\x5f\x64\x6f\x77\x6e\x6c\x6f\x61\x64\x4e\x61\x6d\x65\x00\x41\x77\x61\x69\x74\x69\x6e\x67\x20\x63\x6f\x6e\x6e\x65\x63\x74\x69\x6f\x6e\x2e\x2e\x2e\x25\x69\x00\x41\x77\x61\x69\x74\x69\x6e\x67\x20\x63\x68\x61\x6c\x6c\x65\x6e\x67\x65\x2e\x2e\x2e\x25\x69\x00\x6d\x6f\x74\x64\x00\x43\x6f\x6e\x6e\x65\x63\x74\x69\x6e\x67\x20\x74\x6f\x20\x25\x73\x00\x6d\x61\x70\x6e\x61\x6d\x65\x00\x4c\x6f\x61\x64\x69\x6e\x67\x20\x25\x73\x00\x25\x73\x2f\x53\x65\x63\x00\x28\x25\x73\x20\x63\x6f\x70\x69\x65\x64\x29\x00\x28\x25\x73\x20\x6f\x66\x20\x25\x73\x20\x63\x6f\x70\x69\x65\x64\x29\x00\x65\x73\x74\x69\x6d\x61\x74\x69\x6e\x67\x00\x25\x73\x20\x28\x25\x64\x25\x25\x29\x00\x63\x6c\x5f\x64\x6f\x77\x6e\x6c\x6f\x61\x64\x54\x69\x6d\x65\x00\x63\x6c\x5f\x64\x6f\x77\x6e\x6c\x6f\x61\x64\x43\x6f\x75\x6e\x74\x00\x63\x6c\x5f\x64\x6f\x77\x6e\x6c\x6f\x61\x64\x53\x69\x7a\x65\x00\x25\x64\x20\x73\x65\x63\x00\x25\x64\x20\x6d\x69\x6e\x20\x25\x64\x20\x73\x65\x63\x00\x25\x64\x20\x68\x72\x20\x25\x64\x20\x6d\x69\x6e\x00\x25\x64\x20\x62\x79\x74\x65\x73\x00\x25\x64\x20\x4b\x42\x00\x2e\x25\x30\x32\x64\x20\x4d\x42\x00\x2e\x25\x30\x32\x64\x20\x47\x42\x00\x25\x64\x00\x00\x00\x00\x6e\x61\x6d\x65\x00\x6a\x6f\x79\x73\x74\x69\x63\x6b\x20\x74\x68\x72\x65\x73\x68\x6f\x6c\x64\x00\x6a\x6f\x79\x73\x74\x69\x63\x6b\x00\x6d\x6f\x75\x73\x65\x20\x73\x70\x65\x65\x64\x00\x61\x75\x74\x6f\x73\x77\x69\x74\x63\x68\x20\x77\x65\x61\x70\x6f\x6e\x73\x00\x61\x6c\x77\x61\x79\x73\x20\x72\x75\x6e\x00\x73\x6d\x6f\x6f\x74\x68\x20\x6d\x6f\x75\x73\x65\x00\x69\x6e\x76\x65\x72\x74\x20\x6d\x6f\x75\x73\x65\x00\x66\x72\x65\x65\x20\x6c\x6f\x6f\x6b\x00\x6d\x65\x6e\x75\x2f\x61\x72\x74\x2f\x62\x61\x63\x6b\x5f\x31\x00\x6d\x65\x6e\x75\x2f\x61\x72\x74\x2f\x62\x61\x63\x6b\x5f\x30\x00\x4d\x49\x53\x43\x00\x53\x48\x4f\x4f\x54\x00\x4d\x4f\x56\x45\x00\x4c\x4f\x4f\x4b\x00\x6d\x65\x6e\x75\x2f\x61\x72\x74\x2f\x66\x72\x61\x6d\x65\x31\x5f\x72\x00\x6d\x65\x6e\x75\x2f\x61\x72\x74\x2f\x66\x72\x61\x6d\x65\x32\x5f\x6c\x00\x43\x4f\x4e\x54\x52\x4f\x4c\x53\x00\x53\x45\x54\x20\x54\x4f\x20\x44\x45\x46\x41\x55\x4c\x54\x53\x3f\x00\x63\x6f\x6e\x74\x72\x6f\x6c\x73\x20\x74\x6f\x20\x74\x68\x65\x69\x72\x20\x64\x65\x66\x61\x75\x6c\x74\x20\x76\x61\x6c\x75\x65\x73\x2e\x00\x57\x41\x52\x4e\x49\x4e\x47\x3a\x20\x54\x68\x69\x73\x20\x77\x69\x6c\x6c\x20\x72\x65\x73\x65\x74\x20\x61\x6c\x6c\x00\x00\x69\x6e\x5f\x72\x65\x73\x74\x61\x72\x74\x0a\x00\x6d\x6f\x64\x65\x6c\x00\x55\x73\x65\x20\x41\x72\x72\x6f\x77\x20\x4b\x65\x79\x73\x20\x6f\x72\x20\x43\x4c\x49\x43\x4b\x20\x74\x6f\x20\x63\x68\x61\x6e\x67\x65\x00\x50\x72\x65\x73\x73\x20\x42\x41\x43\x4b\x53\x50\x41\x43\x45\x20\x74\x6f\x20\x63\x6c\x65\x61\x72\x00\x50\x72\x65\x73\x73\x20\x45\x4e\x54\x45\x52\x20\x6f\x72\x20\x43\x4c\x49\x43\x4b\x20\x74\x6f\x20\x63\x68\x61\x6e\x67\x65\x00\x57\x61\x69\x74\x69\x6e\x67\x20\x66\x6f\x72\x20\x6e\x65\x77\x20\x6b\x65\x79\x20\x2e\x2e\x2e\x20\x45\x53\x43\x41\x50\x45\x20\x74\x6f\x20\x63\x61\x6e\x63\x65\x6c\x00\x20\x6f\x72\x20\x00\x3f\x3f\x3f\x00\x63\x6c\x5f\x66\x72\x65\x65\x6c\x6f\x6f\x6b\x00\x6d\x5f\x66\x69\x6c\x74\x65\x72\x00\x6a\x6f\x79\x5f\x74\x68\x72\x65\x73\x68\x6f\x6c\x64\x00\x69\x6e\x5f\x6a\x6f\x79\x73\x74\x69\x63\x6b\x00\x73\x65\x6e\x73\x69\x74\x69\x76\x69\x74\x79\x00\x63\x67\x5f\x61\x75\x74\x6f\x73\x77\x69\x74\x63\x68\x00\x6d\x5f\x70\x69\x74\x63\x68\x00\x63\x6c\x5f\x72\x75\x6e\x00\x74\x6f\x67\x67\x6c\x65\x20\x6d\x65\x6e\x75\x00\x74\x6f\x67\x67\x6c\x65\x6d\x65\x6e\x75\x00\x63\x68\x61\x74\x20\x2d\x20\x61\x74\x74\x61\x63\x6b\x65\x72\x00\x6d\x65\x73\x73\x61\x67\x65\x6d\x6f\x64\x65\x34\x00\x63\x68\x61\x74\x20\x2d\x20\x74\x61\x72\x67\x65\x74\x00\x6d\x65\x73\x73\x61\x67\x65\x6d\x6f\x64\x65\x33\x00\x63\x68\x61\x74\x20\x2d\x20\x74\x65\x61\x6d\x00\x6d\x65\x73\x73\x61\x67\x65\x6d\x6f\x64\x65\x32\x00\x63\x68\x61\x74\x00\x6d\x65\x73\x73\x61\x67\x65\x6d\x6f\x64\x65\x00\x67\x65\x73\x74\x75\x72\x65\x00\x2b\x62\x75\x74\x74\x6f\x6e\x33\x00\x6e\x65\x78\x74\x20\x77\x65\x61\x70\x6f\x6e\x00\x77\x65\x61\x70\x6e\x65\x78\x74\x00\x70\x72\x65\x76\x20\x77\x65\x61\x70\x6f\x6e\x00\x77\x65\x61\x70\x70\x72\x65\x76\x00\x61\x74\x74\x61\x63\x6b\x00\x2b\x61\x74\x74\x61\x63\x6b\x00\x42\x46\x47\x00\x77\x65\x61\x70\x6f\x6e\x20\x39\x00\x70\x6c\x61\x73\x6d\x61\x20\x67\x75\x6e\x00\x77\x65\x61\x70\x6f\x6e\x20\x38\x00\x72\x61\x69\x6c\x67\x75\x6e\x00\x77\x65\x61\x70\x6f\x6e\x20\x37\x00\x6c\x69\x67\x68\x74\x6e\x69\x6e\x67\x00\x77\x65\x61\x70\x6f\x6e\x20\x36\x00\x72\x6f\x63\x6b\x65\x74\x20\x6c\x61\x75\x6e\x63\x68\x65\x72\x00\x77\x65\x61\x70\x6f\x6e\x20\x35\x00\x67\x72\x65\x6e\x61\x64\x65\x20\x6c\x61\x75\x6e\x63\x68\x65\x72\x00\x77\x65\x61\x70\x6f\x6e\x20\x34\x00\x73\x68\x6f\x74\x67\x75\x6e\x00\x77\x65\x61\x70\x6f\x6e\x20\x33\x00\x6d\x61\x63\x68\x69\x6e\x65\x67\x75\x6e\x00\x77\x65\x61\x70\x6f\x6e\x20\x32\x00\x67\x61\x75\x6e\x74\x6c\x65\x74\x00\x77\x65\x61\x70\x6f\x6e\x20\x31\x00\x7a\x6f\x6f\x6d\x20\x76\x69\x65\x77\x00\x2b\x7a\x6f\x6f\x6d\x00\x63\x65\x6e\x74\x65\x72\x20\x76\x69\x65\x77\x00\x63\x65\x6e\x74\x65\x72\x76\x69\x65\x77\x00\x6d\x6f\x75\x73\x65\x20\x6c\x6f\x6f\x6b\x00\x2b\x6d\x6c\x6f\x6f\x6b\x00\x6c\x6f\x6f\x6b\x20\x64\x6f\x77\x6e\x00\x2b\x6c\x6f\x6f\x6b\x64\x6f\x77\x6e\x00\x6c\x6f\x6f\x6b\x20\x75\x70\x00\x2b\x6c\x6f\x6f\x6b\x75\x70\x00\x73\x69\x64\x65\x73\x74\x65\x70\x20\x2f\x20\x74\x75\x72\x6e\x00\x2b\x73\x74\x72\x61\x66\x65\x00\x74\x75\x72\x6e\x20\x72\x69\x67\x68\x74\x00\x2b\x72\x69\x67\x68\x74\x00\x74\x75\x72\x6e\x20\x6c\x65\x66\x74\x00\x2b\x6c\x65\x66\x74\x00\x64\x6f\x77\x6e\x20\x2f\x20\x63\x72\x6f\x75\x63\x68\x00\x2b\x6d\x6f\x76\x65\x64\x6f\x77\x6e\x00\x75\x70\x20\x2f\x20\x6a\x75\x6d\x70\x00\x2b\x6d\x6f\x76\x65\x75\x70\x00\x73\x74\x65\x70\x20\x72\x69\x67\x68\x74\x00\x2b\x6d\x6f\x76\x65\x72\x69\x67\x68\x74\x00\x73\x74\x65\x70\x20\x6c\x65\x66\x74\x00\x2b\x6d\x6f\x76\x65\x6c\x65\x66\x74\x00\x62\x61\x63\x6b\x70\x65\x64\x61\x6c\x00\x2b\x62\x61\x63\x6b\x00\x77\x61\x6c\x6b\x20\x66\x6f\x72\x77\x61\x72\x64\x00\x2b\x66\x6f\x72\x77\x61\x72\x64\x00\x72\x75\x6e\x20\x2f\x20\x77\x61\x6c\x6b\x00\x2b\x73\x70\x65\x65\x64\x00\x75\x73\x65\x20\x69\x74\x65\x6d\x00\x2b\x62\x75\x74\x74\x6f\x6e\x32\x00\x73\x68\x6f\x77\x20\x73\x63\x6f\x72\x65\x73\x00\x2b\x73\x63\x6f\x72\x65\x73\x00\x51\x75\x61\x6b\x65\x20\x49\x49\x49\x20\x41\x72\x65\x6e\x61\x28\x63\x29\x20\x31\x39\x39\x39\x2d\x32\x30\x30\x30\x2c\x20\x49\x64\x20\x53\x6f\x66\x74\x77\x61\x72\x65\x2c\x20\x49\x6e\x63\x2e\x20\x20\x41\x6c\x6c\x20\x52\x69\x67\x68\x74\x73\x20\x52\x65\x73\x65\x72\x76\x65\x64\x00\x54\x6f\x20\x6f\x72\x64\x65\x72\x3a\x20\x31\x2d\x38\x30\x30\x2d\x69\x64\x67\x61\x6d\x65\x73\x20\x20\x20\x20\x20\x77\x77\x77\x2e\x71\x75\x61\x6b\x65\x33\x61\x72\x65\x6e\x61\x2e\x63\x6f\x6d\x20\x20\x20\x20\x20\x77\x77\x77\x2e\x69\x64\x73\x6f\x66\x74\x77\x61\x72\x65\x2e\x63\x6f\x6d\x00\x45\x72\x69\x63\x20\x57\x65\x62\x62\x00\x44\x65\x76\x65\x6c\x6f\x70\x6d\x65\x6e\x74\x20\x41\x73\x73\x69\x73\x74\x61\x6e\x63\x65\x00\x44\x6f\x6e\x6e\x61\x20\x4a\x61\x63\x6b\x73\x6f\x6e\x00\x42\x69\x7a\x20\x41\x73\x73\x69\x73\x74\x20\x61\x6e\x64\x20\x69\x64\x20\x4d\x6f\x6d\x00\x4d\x61\x72\x74\x79\x20\x53\x74\x72\x61\x74\x74\x6f\x6e\x00\x44\x69\x72\x65\x63\x74\x6f\x72\x20\x6f\x66\x20\x42\x75\x73\x69\x6e\x65\x73\x73\x20\x44\x65\x76\x65\x6c\x6f\x70\x6d\x65\x6e\x74\x00\x54\x6f\x64\x64\x20\x48\x6f\x6c\x6c\x65\x6e\x73\x68\x65\x61\x64\x00\x43\x45\x4f\x00\x54\x69\x6d\x20\x57\x69\x6c\x6c\x69\x74\x73\x2c\x20\x43\x68\x72\x69\x73\x74\x69\x61\x6e\x20\x41\x6e\x74\x6b\x6f\x77\x2c\x20\x50\x61\x75\x6c\x20\x4a\x61\x71\x75\x61\x79\x73\x00\x4c\x65\x76\x65\x6c\x20\x44\x65\x73\x69\x67\x6e\x00\x47\x72\x61\x65\x6d\x65\x20\x44\x65\x76\x69\x6e\x65\x00\x47\x61\x6d\x65\x20\x44\x65\x73\x69\x67\x6e\x65\x72\x00\x4b\x65\x6e\x6e\x65\x74\x68\x20\x53\x63\x6f\x74\x74\x2c\x20\x53\x65\x6e\x65\x63\x61\x20\x4d\x65\x6e\x61\x72\x64\x2c\x20\x46\x72\x65\x64\x20\x4e\x69\x6c\x73\x73\x6f\x6e\x00\x41\x64\x72\x69\x61\x6e\x20\x43\x61\x72\x6d\x61\x63\x6b\x2c\x20\x4b\x65\x76\x69\x6e\x20\x43\x6c\x6f\x75\x64\x2c\x00\x41\x72\x74\x00\x4a\x6f\x68\x6e\x20\x43\x61\x72\x6d\x61\x63\x6b\x2c\x20\x52\x6f\x62\x65\x72\x74\x20\x41\x2e\x20\x44\x75\x66\x66\x79\x2c\x20\x4a\x69\x6d\x20\x44\x6f\x73\x65\x27\x00\x50\x72\x6f\x67\x72\x61\x6d\x6d\x69\x6e\x67\x00\x69\x64\x20\x53\x6f\x66\x74\x77\x61\x72\x65\x20\x69\x73\x3a\x00\x71\x75\x69\x74\x0a\x00\x68\x74\x74\x70\x3a\x2f\x2f\x77\x77\x77\x2e\x69\x6f\x71\x75\x61\x6b\x65\x33\x2e\x6f\x72\x67\x2f\x00\x69\x6f\x71\x75\x61\x6b\x65\x33\x20\x63\x6f\x6e\x74\x72\x69\x62\x75\x74\x6f\x72\x73\x3a\x00\x2e\x2e\x2e\x61\x6e\x64\x20\x6d\x61\x6e\x79\x2c\x20\x6d\x61\x6e\x79\x20\x6f\x74\x68\x65\x72\x73\x21\x00\x54\x6f\x6e\x79\x20\x4a\x2e\x20\x57\x68\x69\x74\x65"; // Used by: Info_ValueForKey
+int		global_3284 = 0; // Used by: Info_ValueForKey
+char	lit_3288[9252];
 char	lit_56ac[5402];
 char	quake3worldMessage[7534];
 char	ui_ioq3[272];
 char	ui_cdkeychecked[12];
-char	bss_8a50[260]; // Used by: UI_MainMenu
+int		bss_8a50; // Used by: UI_MainMenu
+char	bss_8a54[256];
 char	ui_server16[272];
 char	ui_server15[272];
 char	ui_server14[272];
@@ -145,15 +150,20 @@ char	ui_drawCrosshairNames[272];
 char	ui_drawCrosshair[272];
 char	ui_brassTime[272];
 char	ui_browserShowEmpty[12];
-char	bss_a0a0[260]; // Used by: ArenaServers_MenuInit
+int		bss_a0a0; // Used by: ArenaServers_MenuInit
+char	bss_a0a4[256];
 char	ui_browserShowFull[12];
-char	bss_a1b0[260]; // Used by: ArenaServers_MenuInit
+int		bss_a1b0; // Used by: ArenaServers_MenuInit
+char	bss_a1b4[256];
 char	ui_browserSortKey[12];
-char	bss_a2c0[260]; // Used by: ArenaServers_MenuInit
+int		bss_a2c0; // Used by: ArenaServers_MenuInit
+char	bss_a2c4[256];
 char	ui_browserGameType[12];
-char	bss_a3d0[260]; // Used by: ArenaServers_MenuInit
+int		bss_a3d0; // Used by: ArenaServers_MenuInit
+char	bss_a3d4[256];
 char	ui_browserMaster[12];
-char	bss_a4e0[260]; // Used by: ArenaServers_MenuInit
+int		bss_a4e0; // Used by: ArenaServers_MenuInit
+char	bss_a4e4[256];
 char	ui_spSelection[272];
 char	ui_spSkill[272];
 char	ui_spVideos[272];
@@ -177,100 +187,142 @@ char	ui_ffa_timelimit[272];
 char	ui_ffa_fraglimit[272];
 char	addBotsMenuInfo[276];
 int		bss_bd48; // Used by: UI_AddBotsMenu_Init
-char	bss_bd4c[8]; // Used by: UI_AddBotsMenu_Init
-char	bss_bd54[12]; // Used by: UI_AddBotsMenu_Init
+int		bss_bd4c; // Used by: UI_AddBotsMenu_Init
+int		bss_bd50;
+int		bss_bd54; // Used by: UI_AddBotsMenu_Init
+char	bss_bd58[8];
 int		bss_bd60; // Used by: UI_AddBotsMenu_Init
-char	bss_bd64[44]; // Used by: UI_AddBotsMenu_Init
+int		bss_bd64; // Used by: UI_AddBotsMenu_Init
+char	bss_bd68[40];
 int		bss_bd90; // Used by: UI_AddBotsMenu_Init
 int		bss_bd94; // Used by: UI_AddBotsMenu_Init
 int		bss_bd98; // Used by: UI_AddBotsMenu_Init
 int		bss_bd9c; // Used by: UI_AddBotsMenu_Init
-char	bss_bda0[8]; // Used by: UI_AddBotsMenu_Init
+int		bss_bda0; // Used by: UI_AddBotsMenu_Init
+int		bss_bda4;
 int		bss_bda8; // Used by: UI_AddBotsMenu_Init
-char	bss_bdac[28]; // Used by: UI_AddBotsMenu_Init
-char	bss_bdc8[32]; // Used by: UI_AddBotsMenu_Init
+int		bss_bdac; // Used by: UI_AddBotsMenu_Init
+char	bss_bdb0[24];
+int		bss_bdc8; // Used by: UI_AddBotsMenu_Init
+char	bss_bdcc[28];
 int		bss_bde8; // Used by: UI_AddBotsMenu_Init
-char	bss_bdec[8]; // Used by: UI_AddBotsMenu_Init
+int		bss_bdec; // Used by: UI_AddBotsMenu_Init
+int		bss_bdf0;
 int		bss_bdf4; // Used by: UI_AddBotsMenu_Init
-char	bss_bdf8[8]; // Used by: UI_AddBotsMenu_Init
+int		bss_bdf8; // Used by: UI_AddBotsMenu_Init
+int		bss_bdfc;
 int		bss_be00; // Used by: UI_AddBotsMenu_Init
-char	bss_be04[28]; // Used by: UI_AddBotsMenu_Init
-char	bss_be20[32]; // Used by: UI_AddBotsMenu_Init
+int		bss_be04; // Used by: UI_AddBotsMenu_Init
+char	bss_be08[24];
+int		bss_be20; // Used by: UI_AddBotsMenu_Init
+char	bss_be24[28];
 int		bss_be40; // Used by: UI_AddBotsMenu_Init
-char	bss_be44[8]; // Used by: UI_AddBotsMenu_Init
-char	bss_be4c[8]; // Used by: UI_AddBotsMenu_Init
+int		bss_be44; // Used by: UI_AddBotsMenu_Init
+int		bss_be48;
+int		bss_be4c; // Used by: UI_AddBotsMenu_Init
+int		bss_be50;
 int		bss_be54; // Used by: UI_AddBotsMenu_Init
 int		bss_be58; // Used by: UI_AddBotsMenu_Init
-char	bss_be5c[28]; // Used by: UI_AddBotsMenu_Init
+int		bss_be5c; // Used by: UI_AddBotsMenu_Init
+char	bss_be60[24];
 int		bss_be78; // Used by: UI_AddBotsMenu_Init
-char	bss_be7c[12]; // Used by: UI_AddBotsMenu_Init
-char	bss_be88[16]; // Used by: UI_AddBotsMenu_Init
+int		bss_be7c; // Used by: UI_AddBotsMenu_Init
+char	bss_be80[8];
+int		bss_be88; // Used by: UI_AddBotsMenu_Init
+char	bss_be8c[12];
 int		bss_be98; // Used by: UI_AddBotsMenu_Init
-char	bss_be9c[8]; // Used by: UI_AddBotsMenu_Init
-char	bss_bea4[8]; // Used by: UI_AddBotsMenu_Init
+int		bss_be9c; // Used by: UI_AddBotsMenu_Init
+int		bss_bea0;
+int		bss_bea4; // Used by: UI_AddBotsMenu_Init
+int		bss_bea8;
 int		bss_beac; // Used by: UI_AddBotsMenu_Init
 int		bss_beb0; // Used by: UI_AddBotsMenu_Init
-char	bss_beb4[28]; // Used by: UI_AddBotsMenu_Init
+int		bss_beb4; // Used by: UI_AddBotsMenu_Init
+char	bss_beb8[24];
 int		bss_bed0; // Used by: UI_AddBotsMenu_Init
-char	bss_bed4[12]; // Used by: UI_AddBotsMenu_Init
-char	bss_bee0[16]; // Used by: UI_AddBotsMenu_Init
+int		bss_bed4; // Used by: UI_AddBotsMenu_Init
+char	bss_bed8[8];
+int		bss_bee0; // Used by: UI_AddBotsMenu_Init
+char	bss_bee4[12];
 int		bss_bef0; // Used by: UI_AddBotsMenu_Init
-char	bss_bef4[76]; // Used by: UI_AddBotsMenu_Init
-char	bss_bf40[436]; // Used by: UI_AddBotsMenu_Init
+int		bss_bef4; // Used by: UI_AddBotsMenu_Init
+char	bss_bef8[72];
+int		bss_bf40; // Used by: UI_AddBotsMenu_Init
+char	bss_bf44[432];
 int		bss_c0f4; // Used by: UI_AddBotsMenu_Init
 int		bss_c0f8; // Used by: UI_AddBotsMenu_Init
 int		bss_c0fc; // Used by: UI_AddBotsMenu_Init
 int		bss_c100; // Used by: UI_AddBotsMenu_Init
-char	bss_c104[28]; // Used by: UI_AddBotsMenu_Init
-char	bss_c120[20]; // Used by: UI_AddBotsMenu_Init
-char	bss_c134[12]; // Used by: UI_AddBotsMenu_Init, UI_AddBotsMenu_FightEvent
-char	bss_c140[20]; // Used by: UI_AddBotsMenu_Init
+int		bss_c104; // Used by: UI_AddBotsMenu_Init
+char	bss_c108[24];
+int		bss_c120; // Used by: UI_AddBotsMenu_Init
+char	bss_c124[16];
+int		bss_c134; // Used by: UI_AddBotsMenu_Init, UI_AddBotsMenu_FightEvent
+char	bss_c138[8];
+int		bss_c140; // Used by: UI_AddBotsMenu_Init
+char	bss_c144[16];
 int		bss_c154; // Used by: UI_AddBotsMenu_Init
 int		bss_c158; // Used by: UI_AddBotsMenu_Init
 int		bss_c15c; // Used by: UI_AddBotsMenu_Init
 int		bss_c160; // Used by: UI_AddBotsMenu_Init
-char	bss_c164[28]; // Used by: UI_AddBotsMenu_Init
-char	bss_c180[20]; // Used by: UI_AddBotsMenu_Init
-char	bss_c194[12]; // Used by: UI_AddBotsMenu_FightEvent
-char	bss_c1a0[20]; // Used by: UI_AddBotsMenu_Init, UI_AddBotsMenu_FightEvent
+int		bss_c164; // Used by: UI_AddBotsMenu_Init
+char	bss_c168[24];
+int		bss_c180; // Used by: UI_AddBotsMenu_Init
+char	bss_c184[16];
+int		bss_c194; // Used by: UI_AddBotsMenu_FightEvent
+char	bss_c198[8];
+int		bss_c1a0; // Used by: UI_AddBotsMenu_Init, UI_AddBotsMenu_FightEvent
+char	bss_c1a4[16];
 int		bss_c1b4; // Used by: UI_AddBotsMenu_Init
 int		bss_c1b8; // Used by: UI_AddBotsMenu_Init
 int		bss_c1bc; // Used by: UI_AddBotsMenu_Init
 int		bss_c1c0; // Used by: UI_AddBotsMenu_Init
-char	bss_c1c4[28]; // Used by: UI_AddBotsMenu_Init
+int		bss_c1c4; // Used by: UI_AddBotsMenu_Init
+char	bss_c1c8[24];
 int		bss_c1e0; // Used by: UI_AddBotsMenu_Init
-char	bss_c1e4[12]; // Used by: UI_AddBotsMenu_Init
-char	bss_c1f0[16]; // Used by: UI_AddBotsMenu_Init
+int		bss_c1e4; // Used by: UI_AddBotsMenu_Init
+char	bss_c1e8[8];
+int		bss_c1f0; // Used by: UI_AddBotsMenu_Init
+char	bss_c1f4[12];
 int		bss_c200; // Used by: UI_AddBotsMenu_Init
-char	bss_c204[8]; // Used by: UI_AddBotsMenu_Init
+int		bss_c204; // Used by: UI_AddBotsMenu_Init
+int		bss_c208;
 int		bss_c20c; // Used by: UI_AddBotsMenu_Init
 int		bss_c210; // Used by: UI_AddBotsMenu_Init
 int		bss_c214; // Used by: UI_AddBotsMenu_Init
 int		bss_c218; // Used by: UI_AddBotsMenu_Init
-char	bss_c21c[28]; // Used by: UI_AddBotsMenu_Init
+int		bss_c21c; // Used by: UI_AddBotsMenu_Init
+char	bss_c220[24];
 int		bss_c238; // Used by: UI_AddBotsMenu_Init
-char	bss_c23c[12]; // Used by: UI_AddBotsMenu_Init
-char	bss_c248[16]; // Used by: UI_AddBotsMenu_Init
+int		bss_c23c; // Used by: UI_AddBotsMenu_Init
+char	bss_c240[8];
+int		bss_c248; // Used by: UI_AddBotsMenu_Init
+char	bss_c24c[12];
 int		bss_c258; // Used by: UI_AddBotsMenu_Init
-char	bss_c25c[8]; // Used by: UI_AddBotsMenu_Init
+int		bss_c25c; // Used by: UI_AddBotsMenu_Init
+int		bss_c260;
 int		bss_c264; // Used by: UI_AddBotsMenu_Init, UI_AddBotsMenu_GetSortedBotNums, UI_AddBotsMenu_DownEvent
 int		bss_c268; // Used by: UI_AddBotsMenu_Init, UI_AddBotsMenu_FightEvent
 int		bss_c26c; // Used by: UI_AddBotsMenu_Init, UI_AddBotsMenu_DownEvent, UI_AddBotsMenu_UpEvent, UI_AddBotsMenu_SetBotNames
-char	bss_c270[6372]; // Used by: UI_AddBotsMenu_Init, UI_AddBotsMenu_BotEvent, UI_AddBotsMenu_FightEvent
+int		bss_c270; // Used by: UI_AddBotsMenu_Init, UI_AddBotsMenu_BotEvent, UI_AddBotsMenu_FightEvent
+char	bss_c274[6368];
 int		uis; // Used by: UI_SwingAngles, UI_PlayerAnimation, UI_Refresh, UI_ConsoleCommand
 int		bss_db58; // Used by: UI_SPPostgameMenu_f, UI_SPPostgameMenu_Init, UI_SPPostgameMenu_MenuDraw, UI_SPPostgameMenu_MenuKey, UI_SPLevelMenu_MenuDraw, ArenaServers_StartRefresh, ArenaServers_DoRefresh, Bitmap_Draw, PlayerSettings_DrawPlayer, PlayerModel_DrawPlayer, Main_MenuDraw, Controls_DrawPlayer, UI_DisplayDownloadInfo, UI_Refresh, UI_ConsoleCommand, UI_DrawString, UI_DrawProportionalString
 int		bss_db5c; // Used by: ScrollList_Key, Slider_Key, UI_InGameMenu, UI_CursorInRect, UI_Refresh, UI_MouseEvent
 int		bss_db60; // Used by: UI_TeamOrdersMenu_Key, ScrollList_Key, UI_InGameMenu, UI_CursorInRect, UI_Refresh, UI_MouseEvent
 int		bss_db64; // Used by: UI_SPPostgameMenu_f, UI_SPLevelMenu_f, UI_MainMenu, UI_InGameMenu, UI_CDKeyMenu_Init, UI_Init, UI_ForceMenuOff, UI_PopMenu, UI_PushMenu
-char	bss_db68[11308]; // Used by: UI_Refresh, UI_Init, UI_MouseEvent, UI_KeyEvent, UI_IsFullscreen, UI_ForceMenuOff, UI_PopMenu, UI_PushMenu
+int		bss_db68; // Used by: UI_Refresh, UI_Init, UI_MouseEvent, UI_KeyEvent, UI_IsFullscreen, UI_ForceMenuOff, UI_PopMenu, UI_PushMenu
+char	bss_db6c[11304];
 int		bss_10794; // Used by: DriverInfo_MenuDraw
 int		bss_10798; // Used by: DriverInfo_MenuDraw
 int		bss_1079c; // Used by: DriverInfo_MenuDraw
 int		bss_107a0; // Used by: GraphicsOptions_MenuInit
 int		bss_107a4; // Used by: GraphicsOptions_MenuInit, Menu_Cache
-char	bss_107a8[12]; // Used by: UI_DisplayOptionsMenu_Init
+int		bss_107a8; // Used by: UI_DisplayOptionsMenu_Init
+char	bss_107ac[8];
 int		bss_107b4; // Used by: GraphicsOptions_GetResolutions, UI_Init
-char	bss_107b8[24]; // Used by: GraphicsOptions_GetResolutions, UI_Init
+int		bss_107b8; // Used by: GraphicsOptions_GetResolutions, UI_Init
+char	bss_107bc[20];
 int		bss_107d0; // Used by: Menu_Draw, UI_Refresh
 int		bss_107d4; // Used by: Menu_Cache, UI_DrawRect, UI_FillRect
 int		bss_107d8; // Used by: Menu_Cache, UI_DrawConnectScreen, UI_Refresh
@@ -290,26 +342,37 @@ int		bss_1080c; // Used by: UI_Refresh, UI_PopMenu, UI_PushMenu
 int		m_entersound; // Used by: UI_Refresh, UI_PushMenu
 char	cdkeyMenuInfo[276];
 int		bss_10928; // Used by: UI_CDKeyMenu_Init
-char	bss_1092c[8]; // Used by: UI_CDKeyMenu_Init
-char	bss_10934[12]; // Used by: UI_CDKeyMenu_Init
+int		bss_1092c; // Used by: UI_CDKeyMenu_Init
+int		bss_10930;
+int		bss_10934; // Used by: UI_CDKeyMenu_Init
+char	bss_10938[8];
 int		bss_10940; // Used by: UI_CDKeyMenu_Init
-char	bss_10944[44]; // Used by: UI_CDKeyMenu_Init
+int		bss_10944; // Used by: UI_CDKeyMenu_Init
+char	bss_10948[40];
 int		bss_10970; // Used by: UI_CDKeyMenu_Init
 int		bss_10974; // Used by: UI_CDKeyMenu_Init
 int		bss_10978; // Used by: UI_CDKeyMenu_Init
 int		bss_1097c; // Used by: UI_CDKeyMenu_Init
-char	bss_10980[8]; // Used by: UI_CDKeyMenu_Init
+int		bss_10980; // Used by: UI_CDKeyMenu_Init
+int		bss_10984;
 int		bss_10988; // Used by: UI_CDKeyMenu_Init
-char	bss_1098c[28]; // Used by: UI_CDKeyMenu_Init
-char	bss_109a8[32]; // Used by: UI_CDKeyMenu_Init
+int		bss_1098c; // Used by: UI_CDKeyMenu_Init
+char	bss_10990[24];
+int		bss_109a8; // Used by: UI_CDKeyMenu_Init
+char	bss_109ac[28];
 int		bss_109c8; // Used by: UI_CDKeyMenu_Init
-char	bss_109cc[8]; // Used by: UI_CDKeyMenu_Init
+int		bss_109cc; // Used by: UI_CDKeyMenu_Init
+int		bss_109d0;
 int		bss_109d4; // Used by: UI_CDKeyMenu_Init
-char	bss_109d8[8]; // Used by: UI_CDKeyMenu_Init
+int		bss_109d8; // Used by: UI_CDKeyMenu_Init
+int		bss_109dc;
 int		bss_109e0; // Used by: UI_CDKeyMenu_Init
-char	bss_109e4[28]; // Used by: UI_CDKeyMenu_Init
-char	bss_10a00[12]; // Used by: UI_CDKeyMenu_Init
-char	bss_10a0c[12]; // Used by: UI_CDKeyMenu_Init
+int		bss_109e4; // Used by: UI_CDKeyMenu_Init
+char	bss_109e8[24];
+int		bss_10a00; // Used by: UI_CDKeyMenu_Init
+char	bss_10a04[8];
+int		bss_10a0c; // Used by: UI_CDKeyMenu_Init
+char	bss_10a10[8];
 int		bss_10a18; // Used by: UI_CDKeyMenu_Init
 char	bss_10a1c[256]; // Used by: UI_CDKeyMenu_Init, UI_CDKeyMenu_Event
 int		bss_10b1c; // Used by: UI_CDKeyMenu_Init
@@ -317,131 +380,180 @@ int		bss_10b20; // Used by: UI_CDKeyMenu_Init
 int		bss_10b24; // Used by: UI_CDKeyMenu_Init
 int		bss_10b28; // Used by: UI_CDKeyMenu_Init
 int		bss_10b2c; // Used by: UI_CDKeyMenu_Init
-char	bss_10b30[28]; // Used by: UI_CDKeyMenu_Init
+int		bss_10b30; // Used by: UI_CDKeyMenu_Init
+char	bss_10b34[24];
 int		bss_10b4c; // Used by: UI_CDKeyMenu_Init
-char	bss_10b50[12]; // Used by: UI_CDKeyMenu_Init
-char	bss_10b5c[16]; // Used by: UI_CDKeyMenu_Init
+int		bss_10b50; // Used by: UI_CDKeyMenu_Init
+char	bss_10b54[8];
+int		bss_10b5c; // Used by: UI_CDKeyMenu_Init
+char	bss_10b60[12];
 int		bss_10b6c; // Used by: UI_CDKeyMenu_Init
-char	bss_10b70[8]; // Used by: UI_CDKeyMenu_Init
+int		bss_10b70; // Used by: UI_CDKeyMenu_Init
+int		bss_10b74;
 int		bss_10b78; // Used by: UI_CDKeyMenu_Init
 int		bss_10b7c; // Used by: UI_CDKeyMenu_Init
 int		bss_10b80; // Used by: UI_CDKeyMenu_Init
 int		bss_10b84; // Used by: UI_CDKeyMenu_Init
-char	bss_10b88[28]; // Used by: UI_CDKeyMenu_Init
+int		bss_10b88; // Used by: UI_CDKeyMenu_Init
+char	bss_10b8c[24];
 int		bss_10ba4; // Used by: UI_CDKeyMenu_Init
-char	bss_10ba8[12]; // Used by: UI_CDKeyMenu_Init
-char	bss_10bb4[16]; // Used by: UI_CDKeyMenu_Init
+int		bss_10ba8; // Used by: UI_CDKeyMenu_Init
+char	bss_10bac[8];
+int		bss_10bb4; // Used by: UI_CDKeyMenu_Init
+char	bss_10bb8[12];
 int		bss_10bc4; // Used by: UI_CDKeyMenu_Init
-char	bss_10bc8[8]; // Used by: UI_CDKeyMenu_Init
+int		bss_10bc8; // Used by: UI_CDKeyMenu_Init
+int		bss_10bcc;
 char	cinematicsMenuInfo[280];
-char	bss_10ce8[8]; // Used by: UI_CinematicsMenu_Init
-char	bss_10cf0[12]; // Used by: UI_CinematicsMenu_Init
+int		bss_10ce8; // Used by: UI_CinematicsMenu_Init
+int		bss_10cec;
+int		bss_10cf0; // Used by: UI_CinematicsMenu_Init
+char	bss_10cf4[8];
 int		bss_10cfc; // Used by: UI_CinematicsMenu_Init
-char	bss_10d00[44]; // Used by: UI_CinematicsMenu_Init
+int		bss_10d00; // Used by: UI_CinematicsMenu_Init
+char	bss_10d04[40];
 int		bss_10d2c; // Used by: UI_CinematicsMenu_Init
 int		bss_10d30; // Used by: UI_CinematicsMenu_Init
 int		bss_10d34; // Used by: UI_CinematicsMenu_Init
 int		bss_10d38; // Used by: UI_CinematicsMenu_Init
-char	bss_10d3c[8]; // Used by: UI_CinematicsMenu_Init
+int		bss_10d3c; // Used by: UI_CinematicsMenu_Init
+int		bss_10d40;
 int		bss_10d44; // Used by: UI_CinematicsMenu_Init
-char	bss_10d48[28]; // Used by: UI_CinematicsMenu_Init
-char	bss_10d64[32]; // Used by: UI_CinematicsMenu_Init
+int		bss_10d48; // Used by: UI_CinematicsMenu_Init
+char	bss_10d4c[24];
+int		bss_10d64; // Used by: UI_CinematicsMenu_Init
+char	bss_10d68[28];
 int		bss_10d84; // Used by: UI_CinematicsMenu_Init
-char	bss_10d88[8]; // Used by: UI_CinematicsMenu_Init
+int		bss_10d88; // Used by: UI_CinematicsMenu_Init
+int		bss_10d8c;
 int		bss_10d90; // Used by: UI_CinematicsMenu_Init
-char	bss_10d94[8]; // Used by: UI_CinematicsMenu_Init
+int		bss_10d94; // Used by: UI_CinematicsMenu_Init
+int		bss_10d98;
 int		bss_10d9c; // Used by: UI_CinematicsMenu_Init
-char	bss_10da0[28]; // Used by: UI_CinematicsMenu_Init
-char	bss_10dbc[32]; // Used by: UI_CinematicsMenu_Init
+int		bss_10da0; // Used by: UI_CinematicsMenu_Init
+char	bss_10da4[24];
+int		bss_10dbc; // Used by: UI_CinematicsMenu_Init
+char	bss_10dc0[28];
 int		bss_10ddc; // Used by: UI_CinematicsMenu_Init
-char	bss_10de0[8]; // Used by: UI_CinematicsMenu_Init
-char	bss_10de8[8]; // Used by: UI_CinematicsMenu_Init
+int		bss_10de0; // Used by: UI_CinematicsMenu_Init
+int		bss_10de4;
+int		bss_10de8; // Used by: UI_CinematicsMenu_Init
+int		bss_10dec;
 int		bss_10df0; // Used by: UI_CinematicsMenu_Init
 int		bss_10df4; // Used by: UI_CinematicsMenu_Init
-char	bss_10df8[28]; // Used by: UI_CinematicsMenu_Init
+int		bss_10df8; // Used by: UI_CinematicsMenu_Init
+char	bss_10dfc[24];
 int		bss_10e14; // Used by: UI_CinematicsMenu_Init
-char	bss_10e18[12]; // Used by: UI_CinematicsMenu_Init
+int		bss_10e18; // Used by: UI_CinematicsMenu_Init
+char	bss_10e1c[8];
 int		bss_10e24; // Used by: UI_CinematicsMenu_Init
 int		bss_10e28; // Used by: UI_CinematicsMenu_Init
 int		bss_10e2c; // Used by: UI_CinematicsMenu_Init
-char	bss_10e30[8]; // Used by: UI_CinematicsMenu_Init
+int		bss_10e30; // Used by: UI_CinematicsMenu_Init
+int		bss_10e34;
 int		bss_10e38; // Used by: UI_CinematicsMenu_Init
 int		bss_10e3c; // Used by: UI_CinematicsMenu_Init
-char	bss_10e40[28]; // Used by: UI_CinematicsMenu_Init
+int		bss_10e40; // Used by: UI_CinematicsMenu_Init
+char	bss_10e44[24];
 int		bss_10e5c; // Used by: UI_CinematicsMenu_Init
-char	bss_10e60[12]; // Used by: UI_CinematicsMenu_Init
+int		bss_10e60; // Used by: UI_CinematicsMenu_Init
+char	bss_10e64[8];
 int		bss_10e6c; // Used by: UI_CinematicsMenu_Init
 int		bss_10e70; // Used by: UI_CinematicsMenu_Init
 int		bss_10e74; // Used by: UI_CinematicsMenu_Init
-char	bss_10e78[8]; // Used by: UI_CinematicsMenu_Init
+int		bss_10e78; // Used by: UI_CinematicsMenu_Init
+int		bss_10e7c;
 int		bss_10e80; // Used by: UI_CinematicsMenu_Init
 int		bss_10e84; // Used by: UI_CinematicsMenu_Init
-char	bss_10e88[28]; // Used by: UI_CinematicsMenu_Init
+int		bss_10e88; // Used by: UI_CinematicsMenu_Init
+char	bss_10e8c[24];
 int		bss_10ea4; // Used by: UI_CinematicsMenu_Init
-char	bss_10ea8[12]; // Used by: UI_CinematicsMenu_Init
+int		bss_10ea8; // Used by: UI_CinematicsMenu_Init
+char	bss_10eac[8];
 int		bss_10eb4; // Used by: UI_CinematicsMenu_Init
 int		bss_10eb8; // Used by: UI_CinematicsMenu_Init
 int		bss_10ebc; // Used by: UI_CinematicsMenu_Init
-char	bss_10ec0[8]; // Used by: UI_CinematicsMenu_Init
+int		bss_10ec0; // Used by: UI_CinematicsMenu_Init
+int		bss_10ec4;
 int		bss_10ec8; // Used by: UI_CinematicsMenu_Init
 int		bss_10ecc; // Used by: UI_CinematicsMenu_Init
-char	bss_10ed0[28]; // Used by: UI_CinematicsMenu_Init
+int		bss_10ed0; // Used by: UI_CinematicsMenu_Init
+char	bss_10ed4[24];
 int		bss_10eec; // Used by: UI_CinematicsMenu_Init
-char	bss_10ef0[12]; // Used by: UI_CinematicsMenu_Init
+int		bss_10ef0; // Used by: UI_CinematicsMenu_Init
+char	bss_10ef4[8];
 int		bss_10efc; // Used by: UI_CinematicsMenu_Init
 int		bss_10f00; // Used by: UI_CinematicsMenu_Init
 int		bss_10f04; // Used by: UI_CinematicsMenu_Init
-char	bss_10f08[8]; // Used by: UI_CinematicsMenu_Init
+int		bss_10f08; // Used by: UI_CinematicsMenu_Init
+int		bss_10f0c;
 int		bss_10f10; // Used by: UI_CinematicsMenu_Init
 int		bss_10f14; // Used by: UI_CinematicsMenu_Init
-char	bss_10f18[28]; // Used by: UI_CinematicsMenu_Init
+int		bss_10f18; // Used by: UI_CinematicsMenu_Init
+char	bss_10f1c[24];
 int		bss_10f34; // Used by: UI_CinematicsMenu_Init
-char	bss_10f38[12]; // Used by: UI_CinematicsMenu_Init
+int		bss_10f38; // Used by: UI_CinematicsMenu_Init
+char	bss_10f3c[8];
 int		bss_10f44; // Used by: UI_CinematicsMenu_Init
 int		bss_10f48; // Used by: UI_CinematicsMenu_Init
 int		bss_10f4c; // Used by: UI_CinematicsMenu_Init
-char	bss_10f50[8]; // Used by: UI_CinematicsMenu_Init
+int		bss_10f50; // Used by: UI_CinematicsMenu_Init
+int		bss_10f54;
 int		bss_10f58; // Used by: UI_CinematicsMenu_Init
 int		bss_10f5c; // Used by: UI_CinematicsMenu_Init
-char	bss_10f60[28]; // Used by: UI_CinematicsMenu_Init
+int		bss_10f60; // Used by: UI_CinematicsMenu_Init
+char	bss_10f64[24];
 int		bss_10f7c; // Used by: UI_CinematicsMenu_Init
-char	bss_10f80[12]; // Used by: UI_CinematicsMenu_Init
+int		bss_10f80; // Used by: UI_CinematicsMenu_Init
+char	bss_10f84[8];
 int		bss_10f8c; // Used by: UI_CinematicsMenu_Init
 int		bss_10f90; // Used by: UI_CinematicsMenu_Init
 int		bss_10f94; // Used by: UI_CinematicsMenu_Init
-char	bss_10f98[8]; // Used by: UI_CinematicsMenu_Init
+int		bss_10f98; // Used by: UI_CinematicsMenu_Init
+int		bss_10f9c;
 int		bss_10fa0; // Used by: UI_CinematicsMenu_Init
 int		bss_10fa4; // Used by: UI_CinematicsMenu_Init
-char	bss_10fa8[28]; // Used by: UI_CinematicsMenu_Init
+int		bss_10fa8; // Used by: UI_CinematicsMenu_Init
+char	bss_10fac[24];
 int		bss_10fc4; // Used by: UI_CinematicsMenu_Init
-char	bss_10fc8[12]; // Used by: UI_CinematicsMenu_Init
+int		bss_10fc8; // Used by: UI_CinematicsMenu_Init
+char	bss_10fcc[8];
 int		bss_10fd4; // Used by: UI_CinematicsMenu_Init
 int		bss_10fd8; // Used by: UI_CinematicsMenu_Init
 int		bss_10fdc; // Used by: UI_CinematicsMenu_Init
-char	bss_10fe0[8]; // Used by: UI_CinematicsMenu_Init
+int		bss_10fe0; // Used by: UI_CinematicsMenu_Init
+int		bss_10fe4;
 int		bss_10fe8; // Used by: UI_CinematicsMenu_Init
 int		bss_10fec; // Used by: UI_CinematicsMenu_Init
-char	bss_10ff0[28]; // Used by: UI_CinematicsMenu_Init
+int		bss_10ff0; // Used by: UI_CinematicsMenu_Init
+char	bss_10ff4[24];
 int		bss_1100c; // Used by: UI_CinematicsMenu_Init
-char	bss_11010[12]; // Used by: UI_CinematicsMenu_Init
+int		bss_11010; // Used by: UI_CinematicsMenu_Init
+char	bss_11014[8];
 int		bss_1101c; // Used by: UI_CinematicsMenu_Init
 int		bss_11020; // Used by: UI_CinematicsMenu_Init
 int		bss_11024; // Used by: UI_CinematicsMenu_Init
-char	bss_11028[8]; // Used by: UI_CinematicsMenu_Init
+int		bss_11028; // Used by: UI_CinematicsMenu_Init
+int		bss_1102c;
 int		bss_11030; // Used by: UI_CinematicsMenu_Init
 int		bss_11034; // Used by: UI_CinematicsMenu_Init
-char	bss_11038[28]; // Used by: UI_CinematicsMenu_Init
+int		bss_11038; // Used by: UI_CinematicsMenu_Init
+char	bss_1103c[24];
 int		bss_11054; // Used by: UI_CinematicsMenu_Init
-char	bss_11058[12]; // Used by: UI_CinematicsMenu_Init
+int		bss_11058; // Used by: UI_CinematicsMenu_Init
+char	bss_1105c[8];
 int		bss_11064; // Used by: UI_CinematicsMenu_Init
 int		bss_11068; // Used by: UI_CinematicsMenu_Init
 int		bss_1106c; // Used by: UI_CinematicsMenu_Init
-char	bss_11070[8]; // Used by: UI_CinematicsMenu_Init
+int		bss_11070; // Used by: UI_CinematicsMenu_Init
+int		bss_11074;
 int		bss_11078; // Used by: UI_CinematicsMenu_Init
 int		bss_1107c; // Used by: UI_CinematicsMenu_Init
-char	bss_11080[28]; // Used by: UI_CinematicsMenu_Init
+int		bss_11080; // Used by: UI_CinematicsMenu_Init
+char	bss_11084[24];
 int		bss_1109c; // Used by: UI_CinematicsMenu_Init
-char	bss_110a0[12]; // Used by: UI_CinematicsMenu_Init
+int		bss_110a0; // Used by: UI_CinematicsMenu_Init
+char	bss_110a4[8];
 int		bss_110ac; // Used by: UI_CinematicsMenu_Init
 int		bss_110b0; // Used by: UI_CinematicsMenu_Init
 int		bss_110b4; // Used by: UI_CinematicsMenu_Init
@@ -449,32 +561,43 @@ int		bss_110b8; // Used by: UI_CinematicsMenu_Init
 int		bss_110bc; // Used by: UI_CinematicsMenu_Init
 int		bss_110c0; // Used by: UI_CinematicsMenu_Init
 int		bss_110c4; // Used by: UI_CinematicsMenu_Init
-char	bss_110c8[28]; // Used by: UI_CinematicsMenu_Init
+int		bss_110c8; // Used by: UI_CinematicsMenu_Init
+char	bss_110cc[24];
 int		bss_110e4; // Used by: UI_CinematicsMenu_Init
-char	bss_110e8[12]; // Used by: UI_CinematicsMenu_Init
-char	bss_110f4[16]; // Used by: UI_CinematicsMenu_Init
+int		bss_110e8; // Used by: UI_CinematicsMenu_Init
+char	bss_110ec[8];
+int		bss_110f4; // Used by: UI_CinematicsMenu_Init
+char	bss_110f8[12];
 int		bss_11104; // Used by: UI_CinematicsMenu_Init
-char	bss_11108[8]; // Used by: UI_CinematicsMenu_Init
+int		bss_11108; // Used by: UI_CinematicsMenu_Init
+int		bss_1110c;
 char	s_confirm[268];
 int		bss_1121c; // Used by: UI_Message, UI_ConfirmMenu_Style
 int		bss_11220; // Used by: UI_Message, UI_ConfirmMenu_Style
 int		bss_11224; // Used by: UI_Message, UI_ConfirmMenu_Style
-char	bss_11228[8]; // Used by: UI_Message, UI_ConfirmMenu_Style
-char	bss_11230[8]; // Used by: UI_ConfirmMenu_Style
+int		bss_11228; // Used by: UI_Message, UI_ConfirmMenu_Style
+int		bss_1122c;
+int		bss_11230; // Used by: UI_ConfirmMenu_Style
+int		bss_11234;
 int		bss_11238; // Used by: UI_ConfirmMenu_Style
 int		bss_1123c; // Used by: UI_ConfirmMenu_Style
-char	bss_11240[28]; // Used by: UI_ConfirmMenu_Style
+int		bss_11240; // Used by: UI_ConfirmMenu_Style
+char	bss_11244[24];
 int		bss_1125c; // Used by: UI_ConfirmMenu_Style
-char	bss_11260[12]; // Used by: UI_ConfirmMenu_Style
+int		bss_11260; // Used by: UI_ConfirmMenu_Style
+char	bss_11264[8];
 int		bss_1126c; // Used by: UI_ConfirmMenu_Style
 int		bss_11270; // Used by: UI_ConfirmMenu_Style
 int		bss_11274; // Used by: UI_ConfirmMenu_Style
-char	bss_11278[8]; // Used by: UI_Message, UI_ConfirmMenu_Style
+int		bss_11278; // Used by: UI_Message, UI_ConfirmMenu_Style
+int		bss_1127c;
 int		bss_11280; // Used by: UI_Message, UI_ConfirmMenu_Style
 int		bss_11284; // Used by: UI_Message, UI_ConfirmMenu_Style
-char	bss_11288[28]; // Used by: UI_Message, UI_ConfirmMenu_Style
+int		bss_11288; // Used by: UI_Message, UI_ConfirmMenu_Style
+char	bss_1128c[24];
 int		bss_112a4; // Used by: UI_Message, UI_ConfirmMenu_Style
-char	bss_112a8[12]; // Used by: UI_Message, UI_ConfirmMenu_Style
+int		bss_112a8; // Used by: UI_Message, UI_ConfirmMenu_Style
+char	bss_112ac[8];
 int		bss_112b4; // Used by: UI_Message, UI_ConfirmMenu_Style
 int		bss_112b8; // Used by: UI_Message, UI_ConfirmMenu_Style
 int		bss_112bc; // Used by: UI_Message, UI_ConfirmMenu_Style
@@ -487,321 +610,477 @@ int		bss_112d4; // Used by: UI_Message, MessageMenu_Draw
 char	lastLoadingText[1024]; // Used by: UI_DrawConnectScreen
 int		lastConnState; // Used by: UI_DrawConnectScreen
 char	passwordField[364];
-char	s_controls[8]; // Used by: Controls_MenuKey, Controls_Update
-char	bss_11850[264]; // Used by: Controls_Update
+int		s_controls; // Used by: Controls_MenuKey, Controls_Update
+int		bss_1184c;
+int		bss_11850; // Used by: Controls_Update
+char	bss_11854[260];
 int		bss_11958; // Used by: Controls_MenuInit
 int		bss_1195c; // Used by: Controls_MenuInit
-char	bss_11960[8]; // Used by: Controls_MenuInit
-char	bss_11968[12]; // Used by: Controls_MenuInit
+int		bss_11960; // Used by: Controls_MenuInit
+int		bss_11964;
+int		bss_11968; // Used by: Controls_MenuInit
+char	bss_1196c[8];
 int		bss_11974; // Used by: Controls_MenuInit
-char	bss_11978[28]; // Used by: Controls_MenuInit
-char	bss_11994[16]; // Used by: Controls_MenuInit
+int		bss_11978; // Used by: Controls_MenuInit
+char	bss_1197c[24];
+int		bss_11994; // Used by: Controls_MenuInit
+char	bss_11998[12];
 int		bss_119a4; // Used by: Controls_MenuInit
 int		bss_119a8; // Used by: Controls_MenuInit
 int		bss_119ac; // Used by: Controls_MenuInit
 int		bss_119b0; // Used by: Controls_MenuInit
-char	bss_119b4[8]; // Used by: Controls_MenuInit
+int		bss_119b4; // Used by: Controls_MenuInit
+int		bss_119b8;
 int		bss_119bc; // Used by: Controls_MenuInit
-char	bss_119c0[28]; // Used by: Controls_MenuInit
-char	bss_119dc[32]; // Used by: Controls_MenuInit
+int		bss_119c0; // Used by: Controls_MenuInit
+char	bss_119c4[24];
+int		bss_119dc; // Used by: Controls_MenuInit
+char	bss_119e0[28];
 int		bss_119fc; // Used by: Controls_MenuInit
-char	bss_11a00[8]; // Used by: Controls_MenuInit
+int		bss_11a00; // Used by: Controls_MenuInit
+int		bss_11a04;
 int		bss_11a08; // Used by: Controls_MenuInit
-char	bss_11a0c[8]; // Used by: Controls_MenuInit
+int		bss_11a0c; // Used by: Controls_MenuInit
+int		bss_11a10;
 int		bss_11a14; // Used by: Controls_MenuInit
-char	bss_11a18[28]; // Used by: Controls_MenuInit
-char	bss_11a34[32]; // Used by: Controls_MenuInit
+int		bss_11a18; // Used by: Controls_MenuInit
+char	bss_11a1c[24];
+int		bss_11a34; // Used by: Controls_MenuInit
+char	bss_11a38[28];
 int		bss_11a54; // Used by: Controls_MenuInit
-char	bss_11a58[8]; // Used by: Controls_MenuInit
-char	bss_11a60[12]; // Used by: Controls_MenuInit
+int		bss_11a58; // Used by: Controls_MenuInit
+int		bss_11a5c;
+int		bss_11a60; // Used by: Controls_MenuInit
+char	bss_11a64[8];
 int		bss_11a6c; // Used by: Controls_MenuInit
-char	bss_11a70[28]; // Used by: Controls_MenuInit
-char	bss_11a8c[12]; // Used by: Controls_MenuInit
-char	bss_11a98[20]; // Used by: Controls_MenuInit
+int		bss_11a70; // Used by: Controls_MenuInit
+char	bss_11a74[24];
+int		bss_11a8c; // Used by: Controls_MenuInit
+char	bss_11a90[8];
+int		bss_11a98; // Used by: Controls_MenuInit
+char	bss_11a9c[16];
 int		bss_11aac; // Used by: Controls_MenuInit
-char	bss_11ab0[8]; // Used by: Controls_MenuInit
-char	bss_11ab8[8]; // Used by: Controls_MenuInit
+int		bss_11ab0; // Used by: Controls_MenuInit
+int		bss_11ab4;
+int		bss_11ab8; // Used by: Controls_MenuInit
+int		bss_11abc;
 int		bss_11ac0; // Used by: Controls_MenuInit
 int		bss_11ac4; // Used by: Controls_MenuInit
-char	bss_11ac8[28]; // Used by: Controls_MenuInit
+int		bss_11ac8; // Used by: Controls_MenuInit
+char	bss_11acc[24];
 int		bss_11ae4; // Used by: Controls_MenuInit
-char	bss_11ae8[12]; // Used by: Controls_MenuInit
+int		bss_11ae8; // Used by: Controls_MenuInit
+char	bss_11aec[8];
 int		bss_11af4; // Used by: Controls_MenuInit
 int		bss_11af8; // Used by: Controls_MenuInit
 int		bss_11afc; // Used by: Controls_MenuInit
-char	bss_11b00[8]; // Used by: Controls_MenuInit
+int		bss_11b00; // Used by: Controls_MenuInit
+int		bss_11b04;
 int		bss_11b08; // Used by: Controls_MenuInit
 int		bss_11b0c; // Used by: Controls_MenuInit
-char	bss_11b10[28]; // Used by: Controls_MenuInit
+int		bss_11b10; // Used by: Controls_MenuInit
+char	bss_11b14[24];
 int		bss_11b2c; // Used by: Controls_MenuInit
-char	bss_11b30[12]; // Used by: Controls_MenuInit
+int		bss_11b30; // Used by: Controls_MenuInit
+char	bss_11b34[8];
 int		bss_11b3c; // Used by: Controls_MenuInit
 int		bss_11b40; // Used by: Controls_MenuInit
 int		bss_11b44; // Used by: Controls_MenuInit
-char	bss_11b48[8]; // Used by: Controls_MenuInit
+int		bss_11b48; // Used by: Controls_MenuInit
+int		bss_11b4c;
 int		bss_11b50; // Used by: Controls_MenuInit
 int		bss_11b54; // Used by: Controls_MenuInit
-char	bss_11b58[28]; // Used by: Controls_MenuInit
+int		bss_11b58; // Used by: Controls_MenuInit
+char	bss_11b5c[24];
 int		bss_11b74; // Used by: Controls_MenuInit
-char	bss_11b78[12]; // Used by: Controls_MenuInit
+int		bss_11b78; // Used by: Controls_MenuInit
+char	bss_11b7c[8];
 int		bss_11b84; // Used by: Controls_MenuInit
 int		bss_11b88; // Used by: Controls_MenuInit
 int		bss_11b8c; // Used by: Controls_MenuInit
-char	bss_11b90[8]; // Used by: Controls_MenuInit
+int		bss_11b90; // Used by: Controls_MenuInit
+int		bss_11b94;
 int		bss_11b98; // Used by: Controls_MenuInit
 int		bss_11b9c; // Used by: Controls_MenuInit
-char	bss_11ba0[28]; // Used by: Controls_MenuInit
+int		bss_11ba0; // Used by: Controls_MenuInit
+char	bss_11ba4[24];
 int		bss_11bbc; // Used by: Controls_MenuInit
-char	bss_11bc0[12]; // Used by: Controls_MenuInit
+int		bss_11bc0; // Used by: Controls_MenuInit
+char	bss_11bc4[8];
 int		bss_11bcc; // Used by: Controls_MenuInit
 int		bss_11bd0; // Used by: Controls_MenuInit
 int		bss_11bd4; // Used by: Controls_MenuInit
-char	bss_11bd8[8]; // Used by: Controls_MenuInit
-char	bss_11be0[36]; // Used by: Controls_MenuInit
+int		bss_11bd8; // Used by: Controls_MenuInit
+int		bss_11bdc;
+int		bss_11be0; // Used by: Controls_MenuInit
+char	bss_11be4[32];
 int		bss_11c04; // Used by: Controls_MenuInit
-char	bss_11c08[8]; // Used by: Controls_MenuInit
+int		bss_11c08; // Used by: Controls_MenuInit
+int		bss_11c0c;
 int		bss_11c10; // Used by: Controls_MenuInit
-char	bss_11c14[8]; // Used by: Controls_MenuInit
-char	bss_11c1c[36]; // Used by: Controls_MenuInit
+int		bss_11c14; // Used by: Controls_MenuInit
+int		bss_11c18;
+int		bss_11c1c; // Used by: Controls_MenuInit
+char	bss_11c20[32];
 int		bss_11c40; // Used by: Controls_MenuInit
-char	bss_11c44[8]; // Used by: Controls_MenuInit
+int		bss_11c44; // Used by: Controls_MenuInit
+int		bss_11c48;
 int		bss_11c4c; // Used by: Controls_MenuInit
-char	bss_11c50[8]; // Used by: Controls_MenuInit
-char	bss_11c58[36]; // Used by: Controls_MenuInit
+int		bss_11c50; // Used by: Controls_MenuInit
+int		bss_11c54;
+int		bss_11c58; // Used by: Controls_MenuInit
+char	bss_11c5c[32];
 int		bss_11c7c; // Used by: Controls_MenuInit
-char	bss_11c80[8]; // Used by: Controls_MenuInit
+int		bss_11c80; // Used by: Controls_MenuInit
+int		bss_11c84;
 int		bss_11c88; // Used by: Controls_MenuInit
-char	bss_11c8c[8]; // Used by: Controls_MenuInit
-char	bss_11c94[36]; // Used by: Controls_MenuInit
+int		bss_11c8c; // Used by: Controls_MenuInit
+int		bss_11c90;
+int		bss_11c94; // Used by: Controls_MenuInit
+char	bss_11c98[32];
 int		bss_11cb8; // Used by: Controls_MenuInit
-char	bss_11cbc[8]; // Used by: Controls_MenuInit
+int		bss_11cbc; // Used by: Controls_MenuInit
+int		bss_11cc0;
 int		bss_11cc4; // Used by: Controls_MenuInit
-char	bss_11cc8[8]; // Used by: Controls_MenuInit
-char	bss_11cd0[36]; // Used by: Controls_MenuInit
+int		bss_11cc8; // Used by: Controls_MenuInit
+int		bss_11ccc;
+int		bss_11cd0; // Used by: Controls_MenuInit
+char	bss_11cd4[32];
 int		bss_11cf4; // Used by: Controls_MenuInit
-char	bss_11cf8[8]; // Used by: Controls_MenuInit
+int		bss_11cf8; // Used by: Controls_MenuInit
+int		bss_11cfc;
 int		bss_11d00; // Used by: Controls_MenuInit
-char	bss_11d04[8]; // Used by: Controls_MenuInit
-char	bss_11d0c[36]; // Used by: Controls_MenuInit
+int		bss_11d04; // Used by: Controls_MenuInit
+int		bss_11d08;
+int		bss_11d0c; // Used by: Controls_MenuInit
+char	bss_11d10[32];
 int		bss_11d30; // Used by: Controls_MenuInit
-char	bss_11d34[8]; // Used by: Controls_MenuInit
+int		bss_11d34; // Used by: Controls_MenuInit
+int		bss_11d38;
 int		bss_11d3c; // Used by: Controls_MenuInit
-char	bss_11d40[8]; // Used by: Controls_MenuInit
-char	bss_11d48[36]; // Used by: Controls_MenuInit
+int		bss_11d40; // Used by: Controls_MenuInit
+int		bss_11d44;
+int		bss_11d48; // Used by: Controls_MenuInit
+char	bss_11d4c[32];
 int		bss_11d6c; // Used by: Controls_MenuInit
-char	bss_11d70[8]; // Used by: Controls_MenuInit
+int		bss_11d70; // Used by: Controls_MenuInit
+int		bss_11d74;
 int		bss_11d78; // Used by: Controls_MenuInit
-char	bss_11d7c[8]; // Used by: Controls_MenuInit
-char	bss_11d84[36]; // Used by: Controls_MenuInit
+int		bss_11d7c; // Used by: Controls_MenuInit
+int		bss_11d80;
+int		bss_11d84; // Used by: Controls_MenuInit
+char	bss_11d88[32];
 int		bss_11da8; // Used by: Controls_MenuInit
-char	bss_11dac[8]; // Used by: Controls_MenuInit
+int		bss_11dac; // Used by: Controls_MenuInit
+int		bss_11db0;
 int		bss_11db4; // Used by: Controls_MenuInit
-char	bss_11db8[8]; // Used by: Controls_MenuInit
-char	bss_11dc0[36]; // Used by: Controls_MenuInit
+int		bss_11db8; // Used by: Controls_MenuInit
+int		bss_11dbc;
+int		bss_11dc0; // Used by: Controls_MenuInit
+char	bss_11dc4[32];
 int		bss_11de4; // Used by: Controls_MenuInit
-char	bss_11de8[8]; // Used by: Controls_MenuInit
+int		bss_11de8; // Used by: Controls_MenuInit
+int		bss_11dec;
 int		bss_11df0; // Used by: Controls_MenuInit
-char	bss_11df4[8]; // Used by: Controls_MenuInit
-char	bss_11dfc[36]; // Used by: Controls_MenuInit
+int		bss_11df4; // Used by: Controls_MenuInit
+int		bss_11df8;
+int		bss_11dfc; // Used by: Controls_MenuInit
+char	bss_11e00[32];
 int		bss_11e20; // Used by: Controls_MenuInit
-char	bss_11e24[8]; // Used by: Controls_MenuInit
+int		bss_11e24; // Used by: Controls_MenuInit
+int		bss_11e28;
 int		bss_11e2c; // Used by: Controls_MenuInit
-char	bss_11e30[8]; // Used by: Controls_MenuInit
-char	bss_11e38[36]; // Used by: Controls_MenuInit
+int		bss_11e30; // Used by: Controls_MenuInit
+int		bss_11e34;
+int		bss_11e38; // Used by: Controls_MenuInit
+char	bss_11e3c[32];
 int		bss_11e5c; // Used by: Controls_MenuInit
-char	bss_11e60[8]; // Used by: Controls_MenuInit
+int		bss_11e60; // Used by: Controls_MenuInit
+int		bss_11e64;
 int		bss_11e68; // Used by: Controls_MenuInit
-char	bss_11e6c[8]; // Used by: Controls_MenuInit
-char	bss_11e74[36]; // Used by: Controls_MenuInit
+int		bss_11e6c; // Used by: Controls_MenuInit
+int		bss_11e70;
+int		bss_11e74; // Used by: Controls_MenuInit
+char	bss_11e78[32];
 int		bss_11e98; // Used by: Controls_MenuInit
-char	bss_11e9c[8]; // Used by: Controls_MenuInit
+int		bss_11e9c; // Used by: Controls_MenuInit
+int		bss_11ea0;
 int		bss_11ea4; // Used by: Controls_MenuInit
-char	bss_11ea8[8]; // Used by: Controls_MenuInit
-char	bss_11eb0[36]; // Used by: Controls_MenuInit
+int		bss_11ea8; // Used by: Controls_MenuInit
+int		bss_11eac;
+int		bss_11eb0; // Used by: Controls_MenuInit
+char	bss_11eb4[32];
 int		bss_11ed4; // Used by: Controls_MenuInit
-char	bss_11ed8[8]; // Used by: Controls_MenuInit
+int		bss_11ed8; // Used by: Controls_MenuInit
+int		bss_11edc;
 int		bss_11ee0; // Used by: Controls_MenuInit
-char	bss_11ee4[8]; // Used by: Controls_MenuInit
-char	bss_11eec[36]; // Used by: Controls_MenuInit
+int		bss_11ee4; // Used by: Controls_MenuInit
+int		bss_11ee8;
+int		bss_11eec; // Used by: Controls_MenuInit
+char	bss_11ef0[32];
 int		bss_11f10; // Used by: Controls_MenuInit
-char	bss_11f14[8]; // Used by: Controls_MenuInit
+int		bss_11f14; // Used by: Controls_MenuInit
+int		bss_11f18;
 int		bss_11f1c; // Used by: Controls_MenuInit
-char	bss_11f20[8]; // Used by: Controls_MenuInit
-char	bss_11f28[36]; // Used by: Controls_MenuInit
+int		bss_11f20; // Used by: Controls_MenuInit
+int		bss_11f24;
+int		bss_11f28; // Used by: Controls_MenuInit
+char	bss_11f2c[32];
 int		bss_11f4c; // Used by: Controls_MenuInit
-char	bss_11f50[8]; // Used by: Controls_MenuInit
+int		bss_11f50; // Used by: Controls_MenuInit
+int		bss_11f54;
 int		bss_11f58; // Used by: Controls_MenuInit
-char	bss_11f5c[8]; // Used by: Controls_MenuInit
-char	bss_11f64[36]; // Used by: Controls_MenuInit
+int		bss_11f5c; // Used by: Controls_MenuInit
+int		bss_11f60;
+int		bss_11f64; // Used by: Controls_MenuInit
+char	bss_11f68[32];
 int		bss_11f88; // Used by: Controls_MenuInit
-char	bss_11f8c[8]; // Used by: Controls_MenuInit
+int		bss_11f8c; // Used by: Controls_MenuInit
+int		bss_11f90;
 int		bss_11f94; // Used by: Controls_MenuInit
-char	bss_11f98[8]; // Used by: Controls_MenuInit
-char	bss_11fa0[36]; // Used by: Controls_MenuInit
+int		bss_11f98; // Used by: Controls_MenuInit
+int		bss_11f9c;
+int		bss_11fa0; // Used by: Controls_MenuInit
+char	bss_11fa4[32];
 int		bss_11fc4; // Used by: Controls_MenuInit
-char	bss_11fc8[8]; // Used by: Controls_MenuInit
+int		bss_11fc8; // Used by: Controls_MenuInit
+int		bss_11fcc;
 int		bss_11fd0; // Used by: Controls_MenuInit
-char	bss_11fd4[8]; // Used by: Controls_MenuInit
-char	bss_11fdc[36]; // Used by: Controls_MenuInit
+int		bss_11fd4; // Used by: Controls_MenuInit
+int		bss_11fd8;
+int		bss_11fdc; // Used by: Controls_MenuInit
+char	bss_11fe0[32];
 int		bss_12000; // Used by: Controls_MenuInit
-char	bss_12004[8]; // Used by: Controls_MenuInit
+int		bss_12004; // Used by: Controls_MenuInit
+int		bss_12008;
 int		bss_1200c; // Used by: Controls_MenuInit
-char	bss_12010[8]; // Used by: Controls_MenuInit
-char	bss_12018[36]; // Used by: Controls_MenuInit
+int		bss_12010; // Used by: Controls_MenuInit
+int		bss_12014;
+int		bss_12018; // Used by: Controls_MenuInit
+char	bss_1201c[32];
 int		bss_1203c; // Used by: Controls_MenuInit
-char	bss_12040[8]; // Used by: Controls_MenuInit
+int		bss_12040; // Used by: Controls_MenuInit
+int		bss_12044;
 int		bss_12048; // Used by: Controls_MenuInit
-char	bss_1204c[8]; // Used by: Controls_MenuInit
-char	bss_12054[36]; // Used by: Controls_MenuInit
+int		bss_1204c; // Used by: Controls_MenuInit
+int		bss_12050;
+int		bss_12054; // Used by: Controls_MenuInit
+char	bss_12058[32];
 int		bss_12078; // Used by: Controls_MenuInit
-char	bss_1207c[8]; // Used by: Controls_MenuInit
+int		bss_1207c; // Used by: Controls_MenuInit
+int		bss_12080;
 int		bss_12084; // Used by: Controls_MenuInit
-char	bss_12088[8]; // Used by: Controls_MenuInit
-char	bss_12090[36]; // Used by: Controls_MenuInit
+int		bss_12088; // Used by: Controls_MenuInit
+int		bss_1208c;
+int		bss_12090; // Used by: Controls_MenuInit
+char	bss_12094[32];
 int		bss_120b4; // Used by: Controls_MenuInit
-char	bss_120b8[8]; // Used by: Controls_MenuInit
+int		bss_120b8; // Used by: Controls_MenuInit
+int		bss_120bc;
 int		bss_120c0; // Used by: Controls_MenuInit
-char	bss_120c4[8]; // Used by: Controls_MenuInit
-char	bss_120cc[36]; // Used by: Controls_MenuInit
+int		bss_120c4; // Used by: Controls_MenuInit
+int		bss_120c8;
+int		bss_120cc; // Used by: Controls_MenuInit
+char	bss_120d0[32];
 int		bss_120f0; // Used by: Controls_MenuInit
-char	bss_120f4[8]; // Used by: Controls_MenuInit
+int		bss_120f4; // Used by: Controls_MenuInit
+int		bss_120f8;
 int		bss_120fc; // Used by: Controls_MenuInit
-char	bss_12100[8]; // Used by: Controls_MenuInit
-char	bss_12108[36]; // Used by: Controls_MenuInit
+int		bss_12100; // Used by: Controls_MenuInit
+int		bss_12104;
+int		bss_12108; // Used by: Controls_MenuInit
+char	bss_1210c[32];
 int		bss_1212c; // Used by: Controls_MenuInit
-char	bss_12130[8]; // Used by: Controls_MenuInit
+int		bss_12130; // Used by: Controls_MenuInit
+int		bss_12134;
 int		bss_12138; // Used by: Controls_MenuInit
-char	bss_1213c[8]; // Used by: Controls_MenuInit
-char	bss_12144[36]; // Used by: Controls_MenuInit
+int		bss_1213c; // Used by: Controls_MenuInit
+int		bss_12140;
+int		bss_12144; // Used by: Controls_MenuInit
+char	bss_12148[32];
 int		bss_12168; // Used by: Controls_MenuInit
-char	bss_1216c[8]; // Used by: Controls_MenuInit
+int		bss_1216c; // Used by: Controls_MenuInit
+int		bss_12170;
 int		bss_12174; // Used by: Controls_MenuInit
-char	bss_12178[8]; // Used by: Controls_MenuInit
-char	bss_12180[36]; // Used by: Controls_MenuInit
+int		bss_12178; // Used by: Controls_MenuInit
+int		bss_1217c;
+int		bss_12180; // Used by: Controls_MenuInit
+char	bss_12184[32];
 int		bss_121a4; // Used by: Controls_MenuInit
-char	bss_121a8[8]; // Used by: Controls_MenuInit
+int		bss_121a8; // Used by: Controls_MenuInit
+int		bss_121ac;
 int		bss_121b0; // Used by: Controls_MenuInit
 int		bss_121b4; // Used by: Controls_MenuInit
 int		bss_121b8; // Used by: Controls_MenuInit
 int		bss_121bc; // Used by: Controls_MenuInit
-char	bss_121c0[32]; // Used by: Controls_MenuInit
+int		bss_121c0; // Used by: Controls_MenuInit
+char	bss_121c4[28];
 int		bss_121e0; // Used by: Controls_MenuInit
 int		bss_121e4; // Used by: Controls_MenuInit
-char	bss_121e8[8]; // Used by: Controls_MenuInit
+int		bss_121e8; // Used by: Controls_MenuInit
+int		bss_121ec;
 int		bss_121f0; // Used by: Controls_SetDefaults, Controls_SetConfig, Controls_GetConfig
-char	bss_121f4[8]; // Used by: Controls_MenuInit
-char	bss_121fc[36]; // Used by: Controls_MenuInit
+int		bss_121f4; // Used by: Controls_MenuInit
+int		bss_121f8;
+int		bss_121fc; // Used by: Controls_MenuInit
+char	bss_12200[32];
 int		bss_12220; // Used by: Controls_MenuInit
-char	bss_12224[8]; // Used by: Controls_MenuInit
+int		bss_12224; // Used by: Controls_MenuInit
+int		bss_12228;
 int		bss_1222c; // Used by: Controls_MenuInit
-char	bss_12230[8]; // Used by: Controls_MenuInit
-char	bss_12238[36]; // Used by: Controls_MenuInit
+int		bss_12230; // Used by: Controls_MenuInit
+int		bss_12234;
+int		bss_12238; // Used by: Controls_MenuInit
+char	bss_1223c[32];
 int		bss_1225c; // Used by: Controls_MenuInit
-char	bss_12260[8]; // Used by: Controls_MenuInit
+int		bss_12260; // Used by: Controls_MenuInit
+int		bss_12264;
 int		bss_12268; // Used by: Controls_MenuInit
-char	bss_1226c[8]; // Used by: Controls_MenuInit
-char	bss_12274[36]; // Used by: Controls_MenuInit
+int		bss_1226c; // Used by: Controls_MenuInit
+int		bss_12270;
+int		bss_12274; // Used by: Controls_MenuInit
+char	bss_12278[32];
 int		bss_12298; // Used by: Controls_MenuInit
-char	bss_1229c[8]; // Used by: Controls_MenuInit
+int		bss_1229c; // Used by: Controls_MenuInit
+int		bss_122a0;
 int		bss_122a4; // Used by: Controls_MenuInit
 int		bss_122a8; // Used by: Controls_MenuInit
 int		bss_122ac; // Used by: Controls_MenuInit
 int		bss_122b0; // Used by: Controls_MenuInit
-char	bss_122b4[32]; // Used by: Controls_MenuInit
+int		bss_122b4; // Used by: Controls_MenuInit
+char	bss_122b8[28];
 int		bss_122d4; // Used by: Controls_MenuInit
 int		bss_122d8; // Used by: Controls_MenuInit
-char	bss_122dc[8]; // Used by: Controls_MenuInit
+int		bss_122dc; // Used by: Controls_MenuInit
+int		bss_122e0;
 int		bss_122e4; // Used by: Controls_SetDefaults, Controls_SetConfig, Controls_GetConfig
 int		bss_122e8; // Used by: Controls_MenuInit
 int		bss_122ec; // Used by: Controls_MenuInit
 int		bss_122f0; // Used by: Controls_MenuInit
-char	bss_122f4[32]; // Used by: Controls_MenuInit
+int		bss_122f4; // Used by: Controls_MenuInit
+char	bss_122f8[28];
 int		bss_12314; // Used by: Controls_MenuInit
 int		bss_12318; // Used by: Controls_MenuInit
-char	bss_1231c[8]; // Used by: Controls_MenuInit
+int		bss_1231c; // Used by: Controls_MenuInit
+int		bss_12320;
 int		bss_12324; // Used by: Controls_MenuInit
 int		bss_12328; // Used by: Controls_MenuInit
-char	bss_1232c[8]; // Used by: Controls_SetDefaults, Controls_SetConfig, Controls_GetConfig
+int		bss_1232c; // Used by: Controls_SetDefaults, Controls_SetConfig, Controls_GetConfig
+int		bss_12330;
 int		bss_12334; // Used by: Controls_MenuInit
 int		bss_12338; // Used by: Controls_MenuInit
 int		bss_1233c; // Used by: Controls_MenuInit
-char	bss_12340[32]; // Used by: Controls_MenuInit
+int		bss_12340; // Used by: Controls_MenuInit
+char	bss_12344[28];
 int		bss_12360; // Used by: Controls_MenuInit
 int		bss_12364; // Used by: Controls_MenuInit
-char	bss_12368[8]; // Used by: Controls_MenuInit
+int		bss_12368; // Used by: Controls_MenuInit
+int		bss_1236c;
 int		bss_12370; // Used by: Controls_SetDefaults, Controls_SetConfig, Controls_GetConfig
 int		bss_12374; // Used by: Controls_MenuInit
 int		bss_12378; // Used by: Controls_MenuInit
 int		bss_1237c; // Used by: Controls_MenuInit
-char	bss_12380[32]; // Used by: Controls_MenuInit
+int		bss_12380; // Used by: Controls_MenuInit
+char	bss_12384[28];
 int		bss_123a0; // Used by: Controls_MenuInit
 int		bss_123a4; // Used by: Controls_MenuInit
-char	bss_123a8[8]; // Used by: Controls_MenuInit
+int		bss_123a8; // Used by: Controls_MenuInit
+int		bss_123ac;
 int		bss_123b0; // Used by: Controls_SetDefaults, Controls_SetConfig, Controls_GetConfig
-char	bss_123b4[8]; // Used by: Controls_MenuInit
-char	bss_123bc[36]; // Used by: Controls_MenuInit
+int		bss_123b4; // Used by: Controls_MenuInit
+int		bss_123b8;
+int		bss_123bc; // Used by: Controls_MenuInit
+char	bss_123c0[32];
 int		bss_123e0; // Used by: Controls_MenuInit
-char	bss_123e4[8]; // Used by: Controls_MenuInit
+int		bss_123e4; // Used by: Controls_MenuInit
+int		bss_123e8;
 int		bss_123ec; // Used by: Controls_MenuInit
 int		bss_123f0; // Used by: Controls_MenuInit
 int		bss_123f4; // Used by: Controls_MenuInit
 int		bss_123f8; // Used by: Controls_MenuInit
-char	bss_123fc[32]; // Used by: Controls_MenuInit
+int		bss_123fc; // Used by: Controls_MenuInit
+char	bss_12400[28];
 int		bss_1241c; // Used by: Controls_MenuInit
 int		bss_12420; // Used by: Controls_MenuInit
-char	bss_12424[8]; // Used by: Controls_MenuInit
+int		bss_12424; // Used by: Controls_MenuInit
+int		bss_12428;
 int		bss_1242c; // Used by: Controls_SetDefaults, Controls_SetConfig, Controls_GetConfig
-char	bss_12430[8]; // Used by: Controls_MenuInit
-char	bss_12438[36]; // Used by: Controls_MenuInit
+int		bss_12430; // Used by: Controls_MenuInit
+int		bss_12434;
+int		bss_12438; // Used by: Controls_MenuInit
+char	bss_1243c[32];
 int		bss_1245c; // Used by: Controls_MenuInit
-char	bss_12460[8]; // Used by: Controls_MenuInit
-char	bss_12468[1136]; // Used by: Controls_MenuInit
+int		bss_12460; // Used by: Controls_MenuInit
+int		bss_12464;
+int		bss_12468; // Used by: Controls_MenuInit
+char	bss_1246c[1132];
 int		bss_128d8; // Used by: Controls_MenuEvent, Controls_ResetDefaults_Action, Controls_MenuKey
-char	bss_128dc[8]; // Used by: Controls_MenuInit
-char	bss_128e4[36]; // Used by: Controls_MenuInit
+int		bss_128dc; // Used by: Controls_MenuInit
+int		bss_128e0;
+int		bss_128e4; // Used by: Controls_MenuInit
+char	bss_128e8[32];
 int		bss_12908; // Used by: Controls_MenuInit
-char	bss_1290c[8]; // Used by: Controls_MenuInit
+int		bss_1290c; // Used by: Controls_MenuInit
+int		bss_12910;
 int		bss_12914; // Used by: Controls_MenuInit
-char	bss_12918[8]; // Used by: Controls_MenuInit
-char	bss_12920[36]; // Used by: Controls_MenuInit
+int		bss_12918; // Used by: Controls_MenuInit
+int		bss_1291c;
+int		bss_12920; // Used by: Controls_MenuInit
+char	bss_12924[32];
 int		bss_12944; // Used by: Controls_MenuInit
-char	bss_12948[8]; // Used by: Controls_MenuInit
+int		bss_12948; // Used by: Controls_MenuInit
+int		bss_1294c;
 int		bss_12950; // Used by: Controls_MenuInit
-char	bss_12954[8]; // Used by: Controls_MenuInit
-char	bss_1295c[36]; // Used by: Controls_MenuInit
+int		bss_12954; // Used by: Controls_MenuInit
+int		bss_12958;
+int		bss_1295c; // Used by: Controls_MenuInit
+char	bss_12960[32];
 int		bss_12980; // Used by: Controls_MenuInit
-char	bss_12984[8]; // Used by: Controls_MenuInit
+int		bss_12984; // Used by: Controls_MenuInit
+int		bss_12988;
 int		bss_1298c; // Used by: Controls_MenuInit
-char	bss_12990[8]; // Used by: Controls_MenuInit
-char	bss_12998[36]; // Used by: Controls_MenuInit
+int		bss_12990; // Used by: Controls_MenuInit
+int		bss_12994;
+int		bss_12998; // Used by: Controls_MenuInit
+char	bss_1299c[32];
 int		bss_129bc; // Used by: Controls_MenuInit
-char	bss_129c0[8]; // Used by: Controls_MenuInit
+int		bss_129c0; // Used by: Controls_MenuInit
+int		bss_129c4;
 int		bss_129c8; // Used by: Controls_MenuInit
-char	bss_129cc[8]; // Used by: Controls_MenuInit
-char	bss_129d4[36]; // Used by: Controls_MenuInit
+int		bss_129cc; // Used by: Controls_MenuInit
+int		bss_129d0;
+int		bss_129d4; // Used by: Controls_MenuInit
+char	bss_129d8[32];
 int		bss_129f8; // Used by: Controls_MenuInit
-char	bss_129fc[8]; // Used by: Controls_MenuInit
+int		bss_129fc; // Used by: Controls_MenuInit
+int		bss_12a00;
 int		bss_12a04; // Used by: Controls_MenuInit
 int		bss_12a08; // Used by: Controls_MenuInit
 int		bss_12a0c; // Used by: Controls_MenuInit
 int		bss_12a10; // Used by: Controls_MenuInit
-char	bss_12a14[32]; // Used by: Controls_MenuInit
+int		bss_12a14; // Used by: Controls_MenuInit
+char	bss_12a18[28];
 int		bss_12a34; // Used by: Controls_MenuInit
 int		bss_12a38; // Used by: Controls_MenuInit
-char	bss_12a3c[8]; // Used by: Controls_MenuInit
+int		bss_12a3c; // Used by: Controls_MenuInit
+int		bss_12a40;
 int		bss_12a44; // Used by: Controls_SetDefaults, Controls_SetConfig, Controls_GetConfig
 int		bss_12a48; // Used by: Controls_MenuInit
 int		bss_12a4c; // Used by: Controls_MenuInit
 int		bss_12a50; // Used by: Controls_MenuInit
-char	bss_12a54[32]; // Used by: Controls_MenuInit
+int		bss_12a54; // Used by: Controls_MenuInit
+char	bss_12a58[28];
 int		bss_12a74; // Used by: Controls_MenuInit
 int		bss_12a78; // Used by: Controls_MenuInit
-char	bss_12a7c[8]; // Used by: Controls_MenuInit
+int		bss_12a7c; // Used by: Controls_MenuInit
+int		bss_12a80;
 int		bss_12a84; // Used by: Controls_MenuInit
 int		bss_12a88; // Used by: Controls_MenuInit
-char	bss_12a8c[8]; // Used by: Controls_SetDefaults, Controls_SetConfig, Controls_GetConfig
+int		bss_12a8c; // Used by: Controls_SetDefaults, Controls_SetConfig, Controls_GetConfig
+int		bss_12a90;
 int		bss_12a94; // Used by: Controls_MenuInit, Controls_MenuEvent, Controls_Update
-char	bss_12a98[68]; // Used by: Controls_ActionEvent, Controls_MenuKey, Controls_DrawKeyBinding, Controls_Update
+int		bss_12a98; // Used by: Controls_ActionEvent, Controls_MenuKey, Controls_DrawKeyBinding, Controls_Update
+char	bss_12a9c[64];
 int		bss_12adc; // Used by: Controls_UpdateModel
 int		bss_12ae0; // Used by: Controls_UpdateModel
 int		bss_12ae4; // Used by: Controls_UpdateModel
@@ -816,162 +1095,234 @@ int		bss_12b04; // Used by: Controls_MenuInit
 int		bss_12b08; // Used by: Controls_MenuInit
 int		bss_12b0c; // Used by: Controls_MenuInit
 int		bss_12b10; // Used by: Controls_MenuInit
-char	bss_12b14[28]; // Used by: Controls_MenuInit
+int		bss_12b14; // Used by: Controls_MenuInit
+char	bss_12b18[24];
 int		bss_12b30; // Used by: Controls_MenuInit
-char	bss_12b34[12]; // Used by: Controls_MenuInit
-char	bss_12b40[16]; // Used by: Controls_MenuInit
+int		bss_12b34; // Used by: Controls_MenuInit
+char	bss_12b38[8];
+int		bss_12b40; // Used by: Controls_MenuInit
+char	bss_12b44[12];
 int		bss_12b50; // Used by: Controls_MenuInit
-char	bss_12b54[8]; // Used by: Controls_MenuInit
-char	bss_12b5c[12]; // Used by: Controls_MenuInit
+int		bss_12b54; // Used by: Controls_MenuInit
+int		bss_12b58;
+int		bss_12b5c; // Used by: Controls_MenuInit
+char	bss_12b60[8];
 int		bss_12b68; // Used by: Controls_MenuInit
-char	bss_12b6c[28]; // Used by: Controls_MenuInit
-char	bss_12b88[16]; // Used by: Controls_MenuInit
+int		bss_12b6c; // Used by: Controls_MenuInit
+char	bss_12b70[24];
+int		bss_12b88; // Used by: Controls_MenuInit
+char	bss_12b8c[12];
 int		bss_12b98; // Used by: Controls_MenuInit
 int		bss_12b9c; // Used by: Controls_MenuInit
 int		bss_12ba0; // Used by: Controls_MenuInit
 char	s_credits[268];
 int		bss_12cb0; // Used by: UI_CreditMenu, UI_CreditMenu_Key
-char	bss_12cb4[8]; // Used by: UI_CreditMenu
-char	bss_12cbc[8]; // Used by: UI_CreditMenu
+int		bss_12cb4; // Used by: UI_CreditMenu
+int		bss_12cb8;
+int		bss_12cbc; // Used by: UI_CreditMenu
+int		bss_12cc0;
 int		bss_12cc4; // Used by: UI_CreditMenu_Key
 char	s_demos[276];
 int		bss_12ddc; // Used by: Demos_MenuInit
-char	bss_12de0[8]; // Used by: Demos_MenuInit
-char	bss_12de8[12]; // Used by: Demos_MenuInit
+int		bss_12de0; // Used by: Demos_MenuInit
+int		bss_12de4;
+int		bss_12de8; // Used by: Demos_MenuInit
+char	bss_12dec[8];
 int		bss_12df4; // Used by: Demos_MenuInit
-char	bss_12df8[44]; // Used by: Demos_MenuInit
+int		bss_12df8; // Used by: Demos_MenuInit
+char	bss_12dfc[40];
 int		bss_12e24; // Used by: Demos_MenuInit
 int		bss_12e28; // Used by: Demos_MenuInit
 int		bss_12e2c; // Used by: Demos_MenuInit
 int		bss_12e30; // Used by: Demos_MenuInit
-char	bss_12e34[8]; // Used by: Demos_MenuInit
+int		bss_12e34; // Used by: Demos_MenuInit
+int		bss_12e38;
 int		bss_12e3c; // Used by: Demos_MenuInit
-char	bss_12e40[28]; // Used by: Demos_MenuInit
-char	bss_12e5c[32]; // Used by: Demos_MenuInit
+int		bss_12e40; // Used by: Demos_MenuInit
+char	bss_12e44[24];
+int		bss_12e5c; // Used by: Demos_MenuInit
+char	bss_12e60[28];
 int		bss_12e7c; // Used by: Demos_MenuInit
-char	bss_12e80[8]; // Used by: Demos_MenuInit
+int		bss_12e80; // Used by: Demos_MenuInit
+int		bss_12e84;
 int		bss_12e88; // Used by: Demos_MenuInit
-char	bss_12e8c[8]; // Used by: Demos_MenuInit
+int		bss_12e8c; // Used by: Demos_MenuInit
+int		bss_12e90;
 int		bss_12e94; // Used by: Demos_MenuInit
-char	bss_12e98[28]; // Used by: Demos_MenuInit
-char	bss_12eb4[32]; // Used by: Demos_MenuInit
+int		bss_12e98; // Used by: Demos_MenuInit
+char	bss_12e9c[24];
+int		bss_12eb4; // Used by: Demos_MenuInit
+char	bss_12eb8[28];
 int		bss_12ed4; // Used by: Demos_MenuInit
-char	bss_12ed8[8]; // Used by: Demos_MenuInit
-char	bss_12ee0[8]; // Used by: Demos_MenuInit
+int		bss_12ed8; // Used by: Demos_MenuInit
+int		bss_12edc;
+int		bss_12ee0; // Used by: Demos_MenuInit
+int		bss_12ee4;
 int		bss_12ee8; // Used by: Demos_MenuInit
 int		bss_12eec; // Used by: Demos_MenuInit
-char	bss_12ef0[28]; // Used by: Demos_MenuInit
+int		bss_12ef0; // Used by: Demos_MenuInit
+char	bss_12ef4[24];
 int		bss_12f0c; // Used by: Demos_MenuInit
-char	bss_12f10[16]; // Used by: Demos_MenuInit
+int		bss_12f10; // Used by: Demos_MenuInit
+char	bss_12f14[12];
 int		bss_12f20; // Used by: Demos_MenuEvent
-char	bss_12f24[8]; // Used by: Demos_MenuInit
+int		bss_12f24; // Used by: Demos_MenuInit
+int		bss_12f28;
 int		bss_12f2c; // Used by: Demos_MenuInit, Demos_MenuEvent
 int		bss_12f30; // Used by: Demos_MenuInit
 int		bss_12f34; // Used by: Demos_MenuInit
-char	bss_12f38[8]; // Used by: Demos_MenuInit
+int		bss_12f38; // Used by: Demos_MenuInit
+int		bss_12f3c;
 int		bss_12f40; // Used by: Demos_MenuInit
-char	bss_12f44[8]; // Used by: Demos_MenuInit
+int		bss_12f44; // Used by: Demos_MenuInit
+int		bss_12f48;
 int		bss_12f4c; // Used by: Demos_MenuInit
-char	bss_12f50[28]; // Used by: Demos_MenuInit
-char	bss_12f6c[32]; // Used by: Demos_MenuInit
+int		bss_12f50; // Used by: Demos_MenuInit
+char	bss_12f54[24];
+int		bss_12f6c; // Used by: Demos_MenuInit
+char	bss_12f70[28];
 int		bss_12f8c; // Used by: Demos_MenuInit
-char	bss_12f90[8]; // Used by: Demos_MenuInit
-char	bss_12f98[8]; // Used by: Demos_MenuInit
+int		bss_12f90; // Used by: Demos_MenuInit
+int		bss_12f94;
+int		bss_12f98; // Used by: Demos_MenuInit
+int		bss_12f9c;
 int		bss_12fa0; // Used by: Demos_MenuInit
 int		bss_12fa4; // Used by: Demos_MenuInit
-char	bss_12fa8[28]; // Used by: Demos_MenuInit
+int		bss_12fa8; // Used by: Demos_MenuInit
+char	bss_12fac[24];
 int		bss_12fc4; // Used by: Demos_MenuInit
-char	bss_12fc8[12]; // Used by: Demos_MenuInit
-char	bss_12fd4[16]; // Used by: Demos_MenuInit
+int		bss_12fc8; // Used by: Demos_MenuInit
+char	bss_12fcc[8];
+int		bss_12fd4; // Used by: Demos_MenuInit
+char	bss_12fd8[12];
 int		bss_12fe4; // Used by: Demos_MenuInit
-char	bss_12fe8[8]; // Used by: Demos_MenuInit
-char	bss_12ff0[8]; // Used by: Demos_MenuInit
+int		bss_12fe8; // Used by: Demos_MenuInit
+int		bss_12fec;
+int		bss_12ff0; // Used by: Demos_MenuInit
+int		bss_12ff4;
 int		bss_12ff8; // Used by: Demos_MenuInit
 int		bss_12ffc; // Used by: Demos_MenuInit
-char	bss_13000[28]; // Used by: Demos_MenuInit
+int		bss_13000; // Used by: Demos_MenuInit
+char	bss_13004[24];
 int		bss_1301c; // Used by: Demos_MenuInit
-char	bss_13020[12]; // Used by: Demos_MenuInit
-char	bss_1302c[16]; // Used by: Demos_MenuInit
+int		bss_13020; // Used by: Demos_MenuInit
+char	bss_13024[8];
+int		bss_1302c; // Used by: Demos_MenuInit
+char	bss_13030[12];
 int		bss_1303c; // Used by: Demos_MenuInit
-char	bss_13040[8]; // Used by: Demos_MenuInit
+int		bss_13040; // Used by: Demos_MenuInit
+int		bss_13044;
 int		bss_13048; // Used by: Demos_MenuInit
 int		bss_1304c; // Used by: Demos_MenuInit
 int		bss_13050; // Used by: Demos_MenuInit
 int		bss_13054; // Used by: Demos_MenuInit
-char	bss_13058[28]; // Used by: Demos_MenuInit
+int		bss_13058; // Used by: Demos_MenuInit
+char	bss_1305c[24];
 int		bss_13074; // Used by: Demos_MenuInit
-char	bss_13078[12]; // Used by: Demos_MenuInit
-char	bss_13084[16]; // Used by: Demos_MenuInit
+int		bss_13078; // Used by: Demos_MenuInit
+char	bss_1307c[8];
+int		bss_13084; // Used by: Demos_MenuInit
+char	bss_13088[12];
 int		bss_13094; // Used by: Demos_MenuInit
-char	bss_13098[8]; // Used by: Demos_MenuInit
+int		bss_13098; // Used by: Demos_MenuInit
+int		bss_1309c;
 int		bss_130a0; // Used by: Demos_MenuInit
 int		bss_130a4; // Used by: Demos_MenuInit
 int		bss_130a8; // Used by: Demos_MenuInit
 int		bss_130ac; // Used by: Demos_MenuInit
-char	bss_130b0[28]; // Used by: Demos_MenuInit
+int		bss_130b0; // Used by: Demos_MenuInit
+char	bss_130b4[24];
 int		bss_130cc; // Used by: Demos_MenuInit
-char	bss_130d0[12]; // Used by: Demos_MenuInit
-char	bss_130dc[16]; // Used by: Demos_MenuInit
+int		bss_130d0; // Used by: Demos_MenuInit
+char	bss_130d4[8];
+int		bss_130dc; // Used by: Demos_MenuInit
+char	bss_130e0[12];
 int		bss_130ec; // Used by: Demos_MenuInit
-char	bss_130f0[8]; // Used by: Demos_MenuInit
-char	bss_130f8[36868]; // Used by: Demos_MenuInit
+int		bss_130f0; // Used by: Demos_MenuInit
+int		bss_130f4;
+int		bss_130f8; // Used by: Demos_MenuInit
+char	bss_130fc[36864];
 char	displayOptionsInfo[276];
 int		bss_1c210; // Used by: UI_DisplayOptionsMenu_Init
-char	bss_1c214[8]; // Used by: UI_DisplayOptionsMenu_Init
-char	bss_1c21c[12]; // Used by: UI_DisplayOptionsMenu_Init
+int		bss_1c214; // Used by: UI_DisplayOptionsMenu_Init
+int		bss_1c218;
+int		bss_1c21c; // Used by: UI_DisplayOptionsMenu_Init
+char	bss_1c220[8];
 int		bss_1c228; // Used by: UI_DisplayOptionsMenu_Init
-char	bss_1c22c[28]; // Used by: UI_DisplayOptionsMenu_Init
-char	bss_1c248[16]; // Used by: UI_DisplayOptionsMenu_Init
+int		bss_1c22c; // Used by: UI_DisplayOptionsMenu_Init
+char	bss_1c230[24];
+int		bss_1c248; // Used by: UI_DisplayOptionsMenu_Init
+char	bss_1c24c[12];
 int		bss_1c258; // Used by: UI_DisplayOptionsMenu_Init
 int		bss_1c25c; // Used by: UI_DisplayOptionsMenu_Init
 int		bss_1c260; // Used by: UI_DisplayOptionsMenu_Init
 int		bss_1c264; // Used by: UI_DisplayOptionsMenu_Init
-char	bss_1c268[8]; // Used by: UI_DisplayOptionsMenu_Init
+int		bss_1c268; // Used by: UI_DisplayOptionsMenu_Init
+int		bss_1c26c;
 int		bss_1c270; // Used by: UI_DisplayOptionsMenu_Init
-char	bss_1c274[28]; // Used by: UI_DisplayOptionsMenu_Init
-char	bss_1c290[32]; // Used by: UI_DisplayOptionsMenu_Init
+int		bss_1c274; // Used by: UI_DisplayOptionsMenu_Init
+char	bss_1c278[24];
+int		bss_1c290; // Used by: UI_DisplayOptionsMenu_Init
+char	bss_1c294[28];
 int		bss_1c2b0; // Used by: UI_DisplayOptionsMenu_Init
-char	bss_1c2b4[8]; // Used by: UI_DisplayOptionsMenu_Init
+int		bss_1c2b4; // Used by: UI_DisplayOptionsMenu_Init
+int		bss_1c2b8;
 int		bss_1c2bc; // Used by: UI_DisplayOptionsMenu_Init
-char	bss_1c2c0[8]; // Used by: UI_DisplayOptionsMenu_Init
+int		bss_1c2c0; // Used by: UI_DisplayOptionsMenu_Init
+int		bss_1c2c4;
 int		bss_1c2c8; // Used by: UI_DisplayOptionsMenu_Init
-char	bss_1c2cc[28]; // Used by: UI_DisplayOptionsMenu_Init
-char	bss_1c2e8[32]; // Used by: UI_DisplayOptionsMenu_Init
+int		bss_1c2cc; // Used by: UI_DisplayOptionsMenu_Init
+char	bss_1c2d0[24];
+int		bss_1c2e8; // Used by: UI_DisplayOptionsMenu_Init
+char	bss_1c2ec[28];
 int		bss_1c308; // Used by: UI_DisplayOptionsMenu_Init
-char	bss_1c30c[8]; // Used by: UI_DisplayOptionsMenu_Init
-char	bss_1c314[8]; // Used by: UI_DisplayOptionsMenu_Init
+int		bss_1c30c; // Used by: UI_DisplayOptionsMenu_Init
+int		bss_1c310;
+int		bss_1c314; // Used by: UI_DisplayOptionsMenu_Init
+int		bss_1c318;
 int		bss_1c31c; // Used by: UI_DisplayOptionsMenu_Init
 int		bss_1c320; // Used by: UI_DisplayOptionsMenu_Init
-char	bss_1c324[28]; // Used by: UI_DisplayOptionsMenu_Init
+int		bss_1c324; // Used by: UI_DisplayOptionsMenu_Init
+char	bss_1c328[24];
 int		bss_1c340; // Used by: UI_DisplayOptionsMenu_Init
-char	bss_1c344[12]; // Used by: UI_DisplayOptionsMenu_Init
+int		bss_1c344; // Used by: UI_DisplayOptionsMenu_Init
+char	bss_1c348[8];
 int		bss_1c350; // Used by: UI_DisplayOptionsMenu_Init
 int		bss_1c354; // Used by: UI_DisplayOptionsMenu_Init
 int		bss_1c358; // Used by: UI_DisplayOptionsMenu_Init
-char	bss_1c35c[8]; // Used by: UI_DisplayOptionsMenu_Init
+int		bss_1c35c; // Used by: UI_DisplayOptionsMenu_Init
+int		bss_1c360;
 int		bss_1c364; // Used by: UI_DisplayOptionsMenu_Init
 int		bss_1c368; // Used by: UI_DisplayOptionsMenu_Init
-char	bss_1c36c[28]; // Used by: UI_DisplayOptionsMenu_Init
+int		bss_1c36c; // Used by: UI_DisplayOptionsMenu_Init
+char	bss_1c370[24];
 int		bss_1c388; // Used by: UI_DisplayOptionsMenu_Init
-char	bss_1c38c[12]; // Used by: UI_DisplayOptionsMenu_Init
+int		bss_1c38c; // Used by: UI_DisplayOptionsMenu_Init
+char	bss_1c390[8];
 int		bss_1c398; // Used by: UI_DisplayOptionsMenu_Init
 int		bss_1c39c; // Used by: UI_DisplayOptionsMenu_Init
 int		bss_1c3a0; // Used by: UI_DisplayOptionsMenu_Init
-char	bss_1c3a4[8]; // Used by: UI_DisplayOptionsMenu_Init
+int		bss_1c3a4; // Used by: UI_DisplayOptionsMenu_Init
+int		bss_1c3a8;
 int		bss_1c3ac; // Used by: UI_DisplayOptionsMenu_Init
 int		bss_1c3b0; // Used by: UI_DisplayOptionsMenu_Init
-char	bss_1c3b4[28]; // Used by: UI_DisplayOptionsMenu_Init
+int		bss_1c3b4; // Used by: UI_DisplayOptionsMenu_Init
+char	bss_1c3b8[24];
 int		bss_1c3d0; // Used by: UI_DisplayOptionsMenu_Init
-char	bss_1c3d4[12]; // Used by: UI_DisplayOptionsMenu_Init
+int		bss_1c3d4; // Used by: UI_DisplayOptionsMenu_Init
+char	bss_1c3d8[8];
 int		bss_1c3e0; // Used by: UI_DisplayOptionsMenu_Init
 int		bss_1c3e4; // Used by: UI_DisplayOptionsMenu_Init
 int		bss_1c3e8; // Used by: UI_DisplayOptionsMenu_Init
-char	bss_1c3ec[8]; // Used by: UI_DisplayOptionsMenu_Init
+int		bss_1c3ec; // Used by: UI_DisplayOptionsMenu_Init
+int		bss_1c3f0;
 int		bss_1c3f4; // Used by: UI_DisplayOptionsMenu_Init
 int		bss_1c3f8; // Used by: UI_DisplayOptionsMenu_Init
-char	bss_1c3fc[28]; // Used by: UI_DisplayOptionsMenu_Init
+int		bss_1c3fc; // Used by: UI_DisplayOptionsMenu_Init
+char	bss_1c400[24];
 int		bss_1c418; // Used by: UI_DisplayOptionsMenu_Init
-char	bss_1c41c[12]; // Used by: UI_DisplayOptionsMenu_Init
+int		bss_1c41c; // Used by: UI_DisplayOptionsMenu_Init
+char	bss_1c420[8];
 int		bss_1c428; // Used by: UI_DisplayOptionsMenu_Init
 int		bss_1c42c; // Used by: UI_DisplayOptionsMenu_Init
 int		bss_1c430; // Used by: UI_DisplayOptionsMenu_Init
@@ -979,32 +1330,42 @@ int		bss_1c434; // Used by: UI_DisplayOptionsMenu_Init
 int		bss_1c438; // Used by: UI_DisplayOptionsMenu_Init
 int		bss_1c43c; // Used by: UI_DisplayOptionsMenu_Init
 int		bss_1c440; // Used by: UI_DisplayOptionsMenu_Init
-char	bss_1c444[28]; // Used by: UI_DisplayOptionsMenu_Init
+int		bss_1c444; // Used by: UI_DisplayOptionsMenu_Init
+char	bss_1c448[24];
 int		bss_1c460; // Used by: UI_DisplayOptionsMenu_Init
-char	bss_1c464[12]; // Used by: UI_DisplayOptionsMenu_Init
+int		bss_1c464; // Used by: UI_DisplayOptionsMenu_Init
+char	bss_1c468[8];
 int		bss_1c470; // Used by: UI_DisplayOptionsMenu_Init
 int		bss_1c474; // Used by: UI_DisplayOptionsMenu_Init
-char	bss_1c478[8]; // Used by: UI_DisplayOptionsMenu_Init, UI_DisplayOptionsMenu_Event
+int		bss_1c478; // Used by: UI_DisplayOptionsMenu_Init, UI_DisplayOptionsMenu_Event
+int		bss_1c47c;
 int		bss_1c480; // Used by: UI_DisplayOptionsMenu_Init
 int		bss_1c484; // Used by: UI_DisplayOptionsMenu_Init
 int		bss_1c488; // Used by: UI_DisplayOptionsMenu_Init
 int		bss_1c48c; // Used by: UI_DisplayOptionsMenu_Init
-char	bss_1c490[28]; // Used by: UI_DisplayOptionsMenu_Init
+int		bss_1c490; // Used by: UI_DisplayOptionsMenu_Init
+char	bss_1c494[24];
 int		bss_1c4ac; // Used by: UI_DisplayOptionsMenu_Init
-char	bss_1c4b0[12]; // Used by: UI_DisplayOptionsMenu_Init
+int		bss_1c4b0; // Used by: UI_DisplayOptionsMenu_Init
+char	bss_1c4b4[8];
 int		bss_1c4bc; // Used by: UI_DisplayOptionsMenu_Init
 int		bss_1c4c0; // Used by: UI_DisplayOptionsMenu_Init
-char	bss_1c4c4[8]; // Used by: UI_DisplayOptionsMenu_Init, UI_DisplayOptionsMenu_Event
+int		bss_1c4c4; // Used by: UI_DisplayOptionsMenu_Init, UI_DisplayOptionsMenu_Event
+int		bss_1c4c8;
 int		bss_1c4cc; // Used by: UI_DisplayOptionsMenu_Init
 int		bss_1c4d0; // Used by: UI_DisplayOptionsMenu_Init
 int		bss_1c4d4; // Used by: UI_DisplayOptionsMenu_Init
 int		bss_1c4d8; // Used by: UI_DisplayOptionsMenu_Init
-char	bss_1c4dc[28]; // Used by: UI_DisplayOptionsMenu_Init
+int		bss_1c4dc; // Used by: UI_DisplayOptionsMenu_Init
+char	bss_1c4e0[24];
 int		bss_1c4f8; // Used by: UI_DisplayOptionsMenu_Init
-char	bss_1c4fc[12]; // Used by: UI_DisplayOptionsMenu_Init
-char	bss_1c508[16]; // Used by: UI_DisplayOptionsMenu_Init
+int		bss_1c4fc; // Used by: UI_DisplayOptionsMenu_Init
+char	bss_1c500[8];
+int		bss_1c508; // Used by: UI_DisplayOptionsMenu_Init
+char	bss_1c50c[12];
 int		bss_1c518; // Used by: UI_DisplayOptionsMenu_Init
-char	bss_1c51c[8]; // Used by: UI_DisplayOptionsMenu_Init
+int		bss_1c51c; // Used by: UI_DisplayOptionsMenu_Init
+int		bss_1c520;
 int		outOfMemory; // Used by: UI_LoadBotsFromFile, UI_LoadArenas, UI_InitMemory, UI_Alloc
 int		allocPoint; // Used by: UI_InitMemory, UI_Alloc
 char	memoryPool[131072];
@@ -1016,383 +1377,532 @@ char	ui_botInfos[4096];
 int		ui_numBots; // Used by: UI_GetNumBots, UI_GetBotInfoByName, UI_GetBotInfoByNumber, UI_LoadBots
 char	s_ingame[276];
 int		bss_3e650; // Used by: InGame_MenuInit
-char	bss_3e654[8]; // Used by: InGame_MenuInit
+int		bss_3e654; // Used by: InGame_MenuInit
+int		bss_3e658;
 int		bss_3e65c; // Used by: InGame_MenuInit
-char	bss_3e660[8]; // Used by: InGame_MenuInit
+int		bss_3e660; // Used by: InGame_MenuInit
+int		bss_3e664;
 int		bss_3e668; // Used by: InGame_MenuInit
-char	bss_3e66c[28]; // Used by: InGame_MenuInit
-char	bss_3e688[32]; // Used by: InGame_MenuInit
+int		bss_3e66c; // Used by: InGame_MenuInit
+char	bss_3e670[24];
+int		bss_3e688; // Used by: InGame_MenuInit
+char	bss_3e68c[28];
 int		bss_3e6a8; // Used by: InGame_MenuInit
-char	bss_3e6ac[8]; // Used by: InGame_MenuInit
-char	bss_3e6b4[8]; // Used by: InGame_MenuInit
+int		bss_3e6ac; // Used by: InGame_MenuInit
+int		bss_3e6b0;
+int		bss_3e6b4; // Used by: InGame_MenuInit
+int		bss_3e6b8;
 int		bss_3e6bc; // Used by: InGame_MenuInit
 int		bss_3e6c0; // Used by: InGame_MenuInit
-char	bss_3e6c4[28]; // Used by: InGame_MenuInit
+int		bss_3e6c4; // Used by: InGame_MenuInit
+char	bss_3e6c8[24];
 int		bss_3e6e0; // Used by: InGame_MenuInit
-char	bss_3e6e4[12]; // Used by: InGame_MenuInit
+int		bss_3e6e4; // Used by: InGame_MenuInit
+char	bss_3e6e8[8];
 int		bss_3e6f0; // Used by: InGame_MenuInit
 int		bss_3e6f4; // Used by: InGame_MenuInit
 int		bss_3e6f8; // Used by: InGame_MenuInit
-char	bss_3e6fc[8]; // Used by: InGame_MenuInit
+int		bss_3e6fc; // Used by: InGame_MenuInit
+int		bss_3e700;
 int		bss_3e704; // Used by: InGame_MenuInit
 int		bss_3e708; // Used by: InGame_MenuInit
-char	bss_3e70c[28]; // Used by: InGame_MenuInit
+int		bss_3e70c; // Used by: InGame_MenuInit
+char	bss_3e710[24];
 int		bss_3e728; // Used by: InGame_MenuInit
-char	bss_3e72c[12]; // Used by: InGame_MenuInit
+int		bss_3e72c; // Used by: InGame_MenuInit
+char	bss_3e730[8];
 int		bss_3e738; // Used by: InGame_MenuInit
 int		bss_3e73c; // Used by: InGame_MenuInit
 int		bss_3e740; // Used by: InGame_MenuInit
-char	bss_3e744[8]; // Used by: InGame_MenuInit
+int		bss_3e744; // Used by: InGame_MenuInit
+int		bss_3e748;
 int		bss_3e74c; // Used by: InGame_MenuInit
 int		bss_3e750; // Used by: InGame_MenuInit
-char	bss_3e754[28]; // Used by: InGame_MenuInit
+int		bss_3e754; // Used by: InGame_MenuInit
+char	bss_3e758[24];
 int		bss_3e770; // Used by: InGame_MenuInit
-char	bss_3e774[12]; // Used by: InGame_MenuInit
+int		bss_3e774; // Used by: InGame_MenuInit
+char	bss_3e778[8];
 int		bss_3e780; // Used by: InGame_MenuInit
 int		bss_3e784; // Used by: InGame_MenuInit
 int		bss_3e788; // Used by: InGame_MenuInit
-char	bss_3e78c[8]; // Used by: InGame_MenuInit
+int		bss_3e78c; // Used by: InGame_MenuInit
+int		bss_3e790;
 int		bss_3e794; // Used by: InGame_MenuInit
 int		bss_3e798; // Used by: InGame_MenuInit
-char	bss_3e79c[28]; // Used by: InGame_MenuInit
+int		bss_3e79c; // Used by: InGame_MenuInit
+char	bss_3e7a0[24];
 int		bss_3e7b8; // Used by: InGame_MenuInit
-char	bss_3e7bc[12]; // Used by: InGame_MenuInit
+int		bss_3e7bc; // Used by: InGame_MenuInit
+char	bss_3e7c0[8];
 int		bss_3e7c8; // Used by: InGame_MenuInit
 int		bss_3e7cc; // Used by: InGame_MenuInit
 int		bss_3e7d0; // Used by: InGame_MenuInit
-char	bss_3e7d4[8]; // Used by: InGame_MenuInit
+int		bss_3e7d4; // Used by: InGame_MenuInit
+int		bss_3e7d8;
 int		bss_3e7dc; // Used by: InGame_MenuInit
 int		bss_3e7e0; // Used by: InGame_MenuInit
-char	bss_3e7e4[28]; // Used by: InGame_MenuInit
+int		bss_3e7e4; // Used by: InGame_MenuInit
+char	bss_3e7e8[24];
 int		bss_3e800; // Used by: InGame_MenuInit
-char	bss_3e804[12]; // Used by: InGame_MenuInit
+int		bss_3e804; // Used by: InGame_MenuInit
+char	bss_3e808[8];
 int		bss_3e810; // Used by: InGame_MenuInit
 int		bss_3e814; // Used by: InGame_MenuInit
 int		bss_3e818; // Used by: InGame_MenuInit
-char	bss_3e81c[8]; // Used by: InGame_MenuInit
+int		bss_3e81c; // Used by: InGame_MenuInit
+int		bss_3e820;
 int		bss_3e824; // Used by: InGame_MenuInit
 int		bss_3e828; // Used by: InGame_MenuInit
-char	bss_3e82c[28]; // Used by: InGame_MenuInit
+int		bss_3e82c; // Used by: InGame_MenuInit
+char	bss_3e830[24];
 int		bss_3e848; // Used by: InGame_MenuInit
-char	bss_3e84c[12]; // Used by: InGame_MenuInit
+int		bss_3e84c; // Used by: InGame_MenuInit
+char	bss_3e850[8];
 int		bss_3e858; // Used by: InGame_MenuInit
 int		bss_3e85c; // Used by: InGame_MenuInit
 int		bss_3e860; // Used by: InGame_MenuInit
-char	bss_3e864[8]; // Used by: InGame_MenuInit
+int		bss_3e864; // Used by: InGame_MenuInit
+int		bss_3e868;
 int		bss_3e86c; // Used by: InGame_MenuInit
 int		bss_3e870; // Used by: InGame_MenuInit
-char	bss_3e874[28]; // Used by: InGame_MenuInit
+int		bss_3e874; // Used by: InGame_MenuInit
+char	bss_3e878[24];
 int		bss_3e890; // Used by: InGame_MenuInit
-char	bss_3e894[12]; // Used by: InGame_MenuInit
+int		bss_3e894; // Used by: InGame_MenuInit
+char	bss_3e898[8];
 int		bss_3e8a0; // Used by: InGame_MenuInit
 int		bss_3e8a4; // Used by: InGame_MenuInit
 int		bss_3e8a8; // Used by: InGame_MenuInit
-char	bss_3e8ac[8]; // Used by: InGame_MenuInit
+int		bss_3e8ac; // Used by: InGame_MenuInit
+int		bss_3e8b0;
 int		bss_3e8b4; // Used by: InGame_MenuInit
 int		bss_3e8b8; // Used by: InGame_MenuInit
-char	bss_3e8bc[28]; // Used by: InGame_MenuInit
+int		bss_3e8bc; // Used by: InGame_MenuInit
+char	bss_3e8c0[24];
 int		bss_3e8d8; // Used by: InGame_MenuInit
-char	bss_3e8dc[12]; // Used by: InGame_MenuInit
+int		bss_3e8dc; // Used by: InGame_MenuInit
+char	bss_3e8e0[8];
 int		bss_3e8e8; // Used by: InGame_MenuInit
 int		bss_3e8ec; // Used by: InGame_MenuInit
 int		bss_3e8f0; // Used by: InGame_MenuInit
-char	bss_3e8f4[8]; // Used by: InGame_MenuInit
+int		bss_3e8f4; // Used by: InGame_MenuInit
+int		bss_3e8f8;
 int		bss_3e8fc; // Used by: InGame_MenuInit
 int		bss_3e900; // Used by: InGame_MenuInit
-char	bss_3e904[28]; // Used by: InGame_MenuInit
+int		bss_3e904; // Used by: InGame_MenuInit
+char	bss_3e908[24];
 int		bss_3e920; // Used by: InGame_MenuInit
-char	bss_3e924[12]; // Used by: InGame_MenuInit
+int		bss_3e924; // Used by: InGame_MenuInit
+char	bss_3e928[8];
 int		bss_3e930; // Used by: InGame_MenuInit
 int		bss_3e934; // Used by: InGame_MenuInit
 int		bss_3e938; // Used by: InGame_MenuInit
-char	bss_3e93c[8]; // Used by: InGame_MenuInit
+int		bss_3e93c; // Used by: InGame_MenuInit
+int		bss_3e940;
 int		bss_3e944; // Used by: InGame_MenuInit
 int		bss_3e948; // Used by: InGame_MenuInit
-char	bss_3e94c[28]; // Used by: InGame_MenuInit
+int		bss_3e94c; // Used by: InGame_MenuInit
+char	bss_3e950[24];
 int		bss_3e968; // Used by: InGame_MenuInit
-char	bss_3e96c[12]; // Used by: InGame_MenuInit
+int		bss_3e96c; // Used by: InGame_MenuInit
+char	bss_3e970[8];
 int		bss_3e978; // Used by: InGame_MenuInit
 int		bss_3e97c; // Used by: InGame_MenuInit
 int		bss_3e980; // Used by: InGame_MenuInit
 char	s_configs[276];
 int		bss_3ea98; // Used by: LoadConfig_MenuInit
-char	bss_3ea9c[8]; // Used by: LoadConfig_MenuInit
-char	bss_3eaa4[12]; // Used by: LoadConfig_MenuInit
+int		bss_3ea9c; // Used by: LoadConfig_MenuInit
+int		bss_3eaa0;
+int		bss_3eaa4; // Used by: LoadConfig_MenuInit
+char	bss_3eaa8[8];
 int		bss_3eab0; // Used by: LoadConfig_MenuInit
-char	bss_3eab4[44]; // Used by: LoadConfig_MenuInit
+int		bss_3eab4; // Used by: LoadConfig_MenuInit
+char	bss_3eab8[40];
 int		bss_3eae0; // Used by: LoadConfig_MenuInit
 int		bss_3eae4; // Used by: LoadConfig_MenuInit
 int		bss_3eae8; // Used by: LoadConfig_MenuInit
 int		bss_3eaec; // Used by: LoadConfig_MenuInit
-char	bss_3eaf0[8]; // Used by: LoadConfig_MenuInit
+int		bss_3eaf0; // Used by: LoadConfig_MenuInit
+int		bss_3eaf4;
 int		bss_3eaf8; // Used by: LoadConfig_MenuInit
-char	bss_3eafc[28]; // Used by: LoadConfig_MenuInit
-char	bss_3eb18[32]; // Used by: LoadConfig_MenuInit
+int		bss_3eafc; // Used by: LoadConfig_MenuInit
+char	bss_3eb00[24];
+int		bss_3eb18; // Used by: LoadConfig_MenuInit
+char	bss_3eb1c[28];
 int		bss_3eb38; // Used by: LoadConfig_MenuInit
-char	bss_3eb3c[8]; // Used by: LoadConfig_MenuInit
+int		bss_3eb3c; // Used by: LoadConfig_MenuInit
+int		bss_3eb40;
 int		bss_3eb44; // Used by: LoadConfig_MenuInit
-char	bss_3eb48[8]; // Used by: LoadConfig_MenuInit
+int		bss_3eb48; // Used by: LoadConfig_MenuInit
+int		bss_3eb4c;
 int		bss_3eb50; // Used by: LoadConfig_MenuInit
-char	bss_3eb54[28]; // Used by: LoadConfig_MenuInit
-char	bss_3eb70[32]; // Used by: LoadConfig_MenuInit
+int		bss_3eb54; // Used by: LoadConfig_MenuInit
+char	bss_3eb58[24];
+int		bss_3eb70; // Used by: LoadConfig_MenuInit
+char	bss_3eb74[28];
 int		bss_3eb90; // Used by: LoadConfig_MenuInit
-char	bss_3eb94[8]; // Used by: LoadConfig_MenuInit
-char	bss_3eb9c[8]; // Used by: LoadConfig_MenuInit
+int		bss_3eb94; // Used by: LoadConfig_MenuInit
+int		bss_3eb98;
+int		bss_3eb9c; // Used by: LoadConfig_MenuInit
+int		bss_3eba0;
 int		bss_3eba4; // Used by: LoadConfig_MenuInit
 int		bss_3eba8; // Used by: LoadConfig_MenuInit
-char	bss_3ebac[28]; // Used by: LoadConfig_MenuInit
+int		bss_3ebac; // Used by: LoadConfig_MenuInit
+char	bss_3ebb0[24];
 int		bss_3ebc8; // Used by: LoadConfig_MenuInit
-char	bss_3ebcc[16]; // Used by: LoadConfig_MenuInit
+int		bss_3ebcc; // Used by: LoadConfig_MenuInit
+char	bss_3ebd0[12];
 int		bss_3ebdc; // Used by: LoadConfig_MenuEvent
-char	bss_3ebe0[8]; // Used by: LoadConfig_MenuInit
+int		bss_3ebe0; // Used by: LoadConfig_MenuInit
+int		bss_3ebe4;
 int		bss_3ebe8; // Used by: LoadConfig_MenuInit, LoadConfig_MenuEvent
 int		bss_3ebec; // Used by: LoadConfig_MenuInit
 int		bss_3ebf0; // Used by: LoadConfig_MenuInit
-char	bss_3ebf4[8]; // Used by: LoadConfig_MenuInit
+int		bss_3ebf4; // Used by: LoadConfig_MenuInit
+int		bss_3ebf8;
 int		bss_3ebfc; // Used by: LoadConfig_MenuInit
-char	bss_3ec00[8]; // Used by: LoadConfig_MenuInit
+int		bss_3ec00; // Used by: LoadConfig_MenuInit
+int		bss_3ec04;
 int		bss_3ec08; // Used by: LoadConfig_MenuInit
-char	bss_3ec0c[28]; // Used by: LoadConfig_MenuInit
-char	bss_3ec28[32]; // Used by: LoadConfig_MenuInit
+int		bss_3ec0c; // Used by: LoadConfig_MenuInit
+char	bss_3ec10[24];
+int		bss_3ec28; // Used by: LoadConfig_MenuInit
+char	bss_3ec2c[28];
 int		bss_3ec48; // Used by: LoadConfig_MenuInit
-char	bss_3ec4c[8]; // Used by: LoadConfig_MenuInit
-char	bss_3ec54[8]; // Used by: LoadConfig_MenuInit
+int		bss_3ec4c; // Used by: LoadConfig_MenuInit
+int		bss_3ec50;
+int		bss_3ec54; // Used by: LoadConfig_MenuInit
+int		bss_3ec58;
 int		bss_3ec5c; // Used by: LoadConfig_MenuInit
 int		bss_3ec60; // Used by: LoadConfig_MenuInit
-char	bss_3ec64[28]; // Used by: LoadConfig_MenuInit
+int		bss_3ec64; // Used by: LoadConfig_MenuInit
+char	bss_3ec68[24];
 int		bss_3ec80; // Used by: LoadConfig_MenuInit
-char	bss_3ec84[12]; // Used by: LoadConfig_MenuInit
-char	bss_3ec90[16]; // Used by: LoadConfig_MenuInit
+int		bss_3ec84; // Used by: LoadConfig_MenuInit
+char	bss_3ec88[8];
+int		bss_3ec90; // Used by: LoadConfig_MenuInit
+char	bss_3ec94[12];
 int		bss_3eca0; // Used by: LoadConfig_MenuInit
-char	bss_3eca4[8]; // Used by: LoadConfig_MenuInit
-char	bss_3ecac[8]; // Used by: LoadConfig_MenuInit
+int		bss_3eca4; // Used by: LoadConfig_MenuInit
+int		bss_3eca8;
+int		bss_3ecac; // Used by: LoadConfig_MenuInit
+int		bss_3ecb0;
 int		bss_3ecb4; // Used by: LoadConfig_MenuInit
 int		bss_3ecb8; // Used by: LoadConfig_MenuInit
-char	bss_3ecbc[28]; // Used by: LoadConfig_MenuInit
+int		bss_3ecbc; // Used by: LoadConfig_MenuInit
+char	bss_3ecc0[24];
 int		bss_3ecd8; // Used by: LoadConfig_MenuInit
-char	bss_3ecdc[12]; // Used by: LoadConfig_MenuInit
-char	bss_3ece8[16]; // Used by: LoadConfig_MenuInit
+int		bss_3ecdc; // Used by: LoadConfig_MenuInit
+char	bss_3ece0[8];
+int		bss_3ece8; // Used by: LoadConfig_MenuInit
+char	bss_3ecec[12];
 int		bss_3ecf8; // Used by: LoadConfig_MenuInit
-char	bss_3ecfc[8]; // Used by: LoadConfig_MenuInit
+int		bss_3ecfc; // Used by: LoadConfig_MenuInit
+int		bss_3ed00;
 int		bss_3ed04; // Used by: LoadConfig_MenuInit
 int		bss_3ed08; // Used by: LoadConfig_MenuInit
 int		bss_3ed0c; // Used by: LoadConfig_MenuInit
 int		bss_3ed10; // Used by: LoadConfig_MenuInit
-char	bss_3ed14[28]; // Used by: LoadConfig_MenuInit
+int		bss_3ed14; // Used by: LoadConfig_MenuInit
+char	bss_3ed18[24];
 int		bss_3ed30; // Used by: LoadConfig_MenuInit
-char	bss_3ed34[12]; // Used by: LoadConfig_MenuInit
-char	bss_3ed40[16]; // Used by: LoadConfig_MenuInit
+int		bss_3ed34; // Used by: LoadConfig_MenuInit
+char	bss_3ed38[8];
+int		bss_3ed40; // Used by: LoadConfig_MenuInit
+char	bss_3ed44[12];
 int		bss_3ed50; // Used by: LoadConfig_MenuInit
-char	bss_3ed54[8]; // Used by: LoadConfig_MenuInit
+int		bss_3ed54; // Used by: LoadConfig_MenuInit
+int		bss_3ed58;
 int		bss_3ed5c; // Used by: LoadConfig_MenuInit
 int		bss_3ed60; // Used by: LoadConfig_MenuInit
 int		bss_3ed64; // Used by: LoadConfig_MenuInit
 int		bss_3ed68; // Used by: LoadConfig_MenuInit
-char	bss_3ed6c[28]; // Used by: LoadConfig_MenuInit
+int		bss_3ed6c; // Used by: LoadConfig_MenuInit
+char	bss_3ed70[24];
 int		bss_3ed88; // Used by: LoadConfig_MenuInit
-char	bss_3ed8c[12]; // Used by: LoadConfig_MenuInit
-char	bss_3ed98[16]; // Used by: LoadConfig_MenuInit
+int		bss_3ed8c; // Used by: LoadConfig_MenuInit
+char	bss_3ed90[8];
+int		bss_3ed98; // Used by: LoadConfig_MenuInit
+char	bss_3ed9c[12];
 int		bss_3eda8; // Used by: LoadConfig_MenuInit
-char	bss_3edac[2568]; // Used by: LoadConfig_MenuInit
+int		bss_3edac; // Used by: LoadConfig_MenuInit
+char	bss_3edb0[2564];
 char	s_errorMessage[268];
 int		bss_3f8c0; // Used by: UI_MainMenu
 int		bss_3f8c4; // Used by: UI_MainMenu
 int		bss_3f8c8; // Used by: UI_MainMenu
 int		bss_3f8cc; // Used by: UI_MainMenu
-char	bss_3f8d0[4100]; // Used by: UI_MainMenu
+int		bss_3f8d0; // Used by: UI_MainMenu
+char	bss_3f8d4[4096];
 char	s_main[268];
-char	bss_409e0[8]; // Used by: UI_MainMenu
+int		bss_409e0; // Used by: UI_MainMenu
+int		bss_409e4;
 int		bss_409e8; // Used by: UI_MainMenu
 int		bss_409ec; // Used by: UI_MainMenu
 int		bss_409f0; // Used by: UI_MainMenu
-char	bss_409f4[8]; // Used by: UI_MainMenu
+int		bss_409f4; // Used by: UI_MainMenu
+int		bss_409f8;
 int		bss_409fc; // Used by: UI_MainMenu
 int		bss_40a00; // Used by: UI_MainMenu
-char	bss_40a04[28]; // Used by: UI_MainMenu
+int		bss_40a04; // Used by: UI_MainMenu
+char	bss_40a08[24];
 int		bss_40a20; // Used by: UI_MainMenu
-char	bss_40a24[12]; // Used by: UI_MainMenu
+int		bss_40a24; // Used by: UI_MainMenu
+char	bss_40a28[8];
 int		bss_40a30; // Used by: UI_MainMenu
 int		bss_40a34; // Used by: UI_MainMenu
 int		bss_40a38; // Used by: UI_MainMenu
-char	bss_40a3c[8]; // Used by: UI_MainMenu
+int		bss_40a3c; // Used by: UI_MainMenu
+int		bss_40a40;
 int		bss_40a44; // Used by: UI_MainMenu
 int		bss_40a48; // Used by: UI_MainMenu
-char	bss_40a4c[28]; // Used by: UI_MainMenu
+int		bss_40a4c; // Used by: UI_MainMenu
+char	bss_40a50[24];
 int		bss_40a68; // Used by: UI_MainMenu
-char	bss_40a6c[12]; // Used by: UI_MainMenu
+int		bss_40a6c; // Used by: UI_MainMenu
+char	bss_40a70[8];
 int		bss_40a78; // Used by: UI_MainMenu
 int		bss_40a7c; // Used by: UI_MainMenu
 int		bss_40a80; // Used by: UI_MainMenu
-char	bss_40a84[8]; // Used by: UI_MainMenu
+int		bss_40a84; // Used by: UI_MainMenu
+int		bss_40a88;
 int		bss_40a8c; // Used by: UI_MainMenu
 int		bss_40a90; // Used by: UI_MainMenu
-char	bss_40a94[28]; // Used by: UI_MainMenu
+int		bss_40a94; // Used by: UI_MainMenu
+char	bss_40a98[24];
 int		bss_40ab0; // Used by: UI_MainMenu
-char	bss_40ab4[12]; // Used by: UI_MainMenu
+int		bss_40ab4; // Used by: UI_MainMenu
+char	bss_40ab8[8];
 int		bss_40ac0; // Used by: UI_MainMenu
 int		bss_40ac4; // Used by: UI_MainMenu
 int		bss_40ac8; // Used by: UI_MainMenu
-char	bss_40acc[8]; // Used by: UI_MainMenu
+int		bss_40acc; // Used by: UI_MainMenu
+int		bss_40ad0;
 int		bss_40ad4; // Used by: UI_MainMenu
 int		bss_40ad8; // Used by: UI_MainMenu
-char	bss_40adc[28]; // Used by: UI_MainMenu
+int		bss_40adc; // Used by: UI_MainMenu
+char	bss_40ae0[24];
 int		bss_40af8; // Used by: UI_MainMenu
-char	bss_40afc[12]; // Used by: UI_MainMenu
+int		bss_40afc; // Used by: UI_MainMenu
+char	bss_40b00[8];
 int		bss_40b08; // Used by: UI_MainMenu
 int		bss_40b0c; // Used by: UI_MainMenu
 int		bss_40b10; // Used by: UI_MainMenu
-char	bss_40b14[8]; // Used by: UI_MainMenu
+int		bss_40b14; // Used by: UI_MainMenu
+int		bss_40b18;
 int		bss_40b1c; // Used by: UI_MainMenu
 int		bss_40b20; // Used by: UI_MainMenu
-char	bss_40b24[28]; // Used by: UI_MainMenu
+int		bss_40b24; // Used by: UI_MainMenu
+char	bss_40b28[24];
 int		bss_40b40; // Used by: UI_MainMenu
-char	bss_40b44[12]; // Used by: UI_MainMenu
+int		bss_40b44; // Used by: UI_MainMenu
+char	bss_40b48[8];
 int		bss_40b50; // Used by: UI_MainMenu
 int		bss_40b54; // Used by: UI_MainMenu
 int		bss_40b58; // Used by: UI_MainMenu
-char	bss_40b5c[8]; // Used by: UI_MainMenu
+int		bss_40b5c; // Used by: UI_MainMenu
+int		bss_40b60;
 int		bss_40b64; // Used by: UI_MainMenu
 int		bss_40b68; // Used by: UI_MainMenu
-char	bss_40b6c[28]; // Used by: UI_MainMenu
+int		bss_40b6c; // Used by: UI_MainMenu
+char	bss_40b70[24];
 int		bss_40b88; // Used by: UI_MainMenu
-char	bss_40b8c[12]; // Used by: UI_MainMenu
+int		bss_40b8c; // Used by: UI_MainMenu
+char	bss_40b90[8];
 int		bss_40b98; // Used by: UI_MainMenu
 int		bss_40b9c; // Used by: UI_MainMenu
 int		bss_40ba0; // Used by: UI_MainMenu
-char	bss_40ba4[8]; // Used by: UI_MainMenu
+int		bss_40ba4; // Used by: UI_MainMenu
+int		bss_40ba8;
 int		bss_40bac; // Used by: UI_MainMenu
 int		bss_40bb0; // Used by: UI_MainMenu
-char	bss_40bb4[28]; // Used by: UI_MainMenu
+int		bss_40bb4; // Used by: UI_MainMenu
+char	bss_40bb8[24];
 int		bss_40bd0; // Used by: UI_MainMenu
-char	bss_40bd4[12]; // Used by: UI_MainMenu
+int		bss_40bd4; // Used by: UI_MainMenu
+char	bss_40bd8[8];
 int		bss_40be0; // Used by: UI_MainMenu
 int		bss_40be4; // Used by: UI_MainMenu
 int		bss_40be8; // Used by: UI_MainMenu
-char	bss_40bec[8]; // Used by: UI_MainMenu
+int		bss_40bec; // Used by: UI_MainMenu
+int		bss_40bf0;
 int		bss_40bf4; // Used by: UI_MainMenu
 int		bss_40bf8; // Used by: UI_MainMenu
-char	bss_40bfc[28]; // Used by: UI_MainMenu
+int		bss_40bfc; // Used by: UI_MainMenu
+char	bss_40c00[24];
 int		bss_40c18; // Used by: UI_MainMenu
-char	bss_40c1c[12]; // Used by: UI_MainMenu
+int		bss_40c1c; // Used by: UI_MainMenu
+char	bss_40c20[8];
 int		bss_40c28; // Used by: UI_MainMenu
 int		bss_40c2c; // Used by: UI_MainMenu
 int		bss_40c30; // Used by: UI_MainMenu
 int		bss_40c34; // Used by: Main_MenuDraw, MainMenu_Cache
 char	s_mods[276];
 int		bss_40d4c; // Used by: UI_Mods_MenuInit
-char	bss_40d50[8]; // Used by: UI_Mods_MenuInit
-char	bss_40d58[12]; // Used by: UI_Mods_MenuInit
+int		bss_40d50; // Used by: UI_Mods_MenuInit
+int		bss_40d54;
+int		bss_40d58; // Used by: UI_Mods_MenuInit
+char	bss_40d5c[8];
 int		bss_40d64; // Used by: UI_Mods_MenuInit
-char	bss_40d68[44]; // Used by: UI_Mods_MenuInit
+int		bss_40d68; // Used by: UI_Mods_MenuInit
+char	bss_40d6c[40];
 int		bss_40d94; // Used by: UI_Mods_MenuInit
 int		bss_40d98; // Used by: UI_Mods_MenuInit
 int		bss_40d9c; // Used by: UI_Mods_MenuInit
 int		bss_40da0; // Used by: UI_Mods_MenuInit
-char	bss_40da4[8]; // Used by: UI_Mods_MenuInit
+int		bss_40da4; // Used by: UI_Mods_MenuInit
+int		bss_40da8;
 int		bss_40dac; // Used by: UI_Mods_MenuInit
-char	bss_40db0[28]; // Used by: UI_Mods_MenuInit
-char	bss_40dcc[32]; // Used by: UI_Mods_MenuInit
+int		bss_40db0; // Used by: UI_Mods_MenuInit
+char	bss_40db4[24];
+int		bss_40dcc; // Used by: UI_Mods_MenuInit
+char	bss_40dd0[28];
 int		bss_40dec; // Used by: UI_Mods_MenuInit
-char	bss_40df0[8]; // Used by: UI_Mods_MenuInit
+int		bss_40df0; // Used by: UI_Mods_MenuInit
+int		bss_40df4;
 int		bss_40df8; // Used by: UI_Mods_MenuInit
-char	bss_40dfc[8]; // Used by: UI_Mods_MenuInit
+int		bss_40dfc; // Used by: UI_Mods_MenuInit
+int		bss_40e00;
 int		bss_40e04; // Used by: UI_Mods_MenuInit
-char	bss_40e08[28]; // Used by: UI_Mods_MenuInit
-char	bss_40e24[32]; // Used by: UI_Mods_MenuInit
+int		bss_40e08; // Used by: UI_Mods_MenuInit
+char	bss_40e0c[24];
+int		bss_40e24; // Used by: UI_Mods_MenuInit
+char	bss_40e28[28];
 int		bss_40e44; // Used by: UI_Mods_MenuInit
-char	bss_40e48[8]; // Used by: UI_Mods_MenuInit
-char	bss_40e50[8]; // Used by: UI_Mods_MenuInit
+int		bss_40e48; // Used by: UI_Mods_MenuInit
+int		bss_40e4c;
+int		bss_40e50; // Used by: UI_Mods_MenuInit
+int		bss_40e54;
 int		bss_40e58; // Used by: UI_Mods_MenuInit
 int		bss_40e5c; // Used by: UI_Mods_MenuInit
-char	bss_40e60[28]; // Used by: UI_Mods_MenuInit
+int		bss_40e60; // Used by: UI_Mods_MenuInit
+char	bss_40e64[24];
 int		bss_40e7c; // Used by: UI_Mods_MenuInit
-char	bss_40e80[16]; // Used by: UI_Mods_MenuInit
+int		bss_40e80; // Used by: UI_Mods_MenuInit
+char	bss_40e84[12];
 int		bss_40e90; // Used by: UI_Mods_MenuEvent
-char	bss_40e94[8]; // Used by: UI_Mods_LoadMods, UI_Mods_ParseInfos
+int		bss_40e94; // Used by: UI_Mods_LoadMods, UI_Mods_ParseInfos
+int		bss_40e98;
 int		bss_40e9c; // Used by: UI_Mods_LoadMods, UI_Mods_ParseInfos
 int		bss_40ea0; // Used by: UI_Mods_MenuInit
-char	bss_40ea4[12]; // Used by: UI_Mods_MenuInit
+int		bss_40ea4; // Used by: UI_Mods_MenuInit
+char	bss_40ea8[8];
 int		bss_40eb0; // Used by: UI_Mods_MenuInit
 int		bss_40eb4; // Used by: UI_Mods_MenuInit
 int		bss_40eb8; // Used by: UI_Mods_MenuInit
 int		bss_40ebc; // Used by: UI_Mods_MenuInit
-char	bss_40ec0[28]; // Used by: UI_Mods_MenuInit
+int		bss_40ec0; // Used by: UI_Mods_MenuInit
+char	bss_40ec4[24];
 int		bss_40edc; // Used by: UI_Mods_MenuInit
-char	bss_40ee0[12]; // Used by: UI_Mods_MenuInit
-char	bss_40eec[16]; // Used by: UI_Mods_MenuInit
+int		bss_40ee0; // Used by: UI_Mods_MenuInit
+char	bss_40ee4[8];
+int		bss_40eec; // Used by: UI_Mods_MenuInit
+char	bss_40ef0[12];
 int		bss_40efc; // Used by: UI_Mods_MenuInit
-char	bss_40f00[8]; // Used by: UI_Mods_MenuInit
+int		bss_40f00; // Used by: UI_Mods_MenuInit
+int		bss_40f04;
 int		bss_40f08; // Used by: UI_Mods_MenuInit
 int		bss_40f0c; // Used by: UI_Mods_MenuInit
 int		bss_40f10; // Used by: UI_Mods_MenuInit
 int		bss_40f14; // Used by: UI_Mods_MenuInit
-char	bss_40f18[28]; // Used by: UI_Mods_MenuInit
+int		bss_40f18; // Used by: UI_Mods_MenuInit
+char	bss_40f1c[24];
 int		bss_40f34; // Used by: UI_Mods_MenuInit
-char	bss_40f38[12]; // Used by: UI_Mods_MenuInit
-char	bss_40f44[16]; // Used by: UI_Mods_MenuInit
+int		bss_40f38; // Used by: UI_Mods_MenuInit
+char	bss_40f3c[8];
+int		bss_40f44; // Used by: UI_Mods_MenuInit
+char	bss_40f48[12];
 int		bss_40f54; // Used by: UI_Mods_MenuInit
-char	bss_40f58[4104]; // Used by: UI_Mods_MenuInit
+int		bss_40f58; // Used by: UI_Mods_MenuInit
+char	bss_40f5c[4100];
 int		bss_41f60; // Used by: UI_Mods_LoadMods, UI_Mods_ParseInfos
 int		bss_41f64; // Used by: UI_Mods_LoadMods, UI_Mods_ParseInfos
-char	bss_41f68[256]; // Used by: UI_Mods_LoadMods
-char	bss_42068[256]; // Used by: UI_Mods_LoadMods
+int		bss_41f68; // Used by: UI_Mods_LoadMods
+char	bss_41f6c[252];
+int		bss_42068; // Used by: UI_Mods_LoadMods
+char	bss_4206c[252];
 char	networkOptionsInfo[276];
 int		bss_4227c; // Used by: UI_NetworkOptionsMenu_Init
-char	bss_42280[8]; // Used by: UI_NetworkOptionsMenu_Init
-char	bss_42288[12]; // Used by: UI_NetworkOptionsMenu_Init
+int		bss_42280; // Used by: UI_NetworkOptionsMenu_Init
+int		bss_42284;
+int		bss_42288; // Used by: UI_NetworkOptionsMenu_Init
+char	bss_4228c[8];
 int		bss_42294; // Used by: UI_NetworkOptionsMenu_Init
-char	bss_42298[28]; // Used by: UI_NetworkOptionsMenu_Init
-char	bss_422b4[16]; // Used by: UI_NetworkOptionsMenu_Init
+int		bss_42298; // Used by: UI_NetworkOptionsMenu_Init
+char	bss_4229c[24];
+int		bss_422b4; // Used by: UI_NetworkOptionsMenu_Init
+char	bss_422b8[12];
 int		bss_422c4; // Used by: UI_NetworkOptionsMenu_Init
 int		bss_422c8; // Used by: UI_NetworkOptionsMenu_Init
 int		bss_422cc; // Used by: UI_NetworkOptionsMenu_Init
 int		bss_422d0; // Used by: UI_NetworkOptionsMenu_Init
-char	bss_422d4[8]; // Used by: UI_NetworkOptionsMenu_Init
+int		bss_422d4; // Used by: UI_NetworkOptionsMenu_Init
+int		bss_422d8;
 int		bss_422dc; // Used by: UI_NetworkOptionsMenu_Init
-char	bss_422e0[28]; // Used by: UI_NetworkOptionsMenu_Init
-char	bss_422fc[32]; // Used by: UI_NetworkOptionsMenu_Init
+int		bss_422e0; // Used by: UI_NetworkOptionsMenu_Init
+char	bss_422e4[24];
+int		bss_422fc; // Used by: UI_NetworkOptionsMenu_Init
+char	bss_42300[28];
 int		bss_4231c; // Used by: UI_NetworkOptionsMenu_Init
-char	bss_42320[8]; // Used by: UI_NetworkOptionsMenu_Init
+int		bss_42320; // Used by: UI_NetworkOptionsMenu_Init
+int		bss_42324;
 int		bss_42328; // Used by: UI_NetworkOptionsMenu_Init
-char	bss_4232c[8]; // Used by: UI_NetworkOptionsMenu_Init
+int		bss_4232c; // Used by: UI_NetworkOptionsMenu_Init
+int		bss_42330;
 int		bss_42334; // Used by: UI_NetworkOptionsMenu_Init
-char	bss_42338[28]; // Used by: UI_NetworkOptionsMenu_Init
-char	bss_42354[32]; // Used by: UI_NetworkOptionsMenu_Init
+int		bss_42338; // Used by: UI_NetworkOptionsMenu_Init
+char	bss_4233c[24];
+int		bss_42354; // Used by: UI_NetworkOptionsMenu_Init
+char	bss_42358[28];
 int		bss_42374; // Used by: UI_NetworkOptionsMenu_Init
-char	bss_42378[8]; // Used by: UI_NetworkOptionsMenu_Init
-char	bss_42380[8]; // Used by: UI_NetworkOptionsMenu_Init
+int		bss_42378; // Used by: UI_NetworkOptionsMenu_Init
+int		bss_4237c;
+int		bss_42380; // Used by: UI_NetworkOptionsMenu_Init
+int		bss_42384;
 int		bss_42388; // Used by: UI_NetworkOptionsMenu_Init
 int		bss_4238c; // Used by: UI_NetworkOptionsMenu_Init
-char	bss_42390[28]; // Used by: UI_NetworkOptionsMenu_Init
+int		bss_42390; // Used by: UI_NetworkOptionsMenu_Init
+char	bss_42394[24];
 int		bss_423ac; // Used by: UI_NetworkOptionsMenu_Init
-char	bss_423b0[12]; // Used by: UI_NetworkOptionsMenu_Init
+int		bss_423b0; // Used by: UI_NetworkOptionsMenu_Init
+char	bss_423b4[8];
 int		bss_423bc; // Used by: UI_NetworkOptionsMenu_Init
 int		bss_423c0; // Used by: UI_NetworkOptionsMenu_Init
 int		bss_423c4; // Used by: UI_NetworkOptionsMenu_Init
-char	bss_423c8[8]; // Used by: UI_NetworkOptionsMenu_Init
+int		bss_423c8; // Used by: UI_NetworkOptionsMenu_Init
+int		bss_423cc;
 int		bss_423d0; // Used by: UI_NetworkOptionsMenu_Init
 int		bss_423d4; // Used by: UI_NetworkOptionsMenu_Init
-char	bss_423d8[28]; // Used by: UI_NetworkOptionsMenu_Init
+int		bss_423d8; // Used by: UI_NetworkOptionsMenu_Init
+char	bss_423dc[24];
 int		bss_423f4; // Used by: UI_NetworkOptionsMenu_Init
-char	bss_423f8[12]; // Used by: UI_NetworkOptionsMenu_Init
+int		bss_423f8; // Used by: UI_NetworkOptionsMenu_Init
+char	bss_423fc[8];
 int		bss_42404; // Used by: UI_NetworkOptionsMenu_Init
 int		bss_42408; // Used by: UI_NetworkOptionsMenu_Init
 int		bss_4240c; // Used by: UI_NetworkOptionsMenu_Init
-char	bss_42410[8]; // Used by: UI_NetworkOptionsMenu_Init
+int		bss_42410; // Used by: UI_NetworkOptionsMenu_Init
+int		bss_42414;
 int		bss_42418; // Used by: UI_NetworkOptionsMenu_Init
 int		bss_4241c; // Used by: UI_NetworkOptionsMenu_Init
-char	bss_42420[28]; // Used by: UI_NetworkOptionsMenu_Init
+int		bss_42420; // Used by: UI_NetworkOptionsMenu_Init
+char	bss_42424[24];
 int		bss_4243c; // Used by: UI_NetworkOptionsMenu_Init
-char	bss_42440[12]; // Used by: UI_NetworkOptionsMenu_Init
+int		bss_42440; // Used by: UI_NetworkOptionsMenu_Init
+char	bss_42444[8];
 int		bss_4244c; // Used by: UI_NetworkOptionsMenu_Init
 int		bss_42450; // Used by: UI_NetworkOptionsMenu_Init
 int		bss_42454; // Used by: UI_NetworkOptionsMenu_Init
-char	bss_42458[8]; // Used by: UI_NetworkOptionsMenu_Init
+int		bss_42458; // Used by: UI_NetworkOptionsMenu_Init
+int		bss_4245c;
 int		bss_42460; // Used by: UI_NetworkOptionsMenu_Init
 int		bss_42464; // Used by: UI_NetworkOptionsMenu_Init
-char	bss_42468[28]; // Used by: UI_NetworkOptionsMenu_Init
+int		bss_42468; // Used by: UI_NetworkOptionsMenu_Init
+char	bss_4246c[24];
 int		bss_42484; // Used by: UI_NetworkOptionsMenu_Init
-char	bss_42488[12]; // Used by: UI_NetworkOptionsMenu_Init
+int		bss_42488; // Used by: UI_NetworkOptionsMenu_Init
+char	bss_4248c[8];
 int		bss_42494; // Used by: UI_NetworkOptionsMenu_Init
 int		bss_42498; // Used by: UI_NetworkOptionsMenu_Init
 int		bss_4249c; // Used by: UI_NetworkOptionsMenu_Init
@@ -1400,78 +1910,110 @@ int		bss_424a0; // Used by: UI_NetworkOptionsMenu_Init
 int		bss_424a4; // Used by: UI_NetworkOptionsMenu_Init
 int		bss_424a8; // Used by: UI_NetworkOptionsMenu_Init
 int		bss_424ac; // Used by: UI_NetworkOptionsMenu_Init
-char	bss_424b0[28]; // Used by: UI_NetworkOptionsMenu_Init
+int		bss_424b0; // Used by: UI_NetworkOptionsMenu_Init
+char	bss_424b4[24];
 int		bss_424cc; // Used by: UI_NetworkOptionsMenu_Init
-char	bss_424d0[16]; // Used by: UI_NetworkOptionsMenu_Init
-char	bss_424e0[12]; // Used by: UI_NetworkOptionsMenu_Init, UI_NetworkOptionsMenu_Event
-char	bss_424ec[20]; // Used by: UI_NetworkOptionsMenu_Init
+int		bss_424d0; // Used by: UI_NetworkOptionsMenu_Init
+char	bss_424d4[12];
+int		bss_424e0; // Used by: UI_NetworkOptionsMenu_Init, UI_NetworkOptionsMenu_Event
+char	bss_424e4[8];
+int		bss_424ec; // Used by: UI_NetworkOptionsMenu_Init
+char	bss_424f0[16];
 int		bss_42500; // Used by: UI_NetworkOptionsMenu_Init
 int		bss_42504; // Used by: UI_NetworkOptionsMenu_Init
 int		bss_42508; // Used by: UI_NetworkOptionsMenu_Init
 int		bss_4250c; // Used by: UI_NetworkOptionsMenu_Init
-char	bss_42510[28]; // Used by: UI_NetworkOptionsMenu_Init
+int		bss_42510; // Used by: UI_NetworkOptionsMenu_Init
+char	bss_42514[24];
 int		bss_4252c; // Used by: UI_NetworkOptionsMenu_Init
-char	bss_42530[12]; // Used by: UI_NetworkOptionsMenu_Init
-char	bss_4253c[16]; // Used by: UI_NetworkOptionsMenu_Init
+int		bss_42530; // Used by: UI_NetworkOptionsMenu_Init
+char	bss_42534[8];
+int		bss_4253c; // Used by: UI_NetworkOptionsMenu_Init
+char	bss_42540[12];
 int		bss_4254c; // Used by: UI_NetworkOptionsMenu_Init
-char	bss_42550[8]; // Used by: UI_NetworkOptionsMenu_Init
+int		bss_42550; // Used by: UI_NetworkOptionsMenu_Init
+int		bss_42554;
 char	s_options[276];
 int		bss_4266c; // Used by: Options_MenuInit
-char	bss_42670[8]; // Used by: Options_MenuInit
-char	bss_42678[12]; // Used by: Options_MenuInit
+int		bss_42670; // Used by: Options_MenuInit
+int		bss_42674;
+int		bss_42678; // Used by: Options_MenuInit
+char	bss_4267c[8];
 int		bss_42684; // Used by: Options_MenuInit
-char	bss_42688[28]; // Used by: Options_MenuInit
-char	bss_426a4[16]; // Used by: Options_MenuInit
+int		bss_42688; // Used by: Options_MenuInit
+char	bss_4268c[24];
+int		bss_426a4; // Used by: Options_MenuInit
+char	bss_426a8[12];
 int		bss_426b4; // Used by: Options_MenuInit
 int		bss_426b8; // Used by: Options_MenuInit
 int		bss_426bc; // Used by: Options_MenuInit
 int		bss_426c0; // Used by: Options_MenuInit
-char	bss_426c4[8]; // Used by: Options_MenuInit
+int		bss_426c4; // Used by: Options_MenuInit
+int		bss_426c8;
 int		bss_426cc; // Used by: Options_MenuInit
-char	bss_426d0[28]; // Used by: Options_MenuInit
-char	bss_426ec[32]; // Used by: Options_MenuInit
+int		bss_426d0; // Used by: Options_MenuInit
+char	bss_426d4[24];
+int		bss_426ec; // Used by: Options_MenuInit
+char	bss_426f0[28];
 int		bss_4270c; // Used by: Options_MenuInit
-char	bss_42710[8]; // Used by: Options_MenuInit
+int		bss_42710; // Used by: Options_MenuInit
+int		bss_42714;
 int		bss_42718; // Used by: Options_MenuInit
-char	bss_4271c[8]; // Used by: Options_MenuInit
+int		bss_4271c; // Used by: Options_MenuInit
+int		bss_42720;
 int		bss_42724; // Used by: Options_MenuInit
-char	bss_42728[28]; // Used by: Options_MenuInit
-char	bss_42744[32]; // Used by: Options_MenuInit
+int		bss_42728; // Used by: Options_MenuInit
+char	bss_4272c[24];
+int		bss_42744; // Used by: Options_MenuInit
+char	bss_42748[28];
 int		bss_42764; // Used by: Options_MenuInit
-char	bss_42768[8]; // Used by: Options_MenuInit
-char	bss_42770[8]; // Used by: Options_MenuInit
+int		bss_42768; // Used by: Options_MenuInit
+int		bss_4276c;
+int		bss_42770; // Used by: Options_MenuInit
+int		bss_42774;
 int		bss_42778; // Used by: Options_MenuInit
 int		bss_4277c; // Used by: Options_MenuInit
-char	bss_42780[28]; // Used by: Options_MenuInit
+int		bss_42780; // Used by: Options_MenuInit
+char	bss_42784[24];
 int		bss_4279c; // Used by: Options_MenuInit
-char	bss_427a0[12]; // Used by: Options_MenuInit
+int		bss_427a0; // Used by: Options_MenuInit
+char	bss_427a4[8];
 int		bss_427ac; // Used by: Options_MenuInit
 int		bss_427b0; // Used by: Options_MenuInit
 int		bss_427b4; // Used by: Options_MenuInit
-char	bss_427b8[8]; // Used by: Options_MenuInit
+int		bss_427b8; // Used by: Options_MenuInit
+int		bss_427bc;
 int		bss_427c0; // Used by: Options_MenuInit
 int		bss_427c4; // Used by: Options_MenuInit
-char	bss_427c8[28]; // Used by: Options_MenuInit
+int		bss_427c8; // Used by: Options_MenuInit
+char	bss_427cc[24];
 int		bss_427e4; // Used by: Options_MenuInit
-char	bss_427e8[12]; // Used by: Options_MenuInit
+int		bss_427e8; // Used by: Options_MenuInit
+char	bss_427ec[8];
 int		bss_427f4; // Used by: Options_MenuInit
 int		bss_427f8; // Used by: Options_MenuInit
 int		bss_427fc; // Used by: Options_MenuInit
-char	bss_42800[8]; // Used by: Options_MenuInit
+int		bss_42800; // Used by: Options_MenuInit
+int		bss_42804;
 int		bss_42808; // Used by: Options_MenuInit
 int		bss_4280c; // Used by: Options_MenuInit
-char	bss_42810[28]; // Used by: Options_MenuInit
+int		bss_42810; // Used by: Options_MenuInit
+char	bss_42814[24];
 int		bss_4282c; // Used by: Options_MenuInit
-char	bss_42830[12]; // Used by: Options_MenuInit
+int		bss_42830; // Used by: Options_MenuInit
+char	bss_42834[8];
 int		bss_4283c; // Used by: Options_MenuInit
 int		bss_42840; // Used by: Options_MenuInit
 int		bss_42844; // Used by: Options_MenuInit
-char	bss_42848[8]; // Used by: Options_MenuInit
+int		bss_42848; // Used by: Options_MenuInit
+int		bss_4284c;
 int		bss_42850; // Used by: Options_MenuInit
 int		bss_42854; // Used by: Options_MenuInit
-char	bss_42858[28]; // Used by: Options_MenuInit
+int		bss_42858; // Used by: Options_MenuInit
+char	bss_4285c[24];
 int		bss_42874; // Used by: Options_MenuInit
-char	bss_42878[12]; // Used by: Options_MenuInit
+int		bss_42878; // Used by: Options_MenuInit
+char	bss_4287c[8];
 int		bss_42884; // Used by: Options_MenuInit
 int		bss_42888; // Used by: Options_MenuInit
 int		bss_4288c; // Used by: Options_MenuInit
@@ -1479,40 +2021,59 @@ int		bss_42890; // Used by: Options_MenuInit
 int		bss_42894; // Used by: Options_MenuInit
 int		bss_42898; // Used by: Options_MenuInit
 int		bss_4289c; // Used by: Options_MenuInit
-char	bss_428a0[28]; // Used by: Options_MenuInit
+int		bss_428a0; // Used by: Options_MenuInit
+char	bss_428a4[24];
 int		bss_428bc; // Used by: Options_MenuInit
-char	bss_428c0[12]; // Used by: Options_MenuInit
-char	bss_428cc[16]; // Used by: Options_MenuInit
+int		bss_428c0; // Used by: Options_MenuInit
+char	bss_428c4[8];
+int		bss_428cc; // Used by: Options_MenuInit
+char	bss_428d0[12];
 int		bss_428dc; // Used by: Options_MenuInit
-char	bss_428e0[104]; // Used by: Options_MenuInit
+int		bss_428e0; // Used by: Options_MenuInit
+char	bss_428e4[100];
 char	s_playermodel[272];
 int		bss_42a58; // Used by: PlayerModel_MenuInit
 int		bss_42a5c; // Used by: PlayerModel_MenuInit
-char	bss_42a60[2824]; // Used by: PlayerModel_MenuInit
+int		bss_42a60; // Used by: PlayerModel_MenuInit
+char	bss_42a64[2820];
 int		bss_43568; // Used by: PlayerModel_MenuInit
-char	bss_4356c[8]; // Used by: PlayerModel_MenuInit
+int		bss_4356c; // Used by: PlayerModel_MenuInit
+int		bss_43570;
 int		bss_43574; // Used by: PlayerModel_MenuInit
-char	bss_43578[28]; // Used by: PlayerModel_MenuInit
-char	bss_43594[32]; // Used by: PlayerModel_MenuInit
+int		bss_43578; // Used by: PlayerModel_MenuInit
+char	bss_4357c[24];
+int		bss_43594; // Used by: PlayerModel_MenuInit
+char	bss_43598[28];
 int		bss_435b4; // Used by: PlayerModel_MenuInit
-char	bss_435b8[8]; // Used by: PlayerModel_MenuInit
+int		bss_435b8; // Used by: PlayerModel_MenuInit
+int		bss_435bc;
 int		bss_435c0; // Used by: PlayerModel_MenuInit
-char	bss_435c4[8]; // Used by: PlayerModel_MenuInit
+int		bss_435c4; // Used by: PlayerModel_MenuInit
+int		bss_435c8;
 int		bss_435cc; // Used by: PlayerModel_MenuInit
-char	bss_435d0[28]; // Used by: PlayerModel_MenuInit
-char	bss_435ec[32]; // Used by: PlayerModel_MenuInit
+int		bss_435d0; // Used by: PlayerModel_MenuInit
+char	bss_435d4[24];
+int		bss_435ec; // Used by: PlayerModel_MenuInit
+char	bss_435f0[28];
 int		bss_4360c; // Used by: PlayerModel_MenuInit
-char	bss_43610[8]; // Used by: PlayerModel_MenuInit
+int		bss_43610; // Used by: PlayerModel_MenuInit
+int		bss_43614;
 int		bss_43618; // Used by: PlayerModel_MenuInit
-char	bss_4361c[8]; // Used by: PlayerModel_MenuInit
+int		bss_4361c; // Used by: PlayerModel_MenuInit
+int		bss_43620;
 int		bss_43624; // Used by: PlayerModel_MenuInit
-char	bss_43628[28]; // Used by: PlayerModel_MenuInit
-char	bss_43644[32]; // Used by: PlayerModel_MenuInit
+int		bss_43628; // Used by: PlayerModel_MenuInit
+char	bss_4362c[24];
+int		bss_43644; // Used by: PlayerModel_MenuInit
+char	bss_43648[28];
 int		bss_43664; // Used by: PlayerModel_MenuInit
-char	bss_43668[8]; // Used by: PlayerModel_MenuInit
-char	bss_43670[12]; // Used by: PlayerModel_MenuInit
+int		bss_43668; // Used by: PlayerModel_MenuInit
+int		bss_4366c;
+int		bss_43670; // Used by: PlayerModel_MenuInit
+char	bss_43674[8];
 int		bss_4367c; // Used by: PlayerModel_MenuInit
-char	bss_43680[44]; // Used by: PlayerModel_MenuInit
+int		bss_43680; // Used by: PlayerModel_MenuInit
+char	bss_43684[40];
 int		bss_436ac; // Used by: PlayerModel_MenuInit
 int		bss_436b0; // Used by: PlayerModel_MenuInit
 int		bss_436b4; // Used by: PlayerModel_MenuInit
@@ -1520,163 +2081,241 @@ int		bss_436b8; // Used by: PlayerModel_MenuInit
 int		bss_436bc; // Used by: PlayerModel_MenuInit
 int		bss_436c0; // Used by: PlayerModel_MenuInit
 int		bss_436c4; // Used by: PlayerModel_MenuInit
-char	bss_436c8[28]; // Used by: PlayerModel_MenuInit
+int		bss_436c8; // Used by: PlayerModel_MenuInit
+char	bss_436cc[24];
 int		bss_436e4; // Used by: PlayerModel_MenuInit
-char	bss_436e8[12]; // Used by: PlayerModel_MenuInit
-char	bss_436f4[16]; // Used by: PlayerModel_MenuInit
+int		bss_436e8; // Used by: PlayerModel_MenuInit
+char	bss_436ec[8];
+int		bss_436f4; // Used by: PlayerModel_MenuInit
+char	bss_436f8[12];
 int		bss_43704; // Used by: PlayerModel_MenuInit
-char	bss_43708[8]; // Used by: PlayerModel_MenuInit
-char	bss_43710[12]; // Used by: PlayerModel_MenuInit
+int		bss_43708; // Used by: PlayerModel_MenuInit
+int		bss_4370c;
+int		bss_43710; // Used by: PlayerModel_MenuInit
+char	bss_43714[8];
 int		bss_4371c; // Used by: PlayerModel_MenuInit
-char	bss_43720[28]; // Used by: PlayerModel_MenuInit
-char	bss_4373c[12]; // Used by: PlayerModel_MenuInit
-char	bss_43748[20]; // Used by: PlayerModel_MenuInit
+int		bss_43720; // Used by: PlayerModel_MenuInit
+char	bss_43724[24];
+int		bss_4373c; // Used by: PlayerModel_MenuInit
+char	bss_43740[8];
+int		bss_43748; // Used by: PlayerModel_MenuInit
+char	bss_4374c[16];
 int		bss_4375c; // Used by: PlayerModel_MenuInit
-char	bss_43760[8]; // Used by: PlayerModel_MenuInit
+int		bss_43760; // Used by: PlayerModel_MenuInit
+int		bss_43764;
 int		bss_43768; // Used by: PlayerModel_MenuInit
-char	bss_4376c[8]; // Used by: PlayerModel_MenuInit
+int		bss_4376c; // Used by: PlayerModel_MenuInit
+int		bss_43770;
 int		bss_43774; // Used by: PlayerModel_MenuInit
-char	bss_43778[28]; // Used by: PlayerModel_MenuInit
-char	bss_43794[32]; // Used by: PlayerModel_MenuInit
+int		bss_43778; // Used by: PlayerModel_MenuInit
+char	bss_4377c[24];
+int		bss_43794; // Used by: PlayerModel_MenuInit
+char	bss_43798[28];
 int		bss_437b4; // Used by: PlayerModel_MenuInit
-char	bss_437b8[8]; // Used by: PlayerModel_MenuInit
-char	bss_437c0[8]; // Used by: PlayerModel_MenuInit
+int		bss_437b8; // Used by: PlayerModel_MenuInit
+int		bss_437bc;
+int		bss_437c0; // Used by: PlayerModel_MenuInit
+int		bss_437c4;
 int		bss_437c8; // Used by: PlayerModel_MenuInit
 int		bss_437cc; // Used by: PlayerModel_MenuInit
-char	bss_437d0[28]; // Used by: PlayerModel_MenuInit
+int		bss_437d0; // Used by: PlayerModel_MenuInit
+char	bss_437d4[24];
 int		bss_437ec; // Used by: PlayerModel_MenuInit
-char	bss_437f0[12]; // Used by: PlayerModel_MenuInit
-char	bss_437fc[16]; // Used by: PlayerModel_MenuInit
+int		bss_437f0; // Used by: PlayerModel_MenuInit
+char	bss_437f4[8];
+int		bss_437fc; // Used by: PlayerModel_MenuInit
+char	bss_43800[12];
 int		bss_4380c; // Used by: PlayerModel_MenuInit
-char	bss_43810[8]; // Used by: PlayerModel_MenuInit
-char	bss_43818[8]; // Used by: PlayerModel_MenuInit
+int		bss_43810; // Used by: PlayerModel_MenuInit
+int		bss_43814;
+int		bss_43818; // Used by: PlayerModel_MenuInit
+int		bss_4381c;
 int		bss_43820; // Used by: PlayerModel_MenuInit
 int		bss_43824; // Used by: PlayerModel_MenuInit
-char	bss_43828[28]; // Used by: PlayerModel_MenuInit
+int		bss_43828; // Used by: PlayerModel_MenuInit
+char	bss_4382c[24];
 int		bss_43844; // Used by: PlayerModel_MenuInit
-char	bss_43848[12]; // Used by: PlayerModel_MenuInit
-char	bss_43854[16]; // Used by: PlayerModel_MenuInit
+int		bss_43848; // Used by: PlayerModel_MenuInit
+char	bss_4384c[8];
+int		bss_43854; // Used by: PlayerModel_MenuInit
+char	bss_43858[12];
 int		bss_43864; // Used by: PlayerModel_MenuInit
-char	bss_43868[8]; // Used by: PlayerModel_MenuInit
-char	bss_43870[12]; // Used by: PlayerModel_MenuInit
+int		bss_43868; // Used by: PlayerModel_MenuInit
+int		bss_4386c;
+int		bss_43870; // Used by: PlayerModel_MenuInit
+char	bss_43874[8];
 int		bss_4387c; // Used by: PlayerModel_MenuInit
-char	bss_43880[28]; // Used by: PlayerModel_MenuInit
-char	bss_4389c[16]; // Used by: PlayerModel_MenuInit
+int		bss_43880; // Used by: PlayerModel_MenuInit
+char	bss_43884[24];
+int		bss_4389c; // Used by: PlayerModel_MenuInit
+char	bss_438a0[12];
 int		bss_438ac; // Used by: PlayerModel_MenuInit, PlayerModel_SetMenuItems, PlayerModel_PicEvent
 int		bss_438b0; // Used by: PlayerModel_MenuInit
 int		bss_438b4; // Used by: PlayerModel_MenuInit
-char	bss_438b8[12]; // Used by: PlayerModel_MenuInit
+int		bss_438b8; // Used by: PlayerModel_MenuInit
+char	bss_438bc[8];
 int		bss_438c4; // Used by: PlayerModel_MenuInit
-char	bss_438c8[28]; // Used by: PlayerModel_MenuInit
-char	bss_438e4[16]; // Used by: PlayerModel_MenuInit
+int		bss_438c8; // Used by: PlayerModel_MenuInit
+char	bss_438cc[24];
+int		bss_438e4; // Used by: PlayerModel_MenuInit
+char	bss_438e8[12];
 int		bss_438f4; // Used by: PlayerModel_MenuInit, PlayerModel_SetMenuItems, PlayerModel_PicEvent
 int		bss_438f8; // Used by: PlayerModel_MenuInit
 int		bss_438fc; // Used by: PlayerModel_MenuInit
-char	bss_43900[12]; // Used by: PlayerModel_MenuInit
+int		bss_43900; // Used by: PlayerModel_MenuInit
+char	bss_43904[8];
 int		bss_4390c; // Used by: PlayerModel_MenuInit
-char	bss_43910[28]; // Used by: PlayerModel_MenuInit
-char	bss_4392c[16]; // Used by: PlayerModel_MenuInit
+int		bss_43910; // Used by: PlayerModel_MenuInit
+char	bss_43914[24];
+int		bss_4392c; // Used by: PlayerModel_MenuInit
+char	bss_43930[12];
 int		bss_4393c; // Used by: PlayerModel_MenuInit, PlayerModel_SetMenuItems
 int		bss_43940; // Used by: PlayerModel_MenuInit
-char	bss_43944[1136]; // Used by: PlayerModel_MenuInit
-char	bss_43db4[32772]; // Used by: PlayerModel_Cache, PlayerModel_SetMenuItems, PlayerModel_BuildList, PlayerModel_MenuKey, PlayerModel_UpdateGrid
+int		bss_43944; // Used by: PlayerModel_MenuInit
+char	bss_43948[1132];
+int		bss_43db4; // Used by: PlayerModel_Cache, PlayerModel_SetMenuItems, PlayerModel_BuildList, PlayerModel_MenuKey, PlayerModel_UpdateGrid
+char	bss_43db8[32768];
 int		bss_4bdb8; // Used by: PlayerModel_SetMenuItems, PlayerModel_BuildList, PlayerModel_PicEvent, PlayerModel_MenuKey, PlayerModel_MenuEvent, PlayerModel_UpdateGrid
-char	bss_4bdbc[68]; // Used by: PlayerModel_BuildList, PlayerModel_MenuKey, PlayerModel_MenuEvent, PlayerModel_UpdateGrid
+int		bss_4bdbc; // Used by: PlayerModel_BuildList, PlayerModel_MenuKey, PlayerModel_MenuEvent, PlayerModel_UpdateGrid
+char	bss_4bdc0[64];
 int		bss_4be00; // Used by: UI_PlayerModelMenu, PlayerModel_SetMenuItems, PlayerModel_PicEvent, PlayerModel_UpdateGrid
 int		jumpHeight; // Used by: UI_PlayerInfo_SetInfo, UI_DrawPlayer, UI_LegsSequencing
 int		dp_realtime; // Used by: UI_PlayerInfo_SetInfo, UI_DrawPlayer, UI_MachinegunSpinAngle, UI_RunLerpFrame
 char	s_playersettings[272];
 int		bss_4bf1c; // Used by: PlayerSettings_MenuInit
 int		bss_4bf20; // Used by: PlayerSettings_MenuInit
-char	bss_4bf24[8]; // Used by: PlayerSettings_MenuInit
-char	bss_4bf2c[12]; // Used by: PlayerSettings_MenuInit
+int		bss_4bf24; // Used by: PlayerSettings_MenuInit
+int		bss_4bf28;
+int		bss_4bf2c; // Used by: PlayerSettings_MenuInit
+char	bss_4bf30[8];
 int		bss_4bf38; // Used by: PlayerSettings_MenuInit
-char	bss_4bf3c[44]; // Used by: PlayerSettings_MenuInit
+int		bss_4bf3c; // Used by: PlayerSettings_MenuInit
+char	bss_4bf40[40];
 int		bss_4bf68; // Used by: PlayerSettings_MenuInit
 int		bss_4bf6c; // Used by: PlayerSettings_MenuInit
 int		bss_4bf70; // Used by: PlayerSettings_MenuInit
 int		bss_4bf74; // Used by: PlayerSettings_MenuInit
-char	bss_4bf78[8]; // Used by: PlayerSettings_MenuInit
+int		bss_4bf78; // Used by: PlayerSettings_MenuInit
+int		bss_4bf7c;
 int		bss_4bf80; // Used by: PlayerSettings_MenuInit
-char	bss_4bf84[28]; // Used by: PlayerSettings_MenuInit
-char	bss_4bfa0[32]; // Used by: PlayerSettings_MenuInit
+int		bss_4bf84; // Used by: PlayerSettings_MenuInit
+char	bss_4bf88[24];
+int		bss_4bfa0; // Used by: PlayerSettings_MenuInit
+char	bss_4bfa4[28];
 int		bss_4bfc0; // Used by: PlayerSettings_MenuInit
-char	bss_4bfc4[8]; // Used by: PlayerSettings_MenuInit
+int		bss_4bfc4; // Used by: PlayerSettings_MenuInit
+int		bss_4bfc8;
 int		bss_4bfcc; // Used by: PlayerSettings_MenuInit
-char	bss_4bfd0[8]; // Used by: PlayerSettings_MenuInit
+int		bss_4bfd0; // Used by: PlayerSettings_MenuInit
+int		bss_4bfd4;
 int		bss_4bfd8; // Used by: PlayerSettings_MenuInit
-char	bss_4bfdc[28]; // Used by: PlayerSettings_MenuInit
-char	bss_4bff8[32]; // Used by: PlayerSettings_MenuInit
+int		bss_4bfdc; // Used by: PlayerSettings_MenuInit
+char	bss_4bfe0[24];
+int		bss_4bff8; // Used by: PlayerSettings_MenuInit
+char	bss_4bffc[28];
 int		bss_4c018; // Used by: PlayerSettings_MenuInit
-char	bss_4c01c[8]; // Used by: PlayerSettings_MenuInit
-char	bss_4c024[12]; // Used by: PlayerSettings_MenuInit
+int		bss_4c01c; // Used by: PlayerSettings_MenuInit
+int		bss_4c020;
+int		bss_4c024; // Used by: PlayerSettings_MenuInit
+char	bss_4c028[8];
 int		bss_4c030; // Used by: PlayerSettings_MenuInit
-char	bss_4c034[28]; // Used by: PlayerSettings_MenuInit
-char	bss_4c050[12]; // Used by: PlayerSettings_MenuInit
-char	bss_4c05c[20]; // Used by: PlayerSettings_MenuInit
+int		bss_4c034; // Used by: PlayerSettings_MenuInit
+char	bss_4c038[24];
+int		bss_4c050; // Used by: PlayerSettings_MenuInit
+char	bss_4c054[8];
+int		bss_4c05c; // Used by: PlayerSettings_MenuInit
+char	bss_4c060[16];
 int		bss_4c070; // Used by: PlayerSettings_MenuInit
-char	bss_4c074[8]; // Used by: PlayerSettings_MenuInit
-char	bss_4c07c[12]; // Used by: PlayerSettings_MenuInit
+int		bss_4c074; // Used by: PlayerSettings_MenuInit
+int		bss_4c078;
+int		bss_4c07c; // Used by: PlayerSettings_MenuInit
+char	bss_4c080[8];
 int		bss_4c088; // Used by: PlayerSettings_MenuInit
 int		bss_4c08c; // Used by: PlayerSettings_MenuInit
 int		bss_4c090; // Used by: PlayerSettings_MenuInit
 int		bss_4c094; // Used by: PlayerSettings_MenuInit
 int		bss_4c098; // Used by: PlayerSettings_MenuInit
-char	bss_4c09c[12]; // Used by: PlayerSettings_MenuInit
-char	bss_4c0a8[12]; // Used by: PlayerSettings_MenuInit
-char	bss_4c0b4[12]; // Used by: PlayerSettings_MenuInit
-char	bss_4c0c0[260]; // Used by: PlayerSettings_MenuInit
+int		bss_4c09c; // Used by: PlayerSettings_MenuInit
+char	bss_4c0a0[8];
+int		bss_4c0a8; // Used by: PlayerSettings_MenuInit
+char	bss_4c0ac[8];
+int		bss_4c0b4; // Used by: PlayerSettings_MenuInit
+char	bss_4c0b8[8];
+int		bss_4c0c0; // Used by: PlayerSettings_MenuInit
+char	bss_4c0c4[256];
 int		bss_4c1c4; // Used by: PlayerSettings_MenuInit
-char	bss_4c1c8[8]; // Used by: PlayerSettings_MenuInit
+int		bss_4c1c8; // Used by: PlayerSettings_MenuInit
+int		bss_4c1cc;
 int		bss_4c1d0; // Used by: PlayerSettings_MenuInit
 int		bss_4c1d4; // Used by: PlayerSettings_MenuInit
 int		bss_4c1d8; // Used by: PlayerSettings_MenuInit
 int		bss_4c1dc; // Used by: PlayerSettings_MenuInit
 int		bss_4c1e0; // Used by: PlayerSettings_MenuInit
 int		bss_4c1e4; // Used by: PlayerSettings_MenuInit
-char	bss_4c1e8[12]; // Used by: PlayerSettings_MenuInit
-char	bss_4c1f4[12]; // Used by: PlayerSettings_MenuInit
-char	bss_4c200[8]; // Used by: PlayerSettings_MenuInit
+int		bss_4c1e8; // Used by: PlayerSettings_MenuInit
+char	bss_4c1ec[8];
+int		bss_4c1f4; // Used by: PlayerSettings_MenuInit
+char	bss_4c1f8[8];
+int		bss_4c200; // Used by: PlayerSettings_MenuInit
+int		bss_4c204;
 int		bss_4c208; // Used by: PlayerSettings_MenuEvent, PlayerSettings_SetMenuItems, PlayerSettings_SaveChanges
-char	bss_4c20c[28]; // Used by: PlayerSettings_MenuInit
-char	bss_4c228[8]; // Used by: PlayerSettings_MenuInit
+int		bss_4c20c; // Used by: PlayerSettings_MenuInit
+char	bss_4c210[24];
+int		bss_4c228; // Used by: PlayerSettings_MenuInit
+int		bss_4c22c;
 int		bss_4c230; // Used by: PlayerSettings_MenuInit
 int		bss_4c234; // Used by: PlayerSettings_MenuInit
 int		bss_4c238; // Used by: PlayerSettings_MenuInit
 int		bss_4c23c; // Used by: PlayerSettings_MenuInit
 int		bss_4c240; // Used by: PlayerSettings_MenuInit
 int		bss_4c244; // Used by: PlayerSettings_MenuInit
-char	bss_4c248[12]; // Used by: PlayerSettings_MenuInit
-char	bss_4c254[12]; // Used by: PlayerSettings_MenuInit
-char	bss_4c260[8]; // Used by: PlayerSettings_MenuInit
+int		bss_4c248; // Used by: PlayerSettings_MenuInit
+char	bss_4c24c[8];
+int		bss_4c254; // Used by: PlayerSettings_MenuInit
+char	bss_4c258[8];
+int		bss_4c260; // Used by: PlayerSettings_MenuInit
+int		bss_4c264;
 int		bss_4c268; // Used by: PlayerSettings_SetMenuItems, PlayerSettings_SaveChanges
-char	bss_4c26c[28]; // Used by: PlayerSettings_MenuInit
+int		bss_4c26c; // Used by: PlayerSettings_MenuInit
+char	bss_4c270[24];
 int		bss_4c288; // Used by: PlayerSettings_MenuInit
 int		bss_4c28c; // Used by: PlayerSettings_MenuInit
 int		bss_4c290; // Used by: PlayerSettings_MenuInit
 int		bss_4c294; // Used by: PlayerSettings_MenuInit
-char	bss_4c298[28]; // Used by: PlayerSettings_MenuInit
+int		bss_4c298; // Used by: PlayerSettings_MenuInit
+char	bss_4c29c[24];
 int		bss_4c2b4; // Used by: PlayerSettings_MenuInit
-char	bss_4c2b8[12]; // Used by: PlayerSettings_MenuInit
-char	bss_4c2c4[16]; // Used by: PlayerSettings_MenuInit
+int		bss_4c2b8; // Used by: PlayerSettings_MenuInit
+char	bss_4c2bc[8];
+int		bss_4c2c4; // Used by: PlayerSettings_MenuInit
+char	bss_4c2c8[12];
 int		bss_4c2d4; // Used by: PlayerSettings_MenuInit
-char	bss_4c2d8[8]; // Used by: PlayerSettings_MenuInit
+int		bss_4c2d8; // Used by: PlayerSettings_MenuInit
+int		bss_4c2dc;
 int		bss_4c2e0; // Used by: PlayerSettings_MenuInit
 int		bss_4c2e4; // Used by: PlayerSettings_MenuInit
 int		bss_4c2e8; // Used by: PlayerSettings_MenuInit
 int		bss_4c2ec; // Used by: PlayerSettings_MenuInit
-char	bss_4c2f0[28]; // Used by: PlayerSettings_MenuInit
+int		bss_4c2f0; // Used by: PlayerSettings_MenuInit
+char	bss_4c2f4[24];
 int		bss_4c30c; // Used by: PlayerSettings_MenuInit
-char	bss_4c310[12]; // Used by: PlayerSettings_MenuInit
-char	bss_4c31c[16]; // Used by: PlayerSettings_MenuInit
+int		bss_4c310; // Used by: PlayerSettings_MenuInit
+char	bss_4c314[8];
+int		bss_4c31c; // Used by: PlayerSettings_MenuInit
+char	bss_4c320[12];
 int		bss_4c32c; // Used by: PlayerSettings_MenuInit
-char	bss_4c330[8]; // Used by: PlayerSettings_MenuInit
-char	bss_4c338[12]; // Used by: PlayerSettings_MenuInit
+int		bss_4c330; // Used by: PlayerSettings_MenuInit
+int		bss_4c334;
+int		bss_4c338; // Used by: PlayerSettings_MenuInit
+char	bss_4c33c[8];
 int		bss_4c344; // Used by: PlayerSettings_MenuInit
-char	bss_4c348[28]; // Used by: PlayerSettings_MenuInit
-char	bss_4c364[32]; // Used by: PlayerSettings_MenuInit
+int		bss_4c348; // Used by: PlayerSettings_MenuInit
+char	bss_4c34c[24];
+int		bss_4c364; // Used by: PlayerSettings_MenuInit
+char	bss_4c368[28];
 int		bss_4c384; // Used by: PlayerSettings_MenuInit
-char	bss_4c388[8]; // Used by: PlayerSettings_MenuInit
+int		bss_4c388; // Used by: PlayerSettings_MenuInit
+int		bss_4c38c;
 int		bss_4c390; // Used by: PlayerSettings_Cache, PlayerSettings_DrawEffects
 int		bss_4c394; // Used by: PlayerSettings_Cache
 int		bss_4c398; // Used by: PlayerSettings_Cache
@@ -1684,30 +2323,42 @@ int		bss_4c39c; // Used by: PlayerSettings_Cache
 int		bss_4c3a0; // Used by: PlayerSettings_Cache
 int		bss_4c3a4; // Used by: PlayerSettings_Cache
 int		bss_4c3a8; // Used by: PlayerSettings_Cache
-char	bss_4c3ac[1204]; // Used by: PlayerSettings_Cache
+int		bss_4c3ac; // Used by: PlayerSettings_Cache
+char	bss_4c3b0[1200];
 char	s_preferences[276];
 int		bss_4c974; // Used by: Preferences_MenuInit
-char	bss_4c978[8]; // Used by: Preferences_MenuInit
-char	bss_4c980[12]; // Used by: Preferences_MenuInit
+int		bss_4c978; // Used by: Preferences_MenuInit
+int		bss_4c97c;
+int		bss_4c980; // Used by: Preferences_MenuInit
+char	bss_4c984[8];
 int		bss_4c98c; // Used by: Preferences_MenuInit
-char	bss_4c990[44]; // Used by: Preferences_MenuInit
+int		bss_4c990; // Used by: Preferences_MenuInit
+char	bss_4c994[40];
 int		bss_4c9bc; // Used by: Preferences_MenuInit
 int		bss_4c9c0; // Used by: Preferences_MenuInit
 int		bss_4c9c4; // Used by: Preferences_MenuInit
 int		bss_4c9c8; // Used by: Preferences_MenuInit
-char	bss_4c9cc[8]; // Used by: Preferences_MenuInit
+int		bss_4c9cc; // Used by: Preferences_MenuInit
+int		bss_4c9d0;
 int		bss_4c9d4; // Used by: Preferences_MenuInit
-char	bss_4c9d8[28]; // Used by: Preferences_MenuInit
-char	bss_4c9f4[32]; // Used by: Preferences_MenuInit
+int		bss_4c9d8; // Used by: Preferences_MenuInit
+char	bss_4c9dc[24];
+int		bss_4c9f4; // Used by: Preferences_MenuInit
+char	bss_4c9f8[28];
 int		bss_4ca14; // Used by: Preferences_MenuInit
-char	bss_4ca18[8]; // Used by: Preferences_MenuInit
+int		bss_4ca18; // Used by: Preferences_MenuInit
+int		bss_4ca1c;
 int		bss_4ca20; // Used by: Preferences_MenuInit
-char	bss_4ca24[8]; // Used by: Preferences_MenuInit
+int		bss_4ca24; // Used by: Preferences_MenuInit
+int		bss_4ca28;
 int		bss_4ca2c; // Used by: Preferences_MenuInit
-char	bss_4ca30[28]; // Used by: Preferences_MenuInit
-char	bss_4ca4c[32]; // Used by: Preferences_MenuInit
+int		bss_4ca30; // Used by: Preferences_MenuInit
+char	bss_4ca34[24];
+int		bss_4ca4c; // Used by: Preferences_MenuInit
+char	bss_4ca50[28];
 int		bss_4ca6c; // Used by: Preferences_MenuInit
-char	bss_4ca70[8]; // Used by: Preferences_MenuInit
+int		bss_4ca70; // Used by: Preferences_MenuInit
+int		bss_4ca74;
 int		bss_4ca78; // Used by: Preferences_MenuInit
 int		bss_4ca7c; // Used by: Preferences_MenuInit
 int		bss_4ca80; // Used by: Preferences_MenuInit
@@ -1716,103 +2367,133 @@ int		bss_4ca88; // Used by: Preferences_MenuInit
 int		bss_4ca8c; // Used by: Preferences_MenuInit
 int		bss_4ca90; // Used by: Preferences_MenuInit
 int		bss_4ca94; // Used by: Preferences_MenuInit
-char	bss_4ca98[12]; // Used by: Preferences_MenuInit
+int		bss_4ca98; // Used by: Preferences_MenuInit
+char	bss_4ca9c[8];
 int		bss_4caa4; // Used by: Preferences_MenuInit
-char	bss_4caa8[8]; // Used by: Preferences_MenuInit
-char	bss_4cab0[8]; // Used by: Preferences_MenuInit
+int		bss_4caa8; // Used by: Preferences_MenuInit
+int		bss_4caac;
+int		bss_4cab0; // Used by: Preferences_MenuInit
+int		bss_4cab4;
 int		bss_4cab8; // Used by: Preferences_Event, Preferences_SetMenuItems
-char	bss_4cabc[28]; // Used by: Preferences_MenuInit
+int		bss_4cabc; // Used by: Preferences_MenuInit
+char	bss_4cac0[24];
 int		bss_4cad8; // Used by: Preferences_MenuInit
 int		bss_4cadc; // Used by: Preferences_MenuInit
 int		bss_4cae0; // Used by: Preferences_MenuInit
 int		bss_4cae4; // Used by: Preferences_MenuInit
-char	bss_4cae8[28]; // Used by: Preferences_MenuInit
+int		bss_4cae8; // Used by: Preferences_MenuInit
+char	bss_4caec[24];
 int		bss_4cb04; // Used by: Preferences_MenuInit
-char	bss_4cb08[12]; // Used by: Preferences_MenuInit
+int		bss_4cb08; // Used by: Preferences_MenuInit
+char	bss_4cb0c[8];
 int		bss_4cb14; // Used by: Preferences_Event, Preferences_SetMenuItems
 int		bss_4cb18; // Used by: Preferences_MenuInit
 int		bss_4cb1c; // Used by: Preferences_MenuInit
 int		bss_4cb20; // Used by: Preferences_MenuInit
 int		bss_4cb24; // Used by: Preferences_MenuInit
-char	bss_4cb28[28]; // Used by: Preferences_MenuInit
+int		bss_4cb28; // Used by: Preferences_MenuInit
+char	bss_4cb2c[24];
 int		bss_4cb44; // Used by: Preferences_MenuInit
-char	bss_4cb48[12]; // Used by: Preferences_MenuInit
+int		bss_4cb48; // Used by: Preferences_MenuInit
+char	bss_4cb4c[8];
 int		bss_4cb54; // Used by: Preferences_Event, Preferences_SetMenuItems
 int		bss_4cb58; // Used by: Preferences_MenuInit
 int		bss_4cb5c; // Used by: Preferences_MenuInit
 int		bss_4cb60; // Used by: Preferences_MenuInit
 int		bss_4cb64; // Used by: Preferences_MenuInit
-char	bss_4cb68[28]; // Used by: Preferences_MenuInit
+int		bss_4cb68; // Used by: Preferences_MenuInit
+char	bss_4cb6c[24];
 int		bss_4cb84; // Used by: Preferences_MenuInit
-char	bss_4cb88[12]; // Used by: Preferences_MenuInit
+int		bss_4cb88; // Used by: Preferences_MenuInit
+char	bss_4cb8c[8];
 int		bss_4cb94; // Used by: Preferences_Event, Preferences_SetMenuItems
 int		bss_4cb98; // Used by: Preferences_MenuInit
 int		bss_4cb9c; // Used by: Preferences_MenuInit
 int		bss_4cba0; // Used by: Preferences_MenuInit
 int		bss_4cba4; // Used by: Preferences_MenuInit
-char	bss_4cba8[28]; // Used by: Preferences_MenuInit
+int		bss_4cba8; // Used by: Preferences_MenuInit
+char	bss_4cbac[24];
 int		bss_4cbc4; // Used by: Preferences_MenuInit
-char	bss_4cbc8[12]; // Used by: Preferences_MenuInit
+int		bss_4cbc8; // Used by: Preferences_MenuInit
+char	bss_4cbcc[8];
 int		bss_4cbd4; // Used by: Preferences_Event, Preferences_SetMenuItems
 int		bss_4cbd8; // Used by: Preferences_MenuInit
 int		bss_4cbdc; // Used by: Preferences_MenuInit
 int		bss_4cbe0; // Used by: Preferences_MenuInit
 int		bss_4cbe4; // Used by: Preferences_MenuInit
-char	bss_4cbe8[28]; // Used by: Preferences_MenuInit
+int		bss_4cbe8; // Used by: Preferences_MenuInit
+char	bss_4cbec[24];
 int		bss_4cc04; // Used by: Preferences_MenuInit
-char	bss_4cc08[12]; // Used by: Preferences_MenuInit
+int		bss_4cc08; // Used by: Preferences_MenuInit
+char	bss_4cc0c[8];
 int		bss_4cc14; // Used by: Preferences_Event, Preferences_SetMenuItems
 int		bss_4cc18; // Used by: Preferences_MenuInit
 int		bss_4cc1c; // Used by: Preferences_MenuInit
 int		bss_4cc20; // Used by: Preferences_MenuInit
 int		bss_4cc24; // Used by: Preferences_MenuInit
-char	bss_4cc28[28]; // Used by: Preferences_MenuInit
+int		bss_4cc28; // Used by: Preferences_MenuInit
+char	bss_4cc2c[24];
 int		bss_4cc44; // Used by: Preferences_MenuInit
-char	bss_4cc48[12]; // Used by: Preferences_MenuInit
+int		bss_4cc48; // Used by: Preferences_MenuInit
+char	bss_4cc4c[8];
 int		bss_4cc54; // Used by: Preferences_Event, Preferences_SetMenuItems
 int		bss_4cc58; // Used by: Preferences_MenuInit
 int		bss_4cc5c; // Used by: Preferences_MenuInit
 int		bss_4cc60; // Used by: Preferences_MenuInit
 int		bss_4cc64; // Used by: Preferences_MenuInit
-char	bss_4cc68[28]; // Used by: Preferences_MenuInit
+int		bss_4cc68; // Used by: Preferences_MenuInit
+char	bss_4cc6c[24];
 int		bss_4cc84; // Used by: Preferences_MenuInit
-char	bss_4cc88[12]; // Used by: Preferences_MenuInit
+int		bss_4cc88; // Used by: Preferences_MenuInit
+char	bss_4cc8c[8];
 int		bss_4cc94; // Used by: Preferences_Event, Preferences_SetMenuItems
 int		bss_4cc98; // Used by: Preferences_MenuInit
 int		bss_4cc9c; // Used by: Preferences_MenuInit
 int		bss_4cca0; // Used by: Preferences_MenuInit
 int		bss_4cca4; // Used by: Preferences_MenuInit
-char	bss_4cca8[28]; // Used by: Preferences_MenuInit
+int		bss_4cca8; // Used by: Preferences_MenuInit
+char	bss_4ccac[24];
 int		bss_4ccc4; // Used by: Preferences_MenuInit
-char	bss_4ccc8[12]; // Used by: Preferences_MenuInit
+int		bss_4ccc8; // Used by: Preferences_MenuInit
+char	bss_4cccc[8];
 int		bss_4ccd4; // Used by: Preferences_Event, Preferences_SetMenuItems
 int		bss_4ccd8; // Used by: Preferences_MenuInit
 int		bss_4ccdc; // Used by: Preferences_MenuInit
 int		bss_4cce0; // Used by: Preferences_MenuInit
 int		bss_4cce4; // Used by: Preferences_MenuInit
-char	bss_4cce8[28]; // Used by: Preferences_MenuInit
+int		bss_4cce8; // Used by: Preferences_MenuInit
+char	bss_4ccec[24];
 int		bss_4cd04; // Used by: Preferences_MenuInit
-char	bss_4cd08[16]; // Used by: Preferences_MenuInit
-char	bss_4cd18[12]; // Used by: Preferences_Event, Preferences_SetMenuItems
-char	bss_4cd24[20]; // Used by: Preferences_MenuInit
+int		bss_4cd08; // Used by: Preferences_MenuInit
+char	bss_4cd0c[12];
+int		bss_4cd18; // Used by: Preferences_Event, Preferences_SetMenuItems
+char	bss_4cd1c[8];
+int		bss_4cd24; // Used by: Preferences_MenuInit
+char	bss_4cd28[16];
 int		bss_4cd38; // Used by: Preferences_MenuInit
 int		bss_4cd3c; // Used by: Preferences_MenuInit
 int		bss_4cd40; // Used by: Preferences_MenuInit
 int		bss_4cd44; // Used by: Preferences_MenuInit
-char	bss_4cd48[28]; // Used by: Preferences_MenuInit
+int		bss_4cd48; // Used by: Preferences_MenuInit
+char	bss_4cd4c[24];
 int		bss_4cd64; // Used by: Preferences_MenuInit
-char	bss_4cd68[12]; // Used by: Preferences_MenuInit
+int		bss_4cd68; // Used by: Preferences_MenuInit
+char	bss_4cd6c[8];
 int		bss_4cd74; // Used by: Preferences_Event, Preferences_SetMenuItems
 int		bss_4cd78; // Used by: Preferences_MenuInit
 int		bss_4cd7c; // Used by: Preferences_MenuInit
 int		bss_4cd80; // Used by: Preferences_MenuInit
 int		bss_4cd84; // Used by: Preferences_MenuInit
-char	bss_4cd88[28]; // Used by: Preferences_MenuInit
+int		bss_4cd88; // Used by: Preferences_MenuInit
+char	bss_4cd8c[24];
 int		bss_4cda4; // Used by: Preferences_MenuInit
-char	bss_4cda8[12]; // Used by: Preferences_MenuInit
-char	bss_4cdb4[16]; // Used by: Preferences_MenuInit
+int		bss_4cda8; // Used by: Preferences_MenuInit
+char	bss_4cdac[8];
+int		bss_4cdb4; // Used by: Preferences_MenuInit
+char	bss_4cdb8[12];
 int		bss_4cdc4; // Used by: Preferences_MenuInit
-char	bss_4cdc8[48]; // Used by: Preferences_MenuInit
+int		bss_4cdc8; // Used by: Preferences_MenuInit
+char	bss_4cdcc[44];
 int		sliderButton_1; // Used by: Menu_Cache, Slider_Draw
 int		sliderButton_0; // Used by: Menu_Cache, Slider_Draw
 int		sliderBar; // Used by: Menu_Cache, Slider_Draw
@@ -1824,94 +2505,136 @@ int		menu_move_sound; // Used by: UI_TeamOrdersMenu_Key, ArenaServers_MenuKey, M
 int		menu_in_sound; // Used by: Menu_Cache, UI_Refresh
 char	removeBotsMenuInfo[276];
 int		bss_4cf30; // Used by: UI_RemoveBotsMenu_Init
-char	bss_4cf34[8]; // Used by: UI_RemoveBotsMenu_Init
-char	bss_4cf3c[12]; // Used by: UI_RemoveBotsMenu_Init
+int		bss_4cf34; // Used by: UI_RemoveBotsMenu_Init
+int		bss_4cf38;
+int		bss_4cf3c; // Used by: UI_RemoveBotsMenu_Init
+char	bss_4cf40[8];
 int		bss_4cf48; // Used by: UI_RemoveBotsMenu_Init
-char	bss_4cf4c[44]; // Used by: UI_RemoveBotsMenu_Init
+int		bss_4cf4c; // Used by: UI_RemoveBotsMenu_Init
+char	bss_4cf50[40];
 int		bss_4cf78; // Used by: UI_RemoveBotsMenu_Init
 int		bss_4cf7c; // Used by: UI_RemoveBotsMenu_Init
 int		bss_4cf80; // Used by: UI_RemoveBotsMenu_Init
 int		bss_4cf84; // Used by: UI_RemoveBotsMenu_Init
-char	bss_4cf88[8]; // Used by: UI_RemoveBotsMenu_Init
+int		bss_4cf88; // Used by: UI_RemoveBotsMenu_Init
+int		bss_4cf8c;
 int		bss_4cf90; // Used by: UI_RemoveBotsMenu_Init
-char	bss_4cf94[28]; // Used by: UI_RemoveBotsMenu_Init
-char	bss_4cfb0[32]; // Used by: UI_RemoveBotsMenu_Init
+int		bss_4cf94; // Used by: UI_RemoveBotsMenu_Init
+char	bss_4cf98[24];
+int		bss_4cfb0; // Used by: UI_RemoveBotsMenu_Init
+char	bss_4cfb4[28];
 int		bss_4cfd0; // Used by: UI_RemoveBotsMenu_Init
-char	bss_4cfd4[8]; // Used by: UI_RemoveBotsMenu_Init
+int		bss_4cfd4; // Used by: UI_RemoveBotsMenu_Init
+int		bss_4cfd8;
 int		bss_4cfdc; // Used by: UI_RemoveBotsMenu_Init
-char	bss_4cfe0[8]; // Used by: UI_RemoveBotsMenu_Init
+int		bss_4cfe0; // Used by: UI_RemoveBotsMenu_Init
+int		bss_4cfe4;
 int		bss_4cfe8; // Used by: UI_RemoveBotsMenu_Init
-char	bss_4cfec[28]; // Used by: UI_RemoveBotsMenu_Init
-char	bss_4d008[32]; // Used by: UI_RemoveBotsMenu_Init
+int		bss_4cfec; // Used by: UI_RemoveBotsMenu_Init
+char	bss_4cff0[24];
+int		bss_4d008; // Used by: UI_RemoveBotsMenu_Init
+char	bss_4d00c[28];
 int		bss_4d028; // Used by: UI_RemoveBotsMenu_Init
-char	bss_4d02c[8]; // Used by: UI_RemoveBotsMenu_Init
-char	bss_4d034[8]; // Used by: UI_RemoveBotsMenu_Init
+int		bss_4d02c; // Used by: UI_RemoveBotsMenu_Init
+int		bss_4d030;
+int		bss_4d034; // Used by: UI_RemoveBotsMenu_Init
+int		bss_4d038;
 int		bss_4d03c; // Used by: UI_RemoveBotsMenu_Init
 int		bss_4d040; // Used by: UI_RemoveBotsMenu_Init
-char	bss_4d044[28]; // Used by: UI_RemoveBotsMenu_Init
+int		bss_4d044; // Used by: UI_RemoveBotsMenu_Init
+char	bss_4d048[24];
 int		bss_4d060; // Used by: UI_RemoveBotsMenu_Init
-char	bss_4d064[12]; // Used by: UI_RemoveBotsMenu_Init
-char	bss_4d070[16]; // Used by: UI_RemoveBotsMenu_Init
+int		bss_4d064; // Used by: UI_RemoveBotsMenu_Init
+char	bss_4d068[8];
+int		bss_4d070; // Used by: UI_RemoveBotsMenu_Init
+char	bss_4d074[12];
 int		bss_4d080; // Used by: UI_RemoveBotsMenu_Init
-char	bss_4d084[8]; // Used by: UI_RemoveBotsMenu_Init
-char	bss_4d08c[8]; // Used by: UI_RemoveBotsMenu_Init
+int		bss_4d084; // Used by: UI_RemoveBotsMenu_Init
+int		bss_4d088;
+int		bss_4d08c; // Used by: UI_RemoveBotsMenu_Init
+int		bss_4d090;
 int		bss_4d094; // Used by: UI_RemoveBotsMenu_Init
 int		bss_4d098; // Used by: UI_RemoveBotsMenu_Init
-char	bss_4d09c[28]; // Used by: UI_RemoveBotsMenu_Init
+int		bss_4d09c; // Used by: UI_RemoveBotsMenu_Init
+char	bss_4d0a0[24];
 int		bss_4d0b8; // Used by: UI_RemoveBotsMenu_Init
-char	bss_4d0bc[12]; // Used by: UI_RemoveBotsMenu_Init
-char	bss_4d0c8[16]; // Used by: UI_RemoveBotsMenu_Init
+int		bss_4d0bc; // Used by: UI_RemoveBotsMenu_Init
+char	bss_4d0c0[8];
+int		bss_4d0c8; // Used by: UI_RemoveBotsMenu_Init
+char	bss_4d0cc[12];
 int		bss_4d0d8; // Used by: UI_RemoveBotsMenu_Init
-char	bss_4d0dc[76]; // Used by: UI_RemoveBotsMenu_Init
-char	bss_4d128[436]; // Used by: UI_RemoveBotsMenu_Init
+int		bss_4d0dc; // Used by: UI_RemoveBotsMenu_Init
+char	bss_4d0e0[72];
+int		bss_4d128; // Used by: UI_RemoveBotsMenu_Init
+char	bss_4d12c[432];
 int		bss_4d2dc; // Used by: UI_RemoveBotsMenu_Init
 int		bss_4d2e0; // Used by: UI_RemoveBotsMenu_Init
 int		bss_4d2e4; // Used by: UI_RemoveBotsMenu_Init
 int		bss_4d2e8; // Used by: UI_RemoveBotsMenu_Init
-char	bss_4d2ec[28]; // Used by: UI_RemoveBotsMenu_Init
+int		bss_4d2ec; // Used by: UI_RemoveBotsMenu_Init
+char	bss_4d2f0[24];
 int		bss_4d308; // Used by: UI_RemoveBotsMenu_Init
-char	bss_4d30c[12]; // Used by: UI_RemoveBotsMenu_Init
-char	bss_4d318[16]; // Used by: UI_RemoveBotsMenu_Init
+int		bss_4d30c; // Used by: UI_RemoveBotsMenu_Init
+char	bss_4d310[8];
+int		bss_4d318; // Used by: UI_RemoveBotsMenu_Init
+char	bss_4d31c[12];
 int		bss_4d328; // Used by: UI_RemoveBotsMenu_Init
-char	bss_4d32c[8]; // Used by: UI_RemoveBotsMenu_Init
+int		bss_4d32c; // Used by: UI_RemoveBotsMenu_Init
+int		bss_4d330;
 int		bss_4d334; // Used by: UI_RemoveBotsMenu_Init
 int		bss_4d338; // Used by: UI_RemoveBotsMenu_Init
 int		bss_4d33c; // Used by: UI_RemoveBotsMenu_Init
 int		bss_4d340; // Used by: UI_RemoveBotsMenu_Init
-char	bss_4d344[28]; // Used by: UI_RemoveBotsMenu_Init
+int		bss_4d344; // Used by: UI_RemoveBotsMenu_Init
+char	bss_4d348[24];
 int		bss_4d360; // Used by: UI_RemoveBotsMenu_Init
-char	bss_4d364[12]; // Used by: UI_RemoveBotsMenu_Init
-char	bss_4d370[16]; // Used by: UI_RemoveBotsMenu_Init
+int		bss_4d364; // Used by: UI_RemoveBotsMenu_Init
+char	bss_4d368[8];
+int		bss_4d370; // Used by: UI_RemoveBotsMenu_Init
+char	bss_4d374[12];
 int		bss_4d380; // Used by: UI_RemoveBotsMenu_Init
-char	bss_4d384[8]; // Used by: UI_RemoveBotsMenu_Init
+int		bss_4d384; // Used by: UI_RemoveBotsMenu_Init
+int		bss_4d388;
 int		bss_4d38c; // Used by: UI_RemoveBotsMenu_Init, UI_RemoveBotsMenu_GetBots, UI_RemoveBotsMenu_DownEvent, UI_RemoveBotsMenu_SetBotNames
 int		bss_4d390; // Used by: UI_RemoveBotsMenu_Init, UI_RemoveBotsMenu_DownEvent, UI_RemoveBotsMenu_UpEvent, UI_RemoveBotsMenu_DeleteEvent, UI_RemoveBotsMenu_SetBotNames
-char	bss_4d394[4324]; // Used by: UI_RemoveBotsMenu_Init, UI_RemoveBotsMenu_BotEvent, UI_RemoveBotsMenu_DeleteEvent
+int		bss_4d394; // Used by: UI_RemoveBotsMenu_Init, UI_RemoveBotsMenu_BotEvent, UI_RemoveBotsMenu_DeleteEvent
+char	bss_4d398[4320];
 char	saveConfig[276];
 int		bss_4e58c; // Used by: UI_SaveConfigMenu_Init
-char	bss_4e590[8]; // Used by: UI_SaveConfigMenu_Init
-char	bss_4e598[12]; // Used by: UI_SaveConfigMenu_Init
+int		bss_4e590; // Used by: UI_SaveConfigMenu_Init
+int		bss_4e594;
+int		bss_4e598; // Used by: UI_SaveConfigMenu_Init
+char	bss_4e59c[8];
 int		bss_4e5a4; // Used by: UI_SaveConfigMenu_Init
-char	bss_4e5a8[44]; // Used by: UI_SaveConfigMenu_Init
+int		bss_4e5a8; // Used by: UI_SaveConfigMenu_Init
+char	bss_4e5ac[40];
 int		bss_4e5d4; // Used by: UI_SaveConfigMenu_Init
 int		bss_4e5d8; // Used by: UI_SaveConfigMenu_Init
 int		bss_4e5dc; // Used by: UI_SaveConfigMenu_Init
 int		bss_4e5e0; // Used by: UI_SaveConfigMenu_Init
-char	bss_4e5e4[8]; // Used by: UI_SaveConfigMenu_Init
+int		bss_4e5e4; // Used by: UI_SaveConfigMenu_Init
+int		bss_4e5e8;
 int		bss_4e5ec; // Used by: UI_SaveConfigMenu_Init
-char	bss_4e5f0[28]; // Used by: UI_SaveConfigMenu_Init
-char	bss_4e60c[32]; // Used by: UI_SaveConfigMenu_Init
+int		bss_4e5f0; // Used by: UI_SaveConfigMenu_Init
+char	bss_4e5f4[24];
+int		bss_4e60c; // Used by: UI_SaveConfigMenu_Init
+char	bss_4e610[28];
 int		bss_4e62c; // Used by: UI_SaveConfigMenu_Init
-char	bss_4e630[8]; // Used by: UI_SaveConfigMenu_Init
-char	bss_4e638[12]; // Used by: UI_SaveConfigMenu_Init
+int		bss_4e630; // Used by: UI_SaveConfigMenu_Init
+int		bss_4e634;
+int		bss_4e638; // Used by: UI_SaveConfigMenu_Init
+char	bss_4e63c[8];
 int		bss_4e644; // Used by: UI_SaveConfigMenu_Init
 int		bss_4e648; // Used by: UI_SaveConfigMenu_Init
 int		bss_4e64c; // Used by: UI_SaveConfigMenu_Init
 int		bss_4e650; // Used by: UI_SaveConfigMenu_Init
 int		bss_4e654; // Used by: UI_SaveConfigMenu_Init
-char	bss_4e658[12]; // Used by: UI_SaveConfigMenu_Init
-char	bss_4e664[12]; // Used by: UI_SaveConfigMenu_Init
-char	bss_4e670[12]; // Used by: UI_SaveConfigMenu_Init
+int		bss_4e658; // Used by: UI_SaveConfigMenu_Init
+char	bss_4e65c[8];
+int		bss_4e664; // Used by: UI_SaveConfigMenu_Init
+char	bss_4e668[8];
+int		bss_4e670; // Used by: UI_SaveConfigMenu_Init
+char	bss_4e674[8];
 int		bss_4e67c; // Used by: UI_SaveConfigMenu_Init
 char	bss_4e680[256]; // Used by: UI_SaveConfigMenu_SaveEvent
 int		bss_4e780; // Used by: UI_SaveConfigMenu_Init
@@ -1919,67 +2642,95 @@ int		bss_4e784; // Used by: UI_SaveConfigMenu_Init
 int		bss_4e788; // Used by: UI_SaveConfigMenu_Init
 int		bss_4e78c; // Used by: UI_SaveConfigMenu_Init
 int		bss_4e790; // Used by: UI_SaveConfigMenu_Init
-char	bss_4e794[28]; // Used by: UI_SaveConfigMenu_Init
+int		bss_4e794; // Used by: UI_SaveConfigMenu_Init
+char	bss_4e798[24];
 int		bss_4e7b0; // Used by: UI_SaveConfigMenu_Init
-char	bss_4e7b4[12]; // Used by: UI_SaveConfigMenu_Init
-char	bss_4e7c0[16]; // Used by: UI_SaveConfigMenu_Init
+int		bss_4e7b4; // Used by: UI_SaveConfigMenu_Init
+char	bss_4e7b8[8];
+int		bss_4e7c0; // Used by: UI_SaveConfigMenu_Init
+char	bss_4e7c4[12];
 int		bss_4e7d0; // Used by: UI_SaveConfigMenu_Init
-char	bss_4e7d4[8]; // Used by: UI_SaveConfigMenu_Init
+int		bss_4e7d4; // Used by: UI_SaveConfigMenu_Init
+int		bss_4e7d8;
 int		bss_4e7dc; // Used by: UI_SaveConfigMenu_Init
 int		bss_4e7e0; // Used by: UI_SaveConfigMenu_Init
 int		bss_4e7e4; // Used by: UI_SaveConfigMenu_Init
 int		bss_4e7e8; // Used by: UI_SaveConfigMenu_Init
-char	bss_4e7ec[28]; // Used by: UI_SaveConfigMenu_Init
+int		bss_4e7ec; // Used by: UI_SaveConfigMenu_Init
+char	bss_4e7f0[24];
 int		bss_4e808; // Used by: UI_SaveConfigMenu_Init
-char	bss_4e80c[12]; // Used by: UI_SaveConfigMenu_Init
-char	bss_4e818[16]; // Used by: UI_SaveConfigMenu_Init
+int		bss_4e80c; // Used by: UI_SaveConfigMenu_Init
+char	bss_4e810[8];
+int		bss_4e818; // Used by: UI_SaveConfigMenu_Init
+char	bss_4e81c[12];
 int		bss_4e828; // Used by: UI_SaveConfigMenu_Init
-char	bss_4e82c[8]; // Used by: UI_SaveConfigMenu_Init
+int		bss_4e82c; // Used by: UI_SaveConfigMenu_Init
+int		bss_4e830;
 char	s_serverinfo[268];
 int		bss_4e940; // Used by: UI_ServerInfoMenu
 int		bss_4e944; // Used by: UI_ServerInfoMenu
 int		bss_4e948; // Used by: UI_ServerInfoMenu
-char	bss_4e94c[8]; // Used by: UI_ServerInfoMenu
-char	bss_4e954[12]; // Used by: UI_ServerInfoMenu
+int		bss_4e94c; // Used by: UI_ServerInfoMenu
+int		bss_4e950;
+int		bss_4e954; // Used by: UI_ServerInfoMenu
+char	bss_4e958[8];
 int		bss_4e960; // Used by: UI_ServerInfoMenu
-char	bss_4e964[44]; // Used by: UI_ServerInfoMenu
+int		bss_4e964; // Used by: UI_ServerInfoMenu
+char	bss_4e968[40];
 int		bss_4e990; // Used by: UI_ServerInfoMenu
 int		bss_4e994; // Used by: UI_ServerInfoMenu
 int		bss_4e998; // Used by: UI_ServerInfoMenu
 int		bss_4e99c; // Used by: UI_ServerInfoMenu
-char	bss_4e9a0[8]; // Used by: UI_ServerInfoMenu
+int		bss_4e9a0; // Used by: UI_ServerInfoMenu
+int		bss_4e9a4;
 int		bss_4e9a8; // Used by: UI_ServerInfoMenu
-char	bss_4e9ac[28]; // Used by: UI_ServerInfoMenu
-char	bss_4e9c8[32]; // Used by: UI_ServerInfoMenu
+int		bss_4e9ac; // Used by: UI_ServerInfoMenu
+char	bss_4e9b0[24];
+int		bss_4e9c8; // Used by: UI_ServerInfoMenu
+char	bss_4e9cc[28];
 int		bss_4e9e8; // Used by: UI_ServerInfoMenu
-char	bss_4e9ec[8]; // Used by: UI_ServerInfoMenu
+int		bss_4e9ec; // Used by: UI_ServerInfoMenu
+int		bss_4e9f0;
 int		bss_4e9f4; // Used by: UI_ServerInfoMenu
-char	bss_4e9f8[8]; // Used by: UI_ServerInfoMenu
+int		bss_4e9f8; // Used by: UI_ServerInfoMenu
+int		bss_4e9fc;
 int		bss_4ea00; // Used by: UI_ServerInfoMenu
-char	bss_4ea04[28]; // Used by: UI_ServerInfoMenu
-char	bss_4ea20[32]; // Used by: UI_ServerInfoMenu
+int		bss_4ea04; // Used by: UI_ServerInfoMenu
+char	bss_4ea08[24];
+int		bss_4ea20; // Used by: UI_ServerInfoMenu
+char	bss_4ea24[28];
 int		bss_4ea40; // Used by: UI_ServerInfoMenu
-char	bss_4ea44[8]; // Used by: UI_ServerInfoMenu
+int		bss_4ea44; // Used by: UI_ServerInfoMenu
+int		bss_4ea48;
 int		bss_4ea4c; // Used by: UI_ServerInfoMenu
 int		bss_4ea50; // Used by: UI_ServerInfoMenu
 int		bss_4ea54; // Used by: UI_ServerInfoMenu
 int		bss_4ea58; // Used by: UI_ServerInfoMenu
-char	bss_4ea5c[28]; // Used by: UI_ServerInfoMenu
+int		bss_4ea5c; // Used by: UI_ServerInfoMenu
+char	bss_4ea60[24];
 int		bss_4ea78; // Used by: UI_ServerInfoMenu
-char	bss_4ea7c[12]; // Used by: UI_ServerInfoMenu
-char	bss_4ea88[16]; // Used by: UI_ServerInfoMenu
+int		bss_4ea7c; // Used by: UI_ServerInfoMenu
+char	bss_4ea80[8];
+int		bss_4ea88; // Used by: UI_ServerInfoMenu
+char	bss_4ea8c[12];
 int		bss_4ea98; // Used by: UI_ServerInfoMenu
-char	bss_4ea9c[8]; // Used by: UI_ServerInfoMenu
-char	bss_4eaa4[8]; // Used by: UI_ServerInfoMenu
+int		bss_4ea9c; // Used by: UI_ServerInfoMenu
+int		bss_4eaa0;
+int		bss_4eaa4; // Used by: UI_ServerInfoMenu
+int		bss_4eaa8;
 int		bss_4eaac; // Used by: UI_ServerInfoMenu
 int		bss_4eab0; // Used by: UI_ServerInfoMenu
-char	bss_4eab4[28]; // Used by: UI_ServerInfoMenu
+int		bss_4eab4; // Used by: UI_ServerInfoMenu
+char	bss_4eab8[24];
 int		bss_4ead0; // Used by: UI_ServerInfoMenu
-char	bss_4ead4[12]; // Used by: UI_ServerInfoMenu
+int		bss_4ead4; // Used by: UI_ServerInfoMenu
+char	bss_4ead8[8];
 int		bss_4eae0; // Used by: UI_ServerInfoMenu
 int		bss_4eae4; // Used by: UI_ServerInfoMenu
-char	bss_4eae8[1028]; // Used by: UI_ServerInfoMenu
-char	bss_4eeec[132]; // Used by: UI_ServerInfoMenu, ServerInfo_MenuDraw
+int		bss_4eae8; // Used by: UI_ServerInfoMenu
+char	bss_4eaec[1024];
+int		bss_4eeec; // Used by: UI_ServerInfoMenu, ServerInfo_MenuDraw
+char	bss_4eef0[128];
 int		g_fullservers; // Used by: ArenaServers_MenuInit, ArenaServers_Event, ArenaServers_StartRefresh, ArenaServers_UpdateMenu
 int		g_emptyservers; // Used by: ArenaServers_MenuInit, ArenaServers_Event, ArenaServers_StartRefresh, ArenaServers_UpdateMenu
 int		g_sortkey; // Used by: ArenaServers_MenuInit, ArenaServers_Sort, ArenaServers_Compare
@@ -1995,11 +2746,15 @@ char	g_arenaservers[268];
 int		bss_70e30; // Used by: ArenaServers_MenuInit
 int		bss_70e34; // Used by: ArenaServers_MenuInit
 int		bss_70e38; // Used by: ArenaServers_MenuInit
-char	bss_70e3c[8]; // Used by: ArenaServers_MenuInit
-char	bss_70e44[12]; // Used by: ArenaServers_MenuInit
+int		bss_70e3c; // Used by: ArenaServers_MenuInit
+int		bss_70e40;
+int		bss_70e44; // Used by: ArenaServers_MenuInit
+char	bss_70e48[8];
 int		bss_70e50; // Used by: ArenaServers_MenuInit
-char	bss_70e54[28]; // Used by: ArenaServers_MenuInit
-char	bss_70e70[16]; // Used by: ArenaServers_MenuInit
+int		bss_70e54; // Used by: ArenaServers_MenuInit
+char	bss_70e58[24];
+int		bss_70e70; // Used by: ArenaServers_MenuInit
+char	bss_70e74[12];
 int		bss_70e80; // Used by: ArenaServers_MenuInit
 int		bss_70e84; // Used by: ArenaServers_MenuInit
 int		bss_70e88; // Used by: ArenaServers_MenuInit
@@ -2007,101 +2762,144 @@ int		bss_70e8c; // Used by: ArenaServers_MenuInit
 int		bss_70e90; // Used by: ArenaServers_MenuInit
 int		bss_70e94; // Used by: ArenaServers_MenuInit
 int		bss_70e98; // Used by: ArenaServers_MenuInit
-char	bss_70e9c[28]; // Used by: ArenaServers_MenuInit
+int		bss_70e9c; // Used by: ArenaServers_MenuInit
+char	bss_70ea0[24];
 int		bss_70eb8; // Used by: ArenaServers_MenuInit
-char	bss_70ebc[16]; // Used by: ArenaServers_MenuInit
-char	bss_70ecc[12]; // Used by: ArenaServers_MenuInit, ArenaServers_Event
-char	bss_70ed8[20]; // Used by: ArenaServers_MenuInit
+int		bss_70ebc; // Used by: ArenaServers_MenuInit
+char	bss_70ec0[12];
+int		bss_70ecc; // Used by: ArenaServers_MenuInit, ArenaServers_Event
+char	bss_70ed0[8];
+int		bss_70ed8; // Used by: ArenaServers_MenuInit
+char	bss_70edc[16];
 int		bss_70eec; // Used by: ArenaServers_MenuInit
 int		bss_70ef0; // Used by: ArenaServers_MenuInit
 int		bss_70ef4; // Used by: ArenaServers_MenuInit
 int		bss_70ef8; // Used by: ArenaServers_MenuInit
-char	bss_70efc[28]; // Used by: ArenaServers_MenuInit
+int		bss_70efc; // Used by: ArenaServers_MenuInit
+char	bss_70f00[24];
 int		bss_70f18; // Used by: ArenaServers_MenuInit
-char	bss_70f1c[16]; // Used by: ArenaServers_MenuInit
-char	bss_70f2c[12]; // Used by: ArenaServers_MenuInit, ArenaServers_Event, ArenaServers_StartRefresh
-char	bss_70f38[20]; // Used by: ArenaServers_MenuInit
+int		bss_70f1c; // Used by: ArenaServers_MenuInit
+char	bss_70f20[12];
+int		bss_70f2c; // Used by: ArenaServers_MenuInit, ArenaServers_Event, ArenaServers_StartRefresh
+char	bss_70f30[8];
+int		bss_70f38; // Used by: ArenaServers_MenuInit
+char	bss_70f3c[16];
 int		bss_70f4c; // Used by: ArenaServers_MenuInit
 int		bss_70f50; // Used by: ArenaServers_MenuInit
 int		bss_70f54; // Used by: ArenaServers_MenuInit
 int		bss_70f58; // Used by: ArenaServers_MenuInit
-char	bss_70f5c[28]; // Used by: ArenaServers_MenuInit
+int		bss_70f5c; // Used by: ArenaServers_MenuInit
+char	bss_70f60[24];
 int		bss_70f78; // Used by: ArenaServers_MenuInit
-char	bss_70f7c[16]; // Used by: ArenaServers_MenuInit
-char	bss_70f8c[12]; // Used by: ArenaServers_MenuInit, ArenaServers_Event
-char	bss_70f98[20]; // Used by: ArenaServers_MenuInit
+int		bss_70f7c; // Used by: ArenaServers_MenuInit
+char	bss_70f80[12];
+int		bss_70f8c; // Used by: ArenaServers_MenuInit, ArenaServers_Event
+char	bss_70f90[8];
+int		bss_70f98; // Used by: ArenaServers_MenuInit
+char	bss_70f9c[16];
 int		bss_70fac; // Used by: ArenaServers_MenuInit
 int		bss_70fb0; // Used by: ArenaServers_MenuInit
 int		bss_70fb4; // Used by: ArenaServers_MenuInit
 int		bss_70fb8; // Used by: ArenaServers_MenuInit
-char	bss_70fbc[28]; // Used by: ArenaServers_MenuInit
+int		bss_70fbc; // Used by: ArenaServers_MenuInit
+char	bss_70fc0[24];
 int		bss_70fd8; // Used by: ArenaServers_MenuInit
-char	bss_70fdc[12]; // Used by: ArenaServers_MenuInit
+int		bss_70fdc; // Used by: ArenaServers_MenuInit
+char	bss_70fe0[8];
 int		bss_70fe8; // Used by: ArenaServers_MenuInit, ArenaServers_Event
 int		bss_70fec; // Used by: ArenaServers_MenuInit
 int		bss_70ff0; // Used by: ArenaServers_MenuInit
 int		bss_70ff4; // Used by: ArenaServers_MenuInit
 int		bss_70ff8; // Used by: ArenaServers_MenuInit
-char	bss_70ffc[28]; // Used by: ArenaServers_MenuInit
+int		bss_70ffc; // Used by: ArenaServers_MenuInit
+char	bss_71000[24];
 int		bss_71018; // Used by: ArenaServers_MenuInit
-char	bss_7101c[12]; // Used by: ArenaServers_MenuInit
+int		bss_7101c; // Used by: ArenaServers_MenuInit
+char	bss_71020[8];
 int		bss_71028; // Used by: ArenaServers_MenuInit, ArenaServers_Event
-char	bss_7102c[8]; // Used by: ArenaServers_MenuInit
+int		bss_7102c; // Used by: ArenaServers_MenuInit
+int		bss_71030;
 int		bss_71034; // Used by: ArenaServers_MenuInit
 int		bss_71038; // Used by: ArenaServers_MenuInit
-char	bss_7103c[28]; // Used by: ArenaServers_MenuInit
+int		bss_7103c; // Used by: ArenaServers_MenuInit
+char	bss_71040[24];
 int		bss_71058; // Used by: ArenaServers_MenuInit
-char	bss_7105c[16]; // Used by: ArenaServers_MenuInit
+int		bss_7105c; // Used by: ArenaServers_MenuInit
+char	bss_71060[12];
 int		bss_7106c; // Used by: ArenaServers_Remove, ArenaServers_UpdateMenu, ArenaServers_UpdatePicture, ArenaServers_Go
 int		bss_71070; // Used by: ArenaServers_Remove, ArenaServers_UpdateMenu, ArenaServers_UpdatePicture
 int		bss_71074; // Used by: ArenaServers_UpdateMenu
 int		bss_71078; // Used by: ArenaServers_MenuInit
 int		bss_7107c; // Used by: ArenaServers_MenuInit
-char	bss_71080[12]; // Used by: ArenaServers_MenuInit
+int		bss_71080; // Used by: ArenaServers_MenuInit
+char	bss_71084[8];
 int		bss_7108c; // Used by: ArenaServers_MenuInit
-char	bss_71090[8]; // Used by: ArenaServers_UpdatePicture
+int		bss_71090; // Used by: ArenaServers_UpdatePicture
+int		bss_71094;
 int		bss_71098; // Used by: ArenaServers_MenuInit
-char	bss_7109c[28]; // Used by: ArenaServers_MenuInit
-char	bss_710b8[20]; // Used by: ArenaServers_MenuInit
+int		bss_7109c; // Used by: ArenaServers_MenuInit
+char	bss_710a0[24];
+int		bss_710b8; // Used by: ArenaServers_MenuInit
+char	bss_710bc[16];
 int		bss_710cc; // Used by: ArenaServers_MenuInit
-char	bss_710d0[8]; // Used by: ArenaServers_UpdatePicture
+int		bss_710d0; // Used by: ArenaServers_UpdatePicture
+int		bss_710d4;
 int		bss_710d8; // Used by: ArenaServers_MenuInit
-char	bss_710dc[8]; // Used by: ArenaServers_MenuInit
+int		bss_710dc; // Used by: ArenaServers_MenuInit
+int		bss_710e0;
 int		bss_710e4; // Used by: ArenaServers_MenuInit
-char	bss_710e8[8]; // Used by: ArenaServers_MenuInit
+int		bss_710e8; // Used by: ArenaServers_MenuInit
+int		bss_710ec;
 int		bss_710f0; // Used by: ArenaServers_MenuInit
-char	bss_710f4[28]; // Used by: ArenaServers_MenuInit
+int		bss_710f4; // Used by: ArenaServers_MenuInit
+char	bss_710f8[24];
 int		bss_71110; // Used by: ArenaServers_MenuInit
-char	bss_71114[28]; // Used by: ArenaServers_MenuInit
+int		bss_71114; // Used by: ArenaServers_MenuInit
+char	bss_71118[24];
 int		bss_71130; // Used by: ArenaServers_MenuInit
-char	bss_71134[8]; // Used by: ArenaServers_MenuInit
-char	bss_7113c[8]; // Used by: ArenaServers_MenuInit
+int		bss_71134; // Used by: ArenaServers_MenuInit
+int		bss_71138;
+int		bss_7113c; // Used by: ArenaServers_MenuInit
+int		bss_71140;
 int		bss_71144; // Used by: ArenaServers_MenuInit
 int		bss_71148; // Used by: ArenaServers_MenuInit
-char	bss_7114c[28]; // Used by: ArenaServers_MenuInit
+int		bss_7114c; // Used by: ArenaServers_MenuInit
+char	bss_71150[24];
 int		bss_71168; // Used by: ArenaServers_MenuInit
-char	bss_7116c[12]; // Used by: ArenaServers_MenuInit
-char	bss_71178[16]; // Used by: ArenaServers_MenuInit
+int		bss_7116c; // Used by: ArenaServers_MenuInit
+char	bss_71170[8];
+int		bss_71178; // Used by: ArenaServers_MenuInit
+char	bss_7117c[12];
 int		bss_71188; // Used by: ArenaServers_MenuInit
-char	bss_7118c[8]; // Used by: ArenaServers_MenuInit
-char	bss_71194[8]; // Used by: ArenaServers_MenuInit
+int		bss_7118c; // Used by: ArenaServers_MenuInit
+int		bss_71190;
+int		bss_71194; // Used by: ArenaServers_MenuInit
+int		bss_71198;
 int		bss_7119c; // Used by: ArenaServers_MenuInit
 int		bss_711a0; // Used by: ArenaServers_MenuInit
-char	bss_711a4[28]; // Used by: ArenaServers_MenuInit
+int		bss_711a4; // Used by: ArenaServers_MenuInit
+char	bss_711a8[24];
 int		bss_711c0; // Used by: ArenaServers_MenuInit
-char	bss_711c4[12]; // Used by: ArenaServers_MenuInit
-char	bss_711d0[16]; // Used by: ArenaServers_MenuInit
+int		bss_711c4; // Used by: ArenaServers_MenuInit
+char	bss_711c8[8];
+int		bss_711d0; // Used by: ArenaServers_MenuInit
+char	bss_711d4[12];
 int		bss_711e0; // Used by: ArenaServers_MenuInit
-char	bss_711e4[8]; // Used by: ArenaServers_MenuInit
-char	bss_711ec[12]; // Used by: ArenaServers_MenuInit
+int		bss_711e4; // Used by: ArenaServers_MenuInit
+int		bss_711e8;
+int		bss_711ec; // Used by: ArenaServers_MenuInit
+char	bss_711f0[8];
 int		bss_711f8; // Used by: ArenaServers_MenuInit
-char	bss_711fc[44]; // Used by: ArenaServers_MenuInit
+int		bss_711fc; // Used by: ArenaServers_MenuInit
+char	bss_71200[40];
 int		bss_71228; // Used by: ArenaServers_MenuInit, ArenaServers_SetType, ArenaServers_UpdateMenu
 int		bss_7122c; // Used by: ArenaServers_MenuInit
 int		bss_71230; // Used by: ArenaServers_MenuInit
-char	bss_71234[12]; // Used by: ArenaServers_MenuInit
+int		bss_71234; // Used by: ArenaServers_MenuInit
+char	bss_71238[8];
 int		bss_71240; // Used by: ArenaServers_MenuInit
-char	bss_71244[44]; // Used by: ArenaServers_MenuInit
+int		bss_71244; // Used by: ArenaServers_MenuInit
+char	bss_71248[40];
 int		bss_71270; // Used by: ArenaServers_MenuInit, ArenaServers_UpdateMenu
 int		bss_71274; // Used by: ArenaServers_MenuInit
 int		bss_71278; // Used by: ArenaServers_MenuInit
@@ -2109,62 +2907,86 @@ int		bss_7127c; // Used by: ArenaServers_MenuInit
 int		bss_71280; // Used by: ArenaServers_MenuInit
 int		bss_71284; // Used by: ArenaServers_MenuInit
 int		bss_71288; // Used by: ArenaServers_MenuInit
-char	bss_7128c[28]; // Used by: ArenaServers_MenuInit
+int		bss_7128c; // Used by: ArenaServers_MenuInit
+char	bss_71290[24];
 int		bss_712a8; // Used by: ArenaServers_MenuInit
-char	bss_712ac[12]; // Used by: ArenaServers_MenuInit
-char	bss_712b8[16]; // Used by: ArenaServers_MenuInit
+int		bss_712ac; // Used by: ArenaServers_MenuInit
+char	bss_712b0[8];
+int		bss_712b8; // Used by: ArenaServers_MenuInit
+char	bss_712bc[12];
 int		bss_712c8; // Used by: ArenaServers_MenuInit
-char	bss_712cc[8]; // Used by: ArenaServers_MenuInit
+int		bss_712cc; // Used by: ArenaServers_MenuInit
+int		bss_712d0;
 int		bss_712d4; // Used by: ArenaServers_MenuInit
 int		bss_712d8; // Used by: ArenaServers_MenuInit
 int		bss_712dc; // Used by: ArenaServers_MenuInit
 int		bss_712e0; // Used by: ArenaServers_MenuInit
-char	bss_712e4[28]; // Used by: ArenaServers_MenuInit
+int		bss_712e4; // Used by: ArenaServers_MenuInit
+char	bss_712e8[24];
 int		bss_71300; // Used by: ArenaServers_MenuInit
-char	bss_71304[12]; // Used by: ArenaServers_MenuInit
-char	bss_71310[16]; // Used by: ArenaServers_MenuInit
+int		bss_71304; // Used by: ArenaServers_MenuInit
+char	bss_71308[8];
+int		bss_71310; // Used by: ArenaServers_MenuInit
+char	bss_71314[12];
 int		bss_71320; // Used by: ArenaServers_MenuInit
-char	bss_71324[8]; // Used by: ArenaServers_MenuInit
+int		bss_71324; // Used by: ArenaServers_MenuInit
+int		bss_71328;
 int		bss_7132c; // Used by: ArenaServers_MenuInit
 int		bss_71330; // Used by: ArenaServers_MenuInit
 int		bss_71334; // Used by: ArenaServers_MenuInit
 int		bss_71338; // Used by: ArenaServers_MenuInit
-char	bss_7133c[28]; // Used by: ArenaServers_MenuInit
+int		bss_7133c; // Used by: ArenaServers_MenuInit
+char	bss_71340[24];
 int		bss_71358; // Used by: ArenaServers_MenuInit
-char	bss_7135c[12]; // Used by: ArenaServers_MenuInit
-char	bss_71368[16]; // Used by: ArenaServers_MenuInit
+int		bss_7135c; // Used by: ArenaServers_MenuInit
+char	bss_71360[8];
+int		bss_71368; // Used by: ArenaServers_MenuInit
+char	bss_7136c[12];
 int		bss_71378; // Used by: ArenaServers_MenuInit
-char	bss_7137c[8]; // Used by: ArenaServers_MenuInit
+int		bss_7137c; // Used by: ArenaServers_MenuInit
+int		bss_71380;
 int		bss_71384; // Used by: ArenaServers_MenuInit
 int		bss_71388; // Used by: ArenaServers_MenuInit
 int		bss_7138c; // Used by: ArenaServers_MenuInit
 int		bss_71390; // Used by: ArenaServers_MenuInit
-char	bss_71394[28]; // Used by: ArenaServers_MenuInit
+int		bss_71394; // Used by: ArenaServers_MenuInit
+char	bss_71398[24];
 int		bss_713b0; // Used by: ArenaServers_MenuInit
-char	bss_713b4[12]; // Used by: ArenaServers_MenuInit
-char	bss_713c0[16]; // Used by: ArenaServers_MenuInit
+int		bss_713b4; // Used by: ArenaServers_MenuInit
+char	bss_713b8[8];
+int		bss_713c0; // Used by: ArenaServers_MenuInit
+char	bss_713c4[12];
 int		bss_713d0; // Used by: ArenaServers_MenuInit
-char	bss_713d4[8]; // Used by: ArenaServers_MenuInit
+int		bss_713d4; // Used by: ArenaServers_MenuInit
+int		bss_713d8;
 int		bss_713dc; // Used by: ArenaServers_MenuInit
 int		bss_713e0; // Used by: ArenaServers_MenuInit
 int		bss_713e4; // Used by: ArenaServers_MenuInit
 int		bss_713e8; // Used by: ArenaServers_MenuInit
-char	bss_713ec[28]; // Used by: ArenaServers_MenuInit
+int		bss_713ec; // Used by: ArenaServers_MenuInit
+char	bss_713f0[24];
 int		bss_71408; // Used by: ArenaServers_MenuInit
-char	bss_7140c[12]; // Used by: ArenaServers_MenuInit
-char	bss_71418[16]; // Used by: ArenaServers_MenuInit
+int		bss_7140c; // Used by: ArenaServers_MenuInit
+char	bss_71410[8];
+int		bss_71418; // Used by: ArenaServers_MenuInit
+char	bss_7141c[12];
 int		bss_71428; // Used by: ArenaServers_MenuInit
-char	bss_7142c[8]; // Used by: ArenaServers_MenuInit
+int		bss_7142c; // Used by: ArenaServers_MenuInit
+int		bss_71430;
 int		bss_71434; // Used by: ArenaServers_MenuInit
 int		bss_71438; // Used by: ArenaServers_MenuInit
 int		bss_7143c; // Used by: ArenaServers_MenuInit
 int		bss_71440; // Used by: ArenaServers_MenuInit
-char	bss_71444[28]; // Used by: ArenaServers_MenuInit
+int		bss_71444; // Used by: ArenaServers_MenuInit
+char	bss_71448[24];
 int		bss_71460; // Used by: ArenaServers_MenuInit
-char	bss_71464[12]; // Used by: ArenaServers_MenuInit
-char	bss_71470[16]; // Used by: ArenaServers_MenuInit
+int		bss_71464; // Used by: ArenaServers_MenuInit
+char	bss_71468[8];
+int		bss_71470; // Used by: ArenaServers_MenuInit
+char	bss_71474[12];
 int		bss_71480; // Used by: ArenaServers_MenuInit
-char	bss_71484[11912]; // Used by: ArenaServers_MenuInit
+int		bss_71484; // Used by: ArenaServers_MenuInit
+char	bss_71488[11908];
 int		bss_7430c; // Used by: ArenaServers_SetType, ArenaServers_StartRefresh, ArenaServers_DoRefresh, ArenaServers_StopRefresh, ArenaServers_Remove, ArenaServers_UpdateMenu
 int		bss_74310; // Used by: ArenaServers_SetType, ArenaServers_Sort, ArenaServers_StartRefresh, ArenaServers_StopRefresh, ArenaServers_Insert, ArenaServers_UpdateMenu
 int		bss_74314; // Used by: ArenaServers_SetType, ArenaServers_Sort, ArenaServers_StartRefresh, ArenaServers_StopRefresh, ArenaServers_Insert, ArenaServers_UpdateMenu
@@ -2172,99 +2994,138 @@ int		bss_74318; // Used by: ArenaServers_SetType, ArenaServers_StartRefresh, Are
 int		bss_7431c; // Used by: ArenaServers_MenuKey, ArenaServers_MenuDraw, ArenaServers_StartRefresh, ArenaServers_StopRefresh, ArenaServers_UpdateMenu
 int		bss_74320; // Used by: ArenaServers_StartRefresh, ArenaServers_DoRefresh
 int		bss_74324; // Used by: ArenaServers_SetType, ArenaServers_StartRefresh, ArenaServers_Insert
-char	bss_74328[1028]; // Used by: ArenaServers_StartRefresh, ArenaServers_DoRefresh
+int		bss_74328; // Used by: ArenaServers_StartRefresh, ArenaServers_DoRefresh
+char	bss_7432c[1024];
 int		bss_7472c; // Used by: ArenaServers_SaveChanges, ArenaServers_DoRefresh, ArenaServers_LoadFavorites, ArenaServers_Remove
 int		bss_74730; // Used by: ArenaServers_MenuInit
 int		bss_74734; // Used by: ArenaServers_MenuInit
 int		bss_74738; // Used by: ArenaServers_MenuInit
 int		bss_7473c; // Used by: ArenaServers_MenuInit
-char	bss_74740[28]; // Used by: ArenaServers_MenuInit
+int		bss_74740; // Used by: ArenaServers_MenuInit
+char	bss_74744[24];
 int		bss_7475c; // Used by: ArenaServers_MenuInit
-char	bss_74760[16]; // Used by: ArenaServers_MenuInit
-char	bss_74770[12]; // Used by: ArenaServers_MenuInit, ArenaServers_Event, Punkbuster_ConfirmDisable, Punkbuster_ConfirmEnable
-char	bss_7477c[20]; // Used by: ArenaServers_MenuInit
+int		bss_74760; // Used by: ArenaServers_MenuInit
+char	bss_74764[12];
+int		bss_74770; // Used by: ArenaServers_MenuInit, ArenaServers_Event, Punkbuster_ConfirmDisable, Punkbuster_ConfirmEnable
+char	bss_74774[8];
+int		bss_7477c; // Used by: ArenaServers_MenuInit
+char	bss_74780[16];
 int		bss_74790; // Used by: ArenaServers_MenuInit
-char	bss_74794[8]; // Used by: ArenaServers_MenuInit
+int		bss_74794; // Used by: ArenaServers_MenuInit
+int		bss_74798;
 int		bss_7479c; // Used by: ArenaServers_MenuInit
-char	bss_747a0[28]; // Used by: ArenaServers_MenuInit
-char	bss_747bc[20]; // Used by: ArenaServers_MenuInit
-char	bss_747d0[12]; // Used by: ArenaServers_MenuInit
+int		bss_747a0; // Used by: ArenaServers_MenuInit
+char	bss_747a4[24];
+int		bss_747bc; // Used by: ArenaServers_MenuInit
+char	bss_747c0[16];
+int		bss_747d0; // Used by: ArenaServers_MenuInit
+char	bss_747d4[8];
 int		bss_747dc; // Used by: ArenaServers_MenuInit
-char	bss_747e0[8]; // Used by: ArenaServers_MenuInit
+int		bss_747e0; // Used by: ArenaServers_MenuInit
+int		bss_747e4;
 char	setupMenuInfo[276];
 int		bss_748fc; // Used by: UI_SetupMenu_Init
-char	bss_74900[8]; // Used by: UI_SetupMenu_Init
-char	bss_74908[12]; // Used by: UI_SetupMenu_Init
+int		bss_74900; // Used by: UI_SetupMenu_Init
+int		bss_74904;
+int		bss_74908; // Used by: UI_SetupMenu_Init
+char	bss_7490c[8];
 int		bss_74914; // Used by: UI_SetupMenu_Init
-char	bss_74918[44]; // Used by: UI_SetupMenu_Init
+int		bss_74918; // Used by: UI_SetupMenu_Init
+char	bss_7491c[40];
 int		bss_74944; // Used by: UI_SetupMenu_Init
 int		bss_74948; // Used by: UI_SetupMenu_Init
 int		bss_7494c; // Used by: UI_SetupMenu_Init
 int		bss_74950; // Used by: UI_SetupMenu_Init
-char	bss_74954[8]; // Used by: UI_SetupMenu_Init
+int		bss_74954; // Used by: UI_SetupMenu_Init
+int		bss_74958;
 int		bss_7495c; // Used by: UI_SetupMenu_Init
-char	bss_74960[28]; // Used by: UI_SetupMenu_Init
-char	bss_7497c[32]; // Used by: UI_SetupMenu_Init
+int		bss_74960; // Used by: UI_SetupMenu_Init
+char	bss_74964[24];
+int		bss_7497c; // Used by: UI_SetupMenu_Init
+char	bss_74980[28];
 int		bss_7499c; // Used by: UI_SetupMenu_Init
-char	bss_749a0[8]; // Used by: UI_SetupMenu_Init
+int		bss_749a0; // Used by: UI_SetupMenu_Init
+int		bss_749a4;
 int		bss_749a8; // Used by: UI_SetupMenu_Init
-char	bss_749ac[8]; // Used by: UI_SetupMenu_Init
+int		bss_749ac; // Used by: UI_SetupMenu_Init
+int		bss_749b0;
 int		bss_749b4; // Used by: UI_SetupMenu_Init
-char	bss_749b8[28]; // Used by: UI_SetupMenu_Init
-char	bss_749d4[32]; // Used by: UI_SetupMenu_Init
+int		bss_749b8; // Used by: UI_SetupMenu_Init
+char	bss_749bc[24];
+int		bss_749d4; // Used by: UI_SetupMenu_Init
+char	bss_749d8[28];
 int		bss_749f4; // Used by: UI_SetupMenu_Init
-char	bss_749f8[8]; // Used by: UI_SetupMenu_Init
-char	bss_74a00[8]; // Used by: UI_SetupMenu_Init
+int		bss_749f8; // Used by: UI_SetupMenu_Init
+int		bss_749fc;
+int		bss_74a00; // Used by: UI_SetupMenu_Init
+int		bss_74a04;
 int		bss_74a08; // Used by: UI_SetupMenu_Init
 int		bss_74a0c; // Used by: UI_SetupMenu_Init
-char	bss_74a10[28]; // Used by: UI_SetupMenu_Init
+int		bss_74a10; // Used by: UI_SetupMenu_Init
+char	bss_74a14[24];
 int		bss_74a2c; // Used by: UI_SetupMenu_Init
-char	bss_74a30[12]; // Used by: UI_SetupMenu_Init
+int		bss_74a30; // Used by: UI_SetupMenu_Init
+char	bss_74a34[8];
 int		bss_74a3c; // Used by: UI_SetupMenu_Init
 int		bss_74a40; // Used by: UI_SetupMenu_Init
 int		bss_74a44; // Used by: UI_SetupMenu_Init
-char	bss_74a48[8]; // Used by: UI_SetupMenu_Init
+int		bss_74a48; // Used by: UI_SetupMenu_Init
+int		bss_74a4c;
 int		bss_74a50; // Used by: UI_SetupMenu_Init
 int		bss_74a54; // Used by: UI_SetupMenu_Init
-char	bss_74a58[28]; // Used by: UI_SetupMenu_Init
+int		bss_74a58; // Used by: UI_SetupMenu_Init
+char	bss_74a5c[24];
 int		bss_74a74; // Used by: UI_SetupMenu_Init
-char	bss_74a78[12]; // Used by: UI_SetupMenu_Init
+int		bss_74a78; // Used by: UI_SetupMenu_Init
+char	bss_74a7c[8];
 int		bss_74a84; // Used by: UI_SetupMenu_Init
 int		bss_74a88; // Used by: UI_SetupMenu_Init
 int		bss_74a8c; // Used by: UI_SetupMenu_Init
-char	bss_74a90[8]; // Used by: UI_SetupMenu_Init
+int		bss_74a90; // Used by: UI_SetupMenu_Init
+int		bss_74a94;
 int		bss_74a98; // Used by: UI_SetupMenu_Init
 int		bss_74a9c; // Used by: UI_SetupMenu_Init
-char	bss_74aa0[28]; // Used by: UI_SetupMenu_Init
+int		bss_74aa0; // Used by: UI_SetupMenu_Init
+char	bss_74aa4[24];
 int		bss_74abc; // Used by: UI_SetupMenu_Init
-char	bss_74ac0[12]; // Used by: UI_SetupMenu_Init
+int		bss_74ac0; // Used by: UI_SetupMenu_Init
+char	bss_74ac4[8];
 int		bss_74acc; // Used by: UI_SetupMenu_Init
 int		bss_74ad0; // Used by: UI_SetupMenu_Init
 int		bss_74ad4; // Used by: UI_SetupMenu_Init
-char	bss_74ad8[8]; // Used by: UI_SetupMenu_Init
+int		bss_74ad8; // Used by: UI_SetupMenu_Init
+int		bss_74adc;
 int		bss_74ae0; // Used by: UI_SetupMenu_Init
 int		bss_74ae4; // Used by: UI_SetupMenu_Init
-char	bss_74ae8[28]; // Used by: UI_SetupMenu_Init
+int		bss_74ae8; // Used by: UI_SetupMenu_Init
+char	bss_74aec[24];
 int		bss_74b04; // Used by: UI_SetupMenu_Init
-char	bss_74b08[12]; // Used by: UI_SetupMenu_Init
+int		bss_74b08; // Used by: UI_SetupMenu_Init
+char	bss_74b0c[8];
 int		bss_74b14; // Used by: UI_SetupMenu_Init
 int		bss_74b18; // Used by: UI_SetupMenu_Init
 int		bss_74b1c; // Used by: UI_SetupMenu_Init
-char	bss_74b20[8]; // Used by: UI_SetupMenu_Init
+int		bss_74b20; // Used by: UI_SetupMenu_Init
+int		bss_74b24;
 int		bss_74b28; // Used by: UI_SetupMenu_Init
 int		bss_74b2c; // Used by: UI_SetupMenu_Init
-char	bss_74b30[28]; // Used by: UI_SetupMenu_Init
+int		bss_74b30; // Used by: UI_SetupMenu_Init
+char	bss_74b34[24];
 int		bss_74b4c; // Used by: UI_SetupMenu_Init
-char	bss_74b50[12]; // Used by: UI_SetupMenu_Init
+int		bss_74b50; // Used by: UI_SetupMenu_Init
+char	bss_74b54[8];
 int		bss_74b5c; // Used by: UI_SetupMenu_Init
 int		bss_74b60; // Used by: UI_SetupMenu_Init
 int		bss_74b64; // Used by: UI_SetupMenu_Init
-char	bss_74b68[8]; // Used by: UI_SetupMenu_Init
+int		bss_74b68; // Used by: UI_SetupMenu_Init
+int		bss_74b6c;
 int		bss_74b70; // Used by: UI_SetupMenu_Init
 int		bss_74b74; // Used by: UI_SetupMenu_Init
-char	bss_74b78[28]; // Used by: UI_SetupMenu_Init
+int		bss_74b78; // Used by: UI_SetupMenu_Init
+char	bss_74b7c[24];
 int		bss_74b94; // Used by: UI_SetupMenu_Init
-char	bss_74b98[12]; // Used by: UI_SetupMenu_Init
+int		bss_74b98; // Used by: UI_SetupMenu_Init
+char	bss_74b9c[8];
 int		bss_74ba4; // Used by: UI_SetupMenu_Init
 int		bss_74ba8; // Used by: UI_SetupMenu_Init
 int		bss_74bac; // Used by: UI_SetupMenu_Init
@@ -2272,70 +3133,99 @@ int		bss_74bb0; // Used by: UI_SetupMenu_Init
 int		bss_74bb4; // Used by: UI_SetupMenu_Init
 int		bss_74bb8; // Used by: UI_SetupMenu_Init
 int		bss_74bbc; // Used by: UI_SetupMenu_Init
-char	bss_74bc0[28]; // Used by: UI_SetupMenu_Init
+int		bss_74bc0; // Used by: UI_SetupMenu_Init
+char	bss_74bc4[24];
 int		bss_74bdc; // Used by: UI_SetupMenu_Init
-char	bss_74be0[12]; // Used by: UI_SetupMenu_Init
-char	bss_74bec[16]; // Used by: UI_SetupMenu_Init
+int		bss_74be0; // Used by: UI_SetupMenu_Init
+char	bss_74be4[8];
+int		bss_74bec; // Used by: UI_SetupMenu_Init
+char	bss_74bf0[12];
 int		bss_74bfc; // Used by: UI_SetupMenu_Init
-char	bss_74c00[8]; // Used by: UI_SetupMenu_Init
+int		bss_74c00; // Used by: UI_SetupMenu_Init
+int		bss_74c04;
 char	soundOptionsInfo[268];
-char	bss_74d14[8]; // Used by: UI_SoundOptionsMenu_Init
+int		bss_74d14; // Used by: UI_SoundOptionsMenu_Init
+int		bss_74d18;
 int		bss_74d1c; // Used by: UI_SoundOptionsMenu_Init
-char	bss_74d20[8]; // Used by: UI_SoundOptionsMenu_Init
-char	bss_74d28[12]; // Used by: UI_SoundOptionsMenu_Init
+int		bss_74d20; // Used by: UI_SoundOptionsMenu_Init
+int		bss_74d24;
+int		bss_74d28; // Used by: UI_SoundOptionsMenu_Init
+char	bss_74d2c[8];
 int		bss_74d34; // Used by: UI_SoundOptionsMenu_Init
-char	bss_74d38[28]; // Used by: UI_SoundOptionsMenu_Init
-char	bss_74d54[16]; // Used by: UI_SoundOptionsMenu_Init
+int		bss_74d38; // Used by: UI_SoundOptionsMenu_Init
+char	bss_74d3c[24];
+int		bss_74d54; // Used by: UI_SoundOptionsMenu_Init
+char	bss_74d58[12];
 int		bss_74d64; // Used by: UI_SoundOptionsMenu_Init
 int		bss_74d68; // Used by: UI_SoundOptionsMenu_Init
 int		bss_74d6c; // Used by: UI_SoundOptionsMenu_Init
 int		bss_74d70; // Used by: UI_SoundOptionsMenu_Init
-char	bss_74d74[8]; // Used by: UI_SoundOptionsMenu_Init
+int		bss_74d74; // Used by: UI_SoundOptionsMenu_Init
+int		bss_74d78;
 int		bss_74d7c; // Used by: UI_SoundOptionsMenu_Init
-char	bss_74d80[28]; // Used by: UI_SoundOptionsMenu_Init
-char	bss_74d9c[32]; // Used by: UI_SoundOptionsMenu_Init
+int		bss_74d80; // Used by: UI_SoundOptionsMenu_Init
+char	bss_74d84[24];
+int		bss_74d9c; // Used by: UI_SoundOptionsMenu_Init
+char	bss_74da0[28];
 int		bss_74dbc; // Used by: UI_SoundOptionsMenu_Init
-char	bss_74dc0[8]; // Used by: UI_SoundOptionsMenu_Init
+int		bss_74dc0; // Used by: UI_SoundOptionsMenu_Init
+int		bss_74dc4;
 int		bss_74dc8; // Used by: UI_SoundOptionsMenu_Init
-char	bss_74dcc[8]; // Used by: UI_SoundOptionsMenu_Init
+int		bss_74dcc; // Used by: UI_SoundOptionsMenu_Init
+int		bss_74dd0;
 int		bss_74dd4; // Used by: UI_SoundOptionsMenu_Init
-char	bss_74dd8[28]; // Used by: UI_SoundOptionsMenu_Init
-char	bss_74df4[32]; // Used by: UI_SoundOptionsMenu_Init
+int		bss_74dd8; // Used by: UI_SoundOptionsMenu_Init
+char	bss_74ddc[24];
+int		bss_74df4; // Used by: UI_SoundOptionsMenu_Init
+char	bss_74df8[28];
 int		bss_74e14; // Used by: UI_SoundOptionsMenu_Init
-char	bss_74e18[8]; // Used by: UI_SoundOptionsMenu_Init
-char	bss_74e20[8]; // Used by: UI_SoundOptionsMenu_Init
+int		bss_74e18; // Used by: UI_SoundOptionsMenu_Init
+int		bss_74e1c;
+int		bss_74e20; // Used by: UI_SoundOptionsMenu_Init
+int		bss_74e24;
 int		bss_74e28; // Used by: UI_SoundOptionsMenu_Init
 int		bss_74e2c; // Used by: UI_SoundOptionsMenu_Init
-char	bss_74e30[28]; // Used by: UI_SoundOptionsMenu_Init
+int		bss_74e30; // Used by: UI_SoundOptionsMenu_Init
+char	bss_74e34[24];
 int		bss_74e4c; // Used by: UI_SoundOptionsMenu_Init
-char	bss_74e50[12]; // Used by: UI_SoundOptionsMenu_Init
+int		bss_74e50; // Used by: UI_SoundOptionsMenu_Init
+char	bss_74e54[8];
 int		bss_74e5c; // Used by: UI_SoundOptionsMenu_Init
 int		bss_74e60; // Used by: UI_SoundOptionsMenu_Init
 int		bss_74e64; // Used by: UI_SoundOptionsMenu_Init
-char	bss_74e68[8]; // Used by: UI_SoundOptionsMenu_Init
+int		bss_74e68; // Used by: UI_SoundOptionsMenu_Init
+int		bss_74e6c;
 int		bss_74e70; // Used by: UI_SoundOptionsMenu_Init
 int		bss_74e74; // Used by: UI_SoundOptionsMenu_Init
-char	bss_74e78[28]; // Used by: UI_SoundOptionsMenu_Init
+int		bss_74e78; // Used by: UI_SoundOptionsMenu_Init
+char	bss_74e7c[24];
 int		bss_74e94; // Used by: UI_SoundOptionsMenu_Init
-char	bss_74e98[12]; // Used by: UI_SoundOptionsMenu_Init
+int		bss_74e98; // Used by: UI_SoundOptionsMenu_Init
+char	bss_74e9c[8];
 int		bss_74ea4; // Used by: UI_SoundOptionsMenu_Init
 int		bss_74ea8; // Used by: UI_SoundOptionsMenu_Init
 int		bss_74eac; // Used by: UI_SoundOptionsMenu_Init
-char	bss_74eb0[8]; // Used by: UI_SoundOptionsMenu_Init
+int		bss_74eb0; // Used by: UI_SoundOptionsMenu_Init
+int		bss_74eb4;
 int		bss_74eb8; // Used by: UI_SoundOptionsMenu_Init
 int		bss_74ebc; // Used by: UI_SoundOptionsMenu_Init
-char	bss_74ec0[28]; // Used by: UI_SoundOptionsMenu_Init
+int		bss_74ec0; // Used by: UI_SoundOptionsMenu_Init
+char	bss_74ec4[24];
 int		bss_74edc; // Used by: UI_SoundOptionsMenu_Init
-char	bss_74ee0[12]; // Used by: UI_SoundOptionsMenu_Init
+int		bss_74ee0; // Used by: UI_SoundOptionsMenu_Init
+char	bss_74ee4[8];
 int		bss_74eec; // Used by: UI_SoundOptionsMenu_Init
 int		bss_74ef0; // Used by: UI_SoundOptionsMenu_Init
 int		bss_74ef4; // Used by: UI_SoundOptionsMenu_Init
-char	bss_74ef8[8]; // Used by: UI_SoundOptionsMenu_Init
+int		bss_74ef8; // Used by: UI_SoundOptionsMenu_Init
+int		bss_74efc;
 int		bss_74f00; // Used by: UI_SoundOptionsMenu_Init
 int		bss_74f04; // Used by: UI_SoundOptionsMenu_Init
-char	bss_74f08[28]; // Used by: UI_SoundOptionsMenu_Init
+int		bss_74f08; // Used by: UI_SoundOptionsMenu_Init
+char	bss_74f0c[24];
 int		bss_74f24; // Used by: UI_SoundOptionsMenu_Init
-char	bss_74f28[12]; // Used by: UI_SoundOptionsMenu_Init
+int		bss_74f28; // Used by: UI_SoundOptionsMenu_Init
+char	bss_74f2c[8];
 int		bss_74f34; // Used by: UI_SoundOptionsMenu_Init
 int		bss_74f38; // Used by: UI_SoundOptionsMenu_Init
 int		bss_74f3c; // Used by: UI_SoundOptionsMenu_Init
@@ -2343,100 +3233,139 @@ int		bss_74f40; // Used by: UI_SoundOptionsMenu_Init
 int		bss_74f44; // Used by: UI_SoundOptionsMenu_Init
 int		bss_74f48; // Used by: UI_SoundOptionsMenu_Init
 int		bss_74f4c; // Used by: UI_SoundOptionsMenu_Init
-char	bss_74f50[28]; // Used by: UI_SoundOptionsMenu_Init
+int		bss_74f50; // Used by: UI_SoundOptionsMenu_Init
+char	bss_74f54[24];
 int		bss_74f6c; // Used by: UI_SoundOptionsMenu_Init
-char	bss_74f70[12]; // Used by: UI_SoundOptionsMenu_Init
+int		bss_74f70; // Used by: UI_SoundOptionsMenu_Init
+char	bss_74f74[8];
 int		bss_74f7c; // Used by: UI_SoundOptionsMenu_Init
 int		bss_74f80; // Used by: UI_SoundOptionsMenu_Init
-char	bss_74f84[8]; // Used by: UI_SoundOptionsMenu_Init, SoundOptions_UpdateMenuItems, UI_SoundOptionsMenu_Event
+int		bss_74f84; // Used by: UI_SoundOptionsMenu_Init, SoundOptions_UpdateMenuItems, UI_SoundOptionsMenu_Event
+int		bss_74f88;
 int		bss_74f8c; // Used by: UI_SoundOptionsMenu_Init
 int		bss_74f90; // Used by: UI_SoundOptionsMenu_Init
 int		bss_74f94; // Used by: UI_SoundOptionsMenu_Init
 int		bss_74f98; // Used by: UI_SoundOptionsMenu_Init
-char	bss_74f9c[28]; // Used by: UI_SoundOptionsMenu_Init
+int		bss_74f9c; // Used by: UI_SoundOptionsMenu_Init
+char	bss_74fa0[24];
 int		bss_74fb8; // Used by: UI_SoundOptionsMenu_Init
-char	bss_74fbc[12]; // Used by: UI_SoundOptionsMenu_Init
+int		bss_74fbc; // Used by: UI_SoundOptionsMenu_Init
+char	bss_74fc0[8];
 int		bss_74fc8; // Used by: UI_SoundOptionsMenu_Init
 int		bss_74fcc; // Used by: UI_SoundOptionsMenu_Init
-char	bss_74fd0[8]; // Used by: UI_SoundOptionsMenu_Init, SoundOptions_UpdateMenuItems, UI_SoundOptionsMenu_Event
+int		bss_74fd0; // Used by: UI_SoundOptionsMenu_Init, SoundOptions_UpdateMenuItems, UI_SoundOptionsMenu_Event
+int		bss_74fd4;
 int		bss_74fd8; // Used by: UI_SoundOptionsMenu_Init
 int		bss_74fdc; // Used by: UI_SoundOptionsMenu_Init
 int		bss_74fe0; // Used by: UI_SoundOptionsMenu_Init
 int		bss_74fe4; // Used by: UI_SoundOptionsMenu_Init
-char	bss_74fe8[28]; // Used by: UI_SoundOptionsMenu_Init
+int		bss_74fe8; // Used by: UI_SoundOptionsMenu_Init
+char	bss_74fec[24];
 int		bss_75004; // Used by: UI_SoundOptionsMenu_Init
-char	bss_75008[16]; // Used by: UI_SoundOptionsMenu_Init
-char	bss_75018[12]; // Used by: UI_SoundOptionsMenu_Init, SoundOptions_UpdateMenuItems, UI_SoundOptionsMenu_Event
-char	bss_75024[20]; // Used by: UI_SoundOptionsMenu_Init
+int		bss_75008; // Used by: UI_SoundOptionsMenu_Init
+char	bss_7500c[12];
+int		bss_75018; // Used by: UI_SoundOptionsMenu_Init, SoundOptions_UpdateMenuItems, UI_SoundOptionsMenu_Event
+char	bss_7501c[8];
+int		bss_75024; // Used by: UI_SoundOptionsMenu_Init
+char	bss_75028[16];
 int		bss_75038; // Used by: UI_SoundOptionsMenu_Init
 int		bss_7503c; // Used by: UI_SoundOptionsMenu_Init
 int		bss_75040; // Used by: UI_SoundOptionsMenu_Init
 int		bss_75044; // Used by: UI_SoundOptionsMenu_Init
-char	bss_75048[28]; // Used by: UI_SoundOptionsMenu_Init
+int		bss_75048; // Used by: UI_SoundOptionsMenu_Init
+char	bss_7504c[24];
 int		bss_75064; // Used by: UI_SoundOptionsMenu_Init
-char	bss_75068[16]; // Used by: UI_SoundOptionsMenu_Init
-char	bss_75078[12]; // Used by: UI_SoundOptionsMenu_Init, SoundOptions_UpdateMenuItems, UI_SoundOptionsMenu_Event
-char	bss_75084[20]; // Used by: UI_SoundOptionsMenu_Init
+int		bss_75068; // Used by: UI_SoundOptionsMenu_Init
+char	bss_7506c[12];
+int		bss_75078; // Used by: UI_SoundOptionsMenu_Init, SoundOptions_UpdateMenuItems, UI_SoundOptionsMenu_Event
+char	bss_7507c[8];
+int		bss_75084; // Used by: UI_SoundOptionsMenu_Init
+char	bss_75088[16];
 int		bss_75098; // Used by: UI_SoundOptionsMenu_Init
 int		bss_7509c; // Used by: UI_SoundOptionsMenu_Init
 int		bss_750a0; // Used by: UI_SoundOptionsMenu_Init
 int		bss_750a4; // Used by: UI_SoundOptionsMenu_Init
-char	bss_750a8[28]; // Used by: UI_SoundOptionsMenu_Init
+int		bss_750a8; // Used by: UI_SoundOptionsMenu_Init
+char	bss_750ac[24];
 int		bss_750c4; // Used by: UI_SoundOptionsMenu_Init
-char	bss_750c8[12]; // Used by: UI_SoundOptionsMenu_Init
-char	bss_750d4[16]; // Used by: UI_SoundOptionsMenu_Init
+int		bss_750c8; // Used by: UI_SoundOptionsMenu_Init
+char	bss_750cc[8];
+int		bss_750d4; // Used by: UI_SoundOptionsMenu_Init
+char	bss_750d8[12];
 int		bss_750e4; // Used by: UI_SoundOptionsMenu_Init
-char	bss_750e8[8]; // Used by: UI_SoundOptionsMenu_Init
+int		bss_750e8; // Used by: UI_SoundOptionsMenu_Init
+int		bss_750ec;
 int		bss_750f0; // Used by: UI_SoundOptionsMenu_Init
 int		bss_750f4; // Used by: UI_SoundOptionsMenu_Init
 int		bss_750f8; // Used by: UI_SoundOptionsMenu_Init
 int		bss_750fc; // Used by: UI_SoundOptionsMenu_Init
-char	bss_75100[28]; // Used by: UI_SoundOptionsMenu_Init
+int		bss_75100; // Used by: UI_SoundOptionsMenu_Init
+char	bss_75104[24];
 int		bss_7511c; // Used by: UI_SoundOptionsMenu_Init
-char	bss_75120[12]; // Used by: UI_SoundOptionsMenu_Init
-char	bss_7512c[16]; // Used by: UI_SoundOptionsMenu_Init
+int		bss_75120; // Used by: UI_SoundOptionsMenu_Init
+char	bss_75124[8];
+int		bss_7512c; // Used by: UI_SoundOptionsMenu_Init
+char	bss_75130[12];
 int		bss_7513c; // Used by: UI_SoundOptionsMenu_Init
-char	bss_75140[8]; // Used by: UI_SoundOptionsMenu_Init
+int		bss_75140; // Used by: UI_SoundOptionsMenu_Init
+int		bss_75144;
 int		bss_75148; // Used by: UI_SoundOptionsMenu_Init, SoundOptions_UpdateMenuItems, UI_SoundOptionsMenu_Event
 int		bss_7514c; // Used by: UI_SoundOptionsMenu_Init, SoundOptions_UpdateMenuItems, UI_SoundOptionsMenu_Event
 int		bss_75150; // Used by: UI_SoundOptionsMenu_Init, SoundOptions_UpdateMenuItems, UI_SoundOptionsMenu_Event
 int		bss_75154; // Used by: UI_SoundOptionsMenu_Init, SoundOptions_UpdateMenuItems, UI_SoundOptionsMenu_Event
 char	s_specifyserver[276];
 int		bss_7526c; // Used by: SpecifyServer_MenuInit
-char	bss_75270[8]; // Used by: SpecifyServer_MenuInit
-char	bss_75278[12]; // Used by: SpecifyServer_MenuInit
+int		bss_75270; // Used by: SpecifyServer_MenuInit
+int		bss_75274;
+int		bss_75278; // Used by: SpecifyServer_MenuInit
+char	bss_7527c[8];
 int		bss_75284; // Used by: SpecifyServer_MenuInit
-char	bss_75288[44]; // Used by: SpecifyServer_MenuInit
+int		bss_75288; // Used by: SpecifyServer_MenuInit
+char	bss_7528c[40];
 int		bss_752b4; // Used by: SpecifyServer_MenuInit
 int		bss_752b8; // Used by: SpecifyServer_MenuInit
 int		bss_752bc; // Used by: SpecifyServer_MenuInit
 int		bss_752c0; // Used by: SpecifyServer_MenuInit
-char	bss_752c4[8]; // Used by: SpecifyServer_MenuInit
+int		bss_752c4; // Used by: SpecifyServer_MenuInit
+int		bss_752c8;
 int		bss_752cc; // Used by: SpecifyServer_MenuInit
-char	bss_752d0[28]; // Used by: SpecifyServer_MenuInit
-char	bss_752ec[32]; // Used by: SpecifyServer_MenuInit
+int		bss_752d0; // Used by: SpecifyServer_MenuInit
+char	bss_752d4[24];
+int		bss_752ec; // Used by: SpecifyServer_MenuInit
+char	bss_752f0[28];
 int		bss_7530c; // Used by: SpecifyServer_MenuInit
-char	bss_75310[8]; // Used by: SpecifyServer_MenuInit
+int		bss_75310; // Used by: SpecifyServer_MenuInit
+int		bss_75314;
 int		bss_75318; // Used by: SpecifyServer_MenuInit
-char	bss_7531c[8]; // Used by: SpecifyServer_MenuInit
+int		bss_7531c; // Used by: SpecifyServer_MenuInit
+int		bss_75320;
 int		bss_75324; // Used by: SpecifyServer_MenuInit
-char	bss_75328[28]; // Used by: SpecifyServer_MenuInit
-char	bss_75344[32]; // Used by: SpecifyServer_MenuInit
+int		bss_75328; // Used by: SpecifyServer_MenuInit
+char	bss_7532c[24];
+int		bss_75344; // Used by: SpecifyServer_MenuInit
+char	bss_75348[28];
 int		bss_75364; // Used by: SpecifyServer_MenuInit
-char	bss_75368[8]; // Used by: SpecifyServer_MenuInit
+int		bss_75368; // Used by: SpecifyServer_MenuInit
+int		bss_7536c;
 int		bss_75370; // Used by: SpecifyServer_MenuInit
-char	bss_75374[8]; // Used by: SpecifyServer_MenuInit
+int		bss_75374; // Used by: SpecifyServer_MenuInit
+int		bss_75378;
 int		bss_7537c; // Used by: SpecifyServer_MenuInit
-char	bss_75380[28]; // Used by: SpecifyServer_MenuInit
-char	bss_7539c[24]; // Used by: SpecifyServer_MenuInit
+int		bss_75380; // Used by: SpecifyServer_MenuInit
+char	bss_75384[24];
+int		bss_7539c; // Used by: SpecifyServer_MenuInit
+char	bss_753a0[20];
 int		bss_753b4; // Used by: SpecifyServer_MenuInit
 char	bss_753b8[256]; // Used by: SpecifyServer_Event
 int		bss_754b8; // Used by: SpecifyServer_MenuInit
 int		bss_754bc; // Used by: SpecifyServer_MenuInit
-char	bss_754c0[8]; // Used by: SpecifyServer_MenuInit
+int		bss_754c0; // Used by: SpecifyServer_MenuInit
+int		bss_754c4;
 int		bss_754c8; // Used by: SpecifyServer_MenuInit
-char	bss_754cc[28]; // Used by: SpecifyServer_MenuInit
-char	bss_754e8[24]; // Used by: SpecifyServer_MenuInit
+int		bss_754cc; // Used by: SpecifyServer_MenuInit
+char	bss_754d0[24];
+int		bss_754e8; // Used by: SpecifyServer_MenuInit
+char	bss_754ec[20];
 int		bss_75500; // Used by: SpecifyServer_MenuInit
 char	bss_75504[256]; // Used by: SpecifyServer_Event
 int		bss_75604; // Used by: SpecifyServer_MenuInit
@@ -2444,22 +3373,30 @@ int		bss_75608; // Used by: SpecifyServer_MenuInit
 int		bss_7560c; // Used by: SpecifyServer_MenuInit
 int		bss_75610; // Used by: SpecifyServer_MenuInit
 int		bss_75614; // Used by: SpecifyServer_MenuInit
-char	bss_75618[28]; // Used by: SpecifyServer_MenuInit
+int		bss_75618; // Used by: SpecifyServer_MenuInit
+char	bss_7561c[24];
 int		bss_75634; // Used by: SpecifyServer_MenuInit
-char	bss_75638[12]; // Used by: SpecifyServer_MenuInit
-char	bss_75644[16]; // Used by: SpecifyServer_MenuInit
+int		bss_75638; // Used by: SpecifyServer_MenuInit
+char	bss_7563c[8];
+int		bss_75644; // Used by: SpecifyServer_MenuInit
+char	bss_75648[12];
 int		bss_75654; // Used by: SpecifyServer_MenuInit
-char	bss_75658[8]; // Used by: SpecifyServer_MenuInit
+int		bss_75658; // Used by: SpecifyServer_MenuInit
+int		bss_7565c;
 int		bss_75660; // Used by: SpecifyServer_MenuInit
 int		bss_75664; // Used by: SpecifyServer_MenuInit
 int		bss_75668; // Used by: SpecifyServer_MenuInit
 int		bss_7566c; // Used by: SpecifyServer_MenuInit
-char	bss_75670[28]; // Used by: SpecifyServer_MenuInit
+int		bss_75670; // Used by: SpecifyServer_MenuInit
+char	bss_75674[24];
 int		bss_7568c; // Used by: SpecifyServer_MenuInit
-char	bss_75690[12]; // Used by: SpecifyServer_MenuInit
-char	bss_7569c[16]; // Used by: SpecifyServer_MenuInit
+int		bss_75690; // Used by: SpecifyServer_MenuInit
+char	bss_75694[8];
+int		bss_7569c; // Used by: SpecifyServer_MenuInit
+char	bss_756a0[12];
 int		bss_756ac; // Used by: SpecifyServer_MenuInit
-char	bss_756b0[8]; // Used by: SpecifyServer_MenuInit
+int		bss_756b0; // Used by: SpecifyServer_MenuInit
+int		bss_756b4;
 int		maxTier; // Used by: UI_SPLevelMenu, UI_SPLevelMenu_RightArrowEvent, UI_SPLevelMenu_SetMenuItems
 int		minTier; // Used by: UI_SPLevelMenu, UI_SPLevelMenu_LeftArrowEvent, UI_SPLevelMenu_SetMenuItems
 int		finalTier; // Used by: UI_SPLevelMenu, UI_SPLevelMenu_LevelEvent, UI_SPLevelMenu_SetMenuItems
@@ -2469,12 +3406,16 @@ int		currentSet; // Used by: UI_SPLevelMenu, UI_SPLevelMenu_Init, UI_SPLevelMenu
 int		selectedArena; // Used by: UI_SPLevelMenu_Init, UI_SPLevelMenu_MenuDraw, UI_SPLevelMenu_BackEvent, UI_SPLevelMenu_NextEvent, UI_SPLevelMenu_LevelEvent, UI_SPLevelMenu_SetMenuItems
 int		selectedArenaSet; // Used by: UI_SPLevelMenu_Init, UI_SPLevelMenu_MenuDraw, UI_SPLevelMenu_NextEvent, UI_SPLevelMenu_RightArrowEvent, UI_SPLevelMenu_LeftArrowEvent, UI_SPLevelMenu_LevelEvent, UI_SPLevelMenu_SetMenuItems, UI_SPLevelMenu_SetMenuArena, UI_SPLevelMenu_SetBots
 char	levelMenuInfo[268];
-char	bss_757e4[8]; // Used by: UI_SPLevelMenu_Init
+int		bss_757e4; // Used by: UI_SPLevelMenu_Init
+int		bss_757e8;
 int		bss_757ec; // Used by: UI_SPLevelMenu_Init
-char	bss_757f0[8]; // Used by: UI_SPLevelMenu_Init
-char	bss_757f8[12]; // Used by: UI_SPLevelMenu_Init
+int		bss_757f0; // Used by: UI_SPLevelMenu_Init
+int		bss_757f4;
+int		bss_757f8; // Used by: UI_SPLevelMenu_Init
+char	bss_757fc[8];
 int		bss_75804; // Used by: UI_SPLevelMenu_Init
-char	bss_75808[44]; // Used by: UI_SPLevelMenu_Init
+int		bss_75808; // Used by: UI_SPLevelMenu_Init
+char	bss_7580c[40];
 int		bss_75834; // Used by: UI_SPLevelMenu_Init
 int		bss_75838; // Used by: UI_SPLevelMenu_Init
 int		bss_7583c; // Used by: UI_SPLevelMenu_Init
@@ -2482,120 +3423,168 @@ int		bss_75840; // Used by: UI_SPLevelMenu_Init
 int		bss_75844; // Used by: UI_SPLevelMenu_Init
 int		bss_75848; // Used by: UI_SPLevelMenu_Init
 int		bss_7584c; // Used by: UI_SPLevelMenu_Init
-char	bss_75850[28]; // Used by: UI_SPLevelMenu_Init
+int		bss_75850; // Used by: UI_SPLevelMenu_Init
+char	bss_75854[24];
 int		bss_7586c; // Used by: UI_SPLevelMenu_Init
-char	bss_75870[12]; // Used by: UI_SPLevelMenu_Init
-char	bss_7587c[16]; // Used by: UI_SPLevelMenu_Init
+int		bss_75870; // Used by: UI_SPLevelMenu_Init
+char	bss_75874[8];
+int		bss_7587c; // Used by: UI_SPLevelMenu_Init
+char	bss_75880[12];
 int		bss_7588c; // Used by: UI_SPLevelMenu_Init
-char	bss_75890[8]; // Used by: UI_SPLevelMenu_Init
+int		bss_75890; // Used by: UI_SPLevelMenu_Init
+int		bss_75894;
 int		bss_75898; // Used by: UI_SPLevelMenu_Init
 int		bss_7589c; // Used by: UI_SPLevelMenu_Init
 int		bss_758a0; // Used by: UI_SPLevelMenu_Init
 int		bss_758a4; // Used by: UI_SPLevelMenu_Init, UI_SPLevelMenu_SetMenuItems
-char	bss_758a8[28]; // Used by: UI_SPLevelMenu_Init
+int		bss_758a8; // Used by: UI_SPLevelMenu_Init
+char	bss_758ac[24];
 int		bss_758c4; // Used by: UI_SPLevelMenu_Init
-char	bss_758c8[28]; // Used by: UI_SPLevelMenu_Init
+int		bss_758c8; // Used by: UI_SPLevelMenu_Init
+char	bss_758cc[24];
 int		bss_758e4; // Used by: UI_SPLevelMenu_Init
-char	bss_758e8[8]; // Used by: UI_SPLevelMenu_Init
+int		bss_758e8; // Used by: UI_SPLevelMenu_Init
+int		bss_758ec;
 int		bss_758f0; // Used by: UI_SPLevelMenu_Init
 int		bss_758f4; // Used by: UI_SPLevelMenu_Init
 int		bss_758f8; // Used by: UI_SPLevelMenu_Init
 int		bss_758fc; // Used by: UI_SPLevelMenu_Init
-char	bss_75900[28]; // Used by: UI_SPLevelMenu_Init
+int		bss_75900; // Used by: UI_SPLevelMenu_Init
+char	bss_75904[24];
 int		bss_7591c; // Used by: UI_SPLevelMenu_Init
-char	bss_75920[20]; // Used by: UI_SPLevelMenu_Init
-char	bss_75934[8]; // Used by: UI_SPLevelMenu_SetMenuItems
+int		bss_75920; // Used by: UI_SPLevelMenu_Init
+char	bss_75924[16];
+int		bss_75934; // Used by: UI_SPLevelMenu_SetMenuItems
+int		bss_75938;
 int		bss_7593c; // Used by: UI_SPLevelMenu_Init
-char	bss_75940[8]; // Used by: UI_SPLevelMenu_Init
+int		bss_75940; // Used by: UI_SPLevelMenu_Init
+int		bss_75944;
 int		bss_75948; // Used by: UI_SPLevelMenu_Init
 int		bss_7594c; // Used by: UI_SPLevelMenu_Init
 int		bss_75950; // Used by: UI_SPLevelMenu_Init
 int		bss_75954; // Used by: UI_SPLevelMenu_Init
-char	bss_75958[28]; // Used by: UI_SPLevelMenu_Init
+int		bss_75958; // Used by: UI_SPLevelMenu_Init
+char	bss_7595c[24];
 int		bss_75974; // Used by: UI_SPLevelMenu_Init
-char	bss_75978[20]; // Used by: UI_SPLevelMenu_Init
-char	bss_7598c[8]; // Used by: UI_SPLevelMenu_SetMenuItems
+int		bss_75978; // Used by: UI_SPLevelMenu_Init
+char	bss_7597c[16];
+int		bss_7598c; // Used by: UI_SPLevelMenu_SetMenuItems
+int		bss_75990;
 int		bss_75994; // Used by: UI_SPLevelMenu_Init
-char	bss_75998[8]; // Used by: UI_SPLevelMenu_Init
+int		bss_75998; // Used by: UI_SPLevelMenu_Init
+int		bss_7599c;
 int		bss_759a0; // Used by: UI_SPLevelMenu_Init
 int		bss_759a4; // Used by: UI_SPLevelMenu_Init
 int		bss_759a8; // Used by: UI_SPLevelMenu_Init
 int		bss_759ac; // Used by: UI_SPLevelMenu_Init
-char	bss_759b0[28]; // Used by: UI_SPLevelMenu_Init
+int		bss_759b0; // Used by: UI_SPLevelMenu_Init
+char	bss_759b4[24];
 int		bss_759cc; // Used by: UI_SPLevelMenu_Init
-char	bss_759d0[20]; // Used by: UI_SPLevelMenu_Init
-char	bss_759e4[8]; // Used by: UI_SPLevelMenu_SetMenuItems
+int		bss_759d0; // Used by: UI_SPLevelMenu_Init
+char	bss_759d4[16];
+int		bss_759e4; // Used by: UI_SPLevelMenu_SetMenuItems
+int		bss_759e8;
 int		bss_759ec; // Used by: UI_SPLevelMenu_Init
-char	bss_759f0[8]; // Used by: UI_SPLevelMenu_Init
+int		bss_759f0; // Used by: UI_SPLevelMenu_Init
+int		bss_759f4;
 int		bss_759f8; // Used by: UI_SPLevelMenu_Init
 int		bss_759fc; // Used by: UI_SPLevelMenu_Init
 int		bss_75a00; // Used by: UI_SPLevelMenu_Init
 int		bss_75a04; // Used by: UI_SPLevelMenu_Init
-char	bss_75a08[28]; // Used by: UI_SPLevelMenu_Init
+int		bss_75a08; // Used by: UI_SPLevelMenu_Init
+char	bss_75a0c[24];
 int		bss_75a24; // Used by: UI_SPLevelMenu_Init
-char	bss_75a28[12]; // Used by: UI_SPLevelMenu_Init
-char	bss_75a34[16]; // Used by: UI_SPLevelMenu_Init
+int		bss_75a28; // Used by: UI_SPLevelMenu_Init
+char	bss_75a2c[8];
+int		bss_75a34; // Used by: UI_SPLevelMenu_Init
+char	bss_75a38[12];
 int		bss_75a44; // Used by: UI_SPLevelMenu_Init
-char	bss_75a48[8]; // Used by: UI_SPLevelMenu_Init
+int		bss_75a48; // Used by: UI_SPLevelMenu_Init
+int		bss_75a4c;
 int		bss_75a50; // Used by: UI_SPLevelMenu_Init
 int		bss_75a54; // Used by: UI_SPLevelMenu_Init
 int		bss_75a58; // Used by: UI_SPLevelMenu_Init
 int		bss_75a5c; // Used by: UI_SPLevelMenu_Init
-char	bss_75a60[28]; // Used by: UI_SPLevelMenu_Init
+int		bss_75a60; // Used by: UI_SPLevelMenu_Init
+char	bss_75a64[24];
 int		bss_75a7c; // Used by: UI_SPLevelMenu_Init
-char	bss_75a80[20]; // Used by: UI_SPLevelMenu_Init
-char	bss_75a94[8]; // Used by: UI_SPLevelMenu_MenuDraw
+int		bss_75a80; // Used by: UI_SPLevelMenu_Init
+char	bss_75a84[16];
+int		bss_75a94; // Used by: UI_SPLevelMenu_MenuDraw
+int		bss_75a98;
 int		bss_75a9c; // Used by: UI_SPLevelMenu_Init
-char	bss_75aa0[536]; // Used by: UI_SPLevelMenu_Init
+int		bss_75aa0; // Used by: UI_SPLevelMenu_Init
+char	bss_75aa4[532];
 int		bss_75cb8; // Used by: UI_SPLevelMenu_Init
 int		bss_75cbc; // Used by: UI_SPLevelMenu_Init
 int		bss_75cc0; // Used by: UI_SPLevelMenu_Init
 int		bss_75cc4; // Used by: UI_SPLevelMenu_Init
-char	bss_75cc8[28]; // Used by: UI_SPLevelMenu_Init
+int		bss_75cc8; // Used by: UI_SPLevelMenu_Init
+char	bss_75ccc[24];
 int		bss_75ce4; // Used by: UI_SPLevelMenu_Init
-char	bss_75ce8[12]; // Used by: UI_SPLevelMenu_Init
-char	bss_75cf4[16]; // Used by: UI_SPLevelMenu_Init
+int		bss_75ce8; // Used by: UI_SPLevelMenu_Init
+char	bss_75cec[8];
+int		bss_75cf4; // Used by: UI_SPLevelMenu_Init
+char	bss_75cf8[12];
 int		bss_75d04; // Used by: UI_SPLevelMenu_Init
-char	bss_75d08[8]; // Used by: UI_SPLevelMenu_Init
+int		bss_75d08; // Used by: UI_SPLevelMenu_Init
+int		bss_75d0c;
 int		bss_75d10; // Used by: UI_SPLevelMenu_Init
 int		bss_75d14; // Used by: UI_SPLevelMenu_Init
 int		bss_75d18; // Used by: UI_SPLevelMenu_Init
 int		bss_75d1c; // Used by: UI_SPLevelMenu_Init
-char	bss_75d20[28]; // Used by: UI_SPLevelMenu_Init
+int		bss_75d20; // Used by: UI_SPLevelMenu_Init
+char	bss_75d24[24];
 int		bss_75d3c; // Used by: UI_SPLevelMenu_Init
-char	bss_75d40[12]; // Used by: UI_SPLevelMenu_Init
-char	bss_75d4c[16]; // Used by: UI_SPLevelMenu_Init
+int		bss_75d40; // Used by: UI_SPLevelMenu_Init
+char	bss_75d44[8];
+int		bss_75d4c; // Used by: UI_SPLevelMenu_Init
+char	bss_75d50[12];
 int		bss_75d5c; // Used by: UI_SPLevelMenu_Init
-char	bss_75d60[8]; // Used by: UI_SPLevelMenu_Init
+int		bss_75d60; // Used by: UI_SPLevelMenu_Init
+int		bss_75d64;
 int		bss_75d68; // Used by: UI_SPLevelMenu_Init
 int		bss_75d6c; // Used by: UI_SPLevelMenu_Init
 int		bss_75d70; // Used by: UI_SPLevelMenu_Init
 int		bss_75d74; // Used by: UI_SPLevelMenu_Init
-char	bss_75d78[28]; // Used by: UI_SPLevelMenu_Init
+int		bss_75d78; // Used by: UI_SPLevelMenu_Init
+char	bss_75d7c[24];
 int		bss_75d94; // Used by: UI_SPLevelMenu_Init
-char	bss_75d98[12]; // Used by: UI_SPLevelMenu_Init
-char	bss_75da4[16]; // Used by: UI_SPLevelMenu_Init
+int		bss_75d98; // Used by: UI_SPLevelMenu_Init
+char	bss_75d9c[8];
+int		bss_75da4; // Used by: UI_SPLevelMenu_Init
+char	bss_75da8[12];
 int		bss_75db4; // Used by: UI_SPLevelMenu_Init
-char	bss_75db8[8]; // Used by: UI_SPLevelMenu_Init
+int		bss_75db8; // Used by: UI_SPLevelMenu_Init
+int		bss_75dbc;
 int		bss_75dc0; // Used by: UI_SPLevelMenu_Init
 int		bss_75dc4; // Used by: UI_SPLevelMenu_Init
 int		bss_75dc8; // Used by: UI_SPLevelMenu_Init
 int		bss_75dcc; // Used by: UI_SPLevelMenu_Init
-char	bss_75dd0[28]; // Used by: UI_SPLevelMenu_Init
+int		bss_75dd0; // Used by: UI_SPLevelMenu_Init
+char	bss_75dd4[24];
 int		bss_75dec; // Used by: UI_SPLevelMenu_Init
-char	bss_75df0[12]; // Used by: UI_SPLevelMenu_Init
-char	bss_75dfc[16]; // Used by: UI_SPLevelMenu_Init
+int		bss_75df0; // Used by: UI_SPLevelMenu_Init
+char	bss_75df4[8];
+int		bss_75dfc; // Used by: UI_SPLevelMenu_Init
+char	bss_75e00[12];
 int		bss_75e0c; // Used by: UI_SPLevelMenu_Init
-char	bss_75e10[8]; // Used by: UI_SPLevelMenu_Init
-char	bss_75e18[12]; // Used by: UI_SPLevelMenu_Init
+int		bss_75e10; // Used by: UI_SPLevelMenu_Init
+int		bss_75e14;
+int		bss_75e18; // Used by: UI_SPLevelMenu_Init
+char	bss_75e1c[8];
 int		bss_75e24; // Used by: UI_SPLevelMenu_Init
-char	bss_75e28[28]; // Used by: UI_SPLevelMenu_Init
-char	bss_75e44[32]; // Used by: UI_SPLevelMenu_Init
+int		bss_75e28; // Used by: UI_SPLevelMenu_Init
+char	bss_75e2c[24];
+int		bss_75e44; // Used by: UI_SPLevelMenu_Init
+char	bss_75e48[28];
 int		bss_75e64; // Used by: UI_SPLevelMenu_Init
-char	bss_75e68[8]; // Used by: UI_SPLevelMenu_Init
+int		bss_75e68; // Used by: UI_SPLevelMenu_Init
+int		bss_75e6c;
 int		bss_75e70; // Used by: UI_SPLevelMenu_ReInit, UI_SPLevelMenu_MenuDraw
 int		bss_75e74; // Used by: UI_SPLevelMenu_MenuDraw, UI_SPLevelMenu_NextEvent, UI_SPLevelMenu_LevelEvent, UI_SPLevelMenu_SetMenuItems, UI_SPLevelMenu_SetBots
-char	bss_75e78[68]; // Used by: UI_SPLevelMenu_MenuDraw, UI_SPLevelMenu_SetMenuItems
+int		bss_75e78; // Used by: UI_SPLevelMenu_MenuDraw, UI_SPLevelMenu_SetMenuItems
+char	bss_75e7c[64];
 char	bss_75ebc[64]; // Used by: UI_SPLevelMenu_SetMenuItems
 char	bss_75efc[64]; // Used by: UI_SPLevelMenu_SetMenuItems
 char	bss_75f3c[160]; // Used by: UI_SPLevelMenu_SetMenuItems
@@ -2605,144 +3594,199 @@ int		bss_75fe4; // Used by: UI_SPLevelMenu_Cache
 int		bss_75fe8; // Used by: UI_SPLevelMenu_Cache
 int		bss_75fec; // Used by: UI_SPLevelMenu_Cache
 int		bss_75ff0; // Used by: UI_SPLevelMenu_Cache
-char	bss_75ff4[148]; // Used by: UI_SPLevelMenu_Cache
-char	bss_76088[32]; // Used by: UI_SPLevelMenu_Init
-char	bss_760a8[104]; // Used by: UI_SPLevelMenu_MenuDraw, UI_SPLevelMenu_SetBots
+int		bss_75ff4; // Used by: UI_SPLevelMenu_Cache
+char	bss_75ff8[144];
+int		bss_76088; // Used by: UI_SPLevelMenu_Init
+char	bss_7608c[28];
+int		bss_760a8; // Used by: UI_SPLevelMenu_MenuDraw, UI_SPLevelMenu_SetBots
+char	bss_760ac[100];
 char	arenainfo[1024];
 char	postgameMenuInfo[268];
 int		bss_7661c; // Used by: UI_SPPostgameMenu_Init
 int		bss_76620; // Used by: UI_SPPostgameMenu_Init
-char	bss_76624[12]; // Used by: UI_SPPostgameMenu_Init
+int		bss_76624; // Used by: UI_SPPostgameMenu_Init
+char	bss_76628[8];
 int		bss_76630; // Used by: UI_SPPostgameMenu_Init
 int		bss_76634; // Used by: UI_SPPostgameMenu_Init
 int		bss_76638; // Used by: UI_SPPostgameMenu_Init
 int		bss_7663c; // Used by: UI_SPPostgameMenu_Init
-char	bss_76640[28]; // Used by: UI_SPPostgameMenu_Init
+int		bss_76640; // Used by: UI_SPPostgameMenu_Init
+char	bss_76644[24];
 int		bss_7665c; // Used by: UI_SPPostgameMenu_Init
-char	bss_76660[12]; // Used by: UI_SPPostgameMenu_Init
-char	bss_7666c[16]; // Used by: UI_SPPostgameMenu_Init
+int		bss_76660; // Used by: UI_SPPostgameMenu_Init
+char	bss_76664[8];
+int		bss_7666c; // Used by: UI_SPPostgameMenu_Init
+char	bss_76670[12];
 int		bss_7667c; // Used by: UI_SPPostgameMenu_Init
-char	bss_76680[8]; // Used by: UI_SPPostgameMenu_Init
+int		bss_76680; // Used by: UI_SPPostgameMenu_Init
+int		bss_76684;
 int		bss_76688; // Used by: UI_SPPostgameMenu_Init
 int		bss_7668c; // Used by: UI_SPPostgameMenu_Init
 int		bss_76690; // Used by: UI_SPPostgameMenu_Init
 int		bss_76694; // Used by: UI_SPPostgameMenu_Init
-char	bss_76698[28]; // Used by: UI_SPPostgameMenu_Init
+int		bss_76698; // Used by: UI_SPPostgameMenu_Init
+char	bss_7669c[24];
 int		bss_766b4; // Used by: UI_SPPostgameMenu_Init
-char	bss_766b8[12]; // Used by: UI_SPPostgameMenu_Init
-char	bss_766c4[16]; // Used by: UI_SPPostgameMenu_Init
+int		bss_766b8; // Used by: UI_SPPostgameMenu_Init
+char	bss_766bc[8];
+int		bss_766c4; // Used by: UI_SPPostgameMenu_Init
+char	bss_766c8[12];
 int		bss_766d4; // Used by: UI_SPPostgameMenu_Init
-char	bss_766d8[8]; // Used by: UI_SPPostgameMenu_Init
+int		bss_766d8; // Used by: UI_SPPostgameMenu_Init
+int		bss_766dc;
 int		bss_766e0; // Used by: UI_SPPostgameMenu_Init
 int		bss_766e4; // Used by: UI_SPPostgameMenu_Init
 int		bss_766e8; // Used by: UI_SPPostgameMenu_Init
 int		bss_766ec; // Used by: UI_SPPostgameMenu_Init
-char	bss_766f0[28]; // Used by: UI_SPPostgameMenu_Init
+int		bss_766f0; // Used by: UI_SPPostgameMenu_Init
+char	bss_766f4[24];
 int		bss_7670c; // Used by: UI_SPPostgameMenu_Init
-char	bss_76710[12]; // Used by: UI_SPPostgameMenu_Init
-char	bss_7671c[16]; // Used by: UI_SPPostgameMenu_Init
+int		bss_76710; // Used by: UI_SPPostgameMenu_Init
+char	bss_76714[8];
+int		bss_7671c; // Used by: UI_SPPostgameMenu_Init
+char	bss_76720[12];
 int		bss_7672c; // Used by: UI_SPPostgameMenu_Init
-char	bss_76730[8]; // Used by: UI_SPPostgameMenu_Init
+int		bss_76730; // Used by: UI_SPPostgameMenu_Init
+int		bss_76734;
 int		bss_76738; // Used by: UI_SPPostgameMenu_f, UI_SPPostgameMenu_MenuDraw, UI_SPPostgameMenu_MenuKey
 int		bss_7673c; // Used by: UI_SPPostgameMenu_Init, UI_SPPostgameMenu_MenuKey
 int		bss_76740; // Used by: UI_SPPostgameMenu_f, UI_SPPostgameMenu_MenuDraw, UI_SPPostgameMenu_MenuKey
 int		bss_76744; // Used by: UI_SPPostgameMenu_f, UI_SPPostgameMenu_MenuDraw
-char	bss_76748[292]; // Used by: UI_SPPostgameMenu_f, UI_SPPostgameMenu_MenuDraw
+int		bss_76748; // Used by: UI_SPPostgameMenu_f, UI_SPPostgameMenu_MenuDraw
+char	bss_7674c[288];
 int		bss_7686c; // Used by: UI_SPPostgameMenu_f, UI_SPPostgameMenu_NextEvent
 int		bss_76870; // Used by: UI_SPPostgameMenu_f, UI_SPPostgameMenu_MenuDraw, UI_SPPostgameMenu_MenuDrawScoreLine
 int		bss_76874; // Used by: UI_SPPostgameMenu_f, UI_SPPostgameMenu_MenuDraw, UI_SPPostgameMenu_NextEvent
-char	bss_76878[76]; // Used by: UI_SPPostgameMenu_f, UI_SPPostgameMenu_MenuDraw
+int		bss_76878; // Used by: UI_SPPostgameMenu_f, UI_SPPostgameMenu_MenuDraw
+char	bss_7687c[72];
 int		bss_768c4; // Used by: UI_SPPostgameMenu_f, UI_SPPostgameMenu_MenuDraw
 int		bss_768c8; // Used by: UI_SPPostgameMenu_f, UI_SPPostgameMenu_MenuDraw
 char	skillMenuInfo[272];
-char	bss_769dc[8]; // Used by: UI_SPSkillMenu_Init
-char	bss_769e4[8]; // Used by: UI_SPSkillMenu_Init
+int		bss_769dc; // Used by: UI_SPSkillMenu_Init
+int		bss_769e0;
+int		bss_769e4; // Used by: UI_SPSkillMenu_Init
+int		bss_769e8;
 int		bss_769ec; // Used by: UI_SPSkillMenu_Init
-char	bss_769f0[8]; // Used by: UI_SPSkillMenu_Init
+int		bss_769f0; // Used by: UI_SPSkillMenu_Init
+int		bss_769f4;
 int		bss_769f8; // Used by: UI_SPSkillMenu_Init
-char	bss_769fc[28]; // Used by: UI_SPSkillMenu_Init
-char	bss_76a18[32]; // Used by: UI_SPSkillMenu_Init
+int		bss_769fc; // Used by: UI_SPSkillMenu_Init
+char	bss_76a00[24];
+int		bss_76a18; // Used by: UI_SPSkillMenu_Init
+char	bss_76a1c[28];
 int		bss_76a38; // Used by: UI_SPSkillMenu_Init
-char	bss_76a3c[8]; // Used by: UI_SPSkillMenu_Init
-char	bss_76a44[12]; // Used by: UI_SPSkillMenu_Init
+int		bss_76a3c; // Used by: UI_SPSkillMenu_Init
+int		bss_76a40;
+int		bss_76a44; // Used by: UI_SPSkillMenu_Init
+char	bss_76a48[8];
 int		bss_76a50; // Used by: UI_SPSkillMenu_Init
-char	bss_76a54[28]; // Used by: UI_SPSkillMenu_Init
-char	bss_76a70[16]; // Used by: UI_SPSkillMenu_Init
+int		bss_76a54; // Used by: UI_SPSkillMenu_Init
+char	bss_76a58[24];
+int		bss_76a70; // Used by: UI_SPSkillMenu_Init
+char	bss_76a74[12];
 int		bss_76a80; // Used by: UI_SPSkillMenu_Init
 int		bss_76a84; // Used by: UI_SPSkillMenu_Init
 int		bss_76a88; // Used by: UI_SPSkillMenu_Init
-char	bss_76a8c[8]; // Used by: UI_SPSkillMenu_Init
+int		bss_76a8c; // Used by: UI_SPSkillMenu_Init
+int		bss_76a90;
 int		bss_76a94; // Used by: UI_SPSkillMenu_Init
 int		bss_76a98; // Used by: UI_SPSkillMenu_Init
-char	bss_76a9c[28]; // Used by: UI_SPSkillMenu_Init
+int		bss_76a9c; // Used by: UI_SPSkillMenu_Init
+char	bss_76aa0[24];
 int		bss_76ab8; // Used by: UI_SPSkillMenu_Init
-char	bss_76abc[12]; // Used by: UI_SPSkillMenu_Init
+int		bss_76abc; // Used by: UI_SPSkillMenu_Init
+char	bss_76ac0[8];
 int		bss_76ac8; // Used by: UI_SPSkillMenu_Init
 int		bss_76acc; // Used by: UI_SPSkillMenu_Init
 int		bss_76ad0; // Used by: UI_SPSkillMenu_Init, SetSkillColor
-char	bss_76ad4[8]; // Used by: UI_SPSkillMenu_Init
+int		bss_76ad4; // Used by: UI_SPSkillMenu_Init
+int		bss_76ad8;
 int		bss_76adc; // Used by: UI_SPSkillMenu_Init
 int		bss_76ae0; // Used by: UI_SPSkillMenu_Init
-char	bss_76ae4[28]; // Used by: UI_SPSkillMenu_Init
+int		bss_76ae4; // Used by: UI_SPSkillMenu_Init
+char	bss_76ae8[24];
 int		bss_76b00; // Used by: UI_SPSkillMenu_Init
-char	bss_76b04[12]; // Used by: UI_SPSkillMenu_Init
+int		bss_76b04; // Used by: UI_SPSkillMenu_Init
+char	bss_76b08[8];
 int		bss_76b10; // Used by: UI_SPSkillMenu_Init
 int		bss_76b14; // Used by: UI_SPSkillMenu_Init
 int		bss_76b18; // Used by: UI_SPSkillMenu_Init, SetSkillColor
-char	bss_76b1c[8]; // Used by: UI_SPSkillMenu_Init
+int		bss_76b1c; // Used by: UI_SPSkillMenu_Init
+int		bss_76b20;
 int		bss_76b24; // Used by: UI_SPSkillMenu_Init
 int		bss_76b28; // Used by: UI_SPSkillMenu_Init
-char	bss_76b2c[28]; // Used by: UI_SPSkillMenu_Init
+int		bss_76b2c; // Used by: UI_SPSkillMenu_Init
+char	bss_76b30[24];
 int		bss_76b48; // Used by: UI_SPSkillMenu_Init
-char	bss_76b4c[12]; // Used by: UI_SPSkillMenu_Init
+int		bss_76b4c; // Used by: UI_SPSkillMenu_Init
+char	bss_76b50[8];
 int		bss_76b58; // Used by: UI_SPSkillMenu_Init
 int		bss_76b5c; // Used by: UI_SPSkillMenu_Init
 int		bss_76b60; // Used by: UI_SPSkillMenu_Init, SetSkillColor
-char	bss_76b64[8]; // Used by: UI_SPSkillMenu_Init
+int		bss_76b64; // Used by: UI_SPSkillMenu_Init
+int		bss_76b68;
 int		bss_76b6c; // Used by: UI_SPSkillMenu_Init
 int		bss_76b70; // Used by: UI_SPSkillMenu_Init
-char	bss_76b74[28]; // Used by: UI_SPSkillMenu_Init
+int		bss_76b74; // Used by: UI_SPSkillMenu_Init
+char	bss_76b78[24];
 int		bss_76b90; // Used by: UI_SPSkillMenu_Init
-char	bss_76b94[12]; // Used by: UI_SPSkillMenu_Init
+int		bss_76b94; // Used by: UI_SPSkillMenu_Init
+char	bss_76b98[8];
 int		bss_76ba0; // Used by: UI_SPSkillMenu_Init
 int		bss_76ba4; // Used by: UI_SPSkillMenu_Init
 int		bss_76ba8; // Used by: UI_SPSkillMenu_Init, SetSkillColor
-char	bss_76bac[8]; // Used by: UI_SPSkillMenu_Init
+int		bss_76bac; // Used by: UI_SPSkillMenu_Init
+int		bss_76bb0;
 int		bss_76bb4; // Used by: UI_SPSkillMenu_Init
 int		bss_76bb8; // Used by: UI_SPSkillMenu_Init
-char	bss_76bbc[28]; // Used by: UI_SPSkillMenu_Init
+int		bss_76bbc; // Used by: UI_SPSkillMenu_Init
+char	bss_76bc0[24];
 int		bss_76bd8; // Used by: UI_SPSkillMenu_Init
-char	bss_76bdc[12]; // Used by: UI_SPSkillMenu_Init
+int		bss_76bdc; // Used by: UI_SPSkillMenu_Init
+char	bss_76be0[8];
 int		bss_76be8; // Used by: UI_SPSkillMenu_Init
 int		bss_76bec; // Used by: UI_SPSkillMenu_Init
 int		bss_76bf0; // Used by: UI_SPSkillMenu_Init, SetSkillColor
-char	bss_76bf4[12]; // Used by: UI_SPSkillMenu_Init
+int		bss_76bf4; // Used by: UI_SPSkillMenu_Init
+char	bss_76bf8[8];
 int		bss_76c00; // Used by: UI_SPSkillMenu_Init
-char	bss_76c04[28]; // Used by: UI_SPSkillMenu_Init
-char	bss_76c20[24]; // Used by: UI_SPSkillMenu_Init
-char	bss_76c38[8]; // Used by: UI_SPSkillMenu_Init, UI_SPSkillMenu_SkillEvent
+int		bss_76c04; // Used by: UI_SPSkillMenu_Init
+char	bss_76c08[24];
+int		bss_76c20; // Used by: UI_SPSkillMenu_Init
+char	bss_76c24[20];
+int		bss_76c38; // Used by: UI_SPSkillMenu_Init, UI_SPSkillMenu_SkillEvent
+int		bss_76c3c;
 int		bss_76c40; // Used by: UI_SPSkillMenu_Init
-char	bss_76c44[8]; // Used by: UI_SPSkillMenu_Init
+int		bss_76c44; // Used by: UI_SPSkillMenu_Init
+int		bss_76c48;
 int		bss_76c4c; // Used by: UI_SPSkillMenu_Init
 int		bss_76c50; // Used by: UI_SPSkillMenu_Init
 int		bss_76c54; // Used by: UI_SPSkillMenu_Init
 int		bss_76c58; // Used by: UI_SPSkillMenu_Init
-char	bss_76c5c[28]; // Used by: UI_SPSkillMenu_Init
+int		bss_76c5c; // Used by: UI_SPSkillMenu_Init
+char	bss_76c60[24];
 int		bss_76c78; // Used by: UI_SPSkillMenu_Init
-char	bss_76c7c[12]; // Used by: UI_SPSkillMenu_Init
-char	bss_76c88[16]; // Used by: UI_SPSkillMenu_Init
+int		bss_76c7c; // Used by: UI_SPSkillMenu_Init
+char	bss_76c80[8];
+int		bss_76c88; // Used by: UI_SPSkillMenu_Init
+char	bss_76c8c[12];
 int		bss_76c98; // Used by: UI_SPSkillMenu_Init
-char	bss_76c9c[8]; // Used by: UI_SPSkillMenu_Init
+int		bss_76c9c; // Used by: UI_SPSkillMenu_Init
+int		bss_76ca0;
 int		bss_76ca4; // Used by: UI_SPSkillMenu_Init
 int		bss_76ca8; // Used by: UI_SPSkillMenu_Init
 int		bss_76cac; // Used by: UI_SPSkillMenu_Init
 int		bss_76cb0; // Used by: UI_SPSkillMenu_Init
-char	bss_76cb4[28]; // Used by: UI_SPSkillMenu_Init
+int		bss_76cb4; // Used by: UI_SPSkillMenu_Init
+char	bss_76cb8[24];
 int		bss_76cd0; // Used by: UI_SPSkillMenu_Init
-char	bss_76cd4[12]; // Used by: UI_SPSkillMenu_Init
-char	bss_76ce0[16]; // Used by: UI_SPSkillMenu_Init
+int		bss_76cd4; // Used by: UI_SPSkillMenu_Init
+char	bss_76cd8[8];
+int		bss_76ce0; // Used by: UI_SPSkillMenu_Init
+char	bss_76ce4[12];
 int		bss_76cf0; // Used by: UI_SPSkillMenu_Init
-char	bss_76cf4[8]; // Used by: UI_SPSkillMenu_Init
+int		bss_76cf4; // Used by: UI_SPSkillMenu_Init
+int		bss_76cf8;
 int		bss_76cfc; // Used by: UI_SPSkillMenu, UI_SPSkillMenu_FightEvent
 int		bss_76d00; // Used by: UI_SPSkillMenu_Cache
 int		bss_76d04; // Used by: UI_SPSkillMenu_Cache
@@ -2750,385 +3794,575 @@ int		bss_76d08; // Used by: UI_SPSkillMenu_Cache
 int		bss_76d0c; // Used by: UI_SPSkillMenu_Cache
 int		bss_76d10; // Used by: UI_SPSkillMenu_Cache
 int		bss_76d14; // Used by: UI_SPSkillMenu_Init, UI_SPSkillMenu_Cache, UI_SPSkillMenu_SkillEvent
-char	bss_76d18[388]; // Used by: UI_SPSkillMenu_Cache, UI_SPSkillMenu_Key, UI_SPSkillMenu_BackEvent, UI_SPSkillMenu_SkillEvent
+int		bss_76d18; // Used by: UI_SPSkillMenu_Cache, UI_SPSkillMenu_Key, UI_SPSkillMenu_BackEvent, UI_SPSkillMenu_SkillEvent
+char	bss_76d1c[384];
 char	botSelectInfo[276];
 int		bss_76fb0; // Used by: UI_BotSelectMenu_Init
-char	bss_76fb4[8]; // Used by: UI_BotSelectMenu_Init
-char	bss_76fbc[12]; // Used by: UI_BotSelectMenu_Init
+int		bss_76fb4; // Used by: UI_BotSelectMenu_Init
+int		bss_76fb8;
+int		bss_76fbc; // Used by: UI_BotSelectMenu_Init
+char	bss_76fc0[8];
 int		bss_76fc8; // Used by: UI_BotSelectMenu_Init
-char	bss_76fcc[44]; // Used by: UI_BotSelectMenu_Init
+int		bss_76fcc; // Used by: UI_BotSelectMenu_Init
+char	bss_76fd0[40];
 int		bss_76ff8; // Used by: UI_BotSelectMenu_Init
 int		bss_76ffc; // Used by: UI_BotSelectMenu_Init
-char	bss_77000[3972]; // Used by: UI_BotSelectMenu_Init
+int		bss_77000; // Used by: UI_BotSelectMenu_Init
+char	bss_77004[3968];
 int		bss_77f84; // Used by: UI_BotSelectMenu_Init
-char	bss_77f88[8]; // Used by: UI_BotSelectMenu_Init
+int		bss_77f88; // Used by: UI_BotSelectMenu_Init
+int		bss_77f8c;
 int		bss_77f90; // Used by: UI_BotSelectMenu_Init
-char	bss_77f94[28]; // Used by: UI_BotSelectMenu_Init
-char	bss_77fb0[32]; // Used by: UI_BotSelectMenu_Init
+int		bss_77f94; // Used by: UI_BotSelectMenu_Init
+char	bss_77f98[24];
+int		bss_77fb0; // Used by: UI_BotSelectMenu_Init
+char	bss_77fb4[28];
 int		bss_77fd0; // Used by: UI_BotSelectMenu_Init
-char	bss_77fd4[8]; // Used by: UI_BotSelectMenu_Init
-char	bss_77fdc[12]; // Used by: UI_BotSelectMenu_Init
+int		bss_77fd4; // Used by: UI_BotSelectMenu_Init
+int		bss_77fd8;
+int		bss_77fdc; // Used by: UI_BotSelectMenu_Init
+char	bss_77fe0[8];
 int		bss_77fe8; // Used by: UI_BotSelectMenu_Init
-char	bss_77fec[28]; // Used by: UI_BotSelectMenu_Init
+int		bss_77fec; // Used by: UI_BotSelectMenu_Init
+char	bss_77ff0[24];
 int		bss_78008; // Used by: UI_BotSelectMenu_Init
-char	bss_7800c[12]; // Used by: UI_BotSelectMenu_Init
-char	bss_78018[16]; // Used by: UI_BotSelectMenu_Init
+int		bss_7800c; // Used by: UI_BotSelectMenu_Init
+char	bss_78010[8];
+int		bss_78018; // Used by: UI_BotSelectMenu_Init
+char	bss_7801c[12];
 int		bss_78028; // Used by: UI_BotSelectMenu_Init
-char	bss_7802c[8]; // Used by: UI_BotSelectMenu_Init
-char	bss_78034[12]; // Used by: UI_BotSelectMenu_Init
+int		bss_7802c; // Used by: UI_BotSelectMenu_Init
+int		bss_78030;
+int		bss_78034; // Used by: UI_BotSelectMenu_Init
+char	bss_78038[8];
 int		bss_78040; // Used by: UI_BotSelectMenu_Init
-char	bss_78044[28]; // Used by: UI_BotSelectMenu_Init
+int		bss_78044; // Used by: UI_BotSelectMenu_Init
+char	bss_78048[24];
 int		bss_78060; // Used by: UI_BotSelectMenu_Init
-char	bss_78064[12]; // Used by: UI_BotSelectMenu_Init
-char	bss_78070[16]; // Used by: UI_BotSelectMenu_Init
+int		bss_78064; // Used by: UI_BotSelectMenu_Init
+char	bss_78068[8];
+int		bss_78070; // Used by: UI_BotSelectMenu_Init
+char	bss_78074[12];
 int		bss_78080; // Used by: UI_BotSelectMenu_Init
-char	bss_78084[8]; // Used by: UI_BotSelectMenu_Init
+int		bss_78084; // Used by: UI_BotSelectMenu_Init
+int		bss_78088;
 int		bss_7808c; // Used by: UI_BotSelectMenu_Init
-char	bss_78090[8]; // Used by: UI_BotSelectMenu_Init
+int		bss_78090; // Used by: UI_BotSelectMenu_Init
+int		bss_78094;
 int		bss_78098; // Used by: UI_BotSelectMenu_Init
-char	bss_7809c[28]; // Used by: UI_BotSelectMenu_Init
+int		bss_7809c; // Used by: UI_BotSelectMenu_Init
+char	bss_780a0[24];
 int		bss_780b8; // Used by: UI_BotSelectMenu_Init
-char	bss_780bc[12]; // Used by: UI_BotSelectMenu_Init
-char	bss_780c8[16]; // Used by: UI_BotSelectMenu_Init
+int		bss_780bc; // Used by: UI_BotSelectMenu_Init
+char	bss_780c0[8];
+int		bss_780c8; // Used by: UI_BotSelectMenu_Init
+char	bss_780cc[12];
 int		bss_780d8; // Used by: UI_BotSelectMenu_Init
-char	bss_780dc[8]; // Used by: UI_BotSelectMenu_Init
+int		bss_780dc; // Used by: UI_BotSelectMenu_Init
+int		bss_780e0;
 int		bss_780e4; // Used by: UI_BotSelectMenu_Init
-char	bss_780e8[8]; // Used by: UI_BotSelectMenu_Init
+int		bss_780e8; // Used by: UI_BotSelectMenu_Init
+int		bss_780ec;
 int		bss_780f0; // Used by: UI_BotSelectMenu_Init
-char	bss_780f4[28]; // Used by: UI_BotSelectMenu_Init
+int		bss_780f4; // Used by: UI_BotSelectMenu_Init
+char	bss_780f8[24];
 int		bss_78110; // Used by: UI_BotSelectMenu_Init
-char	bss_78114[12]; // Used by: UI_BotSelectMenu_Init
-char	bss_78120[16]; // Used by: UI_BotSelectMenu_Init
+int		bss_78114; // Used by: UI_BotSelectMenu_Init
+char	bss_78118[8];
+int		bss_78120; // Used by: UI_BotSelectMenu_Init
+char	bss_78124[12];
 int		bss_78130; // Used by: UI_BotSelectMenu_Init
-char	bss_78134[8]; // Used by: UI_BotSelectMenu_Init
+int		bss_78134; // Used by: UI_BotSelectMenu_Init
+int		bss_78138;
 int		bss_7813c; // Used by: UI_BotSelectMenu_Default, UI_BotSelectMenu_UpdateGrid, UI_BotSelectMenu_BuildList
 int		bss_78140; // Used by: UI_BotSelectMenu_Init, UI_BotSelectMenu_BotEvent, UI_BotSelectMenu_RightEvent, UI_BotSelectMenu_LeftEvent, UI_BotSelectMenu_UpdateGrid, UI_BotSelectMenu_BuildList
 int		bss_78144; // Used by: UI_BotSelectMenu_RightEvent, UI_BotSelectMenu_UpdateGrid, UI_BotSelectMenu_BuildList
-char	bss_78148[5380]; // Used by: UI_BotSelectMenu_Init, UI_BotSelectMenu_SelectEvent, UI_BotSelectMenu_BotEvent, UI_BotSelectMenu_RightEvent, UI_BotSelectMenu_LeftEvent, UI_BotSelectMenu_Default, UI_BotSelectMenu_UpdateGrid
+int		bss_78148; // Used by: UI_BotSelectMenu_Init, UI_BotSelectMenu_SelectEvent, UI_BotSelectMenu_BotEvent, UI_BotSelectMenu_RightEvent, UI_BotSelectMenu_LeftEvent, UI_BotSelectMenu_Default, UI_BotSelectMenu_UpdateGrid
+char	bss_7814c[5376];
 char	s_serveroptions[276];
 int		bss_79760; // Used by: ServerOptions_MenuInit
-char	bss_79764[8]; // Used by: ServerOptions_MenuInit
-char	bss_7976c[12]; // Used by: ServerOptions_MenuInit
+int		bss_79764; // Used by: ServerOptions_MenuInit
+int		bss_79768;
+int		bss_7976c; // Used by: ServerOptions_MenuInit
+char	bss_79770[8];
 int		bss_79778; // Used by: ServerOptions_MenuInit
-char	bss_7977c[44]; // Used by: ServerOptions_MenuInit
+int		bss_7977c; // Used by: ServerOptions_MenuInit
+char	bss_79780[40];
 int		bss_797a8; // Used by: ServerOptions_MenuInit
 int		bss_797ac; // Used by: ServerOptions_MenuInit
 int		bss_797b0; // Used by: ServerOptions_MenuInit
 int		bss_797b4; // Used by: ServerOptions_MenuInit
-char	bss_797b8[8]; // Used by: ServerOptions_SetMenuItems
+int		bss_797b8; // Used by: ServerOptions_SetMenuItems
+int		bss_797bc;
 int		bss_797c0; // Used by: ServerOptions_MenuInit
-char	bss_797c4[28]; // Used by: ServerOptions_MenuInit
-char	bss_797e0[12]; // Used by: ServerOptions_MenuInit
-char	bss_797ec[8]; // Used by: ServerOptions_MenuInit
-char	bss_797f4[12]; // Used by: ServerOptions_MenuInit
+int		bss_797c4; // Used by: ServerOptions_MenuInit
+char	bss_797c8[24];
+int		bss_797e0; // Used by: ServerOptions_MenuInit
+char	bss_797e4[8];
+int		bss_797ec; // Used by: ServerOptions_MenuInit
+int		bss_797f0;
+int		bss_797f4; // Used by: ServerOptions_MenuInit
+char	bss_797f8[8];
 int		bss_79800; // Used by: ServerOptions_MenuInit
-char	bss_79804[8]; // Used by: ServerOptions_MenuInit
-char	bss_7980c[12]; // Used by: ServerOptions_MenuInit
+int		bss_79804; // Used by: ServerOptions_MenuInit
+int		bss_79808;
+int		bss_7980c; // Used by: ServerOptions_MenuInit
+char	bss_79810[8];
 int		bss_79818; // Used by: ServerOptions_MenuInit
-char	bss_7981c[28]; // Used by: ServerOptions_MenuInit
-char	bss_79838[16]; // Used by: ServerOptions_MenuInit
-char	bss_79848[16]; // Used by: ServerOptions_MenuInit
+int		bss_7981c; // Used by: ServerOptions_MenuInit
+char	bss_79820[24];
+int		bss_79838; // Used by: ServerOptions_MenuInit
+char	bss_7983c[12];
+int		bss_79848; // Used by: ServerOptions_MenuInit
+char	bss_7984c[12];
 int		bss_79858; // Used by: ServerOptions_MenuInit
-char	bss_7985c[8]; // Used by: ServerOptions_MenuInit
+int		bss_7985c; // Used by: ServerOptions_MenuInit
+int		bss_79860;
 int		bss_79864; // Used by: ServerOptions_MenuInit
 int		bss_79868; // Used by: ServerOptions_MenuInit
 int		bss_7986c; // Used by: ServerOptions_MenuInit
 int		bss_79870; // Used by: ServerOptions_MenuInit
-char	bss_79874[28]; // Used by: ServerOptions_MenuInit
+int		bss_79874; // Used by: ServerOptions_MenuInit
+char	bss_79878[24];
 int		bss_79890; // Used by: ServerOptions_MenuInit
-char	bss_79894[16]; // Used by: ServerOptions_MenuInit
-char	bss_798a4[12]; // Used by: ServerOptions_SetPlayerItems, ServerOptions_InitPlayerItems, ServerOptions_Start
-char	bss_798b0[20]; // Used by: ServerOptions_MenuInit
+int		bss_79894; // Used by: ServerOptions_MenuInit
+char	bss_79898[12];
+int		bss_798a4; // Used by: ServerOptions_SetPlayerItems, ServerOptions_InitPlayerItems, ServerOptions_Start
+char	bss_798a8[8];
+int		bss_798b0; // Used by: ServerOptions_MenuInit
+char	bss_798b4[16];
 int		bss_798c4; // Used by: ServerOptions_MenuInit
-char	bss_798c8[8]; // Used by: ServerOptions_MenuInit
+int		bss_798c8; // Used by: ServerOptions_MenuInit
+int		bss_798cc;
 int		bss_798d0; // Used by: ServerOptions_MenuInit
-char	bss_798d4[28]; // Used by: ServerOptions_MenuInit
-char	bss_798f0[8]; // Used by: ServerOptions_MenuInit
-char	bss_798f8[16]; // Used by: ServerOptions_MenuInit
-char	bss_79908[260]; // Used by: ServerOptions_MenuInit
+int		bss_798d4; // Used by: ServerOptions_MenuInit
+char	bss_798d8[24];
+int		bss_798f0; // Used by: ServerOptions_MenuInit
+int		bss_798f4;
+int		bss_798f8; // Used by: ServerOptions_MenuInit
+char	bss_798fc[12];
+int		bss_79908; // Used by: ServerOptions_MenuInit
+char	bss_7990c[256];
 int		bss_79a0c; // Used by: ServerOptions_MenuInit
 int		bss_79a10; // Used by: ServerOptions_MenuInit
-char	bss_79a14[8]; // Used by: ServerOptions_MenuInit
+int		bss_79a14; // Used by: ServerOptions_MenuInit
+int		bss_79a18;
 int		bss_79a1c; // Used by: ServerOptions_MenuInit
-char	bss_79a20[28]; // Used by: ServerOptions_MenuInit
-char	bss_79a3c[8]; // Used by: ServerOptions_MenuInit
-char	bss_79a44[16]; // Used by: ServerOptions_MenuInit
-char	bss_79a54[260]; // Used by: ServerOptions_MenuInit
+int		bss_79a20; // Used by: ServerOptions_MenuInit
+char	bss_79a24[24];
+int		bss_79a3c; // Used by: ServerOptions_MenuInit
+int		bss_79a40;
+int		bss_79a44; // Used by: ServerOptions_MenuInit
+char	bss_79a48[12];
+int		bss_79a54; // Used by: ServerOptions_MenuInit
+char	bss_79a58[256];
 int		bss_79b58; // Used by: ServerOptions_MenuInit
 int		bss_79b5c; // Used by: ServerOptions_MenuInit
-char	bss_79b60[8]; // Used by: ServerOptions_MenuInit
+int		bss_79b60; // Used by: ServerOptions_MenuInit
+int		bss_79b64;
 int		bss_79b68; // Used by: ServerOptions_MenuInit
-char	bss_79b6c[28]; // Used by: ServerOptions_MenuInit
-char	bss_79b88[8]; // Used by: ServerOptions_MenuInit
-char	bss_79b90[16]; // Used by: ServerOptions_MenuInit
-char	bss_79ba0[260]; // Used by: ServerOptions_MenuInit
+int		bss_79b6c; // Used by: ServerOptions_MenuInit
+char	bss_79b70[24];
+int		bss_79b88; // Used by: ServerOptions_MenuInit
+int		bss_79b8c;
+int		bss_79b90; // Used by: ServerOptions_MenuInit
+char	bss_79b94[12];
+int		bss_79ba0; // Used by: ServerOptions_MenuInit
+char	bss_79ba4[256];
 int		bss_79ca4; // Used by: ServerOptions_MenuInit
 int		bss_79ca8; // Used by: ServerOptions_MenuInit
-char	bss_79cac[8]; // Used by: ServerOptions_MenuInit
+int		bss_79cac; // Used by: ServerOptions_MenuInit
+int		bss_79cb0;
 int		bss_79cb4; // Used by: ServerOptions_MenuInit
-char	bss_79cb8[28]; // Used by: ServerOptions_MenuInit
-char	bss_79cd4[16]; // Used by: ServerOptions_MenuInit
+int		bss_79cb8; // Used by: ServerOptions_MenuInit
+char	bss_79cbc[24];
+int		bss_79cd4; // Used by: ServerOptions_MenuInit
+char	bss_79cd8[12];
 int		bss_79ce4; // Used by: ServerOptions_SetMenuItems, ServerOptions_Start
 int		bss_79ce8; // Used by: ServerOptions_MenuInit
-char	bss_79cec[8]; // Used by: ServerOptions_MenuInit
+int		bss_79cec; // Used by: ServerOptions_MenuInit
+int		bss_79cf0;
 int		bss_79cf4; // Used by: ServerOptions_MenuInit
-char	bss_79cf8[28]; // Used by: ServerOptions_MenuInit
-char	bss_79d14[24]; // Used by: ServerOptions_MenuInit
-char	bss_79d2c[260]; // Used by: ServerOptions_MenuInit
+int		bss_79cf8; // Used by: ServerOptions_MenuInit
+char	bss_79cfc[24];
+int		bss_79d14; // Used by: ServerOptions_MenuInit
+char	bss_79d18[20];
+int		bss_79d2c; // Used by: ServerOptions_MenuInit
+char	bss_79d30[256];
 int		bss_79e30; // Used by: ServerOptions_MenuInit
 int		bss_79e34; // Used by: ServerOptions_MenuInit
-char	bss_79e38[8]; // Used by: ServerOptions_MenuInit
+int		bss_79e38; // Used by: ServerOptions_MenuInit
+int		bss_79e3c;
 int		bss_79e40; // Used by: ServerOptions_MenuInit
-char	bss_79e44[28]; // Used by: ServerOptions_MenuInit
-char	bss_79e60[16]; // Used by: ServerOptions_MenuInit
+int		bss_79e44; // Used by: ServerOptions_MenuInit
+char	bss_79e48[24];
+int		bss_79e60; // Used by: ServerOptions_MenuInit
+char	bss_79e64[12];
 int		bss_79e70; // Used by: ServerOptions_SetMenuItems, ServerOptions_Start
 int		bss_79e74; // Used by: ServerOptions_MenuInit
-char	bss_79e78[8]; // Used by: ServerOptions_MenuInit
+int		bss_79e78; // Used by: ServerOptions_MenuInit
+int		bss_79e7c;
 int		bss_79e80; // Used by: ServerOptions_MenuInit
-char	bss_79e84[28]; // Used by: ServerOptions_MenuInit
-char	bss_79ea0[20]; // Used by: ServerOptions_MenuInit
-char	bss_79eb4[12]; // Used by: ServerOptions_MenuInit, ServerOptions_Start
-char	bss_79ec0[20]; // Used by: ServerOptions_MenuInit
-char	bss_79ed4[12]; // Used by: ServerOptions_MenuInit
+int		bss_79e84; // Used by: ServerOptions_MenuInit
+char	bss_79e88[24];
+int		bss_79ea0; // Used by: ServerOptions_MenuInit
+char	bss_79ea4[16];
+int		bss_79eb4; // Used by: ServerOptions_MenuInit, ServerOptions_Start
+char	bss_79eb8[8];
+int		bss_79ec0; // Used by: ServerOptions_MenuInit
+char	bss_79ec4[16];
+int		bss_79ed4; // Used by: ServerOptions_MenuInit
+char	bss_79ed8[8];
 int		bss_79ee0; // Used by: ServerOptions_MenuInit
-char	bss_79ee4[28]; // Used by: ServerOptions_MenuInit
-char	bss_79f00[16]; // Used by: ServerOptions_MenuInit
+int		bss_79ee4; // Used by: ServerOptions_MenuInit
+char	bss_79ee8[24];
+int		bss_79f00; // Used by: ServerOptions_MenuInit
+char	bss_79f04[12];
 int		bss_79f10; // Used by: ServerOptions_SetPlayerItems
 int		bss_79f14; // Used by: ServerOptions_MenuInit
-char	bss_79f18[68]; // Used by: ServerOptions_MenuInit
-char	bss_79f5c[288]; // Used by: ServerOptions_InitPlayerItems
-char	bss_7a07c[96]; // Used by: ServerOptions_InitBotNames
-char	bss_7a0dc[96]; // Used by: ServerOptions_InitBotNames
-char	bss_7a13c[384]; // Used by: ServerOptions_InitBotNames
-char	bss_7a2bc[96]; // Used by: ServerOptions_InitBotNames
-char	bss_7a31c[96]; // Used by: ServerOptions_InitBotNames
-char	bss_7a37c[960]; // Used by: ServerOptions_InitBotNames
-char	bss_7a73c[1088]; // Used by: ServerOptions_Start
+int		bss_79f18; // Used by: ServerOptions_MenuInit
+char	bss_79f1c[64];
+int		bss_79f5c; // Used by: ServerOptions_InitPlayerItems
+char	bss_79f60[284];
+int		bss_7a07c; // Used by: ServerOptions_InitBotNames
+char	bss_7a080[92];
+int		bss_7a0dc; // Used by: ServerOptions_InitBotNames
+char	bss_7a0e0[92];
+int		bss_7a13c; // Used by: ServerOptions_InitBotNames
+char	bss_7a140[380];
+int		bss_7a2bc; // Used by: ServerOptions_InitBotNames
+char	bss_7a2c0[92];
+int		bss_7a31c; // Used by: ServerOptions_InitBotNames
+char	bss_7a320[92];
+int		bss_7a37c; // Used by: ServerOptions_InitBotNames
+char	bss_7a380[956];
+int		bss_7a73c; // Used by: ServerOptions_Start
+char	bss_7a740[1084];
 int		bss_7ab7c; // Used by: ServerOptions_MenuInit
 int		bss_7ab80; // Used by: ServerOptions_MenuInit
 int		bss_7ab84; // Used by: ServerOptions_MenuInit
 int		bss_7ab88; // Used by: ServerOptions_MenuInit
-char	bss_7ab8c[28]; // Used by: ServerOptions_MenuInit
+int		bss_7ab8c; // Used by: ServerOptions_MenuInit
+char	bss_7ab90[24];
 int		bss_7aba8; // Used by: ServerOptions_MenuInit
-char	bss_7abac[12]; // Used by: ServerOptions_MenuInit
-char	bss_7abb8[16]; // Used by: ServerOptions_MenuInit
+int		bss_7abac; // Used by: ServerOptions_MenuInit
+char	bss_7abb0[8];
+int		bss_7abb8; // Used by: ServerOptions_MenuInit
+char	bss_7abbc[12];
 int		bss_7abc8; // Used by: ServerOptions_MenuInit
-char	bss_7abcc[8]; // Used by: ServerOptions_MenuInit
+int		bss_7abcc; // Used by: ServerOptions_MenuInit
+int		bss_7abd0;
 int		bss_7abd4; // Used by: ServerOptions_MenuInit
 int		bss_7abd8; // Used by: ServerOptions_MenuInit
 int		bss_7abdc; // Used by: ServerOptions_MenuInit
 int		bss_7abe0; // Used by: ServerOptions_MenuInit
-char	bss_7abe4[28]; // Used by: ServerOptions_MenuInit
+int		bss_7abe4; // Used by: ServerOptions_MenuInit
+char	bss_7abe8[24];
 int		bss_7ac00; // Used by: ServerOptions_MenuInit
 int		bss_7ac04; // Used by: ServerOptions_MenuInit
-char	bss_7ac08[8]; // Used by: ServerOptions_MenuInit
-char	bss_7ac10[16]; // Used by: ServerOptions_MenuInit
+int		bss_7ac08; // Used by: ServerOptions_MenuInit
+int		bss_7ac0c;
+int		bss_7ac10; // Used by: ServerOptions_MenuInit
+char	bss_7ac14[12];
 int		bss_7ac20; // Used by: ServerOptions_MenuInit
-char	bss_7ac24[8]; // Used by: ServerOptions_MenuInit
+int		bss_7ac24; // Used by: ServerOptions_MenuInit
+int		bss_7ac28;
 int		bss_7ac2c; // Used by: ServerOptions_MenuInit
 int		bss_7ac30; // Used by: ServerOptions_MenuInit
 int		bss_7ac34; // Used by: ServerOptions_MenuInit
 int		bss_7ac38; // Used by: ServerOptions_MenuInit
-char	bss_7ac3c[28]; // Used by: ServerOptions_MenuInit
+int		bss_7ac3c; // Used by: ServerOptions_MenuInit
+char	bss_7ac40[24];
 int		bss_7ac58; // Used by: ServerOptions_MenuInit
-char	bss_7ac5c[12]; // Used by: ServerOptions_MenuInit
-char	bss_7ac68[16]; // Used by: ServerOptions_MenuInit
+int		bss_7ac5c; // Used by: ServerOptions_MenuInit
+char	bss_7ac60[8];
+int		bss_7ac68; // Used by: ServerOptions_MenuInit
+char	bss_7ac6c[12];
 int		bss_7ac78; // Used by: ServerOptions_MenuInit
-char	bss_7ac7c[8]; // Used by: ServerOptions_MenuInit
+int		bss_7ac7c; // Used by: ServerOptions_MenuInit
+int		bss_7ac80;
 int		bss_7ac84; // Used by: ServerOptions_MenuInit, ServerOptions_InitPlayerItems
-char	bss_7ac88[228]; // Used by: ServerOptions_MenuInit, ServerOptions_SetMenuItems, ServerOptions_InitBotNames, ServerOptions_LevelshotDraw, ServerOptions_SetPlayerItems, ServerOptions_InitPlayerItems, ServerOptions_Start, BotAlreadySelected
+int		bss_7ac88; // Used by: ServerOptions_MenuInit, ServerOptions_SetMenuItems, ServerOptions_InitBotNames, ServerOptions_LevelshotDraw, ServerOptions_SetPlayerItems, ServerOptions_InitPlayerItems, ServerOptions_Start, BotAlreadySelected
+char	bss_7ac8c[224];
 int		bss_7ad6c; // Used by: UI_BotSelectMenu_SelectEvent, ServerOptions_LevelshotDraw
-char	bss_7ad70[20]; // Used by: ServerOptions_LevelshotDraw, ServerOptions_PlayerNameEvent, BotAlreadySelected
+int		bss_7ad70; // Used by: ServerOptions_LevelshotDraw, ServerOptions_PlayerNameEvent, BotAlreadySelected
+char	bss_7ad74[16];
 int		bss_7ad84; // Used by: ServerOptions_MenuInit
 int		bss_7ad88; // Used by: ServerOptions_MenuInit
 int		bss_7ad8c; // Used by: ServerOptions_MenuInit
 int		bss_7ad90; // Used by: ServerOptions_MenuInit
-char	bss_7ad94[28]; // Used by: ServerOptions_MenuInit
-char	bss_7adb0[20]; // Used by: ServerOptions_MenuInit
-char	bss_7adc4[12]; // Used by: ServerOptions_MenuInit, ServerOptions_Start
-char	bss_7add0[20]; // Used by: ServerOptions_MenuInit
+int		bss_7ad94; // Used by: ServerOptions_MenuInit
+char	bss_7ad98[24];
+int		bss_7adb0; // Used by: ServerOptions_MenuInit
+char	bss_7adb4[16];
+int		bss_7adc4; // Used by: ServerOptions_MenuInit, ServerOptions_Start
+char	bss_7adc8[8];
+int		bss_7add0; // Used by: ServerOptions_MenuInit
+char	bss_7add4[16];
 char	s_startserver[276];
 int		bss_7aef8; // Used by: StartServer_MenuInit
-char	bss_7aefc[8]; // Used by: StartServer_MenuInit
-char	bss_7af04[12]; // Used by: StartServer_MenuInit
+int		bss_7aefc; // Used by: StartServer_MenuInit
+int		bss_7af00;
+int		bss_7af04; // Used by: StartServer_MenuInit
+char	bss_7af08[8];
 int		bss_7af10; // Used by: StartServer_MenuInit
-char	bss_7af14[44]; // Used by: StartServer_MenuInit
+int		bss_7af14; // Used by: StartServer_MenuInit
+char	bss_7af18[40];
 int		bss_7af40; // Used by: StartServer_MenuInit
 int		bss_7af44; // Used by: StartServer_MenuInit
 int		bss_7af48; // Used by: StartServer_MenuInit
 int		bss_7af4c; // Used by: StartServer_MenuInit
-char	bss_7af50[8]; // Used by: StartServer_MenuInit
+int		bss_7af50; // Used by: StartServer_MenuInit
+int		bss_7af54;
 int		bss_7af58; // Used by: StartServer_MenuInit
-char	bss_7af5c[28]; // Used by: StartServer_MenuInit
-char	bss_7af78[32]; // Used by: StartServer_MenuInit
+int		bss_7af5c; // Used by: StartServer_MenuInit
+char	bss_7af60[24];
+int		bss_7af78; // Used by: StartServer_MenuInit
+char	bss_7af7c[28];
 int		bss_7af98; // Used by: StartServer_MenuInit
-char	bss_7af9c[8]; // Used by: StartServer_MenuInit
+int		bss_7af9c; // Used by: StartServer_MenuInit
+int		bss_7afa0;
 int		bss_7afa4; // Used by: StartServer_MenuInit
-char	bss_7afa8[8]; // Used by: StartServer_MenuInit
+int		bss_7afa8; // Used by: StartServer_MenuInit
+int		bss_7afac;
 int		bss_7afb0; // Used by: StartServer_MenuInit
-char	bss_7afb4[28]; // Used by: StartServer_MenuInit
-char	bss_7afd0[32]; // Used by: StartServer_MenuInit
+int		bss_7afb4; // Used by: StartServer_MenuInit
+char	bss_7afb8[24];
+int		bss_7afd0; // Used by: StartServer_MenuInit
+char	bss_7afd4[28];
 int		bss_7aff0; // Used by: StartServer_MenuInit
-char	bss_7aff4[8]; // Used by: StartServer_MenuInit
+int		bss_7aff4; // Used by: StartServer_MenuInit
+int		bss_7aff8;
 int		bss_7affc; // Used by: StartServer_MenuInit
 int		bss_7b000; // Used by: StartServer_MenuInit
 int		bss_7b004; // Used by: StartServer_MenuInit
 int		bss_7b008; // Used by: StartServer_MenuInit
-char	bss_7b00c[28]; // Used by: StartServer_MenuInit
+int		bss_7b00c; // Used by: StartServer_MenuInit
+char	bss_7b010[24];
 int		bss_7b028; // Used by: StartServer_MenuInit
-char	bss_7b02c[16]; // Used by: StartServer_MenuInit
-char	bss_7b03c[12]; // Used by: StartServer_MenuEvent, StartServer_GametypeEvent
-char	bss_7b048[724]; // Used by: StartServer_MenuInit
+int		bss_7b02c; // Used by: StartServer_MenuInit
+char	bss_7b030[12];
+int		bss_7b03c; // Used by: StartServer_MenuEvent, StartServer_GametypeEvent
+char	bss_7b040[8];
+int		bss_7b048; // Used by: StartServer_MenuInit
+char	bss_7b04c[720];
 int		bss_7b31c; // Used by: StartServer_MenuInit
-char	bss_7b320[8]; // Used by: StartServer_MenuInit
+int		bss_7b320; // Used by: StartServer_MenuInit
+int		bss_7b324;
 int		bss_7b328; // Used by: StartServer_MenuInit
-char	bss_7b32c[28]; // Used by: StartServer_MenuInit
-char	bss_7b348[32]; // Used by: StartServer_MenuInit
+int		bss_7b32c; // Used by: StartServer_MenuInit
+char	bss_7b330[24];
+int		bss_7b348; // Used by: StartServer_MenuInit
+char	bss_7b34c[28];
 int		bss_7b368; // Used by: StartServer_MenuInit
-char	bss_7b36c[8]; // Used by: StartServer_MenuInit
-char	bss_7b374[8]; // Used by: StartServer_MenuInit
+int		bss_7b36c; // Used by: StartServer_MenuInit
+int		bss_7b370;
+int		bss_7b374; // Used by: StartServer_MenuInit
+int		bss_7b378;
 int		bss_7b37c; // Used by: StartServer_MenuInit
 int		bss_7b380; // Used by: StartServer_MenuInit
-char	bss_7b384[28]; // Used by: StartServer_MenuInit
+int		bss_7b384; // Used by: StartServer_MenuInit
+char	bss_7b388[24];
 int		bss_7b3a0; // Used by: StartServer_MenuInit
-char	bss_7b3a4[12]; // Used by: StartServer_MenuInit
-char	bss_7b3b0[16]; // Used by: StartServer_MenuInit
+int		bss_7b3a4; // Used by: StartServer_MenuInit
+char	bss_7b3a8[8];
+int		bss_7b3b0; // Used by: StartServer_MenuInit
+char	bss_7b3b4[12];
 int		bss_7b3c0; // Used by: StartServer_MenuInit
-char	bss_7b3c4[8]; // Used by: StartServer_MenuInit
-char	bss_7b3cc[8]; // Used by: StartServer_MenuInit
+int		bss_7b3c4; // Used by: StartServer_MenuInit
+int		bss_7b3c8;
+int		bss_7b3cc; // Used by: StartServer_MenuInit
+int		bss_7b3d0;
 int		bss_7b3d4; // Used by: StartServer_MenuInit
 int		bss_7b3d8; // Used by: StartServer_MenuInit
-char	bss_7b3dc[28]; // Used by: StartServer_MenuInit
+int		bss_7b3dc; // Used by: StartServer_MenuInit
+char	bss_7b3e0[24];
 int		bss_7b3f8; // Used by: StartServer_MenuInit
-char	bss_7b3fc[12]; // Used by: StartServer_MenuInit
-char	bss_7b408[16]; // Used by: StartServer_MenuInit
+int		bss_7b3fc; // Used by: StartServer_MenuInit
+char	bss_7b400[8];
+int		bss_7b408; // Used by: StartServer_MenuInit
+char	bss_7b40c[12];
 int		bss_7b418; // Used by: StartServer_MenuInit
-char	bss_7b41c[8]; // Used by: StartServer_MenuInit
+int		bss_7b41c; // Used by: StartServer_MenuInit
+int		bss_7b420;
 int		bss_7b424; // Used by: StartServer_MenuInit
 int		bss_7b428; // Used by: StartServer_MenuInit
 int		bss_7b42c; // Used by: StartServer_MenuInit
 int		bss_7b430; // Used by: StartServer_MenuInit
-char	bss_7b434[28]; // Used by: StartServer_MenuInit
+int		bss_7b434; // Used by: StartServer_MenuInit
+char	bss_7b438[24];
 int		bss_7b450; // Used by: StartServer_MenuInit
-char	bss_7b454[12]; // Used by: StartServer_MenuInit
-char	bss_7b460[16]; // Used by: StartServer_MenuInit
+int		bss_7b454; // Used by: StartServer_MenuInit
+char	bss_7b458[8];
+int		bss_7b460; // Used by: StartServer_MenuInit
+char	bss_7b464[12];
 int		bss_7b470; // Used by: StartServer_MenuInit
-char	bss_7b474[8]; // Used by: StartServer_MenuInit
+int		bss_7b474; // Used by: StartServer_MenuInit
+int		bss_7b478;
 int		bss_7b47c; // Used by: StartServer_MenuInit
 int		bss_7b480; // Used by: StartServer_MenuInit
 int		bss_7b484; // Used by: StartServer_MenuInit
 int		bss_7b488; // Used by: StartServer_MenuInit
-char	bss_7b48c[28]; // Used by: StartServer_MenuInit
+int		bss_7b48c; // Used by: StartServer_MenuInit
+char	bss_7b490[24];
 int		bss_7b4a8; // Used by: StartServer_MenuInit
-char	bss_7b4ac[12]; // Used by: StartServer_MenuInit
-char	bss_7b4b8[16]; // Used by: StartServer_MenuInit
+int		bss_7b4ac; // Used by: StartServer_MenuInit
+char	bss_7b4b0[8];
+int		bss_7b4b8; // Used by: StartServer_MenuInit
+char	bss_7b4bc[12];
 int		bss_7b4c8; // Used by: StartServer_MenuInit
-char	bss_7b4cc[8]; // Used by: StartServer_MenuInit
-char	bss_7b4d4[12]; // Used by: StartServer_MenuInit
+int		bss_7b4cc; // Used by: StartServer_MenuInit
+int		bss_7b4d0;
+int		bss_7b4d4; // Used by: StartServer_MenuInit
+char	bss_7b4d8[8];
 int		bss_7b4e0; // Used by: StartServer_MenuInit
-char	bss_7b4e4[28]; // Used by: StartServer_MenuInit
-char	bss_7b500[16]; // Used by: StartServer_MenuInit
+int		bss_7b4e4; // Used by: StartServer_MenuInit
+char	bss_7b4e8[24];
+int		bss_7b500; // Used by: StartServer_MenuInit
+char	bss_7b504[12];
 int		bss_7b510; // Used by: ServerOptions_SetMenuItems, StartServer_MenuInit, StartServer_Update
 int		bss_7b514; // Used by: StartServer_MenuInit
 int		bss_7b518; // Used by: StartServer_MenuInit
-char	bss_7b51c[12]; // Used by: StartServer_MenuInit
+int		bss_7b51c; // Used by: StartServer_MenuInit
+char	bss_7b520[8];
 int		bss_7b528; // Used by: StartServer_MenuInit
-char	bss_7b52c[28]; // Used by: StartServer_MenuInit
-char	bss_7b548[32]; // Used by: StartServer_MenuInit
+int		bss_7b52c; // Used by: StartServer_MenuInit
+char	bss_7b530[24];
+int		bss_7b548; // Used by: StartServer_MenuInit
+char	bss_7b54c[28];
 int		bss_7b568; // Used by: StartServer_MenuInit
-char	bss_7b56c[8]; // Used by: StartServer_MenuInit
+int		bss_7b56c; // Used by: StartServer_MenuInit
+int		bss_7b570;
 int		bss_7b574; // Used by: UI_StartServerMenu, StartServer_MenuEvent
 int		bss_7b578; // Used by: ServerOptions_SetMenuItems, ServerOptions_Start, StartServer_GametypeEvent, StartServer_MapEvent, StartServer_Update
 int		bss_7b57c; // Used by: StartServer_GametypeEvent, StartServer_Update
 int		bss_7b580; // Used by: StartServer_LevelshotDraw, StartServer_MenuEvent, StartServer_GametypeEvent, StartServer_MapEvent, StartServer_Update
-char	bss_7b584[4100]; // Used by: StartServer_MenuEvent, StartServer_GametypeEvent
+int		bss_7b584; // Used by: StartServer_MenuEvent, StartServer_GametypeEvent
+char	bss_7b588[4096];
 char	s_teammain[276];
 int		bss_7c69c; // Used by: TeamMain_MenuInit
-char	bss_7c6a0[8]; // Used by: TeamMain_MenuInit
+int		bss_7c6a0; // Used by: TeamMain_MenuInit
+int		bss_7c6a4;
 int		bss_7c6a8; // Used by: TeamMain_MenuInit
-char	bss_7c6ac[8]; // Used by: TeamMain_MenuInit
+int		bss_7c6ac; // Used by: TeamMain_MenuInit
+int		bss_7c6b0;
 int		bss_7c6b4; // Used by: TeamMain_MenuInit
-char	bss_7c6b8[28]; // Used by: TeamMain_MenuInit
-char	bss_7c6d4[32]; // Used by: TeamMain_MenuInit
+int		bss_7c6b8; // Used by: TeamMain_MenuInit
+char	bss_7c6bc[24];
+int		bss_7c6d4; // Used by: TeamMain_MenuInit
+char	bss_7c6d8[28];
 int		bss_7c6f4; // Used by: TeamMain_MenuInit
-char	bss_7c6f8[8]; // Used by: TeamMain_MenuInit
-char	bss_7c700[8]; // Used by: TeamMain_MenuInit
+int		bss_7c6f8; // Used by: TeamMain_MenuInit
+int		bss_7c6fc;
+int		bss_7c700; // Used by: TeamMain_MenuInit
+int		bss_7c704;
 int		bss_7c708; // Used by: TeamMain_MenuInit
 int		bss_7c70c; // Used by: TeamMain_MenuInit
-char	bss_7c710[28]; // Used by: TeamMain_MenuInit
+int		bss_7c710; // Used by: TeamMain_MenuInit
+char	bss_7c714[24];
 int		bss_7c72c; // Used by: TeamMain_MenuInit
-char	bss_7c730[12]; // Used by: TeamMain_MenuInit
+int		bss_7c730; // Used by: TeamMain_MenuInit
+char	bss_7c734[8];
 int		bss_7c73c; // Used by: TeamMain_MenuInit
 int		bss_7c740; // Used by: TeamMain_MenuInit
 int		bss_7c744; // Used by: TeamMain_MenuInit
-char	bss_7c748[8]; // Used by: TeamMain_MenuInit
+int		bss_7c748; // Used by: TeamMain_MenuInit
+int		bss_7c74c;
 int		bss_7c750; // Used by: TeamMain_MenuInit
 int		bss_7c754; // Used by: TeamMain_MenuInit
-char	bss_7c758[28]; // Used by: TeamMain_MenuInit
+int		bss_7c758; // Used by: TeamMain_MenuInit
+char	bss_7c75c[24];
 int		bss_7c774; // Used by: TeamMain_MenuInit
-char	bss_7c778[12]; // Used by: TeamMain_MenuInit
+int		bss_7c778; // Used by: TeamMain_MenuInit
+char	bss_7c77c[8];
 int		bss_7c784; // Used by: TeamMain_MenuInit
 int		bss_7c788; // Used by: TeamMain_MenuInit
 int		bss_7c78c; // Used by: TeamMain_MenuInit
-char	bss_7c790[8]; // Used by: TeamMain_MenuInit
+int		bss_7c790; // Used by: TeamMain_MenuInit
+int		bss_7c794;
 int		bss_7c798; // Used by: TeamMain_MenuInit
 int		bss_7c79c; // Used by: TeamMain_MenuInit
-char	bss_7c7a0[28]; // Used by: TeamMain_MenuInit
+int		bss_7c7a0; // Used by: TeamMain_MenuInit
+char	bss_7c7a4[24];
 int		bss_7c7bc; // Used by: TeamMain_MenuInit
-char	bss_7c7c0[12]; // Used by: TeamMain_MenuInit
+int		bss_7c7c0; // Used by: TeamMain_MenuInit
+char	bss_7c7c4[8];
 int		bss_7c7cc; // Used by: TeamMain_MenuInit
 int		bss_7c7d0; // Used by: TeamMain_MenuInit
 int		bss_7c7d4; // Used by: TeamMain_MenuInit
-char	bss_7c7d8[8]; // Used by: TeamMain_MenuInit
+int		bss_7c7d8; // Used by: TeamMain_MenuInit
+int		bss_7c7dc;
 int		bss_7c7e0; // Used by: TeamMain_MenuInit
 int		bss_7c7e4; // Used by: TeamMain_MenuInit
-char	bss_7c7e8[28]; // Used by: TeamMain_MenuInit
+int		bss_7c7e8; // Used by: TeamMain_MenuInit
+char	bss_7c7ec[24];
 int		bss_7c804; // Used by: TeamMain_MenuInit
-char	bss_7c808[12]; // Used by: TeamMain_MenuInit
+int		bss_7c808; // Used by: TeamMain_MenuInit
+char	bss_7c80c[8];
 int		bss_7c814; // Used by: TeamMain_MenuInit
 int		bss_7c818; // Used by: TeamMain_MenuInit
 int		bss_7c81c; // Used by: TeamMain_MenuInit
 char	teamOrdersMenuInfo[272];
-char	bss_7c930[8]; // Used by: UI_TeamOrdersMenu_Init
-char	bss_7c938[8]; // Used by: UI_TeamOrdersMenu_Init
-char	bss_7c940[12]; // Used by: UI_TeamOrdersMenu_Init
+int		bss_7c930; // Used by: UI_TeamOrdersMenu_Init
+int		bss_7c934;
+int		bss_7c938; // Used by: UI_TeamOrdersMenu_Init
+int		bss_7c93c;
+int		bss_7c940; // Used by: UI_TeamOrdersMenu_Init
+char	bss_7c944[8];
 int		bss_7c94c; // Used by: UI_TeamOrdersMenu_Init
-char	bss_7c950[44]; // Used by: UI_TeamOrdersMenu_Init
+int		bss_7c950; // Used by: UI_TeamOrdersMenu_Init
+char	bss_7c954[40];
 int		bss_7c97c; // Used by: UI_TeamOrdersMenu_Init
 int		bss_7c980; // Used by: UI_TeamOrdersMenu_Init
 int		bss_7c984; // Used by: UI_TeamOrdersMenu_Init
 int		bss_7c988; // Used by: UI_TeamOrdersMenu_Init
-char	bss_7c98c[8]; // Used by: UI_TeamOrdersMenu_Init
+int		bss_7c98c; // Used by: UI_TeamOrdersMenu_Init
+int		bss_7c990;
 int		bss_7c994; // Used by: UI_TeamOrdersMenu_Init
-char	bss_7c998[28]; // Used by: UI_TeamOrdersMenu_Init
-char	bss_7c9b4[32]; // Used by: UI_TeamOrdersMenu_Init
+int		bss_7c998; // Used by: UI_TeamOrdersMenu_Init
+char	bss_7c99c[24];
+int		bss_7c9b4; // Used by: UI_TeamOrdersMenu_Init
+char	bss_7c9b8[28];
 int		bss_7c9d4; // Used by: UI_TeamOrdersMenu_Init
-char	bss_7c9d8[8]; // Used by: UI_TeamOrdersMenu_Init
-char	bss_7c9e0[8]; // Used by: UI_TeamOrdersMenu_Init
+int		bss_7c9d8; // Used by: UI_TeamOrdersMenu_Init
+int		bss_7c9dc;
+int		bss_7c9e0; // Used by: UI_TeamOrdersMenu_Init
+int		bss_7c9e4;
 int		bss_7c9e8; // Used by: UI_TeamOrdersMenu_SetList
 int		bss_7c9ec; // Used by: UI_TeamOrdersMenu_Init
 int		bss_7c9f0; // Used by: UI_TeamOrdersMenu_Init
 int		bss_7c9f4; // Used by: UI_TeamOrdersMenu_Init
 int		bss_7c9f8; // Used by: UI_TeamOrdersMenu_Init, UI_TeamOrdersMenu_SetList
 int		bss_7c9fc; // Used by: UI_TeamOrdersMenu_Init
-char	bss_7ca00[12]; // Used by: UI_TeamOrdersMenu_SetList
+int		bss_7ca00; // Used by: UI_TeamOrdersMenu_SetList
+char	bss_7ca04[8];
 int		bss_7ca0c; // Used by: UI_TeamOrdersMenu_Init
-char	bss_7ca10[8]; // Used by: UI_TeamOrdersMenu_Init
-char	bss_7ca18[12]; // Used by: UI_TeamOrdersMenu_Init
-char	bss_7ca24[8]; // Used by: UI_TeamOrdersMenu_SetList
-char	bss_7ca2c[20]; // Used by: UI_TeamOrdersMenu_SetList
+int		bss_7ca10; // Used by: UI_TeamOrdersMenu_Init
+int		bss_7ca14;
+int		bss_7ca18; // Used by: UI_TeamOrdersMenu_Init
+char	bss_7ca1c[8];
+int		bss_7ca24; // Used by: UI_TeamOrdersMenu_SetList
+int		bss_7ca28;
+int		bss_7ca2c; // Used by: UI_TeamOrdersMenu_SetList
+char	bss_7ca30[16];
 int		bss_7ca40; // Used by: UI_TeamOrdersMenu_Init
-char	bss_7ca44[8]; // Used by: UI_TeamOrdersMenu_Init
+int		bss_7ca44; // Used by: UI_TeamOrdersMenu_Init
+int		bss_7ca48;
 int		bss_7ca4c; // Used by: UI_TeamOrdersMenu_Init
-char	bss_7ca50[28]; // Used by: UI_TeamOrdersMenu_Init
+int		bss_7ca50; // Used by: UI_TeamOrdersMenu_Init
+char	bss_7ca54[24];
 int		bss_7ca6c; // Used by: UI_TeamOrdersMenu_Init
-char	bss_7ca70[12]; // Used by: UI_TeamOrdersMenu_Init
-char	bss_7ca7c[16]; // Used by: UI_TeamOrdersMenu_Init
+int		bss_7ca70; // Used by: UI_TeamOrdersMenu_Init
+char	bss_7ca74[8];
+int		bss_7ca7c; // Used by: UI_TeamOrdersMenu_Init
+char	bss_7ca80[12];
 int		bss_7ca8c; // Used by: UI_TeamOrdersMenu_Init
-char	bss_7ca90[8]; // Used by: UI_TeamOrdersMenu_Init
+int		bss_7ca90; // Used by: UI_TeamOrdersMenu_Init
+int		bss_7ca94;
 int		bss_7ca98; // Used by: UI_TeamOrdersMenu_f, UI_TeamOrdersMenu_BuildBotList, UI_TeamOrdersMenu_ListEvent
 int		bss_7ca9c; // Used by: UI_TeamOrdersMenu_BuildBotList, UI_TeamOrdersMenu_SetList
-char	bss_7caa0[184]; // Used by: UI_TeamOrdersMenu_ListEvent
+int		bss_7caa0; // Used by: UI_TeamOrdersMenu_ListEvent
+char	bss_7caa4[180];
 char	currentResolution[20];
 char	detectedResolutions[128];
 char	resbuf[1024]; // Used by: GraphicsOptions_GetResolutions
@@ -3137,62 +4371,86 @@ char	ratioToRes[128];
 char	ratioBuf[256];
 char	ratios[128];
 char	s_graphicsoptions[268];
-char	bss_7d378[8]; // Used by: GraphicsOptions_MenuInit
+int		bss_7d378; // Used by: GraphicsOptions_MenuInit
+int		bss_7d37c;
 int		bss_7d380; // Used by: GraphicsOptions_MenuInit
-char	bss_7d384[8]; // Used by: GraphicsOptions_MenuInit
-char	bss_7d38c[12]; // Used by: GraphicsOptions_MenuInit
+int		bss_7d384; // Used by: GraphicsOptions_MenuInit
+int		bss_7d388;
+int		bss_7d38c; // Used by: GraphicsOptions_MenuInit
+char	bss_7d390[8];
 int		bss_7d398; // Used by: GraphicsOptions_MenuInit
-char	bss_7d39c[44]; // Used by: GraphicsOptions_MenuInit
+int		bss_7d39c; // Used by: GraphicsOptions_MenuInit
+char	bss_7d3a0[40];
 int		bss_7d3c8; // Used by: GraphicsOptions_MenuInit
 int		bss_7d3cc; // Used by: GraphicsOptions_MenuInit
 int		bss_7d3d0; // Used by: GraphicsOptions_MenuInit
 int		bss_7d3d4; // Used by: GraphicsOptions_MenuInit
-char	bss_7d3d8[8]; // Used by: GraphicsOptions_MenuInit
+int		bss_7d3d8; // Used by: GraphicsOptions_MenuInit
+int		bss_7d3dc;
 int		bss_7d3e0; // Used by: GraphicsOptions_MenuInit
-char	bss_7d3e4[28]; // Used by: GraphicsOptions_MenuInit
-char	bss_7d400[32]; // Used by: GraphicsOptions_MenuInit
+int		bss_7d3e4; // Used by: GraphicsOptions_MenuInit
+char	bss_7d3e8[24];
+int		bss_7d400; // Used by: GraphicsOptions_MenuInit
+char	bss_7d404[28];
 int		bss_7d420; // Used by: GraphicsOptions_MenuInit
-char	bss_7d424[8]; // Used by: GraphicsOptions_MenuInit
+int		bss_7d424; // Used by: GraphicsOptions_MenuInit
+int		bss_7d428;
 int		bss_7d42c; // Used by: GraphicsOptions_MenuInit
-char	bss_7d430[8]; // Used by: GraphicsOptions_MenuInit
+int		bss_7d430; // Used by: GraphicsOptions_MenuInit
+int		bss_7d434;
 int		bss_7d438; // Used by: GraphicsOptions_MenuInit
-char	bss_7d43c[28]; // Used by: GraphicsOptions_MenuInit
-char	bss_7d458[32]; // Used by: GraphicsOptions_MenuInit
+int		bss_7d43c; // Used by: GraphicsOptions_MenuInit
+char	bss_7d440[24];
+int		bss_7d458; // Used by: GraphicsOptions_MenuInit
+char	bss_7d45c[28];
 int		bss_7d478; // Used by: GraphicsOptions_MenuInit
-char	bss_7d47c[8]; // Used by: GraphicsOptions_MenuInit
-char	bss_7d484[8]; // Used by: GraphicsOptions_MenuInit
+int		bss_7d47c; // Used by: GraphicsOptions_MenuInit
+int		bss_7d480;
+int		bss_7d484; // Used by: GraphicsOptions_MenuInit
+int		bss_7d488;
 int		bss_7d48c; // Used by: GraphicsOptions_MenuInit
 int		bss_7d490; // Used by: GraphicsOptions_MenuInit
-char	bss_7d494[28]; // Used by: GraphicsOptions_MenuInit
+int		bss_7d494; // Used by: GraphicsOptions_MenuInit
+char	bss_7d498[24];
 int		bss_7d4b0; // Used by: GraphicsOptions_MenuInit
-char	bss_7d4b4[12]; // Used by: GraphicsOptions_MenuInit
+int		bss_7d4b4; // Used by: GraphicsOptions_MenuInit
+char	bss_7d4b8[8];
 int		bss_7d4c0; // Used by: GraphicsOptions_MenuInit
 int		bss_7d4c4; // Used by: GraphicsOptions_MenuInit
 int		bss_7d4c8; // Used by: GraphicsOptions_MenuInit
-char	bss_7d4cc[8]; // Used by: GraphicsOptions_MenuInit
+int		bss_7d4cc; // Used by: GraphicsOptions_MenuInit
+int		bss_7d4d0;
 int		bss_7d4d4; // Used by: GraphicsOptions_MenuInit
 int		bss_7d4d8; // Used by: GraphicsOptions_MenuInit
-char	bss_7d4dc[28]; // Used by: GraphicsOptions_MenuInit
+int		bss_7d4dc; // Used by: GraphicsOptions_MenuInit
+char	bss_7d4e0[24];
 int		bss_7d4f8; // Used by: GraphicsOptions_MenuInit
-char	bss_7d4fc[12]; // Used by: GraphicsOptions_MenuInit
+int		bss_7d4fc; // Used by: GraphicsOptions_MenuInit
+char	bss_7d500[8];
 int		bss_7d508; // Used by: GraphicsOptions_MenuInit
 int		bss_7d50c; // Used by: GraphicsOptions_MenuInit
 int		bss_7d510; // Used by: GraphicsOptions_MenuInit
-char	bss_7d514[8]; // Used by: GraphicsOptions_MenuInit
+int		bss_7d514; // Used by: GraphicsOptions_MenuInit
+int		bss_7d518;
 int		bss_7d51c; // Used by: GraphicsOptions_MenuInit
 int		bss_7d520; // Used by: GraphicsOptions_MenuInit
-char	bss_7d524[28]; // Used by: GraphicsOptions_MenuInit
+int		bss_7d524; // Used by: GraphicsOptions_MenuInit
+char	bss_7d528[24];
 int		bss_7d540; // Used by: GraphicsOptions_MenuInit
-char	bss_7d544[12]; // Used by: GraphicsOptions_MenuInit
+int		bss_7d544; // Used by: GraphicsOptions_MenuInit
+char	bss_7d548[8];
 int		bss_7d550; // Used by: GraphicsOptions_MenuInit
 int		bss_7d554; // Used by: GraphicsOptions_MenuInit
 int		bss_7d558; // Used by: GraphicsOptions_MenuInit
-char	bss_7d55c[8]; // Used by: GraphicsOptions_MenuInit
+int		bss_7d55c; // Used by: GraphicsOptions_MenuInit
+int		bss_7d560;
 int		bss_7d564; // Used by: GraphicsOptions_MenuInit
 int		bss_7d568; // Used by: GraphicsOptions_MenuInit
-char	bss_7d56c[28]; // Used by: GraphicsOptions_MenuInit
+int		bss_7d56c; // Used by: GraphicsOptions_MenuInit
+char	bss_7d570[24];
 int		bss_7d588; // Used by: GraphicsOptions_MenuInit
-char	bss_7d58c[12]; // Used by: GraphicsOptions_MenuInit
+int		bss_7d58c; // Used by: GraphicsOptions_MenuInit
+char	bss_7d590[8];
 int		bss_7d598; // Used by: GraphicsOptions_MenuInit
 int		bss_7d59c; // Used by: GraphicsOptions_MenuInit
 int		bss_7d5a0; // Used by: GraphicsOptions_MenuInit
@@ -3200,122 +4458,190 @@ int		bss_7d5a4; // Used by: GraphicsOptions_MenuInit
 int		bss_7d5a8; // Used by: GraphicsOptions_MenuInit
 int		bss_7d5ac; // Used by: GraphicsOptions_MenuInit
 int		bss_7d5b0; // Used by: GraphicsOptions_MenuInit
-char	bss_7d5b4[28]; // Used by: GraphicsOptions_MenuInit
+int		bss_7d5b4; // Used by: GraphicsOptions_MenuInit
+char	bss_7d5b8[24];
 int		bss_7d5d0; // Used by: GraphicsOptions_MenuInit
-char	bss_7d5d4[16]; // Used by: GraphicsOptions_MenuInit
-char	bss_7d5e4[12]; // Used by: GraphicsOptions_Event, GraphicsOptions_CheckConfig
-char	bss_7d5f0[20]; // Used by: GraphicsOptions_MenuInit
+int		bss_7d5d4; // Used by: GraphicsOptions_MenuInit
+char	bss_7d5d8[12];
+int		bss_7d5e4; // Used by: GraphicsOptions_Event, GraphicsOptions_CheckConfig
+char	bss_7d5e8[8];
+int		bss_7d5f0; // Used by: GraphicsOptions_MenuInit
+char	bss_7d5f4[16];
 int		bss_7d604; // Used by: GraphicsOptions_MenuInit
 int		bss_7d608; // Used by: GraphicsOptions_MenuInit
 int		bss_7d60c; // Used by: GraphicsOptions_MenuInit
 int		bss_7d610; // Used by: GraphicsOptions_MenuInit
-char	bss_7d614[28]; // Used by: GraphicsOptions_MenuInit
+int		bss_7d614; // Used by: GraphicsOptions_MenuInit
+char	bss_7d618[24];
 int		bss_7d630; // Used by: GraphicsOptions_MenuInit
-char	bss_7d634[16]; // Used by: GraphicsOptions_MenuInit
-char	bss_7d644[12]; // Used by: GraphicsOptions_SetMenuItems, GraphicsOptions_Event
-char	bss_7d650[20]; // Used by: GraphicsOptions_MenuInit
+int		bss_7d634; // Used by: GraphicsOptions_MenuInit
+char	bss_7d638[12];
+int		bss_7d644; // Used by: GraphicsOptions_SetMenuItems, GraphicsOptions_Event
+char	bss_7d648[8];
+int		bss_7d650; // Used by: GraphicsOptions_MenuInit
+char	bss_7d654[16];
 int		bss_7d664; // Used by: GraphicsOptions_MenuInit
 int		bss_7d668; // Used by: GraphicsOptions_MenuInit
 int		bss_7d66c; // Used by: GraphicsOptions_MenuInit
 int		bss_7d670; // Used by: GraphicsOptions_MenuInit
-char	bss_7d674[28]; // Used by: GraphicsOptions_MenuInit
+int		bss_7d674; // Used by: GraphicsOptions_MenuInit
+char	bss_7d678[24];
 int		bss_7d690; // Used by: GraphicsOptions_MenuInit
-char	bss_7d694[16]; // Used by: GraphicsOptions_MenuInit
-char	bss_7d6a4[12]; // Used by: GraphicsOptions_SetMenuItems, GraphicsOptions_Event, GraphicsOptions_ApplyChanges, GraphicsOptions_UpdateMenuItems, GraphicsOptions_CheckConfig, GraphicsOptions_GetInitialVideo
-char	bss_7d6b0[20]; // Used by: GraphicsOptions_MenuInit
+int		bss_7d694; // Used by: GraphicsOptions_MenuInit
+char	bss_7d698[12];
+int		bss_7d6a4; // Used by: GraphicsOptions_SetMenuItems, GraphicsOptions_Event, GraphicsOptions_ApplyChanges, GraphicsOptions_UpdateMenuItems, GraphicsOptions_CheckConfig, GraphicsOptions_GetInitialVideo
+char	bss_7d6a8[8];
+int		bss_7d6b0; // Used by: GraphicsOptions_MenuInit
+char	bss_7d6b4[16];
 int		bss_7d6c4; // Used by: GraphicsOptions_MenuInit
-char	bss_7d6c8[8]; // Used by: GraphicsOptions_MenuInit
+int		bss_7d6c8; // Used by: GraphicsOptions_MenuInit
+int		bss_7d6cc;
 int		bss_7d6d0; // Used by: GraphicsOptions_MenuInit
-char	bss_7d6d4[28]; // Used by: GraphicsOptions_MenuInit
-char	bss_7d6f0[20]; // Used by: GraphicsOptions_MenuInit
-char	bss_7d704[12]; // Used by: GraphicsOptions_MenuInit, GraphicsOptions_SetMenuItems, GraphicsOptions_Event, GraphicsOptions_UpdateMenuItems, GraphicsOptions_CheckConfig, GraphicsOptions_GetInitialVideo
-char	bss_7d710[20]; // Used by: GraphicsOptions_MenuInit
+int		bss_7d6d4; // Used by: GraphicsOptions_MenuInit
+char	bss_7d6d8[24];
+int		bss_7d6f0; // Used by: GraphicsOptions_MenuInit
+char	bss_7d6f4[16];
+int		bss_7d704; // Used by: GraphicsOptions_MenuInit, GraphicsOptions_SetMenuItems, GraphicsOptions_Event, GraphicsOptions_UpdateMenuItems, GraphicsOptions_CheckConfig, GraphicsOptions_GetInitialVideo
+char	bss_7d708[8];
+int		bss_7d710; // Used by: GraphicsOptions_MenuInit
+char	bss_7d714[16];
 int		bss_7d724; // Used by: GraphicsOptions_MenuInit
-char	bss_7d728[8]; // Used by: GraphicsOptions_MenuInit
+int		bss_7d728; // Used by: GraphicsOptions_MenuInit
+int		bss_7d72c;
 int		bss_7d730; // Used by: GraphicsOptions_MenuInit
-char	bss_7d734[28]; // Used by: GraphicsOptions_MenuInit
+int		bss_7d734; // Used by: GraphicsOptions_MenuInit
+char	bss_7d738[24];
 int		bss_7d750; // Used by: GraphicsOptions_MenuInit
-char	bss_7d754[12]; // Used by: GraphicsOptions_MenuInit
+int		bss_7d754; // Used by: GraphicsOptions_MenuInit
+char	bss_7d758[8];
 int		bss_7d760; // Used by: GraphicsOptions_MenuInit
 int		bss_7d764; // Used by: GraphicsOptions_MenuInit
-char	bss_7d768[8]; // Used by: GraphicsOptions_SetMenuItems, GraphicsOptions_TQEvent, GraphicsOptions_Event, GraphicsOptions_ApplyChanges, GraphicsOptions_UpdateMenuItems, GraphicsOptions_CheckConfig, GraphicsOptions_GetInitialVideo
+int		bss_7d768; // Used by: GraphicsOptions_SetMenuItems, GraphicsOptions_TQEvent, GraphicsOptions_Event, GraphicsOptions_ApplyChanges, GraphicsOptions_UpdateMenuItems, GraphicsOptions_CheckConfig, GraphicsOptions_GetInitialVideo
+int		bss_7d76c;
 int		bss_7d770; // Used by: GraphicsOptions_MenuInit
-char	bss_7d774[8]; // Used by: GraphicsOptions_MenuInit
+int		bss_7d774; // Used by: GraphicsOptions_MenuInit
+int		bss_7d778;
 int		bss_7d77c; // Used by: GraphicsOptions_MenuInit
-char	bss_7d780[28]; // Used by: GraphicsOptions_MenuInit
-char	bss_7d79c[20]; // Used by: GraphicsOptions_MenuInit
-char	bss_7d7b0[12]; // Used by: GraphicsOptions_SetMenuItems, GraphicsOptions_Event, GraphicsOptions_ApplyChanges, GraphicsOptions_UpdateMenuItems, GraphicsOptions_CheckConfig, GraphicsOptions_GetInitialVideo
-char	bss_7d7bc[20]; // Used by: GraphicsOptions_MenuInit
+int		bss_7d780; // Used by: GraphicsOptions_MenuInit
+char	bss_7d784[24];
+int		bss_7d79c; // Used by: GraphicsOptions_MenuInit
+char	bss_7d7a0[16];
+int		bss_7d7b0; // Used by: GraphicsOptions_SetMenuItems, GraphicsOptions_Event, GraphicsOptions_ApplyChanges, GraphicsOptions_UpdateMenuItems, GraphicsOptions_CheckConfig, GraphicsOptions_GetInitialVideo
+char	bss_7d7b4[8];
+int		bss_7d7bc; // Used by: GraphicsOptions_MenuInit
+char	bss_7d7c0[16];
 int		bss_7d7d0; // Used by: GraphicsOptions_MenuInit
-char	bss_7d7d4[8]; // Used by: GraphicsOptions_MenuInit
+int		bss_7d7d4; // Used by: GraphicsOptions_MenuInit
+int		bss_7d7d8;
 int		bss_7d7dc; // Used by: GraphicsOptions_MenuInit
-char	bss_7d7e0[28]; // Used by: GraphicsOptions_MenuInit
-char	bss_7d7fc[20]; // Used by: GraphicsOptions_MenuInit
-char	bss_7d810[12]; // Used by: GraphicsOptions_SetMenuItems, GraphicsOptions_Event, GraphicsOptions_ApplyChanges, GraphicsOptions_UpdateMenuItems, GraphicsOptions_CheckConfig, GraphicsOptions_GetInitialVideo
-char	bss_7d81c[20]; // Used by: GraphicsOptions_MenuInit
+int		bss_7d7e0; // Used by: GraphicsOptions_MenuInit
+char	bss_7d7e4[24];
+int		bss_7d7fc; // Used by: GraphicsOptions_MenuInit
+char	bss_7d800[16];
+int		bss_7d810; // Used by: GraphicsOptions_SetMenuItems, GraphicsOptions_Event, GraphicsOptions_ApplyChanges, GraphicsOptions_UpdateMenuItems, GraphicsOptions_CheckConfig, GraphicsOptions_GetInitialVideo
+char	bss_7d814[8];
+int		bss_7d81c; // Used by: GraphicsOptions_MenuInit
+char	bss_7d820[16];
 int		bss_7d830; // Used by: GraphicsOptions_MenuInit
-char	bss_7d834[8]; // Used by: GraphicsOptions_MenuInit
+int		bss_7d834; // Used by: GraphicsOptions_MenuInit
+int		bss_7d838;
 int		bss_7d83c; // Used by: GraphicsOptions_MenuInit
-char	bss_7d840[28]; // Used by: GraphicsOptions_MenuInit
-char	bss_7d85c[20]; // Used by: GraphicsOptions_MenuInit
-char	bss_7d870[12]; // Used by: GraphicsOptions_SetMenuItems, GraphicsOptions_ApplyChanges, GraphicsOptions_UpdateMenuItems, GraphicsOptions_GetInitialVideo
-char	bss_7d87c[20]; // Used by: GraphicsOptions_MenuInit
+int		bss_7d840; // Used by: GraphicsOptions_MenuInit
+char	bss_7d844[24];
+int		bss_7d85c; // Used by: GraphicsOptions_MenuInit
+char	bss_7d860[16];
+int		bss_7d870; // Used by: GraphicsOptions_SetMenuItems, GraphicsOptions_ApplyChanges, GraphicsOptions_UpdateMenuItems, GraphicsOptions_GetInitialVideo
+char	bss_7d874[8];
+int		bss_7d87c; // Used by: GraphicsOptions_MenuInit
+char	bss_7d880[16];
 int		bss_7d890; // Used by: GraphicsOptions_MenuInit
-char	bss_7d894[8]; // Used by: GraphicsOptions_MenuInit
+int		bss_7d894; // Used by: GraphicsOptions_MenuInit
+int		bss_7d898;
 int		bss_7d89c; // Used by: GraphicsOptions_MenuInit
-char	bss_7d8a0[28]; // Used by: GraphicsOptions_MenuInit
-char	bss_7d8bc[20]; // Used by: GraphicsOptions_MenuInit
-char	bss_7d8d0[12]; // Used by: GraphicsOptions_SetMenuItems, GraphicsOptions_Event, GraphicsOptions_ApplyChanges, GraphicsOptions_UpdateMenuItems, GraphicsOptions_GetInitialVideo
-char	bss_7d8dc[20]; // Used by: GraphicsOptions_MenuInit
+int		bss_7d8a0; // Used by: GraphicsOptions_MenuInit
+char	bss_7d8a4[24];
+int		bss_7d8bc; // Used by: GraphicsOptions_MenuInit
+char	bss_7d8c0[16];
+int		bss_7d8d0; // Used by: GraphicsOptions_SetMenuItems, GraphicsOptions_Event, GraphicsOptions_ApplyChanges, GraphicsOptions_UpdateMenuItems, GraphicsOptions_GetInitialVideo
+char	bss_7d8d4[8];
+int		bss_7d8dc; // Used by: GraphicsOptions_MenuInit
+char	bss_7d8e0[16];
 int		bss_7d8f0; // Used by: GraphicsOptions_MenuInit
-char	bss_7d8f4[8]; // Used by: GraphicsOptions_MenuInit
+int		bss_7d8f4; // Used by: GraphicsOptions_MenuInit
+int		bss_7d8f8;
 int		bss_7d8fc; // Used by: GraphicsOptions_MenuInit
-char	bss_7d900[28]; // Used by: GraphicsOptions_MenuInit
-char	bss_7d91c[20]; // Used by: GraphicsOptions_MenuInit
-char	bss_7d930[12]; // Used by: GraphicsOptions_SetMenuItems, GraphicsOptions_Event, GraphicsOptions_ApplyChanges, GraphicsOptions_UpdateMenuItems, GraphicsOptions_CheckConfig, GraphicsOptions_GetInitialVideo
-char	bss_7d93c[20]; // Used by: GraphicsOptions_MenuInit
+int		bss_7d900; // Used by: GraphicsOptions_MenuInit
+char	bss_7d904[24];
+int		bss_7d91c; // Used by: GraphicsOptions_MenuInit
+char	bss_7d920[16];
+int		bss_7d930; // Used by: GraphicsOptions_SetMenuItems, GraphicsOptions_Event, GraphicsOptions_ApplyChanges, GraphicsOptions_UpdateMenuItems, GraphicsOptions_CheckConfig, GraphicsOptions_GetInitialVideo
+char	bss_7d934[8];
+int		bss_7d93c; // Used by: GraphicsOptions_MenuInit
+char	bss_7d940[16];
 int		bss_7d950; // Used by: GraphicsOptions_MenuInit
-char	bss_7d954[8]; // Used by: GraphicsOptions_MenuInit
+int		bss_7d954; // Used by: GraphicsOptions_MenuInit
+int		bss_7d958;
 int		bss_7d95c; // Used by: GraphicsOptions_MenuInit
-char	bss_7d960[28]; // Used by: GraphicsOptions_MenuInit
-char	bss_7d97c[20]; // Used by: GraphicsOptions_MenuInit
-char	bss_7d990[12]; // Used by: GraphicsOptions_SetMenuItems, GraphicsOptions_Event, GraphicsOptions_ApplyChanges, GraphicsOptions_UpdateMenuItems, GraphicsOptions_CheckConfig, GraphicsOptions_GetInitialVideo
-char	bss_7d99c[20]; // Used by: GraphicsOptions_MenuInit
+int		bss_7d960; // Used by: GraphicsOptions_MenuInit
+char	bss_7d964[24];
+int		bss_7d97c; // Used by: GraphicsOptions_MenuInit
+char	bss_7d980[16];
+int		bss_7d990; // Used by: GraphicsOptions_SetMenuItems, GraphicsOptions_Event, GraphicsOptions_ApplyChanges, GraphicsOptions_UpdateMenuItems, GraphicsOptions_CheckConfig, GraphicsOptions_GetInitialVideo
+char	bss_7d994[8];
+int		bss_7d99c; // Used by: GraphicsOptions_MenuInit
+char	bss_7d9a0[16];
 int		bss_7d9b0; // Used by: GraphicsOptions_MenuInit
-char	bss_7d9b4[8]; // Used by: GraphicsOptions_MenuInit
+int		bss_7d9b4; // Used by: GraphicsOptions_MenuInit
+int		bss_7d9b8;
 int		bss_7d9bc; // Used by: GraphicsOptions_MenuInit
-char	bss_7d9c0[28]; // Used by: GraphicsOptions_MenuInit
-char	bss_7d9dc[20]; // Used by: GraphicsOptions_MenuInit
-char	bss_7d9f0[12]; // Used by: GraphicsOptions_SetMenuItems, GraphicsOptions_Event, GraphicsOptions_ApplyChanges, GraphicsOptions_UpdateMenuItems, GraphicsOptions_CheckConfig, GraphicsOptions_GetInitialVideo
-char	bss_7d9fc[20]; // Used by: GraphicsOptions_MenuInit
-char	bss_7da10[8]; // Used by: GraphicsOptions_MenuInit
+int		bss_7d9c0; // Used by: GraphicsOptions_MenuInit
+char	bss_7d9c4[24];
+int		bss_7d9dc; // Used by: GraphicsOptions_MenuInit
+char	bss_7d9e0[16];
+int		bss_7d9f0; // Used by: GraphicsOptions_SetMenuItems, GraphicsOptions_Event, GraphicsOptions_ApplyChanges, GraphicsOptions_UpdateMenuItems, GraphicsOptions_CheckConfig, GraphicsOptions_GetInitialVideo
+char	bss_7d9f4[8];
+int		bss_7d9fc; // Used by: GraphicsOptions_MenuInit
+char	bss_7da00[16];
+int		bss_7da10; // Used by: GraphicsOptions_MenuInit
+int		bss_7da14;
 int		bss_7da18; // Used by: GraphicsOptions_MenuInit
 int		bss_7da1c; // Used by: GraphicsOptions_MenuInit
-char	bss_7da20[28]; // Used by: GraphicsOptions_MenuInit
+int		bss_7da20; // Used by: GraphicsOptions_MenuInit
+char	bss_7da24[24];
 int		bss_7da3c; // Used by: GraphicsOptions_MenuInit
-char	bss_7da40[12]; // Used by: GraphicsOptions_MenuInit
+int		bss_7da40; // Used by: GraphicsOptions_MenuInit
+char	bss_7da44[8];
 int		bss_7da4c; // Used by: GraphicsOptions_MenuInit
 int		bss_7da50; // Used by: GraphicsOptions_MenuInit
 int		bss_7da54; // Used by: GraphicsOptions_MenuInit
 int		bss_7da58; // Used by: GraphicsOptions_MenuInit
-char	bss_7da5c[8]; // Used by: GraphicsOptions_MenuInit
+int		bss_7da5c; // Used by: GraphicsOptions_MenuInit
+int		bss_7da60;
 int		bss_7da64; // Used by: GraphicsOptions_MenuInit
-char	bss_7da68[28]; // Used by: GraphicsOptions_MenuInit
+int		bss_7da68; // Used by: GraphicsOptions_MenuInit
+char	bss_7da6c[24];
 int		bss_7da84; // Used by: GraphicsOptions_MenuInit
-char	bss_7da88[12]; // Used by: GraphicsOptions_MenuInit
-char	bss_7da94[16]; // Used by: GraphicsOptions_MenuInit
+int		bss_7da88; // Used by: GraphicsOptions_MenuInit
+char	bss_7da8c[8];
+int		bss_7da94; // Used by: GraphicsOptions_MenuInit
+char	bss_7da98[12];
 int		bss_7daa4; // Used by: GraphicsOptions_MenuInit
-char	bss_7daa8[8]; // Used by: GraphicsOptions_MenuInit
+int		bss_7daa8; // Used by: GraphicsOptions_MenuInit
+int		bss_7daac;
 int		bss_7dab0; // Used by: GraphicsOptions_MenuInit
 int		bss_7dab4; // Used by: GraphicsOptions_MenuInit
 int		bss_7dab8; // Used by: GraphicsOptions_MenuInit
 int		bss_7dabc; // Used by: GraphicsOptions_MenuInit
-char	bss_7dac0[28]; // Used by: GraphicsOptions_MenuInit
+int		bss_7dac0; // Used by: GraphicsOptions_MenuInit
+char	bss_7dac4[24];
 int		bss_7dadc; // Used by: GraphicsOptions_MenuInit
-char	bss_7dae0[12]; // Used by: GraphicsOptions_MenuInit
-char	bss_7daec[16]; // Used by: GraphicsOptions_MenuInit
+int		bss_7dae0; // Used by: GraphicsOptions_MenuInit
+char	bss_7dae4[8];
+int		bss_7daec; // Used by: GraphicsOptions_MenuInit
+char	bss_7daf0[12];
 int		bss_7dafc; // Used by: GraphicsOptions_MenuInit
-char	bss_7db00[8]; // Used by: GraphicsOptions_MenuInit
+int		bss_7db00; // Used by: GraphicsOptions_MenuInit
+int		bss_7db04;
 int		s_ivo; // Used by: GraphicsOptions_UpdateMenuItems, GraphicsOptions_GetInitialVideo
 int		bss_7db0c; // Used by: GraphicsOptions_UpdateMenuItems, GraphicsOptions_GetInitialVideo
 int		bss_7db10; // Used by: GraphicsOptions_UpdateMenuItems, GraphicsOptions_GetInitialVideo
@@ -3327,11 +4653,15 @@ int		bss_7db24; // Used by: GraphicsOptions_UpdateMenuItems, GraphicsOptions_Get
 int		bss_7db28; // Used by: GraphicsOptions_UpdateMenuItems, GraphicsOptions_GetInitialVideo
 int		bss_7db2c; // Used by: GraphicsOptions_UpdateMenuItems, GraphicsOptions_GetInitialVideo
 char	s_driverinfo[268];
-char	bss_7dc3c[12]; // Used by: UI_DriverInfo_Menu
-char	bss_7dc48[8]; // Used by: UI_DriverInfo_Menu
-char	bss_7dc50[12]; // Used by: UI_DriverInfo_Menu
+int		bss_7dc3c; // Used by: UI_DriverInfo_Menu
+char	bss_7dc40[8];
+int		bss_7dc48; // Used by: UI_DriverInfo_Menu
+int		bss_7dc4c;
+int		bss_7dc50; // Used by: UI_DriverInfo_Menu
+char	bss_7dc54[8];
 int		bss_7dc5c; // Used by: UI_DriverInfo_Menu
-char	bss_7dc60[44]; // Used by: UI_DriverInfo_Menu
+int		bss_7dc60; // Used by: UI_DriverInfo_Menu
+char	bss_7dc64[40];
 int		bss_7dc8c; // Used by: UI_DriverInfo_Menu
 int		bss_7dc90; // Used by: UI_DriverInfo_Menu
 int		bss_7dc94; // Used by: UI_DriverInfo_Menu
@@ -3339,33 +4669,46 @@ int		bss_7dc98; // Used by: UI_DriverInfo_Menu
 int		bss_7dc9c; // Used by: UI_DriverInfo_Menu
 int		bss_7dca0; // Used by: UI_DriverInfo_Menu
 int		bss_7dca4; // Used by: UI_DriverInfo_Menu
-char	bss_7dca8[28]; // Used by: UI_DriverInfo_Menu
+int		bss_7dca8; // Used by: UI_DriverInfo_Menu
+char	bss_7dcac[24];
 int		bss_7dcc4; // Used by: UI_DriverInfo_Menu
-char	bss_7dcc8[12]; // Used by: UI_DriverInfo_Menu
-char	bss_7dcd4[16]; // Used by: UI_DriverInfo_Menu
+int		bss_7dcc8; // Used by: UI_DriverInfo_Menu
+char	bss_7dccc[8];
+int		bss_7dcd4; // Used by: UI_DriverInfo_Menu
+char	bss_7dcd8[12];
 int		bss_7dce4; // Used by: UI_DriverInfo_Menu
-char	bss_7dce8[8]; // Used by: UI_DriverInfo_Menu
+int		bss_7dce8; // Used by: UI_DriverInfo_Menu
+int		bss_7dcec;
 int		bss_7dcf0; // Used by: UI_DriverInfo_Menu
-char	bss_7dcf4[8]; // Used by: UI_DriverInfo_Menu
+int		bss_7dcf4; // Used by: UI_DriverInfo_Menu
+int		bss_7dcf8;
 int		bss_7dcfc; // Used by: UI_DriverInfo_Menu
-char	bss_7dd00[28]; // Used by: UI_DriverInfo_Menu
-char	bss_7dd1c[32]; // Used by: UI_DriverInfo_Menu
+int		bss_7dd00; // Used by: UI_DriverInfo_Menu
+char	bss_7dd04[24];
+int		bss_7dd1c; // Used by: UI_DriverInfo_Menu
+char	bss_7dd20[28];
 int		bss_7dd3c; // Used by: UI_DriverInfo_Menu
-char	bss_7dd40[8]; // Used by: UI_DriverInfo_Menu
+int		bss_7dd40; // Used by: UI_DriverInfo_Menu
+int		bss_7dd44;
 int		bss_7dd48; // Used by: UI_DriverInfo_Menu
-char	bss_7dd4c[8]; // Used by: UI_DriverInfo_Menu
+int		bss_7dd4c; // Used by: UI_DriverInfo_Menu
+int		bss_7dd50;
 int		bss_7dd54; // Used by: UI_DriverInfo_Menu
-char	bss_7dd58[28]; // Used by: UI_DriverInfo_Menu
-char	bss_7dd74[32]; // Used by: UI_DriverInfo_Menu
+int		bss_7dd58; // Used by: UI_DriverInfo_Menu
+char	bss_7dd5c[24];
+int		bss_7dd74; // Used by: UI_DriverInfo_Menu
+char	bss_7dd78[28];
 int		bss_7dd94; // Used by: UI_DriverInfo_Menu
-char	bss_7dd98[1288]; // Used by: UI_DriverInfo_Menu
+int		bss_7dd98; // Used by: UI_DriverInfo_Menu
+char	bss_7dd9c[1284];
 int		bss_7e2a0; // Used by: UI_DriverInfo_Menu, DriverInfo_MenuDraw
 int		bss_7e2a4; // Used by: AngleVectors
 int		bss_7e2a8; // Used by: AngleVectors
 int		bss_7e2ac; // Used by: AngleVectors
 int		bss_7e2b0; // Used by: AngleVectors
 int		bss_7e2b4; // Used by: AngleVectors
-char	bss_7e2b8[88580]; // Used by: AngleVectors
+int		bss_7e2b8; // Used by: AngleVectors
+char	bss_7e2bc[88576];
 int		com_tokenline; // Used by: COM_ParseExt, COM_GetCurrentParseLine, COM_BeginParseSession
 int		com_lines; // Used by: COM_ParseExt, COM_GetCurrentParseLine, COM_BeginParseSession
 char	com_parsename[1024];
@@ -3494,7 +4837,7 @@ jmp_100:
 jmp_113:
 	local_8 = (local_8 + 0x1);
 jmp_119:
-	if (local_8 < *(int *)bg_numItems) goto jmp_e5;
+	if (local_8 < bg_numItems) goto jmp_e5;
 	return 0x0;
 }
 
@@ -3522,7 +4865,7 @@ jmp_12c:
 jmp_14a:
 	local_10 = (local_10 + 0x1);
 jmp_150:
-	if (local_10 < *(int *)bg_numItems) goto jmp_12c;
+	if (local_10 < bg_numItems) goto jmp_12c;
 	Com_Error(0x1, 0x3a99);
 	return 0x0;
 }
@@ -3640,7 +4983,7 @@ int BG_CanItemBeGrabbed(int arg_0, int arg_1, int arg_2) {
 	arg_1 = arg_1;
 	local_14 = *(int *)(arg_1 + 0xa0);
 	if (local_14 < 0x1) goto jmp_23b;
-	if (local_14 < *(int *)bg_numItems) goto jmp_242;
+	if (local_14 < bg_numItems) goto jmp_242;
 jmp_23b:
 	Com_Error(0x1, 0x3a50);
 jmp_242:
@@ -4804,7 +6147,7 @@ Stack Size: 0x8
 */
 void srand(int arg_0) {
 
-	*(int *)randSeed = arg_0;
+	randSeed = arg_0;
 }
 
 /*
@@ -6607,9 +7950,9 @@ void UI_AddBotsMenu_FightEvent(, int arg_1) {
 	if (arg_1 == 0x3) goto jmp_279d;
 	goto jmp_27d6;
 jmp_279d:
-	local_1c = *(int *)((*(int *)bss_c194 << 0x2) + *(int *)bss_c1a0);
-	local_20 = (*(int *)bss_c134 + 0x1);
-	local_24 = va(0x4ae4, ((*(int *)bss_c270 << 0x5) + 0xd274), local_20, local_1c, bss_c268);
+	local_1c = *(int *)((bss_c194 << 0x2) + bss_c1a0);
+	local_20 = (bss_c134 + 0x1);
+	local_24 = va(0x4ae4, ((bss_c270 << 0x5) + 0xd274), local_20, local_1c, bss_c268);
 	trap_Cmd_ExecuteText(0x2, local_24);
 	local_28 = 0xc268;
 	*(int *)local_28 = (*(int *)local_28 + 0x5dc);
@@ -6629,9 +7972,9 @@ void UI_AddBotsMenu_BotEvent(int arg_0, int arg_1) {
 	if (arg_1 == 0x3) goto jmp_27df;
 	goto jmp_27f8;
 jmp_27df:
-	*(int *)((0x48 * *(int *)bss_c270) + 0xbf40) = 0x21a0;
-	*(int *)bss_c270 = (*(int *)(arg_0 + 0x8) - 0x14);
-	*(int *)((0x48 * *(int *)bss_c270) + 0xbf40) = 0x2160;
+	*(int *)((0x48 * bss_c270) + 0xbf40) = 0x21a0;
+	bss_c270 = (*(int *)(arg_0 + 0x8) - 0x14);
+	*(int *)((0x48 * bss_c270) + 0xbf40) = 0x2160;
 jmp_27f8:
 }
 
@@ -6810,7 +8153,7 @@ void UI_AddBotsMenu_Init(void) {
 	local_428 = atoi(local_424);
 	local_20 = local_428;
 	memset(0xbc34, 0x0, 0x1720);
-	*(int *)bss_bd4c = 0x0;
+	bss_bd4c = 0x0;
 	bss_bd48 = 0x1;
 	bss_c268 = 0x3e8;
 	UI_AddBots_Cache();
@@ -6823,44 +8166,44 @@ jmp_2930:
 	local_430 = 0x7;
 jmp_2933:
 	local_1c = local_430;
-	*(int *)bss_bd54 = 0xa;
+	bss_bd54 = 0xa;
 	bss_bd60 = 0x140;
-	*(int *)bss_bd64 = 0x10;
+	bss_bd64 = 0x10;
 	bss_bd90 = 0x4a84;
 	bss_bd98 = 0x2160;
 	bss_bd94 = 0x1;
 	bss_bd9c = 0x6;
-	*(int *)bss_bda0 = 0x4a6f;
-	*(int *)bss_bdc8 = 0x4000;
+	bss_bda0 = 0x4a6f;
+	bss_bdc8 = 0x4000;
 	bss_bda8 = 0x57;
-	*(int *)bss_bdac = 0x4a;
+	bss_bdac = 0x4a;
 	bss_bde8 = 0x1d2;
-	*(int *)bss_bdec = 0x14c;
+	bss_bdec = 0x14c;
 	bss_bdf4 = 0x6;
-	*(int *)bss_bdf8 = 0x4a58;
-	*(int *)bss_be20 = 0x4000;
+	bss_bdf8 = 0x4a58;
+	bss_be20 = 0x4000;
 	bss_be00 = 0xc8;
-	*(int *)bss_be04 = 0x80;
+	bss_be04 = 0x80;
 	bss_be40 = 0x40;
-	*(int *)bss_be44 = 0x80;
-	*(int *)bss_be4c = 0x6;
+	bss_be44 = 0x80;
+	bss_be4c = 0x6;
 	bss_be78 = 0x104;
 	bss_be58 = 0xc8;
-	*(int *)bss_be5c = 0x80;
+	bss_be5c = 0x80;
 	bss_be54 = 0xd;
-	*(int *)bss_be7c = 0x2841;
+	bss_be7c = 0x2841;
 	bss_be98 = 0x40;
-	*(int *)bss_be9c = 0x40;
-	*(int *)bss_be88 = 0x4a3f;
-	*(int *)bss_bea4 = 0x6;
+	bss_be9c = 0x40;
+	bss_be88 = 0x4a3f;
+	bss_bea4 = 0x6;
 	bss_bed0 = 0x104;
 	bss_beb0 = 0xc8;
-	*(int *)bss_beb4 = 0xc0;
+	bss_beb4 = 0xc0;
 	bss_beac = 0xe;
-	*(int *)bss_bed4 = 0x285c;
+	bss_bed4 = 0x285c;
 	bss_bef0 = 0x40;
-	*(int *)bss_bef4 = 0x40;
-	*(int *)bss_bee0 = 0x4a26;
+	bss_bef4 = 0x40;
+	bss_bee0 = 0x4a26;
 	local_14 = 0x0;
 	local_18 = 0x78;
 	goto jmp_2a0e;
@@ -6880,52 +8223,52 @@ jmp_2a0e:
 	if (local_14 < local_1c) goto jmp_29b1;
 	local_18 = (local_18 + 0xc);
 	bss_c0f4 = 0x3;
-	*(int *)bss_c120 = 0x102;
+	bss_c120 = 0x102;
 	bss_c100 = 0x140;
-	*(int *)bss_c104 = local_18;
+	bss_c104 = local_18;
 	bss_c0f8 = 0x4a1f;
 	bss_c0fc = 0xf;
-	*(int *)bss_c140 = 0xcec;
+	bss_c140 = 0xcec;
 	local_434 = trap_Cvar_VariableValue(0x4a15);
 	local_438 = Com_Clamp(0x0, 0x40800000, (float)((int)local_434 - 0x1));
-	*(int *)bss_c134 = (int)local_438;
+	bss_c134 = (int)local_438;
 	local_18 = (local_18 + 0x10);
 	bss_c154 = 0x3;
-	*(int *)bss_c180 = 0x102;
+	bss_c180 = 0x102;
 	bss_c160 = 0x140;
-	*(int *)bss_c164 = local_18;
+	bss_c164 = local_18;
 	bss_c158 = 0x4a0e;
 	bss_c15c = 0x10;
 	if (local_20 < 0x3) goto jmp_2a6b;
-	*(int *)bss_c1a0 = 0xd0c;
+	bss_c1a0 = 0xd0c;
 	goto jmp_2a71;
 jmp_2a6b:
-	*(int *)bss_c1a0 = 0xd04;
-	*(int *)bss_c180 = 0x2000;
+	bss_c1a0 = 0xd04;
+	bss_c180 = 0x2000;
 jmp_2a71:
 	bss_c1b4 = 0x6;
 	bss_c1b8 = 0x49fc;
 	bss_c1e0 = 0x104;
 	bss_c1bc = 0xb;
-	*(int *)bss_c1e4 = 0x2796;
+	bss_c1e4 = 0x2796;
 	bss_c1c0 = 0x140;
-	*(int *)bss_c1c4 = 0x140;
+	bss_c1c4 = 0x140;
 	bss_c200 = 0x80;
-	*(int *)bss_c204 = 0x40;
-	*(int *)bss_c1f0 = 0x49ea;
+	bss_c204 = 0x40;
+	bss_c1f0 = 0x49ea;
 	bss_c20c = 0x6;
 	bss_c210 = 0x49da;
 	bss_c238 = 0x104;
 	bss_c214 = 0xa;
-	*(int *)bss_c23c = 0x27fa;
+	bss_c23c = 0x27fa;
 	bss_c218 = 0xc0;
-	*(int *)bss_c21c = 0x140;
+	bss_c21c = 0x140;
 	bss_c258 = 0x80;
-	*(int *)bss_c25c = 0x40;
-	*(int *)bss_c248 = 0x49ca;
+	bss_c25c = 0x40;
+	bss_c248 = 0x49ca;
 	bss_c26c = 0x0;
-	*(int *)bss_c270 = 0x0;
-	*(int *)bss_bf40 = 0x2160;
+	bss_c270 = 0x0;
+	bss_bf40 = 0x2160;
 	UI_AddBotsMenu_GetSortedBotNums();
 	UI_AddBotsMenu_SetBotNames();
 	Menu_AddItem(0xbc34, 0xbd9c);
@@ -7096,7 +8439,7 @@ jmp_2be0:
 	*(int *)local_1c = (local_18 + 0x1);
 	*(int *)((local_18 << 0x2) + 0xdb6c) = arg_0;
 jmp_2bf8:
-	*(int *)bss_db68 = arg_0;
+	bss_db68 = arg_0;
 	*(int *)arg_0 = 0x0;
 	*(int *)(arg_0 + 0x4) = 0x0;
 	m_entersound = 0x1;
@@ -7137,7 +8480,7 @@ void UI_PopMenu(void) {
 	trap_Error(0x4ba6);
 jmp_2c69:
 	if (bss_db64 == 0x0) goto jmp_2c7b;
-	*(int *)bss_db68 = *(int *)((bss_db64 << 0x2) + 0xdb68);
+	bss_db68 = *(int *)((bss_db64 << 0x2) + 0xdb68);
 	bss_1080c = 0x1;
 	goto jmp_2c7e;
 jmp_2c7b:
@@ -7159,7 +8502,7 @@ void UI_ForceMenuOff(void) {
 	int		local_10;
 
 	bss_db64 = 0x0;
-	*(int *)bss_db68 = 0x0;
+	bss_db68 = 0x0;
 	local_10 = trap_Key_GetCatcher();
 	trap_Key_SetCatcher((local_10 & 0xfffffffd));
 	trap_Key_ClearStates();
@@ -7777,10 +9120,10 @@ Called by: vmMain
 int UI_IsFullscreen(void) {
 	int		local_8;
 
-	if (*(int *)bss_db68 == 0x0) goto jmp_3454;
+	if (bss_db68 == 0x0) goto jmp_3454;
 	local_8 = trap_Key_GetCatcher();
 	if ((local_8 & 0x2) == 0x0) goto jmp_3454;
-	return *(int *)(*(int *)bss_db68 + 0x118);
+	return *(int *)(bss_db68 + 0x118);
 jmp_3454:
 	return 0x0;
 }
@@ -7866,18 +9209,18 @@ void UI_KeyEvent(int arg_0, int arg_1) {
 	int		local_14;
 	char	local_18[8];
 
-	if (*(int *)bss_db68 != 0x0) goto jmp_34c9;
+	if (bss_db68 != 0x0) goto jmp_34c9;
 	goto jmp_3506;
 jmp_34c9:
 	if (arg_1 != 0x0) goto jmp_34cf;
 	goto jmp_3506;
 jmp_34cf:
-	if (*(int *)(*(int *)bss_db68 + 0x110) == 0x0) goto jmp_34e7;
-	local_14 = (*(*(int *)(*(int *)bss_db68 + 0x110)))(arg_0);
+	if (*(int *)(bss_db68 + 0x110) == 0x0) goto jmp_34e7;
+	local_14 = (*(*(int *)(bss_db68 + 0x110)))(arg_0);
 	local_10 = local_14;
 	goto jmp_34f5;
 jmp_34e7:
-	*(int *)local_18 = Menu_DefaultKey(*(int *)bss_db68, arg_0);
+	*(int *)local_18 = Menu_DefaultKey(bss_db68, arg_0);
 	local_10 = *(int *)local_18;
 jmp_34f5:
 	if (local_10 <= 0x0) goto jmp_3506;
@@ -7905,7 +9248,7 @@ void UI_MouseEvent(int arg_0, int arg_1) {
 	int		local_24;
 	int		local_28;
 
-	if (*(int *)bss_db68 != 0x0) goto jmp_350f;
+	if (bss_db68 != 0x0) goto jmp_350f;
 	goto jmp_361e;
 jmp_350f:
 	local_18 = (int)(bss_10804 / bss_107fc);
@@ -7930,7 +9273,7 @@ jmp_3559:
 	local_14 = 0x0;
 	goto jmp_35f8;
 jmp_355e:
-	local_10 = *(int *)((local_14 << 0x2) + (*(int *)bss_db68 + 0xc));
+	local_10 = *(int *)((local_14 << 0x2) + (bss_db68 + 0xc));
 	if ((*(int *)(local_10 + 0x2c) & 0x6000) == 0x0) goto jmp_3575;
 	goto jmp_35f2;
 jmp_3575:
@@ -7941,22 +9284,22 @@ jmp_3575:
 jmp_3595:
 	goto jmp_35f2;
 jmp_3597:
-	if (*(int *)*(int *)bss_db68 == local_14) goto jmp_35d9;
-	Menu_SetCursor(*(int *)bss_db68, local_14);
-	local_28 = (*(int *)((*(int *)(*(int *)bss_db68 + 0x4) << 0x2) + (*(int *)bss_db68 + 0xc)) + 0x2c);
+	if (*(int *)bss_db68 == local_14) goto jmp_35d9;
+	Menu_SetCursor(bss_db68, local_14);
+	local_28 = (*(int *)((*(int *)(bss_db68 + 0x4) << 0x2) + (bss_db68 + 0xc)) + 0x2c);
 	*(int *)local_28 = (*(int *)local_28 & 0xfffffdff);
-	if ((*(int *)(*(int *)((*(int *)*(int *)bss_db68 << 0x2) + (*(int *)bss_db68 + 0xc)) + 0x2c) & 0x100000) != 0x0) goto jmp_35d9;
+	if ((*(int *)(*(int *)((*(int *)bss_db68 << 0x2) + (bss_db68 + 0xc)) + 0x2c) & 0x100000) != 0x0) goto jmp_35d9;
 	trap_S_StartLocalSound(menu_move_sound, 0x6);
 jmp_35d9:
-	local_28 = (*(int *)((*(int *)*(int *)bss_db68 << 0x2) + (*(int *)bss_db68 + 0xc)) + 0x2c);
+	local_28 = (*(int *)((*(int *)bss_db68 << 0x2) + (bss_db68 + 0xc)) + 0x2c);
 	*(int *)local_28 = (*(int *)local_28 | 0x200);
 	goto jmp_361e;
 jmp_35f2:
 	local_14 = (local_14 + 0x1);
 jmp_35f8:
-	if (local_14 < *(int *)(*(int *)bss_db68 + 0x8)) goto jmp_355e;
-	if (*(int *)(*(int *)bss_db68 + 0x8) <= 0x0) goto jmp_361e;
-	local_24 = (*(int *)((*(int *)*(int *)bss_db68 << 0x2) + (*(int *)bss_db68 + 0xc)) + 0x2c);
+	if (local_14 < *(int *)(bss_db68 + 0x8)) goto jmp_355e;
+	if (*(int *)(bss_db68 + 0x8) <= 0x0) goto jmp_361e;
+	local_24 = (*(int *)((*(int *)bss_db68 << 0x2) + (bss_db68 + 0xc)) + 0x2c);
 	*(int *)local_24 = (*(int *)local_24 & 0xfffffdff);
 jmp_361e:
 }
@@ -8137,16 +9480,16 @@ void UI_Init(void) {
 	UI_InitGameinfo();
 	trap_GetGlconfig(0xdb8c);
 	bss_107fc = (0x3acccccd * (float)bss_107b4);
-	bss_10800 = (0x3b088889 * (float)*(int *)bss_107b8);
-	if ((0x1e0 * bss_107b4) <= (0x280 * *(int *)bss_107b8)) goto jmp_3792;
-	bss_10804 = (0x3f000000 * ((float)bss_107b4 - (0x3faaaaab * (float)*(int *)bss_107b8)));
+	bss_10800 = (0x3b088889 * (float)bss_107b8);
+	if ((0x1e0 * bss_107b4) <= (0x280 * bss_107b8)) goto jmp_3792;
+	bss_10804 = (0x3f000000 * ((float)bss_107b4 - (0x3faaaaab * (float)bss_107b8)));
 	bss_107fc = bss_10800;
 	goto jmp_3795;
 jmp_3792:
 	bss_10804 = 0x0;
 jmp_3795:
 	Menu_Cache();
-	*(int *)bss_db68 = 0x0;
+	bss_db68 = 0x0;
 	bss_db64 = 0x0;
 }
 
@@ -8399,9 +9742,9 @@ void UI_Refresh(int arg_0) {
 	goto jmp_3a40;
 jmp_3983:
 	UI_UpdateCvars();
-	if (*(int *)bss_db68 == 0x0) goto jmp_39e9;
-	if (*(int *)(*(int *)bss_db68 + 0x118) == 0x0) goto jmp_39c0;
-	if (*(int *)(*(int *)bss_db68 + 0x11c) == 0x0) goto jmp_39ad;
+	if (bss_db68 == 0x0) goto jmp_39e9;
+	if (*(int *)(bss_db68 + 0x118) == 0x0) goto jmp_39c0;
+	if (*(int *)(bss_db68 + 0x11c) == 0x0) goto jmp_39ad;
 	local_24 = 0x0;
 	UI_DrawHandlePic(local_24, local_24, 0x44200000, 0x43f00000, bss_107d8);
 	goto jmp_39c0;
@@ -8409,11 +9752,11 @@ jmp_39ad:
 	local_24 = 0x0;
 	UI_DrawHandlePic(local_24, local_24, 0x44200000, 0x43f00000, bss_107dc);
 jmp_39c0:
-	if (*(int *)(*(int *)bss_db68 + 0x10c) == 0x0) goto jmp_39d0;
-	(*(*(int *)(*(int *)bss_db68 + 0x10c)))();
+	if (*(int *)(bss_db68 + 0x10c) == 0x0) goto jmp_39d0;
+	(*(*(int *)(bss_db68 + 0x10c)))();
 	goto jmp_39d6;
 jmp_39d0:
-	Menu_Draw(*(int *)bss_db68);
+	Menu_Draw(bss_db68);
 jmp_39d6:
 	if (bss_1080c == 0x0) goto jmp_39e9;
 	local_24 = 0x0;
@@ -8659,48 +10002,48 @@ void UI_CDKeyMenu_Init(void) {
 	UI_CDKeyMenu_Cache();
 	memset(0x10814, 0x0, 0x3bc);
 	bss_10928 = 0x1;
-	*(int *)bss_1092c = 0x1;
-	*(int *)bss_10934 = 0xa;
+	bss_1092c = 0x1;
+	bss_10934 = 0xa;
 	bss_10940 = 0x140;
-	*(int *)bss_10944 = 0x10;
+	bss_10944 = 0x10;
 	bss_10970 = 0x4c4b;
 	bss_10978 = 0x2160;
 	bss_10974 = 0x1;
 	bss_1097c = 0x6;
-	*(int *)bss_10980 = 0x4c38;
-	*(int *)bss_109a8 = 0x4000;
+	bss_10980 = 0x4c38;
+	bss_109a8 = 0x4000;
 	bss_10988 = 0x8e;
-	*(int *)bss_1098c = 0x76;
+	bss_1098c = 0x76;
 	bss_109c8 = 0x167;
-	*(int *)bss_109cc = 0x100;
+	bss_109cc = 0x100;
 	bss_109d4 = 0x4;
-	*(int *)bss_109d8 = 0x4c30;
-	*(int *)bss_10a00 = 0x40000;
+	bss_109d8 = 0x4c30;
+	bss_10a00 = 0x40000;
 	bss_109e0 = 0x118;
-	*(int *)bss_109e4 = 0xe8;
+	bss_109e4 = 0xe8;
 	bss_10a18 = 0x10;
 	bss_10b1c = 0x10;
-	*(int *)bss_10a0c = 0x3b5a;
+	bss_10a0c = 0x3b5a;
 	bss_10b20 = 0x6;
 	bss_10b24 = 0x4c1e;
 	bss_10b4c = 0x110;
 	bss_10b28 = 0xb;
-	*(int *)bss_10b50 = 0x3ad0;
+	bss_10b50 = 0x3ad0;
 	bss_10b2c = 0x280;
-	*(int *)bss_10b30 = 0x1a0;
+	bss_10b30 = 0x1a0;
 	bss_10b6c = 0x80;
-	*(int *)bss_10b70 = 0x40;
-	*(int *)bss_10b5c = 0x4c0c;
+	bss_10b70 = 0x40;
+	bss_10b5c = 0x4c0c;
 	bss_10b78 = 0x6;
 	bss_10b7c = 0x4bfc;
 	bss_10ba4 = 0x104;
 	bss_10b80 = 0xc;
-	*(int *)bss_10ba8 = 0x3ad0;
+	bss_10ba8 = 0x3ad0;
 	bss_10b84 = 0x0;
-	*(int *)bss_10b88 = 0x1a0;
+	bss_10b88 = 0x1a0;
 	bss_10bc4 = 0x80;
-	*(int *)bss_10bc8 = 0x40;
-	*(int *)bss_10bb4 = 0x4bec;
+	bss_10bc8 = 0x40;
+	bss_10bb4 = 0x4bec;
 	Menu_AddItem(0x10814, 0x10934);
 	Menu_AddItem(0x10814, 0x1097c);
 	Menu_AddItem(0x10814, 0x109d4);
@@ -8837,44 +10180,44 @@ void UI_CinematicsMenu_Init(void) {
 
 	UI_CinematicsMenu_Cache();
 	memset(0x10bd0, 0x0, 0x540);
-	*(int *)bss_10ce8 = 0x1;
-	*(int *)bss_10cf0 = 0xa;
+	bss_10ce8 = 0x1;
+	bss_10cf0 = 0xa;
 	bss_10cfc = 0x140;
-	*(int *)bss_10d00 = 0x10;
+	bss_10d00 = 0x10;
 	bss_10d2c = 0x4d46;
 	bss_10d34 = 0x2160;
 	bss_10d30 = 0x1;
 	bss_10d38 = 0x6;
-	*(int *)bss_10d3c = 0x4d34;
-	*(int *)bss_10d64 = 0x4000;
+	bss_10d3c = 0x4d34;
+	bss_10d64 = 0x4000;
 	bss_10d44 = 0x0;
-	*(int *)bss_10d48 = 0x4e;
+	bss_10d48 = 0x4e;
 	bss_10d84 = 0x100;
-	*(int *)bss_10d88 = 0x149;
+	bss_10d88 = 0x149;
 	bss_10d90 = 0x6;
-	*(int *)bss_10d94 = 0x4d22;
-	*(int *)bss_10dbc = 0x4000;
+	bss_10d94 = 0x4d22;
+	bss_10dbc = 0x4000;
 	bss_10d9c = 0x178;
-	*(int *)bss_10da0 = 0x4c;
+	bss_10da0 = 0x4c;
 	bss_10ddc = 0x100;
-	*(int *)bss_10de0 = 0x14e;
+	bss_10de0 = 0x14e;
 	local_14 = 0x64;
-	*(int *)bss_10de8 = 0x9;
+	bss_10de8 = 0x9;
 	bss_10e14 = 0x108;
 	bss_10df4 = 0x140;
-	*(int *)bss_10df8 = local_14;
+	bss_10df8 = local_14;
 	bss_10df0 = 0xb;
-	*(int *)bss_10e18 = 0x3d42;
+	bss_10e18 = 0x3d42;
 	bss_10e24 = 0x4d1a;
 	bss_10e2c = 0x21b0;
 	bss_10e28 = 0x1;
 	local_14 = (local_14 + 0x1e);
-	*(int *)bss_10e30 = 0x9;
+	bss_10e30 = 0x9;
 	bss_10e5c = 0x108;
 	bss_10e3c = 0x140;
-	*(int *)bss_10e40 = local_14;
+	bss_10e40 = local_14;
 	bss_10e38 = 0xc;
-	*(int *)bss_10e60 = 0x3d42;
+	bss_10e60 = 0x3d42;
 	bss_10e6c = 0x4d14;
 	bss_10e74 = 0x21b0;
 	bss_10e70 = 0x1;
@@ -8883,12 +10226,12 @@ void UI_CinematicsMenu_Init(void) {
 	*(int *)local_18 = (*(int *)local_18 | 0x2000);
 jmp_3e2b:
 	local_14 = (local_14 + 0x1e);
-	*(int *)bss_10e78 = 0x9;
+	bss_10e78 = 0x9;
 	bss_10ea4 = 0x108;
 	bss_10e84 = 0x140;
-	*(int *)bss_10e88 = local_14;
+	bss_10e88 = local_14;
 	bss_10e80 = 0xd;
-	*(int *)bss_10ea8 = 0x3d42;
+	bss_10ea8 = 0x3d42;
 	bss_10eb4 = 0x4d0d;
 	bss_10ebc = 0x21b0;
 	bss_10eb8 = 0x1;
@@ -8898,12 +10241,12 @@ jmp_3e2b:
 	*(int *)local_1c = (*(int *)local_1c | 0x2000);
 jmp_3e62:
 	local_14 = (local_14 + 0x1e);
-	*(int *)bss_10ec0 = 0x9;
+	bss_10ec0 = 0x9;
 	bss_10eec = 0x108;
 	bss_10ecc = 0x140;
-	*(int *)bss_10ed0 = local_14;
+	bss_10ed0 = local_14;
 	bss_10ec8 = 0xe;
-	*(int *)bss_10ef0 = 0x3d42;
+	bss_10ef0 = 0x3d42;
 	bss_10efc = 0x4d06;
 	bss_10f04 = 0x21b0;
 	bss_10f00 = 0x1;
@@ -8913,12 +10256,12 @@ jmp_3e62:
 	*(int *)local_20 = (*(int *)local_20 | 0x2000);
 jmp_3e99:
 	local_14 = (local_14 + 0x1e);
-	*(int *)bss_10f08 = 0x9;
+	bss_10f08 = 0x9;
 	bss_10f34 = 0x108;
 	bss_10f14 = 0x140;
-	*(int *)bss_10f18 = local_14;
+	bss_10f18 = local_14;
 	bss_10f10 = 0xf;
-	*(int *)bss_10f38 = 0x3d42;
+	bss_10f38 = 0x3d42;
 	bss_10f44 = 0x4cff;
 	bss_10f4c = 0x21b0;
 	bss_10f48 = 0x1;
@@ -8928,12 +10271,12 @@ jmp_3e99:
 	*(int *)local_24 = (*(int *)local_24 | 0x2000);
 jmp_3ed0:
 	local_14 = (local_14 + 0x1e);
-	*(int *)bss_10f50 = 0x9;
+	bss_10f50 = 0x9;
 	bss_10f7c = 0x108;
 	bss_10f5c = 0x140;
-	*(int *)bss_10f60 = local_14;
+	bss_10f60 = local_14;
 	bss_10f58 = 0x10;
-	*(int *)bss_10f80 = 0x3d42;
+	bss_10f80 = 0x3d42;
 	bss_10f8c = 0x4cf8;
 	bss_10f94 = 0x21b0;
 	bss_10f90 = 0x1;
@@ -8943,12 +10286,12 @@ jmp_3ed0:
 	*(int *)local_28 = (*(int *)local_28 | 0x2000);
 jmp_3f07:
 	local_14 = (local_14 + 0x1e);
-	*(int *)bss_10f98 = 0x9;
+	bss_10f98 = 0x9;
 	bss_10fc4 = 0x108;
 	bss_10fa4 = 0x140;
-	*(int *)bss_10fa8 = local_14;
+	bss_10fa8 = local_14;
 	bss_10fa0 = 0x11;
-	*(int *)bss_10fc8 = 0x3d42;
+	bss_10fc8 = 0x3d42;
 	bss_10fd4 = 0x4cf1;
 	bss_10fdc = 0x21b0;
 	bss_10fd8 = 0x1;
@@ -8958,12 +10301,12 @@ jmp_3f07:
 	*(int *)local_2c = (*(int *)local_2c | 0x2000);
 jmp_3f3e:
 	local_14 = (local_14 + 0x1e);
-	*(int *)bss_10fe0 = 0x9;
+	bss_10fe0 = 0x9;
 	bss_1100c = 0x108;
 	bss_10fec = 0x140;
-	*(int *)bss_10ff0 = local_14;
+	bss_10ff0 = local_14;
 	bss_10fe8 = 0x12;
-	*(int *)bss_11010 = 0x3d42;
+	bss_11010 = 0x3d42;
 	bss_1101c = 0x4cea;
 	bss_11024 = 0x21b0;
 	bss_11020 = 0x1;
@@ -8973,12 +10316,12 @@ jmp_3f3e:
 	*(int *)local_30 = (*(int *)local_30 | 0x2000);
 jmp_3f75:
 	local_14 = (local_14 + 0x1e);
-	*(int *)bss_11028 = 0x9;
+	bss_11028 = 0x9;
 	bss_11054 = 0x108;
 	bss_11034 = 0x140;
-	*(int *)bss_11038 = local_14;
+	bss_11038 = local_14;
 	bss_11030 = 0x13;
-	*(int *)bss_11058 = 0x3d42;
+	bss_11058 = 0x3d42;
 	bss_11064 = 0x4ce3;
 	bss_1106c = 0x21b0;
 	bss_11068 = 0x1;
@@ -8988,12 +10331,12 @@ jmp_3f75:
 	*(int *)local_34 = (*(int *)local_34 | 0x2000);
 jmp_3fac:
 	local_14 = (local_14 + 0x1e);
-	*(int *)bss_11070 = 0x9;
+	bss_11070 = 0x9;
 	bss_1109c = 0x108;
 	bss_1107c = 0x140;
-	*(int *)bss_11080 = local_14;
+	bss_11080 = local_14;
 	bss_11078 = 0x14;
-	*(int *)bss_110a0 = 0x3d42;
+	bss_110a0 = 0x3d42;
 	bss_110ac = 0x4cdf;
 	bss_110b4 = 0x21b0;
 	bss_110b0 = 0x1;
@@ -9006,12 +10349,12 @@ jmp_3fe3:
 	bss_110bc = 0x4ccf;
 	bss_110e4 = 0x104;
 	bss_110c0 = 0xa;
-	*(int *)bss_110e8 = 0x3d36;
+	bss_110e8 = 0x3d36;
 	bss_110c4 = 0x0;
-	*(int *)bss_110c8 = 0x1a0;
+	bss_110c8 = 0x1a0;
 	bss_11104 = 0x80;
-	*(int *)bss_11108 = 0x40;
-	*(int *)bss_110f4 = 0x4cbf;
+	bss_11108 = 0x40;
+	bss_110f4 = 0x4cbf;
 	Menu_AddItem(0x10bd0, 0x10cf0);
 	Menu_AddItem(0x10bd0, 0x10d38);
 	Menu_AddItem(0x10bd0, 0x10d90);
@@ -9267,26 +10610,26 @@ void UI_ConfirmMenu_Style(int arg_0, int arg_1, int arg_2, int arg_3) {
 	bss_11224 = 0x1;
 	trap_GetClientState(local_1c);
 	if (*(int *)local_1c < 0x5) goto jmp_423d;
-	*(int *)bss_11228 = 0x0;
+	bss_11228 = 0x0;
 	goto jmp_4240;
 jmp_423d:
-	*(int *)bss_11228 = 0x1;
+	bss_11228 = 0x1;
 jmp_4240:
-	*(int *)bss_11278 = 0x9;
+	bss_11278 = 0x9;
 	bss_112a4 = 0x104;
-	*(int *)bss_112a8 = 0x40ab;
+	bss_112a8 = 0x40ab;
 	bss_11280 = 0xb;
 	bss_11284 = local_14;
-	*(int *)bss_11288 = 0x108;
+	bss_11288 = 0x108;
 	bss_112b4 = 0x4dee;
 	bss_112bc = 0x21b0;
 	bss_112b8 = 0x0;
-	*(int *)bss_11230 = 0x9;
+	bss_11230 = 0x9;
 	bss_1125c = 0x104;
-	*(int *)bss_11260 = 0x40ab;
+	bss_11260 = 0x40ab;
 	bss_11238 = 0xa;
 	bss_1123c = local_c34;
-	*(int *)bss_11240 = 0x108;
+	bss_11240 = 0x108;
 	bss_1126c = 0x4deb;
 	bss_11274 = 0x21b0;
 	bss_11270 = 0x0;
@@ -9339,17 +10682,17 @@ void UI_Message(int arg_0) {
 	bss_11224 = 0x1;
 	trap_GetClientState(local_14);
 	if (*(int *)local_14 < 0x5) goto jmp_42e2;
-	*(int *)bss_11228 = 0x0;
+	bss_11228 = 0x0;
 	goto jmp_42e5;
 jmp_42e2:
-	*(int *)bss_11228 = 0x1;
+	bss_11228 = 0x1;
 jmp_42e5:
-	*(int *)bss_11278 = 0x9;
+	bss_11278 = 0x9;
 	bss_112a4 = 0x104;
-	*(int *)bss_112a8 = 0x40ab;
+	bss_112a8 = 0x40ab;
 	bss_11280 = 0xb;
 	bss_11284 = local_c24;
-	*(int *)bss_11288 = 0x118;
+	bss_11288 = 0x118;
 	bss_112b4 = 0x4de8;
 	bss_112bc = 0x21b0;
 	bss_112b8 = 0x0;
@@ -9924,7 +11267,7 @@ jmp_49c0:
 	local_20 = *(int *)((local_c << 0x2) + local_10);
 	local_8 = local_20;
 	if (local_20 != 0x0) goto jmp_498b;
-	if (*(int *)bss_12a98 == 0x0) goto jmp_4a19;
+	if (bss_12a98 == 0x0) goto jmp_4a19;
 	local_14 = 0x0;
 	goto jmp_49f4;
 jmp_49db:
@@ -9932,8 +11275,8 @@ jmp_49db:
 	*(int *)local_24 = (*(int *)local_24 | 0x2000);
 	local_14 = (local_14 + 0x1);
 jmp_49f4:
-	if (local_14 < *(int *)bss_11850) goto jmp_49db;
-	local_24 = (*(int *)((*(int *)s_controls << 0x2) + 0x11854) + 0x2c);
+	if (local_14 < bss_11850) goto jmp_49db;
+	local_24 = (*(int *)((s_controls << 0x2) + 0x11854) + 0x2c);
 	*(int *)local_24 = (*(int *)local_24 & 0xffffdfff);
 	local_28 = 0x12b88;
 	*(int *)local_28 = (*(int *)local_28 & 0xffffdfff);
@@ -9946,7 +11289,7 @@ jmp_4a1e:
 	*(int *)local_24 = (*(int *)local_24 & 0xffffdfff);
 	local_14 = (local_14 + 0x1);
 jmp_4a37:
-	if (local_14 < *(int *)bss_11850) goto jmp_4a1e;
+	if (local_14 < bss_11850) goto jmp_4a1e;
 	local_24 = 0x11b2c;
 	*(int *)local_24 = (*(int *)local_24 & 0xffffdf3f);
 	local_28 = 0x11ae4;
@@ -10053,7 +11396,7 @@ jmp_4b8b:
 	local_90 = 0x8;
 	UI_DrawString((local_20 - local_90), local_24, *(int *)((*(int *)(local_1c + local_90) << 0x5) + 0x151c), 0x12, 0x2200);
 	UI_DrawString((local_20 + 0x8), local_24, local_28, 0x4010, 0x2200);
-	if (*(int *)bss_12a98 == 0x0) goto jmp_4c19;
+	if (bss_12a98 == 0x0) goto jmp_4c19;
 	UI_DrawChar(local_20, local_24, 0x3d, 0x1011, 0x2200);
 	UI_DrawString(0x140, 0x180, 0x510e, 0x4011, 0x2a28);
 	goto jmp_4caf;
@@ -10221,13 +11564,13 @@ jmp_4dc0:
 	bss_1242c = (int)local_40;
 	local_44 = Controls_GetCvarValue(0x516f);
 	local_48 = UI_ClampCvar(0x40000000, 0x41f00000, local_44);
-	*(int *)bss_1232c = local_48;
+	bss_1232c = local_48;
 	local_4c = Controls_GetCvarValue(0x5163);
 	local_50 = UI_ClampCvar(0x0, 0x3f800000, local_4c);
 	bss_12a44 = (int)local_50;
 	local_54 = Controls_GetCvarValue(0x5155);
 	local_58 = UI_ClampCvar(0x3d4ccccd, 0x3f400000, local_54);
-	*(int *)bss_12a8c = local_58;
+	bss_12a8c = local_58;
 	local_5c = Controls_GetCvarValue(0x5140);
 	local_60 = UI_ClampCvar(0x0, 0x3f800000, local_5c);
 	bss_121f0 = (int)local_60;
@@ -10279,9 +11622,9 @@ jmp_4ed5:
 	trap_Cvar_SetValue(0x514c, (float)bss_12370);
 	trap_Cvar_SetValue(0x5191, (float)bss_123b0);
 	trap_Cvar_SetValue(0x517b, (float)bss_1242c);
-	trap_Cvar_SetValue(0x516f, *(int *)bss_1232c);
+	trap_Cvar_SetValue(0x516f, bss_1232c);
 	trap_Cvar_SetValue(0x5163, (float)bss_12a44);
-	trap_Cvar_SetValue(0x5155, *(int *)bss_12a8c);
+	trap_Cvar_SetValue(0x5155, bss_12a8c);
 	trap_Cvar_SetValue(0x5140, (float)bss_121f0);
 	trap_Cmd_ExecuteText(0x2, 0x50a2);
 }
@@ -10336,11 +11679,11 @@ jmp_4f5f:
 	local_24 = Controls_GetCvarDefault(0x517b);
 	bss_1242c = (int)local_24;
 	local_28 = Controls_GetCvarDefault(0x516f);
-	*(int *)bss_1232c = local_28;
+	bss_1232c = local_28;
 	local_2c = Controls_GetCvarDefault(0x5163);
 	bss_12a44 = (int)local_2c;
 	local_30 = Controls_GetCvarDefault(0x5155);
-	*(int *)bss_12a8c = local_30;
+	bss_12a8c = local_30;
 	local_34 = Controls_GetCvarDefault(0x5140);
 	bss_121f0 = (int)local_34;
 }
@@ -10368,7 +11711,7 @@ int Controls_MenuKey(int arg_0) {
 	arg_0 = arg_0;
 	local_20 = 0x0;
 	local_1c = local_20;
-	if (*(int *)bss_12a98 != local_20) goto jmp_5002;
+	if (bss_12a98 != local_20) goto jmp_5002;
 	*(int *)local_28 = 0x8c;
 	if (arg_0 == *(int *)local_28) goto jmp_4ff4;
 	if (arg_0 > *(int *)local_28) goto jmp_4fe1;
@@ -10400,7 +11743,7 @@ jmp_500a:
 	if (arg_0 == 0x60) goto jmp_5138;
 	goto jmp_5028;
 jmp_501d:
-	*(int *)bss_12a98 = 0x0;
+	bss_12a98 = 0x0;
 	Controls_Update();
 	return menu_out_sound;
 jmp_5028:
@@ -10423,7 +11766,7 @@ jmp_5064:
 	local_10 = (local_10 + 0x20);
 	goto jmp_5035;
 jmp_5072:
-	local_18 = *(int *)(*(int *)((*(int *)s_controls << 0x2) + 0x11854) + 0x8);
+	local_18 = *(int *)(*(int *)((s_controls << 0x2) + 0x11854) + 0x8);
 	local_10 = 0x1518;
 	local_14 = 0x0;
 jmp_5084:
@@ -10461,7 +11804,7 @@ jmp_511b:
 	local_10 = (local_10 + 0x20);
 	goto jmp_5084;
 jmp_5129:
-	*(int *)bss_12a98 = 0x0;
+	bss_12a98 = 0x0;
 	if (local_1c == 0x0) goto jmp_5138;
 	Controls_Update();
 	return menu_out_sound;
@@ -10582,8 +11925,8 @@ jmp_5216:
 	goto jmp_5238;
 jmp_522a:
 	if (arg_1 != 0x3) goto jmp_5238;
-	if (*(int *)bss_12a98 != 0x0) goto jmp_5238;
-	*(int *)bss_12a98 = 0x1;
+	if (bss_12a98 != 0x0) goto jmp_5238;
+	bss_12a98 = 0x1;
 	Controls_Update();
 jmp_5238:
 }
@@ -10649,61 +11992,61 @@ void Controls_MenuInit(void) {
 	Controls_Cache();
 	bss_11958 = 0x4fb0;
 	bss_1195c = 0x1;
-	*(int *)bss_11960 = 0x1;
-	*(int *)bss_11968 = 0xa;
-	*(int *)bss_11994 = 0x8;
+	bss_11960 = 0x1;
+	bss_11968 = 0xa;
+	bss_11994 = 0x8;
 	bss_11974 = 0x140;
-	*(int *)bss_11978 = 0x10;
+	bss_11978 = 0x10;
 	bss_119a4 = 0x5048;
 	bss_119ac = 0x2160;
 	bss_119a8 = 0x1;
 	bss_119b0 = 0x6;
-	*(int *)bss_119b4 = 0x5036;
-	*(int *)bss_119dc = 0x4004;
+	bss_119b4 = 0x5036;
+	bss_119dc = 0x4004;
 	bss_119bc = 0x0;
-	*(int *)bss_119c0 = 0x4e;
+	bss_119c0 = 0x4e;
 	bss_119fc = 0x100;
-	*(int *)bss_11a00 = 0x149;
+	bss_11a00 = 0x149;
 	bss_11a08 = 0x6;
-	*(int *)bss_11a0c = 0x5024;
-	*(int *)bss_11a34 = 0x4004;
+	bss_11a0c = 0x5024;
+	bss_11a34 = 0x4004;
 	bss_11a14 = 0x178;
-	*(int *)bss_11a18 = 0x4c;
+	bss_11a18 = 0x4c;
 	bss_11a54 = 0x100;
-	*(int *)bss_11a58 = 0x14e;
-	*(int *)bss_11b00 = 0x9;
+	bss_11a58 = 0x14e;
+	bss_11b00 = 0x9;
 	bss_11b2c = 0x110;
 	bss_11b08 = 0x65;
-	*(int *)bss_11b30 = 0x5175;
+	bss_11b30 = 0x5175;
 	bss_11b0c = 0x98;
-	*(int *)bss_11b10 = 0xba;
+	bss_11b10 = 0xba;
 	bss_11b3c = 0x501f;
 	bss_11b40 = 0x2;
 	bss_11b44 = 0x21b0;
-	*(int *)bss_11ab8 = 0x9;
+	bss_11ab8 = 0x9;
 	bss_11ae4 = 0x110;
 	bss_11ac0 = 0x64;
-	*(int *)bss_11ae8 = 0x5175;
+	bss_11ae8 = 0x5175;
 	bss_11ac4 = 0x98;
-	*(int *)bss_11ac8 = 0xd5;
+	bss_11ac8 = 0xd5;
 	bss_11af4 = 0x501a;
 	bss_11af8 = 0x2;
 	bss_11afc = 0x21b0;
-	*(int *)bss_11b48 = 0x9;
+	bss_11b48 = 0x9;
 	bss_11b74 = 0x110;
 	bss_11b50 = 0x66;
-	*(int *)bss_11b78 = 0x5175;
+	bss_11b78 = 0x5175;
 	bss_11b54 = 0x98;
-	*(int *)bss_11b58 = 0xf0;
+	bss_11b58 = 0xf0;
 	bss_11b84 = 0x5014;
 	bss_11b88 = 0x2;
 	bss_11b8c = 0x21b0;
-	*(int *)bss_11b90 = 0x9;
+	bss_11b90 = 0x9;
 	bss_11bbc = 0x110;
 	bss_11b98 = 0x67;
-	*(int *)bss_11bc0 = 0x5175;
+	bss_11bc0 = 0x5175;
 	bss_11b9c = 0x98;
-	*(int *)bss_11ba0 = 0x10b;
+	bss_11ba0 = 0x10b;
 	bss_11bcc = 0x500f;
 	bss_11bd0 = 0x2;
 	bss_11bd4 = 0x21b0;
@@ -10711,258 +12054,258 @@ void Controls_MenuInit(void) {
 	bss_12b08 = 0x4fff;
 	bss_12b30 = 0x104;
 	bss_12b10 = 0x0;
-	*(int *)bss_12b14 = 0x1a0;
+	bss_12b14 = 0x1a0;
 	bss_12b0c = 0x69;
-	*(int *)bss_12b34 = 0x5175;
+	bss_12b34 = 0x5175;
 	bss_12b50 = 0x80;
-	*(int *)bss_12b54 = 0x40;
-	*(int *)bss_12b40 = 0x4fef;
-	*(int *)bss_11a60 = 0x6;
-	*(int *)bss_11a8c = 0x4000;
-	*(int *)bss_11a98 = 0x4cc1;
+	bss_12b54 = 0x40;
+	bss_12b40 = 0x4fef;
+	bss_11a60 = 0x6;
+	bss_11a8c = 0x4000;
+	bss_11a98 = 0x4cc1;
 	bss_11a6c = 0x190;
-	*(int *)bss_11a70 = 0xffffffd8;
+	bss_11a70 = 0xffffffd8;
 	bss_11aac = 0x140;
-	*(int *)bss_11ab0 = 0x230;
-	*(int *)bss_11bd8 = 0x2;
+	bss_11ab0 = 0x230;
+	bss_11bd8 = 0x2;
 	bss_11c04 = 0x3104;
-	*(int *)bss_11c08 = 0x520a;
+	bss_11c08 = 0x520a;
 	bss_11c10 = 0x4b08;
-	*(int *)bss_11be0 = 0x3;
-	*(int *)bss_11c14 = 0x2;
+	bss_11be0 = 0x3;
+	bss_11c14 = 0x2;
 	bss_11c40 = 0x3104;
-	*(int *)bss_11c44 = 0x520a;
+	bss_11c44 = 0x520a;
 	bss_11c4c = 0x4b08;
-	*(int *)bss_11c1c = 0x4;
-	*(int *)bss_11c50 = 0x2;
+	bss_11c1c = 0x4;
+	bss_11c50 = 0x2;
 	bss_11c7c = 0x3104;
-	*(int *)bss_11c80 = 0x520a;
+	bss_11c80 = 0x520a;
 	bss_11c88 = 0x4b08;
-	*(int *)bss_11c58 = 0x5;
-	*(int *)bss_11c8c = 0x2;
+	bss_11c58 = 0x5;
+	bss_11c8c = 0x2;
 	bss_11cb8 = 0x3104;
-	*(int *)bss_11cbc = 0x520a;
+	bss_11cbc = 0x520a;
 	bss_11cc4 = 0x4b08;
-	*(int *)bss_11c94 = 0x6;
-	*(int *)bss_11cc8 = 0x2;
+	bss_11c94 = 0x6;
+	bss_11cc8 = 0x2;
 	bss_11cf4 = 0x3104;
-	*(int *)bss_11cf8 = 0x520a;
+	bss_11cf8 = 0x520a;
 	bss_11d00 = 0x4b08;
-	*(int *)bss_11cd0 = 0x7;
-	*(int *)bss_11d04 = 0x2;
+	bss_11cd0 = 0x7;
+	bss_11d04 = 0x2;
 	bss_11d30 = 0x3104;
-	*(int *)bss_11d34 = 0x520a;
+	bss_11d34 = 0x520a;
 	bss_11d3c = 0x4b08;
-	*(int *)bss_11d0c = 0x8;
-	*(int *)bss_11d40 = 0x2;
+	bss_11d0c = 0x8;
+	bss_11d40 = 0x2;
 	bss_11d6c = 0x3104;
-	*(int *)bss_11d70 = 0x520a;
+	bss_11d70 = 0x520a;
 	bss_11d78 = 0x4b08;
-	*(int *)bss_11d48 = 0x9;
-	*(int *)bss_11d7c = 0x2;
+	bss_11d48 = 0x9;
+	bss_11d7c = 0x2;
 	bss_11da8 = 0x3104;
-	*(int *)bss_11dac = 0x520a;
+	bss_11dac = 0x520a;
 	bss_11db4 = 0x4b08;
-	*(int *)bss_11d84 = 0xa;
-	*(int *)bss_11db8 = 0x2;
+	bss_11d84 = 0xa;
+	bss_11db8 = 0x2;
 	bss_11de4 = 0x3104;
-	*(int *)bss_11de8 = 0x520a;
+	bss_11de8 = 0x520a;
 	bss_11df0 = 0x4b08;
-	*(int *)bss_11dc0 = 0xb;
-	*(int *)bss_11df4 = 0x2;
+	bss_11dc0 = 0xb;
+	bss_11df4 = 0x2;
 	bss_11e20 = 0x3104;
-	*(int *)bss_11e24 = 0x520a;
+	bss_11e24 = 0x520a;
 	bss_11e2c = 0x4b08;
-	*(int *)bss_11dfc = 0x2;
-	*(int *)bss_11e6c = 0x2;
+	bss_11dfc = 0x2;
+	bss_11e6c = 0x2;
 	bss_11e98 = 0x3104;
-	*(int *)bss_11e9c = 0x520a;
+	bss_11e9c = 0x520a;
 	bss_11ea4 = 0x4b08;
-	*(int *)bss_11e74 = 0x11;
-	*(int *)bss_11e30 = 0x2;
+	bss_11e74 = 0x11;
+	bss_11e30 = 0x2;
 	bss_11e5c = 0x3104;
-	*(int *)bss_11e60 = 0x520a;
+	bss_11e60 = 0x520a;
 	bss_11e68 = 0x4b08;
-	*(int *)bss_11e38 = 0x12;
-	*(int *)bss_11ea8 = 0x2;
+	bss_11e38 = 0x12;
+	bss_11ea8 = 0x2;
 	bss_11ed4 = 0x3104;
-	*(int *)bss_11ed8 = 0x520a;
+	bss_11ed8 = 0x520a;
 	bss_11ee0 = 0x4b08;
-	*(int *)bss_11eb0 = 0x13;
-	*(int *)bss_11ee4 = 0x2;
+	bss_11eb0 = 0x13;
+	bss_11ee4 = 0x2;
 	bss_11f10 = 0x3104;
-	*(int *)bss_11f14 = 0x520a;
+	bss_11f14 = 0x520a;
 	bss_11f1c = 0x4b08;
-	*(int *)bss_11eec = 0x14;
-	*(int *)bss_11f20 = 0x2;
+	bss_11eec = 0x14;
+	bss_11f20 = 0x2;
 	bss_11f4c = 0x3104;
-	*(int *)bss_11f50 = 0x520a;
+	bss_11f50 = 0x520a;
 	bss_11f58 = 0x4b08;
-	*(int *)bss_11f28 = 0x15;
-	*(int *)bss_11f5c = 0x2;
+	bss_11f28 = 0x15;
+	bss_11f5c = 0x2;
 	bss_11f88 = 0x3104;
-	*(int *)bss_11f8c = 0x520a;
+	bss_11f8c = 0x520a;
 	bss_11f94 = 0x4b08;
-	*(int *)bss_11f64 = 0x16;
-	*(int *)bss_11f98 = 0x2;
+	bss_11f64 = 0x16;
+	bss_11f98 = 0x2;
 	bss_11fc4 = 0x3104;
-	*(int *)bss_11fc8 = 0x520a;
+	bss_11fc8 = 0x520a;
 	bss_11fd0 = 0x4b08;
-	*(int *)bss_11fa0 = 0x17;
-	*(int *)bss_11fd4 = 0x2;
+	bss_11fa0 = 0x17;
+	bss_11fd4 = 0x2;
 	bss_12000 = 0x3104;
-	*(int *)bss_12004 = 0x520a;
+	bss_12004 = 0x520a;
 	bss_1200c = 0x4b08;
-	*(int *)bss_11fdc = 0x18;
-	*(int *)bss_12010 = 0x2;
+	bss_11fdc = 0x18;
+	bss_12010 = 0x2;
 	bss_1203c = 0x3104;
-	*(int *)bss_12040 = 0x520a;
+	bss_12040 = 0x520a;
 	bss_12048 = 0x4b08;
-	*(int *)bss_12018 = 0x19;
-	*(int *)bss_1204c = 0x2;
+	bss_12018 = 0x19;
+	bss_1204c = 0x2;
 	bss_12078 = 0x3104;
-	*(int *)bss_1207c = 0x520a;
+	bss_1207c = 0x520a;
 	bss_12084 = 0x4b08;
-	*(int *)bss_12054 = 0x1a;
-	*(int *)bss_12088 = 0x2;
+	bss_12054 = 0x1a;
+	bss_12088 = 0x2;
 	bss_120b4 = 0x3104;
-	*(int *)bss_120b8 = 0x520a;
+	bss_120b8 = 0x520a;
 	bss_120c0 = 0x4b08;
-	*(int *)bss_12090 = 0x1b;
-	*(int *)bss_120c4 = 0x2;
+	bss_12090 = 0x1b;
+	bss_120c4 = 0x2;
 	bss_120f0 = 0x3104;
-	*(int *)bss_120f4 = 0x520a;
+	bss_120f4 = 0x520a;
 	bss_120fc = 0x4b08;
-	*(int *)bss_120cc = 0x1c;
-	*(int *)bss_12100 = 0x2;
+	bss_120cc = 0x1c;
+	bss_12100 = 0x2;
 	bss_1212c = 0x3104;
-	*(int *)bss_12130 = 0x520a;
+	bss_12130 = 0x520a;
 	bss_12138 = 0x4b08;
-	*(int *)bss_12108 = 0xc;
-	*(int *)bss_1213c = 0x2;
+	bss_12108 = 0xc;
+	bss_1213c = 0x2;
 	bss_12168 = 0x3104;
-	*(int *)bss_1216c = 0x520a;
+	bss_1216c = 0x520a;
 	bss_12174 = 0x4b08;
-	*(int *)bss_12144 = 0xd;
-	*(int *)bss_12178 = 0x2;
+	bss_12144 = 0xd;
+	bss_12178 = 0x2;
 	bss_121a4 = 0x3084;
-	*(int *)bss_121a8 = 0x520a;
+	bss_121a8 = 0x520a;
 	bss_121b0 = 0x4b08;
-	*(int *)bss_12180 = 0xe;
+	bss_12180 = 0xe;
 	bss_121b4 = 0x5;
 	bss_121e0 = 0x2;
-	*(int *)bss_121c0 = 0x140;
+	bss_121c0 = 0x140;
 	bss_121b8 = 0x4fe5;
 	bss_121bc = 0x23;
 	bss_121e4 = 0x5175;
-	*(int *)bss_121e8 = 0x4cb1;
-	*(int *)bss_121f4 = 0x2;
+	bss_121e8 = 0x4cb1;
+	bss_121f4 = 0x2;
 	bss_12220 = 0x3104;
-	*(int *)bss_12224 = 0x520a;
+	bss_12224 = 0x520a;
 	bss_1222c = 0x4b08;
-	*(int *)bss_121fc = 0xf;
-	*(int *)bss_12230 = 0x2;
+	bss_121fc = 0xf;
+	bss_12230 = 0x2;
 	bss_1225c = 0x3104;
-	*(int *)bss_12260 = 0x520a;
+	bss_12260 = 0x520a;
 	bss_12268 = 0x4b08;
-	*(int *)bss_12238 = 0x10;
-	*(int *)bss_12430 = 0x2;
+	bss_12238 = 0x10;
+	bss_12430 = 0x2;
 	bss_1245c = 0x3104;
-	*(int *)bss_12460 = 0x520a;
-	*(int *)bss_12468 = 0x4b08;
-	*(int *)bss_12438 = 0x1;
-	*(int *)bss_123b4 = 0x2;
+	bss_12460 = 0x520a;
+	bss_12468 = 0x4b08;
+	bss_12438 = 0x1;
+	bss_123b4 = 0x2;
 	bss_123e0 = 0x3104;
-	*(int *)bss_123e4 = 0x520a;
+	bss_123e4 = 0x520a;
 	bss_123ec = 0x4b08;
-	*(int *)bss_123bc = 0x0;
+	bss_123bc = 0x0;
 	bss_122a8 = 0x5;
 	bss_122d4 = 0x2;
-	*(int *)bss_122b4 = 0x140;
+	bss_122b4 = 0x140;
 	bss_122ac = 0x4fd8;
 	bss_122b0 = 0x24;
 	bss_122d8 = 0x5175;
-	*(int *)bss_122dc = 0x4cb1;
+	bss_122dc = 0x4cb1;
 	bss_12334 = 0x5;
 	bss_12360 = 0x2;
-	*(int *)bss_12340 = 0x140;
+	bss_12340 = 0x140;
 	bss_12338 = 0x4fcb;
 	bss_1233c = 0x2a;
 	bss_12364 = 0x5175;
-	*(int *)bss_12368 = 0x4cb1;
+	bss_12368 = 0x4cb1;
 	bss_12374 = 0x5;
 	bss_123a0 = 0x2;
-	*(int *)bss_12380 = 0x140;
+	bss_12380 = 0x140;
 	bss_12378 = 0x4fc0;
 	bss_1237c = 0x25;
 	bss_123a4 = 0x5175;
-	*(int *)bss_123a8 = 0x4cb1;
+	bss_123a8 = 0x4cb1;
 	bss_123f0 = 0x5;
 	bss_1241c = 0x2;
-	*(int *)bss_123fc = 0x140;
+	bss_123fc = 0x140;
 	bss_123f4 = 0x4fad;
 	bss_123f8 = 0x26;
 	bss_12420 = 0x5175;
-	*(int *)bss_12424 = 0x4cb1;
+	bss_12424 = 0x4cb1;
 	bss_122e8 = 0x1;
-	*(int *)bss_122f4 = 0x140;
+	bss_122f4 = 0x140;
 	bss_12314 = 0x2;
 	bss_122ec = 0x4fa1;
 	bss_122f0 = 0x27;
 	bss_12318 = 0x5175;
 	bss_12324 = 0x40000000;
 	bss_12328 = 0x41f00000;
-	*(int *)bss_1231c = 0x4cb1;
-	*(int *)bss_1226c = 0x2;
+	bss_1231c = 0x4cb1;
+	bss_1226c = 0x2;
 	bss_12298 = 0x3104;
-	*(int *)bss_1229c = 0x520a;
+	bss_1229c = 0x520a;
 	bss_122a4 = 0x4b08;
-	*(int *)bss_12274 = 0x1d;
-	*(int *)bss_128dc = 0x2;
+	bss_12274 = 0x1d;
+	bss_128dc = 0x2;
 	bss_12908 = 0x3104;
-	*(int *)bss_1290c = 0x520a;
+	bss_1290c = 0x520a;
 	bss_12914 = 0x4b08;
-	*(int *)bss_128e4 = 0x1e;
-	*(int *)bss_12918 = 0x2;
+	bss_128e4 = 0x1e;
+	bss_12918 = 0x2;
 	bss_12944 = 0x3104;
-	*(int *)bss_12948 = 0x520a;
+	bss_12948 = 0x520a;
 	bss_12950 = 0x4b08;
-	*(int *)bss_12920 = 0x1f;
-	*(int *)bss_12954 = 0x2;
+	bss_12920 = 0x1f;
+	bss_12954 = 0x2;
 	bss_12980 = 0x3104;
-	*(int *)bss_12984 = 0x520a;
+	bss_12984 = 0x520a;
 	bss_1298c = 0x4b08;
-	*(int *)bss_1295c = 0x20;
-	*(int *)bss_12990 = 0x2;
+	bss_1295c = 0x20;
+	bss_12990 = 0x2;
 	bss_129bc = 0x3104;
-	*(int *)bss_129c0 = 0x520a;
+	bss_129c0 = 0x520a;
 	bss_129c8 = 0x4b08;
-	*(int *)bss_12998 = 0x21;
-	*(int *)bss_129cc = 0x2;
+	bss_12998 = 0x21;
+	bss_129cc = 0x2;
 	bss_129f8 = 0x3104;
-	*(int *)bss_129fc = 0x520a;
+	bss_129fc = 0x520a;
 	bss_12a04 = 0x4b08;
-	*(int *)bss_129d4 = 0x22;
+	bss_129d4 = 0x22;
 	bss_12a08 = 0x5;
 	bss_12a34 = 0x2;
-	*(int *)bss_12a14 = 0x140;
+	bss_12a14 = 0x140;
 	bss_12a0c = 0x4f98;
 	bss_12a10 = 0x28;
 	bss_12a38 = 0x5175;
-	*(int *)bss_12a3c = 0x4cb1;
+	bss_12a3c = 0x4cb1;
 	bss_12a48 = 0x1;
-	*(int *)bss_12a54 = 0x140;
+	bss_12a54 = 0x140;
 	bss_12a74 = 0x2;
 	bss_12a4c = 0x4f85;
 	bss_12a50 = 0x29;
 	bss_12a78 = 0x5175;
 	bss_12a84 = 0x3d4ccccd;
 	bss_12a88 = 0x3f400000;
-	*(int *)bss_12a7c = 0x4cb1;
-	*(int *)bss_12b5c = 0x9;
-	*(int *)bss_12b88 = 0x4008;
+	bss_12a7c = 0x4cb1;
+	bss_12b5c = 0x9;
+	bss_12b88 = 0x4008;
 	bss_12b68 = 0x140;
-	*(int *)bss_12b6c = 0x1b8;
+	bss_12b6c = 0x1b8;
 	bss_12b98 = 0x11828;
 	bss_12b9c = 0x1;
 	bss_12ba0 = 0x21f0;
@@ -11184,8 +12527,8 @@ void UI_CreditMenu(void) {
 
 	memset(0x12ba4, 0x0, 0x124);
 	bss_12cb0 = 0x5884;
-	*(int *)bss_12cb4 = 0x585a;
-	*(int *)bss_12cbc = 0x1;
+	bss_12cb4 = 0x585a;
+	bss_12cbc = 0x1;
 	UI_PushMenu(0x12ba4);
 }
 
@@ -11250,83 +12593,83 @@ void Demos_MenuInit(void) {
 
 	memset(0x12cc8, 0x0, 0x9434);
 	Demos_Cache();
-	*(int *)bss_12de0 = 0x1;
+	bss_12de0 = 0x1;
 	bss_12ddc = 0x1;
-	*(int *)bss_12de8 = 0xa;
+	bss_12de8 = 0xa;
 	bss_12df4 = 0x140;
-	*(int *)bss_12df8 = 0x10;
+	bss_12df8 = 0x10;
 	bss_12e24 = 0x5841;
 	bss_12e2c = 0x2160;
 	bss_12e28 = 0x1;
 	bss_12e30 = 0x6;
-	*(int *)bss_12e34 = 0x582f;
-	*(int *)bss_12e5c = 0x4000;
+	bss_12e34 = 0x582f;
+	bss_12e5c = 0x4000;
 	bss_12e3c = 0x0;
-	*(int *)bss_12e40 = 0x4e;
+	bss_12e40 = 0x4e;
 	bss_12e7c = 0x100;
-	*(int *)bss_12e80 = 0x149;
+	bss_12e80 = 0x149;
 	bss_12e88 = 0x6;
-	*(int *)bss_12e8c = 0x581d;
-	*(int *)bss_12eb4 = 0x4000;
+	bss_12e8c = 0x581d;
+	bss_12eb4 = 0x4000;
 	bss_12e94 = 0x178;
-	*(int *)bss_12e98 = 0x4c;
+	bss_12e98 = 0x4c;
 	bss_12ed4 = 0x100;
-	*(int *)bss_12ed8 = 0x14e;
+	bss_12ed8 = 0x14e;
 	bss_12f40 = 0x6;
-	*(int *)bss_12f44 = 0x5806;
-	*(int *)bss_12f6c = 0x4000;
+	bss_12f44 = 0x5806;
+	bss_12f6c = 0x4000;
 	bss_12f4c = 0x100;
-	*(int *)bss_12f50 = 0x190;
+	bss_12f50 = 0x190;
 	bss_12f8c = 0x80;
-	*(int *)bss_12f90 = 0x30;
-	*(int *)bss_12f98 = 0x6;
+	bss_12f90 = 0x30;
+	bss_12f98 = 0x6;
 	bss_12fc4 = 0x904;
 	bss_12fa4 = 0x100;
-	*(int *)bss_12fa8 = 0x190;
+	bss_12fa8 = 0x190;
 	bss_12fa0 = 0xe;
-	*(int *)bss_12fc8 = 0x5a52;
+	bss_12fc8 = 0x5a52;
 	bss_12fe4 = 0x40;
-	*(int *)bss_12fe8 = 0x30;
-	*(int *)bss_12fd4 = 0x57ec;
-	*(int *)bss_12ff0 = 0x6;
+	bss_12fe8 = 0x30;
+	bss_12fd4 = 0x57ec;
+	bss_12ff0 = 0x6;
 	bss_1301c = 0x904;
 	bss_12ffc = 0x140;
-	*(int *)bss_13000 = 0x190;
+	bss_13000 = 0x190;
 	bss_12ff8 = 0xd;
-	*(int *)bss_13020 = 0x5a52;
+	bss_13020 = 0x5a52;
 	bss_1303c = 0x40;
-	*(int *)bss_13040 = 0x30;
-	*(int *)bss_1302c = 0x57d1;
+	bss_13040 = 0x30;
+	bss_1302c = 0x57d1;
 	bss_13048 = 0x6;
 	bss_1304c = 0x57c1;
 	bss_13074 = 0x104;
 	bss_13050 = 0xa;
-	*(int *)bss_13078 = 0x5a52;
+	bss_13078 = 0x5a52;
 	bss_13054 = 0x0;
-	*(int *)bss_13058 = 0x1a0;
+	bss_13058 = 0x1a0;
 	bss_13094 = 0x80;
-	*(int *)bss_13098 = 0x40;
-	*(int *)bss_13084 = 0x57b1;
+	bss_13098 = 0x40;
+	bss_13084 = 0x57b1;
 	bss_130a0 = 0x6;
 	bss_130a4 = 0x57a1;
 	bss_130cc = 0x110;
 	bss_130a8 = 0xb;
-	*(int *)bss_130d0 = 0x5a52;
+	bss_130d0 = 0x5a52;
 	bss_130ac = 0x280;
-	*(int *)bss_130b0 = 0x1a0;
+	bss_130b0 = 0x1a0;
 	bss_130ec = 0x80;
-	*(int *)bss_130f0 = 0x40;
-	*(int *)bss_130dc = 0x5791;
-	*(int *)bss_12ee0 = 0x8;
+	bss_130f0 = 0x40;
+	bss_130dc = 0x5791;
+	bss_12ee0 = 0x8;
 	bss_12f0c = 0x100;
-	*(int *)bss_12f10 = 0x5a52;
+	bss_12f10 = 0x5a52;
 	bss_12ee8 = 0xc;
 	bss_12eec = 0x76;
-	*(int *)bss_12ef0 = 0x82;
+	bss_12ef0 = 0x82;
 	bss_12f30 = 0x10;
 	bss_12f34 = 0xe;
 	bss_12f2c = 0x1b0fc;
-	*(int *)bss_12f38 = 0x3;
+	bss_12f38 = 0x3;
 	local_54 = trap_Cvar_VariableValue(0x577e);
 	local_4c = (int)local_54;
 	local_58 = trap_Cvar_VariableValue(0x5771);
@@ -11340,14 +12683,14 @@ jmp_5bbc:
 jmp_5bc4:
 	Com_sprintf(local_2c, 0x20, 0x5762, 0x575e, local_50);
 	local_60 = trap_FS_GetFileList(0x5758, local_2c, 0x130fc, 0x8000);
-	*(int *)bss_130f8 = local_60;
+	bss_130f8 = local_60;
 	local_1c = 0x130fc;
 	local_64 = 0x0;
 	local_20 = local_64;
 	local_28 = local_64;
 jmp_5bf0:
-	if (*(int *)bss_130f8 <= 0x400) goto jmp_5c1d;
-	*(int *)bss_130f8 = 0x400;
+	if (bss_130f8 <= 0x400) goto jmp_5c1d;
+	bss_130f8 = 0x400;
 	goto jmp_5c1d;
 jmp_5bf9:
 	*(int *)((local_20 << 0x2) + bss_12f2c) = local_1c;
@@ -11356,10 +12699,10 @@ jmp_5bf9:
 	local_1c = ((local_24 + 0x1) + local_1c);
 	local_20 = (local_20 + 0x1);
 jmp_5c1d:
-	if (local_20 < *(int *)bss_130f8) goto jmp_5bf9;
+	if (local_20 < bss_130f8) goto jmp_5bf9;
 	if (local_28 != 0x0) goto jmp_5c5a;
 	if (local_4c <= 0x0) goto jmp_5c64;
-	if (*(int *)bss_130f8 >= 0x400) goto jmp_5c64;
+	if (bss_130f8 >= 0x400) goto jmp_5c64;
 	Com_sprintf(local_2c, 0x20, 0x5762, 0x575e, local_4c);
 	local_6c = trap_FS_GetFileList(0x5758, local_2c, local_1c, (0x8000 - (local_1c - 0x130fc)));
 	local_70 = 0x130f8;
@@ -11368,10 +12711,10 @@ jmp_5c5a:
 	local_28 = (local_28 + 0x1);
 	if (local_28 < 0x2) goto jmp_5bf0;
 jmp_5c64:
-	*(int *)bss_12f24 = *(int *)bss_130f8;
-	if (*(int *)bss_130f8 != 0x0) goto jmp_5c7e;
+	bss_12f24 = bss_130f8;
+	if (bss_130f8 != 0x0) goto jmp_5c7e;
 	*(int *)bss_12f2c = 0x5748;
-	*(int *)bss_12f24 = 0x1;
+	bss_12f24 = 0x1;
 	local_68 = 0x130cc;
 	*(int *)local_68 = (*(int *)local_68 | 0x5000);
 jmp_5c7e:
@@ -11453,9 +12796,9 @@ jmp_5d01:
 	UI_PopMenu();
 	UI_NetworkOptionsMenu();
 	goto jmp_5d4b;
-	trap_Cvar_SetValue(0x58e5, (*(int *)bss_1c478 / 0x41200000));
+	trap_Cvar_SetValue(0x58e5, (bss_1c478 / 0x41200000));
 	goto jmp_5d4b;
-	trap_Cvar_SetValue(0x58d9, (0x41200000 * *(int *)bss_1c4c4));
+	trap_Cvar_SetValue(0x58d9, (0x41200000 * bss_1c4c4));
 	goto jmp_5d4b;
 	UI_PopMenu();
 jmp_5d4b:
@@ -11479,61 +12822,61 @@ void UI_DisplayOptionsMenu_Init(void) {
 	memset(0x1c0fc, 0x0, 0x428);
 	UI_DisplayOptionsMenu_Cache();
 	bss_1c210 = 0x1;
-	*(int *)bss_1c214 = 0x1;
-	*(int *)bss_1c21c = 0xa;
-	*(int *)bss_1c248 = 0x8;
+	bss_1c214 = 0x1;
+	bss_1c21c = 0xa;
+	bss_1c248 = 0x8;
 	bss_1c228 = 0x140;
-	*(int *)bss_1c22c = 0x10;
+	bss_1c22c = 0x10;
 	bss_1c258 = 0x58cc;
 	bss_1c260 = 0x2160;
 	bss_1c25c = 0x1;
 	bss_1c264 = 0x6;
-	*(int *)bss_1c268 = 0x58ba;
-	*(int *)bss_1c290 = 0x4000;
+	bss_1c268 = 0x58ba;
+	bss_1c290 = 0x4000;
 	bss_1c270 = 0x0;
-	*(int *)bss_1c274 = 0x4e;
+	bss_1c274 = 0x4e;
 	bss_1c2b0 = 0x100;
-	*(int *)bss_1c2b4 = 0x149;
+	bss_1c2b4 = 0x149;
 	bss_1c2bc = 0x6;
-	*(int *)bss_1c2c0 = 0x58a8;
-	*(int *)bss_1c2e8 = 0x4000;
+	bss_1c2c0 = 0x58a8;
+	bss_1c2e8 = 0x4000;
 	bss_1c2c8 = 0x178;
-	*(int *)bss_1c2cc = 0x4c;
+	bss_1c2cc = 0x4c;
 	bss_1c308 = 0x100;
-	*(int *)bss_1c30c = 0x14e;
-	*(int *)bss_1c314 = 0x9;
+	bss_1c30c = 0x14e;
+	bss_1c314 = 0x9;
 	bss_1c340 = 0x110;
 	bss_1c31c = 0xa;
-	*(int *)bss_1c344 = 0x5cfa;
+	bss_1c344 = 0x5cfa;
 	bss_1c320 = 0xd8;
-	*(int *)bss_1c324 = 0xba;
+	bss_1c324 = 0xba;
 	bss_1c350 = 0x589f;
 	bss_1c354 = 0x2;
 	bss_1c358 = 0x21b0;
-	*(int *)bss_1c35c = 0x9;
+	bss_1c35c = 0x9;
 	bss_1c388 = 0x10;
 	bss_1c364 = 0xb;
-	*(int *)bss_1c38c = 0x5cfa;
+	bss_1c38c = 0x5cfa;
 	bss_1c368 = 0xd8;
-	*(int *)bss_1c36c = 0xd5;
+	bss_1c36c = 0xd5;
 	bss_1c398 = 0x5897;
 	bss_1c39c = 0x2;
 	bss_1c3a0 = 0x21b0;
-	*(int *)bss_1c3a4 = 0x9;
+	bss_1c3a4 = 0x9;
 	bss_1c3d0 = 0x110;
 	bss_1c3ac = 0xc;
-	*(int *)bss_1c3d4 = 0x5cfa;
+	bss_1c3d4 = 0x5cfa;
 	bss_1c3b0 = 0xd8;
-	*(int *)bss_1c3b4 = 0xf0;
+	bss_1c3b4 = 0xf0;
 	bss_1c3e0 = 0x5891;
 	bss_1c3e4 = 0x2;
 	bss_1c3e8 = 0x21b0;
-	*(int *)bss_1c3ec = 0x9;
+	bss_1c3ec = 0x9;
 	bss_1c418 = 0x110;
 	bss_1c3f4 = 0xd;
-	*(int *)bss_1c41c = 0x5cfa;
+	bss_1c41c = 0x5cfa;
 	bss_1c3f8 = 0xd8;
-	*(int *)bss_1c3fc = 0x10b;
+	bss_1c3fc = 0x10b;
 	bss_1c428 = 0x5889;
 	bss_1c42c = 0x2;
 	bss_1c430 = 0x21b0;
@@ -11541,13 +12884,13 @@ void UI_DisplayOptionsMenu_Init(void) {
 	bss_1c434 = 0x1;
 	bss_1c438 = 0x587d;
 	bss_1c460 = 0x102;
-	*(int *)bss_1c464 = 0x5cfa;
+	bss_1c464 = 0x5cfa;
 	bss_1c43c = 0xe;
 	bss_1c440 = 0x190;
-	*(int *)bss_1c444 = local_14;
+	bss_1c444 = local_14;
 	bss_1c470 = 0x40a00000;
 	bss_1c474 = 0x41a00000;
-	if (*(int *)bss_107a8 != 0x0) goto jmp_5e39;
+	if (bss_107a8 != 0x0) goto jmp_5e39;
 	local_18 = 0x1c460;
 	*(int *)local_18 = (*(int *)local_18 | 0x2000);
 jmp_5e39:
@@ -11555,22 +12898,22 @@ jmp_5e39:
 	bss_1c480 = 0x1;
 	bss_1c484 = 0x5870;
 	bss_1c4ac = 0x102;
-	*(int *)bss_1c4b0 = 0x5cfa;
+	bss_1c4b0 = 0x5cfa;
 	bss_1c488 = 0xf;
 	bss_1c48c = 0x190;
-	*(int *)bss_1c490 = local_14;
+	bss_1c490 = local_14;
 	bss_1c4bc = 0x40400000;
 	bss_1c4c0 = 0x41200000;
 	bss_1c4cc = 0x6;
 	bss_1c4d0 = 0x5860;
 	bss_1c4f8 = 0x104;
-	*(int *)bss_1c4fc = 0x5cfa;
+	bss_1c4fc = 0x5cfa;
 	bss_1c4d4 = 0x10;
 	bss_1c4d8 = 0x0;
-	*(int *)bss_1c4dc = 0x1a0;
+	bss_1c4dc = 0x1a0;
 	bss_1c518 = 0x80;
-	*(int *)bss_1c51c = 0x40;
-	*(int *)bss_1c508 = 0x5850;
+	bss_1c51c = 0x40;
+	bss_1c508 = 0x5850;
 	Menu_AddItem(0x1c0fc, 0x1c21c);
 	Menu_AddItem(0x1c0fc, 0x1c264);
 	Menu_AddItem(0x1c0fc, 0x1c2bc);
@@ -11582,9 +12925,9 @@ jmp_5e39:
 	Menu_AddItem(0x1c0fc, 0x1c480);
 	Menu_AddItem(0x1c0fc, 0x1c4cc);
 	local_18 = trap_Cvar_VariableValue(0x58e5);
-	*(int *)bss_1c478 = (0x41200000 * local_18);
+	bss_1c478 = (0x41200000 * local_18);
 	local_1c = trap_Cvar_VariableValue(0x58d9);
-	*(int *)bss_1c4c4 = (local_1c / 0x41200000);
+	bss_1c4c4 = (local_1c / 0x41200000);
 }
 
 /*
@@ -12819,31 +14162,31 @@ void InGame_MenuInit(void) {
 	memset(0x3e53c, 0x0, 0x448);
 	InGame_Cache();
 	bss_3e650 = 0x1;
-	*(int *)bss_3e654 = 0x0;
+	bss_3e654 = 0x0;
 	bss_3e65c = 0x6;
-	*(int *)bss_3e688 = 0x4000;
-	*(int *)bss_3e660 = 0x5c84;
+	bss_3e688 = 0x4000;
+	bss_3e660 = 0x5c84;
 	bss_3e668 = 0x57;
-	*(int *)bss_3e66c = 0x4a;
+	bss_3e66c = 0x4a;
 	bss_3e6a8 = 0x1d2;
-	*(int *)bss_3e6ac = 0x14c;
+	bss_3e6ac = 0x14c;
 	local_14 = 0x58;
-	*(int *)bss_3e6b4 = 0x9;
+	bss_3e6b4 = 0x9;
 	bss_3e6e0 = 0x108;
 	bss_3e6c0 = 0x140;
-	*(int *)bss_3e6c4 = local_14;
+	bss_3e6c4 = local_14;
 	bss_3e6bc = 0xa;
-	*(int *)bss_3e6e4 = 0x69a7;
+	bss_3e6e4 = 0x69a7;
 	bss_3e6f0 = 0x5c7e;
 	bss_3e6f8 = 0x21b0;
 	bss_3e6f4 = 0x11;
 	local_14 = (local_14 + 0x1c);
-	*(int *)bss_3e81c = 0x9;
+	bss_3e81c = 0x9;
 	bss_3e848 = 0x108;
 	bss_3e828 = 0x140;
-	*(int *)bss_3e82c = local_14;
+	bss_3e82c = local_14;
 	bss_3e824 = 0xb;
-	*(int *)bss_3e84c = 0x69a7;
+	bss_3e84c = 0x69a7;
 	bss_3e858 = 0x5c75;
 	bss_3e860 = 0x21b0;
 	bss_3e85c = 0x11;
@@ -12858,12 +14201,12 @@ jmp_6a8e:
 	*(int *)local_1034 = (*(int *)local_1034 | 0x2000);
 jmp_6a99:
 	local_14 = (local_14 + 0x1c);
-	*(int *)bss_3e864 = 0x9;
+	bss_3e864 = 0x9;
 	bss_3e890 = 0x108;
 	bss_3e870 = 0x140;
-	*(int *)bss_3e874 = local_14;
+	bss_3e874 = local_14;
 	bss_3e86c = 0xc;
-	*(int *)bss_3e894 = 0x69a7;
+	bss_3e894 = 0x69a7;
 	bss_3e8a0 = 0x5c48;
 	bss_3e8a8 = 0x21b0;
 	bss_3e8a4 = 0x11;
@@ -12878,12 +14221,12 @@ jmp_6ad9:
 	*(int *)local_1040 = (*(int *)local_1040 | 0x2000);
 jmp_6ae4:
 	local_14 = (local_14 + 0x1c);
-	*(int *)bss_3e8ac = 0x9;
+	bss_3e8ac = 0x9;
 	bss_3e8d8 = 0x108;
 	bss_3e8b8 = 0x140;
-	*(int *)bss_3e8bc = local_14;
+	bss_3e8bc = local_14;
 	bss_3e8b4 = 0x13;
-	*(int *)bss_3e8dc = 0x69a7;
+	bss_3e8dc = 0x69a7;
 	bss_3e8e8 = 0x5c3c;
 	bss_3e8f0 = 0x21b0;
 	bss_3e8ec = 0x11;
@@ -12903,32 +14246,32 @@ jmp_6b1d:
 	*(int *)local_104c = (*(int *)local_104c | 0x2000);
 jmp_6b50:
 	local_14 = (local_14 + 0x1c);
-	*(int *)bss_3e6fc = 0x9;
+	bss_3e6fc = 0x9;
 	bss_3e728 = 0x108;
 	bss_3e708 = 0x140;
-	*(int *)bss_3e70c = local_14;
+	bss_3e70c = local_14;
 	bss_3e704 = 0xd;
-	*(int *)bss_3e72c = 0x69a7;
+	bss_3e72c = 0x69a7;
 	bss_3e738 = 0x5c34;
 	bss_3e740 = 0x21b0;
 	bss_3e73c = 0x11;
 	local_14 = (local_14 + 0x1c);
-	*(int *)bss_3e744 = 0x9;
+	bss_3e744 = 0x9;
 	bss_3e770 = 0x108;
 	bss_3e750 = 0x140;
-	*(int *)bss_3e754 = local_14;
+	bss_3e754 = local_14;
 	bss_3e74c = 0xe;
-	*(int *)bss_3e774 = 0x69a7;
+	bss_3e774 = 0x69a7;
 	bss_3e780 = 0x5c28;
 	bss_3e788 = 0x21b0;
 	bss_3e784 = 0x11;
 	local_14 = (local_14 + 0x1c);
-	*(int *)bss_3e7d4 = 0x9;
+	bss_3e7d4 = 0x9;
 	bss_3e800 = 0x108;
 	bss_3e7e0 = 0x140;
-	*(int *)bss_3e7e4 = local_14;
+	bss_3e7e4 = local_14;
 	bss_3e7dc = 0x10;
-	*(int *)bss_3e804 = 0x69a7;
+	bss_3e804 = 0x69a7;
 	bss_3e810 = 0x5c1a;
 	bss_3e818 = 0x21b0;
 	bss_3e814 = 0x11;
@@ -12938,32 +14281,32 @@ jmp_6b50:
 	*(int *)local_1048 = (*(int *)local_1048 | 0x2000);
 jmp_6bcb:
 	local_14 = (local_14 + 0x1c);
-	*(int *)bss_3e93c = 0x9;
+	bss_3e93c = 0x9;
 	bss_3e968 = 0x108;
 	bss_3e948 = 0x140;
-	*(int *)bss_3e94c = local_14;
+	bss_3e94c = local_14;
 	bss_3e944 = 0x12;
-	*(int *)bss_3e96c = 0x69a7;
+	bss_3e96c = 0x69a7;
 	bss_3e978 = 0x5c0e;
 	bss_3e980 = 0x21b0;
 	bss_3e97c = 0x11;
 	local_14 = (local_14 + 0x1c);
-	*(int *)bss_3e78c = 0x9;
+	bss_3e78c = 0x9;
 	bss_3e7b8 = 0x108;
 	bss_3e798 = 0x140;
-	*(int *)bss_3e79c = local_14;
+	bss_3e79c = local_14;
 	bss_3e794 = 0xf;
-	*(int *)bss_3e7bc = 0x69a7;
+	bss_3e7bc = 0x69a7;
 	bss_3e7c8 = 0x5c02;
 	bss_3e7d0 = 0x21b0;
 	bss_3e7cc = 0x11;
 	local_14 = (local_14 + 0x1c);
-	*(int *)bss_3e8f4 = 0x9;
+	bss_3e8f4 = 0x9;
 	bss_3e920 = 0x108;
 	bss_3e900 = 0x140;
-	*(int *)bss_3e904 = local_14;
+	bss_3e904 = local_14;
 	bss_3e8fc = 0x11;
-	*(int *)bss_3e924 = 0x69a7;
+	bss_3e924 = 0x69a7;
 	bss_3e930 = 0x5bf8;
 	bss_3e938 = 0x21b0;
 	bss_3e934 = 0x11;
@@ -13067,93 +14410,93 @@ void LoadConfig_MenuInit(void) {
 	UI_LoadConfig_Cache();
 	memset(0x3e984, 0x0, 0xe30);
 	bss_3ea98 = 0x1;
-	*(int *)bss_3ea9c = 0x1;
-	*(int *)bss_3eaa4 = 0xa;
+	bss_3ea9c = 0x1;
+	bss_3eaa4 = 0xa;
 	bss_3eab0 = 0x140;
-	*(int *)bss_3eab4 = 0x10;
+	bss_3eab4 = 0x10;
 	bss_3eae0 = 0x5d9a;
 	bss_3eae8 = 0x2160;
 	bss_3eae4 = 0x1;
 	bss_3eaec = 0x6;
-	*(int *)bss_3eaf0 = 0x5d88;
-	*(int *)bss_3eb18 = 0x4000;
+	bss_3eaf0 = 0x5d88;
+	bss_3eb18 = 0x4000;
 	bss_3eaf8 = 0x0;
-	*(int *)bss_3eafc = 0x4e;
+	bss_3eafc = 0x4e;
 	bss_3eb38 = 0x100;
-	*(int *)bss_3eb3c = 0x149;
+	bss_3eb3c = 0x149;
 	bss_3eb44 = 0x6;
-	*(int *)bss_3eb48 = 0x5d76;
-	*(int *)bss_3eb70 = 0x4000;
+	bss_3eb48 = 0x5d76;
+	bss_3eb70 = 0x4000;
 	bss_3eb50 = 0x178;
-	*(int *)bss_3eb54 = 0x4c;
+	bss_3eb54 = 0x4c;
 	bss_3eb90 = 0x100;
-	*(int *)bss_3eb94 = 0x14e;
+	bss_3eb94 = 0x14e;
 	bss_3ebfc = 0x6;
-	*(int *)bss_3ec00 = 0x5d5f;
-	*(int *)bss_3ec28 = 0x4000;
+	bss_3ec00 = 0x5d5f;
+	bss_3ec28 = 0x4000;
 	bss_3ec08 = 0x100;
-	*(int *)bss_3ec0c = 0x190;
+	bss_3ec0c = 0x190;
 	bss_3ec48 = 0x80;
-	*(int *)bss_3ec4c = 0x30;
-	*(int *)bss_3ec54 = 0x6;
+	bss_3ec4c = 0x30;
+	bss_3ec54 = 0x6;
 	bss_3ec80 = 0x904;
 	bss_3ec60 = 0x100;
-	*(int *)bss_3ec64 = 0x190;
+	bss_3ec64 = 0x190;
 	bss_3ec5c = 0xd;
-	*(int *)bss_3ec84 = 0x6c9c;
+	bss_3ec84 = 0x6c9c;
 	bss_3eca0 = 0x40;
-	*(int *)bss_3eca4 = 0x30;
-	*(int *)bss_3ec90 = 0x5d45;
-	*(int *)bss_3ecac = 0x6;
+	bss_3eca4 = 0x30;
+	bss_3ec90 = 0x5d45;
+	bss_3ecac = 0x6;
 	bss_3ecd8 = 0x904;
 	bss_3ecb8 = 0x140;
-	*(int *)bss_3ecbc = 0x190;
+	bss_3ecbc = 0x190;
 	bss_3ecb4 = 0xe;
-	*(int *)bss_3ecdc = 0x6c9c;
+	bss_3ecdc = 0x6c9c;
 	bss_3ecf8 = 0x40;
-	*(int *)bss_3ecfc = 0x30;
-	*(int *)bss_3ece8 = 0x5d2a;
+	bss_3ecfc = 0x30;
+	bss_3ece8 = 0x5d2a;
 	bss_3ed04 = 0x6;
 	bss_3ed08 = 0x5d1a;
 	bss_3ed30 = 0x104;
 	bss_3ed0c = 0xa;
-	*(int *)bss_3ed34 = 0x6c9c;
+	bss_3ed34 = 0x6c9c;
 	bss_3ed10 = 0x0;
-	*(int *)bss_3ed14 = 0x1a0;
+	bss_3ed14 = 0x1a0;
 	bss_3ed50 = 0x80;
-	*(int *)bss_3ed54 = 0x40;
-	*(int *)bss_3ed40 = 0x5d0a;
+	bss_3ed54 = 0x40;
+	bss_3ed40 = 0x5d0a;
 	bss_3ed5c = 0x6;
 	bss_3ed60 = 0x5cfa;
 	bss_3ed88 = 0x110;
 	bss_3ed64 = 0xb;
-	*(int *)bss_3ed8c = 0x6c9c;
+	bss_3ed8c = 0x6c9c;
 	bss_3ed68 = 0x280;
-	*(int *)bss_3ed6c = 0x1a0;
+	bss_3ed6c = 0x1a0;
 	bss_3eda8 = 0x80;
-	*(int *)bss_3edac = 0x40;
-	*(int *)bss_3ed98 = 0x5cea;
-	*(int *)bss_3eb9c = 0x8;
+	bss_3edac = 0x40;
+	bss_3ed98 = 0x5cea;
+	bss_3eb9c = 0x8;
 	bss_3ebc8 = 0x100;
-	*(int *)bss_3ebcc = 0x6c9c;
+	bss_3ebcc = 0x6c9c;
 	bss_3eba4 = 0xc;
 	bss_3eba8 = 0x76;
-	*(int *)bss_3ebac = 0x82;
+	bss_3ebac = 0x82;
 	bss_3ebec = 0x10;
 	bss_3ebf0 = 0xe;
 	local_24 = trap_FS_GetFileList(0x5ce9, 0x5ce5, 0x3edb4, 0x800);
-	*(int *)bss_3ebe0 = local_24;
+	bss_3ebe0 = local_24;
 	bss_3ebe8 = 0x3f5b4;
-	*(int *)bss_3ebf4 = 0x3;
-	if (*(int *)bss_3ebe0 != 0x0) goto jmp_6e0c;
+	bss_3ebf4 = 0x3;
+	if (bss_3ebe0 != 0x0) goto jmp_6e0c;
 	strcpy(0x3edb4, 0x5cd5);
-	*(int *)bss_3ebe0 = 0x1;
+	bss_3ebe0 = 0x1;
 	local_28 = 0x3ed88;
 	*(int *)local_28 = (*(int *)local_28 | 0x5000);
 	goto jmp_6e13;
 jmp_6e0c:
-	if (*(int *)bss_3ebe0 <= 0x80) goto jmp_6e13;
-	*(int *)bss_3ebe0 = 0x80;
+	if (bss_3ebe0 <= 0x80) goto jmp_6e13;
+	bss_3ebe0 = 0x80;
 jmp_6e13:
 	local_18 = 0x3edb4;
 	local_20 = 0x0;
@@ -13170,7 +14513,7 @@ jmp_6e4b:
 	local_18 = ((local_1c + 0x1) + local_18);
 	local_20 = (local_20 + 0x1);
 jmp_6e60:
-	if (local_20 < *(int *)bss_3ebe0) goto jmp_6e1b;
+	if (local_20 < bss_3ebe0) goto jmp_6e1b;
 	Menu_AddItem(0x3e984, 0x3eaa4);
 	Menu_AddItem(0x3e984, 0x3eaec);
 	Menu_AddItem(0x3e984, 0x3eb44);
@@ -13471,7 +14814,7 @@ void UI_MainMenu(void) {
 	trap_Cvar_Set(0x5df8, 0x5df6);
 	local_20 = 0x0;
 	if (bss_10808 != local_20) goto jmp_70f2;
-	if (*(int *)bss_8a50 != local_20) goto jmp_70f2;
+	if (bss_8a50 != local_20) goto jmp_70f2;
 	trap_GetCDKey(&local_24, 0x11);
 	local_38 = trap_VerifyCDKey(&local_24, 0x0);
 	if (local_38 != 0x0) goto jmp_70f2;
@@ -13488,63 +14831,63 @@ jmp_70f2:
 	bss_3f8c4 = 0x6f54;
 	bss_3f8cc = 0x1;
 	bss_3f8c8 = 0x1;
-	*(int *)bss_3f8d0 = 0x1;
+	bss_3f8d0 = 0x1;
 	trap_Key_SetCatcher(0x2);
 	bss_db64 = 0x0;
 	UI_PushMenu(0x3f7b4);
 	goto jmp_72b9;
 jmp_7138:
-	*(int *)bss_409e0 = 0x6f64;
+	bss_409e0 = 0x6f64;
 	bss_409ec = 0x1;
 	bss_409e8 = 0x1;
 	bss_409f0 = 0x1;
 	local_14 = 0x86;
-	*(int *)bss_409f4 = 0x9;
+	bss_409f4 = 0x9;
 	bss_40a20 = 0x108;
 	bss_40a00 = 0x140;
-	*(int *)bss_40a04 = local_14;
+	bss_40a04 = local_14;
 	bss_409fc = 0xa;
-	*(int *)bss_40a24 = 0x6ef0;
+	bss_40a24 = 0x6ef0;
 	bss_40a30 = 0x5de8;
 	bss_40a38 = 0x21b0;
 	bss_40a34 = local_18;
 	local_14 = (local_14 + 0x22);
-	*(int *)bss_40a3c = 0x9;
+	bss_40a3c = 0x9;
 	bss_40a68 = 0x108;
 	bss_40a48 = 0x140;
-	*(int *)bss_40a4c = local_14;
+	bss_40a4c = local_14;
 	bss_40a44 = 0xb;
-	*(int *)bss_40a6c = 0x6ef0;
+	bss_40a6c = 0x6ef0;
 	bss_40a78 = 0x5ddc;
 	bss_40a80 = 0x21b0;
 	bss_40a7c = local_18;
 	local_14 = (local_14 + 0x22);
-	*(int *)bss_40a84 = 0x9;
+	bss_40a84 = 0x9;
 	bss_40ab0 = 0x108;
 	bss_40a90 = 0x140;
-	*(int *)bss_40a94 = local_14;
+	bss_40a94 = local_14;
 	bss_40a8c = 0xc;
-	*(int *)bss_40ab4 = 0x6ef0;
+	bss_40ab4 = 0x6ef0;
 	bss_40ac0 = 0x5dd6;
 	bss_40ac8 = 0x21b0;
 	bss_40ac4 = local_18;
 	local_14 = (local_14 + 0x22);
-	*(int *)bss_40acc = 0x9;
+	bss_40acc = 0x9;
 	bss_40af8 = 0x108;
 	bss_40ad8 = 0x140;
-	*(int *)bss_40adc = local_14;
+	bss_40adc = local_14;
 	bss_40ad4 = 0xd;
-	*(int *)bss_40afc = 0x6ef0;
+	bss_40afc = 0x6ef0;
 	bss_40b08 = 0x5dd0;
 	bss_40b10 = 0x21b0;
 	bss_40b0c = local_18;
 	local_14 = (local_14 + 0x22);
-	*(int *)bss_40b14 = 0x9;
+	bss_40b14 = 0x9;
 	bss_40b40 = 0x108;
 	bss_40b20 = 0x140;
-	*(int *)bss_40b24 = local_14;
+	bss_40b24 = local_14;
 	bss_40b1c = 0xe;
-	*(int *)bss_40b44 = 0x6ef0;
+	bss_40b44 = 0x6ef0;
 	bss_40b50 = 0x5dc5;
 	bss_40b58 = 0x21b0;
 	bss_40b54 = local_18;
@@ -13553,35 +14896,35 @@ jmp_7138:
 	if (*(int *)local_28 == 0x0) goto jmp_7222;
 	local_1c = 0x1;
 	local_14 = (local_14 + 0x22);
-	*(int *)bss_40b5c = 0x9;
+	bss_40b5c = 0x9;
 	bss_40b88 = 0x108;
 	bss_40b68 = 0x140;
-	*(int *)bss_40b6c = local_14;
+	bss_40b6c = local_14;
 	bss_40b64 = 0xf;
-	*(int *)bss_40b8c = 0x6ef0;
+	bss_40b8c = 0x6ef0;
 	bss_40b98 = 0x5dba;
 	bss_40ba0 = 0x21b0;
 	bss_40b9c = local_18;
 jmp_7222:
 	if (bss_10808 != 0x0) goto jmp_7249;
 	local_14 = (local_14 + 0x22);
-	*(int *)bss_40ba4 = 0x9;
+	bss_40ba4 = 0x9;
 	bss_40bd0 = 0x108;
 	bss_40bb0 = 0x140;
-	*(int *)bss_40bb4 = local_14;
+	bss_40bb4 = local_14;
 	bss_40bac = 0x10;
-	*(int *)bss_40bd4 = 0x6ef0;
+	bss_40bd4 = 0x6ef0;
 	bss_40be0 = 0x5db5;
 	bss_40be8 = 0x21b0;
 	bss_40be4 = local_18;
 jmp_7249:
 	local_14 = (local_14 + 0x22);
-	*(int *)bss_40bec = 0x9;
+	bss_40bec = 0x9;
 	bss_40c18 = 0x108;
 	bss_40bf8 = 0x140;
-	*(int *)bss_40bfc = local_14;
+	bss_40bfc = local_14;
 	bss_40bf4 = 0x11;
-	*(int *)bss_40c1c = 0x6ef0;
+	bss_40c1c = 0x6ef0;
 	bss_40c28 = 0x5db0;
 	bss_40c30 = 0x21b0;
 	bss_40c2c = local_18;
@@ -14162,11 +15505,11 @@ void UI_Mods_ParseInfos(int arg_0, int arg_1) {
 	int		local_20;
 	int		local_24;
 
-	*(int *)((*(int *)bss_40e94 << 0x2) + 0x42068) = bss_41f64;
+	*(int *)((bss_40e94 << 0x2) + 0x42068) = bss_41f64;
 	Q_strncpyz(bss_41f64, arg_0, 0x10);
-	*(int *)((*(int *)bss_40e94 << 0x2) + 0x41f68) = bss_41f60;
+	*(int *)((bss_40e94 << 0x2) + 0x41f68) = bss_41f60;
 	Q_strncpyz(bss_41f60, arg_1, 0x30);
-	*(int *)((*(int *)bss_40e94 << 0x2) + bss_40e9c) = bss_41f60;
+	*(int *)((bss_40e94 << 0x2) + bss_40e9c) = bss_41f60;
 	local_14 = strlen(bss_41f60);
 	local_18 = 0x41f60;
 	*(int *)local_18 = ((local_14 + 0x1) + *(int *)local_18);
@@ -14202,11 +15545,11 @@ void UI_Mods_LoadMods(void) {
 	bss_40e9c = 0x41f68;
 	bss_41f60 = 0x40f60;
 	bss_41f64 = 0x41b60;
-	*(int *)bss_40e94 = 0x1;
+	bss_40e94 = 0x1;
 	local_82c = 0x5f7f;
-	*(int *)bss_41f68 = local_82c;
+	bss_41f68 = local_82c;
 	*(int *)bss_40e9c = local_82c;
-	*(int *)bss_42068 = 0x5f7e;
+	bss_42068 = 0x5f7e;
 	local_830 = trap_FS_GetFileList(0x5f75, 0x5f7e, local_2c, 0x800);
 	local_28 = local_830;
 	local_18 = local_2c;
@@ -14222,10 +15565,10 @@ jmp_79fe:
 	local_24 = (local_24 + 0x1);
 jmp_7a34:
 	if (local_24 < local_28) goto jmp_79fe;
-	*(int *)local_834 = va(0x5f65, *(int *)bss_40e94);
+	*(int *)local_834 = va(0x5f65, bss_40e94);
 	trap_Print(*(int *)local_834);
-	if (*(int *)bss_40e94 <= 0x40) goto jmp_7a4f;
-	*(int *)bss_40e94 = 0x40;
+	if (bss_40e94 <= 0x40) goto jmp_7a4f;
+	bss_40e94 = 0x40;
 jmp_7a4f:
 }
 
@@ -14244,55 +15587,55 @@ void UI_Mods_MenuInit(void) {
 	UI_ModsMenu_Cache();
 	memset(0x40c38, 0x0, 0x1530);
 	bss_40d4c = 0x1;
-	*(int *)bss_40d50 = 0x1;
-	*(int *)bss_40d58 = 0xa;
+	bss_40d50 = 0x1;
+	bss_40d58 = 0xa;
 	bss_40d64 = 0x140;
-	*(int *)bss_40d68 = 0x10;
+	bss_40d68 = 0x10;
 	bss_40d94 = 0x5f60;
 	bss_40d9c = 0x2160;
 	bss_40d98 = 0x1;
 	bss_40da0 = 0x6;
-	*(int *)bss_40da4 = 0x5f4e;
-	*(int *)bss_40dcc = 0x4000;
+	bss_40da4 = 0x5f4e;
+	bss_40dcc = 0x4000;
 	bss_40dac = 0x0;
-	*(int *)bss_40db0 = 0x4e;
+	bss_40db0 = 0x4e;
 	bss_40dec = 0x100;
-	*(int *)bss_40df0 = 0x149;
+	bss_40df0 = 0x149;
 	bss_40df8 = 0x6;
-	*(int *)bss_40dfc = 0x5f3c;
-	*(int *)bss_40e24 = 0x4000;
+	bss_40dfc = 0x5f3c;
+	bss_40e24 = 0x4000;
 	bss_40e04 = 0x178;
-	*(int *)bss_40e08 = 0x4c;
+	bss_40e08 = 0x4c;
 	bss_40e44 = 0x100;
-	*(int *)bss_40e48 = 0x14e;
+	bss_40e48 = 0x14e;
 	bss_40eb0 = 0x6;
 	bss_40eb4 = 0x5f2c;
 	bss_40edc = 0x104;
 	bss_40eb8 = 0xa;
-	*(int *)bss_40ee0 = 0x792a;
+	bss_40ee0 = 0x792a;
 	bss_40ebc = 0x0;
-	*(int *)bss_40ec0 = 0x1a0;
+	bss_40ec0 = 0x1a0;
 	bss_40efc = 0x80;
-	*(int *)bss_40f00 = 0x40;
-	*(int *)bss_40eec = 0x5f1c;
+	bss_40f00 = 0x40;
+	bss_40eec = 0x5f1c;
 	bss_40f08 = 0x6;
 	bss_40f0c = 0x5f0c;
 	bss_40f34 = 0x110;
 	bss_40f10 = 0xb;
-	*(int *)bss_40f38 = 0x792a;
+	bss_40f38 = 0x792a;
 	bss_40f14 = 0x280;
-	*(int *)bss_40f18 = 0x1a0;
+	bss_40f18 = 0x1a0;
 	bss_40f54 = 0x80;
-	*(int *)bss_40f58 = 0x40;
-	*(int *)bss_40f44 = 0x5efc;
-	*(int *)bss_40e50 = 0x8;
+	bss_40f58 = 0x40;
+	bss_40f44 = 0x5efc;
+	bss_40e50 = 0x8;
 	bss_40e7c = 0x108;
-	*(int *)bss_40e80 = 0x792a;
+	bss_40e80 = 0x792a;
 	bss_40e58 = 0xc;
 	bss_40e5c = 0x140;
-	*(int *)bss_40e60 = 0x82;
+	bss_40e60 = 0x82;
 	bss_40ea0 = 0x30;
-	*(int *)bss_40ea4 = 0xe;
+	bss_40ea4 = 0xe;
 	UI_Mods_LoadMods();
 	Menu_AddItem(0x40c38, 0x40d58);
 	Menu_AddItem(0x40c38, 0x40da0);
@@ -14366,23 +15709,23 @@ jmp_7b56:
 	UI_PopMenu();
 	UI_SoundOptionsMenu();
 	goto jmp_7bc9;
-	if (*(int *)bss_424e0 != 0x0) goto jmp_7b92;
+	if (bss_424e0 != 0x0) goto jmp_7b92;
 	trap_Cvar_SetValue(0x601f, 0x451c4000);
 	goto jmp_7bc9;
 jmp_7b92:
-	if (*(int *)bss_424e0 != 0x1) goto jmp_7b9f;
+	if (bss_424e0 != 0x1) goto jmp_7b9f;
 	trap_Cvar_SetValue(0x601f, 0x453b8000);
 	goto jmp_7bc9;
 jmp_7b9f:
-	if (*(int *)bss_424e0 != 0x2) goto jmp_7bac;
+	if (bss_424e0 != 0x2) goto jmp_7bac;
 	trap_Cvar_SetValue(0x601f, 0x457a0000);
 	goto jmp_7bc9;
 jmp_7bac:
-	if (*(int *)bss_424e0 != 0x3) goto jmp_7bb9;
+	if (bss_424e0 != 0x3) goto jmp_7bb9;
 	trap_Cvar_SetValue(0x601f, 0x459c4000);
 	goto jmp_7bc9;
 jmp_7bb9:
-	if (*(int *)bss_424e0 != 0x4) goto jmp_7bc9;
+	if (bss_424e0 != 0x4) goto jmp_7bc9;
 	trap_Cvar_SetValue(0x601f, 0x46c35000);
 	goto jmp_7bc9;
 	UI_PopMenu();
@@ -14407,61 +15750,61 @@ void UI_NetworkOptionsMenu_Init(void) {
 	memset(0x42168, 0x0, 0x3f0);
 	UI_NetworkOptionsMenu_Cache();
 	bss_4227c = 0x1;
-	*(int *)bss_42280 = 0x1;
-	*(int *)bss_42288 = 0xa;
-	*(int *)bss_422b4 = 0x8;
+	bss_42280 = 0x1;
+	bss_42288 = 0xa;
+	bss_422b4 = 0x8;
 	bss_42294 = 0x140;
-	*(int *)bss_42298 = 0x10;
+	bss_42298 = 0x10;
 	bss_422c4 = 0x6012;
 	bss_422cc = 0x2160;
 	bss_422c8 = 0x1;
 	bss_422d0 = 0x6;
-	*(int *)bss_422d4 = 0x6000;
-	*(int *)bss_422fc = 0x4000;
+	bss_422d4 = 0x6000;
+	bss_422fc = 0x4000;
 	bss_422dc = 0x0;
-	*(int *)bss_422e0 = 0x4e;
+	bss_422e0 = 0x4e;
 	bss_4231c = 0x100;
-	*(int *)bss_42320 = 0x149;
+	bss_42320 = 0x149;
 	bss_42328 = 0x6;
-	*(int *)bss_4232c = 0x5fee;
-	*(int *)bss_42354 = 0x4000;
+	bss_4232c = 0x5fee;
+	bss_42354 = 0x4000;
 	bss_42334 = 0x178;
-	*(int *)bss_42338 = 0x4c;
+	bss_42338 = 0x4c;
 	bss_42374 = 0x100;
-	*(int *)bss_42378 = 0x14e;
-	*(int *)bss_42380 = 0x9;
+	bss_42378 = 0x14e;
+	bss_42380 = 0x9;
 	bss_423ac = 0x110;
 	bss_42388 = 0xa;
-	*(int *)bss_423b0 = 0x7b4f;
+	bss_423b0 = 0x7b4f;
 	bss_4238c = 0xd8;
-	*(int *)bss_42390 = 0xba;
+	bss_42390 = 0xba;
 	bss_423bc = 0x5fe5;
 	bss_423c0 = 0x2;
 	bss_423c4 = 0x21b0;
-	*(int *)bss_423c8 = 0x9;
+	bss_423c8 = 0x9;
 	bss_423f4 = 0x110;
 	bss_423d0 = 0xb;
-	*(int *)bss_423f8 = 0x7b4f;
+	bss_423f8 = 0x7b4f;
 	bss_423d4 = 0xd8;
-	*(int *)bss_423d8 = 0xd5;
+	bss_423d8 = 0xd5;
 	bss_42404 = 0x5fdd;
 	bss_42408 = 0x2;
 	bss_4240c = 0x21b0;
-	*(int *)bss_42410 = 0x9;
+	bss_42410 = 0x9;
 	bss_4243c = 0x110;
 	bss_42418 = 0xc;
-	*(int *)bss_42440 = 0x7b4f;
+	bss_42440 = 0x7b4f;
 	bss_4241c = 0xd8;
-	*(int *)bss_42420 = 0xf0;
+	bss_42420 = 0xf0;
 	bss_4244c = 0x5fd7;
 	bss_42450 = 0x2;
 	bss_42454 = 0x21b0;
-	*(int *)bss_42458 = 0x9;
+	bss_42458 = 0x9;
 	bss_42484 = 0x10;
 	bss_42460 = 0xd;
-	*(int *)bss_42488 = 0x7b4f;
+	bss_42488 = 0x7b4f;
 	bss_42464 = 0xd8;
-	*(int *)bss_42468 = 0x10b;
+	bss_42468 = 0x10b;
 	bss_42494 = 0x5fcf;
 	bss_42498 = 0x2;
 	bss_4249c = 0x21b0;
@@ -14469,21 +15812,21 @@ void UI_NetworkOptionsMenu_Init(void) {
 	bss_424a0 = 0x3;
 	bss_424a4 = 0x5fc4;
 	bss_424cc = 0x102;
-	*(int *)bss_424d0 = 0x7b4f;
+	bss_424d0 = 0x7b4f;
 	bss_424a8 = 0xe;
 	bss_424ac = 0x190;
-	*(int *)bss_424b0 = local_18;
-	*(int *)bss_424ec = 0x1c68;
+	bss_424b0 = local_18;
+	bss_424ec = 0x1c68;
 	bss_42500 = 0x6;
 	bss_42504 = 0x5fb4;
 	bss_4252c = 0x104;
-	*(int *)bss_42530 = 0x7b4f;
+	bss_42530 = 0x7b4f;
 	bss_42508 = 0xf;
 	bss_4250c = 0x0;
-	*(int *)bss_42510 = 0x1a0;
+	bss_42510 = 0x1a0;
 	bss_4254c = 0x80;
-	*(int *)bss_42550 = 0x40;
-	*(int *)bss_4253c = 0x5fa4;
+	bss_42550 = 0x40;
+	bss_4253c = 0x5fa4;
 	Menu_AddItem(0x42168, 0x42288);
 	Menu_AddItem(0x42168, 0x422d0);
 	Menu_AddItem(0x42168, 0x42328);
@@ -14496,22 +15839,22 @@ void UI_NetworkOptionsMenu_Init(void) {
 	local_1c = trap_Cvar_VariableValue(0x601f);
 	local_14 = (int)local_1c;
 	if (local_14 > 0x9c4) goto jmp_7d16;
-	*(int *)bss_424e0 = 0x0;
+	bss_424e0 = 0x0;
 	goto jmp_7d34;
 jmp_7d16:
 	if (local_14 > 0xbb8) goto jmp_7d1f;
-	*(int *)bss_424e0 = 0x1;
+	bss_424e0 = 0x1;
 	goto jmp_7d34;
 jmp_7d1f:
 	if (local_14 > 0xfa0) goto jmp_7d28;
-	*(int *)bss_424e0 = 0x2;
+	bss_424e0 = 0x2;
 	goto jmp_7d34;
 jmp_7d28:
 	if (local_14 > 0x1388) goto jmp_7d31;
-	*(int *)bss_424e0 = 0x3;
+	bss_424e0 = 0x3;
 	goto jmp_7d34;
 jmp_7d31:
-	*(int *)bss_424e0 = 0x4;
+	bss_424e0 = 0x4;
 jmp_7d34:
 }
 
@@ -14618,82 +15961,82 @@ void Options_MenuInit(void) {
 	bss_4266c = 0x1;
 	trap_GetClientState(local_18);
 	if (*(int *)local_18 < 0x5) goto jmp_7dcb;
-	*(int *)bss_42670 = 0x0;
+	bss_42670 = 0x0;
 	goto jmp_7dce;
 jmp_7dcb:
-	*(int *)bss_42670 = 0x1;
+	bss_42670 = 0x1;
 jmp_7dce:
-	*(int *)bss_42678 = 0xa;
-	*(int *)bss_426a4 = 0x8;
+	bss_42678 = 0xa;
+	bss_426a4 = 0x8;
 	bss_42684 = 0x140;
-	*(int *)bss_42688 = 0x10;
+	bss_42688 = 0x10;
 	bss_426b4 = 0x606b;
 	bss_426bc = 0x2160;
 	bss_426b8 = 0x1;
 	bss_426c0 = 0x6;
-	*(int *)bss_426c4 = 0x60aa;
-	*(int *)bss_426ec = 0x4000;
+	bss_426c4 = 0x60aa;
+	bss_426ec = 0x4000;
 	bss_426cc = 0x8;
-	*(int *)bss_426d0 = 0x4c;
+	bss_426d0 = 0x4c;
 	bss_4270c = 0x100;
-	*(int *)bss_42710 = 0x14e;
+	bss_42710 = 0x14e;
 	bss_42718 = 0x6;
-	*(int *)bss_4271c = 0x6098;
-	*(int *)bss_42744 = 0x4000;
+	bss_4271c = 0x6098;
+	bss_42744 = 0x4000;
 	bss_42724 = 0x178;
-	*(int *)bss_42728 = 0x4c;
+	bss_42728 = 0x4c;
 	bss_42764 = 0x100;
-	*(int *)bss_42768 = 0x14e;
+	bss_42768 = 0x14e;
 	local_14 = 0xa8;
-	*(int *)bss_42770 = 0x9;
+	bss_42770 = 0x9;
 	bss_4279c = 0x108;
-	*(int *)bss_427a0 = 0x7d5f;
+	bss_427a0 = 0x7d5f;
 	bss_42778 = 0xa;
 	bss_4277c = 0x140;
-	*(int *)bss_42780 = local_14;
+	bss_42780 = local_14;
 	bss_427ac = 0x6062;
 	bss_427b4 = 0x21b0;
 	bss_427b0 = 0x1;
 	local_14 = (local_14 + 0x22);
-	*(int *)bss_427b8 = 0x9;
+	bss_427b8 = 0x9;
 	bss_427e4 = 0x108;
-	*(int *)bss_427e8 = 0x7d5f;
+	bss_427e8 = 0x7d5f;
 	bss_427c0 = 0xb;
 	bss_427c4 = 0x140;
-	*(int *)bss_427c8 = local_14;
+	bss_427c8 = local_14;
 	bss_427f4 = 0x605a;
 	bss_427fc = 0x21b0;
 	bss_427f8 = 0x1;
 	local_14 = (local_14 + 0x22);
-	*(int *)bss_42800 = 0x9;
+	bss_42800 = 0x9;
 	bss_4282c = 0x108;
-	*(int *)bss_42830 = 0x7d5f;
+	bss_42830 = 0x7d5f;
 	bss_42808 = 0xc;
 	bss_4280c = 0x140;
-	*(int *)bss_42810 = local_14;
+	bss_42810 = local_14;
 	bss_4283c = 0x6054;
 	bss_42844 = 0x21b0;
 	bss_42840 = 0x1;
 	local_14 = (local_14 + 0x22);
-	*(int *)bss_42848 = 0x9;
+	bss_42848 = 0x9;
 	bss_42874 = 0x108;
-	*(int *)bss_42878 = 0x7d5f;
+	bss_42878 = 0x7d5f;
 	bss_42850 = 0xd;
 	bss_42854 = 0x140;
-	*(int *)bss_42858 = local_14;
+	bss_42858 = local_14;
 	bss_42884 = 0x604c;
 	bss_4288c = 0x21b0;
 	bss_42888 = 0x1;
 	bss_42890 = 0x6;
 	bss_42894 = 0x6088;
 	bss_428bc = 0x104;
-	*(int *)bss_428c0 = 0x7d5f;
+	bss_428c0 = 0x7d5f;
 	bss_42898 = 0xe;
 	bss_4289c = 0x0;
-	*(int *)bss_428a0 = 0x1a0;
+	bss_428a0 = 0x1a0;
 	bss_428dc = 0x80;
-	*(int *)bss_428e0 = 0x40;
-	*(int *)bss_428cc = 0x6078;
+	bss_428e0 = 0x40;
+	bss_428cc = 0x6078;
 	Menu_AddItem(0x42558, 0x42678);
 	Menu_AddItem(0x42558, 0x426c0);
 	Menu_AddItem(0x42558, 0x42718);
@@ -14740,7 +16083,7 @@ void PlayerModel_UpdateGrid(void) {
 	local_c = (bss_4bdb8 << 0x4);
 	local_8 = 0x0;
 jmp_7eff:
-	if (local_c >= *(int *)bss_43db4) goto jmp_7f23;
+	if (local_c >= bss_43db4) goto jmp_7f23;
 	*(int *)((0x58 * local_8) + 0x42a6c) = ((local_c << 0x7) + 0x43db8);
 	local_10 = ((0x58 * local_8) + 0x43014);
 	*(int *)local_10 = (*(int *)local_10 & 0xffffbfff);
@@ -14766,7 +16109,7 @@ jmp_7f3b:
 	local_18 = ((0x58 * local_8) + 0x43014);
 	*(int *)local_18 = (*(int *)local_18 & 0xfffffeff);
 jmp_7fa5:
-	if (*(int *)bss_4bdbc <= 0x1) goto jmp_7fe6;
+	if (bss_4bdbc <= 0x1) goto jmp_7fe6;
 	if (bss_4bdb8 <= 0x0) goto jmp_7fba;
 	local_14 = 0x437ec;
 	*(int *)local_14 = (*(int *)local_14 & 0xffffbfff);
@@ -14775,7 +16118,7 @@ jmp_7fba:
 	local_18 = 0x437ec;
 	*(int *)local_18 = (*(int *)local_18 | 0x4000);
 jmp_7fc5:
-	if (bss_4bdb8 >= (*(int *)bss_4bdbc - 0x1)) goto jmp_7fd9;
+	if (bss_4bdb8 >= (bss_4bdbc - 0x1)) goto jmp_7fd9;
 	local_1c = 0x43844;
 	*(int *)local_1c = (*(int *)local_1c & 0xffffbfff);
 	goto jmp_7ffc;
@@ -14870,7 +16213,7 @@ jmp_807a:
 	PlayerModel_UpdateGrid();
 	goto jmp_80ab;
 jmp_808e:
-	if (bss_4bdb8 >= (*(int *)bss_4bdbc - 0x1)) goto jmp_80ab;
+	if (bss_4bdb8 >= (bss_4bdbc - 0x1)) goto jmp_80ab;
 	local_10 = 0x4bdb8;
 	*(int *)local_10 = (*(int *)local_10 + 0x1);
 	PlayerModel_UpdateGrid();
@@ -14950,13 +16293,13 @@ jmp_8144:
 	if (local_34 > 0xf) goto jmp_81be;
 	local_38 = local_10;
 	if (local_38 >= 0xf) goto jmp_8189;
-	if ((((bss_4bdb8 << 0x4) + local_38) + 0x1) >= *(int *)bss_43db4) goto jmp_8189;
+	if ((((bss_4bdb8 << 0x4) + local_38) + 0x1) >= bss_43db4) goto jmp_8189;
 	local_3c = 0x42948;
 	Menu_SetCursor(local_3c, (*(int *)local_3c + 0x1));
 	return menu_move_sound;
 jmp_8189:
 	if (local_10 != 0xf) goto jmp_81b6;
-	if (bss_4bdb8 >= (*(int *)bss_4bdbc - 0x1)) goto jmp_81b6;
+	if (bss_4bdb8 >= (bss_4bdbc - 0x1)) goto jmp_81b6;
 	local_3c = 0x4bdb8;
 	*(int *)local_3c = (*(int *)local_3c + 0x1);
 	local_40 = 0x42948;
@@ -15100,7 +16443,7 @@ void PlayerModel_BuildList(void) {
 	local_1080 = trap_Cvar_VariableValue(0x613a);
 	local_70 = (int)local_1080;
 	bss_4bdb8 = 0x0;
-	*(int *)bss_43db4 = 0x0;
+	bss_43db4 = 0x0;
 	local_1084 = trap_FS_GetFileList(0x612b, 0x6129, local_880, 0x800);
 	local_87c = local_1084;
 	local_68 = local_880;
@@ -15146,17 +16489,17 @@ jmp_83ff:
 	local_5c = ((local_64 + local_10a0) + local_5c);
 jmp_8413:
 	if (local_60 >= local_6c) goto jmp_841c;
-	if (*(int *)bss_43db4 < 0x100) goto jmp_83a6;
+	if (bss_43db4 < 0x100) goto jmp_83a6;
 jmp_841c:
 	local_1088 = 0x1;
 	local_78 = (local_78 + local_1088);
 	local_68 = ((local_74 + local_1088) + local_68);
 jmp_8430:
 	if (local_78 >= local_87c) goto jmp_8439;
-	if (*(int *)bss_43db4 < 0x100) goto jmp_8345;
+	if (bss_43db4 < 0x100) goto jmp_8345;
 jmp_8439:
-	*(int *)bss_4bdbc = (*(int *)bss_43db4 / 0x10);
-	if ((*(int *)bss_43db4 %% 0x10) == 0x0) goto jmp_8450;
+	bss_4bdbc = (bss_43db4 / 0x10);
+	if ((bss_43db4 %% 0x10) == 0x0) goto jmp_8450;
 	local_108c = 0x4bdbc;
 	*(int *)local_108c = (*(int *)local_108c + 0x1);
 jmp_8450:
@@ -15222,7 +16565,7 @@ jmp_850e:
 jmp_8524:
 	local_18 = (local_18 + 0x1);
 jmp_852a:
-	if (local_18 < *(int *)bss_43db4) goto jmp_8486;
+	if (local_18 < bss_43db4) goto jmp_8486;
 jmp_852f:
 }
 
@@ -15249,34 +16592,34 @@ void PlayerModel_MenuInit(void) {
 	PlayerModel_Cache();
 	bss_42a58 = 0x80ad;
 	bss_42a5c = 0x1;
-	*(int *)bss_42a60 = 0x1;
-	*(int *)bss_43670 = 0xa;
+	bss_42a60 = 0x1;
+	bss_43670 = 0xa;
 	bss_4367c = 0x140;
-	*(int *)bss_43680 = 0x10;
+	bss_43680 = 0x10;
 	bss_436ac = 0x60bc;
 	bss_436b4 = 0x2160;
 	bss_436b0 = 0x1;
 	bss_43568 = 0x6;
-	*(int *)bss_4356c = 0x6203;
-	*(int *)bss_43594 = 0x4004;
+	bss_4356c = 0x6203;
+	bss_43594 = 0x4004;
 	bss_43574 = 0x0;
-	*(int *)bss_43578 = 0x4e;
+	bss_43578 = 0x4e;
 	bss_435b4 = 0x100;
-	*(int *)bss_435b8 = 0x149;
+	bss_435b8 = 0x149;
 	bss_435c0 = 0x6;
-	*(int *)bss_435c4 = 0x61f1;
-	*(int *)bss_435ec = 0x4004;
+	bss_435c4 = 0x61f1;
+	bss_435ec = 0x4004;
 	bss_435cc = 0x178;
-	*(int *)bss_435d0 = 0x4c;
+	bss_435d0 = 0x4c;
 	bss_4360c = 0x100;
-	*(int *)bss_43610 = 0x14e;
+	bss_43610 = 0x14e;
 	bss_43618 = 0x6;
-	*(int *)bss_4361c = 0x61d4;
-	*(int *)bss_43644 = 0x4004;
+	bss_4361c = 0x61d4;
+	bss_43644 = 0x4004;
 	bss_43624 = 0x32;
-	*(int *)bss_43628 = 0x3b;
+	bss_43628 = 0x3b;
 	bss_43664 = 0x112;
-	*(int *)bss_43668 = 0x112;
+	bss_43668 = 0x112;
 	local_1c = 0x3b;
 	local_28 = 0x0;
 	local_24 = local_28;
@@ -15317,69 +16660,69 @@ jmp_85ae:
 	local_24 = (local_24 + 0x1);
 jmp_8696:
 	if (local_24 < 0x4) goto jmp_85a8;
-	*(int *)bss_43900 = 0x9;
-	*(int *)bss_4392c = 0x4008;
+	bss_43900 = 0x9;
+	bss_4392c = 0x4008;
 	bss_4390c = 0x140;
-	*(int *)bss_43910 = 0x1b8;
+	bss_43910 = 0x1b8;
 	bss_4393c = 0x428e8;
 	bss_43940 = 0x1;
-	*(int *)bss_43944 = 0x21f0;
-	*(int *)bss_43870 = 0x9;
-	*(int *)bss_4389c = 0x4008;
+	bss_43944 = 0x21f0;
+	bss_43870 = 0x9;
+	bss_4389c = 0x4008;
 	bss_4387c = 0x1f1;
-	*(int *)bss_43880 = 0x36;
+	bss_43880 = 0x36;
 	bss_438ac = 0x42908;
 	bss_438b0 = 0x1;
 	bss_438b4 = 0x21f0;
-	*(int *)bss_438b8 = 0x9;
-	*(int *)bss_438e4 = 0x4008;
+	bss_438b8 = 0x9;
+	bss_438e4 = 0x4008;
 	bss_438c4 = 0x1f1;
-	*(int *)bss_438c8 = 0x18a;
+	bss_438c8 = 0x18a;
 	bss_438f4 = 0x42928;
 	bss_438f8 = 0x1;
 	bss_438fc = 0x21f0;
-	*(int *)bss_43710 = 0x6;
-	*(int *)bss_4373c = 0x4000;
-	*(int *)bss_43748 = 0x82c7;
+	bss_43710 = 0x6;
+	bss_4373c = 0x4000;
+	bss_43748 = 0x82c7;
 	bss_4371c = 0x190;
-	*(int *)bss_43720 = 0xffffffd8;
+	bss_43720 = 0xffffffd8;
 	bss_4375c = 0x140;
-	*(int *)bss_43760 = 0x230;
+	bss_43760 = 0x230;
 	bss_43768 = 0x6;
-	*(int *)bss_4376c = 0x61bf;
-	*(int *)bss_43794 = 0x4000;
+	bss_4376c = 0x61bf;
+	bss_43794 = 0x4000;
 	bss_43774 = 0x7d;
-	*(int *)bss_43778 = 0x154;
+	bss_43778 = 0x154;
 	bss_437b4 = 0x80;
-	*(int *)bss_437b8 = 0x20;
-	*(int *)bss_437c0 = 0x6;
+	bss_437b8 = 0x20;
+	bss_437c0 = 0x6;
 	bss_437ec = 0x104;
-	*(int *)bss_437f0 = 0x805e;
+	bss_437f0 = 0x805e;
 	bss_437c8 = 0x64;
 	bss_437cc = 0x7d;
-	*(int *)bss_437d0 = 0x154;
+	bss_437d0 = 0x154;
 	bss_4380c = 0x40;
-	*(int *)bss_43810 = 0x20;
-	*(int *)bss_437fc = 0x61aa;
-	*(int *)bss_43818 = 0x6;
+	bss_43810 = 0x20;
+	bss_437fc = 0x61aa;
+	bss_43818 = 0x6;
 	bss_43844 = 0x104;
-	*(int *)bss_43848 = 0x805e;
+	bss_43848 = 0x805e;
 	bss_43820 = 0x65;
 	bss_43824 = 0xba;
-	*(int *)bss_43828 = 0x154;
+	bss_43828 = 0x154;
 	bss_43864 = 0x40;
-	*(int *)bss_43868 = 0x20;
-	*(int *)bss_43854 = 0x6195;
+	bss_43868 = 0x20;
+	bss_43854 = 0x6195;
 	bss_436b8 = 0x6;
 	bss_436bc = 0x625b;
 	bss_436e4 = 0x104;
-	*(int *)bss_436e8 = 0x805e;
+	bss_436e8 = 0x805e;
 	bss_436c0 = 0x66;
 	bss_436c4 = 0x0;
-	*(int *)bss_436c8 = 0x1a0;
+	bss_436c8 = 0x1a0;
 	bss_43704 = 0x80;
-	*(int *)bss_43708 = 0x40;
-	*(int *)bss_436f4 = 0x624b;
+	bss_43708 = 0x40;
+	bss_436f4 = 0x624b;
 	Menu_AddItem(0x42948, 0x43670);
 	Menu_AddItem(0x42948, 0x43568);
 	Menu_AddItem(0x42948, 0x435c0);
@@ -15430,7 +16773,7 @@ jmp_8803:
 	trap_R_RegisterShaderNoMip(((local_c << 0x7) + 0x43db8));
 	local_c = (local_c + 0x1);
 jmp_8813:
-	if (local_c < *(int *)bss_43db4) goto jmp_8803;
+	if (local_c < bss_43db4) goto jmp_8803;
 }
 
 /*
@@ -17489,96 +18832,96 @@ void PlayerSettings_MenuInit(void) {
 	PlayerSettings_Cache();
 	bss_4bf1c = 0xa28c;
 	bss_4bf20 = 0x1;
-	*(int *)bss_4bf24 = 0x1;
-	*(int *)bss_4bf2c = 0xa;
+	bss_4bf24 = 0x1;
+	bss_4bf2c = 0xa;
 	bss_4bf38 = 0x140;
-	*(int *)bss_4bf3c = 0x10;
+	bss_4bf3c = 0x10;
 	bss_4bf68 = 0x658c;
 	bss_4bf70 = 0x2160;
 	bss_4bf6c = 0x1;
 	bss_4bf74 = 0x6;
-	*(int *)bss_4bf78 = 0x657a;
-	*(int *)bss_4bfa0 = 0x4004;
+	bss_4bf78 = 0x657a;
+	bss_4bfa0 = 0x4004;
 	bss_4bf80 = 0x0;
-	*(int *)bss_4bf84 = 0x4e;
+	bss_4bf84 = 0x4e;
 	bss_4bfc0 = 0x100;
-	*(int *)bss_4bfc4 = 0x149;
+	bss_4bfc4 = 0x149;
 	bss_4bfcc = 0x6;
-	*(int *)bss_4bfd0 = 0x6568;
-	*(int *)bss_4bff8 = 0x4004;
+	bss_4bfd0 = 0x6568;
+	bss_4bff8 = 0x4004;
 	bss_4bfd8 = 0x178;
-	*(int *)bss_4bfdc = 0x4c;
+	bss_4bfdc = 0x4c;
 	bss_4c018 = 0x100;
-	*(int *)bss_4c01c = 0x14e;
+	bss_4c01c = 0x14e;
 	local_14 = 0x90;
-	*(int *)bss_4c07c = 0x4;
-	*(int *)bss_4c0a8 = 0x8000;
-	*(int *)bss_4c0b4 = 0x9fc6;
-	*(int *)bss_4c0c0 = 0x14;
+	bss_4c07c = 0x4;
+	bss_4c0a8 = 0x8000;
+	bss_4c0b4 = 0x9fc6;
+	bss_4c0c0 = 0x14;
 	bss_4c1c4 = 0x14;
 	bss_4c088 = 0xc0;
 	bss_4c08c = local_14;
 	bss_4c090 = 0xb8;
 	bss_4c094 = (local_14 - 0x8);
 	bss_4c098 = 0x188;
-	*(int *)bss_4c09c = (local_14 + 0x36);
+	bss_4c09c = (local_14 + 0x36);
 	local_14 = (local_14 + 0x51);
-	*(int *)bss_4c1c8 = 0x3;
-	*(int *)bss_4c1f4 = 0x8000;
+	bss_4c1c8 = 0x3;
+	bss_4c1f4 = 0x8000;
 	bss_4c1d0 = 0xb;
-	*(int *)bss_4c200 = 0xa0e9;
+	bss_4c200 = 0xa0e9;
 	bss_4c1d4 = 0xc0;
 	bss_4c1d8 = local_14;
 	bss_4c1dc = 0xb8;
 	bss_4c1e0 = (local_14 - 0x8);
 	bss_4c1e4 = 0x188;
-	*(int *)bss_4c1e8 = (local_14 + 0x36);
-	*(int *)bss_4c20c = 0x14;
+	bss_4c1e8 = (local_14 + 0x36);
+	bss_4c20c = 0x14;
 	local_14 = (local_14 + 0x51);
-	*(int *)bss_4c228 = 0x3;
-	*(int *)bss_4c254 = 0x8000;
+	bss_4c228 = 0x3;
+	bss_4c254 = 0x8000;
 	bss_4c230 = 0xc;
-	*(int *)bss_4c260 = 0xa15b;
+	bss_4c260 = 0xa15b;
 	bss_4c234 = 0xc0;
 	bss_4c238 = local_14;
 	bss_4c23c = 0xb8;
 	bss_4c240 = (local_14 - 0x8);
 	bss_4c244 = 0x188;
-	*(int *)bss_4c248 = (local_14 + 0x36);
-	*(int *)bss_4c26c = 0x7;
+	bss_4c248 = (local_14 + 0x36);
+	bss_4c26c = 0x7;
 	bss_4c2e0 = 0x6;
 	bss_4c2e4 = 0x6557;
 	bss_4c30c = 0x110;
 	bss_4c2e8 = 0xe;
-	*(int *)bss_4c310 = 0xa332;
+	bss_4c310 = 0xa332;
 	bss_4c2ec = 0x280;
-	*(int *)bss_4c2f0 = 0x1a0;
+	bss_4c2f0 = 0x1a0;
 	bss_4c32c = 0x80;
-	*(int *)bss_4c330 = 0x40;
-	*(int *)bss_4c31c = 0x6546;
-	*(int *)bss_4c024 = 0x6;
-	*(int *)bss_4c050 = 0x4000;
-	*(int *)bss_4c05c = 0xa1f8;
+	bss_4c330 = 0x40;
+	bss_4c31c = 0x6546;
+	bss_4c024 = 0x6;
+	bss_4c050 = 0x4000;
+	bss_4c05c = 0xa1f8;
 	bss_4c030 = 0x190;
-	*(int *)bss_4c034 = 0xffffffd8;
+	bss_4c034 = 0xffffffd8;
 	bss_4c070 = 0x140;
-	*(int *)bss_4c074 = 0x230;
+	bss_4c074 = 0x230;
 	bss_4c288 = 0x6;
 	bss_4c28c = 0x6536;
 	bss_4c2b4 = 0x104;
 	bss_4c290 = 0xd;
-	*(int *)bss_4c2b8 = 0xa332;
+	bss_4c2b8 = 0xa332;
 	bss_4c294 = 0x0;
-	*(int *)bss_4c298 = 0x1a0;
+	bss_4c298 = 0x1a0;
 	bss_4c2d4 = 0x80;
-	*(int *)bss_4c2d8 = 0x40;
-	*(int *)bss_4c2c4 = 0x6526;
-	*(int *)bss_4c338 = 0x6;
-	*(int *)bss_4c364 = 0x100804;
+	bss_4c2d8 = 0x40;
+	bss_4c2c4 = 0x6526;
+	bss_4c338 = 0x6;
+	bss_4c364 = 0x100804;
 	bss_4c344 = 0x0;
-	*(int *)bss_4c348 = 0x0;
+	bss_4c348 = 0x0;
 	bss_4c384 = 0x280;
-	*(int *)bss_4c388 = 0x1e0;
+	bss_4c388 = 0x1e0;
 	Menu_AddItem(0x4be0c, 0x4bf2c);
 	Menu_AddItem(0x4be0c, 0x4bf74);
 	Menu_AddItem(0x4be0c, 0x4bfcc);
@@ -17633,7 +18976,7 @@ void PlayerSettings_Cache(void) {
 	local_24 = trap_R_RegisterShaderNoMip(0x64b2);
 	bss_4c3a8 = local_24;
 	local_28 = trap_R_RegisterShaderNoMip(0x64a0);
-	*(int *)bss_4c3ac = local_28;
+	bss_4c3ac = local_28;
 }
 
 /*
@@ -17753,7 +19096,7 @@ jmp_a632:
 	bss_4ccd4 = local_50;
 	local_58 = trap_Cvar_VariableValue(0x6753);
 	local_5c = Com_Clamp(0x0, 0x40400000, local_58);
-	*(int *)bss_4cd18 = (int)local_5c;
+	bss_4cd18 = (int)local_5c;
 	local_64 = trap_Cvar_VariableValue(0x6742);
 	if (local_64 == 0x0) goto jmp_a65b;
 	local_60 = 0x1;
@@ -17814,7 +19157,7 @@ jmp_a6ba:
 	goto jmp_a71c;
 	trap_Cvar_SetValue(0x6766, (float)bss_4ccd4);
 	goto jmp_a71c;
-	trap_Cvar_SetValue(0x6753, (float)*(int *)bss_4cd18);
+	trap_Cvar_SetValue(0x6753, (float)bss_4cd18);
 	goto jmp_a71c;
 	trap_Cvar_SetValue(0x6742, (float)bss_4cd74);
 	trap_Cvar_SetValue(0x6731, (float)bss_4cd74);
@@ -17917,133 +19260,133 @@ void Preferences_MenuInit(void) {
 	memset(0x4c860, 0x0, 0x598);
 	Preferences_Cache();
 	bss_4c974 = 0x1;
-	*(int *)bss_4c978 = 0x1;
-	*(int *)bss_4c980 = 0xa;
+	bss_4c978 = 0x1;
+	bss_4c980 = 0xa;
 	bss_4c98c = 0x140;
-	*(int *)bss_4c990 = 0x10;
+	bss_4c990 = 0x10;
 	bss_4c9bc = 0x6724;
 	bss_4c9c4 = 0x2160;
 	bss_4c9c0 = 0x1;
 	bss_4c9c8 = 0x6;
-	*(int *)bss_4c9cc = 0x6712;
-	*(int *)bss_4c9f4 = 0x4000;
+	bss_4c9cc = 0x6712;
+	bss_4c9f4 = 0x4000;
 	bss_4c9d4 = 0x0;
-	*(int *)bss_4c9d8 = 0x4e;
+	bss_4c9d8 = 0x4e;
 	bss_4ca14 = 0x100;
-	*(int *)bss_4ca18 = 0x149;
+	bss_4ca18 = 0x149;
 	bss_4ca20 = 0x6;
-	*(int *)bss_4ca24 = 0x6700;
-	*(int *)bss_4ca4c = 0x4000;
+	bss_4ca24 = 0x6700;
+	bss_4ca4c = 0x4000;
 	bss_4ca2c = 0x178;
-	*(int *)bss_4ca30 = 0x4c;
+	bss_4ca30 = 0x4c;
 	bss_4ca6c = 0x100;
-	*(int *)bss_4ca70 = 0x14e;
+	bss_4ca70 = 0x14e;
 	local_14 = 0x90;
 	bss_4ca78 = 0x3;
 	bss_4caa4 = 0x18102;
 	bss_4ca84 = 0x168;
 	bss_4ca88 = local_14;
 	bss_4ca7c = 0x66f5;
-	*(int *)bss_4caa8 = 0xa664;
-	*(int *)bss_4cab0 = 0xa71e;
+	bss_4caa8 = 0xa664;
+	bss_4cab0 = 0xa71e;
 	bss_4ca80 = 0x7f;
 	bss_4ca90 = (local_14 - 0x4);
-	*(int *)bss_4ca98 = (local_14 + 0x14);
+	bss_4ca98 = (local_14 + 0x14);
 	local_18 = strlen(bss_4ca7c);
 	bss_4ca8c = (0x168 - ((local_18 + 0x1) << 0x3));
 	bss_4ca94 = 0x198;
-	*(int *)bss_4cabc = 0xa;
+	bss_4cabc = 0xa;
 	local_14 = (local_14 + 0x16);
 	bss_4cad8 = 0x5;
 	bss_4cadc = 0x66e7;
 	bss_4cb04 = 0x102;
-	*(int *)bss_4cb08 = 0xa664;
+	bss_4cb08 = 0xa664;
 	bss_4cae0 = 0x80;
 	bss_4cae4 = 0x168;
-	*(int *)bss_4cae8 = local_14;
+	bss_4cae8 = local_14;
 	local_14 = (local_14 + 0x10);
 	bss_4cb58 = 0x5;
 	bss_4cb5c = 0x66d7;
 	bss_4cb84 = 0x102;
-	*(int *)bss_4cb88 = 0xa664;
+	bss_4cb88 = 0xa664;
 	bss_4cb60 = 0x83;
 	bss_4cb64 = 0x168;
-	*(int *)bss_4cb68 = local_14;
+	bss_4cb68 = local_14;
 	local_14 = (local_14 + 0x12);
 	bss_4cb18 = 0x5;
 	bss_4cb1c = 0x66c7;
 	bss_4cb44 = 0x102;
-	*(int *)bss_4cb48 = 0xa664;
+	bss_4cb48 = 0xa664;
 	bss_4cb20 = 0x82;
 	bss_4cb24 = 0x168;
-	*(int *)bss_4cb28 = local_14;
+	bss_4cb28 = local_14;
 	local_14 = (local_14 + 0x12);
 	bss_4cb98 = 0x5;
 	bss_4cb9c = 0x66b7;
 	bss_4cbc4 = 0x102;
-	*(int *)bss_4cbc8 = 0xa664;
+	bss_4cbc8 = 0xa664;
 	bss_4cba0 = 0x84;
 	bss_4cba4 = 0x168;
-	*(int *)bss_4cba8 = local_14;
+	bss_4cba8 = local_14;
 	local_14 = (local_14 + 0x12);
 	bss_4cbd8 = 0x5;
 	bss_4cbdc = 0x66a6;
 	bss_4cc04 = 0x102;
-	*(int *)bss_4cc08 = 0xa664;
+	bss_4cc08 = 0xa664;
 	bss_4cbe0 = 0x85;
 	bss_4cbe4 = 0x168;
-	*(int *)bss_4cbe8 = local_14;
+	bss_4cbe8 = local_14;
 	local_14 = (local_14 + 0x12);
 	bss_4cc18 = 0x5;
 	bss_4cc1c = 0x6694;
 	bss_4cc44 = 0x102;
-	*(int *)bss_4cc48 = 0xa664;
+	bss_4cc48 = 0xa664;
 	bss_4cc20 = 0x81;
 	bss_4cc24 = 0x168;
-	*(int *)bss_4cc28 = local_14;
+	bss_4cc28 = local_14;
 	local_14 = (local_14 + 0x12);
 	bss_4cc58 = 0x5;
 	bss_4cc5c = 0x6682;
 	bss_4cc84 = 0x102;
-	*(int *)bss_4cc88 = 0xa664;
+	bss_4cc88 = 0xa664;
 	bss_4cc60 = 0x86;
 	bss_4cc64 = 0x168;
-	*(int *)bss_4cc68 = local_14;
+	bss_4cc68 = local_14;
 	local_14 = (local_14 + 0x12);
 	bss_4cc98 = 0x5;
 	bss_4cc9c = 0x666d;
 	bss_4ccc4 = 0x102;
-	*(int *)bss_4ccc8 = 0xa664;
+	bss_4ccc8 = 0xa664;
 	bss_4cca0 = 0x87;
 	bss_4cca4 = 0x168;
-	*(int *)bss_4cca8 = local_14;
+	bss_4cca8 = local_14;
 	local_14 = (local_14 + 0x12);
 	bss_4ccd8 = 0x3;
 	bss_4ccdc = 0x665a;
 	bss_4cd04 = 0x102;
-	*(int *)bss_4cd08 = 0xa664;
+	bss_4cd08 = 0xa664;
 	bss_4cce0 = 0x88;
 	bss_4cce4 = 0x168;
-	*(int *)bss_4cce8 = local_14;
-	*(int *)bss_4cd24 = 0x20ec;
+	bss_4cce8 = local_14;
+	bss_4cd24 = 0x20ec;
 	local_14 = (local_14 + 0x12);
 	bss_4cd38 = 0x5;
 	bss_4cd3c = 0x6643;
 	bss_4cd64 = 0x102;
-	*(int *)bss_4cd68 = 0xa664;
+	bss_4cd68 = 0xa664;
 	bss_4cd40 = 0x89;
 	bss_4cd44 = 0x168;
-	*(int *)bss_4cd48 = local_14;
+	bss_4cd48 = local_14;
 	bss_4cd78 = 0x6;
 	bss_4cd7c = 0x6633;
 	bss_4cda4 = 0x104;
-	*(int *)bss_4cda8 = 0xa664;
+	bss_4cda8 = 0xa664;
 	bss_4cd80 = 0x8a;
 	bss_4cd84 = 0x0;
-	*(int *)bss_4cd88 = 0x1a0;
+	bss_4cd88 = 0x1a0;
 	bss_4cdc4 = 0x80;
-	*(int *)bss_4cdc8 = 0x40;
-	*(int *)bss_4cdb4 = 0x6623;
+	bss_4cdc8 = 0x40;
+	bss_4cdb4 = 0x6623;
 	Menu_AddItem(0x4c860, 0x4c980);
 	Menu_AddItem(0x4c860, 0x4c9c8);
 	Menu_AddItem(0x4c860, 0x4ca20);
@@ -20066,7 +21409,7 @@ void UI_RemoveBotsMenu_DeleteEvent(, int arg_1) {
 	if (arg_1 == 0x3) goto jmp_c607;
 	goto jmp_c620;
 jmp_c607:
-	local_10 = va(0x6aa3, *(int *)(((bss_4d390 + *(int *)bss_4d394) << 0x2) + 0x4d478));
+	local_10 = va(0x6aa3, *(int *)(((bss_4d390 + bss_4d394) << 0x2) + 0x4d478));
 	trap_Cmd_ExecuteText(0x2, local_10);
 jmp_c620:
 }
@@ -20084,9 +21427,9 @@ void UI_RemoveBotsMenu_BotEvent(int arg_0, int arg_1) {
 	if (arg_1 == 0x3) goto jmp_c629;
 	goto jmp_c642;
 jmp_c629:
-	*(int *)((0x48 * *(int *)bss_4d394) + 0x4d128) = 0x21a0;
-	*(int *)bss_4d394 = (*(int *)(arg_0 + 0x8) - 0x14);
-	*(int *)((0x48 * *(int *)bss_4d394) + 0x4d128) = 0x2160;
+	*(int *)((0x48 * bss_4d394) + 0x4d128) = 0x21a0;
+	bss_4d394 = (*(int *)(arg_0 + 0x8) - 0x14);
+	*(int *)((0x48 * bss_4d394) + 0x4d128) = 0x2160;
 jmp_c642:
 }
 
@@ -20233,7 +21576,7 @@ void UI_RemoveBotsMenu_Init(void) {
 	char	local_20[12];
 
 	memset(0x4ce1c, 0x0, 0x165c);
-	*(int *)bss_4cf34 = 0x0;
+	bss_4cf34 = 0x0;
 	bss_4cf30 = 0x1;
 	UI_RemoveBots_Cache();
 	UI_RemoveBotsMenu_GetBots();
@@ -20245,44 +21588,44 @@ jmp_c733:
 	*(int *)local_20 = 0x7;
 jmp_c736:
 	local_18 = *(int *)local_20;
-	*(int *)bss_4cf3c = 0xa;
+	bss_4cf3c = 0xa;
 	bss_4cf48 = 0x140;
-	*(int *)bss_4cf4c = 0x10;
+	bss_4cf4c = 0x10;
 	bss_4cf78 = 0x6a2a;
 	bss_4cf80 = 0x2160;
 	bss_4cf7c = 0x1;
 	bss_4cf84 = 0x6;
-	*(int *)bss_4cf88 = 0x6a7a;
-	*(int *)bss_4cfb0 = 0x4000;
+	bss_4cf88 = 0x6a7a;
+	bss_4cfb0 = 0x4000;
 	bss_4cf90 = 0x57;
-	*(int *)bss_4cf94 = 0x4a;
+	bss_4cf94 = 0x4a;
 	bss_4cfd0 = 0x1d2;
-	*(int *)bss_4cfd4 = 0x14c;
+	bss_4cfd4 = 0x14c;
 	bss_4cfdc = 0x6;
-	*(int *)bss_4cfe0 = 0x6a13;
-	*(int *)bss_4d008 = 0x4000;
+	bss_4cfe0 = 0x6a13;
+	bss_4d008 = 0x4000;
 	bss_4cfe8 = 0xc8;
-	*(int *)bss_4cfec = 0x80;
+	bss_4cfec = 0x80;
 	bss_4d028 = 0x40;
-	*(int *)bss_4d02c = 0x80;
-	*(int *)bss_4d034 = 0x6;
+	bss_4d02c = 0x80;
+	bss_4d034 = 0x6;
 	bss_4d060 = 0x104;
 	bss_4d040 = 0xc8;
-	*(int *)bss_4d044 = 0x80;
+	bss_4d044 = 0x80;
 	bss_4d03c = 0xa;
-	*(int *)bss_4d064 = 0xc650;
+	bss_4d064 = 0xc650;
 	bss_4d080 = 0x40;
-	*(int *)bss_4d084 = 0x40;
-	*(int *)bss_4d070 = 0x69fa;
-	*(int *)bss_4d08c = 0x6;
+	bss_4d084 = 0x40;
+	bss_4d070 = 0x69fa;
+	bss_4d08c = 0x6;
 	bss_4d0b8 = 0x104;
 	bss_4d098 = 0xc8;
-	*(int *)bss_4d09c = 0xc0;
+	bss_4d09c = 0xc0;
 	bss_4d094 = 0xb;
-	*(int *)bss_4d0bc = 0xc66b;
+	bss_4d0bc = 0xc66b;
 	bss_4d0d8 = 0x40;
-	*(int *)bss_4d0dc = 0x40;
-	*(int *)bss_4d0c8 = 0x69e1;
+	bss_4d0dc = 0x40;
+	bss_4d0c8 = 0x69e1;
 	local_14 = 0x0;
 	local_1c = 0x78;
 	goto jmp_c811;
@@ -20304,22 +21647,22 @@ jmp_c811:
 	bss_4d2e0 = 0x6a48;
 	bss_4d308 = 0x104;
 	bss_4d2e4 = 0xc;
-	*(int *)bss_4d30c = 0xc600;
+	bss_4d30c = 0xc600;
 	bss_4d2e8 = 0x140;
-	*(int *)bss_4d2ec = 0x140;
+	bss_4d2ec = 0x140;
 	bss_4d328 = 0x80;
-	*(int *)bss_4d32c = 0x40;
-	*(int *)bss_4d318 = 0x6a36;
+	bss_4d32c = 0x40;
+	bss_4d318 = 0x6a36;
 	bss_4d334 = 0x6;
 	bss_4d338 = 0x6a6a;
 	bss_4d360 = 0x104;
 	bss_4d33c = 0xd;
-	*(int *)bss_4d364 = 0xc644;
+	bss_4d364 = 0xc644;
 	bss_4d340 = 0xc0;
-	*(int *)bss_4d344 = 0x140;
+	bss_4d344 = 0x140;
 	bss_4d380 = 0x80;
-	*(int *)bss_4d384 = 0x40;
-	*(int *)bss_4d370 = 0x6a5a;
+	bss_4d384 = 0x40;
+	bss_4d370 = 0x6a5a;
 	Menu_AddItem(0x4ce1c, 0x4cf84);
 	Menu_AddItem(0x4ce1c, 0x4cf3c);
 	Menu_AddItem(0x4ce1c, 0x4cfdc);
@@ -20335,8 +21678,8 @@ jmp_c88c:
 	Menu_AddItem(0x4ce1c, 0x4d2dc);
 	Menu_AddItem(0x4ce1c, 0x4d334);
 	bss_4d390 = 0x0;
-	*(int *)bss_4d394 = 0x0;
-	*(int *)bss_4d128 = 0x2160;
+	bss_4d394 = 0x0;
+	bss_4d128 = 0x2160;
 }
 
 /*
@@ -20444,23 +21787,23 @@ void UI_SaveConfigMenu_Init(void) {
 	memset(0x4e478, 0x0, 0x3bc);
 	UI_SaveConfigMenu_Cache();
 	bss_4e58c = 0x1;
-	*(int *)bss_4e590 = 0x1;
-	*(int *)bss_4e598 = 0xa;
+	bss_4e590 = 0x1;
+	bss_4e598 = 0xa;
 	bss_4e5a4 = 0x140;
-	*(int *)bss_4e5a8 = 0x10;
+	bss_4e5a8 = 0x10;
 	bss_4e5d4 = 0x6b07;
 	bss_4e5dc = 0x2160;
 	bss_4e5d8 = 0x1;
 	bss_4e5e0 = 0x6;
-	*(int *)bss_4e5e4 = 0x6af4;
-	*(int *)bss_4e60c = 0x4000;
+	bss_4e5e4 = 0x6af4;
+	bss_4e60c = 0x4000;
 	bss_4e5ec = 0x8e;
-	*(int *)bss_4e5f0 = 0x76;
+	bss_4e5f0 = 0x76;
 	bss_4e62c = 0x167;
-	*(int *)bss_4e630 = 0x100;
-	*(int *)bss_4e638 = 0x4;
-	*(int *)bss_4e664 = 0x88000;
-	*(int *)bss_4e670 = 0xc8ed;
+	bss_4e630 = 0x100;
+	bss_4e638 = 0x4;
+	bss_4e664 = 0x88000;
+	bss_4e670 = 0xc8ed;
 	bss_4e67c = 0x14;
 	bss_4e780 = 0x14;
 	bss_4e644 = 0xf0;
@@ -20468,27 +21811,27 @@ void UI_SaveConfigMenu_Init(void) {
 	bss_4e64c = 0xf0;
 	bss_4e650 = 0xe3;
 	bss_4e654 = 0x189;
-	*(int *)bss_4e658 = 0xf5;
+	bss_4e658 = 0xf5;
 	bss_4e784 = 0x6;
 	bss_4e788 = 0x6ae4;
 	bss_4e7b0 = 0x104;
 	bss_4e78c = 0xb;
-	*(int *)bss_4e7b4 = 0xc8b5;
+	bss_4e7b4 = 0xc8b5;
 	bss_4e790 = 0x0;
-	*(int *)bss_4e794 = 0x1a0;
+	bss_4e794 = 0x1a0;
 	bss_4e7d0 = 0x80;
-	*(int *)bss_4e7d4 = 0x40;
-	*(int *)bss_4e7c0 = 0x6ad4;
+	bss_4e7d4 = 0x40;
+	bss_4e7c0 = 0x6ad4;
 	bss_4e7dc = 0x6;
 	bss_4e7e0 = 0x6ac4;
 	bss_4e808 = 0x110;
 	bss_4e7e4 = 0xc;
-	*(int *)bss_4e80c = 0xc8c1;
+	bss_4e80c = 0xc8c1;
 	bss_4e7e8 = 0x280;
-	*(int *)bss_4e7ec = 0x1a0;
+	bss_4e7ec = 0x1a0;
 	bss_4e828 = 0x80;
-	*(int *)bss_4e82c = 0x40;
-	*(int *)bss_4e818 = 0x6ab4;
+	bss_4e82c = 0x40;
+	bss_4e818 = 0x6ab4;
 	Menu_AddItem(0x4e478, 0x4e598);
 	Menu_AddItem(0x4e478, 0x4e5e0);
 	Menu_AddItem(0x4e478, 0x4e638);
@@ -20625,7 +21968,7 @@ void ServerInfo_MenuDraw(void) {
 	char	local_428[1024];
 
 	local_424 = 0x0;
-	local_41c = ((0xf0 - ((*(int *)bss_4eeec << 0x4) / 0x2)) - 0x14);
+	local_41c = ((0xf0 - ((bss_4eeec << 0x4) / 0x2)) - 0x14);
 	local_420 = 0x4eaec;
 	goto jmp_cb2a;
 jmp_cae9:
@@ -20640,7 +21983,7 @@ jmp_caf9:
 	local_424 = (local_424 + 0x1);
 jmp_cb2a:
 	if (local_420 == 0x0) goto jmp_cb33;
-	if (local_424 < *(int *)bss_4eeec) goto jmp_cae9;
+	if (local_424 < bss_4eeec) goto jmp_cae9;
 jmp_cb33:
 	Menu_Draw(0x4e834);
 }
@@ -20707,36 +22050,36 @@ void UI_ServerInfoMenu(void) {
 	bss_4e940 = 0xcad4;
 	bss_4e944 = 0xcb3a;
 	bss_4e948 = 0x1;
-	*(int *)bss_4e94c = 0x1;
-	*(int *)bss_4e954 = 0xa;
+	bss_4e94c = 0x1;
+	bss_4e954 = 0xa;
 	bss_4e960 = 0x140;
-	*(int *)bss_4e964 = 0x10;
+	bss_4e964 = 0x10;
 	bss_4e990 = 0x6b53;
 	bss_4e998 = 0x2160;
 	bss_4e994 = 0x1;
 	bss_4e99c = 0x6;
-	*(int *)bss_4e9a0 = 0x6bb4;
-	*(int *)bss_4e9c8 = 0x4000;
+	bss_4e9a0 = 0x6bb4;
+	bss_4e9c8 = 0x4000;
 	bss_4e9a8 = 0x0;
-	*(int *)bss_4e9ac = 0x4e;
+	bss_4e9ac = 0x4e;
 	bss_4e9e8 = 0x100;
-	*(int *)bss_4e9ec = 0x149;
+	bss_4e9ec = 0x149;
 	bss_4e9f4 = 0x6;
-	*(int *)bss_4e9f8 = 0x6ba2;
-	*(int *)bss_4ea20 = 0x4000;
+	bss_4e9f8 = 0x6ba2;
+	bss_4ea20 = 0x4000;
 	bss_4ea00 = 0x178;
-	*(int *)bss_4ea04 = 0x4c;
+	bss_4ea04 = 0x4c;
 	bss_4ea40 = 0x100;
-	*(int *)bss_4ea44 = 0x14e;
-	*(int *)bss_4eaa4 = 0x9;
+	bss_4ea44 = 0x14e;
+	bss_4eaa4 = 0x9;
 	bss_4ead0 = 0x108;
-	*(int *)bss_4ead4 = 0xcaa9;
+	bss_4ead4 = 0xcaa9;
 	bss_4eaac = 0x64;
 	bss_4eab0 = 0x140;
-	*(int *)bss_4eab4 = 0x173;
+	bss_4eab4 = 0x173;
 	bss_4eae0 = 0x6b42;
 	bss_4eae4 = 0x11;
-	*(int *)bss_4eae8 = 0x21b0;
+	bss_4eae8 = 0x21b0;
 	local_818 = trap_Cvar_VariableValue(0x6b37);
 	if (local_818 == 0x0) goto jmp_cbf2;
 	local_81c = 0x4ead0;
@@ -20745,15 +22088,15 @@ jmp_cbf2:
 	bss_4ea4c = 0x6;
 	bss_4ea50 = 0x6b92;
 	bss_4ea78 = 0x104;
-	*(int *)bss_4ea7c = 0xcaa9;
+	bss_4ea7c = 0xcaa9;
 	bss_4ea54 = 0x65;
 	bss_4ea58 = 0x0;
-	*(int *)bss_4ea5c = 0x1a0;
+	bss_4ea5c = 0x1a0;
 	bss_4ea98 = 0x80;
-	*(int *)bss_4ea9c = 0x40;
-	*(int *)bss_4ea88 = 0x6b82;
+	bss_4ea9c = 0x40;
+	bss_4ea88 = 0x6b82;
 	trap_GetConfigString(0x0, 0x4eaec, 0x400);
-	*(int *)bss_4eeec = 0x0;
+	bss_4eeec = 0x0;
 	local_14 = 0x4eaec;
 	goto jmp_cc3c;
 jmp_cc21:
@@ -20766,8 +22109,8 @@ jmp_cc31:
 jmp_cc3c:
 	if (local_14 != 0x0) goto jmp_cc21;
 jmp_cc40:
-	if (*(int *)bss_4eeec <= 0x10) goto jmp_cc47;
-	*(int *)bss_4eeec = 0x10;
+	if (bss_4eeec <= 0x10) goto jmp_cc47;
+	bss_4eeec = 0x10;
 jmp_cc47:
 	Menu_AddItem(0x4e834, 0x4e954);
 	Menu_AddItem(0x4e834, 0x4e99c);
@@ -20937,14 +22280,14 @@ void ArenaServers_UpdatePicture(void) {
 	int		local_18;
 
 	if (bss_71070 != 0x0) goto jmp_cdda;
-	*(int *)bss_71090 = 0x0;
+	bss_71090 = 0x0;
 	goto jmp_cdf4;
 jmp_cdda:
 	local_18 = *(int *)((0x48 * bss_7106c) + 0x71d50);
 	Com_sprintf(0x4eef0, 0x40, 0x6fef, (local_18 + 0x59));
-	*(int *)bss_71090 = 0x4eef0;
+	bss_71090 = 0x4eef0;
 jmp_cdf4:
-	*(int *)bss_710d0 = 0x0;
+	bss_710d0 = 0x0;
 }
 
 /*
@@ -21437,7 +22780,7 @@ void ArenaServers_DoRefresh(void) {
 	int		local_470;
 	int		local_474;
 
-	if (bss_db58 >= *(int *)bss_74328) goto jmp_d47b;
+	if (bss_db58 >= bss_74328) goto jmp_d47b;
 	if (g_servertype == 0x7) goto jmp_d498;
 	if (g_servertype != 0x0) goto jmp_d46a;
 	local_468 = trap_LAN_GetServerCount(0x0);
@@ -21453,7 +22796,7 @@ jmp_d47b:
 	local_468 = trap_LAN_GetServerCount(0x0);
 	if (local_468 != 0x0) goto jmp_d498;
 	trap_Cmd_ExecuteText(0x2, 0x6ec9);
-	*(int *)bss_74328 = (bss_db58 + 0x1388);
+	bss_74328 = (bss_db58 + 0x1388);
 	goto jmp_d607;
 jmp_d498:
 	if (bss_db58 >= bss_74320) goto jmp_d49f;
@@ -21585,7 +22928,7 @@ jmp_d61a:
 	bss_74320 = 0x0;
 	*(int *)bss_74310 = 0x0;
 	bss_7430c = 0x0;
-	*(int *)bss_74328 = (bss_db58 + 0x1388);
+	bss_74328 = (bss_db58 + 0x1388);
 	ArenaServers_UpdateMenu();
 	if (g_servertype != 0x0) goto jmp_d658;
 	trap_Cmd_ExecuteText(0x2, 0x6ec9);
@@ -21594,7 +22937,7 @@ jmp_d658:
 	local_5c = g_servertype;
 	if (local_5c < 0x1) goto jmp_d703;
 	if (local_5c > 0x6) goto jmp_d703;
-	local_60 = *(int *)bss_70f2c;
+	local_60 = bss_70f2c;
 	if (local_60 < 0x0) goto jmp_d678;
 	if (local_60 > 0x4) goto jmp_d678;
 	goto *(int *)((local_60 << 0x2) + 0x248c);
@@ -21777,7 +23120,7 @@ void Punkbuster_ConfirmEnable(int arg_0) {
 jmp_d850:
 	local_14 = trap_Cvar_VariableValue(0x6e19);
 	local_18 = Com_Clamp(0x0, 0x3f800000, local_14);
-	*(int *)bss_74770 = (int)local_18;
+	bss_74770 = (int)local_18;
 }
 
 /*
@@ -21799,7 +23142,7 @@ void Punkbuster_ConfirmDisable(int arg_0) {
 jmp_d877:
 	local_14 = trap_Cvar_VariableValue(0x6e19);
 	local_18 = Com_Clamp(0x0, 0x3f800000, local_14);
-	*(int *)bss_74770 = (int)local_18;
+	bss_74770 = (int)local_18;
 }
 
 /*
@@ -21823,16 +23166,16 @@ jmp_d8a1:
 	if (*(int *)local_18 < 0xa) goto jmp_d971;
 	if (*(int *)local_18 > 0x18) goto jmp_d971;
 	goto *(int *)((*(int *)local_18 << 0x2) + 0x2498);
-	local_20 = ArenaServers_SetType(*(int *)bss_70ecc);
-	*(int *)bss_70ecc = local_20;
-	trap_Cvar_SetValue(0x6e08, (float)*(int *)bss_70ecc);
+	local_20 = ArenaServers_SetType(bss_70ecc);
+	bss_70ecc = local_20;
+	trap_Cvar_SetValue(0x6e08, (float)bss_70ecc);
 	goto jmp_d971;
-	trap_Cvar_SetValue(0x6df5, (float)*(int *)bss_70f2c);
-	g_gametype = *(int *)bss_70f2c;
+	trap_Cvar_SetValue(0x6df5, (float)bss_70f2c);
+	g_gametype = bss_70f2c;
 	ArenaServers_UpdateMenu();
 	goto jmp_d971;
-	trap_Cvar_SetValue(0x6de3, (float)*(int *)bss_70f8c);
-	ArenaServers_Sort(*(int *)bss_70f8c);
+	trap_Cvar_SetValue(0x6de3, (float)bss_70f8c);
+	ArenaServers_Sort(bss_70f8c);
 	ArenaServers_UpdateMenu();
 	goto jmp_d971;
 	trap_Cvar_SetValue(0x6dd0, (float)bss_70fe8);
@@ -21865,7 +23208,7 @@ jmp_d8a1:
 	ArenaServers_Remove();
 	ArenaServers_UpdateMenu();
 	goto jmp_d971;
-	if (*(int *)bss_74770 == 0x0) goto jmp_d966;
+	if (bss_74770 == 0x0) goto jmp_d966;
 	UI_ConfirmMenu_Style(0x6da9, 0x2011, 0x0, 0xd846);
 	goto jmp_d971;
 jmp_d966:
@@ -21955,14 +23298,14 @@ void ArenaServers_MenuInit(void) {
 
 	memset(0x70d24, 0x0, 0x3ac4);
 	ArenaServers_Cache();
-	*(int *)bss_70e3c = 0x1;
+	bss_70e3c = 0x1;
 	bss_70e38 = 0x1;
 	bss_70e30 = 0xd973;
 	bss_70e34 = 0xd982;
-	*(int *)bss_70e44 = 0xa;
-	*(int *)bss_70e70 = 0x8;
+	bss_70e44 = 0xa;
+	bss_70e70 = 0x8;
 	bss_70e50 = 0x140;
-	*(int *)bss_70e54 = 0x10;
+	bss_70e54 = 0x10;
 	bss_70e80 = 0x6d87;
 	bss_70e84 = 0x1;
 	bss_70e88 = 0x2160;
@@ -21970,54 +23313,54 @@ void ArenaServers_MenuInit(void) {
 	bss_70e8c = 0x3;
 	bss_70e90 = 0x6d7e;
 	bss_70eb8 = 0x102;
-	*(int *)bss_70ebc = 0xd88f;
+	bss_70ebc = 0xd88f;
 	bss_70e94 = 0xa;
 	bss_70e98 = 0x140;
-	*(int *)bss_70e9c = local_1c;
-	*(int *)bss_70ed8 = 0x2388;
+	bss_70e9c = local_1c;
+	bss_70ed8 = 0x2388;
 	local_1c = (local_1c + 0x10);
 	bss_70eec = 0x3;
 	bss_70ef0 = 0x6d73;
 	bss_70f18 = 0x102;
-	*(int *)bss_70f1c = 0xd88f;
+	bss_70f1c = 0xd88f;
 	bss_70ef4 = 0xb;
 	bss_70ef8 = 0x140;
-	*(int *)bss_70efc = local_1c;
-	*(int *)bss_70f38 = 0x23ac;
+	bss_70efc = local_1c;
+	bss_70f38 = 0x23ac;
 	local_1c = (local_1c + 0x10);
 	bss_70f4c = 0x3;
 	bss_70f50 = 0x6d6a;
 	bss_70f78 = 0x102;
-	*(int *)bss_70f7c = 0xd88f;
+	bss_70f7c = 0xd88f;
 	bss_70f54 = 0xc;
 	bss_70f58 = 0x140;
-	*(int *)bss_70f5c = local_1c;
-	*(int *)bss_70f98 = 0x23c4;
+	bss_70f5c = local_1c;
+	bss_70f98 = 0x23c4;
 	local_1c = (local_1c + 0x10);
 	bss_70fac = 0x5;
 	bss_70fb0 = 0x6d5f;
 	bss_70fd8 = 0x102;
-	*(int *)bss_70fdc = 0xd88f;
+	bss_70fdc = 0xd88f;
 	bss_70fb4 = 0xd;
 	bss_70fb8 = 0x140;
-	*(int *)bss_70fbc = local_1c;
+	bss_70fbc = local_1c;
 	local_1c = (local_1c + 0x10);
 	bss_70fec = 0x5;
 	bss_70ff0 = 0x6d53;
 	bss_71018 = 0x102;
-	*(int *)bss_7101c = 0xd88f;
+	bss_7101c = 0xd88f;
 	bss_70ff4 = 0xe;
 	bss_70ff8 = 0x140;
-	*(int *)bss_70ffc = local_1c;
+	bss_70ffc = local_1c;
 	local_1c = (local_1c + 0x30);
-	*(int *)bss_7102c = 0x8;
+	bss_7102c = 0x8;
 	bss_71058 = 0x80;
 	bss_71034 = 0xf;
-	*(int *)bss_7105c = 0xd88f;
+	bss_7105c = 0xd88f;
 	bss_71038 = 0x48;
-	*(int *)bss_7103c = local_1c;
+	bss_7103c = local_1c;
 	bss_7107c = 0x44;
-	*(int *)bss_71080 = 0xb;
+	bss_71080 = 0xb;
 	bss_71078 = 0x7410c;
 	local_18 = 0x0;
 jmp_dab9:
@@ -22025,128 +23368,128 @@ jmp_dab9:
 	local_18 = (local_18 + 0x1);
 	if (local_18 < 0x80) goto jmp_dab9;
 	bss_7108c = 0x6;
-	*(int *)bss_710b8 = 0x4004;
+	bss_710b8 = 0x4004;
 	bss_71098 = 0x48;
-	*(int *)bss_7109c = 0x50;
+	bss_7109c = 0x50;
 	bss_710d8 = 0x80;
-	*(int *)bss_710dc = 0x60;
+	bss_710dc = 0x60;
 	bss_710cc = 0x6d3f;
 	bss_710e4 = 0x6;
-	*(int *)bss_710e8 = 0x6d28;
+	bss_710e8 = 0x6d28;
 	bss_71110 = 0x4004;
-	*(int *)bss_71114 = 0xd88f;
+	bss_71114 = 0xd88f;
 	bss_710f0 = 0x230;
-	*(int *)bss_710f4 = 0xc0;
+	bss_710f4 = 0xc0;
 	bss_71130 = 0x40;
-	*(int *)bss_71134 = 0x80;
-	*(int *)bss_7113c = 0x6;
+	bss_71134 = 0x80;
+	bss_7113c = 0x6;
 	bss_71168 = 0x904;
-	*(int *)bss_7116c = 0xd88f;
+	bss_7116c = 0xd88f;
 	bss_71144 = 0x10;
 	bss_71148 = 0x230;
-	*(int *)bss_7114c = 0xc0;
+	bss_7114c = 0xc0;
 	bss_71188 = 0x40;
-	*(int *)bss_7118c = 0x40;
-	*(int *)bss_71178 = 0x6d0f;
-	*(int *)bss_71194 = 0x6;
+	bss_7118c = 0x40;
+	bss_71178 = 0x6d0f;
+	bss_71194 = 0x6;
 	bss_711c0 = 0x904;
-	*(int *)bss_711c4 = 0xd88f;
+	bss_711c4 = 0xd88f;
 	bss_7119c = 0x11;
 	bss_711a0 = 0x230;
-	*(int *)bss_711a4 = 0x100;
+	bss_711a4 = 0x100;
 	bss_711e0 = 0x40;
-	*(int *)bss_711e4 = 0x40;
-	*(int *)bss_711d0 = 0x6cf6;
+	bss_711e4 = 0x40;
+	bss_711d0 = 0x6cf6;
 	local_1c = 0x178;
-	*(int *)bss_711ec = 0x7;
+	bss_711ec = 0x7;
 	bss_711f8 = 0x140;
-	*(int *)bss_711fc = local_1c;
+	bss_711fc = local_1c;
 	bss_71228 = 0x4ef30;
 	bss_7122c = 0x11;
 	bss_71230 = 0x2130;
 	local_1c = (local_1c + 0x10);
-	*(int *)bss_71234 = 0x7;
+	bss_71234 = 0x7;
 	bss_71240 = 0x140;
-	*(int *)bss_71244 = local_1c;
+	bss_71244 = local_1c;
 	bss_71270 = 0x6fc2;
 	bss_71274 = 0x11;
 	bss_71278 = 0x21f0;
 	bss_7127c = 0x6;
 	bss_71280 = 0x6ce4;
 	bss_712a8 = 0x104;
-	*(int *)bss_712ac = 0xd88f;
+	bss_712ac = 0xd88f;
 	bss_71284 = 0x17;
 	bss_71288 = 0x1c2;
-	*(int *)bss_7128c = 0x56;
+	bss_7128c = 0x56;
 	bss_712c8 = 0x60;
-	*(int *)bss_712cc = 0x30;
-	*(int *)bss_712b8 = 0x6cd2;
+	bss_712cc = 0x30;
+	bss_712b8 = 0x6cd2;
 	bss_712d4 = 0x6;
 	bss_712d8 = 0x6cc2;
 	bss_71300 = 0x104;
-	*(int *)bss_71304 = 0xd88f;
+	bss_71304 = 0xd88f;
 	bss_712dc = 0x12;
 	bss_712e0 = 0x0;
-	*(int *)bss_712e4 = 0x1a0;
+	bss_712e4 = 0x1a0;
 	bss_71320 = 0x80;
-	*(int *)bss_71324 = 0x40;
-	*(int *)bss_71310 = 0x6cb2;
+	bss_71324 = 0x40;
+	bss_71310 = 0x6cb2;
 	bss_71384 = 0x6;
 	bss_71388 = 0x6c9f;
 	bss_713b0 = 0x104;
-	*(int *)bss_713b4 = 0xd88f;
+	bss_713b4 = 0xd88f;
 	bss_7138c = 0x14;
 	bss_71390 = 0x80;
-	*(int *)bss_71394 = 0x1a0;
+	bss_71394 = 0x1a0;
 	bss_713d0 = 0x80;
-	*(int *)bss_713d4 = 0x40;
-	*(int *)bss_713c0 = 0x6c8c;
+	bss_713d4 = 0x40;
+	bss_713c0 = 0x6c8c;
 	bss_7132c = 0x6;
 	bss_71330 = 0x6c79;
 	bss_71358 = 0x104;
-	*(int *)bss_7135c = 0xd88f;
+	bss_7135c = 0xd88f;
 	bss_71334 = 0x13;
 	bss_71338 = 0x100;
-	*(int *)bss_7133c = 0x1a0;
+	bss_7133c = 0x1a0;
 	bss_71378 = 0x80;
-	*(int *)bss_7137c = 0x40;
-	*(int *)bss_71368 = 0x6c66;
+	bss_7137c = 0x40;
+	bss_71368 = 0x6c66;
 	bss_713dc = 0x6;
 	bss_713e0 = 0x6c54;
 	bss_71408 = 0x104;
-	*(int *)bss_7140c = 0xd88f;
+	bss_7140c = 0xd88f;
 	bss_713e4 = 0x15;
 	bss_713e8 = 0x180;
-	*(int *)bss_713ec = 0x1a0;
+	bss_713ec = 0x1a0;
 	bss_71428 = 0x80;
-	*(int *)bss_7142c = 0x40;
-	*(int *)bss_71418 = 0x6c42;
+	bss_7142c = 0x40;
+	bss_71418 = 0x6c42;
 	bss_71434 = 0x6;
 	bss_71438 = 0x6c31;
 	bss_71460 = 0x110;
-	*(int *)bss_71464 = 0xd88f;
+	bss_71464 = 0xd88f;
 	bss_7143c = 0x16;
 	bss_71440 = 0x280;
-	*(int *)bss_71444 = 0x1a0;
+	bss_71444 = 0x1a0;
 	bss_71480 = 0x80;
-	*(int *)bss_71484 = 0x40;
-	*(int *)bss_71470 = 0x6c20;
+	bss_71484 = 0x40;
+	bss_71470 = 0x6c20;
 	bss_74730 = 0x3;
 	bss_74734 = 0x6c14;
 	bss_7475c = 0x102;
-	*(int *)bss_74760 = 0xd88f;
+	bss_74760 = 0xd88f;
 	bss_74738 = 0x18;
 	bss_7473c = 0x200;
-	*(int *)bss_74740 = 0x90;
-	*(int *)bss_7477c = 0x2424;
+	bss_74740 = 0x90;
+	bss_7477c = 0x2424;
 	bss_74790 = 0x6;
-	*(int *)bss_74794 = 0x6c04;
-	*(int *)bss_747bc = 0x4004;
+	bss_74794 = 0x6c04;
+	bss_747bc = 0x4004;
 	bss_7479c = 0x20e;
-	*(int *)bss_747a0 = 0xb0;
+	bss_747a0 = 0xb0;
 	bss_747dc = 0x20;
-	*(int *)bss_747e0 = 0x10;
-	*(int *)bss_747d0 = 0x6d3f;
+	bss_747e0 = 0x10;
+	bss_747d0 = 0x6d3f;
 	Menu_AddItem(0x70d24, 0x70e44);
 	Menu_AddItem(0x70d24, 0x70e8c);
 	Menu_AddItem(0x70d24, 0x70eec);
@@ -22169,29 +23512,29 @@ jmp_dab9:
 	Menu_AddItem(0x70d24, 0x74730);
 	Menu_AddItem(0x70d24, 0x74790);
 	ArenaServers_LoadFavorites();
-	local_20 = Com_Clamp(0x0, 0x40e00000, (float)*(int *)bss_a4e0);
+	local_20 = Com_Clamp(0x0, 0x40e00000, (float)bss_a4e0);
 	local_24 = (int)local_20;
 	g_servertype = local_24;
-	*(int *)bss_70ecc = local_24;
-	local_28 = Com_Clamp(0x0, 0x40800000, (float)*(int *)bss_a3d0);
+	bss_70ecc = local_24;
+	local_28 = Com_Clamp(0x0, 0x40800000, (float)bss_a3d0);
 	g_gametype = (int)local_28;
-	*(int *)bss_70f2c = g_gametype;
-	local_2c = Com_Clamp(0x0, 0x40800000, (float)*(int *)bss_a2c0);
+	bss_70f2c = g_gametype;
+	local_2c = Com_Clamp(0x0, 0x40800000, (float)bss_a2c0);
 	g_sortkey = (int)local_2c;
-	*(int *)bss_70f8c = g_sortkey;
-	local_30 = Com_Clamp(0x0, 0x3f800000, (float)*(int *)bss_a1b0);
+	bss_70f8c = g_sortkey;
+	local_30 = Com_Clamp(0x0, 0x3f800000, (float)bss_a1b0);
 	g_fullservers = (int)local_30;
 	bss_70fe8 = g_fullservers;
-	local_34 = Com_Clamp(0x0, 0x3f800000, (float)*(int *)bss_a0a0);
+	local_34 = Com_Clamp(0x0, 0x3f800000, (float)bss_a0a0);
 	g_emptyservers = (int)local_34;
 	bss_71028 = g_emptyservers;
 	local_38 = trap_Cvar_VariableValue(0x6e19);
 	local_3c = Com_Clamp(0x0, 0x3f800000, local_38);
-	*(int *)bss_74770 = (int)local_3c;
+	bss_74770 = (int)local_3c;
 	local_40 = 0x4ef80;
 	local_44 = ArenaServers_SetType(*(int *)local_40);
 	*(int *)local_40 = local_44;
-	*(int *)bss_70ecc = local_44;
+	bss_70ecc = local_44;
 	trap_Cvar_Register(0x0, 0x6e8b, 0x6fc2, 0x0);
 }
 
@@ -22328,86 +23671,86 @@ void UI_SetupMenu_Init(void) {
 	UI_SetupMenu_Cache();
 	memset(0x747e8, 0x0, 0x420);
 	bss_748fc = 0x1;
-	*(int *)bss_74900 = 0x1;
-	*(int *)bss_74908 = 0xa;
+	bss_74900 = 0x1;
+	bss_74908 = 0xa;
 	bss_74914 = 0x140;
-	*(int *)bss_74918 = 0x10;
+	bss_74918 = 0x10;
 	bss_74944 = 0x721a;
 	bss_7494c = 0x2160;
 	bss_74948 = 0x1;
 	bss_74950 = 0x6;
-	*(int *)bss_74954 = 0x7208;
-	*(int *)bss_7497c = 0x4000;
+	bss_74954 = 0x7208;
+	bss_7497c = 0x4000;
 	bss_7495c = 0x0;
-	*(int *)bss_74960 = 0x4e;
+	bss_74960 = 0x4e;
 	bss_7499c = 0x100;
-	*(int *)bss_749a0 = 0x149;
+	bss_749a0 = 0x149;
 	bss_749a8 = 0x6;
-	*(int *)bss_749ac = 0x71f6;
-	*(int *)bss_749d4 = 0x4000;
+	bss_749ac = 0x71f6;
+	bss_749d4 = 0x4000;
 	bss_749b4 = 0x178;
-	*(int *)bss_749b8 = 0x4c;
+	bss_749b8 = 0x4c;
 	bss_749f4 = 0x100;
-	*(int *)bss_749f8 = 0x14e;
+	bss_749f8 = 0x14e;
 	local_14 = 0x86;
-	*(int *)bss_74a00 = 0x9;
+	bss_74a00 = 0x9;
 	bss_74a2c = 0x108;
 	bss_74a0c = 0x140;
-	*(int *)bss_74a10 = local_14;
+	bss_74a10 = local_14;
 	bss_74a08 = 0xa;
-	*(int *)bss_74a30 = 0xde14;
+	bss_74a30 = 0xde14;
 	bss_74a3c = 0x71ef;
 	bss_74a44 = 0x21b0;
 	bss_74a40 = 0x1;
 	local_14 = (local_14 + 0x22);
-	*(int *)bss_74a48 = 0x9;
+	bss_74a48 = 0x9;
 	bss_74a74 = 0x108;
 	bss_74a54 = 0x140;
-	*(int *)bss_74a58 = local_14;
+	bss_74a58 = local_14;
 	bss_74a50 = 0xb;
-	*(int *)bss_74a78 = 0xde14;
+	bss_74a78 = 0xde14;
 	bss_74a84 = 0x71e6;
 	bss_74a8c = 0x21b0;
 	bss_74a88 = 0x1;
 	local_14 = (local_14 + 0x22);
-	*(int *)bss_74a90 = 0x9;
+	bss_74a90 = 0x9;
 	bss_74abc = 0x108;
 	bss_74a9c = 0x140;
-	*(int *)bss_74aa0 = local_14;
+	bss_74aa0 = local_14;
 	bss_74a98 = 0xc;
-	*(int *)bss_74ac0 = 0xde14;
+	bss_74ac0 = 0xde14;
 	bss_74acc = 0x71df;
 	bss_74ad4 = 0x21b0;
 	bss_74ad0 = 0x1;
 	local_14 = (local_14 + 0x22);
-	*(int *)bss_74ad8 = 0x9;
+	bss_74ad8 = 0x9;
 	bss_74b04 = 0x108;
 	bss_74ae4 = 0x140;
-	*(int *)bss_74ae8 = local_14;
+	bss_74ae8 = local_14;
 	bss_74ae0 = 0xd;
-	*(int *)bss_74b08 = 0xde14;
+	bss_74b08 = 0xde14;
 	bss_74b14 = 0x71d2;
 	bss_74b1c = 0x21b0;
 	bss_74b18 = 0x1;
 	local_14 = (local_14 + 0x22);
-	*(int *)bss_74b20 = 0x9;
+	bss_74b20 = 0x9;
 	bss_74b4c = 0x108;
 	bss_74b2c = 0x140;
-	*(int *)bss_74b30 = local_14;
+	bss_74b30 = local_14;
 	bss_74b28 = 0xe;
-	*(int *)bss_74b50 = 0xde14;
+	bss_74b50 = 0xde14;
 	bss_74b5c = 0x71cb;
 	bss_74b64 = 0x21b0;
 	bss_74b60 = 0x1;
 	local_18 = trap_Cvar_VariableValue(0x71c1);
 	if (local_18 != 0x0) goto jmp_df7d;
 	local_14 = (local_14 + 0x22);
-	*(int *)bss_74b68 = 0x9;
+	bss_74b68 = 0x9;
 	bss_74b94 = 0x108;
 	bss_74b74 = 0x140;
-	*(int *)bss_74b78 = local_14;
+	bss_74b78 = local_14;
 	bss_74b70 = 0x11;
-	*(int *)bss_74b98 = 0xde14;
+	bss_74b98 = 0xde14;
 	bss_74ba4 = 0x71b8;
 	bss_74bac = 0x21b0;
 	bss_74ba8 = 0x1;
@@ -22416,12 +23759,12 @@ jmp_df7d:
 	bss_74bb4 = 0x71a8;
 	bss_74bdc = 0x104;
 	bss_74bb8 = 0x12;
-	*(int *)bss_74be0 = 0xde14;
+	bss_74be0 = 0xde14;
 	bss_74bbc = 0x0;
-	*(int *)bss_74bc0 = 0x1a0;
+	bss_74bc0 = 0x1a0;
 	bss_74bfc = 0x80;
-	*(int *)bss_74c00 = 0x40;
-	*(int *)bss_74bec = 0x7198;
+	bss_74c00 = 0x40;
+	bss_74bec = 0x7198;
 	Menu_AddItem(0x747e8, 0x74908);
 	Menu_AddItem(0x747e8, 0x74950);
 	Menu_AddItem(0x747e8, 0x749a8);
@@ -22504,14 +23847,14 @@ jmp_e016:
 	goto jmp_e0c6;
 	UI_PopMenu();
 	goto jmp_e0c6;
-	trap_Cvar_SetValue(0x73a5, (*(int *)bss_74f84 / 0x41200000));
-	bss_75148 = *(int *)bss_74f84;
-	trap_Cvar_SetValue(0x7397, (*(int *)bss_74fd0 / 0x41200000));
-	bss_7514c = *(int *)bss_74fd0;
-	if (bss_75154 != *(int *)bss_75078) goto jmp_e070;
-	if (bss_75150 == *(int *)bss_75018) goto jmp_e0c6;
+	trap_Cvar_SetValue(0x73a5, (bss_74f84 / 0x41200000));
+	bss_75148 = bss_74f84;
+	trap_Cvar_SetValue(0x7397, (bss_74fd0 / 0x41200000));
+	bss_7514c = bss_74fd0;
+	if (bss_75154 != bss_75078) goto jmp_e070;
+	if (bss_75150 == bss_75018) goto jmp_e0c6;
 jmp_e070:
-	local_1c = *(int *)bss_75078;
+	local_1c = bss_75078;
 	if (local_1c == 0x0) goto jmp_e082;
 	if (local_1c == 0x1) goto jmp_e087;
 	if (local_1c == 0x2) goto jmp_e08c;
@@ -22529,9 +23872,9 @@ jmp_e08f:
 	local_18 = 0x0;
 jmp_e096:
 	trap_Cvar_SetValue(0x738c, (float)local_18);
-	bss_75154 = *(int *)bss_75078;
+	bss_75154 = bss_75078;
 #define next_call_arg_0 "0x7380"
-	if (*(int *)bss_75018 != 0x1) goto jmp_e0ae;
+	if (bss_75018 != 0x1) goto jmp_e0ae;
 	local_20 = 0x1;
 	goto jmp_e0b1;
 jmp_e0ae:
@@ -22539,7 +23882,7 @@ jmp_e0ae:
 jmp_e0b1:
 #define next_call_arg_1 "(float)local_20"
 	trap_Cvar_SetValue();
-	bss_75150 = *(int *)bss_75018;
+	bss_75150 = bss_75018;
 	UI_ForceMenuOff();
 	trap_Cmd_ExecuteText(0x2, 0x7373);
 jmp_e0c6:
@@ -22558,7 +23901,7 @@ void SoundOptions_UpdateMenuItems(void) {
 	int		local_8;
 	int		local_c;
 
-	if (*(int *)bss_75018 != 0x0) goto jmp_e0da;
+	if (bss_75018 != 0x0) goto jmp_e0da;
 	local_8 = 0x75064;
 	*(int *)local_8 = (*(int *)local_8 & 0xffffdfff);
 	goto jmp_e0e5;
@@ -22568,19 +23911,19 @@ jmp_e0da:
 jmp_e0e5:
 	local_8 = 0x7511c;
 	*(int *)local_8 = (*(int *)local_8 | 0x5000);
-	if (bss_75148 == *(int *)bss_74f84) goto jmp_e100;
+	if (bss_75148 == bss_74f84) goto jmp_e100;
 	local_c = 0x7511c;
 	*(int *)local_c = (*(int *)local_c & 0xffffafff);
 jmp_e100:
-	if (bss_7514c == *(int *)bss_74fd0) goto jmp_e110;
+	if (bss_7514c == bss_74fd0) goto jmp_e110;
 	local_c = 0x7511c;
 	*(int *)local_c = (*(int *)local_c & 0xffffafff);
 jmp_e110:
-	if (bss_75150 == *(int *)bss_75018) goto jmp_e120;
+	if (bss_75150 == bss_75018) goto jmp_e120;
 	local_c = 0x7511c;
 	*(int *)local_c = (*(int *)local_c & 0xffffafff);
 jmp_e120:
-	if (bss_75154 == *(int *)bss_75078) goto jmp_e130;
+	if (bss_75154 == bss_75078) goto jmp_e130;
 	local_c = 0x7511c;
 	*(int *)local_c = (*(int *)local_c & 0xffffafff);
 jmp_e130:
@@ -22624,62 +23967,62 @@ void UI_SoundOptionsMenu_Init(void) {
 	memset(0x74c08, 0x0, 0x550);
 	UI_SoundOptionsMenu_Cache();
 	bss_74d1c = 0x1;
-	*(int *)bss_74d20 = 0x1;
-	*(int *)bss_74d14 = 0xe132;
-	*(int *)bss_74d28 = 0xa;
-	*(int *)bss_74d54 = 0x8;
+	bss_74d20 = 0x1;
+	bss_74d14 = 0xe132;
+	bss_74d28 = 0xa;
+	bss_74d54 = 0x8;
 	bss_74d34 = 0x140;
-	*(int *)bss_74d38 = 0x10;
+	bss_74d38 = 0x10;
 	bss_74d64 = 0x7366;
 	bss_74d6c = 0x2160;
 	bss_74d68 = 0x1;
 	bss_74d70 = 0x6;
-	*(int *)bss_74d74 = 0x7354;
-	*(int *)bss_74d9c = 0x4000;
+	bss_74d74 = 0x7354;
+	bss_74d9c = 0x4000;
 	bss_74d7c = 0x0;
-	*(int *)bss_74d80 = 0x4e;
+	bss_74d80 = 0x4e;
 	bss_74dbc = 0x100;
-	*(int *)bss_74dc0 = 0x149;
+	bss_74dc0 = 0x149;
 	bss_74dc8 = 0x6;
-	*(int *)bss_74dcc = 0x7342;
-	*(int *)bss_74df4 = 0x4000;
+	bss_74dcc = 0x7342;
+	bss_74df4 = 0x4000;
 	bss_74dd4 = 0x178;
-	*(int *)bss_74dd8 = 0x4c;
+	bss_74dd8 = 0x4c;
 	bss_74e14 = 0x100;
-	*(int *)bss_74e18 = 0x14e;
-	*(int *)bss_74e20 = 0x9;
+	bss_74e18 = 0x14e;
+	bss_74e20 = 0x9;
 	bss_74e4c = 0x110;
 	bss_74e28 = 0xa;
-	*(int *)bss_74e50 = 0xe00f;
+	bss_74e50 = 0xe00f;
 	bss_74e2c = 0xd8;
-	*(int *)bss_74e30 = 0xba;
+	bss_74e30 = 0xba;
 	bss_74e5c = 0x7339;
 	bss_74e60 = 0x2;
 	bss_74e64 = 0x21b0;
-	*(int *)bss_74e68 = 0x9;
+	bss_74e68 = 0x9;
 	bss_74e94 = 0x110;
 	bss_74e70 = 0xb;
-	*(int *)bss_74e98 = 0xe00f;
+	bss_74e98 = 0xe00f;
 	bss_74e74 = 0xd8;
-	*(int *)bss_74e78 = 0xd5;
+	bss_74e78 = 0xd5;
 	bss_74ea4 = 0x7331;
 	bss_74ea8 = 0x2;
 	bss_74eac = 0x21b0;
-	*(int *)bss_74eb0 = 0x9;
+	bss_74eb0 = 0x9;
 	bss_74edc = 0x10;
 	bss_74eb8 = 0xc;
-	*(int *)bss_74ee0 = 0xe00f;
+	bss_74ee0 = 0xe00f;
 	bss_74ebc = 0xd8;
-	*(int *)bss_74ec0 = 0xf0;
+	bss_74ec0 = 0xf0;
 	bss_74eec = 0x732b;
 	bss_74ef0 = 0x2;
 	bss_74ef4 = 0x21b0;
-	*(int *)bss_74ef8 = 0x9;
+	bss_74ef8 = 0x9;
 	bss_74f24 = 0x110;
 	bss_74f00 = 0xd;
-	*(int *)bss_74f28 = 0xe00f;
+	bss_74f28 = 0xe00f;
 	bss_74f04 = 0xd8;
-	*(int *)bss_74f08 = 0x10b;
+	bss_74f08 = 0x10b;
 	bss_74f34 = 0x7323;
 	bss_74f38 = 0x2;
 	bss_74f3c = 0x21b0;
@@ -22687,60 +24030,60 @@ void UI_SoundOptionsMenu_Init(void) {
 	bss_74f40 = 0x1;
 	bss_74f44 = 0x7313;
 	bss_74f6c = 0x102;
-	*(int *)bss_74f70 = 0xe00f;
+	bss_74f70 = 0xe00f;
 	bss_74f48 = 0xe;
 	bss_74f4c = 0x190;
-	*(int *)bss_74f50 = local_14;
+	bss_74f50 = local_14;
 	bss_74f7c = 0x0;
 	bss_74f80 = 0x41200000;
 	local_14 = (local_14 + 0x12);
 	bss_74f8c = 0x1;
 	bss_74f90 = 0x7305;
 	bss_74fb8 = 0x102;
-	*(int *)bss_74fbc = 0xe00f;
+	bss_74fbc = 0xe00f;
 	bss_74f94 = 0xf;
 	bss_74f98 = 0x190;
-	*(int *)bss_74f9c = local_14;
+	bss_74f9c = local_14;
 	bss_74fc8 = 0x0;
 	bss_74fcc = 0x41200000;
 	local_14 = (local_14 + 0x12);
 	bss_74fd8 = 0x3;
 	bss_74fdc = 0x72f7;
 	bss_75004 = 0x102;
-	*(int *)bss_75008 = 0xe00f;
+	bss_75008 = 0xe00f;
 	bss_74fe0 = 0x11;
 	bss_74fe4 = 0x190;
-	*(int *)bss_74fe8 = local_14;
-	*(int *)bss_75024 = 0x2530;
+	bss_74fe8 = local_14;
+	bss_75024 = 0x2530;
 	local_14 = (local_14 + 0x12);
 	bss_75038 = 0x3;
 	bss_7503c = 0x72e4;
 	bss_75064 = 0x102;
-	*(int *)bss_75068 = 0xe00f;
+	bss_75068 = 0xe00f;
 	bss_75040 = 0x10;
 	bss_75044 = 0x190;
-	*(int *)bss_75048 = local_14;
-	*(int *)bss_75084 = 0x2520;
+	bss_75048 = local_14;
+	bss_75084 = 0x2520;
 	bss_75098 = 0x6;
 	bss_7509c = 0x72d4;
 	bss_750c4 = 0x104;
-	*(int *)bss_750c8 = 0xe00f;
+	bss_750c8 = 0xe00f;
 	bss_750a0 = 0x13;
 	bss_750a4 = 0x0;
-	*(int *)bss_750a8 = 0x1a0;
+	bss_750a8 = 0x1a0;
 	bss_750e4 = 0x80;
-	*(int *)bss_750e8 = 0x40;
-	*(int *)bss_750d4 = 0x72c4;
+	bss_750e8 = 0x40;
+	bss_750d4 = 0x72c4;
 	bss_750f0 = 0x6;
 	bss_750f4 = 0x72b2;
 	bss_7511c = 0x5110;
-	*(int *)bss_75120 = 0xe00f;
+	bss_75120 = 0xe00f;
 	bss_750f8 = 0x14;
 	bss_750fc = 0x280;
-	*(int *)bss_75100 = 0x1a0;
+	bss_75100 = 0x1a0;
 	bss_7513c = 0x80;
-	*(int *)bss_75140 = 0x40;
-	*(int *)bss_7512c = 0x72a0;
+	bss_75140 = 0x40;
+	bss_7512c = 0x72a0;
 	Menu_AddItem(0x74c08, 0x74d28);
 	Menu_AddItem(0x74c08, 0x74d70);
 	Menu_AddItem(0x74c08, 0x74dc8);
@@ -22757,11 +24100,11 @@ void UI_SoundOptionsMenu_Init(void) {
 	local_1c = trap_Cvar_VariableValue(0x73a5);
 	local_20 = (0x41200000 * local_1c);
 	bss_75148 = local_20;
-	*(int *)bss_74f84 = local_20;
+	bss_74f84 = local_20;
 	local_24 = trap_Cvar_VariableValue(0x7397);
 	local_28 = (0x41200000 * local_24);
 	bss_7514c = local_28;
-	*(int *)bss_74fd0 = local_28;
+	bss_74fd0 = local_28;
 	local_2c = trap_Cvar_VariableValue(0x7380);
 	if (local_2c == 0x0) goto jmp_e34b;
 	bss_75150 = 0x1;
@@ -22769,7 +24112,7 @@ void UI_SoundOptionsMenu_Init(void) {
 jmp_e34b:
 	bss_75150 = 0x0;
 jmp_e34e:
-	*(int *)bss_75018 = bss_75150;
+	bss_75018 = bss_75150;
 	local_30 = trap_Cvar_VariableValue(0x738c);
 	local_18 = (int)local_30;
 	if (local_18 != 0x0) goto jmp_e364;
@@ -22785,7 +24128,7 @@ jmp_e36d:
 jmp_e376:
 	bss_75154 = 0x2;
 jmp_e379:
-	*(int *)bss_75078 = bss_75154;
+	bss_75078 = bss_75154;
 }
 
 /*
@@ -22932,61 +24275,61 @@ void SpecifyServer_MenuInit(void) {
 	memset(0x75158, 0x0, 0x560);
 	SpecifyServer_Cache();
 	bss_7526c = 0x1;
-	*(int *)bss_75270 = 0x1;
-	*(int *)bss_75278 = 0xa;
+	bss_75270 = 0x1;
+	bss_75278 = 0xa;
 	bss_75284 = 0x140;
-	*(int *)bss_75288 = 0x10;
+	bss_75288 = 0x10;
 	bss_752b4 = 0x7421;
 	bss_752bc = 0x2160;
 	bss_752b8 = 0x1;
 	bss_752c0 = 0x6;
-	*(int *)bss_752c4 = 0x7494;
-	*(int *)bss_752ec = 0x4000;
+	bss_752c4 = 0x7494;
+	bss_752ec = 0x4000;
 	bss_752cc = 0x0;
-	*(int *)bss_752d0 = 0x4e;
+	bss_752d0 = 0x4e;
 	bss_7530c = 0x100;
-	*(int *)bss_75310 = 0x149;
+	bss_75310 = 0x149;
 	bss_75318 = 0x6;
-	*(int *)bss_7531c = 0x7482;
-	*(int *)bss_75344 = 0x4000;
+	bss_7531c = 0x7482;
+	bss_75344 = 0x4000;
 	bss_75324 = 0x178;
-	*(int *)bss_75328 = 0x4c;
+	bss_75328 = 0x4c;
 	bss_75364 = 0x100;
-	*(int *)bss_75368 = 0x14e;
+	bss_75368 = 0x14e;
 	bss_75370 = 0x4;
-	*(int *)bss_75374 = 0x7418;
-	*(int *)bss_7539c = 0x102;
+	bss_75374 = 0x7418;
+	bss_7539c = 0x102;
 	bss_7537c = 0xce;
-	*(int *)bss_75380 = 0xdc;
+	bss_75380 = 0xdc;
 	bss_753b4 = 0x26;
 	bss_754b8 = 0x50;
 	bss_754bc = 0x4;
-	*(int *)bss_754c0 = 0x7412;
-	*(int *)bss_754e8 = 0x122;
+	bss_754c0 = 0x7412;
+	bss_754e8 = 0x122;
 	bss_754c8 = 0xce;
-	*(int *)bss_754cc = 0xfa;
+	bss_754cc = 0xfa;
 	bss_75500 = 0x6;
 	bss_75604 = 0x5;
 	bss_75608 = 0x6;
 	bss_7560c = 0x7451;
 	bss_75634 = 0x110;
-	*(int *)bss_75638 = 0xe446;
+	bss_75638 = 0xe446;
 	bss_75610 = 0x67;
 	bss_75614 = 0x280;
-	*(int *)bss_75618 = 0x1a0;
+	bss_75618 = 0x1a0;
 	bss_75654 = 0x80;
-	*(int *)bss_75658 = 0x40;
-	*(int *)bss_75644 = 0x7440;
+	bss_75658 = 0x40;
+	bss_75644 = 0x7440;
 	bss_75660 = 0x6;
 	bss_75664 = 0x7472;
 	bss_7568c = 0x104;
-	*(int *)bss_75690 = 0xe446;
+	bss_75690 = 0xe446;
 	bss_75668 = 0x66;
 	bss_7566c = 0x0;
-	*(int *)bss_75670 = 0x1a0;
+	bss_75670 = 0x1a0;
 	bss_756ac = 0x80;
-	*(int *)bss_756b0 = 0x40;
-	*(int *)bss_7569c = 0x7462;
+	bss_756b0 = 0x40;
+	bss_7569c = 0x7462;
 	Menu_AddItem(0x75158, 0x75278);
 	Menu_AddItem(0x75158, 0x752c0);
 	Menu_AddItem(0x75158, 0x75318);
@@ -23117,7 +24460,7 @@ void UI_SPLevelMenu_SetBots(void) {
 	int		local_438;
 	int		local_43c;
 
-	*(int *)bss_760a8 = 0x0;
+	bss_760a8 = 0x0;
 	if (selectedArenaSet <= currentSet) goto jmp_e648;
 	goto jmp_e73b;
 jmp_e648:
@@ -23152,28 +24495,28 @@ jmp_e6aa:
 	local_42c = UI_GetBotInfoByName(local_1c);
 	local_18 = local_42c;
 	if (local_18 != 0x0) goto jmp_e6c4;
-	local_430 = UI_GetBotInfoByNumber(*(int *)bss_760a8);
+	local_430 = UI_GetBotInfoByNumber(bss_760a8);
 	local_18 = local_430;
 jmp_e6c4:
 	if (local_18 == 0x0) goto jmp_e700;
 	local_430 = Info_ValueForKey(local_18, 0x7721);
 	local_434 = PlayerIconHandle(local_430);
-	*(int *)((*(int *)bss_760a8 << 0x2) + 0x760ac) = local_434;
+	*(int *)((bss_760a8 << 0x2) + 0x760ac) = local_434;
 	local_438 = Info_ValueForKey(local_18, 0x771c);
 	local_43c = 0xa;
-	Q_strncpyz(((local_43c * *(int *)bss_760a8) + 0x760c8), local_438, local_43c);
+	Q_strncpyz(((local_43c * bss_760a8) + 0x760c8), local_438, local_43c);
 	goto jmp_e71c;
 jmp_e700:
-	*(int *)((*(int *)bss_760a8 << 0x2) + 0x760ac) = 0x0;
+	*(int *)((bss_760a8 << 0x2) + 0x760ac) = 0x0;
 	local_430 = 0xa;
-	Q_strncpyz(((local_430 * *(int *)bss_760a8) + 0x760c8), local_1c, local_430);
+	Q_strncpyz(((local_430 * bss_760a8) + 0x760c8), local_1c, local_430);
 jmp_e71c:
-	Q_CleanStr(((0xa * *(int *)bss_760a8) + 0x760c8));
+	Q_CleanStr(((0xa * bss_760a8) + 0x760c8));
 	local_430 = 0x760a8;
 	*(int *)local_430 = (*(int *)local_430 + 0x1);
 jmp_e731:
 	if ((char)*(char *)local_14 == 0x0) goto jmp_e73b;
-	if (*(int *)bss_760a8 < 0x7) goto jmp_e666;
+	if (bss_760a8 < 0x7) goto jmp_e666;
 jmp_e73b:
 }
 
@@ -23276,7 +24619,7 @@ jmp_e835:
 	Bitmap_Init(0x75898);
 	local_30 = 0x758b8;
 	*(int *)local_30 = (*(int *)local_30 + 0x20);
-	*(int *)bss_75e78 = 0x1;
+	bss_75e78 = 0x1;
 	local_34 = 0x7591c;
 	*(int *)local_34 = (*(int *)local_34 | 0x4000);
 	local_38 = 0x75974;
@@ -23286,9 +24629,9 @@ jmp_e835:
 	*(char *)bss_75ebc = 0x0;
 	*(char *)bss_75efc = 0x0;
 	*(char *)bss_75f3c = 0x0;
-	*(int *)bss_75934 = 0x0;
-	*(int *)bss_7598c = 0x0;
-	*(int *)bss_759e4 = 0x0;
+	bss_75934 = 0x0;
+	bss_7598c = 0x0;
+	bss_759e4 = 0x0;
 	goto jmp_e986;
 jmp_e8b2:
 	if (selectedArenaSet != finalTier) goto jmp_e92f;
@@ -23303,7 +24646,7 @@ jmp_e8b2:
 	Bitmap_Init(0x75898);
 	local_30 = 0x758b8;
 	*(int *)local_30 = (*(int *)local_30 + 0x20);
-	*(int *)bss_75e78 = 0x1;
+	bss_75e78 = 0x1;
 	local_34 = 0x7591c;
 	*(int *)local_34 = (*(int *)local_34 | 0x4000);
 	local_38 = 0x75974;
@@ -23313,16 +24656,16 @@ jmp_e8b2:
 	*(char *)bss_75ebc = 0x0;
 	*(char *)bss_75efc = 0x0;
 	*(char *)bss_75f3c = 0x0;
-	*(int *)bss_75934 = 0x0;
-	*(int *)bss_7598c = 0x0;
-	*(int *)bss_759e4 = 0x0;
+	bss_75934 = 0x0;
+	bss_7598c = 0x0;
+	bss_759e4 = 0x0;
 	goto jmp_e986;
 jmp_e92f:
 	bss_758a4 = 0x2e;
 	Bitmap_Init(0x75898);
 	local_24 = 0x758b8;
 	*(int *)local_24 = (*(int *)local_24 + 0x12);
-	*(int *)bss_75e78 = 0x4;
+	bss_75e78 = 0x4;
 	local_14 = 0x0;
 jmp_e948:
 	local_18 = ((selectedArenaSet << 0x2) + local_14);
@@ -23642,7 +24985,7 @@ jmp_eb34:
 	if (local_484 == 0x0) goto jmp_eb79;
 	Q_strncpyz(0x75ff8, local_84, 0x40);
 	PlayerIcon(0x75ff8, 0x76038, 0x40);
-	*(int *)bss_75a94 = 0x0;
+	bss_75a94 = 0x0;
 jmp_eb79:
 	Menu_Draw(0x756d8);
 	local_24 = 0x154;
@@ -23688,7 +25031,7 @@ jmp_ec37:
 	UI_FillRect((float)local_20, (float)(local_24 + 0x60), 0x43000000, 0x41900000, 0x2150);
 	local_1c = (local_1c + 0x1);
 jmp_ec64:
-	if (local_1c < *(int *)bss_75e78) goto jmp_ec37;
+	if (local_1c < bss_75e78) goto jmp_ec37;
 	if (selectedArenaSet <= currentSet) goto jmp_ec7d;
 	UI_DrawProportionalString(0x140, 0xd8, 0x762a, 0x21, 0x21b0);
 	goto jmp_ee40;
@@ -23733,7 +25076,7 @@ jmp_ed35:
 jmp_ed64:
 	local_1c = (local_1c + 0x1);
 jmp_ed6a:
-	if (local_1c < *(int *)bss_75e78) goto jmp_eca4;
+	if (local_1c < bss_75e78) goto jmp_eca4;
 	local_24 = 0xc0;
 	local_494 = Info_ValueForKey(bss_75e74, 0x7718);
 	Q_strncpyz(local_84, local_494, 0x14);
@@ -23742,7 +25085,7 @@ jmp_ed6a:
 	Com_sprintf(local_2c, 0x40, 0x7623, local_84, local_498);
 	UI_DrawProportionalString(0x140, local_24, local_2c, 0x11, 0x21a0);
 	local_24 = (local_24 + 0x18);
-	local_70 = ((0x5a * (0x7 - *(int *)bss_760a8)) / 0x2);
+	local_70 = ((0x5a * (0x7 - bss_760a8)) / 0x2);
 	local_1c = 0x0;
 	goto jmp_ee3b;
 jmp_edc4:
@@ -23769,7 +25112,7 @@ jmp_ee1f:
 	UI_DrawString(local_20, (local_24 + 0x40), ((0xa * local_1c) + 0x760c8), 0x10, 0x21a0);
 	local_1c = (local_1c + 0x1);
 jmp_ee3b:
-	if (local_1c < *(int *)bss_760a8) goto jmp_edc4;
+	if (local_1c < bss_760a8) goto jmp_edc4;
 jmp_ee40:
 }
 
@@ -23832,7 +25175,7 @@ jmp_eea0:
 	local_28 = trap_R_RegisterShaderNoMip(0x7564);
 	bss_75ff0 = local_28;
 	local_2c = trap_R_RegisterShaderNoMip(0x754b);
-	*(int *)bss_75ff4 = local_2c;
+	bss_75ff4 = local_2c;
 }
 
 /*
@@ -23870,13 +25213,13 @@ jmp_ef2a:
 	trap_Cvar_Set(0x74b5, 0x74b3);
 jmp_ef31:
 	memset(0x756d8, 0x0, 0xa38);
-	*(int *)bss_757f0 = 0x1;
+	bss_757f0 = 0x1;
 	bss_757ec = 0x1;
-	*(int *)bss_757e4 = 0xeb27;
+	bss_757e4 = 0xeb27;
 	UI_SPLevelMenu_Cache();
-	*(int *)bss_757f8 = 0xa;
+	bss_757f8 = 0xa;
 	bss_75804 = 0x140;
-	*(int *)bss_75808 = 0x10;
+	bss_75808 = 0x10;
 	bss_75834 = 0x74a6;
 	bss_7583c = 0x21b0;
 	bss_75838 = 0x1;
@@ -23884,69 +25227,69 @@ jmp_ef31:
 	bss_75844 = 0x75da;
 	bss_7586c = 0x104;
 	bss_7584c = 0x12;
-	*(int *)bss_75850 = 0x40;
-	*(int *)bss_75870 = 0xea82;
+	bss_75850 = 0x40;
+	bss_75870 = 0xea82;
 	bss_75848 = 0xa;
 	bss_7588c = 0x10;
-	*(int *)bss_75890 = 0x72;
-	*(int *)bss_7587c = 0x75c8;
+	bss_75890 = 0x72;
+	bss_7587c = 0x75c8;
 	bss_75898 = 0x6;
 	bss_7589c = 0x75e7c;
 	bss_758c4 = 0x4;
 	bss_758a4 = 0x2e;
-	*(int *)bss_758a8 = 0x40;
+	bss_758a8 = 0x40;
 	bss_758a0 = 0xb;
-	*(int *)bss_758c8 = 0xea3a;
+	bss_758c8 = 0xea3a;
 	bss_758e4 = 0x80;
-	*(int *)bss_758e8 = 0x60;
+	bss_758e8 = 0x60;
 	bss_758f0 = 0x6;
 	bss_758f4 = 0x75ebc;
 	bss_7591c = 0x4;
 	bss_758fc = 0xba;
-	*(int *)bss_75900 = 0x40;
+	bss_75900 = 0x40;
 	bss_758f8 = 0xc;
-	*(int *)bss_75920 = 0xea3a;
+	bss_75920 = 0xea3a;
 	bss_7593c = 0x80;
-	*(int *)bss_75940 = 0x60;
+	bss_75940 = 0x60;
 	bss_75948 = 0x6;
 	bss_7594c = 0x75efc;
 	bss_75974 = 0x4;
 	bss_75954 = 0x146;
-	*(int *)bss_75958 = 0x40;
+	bss_75958 = 0x40;
 	bss_75950 = 0xd;
-	*(int *)bss_75978 = 0xea3a;
+	bss_75978 = 0xea3a;
 	bss_75994 = 0x80;
-	*(int *)bss_75998 = 0x60;
+	bss_75998 = 0x60;
 	bss_759a0 = 0x6;
 	bss_759a4 = 0x75f3c;
 	bss_759cc = 0x4;
 	bss_759ac = 0x1d2;
-	*(int *)bss_759b0 = 0x40;
+	bss_759b0 = 0x40;
 	bss_759a8 = 0xe;
-	*(int *)bss_759d0 = 0xea3a;
+	bss_759d0 = 0xea3a;
 	bss_759ec = 0x80;
-	*(int *)bss_759f0 = 0x60;
+	bss_759f0 = 0x60;
 	bss_759f8 = 0x6;
 	bss_759fc = 0x75da;
 	bss_75a24 = 0x104;
 	bss_75a04 = 0x25e;
-	*(int *)bss_75a08 = 0x40;
-	*(int *)bss_75a28 = 0xeaa0;
+	bss_75a08 = 0x40;
+	bss_75a28 = 0xeaa0;
 	bss_75a00 = 0xf;
 	bss_75a44 = 0xfffffff0;
-	*(int *)bss_75a48 = 0x72;
-	*(int *)bss_75a34 = 0x75c8;
+	bss_75a48 = 0x72;
+	bss_75a34 = 0x75c8;
 	trap_Cvar_VariableStringBuffer(0x7721, 0x75ff8, 0x40);
 	PlayerIcon(0x75ff8, 0x76038, 0x40);
 	bss_75a50 = 0x6;
 	bss_75a54 = 0x76038;
 	bss_75a7c = 0x804;
 	bss_75a5c = 0x120;
-	*(int *)bss_75a60 = 0x154;
+	bss_75a60 = 0x154;
 	bss_75a58 = 0x10;
-	*(int *)bss_75a80 = 0xeabe;
+	bss_75a80 = 0xeabe;
 	bss_75a9c = 0x40;
-	*(int *)bss_75aa0 = 0x40;
+	bss_75aa0 = 0x40;
 	local_14 = 0x0;
 jmp_f030:
 	local_74 = UI_GetAwardLevel(local_14);
@@ -23954,7 +25297,7 @@ jmp_f030:
 	local_14 = (local_14 + 0x1);
 	if (local_14 < 0x6) goto jmp_f030;
 	local_70 = 0x64;
-	*(int *)bss_76088 = (local_70 * (*(int *)bss_76088 / local_70));
+	bss_76088 = (local_70 * (bss_76088 / local_70));
 	local_20 = 0x154;
 	local_74 = 0x0;
 	local_18 = local_74;
@@ -23984,48 +25327,48 @@ jmp_f0e5:
 	bss_75cbc = 0x753b;
 	bss_75ce4 = 0x104;
 	bss_75cc4 = 0x0;
-	*(int *)bss_75cc8 = 0x1a0;
-	*(int *)bss_75ce8 = 0xeb06;
+	bss_75cc8 = 0x1a0;
+	bss_75ce8 = 0xeb06;
 	bss_75cc0 = 0x17;
 	bss_75d04 = 0x80;
-	*(int *)bss_75d08 = 0x40;
-	*(int *)bss_75cf4 = 0x752b;
+	bss_75d08 = 0x40;
+	bss_75cf4 = 0x752b;
 	bss_75d10 = 0x6;
 	bss_75d14 = 0x74f8;
 	bss_75d3c = 0x104;
 	bss_75d1c = 0xaa;
-	*(int *)bss_75d20 = 0x1a0;
-	*(int *)bss_75d40 = 0xea28;
+	bss_75d20 = 0x1a0;
+	bss_75d40 = 0xea28;
 	bss_75d18 = 0x18;
 	bss_75d5c = 0x80;
-	*(int *)bss_75d60 = 0x40;
-	*(int *)bss_75d4c = 0x74e7;
+	bss_75d60 = 0x40;
+	bss_75d4c = 0x74e7;
 	bss_75d68 = 0x6;
 	bss_75d6c = 0x74d3;
 	bss_75d94 = 0x104;
 	bss_75d74 = 0x156;
-	*(int *)bss_75d78 = 0x1a0;
-	*(int *)bss_75d98 = 0xeb19;
+	bss_75d78 = 0x1a0;
+	bss_75d98 = 0xeb19;
 	bss_75d70 = 0x19;
 	bss_75db4 = 0x80;
-	*(int *)bss_75db8 = 0x40;
-	*(int *)bss_75da4 = 0x74bf;
+	bss_75db8 = 0x40;
+	bss_75da4 = 0x74bf;
 	bss_75dc0 = 0x6;
 	bss_75dc4 = 0x751a;
 	bss_75dec = 0x110;
 	bss_75dcc = 0x280;
-	*(int *)bss_75dd0 = 0x1a0;
-	*(int *)bss_75df0 = 0xeae9;
+	bss_75dd0 = 0x1a0;
+	bss_75df0 = 0xeae9;
 	bss_75dc8 = 0x1a;
 	bss_75e0c = 0x80;
-	*(int *)bss_75e10 = 0x40;
-	*(int *)bss_75dfc = 0x7509;
-	*(int *)bss_75e18 = 0x6;
-	*(int *)bss_75e44 = 0x100804;
+	bss_75e10 = 0x40;
+	bss_75dfc = 0x7509;
+	bss_75e18 = 0x6;
+	bss_75e44 = 0x100804;
 	bss_75e24 = 0x0;
-	*(int *)bss_75e28 = 0x0;
+	bss_75e28 = 0x0;
 	bss_75e64 = 0x280;
-	*(int *)bss_75e68 = 0x1e0;
+	bss_75e68 = 0x1e0;
 	Menu_AddItem(0x756d8, 0x757f8);
 	Menu_AddItem(0x756d8, 0x75840);
 	Menu_AddItem(0x756d8, 0x75898);
@@ -24462,7 +25805,7 @@ void UI_SPPostgameMenu_MenuDraw(void) {
 	local_428 = Info_ValueForKey(local_24, 0x7916);
 	local_42c = atoi(local_428);
 	local_424 = local_42c;
-	if (local_424 == *(int *)bss_76748) goto jmp_f5c0;
+	if (local_424 == bss_76748) goto jmp_f5c0;
 	UI_PopMenu();
 	goto jmp_f71f;
 jmp_f5c0:
@@ -24486,7 +25829,7 @@ jmp_f60f:
 jmp_f616:
 	if (bss_76738 != 0x2) goto jmp_f63d;
 	local_1c = (bss_db58 - bss_76740);
-	if (local_1c < (0x7d0 * *(int *)bss_76878)) goto jmp_f637;
+	if (local_1c < (0x7d0 * bss_76878)) goto jmp_f637;
 	if (local_1c >= 0x1388) goto jmp_f62e;
 	goto jmp_f71f;
 jmp_f62e:
@@ -24525,7 +25868,7 @@ jmp_f6b0:
 	*(int *)local_438 = (*(int *)local_438 & 0xffffbfff);
 	local_43c = 0x7670c;
 	*(int *)local_43c = (*(int *)local_43c & 0xffffbfff);
-	UI_SPPostgameMenu_DrawAwardsMedals(*(int *)bss_76878);
+	UI_SPPostgameMenu_DrawAwardsMedals(bss_76878);
 	Menu_Draw(0x76510);
 jmp_f6dc:
 	local_430 = trap_Cvar_VariableValue(0x787e);
@@ -24593,7 +25936,7 @@ Called by: UI_SPPostgameMenu_f
 */
 void UI_SPPostgameMenu_Init(void) {
 
-	*(int *)bss_76624 = 0x1;
+	bss_76624 = 0x1;
 	bss_76620 = 0xf3a0;
 	bss_7661c = 0xf599;
 	bss_7673c = (bss_db58 + 0x5dc);
@@ -24602,32 +25945,32 @@ void UI_SPPostgameMenu_Init(void) {
 	bss_766e4 = 0x785e;
 	bss_7670c = 0x4104;
 	bss_766ec = 0x0;
-	*(int *)bss_766f0 = 0x1a0;
-	*(int *)bss_76710 = 0xf38d;
+	bss_766f0 = 0x1a0;
+	bss_76710 = 0xf38d;
 	bss_766e8 = 0xc;
 	bss_7672c = 0x80;
-	*(int *)bss_76730 = 0x40;
-	*(int *)bss_7671c = 0x784e;
+	bss_76730 = 0x40;
+	bss_7671c = 0x784e;
 	bss_76630 = 0x6;
 	bss_76634 = 0x783c;
 	bss_7665c = 0x4108;
 	bss_7663c = 0x140;
-	*(int *)bss_76640 = 0x1a0;
-	*(int *)bss_76660 = 0xf31a;
+	bss_76640 = 0x1a0;
+	bss_76660 = 0xf31a;
 	bss_76638 = 0xa;
 	bss_7667c = 0x80;
-	*(int *)bss_76680 = 0x40;
-	*(int *)bss_7666c = 0x782a;
+	bss_76680 = 0x40;
+	bss_7666c = 0x782a;
 	bss_76688 = 0x6;
 	bss_7668c = 0x781a;
 	bss_766b4 = 0x4110;
 	bss_76694 = 0x280;
-	*(int *)bss_76698 = 0x1a0;
-	*(int *)bss_766b8 = 0xf32d;
+	bss_76698 = 0x1a0;
+	bss_766b8 = 0xf32d;
 	bss_76690 = 0xb;
 	bss_766d4 = 0x80;
-	*(int *)bss_766d8 = 0x40;
-	*(int *)bss_766c4 = 0x780a;
+	bss_766d8 = 0x40;
+	bss_766c4 = 0x780a;
 	Menu_AddItem(0x76510, 0x766e0);
 	Menu_AddItem(0x76510, 0x76630);
 	Menu_AddItem(0x76510, 0x76688);
@@ -24728,7 +26071,7 @@ void UI_SPPostgameMenu_f(void) {
 	trap_GetConfigString(0x1, local_38, 0x400);
 	local_484 = Info_ValueForKey(local_38, 0x7916);
 	local_488 = atoi(local_484);
-	*(int *)bss_76748 = local_488;
+	bss_76748 = local_488;
 	trap_GetConfigString(0x0, local_38, 0x400);
 	local_48c = Info_ValueForKey(local_38, 0x77c4);
 	Q_strncpyz(local_43c, local_48c, 0x40);
@@ -24791,33 +26134,33 @@ jmp_f994:
 	local_4d8 = UI_Argv(0x8);
 	local_4dc = atoi(local_4d8);
 	local_2c = local_4dc;
-	*(int *)bss_76878 = 0x0;
+	bss_76878 = 0x0;
 	if (local_18 < 0x32) goto jmp_fa32;
 	UI_LogAwardData(0x0, 0x1);
-	*(int *)((*(int *)bss_76878 << 0x2) + 0x7687c) = 0x0;
-	*(int *)((*(int *)bss_76878 << 0x2) + 0x76894) = local_18;
+	*(int *)((bss_76878 << 0x2) + 0x7687c) = 0x0;
+	*(int *)((bss_76878 << 0x2) + 0x76894) = local_18;
 	local_4e0 = 0x76878;
 	*(int *)local_4e0 = (*(int *)local_4e0 + 0x1);
 jmp_fa32:
 	if (local_1c == 0x0) goto jmp_fa5a;
 	UI_LogAwardData(0x1, local_1c);
-	*(int *)((*(int *)bss_76878 << 0x2) + 0x7687c) = 0x1;
-	*(int *)((*(int *)bss_76878 << 0x2) + 0x76894) = local_1c;
+	*(int *)((bss_76878 << 0x2) + 0x7687c) = 0x1;
+	*(int *)((bss_76878 << 0x2) + 0x76894) = local_1c;
 	local_4e0 = 0x76878;
 	*(int *)local_4e0 = (*(int *)local_4e0 + 0x1);
 jmp_fa5a:
 	if (local_20 == 0x0) goto jmp_fa87;
 	UI_LogAwardData(0x2, local_20);
 	local_4e0 = 0x2;
-	*(int *)((*(int *)bss_76878 << local_4e0) + 0x7687c) = local_4e0;
-	*(int *)((*(int *)bss_76878 << 0x2) + 0x76894) = local_20;
+	*(int *)((bss_76878 << local_4e0) + 0x7687c) = local_4e0;
+	*(int *)((bss_76878 << 0x2) + 0x76894) = local_20;
 	local_4e4 = 0x76878;
 	*(int *)local_4e4 = (*(int *)local_4e4 + 0x1);
 jmp_fa87:
 	if (local_24 == 0x0) goto jmp_faaf;
 	UI_LogAwardData(0x3, local_24);
-	*(int *)((*(int *)bss_76878 << 0x2) + 0x7687c) = 0x3;
-	*(int *)((*(int *)bss_76878 << 0x2) + 0x76894) = local_24;
+	*(int *)((bss_76878 << 0x2) + 0x7687c) = 0x3;
+	*(int *)((bss_76878 << 0x2) + 0x76894) = local_24;
 	local_4e0 = 0x76878;
 	*(int *)local_4e0 = (*(int *)local_4e0 + 0x1);
 jmp_faaf:
@@ -24827,15 +26170,15 @@ jmp_faaf:
 	local_4e4 = UI_GetAwardLevel(0x4);
 	local_47c = (local_4e4 / 0x64);
 	if (local_47c <= local_480) goto jmp_faf2;
-	*(int *)((*(int *)bss_76878 << 0x2) + 0x7687c) = 0x4;
-	*(int *)((*(int *)bss_76878 << 0x2) + 0x76894) = (0x64 * local_47c);
+	*(int *)((bss_76878 << 0x2) + 0x7687c) = 0x4;
+	*(int *)((bss_76878 << 0x2) + 0x76894) = (0x64 * local_47c);
 	local_4e8 = 0x76878;
 	*(int *)local_4e8 = (*(int *)local_4e8 + 0x1);
 jmp_faf2:
 	if (local_2c == 0x0) goto jmp_fb18;
 	UI_LogAwardData(0x5, 0x1);
-	*(int *)((*(int *)bss_76878 << 0x2) + 0x7687c) = 0x5;
-	*(int *)((*(int *)bss_76878 << 0x2) + 0x76894) = 0x1;
+	*(int *)((bss_76878 << 0x2) + 0x7687c) = 0x5;
+	*(int *)((bss_76878 << 0x2) + 0x76894) = 0x1;
 	local_4e8 = 0x76878;
 	*(int *)local_4e8 = (*(int *)local_4e8 + 0x1);
 jmp_fb18:
@@ -24933,12 +26276,12 @@ jmp_fbf8:
 	local_10 = ((local_14 - 0xa) + 0x1);
 	trap_Cvar_SetValue(0x7c46, (float)local_10);
 	SetSkillColor(local_10, 0x2160);
-	*(int *)bss_76c38 = *(int *)((local_10 << 0x2) + 0x76cfc);
+	bss_76c38 = *(int *)((local_10 << 0x2) + 0x76cfc);
 	if (local_14 != 0xe) goto jmp_fc3e;
 	trap_S_StartLocalSound(bss_76d14, 0x7);
 	goto jmp_fc46;
 jmp_fc3e:
-	trap_S_StartLocalSound(*(int *)bss_76d18, 0x7);
+	trap_S_StartLocalSound(bss_76d18, 0x7);
 jmp_fc46:
 }
 
@@ -24974,7 +26317,7 @@ void UI_SPSkillMenu_BackEvent(, int arg_1) {
 	if (arg_1 == 0x3) goto jmp_fc5e;
 	goto jmp_fc69;
 jmp_fc5e:
-	trap_S_StartLocalSound(*(int *)bss_76d18, 0x7);
+	trap_S_StartLocalSound(bss_76d18, 0x7);
 	UI_PopMenu();
 jmp_fc69:
 }
@@ -24995,7 +26338,7 @@ int UI_SPSkillMenu_Key(int arg_0) {
 	if (arg_0 == 0xb3) goto jmp_fc78;
 	if (arg_0 != 0x1b) goto jmp_fc80;
 jmp_fc78:
-	trap_S_StartLocalSound(*(int *)bss_76d18, 0x7);
+	trap_S_StartLocalSound(bss_76d18, 0x7);
 jmp_fc80:
 	local_14 = Menu_DefaultKey(0x768cc, arg_0);
 	return local_14;
@@ -25038,7 +26381,7 @@ void UI_SPSkillMenu_Cache(void) {
 	local_24 = trap_S_RegisterSound(0x7b53, 0x0);
 	bss_76d14 = local_24;
 	local_28 = trap_S_RegisterSound(0x7b3c, 0x0);
-	*(int *)bss_76d18 = local_28;
+	bss_76d18 = local_28;
 }
 
 /*
@@ -25057,64 +26400,64 @@ void UI_SPSkillMenu_Init(void) {
 	int		local_1c;
 
 	memset(0x768cc, 0x0, 0x450);
-	*(int *)bss_769e4 = 0x1;
-	*(int *)bss_769dc = 0xfc6b;
+	bss_769e4 = 0x1;
+	bss_769dc = 0xfc6b;
 	UI_SPSkillMenu_Cache();
 	bss_769ec = 0x6;
-	*(int *)bss_769f0 = 0x7c33;
-	*(int *)bss_76a18 = 0x4004;
+	bss_769f0 = 0x7c33;
+	bss_76a18 = 0x4004;
 	bss_769f8 = 0x8e;
-	*(int *)bss_769fc = 0x76;
+	bss_769fc = 0x76;
 	bss_76a38 = 0x167;
-	*(int *)bss_76a3c = 0x100;
-	*(int *)bss_76a44 = 0xa;
-	*(int *)bss_76a70 = 0x8;
+	bss_76a3c = 0x100;
+	bss_76a44 = 0xa;
+	bss_76a70 = 0x8;
 	bss_76a50 = 0x140;
-	*(int *)bss_76a54 = 0x10;
+	bss_76a54 = 0x10;
 	bss_76a80 = 0x7b31;
 	bss_76a88 = 0x2160;
 	bss_76a84 = 0x1;
-	*(int *)bss_76a8c = 0x9;
+	bss_76a8c = 0x9;
 	bss_76ab8 = 0x108;
 	bss_76a98 = 0x140;
-	*(int *)bss_76a9c = 0xaa;
-	*(int *)bss_76abc = 0xfbf1;
+	bss_76a9c = 0xaa;
+	bss_76abc = 0xfbf1;
 	bss_76a94 = 0xa;
 	bss_76ac8 = 0x7b27;
 	bss_76ad0 = 0x21b0;
 	bss_76acc = 0x1;
-	*(int *)bss_76ad4 = 0x9;
+	bss_76ad4 = 0x9;
 	bss_76b00 = 0x108;
 	bss_76ae0 = 0x140;
-	*(int *)bss_76ae4 = 0xc6;
-	*(int *)bss_76b04 = 0xfbf1;
+	bss_76ae4 = 0xc6;
+	bss_76b04 = 0xfbf1;
 	bss_76adc = 0xb;
 	bss_76b10 = 0x7b1b;
 	bss_76b18 = 0x21b0;
 	bss_76b14 = 0x1;
-	*(int *)bss_76b1c = 0x9;
+	bss_76b1c = 0x9;
 	bss_76b48 = 0x108;
 	bss_76b28 = 0x140;
-	*(int *)bss_76b2c = 0xe3;
-	*(int *)bss_76b4c = 0xfbf1;
+	bss_76b2c = 0xe3;
+	bss_76b4c = 0xfbf1;
 	bss_76b24 = 0xc;
 	bss_76b58 = 0x7b0c;
 	bss_76b60 = 0x21b0;
 	bss_76b5c = 0x1;
-	*(int *)bss_76b64 = 0x9;
+	bss_76b64 = 0x9;
 	bss_76b90 = 0x108;
 	bss_76b70 = 0x140;
-	*(int *)bss_76b74 = 0xff;
-	*(int *)bss_76b94 = 0xfbf1;
+	bss_76b74 = 0xff;
+	bss_76b94 = 0xfbf1;
 	bss_76b6c = 0xd;
 	bss_76ba0 = 0x7b03;
 	bss_76ba8 = 0x21b0;
 	bss_76ba4 = 0x1;
-	*(int *)bss_76bac = 0x9;
+	bss_76bac = 0x9;
 	bss_76bd8 = 0x108;
 	bss_76bb8 = 0x140;
-	*(int *)bss_76bbc = 0x11b;
-	*(int *)bss_76bdc = 0xfbf1;
+	bss_76bbc = 0x11b;
+	bss_76bdc = 0xfbf1;
 	bss_76bb4 = 0xe;
 	bss_76be8 = 0x7af8;
 	bss_76bf0 = 0x21b0;
@@ -25123,28 +26466,28 @@ void UI_SPSkillMenu_Init(void) {
 	bss_76c50 = 0x7c1f;
 	bss_76c78 = 0x104;
 	bss_76c58 = 0x0;
-	*(int *)bss_76c5c = 0x1a0;
-	*(int *)bss_76c7c = 0xfc57;
+	bss_76c5c = 0x1a0;
+	bss_76c7c = 0xfc57;
 	bss_76c54 = 0xf;
 	bss_76c98 = 0x80;
-	*(int *)bss_76c9c = 0x40;
-	*(int *)bss_76c88 = 0x7c0b;
-	*(int *)bss_76bf4 = 0x6;
-	*(int *)bss_76c20 = 0x4004;
+	bss_76c9c = 0x40;
+	bss_76c88 = 0x7c0b;
+	bss_76bf4 = 0x6;
+	bss_76c20 = 0x4004;
 	bss_76c00 = 0x100;
-	*(int *)bss_76c04 = 0x170;
+	bss_76c04 = 0x170;
 	bss_76c40 = 0x80;
-	*(int *)bss_76c44 = 0x60;
+	bss_76c44 = 0x60;
 	bss_76ca4 = 0x6;
 	bss_76ca8 = 0x7bfa;
 	bss_76cd0 = 0x110;
-	*(int *)bss_76cd4 = 0xfc48;
+	bss_76cd4 = 0xfc48;
 	bss_76cac = 0x10;
 	bss_76cb0 = 0x280;
-	*(int *)bss_76cb4 = 0x1a0;
+	bss_76cb4 = 0x1a0;
 	bss_76cf0 = 0x80;
-	*(int *)bss_76cf4 = 0x40;
-	*(int *)bss_76ce0 = 0x7be9;
+	bss_76cf4 = 0x40;
+	bss_76ce0 = 0x7be9;
 	Menu_AddItem(0x768cc, 0x769ec);
 	Menu_AddItem(0x768cc, 0x76a44);
 	Menu_AddItem(0x768cc, 0x76a8c);
@@ -25159,7 +26502,7 @@ void UI_SPSkillMenu_Init(void) {
 	local_1c = Com_Clamp(0x3f800000, 0x40a00000, local_18);
 	local_14 = (int)local_1c;
 	SetSkillColor(local_14, 0x2160);
-	*(int *)bss_76c38 = *(int *)((local_14 << 0x2) + 0x76cfc);
+	bss_76c38 = *(int *)((local_14 << 0x2) + 0x76cfc);
 	if (local_14 != 0x5) goto jmp_fe7f;
 	trap_S_StartLocalSound(bss_76d14, 0x7);
 jmp_fe7f:
@@ -25374,8 +26717,8 @@ jmp_100ad:
 	bss_7b57c = 0x0;
 	local_28 = 0x2;
 	local_2c = 0x260c;
-	local_1c = (0x1 << *(int *)((*(int *)bss_7b03c << local_28) + local_2c));
-	if (*(int *)((*(int *)bss_7b03c << local_28) + local_2c) != 0x0) goto jmp_100dc;
+	local_1c = (0x1 << *(int *)((bss_7b03c << local_28) + local_2c));
+	if (*(int *)((bss_7b03c << local_28) + local_2c) != 0x0) goto jmp_100dc;
 	local_1c = (local_1c | 0x4);
 jmp_100dc:
 	local_10 = 0x0;
@@ -25397,7 +26740,7 @@ jmp_1011d:
 jmp_10123:
 	if (local_10 < local_20) goto jmp_100e1;
 	local_30 = 0x4;
-	*(int *)bss_7b584 = (((bss_7b57c + local_30) - 0x1) / local_30);
+	bss_7b584 = (((bss_7b57c + local_30) - 0x1) / local_30);
 	bss_7b580 = 0x0;
 	bss_7b578 = 0x0;
 	StartServer_Update();
@@ -25429,12 +26772,12 @@ jmp_10149:
 	*(int *)local_18 = (*(int *)local_18 - 0x1);
 	StartServer_Update();
 	goto jmp_101a4;
-	if (bss_7b580 >= (*(int *)bss_7b584 - 0x1)) goto jmp_101a4;
+	if (bss_7b580 >= (bss_7b584 - 0x1)) goto jmp_101a4;
 	local_18 = 0x7b580;
 	*(int *)local_18 = (*(int *)local_18 + 0x1);
 	StartServer_Update();
 	goto jmp_101a4;
-	trap_Cvar_SetValue(0x80c9, (float)*(int *)((*(int *)bss_7b03c << 0x2) + 0x260c));
+	trap_Cvar_SetValue(0x80c9, (float)*(int *)((bss_7b03c << 0x2) + 0x260c));
 	UI_ServerOptionsMenu(bss_7b574);
 	goto jmp_101a4;
 	UI_PopMenu();
@@ -25532,35 +26875,35 @@ void StartServer_MenuInit(void) {
 	memset(0x7ade4, 0x0, 0x17a4);
 	StartServer_Cache();
 	bss_7aef8 = 0x1;
-	*(int *)bss_7aefc = 0x1;
-	*(int *)bss_7af04 = 0xa;
+	bss_7aefc = 0x1;
+	bss_7af04 = 0xa;
 	bss_7af10 = 0x140;
-	*(int *)bss_7af14 = 0x10;
+	bss_7af14 = 0x10;
 	bss_7af40 = 0x80bd;
 	bss_7af48 = 0x2160;
 	bss_7af44 = 0x1;
 	bss_7af4c = 0x6;
-	*(int *)bss_7af50 = 0x80ab;
-	*(int *)bss_7af78 = 0x4000;
+	bss_7af50 = 0x80ab;
+	bss_7af78 = 0x4000;
 	bss_7af58 = 0x0;
-	*(int *)bss_7af5c = 0x4e;
+	bss_7af5c = 0x4e;
 	bss_7af98 = 0x100;
-	*(int *)bss_7af9c = 0x149;
+	bss_7af9c = 0x149;
 	bss_7afa4 = 0x6;
-	*(int *)bss_7afa8 = 0x8099;
-	*(int *)bss_7afd0 = 0x4000;
+	bss_7afa8 = 0x8099;
+	bss_7afd0 = 0x4000;
 	bss_7afb0 = 0x178;
-	*(int *)bss_7afb4 = 0x4c;
+	bss_7afb4 = 0x4c;
 	bss_7aff0 = 0x100;
-	*(int *)bss_7aff4 = 0x14e;
+	bss_7aff4 = 0x14e;
 	bss_7affc = 0x3;
 	bss_7b000 = 0x808e;
 	bss_7b028 = 0x102;
-	*(int *)bss_7b02c = 0x100a6;
+	bss_7b02c = 0x100a6;
 	bss_7b004 = 0xa;
 	bss_7b008 = 0x128;
-	*(int *)bss_7b00c = 0x170;
-	*(int *)bss_7b048 = 0x25f8;
+	bss_7b00c = 0x170;
+	bss_7b048 = 0x25f8;
 	local_14 = 0x0;
 jmp_10380:
 	*(int *)local_20 = 0x88;
@@ -25593,63 +26936,63 @@ jmp_10380:
 	local_14 = (local_14 + 0x1);
 	if (local_14 < 0x4) goto jmp_10380;
 	bss_7b31c = 0x6;
-	*(int *)bss_7b320 = 0x8039;
-	*(int *)bss_7b348 = 0x4000;
+	bss_7b320 = 0x8039;
+	bss_7b348 = 0x4000;
 	bss_7b328 = 0x104;
-	*(int *)bss_7b32c = 0x190;
+	bss_7b32c = 0x190;
 	bss_7b368 = 0x80;
-	*(int *)bss_7b36c = 0x20;
-	*(int *)bss_7b374 = 0x6;
+	bss_7b36c = 0x20;
+	bss_7b374 = 0x6;
 	bss_7b3a0 = 0x104;
-	*(int *)bss_7b3a4 = 0x10142;
+	bss_7b3a4 = 0x10142;
 	bss_7b37c = 0xf;
 	bss_7b380 = 0x104;
-	*(int *)bss_7b384 = 0x190;
+	bss_7b384 = 0x190;
 	bss_7b3c0 = 0x40;
-	*(int *)bss_7b3c4 = 0x20;
-	*(int *)bss_7b3b0 = 0x8024;
-	*(int *)bss_7b3cc = 0x6;
+	bss_7b3c4 = 0x20;
+	bss_7b3b0 = 0x8024;
+	bss_7b3cc = 0x6;
 	bss_7b3f8 = 0x104;
-	*(int *)bss_7b3fc = 0x10142;
+	bss_7b3fc = 0x10142;
 	bss_7b3d4 = 0x10;
 	bss_7b3d8 = 0x141;
-	*(int *)bss_7b3dc = 0x190;
+	bss_7b3dc = 0x190;
 	bss_7b418 = 0x40;
-	*(int *)bss_7b41c = 0x20;
-	*(int *)bss_7b408 = 0x800f;
-	*(int *)bss_7b4d4 = 0x9;
-	*(int *)bss_7b500 = 0x4008;
+	bss_7b41c = 0x20;
+	bss_7b408 = 0x800f;
+	bss_7b4d4 = 0x9;
+	bss_7b500 = 0x4008;
 	bss_7b4e0 = 0x140;
-	*(int *)bss_7b4e4 = 0x1b8;
+	bss_7b4e4 = 0x1b8;
 	bss_7b510 = 0x76e1c;
 	bss_7b514 = 0x21;
 	bss_7b518 = 0x21f0;
 	bss_7b424 = 0x6;
 	bss_7b428 = 0x7fff;
 	bss_7b450 = 0x104;
-	*(int *)bss_7b454 = 0x10142;
+	bss_7b454 = 0x10142;
 	bss_7b42c = 0x11;
 	bss_7b430 = 0x0;
-	*(int *)bss_7b434 = 0x1a0;
+	bss_7b434 = 0x1a0;
 	bss_7b470 = 0x80;
-	*(int *)bss_7b474 = 0x40;
-	*(int *)bss_7b460 = 0x7fef;
+	bss_7b474 = 0x40;
+	bss_7b460 = 0x7fef;
 	bss_7b47c = 0x6;
 	bss_7b480 = 0x7fdf;
 	bss_7b4a8 = 0x110;
-	*(int *)bss_7b4ac = 0x10142;
+	bss_7b4ac = 0x10142;
 	bss_7b484 = 0x12;
 	bss_7b488 = 0x280;
-	*(int *)bss_7b48c = 0x1a0;
+	bss_7b48c = 0x1a0;
 	bss_7b4c8 = 0x80;
-	*(int *)bss_7b4cc = 0x40;
-	*(int *)bss_7b4b8 = 0x7fcf;
-	*(int *)bss_7b51c = 0x6;
-	*(int *)bss_7b548 = 0x100804;
+	bss_7b4cc = 0x40;
+	bss_7b4b8 = 0x7fcf;
+	bss_7b51c = 0x6;
+	bss_7b548 = 0x100804;
 	bss_7b528 = 0x0;
-	*(int *)bss_7b52c = 0x0;
+	bss_7b52c = 0x0;
 	bss_7b568 = 0x280;
-	*(int *)bss_7b56c = 0x1e0;
+	bss_7b56c = 0x1e0;
 	Menu_AddItem(0x7ade4, 0x7af04);
 	Menu_AddItem(0x7ade4, 0x7af4c);
 	Menu_AddItem(0x7ade4, 0x7afa4);
@@ -25760,9 +27103,9 @@ jmp_1064b:
 	if (*(int *)((0x60 * local_10) + 0x79f5c) == 0x1) goto jmp_10656;
 	goto jmp_10686;
 jmp_10656:
-	if (*(int *)bss_7ac88 < 0x3) goto jmp_10670;
+	if (bss_7ac88 < 0x3) goto jmp_10670;
 	local_14 = 0x60;
-	if (*(int *)((local_14 * local_10) + 0x7a73c) == *(int *)((local_14 * *(int *)bss_7ad70) + 0x7a73c)) goto jmp_10670;
+	if (*(int *)((local_14 * local_10) + 0x7a73c) == *(int *)((local_14 * bss_7ad70) + 0x7a73c)) goto jmp_10670;
 	goto jmp_10686;
 jmp_10670:
 	local_18 = Q_stricmp(arg_0, ((local_10 << 0x4) + 0x7acac));
@@ -25820,10 +27163,10 @@ void ServerOptions_Start(void) {
 	local_70 = local_8c;
 	local_90 = atoi(0x79ba4);
 	local_74 = local_90;
-	local_78 = *(int *)bss_798a4;
+	local_78 = bss_798a4;
 	local_7c = bss_79ce4;
 	local_80 = bss_79e70;
-	local_68 = (*(int *)bss_79eb4 + 0x1);
+	local_68 = (bss_79eb4 + 0x1);
 	local_94 = 0x0;
 	local_20 = local_94;
 	local_64 = local_94;
@@ -25841,7 +27184,7 @@ jmp_106f8:
 	local_20 = (local_20 + 0x1);
 jmp_106fe:
 	if (local_20 < 0xc) goto jmp_106d2;
-	local_98 = *(int *)bss_7ac88;
+	local_98 = bss_7ac88;
 	if (local_98 < 0x0) goto jmp_10716;
 	if (local_98 > 0x4) goto jmp_10716;
 	goto *(int *)((local_98 << 0x2) + 0x2684);
@@ -25885,7 +27228,7 @@ jmp_10776:
 	trap_Cvar_SetValue(0x7e61, (float)local_7c);
 	trap_Cvar_SetValue(0x7e59, (float)local_80);
 	trap_Cvar_Set(0x7e4d, 0x79d30);
-	trap_Cvar_SetValue(0x7e3f, (float)*(int *)bss_7adc4);
+	trap_Cvar_SetValue(0x7e3f, (float)bss_7adc4);
 	local_bc = UI_GetArenaInfoByNumber(*(int *)((bss_7b578 << 0x2) + 0x7b588));
 	local_84 = local_bc;
 	local_c0 = Info_ValueForKey(local_84, 0x80f5);
@@ -25903,7 +27246,7 @@ jmp_10856:
 	if ((char)*(char *)((local_20 << 0x4) + 0x7acac) != 0x2d) goto jmp_10862;
 	goto jmp_108a2;
 jmp_10862:
-	if (*(int *)bss_7ac88 < 0x3) goto jmp_10888;
+	if (bss_7ac88 < 0x3) goto jmp_10888;
 	Com_sprintf(local_24, 0x40, 0x7e10, ((local_20 << 0x4) + 0x7acac), local_68, *(int *)((*(int *)((0x60 * local_20) + 0x7a73c) << 0x2) + 0x2660));
 	goto jmp_1089b;
 jmp_10888:
@@ -25914,10 +27257,10 @@ jmp_108a2:
 	local_20 = (local_20 + 0x1);
 	if (local_20 < 0xc) goto jmp_1083f;
 	if (local_78 != 0x0) goto jmp_108d7;
-	if (*(int *)bss_7ac88 < 0x3) goto jmp_108d7;
-	local_c8 = va(0x7df1, *(int *)((*(int *)bss_7a73c << 0x2) + 0x2660));
+	if (bss_7ac88 < 0x3) goto jmp_108d7;
+	local_c8 = va(0x7df1, *(int *)((bss_7a73c << 0x2) + 0x2660));
 	trap_Cmd_ExecuteText(0x2, local_c8);
-	trap_Cvar_Set(0x7de1, *(int *)((*(int *)bss_7a73c << 0x2) + 0x2660));
+	trap_Cvar_Set(0x7de1, *(int *)((bss_7a73c << 0x2) + 0x2660));
 jmp_108d7:
 }
 
@@ -25948,21 +27291,21 @@ jmp_108e9:
 	local_14 = (local_14 + 0x1);
 	if (local_14 < 0xc) goto jmp_108e9;
 	if (bss_7ac84 == 0x0) goto jmp_10919;
-	if (*(int *)bss_7ac88 >= 0x3) goto jmp_10919;
+	if (bss_7ac88 >= 0x3) goto jmp_10919;
 	local_14 = 0x8;
 jmp_10907:
 	*(int *)((0x60 * local_14) + 0x79f5c) = 0x2;
 	local_14 = (local_14 + 0x1);
 	if (local_14 < 0xc) goto jmp_10907;
 jmp_10919:
-	if (*(int *)bss_798a4 != 0x0) goto jmp_10939;
+	if (bss_798a4 != 0x0) goto jmp_10939;
 	local_1c = 0x79f48;
 	*(int *)local_1c = (*(int *)local_1c | 0x4000);
-	*(int *)bss_79f5c = 0x0;
+	bss_79f5c = 0x0;
 	trap_Cvar_VariableStringBuffer(0x7ddc, 0x7acac, 0x10);
 	Q_CleanStr(0x7acac);
 jmp_10939:
-	if (*(int *)bss_7ac88 < 0x3) goto jmp_10968;
+	if (bss_7ac88 < 0x3) goto jmp_10968;
 	local_14 = 0x0;
 jmp_10940:
 	*(int *)((0x60 * local_14) + 0x7a73c) = 0x0;
@@ -25999,7 +27342,7 @@ void ServerOptions_SetPlayerItems(void) {
 	int		local_c;
 	int		local_10;
 
-	if (*(int *)bss_798a4 != 0x0) goto jmp_1099f;
+	if (bss_798a4 != 0x0) goto jmp_1099f;
 	bss_79f10 = 0x7dd6;
 	local_10 = 0x7a3c8;
 	*(int *)local_10 = (*(int *)local_10 & 0xffffefff);
@@ -26023,7 +27366,7 @@ jmp_109d6:
 	local_8 = (local_8 + 0x1);
 jmp_109dc:
 	if (local_8 < 0xc) goto jmp_109ab;
-	if (*(int *)bss_7ac88 >= 0x3) goto jmp_109e6;
+	if (bss_7ac88 >= 0x3) goto jmp_109e6;
 	goto jmp_10a21;
 jmp_109e6:
 	local_8 = local_c;
@@ -26096,7 +27439,7 @@ void ServerOptions_PlayerNameEvent(int arg_0, int arg_1) {
 	goto jmp_10a83;
 jmp_10a6e:
 	local_c = *(int *)(arg_0 + 0x8);
-	*(int *)bss_7ad70 = local_c;
+	bss_7ad70 = local_c;
 	UI_BotSelectMenu(((local_c << 0x4) + 0x7acac));
 jmp_10a83:
 }
@@ -26135,7 +27478,7 @@ void ServerOptions_LevelshotDraw(int arg_0) {
 	int		local_2c;
 
 	if (bss_7ad6c == 0x0) goto jmp_10ab4;
-	Q_strncpyz(((*(int *)bss_7ad70 << 0x4) + 0x7acac), 0x7ad74, 0x10);
+	Q_strncpyz(((bss_7ad70 << 0x4) + 0x7acac), 0x7ad74, 0x10);
 	bss_7ad6c = 0x0;
 jmp_10ab4:
 	local_1c = arg_0;
@@ -26150,7 +27493,7 @@ jmp_10ab4:
 #define next_call_arg_0 "*(int *)local_24"
 #define next_call_arg_1 "local_20"
 	local_2c = 0x2;
-#define next_call_arg_2 "*(int *)((*(int *)((*(int *)bss_7ac88 << local_2c) + 0x261c) << local_2c) + 0x25f8)"
+#define next_call_arg_2 "*(int *)((*(int *)((bss_7ac88 << local_2c) + 0x261c) << local_2c) + 0x25f8)"
 #define next_call_arg_3 "0x11"
 #define next_call_arg_4 "0x21a0"
 	UI_DrawString();
@@ -26181,28 +27524,28 @@ void ServerOptions_InitBotNames(void) {
 	int		local_43c;
 	int		local_440;
 
-	if (*(int *)bss_7ac88 < 0x3) goto jmp_10b94;
+	if (bss_7ac88 < 0x3) goto jmp_10b94;
 	Q_strncpyz(0x7acbc, 0x7dc3, 0x10);
 	Q_strncpyz(0x7accc, 0x7dbd, 0x10);
-	if (*(int *)bss_7ac88 != 0x3) goto jmp_10b56;
+	if (bss_7ac88 != 0x3) goto jmp_10b56;
 	Q_strncpyz(0x7acdc, 0x7db7, 0x10);
 	goto jmp_10b59;
 jmp_10b56:
-	*(int *)bss_7a07c = 0x2;
+	bss_7a07c = 0x2;
 jmp_10b59:
-	*(int *)bss_7a0dc = 0x2;
-	*(int *)bss_7a13c = 0x2;
+	bss_7a0dc = 0x2;
+	bss_7a13c = 0x2;
 	Q_strncpyz(0x7ad0c, 0x7db1, 0x10);
 	Q_strncpyz(0x7ad1c, 0x7dc3, 0x10);
 	Q_strncpyz(0x7ad2c, 0x7dbd, 0x10);
-	if (*(int *)bss_7ac88 != 0x3) goto jmp_10b89;
+	if (bss_7ac88 != 0x3) goto jmp_10b89;
 	Q_strncpyz(0x7ad3c, 0x7db7, 0x10);
 	goto jmp_10b8c;
 jmp_10b89:
-	*(int *)bss_7a2bc = 0x2;
+	bss_7a2bc = 0x2;
 jmp_10b8c:
-	*(int *)bss_7a31c = 0x2;
-	*(int *)bss_7a37c = 0x2;
+	bss_7a31c = 0x2;
+	bss_7a37c = 0x2;
 	goto jmp_10c96;
 jmp_10b94:
 	local_18 = 0x1;
@@ -26309,7 +27652,7 @@ void ServerOptions_SetMenuItems(void) {
 	int		local_78;
 	int		local_7c;
 
-	local_2c = *(int *)bss_7ac88;
+	local_2c = bss_7ac88;
 	if (local_2c < 0x0) goto jmp_10cad;
 	if (local_2c > 0x4) goto jmp_10cad;
 	goto *(int *)((local_2c << 0x2) + 0x26b4);
@@ -26359,7 +27702,7 @@ jmp_10dcf:
 	Q_strncpyz(local_18, local_40, 0x10);
 	Q_strupr(local_18);
 	Com_sprintf(0x76e5c, 0x40, 0x80e7, local_18);
-	*(int *)bss_797b8 = 0x76e5c;
+	bss_797b8 = 0x76e5c;
 	strcpy(0x7ac8c, bss_7b510);
 	Q_strupr(0x7ac8c);
 	ServerOptions_InitPlayerItems();
@@ -26461,122 +27804,122 @@ void ServerOptions_MenuInit(int arg_0) {
 	bss_7ac84 = arg_0;
 	local_1c = trap_Cvar_VariableValue(0x7d95);
 	local_20 = Com_Clamp(0x0, 0x40800000, local_1c);
-	*(int *)bss_7ac88 = (int)local_20;
+	bss_7ac88 = (int)local_20;
 	local_24 = trap_Cvar_VariableValue(0x7e3f);
 	local_28 = Com_Clamp(0x0, 0x3f800000, local_24);
-	*(int *)bss_7adc4 = (int)local_28;
+	bss_7adc4 = (int)local_28;
 	ServerOptions_Cache();
 	bss_79760 = 0x1;
-	*(int *)bss_79764 = 0x1;
-	*(int *)bss_7976c = 0xa;
+	bss_79764 = 0x1;
+	bss_7976c = 0xa;
 	bss_79778 = 0x140;
-	*(int *)bss_7977c = 0x10;
+	bss_7977c = 0x10;
 	bss_797a8 = 0x80bd;
 	bss_797b0 = 0x2160;
 	bss_797ac = 0x1;
 	bss_797b4 = 0x6;
-	*(int *)bss_797e0 = 0x4004;
+	bss_797e0 = 0x4004;
 	bss_797c0 = 0x160;
-	*(int *)bss_797c4 = 0x50;
+	bss_797c4 = 0x50;
 	bss_79800 = 0xa0;
-	*(int *)bss_79804 = 0x78;
-	*(int *)bss_797f4 = 0x8063;
-	*(int *)bss_797ec = 0x10a9e;
-	*(int *)bss_7980c = 0x6;
-	*(int *)bss_79838 = 0x4044;
+	bss_79804 = 0x78;
+	bss_797f4 = 0x8063;
+	bss_797ec = 0x10a9e;
+	bss_7980c = 0x6;
+	bss_79838 = 0x4044;
 	bss_79818 = 0x13a;
-	*(int *)bss_7981c = 0x28;
+	bss_7981c = 0x28;
 	bss_79858 = 0x140;
-	*(int *)bss_7985c = 0x140;
-	*(int *)bss_79848 = 0x804e;
+	bss_7985c = 0x140;
+	bss_79848 = 0x804e;
 	local_18 = 0x110;
-	if (*(int *)bss_7ac88 == 0x4) goto jmp_10fcf;
+	if (bss_7ac88 == 0x4) goto jmp_10fcf;
 	bss_79a10 = 0x4;
-	*(int *)bss_79a14 = 0x7d89;
-	*(int *)bss_79a3c = 0x122;
+	bss_79a14 = 0x7d89;
+	bss_79a3c = 0x122;
 	bss_79a1c = 0x1c8;
-	*(int *)bss_79a20 = local_18;
-	*(int *)bss_79a44 = 0x10a85;
-	*(int *)bss_79a54 = 0x3;
+	bss_79a20 = local_18;
+	bss_79a44 = 0x10a85;
+	bss_79a54 = 0x3;
 	bss_79b58 = 0x3;
 	goto jmp_10fe8;
 jmp_10fcf:
 	bss_79b5c = 0x4;
-	*(int *)bss_79b60 = 0x7d7a;
-	*(int *)bss_79b88 = 0x122;
+	bss_79b60 = 0x7d7a;
+	bss_79b88 = 0x122;
 	bss_79b68 = 0x1c8;
-	*(int *)bss_79b6c = local_18;
-	*(int *)bss_79b90 = 0x10a85;
-	*(int *)bss_79ba0 = 0x3;
+	bss_79b6c = local_18;
+	bss_79b90 = 0x10a85;
+	bss_79ba0 = 0x3;
 	bss_79ca4 = 0x3;
 jmp_10fe8:
 	local_18 = (local_18 + 0x12);
 	bss_798c4 = 0x4;
-	*(int *)bss_798c8 = 0x7d6e;
-	*(int *)bss_798f0 = 0x122;
+	bss_798c8 = 0x7d6e;
+	bss_798f0 = 0x122;
 	bss_798d0 = 0x1c8;
-	*(int *)bss_798d4 = local_18;
-	*(int *)bss_798f8 = 0x10a85;
-	*(int *)bss_79908 = 0x3;
+	bss_798d4 = local_18;
+	bss_798f8 = 0x10a85;
+	bss_79908 = 0x3;
 	bss_79a0c = 0x3;
-	if (*(int *)bss_7ac88 < 0x3) goto jmp_11021;
+	if (bss_7ac88 < 0x3) goto jmp_11021;
 	local_18 = (local_18 + 0x12);
 	bss_79ca8 = 0x5;
-	*(int *)bss_79cd4 = 0x102;
+	bss_79cd4 = 0x102;
 	bss_79cb4 = 0x1c8;
-	*(int *)bss_79cb8 = local_18;
-	*(int *)bss_79cac = 0x7d5f;
+	bss_79cb8 = local_18;
+	bss_79cac = 0x7d5f;
 jmp_11021:
 	local_18 = (local_18 + 0x12);
 	bss_79e34 = 0x5;
-	*(int *)bss_79e60 = 0x102;
+	bss_79e60 = 0x102;
 	bss_79e40 = 0x1c8;
-	*(int *)bss_79e44 = local_18;
-	*(int *)bss_79e38 = 0x7d52;
+	bss_79e44 = local_18;
+	bss_79e38 = 0x7d52;
 	if (bss_7ac84 == 0x0) goto jmp_1105a;
 	local_18 = (local_18 + 0x12);
 	bss_79864 = 0x3;
 	bss_7986c = 0x16;
 	bss_79890 = 0x102;
-	*(int *)bss_79894 = 0x10a23;
+	bss_79894 = 0x10a23;
 	bss_79870 = 0x1c8;
-	*(int *)bss_79874 = local_18;
+	bss_79874 = local_18;
 	bss_79868 = 0x7d47;
-	*(int *)bss_798b0 = 0x2640;
+	bss_798b0 = 0x2640;
 jmp_1105a:
 	if (bss_7ac84 == 0x0) goto jmp_1107a;
 	local_18 = (local_18 + 0x12);
 	bss_79ce8 = 0x4;
-	*(int *)bss_79cec = 0x7d3d;
-	*(int *)bss_79d14 = 0x2;
+	bss_79cec = 0x7d3d;
+	bss_79d14 = 0x2;
 	bss_79cf4 = 0x1c8;
-	*(int *)bss_79cf8 = local_18;
-	*(int *)bss_79d2c = 0x12;
+	bss_79cf8 = local_18;
+	bss_79d2c = 0x12;
 	bss_79e30 = 0x40;
 jmp_1107a:
 	local_18 = (local_18 + 0x12);
 	bss_7ad84 = 0x3;
 	bss_7ad88 = 0x7d31;
-	*(int *)bss_7adb0 = 0x102;
+	bss_7adb0 = 0x102;
 	bss_7ad8c = 0x0;
 	bss_7ad90 = 0x1c8;
-	*(int *)bss_7ad94 = local_18;
-	*(int *)bss_7add0 = 0x2424;
+	bss_7ad94 = local_18;
+	bss_7add0 = 0x2424;
 	local_18 = 0x50;
 	bss_79e74 = 0x3;
-	*(int *)bss_79ea0 = 0x102;
-	*(int *)bss_79e78 = 0x7d26;
-	*(int *)local_2c = strlen(*(int *)bss_79e78);
+	bss_79ea0 = 0x102;
+	bss_79e78 = 0x7d26;
+	*(int *)local_2c = strlen(bss_79e78);
 	bss_79e80 = (((*(int *)local_2c + 0x2) << 0x3) + 0x20);
-	*(int *)bss_79e84 = local_18;
-	*(int *)bss_79ec0 = 0x266c;
-	*(int *)bss_79eb4 = 0x1;
+	bss_79e84 = local_18;
+	bss_79ec0 = 0x266c;
+	bss_79eb4 = 0x1;
 	local_18 = (local_18 + 0x20);
-	*(int *)bss_79ed4 = 0x7;
-	*(int *)bss_79f00 = 0x2;
+	bss_79ed4 = 0x7;
+	bss_79f00 = 0x2;
 	bss_79ee0 = 0x28;
-	*(int *)bss_79ee4 = local_18;
-	*(int *)bss_79f18 = 0x21a0;
+	bss_79ee4 = local_18;
+	bss_79f18 = 0x21a0;
 	bss_79f14 = 0x10;
 	local_14 = 0x0;
 jmp_110d9:
@@ -26616,34 +27959,34 @@ jmp_110d9:
 	bss_7ac2c = 0x6;
 	bss_7ac30 = 0x7fff;
 	bss_7ac58 = 0x104;
-	*(int *)bss_7ac5c = 0x10a23;
+	bss_7ac5c = 0x10a23;
 	bss_7ac34 = 0x18;
 	bss_7ac38 = 0x0;
-	*(int *)bss_7ac3c = 0x1a0;
+	bss_7ac3c = 0x1a0;
 	bss_7ac78 = 0x80;
-	*(int *)bss_7ac7c = 0x40;
-	*(int *)bss_7ac68 = 0x7fef;
+	bss_7ac7c = 0x40;
+	bss_7ac68 = 0x7fef;
 	bss_7abd4 = 0x6;
 	bss_7abd8 = 0x7fdf;
 	bss_7ac00 = 0x7110;
 	bss_7ac04 = 0x10a23;
 	bss_7abdc = 0x12;
 	bss_7abe0 = 0x280;
-	*(int *)bss_7abe4 = 0x158;
-	*(int *)bss_7ac08 = 0x10a85;
+	bss_7abe4 = 0x158;
+	bss_7ac08 = 0x10a85;
 	bss_7ac20 = 0x80;
-	*(int *)bss_7ac24 = 0x40;
-	*(int *)bss_7ac10 = 0x7fcf;
+	bss_7ac24 = 0x40;
+	bss_7ac10 = 0x7fcf;
 	bss_7ab7c = 0x6;
 	bss_7ab80 = 0x7d15;
 	bss_7aba8 = 0x110;
-	*(int *)bss_7abac = 0x10a23;
+	bss_7abac = 0x10a23;
 	bss_7ab84 = 0x17;
 	bss_7ab88 = 0x280;
-	*(int *)bss_7ab8c = 0x1a0;
+	bss_7ab8c = 0x1a0;
 	bss_7abc8 = 0x80;
-	*(int *)bss_7abcc = 0x40;
-	*(int *)bss_7abb8 = 0x7d04;
+	bss_7abcc = 0x40;
+	bss_7abb8 = 0x7d04;
 	Menu_AddItem(0x7964c, 0x7976c);
 	Menu_AddItem(0x7964c, 0x797b4);
 	Menu_AddItem(0x7964c, 0x7980c);
@@ -26655,19 +27998,19 @@ jmp_1126b:
 	Menu_AddItem(0x7964c, ((0x60 * local_14) + 0x79f1c));
 jmp_1127b:
 	Menu_AddItem(0x7964c, ((0x48 * local_14) + 0x7a39c));
-	if (*(int *)bss_7ac88 < 0x3) goto jmp_11297;
+	if (bss_7ac88 < 0x3) goto jmp_11297;
 	Menu_AddItem(0x7964c, ((0x60 * local_14) + 0x7a6fc));
 jmp_11297:
 	local_14 = (local_14 + 0x1);
 	if (local_14 < 0xc) goto jmp_1126b;
-	if (*(int *)bss_7ac88 == 0x4) goto jmp_112ae;
+	if (bss_7ac88 == 0x4) goto jmp_112ae;
 	Menu_AddItem(0x7964c, 0x79a10);
 	goto jmp_112b5;
 jmp_112ae:
 	Menu_AddItem(0x7964c, 0x79b5c);
 jmp_112b5:
 	Menu_AddItem(0x7964c, 0x798c4);
-	if (*(int *)bss_7ac88 < 0x3) goto jmp_112c7;
+	if (bss_7ac88 < 0x3) goto jmp_112c7;
 	Menu_AddItem(0x7964c, 0x79ca8);
 jmp_112c7:
 	Menu_AddItem(0x7964c, 0x79e34);
@@ -26884,7 +28227,7 @@ jmp_114e6:
 	local_14 = (local_14 + local_20);
 	local_18 = (local_18 + local_20);
 	if (local_14 < 0x10) goto jmp_11437;
-	local_14 = (*(int *)bss_78148 %% 0x10);
+	local_14 = (bss_78148 %% 0x10);
 	local_24 = ((0x58 * local_14) + 0x77030);
 	*(int *)local_24 = (*(int *)local_24 | 0x40);
 	local_28 = ((0x58 * local_14) + 0x775b0);
@@ -26950,7 +28293,7 @@ jmp_115da:
 	if (local_10 < bss_7813c) goto jmp_115ac;
 jmp_115df:
 	if (local_10 != bss_7813c) goto jmp_115e9;
-	*(int *)bss_78148 = 0x0;
+	bss_78148 = 0x0;
 	goto jmp_11613;
 jmp_115e9:
 	local_14 = 0x0;
@@ -26964,10 +28307,10 @@ jmp_11600:
 	if (local_14 < bss_7813c) goto jmp_115ee;
 jmp_11605:
 	if (local_14 != bss_7813c) goto jmp_1160f;
-	*(int *)bss_78148 = 0x0;
+	bss_78148 = 0x0;
 	goto jmp_11613;
 jmp_1160f:
-	*(int *)bss_78148 = local_14;
+	bss_78148 = local_14;
 jmp_11613:
 }
 
@@ -26989,7 +28332,7 @@ jmp_1161c:
 	if (bss_78140 <= 0x0) goto jmp_11634;
 	local_8 = 0x78140;
 	*(int *)local_8 = (*(int *)local_8 - 0x1);
-	*(int *)bss_78148 = (bss_78140 << 0x4);
+	bss_78148 = (bss_78140 << 0x4);
 	UI_BotSelectMenu_UpdateGrid();
 jmp_11634:
 }
@@ -27012,7 +28355,7 @@ jmp_1163d:
 	if (bss_78140 >= (bss_78144 - 0x1)) goto jmp_11658;
 	local_8 = 0x78140;
 	*(int *)local_8 = (*(int *)local_8 + 0x1);
-	*(int *)bss_78148 = (bss_78140 << 0x4);
+	bss_78148 = (bss_78140 << 0x4);
 	UI_BotSelectMenu_UpdateGrid();
 jmp_11658:
 }
@@ -27046,7 +28389,7 @@ jmp_11664:
 	*(int *)local_c = (*(int *)local_c | 0x40);
 	local_10 = ((0x58 * local_8) + 0x775b0);
 	*(int *)local_10 = (*(int *)local_10 & 0xfffffeff);
-	*(int *)bss_78148 = ((bss_78140 << 0x4) + local_8);
+	bss_78148 = ((bss_78140 << 0x4) + local_8);
 jmp_116be:
 }
 
@@ -27087,7 +28430,7 @@ jmp_116d3:
 	bss_7ad6c = 0x1;
 #define next_call_arg_0 "0x7ad74"
 	local_14 = 0x10;
-#define next_call_arg_1 "(((*(int *)bss_78148 %% local_14) << 0x4) + 0x7954c)"
+#define next_call_arg_1 "(((bss_78148 %% local_14) << 0x4) + 0x7954c)"
 #define next_call_arg_2 "local_14"
 	Q_strncpyz();
 jmp_116ee:
@@ -27137,13 +28480,13 @@ void UI_BotSelectMenu_Init(int arg_0) {
 
 	memset(0x76e9c, 0x0, 0x27b0);
 	bss_76fb0 = 0x1;
-	*(int *)bss_76fb4 = 0x1;
+	bss_76fb4 = 0x1;
 	UI_BotSelectMenu_Cache();
-	*(int *)bss_76fbc = 0xa;
+	bss_76fbc = 0xa;
 	bss_76fc8 = 0x140;
-	*(int *)bss_76fcc = 0x10;
+	bss_76fcc = 0x10;
 	bss_76ff8 = 0x7c50;
-	*(int *)bss_77000 = 0x2160;
+	bss_77000 = 0x2160;
 	bss_76ffc = 0x1;
 	local_1c = 0x50;
 	local_28 = 0x0;
@@ -27194,46 +28537,46 @@ jmp_1175b:
 jmp_11893:
 	if (local_24 < 0x4) goto jmp_11755;
 	bss_77f84 = 0x6;
-	*(int *)bss_77f88 = 0x8039;
-	*(int *)bss_77fb0 = 0x4000;
+	bss_77f88 = 0x8039;
+	bss_77fb0 = 0x4000;
 	bss_77f90 = 0x104;
-	*(int *)bss_77f94 = 0x1b8;
+	bss_77f94 = 0x1b8;
 	bss_77fd0 = 0x80;
-	*(int *)bss_77fd4 = 0x20;
-	*(int *)bss_77fdc = 0x6;
+	bss_77fd4 = 0x20;
+	bss_77fdc = 0x6;
 	bss_78008 = 0x104;
-	*(int *)bss_7800c = 0x11615;
+	bss_7800c = 0x11615;
 	bss_77fe8 = 0x104;
-	*(int *)bss_77fec = 0x1b8;
+	bss_77fec = 0x1b8;
 	bss_78028 = 0x40;
-	*(int *)bss_7802c = 0x20;
-	*(int *)bss_78018 = 0x8024;
-	*(int *)bss_78034 = 0x6;
+	bss_7802c = 0x20;
+	bss_78018 = 0x8024;
+	bss_78034 = 0x6;
 	bss_78060 = 0x104;
-	*(int *)bss_78064 = 0x11636;
+	bss_78064 = 0x11636;
 	bss_78040 = 0x141;
-	*(int *)bss_78044 = 0x1b8;
+	bss_78044 = 0x1b8;
 	bss_78080 = 0x40;
-	*(int *)bss_78084 = 0x20;
-	*(int *)bss_78070 = 0x800f;
+	bss_78084 = 0x20;
+	bss_78070 = 0x800f;
 	bss_780e4 = 0x6;
-	*(int *)bss_780e8 = 0x7fff;
+	bss_780e8 = 0x7fff;
 	bss_78110 = 0x104;
-	*(int *)bss_78114 = 0x116c0;
+	bss_78114 = 0x116c0;
 	bss_780f0 = 0x0;
-	*(int *)bss_780f4 = 0x1a0;
+	bss_780f4 = 0x1a0;
 	bss_78130 = 0x80;
-	*(int *)bss_78134 = 0x40;
-	*(int *)bss_78120 = 0x7fef;
+	bss_78134 = 0x40;
+	bss_78120 = 0x7fef;
 	bss_7808c = 0x6;
-	*(int *)bss_78090 = 0x7ca3;
+	bss_78090 = 0x7ca3;
 	bss_780b8 = 0x110;
-	*(int *)bss_780bc = 0x116cc;
+	bss_780bc = 0x116cc;
 	bss_78098 = 0x280;
-	*(int *)bss_7809c = 0x1a0;
+	bss_7809c = 0x1a0;
 	bss_780d8 = 0x80;
-	*(int *)bss_780dc = 0x40;
-	*(int *)bss_780c8 = 0x7c91;
+	bss_780dc = 0x40;
+	bss_780c8 = 0x7c91;
 	Menu_AddItem(0x76e9c, 0x76fbc);
 	local_24 = 0x0;
 jmp_1191c:
@@ -27249,7 +28592,7 @@ jmp_1191c:
 	Menu_AddItem(0x76e9c, 0x7808c);
 	UI_BotSelectMenu_BuildList();
 	UI_BotSelectMenu_Default(arg_0);
-	bss_78140 = (*(int *)bss_78148 / 0x10);
+	bss_78140 = (bss_78148 / 0x10);
 	UI_BotSelectMenu_UpdateGrid();
 }
 
@@ -27326,51 +28669,51 @@ void TeamMain_MenuInit(void) {
 	memset(0x7c588, 0x0, 0x298);
 	TeamMain_Cache();
 	bss_7c69c = 0x1;
-	*(int *)bss_7c6a0 = 0x0;
+	bss_7c6a0 = 0x0;
 	bss_7c6a8 = 0x6;
-	*(int *)bss_7c6d4 = 0x4000;
-	*(int *)bss_7c6ac = 0x8181;
+	bss_7c6d4 = 0x4000;
+	bss_7c6ac = 0x8181;
 	bss_7c6b4 = 0x8e;
-	*(int *)bss_7c6b8 = 0x76;
+	bss_7c6b8 = 0x76;
 	bss_7c6f4 = 0x167;
-	*(int *)bss_7c6f8 = 0x100;
+	bss_7c6f8 = 0x100;
 	local_14 = 0xc2;
-	*(int *)bss_7c700 = 0x9;
+	bss_7c700 = 0x9;
 	bss_7c72c = 0x108;
 	bss_7c708 = 0x64;
-	*(int *)bss_7c730 = 0x1198f;
+	bss_7c730 = 0x1198f;
 	bss_7c70c = 0x140;
-	*(int *)bss_7c710 = local_14;
+	bss_7c710 = local_14;
 	bss_7c73c = 0x8178;
 	bss_7c740 = 0x11;
 	bss_7c744 = 0x29c8;
 	local_14 = (local_14 + 0x14);
-	*(int *)bss_7c748 = 0x9;
+	bss_7c748 = 0x9;
 	bss_7c774 = 0x108;
 	bss_7c750 = 0x65;
-	*(int *)bss_7c778 = 0x1198f;
+	bss_7c778 = 0x1198f;
 	bss_7c754 = 0x140;
-	*(int *)bss_7c758 = local_14;
+	bss_7c758 = local_14;
 	bss_7c784 = 0x816e;
 	bss_7c788 = 0x11;
 	bss_7c78c = 0x29c8;
 	local_14 = (local_14 + 0x14);
-	*(int *)bss_7c790 = 0x9;
+	bss_7c790 = 0x9;
 	bss_7c7bc = 0x108;
 	bss_7c798 = 0x66;
-	*(int *)bss_7c7c0 = 0x1198f;
+	bss_7c7c0 = 0x1198f;
 	bss_7c79c = 0x140;
-	*(int *)bss_7c7a0 = local_14;
+	bss_7c7a0 = local_14;
 	bss_7c7cc = 0x8164;
 	bss_7c7d0 = 0x11;
 	bss_7c7d4 = 0x29c8;
 	local_14 = (local_14 + 0x14);
-	*(int *)bss_7c7d8 = 0x9;
+	bss_7c7d8 = 0x9;
 	bss_7c804 = 0x108;
 	bss_7c7e0 = 0x67;
-	*(int *)bss_7c808 = 0x1198f;
+	bss_7c808 = 0x1198f;
 	bss_7c7e4 = 0x140;
-	*(int *)bss_7c7e8 = local_14;
+	bss_7c7e8 = local_14;
 	bss_7c814 = 0x815b;
 	bss_7c818 = 0x11;
 	bss_7c81c = 0x29c8;
@@ -27466,20 +28809,20 @@ void UI_TeamOrdersMenu_SetList(int arg_0) {
 	goto jmp_11b34;
 jmp_11b34:
 	bss_7c9e8 = arg_0;
-	*(int *)bss_7ca24 = bss_7ca9c;
-	*(int *)bss_7ca2c = 0x7caa4;
+	bss_7ca24 = bss_7ca9c;
+	bss_7ca2c = 0x7caa4;
 	goto jmp_11b57;
 jmp_11b41:
 	bss_7c9e8 = arg_0;
-	*(int *)bss_7ca24 = 0x7;
-	*(int *)bss_7ca2c = 0x26ec;
+	bss_7ca24 = 0x7;
+	bss_7ca2c = 0x26ec;
 	goto jmp_11b57;
 jmp_11b4d:
 	bss_7c9e8 = arg_0;
-	*(int *)bss_7ca24 = 0x6;
-	*(int *)bss_7ca2c = 0x272c;
+	bss_7ca24 = 0x6;
+	bss_7ca2c = 0x272c;
 jmp_11b57:
-	*(int *)bss_7ca00 = (bss_7c9f8 + (0x1b * *(int *)bss_7ca24));
+	bss_7ca00 = (bss_7c9f8 + (0x1b * bss_7ca24));
 }
 
 /*
@@ -27641,7 +28984,7 @@ jmp_11d0d:
 	local_18 = *(int *)(local_120 + 0x8);
 	local_11c = *(int *)(local_120 + 0x40);
 	if (local_18 != 0xa) goto jmp_11d39;
-	*(int *)bss_7caa0 = local_11c;
+	bss_7caa0 = local_11c;
 	if (bss_7ca98 != 0x4) goto jmp_11d32;
 	UI_TeamOrdersMenu_SetList(0xb);
 	goto jmp_11d7e;
@@ -27650,10 +28993,10 @@ jmp_11d32:
 	goto jmp_11d7e;
 jmp_11d39:
 	if (local_18 != 0xb) goto jmp_11d55;
-	Com_sprintf(local_1c, 0x100, *(int *)((local_11c << 0x2) + 0x270c), ((*(int *)bss_7caa0 << 0x4) + 0x7cac8));
+	Com_sprintf(local_1c, 0x100, *(int *)((local_11c << 0x2) + 0x270c), ((bss_7caa0 << 0x4) + 0x7cac8));
 	goto jmp_11d6b;
 jmp_11d55:
-	Com_sprintf(local_1c, 0x100, *(int *)((local_11c << 0x2) + 0x2748), ((*(int *)bss_7caa0 << 0x4) + 0x7cac8));
+	Com_sprintf(local_1c, 0x100, *(int *)((local_11c << 0x2) + 0x2748), ((bss_7caa0 << 0x4) + 0x7cac8));
 jmp_11d6b:
 	local_124 = va(0x8241, local_1c);
 	trap_Cmd_ExecuteText(0x2, local_124);
@@ -27754,37 +29097,37 @@ void UI_TeamOrdersMenu_Init(void) {
 
 	UI_TeamOrdersMenu_Cache();
 	memset(0x7c820, 0x0, 0x338);
-	*(int *)bss_7c938 = 0x0;
-	*(int *)bss_7c930 = 0x11b62;
+	bss_7c938 = 0x0;
+	bss_7c930 = 0x11b62;
 	UI_TeamOrdersMenu_BuildBotList();
-	*(int *)bss_7c940 = 0xa;
+	bss_7c940 = 0xa;
 	bss_7c94c = 0x140;
-	*(int *)bss_7c950 = 0x10;
+	bss_7c950 = 0x10;
 	bss_7c97c = 0x8209;
 	bss_7c984 = 0x2160;
 	bss_7c980 = 0x1;
 	bss_7c988 = 0x6;
-	*(int *)bss_7c9b4 = 0x4000;
-	*(int *)bss_7c98c = 0x81f4;
+	bss_7c9b4 = 0x4000;
+	bss_7c98c = 0x81f4;
 	bss_7c994 = 0x57;
-	*(int *)bss_7c998 = 0x4a;
+	bss_7c998 = 0x4a;
 	bss_7c9d4 = 0x1d2;
-	*(int *)bss_7c9d8 = 0x14c;
-	*(int *)bss_7c9e0 = 0x8;
+	bss_7c9d8 = 0x14c;
+	bss_7c9e0 = 0x8;
 	bss_7ca0c = 0x100;
-	*(int *)bss_7ca18 = 0x11c8c;
-	*(int *)bss_7ca10 = 0x11d06;
+	bss_7ca18 = 0x11c8c;
+	bss_7ca10 = 0x11d06;
 	bss_7c9ec = 0x100;
 	bss_7c9f0 = 0x78;
 	bss_7ca40 = 0x6;
-	*(int *)bss_7ca44 = 0x81e4;
+	bss_7ca44 = 0x81e4;
 	bss_7ca6c = 0x104;
-	*(int *)bss_7ca70 = 0x11b15;
+	bss_7ca70 = 0x11b15;
 	bss_7ca4c = 0x0;
-	*(int *)bss_7ca50 = 0x1a0;
+	bss_7ca50 = 0x1a0;
 	bss_7ca8c = 0x80;
-	*(int *)bss_7ca90 = 0x40;
-	*(int *)bss_7ca7c = 0x81d4;
+	bss_7ca90 = 0x40;
+	bss_7ca7c = 0x81d4;
 	Menu_AddItem(0x7c820, 0x7c940);
 	Menu_AddItem(0x7c820, 0x7c988);
 	Menu_AddItem(0x7c820, 0x7c9e0);
@@ -27975,38 +29318,38 @@ void UI_DriverInfo_Menu(void) {
 
 	memset(0x7db30, 0x0, 0x774);
 	DriverInfo_Cache();
-	*(int *)bss_7dc48 = 0x1;
-	*(int *)bss_7dc3c = 0x11f97;
-	*(int *)bss_7dc50 = 0xa;
+	bss_7dc48 = 0x1;
+	bss_7dc3c = 0x11f97;
+	bss_7dc50 = 0xa;
 	bss_7dc5c = 0x140;
-	*(int *)bss_7dc60 = 0x10;
+	bss_7dc60 = 0x10;
 	bss_7dc8c = 0x8694;
 	bss_7dc94 = 0x2160;
 	bss_7dc90 = 0x1;
 	bss_7dcf0 = 0x6;
-	*(int *)bss_7dcf4 = 0x871b;
-	*(int *)bss_7dd1c = 0x4000;
+	bss_7dcf4 = 0x871b;
+	bss_7dd1c = 0x4000;
 	bss_7dcfc = 0x0;
-	*(int *)bss_7dd00 = 0x4e;
+	bss_7dd00 = 0x4e;
 	bss_7dd3c = 0x100;
-	*(int *)bss_7dd40 = 0x149;
+	bss_7dd40 = 0x149;
 	bss_7dd48 = 0x6;
-	*(int *)bss_7dd4c = 0x8709;
-	*(int *)bss_7dd74 = 0x4000;
+	bss_7dd4c = 0x8709;
+	bss_7dd74 = 0x4000;
 	bss_7dd54 = 0x178;
-	*(int *)bss_7dd58 = 0x4c;
+	bss_7dd58 = 0x4c;
 	bss_7dd94 = 0x100;
-	*(int *)bss_7dd98 = 0x14e;
+	bss_7dd98 = 0x14e;
 	bss_7dc98 = 0x6;
 	bss_7dc9c = 0x86f9;
 	bss_7dcc4 = 0x104;
-	*(int *)bss_7dcc8 = 0x11f7e;
+	bss_7dcc8 = 0x11f7e;
 	bss_7dca0 = 0x64;
 	bss_7dca4 = 0x0;
-	*(int *)bss_7dca8 = 0x1a0;
+	bss_7dca8 = 0x1a0;
 	bss_7dce4 = 0x80;
-	*(int *)bss_7dce8 = 0x40;
-	*(int *)bss_7dcd4 = 0x86e9;
+	bss_7dce8 = 0x40;
+	bss_7dcd4 = 0x86e9;
 	Q_strncpyz(0x7dda0, 0xe78c, 0x400);
 	local_14 = 0x7dda0;
 	goto jmp_12162;
@@ -28072,7 +29415,7 @@ int GraphicsOptions_FindBuiltinResolution(int arg_0) {
 	int		local_18;
 
 	arg_0 = arg_0;
-	if (*(int *)resolutionsDetected != 0x0) goto jmp_121db;
+	if (resolutionsDetected != 0x0) goto jmp_121db;
 	return arg_0;
 jmp_121db:
 	if (arg_0 >= 0x0) goto jmp_121e3;
@@ -28108,7 +29451,7 @@ int GraphicsOptions_FindDetectedResolution(int arg_0) {
 	int		local_18;
 
 	arg_0 = arg_0;
-	if (*(int *)resolutionsDetected != 0x0) goto jmp_1222b;
+	if (resolutionsDetected != 0x0) goto jmp_1222b;
 	return arg_0;
 jmp_1222b:
 	if (arg_0 >= 0x0) goto jmp_12233;
@@ -28212,16 +29555,16 @@ Called by: GraphicsOptions_MenuInit
 */
 void GraphicsOptions_GetInitialVideo(void) {
 
-	bss_7db18 = *(int *)bss_7d930;
-	bss_7db28 = *(int *)bss_7d704;
-	s_ivo = *(int *)bss_7d6a4;
-	bss_7db0c = *(int *)bss_7d7b0;
-	bss_7db2c = *(int *)bss_7d870;
-	bss_7db10 = (int)*(int *)bss_7d768;
-	bss_7db14 = *(int *)bss_7d810;
-	bss_7db20 = *(int *)bss_7d990;
-	bss_7db24 = *(int *)bss_7d9f0;
-	bss_7db1c = *(int *)bss_7d8d0;
+	bss_7db18 = bss_7d930;
+	bss_7db28 = bss_7d704;
+	s_ivo = bss_7d6a4;
+	bss_7db0c = bss_7d7b0;
+	bss_7db2c = bss_7d870;
+	bss_7db10 = (int)bss_7d768;
+	bss_7db14 = bss_7d810;
+	bss_7db20 = bss_7d990;
+	bss_7db24 = bss_7d9f0;
+	bss_7db1c = bss_7d8d0;
 }
 
 /*
@@ -28262,7 +29605,7 @@ jmp_123eb:
 jmp_123f3:
 	*(int *)((local_20 << 0x2) + 0x7cb6c) = 0x0;
 	if (local_20 >= 0x1f) goto jmp_12459;
-	Com_sprintf(0x7cb58, 0x14, 0x85bd, bss_107b4, *(int *)bss_107b8);
+	Com_sprintf(0x7cb58, 0x14, 0x85bd, bss_107b4, bss_107b8);
 	local_20 = 0x0;
 	goto jmp_1242d;
 jmp_12413:
@@ -28281,7 +29624,7 @@ jmp_12436:
 	*(int *)((local_20 << 0x2) + 0x7cb6c) = 0x0;
 jmp_12459:
 	resolutions = 0x7cb6c;
-	*(int *)resolutionsDetected = 0x1;
+	resolutionsDetected = 0x1;
 jmp_1245f:
 }
 
@@ -28302,38 +29645,38 @@ void GraphicsOptions_CheckConfig(void) {
 	local_c = 0x0;
 	goto jmp_124db;
 jmp_12467:
-	if (*(int *)((0x28 * local_c) + 0x2788) == *(int *)bss_7d930) goto jmp_12473;
+	if (*(int *)((0x28 * local_c) + 0x2788) == bss_7d930) goto jmp_12473;
 	goto jmp_124d5;
 jmp_12473:
-	if (*(int *)((0x28 * local_c) + 0x2798) == *(int *)bss_7d704) goto jmp_1247f;
+	if (*(int *)((0x28 * local_c) + 0x2798) == bss_7d704) goto jmp_1247f;
 	goto jmp_124d5;
 jmp_1247f:
 	local_10 = GraphicsOptions_FindDetectedResolution(*(int *)((0x28 * local_c) + 0x2778));
-	if (local_10 == *(int *)bss_7d6a4) goto jmp_12492;
+	if (local_10 == bss_7d6a4) goto jmp_12492;
 	goto jmp_124d5;
 jmp_12492:
-	if (*(int *)((0x28 * local_c) + 0x277c) == *(int *)bss_7d7b0) goto jmp_1249e;
+	if (*(int *)((0x28 * local_c) + 0x277c) == bss_7d7b0) goto jmp_1249e;
 	goto jmp_124d5;
 jmp_1249e:
-	if ((float)*(int *)((0x28 * local_c) + 0x2780) == *(int *)bss_7d768) goto jmp_124ab;
+	if ((float)*(int *)((0x28 * local_c) + 0x2780) == bss_7d768) goto jmp_124ab;
 	goto jmp_124d5;
 jmp_124ab:
-	if (*(int *)((0x28 * local_c) + 0x2784) == *(int *)bss_7d810) goto jmp_124b7;
+	if (*(int *)((0x28 * local_c) + 0x2784) == bss_7d810) goto jmp_124b7;
 	goto jmp_124d5;
 jmp_124b7:
-	if (*(int *)((0x28 * local_c) + 0x2790) == *(int *)bss_7d990) goto jmp_124c3;
+	if (*(int *)((0x28 * local_c) + 0x2790) == bss_7d990) goto jmp_124c3;
 	goto jmp_124d5;
 jmp_124c3:
-	if (*(int *)((0x28 * local_c) + 0x2794) == *(int *)bss_7d9f0) goto jmp_124cf;
+	if (*(int *)((0x28 * local_c) + 0x2794) == bss_7d9f0) goto jmp_124cf;
 	goto jmp_124d5;
 jmp_124cf:
-	*(int *)bss_7d5e4 = local_c;
+	bss_7d5e4 = local_c;
 	goto jmp_124e2;
 jmp_124d5:
 	local_c = (local_c + 0x1);
 jmp_124db:
 	if (local_c < 0x5) goto jmp_12467;
-	*(int *)bss_7d5e4 = 0x5;
+	bss_7d5e4 = 0x5;
 jmp_124e2:
 }
 
@@ -28351,20 +29694,20 @@ void GraphicsOptions_UpdateMenuItems(void) {
 	int		local_8;
 	int		local_c;
 
-	if (*(int *)bss_7d704 != 0x1) goto jmp_124fc;
-	*(int *)bss_7d7b0 = 0x1;
+	if (bss_7d704 != 0x1) goto jmp_124fc;
+	bss_7d7b0 = 0x1;
 	local_8 = 0x7d79c;
 	*(int *)local_8 = (*(int *)local_8 | 0x2000);
-	*(int *)bss_7d930 = 0x1;
+	bss_7d930 = 0x1;
 	goto jmp_12507;
 jmp_124fc:
 	local_8 = 0x7d79c;
 	*(int *)local_8 = (*(int *)local_8 & 0xffffdfff);
 jmp_12507:
-	if (*(int *)bss_7d7b0 == 0x0) goto jmp_1250f;
-	if (*(int *)bss_7d704 != 0x1) goto jmp_1251f;
+	if (bss_7d7b0 == 0x0) goto jmp_1250f;
+	if (bss_7d704 != 0x1) goto jmp_1251f;
 jmp_1250f:
-	*(int *)bss_7d930 = 0x0;
+	bss_7d930 = 0x0;
 	local_8 = 0x7d91c;
 	*(int *)local_8 = (*(int *)local_8 | 0x2000);
 	goto jmp_1252a;
@@ -28372,49 +29715,49 @@ jmp_1251f:
 	local_8 = 0x7d91c;
 	*(int *)local_8 = (*(int *)local_8 & 0xffffdfff);
 jmp_1252a:
-	if (*(int *)bss_7d870 != 0x0) goto jmp_12535;
-	if (*(int *)bss_7d8d0 != 0x0) goto jmp_12535;
-	*(int *)bss_7d8d0 = 0x1;
+	if (bss_7d870 != 0x0) goto jmp_12535;
+	if (bss_7d8d0 != 0x0) goto jmp_12535;
+	bss_7d8d0 = 0x1;
 jmp_12535:
 	local_8 = 0x7da84;
 	*(int *)local_8 = (*(int *)local_8 | 0x5000);
-	if (s_ivo == *(int *)bss_7d6a4) goto jmp_12550;
+	if (s_ivo == bss_7d6a4) goto jmp_12550;
 	local_c = 0x7da84;
 	*(int *)local_c = (*(int *)local_c & 0xffffafff);
 jmp_12550:
-	if (bss_7db0c == *(int *)bss_7d7b0) goto jmp_12560;
+	if (bss_7db0c == bss_7d7b0) goto jmp_12560;
 	local_c = 0x7da84;
 	*(int *)local_c = (*(int *)local_c & 0xffffafff);
 jmp_12560:
-	if (bss_7db2c == *(int *)bss_7d870) goto jmp_12570;
+	if (bss_7db2c == bss_7d870) goto jmp_12570;
 	local_c = 0x7da84;
 	*(int *)local_c = (*(int *)local_c & 0xffffafff);
 jmp_12570:
-	if ((float)bss_7db10 == *(int *)bss_7d768) goto jmp_12581;
+	if ((float)bss_7db10 == bss_7d768) goto jmp_12581;
 	local_c = 0x7da84;
 	*(int *)local_c = (*(int *)local_c & 0xffffafff);
 jmp_12581:
-	if (bss_7db14 == *(int *)bss_7d810) goto jmp_12591;
+	if (bss_7db14 == bss_7d810) goto jmp_12591;
 	local_c = 0x7da84;
 	*(int *)local_c = (*(int *)local_c & 0xffffafff);
 jmp_12591:
-	if (bss_7db18 == *(int *)bss_7d930) goto jmp_125a1;
+	if (bss_7db18 == bss_7d930) goto jmp_125a1;
 	local_c = 0x7da84;
 	*(int *)local_c = (*(int *)local_c & 0xffffafff);
 jmp_125a1:
-	if (bss_7db28 == *(int *)bss_7d704) goto jmp_125b1;
+	if (bss_7db28 == bss_7d704) goto jmp_125b1;
 	local_c = 0x7da84;
 	*(int *)local_c = (*(int *)local_c & 0xffffafff);
 jmp_125b1:
-	if (bss_7db1c == *(int *)bss_7d8d0) goto jmp_125c1;
+	if (bss_7db1c == bss_7d8d0) goto jmp_125c1;
 	local_c = 0x7da84;
 	*(int *)local_c = (*(int *)local_c & 0xffffafff);
 jmp_125c1:
-	if (bss_7db20 == *(int *)bss_7d990) goto jmp_125d1;
+	if (bss_7db20 == bss_7d990) goto jmp_125d1;
 	local_c = 0x7da84;
 	*(int *)local_c = (*(int *)local_c & 0xffffafff);
 jmp_125d1:
-	if (bss_7db24 == *(int *)bss_7d9f0) goto jmp_125e1;
+	if (bss_7db24 == bss_7d9f0) goto jmp_125e1;
 	local_c = 0x7da84;
 	*(int *)local_c = (*(int *)local_c & 0xffffafff);
 jmp_125e1:
@@ -28442,7 +29785,7 @@ void GraphicsOptions_ApplyChanges(, int arg_1) {
 	if (arg_1 == 0x3) goto jmp_125ed;
 	goto jmp_12756;
 jmp_125ed:
-	local_14 = *(int *)bss_7d8d0;
+	local_14 = bss_7d8d0;
 	if (local_14 == 0x0) goto jmp_125ff;
 	if (local_14 == 0x1) goto jmp_12608;
 	if (local_14 == 0x2) goto jmp_12611;
@@ -28456,21 +29799,21 @@ jmp_12608:
 jmp_12611:
 	trap_Cvar_SetValue(0x85af, 0x42000000);
 jmp_12618:
-	trap_Cvar_SetValue(0x85a6, (0x40400000 - *(int *)bss_7d768));
-	trap_Cvar_SetValue(0x8594, (float)*(int *)bss_7d870);
-	if (*(int *)resolutionsDetected == 0x0) goto jmp_12697;
-	if (*(int *)bss_7d6a4 == 0xffffffff) goto jmp_12637;
-	if (*(int *)bss_7d6a4 < 0x20) goto jmp_1263a;
+	trap_Cvar_SetValue(0x85a6, (0x40400000 - bss_7d768));
+	trap_Cvar_SetValue(0x8594, (float)bss_7d870);
+	if (resolutionsDetected == 0x0) goto jmp_12697;
+	if (bss_7d6a4 == 0xffffffff) goto jmp_12637;
+	if (bss_7d6a4 < 0x20) goto jmp_1263a;
 jmp_12637:
-	*(int *)bss_7d6a4 = 0x0;
+	bss_7d6a4 = 0x0;
 jmp_1263a:
-	local_1c = GraphicsOptions_FindBuiltinResolution(*(int *)bss_7d6a4);
+	local_1c = GraphicsOptions_FindBuiltinResolution(bss_7d6a4);
 	local_18 = local_1c;
 	if (local_18 != 0xffffffff) goto jmp_1268c;
-	Q_strncpyz(local_20, *(int *)((*(int *)bss_7d6a4 << 0x2) + 0x7cb6c), 0x10);
+	Q_strncpyz(local_20, *(int *)((bss_7d6a4 << 0x2) + 0x7cb6c), 0x10);
 	local_40 = strchr(local_20, 0x78);
 	*(char *)local_40 = 0x0;
-	local_44 = strchr(*(int *)((*(int *)bss_7d6a4 << 0x2) + 0x7cb6c), 0x78);
+	local_44 = strchr(*(int *)((bss_7d6a4 << 0x2) + 0x7cb6c), 0x78);
 	Q_strncpyz(local_30, (local_44 + 0x1), 0x10);
 	trap_Cvar_Set(0x8586, local_20);
 	trap_Cvar_Set(0x8577, local_30);
@@ -28478,10 +29821,10 @@ jmp_1268c:
 	trap_Cvar_SetValue(0x8570, (float)local_18);
 	goto jmp_126a0;
 jmp_12697:
-	trap_Cvar_SetValue(0x8570, (float)*(int *)bss_7d6a4);
+	trap_Cvar_SetValue(0x8570, (float)bss_7d6a4);
 jmp_126a0:
-	trap_Cvar_SetValue(0x8563, (float)*(int *)bss_7d7b0);
-	local_18 = *(int *)bss_7d930;
+	trap_Cvar_SetValue(0x8563, (float)bss_7d7b0);
+	local_18 = bss_7d930;
 	if (local_18 == 0x0) goto jmp_126bb;
 	if (local_18 == 0x1) goto jmp_126d0;
 	if (local_18 == 0x2) goto jmp_126e7;
@@ -28501,13 +29844,13 @@ jmp_126e7:
 	trap_Cvar_SetValue(0x854b, 0x41c00000);
 	trap_Cvar_SetValue(0x853d, 0x41000000);
 jmp_126fc:
-	trap_Cvar_SetValue(0x852f, (float)*(int *)bss_7d810);
-	if (*(int *)bss_7d990 != 0x2) goto jmp_12719;
+	trap_Cvar_SetValue(0x852f, (float)bss_7d810);
+	if (bss_7d990 != 0x2) goto jmp_12719;
 	trap_Cvar_SetValue(0x8525, 0x0);
 	trap_Cvar_SetValue(0x8516, 0x40800000);
 	goto jmp_1273b;
 jmp_12719:
-	if (*(int *)bss_7d990 != 0x1) goto jmp_1272d;
+	if (bss_7d990 != 0x1) goto jmp_1272d;
 	trap_Cvar_SetValue(0x8525, 0x3f800000);
 	trap_Cvar_SetValue(0x8516, 0x41400000);
 	goto jmp_1273b;
@@ -28515,7 +29858,7 @@ jmp_1272d:
 	trap_Cvar_SetValue(0x8525, 0x3f800000);
 	trap_Cvar_SetValue(0x8516, 0x41a00000);
 jmp_1273b:
-	if (*(int *)bss_7d9f0 == 0x0) goto jmp_12748;
+	if (bss_7d9f0 == 0x0) goto jmp_12748;
 	trap_Cvar_Set(0x8508, 0x84f0);
 	goto jmp_1274f;
 jmp_12748:
@@ -28546,28 +29889,28 @@ jmp_1275f:
 	if (*(int *)local_10 < 0x65) goto jmp_1280f;
 	if (*(int *)local_10 > 0x6e) goto jmp_1280f;
 	goto *(int *)((*(int *)local_10 << 0x2) + 0x2750);
-	*(int *)bss_7d6a4 = *(int *)((*(int *)bss_7d644 << 0x2) + 0x7d06c);
-	if (*(int *)bss_7d704 != 0x1) goto jmp_12793;
-	if (*(int *)bss_7d6a4 >= 0x2) goto jmp_1278c;
-	*(int *)bss_7d6a4 = 0x2;
+	bss_7d6a4 = *(int *)((bss_7d644 << 0x2) + 0x7d06c);
+	if (bss_7d704 != 0x1) goto jmp_12793;
+	if (bss_7d6a4 >= 0x2) goto jmp_1278c;
+	bss_7d6a4 = 0x2;
 	goto jmp_12793;
 jmp_1278c:
-	if (*(int *)bss_7d6a4 <= 0x6) goto jmp_12793;
-	*(int *)bss_7d6a4 = 0x6;
+	if (bss_7d6a4 <= 0x6) goto jmp_12793;
+	bss_7d6a4 = 0x6;
 jmp_12793:
-	*(int *)bss_7d644 = *(int *)((*(int *)bss_7d6a4 << 0x2) + 0x7cfec);
+	bss_7d644 = *(int *)((bss_7d6a4 << 0x2) + 0x7cfec);
 	goto jmp_1280f;
-	local_c = ((0x28 * *(int *)bss_7d5e4) + 0x2778);
+	local_c = ((0x28 * bss_7d5e4) + 0x2778);
 	local_18 = GraphicsOptions_FindDetectedResolution(*(int *)local_c);
-	*(int *)bss_7d6a4 = local_18;
-	*(int *)bss_7d644 = *(int *)((*(int *)bss_7d6a4 << 0x2) + 0x7cfec);
-	*(int *)bss_7d768 = (float)*(int *)(local_c + 0x8);
-	*(int *)bss_7d810 = *(int *)(local_c + 0xc);
-	*(int *)bss_7d930 = *(int *)(local_c + 0x10);
-	*(int *)bss_7d8d0 = *(int *)(local_c + 0x14);
-	*(int *)bss_7d990 = *(int *)(local_c + 0x18);
-	*(int *)bss_7d9f0 = *(int *)(local_c + 0x1c);
-	*(int *)bss_7d7b0 = *(int *)(local_c + 0x4);
+	bss_7d6a4 = local_18;
+	bss_7d644 = *(int *)((bss_7d6a4 << 0x2) + 0x7cfec);
+	bss_7d768 = (float)*(int *)(local_c + 0x8);
+	bss_7d810 = *(int *)(local_c + 0xc);
+	bss_7d930 = *(int *)(local_c + 0x10);
+	bss_7d8d0 = *(int *)(local_c + 0x14);
+	bss_7d990 = *(int *)(local_c + 0x18);
+	bss_7d9f0 = *(int *)(local_c + 0x1c);
+	bss_7d7b0 = *(int *)(local_c + 0x4);
 	goto jmp_1280f;
 	UI_DriverInfo_Menu();
 	goto jmp_1280f;
@@ -28597,7 +29940,7 @@ void GraphicsOptions_TQEvent(, int arg_1) {
 	if (arg_1 == 0x3) goto jmp_12818;
 	goto jmp_12820;
 jmp_12818:
-	*(int *)bss_7d768 = (float)(int)(*(int *)bss_7d768 + 0x3f000000);
+	bss_7d768 = (float)(int)(bss_7d768 + 0x3f000000);
 jmp_12820:
 }
 
@@ -28651,9 +29994,9 @@ void GraphicsOptions_SetMenuItems(void) {
 
 	local_14 = trap_Cvar_VariableValue(0x8570);
 	local_18 = GraphicsOptions_FindDetectedResolution((int)local_14);
-	*(int *)bss_7d6a4 = local_18;
-	if (*(int *)bss_7d6a4 >= 0x0) goto jmp_128be;
-	if (*(int *)resolutionsDetected == 0x0) goto jmp_128bb;
+	bss_7d6a4 = local_18;
+	if (bss_7d6a4 >= 0x0) goto jmp_128be;
+	if (resolutionsDetected == 0x0) goto jmp_128bb;
 	trap_Cvar_VariableStringBuffer(0x8586, &local_20, 0x3fe);
 	local_420 = strlen(&local_20);
 	*(char *)((local_420 + 0x1) + &local_20) = 0x0;
@@ -28667,32 +30010,32 @@ void GraphicsOptions_SetMenuItems(void) {
 jmp_1288b:
 	local_430 = Q_stricmp(&local_20, *(int *)((local_1c << 0x2) + 0x7cb6c));
 	if (local_430 != 0x0) goto jmp_128a3;
-	*(int *)bss_7d6a4 = local_1c;
+	bss_7d6a4 = local_1c;
 	goto jmp_128b2;
 jmp_128a3:
 	local_1c = (local_1c + 0x1);
 jmp_128a9:
 	if (*(int *)((local_1c << 0x2) + 0x7cb6c) != 0x0) goto jmp_1288b;
 jmp_128b2:
-	if (*(int *)bss_7d6a4 >= 0x0) goto jmp_128be;
-	*(int *)bss_7d6a4 = 0x0;
+	if (bss_7d6a4 >= 0x0) goto jmp_128be;
+	bss_7d6a4 = 0x0;
 	goto jmp_128be;
 jmp_128bb:
-	*(int *)bss_7d6a4 = 0x3;
+	bss_7d6a4 = 0x3;
 jmp_128be:
-	*(int *)bss_7d644 = *(int *)((*(int *)bss_7d6a4 << 0x2) + 0x7cfec);
+	bss_7d644 = *(int *)((bss_7d6a4 << 0x2) + 0x7cfec);
 	local_1c = trap_Cvar_VariableValue(0x8563);
-	*(int *)bss_7d7b0 = (int)local_1c;
+	bss_7d7b0 = (int)local_1c;
 	local_20 = trap_Cvar_VariableValue(0x8594);
-	*(int *)bss_7d870 = (int)local_20;
+	bss_7d870 = (int)local_20;
 	local_24 = trap_Cvar_VariableValue(0x85a6);
-	*(int *)bss_7d768 = (0x40400000 - local_24);
-	if (*(int *)bss_7d768 >= 0x0) goto jmp_128f2;
-	*(int *)bss_7d768 = 0x0;
+	bss_7d768 = (0x40400000 - local_24);
+	if (bss_7d768 >= 0x0) goto jmp_128f2;
+	bss_7d768 = 0x0;
 	goto jmp_128f9;
 jmp_128f2:
-	if (*(int *)bss_7d768 <= 0x40400000) goto jmp_128f9;
-	*(int *)bss_7d768 = 0x40400000;
+	if (bss_7d768 <= 0x40400000) goto jmp_128f9;
+	bss_7d768 = 0x40400000;
 jmp_128f9:
 	local_2c = trap_Cvar_VariableValue(0x852f);
 	if (local_2c == 0x0) goto jmp_12908;
@@ -28701,7 +30044,7 @@ jmp_128f9:
 jmp_12908:
 	local_28 = 0x0;
 jmp_1290b:
-	*(int *)bss_7d810 = local_28;
+	bss_7d810 = local_28;
 	*(int *)local_34 = trap_Cvar_VariableValue(0x85af);
 	local_30 = (int)*(int *)local_34;
 	local_3c = 0x10;
@@ -28713,33 +30056,33 @@ jmp_1292d:
 	if (local_30 == 0x20) goto jmp_1293d;
 	goto jmp_12933;
 jmp_12933:
-	*(int *)bss_7d8d0 = 0x0;
+	bss_7d8d0 = 0x0;
 	goto jmp_12940;
 jmp_12938:
-	*(int *)bss_7d8d0 = 0x1;
+	bss_7d8d0 = 0x1;
 	goto jmp_12940;
 jmp_1293d:
-	*(int *)bss_7d8d0 = 0x2;
+	bss_7d8d0 = 0x2;
 jmp_12940:
 	local_40 = UI_Cvar_VariableString(0x8508);
 	local_44 = Q_stricmp(local_40, 0x84d7);
 	if (local_44 != 0x0) goto jmp_12958;
-	*(int *)bss_7d9f0 = 0x0;
+	bss_7d9f0 = 0x0;
 	goto jmp_1295b;
 jmp_12958:
-	*(int *)bss_7d9f0 = 0x1;
+	bss_7d9f0 = 0x1;
 jmp_1295b:
 	local_48 = trap_Cvar_VariableValue(0x8525);
 	if (local_48 <= 0x0) goto jmp_12979;
 	local_4c = trap_Cvar_VariableValue(0x8516);
 	if (local_4c < 0x41a00000) goto jmp_12974;
-	*(int *)bss_7d990 = 0x0;
+	bss_7d990 = 0x0;
 	goto jmp_1297c;
 jmp_12974:
-	*(int *)bss_7d990 = 0x1;
+	bss_7d990 = 0x1;
 	goto jmp_1297c;
 jmp_12979:
-	*(int *)bss_7d990 = 0x2;
+	bss_7d990 = 0x2;
 jmp_1297c:
 	*(int *)local_50 = trap_Cvar_VariableValue(0x8557);
 	local_4c = (int)*(int *)local_50;
@@ -28752,19 +30095,19 @@ jmp_1299a:
 	if (local_4c == 0x20) goto jmp_129aa;
 	goto jmp_129a0;
 jmp_129a0:
-	*(int *)bss_7d930 = 0x0;
+	bss_7d930 = 0x0;
 	goto jmp_129ad;
 jmp_129a5:
-	*(int *)bss_7d930 = 0x1;
+	bss_7d930 = 0x1;
 	goto jmp_129ad;
 jmp_129aa:
-	*(int *)bss_7d930 = 0x2;
+	bss_7d930 = 0x2;
 jmp_129ad:
-	if (*(int *)bss_7d7b0 != 0x0) goto jmp_129b4;
-	*(int *)bss_7d930 = 0x0;
+	if (bss_7d7b0 != 0x0) goto jmp_129b4;
+	bss_7d930 = 0x0;
 jmp_129b4:
-	if (*(int *)bss_7d704 != 0x1) goto jmp_129bb;
-	*(int *)bss_7d930 = 0x1;
+	if (bss_7d704 != 0x1) goto jmp_129bb;
+	bss_7d930 = 0x1;
 jmp_129bb:
 }
 
@@ -28788,61 +30131,61 @@ void GraphicsOptions_MenuInit(void) {
 	GraphicsOptions_GetAspectRatios();
 	GraphicsOptions_Cache();
 	bss_7d380 = 0x1;
-	*(int *)bss_7d384 = 0x1;
-	*(int *)bss_7d378 = 0x12822;
-	*(int *)bss_7d38c = 0xa;
+	bss_7d384 = 0x1;
+	bss_7d378 = 0x12822;
+	bss_7d38c = 0xa;
 	bss_7d398 = 0x140;
-	*(int *)bss_7d39c = 0x10;
+	bss_7d39c = 0x10;
 	bss_7d3c8 = 0x842c;
 	bss_7d3d0 = 0x2160;
 	bss_7d3cc = 0x1;
 	bss_7d3d4 = 0x6;
-	*(int *)bss_7d3d8 = 0x871b;
-	*(int *)bss_7d400 = 0x4000;
+	bss_7d3d8 = 0x871b;
+	bss_7d400 = 0x4000;
 	bss_7d3e0 = 0x0;
-	*(int *)bss_7d3e4 = 0x4e;
+	bss_7d3e4 = 0x4e;
 	bss_7d420 = 0x100;
-	*(int *)bss_7d424 = 0x149;
+	bss_7d424 = 0x149;
 	bss_7d42c = 0x6;
-	*(int *)bss_7d430 = 0x8709;
-	*(int *)bss_7d458 = 0x4000;
+	bss_7d430 = 0x8709;
+	bss_7d458 = 0x4000;
 	bss_7d438 = 0x178;
-	*(int *)bss_7d43c = 0x4c;
+	bss_7d43c = 0x4c;
 	bss_7d478 = 0x100;
-	*(int *)bss_7d47c = 0x14e;
-	*(int *)bss_7d484 = 0x9;
+	bss_7d47c = 0x14e;
+	bss_7d484 = 0x9;
 	bss_7d4b0 = 0x10;
 	bss_7d48c = 0x6a;
-	*(int *)bss_7d4b4 = 0x12758;
+	bss_7d4b4 = 0x12758;
 	bss_7d490 = 0xd8;
-	*(int *)bss_7d494 = 0xba;
+	bss_7d494 = 0xba;
 	bss_7d4c0 = 0x8423;
 	bss_7d4c4 = 0x2;
 	bss_7d4c8 = 0x21b0;
-	*(int *)bss_7d4cc = 0x9;
+	bss_7d4cc = 0x9;
 	bss_7d4f8 = 0x110;
 	bss_7d4d4 = 0x6b;
-	*(int *)bss_7d4fc = 0x12758;
+	bss_7d4fc = 0x12758;
 	bss_7d4d8 = 0xd8;
-	*(int *)bss_7d4dc = 0xd5;
+	bss_7d4dc = 0xd5;
 	bss_7d508 = 0x841b;
 	bss_7d50c = 0x2;
 	bss_7d510 = 0x21b0;
-	*(int *)bss_7d514 = 0x9;
+	bss_7d514 = 0x9;
 	bss_7d540 = 0x110;
 	bss_7d51c = 0x6c;
-	*(int *)bss_7d544 = 0x12758;
+	bss_7d544 = 0x12758;
 	bss_7d520 = 0xd8;
-	*(int *)bss_7d524 = 0xf0;
+	bss_7d524 = 0xf0;
 	bss_7d550 = 0x8415;
 	bss_7d554 = 0x2;
 	bss_7d558 = 0x21b0;
-	*(int *)bss_7d55c = 0x9;
+	bss_7d55c = 0x9;
 	bss_7d588 = 0x110;
 	bss_7d564 = 0x6d;
-	*(int *)bss_7d58c = 0x12758;
+	bss_7d58c = 0x12758;
 	bss_7d568 = 0xd8;
-	*(int *)bss_7d56c = 0x10b;
+	bss_7d56c = 0x10b;
 	bss_7d598 = 0x840d;
 	bss_7d59c = 0x2;
 	bss_7d5a0 = 0x21b0;
@@ -28851,129 +30194,129 @@ void GraphicsOptions_MenuInit(void) {
 	bss_7d5a8 = 0x83fa;
 	bss_7d5d0 = 0x102;
 	bss_7d5b0 = 0x190;
-	*(int *)bss_7d5b4 = local_14;
-	*(int *)bss_7d5d4 = 0x12758;
+	bss_7d5b4 = local_14;
+	bss_7d5d4 = 0x12758;
 	bss_7d5ac = 0x67;
-	*(int *)bss_7d5f0 = 0x2928;
+	bss_7d5f0 = 0x2928;
 	local_14 = (local_14 + 0x24);
 	bss_7d6c4 = 0x3;
-	*(int *)bss_7d6c8 = 0x83ef;
-	*(int *)bss_7d6f0 = 0x102;
+	bss_7d6c8 = 0x83ef;
+	bss_7d6f0 = 0x102;
 	bss_7d6d0 = 0x190;
-	*(int *)bss_7d6d4 = local_14;
-	*(int *)bss_7d710 = 0x290c;
+	bss_7d6d4 = local_14;
+	bss_7d710 = 0x290c;
 	if (bss_107a0 != 0x2) goto jmp_12abf;
 	local_18 = 0x1;
 	goto jmp_12ac2;
 jmp_12abf:
 	local_18 = 0x0;
 jmp_12ac2:
-	*(int *)bss_7d704 = local_18;
+	bss_7d704 = local_18;
 	local_14 = (local_14 + 0x12);
 	bss_7d830 = 0x3;
-	*(int *)bss_7d834 = 0x83e0;
-	*(int *)bss_7d85c = 0x102;
+	bss_7d834 = 0x83e0;
+	bss_7d85c = 0x102;
 	bss_7d83c = 0x190;
-	*(int *)bss_7d840 = local_14;
-	*(int *)bss_7d87c = 0x297c;
+	bss_7d840 = local_14;
+	bss_7d87c = 0x297c;
 	local_14 = (local_14 + 0x12);
 	bss_7d604 = 0x3;
 	bss_7d608 = 0x83d2;
 	bss_7d630 = 0x102;
 	bss_7d610 = 0x190;
-	*(int *)bss_7d614 = local_14;
-	*(int *)bss_7d650 = 0x7d1ec;
-	*(int *)bss_7d634 = 0x12758;
+	bss_7d614 = local_14;
+	bss_7d650 = 0x7d1ec;
+	bss_7d634 = 0x12758;
 	bss_7d60c = 0x6e;
 	local_14 = (local_14 + 0x12);
 	bss_7d664 = 0x3;
 	bss_7d668 = 0x83c6;
 	bss_7d690 = 0x102;
 	bss_7d670 = 0x190;
-	*(int *)bss_7d674 = local_14;
-	*(int *)bss_7d6b0 = resolutions;
-	*(int *)bss_7d694 = 0x12758;
+	bss_7d674 = local_14;
+	bss_7d6b0 = resolutions;
+	bss_7d694 = 0x12758;
 	bss_7d66c = 0x68;
 	local_14 = (local_14 + 0x12);
 	bss_7d8f0 = 0x3;
-	*(int *)bss_7d8f4 = 0x83b9;
-	*(int *)bss_7d91c = 0x102;
+	bss_7d8f4 = 0x83b9;
+	bss_7d91c = 0x102;
 	bss_7d8fc = 0x190;
-	*(int *)bss_7d900 = local_14;
-	*(int *)bss_7d93c = 0x2950;
+	bss_7d900 = local_14;
+	bss_7d93c = 0x2950;
 	local_14 = (local_14 + 0x12);
 	bss_7d770 = 0x3;
-	*(int *)bss_7d774 = 0x83ad;
-	*(int *)bss_7d79c = 0x102;
+	bss_7d774 = 0x83ad;
+	bss_7d79c = 0x102;
 	bss_7d77c = 0x190;
-	*(int *)bss_7d780 = local_14;
-	*(int *)bss_7d7bc = 0x297c;
+	bss_7d780 = local_14;
+	bss_7d7bc = 0x297c;
 	local_14 = (local_14 + 0x12);
 	bss_7d7d0 = 0x3;
-	*(int *)bss_7d7d4 = 0x83a3;
-	*(int *)bss_7d7fc = 0x102;
+	bss_7d7d4 = 0x83a3;
+	bss_7d7fc = 0x102;
 	bss_7d7dc = 0x190;
-	*(int *)bss_7d7e0 = local_14;
-	*(int *)bss_7d81c = 0x2944;
+	bss_7d7e0 = local_14;
+	bss_7d81c = 0x2944;
 	local_14 = (local_14 + 0x12);
 	bss_7d950 = 0x3;
-	*(int *)bss_7d954 = 0x8391;
-	*(int *)bss_7d97c = 0x102;
+	bss_7d954 = 0x8391;
+	bss_7d97c = 0x102;
 	bss_7d95c = 0x190;
-	*(int *)bss_7d960 = local_14;
-	*(int *)bss_7d99c = 0x296c;
+	bss_7d960 = local_14;
+	bss_7d99c = 0x296c;
 	local_14 = (local_14 + 0x12);
 	bss_7d724 = 0x1;
-	*(int *)bss_7d728 = 0x8381;
+	bss_7d728 = 0x8381;
 	bss_7d750 = 0x102;
 	bss_7d730 = 0x190;
-	*(int *)bss_7d734 = local_14;
+	bss_7d734 = local_14;
 	bss_7d760 = 0x0;
 	bss_7d764 = 0x40400000;
-	*(int *)bss_7d754 = 0x12811;
+	bss_7d754 = 0x12811;
 	local_14 = (local_14 + 0x12);
 	bss_7d890 = 0x3;
-	*(int *)bss_7d894 = 0x8370;
-	*(int *)bss_7d8bc = 0x102;
+	bss_7d894 = 0x8370;
+	bss_7d8bc = 0x102;
 	bss_7d89c = 0x190;
-	*(int *)bss_7d8a0 = local_14;
-	*(int *)bss_7d8dc = 0x2918;
+	bss_7d8a0 = local_14;
+	bss_7d8dc = 0x2918;
 	local_14 = (local_14 + 0x12);
 	bss_7d9b0 = 0x3;
-	*(int *)bss_7d9b4 = 0x8360;
-	*(int *)bss_7d9dc = 0x102;
+	bss_7d9b4 = 0x8360;
+	bss_7d9dc = 0x102;
 	bss_7d9bc = 0x190;
-	*(int *)bss_7d9c0 = local_14;
-	*(int *)bss_7d9fc = 0x2960;
+	bss_7d9c0 = local_14;
+	bss_7d9fc = 0x2960;
 	local_14 = (local_14 + 0x20);
-	*(int *)bss_7da10 = 0x9;
+	bss_7da10 = 0x9;
 	bss_7da3c = 0x108;
-	*(int *)bss_7da40 = 0x12758;
+	bss_7da40 = 0x12758;
 	bss_7da18 = 0x69;
 	bss_7da1c = 0x140;
-	*(int *)bss_7da20 = local_14;
+	bss_7da20 = local_14;
 	bss_7da4c = 0x8354;
 	bss_7da50 = 0x11;
 	bss_7da54 = 0x21b0;
 	bss_7dab0 = 0x6;
 	bss_7dab4 = 0x86f9;
 	bss_7dadc = 0x104;
-	*(int *)bss_7dae0 = 0x12758;
+	bss_7dae0 = 0x12758;
 	bss_7dab8 = 0x65;
 	bss_7dabc = 0x0;
-	*(int *)bss_7dac0 = 0x1a0;
+	bss_7dac0 = 0x1a0;
 	bss_7dafc = 0x80;
-	*(int *)bss_7db00 = 0x40;
-	*(int *)bss_7daec = 0x86e9;
+	bss_7db00 = 0x40;
+	bss_7daec = 0x86e9;
 	bss_7da58 = 0x6;
-	*(int *)bss_7da5c = 0x8342;
+	bss_7da5c = 0x8342;
 	bss_7da84 = 0x5110;
-	*(int *)bss_7da88 = 0x125e6;
+	bss_7da88 = 0x125e6;
 	bss_7da64 = 0x280;
-	*(int *)bss_7da68 = 0x1a0;
+	bss_7da68 = 0x1a0;
 	bss_7daa4 = 0x80;
-	*(int *)bss_7daa8 = 0x40;
-	*(int *)bss_7da94 = 0x8330;
+	bss_7daa8 = 0x40;
+	bss_7da94 = 0x8330;
 	Menu_AddItem(0x7d26c, 0x7d38c);
 	Menu_AddItem(0x7d26c, 0x7d3d4);
 	Menu_AddItem(0x7d26c, 0x7d42c);
@@ -30785,7 +32128,7 @@ void AngleVectors(int arg_0, int arg_1, int arg_2, int arg_3) {
 	local_10 = sin(local_c);
 	bss_7e2ac = local_10;
 	local_14 = cos(local_c);
-	*(int *)bss_7e2b8 = local_14;
+	bss_7e2b8 = local_14;
 	local_c = (0x3c8efa35 * *(int *)arg_0);
 	local_18 = sin(local_c);
 	bss_7e2a8 = local_18;
@@ -30797,20 +32140,20 @@ void AngleVectors(int arg_0, int arg_1, int arg_2, int arg_3) {
 	local_24 = cos(local_c);
 	bss_7e2b0 = local_24;
 	if (arg_1 == 0x0) goto jmp_140ca;
-	*(int *)arg_1 = (bss_7e2b4 * *(int *)bss_7e2b8);
+	*(int *)arg_1 = (bss_7e2b4 * bss_7e2b8);
 	*(int *)(arg_1 + 0x4) = (bss_7e2b4 * bss_7e2ac);
 	*(int *)(arg_1 + 0x8) = -bss_7e2a8;
 jmp_140ca:
 	if (arg_2 == 0x0) goto jmp_14111;
 	local_28 = 0xbf800000;
-	*(int *)arg_2 = ((((local_28 * bss_7e2a4) * bss_7e2a8) * *(int *)bss_7e2b8) + ((local_28 * bss_7e2b0) * -bss_7e2ac));
+	*(int *)arg_2 = ((((local_28 * bss_7e2a4) * bss_7e2a8) * bss_7e2b8) + ((local_28 * bss_7e2b0) * -bss_7e2ac));
 	local_2c = 0xbf800000;
-	*(int *)(arg_2 + 0x4) = ((((local_2c * bss_7e2a4) * bss_7e2a8) * bss_7e2ac) + ((local_2c * bss_7e2b0) * *(int *)bss_7e2b8));
+	*(int *)(arg_2 + 0x4) = ((((local_2c * bss_7e2a4) * bss_7e2a8) * bss_7e2ac) + ((local_2c * bss_7e2b0) * bss_7e2b8));
 	*(int *)(arg_2 + 0x8) = ((0xbf800000 * bss_7e2a4) * bss_7e2b4);
 jmp_14111:
 	if (arg_3 == 0x0) goto jmp_14146;
-	*(int *)arg_3 = (((bss_7e2b0 * bss_7e2a8) * *(int *)bss_7e2b8) + (-bss_7e2a4 * -bss_7e2ac));
-	*(int *)(arg_3 + 0x4) = (((bss_7e2b0 * bss_7e2a8) * bss_7e2ac) + (-bss_7e2a4 * *(int *)bss_7e2b8));
+	*(int *)arg_3 = (((bss_7e2b0 * bss_7e2a8) * bss_7e2b8) + (-bss_7e2a4 * -bss_7e2ac));
+	*(int *)(arg_3 + 0x4) = (((bss_7e2b0 * bss_7e2a8) * bss_7e2ac) + (-bss_7e2a4 * bss_7e2b8));
 	*(int *)(arg_3 + 0x8) = (bss_7e2b0 * bss_7e2b4);
 jmp_14146:
 }
@@ -32570,7 +33913,7 @@ jmp_14fa0:
 	if ((char)*(char *)arg_0 != 0x5c) goto jmp_14f77;
 	*(char *)local_10 = 0x0;
 	arg_0 = (arg_0 + 0x1);
-	local_10 = ((*(int *)global_3284 << 0xd) + 0x8fcbc);
+	local_10 = ((global_3284 << 0xd) + 0x8fcbc);
 	goto jmp_14fd9;
 jmp_14fba:
 	local_2020 = local_10;
@@ -32587,7 +33930,7 @@ jmp_14fe7:
 	*(char *)local_10 = 0x0;
 	local_2024 = Q_stricmp(arg_1, local_14);
 	if (local_2024 != 0x0) goto jmp_15001;
-	return ((*(int *)global_3284 << 0xd) + 0x8fcbc);
+	return ((global_3284 << 0xd) + 0x8fcbc);
 jmp_15001:
 	if ((char)*(char *)arg_0 != 0x0) goto jmp_15009;
 	goto jmp_15011;

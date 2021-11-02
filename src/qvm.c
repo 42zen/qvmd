@@ -20,6 +20,7 @@ static int      qvm_load_variables_sections(qvm_t *qvm);
 static void     qvm_load_variables_globals_size(qvm_t *qvm);
 static void     qvm_load_variables_locals_size(qvm_t *qvm);
 static int      qvm_load_variables_map(qvm_t *qvm);
+static int      qvm_load_variables_probs(qvm_t *qvm);
 static int      qvm_load_returns(qvm_t *qvm);
 static int      qvm_load_calls(qvm_t *qvm);
 
@@ -688,6 +689,10 @@ static int qvm_load_variables(qvm_t *qvm)
     // find all locals size
     qvm_load_variables_locals_size(qvm);
 
+    // recut variables from probs
+    if (!qvm_load_variables_probs(qvm))
+        return 0;
+
     // find all globals name from map file
     if (!qvm_load_variables_map(qvm))
         return 0;
@@ -813,6 +818,20 @@ static int qvm_load_variables_map(qvm_t *qvm)
         // go to the next map entry
         map = map->next;
     }
+
+    // success
+    return 1;
+}
+
+static int qvm_load_variables_probs(qvm_t *qvm)
+{
+    qvm_variable_t  *var;
+
+    // recut all variables that are represented with 4 bytes
+    for (var = qvm->globals; var; var = var->next)
+        if (var->size > 4 && var->prob_size[4])
+            if (!var_cut(qvm, NULL, var->address + 4))
+                return 0;
 
     // success
     return 1;

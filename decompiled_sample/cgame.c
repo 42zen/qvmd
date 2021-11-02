@@ -5,16 +5,19 @@
 	Opcodes Count: 105045
 	Functions Count: 522
 	Syscalls Count: 70
-	Globals Count: 686
+	Globals Count: 837
 	Calls Restored: 94.34
 */
 
 int		global_0 = 0;
-char	forceModelModificationCount[40] = "\xff\xff\xff\xff\x15\x00\x00\x00\x25\x00\x00\x00\x2c\x00\x00\x00\x35\x00\x00\x00\x45\x00\x00\x00\x4e\x00\x00\x00\x57\x00\x00\x00\x64\x00\x00\x00\x71\x00\x00\x00"; // Used by: CG_UpdateCvars, CG_RegisterCvars
+int		forceModelModificationCount = -1; // Used by: CG_UpdateCvars, CG_RegisterCvars
+char	global_8[36] = "\x15\x00\x00\x00\x25\x00\x00\x00\x2c\x00\x00\x00\x35\x00\x00\x00\x45\x00\x00\x00\x4e\x00\x00\x00\x57\x00\x00\x00\x64\x00\x00\x00\x71\x00\x00\x00";
 char	cvarTable[1328] = "\xbc\x9e\x00\x00\xfa\x3b\x00\x00\xf8\x3b\x00\x00\x00\x00\x00\x00\xcc\x9f\x00\x00\xea\x3b\x00\x00\xe8\x3b\x00\x00\x01\x00\x00\x00\x1c\xa5\x00\x00\xdd\x3b\x00\x00\xe8\x3b\x00\x00\x01\x00\x00\x00\x8c\x9b\x00\x00\xd2\x3b\x00\x00\xcd\x3b\x00\x00\x01\x00\x00\x00\x9c\x9c\x00\x00\xc6\x3b\x00\x00\xc3\x3b\x00\x00\x01\x00\x00\x00\x0c\xa4\x00\x00\xb7\x3b\x00\x00\xb3\x3b\x00\x00\x01\x00\x00\x00\x4c\xca\x00\x00\xa8\x3b\x00\x00\xe8\x3b\x00\x00\x01\x00\x00\x00\x3c\xc9\x00\x00\xa0\x3b\x00\x00\xe8\x3b\x00\x00\x01\x00\x00\x00\x2c\xb7\x00\x00\x96\x3b\x00\x00\xe8\x3b\x00\x00\x01\x00\x00\x00\x3c\xb8\x00\x00\x88\x3b\x00\x00\xe8\x3b\x00\x00\x01\x00\x00\x00\x2c\xc8\x00\x00\x7b\x3b\x00\x00\xf8\x3b\x00\x00\x01\x00\x00\x00\x1c\xc7\x00\x00\x70\x3b\x00\x00\xf8\x3b\x00\x00\x01\x00\x00\x00\x0c\xc6\x00\x00\x60\x3b\x00\x00\xf8\x3b\x00\x00\x01\x00\x00\x00\xfc\xc4\x00\x00\x51\x3b\x00\x00\xe8\x3b\x00\x00\x01\x00\x00\x00\xec\xc3\x00\x00\x44\x3b\x00\x00\xe8\x3b\x00\x00\x01\x00\x00\x00\xdc\xc2\x00\x00\x31\x3b\x00\x00\xe8\x3b\x00\x00\x01\x00\x00\x00\x3c\x96\x00\x00\x21\x3b\x00\x00\xe8\x3b\x00\x00\x01\x00\x00\x00\xcc\xc1\x00\x00\x10\x3b\x00\x00\x0e\x3b\x00\x00\x01\x00\x00\x00\xbc\xc0\x00\x00\xf8\x3a\x00\x00\xe8\x3b\x00\x00\x01\x00\x00\x00\xac\xbf\x00\x00\xe9\x3a\x00\x00\xe8\x3b\x00\x00\x01\x00\x00\x00\x5c\xba\x00\x00\xd8\x3a\x00\x00\xd5\x3a\x00\x00\x01\x00\x00\x00\x4c\xb9\x00\x00\xc2\x3a\x00\x00\xe8\x3b\x00\x00\x01\x00\x00\x00\x7c\xbc\x00\x00\xb4\x3a\x00\x00\xf8\x3b\x00\x00\x01\x00\x00\x00\x6c\xbb\x00\x00\xa6\x3a\x00\x00\xf8\x3b\x00\x00\x01\x00\x00\x00\x6c\xaa\x00\x00\x99\x3a\x00\x00\x94\x3a\x00\x00\x01\x00\x00\x00\xac\x9d\x00\x00\x85\x3a\x00\x00\xf8\x3b\x00\x00\x01\x00\x00\x00\x7c\xab\x00\x00\x7c\x3a\x00\x00\xe8\x3b\x00\x00\x01\x00\x00\x00\x4c\x97\x00\x00\x6f\x3a\x00\x00\xe8\x3b\x00\x00\x01\x00\x00\x00\xdc\xb1\x00\x00\x5e\x3a\x00\x00\x5a\x3a\x00\x00\x01\x00\x00\x00\x4c\xa8\x00\x00\x52\x3a\x00\x00\xf8\x3b\x00\x00\x00\x02\x00\x00\x3c\xa7\x00\x00\x4a\x3a\x00\x00\xf8\x3b\x00\x00\x00\x02\x00\x00\x2c\xa6\x00\x00\x42\x3a\x00\x00\xf8\x3b\x00\x00\x00\x02\x00\x00\xbc\xd1\x00\x00\x34\x3a\x00\x00\x32\x3a\x00\x00\x00\x02\x00\x00\xac\xd0\x00\x00\x26\x3a\x00\x00\x20\x3a\x00\x00\x01\x00\x00\x00\x9c\xcf\x00\x00\x15\x3a\x00\x00\x0f\x3a\x00\x00\x01\x00\x00\x00\x8c\xce\x00\x00\x06\x3a\x00\x00\x0f\x3a\x00\x00\x00\x02\x00\x00\x7c\xcd\x00\x00\xfa\x39\x00\x00\x20\x3a\x00\x00\x01\x00\x00\x00\x6c\xcc\x00\x00\xef\x39\x00\x00\x20\x3a\x00\x00\x01\x00\x00\x00\x5c\xcb\x00\x00\xe1\x39\x00\x00\xdd\x39\x00\x00\x00\x02\x00\x00\x1c\xb6\x00\x00\xd0\x39\x00\x00\xe8\x3b\x00\x00\x00\x02\x00\x00\x0c\xb5\x00\x00\xc3\x39\x00\x00\xf8\x3b\x00\x00\x00\x02\x00\x00\xfc\xb3\x00\x00\xb2\x39\x00\x00\xf8\x3b\x00\x00\x00\x02\x00\x00\xec\xb2\x00\x00\xa3\x39\x00\x00\xf8\x3b\x00\x00\x00\x02\x00\x00\xcc\xb0\x00\x00\x95\x39\x00\x00\xb3\x3b\x00\x00\x00\x00\x00\x00\xbc\xaf\x00\x00\x88\x39\x00\x00\xf8\x3b\x00\x00\x00\x00\x00\x00\xac\xae\x00\x00\x77\x39\x00\x00\xf8\x3b\x00\x00\x00\x02\x00\x00\x9c\xad\x00\x00\x6b\x39\x00\x00\xf8\x3b\x00\x00\x00\x00\x00\x00\x8c\xac\x00\x00\x5e\x39\x00\x00\xe8\x3b\x00\x00\x00\x02\x00\x00\xfc\xa2\x00\x00\x4e\x39\x00\x00\x4a\x39\x00\x00\x00\x02\x00\x00\xec\xa1\x00\x00\x3b\x39\x00\x00\xe8\x3b\x00\x00\x00\x02\x00\x00\xdc\xa0\x00\x00\x2b\x39\x00\x00\xb3\x3b\x00\x00\x00\x02\x00\x00\x7c\x9a\x00\x00\x17\x39\x00\x00\x14\x39\x00\x00\x00\x02\x00\x00\x6c\x99\x00\x00\x00\x39\x00\x00\xf8\x3b\x00\x00\x00\x02\x00\x00\x5c\x98\x00\x00\xf1\x38\x00\x00\xf8\x3b\x00\x00\x00\x00\x00\x00\x1c\x94\x00\x00\xe1\x38\x00\x00\xdc\x38\x00\x00\x01\x00\x00\x00\x0c\x93\x00\x00\xca\x38\x00\x00\xf8\x3b\x00\x00\x01\x00\x00\x00\xec\x90\x00\x00\xbc\x38\x00\x00\xf8\x3b\x00\x00\x01\x00\x00\x00\xac\x8c\x00\x00\xac\x38\x00\x00\xe8\x3b\x00\x00\x01\x00\x00\x00\x9c\x8b\x00\x00\x9c\x38\x00\x00\xe8\x3b\x00\x00\x01\x00\x00\x00\x9c\xbe\x00\x00\x89\x38\x00\x00\xf8\x3b\x00\x00\x01\x00\x00\x00\x8c\xbd\x00\x00\x7d\x38\x00\x00\xf8\x3b\x00\x00\x42\x00\x00\x00\xfc\x91\x00\x00\x74\x38\x00\x00\xf8\x3b\x00\x00\x00\x00\x00\x00\x8c\x8a\x00\x00\x66\x38\x00\x00\xe8\x3b\x00\x00\x01\x00\x00\x00\x7c\x89\x00\x00\x55\x38\x00\x00\xf8\x3b\x00\x00\x01\x00\x00\x00\xdc\x8f\x00\x00\x45\x38\x00\x00\xf8\x3b\x00\x00\x00\x00\x00\x00\xcc\x8e\x00\x00\x3b\x38\x00\x00\xf8\x3b\x00\x00\x40\x00\x00\x00\xbc\x8d\x00\x00\x31\x38\x00\x00\xe8\x3b\x00\x00\x01\x00\x00\x00\x2c\x95\x00\x00\x1c\x38\x00\x00\xf8\x3b\x00\x00\x08\x00\x00\x00\x2c\x84\x00\x00\x0d\x38\x00\x00\xf8\x3b\x00\x00\x00\x02\x00\x00\x1c\x83\x00\x00\xf9\x37\x00\x00\xf6\x37\x00\x00\x01\x00\x00\x00\x0c\x82\x00\x00\xe2\x37\x00\x00\xe8\x3b\x00\x00\x00\x00\x00\x00\xfc\x80\x00\x00\xcc\x37\x00\x00\xf8\x3b\x00\x00\x00\x00\x00\x00\xec\x7f\x00\x00\xc2\x37\x00\x00\xe8\x3b\x00\x00\x00\x00\x00\x00\x6c\x88\x00\x00\xb4\x37\x00\x00\xe8\x3b\x00\x00\x03\x00\x00\x00\x5c\x87\x00\x00\xa3\x37\x00\x00\xf8\x3b\x00\x00\x03\x00\x00\x00\xdc\x7e\x00\x00\x94\x37\x00\x00\xf8\x3b\x00\x00\x00\x02\x00\x00\x4c\x86\x00\x00\x88\x37\x00\x00\xf8\x3b\x00\x00\x08\x00\x00\x00\x3c\x85\x00\x00\x7d\x37\x00\x00\x7b\x37\x00\x00\x08\x00\x00\x00\xcc\x7d\x00\x00\x66\x37\x00\x00\xf8\x3b\x00\x00\x01\x00\x00\x00\xbc\x7c\x00\x00\x5b\x37\x00\x00\xe8\x3b\x00\x00\x01\x00\x00\x00\xac\x7b\x00\x00\x4e\x37\x00\x00\xe8\x3b\x00\x00\x01\x00\x00\x00\x9c\x7a\x00\x00\x41\x37\x00\x00\xe8\x3b\x00\x00\x01\x00\x00\x00\x8c\x79\x00\x00\x30\x37\x00\x00\x2c\x37\x00\x00\x01\x00\x00\x00";
-char	cvarTableSize[48] = "\x53\x00\x00\x00\xc3\x2d\x00\x00\xac\x2d\x00\x00\x95\x2d\x00\x00\x7c\x2d\x00\x00\x64\x2d\x00\x00\x4c\x2d\x00\x00\x35\x2d\x00\x00\x1c\x2d\x00\x00\x03\x2d\x00\x00\xeb\x2c\x00\x00\xd2\x2c\x00\x00"; // Used by: CG_UpdateCvars, CG_RegisterCvars
+int		cvarTableSize = 83; // Used by: CG_UpdateCvars, CG_RegisterCvars
+char	global_560[44] = "\xc3\x2d\x00\x00\xac\x2d\x00\x00\x95\x2d\x00\x00\x7c\x2d\x00\x00\x64\x2d\x00\x00\x4c\x2d\x00\x00\x35\x2d\x00\x00\x1c\x2d\x00\x00\x03\x2d\x00\x00\xeb\x2c\x00\x00\xd2\x2c\x00\x00";
 char	bg_itemlist[1924] = "\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x89\x50\x00\x00\x89\x50\x00\x00\x78\x50\x00\x00\x60\x50\x00\x00\x40\x50\x00\x00\x19\x50\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x07\x50\x00\x00\xfb\x4f\x00\x00\x05\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x89\x50\x00\x00\x89\x50\x00\x00\xe9\x4f\x00\x00\xd1\x4f\x00\x00\xad\x4f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x9a\x4f\x00\x00\x94\x4f\x00\x00\x32\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x89\x50\x00\x00\x89\x50\x00\x00\x84\x4f\x00\x00\xd1\x4f\x00\x00\x60\x4f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x50\x4f\x00\x00\x44\x4f\x00\x00\x64\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x89\x50\x00\x00\x89\x50\x00\x00\x32\x4f\x00\x00\x19\x4f\x00\x00\xf2\x4e\x00\x00\xca\x4e\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xb8\x4e\x00\x00\xaf\x4e\x00\x00\x05\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x89\x50\x00\x00\x89\x50\x00\x00\xa3\x4e\x00\x00\x8a\x4e\x00\x00\x62\x4e\x00\x00\x39\x4e\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x26\x4e\x00\x00\x1c\x4e\x00\x00\x19\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x89\x50\x00\x00\x89\x50\x00\x00\x0a\x4e\x00\x00\xf1\x4d\x00\x00\xca\x4d\x00\x00\xa2\x4d\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x92\x4d\x00\x00\x88\x4d\x00\x00\x32\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x89\x50\x00\x00\x89\x50\x00\x00\x77\x4d\x00\x00\x5e\x4d\x00\x00\x38\x4d\x00\x00\x11\x4d\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x4d\x00\x00\xf4\x4c\x00\x00\x64\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\x89\x50\x00\x00\x89\x50\x00\x00\xe4\x4c\x00\x00\xce\x4c\x00\x00\xa8\x4c\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x93\x4c\x00\x00\x8a\x4c\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x89\x50\x00\x00\x89\x50\x00\x00\x7b\x4c\x00\x00\xce\x4c\x00\x00\x57\x4c\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x43\x4c\x00\x00\x3b\x4c\x00\x00\x0a\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x89\x50\x00\x00\x89\x50\x00\x00\x29\x4c\x00\x00\xce\x4c\x00\x00\xff\x4b\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xe8\x4b\x00\x00\xdd\x4b\x00\x00\x28\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x89\x50\x00\x00\x89\x50\x00\x00\xc6\x4b\x00\x00\xce\x4c\x00\x00\xa0\x4b\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x8c\x4b\x00\x00\x7b\x4b\x00\x00\x0a\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00\x89\x50\x00\x00\x35\x4b\x00\x00\x1f\x4b\x00\x00\xce\x4c\x00\x00\xfb\x4a\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xe8\x4a\x00\x00\xd8\x4a\x00\x00\x0a\x00\x00\x00\x01\x00\x00\x00\x05\x00\x00\x00\x89\x50\x00\x00\x89\x50\x00\x00\xc7\x4a\x00\x00\xce\x4c\x00\x00\x9f\x4a\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x89\x4a\x00\x00\x7b\x4a\x00\x00\x64\x00\x00\x00\x01\x00\x00\x00\x06\x00\x00\x00\x89\x50\x00\x00\x89\x50\x00\x00\x6c\x4a\x00\x00\xce\x4c\x00\x00\x48\x4a\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x34\x4a\x00\x00\x2c\x4a\x00\x00\x0a\x00\x00\x00\x01\x00\x00\x00\x07\x00\x00\x00\x89\x50\x00\x00\x89\x50\x00\x00\x1b\x4a\x00\x00\xce\x4c\x00\x00\xf9\x49\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xe6\x49\x00\x00\xdb\x49\x00\x00\x32\x00\x00\x00\x01\x00\x00\x00\x08\x00\x00\x00\x89\x50\x00\x00\x89\x50\x00\x00\xd0\x49\x00\x00\xce\x4c\x00\x00\xb4\x49\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa4\x49\x00\x00\x9d\x49\x00\x00\x14\x00\x00\x00\x01\x00\x00\x00\x09\x00\x00\x00\x89\x50\x00\x00\x89\x50\x00\x00\x88\x49\x00\x00\xce\x4c\x00\x00\x64\x49\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x50\x49\x00\x00\x41\x49\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x0a\x00\x00\x00\x89\x50\x00\x00\x89\x50\x00\x00\x35\x49\x00\x00\x1e\x49\x00\x00\xfb\x48\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xe7\x48\x00\x00\xe0\x48\x00\x00\x0a\x00\x00\x00\x02\x00\x00\x00\x03\x00\x00\x00\x89\x50\x00\x00\x89\x50\x00\x00\xd3\x48\x00\x00\x1e\x49\x00\x00\xad\x48\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x96\x48\x00\x00\x8e\x48\x00\x00\x32\x00\x00\x00\x02\x00\x00\x00\x02\x00\x00\x00\x89\x50\x00\x00\x89\x50\x00\x00\x80\x48\x00\x00\x1e\x49\x00\x00\x5d\x48\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x49\x48\x00\x00\x40\x48\x00\x00\x05\x00\x00\x00\x02\x00\x00\x00\x04\x00\x00\x00\x89\x50\x00\x00\x89\x50\x00\x00\x35\x48\x00\x00\x1e\x49\x00\x00\x13\x48\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x48\x00\x00\xfa\x47\x00\x00\x1e\x00\x00\x00\x02\x00\x00\x00\x08\x00\x00\x00\x89\x50\x00\x00\x89\x50\x00\x00\xeb\x47\x00\x00\x1e\x49\x00\x00\xc6\x47\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xb0\x47\x00\x00\xa6\x47\x00\x00\x3c\x00\x00\x00\x02\x00\x00\x00\x06\x00\x00\x00\x89\x50\x00\x00\x89\x50\x00\x00\x99\x47\x00\x00\x1e\x49\x00\x00\x77\x47\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x64\x47\x00\x00\x5c\x47\x00\x00\x05\x00\x00\x00\x02\x00\x00\x00\x05\x00\x00\x00\x89\x50\x00\x00\x89\x50\x00\x00\x51\x47\x00\x00\x1e\x49\x00\x00\x2e\x47\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x1a\x47\x00\x00\x14\x47\x00\x00\x0a\x00\x00\x00\x02\x00\x00\x00\x07\x00\x00\x00\x89\x50\x00\x00\x89\x50\x00\x00\x0b\x47\x00\x00\x1e\x49\x00\x00\xec\x46\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xdc\x46\x00\x00\xd3\x46\x00\x00\x0f\x00\x00\x00\x02\x00\x00\x00\x09\x00\x00\x00\x89\x50\x00\x00\x89\x50\x00\x00\xbf\x46\x00\x00\xa6\x46\x00\x00\x7e\x46\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x6d\x46\x00\x00\x59\x46\x00\x00\x3c\x00\x00\x00\x06\x00\x00\x00\x01\x00\x00\x00\x89\x50\x00\x00\x89\x50\x00\x00\x49\x46\x00\x00\xa6\x46\x00\x00\x25\x46\x00\x00\xfa\x45\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xed\x45\x00\x00\xe6\x45\x00\x00\x3c\x00\x00\x00\x06\x00\x00\x00\x02\x00\x00\x00\x89\x50\x00\x00\xcb\x45\x00\x00\xc1\x45\x00\x00\xa6\x45\x00\x00\x85\x45\x00\x00\x5f\x45\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x54\x45\x00\x00\x48\x45\x00\x00\x1e\x00\x00\x00\x05\x00\x00\x00\x01\x00\x00\x00\x89\x50\x00\x00\x18\x45\x00\x00\x0c\x45\x00\x00\xf4\x44\x00\x00\xd1\x44\x00\x00\xa9\x44\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x98\x44\x00\x00\x8c\x44\x00\x00\x1e\x00\x00\x00\x05\x00\x00\x00\x02\x00\x00\x00\x89\x50\x00\x00\x5c\x44\x00\x00\x51\x44\x00\x00\x3b\x44\x00\x00\x19\x44\x00\x00\xf2\x43\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xe6\x43\x00\x00\xe0\x43\x00\x00\x1e\x00\x00\x00\x05\x00\x00\x00\x03\x00\x00\x00\x89\x50\x00\x00\x89\x50\x00\x00\xd5\x43\x00\x00\xb8\x43\x00\x00\x96\x43\x00\x00\x6f\x43\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x63\x43\x00\x00\x56\x43\x00\x00\x1e\x00\x00\x00\x05\x00\x00\x00\x04\x00\x00\x00\x89\x50\x00\x00\x89\x50\x00\x00\x4b\x43\x00\x00\x2e\x43\x00\x00\x0c\x43\x00\x00\xe5\x42\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xd9\x42\x00\x00\xcc\x42\x00\x00\x1e\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x89\x50\x00\x00\xb6\x42\x00\x00\xaa\x42\x00\x00\x93\x42\x00\x00\x70\x42\x00\x00\x48\x42\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x3b\x42\x00\x00\x34\x42\x00\x00\x3c\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x89\x50\x00\x00\x93\x42\x00\x00\x23\x42\x00\x00\x00\x00\x00\x00\x0b\x42\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xfa\x41\x00\x00\xf1\x41\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x07\x00\x00\x00\x89\x50\x00\x00\x89\x50\x00\x00\xdf\x41\x00\x00\x00\x00\x00\x00\xc7\x41\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xb6\x41\x00\x00\xac\x41\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\x89\x50\x00\x00\x89\x50\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00";
-char	bg_numItems[88] = "\x24\x00\x00\x00\x4e\x10\x00\x00\x62\x0f\x00\x00\x66\x0f\x00\x00\x7d\x0f\x00\x00\x96\x0f\x00\x00\xd5\x0f\x00\x00\x3f\x10\x00\x00\x55\x10\x00\x00\xd9\x0f\x00\x00\x73\x10\x00\x00\x73\x10\x00\x00\x7c\x10\x00\x00\x1c\x11\x00\x00\xc2\x10\x00\x00\x84\x11\x00\x00\x05\x12\x00\x00\x05\x12\x00\x00\x21\x12\x00\x00\x7c\x12\x00\x00\x2a\x12\x00\x00\xb3\x12\x00\x00"; // Used by: CG_RegisterItemVisuals, CG_EntityEvent, CG_Item, BG_CanItemBeGrabbed, BG_FindItemForHoldable, BG_FindItemForPowerup, CG_RegisterGraphics, CG_RegisterSounds
+int		bg_numItems = 36; // Used by: CG_RegisterItemVisuals, CG_EntityEvent, CG_Item, BG_CanItemBeGrabbed, BG_FindItemForHoldable, BG_FindItemForPowerup, CG_RegisterGraphics, CG_RegisterSounds
+char	global_d14[84] = "\x4e\x10\x00\x00\x62\x0f\x00\x00\x66\x0f\x00\x00\x7d\x0f\x00\x00\x96\x0f\x00\x00\xd5\x0f\x00\x00\x3f\x10\x00\x00\x55\x10\x00\x00\xd9\x0f\x00\x00\x73\x10\x00\x00\x73\x10\x00\x00\x7c\x10\x00\x00\x1c\x11\x00\x00\xc2\x10\x00\x00\x84\x11\x00\x00\x05\x12\x00\x00\x05\x12\x00\x00\x21\x12\x00\x00\x7c\x12\x00\x00\x2a\x12\x00\x00\xb3\x12\x00\x00";
 char	eventnames[332] = "\xcf\x40\x00\x00\xc3\x40\x00\x00\xb1\x40\x00\x00\xa3\x40\x00\x00\x97\x40\x00\x00\x8f\x40\x00\x00\x85\x40\x00\x00\x7b\x40\x00\x00\x70\x40\x00\x00\x65\x40\x00\x00\x57\x40\x00\x00\x48\x40\x00\x00\x3c\x40\x00\x00\x30\x40\x00\x00\x28\x40\x00\x00\x19\x40\x00\x00\x0a\x40\x00\x00\xfb\x3f\x00\x00\xec\x3f\x00\x00\xdd\x3f\x00\x00\xc7\x3f\x00\x00\xbd\x3f\x00\x00\xac\x3f\x00\x00\x9d\x3f\x00\x00\x90\x3f\x00\x00\x83\x3f\x00\x00\x76\x3f\x00\x00\x69\x3f\x00\x00\x5c\x3f\x00\x00\x4f\x3f\x00\x00\x42\x3f\x00\x00\x35\x3f\x00\x00\x28\x3f\x00\x00\x1b\x3f\x00\x00\x0d\x3f\x00\x00\xff\x3e\x00\x00\xf1\x3e\x00\x00\xe3\x3e\x00\x00\xd5\x3e\x00\x00\xc7\x3e\x00\x00\xb7\x3e\x00\x00\xab\x3e\x00\x00\x95\x3e\x00\x00\x7e\x3e\x00\x00\x6c\x3e\x00\x00\x5b\x3e\x00\x00\x4b\x3e\x00\x00\x36\x3e\x00\x00\x22\x3e\x00\x00\x0f\x3e\x00\x00\x00\x3e\x00\x00\xf0\x3d\x00\x00\xda\x3d\x00\x00\xcd\x3d\x00\x00\xc2\x3d\x00\x00\xb8\x3d\x00\x00\xb0\x3d\x00\x00\xa6\x3d\x00\x00\x9c\x3d\x00\x00\x92\x3d\x00\x00\x86\x3d\x00\x00\x76\x3d\x00\x00\x60\x3d\x00\x00\x4f\x3d\x00\x00\x41\x3d\x00\x00\x34\x3d\x00\x00\x1c\x3d\x00\x00\x02\x3d\x00\x00\xf6\x3c\x00\x00\xe4\x3c\x00\x00\xd5\x3c\x00\x00\xc5\x3c\x00\x00\xbb\x3c\x00\x00\xaa\x3c\x00\x00\x9c\x3c\x00\x00\x88\x3c\x00\x00\x7f\x3c\x00\x00\x72\x3c\x00\x00\x66\x3c\x00\x00\x54\x3c\x00\x00\x43\x3c\x00\x00\x30\x3c\x00\x00\x20\x3c\x00\x00";
 int		pm_stopspeed = 1120403456; // Used by: PM_NoclipMove, PM_Friction
 int		pm_duckScale = 1048576000; // Used by: PM_WalkMove
@@ -27,10 +30,13 @@ int		pm_friction = 1086324736; // Used by: PM_NoclipMove, PM_Friction
 int		pm_waterfriction = 1065353216; // Used by: PM_Friction
 int		pm_flightfriction = 1077936128; // Used by: PM_Friction
 int		pm_spectatorfriction = 1084227584; // Used by: PM_Friction
-char	c_pmove[44] = "\x00\x00\x00\x00\xbc\x2f\x00\x00\xcb\x2f\x00\x00\xc6\x2f\x00\x00\xd0\x2f\x00\x00\xd5\x2f\x00\x00\xc1\x2f\x00\x00\xdf\x2f\x00\x00\xda\x2f\x00\x00\xe4\x2f\x00\x00\xe9\x2f\x00\x00"; // Used by: PM_StepSlideMove, PM_GroundTrace, PM_GroundTraceMissed, PM_CorrectAllSolid
-char	randSeed[128] = "\x00\x00\x00\x00\xc9\x49\x00\x00\xfb\x49\x00\x00\x9c\x4a\x00\x00\xf5\x4a\x00\x00\x13\x4b\x00\x00\x73\x4b\x00\x00\xde\x4b\x00\x00\x00\x4c\x00\x00\x68\x50\x00\x00\x23\x4f\x00\x00\x39\x4c\x00\x00\x8b\x4e\x00\x00\x3c\x4e\x00\x00\xda\x4e\x00\x00\x43\x50\x00\x00\x39\x4c\x00\x00\x43\x50\x00\x00\x43\x50\x00\x00\x43\x50\x00\x00\x43\x50\x00\x00\xaf\x4f\x00\x00\xb3\x4c\x00\x00\x7b\x4f\x00\x00\x43\x50\x00\x00\x43\x50\x00\x00\x49\x4f\x00\x00\x43\x50\x00\x00\x34\x4d\x00\x00\x43\x50\x00\x00\x34\x50\x00\x00\xbb\x4d\x00\x00"; // Used by: srand
+int		c_pmove = 0; // Used by: PM_StepSlideMove, PM_GroundTrace, PM_GroundTraceMissed, PM_CorrectAllSolid
+char	global_ee4[40] = "\xbc\x2f\x00\x00\xcb\x2f\x00\x00\xc6\x2f\x00\x00\xd0\x2f\x00\x00\xd5\x2f\x00\x00\xc1\x2f\x00\x00\xdf\x2f\x00\x00\xda\x2f\x00\x00\xe4\x2f\x00\x00\xe9\x2f\x00\x00";
+int		randSeed = 0; // Used by: srand
+char	global_f10[124] = "\xc9\x49\x00\x00\xfb\x49\x00\x00\x9c\x4a\x00\x00\xf5\x4a\x00\x00\x13\x4b\x00\x00\x73\x4b\x00\x00\xde\x4b\x00\x00\x00\x4c\x00\x00\x68\x50\x00\x00\x23\x4f\x00\x00\x39\x4c\x00\x00\x8b\x4e\x00\x00\x3c\x4e\x00\x00\xda\x4e\x00\x00\x43\x50\x00\x00\x39\x4c\x00\x00\x43\x50\x00\x00\x43\x50\x00\x00\x43\x50\x00\x00\x43\x50\x00\x00\xaf\x4f\x00\x00\xb3\x4c\x00\x00\x7b\x4f\x00\x00\x43\x50\x00\x00\x43\x50\x00\x00\x49\x4f\x00\x00\x43\x50\x00\x00\x34\x4d\x00\x00\x43\x50\x00\x00\x34\x50\x00\x00\xbb\x4d\x00\x00";
 char	commands[168] = "\x85\x52\x00\x00\x00\x41\x01\x00\x7b\x52\x00\x00\x75\x40\x01\x00\x71\x52\x00\x00\x12\x41\x01\x00\x67\x52\x00\x00\x28\x41\x01\x00\x5e\x52\x00\x00\x45\x41\x01\x00\x55\x52\x00\x00\x5b\x41\x01\x00\x4d\x52\x00\x00\xd8\x57\x00\x00\x45\x52\x00\x00\xf0\x57\x00\x00\x3d\x52\x00\x00\x12\x58\x00\x00\x37\x52\x00\x00\xea\x45\x01\x00\x31\x52\x00\x00\xfa\x45\x01\x00\x2a\x52\x00\x00\xac\x57\x00\x00\x21\x52\x00\x00\xc2\x57\x00\x00\x18\x52\x00\x00\x3d\x67\x01\x00\x0f\x52\x00\x00\x93\x67\x01\x00\x08\x52\x00\x00\xe9\x67\x01\x00\x03\x52\x00\x00\x7a\x57\x00\x00\xf7\x51\x00\x00\x20\x58\x00\x00\xe9\x51\x00\x00\x4b\x58\x00\x00\xde\x51\x00\x00\x76\x58\x00\x00\xd1\x51\x00\x00\x8d\x07\x01\x00";
-char	drawTeamOverlayModificationCount[180] = "\xff\xff\xff\xff\xba\x59\x00\x00\xde\x59\x00\x00\x02\x5a\x00\x00\x26\x5a\x00\x00\x00\x00\x80\x3f\xd7\xa3\x30\x3f\x00\x00\x00\x00\x00\x00\x80\x3f\x00\x00\x80\x3f\xcd\xcc\x4c\x3e\xcd\xcc\x4c\x3e\x00\x00\x80\x3f\x00\x00\x00\x3f\x00\x00\x00\x3f\x00\x00\x00\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\xcd\xcc\x4c\x3e\x00\x00\x80\x3f\xcd\xcc\x4c\x3e\x00\x00\x80\x3f\x00\x00\x80\x3f\xcd\xcc\x4c\x3e\xcd\xcc\x4c\x3e\x00\x00\x80\x3f\x00\x00\x80\x3f\xcd\xcc\x4c\x3e\xcd\xcc\x4c\x3e\x00\x00\x80\x3f\xcd\xcc\x4c\x3e\xcd\xcc\x4c\x3e\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x33\x33\x33\x3f\x33\x33\x33\x3f\x33\x33\x33\x3f\x00\x00\x80\x3f"; // Used by: CG_UpdateCvars
+int		drawTeamOverlayModificationCount = -1; // Used by: CG_UpdateCvars
+char	global_1038[176] = "\xba\x59\x00\x00\xde\x59\x00\x00\x02\x5a\x00\x00\x26\x5a\x00\x00\x00\x00\x80\x3f\xd7\xa3\x30\x3f\x00\x00\x00\x00\x00\x00\x80\x3f\x00\x00\x80\x3f\xcd\xcc\x4c\x3e\xcd\xcc\x4c\x3e\x00\x00\x80\x3f\x00\x00\x00\x3f\x00\x00\x00\x3f\x00\x00\x00\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\xcd\xcc\x4c\x3e\x00\x00\x80\x3f\xcd\xcc\x4c\x3e\x00\x00\x80\x3f\x00\x00\x80\x3f\xcd\xcc\x4c\x3e\xcd\xcc\x4c\x3e\x00\x00\x80\x3f\x00\x00\x80\x3f\xcd\xcc\x4c\x3e\xcd\xcc\x4c\x3e\x00\x00\x80\x3f\xcd\xcc\x4c\x3e\xcd\xcc\x4c\x3e\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x33\x33\x33\x3f\x33\x33\x33\x3f\x33\x33\x33\x3f\x00\x00\x80\x3f";
 char	propMap[1536] = "\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x0b\x00\x00\x00\x7a\x00\x00\x00\x07\x00\x00\x00\x9a\x00\x00\x00\xb5\x00\x00\x00\x0e\x00\x00\x00\x37\x00\x00\x00\x7a\x00\x00\x00\x11\x00\x00\x00\x4f\x00\x00\x00\x7a\x00\x00\x00\x12\x00\x00\x00\x65\x00\x00\x00\x7a\x00\x00\x00\x17\x00\x00\x00\x99\x00\x00\x00\x7a\x00\x00\x00\x12\x00\x00\x00\x09\x00\x00\x00\x5d\x00\x00\x00\x07\x00\x00\x00\xcf\x00\x00\x00\x7a\x00\x00\x00\x08\x00\x00\x00\xe6\x00\x00\x00\x7a\x00\x00\x00\x09\x00\x00\x00\xb1\x00\x00\x00\x7a\x00\x00\x00\x12\x00\x00\x00\x1e\x00\x00\x00\x98\x00\x00\x00\x12\x00\x00\x00\x55\x00\x00\x00\xb5\x00\x00\x00\x07\x00\x00\x00\x22\x00\x00\x00\x5d\x00\x00\x00\x0b\x00\x00\x00\x6e\x00\x00\x00\xb5\x00\x00\x00\x06\x00\x00\x00\x82\x00\x00\x00\x98\x00\x00\x00\x0e\x00\x00\x00\x16\x00\x00\x00\x40\x00\x00\x00\x11\x00\x00\x00\x29\x00\x00\x00\x40\x00\x00\x00\x0c\x00\x00\x00\x3a\x00\x00\x00\x40\x00\x00\x00\x11\x00\x00\x00\x4e\x00\x00\x00\x40\x00\x00\x00\x12\x00\x00\x00\x62\x00\x00\x00\x40\x00\x00\x00\x13\x00\x00\x00\x78\x00\x00\x00\x40\x00\x00\x00\x12\x00\x00\x00\x8d\x00\x00\x00\x40\x00\x00\x00\x12\x00\x00\x00\xcc\x00\x00\x00\x40\x00\x00\x00\x10\x00\x00\x00\xa2\x00\x00\x00\x40\x00\x00\x00\x11\x00\x00\x00\xb6\x00\x00\x00\x40\x00\x00\x00\x12\x00\x00\x00\x3b\x00\x00\x00\xb5\x00\x00\x00\x07\x00\x00\x00\x23\x00\x00\x00\xb5\x00\x00\x00\x07\x00\x00\x00\xcb\x00\x00\x00\x98\x00\x00\x00\x0e\x00\x00\x00\x38\x00\x00\x00\x5d\x00\x00\x00\x0e\x00\x00\x00\xe4\x00\x00\x00\x98\x00\x00\x00\x0e\x00\x00\x00\xb1\x00\x00\x00\xb5\x00\x00\x00\x12\x00\x00\x00\x1c\x00\x00\x00\x7a\x00\x00\x00\x16\x00\x00\x00\x05\x00\x00\x00\x04\x00\x00\x00\x12\x00\x00\x00\x1b\x00\x00\x00\x04\x00\x00\x00\x12\x00\x00\x00\x30\x00\x00\x00\x04\x00\x00\x00\x12\x00\x00\x00\x45\x00\x00\x00\x04\x00\x00\x00\x11\x00\x00\x00\x5a\x00\x00\x00\x04\x00\x00\x00\x0d\x00\x00\x00\x6a\x00\x00\x00\x04\x00\x00\x00\x0d\x00\x00\x00\x79\x00\x00\x00\x04\x00\x00\x00\x12\x00\x00\x00\x8f\x00\x00\x00\x04\x00\x00\x00\x11\x00\x00\x00\xa4\x00\x00\x00\x04\x00\x00\x00\x08\x00\x00\x00\xaf\x00\x00\x00\x04\x00\x00\x00\x10\x00\x00\x00\xc3\x00\x00\x00\x04\x00\x00\x00\x12\x00\x00\x00\xd8\x00\x00\x00\x04\x00\x00\x00\x0c\x00\x00\x00\xe6\x00\x00\x00\x04\x00\x00\x00\x17\x00\x00\x00\x06\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\x1b\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\x30\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\x44\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\x5a\x00\x00\x00\x22\x00\x00\x00\x11\x00\x00\x00\x6e\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\x82\x00\x00\x00\x22\x00\x00\x00\x0e\x00\x00\x00\x92\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\xa6\x00\x00\x00\x22\x00\x00\x00\x13\x00\x00\x00\xb9\x00\x00\x00\x22\x00\x00\x00\x1d\x00\x00\x00\xd7\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\xea\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\x05\x00\x00\x00\x40\x00\x00\x00\x0e\x00\x00\x00\x3c\x00\x00\x00\x98\x00\x00\x00\x07\x00\x00\x00\x6a\x00\x00\x00\x97\x00\x00\x00\x0d\x00\x00\x00\x53\x00\x00\x00\x98\x00\x00\x00\x07\x00\x00\x00\x80\x00\x00\x00\x7a\x00\x00\x00\x11\x00\x00\x00\x04\x00\x00\x00\x98\x00\x00\x00\x15\x00\x00\x00\x86\x00\x00\x00\xb5\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x04\x00\x00\x00\x12\x00\x00\x00\x1b\x00\x00\x00\x04\x00\x00\x00\x12\x00\x00\x00\x30\x00\x00\x00\x04\x00\x00\x00\x12\x00\x00\x00\x45\x00\x00\x00\x04\x00\x00\x00\x11\x00\x00\x00\x5a\x00\x00\x00\x04\x00\x00\x00\x0d\x00\x00\x00\x6a\x00\x00\x00\x04\x00\x00\x00\x0d\x00\x00\x00\x79\x00\x00\x00\x04\x00\x00\x00\x12\x00\x00\x00\x8f\x00\x00\x00\x04\x00\x00\x00\x11\x00\x00\x00\xa4\x00\x00\x00\x04\x00\x00\x00\x08\x00\x00\x00\xaf\x00\x00\x00\x04\x00\x00\x00\x10\x00\x00\x00\xc3\x00\x00\x00\x04\x00\x00\x00\x12\x00\x00\x00\xd8\x00\x00\x00\x04\x00\x00\x00\x0c\x00\x00\x00\xe6\x00\x00\x00\x04\x00\x00\x00\x17\x00\x00\x00\x06\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\x1b\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\x30\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\x44\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\x5a\x00\x00\x00\x22\x00\x00\x00\x11\x00\x00\x00\x6e\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\x82\x00\x00\x00\x22\x00\x00\x00\x0e\x00\x00\x00\x92\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\xa6\x00\x00\x00\x22\x00\x00\x00\x13\x00\x00\x00\xb9\x00\x00\x00\x22\x00\x00\x00\x1d\x00\x00\x00\xd7\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\xea\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\x05\x00\x00\x00\x40\x00\x00\x00\x0e\x00\x00\x00\x99\x00\x00\x00\x98\x00\x00\x00\x0d\x00\x00\x00\x0b\x00\x00\x00\xb5\x00\x00\x00\x05\x00\x00\x00\xb4\x00\x00\x00\x98\x00\x00\x00\x0d\x00\x00\x00\x4f\x00\x00\x00\x5d\x00\x00\x00\x11\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff";
 char	propMapB[496] = "\x0b\x00\x00\x00\x0c\x00\x00\x00\x21\x00\x00\x00\x31\x00\x00\x00\x0c\x00\x00\x00\x1f\x00\x00\x00\x55\x00\x00\x00\x0c\x00\x00\x00\x1f\x00\x00\x00\x78\x00\x00\x00\x0c\x00\x00\x00\x1e\x00\x00\x00\x9c\x00\x00\x00\x0c\x00\x00\x00\x15\x00\x00\x00\xb7\x00\x00\x00\x0c\x00\x00\x00\x15\x00\x00\x00\xcf\x00\x00\x00\x0c\x00\x00\x00\x20\x00\x00\x00\x0d\x00\x00\x00\x37\x00\x00\x00\x1e\x00\x00\x00\x31\x00\x00\x00\x37\x00\x00\x00\x0d\x00\x00\x00\x42\x00\x00\x00\x37\x00\x00\x00\x1d\x00\x00\x00\x65\x00\x00\x00\x37\x00\x00\x00\x1f\x00\x00\x00\x87\x00\x00\x00\x37\x00\x00\x00\x15\x00\x00\x00\x9e\x00\x00\x00\x37\x00\x00\x00\x28\x00\x00\x00\xcc\x00\x00\x00\x37\x00\x00\x00\x20\x00\x00\x00\x0c\x00\x00\x00\x61\x00\x00\x00\x1f\x00\x00\x00\x30\x00\x00\x00\x61\x00\x00\x00\x1f\x00\x00\x00\x52\x00\x00\x00\x61\x00\x00\x00\x1e\x00\x00\x00\x76\x00\x00\x00\x61\x00\x00\x00\x1e\x00\x00\x00\x99\x00\x00\x00\x61\x00\x00\x00\x1e\x00\x00\x00\xb9\x00\x00\x00\x61\x00\x00\x00\x19\x00\x00\x00\xd5\x00\x00\x00\x61\x00\x00\x00\x1e\x00\x00\x00\x0b\x00\x00\x00\x8b\x00\x00\x00\x20\x00\x00\x00\x2a\x00\x00\x00\x8b\x00\x00\x00\x33\x00\x00\x00\x5d\x00\x00\x00\x8b\x00\x00\x00\x20\x00\x00\x00\x7e\x00\x00\x00\x8b\x00\x00\x00\x1f\x00\x00\x00\x9e\x00\x00\x00\x8b\x00\x00\x00\x19\x00\x00\x00\x92\x00\x00\x00\x6f\x9d\x00\x00\x77\x9d\x00\x00\x7f\x9d\x00\x00\x87\x9d\x00\x00\x8f\x9d\x00\x00\x97\x9d\x00\x00\x9f\x9d\x00\x00\xa7\x9d\x00\x00\xbd\x9d\x00\x00\xbd\x9d\x00\x00\xbd\x9d\x00\x00\xaf\x9d\x00\x00\xb7\x9d\x00\x00\xb6\x9f\x00\x00\xbb\x9f\x00\x00\xc0\x9f\x00\x00\xb1\x9f\x00\x00\xcf\x9f\x00\x00\xac\x9f\x00\x00\xa7\x9f\x00\x00\xc5\x9f\x00\x00\xca\x9f\x00\x00\x0b\xa1\x00\x00\x01\xa1\x00\x00\x06\xa1\x00\x00\x10\xa1\x00\x00\x18\xa1\x00\x00\x20\xa1\x00\x00\x28\xa1\x00\x00\x30\xa1\x00\x00\x38\xa1\x00\x00\x40\xa1\x00\x00\x45\xa1\x00\x00\x4a\xa1\x00\x00\x4a\xa1\x00\x00\x5a\xa1\x00\x00\x5a\xa1\x00\x00\x5a\xa1\x00\x00\x5a\xa1\x00\x00\x52\xa1\x00\x00\x5a\xa1\x00\x00\x5a\xa1\x00\x00\x5a\xa1\x00\x00\x5a\xa1\x00\x00\xfc\xa0\x00\x00";
 char	global_18d8[12] = "\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80\x3f"; // Used by: CG_EntityEvent
@@ -64,181 +70,266 @@ char	colorMdGrey[16] = "\x00\x00\x00\x3f\x00\x00\x00\x3f\x00\x00\x00\x3f\x00\x00
 char	colorDkGrey[16] = "\x00\x00\x80\x3e\x00\x00\x80\x3e\x00\x00\x80\x3e\x00\x00\x80\x3f";
 char	g_color_table[128] = "\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80\x3f\x00\x00\x00\x00\x00\x00\x80\x3f\x00\x00\x00\x00\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x00\x00\x00\x00\x80\x3f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x00\x00\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x00\x00\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f";
 char	bytedirs[1948] = "\x4f\x96\x06\xbf\x00\x00\x00\x00\x44\xc4\x59\x3f\xf0\xbe\xe2\xbe\xab\x96\x74\x3e\x6d\x3b\x5d\x3f\xf6\x29\x97\xbe\x00\x00\x00\x00\x9a\x96\x74\x3f\x7a\x37\x9e\xbe\x00\x00\x00\x3f\xbd\x1b\x4f\x3f\xea\x5b\x26\xbe\x5f\x96\x86\x3e\x68\x78\x73\x3f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80\x3f\x00\x00\x00\x00\x44\xc4\x59\x3f\x4f\x96\x06\x3f\xf6\x29\x17\xbe\xef\x70\x37\x3f\x12\x85\x2e\x3f\xf6\x29\x17\x3e\xef\x70\x37\x3f\x12\x85\x2e\x3f\x00\x00\x00\x00\x4f\x96\x06\x3f\x44\xc4\x59\x3f\x7a\x37\x9e\x3e\x00\x00\x00\x3f\xbd\x1b\x4f\x3f\x4f\x96\x06\x3f\x00\x00\x00\x00\x44\xc4\x59\x3f\xf6\x29\x97\x3e\x00\x00\x00\x00\x9a\x96\x74\x3f\xf0\xbe\xe2\x3e\xab\x96\x74\x3e\x6d\x3b\x5d\x3f\xea\x5b\x26\x3e\x5f\x96\x86\x3e\x68\x78\x73\x3f\x12\x85\x2e\xbf\xf6\x29\x17\x3e\xef\x70\x37\x3f\xbd\x1b\x4f\xbf\x7a\x37\x9e\x3e\x00\x00\x00\x3f\x14\x79\x16\xbf\x33\xc4\xd9\x3e\x49\x2d\x30\x3f\x44\xc4\x59\xbf\x4f\x96\x06\x3f\x00\x00\x00\x00\x6d\x3b\x5d\xbf\xf0\xbe\xe2\x3e\xab\x96\x74\x3e\xef\x70\x37\xbf\x12\x85\x2e\x3f\xf6\x29\x17\x3e\x49\x2d\x30\xbf\x14\x79\x16\x3f\x33\xc4\xd9\x3e\x00\x00\x00\xbf\xbd\x1b\x4f\x3f\x7a\x37\x9e\x3e\xab\x96\x74\xbe\x6d\x3b\x5d\x3f\xf0\xbe\xe2\x3e\x33\xc4\xd9\xbe\x49\x2d\x30\x3f\x14\x79\x16\x3f\xef\x70\x37\xbf\x12\x85\x2e\x3f\xf6\x29\x17\xbe\x00\x00\x00\xbf\xbd\x1b\x4f\x3f\x7a\x37\x9e\xbe\x4f\x96\x06\xbf\x44\xc4\x59\x3f\x00\x00\x00\x00\x00\x00\x00\x00\x44\xc4\x59\x3f\x4f\x96\x06\xbf\xab\x96\x74\xbe\x6d\x3b\x5d\x3f\xf0\xbe\xe2\xbe\x00\x00\x00\x00\x9a\x96\x74\x3f\xf6\x29\x97\xbe\x5f\x96\x86\xbe\x68\x78\x73\x3f\xea\x5b\x26\xbe\x00\x00\x00\x00\x00\x00\x80\x3f\x00\x00\x00\x00\x00\x00\x00\x00\x9a\x96\x74\x3f\xf6\x29\x97\x3e\x5f\x96\x86\xbe\x68\x78\x73\x3f\xea\x5b\x26\x3e\xab\x96\x74\x3e\x6d\x3b\x5d\x3f\xf0\xbe\xe2\x3e\x5f\x96\x86\x3e\x68\x78\x73\x3f\xea\x5b\x26\x3e\x00\x00\x00\x3f\xbd\x1b\x4f\x3f\x7a\x37\x9e\x3e\xab\x96\x74\x3e\x6d\x3b\x5d\x3f\xf0\xbe\xe2\xbe\x5f\x96\x86\x3e\x68\x78\x73\x3f\xea\x5b\x26\xbe\x00\x00\x00\x3f\xbd\x1b\x4f\x3f\x7a\x37\x9e\xbe\x44\xc4\x59\x3f\x4f\x96\x06\x3f\x00\x00\x00\x00\xef\x70\x37\x3f\x12\x85\x2e\x3f\xf6\x29\x17\x3e\xef\x70\x37\x3f\x12\x85\x2e\x3f\xf6\x29\x17\xbe\x4f\x96\x06\x3f\x44\xc4\x59\x3f\x00\x00\x00\x00\x33\xc4\xd9\x3e\x49\x2d\x30\x3f\x14\x79\x16\x3f\x6d\x3b\x5d\x3f\xf0\xbe\xe2\x3e\xab\x96\x74\x3e\x49\x2d\x30\x3f\x14\x79\x16\x3f\x33\xc4\xd9\x3e\xbd\x1b\x4f\x3f\x7a\x37\x9e\x3e\x00\x00\x00\x3f\x12\x85\x2e\x3f\xf6\x29\x17\x3e\xef\x70\x37\x3f\x14\x79\x16\x3f\x33\xc4\xd9\x3e\x49\x2d\x30\x3f\x9a\x96\x74\x3f\xf6\x29\x97\x3e\x00\x00\x00\x00\x00\x00\x80\x3f\x00\x00\x00\x00\x00\x00\x00\x00\x68\x78\x73\x3f\xea\x5b\x26\x3e\x5f\x96\x86\x3e\x44\xc4\x59\x3f\x4f\x96\x06\xbf\x00\x00\x00\x00\x9a\x96\x74\x3f\xf6\x29\x97\xbe\x00\x00\x00\x00\x6d\x3b\x5d\x3f\xf0\xbe\xe2\xbe\xab\x96\x74\x3e\x68\x78\x73\x3f\xea\x5b\x26\xbe\x5f\x96\x86\x3e\xbd\x1b\x4f\x3f\x7a\x37\x9e\xbe\x00\x00\x00\x3f\x12\x85\x2e\x3f\xf6\x29\x17\xbe\xef\x70\x37\x3f\x44\xc4\x59\x3f\x00\x00\x00\x00\x4f\x96\x06\x3f\x6d\x3b\x5d\x3f\xf0\xbe\xe2\x3e\xab\x96\x74\xbe\xbd\x1b\x4f\x3f\x7a\x37\x9e\x3e\x00\x00\x00\xbf\x68\x78\x73\x3f\xea\x5b\x26\x3e\x5f\x96\x86\xbe\x4f\x96\x06\x3f\x00\x00\x00\x00\x44\xc4\x59\xbf\x12\x85\x2e\x3f\xf6\x29\x17\x3e\xef\x70\x37\xbf\x12\x85\x2e\x3f\xf6\x29\x17\xbe\xef\x70\x37\xbf\x44\xc4\x59\x3f\x00\x00\x00\x00\x4f\x96\x06\xbf\xbd\x1b\x4f\x3f\x7a\x37\x9e\xbe\x00\x00\x00\xbf\x6d\x3b\x5d\x3f\xf0\xbe\xe2\xbe\xab\x96\x74\xbe\x68\x78\x73\x3f\xea\x5b\x26\xbe\x5f\x96\x86\xbe\xf6\x29\x17\x3e\xef\x70\x37\x3f\x12\x85\x2e\xbf\x7a\x37\x9e\x3e\x00\x00\x00\x3f\xbd\x1b\x4f\xbf\x33\xc4\xd9\x3e\x49\x2d\x30\x3f\x14\x79\x16\xbf\xf0\xbe\xe2\x3e\xab\x96\x74\x3e\x6d\x3b\x5d\xbf\x14\x79\x16\x3f\x33\xc4\xd9\x3e\x49\x2d\x30\xbf\x49\x2d\x30\x3f\x14\x79\x16\x3f\x33\xc4\xd9\xbe\xf6\x29\x17\xbe\xef\x70\x37\x3f\x12\x85\x2e\xbf\x7a\x37\x9e\xbe\x00\x00\x00\x3f\xbd\x1b\x4f\xbf\x00\x00\x00\x00\x4f\x96\x06\x3f\x44\xc4\x59\xbf\x4f\x96\x06\xbf\x00\x00\x00\x00\x44\xc4\x59\xbf\xf0\xbe\xe2\xbe\xab\x96\x74\x3e\x6d\x3b\x5d\xbf\xf6\x29\x97\xbe\x00\x00\x00\x00\x9a\x96\x74\xbf\xea\x5b\x26\xbe\x5f\x96\x86\x3e\x68\x78\x73\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80\xbf\xf6\x29\x97\x3e\x00\x00\x00\x00\x9a\x96\x74\xbf\xea\x5b\x26\x3e\x5f\x96\x86\x3e\x68\x78\x73\xbf\xf0\xbe\xe2\xbe\xab\x96\x74\xbe\x6d\x3b\x5d\xbf\x7a\x37\x9e\xbe\x00\x00\x00\xbf\xbd\x1b\x4f\xbf\xea\x5b\x26\xbe\x5f\x96\x86\xbe\x68\x78\x73\xbf\x00\x00\x00\x00\x44\xc4\x59\xbf\x4f\x96\x06\xbf\xf6\x29\x17\xbe\xef\x70\x37\xbf\x12\x85\x2e\xbf\xf6\x29\x17\x3e\xef\x70\x37\xbf\x12\x85\x2e\xbf\x00\x00\x00\x00\x4f\x96\x06\xbf\x44\xc4\x59\xbf\x7a\x37\x9e\x3e\x00\x00\x00\xbf\xbd\x1b\x4f\xbf\xf0\xbe\xe2\x3e\xab\x96\x74\xbe\x6d\x3b\x5d\xbf\xea\x5b\x26\x3e\x5f\x96\x86\xbe\x68\x78\x73\xbf\xab\x96\x74\x3e\x6d\x3b\x5d\xbf\xf0\xbe\xe2\xbe\x00\x00\x00\x3f\xbd\x1b\x4f\xbf\x7a\x37\x9e\xbe\x33\xc4\xd9\x3e\x49\x2d\x30\xbf\x14\x79\x16\xbf\xef\x70\x37\x3f\x12\x85\x2e\xbf\xf6\x29\x17\xbe\x49\x2d\x30\x3f\x14\x79\x16\xbf\x33\xc4\xd9\xbe\x14\x79\x16\x3f\x33\xc4\xd9\xbe\x49\x2d\x30\xbf\x00\x00\x00\x00\x9a\x96\x74\xbf\xf6\x29\x97\xbe\x00\x00\x00\x00\x00\x00\x80\xbf\x00\x00\x00\x00\x5f\x96\x86\x3e\x68\x78\x73\xbf\xea\x5b\x26\xbe\x00\x00\x00\x00\x44\xc4\x59\xbf\x4f\x96\x06\x3f\x00\x00\x00\x00\x9a\x96\x74\xbf\xf6\x29\x97\x3e\xab\x96\x74\x3e\x6d\x3b\x5d\xbf\xf0\xbe\xe2\x3e\x5f\x96\x86\x3e\x68\x78\x73\xbf\xea\x5b\x26\x3e\x00\x00\x00\x3f\xbd\x1b\x4f\xbf\x7a\x37\x9e\x3e\xef\x70\x37\x3f\x12\x85\x2e\xbf\xf6\x29\x17\x3e\x4f\x96\x06\x3f\x44\xc4\x59\xbf\x00\x00\x00\x00\xab\x96\x74\xbe\x6d\x3b\x5d\xbf\xf0\xbe\xe2\xbe\x00\x00\x00\xbf\xbd\x1b\x4f\xbf\x7a\x37\x9e\xbe\x5f\x96\x86\xbe\x68\x78\x73\xbf\xea\x5b\x26\xbe\x44\xc4\x59\xbf\x4f\x96\x06\xbf\x00\x00\x00\x00\xef\x70\x37\xbf\x12\x85\x2e\xbf\xf6\x29\x17\xbe\xef\x70\x37\xbf\x12\x85\x2e\xbf\xf6\x29\x17\x3e\x4f\x96\x06\xbf\x44\xc4\x59\xbf\x00\x00\x00\x00\x00\x00\x00\xbf\xbd\x1b\x4f\xbf\x7a\x37\x9e\x3e\xab\x96\x74\xbe\x6d\x3b\x5d\xbf\xf0\xbe\xe2\x3e\x5f\x96\x86\xbe\x68\x78\x73\xbf\xea\x5b\x26\x3e\x6d\x3b\x5d\xbf\xf0\xbe\xe2\xbe\xab\x96\x74\x3e\xbd\x1b\x4f\xbf\x7a\x37\x9e\xbe\x00\x00\x00\x3f\x49\x2d\x30\xbf\x14\x79\x16\xbf\x33\xc4\xd9\x3e\x12\x85\x2e\xbf\xf6\x29\x17\xbe\xef\x70\x37\x3f\xf0\xbe\xe2\xbe\xab\x96\x74\xbe\x6d\x3b\x5d\x3f\x14\x79\x16\xbf\x33\xc4\xd9\xbe\x49\x2d\x30\x3f\x7a\x37\x9e\xbe\x00\x00\x00\xbf\xbd\x1b\x4f\x3f\xf6\x29\x17\xbe\xef\x70\x37\xbf\x12\x85\x2e\x3f\x33\xc4\xd9\xbe\x49\x2d\x30\xbf\x14\x79\x16\x3f\xea\x5b\x26\xbe\x5f\x96\x86\xbe\x68\x78\x73\x3f\xf0\xbe\xe2\x3e\xab\x96\x74\xbe\x6d\x3b\x5d\x3f\xea\x5b\x26\x3e\x5f\x96\x86\xbe\x68\x78\x73\x3f\x7a\x37\x9e\x3e\x00\x00\x00\xbf\xbd\x1b\x4f\x3f\xf6\x29\x17\x3e\xef\x70\x37\xbf\x12\x85\x2e\x3f\x00\x00\x00\x00\x4f\x96\x06\xbf\x44\xc4\x59\x3f\x33\xc4\xd9\x3e\x49\x2d\x30\xbf\x14\x79\x16\x3f\x14\x79\x16\x3f\x33\xc4\xd9\xbe\x49\x2d\x30\x3f\x49\x2d\x30\x3f\x14\x79\x16\xbf\x33\xc4\xd9\x3e\x9a\x96\x74\xbf\xf6\x29\x97\x3e\x00\x00\x00\x00\x68\x78\x73\xbf\xea\x5b\x26\x3e\x5f\x96\x86\x3e\x00\x00\x80\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x44\xc4\x59\xbf\x00\x00\x00\x00\x4f\x96\x06\x3f\x9a\x96\x74\xbf\xf6\x29\x97\xbe\x00\x00\x00\x00\x68\x78\x73\xbf\xea\x5b\x26\xbe\x5f\x96\x86\x3e\x6d\x3b\x5d\xbf\xf0\xbe\xe2\x3e\xab\x96\x74\xbe\x68\x78\x73\xbf\xea\x5b\x26\x3e\x5f\x96\x86\xbe\xbd\x1b\x4f\xbf\x7a\x37\x9e\x3e\x00\x00\x00\xbf\x6d\x3b\x5d\xbf\xf0\xbe\xe2\xbe\xab\x96\x74\xbe\x68\x78\x73\xbf\xea\x5b\x26\xbe\x5f\x96\x86\xbe\xbd\x1b\x4f\xbf\x7a\x37\x9e\xbe\x00\x00\x00\xbf\x12\x85\x2e\xbf\xf6\x29\x17\x3e\xef\x70\x37\xbf\x12\x85\x2e\xbf\xf6\x29\x17\xbe\xef\x70\x37\xbf\x44\xc4\x59\xbf\x00\x00\x00\x00\x4f\x96\x06\xbf\x49\x2d\x30\xbf\x14\x79\x16\x3f\x33\xc4\xd9\xbe\x14\x79\x16\xbf\x33\xc4\xd9\x3e\x49\x2d\x30\xbf\x33\xc4\xd9\xbe\x49\x2d\x30\x3f\x14\x79\x16\xbf\x33\xc4\xd9\xbe\x49\x2d\x30\xbf\x14\x79\x16\xbf\x14\x79\x16\xbf\x33\xc4\xd9\xbe\x49\x2d\x30\xbf\x49\x2d\x30\xbf\x14\x79\x16\xbf\x33\xc4\xd9\xbe\x00\x00\x00\x00";
-char	global_2658[9912] = "\x00\x00\x00\x00\x00\x63\x6c\x69\x65\x6e\x74\x73\x00\x67\x72\x61\x70\x68\x69\x63\x73\x00\x73\x6f\x75\x6e\x64\x73\x00\x63\x6f\x6c\x6c\x69\x73\x69\x6f\x6e\x20\x6d\x61\x70\x00\x43\x6c\x69\x65\x6e\x74\x2f\x53\x65\x72\x76\x65\x72\x20\x67\x61\x6d\x65\x20\x6d\x69\x73\x6d\x61\x74\x63\x68\x3a\x20\x25\x73\x2f\x25\x73\x00\x62\x61\x73\x65\x71\x33\x2d\x31\x00\x6d\x65\x6e\x75\x2f\x61\x72\x74\x2f\x66\x6f\x6e\x74\x32\x5f\x70\x72\x6f\x70\x2e\x74\x67\x61\x00\x6d\x65\x6e\x75\x2f\x61\x72\x74\x2f\x66\x6f\x6e\x74\x31\x5f\x70\x72\x6f\x70\x5f\x67\x6c\x6f\x2e\x74\x67\x61\x00\x6d\x65\x6e\x75\x2f\x61\x72\x74\x2f\x66\x6f\x6e\x74\x31\x5f\x70\x72\x6f\x70\x2e\x74\x67\x61\x00\x77\x68\x69\x74\x65\x00\x67\x66\x78\x2f\x32\x64\x2f\x62\x69\x67\x63\x68\x61\x72\x73\x00\x43\x47\x5f\x43\x6f\x6e\x66\x69\x67\x53\x74\x72\x69\x6e\x67\x3a\x20\x62\x61\x64\x20\x69\x6e\x64\x65\x78\x3a\x20\x25\x69\x00\x25\x73\x20\x20\x20\x20\x20\x00\x2a\x25\x69\x00\x62\x6c\x6f\x6f\x64\x4d\x61\x72\x6b\x00\x77\x61\x6b\x65\x00\x6d\x61\x72\x6b\x53\x68\x61\x64\x6f\x77\x00\x67\x66\x78\x2f\x64\x61\x6d\x61\x67\x65\x2f\x70\x6c\x61\x73\x6d\x61\x5f\x6d\x72\x6b\x00\x67\x66\x78\x2f\x64\x61\x6d\x61\x67\x65\x2f\x68\x6f\x6c\x65\x5f\x6c\x67\x5f\x6d\x72\x6b\x00\x67\x66\x78\x2f\x64\x61\x6d\x61\x67\x65\x2f\x62\x75\x72\x6e\x5f\x6d\x65\x64\x5f\x6d\x72\x6b\x00\x67\x66\x78\x2f\x64\x61\x6d\x61\x67\x65\x2f\x62\x75\x6c\x6c\x65\x74\x5f\x6d\x72\x6b\x00\x6d\x65\x64\x61\x6c\x5f\x63\x61\x70\x74\x75\x72\x65\x00\x6d\x65\x64\x61\x6c\x5f\x61\x73\x73\x69\x73\x74\x00\x6d\x65\x64\x61\x6c\x5f\x64\x65\x66\x65\x6e\x64\x00\x6d\x65\x64\x61\x6c\x5f\x67\x61\x75\x6e\x74\x6c\x65\x74\x00\x6d\x65\x64\x61\x6c\x5f\x65\x78\x63\x65\x6c\x6c\x65\x6e\x74\x00\x6d\x65\x64\x61\x6c\x5f\x69\x6d\x70\x72\x65\x73\x73\x69\x76\x65\x00\x74\x65\x6c\x65\x70\x6f\x72\x74\x45\x66\x66\x65\x63\x74\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x6d\x69\x73\x63\x2f\x74\x65\x6c\x65\x70\x2e\x6d\x64\x33\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x77\x65\x61\x70\x68\x69\x74\x73\x2f\x62\x6f\x6f\x6d\x30\x31\x2e\x6d\x64\x33\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x77\x65\x61\x70\x68\x69\x74\x73\x2f\x72\x69\x6e\x67\x30\x32\x2e\x6d\x64\x33\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x77\x65\x61\x70\x68\x69\x74\x73\x2f\x62\x75\x6c\x6c\x65\x74\x2e\x6d\x64\x33\x00\x62\x6c\x6f\x6f\x64\x45\x78\x70\x6c\x6f\x73\x69\x6f\x6e\x00\x73\x70\x72\x69\x74\x65\x73\x2f\x62\x61\x6c\x6c\x6f\x6f\x6e\x33\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x67\x69\x62\x73\x2f\x62\x72\x61\x69\x6e\x2e\x6d\x64\x33\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x67\x69\x62\x73\x2f\x73\x6b\x75\x6c\x6c\x2e\x6d\x64\x33\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x67\x69\x62\x73\x2f\x6c\x65\x67\x2e\x6d\x64\x33\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x67\x69\x62\x73\x2f\x69\x6e\x74\x65\x73\x74\x69\x6e\x65\x2e\x6d\x64\x33\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x67\x69\x62\x73\x2f\x66\x6f\x72\x65\x61\x72\x6d\x2e\x6d\x64\x33\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x67\x69\x62\x73\x2f\x66\x6f\x6f\x74\x2e\x6d\x64\x33\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x67\x69\x62\x73\x2f\x66\x69\x73\x74\x2e\x6d\x64\x33\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x67\x69\x62\x73\x2f\x63\x68\x65\x73\x74\x2e\x6d\x64\x33\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x67\x69\x62\x73\x2f\x61\x72\x6d\x2e\x6d\x64\x33\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x67\x69\x62\x73\x2f\x61\x62\x64\x6f\x6d\x65\x6e\x2e\x6d\x64\x33\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x77\x65\x61\x70\x6f\x6e\x73\x32\x2f\x73\x68\x65\x6c\x6c\x73\x2f\x73\x5f\x73\x68\x65\x6c\x6c\x2e\x6d\x64\x33\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x77\x65\x61\x70\x6f\x6e\x73\x32\x2f\x73\x68\x65\x6c\x6c\x73\x2f\x6d\x5f\x73\x68\x65\x6c\x6c\x2e\x6d\x64\x33\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x72\x5f\x79\x65\x6c\x6c\x6f\x77\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x61\x72\x6d\x6f\x72\x2f\x61\x72\x6d\x6f\x72\x5f\x79\x65\x6c\x2e\x6d\x64\x33\x00\x67\x66\x78\x2f\x32\x64\x2f\x63\x6f\x6c\x6f\x72\x62\x61\x72\x2e\x74\x67\x61\x00\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x62\x6c\x75\x65\x66\x6c\x61\x67\x00\x73\x70\x72\x69\x74\x65\x73\x2f\x66\x6f\x65\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x66\x5f\x62\x6c\x75\x33\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x66\x5f\x62\x6c\x75\x32\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x66\x5f\x62\x6c\x75\x31\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x66\x5f\x72\x65\x64\x33\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x66\x5f\x72\x65\x64\x32\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x66\x5f\x72\x65\x64\x31\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x66\x6c\x61\x67\x73\x2f\x62\x5f\x66\x6c\x61\x67\x2e\x6d\x64\x33\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x66\x6c\x61\x67\x73\x2f\x72\x5f\x66\x6c\x61\x67\x2e\x6d\x64\x33\x00\x68\x61\x73\x74\x65\x53\x6d\x6f\x6b\x65\x50\x75\x66\x66\x00\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x72\x65\x67\x65\x6e\x00\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x69\x6e\x76\x69\x73\x69\x62\x69\x6c\x69\x74\x79\x00\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x62\x61\x74\x74\x6c\x65\x57\x65\x61\x70\x6f\x6e\x00\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x62\x61\x74\x74\x6c\x65\x53\x75\x69\x74\x00\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x71\x75\x61\x64\x57\x65\x61\x70\x6f\x6e\x00\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x71\x75\x61\x64\x00\x69\x63\x6f\x6e\x73\x2f\x6e\x6f\x61\x6d\x6d\x6f\x00\x67\x66\x78\x2f\x32\x64\x2f\x62\x61\x63\x6b\x74\x69\x6c\x65\x00\x67\x66\x78\x2f\x32\x64\x2f\x63\x72\x6f\x73\x73\x68\x61\x69\x72\x25\x63\x00\x67\x66\x78\x2f\x32\x64\x2f\x73\x65\x6c\x65\x63\x74\x00\x67\x66\x78\x2f\x6d\x69\x73\x63\x2f\x74\x72\x61\x63\x65\x72\x00\x77\x61\x74\x65\x72\x42\x75\x62\x62\x6c\x65\x00\x64\x69\x73\x63\x6f\x6e\x6e\x65\x63\x74\x65\x64\x00\x6c\x61\x67\x6f\x6d\x65\x74\x65\x72\x00\x62\x6c\x6f\x6f\x64\x54\x72\x61\x69\x6c\x00\x73\x70\x72\x69\x74\x65\x73\x2f\x70\x6c\x61\x73\x6d\x61\x31\x00\x73\x68\x6f\x74\x67\x75\x6e\x53\x6d\x6f\x6b\x65\x50\x75\x66\x66\x00\x73\x6d\x6f\x6b\x65\x50\x75\x66\x66\x52\x61\x67\x65\x50\x72\x6f\x00\x73\x6d\x6f\x6b\x65\x50\x75\x66\x66\x00\x6d\x65\x6e\x75\x2f\x74\x61\x62\x2f\x74\x69\x6d\x65\x2e\x74\x67\x61\x00\x6d\x65\x6e\x75\x2f\x74\x61\x62\x2f\x73\x63\x6f\x72\x65\x2e\x74\x67\x61\x00\x6d\x65\x6e\x75\x2f\x74\x61\x62\x2f\x70\x69\x6e\x67\x2e\x74\x67\x61\x00\x6d\x65\x6e\x75\x2f\x74\x61\x62\x2f\x6e\x61\x6d\x65\x2e\x74\x67\x61\x00\x67\x66\x78\x2f\x32\x64\x2f\x64\x65\x66\x65\x72\x2e\x74\x67\x61\x00\x76\x69\x65\x77\x42\x6c\x6f\x6f\x64\x42\x6c\x65\x6e\x64\x00\x6d\x65\x6e\x75\x2f\x61\x72\x74\x2f\x73\x6b\x69\x6c\x6c\x35\x2e\x74\x67\x61\x00\x6d\x65\x6e\x75\x2f\x61\x72\x74\x2f\x73\x6b\x69\x6c\x6c\x34\x2e\x74\x67\x61\x00\x6d\x65\x6e\x75\x2f\x61\x72\x74\x2f\x73\x6b\x69\x6c\x6c\x33\x2e\x74\x67\x61\x00\x6d\x65\x6e\x75\x2f\x61\x72\x74\x2f\x73\x6b\x69\x6c\x6c\x32\x2e\x74\x67\x61\x00\x6d\x65\x6e\x75\x2f\x61\x72\x74\x2f\x73\x6b\x69\x6c\x6c\x31\x2e\x74\x67\x61\x00\x67\x61\x6d\x65\x20\x6d\x65\x64\x69\x61\x00\x67\x66\x78\x2f\x32\x64\x2f\x6e\x75\x6d\x62\x65\x72\x73\x2f\x6d\x69\x6e\x75\x73\x5f\x33\x32\x62\x00\x67\x66\x78\x2f\x32\x64\x2f\x6e\x75\x6d\x62\x65\x72\x73\x2f\x6e\x69\x6e\x65\x5f\x33\x32\x62\x00\x67\x66\x78\x2f\x32\x64\x2f\x6e\x75\x6d\x62\x65\x72\x73\x2f\x65\x69\x67\x68\x74\x5f\x33\x32\x62\x00\x67\x66\x78\x2f\x32\x64\x2f\x6e\x75\x6d\x62\x65\x72\x73\x2f\x73\x65\x76\x65\x6e\x5f\x33\x32\x62\x00\x67\x66\x78\x2f\x32\x64\x2f\x6e\x75\x6d\x62\x65\x72\x73\x2f\x73\x69\x78\x5f\x33\x32\x62\x00\x67\x66\x78\x2f\x32\x64\x2f\x6e\x75\x6d\x62\x65\x72\x73\x2f\x66\x69\x76\x65\x5f\x33\x32\x62\x00\x67\x66\x78\x2f\x32\x64\x2f\x6e\x75\x6d\x62\x65\x72\x73\x2f\x66\x6f\x75\x72\x5f\x33\x32\x62\x00\x67\x66\x78\x2f\x32\x64\x2f\x6e\x75\x6d\x62\x65\x72\x73\x2f\x74\x68\x72\x65\x65\x5f\x33\x32\x62\x00\x67\x66\x78\x2f\x32\x64\x2f\x6e\x75\x6d\x62\x65\x72\x73\x2f\x74\x77\x6f\x5f\x33\x32\x62\x00\x67\x66\x78\x2f\x32\x64\x2f\x6e\x75\x6d\x62\x65\x72\x73\x2f\x6f\x6e\x65\x5f\x33\x32\x62\x00\x67\x66\x78\x2f\x32\x64\x2f\x6e\x75\x6d\x62\x65\x72\x73\x2f\x7a\x65\x72\x6f\x5f\x33\x32\x62\x00\x73\x6f\x75\x6e\x64\x2f\x77\x65\x61\x70\x6f\x6e\x73\x2f\x67\x72\x65\x6e\x61\x64\x65\x2f\x68\x67\x72\x65\x6e\x62\x32\x61\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x77\x65\x61\x70\x6f\x6e\x73\x2f\x67\x72\x65\x6e\x61\x64\x65\x2f\x68\x67\x72\x65\x6e\x62\x31\x61\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x69\x74\x65\x6d\x73\x2f\x6e\x5f\x68\x65\x61\x6c\x74\x68\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x69\x74\x65\x6d\x73\x2f\x70\x72\x6f\x74\x65\x63\x74\x33\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x69\x74\x65\x6d\x73\x2f\x72\x65\x67\x65\x6e\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x77\x65\x61\x70\x6f\x6e\x73\x2f\x70\x6c\x61\x73\x6d\x61\x2f\x70\x6c\x61\x73\x6d\x78\x31\x61\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x77\x65\x61\x70\x6f\x6e\x73\x2f\x72\x6f\x63\x6b\x65\x74\x2f\x72\x6f\x63\x6b\x6c\x78\x31\x61\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x77\x65\x61\x70\x6f\x6e\x73\x2f\x6d\x61\x63\x68\x69\x6e\x65\x67\x75\x6e\x2f\x72\x69\x63\x33\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x77\x65\x61\x70\x6f\x6e\x73\x2f\x6d\x61\x63\x68\x69\x6e\x65\x67\x75\x6e\x2f\x72\x69\x63\x32\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x77\x65\x61\x70\x6f\x6e\x73\x2f\x6d\x61\x63\x68\x69\x6e\x65\x67\x75\x6e\x2f\x72\x69\x63\x31\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x69\x74\x65\x6d\x73\x2f\x64\x61\x6d\x61\x67\x65\x33\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x69\x74\x65\x6d\x73\x2f\x75\x73\x65\x5f\x6d\x65\x64\x6b\x69\x74\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x69\x74\x65\x6d\x73\x2f\x66\x6c\x69\x67\x68\x74\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x70\x6c\x61\x79\x65\x72\x2f\x66\x6f\x6f\x74\x73\x74\x65\x70\x73\x2f\x63\x6c\x61\x6e\x6b\x25\x69\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x70\x6c\x61\x79\x65\x72\x2f\x66\x6f\x6f\x74\x73\x74\x65\x70\x73\x2f\x73\x70\x6c\x61\x73\x68\x25\x69\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x70\x6c\x61\x79\x65\x72\x2f\x66\x6f\x6f\x74\x73\x74\x65\x70\x73\x2f\x65\x6e\x65\x72\x67\x79\x25\x69\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x70\x6c\x61\x79\x65\x72\x2f\x66\x6f\x6f\x74\x73\x74\x65\x70\x73\x2f\x6d\x65\x63\x68\x25\x69\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x70\x6c\x61\x79\x65\x72\x2f\x66\x6f\x6f\x74\x73\x74\x65\x70\x73\x2f\x66\x6c\x65\x73\x68\x25\x69\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x70\x6c\x61\x79\x65\x72\x2f\x66\x6f\x6f\x74\x73\x74\x65\x70\x73\x2f\x62\x6f\x6f\x74\x25\x69\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x70\x6c\x61\x79\x65\x72\x2f\x66\x6f\x6f\x74\x73\x74\x65\x70\x73\x2f\x73\x74\x65\x70\x25\x69\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x77\x6f\x72\x6c\x64\x2f\x6a\x75\x6d\x70\x70\x61\x64\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x70\x6c\x61\x79\x65\x72\x2f\x77\x61\x74\x72\x5f\x75\x6e\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x70\x6c\x61\x79\x65\x72\x2f\x77\x61\x74\x72\x5f\x6f\x75\x74\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x70\x6c\x61\x79\x65\x72\x2f\x77\x61\x74\x72\x5f\x69\x6e\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x66\x65\x65\x64\x62\x61\x63\x6b\x2f\x6c\x6f\x73\x74\x6c\x65\x61\x64\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x66\x65\x65\x64\x62\x61\x63\x6b\x2f\x74\x69\x65\x64\x6c\x65\x61\x64\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x66\x65\x65\x64\x62\x61\x63\x6b\x2f\x74\x61\x6b\x65\x6e\x6c\x65\x61\x64\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x66\x65\x65\x64\x62\x61\x63\x6b\x2f\x64\x65\x66\x65\x6e\x73\x65\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x66\x65\x65\x64\x62\x61\x63\x6b\x2f\x61\x73\x73\x69\x73\x74\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x66\x65\x65\x64\x62\x61\x63\x6b\x2f\x68\x75\x6d\x69\x6c\x69\x61\x74\x69\x6f\x6e\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x66\x65\x65\x64\x62\x61\x63\x6b\x2f\x64\x65\x6e\x69\x65\x64\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x66\x65\x65\x64\x62\x61\x63\x6b\x2f\x65\x78\x63\x65\x6c\x6c\x65\x6e\x74\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x66\x65\x65\x64\x62\x61\x63\x6b\x2f\x69\x6d\x70\x72\x65\x73\x73\x69\x76\x65\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x66\x65\x65\x64\x62\x61\x63\x6b\x2f\x68\x69\x74\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x70\x6c\x61\x79\x65\x72\x2f\x6c\x61\x6e\x64\x31\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x70\x6c\x61\x79\x65\x72\x2f\x74\x61\x6c\x6b\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x77\x65\x61\x70\x6f\x6e\x73\x2f\x6e\x6f\x61\x6d\x6d\x6f\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x69\x74\x65\x6d\x73\x2f\x72\x65\x73\x70\x61\x77\x6e\x31\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x77\x6f\x72\x6c\x64\x2f\x74\x65\x6c\x65\x6f\x75\x74\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x77\x6f\x72\x6c\x64\x2f\x74\x65\x6c\x65\x69\x6e\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x70\x6c\x61\x79\x65\x72\x2f\x67\x69\x62\x69\x6d\x70\x33\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x70\x6c\x61\x79\x65\x72\x2f\x67\x69\x62\x69\x6d\x70\x32\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x70\x6c\x61\x79\x65\x72\x2f\x67\x69\x62\x69\x6d\x70\x31\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x70\x6c\x61\x79\x65\x72\x2f\x67\x69\x62\x73\x70\x6c\x74\x31\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x69\x74\x65\x6d\x73\x2f\x75\x73\x65\x5f\x6e\x6f\x74\x68\x69\x6e\x67\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x69\x74\x65\x6d\x73\x2f\x77\x65\x61\x72\x6f\x66\x66\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x77\x65\x61\x70\x6f\x6e\x73\x2f\x63\x68\x61\x6e\x67\x65\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x77\x65\x61\x70\x6f\x6e\x73\x2f\x6d\x61\x63\x68\x69\x6e\x65\x67\x75\x6e\x2f\x62\x75\x6c\x65\x74\x62\x79\x31\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x66\x65\x65\x64\x62\x61\x63\x6b\x2f\x76\x6f\x63\x5f\x68\x6f\x6c\x79\x73\x68\x69\x74\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x74\x65\x61\x6d\x70\x6c\x61\x79\x2f\x76\x6f\x63\x5f\x79\x6f\x75\x5f\x66\x6c\x61\x67\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x74\x65\x61\x6d\x70\x6c\x61\x79\x2f\x76\x6f\x63\x5f\x74\x65\x61\x6d\x5f\x66\x6c\x61\x67\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x74\x65\x61\x6d\x70\x6c\x61\x79\x2f\x76\x6f\x63\x5f\x65\x6e\x65\x6d\x79\x5f\x66\x6c\x61\x67\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x74\x65\x61\x6d\x70\x6c\x61\x79\x2f\x76\x6f\x63\x5f\x62\x6c\x75\x65\x5f\x72\x65\x74\x75\x72\x6e\x65\x64\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x74\x65\x61\x6d\x70\x6c\x61\x79\x2f\x76\x6f\x63\x5f\x72\x65\x64\x5f\x72\x65\x74\x75\x72\x6e\x65\x64\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x74\x65\x61\x6d\x70\x6c\x61\x79\x2f\x66\x6c\x61\x67\x74\x61\x6b\x65\x6e\x5f\x6f\x70\x70\x6f\x6e\x65\x6e\x74\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x74\x65\x61\x6d\x70\x6c\x61\x79\x2f\x66\x6c\x61\x67\x74\x61\x6b\x65\x6e\x5f\x79\x6f\x75\x72\x74\x65\x61\x6d\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x74\x65\x61\x6d\x70\x6c\x61\x79\x2f\x66\x6c\x61\x67\x72\x65\x74\x75\x72\x6e\x5f\x6f\x70\x70\x6f\x6e\x65\x6e\x74\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x74\x65\x61\x6d\x70\x6c\x61\x79\x2f\x66\x6c\x61\x67\x72\x65\x74\x75\x72\x6e\x5f\x79\x6f\x75\x72\x74\x65\x61\x6d\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x74\x65\x61\x6d\x70\x6c\x61\x79\x2f\x66\x6c\x61\x67\x63\x61\x70\x74\x75\x72\x65\x5f\x6f\x70\x70\x6f\x6e\x65\x6e\x74\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x74\x65\x61\x6d\x70\x6c\x61\x79\x2f\x76\x6f\x63\x5f\x62\x6c\x75\x65\x5f\x73\x63\x6f\x72\x65\x73\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x74\x65\x61\x6d\x70\x6c\x61\x79\x2f\x76\x6f\x63\x5f\x72\x65\x64\x5f\x73\x63\x6f\x72\x65\x73\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x66\x65\x65\x64\x62\x61\x63\x6b\x2f\x68\x69\x74\x5f\x74\x65\x61\x6d\x6d\x61\x74\x65\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x66\x65\x65\x64\x62\x61\x63\x6b\x2f\x74\x65\x61\x6d\x73\x74\x69\x65\x64\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x66\x65\x65\x64\x62\x61\x63\x6b\x2f\x62\x6c\x75\x65\x6c\x65\x61\x64\x73\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x66\x65\x65\x64\x62\x61\x63\x6b\x2f\x72\x65\x64\x6c\x65\x61\x64\x73\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x74\x65\x61\x6d\x70\x6c\x61\x79\x2f\x66\x6c\x61\x67\x63\x61\x70\x74\x75\x72\x65\x5f\x79\x6f\x75\x72\x74\x65\x61\x6d\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x66\x65\x65\x64\x62\x61\x63\x6b\x2f\x70\x72\x65\x70\x61\x72\x65\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x66\x65\x65\x64\x62\x61\x63\x6b\x2f\x66\x69\x67\x68\x74\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x66\x65\x65\x64\x62\x61\x63\x6b\x2f\x6f\x6e\x65\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x66\x65\x65\x64\x62\x61\x63\x6b\x2f\x74\x77\x6f\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x66\x65\x65\x64\x62\x61\x63\x6b\x2f\x74\x68\x72\x65\x65\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x66\x65\x65\x64\x62\x61\x63\x6b\x2f\x33\x5f\x66\x72\x61\x67\x73\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x66\x65\x65\x64\x62\x61\x63\x6b\x2f\x32\x5f\x66\x72\x61\x67\x73\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x66\x65\x65\x64\x62\x61\x63\x6b\x2f\x31\x5f\x66\x72\x61\x67\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x66\x65\x65\x64\x62\x61\x63\x6b\x2f\x73\x75\x64\x64\x65\x6e\x5f\x64\x65\x61\x74\x68\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x66\x65\x65\x64\x62\x61\x63\x6b\x2f\x35\x5f\x6d\x69\x6e\x75\x74\x65\x2e\x77\x61\x76\x00\x73\x6f\x75\x6e\x64\x2f\x66\x65\x65\x64\x62\x61\x63\x6b\x2f\x31\x5f\x6d\x69\x6e\x75\x74\x65\x2e\x77\x61\x76\x00\x77\x61\x76\x00\x50\x72\x65\x63\x61\x63\x68\x65\x49\x74\x65\x6d\x3a\x20\x25\x73\x20\x68\x61\x73\x20\x62\x61\x64\x20\x70\x72\x65\x63\x61\x63\x68\x65\x20\x73\x74\x72\x69\x6e\x67\x00\x74\x65\x61\x6d\x5f\x68\x65\x61\x64\x6d\x6f\x64\x65\x6c\x00\x74\x65\x61\x6d\x5f\x6d\x6f\x64\x65\x6c\x00\x68\x65\x61\x64\x6d\x6f\x64\x65\x6c\x00\x73\x61\x72\x67\x65\x00\x6d\x6f\x64\x65\x6c\x00\x73\x76\x5f\x72\x75\x6e\x6e\x69\x6e\x67\x00\x30\x2e\x30\x00\x63\x67\x5f\x74\x72\x75\x65\x4c\x69\x67\x68\x74\x6e\x69\x6e\x67\x00\x63\x67\x5f\x6f\x6c\x64\x50\x6c\x61\x73\x6d\x61\x00\x63\x67\x5f\x6f\x6c\x64\x52\x6f\x63\x6b\x65\x74\x00\x63\x67\x5f\x6f\x6c\x64\x52\x61\x69\x6c\x00\x63\x67\x5f\x6e\x6f\x50\x72\x6f\x6a\x65\x63\x74\x69\x6c\x65\x54\x72\x61\x69\x6c\x00\x38\x00\x70\x6d\x6f\x76\x65\x5f\x6d\x73\x65\x63\x00\x70\x6d\x6f\x76\x65\x5f\x66\x69\x78\x65\x64\x00\x63\x6f\x6d\x5f\x63\x61\x6d\x65\x72\x61\x4d\x6f\x64\x65\x00\x63\x67\x5f\x73\x6d\x6f\x6f\x74\x68\x43\x6c\x69\x65\x6e\x74\x73\x00\x63\x67\x5f\x73\x63\x6f\x72\x65\x50\x6c\x75\x6d\x73\x00\x74\x69\x6d\x65\x73\x63\x61\x6c\x65\x00\x63\x67\x5f\x74\x69\x6d\x65\x73\x63\x61\x6c\x65\x46\x61\x64\x65\x53\x70\x65\x65\x64\x00\x63\x67\x5f\x74\x69\x6d\x65\x73\x63\x61\x6c\x65\x46\x61\x64\x65\x45\x6e\x64\x00\x35\x30\x00\x63\x67\x5f\x63\x61\x6d\x65\x72\x61\x4f\x72\x62\x69\x74\x44\x65\x6c\x61\x79\x00\x63\x67\x5f\x63\x61\x6d\x65\x72\x61\x4f\x72\x62\x69\x74\x00\x67\x5f\x73\x79\x6e\x63\x68\x72\x6f\x6e\x6f\x75\x73\x43\x6c\x69\x65\x6e\x74\x73\x00\x63\x6f\x6d\x5f\x62\x6c\x6f\x6f\x64\x00\x63\x6c\x5f\x70\x61\x75\x73\x65\x64\x00\x63\x6f\x6d\x5f\x62\x75\x69\x6c\x64\x53\x63\x72\x69\x70\x74\x00\x63\x67\x5f\x74\x65\x61\x6d\x43\x68\x61\x74\x73\x4f\x6e\x6c\x79\x00\x63\x67\x5f\x64\x72\x61\x77\x46\x72\x69\x65\x6e\x64\x00\x63\x67\x5f\x73\x74\x61\x74\x73\x00\x74\x65\x61\x6d\x6f\x76\x65\x72\x6c\x61\x79\x00\x63\x67\x5f\x64\x72\x61\x77\x54\x65\x61\x6d\x4f\x76\x65\x72\x6c\x61\x79\x00\x63\x67\x5f\x64\x65\x66\x65\x72\x50\x6c\x61\x79\x65\x72\x73\x00\x63\x67\x5f\x70\x72\x65\x64\x69\x63\x74\x49\x74\x65\x6d\x73\x00\x63\x67\x5f\x66\x6f\x72\x63\x65\x4d\x6f\x64\x65\x6c\x00\x63\x67\x5f\x74\x65\x61\x6d\x43\x68\x61\x74\x48\x65\x69\x67\x68\x74\x00\x33\x30\x30\x30\x00\x63\x67\x5f\x74\x65\x61\x6d\x43\x68\x61\x74\x54\x69\x6d\x65\x00\x63\x67\x5f\x74\x68\x69\x72\x64\x50\x65\x72\x73\x6f\x6e\x00\x63\x67\x5f\x74\x68\x69\x72\x64\x50\x65\x72\x73\x6f\x6e\x41\x6e\x67\x6c\x65\x00\x34\x30\x00\x63\x67\x5f\x74\x68\x69\x72\x64\x50\x65\x72\x73\x6f\x6e\x52\x61\x6e\x67\x65\x00\x63\x67\x5f\x74\x72\x61\x63\x65\x72\x6c\x65\x6e\x67\x74\x68\x00\x63\x67\x5f\x74\x72\x61\x63\x65\x72\x77\x69\x64\x74\x68\x00\x30\x2e\x34\x00\x63\x67\x5f\x74\x72\x61\x63\x65\x72\x63\x68\x61\x6e\x63\x65\x00\x63\x67\x5f\x66\x6f\x6f\x74\x73\x74\x65\x70\x73\x00\x63\x67\x5f\x73\x68\x6f\x77\x6d\x69\x73\x73\x00\x63\x67\x5f\x6e\x6f\x70\x6c\x61\x79\x65\x72\x61\x6e\x69\x6d\x73\x00\x63\x67\x5f\x6e\x6f\x70\x72\x65\x64\x69\x63\x74\x00\x63\x67\x5f\x65\x72\x72\x6f\x72\x64\x65\x63\x61\x79\x00\x63\x67\x5f\x64\x65\x62\x75\x67\x65\x76\x65\x6e\x74\x73\x00\x63\x67\x5f\x64\x65\x62\x75\x67\x70\x6f\x73\x69\x74\x69\x6f\x6e\x00\x63\x67\x5f\x64\x65\x62\x75\x67\x61\x6e\x69\x6d\x00\x63\x67\x5f\x61\x6e\x69\x6d\x73\x70\x65\x65\x64\x00\x30\x2e\x33\x00\x63\x67\x5f\x73\x77\x69\x6e\x67\x53\x70\x65\x65\x64\x00\x63\x67\x5f\x62\x6f\x62\x72\x6f\x6c\x6c\x00\x63\x67\x5f\x62\x6f\x62\x70\x69\x74\x63\x68\x00\x63\x67\x5f\x62\x6f\x62\x75\x70\x00\x30\x2e\x30\x30\x35\x00\x63\x67\x5f\x72\x75\x6e\x72\x6f\x6c\x6c\x00\x30\x2e\x30\x30\x32\x00\x63\x67\x5f\x72\x75\x6e\x70\x69\x74\x63\x68\x00\x33\x00\x63\x67\x5f\x63\x65\x6e\x74\x65\x72\x74\x69\x6d\x65\x00\x63\x67\x5f\x67\x75\x6e\x5a\x00\x63\x67\x5f\x67\x75\x6e\x59\x00\x63\x67\x5f\x67\x75\x6e\x58\x00\x34\x30\x30\x00\x63\x67\x5f\x72\x61\x69\x6c\x54\x72\x61\x69\x6c\x54\x69\x6d\x65\x00\x63\x67\x5f\x6c\x61\x67\x6f\x6d\x65\x74\x65\x72\x00\x63\x67\x5f\x6d\x61\x72\x6b\x73\x00\x63\x67\x5f\x73\x69\x6d\x70\x6c\x65\x49\x74\x65\x6d\x73\x00\x32\x35\x30\x30\x00\x63\x67\x5f\x62\x72\x61\x73\x73\x54\x69\x6d\x65\x00\x63\x67\x5f\x63\x72\x6f\x73\x73\x68\x61\x69\x72\x59\x00\x63\x67\x5f\x63\x72\x6f\x73\x73\x68\x61\x69\x72\x58\x00\x63\x67\x5f\x63\x72\x6f\x73\x73\x68\x61\x69\x72\x48\x65\x61\x6c\x74\x68\x00\x32\x34\x00\x63\x67\x5f\x63\x72\x6f\x73\x73\x68\x61\x69\x72\x53\x69\x7a\x65\x00\x63\x67\x5f\x64\x72\x61\x77\x52\x65\x77\x61\x72\x64\x73\x00\x63\x67\x5f\x64\x72\x61\x77\x43\x72\x6f\x73\x73\x68\x61\x69\x72\x4e\x61\x6d\x65\x73\x00\x34\x00\x63\x67\x5f\x64\x72\x61\x77\x43\x72\x6f\x73\x73\x68\x61\x69\x72\x00\x63\x67\x5f\x64\x72\x61\x77\x41\x74\x74\x61\x63\x6b\x65\x72\x00\x63\x67\x5f\x64\x72\x61\x77\x41\x6d\x6d\x6f\x57\x61\x72\x6e\x69\x6e\x67\x00\x63\x67\x5f\x64\x72\x61\x77\x49\x63\x6f\x6e\x73\x00\x63\x67\x5f\x64\x72\x61\x77\x33\x64\x49\x63\x6f\x6e\x73\x00\x63\x67\x5f\x64\x72\x61\x77\x53\x6e\x61\x70\x73\x68\x6f\x74\x00\x63\x67\x5f\x64\x72\x61\x77\x46\x50\x53\x00\x63\x67\x5f\x64\x72\x61\x77\x54\x69\x6d\x65\x72\x00\x63\x67\x5f\x64\x72\x61\x77\x53\x74\x61\x74\x75\x73\x00\x63\x67\x5f\x64\x72\x61\x77\x32\x44\x00\x63\x67\x5f\x67\x69\x62\x73\x00\x63\x67\x5f\x73\x68\x61\x64\x6f\x77\x73\x00\x31\x30\x30\x00\x63\x67\x5f\x76\x69\x65\x77\x73\x69\x7a\x65\x00\x39\x30\x00\x63\x67\x5f\x66\x6f\x76\x00\x32\x32\x2e\x35\x00\x63\x67\x5f\x7a\x6f\x6f\x6d\x66\x6f\x76\x00\x63\x67\x5f\x64\x72\x61\x77\x47\x75\x6e\x00\x31\x00\x63\x67\x5f\x61\x75\x74\x6f\x73\x77\x69\x74\x63\x68\x00\x30\x00\x63\x67\x5f\x69\x67\x6e\x6f\x72\x65\x00\x76\x6d\x4d\x61\x69\x6e\x3a\x20\x75\x6e\x6b\x6e\x6f\x77\x6e\x20\x63\x6f\x6d\x6d\x61\x6e\x64\x20\x25\x69\x00\x00\x45\x56\x5f\x54\x41\x55\x4e\x54\x5f\x50\x41\x54\x52\x4f\x4c\x00\x45\x56\x5f\x54\x41\x55\x4e\x54\x5f\x47\x55\x41\x52\x44\x42\x41\x53\x45\x00\x45\x56\x5f\x54\x41\x55\x4e\x54\x5f\x47\x45\x54\x46\x4c\x41\x47\x00\x45\x56\x5f\x54\x41\x55\x4e\x54\x5f\x46\x4f\x4c\x4c\x4f\x57\x4d\x45\x00\x45\x56\x5f\x54\x41\x55\x4e\x54\x5f\x4e\x4f\x00\x45\x56\x5f\x54\x41\x55\x4e\x54\x5f\x59\x45\x53\x00\x45\x56\x5f\x54\x41\x55\x4e\x54\x00\x45\x56\x5f\x53\x54\x4f\x50\x4c\x4f\x4f\x50\x49\x4e\x47\x53\x4f\x55\x4e\x44\x00\x45\x56\x5f\x44\x45\x42\x55\x47\x5f\x4c\x49\x4e\x45\x00\x45\x56\x5f\x4c\x49\x47\x48\x54\x4e\x49\x4e\x47\x42\x4f\x4c\x54\x00\x45\x56\x5f\x4a\x55\x49\x43\x45\x44\x00\x45\x56\x5f\x49\x4e\x56\x55\x4c\x5f\x49\x4d\x50\x41\x43\x54\x00\x45\x56\x5f\x4f\x42\x45\x4c\x49\x53\x4b\x50\x41\x49\x4e\x00\x45\x56\x5f\x4f\x42\x45\x4c\x49\x53\x4b\x45\x58\x50\x4c\x4f\x44\x45\x00\x45\x56\x5f\x4b\x41\x4d\x49\x4b\x41\x5a\x45\x00\x45\x56\x5f\x50\x52\x4f\x58\x49\x4d\x49\x54\x59\x5f\x4d\x49\x4e\x45\x5f\x54\x52\x49\x47\x47\x45\x52\x00\x45\x56\x5f\x50\x52\x4f\x58\x49\x4d\x49\x54\x59\x5f\x4d\x49\x4e\x45\x5f\x53\x54\x49\x43\x4b\x00\x45\x56\x5f\x53\x43\x4f\x52\x45\x50\x4c\x55\x4d\x00\x45\x56\x5f\x47\x49\x42\x5f\x50\x4c\x41\x59\x45\x52\x00\x45\x56\x5f\x50\x4f\x57\x45\x52\x55\x50\x5f\x52\x45\x47\x45\x4e\x00\x45\x56\x5f\x50\x4f\x57\x45\x52\x55\x50\x5f\x42\x41\x54\x54\x4c\x45\x53\x55\x49\x54\x00\x45\x56\x5f\x50\x4f\x57\x45\x52\x55\x50\x5f\x51\x55\x41\x44\x00\x45\x56\x5f\x4f\x42\x49\x54\x55\x41\x52\x59\x00\x45\x56\x5f\x44\x45\x41\x54\x48\x33\x00\x45\x56\x5f\x44\x45\x41\x54\x48\x32\x00\x45\x56\x5f\x44\x45\x41\x54\x48\x31\x00\x45\x56\x5f\x50\x41\x49\x4e\x00\x45\x56\x5f\x42\x55\x4c\x4c\x45\x54\x00\x45\x56\x5f\x53\x48\x4f\x54\x47\x55\x4e\x00\x45\x56\x5f\x52\x41\x49\x4c\x54\x52\x41\x49\x4c\x00\x45\x56\x5f\x4d\x49\x53\x53\x49\x4c\x45\x5f\x4d\x49\x53\x53\x5f\x4d\x45\x54\x41\x4c\x00\x45\x56\x5f\x4d\x49\x53\x53\x49\x4c\x45\x5f\x4d\x49\x53\x53\x00\x45\x56\x5f\x4d\x49\x53\x53\x49\x4c\x45\x5f\x48\x49\x54\x00\x45\x56\x5f\x42\x55\x4c\x4c\x45\x54\x5f\x48\x49\x54\x5f\x57\x41\x4c\x4c\x00\x45\x56\x5f\x42\x55\x4c\x4c\x45\x54\x5f\x48\x49\x54\x5f\x46\x4c\x45\x53\x48\x00\x45\x56\x5f\x47\x4c\x4f\x42\x41\x4c\x5f\x54\x45\x41\x4d\x5f\x53\x4f\x55\x4e\x44\x00\x45\x56\x5f\x47\x4c\x4f\x42\x41\x4c\x5f\x53\x4f\x55\x4e\x44\x00\x45\x56\x5f\x47\x45\x4e\x45\x52\x41\x4c\x5f\x53\x4f\x55\x4e\x44\x00\x45\x56\x5f\x47\x52\x45\x4e\x41\x44\x45\x5f\x42\x4f\x55\x4e\x43\x45\x00\x45\x56\x5f\x50\x4c\x41\x59\x45\x52\x5f\x54\x45\x4c\x45\x50\x4f\x52\x54\x5f\x4f\x55\x54\x00\x45\x56\x5f\x50\x4c\x41\x59\x45\x52\x5f\x54\x45\x4c\x45\x50\x4f\x52\x54\x5f\x49\x4e\x00\x45\x56\x5f\x49\x54\x45\x4d\x5f\x50\x4f\x50\x00\x45\x56\x5f\x49\x54\x45\x4d\x5f\x52\x45\x53\x50\x41\x57\x4e\x00\x45\x56\x5f\x55\x53\x45\x5f\x49\x54\x45\x4d\x31\x35\x00\x45\x56\x5f\x55\x53\x45\x5f\x49\x54\x45\x4d\x31\x34\x00\x45\x56\x5f\x55\x53\x45\x5f\x49\x54\x45\x4d\x31\x33\x00\x45\x56\x5f\x55\x53\x45\x5f\x49\x54\x45\x4d\x31\x32\x00\x45\x56\x5f\x55\x53\x45\x5f\x49\x54\x45\x4d\x31\x31\x00\x45\x56\x5f\x55\x53\x45\x5f\x49\x54\x45\x4d\x31\x30\x00\x45\x56\x5f\x55\x53\x45\x5f\x49\x54\x45\x4d\x39\x00\x45\x56\x5f\x55\x53\x45\x5f\x49\x54\x45\x4d\x38\x00\x45\x56\x5f\x55\x53\x45\x5f\x49\x54\x45\x4d\x37\x00\x45\x56\x5f\x55\x53\x45\x5f\x49\x54\x45\x4d\x36\x00\x45\x56\x5f\x55\x53\x45\x5f\x49\x54\x45\x4d\x35\x00\x45\x56\x5f\x55\x53\x45\x5f\x49\x54\x45\x4d\x34\x00\x45\x56\x5f\x55\x53\x45\x5f\x49\x54\x45\x4d\x33\x00\x45\x56\x5f\x55\x53\x45\x5f\x49\x54\x45\x4d\x32\x00\x45\x56\x5f\x55\x53\x45\x5f\x49\x54\x45\x4d\x31\x00\x45\x56\x5f\x55\x53\x45\x5f\x49\x54\x45\x4d\x30\x00\x45\x56\x5f\x46\x49\x52\x45\x5f\x57\x45\x41\x50\x4f\x4e\x00\x45\x56\x5f\x43\x48\x41\x4e\x47\x45\x5f\x57\x45\x41\x50\x4f\x4e\x00\x45\x56\x5f\x4e\x4f\x41\x4d\x4d\x4f\x00\x45\x56\x5f\x47\x4c\x4f\x42\x41\x4c\x5f\x49\x54\x45\x4d\x5f\x50\x49\x43\x4b\x55\x50\x00\x45\x56\x5f\x49\x54\x45\x4d\x5f\x50\x49\x43\x4b\x55\x50\x00\x45\x56\x5f\x57\x41\x54\x45\x52\x5f\x43\x4c\x45\x41\x52\x00\x45\x56\x5f\x57\x41\x54\x45\x52\x5f\x55\x4e\x44\x45\x52\x00\x45\x56\x5f\x57\x41\x54\x45\x52\x5f\x4c\x45\x41\x56\x45\x00\x45\x56\x5f\x57\x41\x54\x45\x52\x5f\x54\x4f\x55\x43\x48\x00\x45\x56\x5f\x4a\x55\x4d\x50\x00\x45\x56\x5f\x4a\x55\x4d\x50\x5f\x50\x41\x44\x00\x45\x56\x5f\x46\x41\x4c\x4c\x5f\x46\x41\x52\x00\x45\x56\x5f\x46\x41\x4c\x4c\x5f\x4d\x45\x44\x49\x55\x4d\x00\x45\x56\x5f\x46\x41\x4c\x4c\x5f\x53\x48\x4f\x52\x54\x00\x45\x56\x5f\x53\x54\x45\x50\x5f\x31\x36\x00\x45\x56\x5f\x53\x54\x45\x50\x5f\x31\x32\x00\x45\x56\x5f\x53\x54\x45\x50\x5f\x38\x00\x45\x56\x5f\x53\x54\x45\x50\x5f\x34\x00\x45\x56\x5f\x53\x57\x49\x4d\x00\x45\x56\x5f\x46\x4f\x4f\x54\x57\x41\x44\x45\x00\x45\x56\x5f\x46\x4f\x4f\x54\x53\x50\x4c\x41\x53\x48\x00\x45\x56\x5f\x46\x4f\x4f\x54\x53\x54\x45\x50\x5f\x4d\x45\x54\x41\x4c\x00\x45\x56\x5f\x46\x4f\x4f\x54\x53\x54\x45\x50\x00\x45\x56\x5f\x4e\x4f\x4e\x45\x00\x42\x47\x5f\x45\x76\x61\x6c\x75\x61\x74\x65\x54\x72\x61\x6a\x65\x63\x74\x6f\x72\x79\x44\x65\x6c\x74\x61\x3a\x20\x75\x6e\x6b\x6e\x6f\x77\x6e\x20\x74\x72\x54\x79\x70\x65\x3a\x20\x25\x69\x00\x42\x47\x5f\x45\x76\x61\x6c\x75\x61\x74\x65\x54\x72\x61\x6a\x65\x63\x74\x6f\x72\x79\x3a\x20\x75\x6e\x6b\x6e\x6f\x77\x6e\x20\x74\x72\x54\x79\x70\x65\x3a\x20\x25\x69\x00\x42\x47\x5f\x43\x61\x6e\x49\x74\x65\x6d\x42\x65\x47\x72\x61\x62\x62\x65\x64\x3a\x20\x49\x54\x5f\x42\x41\x44\x00\x42\x47\x5f\x43\x61\x6e\x49\x74\x65\x6d\x42\x65\x47\x72\x61\x62\x62\x65\x64\x3a\x20\x69\x6e\x64\x65\x78\x20\x6f\x75\x74\x20\x6f\x66\x20\x72\x61\x6e\x67\x65\x00\x43\x6f\x75\x6c\x64\x6e\x27\x74\x20\x66\x69\x6e\x64\x20\x69\x74\x65\x6d\x20\x66\x6f\x72\x20\x77\x65\x61\x70\x6f\x6e\x20\x25\x69\x00\x48\x6f\x6c\x64\x61\x62\x6c\x65\x49\x74\x65\x6d\x20\x6e\x6f\x74\x20\x66\x6f\x75\x6e\x64\x00\x42\x6c\x75\x65\x20\x46\x6c\x61\x67\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x66\x5f\x62\x6c\x75\x31\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x66\x6c\x61\x67\x73\x2f\x62\x5f\x66\x6c\x61\x67\x2e\x6d\x64\x33\x00\x74\x65\x61\x6d\x5f\x43\x54\x46\x5f\x62\x6c\x75\x65\x66\x6c\x61\x67\x00\x52\x65\x64\x20\x46\x6c\x61\x67\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x66\x5f\x72\x65\x64\x31\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x66\x6c\x61\x67\x73\x2f\x72\x5f\x66\x6c\x61\x67\x2e\x6d\x64\x33\x00\x74\x65\x61\x6d\x5f\x43\x54\x46\x5f\x72\x65\x64\x66\x6c\x61\x67\x00\x46\x6c\x69\x67\x68\x74\x00\x69\x63\x6f\x6e\x73\x2f\x66\x6c\x69\x67\x68\x74\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x69\x6e\x73\x74\x61\x6e\x74\x2f\x66\x6c\x69\x67\x68\x74\x5f\x72\x69\x6e\x67\x2e\x6d\x64\x33\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x69\x6e\x73\x74\x61\x6e\x74\x2f\x66\x6c\x69\x67\x68\x74\x2e\x6d\x64\x33\x00\x73\x6f\x75\x6e\x64\x2f\x69\x74\x65\x6d\x73\x2f\x66\x6c\x69\x67\x68\x74\x2e\x77\x61\x76\x00\x69\x74\x65\x6d\x5f\x66\x6c\x69\x67\x68\x74\x00\x73\x6f\x75\x6e\x64\x2f\x69\x74\x65\x6d\x73\x2f\x72\x65\x67\x65\x6e\x2e\x77\x61\x76\x00\x52\x65\x67\x65\x6e\x65\x72\x61\x74\x69\x6f\x6e\x00\x69\x63\x6f\x6e\x73\x2f\x72\x65\x67\x65\x6e\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x69\x6e\x73\x74\x61\x6e\x74\x2f\x72\x65\x67\x65\x6e\x5f\x72\x69\x6e\x67\x2e\x6d\x64\x33\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x69\x6e\x73\x74\x61\x6e\x74\x2f\x72\x65\x67\x65\x6e\x2e\x6d\x64\x33\x00\x73\x6f\x75\x6e\x64\x2f\x69\x74\x65\x6d\x73\x2f\x72\x65\x67\x65\x6e\x65\x72\x61\x74\x69\x6f\x6e\x2e\x77\x61\x76\x00\x69\x74\x65\x6d\x5f\x72\x65\x67\x65\x6e\x00\x49\x6e\x76\x69\x73\x69\x62\x69\x6c\x69\x74\x79\x00\x69\x63\x6f\x6e\x73\x2f\x69\x6e\x76\x69\x73\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x69\x6e\x73\x74\x61\x6e\x74\x2f\x69\x6e\x76\x69\x73\x5f\x72\x69\x6e\x67\x2e\x6d\x64\x33\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x69\x6e\x73\x74\x61\x6e\x74\x2f\x69\x6e\x76\x69\x73\x2e\x6d\x64\x33\x00\x73\x6f\x75\x6e\x64\x2f\x69\x74\x65\x6d\x73\x2f\x69\x6e\x76\x69\x73\x69\x62\x69\x6c\x69\x74\x79\x2e\x77\x61\x76\x00\x69\x74\x65\x6d\x5f\x69\x6e\x76\x69\x73\x00\x53\x70\x65\x65\x64\x00\x69\x63\x6f\x6e\x73\x2f\x68\x61\x73\x74\x65\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x69\x6e\x73\x74\x61\x6e\x74\x2f\x68\x61\x73\x74\x65\x5f\x72\x69\x6e\x67\x2e\x6d\x64\x33\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x69\x6e\x73\x74\x61\x6e\x74\x2f\x68\x61\x73\x74\x65\x2e\x6d\x64\x33\x00\x73\x6f\x75\x6e\x64\x2f\x69\x74\x65\x6d\x73\x2f\x68\x61\x73\x74\x65\x2e\x77\x61\x76\x00\x69\x74\x65\x6d\x5f\x68\x61\x73\x74\x65\x00\x73\x6f\x75\x6e\x64\x2f\x69\x74\x65\x6d\x73\x2f\x61\x69\x72\x6f\x75\x74\x2e\x77\x61\x76\x20\x73\x6f\x75\x6e\x64\x2f\x69\x74\x65\x6d\x73\x2f\x70\x72\x6f\x74\x65\x63\x74\x33\x2e\x77\x61\x76\x00\x42\x61\x74\x74\x6c\x65\x20\x53\x75\x69\x74\x00\x69\x63\x6f\x6e\x73\x2f\x65\x6e\x76\x69\x72\x6f\x73\x75\x69\x74\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x69\x6e\x73\x74\x61\x6e\x74\x2f\x65\x6e\x76\x69\x72\x6f\x5f\x72\x69\x6e\x67\x2e\x6d\x64\x33\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x69\x6e\x73\x74\x61\x6e\x74\x2f\x65\x6e\x76\x69\x72\x6f\x2e\x6d\x64\x33\x00\x73\x6f\x75\x6e\x64\x2f\x69\x74\x65\x6d\x73\x2f\x70\x72\x6f\x74\x65\x63\x74\x2e\x77\x61\x76\x00\x69\x74\x65\x6d\x5f\x65\x6e\x76\x69\x72\x6f\x00\x73\x6f\x75\x6e\x64\x2f\x69\x74\x65\x6d\x73\x2f\x64\x61\x6d\x61\x67\x65\x32\x2e\x77\x61\x76\x20\x73\x6f\x75\x6e\x64\x2f\x69\x74\x65\x6d\x73\x2f\x64\x61\x6d\x61\x67\x65\x33\x2e\x77\x61\x76\x00\x51\x75\x61\x64\x20\x44\x61\x6d\x61\x67\x65\x00\x69\x63\x6f\x6e\x73\x2f\x71\x75\x61\x64\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x69\x6e\x73\x74\x61\x6e\x74\x2f\x71\x75\x61\x64\x5f\x72\x69\x6e\x67\x2e\x6d\x64\x33\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x69\x6e\x73\x74\x61\x6e\x74\x2f\x71\x75\x61\x64\x2e\x6d\x64\x33\x00\x73\x6f\x75\x6e\x64\x2f\x69\x74\x65\x6d\x73\x2f\x71\x75\x61\x64\x64\x61\x6d\x61\x67\x65\x2e\x77\x61\x76\x00\x69\x74\x65\x6d\x5f\x71\x75\x61\x64\x00\x73\x6f\x75\x6e\x64\x2f\x69\x74\x65\x6d\x73\x2f\x75\x73\x65\x5f\x6d\x65\x64\x6b\x69\x74\x2e\x77\x61\x76\x00\x4d\x65\x64\x6b\x69\x74\x00\x69\x63\x6f\x6e\x73\x2f\x6d\x65\x64\x6b\x69\x74\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x68\x6f\x6c\x64\x61\x62\x6c\x65\x2f\x6d\x65\x64\x6b\x69\x74\x5f\x73\x70\x68\x65\x72\x65\x2e\x6d\x64\x33\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x68\x6f\x6c\x64\x61\x62\x6c\x65\x2f\x6d\x65\x64\x6b\x69\x74\x2e\x6d\x64\x33\x00\x68\x6f\x6c\x64\x61\x62\x6c\x65\x5f\x6d\x65\x64\x6b\x69\x74\x00\x50\x65\x72\x73\x6f\x6e\x61\x6c\x20\x54\x65\x6c\x65\x70\x6f\x72\x74\x65\x72\x00\x69\x63\x6f\x6e\x73\x2f\x74\x65\x6c\x65\x70\x6f\x72\x74\x65\x72\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x68\x6f\x6c\x64\x61\x62\x6c\x65\x2f\x74\x65\x6c\x65\x70\x6f\x72\x74\x65\x72\x2e\x6d\x64\x33\x00\x73\x6f\x75\x6e\x64\x2f\x69\x74\x65\x6d\x73\x2f\x68\x6f\x6c\x64\x61\x62\x6c\x65\x2e\x77\x61\x76\x00\x68\x6f\x6c\x64\x61\x62\x6c\x65\x5f\x74\x65\x6c\x65\x70\x6f\x72\x74\x65\x72\x00\x42\x66\x67\x20\x41\x6d\x6d\x6f\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x61\x5f\x62\x66\x67\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x61\x6d\x6d\x6f\x2f\x62\x66\x67\x61\x6d\x2e\x6d\x64\x33\x00\x61\x6d\x6d\x6f\x5f\x62\x66\x67\x00\x53\x6c\x75\x67\x73\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x61\x5f\x72\x61\x69\x6c\x67\x75\x6e\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x61\x6d\x6d\x6f\x2f\x72\x61\x69\x6c\x67\x75\x6e\x61\x6d\x2e\x6d\x64\x33\x00\x61\x6d\x6d\x6f\x5f\x73\x6c\x75\x67\x73\x00\x52\x6f\x63\x6b\x65\x74\x73\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x61\x5f\x72\x6f\x63\x6b\x65\x74\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x61\x6d\x6d\x6f\x2f\x72\x6f\x63\x6b\x65\x74\x61\x6d\x2e\x6d\x64\x33\x00\x61\x6d\x6d\x6f\x5f\x72\x6f\x63\x6b\x65\x74\x73\x00\x4c\x69\x67\x68\x74\x6e\x69\x6e\x67\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x61\x5f\x6c\x69\x67\x68\x74\x6e\x69\x6e\x67\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x61\x6d\x6d\x6f\x2f\x6c\x69\x67\x68\x74\x6e\x69\x6e\x67\x61\x6d\x2e\x6d\x64\x33\x00\x61\x6d\x6d\x6f\x5f\x6c\x69\x67\x68\x74\x6e\x69\x6e\x67\x00\x43\x65\x6c\x6c\x73\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x61\x5f\x70\x6c\x61\x73\x6d\x61\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x61\x6d\x6d\x6f\x2f\x70\x6c\x61\x73\x6d\x61\x61\x6d\x2e\x6d\x64\x33\x00\x61\x6d\x6d\x6f\x5f\x63\x65\x6c\x6c\x73\x00\x47\x72\x65\x6e\x61\x64\x65\x73\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x61\x5f\x67\x72\x65\x6e\x61\x64\x65\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x61\x6d\x6d\x6f\x2f\x67\x72\x65\x6e\x61\x64\x65\x61\x6d\x2e\x6d\x64\x33\x00\x61\x6d\x6d\x6f\x5f\x67\x72\x65\x6e\x61\x64\x65\x73\x00\x42\x75\x6c\x6c\x65\x74\x73\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x61\x5f\x6d\x61\x63\x68\x69\x6e\x65\x67\x75\x6e\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x61\x6d\x6d\x6f\x2f\x6d\x61\x63\x68\x69\x6e\x65\x67\x75\x6e\x61\x6d\x2e\x6d\x64\x33\x00\x61\x6d\x6d\x6f\x5f\x62\x75\x6c\x6c\x65\x74\x73\x00\x53\x68\x65\x6c\x6c\x73\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x61\x5f\x73\x68\x6f\x74\x67\x75\x6e\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x70\x6f\x77\x65\x72\x75\x70\x73\x2f\x61\x6d\x6d\x6f\x2f\x73\x68\x6f\x74\x67\x75\x6e\x61\x6d\x2e\x6d\x64\x33\x00\x73\x6f\x75\x6e\x64\x2f\x6d\x69\x73\x63\x2f\x61\x6d\x5f\x70\x6b\x75\x70\x2e\x77\x61\x76\x00\x61\x6d\x6d\x6f\x5f\x73\x68\x65\x6c\x6c\x73\x00\x47\x72\x61\x70\x70\x6c\x69\x6e\x67\x20\x48\x6f\x6f\x6b\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x77\x5f\x67\x72\x61\x70\x70\x6c\x65\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x77\x65\x61\x70\x6f\x6e\x73\x32\x2f\x67\x72\x61\x70\x70\x6c\x65\x2f\x67\x72\x61\x70\x70\x6c\x65\x2e\x6d\x64\x33\x00\x77\x65\x61\x70\x6f\x6e\x5f\x67\x72\x61\x70\x70\x6c\x69\x6e\x67\x68\x6f\x6f\x6b\x00\x42\x46\x47\x31\x30\x4b\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x77\x5f\x62\x66\x67\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x77\x65\x61\x70\x6f\x6e\x73\x32\x2f\x62\x66\x67\x2f\x62\x66\x67\x2e\x6d\x64\x33\x00\x77\x65\x61\x70\x6f\x6e\x5f\x62\x66\x67\x00\x50\x6c\x61\x73\x6d\x61\x20\x47\x75\x6e\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x77\x5f\x70\x6c\x61\x73\x6d\x61\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x77\x65\x61\x70\x6f\x6e\x73\x32\x2f\x70\x6c\x61\x73\x6d\x61\x2f\x70\x6c\x61\x73\x6d\x61\x2e\x6d\x64\x33\x00\x77\x65\x61\x70\x6f\x6e\x5f\x70\x6c\x61\x73\x6d\x61\x67\x75\x6e\x00\x52\x61\x69\x6c\x67\x75\x6e\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x77\x5f\x72\x61\x69\x6c\x67\x75\x6e\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x77\x65\x61\x70\x6f\x6e\x73\x32\x2f\x72\x61\x69\x6c\x67\x75\x6e\x2f\x72\x61\x69\x6c\x67\x75\x6e\x2e\x6d\x64\x33\x00\x77\x65\x61\x70\x6f\x6e\x5f\x72\x61\x69\x6c\x67\x75\x6e\x00\x4c\x69\x67\x68\x74\x6e\x69\x6e\x67\x20\x47\x75\x6e\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x77\x5f\x6c\x69\x67\x68\x74\x6e\x69\x6e\x67\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x77\x65\x61\x70\x6f\x6e\x73\x32\x2f\x6c\x69\x67\x68\x74\x6e\x69\x6e\x67\x2f\x6c\x69\x67\x68\x74\x6e\x69\x6e\x67\x2e\x6d\x64\x33\x00\x77\x65\x61\x70\x6f\x6e\x5f\x6c\x69\x67\x68\x74\x6e\x69\x6e\x67\x00\x52\x6f\x63\x6b\x65\x74\x20\x4c\x61\x75\x6e\x63\x68\x65\x72\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x77\x5f\x72\x6f\x63\x6b\x65\x74\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x77\x65\x61\x70\x6f\x6e\x73\x32\x2f\x72\x6f\x63\x6b\x65\x74\x6c\x2f\x72\x6f\x63\x6b\x65\x74\x6c\x2e\x6d\x64\x33\x00\x77\x65\x61\x70\x6f\x6e\x5f\x72\x6f\x63\x6b\x65\x74\x6c\x61\x75\x6e\x63\x68\x65\x72\x00\x73\x6f\x75\x6e\x64\x2f\x77\x65\x61\x70\x6f\x6e\x73\x2f\x67\x72\x65\x6e\x61\x64\x65\x2f\x68\x67\x72\x65\x6e\x62\x31\x61\x2e\x77\x61\x76\x20\x73\x6f\x75\x6e\x64\x2f\x77\x65\x61\x70\x6f\x6e\x73\x2f\x67\x72\x65\x6e\x61\x64\x65\x2f\x68\x67\x72\x65\x6e\x62\x32\x61\x2e\x77\x61\x76\x00\x47\x72\x65\x6e\x61\x64\x65\x20\x4c\x61\x75\x6e\x63\x68\x65\x72\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x77\x5f\x67\x72\x65\x6e\x61\x64\x65\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x77\x65\x61\x70\x6f\x6e\x73\x32\x2f\x67\x72\x65\x6e\x61\x64\x65\x6c\x2f\x67\x72\x65\x6e\x61\x64\x65\x6c\x2e\x6d\x64\x33\x00\x77\x65\x61\x70\x6f\x6e\x5f\x67\x72\x65\x6e\x61\x64\x65\x6c\x61\x75\x6e\x63\x68\x65\x72\x00\x4d\x61\x63\x68\x69\x6e\x65\x67\x75\x6e\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x77\x5f\x6d\x61\x63\x68\x69\x6e\x65\x67\x75\x6e\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x77\x65\x61\x70\x6f\x6e\x73\x32\x2f\x6d\x61\x63\x68\x69\x6e\x65\x67\x75\x6e\x2f\x6d\x61\x63\x68\x69\x6e\x65\x67\x75\x6e\x2e\x6d\x64\x33\x00\x77\x65\x61\x70\x6f\x6e\x5f\x6d\x61\x63\x68\x69\x6e\x65\x67\x75\x6e\x00\x53\x68\x6f\x74\x67\x75\x6e\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x77\x5f\x73\x68\x6f\x74\x67\x75\x6e\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x77\x65\x61\x70\x6f\x6e\x73\x32\x2f\x73\x68\x6f\x74\x67\x75\x6e\x2f\x73\x68\x6f\x74\x67\x75\x6e\x2e\x6d\x64\x33\x00\x77\x65\x61\x70\x6f\x6e\x5f\x73\x68\x6f\x74\x67\x75\x6e\x00\x47\x61\x75\x6e\x74\x6c\x65\x74\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x77\x5f\x67\x61\x75\x6e\x74\x6c\x65\x74\x00\x6d\x6f\x64\x65\x6c\x73\x2f\x77\x65\x61\x70\x6f\x6e\x73\x32\x2f\x67\x61\x75\x6e\x74\x6c\x65\x74\x2f\x67\x61\x75\x6e\x74\x6c\x65\x74\x2e\x6d\x64\x33\x00\x73\x6f\x75\x6e\x64\x2f\x6d\x69\x73\x63\x2f\x77\x5f\x70\x6b\x75\x70\x2e\x77\x61\x76\x00\x77\x65\x61\x70\x6f\x6e\x5f\x67\x61\x75\x6e\x74\x6c\x65\x74\x00\x4d\x65\x67\x61\x20\x48\x65\x61\x6c\x74\x68\x00\x69\x63\x6f\x6e\x73\x2f\x69\x63\x6f\x6e\x68\x5f\x6d\x65\x67\x61"; // Used by: Info_ValueForKey
+int		global_2658 = 0; // Used by: Info_ValueForKey
+char	lit_265c[9908];
 char	lit_4d10[10844];
 char	cg_pmove_msec[272];
 char	cg_hudFiles[272];
 char	cg_trueLightning[8];
-char	bss_7994[264]; // Used by: CG_LightningBolt
+int		bss_7994; // Used by: CG_LightningBolt
+char	bss_7998[260];
 char	cg_oldPlasma[12];
-char	bss_7aa8[260]; // Used by: CG_PlasmaTrail
+int		bss_7aa8; // Used by: CG_PlasmaTrail
+char	bss_7aac[256];
 char	cg_oldRocket[12];
-char	bss_7bb8[260]; // Used by: CG_MissileHitWall
+int		bss_7bb8; // Used by: CG_MissileHitWall
+char	bss_7bbc[256];
 char	cg_oldRail[12];
-char	bss_7cc8[260]; // Used by: CG_RailTrail
+int		bss_7cc8; // Used by: CG_RailTrail
+char	bss_7ccc[256];
 char	cg_noProjectileTrail[12];
-char	bss_7dd8[260]; // Used by: CG_PlasmaTrail, CG_RocketTrail, CG_BubbleTrail
+int		bss_7dd8; // Used by: CG_PlasmaTrail, CG_RocketTrail, CG_BubbleTrail
+char	bss_7ddc[256];
 char	cg_cameraMode[12];
-char	bss_7ee8[260]; // Used by: CG_OffsetThirdPersonView, CG_Player
+int		bss_7ee8; // Used by: CG_OffsetThirdPersonView, CG_Player
+char	bss_7eec[256];
 char	cg_timescale[8];
-char	bss_7ff4[264]; // Used by: CG_DrawActiveFrame
+int		bss_7ff4; // Used by: CG_DrawActiveFrame
+char	bss_7ff8[260];
 char	cg_timescaleFadeSpeed[8];
-char	bss_8104[264]; // Used by: CG_DrawActiveFrame
+int		bss_8104; // Used by: CG_DrawActiveFrame
+char	bss_8108[260];
 char	cg_timescaleFadeEnd[8];
-char	bss_8214[264]; // Used by: CG_DrawActiveFrame
+int		bss_8214; // Used by: CG_DrawActiveFrame
+char	bss_8218[260];
 char	cg_cameraOrbitDelay[12];
-char	bss_8328[260]; // Used by: CG_CalcViewValues
+int		bss_8328; // Used by: CG_CalcViewValues
+char	bss_832c[256];
 char	cg_cameraOrbit[8];
 int		bss_8434; // Used by: CG_CalcViewValues, CG_StartOrbit_f
-char	bss_8438[260]; // Used by: CG_CalcViewValues
+int		bss_8438; // Used by: CG_CalcViewValues
+char	bss_843c[256];
 char	pmove_msec[12];
-char	bss_8548[260]; // Used by: CG_PredictPlayerState
+int		bss_8548; // Used by: CG_PredictPlayerState
+char	bss_854c[256];
 char	pmove_fixed[12];
-char	bss_8658[260]; // Used by: CG_PredictPlayerState
+int		bss_8658; // Used by: CG_PredictPlayerState
+char	bss_865c[256];
 char	cg_smoothClients[12];
-char	bss_8768[260]; // Used by: CG_CalcEntityLerpPositions
+int		bss_8768; // Used by: CG_CalcEntityLerpPositions
+char	bss_876c[256];
 char	cg_scorePlum[12];
-char	bss_8878[260]; // Used by: CG_ScorePlum
+int		bss_8878; // Used by: CG_ScorePlum
+char	bss_887c[256];
 char	cg_teamChatsOnly[12];
-char	bss_8988[260]; // Used by: CG_ServerCommand
+int		bss_8988; // Used by: CG_ServerCommand
+char	bss_898c[256];
 char	cg_drawFriend[12];
-char	bss_8a98[260]; // Used by: CG_PlayerSprites
+int		bss_8a98; // Used by: CG_PlayerSprites
+char	bss_8a9c[256];
 char	cg_deferPlayers[12];
-char	bss_8ba8[260]; // Used by: CG_NewClientInfo
+int		bss_8ba8; // Used by: CG_NewClientInfo
+char	bss_8bac[256];
 char	cg_predictItems[12];
-char	bss_8cb8[260]; // Used by: CG_TouchItem
+int		bss_8cb8; // Used by: CG_TouchItem
+char	bss_8cbc[256];
 char	cg_blood[12];
-char	bss_8dc8[260]; // Used by: CG_DamageBlendBlob, CG_BigExplode, CG_GibPlayer, CG_Bleed
+int		bss_8dc8; // Used by: CG_DamageBlendBlob, CG_BigExplode, CG_GibPlayer, CG_Bleed
+char	bss_8dcc[256];
 char	cg_paused[12];
-char	bss_8ed8[260]; // Used by: CG_DrawOldScoreboard
+int		bss_8ed8; // Used by: CG_DrawOldScoreboard
+char	bss_8edc[256];
 char	cg_buildScript[12];
-char	bss_8fe8[260]; // Used by: CG_NewClientInfo, CG_LoadClientInfo, CG_RegisterGraphics, CG_RegisterSounds
+int		bss_8fe8; // Used by: CG_NewClientInfo, CG_LoadClientInfo, CG_RegisterGraphics, CG_RegisterSounds
+char	bss_8fec[256];
 int		cg_forceModel;
-char	bss_90f0[8]; // Used by: CG_UpdateCvars, CG_RegisterCvars
-char	bss_90f8[260]; // Used by: CG_NewClientInfo
+int		bss_90f0; // Used by: CG_UpdateCvars, CG_RegisterCvars
+int		bss_90f4;
+int		bss_90f8; // Used by: CG_NewClientInfo
+char	bss_90fc[256];
 char	cg_stats[12];
-char	bss_9208[260]; // Used by: CG_DrawActiveFrame
+int		bss_9208; // Used by: CG_DrawActiveFrame
+char	bss_920c[256];
 char	cg_teamChatHeight[12];
-char	bss_9318[260]; // Used by: CG_AddToTeamChat, CG_DrawTeamInfo
+int		bss_9318; // Used by: CG_AddToTeamChat, CG_DrawTeamInfo
+char	bss_931c[256];
 char	cg_teamChatTime[12];
-char	bss_9428[260]; // Used by: CG_AddToTeamChat, CG_DrawTeamInfo
+int		bss_9428; // Used by: CG_AddToTeamChat, CG_DrawTeamInfo
+char	bss_942c[256];
 char	cg_synchronousClients[12];
-char	bss_9538[260]; // Used by: CG_TransitionSnapshot, CG_PredictPlayerState, CG_EntityEvent, CG_DrawLagometer
+int		bss_9538; // Used by: CG_TransitionSnapshot, CG_PredictPlayerState, CG_EntityEvent, CG_DrawLagometer
+char	bss_953c[256];
 char	cg_drawAttacker[12];
-char	bss_9648[260]; // Used by: CG_DrawUpperRight
+int		bss_9648; // Used by: CG_DrawUpperRight
+char	bss_964c[256];
 char	cg_lagometer[12];
-char	bss_9758[260]; // Used by: CG_DrawLagometer
+int		bss_9758; // Used by: CG_DrawLagometer
+char	bss_975c[256];
 char	cg_thirdPerson[12];
-char	bss_9868[260]; // Used by: CG_DrawActiveFrame
+int		bss_9868; // Used by: CG_DrawActiveFrame
+char	bss_986c[256];
 char	cg_thirdPersonAngle[8];
-char	bss_9974[264]; // Used by: CG_OffsetThirdPersonView
+int		bss_9974; // Used by: CG_OffsetThirdPersonView
+char	bss_9978[260];
 char	cg_thirdPersonRange[8];
-char	bss_9a84[264]; // Used by: CG_OffsetThirdPersonView
+int		bss_9a84; // Used by: CG_OffsetThirdPersonView
+char	bss_9a88[260];
 char	cg_zoomFov[8];
-char	bss_9b94[264]; // Used by: CG_CalcFov
+int		bss_9b94; // Used by: CG_CalcFov
+char	bss_9b98[260];
 char	cg_fov[8];
 int		bss_9ca4; // Used by: CG_CalcFov
-char	bss_9ca8[260]; // Used by: CG_AddViewWeapon
+int		bss_9ca8; // Used by: CG_AddViewWeapon
+char	bss_9cac[256];
 char	cg_simpleItems[12];
-char	bss_9db8[260]; // Used by: CG_Item
+int		bss_9db8; // Used by: CG_Item
+char	bss_9dbc[256];
 char	cg_ignore[272];
 char	cg_autoswitch[12];
-char	bss_9fd8[260]; // Used by: CG_ItemPickup
+int		bss_9fd8; // Used by: CG_ItemPickup
+char	bss_9fdc[256];
 char	cg_tracerLength[8];
-char	bss_a0e4[264]; // Used by: CG_Tracer
+int		bss_a0e4; // Used by: CG_Tracer
+char	bss_a0e8[260];
 char	cg_tracerWidth[8];
-char	bss_a1f4[264]; // Used by: CG_Tracer
+int		bss_a1f4; // Used by: CG_Tracer
+char	bss_a1f8[260];
 char	cg_tracerChance[8];
-char	bss_a304[264]; // Used by: CG_Bullet
+int		bss_a304; // Used by: CG_Bullet
+char	bss_a308[260];
 char	cg_viewsize[12];
-char	bss_a418[260]; // Used by: CG_CalcVrect, CG_SizeDown_f, CG_SizeUp_f
+int		bss_a418; // Used by: CG_CalcVrect, CG_SizeDown_f, CG_SizeUp_f
+char	bss_a41c[256];
 char	cg_drawGun[12];
-char	bss_a528[260]; // Used by: CG_AddViewWeapon, CG_AddPlayerWeapon, CG_EntityEvent
+int		bss_a528; // Used by: CG_AddViewWeapon, CG_AddPlayerWeapon, CG_EntityEvent
+char	bss_a52c[256];
 char	cg_gun_z[8];
-char	bss_a634[264]; // Used by: CG_AddViewWeapon, CG_AddTestModel
+int		bss_a634; // Used by: CG_AddViewWeapon, CG_AddTestModel
+char	bss_a638[260];
 char	cg_gun_y[8];
-char	bss_a744[264]; // Used by: CG_AddViewWeapon, CG_AddTestModel
+int		bss_a744; // Used by: CG_AddViewWeapon, CG_AddTestModel
+char	bss_a748[260];
 char	cg_gun_x[8];
-char	bss_a854[264]; // Used by: CG_AddViewWeapon, CG_AddTestModel
+int		bss_a854; // Used by: CG_AddViewWeapon, CG_AddTestModel
+char	bss_a858[260];
 char	cg_gun_frame[12];
-char	bss_a968[260]; // Used by: CG_AddViewWeapon
+int		bss_a968; // Used by: CG_AddViewWeapon
+char	bss_a96c[256];
 char	cg_brassTime[12];
-char	bss_aa78[260]; // Used by: CG_FireWeapon, CG_ShotgunEjectBrass, CG_MachineGunEjectBrass
+int		bss_aa78; // Used by: CG_FireWeapon, CG_ShotgunEjectBrass, CG_MachineGunEjectBrass
+char	bss_aa7c[256];
 char	cg_addMarks[12];
-char	bss_ab88[260]; // Used by: CG_AddMarks, CG_ImpactMark
+int		bss_ab88; // Used by: CG_AddMarks, CG_ImpactMark
+char	bss_ab8c[256];
 char	cg_footsteps[12];
-char	bss_ac98[260]; // Used by: CG_EntityEvent
+int		bss_ac98; // Used by: CG_EntityEvent
+char	bss_ac9c[256];
 char	cg_showmiss[12];
-char	bss_ada8[260]; // Used by: CG_MapRestart, CG_PredictPlayerState, CG_CheckChangedPredictableEvents
+int		bss_ada8; // Used by: CG_MapRestart, CG_PredictPlayerState, CG_CheckChangedPredictableEvents
+char	bss_adac[256];
 char	cg_noPlayerAnims[12];
-char	bss_aeb8[260]; // Used by: CG_PlayerAnimation
+int		bss_aeb8; // Used by: CG_PlayerAnimation
+char	bss_aebc[256];
 char	cg_nopredict[12];
-char	bss_afc8[260]; // Used by: CG_TransitionSnapshot, CG_PredictPlayerState, CG_EntityEvent, CG_DrawLagometer
+int		bss_afc8; // Used by: CG_TransitionSnapshot, CG_PredictPlayerState, CG_EntityEvent, CG_DrawLagometer
+char	bss_afcc[256];
 char	cg_errorDecay[8];
 int		bss_b0d4; // Used by: CG_CalcViewValues, CG_PredictPlayerState
-char	bss_b0d8[260]; // Used by: CG_PredictPlayerState
+int		bss_b0d8; // Used by: CG_PredictPlayerState
+char	bss_b0dc[256];
 char	cg_railTrailTime[8];
-char	bss_b1e4[264]; // Used by: CG_RailTrail
+int		bss_b1e4; // Used by: CG_RailTrail
+char	bss_b1e8[260];
 char	cg_debugEvents[12];
-char	bss_b2f8[260]; // Used by: CG_EntityEvent
+int		bss_b2f8; // Used by: CG_EntityEvent
+char	bss_b2fc[256];
 char	cg_debugPosition[12];
-char	bss_b408[260]; // Used by: CG_ResetPlayerEntity
+int		bss_b408; // Used by: CG_ResetPlayerEntity
+char	bss_b40c[256];
 char	cg_debugAnim[12];
-char	bss_b518[260]; // Used by: CG_RunLerpFrame, CG_SetLerpFrameAnimation
+int		bss_b518; // Used by: CG_RunLerpFrame, CG_SetLerpFrameAnimation
+char	bss_b51c[256];
 char	cg_animSpeed[12];
-char	bss_b628[260]; // Used by: CG_RunLerpFrame
+int		bss_b628; // Used by: CG_RunLerpFrame
+char	bss_b62c[256];
 char	cg_draw2D[12];
-char	bss_b738[260]; // Used by: CG_Draw2D
+int		bss_b738; // Used by: CG_Draw2D
+char	bss_b73c[256];
 char	cg_drawStatus[12];
-char	bss_b848[260]; // Used by: CG_DrawStatusBar
+int		bss_b848; // Used by: CG_DrawStatusBar
+char	bss_b84c[256];
 char	cg_crosshairHealth[12];
-char	bss_b958[260]; // Used by: CG_DrawCrosshair
+int		bss_b958; // Used by: CG_DrawCrosshair
+char	bss_b95c[256];
 char	cg_crosshairSize[8];
-char	bss_ba64[264]; // Used by: CG_DrawCrosshair3D, CG_DrawCrosshair
+int		bss_ba64; // Used by: CG_DrawCrosshair3D, CG_DrawCrosshair
+char	bss_ba68[260];
 char	cg_crosshairY[12];
-char	bss_bb78[260]; // Used by: CG_DrawCrosshair
+int		bss_bb78; // Used by: CG_DrawCrosshair
+char	bss_bb7c[256];
 char	cg_crosshairX[12];
-char	bss_bc88[260]; // Used by: CG_DrawCrosshair
+int		bss_bc88; // Used by: CG_DrawCrosshair
+char	bss_bc8c[256];
 char	cg_teamOverlayUserinfo[272];
 int		cg_drawTeamOverlay;
-char	bss_bea0[8]; // Used by: CG_UpdateCvars
-char	bss_bea8[260]; // Used by: CG_DrawLowerLeft, CG_DrawLowerRight, CG_DrawUpperRight, CG_DrawTeamOverlay, CG_UpdateCvars
+int		bss_bea0; // Used by: CG_UpdateCvars
+int		bss_bea4;
+int		bss_bea8; // Used by: CG_DrawLowerLeft, CG_DrawLowerRight, CG_DrawUpperRight, CG_DrawTeamOverlay, CG_UpdateCvars
+char	bss_beac[256];
 char	cg_drawRewards[12];
-char	bss_bfb8[260]; // Used by: CG_DrawReward
+int		bss_bfb8; // Used by: CG_DrawReward
+char	bss_bfbc[256];
 char	cg_drawCrosshairNames[12];
-char	bss_c0c8[260]; // Used by: CG_DrawCrosshairNames
+int		bss_c0c8; // Used by: CG_DrawCrosshairNames
+char	bss_c0cc[256];
 char	cg_drawCrosshair[12];
-char	bss_c1d8[260]; // Used by: CG_DrawCrosshairNames, CG_DrawCrosshair3D, CG_DrawCrosshair
+int		bss_c1d8; // Used by: CG_DrawCrosshairNames, CG_DrawCrosshair3D, CG_DrawCrosshair
+char	bss_c1dc[256];
 char	cg_drawAmmoWarning[12];
-char	bss_c2e8[260]; // Used by: CG_DrawAmmoWarning
+int		bss_c2e8; // Used by: CG_DrawAmmoWarning
+char	bss_c2ec[256];
 char	cg_drawIcons[12];
-char	bss_c3f8[260]; // Used by: CG_DrawClientScore, CG_DrawStatusBar, CG_DrawFlagModel, CG_DrawHead, CG_Draw3DModel
+int		bss_c3f8; // Used by: CG_DrawClientScore, CG_DrawStatusBar, CG_DrawFlagModel, CG_DrawHead, CG_Draw3DModel
+char	bss_c3fc[256];
 char	cg_draw3dIcons[12];
-char	bss_c508[260]; // Used by: CG_DrawStatusBar, CG_DrawFlagModel, CG_DrawHead, CG_Draw3DModel
+int		bss_c508; // Used by: CG_DrawStatusBar, CG_DrawFlagModel, CG_DrawHead, CG_Draw3DModel
+char	bss_c50c[256];
 char	cg_drawSnapshot[12];
-char	bss_c618[260]; // Used by: CG_DrawUpperRight
+int		bss_c618; // Used by: CG_DrawUpperRight
+char	bss_c61c[256];
 char	cg_drawFPS[12];
-char	bss_c728[260]; // Used by: CG_DrawUpperRight
+int		bss_c728; // Used by: CG_DrawUpperRight
+char	bss_c72c[256];
 char	cg_drawTimer[12];
-char	bss_c838[260]; // Used by: CG_DrawUpperRight
+int		bss_c838; // Used by: CG_DrawUpperRight
+char	bss_c83c[256];
 char	cg_gibs[12];
-char	bss_c948[260]; // Used by: CG_GibPlayer
+int		bss_c948; // Used by: CG_GibPlayer
+char	bss_c94c[256];
 char	cg_shadows[12];
-char	bss_ca58[260]; // Used by: CG_Player, CG_PlayerSplash, CG_PlayerShadow
+int		bss_ca58; // Used by: CG_Player, CG_PlayerSplash, CG_PlayerShadow
+char	bss_ca5c[256];
 char	cg_swingSpeed[8];
-char	bss_cb64[264]; // Used by: CG_PlayerAngles
+int		bss_cb64; // Used by: CG_PlayerAngles
+char	bss_cb68[260];
 char	cg_bobroll[8];
-char	bss_cc74[264]; // Used by: CG_OffsetFirstPersonView
+int		bss_cc74; // Used by: CG_OffsetFirstPersonView
+char	bss_cc78[260];
 char	cg_bobpitch[8];
-char	bss_cd84[264]; // Used by: CG_OffsetFirstPersonView
+int		bss_cd84; // Used by: CG_OffsetFirstPersonView
+char	bss_cd88[260];
 char	cg_bobup[8];
-char	bss_ce94[264]; // Used by: CG_OffsetFirstPersonView
+int		bss_ce94; // Used by: CG_OffsetFirstPersonView
+char	bss_ce98[260];
 char	cg_runroll[8];
-char	bss_cfa4[264]; // Used by: CG_OffsetFirstPersonView
+int		bss_cfa4; // Used by: CG_OffsetFirstPersonView
+char	bss_cfa8[260];
 char	cg_runpitch[8];
-char	bss_d0b4[264]; // Used by: CG_OffsetFirstPersonView
+int		bss_d0b4; // Used by: CG_OffsetFirstPersonView
+char	bss_d0b8[260];
 char	cg_centertime[8];
-char	bss_d1c4[264]; // Used by: CG_DrawCenterString
+int		bss_d1c4; // Used by: CG_DrawCenterString
+char	bss_d1c8[260];
 char	cg_items[6144];
 char	cg_weapons[2112];
 char	cg_entities[733184];
@@ -252,7 +343,8 @@ int		bss_c2324; // Used by: CG_MapRestart, CG_ConfigStringModified, CG_CheckLoca
 int		bss_c2328; // Used by: CG_ProcessSnapshots, CG_ReadNextSnapshot, CG_DrawSnapshot
 int		bss_c232c; // Used by: CG_AddLagometerFrameInfo
 int		bss_c2330; // Used by: CG_CalcMuzzlePoint, CG_Weapon_f, CG_PrevWeapon_f, CG_NextWeapon_f, CG_WeaponSelectable, CG_DrawWeaponSelect, CG_DrawActiveFrame, CG_PowerupTimerSounds, CG_OffsetFirstPersonView, CG_CalcVrect, CG_ProcessSnapshots, CG_ReadNextSnapshot, CG_SetNextSnap, CG_TransitionSnapshot, CG_SetInitialSnapshot, CG_ResetEntity, CG_DrawOldScoreboard, CG_DrawClientScore, CG_PredictPlayerState, CG_InterpolatePlayerState, CG_BuildSolidList, CG_TransitionPlayerState, CG_Respawn, CG_DamageFeedback, CG_CheckAmmo, CG_Player, CG_PlayerSprites, CG_PlayerFloatSprite, CG_AddParticleToScene, CG_CheckEvents, CG_EntityEvent, CG_UseItem, CG_Obituary, CG_AddPacketEntities, CG_CalcEntityLerpPositions, CG_InterpolateEntityPosition, CG_Item, CG_General, CG_Bleed, CG_ColorForHealth, CG_DrawActive, CG_Draw2D, CG_DrawFollow, CG_ScanForCrosshairEntity, CG_DrawCrosshair3D, CG_DrawCrosshair, CG_DrawDisconnect, CG_DrawHoldableItem, CG_DrawPickupItem, CG_DrawPowerups, CG_DrawScores, CG_DrawTeamOverlay, CG_DrawSnapshot, CG_DrawAttacker, CG_DrawStatusBar, CG_DrawStatusBarHead, CG_LastAttacker
-char	bss_c2334[107548]; // Used by: CG_ProcessSnapshots, CG_SetNextSnap, CG_TransitionSnapshot, CG_PredictPlayerState, CG_InterpolatePlayerState, CG_BuildSolidList, CG_AddPacketEntities, CG_InterpolateEntityPosition
+int		bss_c2334; // Used by: CG_ProcessSnapshots, CG_SetNextSnap, CG_TransitionSnapshot, CG_PredictPlayerState, CG_InterpolatePlayerState, CG_BuildSolidList, CG_AddPacketEntities, CG_InterpolateEntityPosition
+char	bss_c2338[107544];
 int		bss_dc750; // Used by: CG_AddPacketEntities, CG_InterpolateEntityPosition
 int		bss_dc754; // Used by: CG_TransitionSnapshot, CG_PredictPlayerState, CG_BuildSolidList, CG_TransitionPlayerState, CG_Respawn
 int		bss_dc758; // Used by: CG_SetNextSnap, CG_PredictPlayerState, CG_InterpolatePlayerState, CG_BuildSolidList
@@ -266,34 +358,49 @@ int		bss_dc774; // Used by: CG_TransitionSnapshot, CG_MapRestart, CG_TransitionP
 int		bss_dc778; // Used by: CG_AddViewWeapon, CG_AddPlayerWeapon, CG_DrawActiveFrame, CG_CalcViewValues, CG_Player, CG_PlayerFloatSprite, CG_EntityEvent, CG_DrawCrosshairNames, CG_DrawCrosshair3D, CG_DrawCrosshair
 int		bss_dc77c; // Used by: CG_DrawActiveFrame, CG_CalcViewValues, CG_PredictPlayerState, CG_TouchTriggerPrediction
 int		bss_dc780; // Used by: CG_PredictPlayerState
-char	bss_dc784[8]; // Used by: CG_CalcFov, CG_DrawOldScoreboard, CG_TouchTriggerPrediction
-char	bss_dc78c[20]; // Used by: CG_OffsetFirstPersonView
+int		bss_dc784; // Used by: CG_CalcFov, CG_DrawOldScoreboard, CG_TouchTriggerPrediction
+int		bss_dc788;
+int		bss_dc78c; // Used by: CG_OffsetFirstPersonView
+char	bss_dc790[16];
 char	bss_dc7a0[12]; // Used by: CG_OffsetFirstPersonView
-char	bss_dc7ac[24]; // Used by: CG_DrawStatusBar
-char	bss_dc7c4[36]; // Used by: CG_PredictPlayerState
+int		bss_dc7ac; // Used by: CG_DrawStatusBar
+char	bss_dc7b0[20];
+int		bss_dc7c4; // Used by: CG_PredictPlayerState
+char	bss_dc7c8[32];
 int		bss_dc7e8; // Used by: CG_AddViewWeapon
-char	bss_dc7ec[32]; // Used by: CG_PredictPlayerState
+int		bss_dc7ec; // Used by: CG_PredictPlayerState
+char	bss_dc7f0[28];
 int		bss_dc80c; // Used by: CG_AddPlayerWeapon, CG_LightningBolt, CG_OffsetThirdPersonView, CG_EntityEvent, CG_ScorePlum
 int		bss_dc810; // Used by: CG_DrawStatusBar
-char	bss_dc814[16]; // Used by: CG_DrawStatusBar
-char	bss_dc824[20]; // Used by: CG_OffsetFirstPersonView, CG_OffsetThirdPersonView
-char	bss_dc838[16]; // Used by: CG_DrawWeaponSelect, CG_OffsetThirdPersonView, CG_TouchTriggerPrediction, CG_DrawAttacker
-char	bss_dc848[60]; // Used by: CG_OffsetThirdPersonView
-char	bss_dc884[12]; // Used by: CG_TouchItem
-char	bss_dc890[68]; // Used by: CG_DrawAttacker
+int		bss_dc814; // Used by: CG_DrawStatusBar
+char	bss_dc818[12];
+int		bss_dc824; // Used by: CG_OffsetFirstPersonView, CG_OffsetThirdPersonView
+char	bss_dc828[16];
+int		bss_dc838; // Used by: CG_DrawWeaponSelect, CG_OffsetThirdPersonView, CG_TouchTriggerPrediction, CG_DrawAttacker
+char	bss_dc83c[12];
+int		bss_dc848; // Used by: CG_OffsetThirdPersonView
+char	bss_dc84c[56];
+int		bss_dc884; // Used by: CG_TouchItem
+char	bss_dc888[8];
+int		bss_dc890; // Used by: CG_DrawAttacker
+char	bss_dc894[64];
 int		bss_dc8d4; // Used by: CG_DrawStatusBar
 int		bss_dc8d8; // Used by: CG_DrawStatusBar
-char	bss_dc8dc[100]; // Used by: CG_DrawStatusBar
-char	bss_dc940[8]; // Used by: CG_TouchTriggerPrediction
+int		bss_dc8dc; // Used by: CG_DrawStatusBar
+char	bss_dc8e0[96];
+int		bss_dc940; // Used by: CG_TouchTriggerPrediction
+int		bss_dc944;
 int		bss_dc948; // Used by: CG_TouchTriggerPrediction
-char	bss_dc94c[8]; // Used by: CG_TouchTriggerPrediction
+int		bss_dc94c; // Used by: CG_TouchTriggerPrediction
+int		bss_dc950;
 char	bss_dc954[716];
 int		bss_dcc20; // Used by: CG_PredictPlayerState
 int		bss_dcc24; // Used by: CG_CalcViewValues, CG_PredictPlayerState
 int		bss_dcc28; // Used by: CG_CalcViewValues, CG_PredictPlayerState
 int		bss_dcc2c; // Used by: CG_CalcViewValues, CG_PredictPlayerState
 int		bss_dcc30; // Used by: CG_CalcViewValues, CG_PredictPlayerState
-char	bss_dcc34[68]; // Used by: CG_PredictPlayerState, CG_CheckChangedPredictableEvents
+int		bss_dcc34; // Used by: CG_PredictPlayerState, CG_CheckChangedPredictableEvents
+char	bss_dcc38[64];
 int		bss_dcc78; // Used by: CG_StepOffset, CG_EntityEvent
 int		bss_dcc7c; // Used by: CG_StepOffset, CG_EntityEvent
 int		bss_dcc80; // Used by: CG_OffsetFirstPersonView, CG_TransitionPlayerState
@@ -329,50 +436,62 @@ int		bss_dcd34; // Used by: CG_Tracer, CG_AddViewWeapon, CG_DamageBlendBlob, CG_
 int		bss_dcd38; // Used by: CG_Tracer, CG_AddViewWeapon, CG_DamageBlendBlob, CG_DamageFeedback
 char	bss_dcd3c[296]; // Used by: CG_DrawActiveFrame
 int		bss_dce64; // Used by: CG_CalculateWeaponPosition, CG_CalcViewValues, CG_OffsetThirdPersonView
-char	bss_dce68[8]; // Used by: CG_OffsetThirdPersonView, CG_TestModel_f, CG_Viewpos_f
+int		bss_dce68; // Used by: CG_OffsetThirdPersonView, CG_TestModel_f, CG_Viewpos_f
+int		bss_dce6c;
 int		bss_dce70; // Used by: CG_CalcFov, CG_ZoomUp_f, CG_ZoomDown_f
 int		bss_dce74; // Used by: CG_CalcFov, CG_ZoomUp_f, CG_ZoomDown_f
 int		bss_dce78; // Used by: CG_DrawActiveFrame, CG_CalcFov
 char	bss_dce7c[1024]; // Used by: CG_DrawActiveFrame, CG_DrawInformation, CG_Init
 int		bss_dd27c; // Used by: CG_DrawTourneyScoreboard, CG_ScoresDown_f
-char	bss_dd280[8]; // Used by: CG_ParseScores, CG_DrawOldScoreboard, CG_TeamScoreboard, CG_ScoresDown_f
+int		bss_dd280; // Used by: CG_ParseScores, CG_DrawOldScoreboard, CG_TeamScoreboard, CG_ScoresDown_f
+int		bss_dd284;
 int		bss_dd288; // Used by: CG_ParseScores, CG_DrawTourneyScoreboard, CG_DrawOldScoreboard
-char	bss_dd28c[3844]; // Used by: CG_ParseScores, CG_DrawTourneyScoreboard, CG_DrawOldScoreboard
+int		bss_dd28c; // Used by: CG_ParseScores, CG_DrawTourneyScoreboard, CG_DrawOldScoreboard
+char	bss_dd290[3840];
 int		bss_de190; // Used by: CG_DrawOldScoreboard, CG_Draw2D, CG_ScoresUp_f, CG_ScoresDown_f
 int		bss_de194; // Used by: CG_Draw2D, CG_DrawIntermission
 int		bss_de198; // Used by: CG_DrawOldScoreboard, CG_DrawIntermission, CG_ScoresUp_f
 char	bss_de19c[32]; // Used by: CG_DrawOldScoreboard
 char	bss_de1bc[1024]; // Used by: CG_BuildSpectatorString
 int		bss_de5bc; // Used by: CG_BuildSpectatorString
-char	bss_de5c0[24]; // Used by: CG_BuildSpectatorString
+int		bss_de5c0; // Used by: CG_BuildSpectatorString
+char	bss_de5c4[20];
 int		bss_de5d8; // Used by: CG_DrawCenterString, CG_CenterPrint
 int		bss_de5dc; // Used by: CG_DrawCenterString, CG_CenterPrint
-char	bss_de5e0[1028]; // Used by: CG_DrawCenterString, CG_CenterPrint
+int		bss_de5e0; // Used by: CG_DrawCenterString, CG_CenterPrint
+char	bss_de5e4[1024];
 int		bss_de9e4; // Used by: CG_DrawCenterString, CG_CenterPrint
 int		bss_de9e8; // Used by: CG_CheckAmmo, CG_DrawAmmoWarning
 int		bss_de9ec; // Used by: CG_DrawCrosshairNames, CG_ScanForCrosshairEntity, CG_CrosshairPlayer
 int		bss_de9f0; // Used by: CG_DrawCrosshairNames, CG_ScanForCrosshairEntity, CG_CrosshairPlayer
 int		bss_de9f4; // Used by: CG_EntityEvent, CG_DrawPowerups
 int		bss_de9f8; // Used by: CG_EntityEvent, CG_DrawPowerups
-char	bss_de9fc[8]; // Used by: CG_DamageFeedback, CG_DrawAttacker, CG_LastAttacker
+int		bss_de9fc; // Used by: CG_DamageFeedback, CG_DrawAttacker, CG_LastAttacker
+int		bss_dea00;
 int		bss_dea04; // Used by: CG_MapRestart, pushReward, CG_DrawReward
 int		bss_dea08; // Used by: CG_MapRestart, CG_DrawReward
-char	bss_dea0c[40]; // Used by: CG_DrawReward
-char	bss_dea34[40]; // Used by: CG_DrawReward
-char	bss_dea5c[40]; // Used by: CG_DrawReward
+int		bss_dea0c; // Used by: CG_DrawReward
+char	bss_dea10[36];
+int		bss_dea34; // Used by: CG_DrawReward
+char	bss_dea38[36];
+int		bss_dea5c; // Used by: CG_DrawReward
+char	bss_dea60[36];
 int		bss_dea84; // Used by: CG_PlayBufferedSounds, CG_AddBufferedSound
 int		bss_dea88; // Used by: CG_PlayBufferedSounds, CG_AddBufferedSound
-char	bss_dea8c[84]; // Used by: CG_PlayBufferedSounds
+int		bss_dea8c; // Used by: CG_PlayBufferedSounds
+char	bss_dea90[80];
 int		bss_deae0; // Used by: CG_MapRestart, CG_SetConfigValues, CG_ParseWarmup, CG_DrawOldScoreboard, CG_CheckLocalSounds, CG_DrawWarmup
 int		bss_deae4; // Used by: CG_ParseWarmup, CG_DrawWarmup
 int		bss_deae8; // Used by: CG_ItemPickup, CG_DrawPickupItem
 int		bss_deaec; // Used by: CG_DrawWeaponSelect, CG_ItemPickup, CG_DrawPickupItem
 int		bss_deaf0; // Used by: CG_ItemPickup, CG_DrawCrosshair3D, CG_DrawCrosshair
-char	bss_deaf4[12]; // Used by: CG_OutOfAmmoChange, CG_Weapon_f, CG_PrevWeapon_f, CG_NextWeapon_f, CG_DrawWeaponSelect, CG_Respawn, CG_ItemPickup
+int		bss_deaf4; // Used by: CG_OutOfAmmoChange, CG_Weapon_f, CG_PrevWeapon_f, CG_NextWeapon_f, CG_DrawWeaponSelect, CG_Respawn, CG_ItemPickup
+char	bss_deaf8[8];
 int		bss_deb00; // Used by: CG_DamageBlendBlob, CG_OffsetFirstPersonView, CG_DamageFeedback, CG_DrawStatusBarHead
 int		bss_deb04; // Used by: CG_DamageBlendBlob, CG_DamageFeedback, CG_DrawStatusBarHead
 int		bss_deb08; // Used by: CG_DamageBlendBlob, CG_DamageFeedback
-char	bss_deb0c[8]; // Used by: CG_DamageBlendBlob, CG_DamageFeedback
+int		bss_deb0c; // Used by: CG_DamageBlendBlob, CG_DamageFeedback
+int		bss_deb10;
 int		bss_deb14; // Used by: CG_DrawStatusBarHead
 int		bss_deb18; // Used by: CG_DrawStatusBarHead
 int		bss_deb1c; // Used by: CG_DrawStatusBarHead
@@ -385,9 +504,11 @@ int		bss_deb34; // Used by: CG_OffsetFirstPersonView, CG_DamageFeedback
 int		bss_deb38; // Used by: CG_CalculateWeaponPosition, CG_CalcViewValues, CG_OffsetFirstPersonView
 int		bss_deb3c; // Used by: CG_CalculateWeaponPosition, CG_CalcViewValues, CG_OffsetFirstPersonView
 int		bss_deb40; // Used by: CG_CalculateWeaponPosition, CG_CalcViewValues, CG_OffsetFirstPersonView
-char	bss_deb44[8]; // Used by: CG_CalcViewValues
+int		bss_deb44; // Used by: CG_CalcViewValues
+int		bss_deb48;
 int		bss_deb4c; // Used by: CG_TestGun_f
-char	bss_deb50[20]; // Used by: CG_DrawActiveFrame, CG_AddTestModel, CG_TestGun_f, CG_TestModel_f
+int		bss_deb50; // Used by: CG_DrawActiveFrame, CG_AddTestModel, CG_TestGun_f, CG_TestModel_f
+char	bss_deb54[16];
 char	bss_deb64[12]; // Used by: CG_AddTestModel
 char	bss_deb70[12]; // Used by: CG_AddTestModel
 char	bss_deb7c[12]; // Used by: CG_AddTestModel
@@ -395,15 +516,19 @@ int		bss_deb88;
 int		bss_deb8c; // Used by: CG_AddTestModel, CG_TestModel_f
 int		bss_deb90; // Used by: CG_TestModel_f
 int		bss_deb94; // Used by: CG_TestModel_f
-char	bss_deb98[16]; // Used by: CG_TestModelPrevFrame_f, CG_TestModelNextFrame_f, CG_TestModel_f
+int		bss_deb98; // Used by: CG_TestModelPrevFrame_f, CG_TestModelNextFrame_f, CG_TestModel_f
+char	bss_deb9c[12];
 int		bss_deba8; // Used by: CG_TestModel_f
 int		bss_debac; // Used by: CG_TestModel_f
-char	bss_debb0[100]; // Used by: CG_TestModelPrevSkin_f, CG_TestModelNextSkin_f
+int		bss_debb0; // Used by: CG_TestModelPrevSkin_f, CG_TestModelNextSkin_f
+char	bss_debb4[96];
 int		bss_dec14; // Used by: CG_AddViewWeapon, CG_AddTestModel, CG_TestGun_f, CG_TestModel_f
 char	cgs[31388];
-char	bss_e66b4[16]; // Used by: CG_ShotgunFire, CG_DamageBlendBlob, CG_AddParticleToScene, CG_SmokePuff
+int		bss_e66b4; // Used by: CG_ShotgunFire, CG_DamageBlendBlob, CG_AddParticleToScene, CG_SmokePuff
+char	bss_e66b8[12];
 int		bss_e66c4; // Used by: CG_CalcVrect, CG_DrawInformation, CG_TileClear, CG_DrawCrosshair3D, CG_Init
-char	bss_e66c8[24]; // Used by: CG_CalcVrect, CG_DrawInformation, CG_TileClear, CG_Init
+int		bss_e66c8; // Used by: CG_CalcVrect, CG_DrawInformation, CG_TileClear, CG_Init
+char	bss_e66cc[20];
 int		bss_e66e0; // Used by: UI_DrawProportionalString2, UI_DrawBannerString2, CG_DrawSides, CG_AdjustFrom640, CG_Init
 int		bss_e66e4; // Used by: UI_DrawProportionalString2, UI_DrawBannerString2, CG_DrawTopBottom, CG_AdjustFrom640, CG_Init
 int		bss_e66e8; // Used by: UI_DrawProportionalString2, UI_DrawBannerString2
@@ -416,20 +541,25 @@ int		bss_e6700; // Used by: CG_ParseServerinfo
 int		bss_e6704; // Used by: CG_ParseServerinfo, CG_CheckLocalSounds, CG_DrawScores
 int		bss_e6708; // Used by: CG_ParseServerinfo, CG_DrawScores
 int		bss_e670c; // Used by: CG_ParseServerinfo, CG_CheckLocalSounds
-char	bss_e6710[196]; // Used by: CG_ParseServerinfo, CG_DrawClientScore, CG_LoadDeferredPlayers, CG_SetDeferredClientInfo, CG_ScanForExistingClientInfo, CG_DrawWarmup
+int		bss_e6710; // Used by: CG_ParseServerinfo, CG_DrawClientScore, CG_LoadDeferredPlayers, CG_SetDeferredClientInfo, CG_ScanForExistingClientInfo, CG_DrawWarmup
+char	bss_e6714[192];
 int		bss_e67d4; // Used by: CG_MapRestart, CG_ConfigStringModified, CG_DrawVote
 int		bss_e67d8; // Used by: CG_ConfigStringModified, CG_DrawVote
 int		bss_e67dc; // Used by: CG_ConfigStringModified, CG_DrawVote
-char	bss_e67e0[3108]; // Used by: CG_ConfigStringModified, CG_DrawVote
+int		bss_e67e0; // Used by: CG_ConfigStringModified, CG_DrawVote
+char	bss_e67e4[3104];
 int		bss_e7404; // Used by: CG_ConfigStringModified, CG_SetConfigValues, CG_CheckLocalSounds, CG_DrawTimer, CG_Init
 int		bss_e7408; // Used by: CG_ConfigStringModified, CG_SetConfigValues, CG_CheckLocalSounds, CG_DrawScores
 int		bss_e740c; // Used by: CG_ConfigStringModified, CG_SetConfigValues, CG_CheckLocalSounds, CG_DrawScores
 int		bss_e7410; // Used by: CG_ConfigStringModified, CG_SetConfigValues, CG_DrawScores, CG_Init
 int		bss_e7414; // Used by: CG_ConfigStringModified, CG_SetConfigValues, CG_DrawScores, CG_Init
-char	bss_e7418[2056]; // Used by: CG_Init
-char	bss_e7c20[115884]; // Used by: CG_RegisterGraphics
+int		bss_e7418; // Used by: CG_Init
+char	bss_e741c[2052];
+int		bss_e7c20; // Used by: CG_RegisterGraphics
+char	bss_e7c24[115880];
 int		bss_1040cc; // Used by: CG_AddToTeamChat, CG_DrawTeamInfo
-char	bss_1040d0[92]; // Used by: CG_AddToTeamChat, CG_DrawTeamInfo
+int		bss_1040d0; // Used by: CG_AddToTeamChat, CG_DrawTeamInfo
+char	bss_1040d4[88];
 int		bss_10412c; // Used by: CG_DrawChar, CG_Init
 int		bss_104130; // Used by: UI_DrawProportionalString, CG_Init
 int		bss_104134; // Used by: UI_DrawProportionalString, CG_Init
@@ -443,7 +573,8 @@ int		bss_104150; // Used by: CG_RegisterGraphics
 int		bss_104154; // Used by: CG_RegisterGraphics
 int		bss_104158; // Used by: CG_RegisterGraphics
 int		bss_10415c; // Used by: CG_RegisterGraphics
-char	bss_104160[20]; // Used by: CG_RegisterGraphics
+int		bss_104160; // Used by: CG_RegisterGraphics
+char	bss_104164[16];
 int		bss_104174; // Used by: CG_PlayerFlag
 int		bss_104178; // Used by: CG_PlayerFlag
 int		bss_10417c; // Used by: CG_PlayerPowerups
@@ -477,7 +608,8 @@ int		bss_1041e8; // Used by: CG_PlayerSprites, CG_RegisterGraphics
 int		bss_1041ec; // Used by: CG_PlayerSprites, CG_RegisterGraphics
 int		bss_1041f0; // Used by: CG_DrawWeaponSelect, CG_DrawScores, CG_RegisterGraphics
 int		bss_1041f4; // Used by: CG_DamageBlendBlob, CG_RegisterGraphics
-char	bss_1041f8[44]; // Used by: CG_Tracer, CG_ParticleSparks, CG_ParticleBulletDebris, CG_RegisterGraphics
+int		bss_1041f8; // Used by: CG_Tracer, CG_ParticleSparks, CG_ParticleBulletDebris, CG_RegisterGraphics
+char	bss_1041fc[40];
 int		bss_104224; // Used by: CG_DrawLagometer, CG_RegisterGraphics
 int		bss_104228; // Used by: CG_TileClear, CG_RegisterGraphics
 int		bss_10422c; // Used by: CG_DrawWeaponSelect, CG_RegisterGraphics
@@ -486,7 +618,8 @@ int		bss_104234; // Used by: CG_SmokePuff, CG_RegisterGraphics
 int		bss_104238; // Used by: CG_ShotgunFire, CG_RegisterGraphics
 int		bss_10423c; // Used by: CG_Missile, CG_RegisterGraphics
 int		bss_104240; // Used by: CG_NewParticleArea, CG_BubbleTrail, CG_RegisterGraphics
-char	bss_104244[48]; // Used by: CG_BloodTrail, CG_RegisterGraphics
+int		bss_104244; // Used by: CG_BloodTrail, CG_RegisterGraphics
+char	bss_104248[44];
 int		bss_104274; // Used by: CG_PlayerShadow, CG_RegisterGraphics
 int		bss_104278; // Used by: CG_RegisterGraphics
 int		bss_10427c; // Used by: CG_RegisterGraphics
@@ -534,7 +667,8 @@ int		bss_104320; // Used by: CG_FireWeapon, CG_EntityEvent, CG_RegisterSounds
 int		bss_104324; // Used by: CG_Tracer, CG_RegisterSounds
 int		bss_104328; // Used by: CG_EntityEvent, CG_RegisterSounds
 int		bss_10432c; // Used by: CG_UseItem, CG_RegisterSounds
-char	bss_104330[116]; // Used by: CG_PowerupTimerSounds, CG_RegisterSounds
+int		bss_104330; // Used by: CG_PowerupTimerSounds, CG_RegisterSounds
+char	bss_104334[112];
 int		bss_1043a4; // Used by: CG_MissileHitWall, CG_RegisterWeapon
 int		bss_1043a8; // Used by: CG_MissileHitWall, CG_RegisterWeapon
 int		bss_1043ac; // Used by: CG_MissileHitWall, CG_RegisterWeapon
@@ -552,7 +686,8 @@ int		bss_1043d8; // Used by: CG_EntityEvent, CG_RegisterSounds
 int		bss_1043dc; // Used by: CG_CheckAmmo, CG_RegisterSounds
 int		bss_1043e0; // Used by: CG_EntityEvent, CG_RegisterSounds
 int		bss_1043e4; // Used by: CG_ServerCommand, CG_DrawTeamVote, CG_DrawVote, CG_RegisterSounds
-char	bss_1043e8[8]; // Used by: CG_EntityEvent, CG_RegisterSounds
+int		bss_1043e8; // Used by: CG_EntityEvent, CG_RegisterSounds
+int		bss_1043ec;
 int		bss_1043f0; // Used by: CG_EntityEvent, CG_RegisterSounds
 int		bss_1043f4; // Used by: CG_CheckLocalSounds, CG_RegisterSounds
 int		bss_1043f8; // Used by: CG_CheckLocalSounds, CG_RegisterSounds
@@ -560,17 +695,20 @@ int		bss_1043fc; // Used by: CG_CheckLocalSounds, CG_RegisterSounds
 int		bss_104400; // Used by: CG_CheckLocalSounds, CG_RegisterSounds
 int		bss_104404; // Used by: CG_CheckLocalSounds, CG_RegisterSounds
 int		bss_104408; // Used by: CG_CheckLocalSounds, CG_RegisterSounds
-char	bss_10440c[12]; // Used by: CG_CheckLocalSounds, CG_RegisterSounds
+int		bss_10440c; // Used by: CG_CheckLocalSounds, CG_RegisterSounds
+char	bss_104410[8];
 int		bss_104418; // Used by: CG_CheckLocalSounds, CG_RegisterSounds
 int		bss_10441c; // Used by: CG_CheckLocalSounds, CG_RegisterSounds
 int		bss_104420; // Used by: CG_CheckLocalSounds, CG_RegisterSounds
 int		bss_104424; // Used by: CG_CheckLocalSounds, CG_RegisterSounds
 int		bss_104428; // Used by: CG_CheckLocalSounds, CG_RegisterSounds
 int		bss_10442c; // Used by: CG_CheckLocalSounds, CG_RegisterSounds
-char	bss_104430[16]; // Used by: CG_CheckLocalSounds, CG_RegisterSounds
+int		bss_104430; // Used by: CG_CheckLocalSounds, CG_RegisterSounds
+char	bss_104434[12];
 int		bss_104440; // Used by: CG_CheckLocalSounds, CG_RegisterSounds
 int		bss_104444; // Used by: CG_CheckLocalSounds, CG_RegisterSounds
-char	bss_104448[16]; // Used by: CG_CheckLocalSounds, CG_RegisterSounds
+int		bss_104448; // Used by: CG_CheckLocalSounds, CG_RegisterSounds
+char	bss_10444c[12];
 int		bss_104458; // Used by: CG_EntityEvent, CG_RegisterSounds
 int		bss_10445c; // Used by: CG_EntityEvent, CG_RegisterSounds
 int		bss_104460; // Used by: CG_EntityEvent, CG_RegisterSounds
@@ -603,11 +741,14 @@ int		bss_1044c8; // Used by: CG_EntityEvent, CG_RegisterSounds
 int		bss_1044cc; // Used by: CG_EntityEvent, CG_RegisterSounds
 int		bss_1044d0; // Used by: CG_EntityEvent, CG_RegisterSounds
 int		bss_1044d4; // Used by: CG_EntityEvent, CG_RegisterSounds
-char	bss_1044d8[20]; // Used by: CG_EntityEvent, CG_RegisterSounds
+int		bss_1044d8; // Used by: CG_EntityEvent, CG_RegisterSounds
+char	bss_1044dc[16];
 int		pml; // Used by: PM_WalkMove, PM_GrappleMove, PM_CheckWaterJump
 int		bss_1044f0; // Used by: PM_WalkMove, PM_GrappleMove, PM_CheckWaterJump
-char	bss_1044f4[12]; // Used by: PM_WalkMove, PM_GrappleMove, PM_AirMove, PM_CheckWaterJump
-char	bss_104500[16]; // Used by: PM_WalkMove, PM_AirMove
+int		bss_1044f4; // Used by: PM_WalkMove, PM_GrappleMove, PM_AirMove, PM_CheckWaterJump
+char	bss_1044f8[8];
+int		bss_104500; // Used by: PM_WalkMove, PM_AirMove
+char	bss_104504[12];
 int		bss_104510; // Used by: PM_SlideMove, PmoveSingle, PM_NoclipMove, PM_WalkMove, PM_WaterJumpMove, PM_Accelerate, PM_Friction
 int		bss_104514; // Used by: PmoveSingle, PM_DropTimers, PM_Weapon, PM_Footsteps
 int		bss_104518; // Used by: PmoveSingle, PM_GroundTrace, PM_GroundTraceMissed, PM_CorrectAllSolid, PM_DeadMove, PM_CheckJump, PM_Friction
@@ -617,17 +758,21 @@ int		bss_104538; // Used by: PM_SlideMove, PM_WalkMove, PM_WaterMove
 int		bss_10453c; // Used by: PM_WalkMove, PM_WaterMove
 int		bss_104540; // Used by: PM_WalkMove, PM_WaterMove
 char	bss_104544[8];
-char	bss_10454c[12]; // Used by: PM_CrashLand, PM_FootstepForSurface, PM_WalkMove, PM_Friction
+int		bss_10454c; // Used by: PM_CrashLand, PM_FootstepForSurface, PM_WalkMove, PM_Friction
+char	bss_104550[8];
 int		bss_104558; // Used by: PM_SlideMove
 char	bss_10455c[8]; // Used by: PmoveSingle
 int		bss_104564; // Used by: PM_CrashLand
 char	bss_104568[8]; // Used by: PmoveSingle
 int		bss_104570; // Used by: PM_GroundTrace, PM_CrashLand
 int		bss_104574; // Used by: PmoveSingle, PM_WaterEvents
-char	pm[20]; // Used by: PM_StepSlideMove, PM_SlideMove, PmoveSingle, PM_DropTimers, PM_Animate, PM_Weapon, PM_TorsoAnimation, PM_FinishWeaponChange, PM_BeginWeaponChange, PM_WaterEvents, PM_Footsteps, PM_CheckDuck, PM_SetWaterLevel, PM_GroundTrace, PM_GroundTraceMissed, PM_CorrectAllSolid, PM_CrashLand, PM_NoclipMove, PM_DeadMove, PM_WalkMove, PM_GrappleMove, PM_AirMove, PM_FlyMove, PM_WaterMove, PM_WaterJumpMove, PM_CheckWaterJump, PM_CheckJump, PM_SetMovementDir, PM_CmdScale, PM_Accelerate, PM_Friction, PM_ForceLegsAnim, PM_ContinueTorsoAnim, PM_ContinueLegsAnim, PM_StartLegsAnim, PM_StartTorsoAnim, PM_AddTouchEnt, PM_AddEvent
-char	bss_10458c[8]; // Used by: CG_DrawFPS
+int		pm; // Used by: PM_StepSlideMove, PM_SlideMove, PmoveSingle, PM_DropTimers, PM_Animate, PM_Weapon, PM_TorsoAnimation, PM_FinishWeaponChange, PM_BeginWeaponChange, PM_WaterEvents, PM_Footsteps, PM_CheckDuck, PM_SetWaterLevel, PM_GroundTrace, PM_GroundTraceMissed, PM_CorrectAllSolid, PM_CrashLand, PM_NoclipMove, PM_DeadMove, PM_WalkMove, PM_GrappleMove, PM_AirMove, PM_FlyMove, PM_WaterMove, PM_WaterJumpMove, PM_CheckWaterJump, PM_CheckJump, PM_SetMovementDir, PM_CmdScale, PM_Accelerate, PM_Friction, PM_ForceLegsAnim, PM_ContinueTorsoAnim, PM_ContinueLegsAnim, PM_StartLegsAnim, PM_StartTorsoAnim, PM_AddTouchEnt, PM_AddEvent
+char	bss_10457c[16];
+int		bss_10458c; // Used by: CG_DrawFPS
+int		bss_104590;
 char	lagometer[512];
-char	bss_104794[1028]; // Used by: CG_DrawLagometer, CG_AddLagometerFrameInfo
+int		bss_104794; // Used by: CG_DrawLagometer, CG_AddLagometerFrameInfo
+char	bss_104798[1024];
 int		bss_104b98; // Used by: CG_DrawLagometer, CG_AddLagometerSnapshotInfo
 char	teamChat2[256];
 char	teamChat1[256];
@@ -647,12 +792,14 @@ int		loadingItemIconCount; // Used by: CG_LoadingItem, CG_DrawLoadingIcons
 int		loadingPlayerIconCount; // Used by: CG_LoadingClient, CG_DrawLoadingIcons
 int		cg_freeLocalEntities; // Used by: CG_AllocLocalEntity, CG_FreeLocalEntity, CG_InitLocalEntities
 int		cg_activeLocalEntities; // Used by: CG_AddLocalEntities, CG_AllocLocalEntity
-char	bss_105034[288]; // Used by: CG_AllocLocalEntity, CG_InitLocalEntities
+int		bss_105034; // Used by: CG_AllocLocalEntity, CG_InitLocalEntities
+char	bss_105038[284];
 char	cg_localEntities[149504];
 int		markTotal;
 int		cg_freeMarkPolys; // Used by: CG_AllocMark, CG_FreeMarkPoly, CG_InitMarkPolys
 int		cg_activeMarkPolys; // Used by: CG_AllocMark
-char	bss_129960[284]; // Used by: CG_AddMarks, CG_AllocMark, CG_InitMarkPolys
+int		bss_129960; // Used by: CG_AddMarks, CG_AllocMark, CG_InitMarkPolys
+char	bss_129964[280];
 char	cg_markPolys[73728];
 int		oldtime; // Used by: CG_AddParticles, CG_ClearParticles
 char	rup[12]; // Used by: CG_AddParticleToScene
@@ -675,10 +822,13 @@ int		cg_numTriggerEntities; // Used by: CG_TouchTriggerPrediction, CG_BuildSolid
 char	cg_solidEntities[1024];
 int		cg_numSolidEntities; // Used by: CG_PointContents, CG_ClipMoveToEntities, CG_BuildSolidList
 int		cg_pmove; // Used by: CG_PredictPlayerState
-char	bss_15d2e0[24]; // Used by: CG_PredictPlayerState
-char	bss_15d2f8[8]; // Used by: CG_PredictPlayerState
+int		bss_15d2e0; // Used by: CG_PredictPlayerState
+char	bss_15d2e4[20];
+int		bss_15d2f8; // Used by: CG_PredictPlayerState
+int		bss_15d2fc;
 int		bss_15d300; // Used by: CG_PredictPlayerState
-char	bss_15d304[176]; // Used by: CG_PredictPlayerState
+int		bss_15d304; // Used by: CG_PredictPlayerState
+char	bss_15d308[172];
 int		bss_15d3b4; // Used by: CG_PredictPlayerState
 int		bss_15d3b8; // Used by: CG_PredictPlayerState
 int		bss_15d3bc; // Used by: CG_PredictPlayerState
@@ -689,7 +839,8 @@ int		bss_15d3cc; // Used by: AngleVectors
 int		bss_15d3d0; // Used by: AngleVectors
 int		bss_15d3d4; // Used by: AngleVectors
 int		bss_15d3d8; // Used by: AngleVectors
-char	bss_15d3dc[88580]; // Used by: AngleVectors
+int		bss_15d3dc; // Used by: AngleVectors
+char	bss_15d3e0[88576];
 int		com_tokenline; // Used by: COM_ParseExt, COM_GetCurrentParseLine, COM_BeginParseSession
 int		com_lines; // Used by: COM_ParseExt, COM_GetCurrentParseLine, COM_BeginParseSession
 char	com_parsename[1024];
@@ -762,11 +913,11 @@ jmp_90:
 	local_1c = (local_1c + 0x1);
 	local_18 = (local_18 + 0x10);
 jmp_b5:
-	if (local_1c < *(int *)cvarTableSize) goto jmp_90;
+	if (local_1c < cvarTableSize) goto jmp_90;
 	trap_Cvar_VariableStringBuffer(0x3721, local_20, 0x400);
 	local_420 = atoi(local_20);
 	bss_e66f4 = local_420;
-	*(int *)forceModelModificationCount = *(int *)bss_90f0;
+	forceModelModificationCount = bss_90f0;
 	trap_Cvar_Register(0x0, 0x371b, 0x3715, 0x3);
 	trap_Cvar_Register(0x0, 0x370b, 0x3715, 0x3);
 	trap_Cvar_Register(0x0, 0x3700, 0x3715, 0x3);
@@ -823,17 +974,17 @@ jmp_133:
 	local_10 = (local_10 + 0x1);
 	local_14 = (local_14 + 0x10);
 jmp_146:
-	if (local_10 < *(int *)cvarTableSize) goto jmp_133;
-	if (*(int *)drawTeamOverlayModificationCount == *(int *)bss_bea0) goto jmp_168;
-	*(int *)drawTeamOverlayModificationCount = *(int *)bss_bea0;
-	if (*(int *)bss_bea8 <= 0x0) goto jmp_161;
+	if (local_10 < cvarTableSize) goto jmp_133;
+	if (drawTeamOverlayModificationCount == bss_bea0) goto jmp_168;
+	drawTeamOverlayModificationCount = bss_bea0;
+	if (bss_bea8 <= 0x0) goto jmp_161;
 	trap_Cvar_Set(0x387d, 0x3be8);
 	goto jmp_168;
 jmp_161:
 	trap_Cvar_Set(0x387d, 0x3bf8);
 jmp_168:
-	if (*(int *)forceModelModificationCount == *(int *)bss_90f0) goto jmp_174;
-	*(int *)forceModelModificationCount = *(int *)bss_90f0;
+	if (forceModelModificationCount == bss_90f0) goto jmp_174;
+	forceModelModificationCount = bss_90f0;
 	CG_ForceModelChange();
 jmp_174:
 }
@@ -866,7 +1017,7 @@ Called by: CG_TellAttacker_f, vmMain
 */
 int CG_LastAttacker(void) {
 
-	if (*(int *)bss_de9fc != 0x0) goto jmp_190;
+	if (bss_de9fc != 0x0) goto jmp_190;
 	return 0xffffffff;
 jmp_190:
 	return *(int *)(bss_c2330 + 0x13c);
@@ -1119,7 +1270,7 @@ void CG_RegisterSounds(void) {
 	local_18c = trap_S_RegisterSound(0x35a1, 0x1);
 	bss_1044c4 = local_18c;
 	if (bss_e66f8 >= 0x3) goto jmp_33d;
-	if (*(int *)bss_8fe8 == 0x0) goto jmp_429;
+	if (bss_8fe8 == 0x0) goto jmp_429;
 jmp_33d:
 	local_190 = trap_S_RegisterSound(0x3579, 0x1);
 	bss_10446c = local_190;
@@ -1148,7 +1299,7 @@ jmp_33d:
 	local_1c0 = trap_S_RegisterSound(0x33fc, 0x1);
 	bss_104498 = local_1c0;
 	if (bss_e66f8 == 0x4) goto jmp_3e1;
-	if (*(int *)bss_8fe8 == 0x0) goto jmp_411;
+	if (bss_8fe8 == 0x0) goto jmp_411;
 jmp_3e1:
 	local_1c4 = trap_S_RegisterSound(0x33d8, 0x1);
 	bss_10449c = local_1c4;
@@ -1169,7 +1320,7 @@ jmp_429:
 	local_194 = trap_S_RegisterSound(0x32f1, 0x0);
 	bss_104328 = local_194;
 	local_198 = trap_S_RegisterSound(0x32d9, 0x0);
-	*(int *)bss_104330 = local_198;
+	bss_104330 = local_198;
 	local_19c = trap_S_RegisterSound(0x32bd, 0x0);
 	bss_10432c = local_19c;
 	local_1a0 = trap_S_RegisterSound(0x32a3, 0x0);
@@ -1191,9 +1342,9 @@ jmp_429:
 	local_1c0 = trap_S_RegisterSound(0x31e1, 0x0);
 	bss_1043e4 = local_1c0;
 	local_1c4 = trap_S_RegisterSound(0x31ca, 0x0);
-	*(int *)bss_1043e8 = local_1c4;
+	bss_1043e8 = local_1c4;
 	local_1c8 = trap_S_RegisterSound(0x31b3, 0x0);
-	*(int *)bss_10440c = local_1c8;
+	bss_10440c = local_1c8;
 	local_1cc = trap_S_RegisterSound(0x3195, 0x1);
 	bss_10441c = local_1cc;
 	local_1d0 = trap_S_RegisterSound(0x3178, 0x1);
@@ -1205,13 +1356,13 @@ jmp_429:
 	local_1dc = trap_S_RegisterSound(0x3125, 0x1);
 	bss_10442c = local_1dc;
 	local_1e0 = trap_S_RegisterSound(0x310a, 0x1);
-	*(int *)bss_104430 = local_1e0;
+	bss_104430 = local_1e0;
 	local_1e4 = trap_S_RegisterSound(0x30ed, 0x1);
 	bss_104440 = local_1e4;
 	local_1e8 = trap_S_RegisterSound(0x30d1, 0x1);
 	bss_104444 = local_1e8;
 	local_1ec = trap_S_RegisterSound(0x30b5, 0x1);
-	*(int *)bss_104448 = local_1ec;
+	bss_104448 = local_1ec;
 	local_1f0 = trap_S_RegisterSound(0x309c, 0x0);
 	bss_104458 = local_1f0;
 	local_1f4 = trap_S_RegisterSound(0x3082, 0x0);
@@ -1253,7 +1404,7 @@ jmp_674:
 	CG_RegisterItemSounds(local_18);
 	local_18 = (local_18 + 0x1);
 jmp_680:
-	if (local_18 < *(int *)bg_numItems) goto jmp_674;
+	if (local_18 < bg_numItems) goto jmp_674;
 	local_18 = 0x1;
 jmp_688:
 	local_204 = CG_ConfigString((local_18 + 0x120));
@@ -1295,7 +1446,7 @@ jmp_6c1:
 	local_230 = trap_S_RegisterSound(0x2dfe, 0x0);
 	bss_1044d4 = local_230;
 	local_234 = trap_S_RegisterSound(0x2ddb, 0x0);
-	*(int *)bss_1044d8 = local_234;
+	bss_1044d8 = local_234;
 }
 
 /*
@@ -1430,7 +1581,7 @@ jmp_77e:
 	local_158 = trap_R_RegisterShader(0x2bbe);
 	bss_10423c = local_158;
 	local_15c = trap_R_RegisterShader(0x2bb3);
-	*(int *)bss_104244 = local_15c;
+	bss_104244 = local_15c;
 	local_160 = trap_R_RegisterShader(0x2ba9);
 	bss_104224 = local_160;
 	local_164 = trap_R_RegisterShader(0x2b9c);
@@ -1438,7 +1589,7 @@ jmp_77e:
 	local_168 = trap_R_RegisterShader(0x2b90);
 	bss_104240 = local_168;
 	local_16c = trap_R_RegisterShader(0x2b80);
-	*(int *)bss_1041f8 = local_16c;
+	bss_1041f8 = local_16c;
 	local_170 = trap_R_RegisterShader(0x2b72);
 	bss_1041f0 = local_170;
 	local_18 = 0x0;
@@ -1467,7 +1618,7 @@ jmp_874:
 	local_194 = trap_R_RegisterShader(0x2ac2);
 	bss_1042c0 = local_194;
 	if (bss_e66f8 == 0x4) goto jmp_8fb;
-	if (*(int *)bss_8fe8 == 0x0) goto jmp_94b;
+	if (bss_8fe8 == 0x0) goto jmp_94b;
 jmp_8fb:
 	local_198 = trap_R_RegisterModel(0x2aaa);
 	bss_104140 = local_198;
@@ -1484,10 +1635,10 @@ jmp_8fb:
 	local_1b0 = trap_R_RegisterShaderNoMip(0x2a3d);
 	bss_10415c = local_1b0;
 	local_1b4 = trap_R_RegisterShaderNoMip(0x2a2c);
-	*(int *)bss_104160 = local_1b4;
+	bss_104160 = local_1b4;
 jmp_94b:
 	if (bss_e66f8 >= 0x3) goto jmp_953;
-	if (*(int *)bss_8fe8 == 0x0) goto jmp_971;
+	if (bss_8fe8 == 0x0) goto jmp_971;
 jmp_953:
 	local_198 = trap_R_RegisterShader(0x2a20);
 	bss_1041e4 = local_198;
@@ -1560,14 +1711,14 @@ jmp_971:
 	goto jmp_ace;
 jmp_ab0:
 	if ((char)*(char *)(local_18 + local_1c) == 0x31) goto jmp_abc;
-	if (*(int *)bss_8fe8 == 0x0) goto jmp_ac8;
+	if (bss_8fe8 == 0x0) goto jmp_ac8;
 jmp_abc:
 	CG_LoadingItem(local_18);
 	CG_RegisterItemVisuals(local_18);
 jmp_ac8:
 	local_18 = (local_18 + 0x1);
 jmp_ace:
-	if (local_18 < *(int *)bg_numItems) goto jmp_ab0;
+	if (local_18 < bg_numItems) goto jmp_ab0;
 	local_20c = trap_R_RegisterShader(0x279b);
 	bss_104294 = local_20c;
 	local_210 = trap_R_RegisterShader(0x2783);
@@ -1583,7 +1734,7 @@ jmp_ace:
 	local_224 = trap_R_RegisterShader(0x273c);
 	bss_104290 = local_224;
 	local_228 = trap_CM_NumInlineModels();
-	*(int *)bss_e7c20 = local_228;
+	bss_e7c20 = local_228;
 	local_18 = 0x1;
 	goto jmp_b87;
 jmp_b26:
@@ -1600,7 +1751,7 @@ jmp_b53:
 	if (local_22c < 0x3) goto jmp_b53;
 	local_18 = (local_18 + 0x1);
 jmp_b87:
-	if (local_18 < *(int *)bss_e7c20) goto jmp_b26;
+	if (local_18 < bss_e7c20) goto jmp_b26;
 	local_18 = 0x1;
 jmp_b8f:
 	local_230 = CG_ConfigString((local_18 + 0x20));
@@ -1646,7 +1797,7 @@ jmp_bf5:
 	local_14 = local_18;
 	if (local_14 == bss_de5bc) goto jmp_c15;
 	bss_de5bc = local_14;
-	*(int *)bss_de5c0 = 0xbf800000;
+	bss_de5c0 = 0xbf800000;
 jmp_c15:
 }
 
@@ -1780,10 +1931,10 @@ void CG_Init(int arg_0, int arg_1, int arg_2) {
 	local_2c = 0xffffffff;
 	bss_e7414 = local_2c;
 	bss_e7410 = local_2c;
-	*(int *)bss_e7418 = 0xffffffff;
+	bss_e7418 = 0xffffffff;
 	trap_GetGlconfig(0xe3a9c);
 	bss_e66e0 = ((float)bss_e66c4 / 0x44200000);
-	bss_e66e4 = ((float)*(int *)bss_e66c8 / 0x43f00000);
+	bss_e66e4 = ((float)bss_e66c8 / 0x43f00000);
 	trap_GetGameState(0xdec18);
 	local_30 = CG_ConfigString(0x14);
 	local_14 = local_30;
@@ -1895,7 +2046,7 @@ jmp_dfe:
 jmp_e11:
 	local_8 = (local_8 + 0x1);
 jmp_e17:
-	if (local_8 < *(int *)bg_numItems) goto jmp_de3;
+	if (local_8 < bg_numItems) goto jmp_de3;
 	return 0x0;
 }
 
@@ -1924,7 +2075,7 @@ jmp_e2a:
 jmp_e48:
 	local_10 = (local_10 + 0x1);
 jmp_e4e:
-	if (local_10 < *(int *)bg_numItems) goto jmp_e2a;
+	if (local_10 < bg_numItems) goto jmp_e2a;
 	Com_Error(0x1, 0x4195);
 	return 0x0;
 }
@@ -2044,7 +2195,7 @@ int BG_CanItemBeGrabbed(int arg_0, int arg_1, int arg_2) {
 	arg_1 = arg_1;
 	local_14 = *(int *)(arg_1 + 0xa0);
 	if (local_14 < 0x1) goto jmp_f39;
-	if (local_14 < *(int *)bg_numItems) goto jmp_f40;
+	if (local_14 < bg_numItems) goto jmp_f40;
 jmp_f39:
 	Com_Error(0x1, 0x414c);
 jmp_f40:
@@ -2512,7 +2663,7 @@ Called by: PM_StepSlideMove, PM_Animate, PM_Weapon, PM_BeginWeaponChange, PM_Wat
 */
 void PM_AddEvent(int arg_0) {
 
-	BG_AddPredictableEventToPlayerstate(arg_0, 0x0, *(int *)*(int *)pm);
+	BG_AddPredictableEventToPlayerstate(arg_0, 0x0, *(int *)pm);
 }
 
 /*
@@ -2533,21 +2684,21 @@ void PM_AddTouchEnt(int arg_0) {
 	if (arg_0 != 0x3fe) goto jmp_17a5;
 	goto jmp_17f1;
 jmp_17a5:
-	if (*(int *)(*(int *)pm + 0x30) != 0x20) goto jmp_17ae;
+	if (*(int *)(pm + 0x30) != 0x20) goto jmp_17ae;
 	goto jmp_17f1;
 jmp_17ae:
 	local_8 = 0x0;
 	goto jmp_17c8;
 jmp_17b3:
-	if (*(int *)((local_8 << 0x2) + (*(int *)pm + 0x34)) != arg_0) goto jmp_17c2;
+	if (*(int *)((local_8 << 0x2) + (pm + 0x34)) != arg_0) goto jmp_17c2;
 	goto jmp_17f1;
 jmp_17c2:
 	local_8 = (local_8 + 0x1);
 jmp_17c8:
-	if (local_8 < *(int *)(*(int *)pm + 0x30)) goto jmp_17b3;
-	local_c = *(int *)pm;
+	if (local_8 < *(int *)(pm + 0x30)) goto jmp_17b3;
+	local_c = pm;
 	*(int *)((*(int *)(local_c + 0x30) << 0x2) + (local_c + 0x34)) = arg_0;
-	local_10 = (*(int *)pm + 0x30);
+	local_10 = (pm + 0x30);
 	*(int *)local_10 = (*(int *)local_10 + 0x1);
 jmp_17f1:
 }
@@ -2565,10 +2716,10 @@ void PM_StartTorsoAnim(int arg_0) {
 	int		local_8;
 	int		local_c;
 
-	if (*(int *)(*(int *)*(int *)pm + 0x4) < 0x3) goto jmp_17fe;
+	if (*(int *)(*(int *)pm + 0x4) < 0x3) goto jmp_17fe;
 	goto jmp_1817;
 jmp_17fe:
-	local_8 = (*(int *)*(int *)pm + 0x54);
+	local_8 = (*(int *)pm + 0x54);
 	local_c = 0x80;
 	*(int *)local_8 = (((*(int *)local_8 & local_c) ^ local_c) | arg_0);
 jmp_1817:
@@ -2587,13 +2738,13 @@ void PM_StartLegsAnim(int arg_0) {
 	int		local_8;
 	int		local_c;
 
-	if (*(int *)(*(int *)*(int *)pm + 0x4) < 0x3) goto jmp_1824;
+	if (*(int *)(*(int *)pm + 0x4) < 0x3) goto jmp_1824;
 	goto jmp_1847;
 jmp_1824:
-	if (*(int *)(*(int *)*(int *)pm + 0x48) <= 0x0) goto jmp_182e;
+	if (*(int *)(*(int *)pm + 0x48) <= 0x0) goto jmp_182e;
 	goto jmp_1847;
 jmp_182e:
-	local_8 = (*(int *)*(int *)pm + 0x4c);
+	local_8 = (*(int *)pm + 0x4c);
 	local_c = 0x80;
 	*(int *)local_8 = (((*(int *)local_8 & local_c) ^ local_c) | arg_0);
 jmp_1847:
@@ -2611,10 +2762,10 @@ Called by: PM_Footsteps
 */
 void PM_ContinueLegsAnim(int arg_0) {
 
-	if ((*(int *)(*(int *)*(int *)pm + 0x4c) & 0xffffff7f) != arg_0) goto jmp_1857;
+	if ((*(int *)(*(int *)pm + 0x4c) & 0xffffff7f) != arg_0) goto jmp_1857;
 	goto jmp_1867;
 jmp_1857:
-	if (*(int *)(*(int *)*(int *)pm + 0x48) <= 0x0) goto jmp_1861;
+	if (*(int *)(*(int *)pm + 0x48) <= 0x0) goto jmp_1861;
 	goto jmp_1867;
 jmp_1861:
 	PM_StartLegsAnim(arg_0);
@@ -2633,10 +2784,10 @@ Called by: PM_TorsoAnimation
 */
 void PM_ContinueTorsoAnim(int arg_0) {
 
-	if ((*(int *)(*(int *)*(int *)pm + 0x54) & 0xffffff7f) != arg_0) goto jmp_1877;
+	if ((*(int *)(*(int *)pm + 0x54) & 0xffffff7f) != arg_0) goto jmp_1877;
 	goto jmp_1887;
 jmp_1877:
-	if (*(int *)(*(int *)*(int *)pm + 0x50) <= 0x0) goto jmp_1881;
+	if (*(int *)(*(int *)pm + 0x50) <= 0x0) goto jmp_1881;
 	goto jmp_1887;
 jmp_1881:
 	PM_StartTorsoAnim(arg_0);
@@ -2655,7 +2806,7 @@ Called by: PM_GroundTrace, PM_GroundTraceMissed, PM_CrashLand, PM_CheckJump
 */
 void PM_ForceLegsAnim(int arg_0) {
 
-	*(int *)(*(int *)*(int *)pm + 0x48) = 0x0;
+	*(int *)(*(int *)pm + 0x48) = 0x0;
 	PM_StartLegsAnim(arg_0);
 }
 
@@ -2720,7 +2871,7 @@ void PM_Friction(void) {
 	int		local_34;
 	int		local_38;
 
-	local_c = (*(int *)*(int *)pm + 0x20);
+	local_c = (*(int *)pm + 0x20);
 	block_copy(local_c, local_1c, 0xc);
 	if (bss_104518 == 0x0) goto jmp_1927;
 	local_24 = 0x0;
@@ -2733,11 +2884,11 @@ jmp_1927:
 	goto jmp_1a05;
 jmp_1941:
 	local_18 = 0x0;
-	if (*(int *)(*(int *)pm + 0xd0) > 0x1) goto jmp_1984;
+	if (*(int *)(pm + 0xd0) > 0x1) goto jmp_1984;
 	local_30 = 0x0;
 	if (bss_104518 == local_30) goto jmp_1984;
-	if ((*(int *)bss_10454c & 0x2) != local_30) goto jmp_1984;
-	if ((*(int *)(*(int *)*(int *)pm + 0xc) & 0x40) != 0x0) goto jmp_1984;
+	if ((bss_10454c & 0x2) != local_30) goto jmp_1984;
+	if ((*(int *)(*(int *)pm + 0xc) & 0x40) != 0x0) goto jmp_1984;
 	if (local_14 >= pm_stopspeed) goto jmp_196f;
 	local_34 = pm_stopspeed;
 	goto jmp_1973;
@@ -2747,13 +2898,13 @@ jmp_1973:
 	local_28 = local_34;
 	local_18 = (local_18 + ((local_28 * pm_friction) * bss_104510));
 jmp_1984:
-	if (*(int *)(*(int *)pm + 0xd0) == 0x0) goto jmp_199f;
-	local_18 = (local_18 + (((local_14 * pm_waterfriction) * (float)*(int *)(*(int *)pm + 0xd0)) * bss_104510));
+	if (*(int *)(pm + 0xd0) == 0x0) goto jmp_199f;
+	local_18 = (local_18 + (((local_14 * pm_waterfriction) * (float)*(int *)(pm + 0xd0)) * bss_104510));
 jmp_199f:
-	if (*(int *)(*(int *)*(int *)pm + 0x150) == 0x0) goto jmp_19b4;
+	if (*(int *)(*(int *)pm + 0x150) == 0x0) goto jmp_19b4;
 	local_18 = (local_18 + ((local_14 * pm_flightfriction) * bss_104510));
 jmp_19b4:
-	if (*(int *)(*(int *)*(int *)pm + 0x4) != 0x2) goto jmp_19c9;
+	if (*(int *)(*(int *)pm + 0x4) != 0x2) goto jmp_19c9;
 	local_18 = (local_18 + ((local_14 * pm_spectatorfriction) * bss_104510));
 jmp_19c9:
 	local_10 = (local_14 - local_18);
@@ -2788,7 +2939,7 @@ void PM_Accelerate(int arg_0, int arg_1, int arg_2) {
 	int		local_24;
 
 	arg_0 = arg_0;
-	*(int *)local_18 = *(int *)*(int *)pm;
+	*(int *)local_18 = *(int *)pm;
 	local_14 = (((*(int *)(*(int *)local_18 + 0x20) * *(int *)arg_0) + (*(int *)(*(int *)local_18 + 0x24) * *(int *)(arg_0 + 0x4))) + (*(int *)(*(int *)local_18 + 0x28) * *(int *)(arg_0 + 0x8)));
 	local_10 = (arg_1 - local_14);
 	if (local_10 > 0x0) goto jmp_1a41;
@@ -2801,7 +2952,7 @@ jmp_1a54:
 	local_8 = 0x0;
 jmp_1a57:
 	local_20 = (local_8 << 0x2);
-	local_24 = (local_20 + (*(int *)*(int *)pm + 0x20));
+	local_24 = (local_20 + (*(int *)pm + 0x20));
 	*(int *)local_24 = (*(int *)local_24 + (local_c * *(int *)(local_20 + arg_0)));
 	local_8 = (local_8 + 0x1);
 	if (local_8 < 0x3) goto jmp_1a57;
@@ -2852,7 +3003,7 @@ jmp_1add:
 	local_30 = (char)*(char *)(arg_0 + 0x17);
 	local_34 = sqrt((float)(((local_28 * local_28) + (local_2c * local_2c)) + (local_30 * local_30)));
 	local_10 = local_34;
-	local_14 = (((float)*(int *)(*(int *)*(int *)pm + 0x34) * (float)local_c) / (0x42fe0000 * local_10));
+	local_14 = (((float)*(int *)(*(int *)pm + 0x34) * (float)local_c) / (0x42fe0000 * local_10));
 	return local_14;
 }
 
@@ -2885,73 +3036,73 @@ void PM_SetMovementDir(void) {
 	int		local_48;
 	int		local_4c;
 
-	local_8 = *(int *)pm;
+	local_8 = pm;
 	local_c = 0x0;
 	if ((char)*(char *)(local_8 + 0x19) != local_c) goto jmp_1b41;
 	if ((char)*(char *)(local_8 + 0x1a) == local_c) goto jmp_1c51;
 jmp_1b41:
-	local_10 = *(int *)pm;
+	local_10 = pm;
 	local_14 = 0x0;
 	if ((char)*(char *)(local_10 + 0x1a) != local_14) goto jmp_1b63;
 	if ((char)*(char *)(local_10 + 0x19) <= local_14) goto jmp_1b63;
-	*(int *)(*(int *)*(int *)pm + 0x58) = 0x0;
+	*(int *)(*(int *)pm + 0x58) = 0x0;
 	goto jmp_1c71;
 jmp_1b63:
-	local_18 = *(int *)pm;
+	local_18 = pm;
 	local_1c = 0x0;
 	if ((char)*(char *)(local_18 + 0x1a) >= local_1c) goto jmp_1b85;
 	if ((char)*(char *)(local_18 + 0x19) <= local_1c) goto jmp_1b85;
-	*(int *)(*(int *)*(int *)pm + 0x58) = 0x1;
+	*(int *)(*(int *)pm + 0x58) = 0x1;
 	goto jmp_1c71;
 jmp_1b85:
-	local_20 = *(int *)pm;
+	local_20 = pm;
 	local_24 = 0x0;
 	if ((char)*(char *)(local_20 + 0x1a) >= local_24) goto jmp_1ba7;
 	if ((char)*(char *)(local_20 + 0x19) != local_24) goto jmp_1ba7;
-	*(int *)(*(int *)*(int *)pm + 0x58) = 0x2;
+	*(int *)(*(int *)pm + 0x58) = 0x2;
 	goto jmp_1c71;
 jmp_1ba7:
-	local_28 = *(int *)pm;
+	local_28 = pm;
 	local_2c = 0x0;
 	if ((char)*(char *)(local_28 + 0x1a) >= local_2c) goto jmp_1bc9;
 	if ((char)*(char *)(local_28 + 0x19) >= local_2c) goto jmp_1bc9;
-	*(int *)(*(int *)*(int *)pm + 0x58) = 0x3;
+	*(int *)(*(int *)pm + 0x58) = 0x3;
 	goto jmp_1c71;
 jmp_1bc9:
-	local_30 = *(int *)pm;
+	local_30 = pm;
 	local_34 = 0x0;
 	if ((char)*(char *)(local_30 + 0x1a) != local_34) goto jmp_1beb;
 	if ((char)*(char *)(local_30 + 0x19) >= local_34) goto jmp_1beb;
-	*(int *)(*(int *)*(int *)pm + 0x58) = 0x4;
+	*(int *)(*(int *)pm + 0x58) = 0x4;
 	goto jmp_1c71;
 jmp_1beb:
-	local_38 = *(int *)pm;
+	local_38 = pm;
 	local_3c = 0x0;
 	if ((char)*(char *)(local_38 + 0x1a) <= local_3c) goto jmp_1c0d;
 	if ((char)*(char *)(local_38 + 0x19) >= local_3c) goto jmp_1c0d;
-	*(int *)(*(int *)*(int *)pm + 0x58) = 0x5;
+	*(int *)(*(int *)pm + 0x58) = 0x5;
 	goto jmp_1c71;
 jmp_1c0d:
-	local_40 = *(int *)pm;
+	local_40 = pm;
 	local_44 = 0x0;
 	if ((char)*(char *)(local_40 + 0x1a) <= local_44) goto jmp_1c2f;
 	if ((char)*(char *)(local_40 + 0x19) != local_44) goto jmp_1c2f;
-	*(int *)(*(int *)*(int *)pm + 0x58) = 0x6;
+	*(int *)(*(int *)pm + 0x58) = 0x6;
 	goto jmp_1c71;
 jmp_1c2f:
-	local_48 = *(int *)pm;
+	local_48 = pm;
 	local_4c = 0x0;
 	if ((char)*(char *)(local_48 + 0x1a) <= local_4c) goto jmp_1c71;
 	if ((char)*(char *)(local_48 + 0x19) <= local_4c) goto jmp_1c71;
-	*(int *)(*(int *)*(int *)pm + 0x58) = 0x7;
+	*(int *)(*(int *)pm + 0x58) = 0x7;
 	goto jmp_1c71;
 jmp_1c51:
-	if (*(int *)(*(int *)*(int *)pm + 0x58) != 0x2) goto jmp_1c62;
-	*(int *)(*(int *)*(int *)pm + 0x58) = 0x1;
+	if (*(int *)(*(int *)pm + 0x58) != 0x2) goto jmp_1c62;
+	*(int *)(*(int *)pm + 0x58) = 0x1;
 	goto jmp_1c71;
 jmp_1c62:
-	if (*(int *)(*(int *)*(int *)pm + 0x58) != 0x6) goto jmp_1c71;
-	*(int *)(*(int *)*(int *)pm + 0x58) = 0x7;
+	if (*(int *)(*(int *)pm + 0x58) != 0x6) goto jmp_1c71;
+	*(int *)(*(int *)pm + 0x58) = 0x7;
 jmp_1c71:
 }
 
@@ -2969,31 +3120,31 @@ int PM_CheckJump(void) {
 	int		local_c;
 	int		local_10;
 
-	if ((*(int *)(*(int *)*(int *)pm + 0xc) & 0x200) == 0x0) goto jmp_1c82;
+	if ((*(int *)(*(int *)pm + 0xc) & 0x200) == 0x0) goto jmp_1c82;
 	return 0x0;
 jmp_1c82:
-	if ((char)*(char *)(*(int *)pm + 0x1b) >= 0xa) goto jmp_1c8e;
+	if ((char)*(char *)(pm + 0x1b) >= 0xa) goto jmp_1c8e;
 	return 0x0;
 jmp_1c8e:
-	if ((*(int *)(*(int *)*(int *)pm + 0xc) & 0x2) == 0x0) goto jmp_1ca2;
-	*(char *)(*(int *)pm + 0x1b) = 0x0;
+	if ((*(int *)(*(int *)pm + 0xc) & 0x2) == 0x0) goto jmp_1ca2;
+	*(char *)(pm + 0x1b) = 0x0;
 	return 0x0;
 jmp_1ca2:
 	bss_10451c = 0x0;
 	bss_104518 = 0x0;
-	local_c = (*(int *)*(int *)pm + 0xc);
+	local_c = (*(int *)pm + 0xc);
 	*(int *)local_c = (*(int *)local_c | 0x2);
-	*(int *)(*(int *)*(int *)pm + 0x44) = 0x3ff;
-	*(int *)(*(int *)*(int *)pm + 0x28) = 0x43870000;
+	*(int *)(*(int *)pm + 0x44) = 0x3ff;
+	*(int *)(*(int *)pm + 0x28) = 0x43870000;
 	PM_AddEvent(0xe);
-	if ((char)*(char *)(*(int *)pm + 0x19) < 0x0) goto jmp_1ce8;
+	if ((char)*(char *)(pm + 0x19) < 0x0) goto jmp_1ce8;
 	PM_ForceLegsAnim(0x12);
-	local_10 = (*(int *)*(int *)pm + 0xc);
+	local_10 = (*(int *)pm + 0xc);
 	*(int *)local_10 = (*(int *)local_10 & 0xfffffff7);
 	goto jmp_1cfc;
 jmp_1ce8:
 	PM_ForceLegsAnim(0x14);
-	local_10 = (*(int *)*(int *)pm + 0xc);
+	local_10 = (*(int *)pm + 0xc);
 	*(int *)local_10 = (*(int *)local_10 | 0x8);
 jmp_1cfc:
 	return 0x1;
@@ -3025,24 +3176,24 @@ int PM_CheckWaterJump(void) {
 	int		local_40;
 	int		local_44;
 
-	if (*(int *)(*(int *)*(int *)pm + 0x10) == 0x0) goto jmp_1d0d;
+	if (*(int *)(*(int *)pm + 0x10) == 0x0) goto jmp_1d0d;
 	return 0x0;
 jmp_1d0d:
-	if (*(int *)(*(int *)pm + 0xd0) == 0x2) goto jmp_1d18;
+	if (*(int *)(pm + 0xd0) == 0x2) goto jmp_1d18;
 	return 0x0;
 jmp_1d18:
 	local_1c = pml;
 	local_20 = bss_1044f0;
 	local_24 = 0x0;
 	VectorNormalize(&local_1c);
-	local_2c = *(int *)pm;
+	local_2c = pm;
 	local_30 = 0x41f00000;
 	local_10 = (*(int *)(*(int *)local_2c + 0x14) + (local_30 * local_1c));
 	local_14 = (*(int *)(*(int *)local_2c + 0x18) + (local_30 * local_20));
-	local_18 = (*(int *)(*(int *)*(int *)pm + 0x1c) + (0x41f00000 * local_24));
+	local_18 = (*(int *)(*(int *)pm + 0x1c) + (0x41f00000 * local_24));
 	local_18 = (local_18 + 0x40800000);
 #define next_call_arg_0 "&local_10"
-	local_34 = *(int *)pm;
+	local_34 = pm;
 #define next_call_arg_1 "*(int *)(*(int *)local_34 + 0x8c)"
 	local_38 = (*(*(int *)(local_34 + 0xe4)))();
 	local_28 = local_38;
@@ -3051,20 +3202,20 @@ jmp_1d18:
 jmp_1d81:
 	local_18 = (local_18 + 0x41800000);
 #define next_call_arg_0 "&local_10"
-	local_3c = *(int *)pm;
+	local_3c = pm;
 #define next_call_arg_1 "*(int *)(*(int *)local_3c + 0x8c)"
 	local_40 = (*(*(int *)(local_3c + 0xe4)))();
 	local_28 = local_40;
 	if ((local_28 & 0x2010001) == 0x0) goto jmp_1daa;
 	return 0x0;
 jmp_1daa:
-	*(int *)(*(int *)*(int *)pm + 0x20) = (0x43480000 * pml);
-	*(int *)(*(int *)*(int *)pm + 0x24) = (0x43480000 * bss_1044f0);
-	*(int *)(*(int *)*(int *)pm + 0x28) = (0x43480000 * *(int *)bss_1044f4);
-	*(int *)(*(int *)*(int *)pm + 0x28) = 0x43af0000;
-	local_44 = (*(int *)*(int *)pm + 0xc);
+	*(int *)(*(int *)pm + 0x20) = (0x43480000 * pml);
+	*(int *)(*(int *)pm + 0x24) = (0x43480000 * bss_1044f0);
+	*(int *)(*(int *)pm + 0x28) = (0x43480000 * bss_1044f4);
+	*(int *)(*(int *)pm + 0x28) = 0x43af0000;
+	local_44 = (*(int *)pm + 0xc);
 	*(int *)local_44 = (*(int *)local_44 | 0x100);
-	*(int *)(*(int *)*(int *)pm + 0x10) = 0x7d0;
+	*(int *)(*(int *)pm + 0x10) = 0x7d0;
 	return 0x1;
 }
 
@@ -3084,13 +3235,13 @@ void PM_WaterJumpMove(void) {
 	int		local_14;
 
 	PM_StepSlideMove(0x1);
-	local_c = *(int *)*(int *)pm;
+	local_c = *(int *)pm;
 	local_10 = (local_c + 0x28);
 	*(int *)local_10 = (*(int *)local_10 - ((float)*(int *)(local_c + 0x30) * bss_104510));
-	if (*(int *)(*(int *)*(int *)pm + 0x28) >= 0x0) goto jmp_1e28;
-	local_14 = (*(int *)*(int *)pm + 0xc);
+	if (*(int *)(*(int *)pm + 0x28) >= 0x0) goto jmp_1e28;
+	local_14 = (*(int *)pm + 0xc);
 	*(int *)local_14 = (*(int *)local_14 & 0xfffffe9f);
-	*(int *)(*(int *)*(int *)pm + 0x10) = 0x0;
+	*(int *)(*(int *)pm + 0x10) = 0x0;
 jmp_1e28:
 }
 
@@ -3129,7 +3280,7 @@ void PM_WaterMove(void) {
 	goto jmp_1f5e;
 jmp_1e38:
 	PM_Friction();
-	local_44 = PM_CmdScale((*(int *)pm + 0x4));
+	local_44 = PM_CmdScale((pm + 0x4));
 	local_1c = local_44;
 	if (local_1c != 0x0) goto jmp_1e5c;
 	local_48 = 0x0;
@@ -3141,32 +3292,32 @@ jmp_1e5c:
 	local_18 = 0x0;
 jmp_1e5f:
 	local_48 = (local_18 << 0x2);
-	local_50 = *(int *)pm;
+	local_50 = pm;
 	*(int *)(local_48 + &local_20) = (((local_1c * *(int *)(local_48 + 0x1044ec)) * (float)(char)*(char *)(local_50 + 0x19)) + ((local_1c * *(int *)(local_48 + 0x1044f8)) * (float)(char)*(char *)(local_50 + 0x1a)));
 	local_18 = (local_18 + 0x1);
 	if (local_18 < 0x3) goto jmp_1e5f;
-	local_28 = (local_28 + (local_1c * (float)(char)*(char *)(*(int *)pm + 0x1b)));
+	local_28 = (local_28 + (local_1c * (float)(char)*(char *)(pm + 0x1b)));
 jmp_1ea8:
 	block_copy(&local_20, local_30, 0xc);
 	local_48 = VectorNormalize(local_30);
 	local_2c = local_48;
-	if (local_2c <= ((float)*(int *)(*(int *)*(int *)pm + 0x34) * pm_swimScale)) goto jmp_1ece;
-	local_2c = ((float)*(int *)(*(int *)*(int *)pm + 0x34) * pm_swimScale);
+	if (local_2c <= ((float)*(int *)(*(int *)pm + 0x34) * pm_swimScale)) goto jmp_1ece;
+	local_2c = ((float)*(int *)(*(int *)pm + 0x34) * pm_swimScale);
 jmp_1ece:
 	PM_Accelerate(local_30, local_2c, pm_wateraccelerate);
 	if (bss_10451c == 0x0) goto jmp_1f59;
-	local_4c = *(int *)*(int *)pm;
+	local_4c = *(int *)pm;
 	if ((((*(int *)(local_4c + 0x20) * bss_104538) + (*(int *)(local_4c + 0x24) * bss_10453c)) + (*(int *)(local_4c + 0x28) * bss_104540)) >= 0x0) goto jmp_1f59;
-	local_50 = VectorLength((*(int *)*(int *)pm + 0x20));
+	local_50 = VectorLength((*(int *)pm + 0x20));
 	local_3c = local_50;
-	local_54 = (*(int *)*(int *)pm + 0x20);
+	local_54 = (*(int *)pm + 0x20);
 	PM_ClipVelocity(local_54, 0x104538, local_54, 0x3f8020c5);
-	VectorNormalize((*(int *)*(int *)pm + 0x20));
-	local_58 = (*(int *)*(int *)pm + 0x20);
+	VectorNormalize((*(int *)pm + 0x20));
+	local_58 = (*(int *)pm + 0x20);
 	*(int *)local_58 = (*(int *)local_58 * local_3c);
-	local_5c = (*(int *)*(int *)pm + 0x24);
+	local_5c = (*(int *)pm + 0x24);
 	*(int *)local_5c = (*(int *)local_5c * local_3c);
-	local_60 = (*(int *)*(int *)pm + 0x28);
+	local_60 = (*(int *)pm + 0x28);
 	*(int *)local_60 = (*(int *)local_60 * local_3c);
 jmp_1f59:
 	PM_SlideMove(0x0);
@@ -3196,7 +3347,7 @@ void PM_FlyMove(void) {
 	int		local_44;
 
 	PM_Friction();
-	local_38 = PM_CmdScale((*(int *)pm + 0x4));
+	local_38 = PM_CmdScale((pm + 0x4));
 	local_18 = local_38;
 	if (local_18 != 0x0) goto jmp_1f85;
 	*(int *)local_3c = 0x0;
@@ -3208,11 +3359,11 @@ jmp_1f85:
 	local_14 = 0x0;
 jmp_1f88:
 	*(int *)local_3c = (local_14 << 0x2);
-	local_44 = *(int *)pm;
+	local_44 = pm;
 	*(int *)(*(int *)local_3c + &local_1c) = (((local_18 * *(int *)(*(int *)local_3c + 0x1044ec)) * (float)(char)*(char *)(local_44 + 0x19)) + ((local_18 * *(int *)(*(int *)local_3c + 0x1044f8)) * (float)(char)*(char *)(local_44 + 0x1a)));
 	local_14 = (local_14 + 0x1);
 	if (local_14 < 0x3) goto jmp_1f88;
-	local_24 = (local_24 + (local_18 * (float)(char)*(char *)(*(int *)pm + 0x1b)));
+	local_24 = (local_24 + (local_18 * (float)(char)*(char *)(pm + 0x1b)));
 jmp_1fd1:
 	block_copy(&local_1c, local_28, 0xc);
 	*(int *)local_3c = VectorNormalize(local_28);
@@ -3247,15 +3398,15 @@ void PM_AirMove(void) {
 	int		local_68;
 
 	PM_Friction();
-	local_5c = *(int *)pm;
+	local_5c = pm;
 	local_28 = (float)(char)*(char *)(local_5c + 0x19);
 	local_2c = (float)(char)*(char *)(local_5c + 0x1a);
 	block_copy((local_5c + 0x4), local_44, 0x18);
 	local_60 = PM_CmdScale(local_44);
 	local_40 = local_60;
 	PM_SetMovementDir();
-	*(int *)bss_1044f4 = 0x0;
-	*(int *)bss_104500 = 0x0;
+	bss_1044f4 = 0x0;
+	bss_104500 = 0x0;
 	VectorNormalize(0x1044ec);
 	VectorNormalize(0x1044f8);
 	local_18 = 0x0;
@@ -3271,7 +3422,7 @@ jmp_2030:
 	local_3c = (local_3c * local_40);
 	PM_Accelerate(local_30, local_3c, pm_airaccelerate);
 	if (bss_10451c == 0x0) goto jmp_2090;
-	local_68 = (*(int *)*(int *)pm + 0x20);
+	local_68 = (*(int *)pm + 0x20);
 	PM_ClipVelocity(local_68, 0x104538, local_68, 0x3f8020c5);
 jmp_2090:
 	PM_StepSlideMove(0x1);
@@ -3305,15 +3456,15 @@ void PM_GrappleMove(void) {
 	local_28 = 0xc1800000;
 	local_18 = (local_28 * pml);
 	local_1c = (local_28 * bss_1044f0);
-	local_20 = (0xc1800000 * *(int *)bss_1044f4);
-	local_2c = *(int *)pm;
+	local_20 = (0xc1800000 * bss_1044f4);
+	local_2c = pm;
 	local_18 = (*(int *)(*(int *)local_2c + 0x5c) + local_18);
 	local_1c = (*(int *)(*(int *)local_2c + 0x60) + local_1c);
-	local_20 = (*(int *)(*(int *)*(int *)pm + 0x64) + local_20);
-	local_30 = *(int *)pm;
+	local_20 = (*(int *)(*(int *)pm + 0x64) + local_20);
+	local_30 = pm;
 	local_c = (local_18 - *(int *)(*(int *)local_30 + 0x14));
 	local_10 = (local_1c - *(int *)(*(int *)local_30 + 0x18));
-	local_14 = (local_20 - *(int *)(*(int *)*(int *)pm + 0x1c));
+	local_14 = (local_20 - *(int *)(*(int *)pm + 0x1c));
 	local_34 = VectorLength(&local_c);
 	local_24 = local_34;
 	VectorNormalize(&local_c);
@@ -3329,7 +3480,7 @@ jmp_212b:
 	local_10 = (local_3c * local_10);
 	local_14 = (0x44480000 * local_14);
 jmp_2142:
-	block_copy(&local_c, (*(int *)*(int *)pm + 0x20), 0xc);
+	block_copy(&local_c, (*(int *)pm + 0x20), 0xc);
 	bss_10451c = 0x0;
 }
 
@@ -3369,14 +3520,14 @@ void PM_WalkMove(void) {
 	int		local_94;
 	int		local_98;
 
-	if (*(int *)(*(int *)pm + 0xd0) <= 0x2) goto jmp_216e;
-	if ((((pml * bss_104538) + (bss_1044f0 * bss_10453c)) + (*(int *)bss_1044f4 * bss_104540)) <= 0x0) goto jmp_216e;
+	if (*(int *)(pm + 0xd0) <= 0x2) goto jmp_216e;
+	if ((((pml * bss_104538) + (bss_1044f0 * bss_10453c)) + (bss_1044f4 * bss_104540)) <= 0x0) goto jmp_216e;
 	PM_WaterMove();
 	goto jmp_2350;
 jmp_216e:
 	local_64 = PM_CheckJump();
 	if (local_64 == 0x0) goto jmp_2187;
-	if (*(int *)(*(int *)pm + 0xd0) <= 0x1) goto jmp_2182;
+	if (*(int *)(pm + 0xd0) <= 0x1) goto jmp_2182;
 	PM_WaterMove();
 	goto jmp_2350;
 jmp_2182:
@@ -3384,15 +3535,15 @@ jmp_2182:
 	goto jmp_2350;
 jmp_2187:
 	PM_Friction();
-	local_68 = *(int *)pm;
+	local_68 = pm;
 	local_28 = (float)(char)*(char *)(local_68 + 0x19);
 	local_2c = (float)(char)*(char *)(local_68 + 0x1a);
 	block_copy((local_68 + 0x4), local_48, 0x18);
 	local_6c = PM_CmdScale(local_48);
 	local_44 = local_6c;
 	PM_SetMovementDir();
-	*(int *)bss_1044f4 = 0x0;
-	*(int *)bss_104500 = 0x0;
+	bss_1044f4 = 0x0;
+	bss_104500 = 0x0;
 	local_70 = 0x1044ec;
 	PM_ClipVelocity(local_70, 0x104538, local_70, 0x3f8020c5);
 	PM_ClipVelocity(0x1044f8, 0x104538, 0x1044f8, 0x3f8020c5);
@@ -3408,21 +3559,21 @@ jmp_21e1:
 	local_74 = VectorNormalize(local_38);
 	local_30 = local_74;
 	local_30 = (local_30 * local_44);
-	if ((*(int *)(*(int *)*(int *)pm + 0xc) & 0x1) == 0x0) goto jmp_223e;
-	if (local_30 <= ((float)*(int *)(*(int *)*(int *)pm + 0x34) * pm_duckScale)) goto jmp_223e;
-	local_30 = ((float)*(int *)(*(int *)*(int *)pm + 0x34) * pm_duckScale);
+	if ((*(int *)(*(int *)pm + 0xc) & 0x1) == 0x0) goto jmp_223e;
+	if (local_30 <= ((float)*(int *)(*(int *)pm + 0x34) * pm_duckScale)) goto jmp_223e;
+	local_30 = ((float)*(int *)(*(int *)pm + 0x34) * pm_duckScale);
 jmp_223e:
-	if (*(int *)(*(int *)pm + 0xd0) == 0x0) goto jmp_227c;
-	local_7c = *(int *)pm;
+	if (*(int *)(pm + 0xd0) == 0x0) goto jmp_227c;
+	local_7c = pm;
 	local_78 = ((float)*(int *)(local_7c + 0xd0) / 0x40400000);
 	local_80 = 0x3f800000;
 	local_78 = (local_80 - ((local_80 - pm_swimScale) * local_78));
 	if (local_30 <= ((float)*(int *)(*(int *)local_7c + 0x34) * local_78)) goto jmp_227c;
-	local_30 = ((float)*(int *)(*(int *)*(int *)pm + 0x34) * local_78);
+	local_30 = ((float)*(int *)(*(int *)pm + 0x34) * local_78);
 jmp_227c:
 	local_78 = 0x0;
-	if ((*(int *)bss_10454c & 0x2) != local_78) goto jmp_2291;
-	if ((*(int *)(*(int *)*(int *)pm + 0xc) & 0x40) == local_78) goto jmp_2297;
+	if ((bss_10454c & 0x2) != local_78) goto jmp_2291;
+	if ((*(int *)(*(int *)pm + 0xc) & 0x40) == local_78) goto jmp_2297;
 jmp_2291:
 	local_60 = pm_airaccelerate;
 	goto jmp_229b;
@@ -3431,25 +3582,25 @@ jmp_2297:
 jmp_229b:
 	PM_Accelerate(local_38, local_30, local_60);
 	local_7c = 0x0;
-	if ((*(int *)bss_10454c & 0x2) != local_7c) goto jmp_22bb;
-	if ((*(int *)(*(int *)*(int *)pm + 0xc) & 0x40) == local_7c) goto jmp_22d6;
+	if ((bss_10454c & 0x2) != local_7c) goto jmp_22bb;
+	if ((*(int *)(*(int *)pm + 0xc) & 0x40) == local_7c) goto jmp_22d6;
 jmp_22bb:
-	local_80 = *(int *)*(int *)pm;
+	local_80 = *(int *)pm;
 	local_84 = (local_80 + 0x28);
 	*(int *)local_84 = (*(int *)local_84 - ((float)*(int *)(local_80 + 0x30) * bss_104510));
 jmp_22d6:
-	local_80 = VectorLength((*(int *)*(int *)pm + 0x20));
+	local_80 = VectorLength((*(int *)pm + 0x20));
 	local_34 = local_80;
-	local_84 = (*(int *)*(int *)pm + 0x20);
+	local_84 = (*(int *)pm + 0x20);
 	PM_ClipVelocity(local_84, 0x104538, local_84, 0x3f8020c5);
-	VectorNormalize((*(int *)*(int *)pm + 0x20));
-	local_88 = (*(int *)*(int *)pm + 0x20);
+	VectorNormalize((*(int *)pm + 0x20));
+	local_88 = (*(int *)pm + 0x20);
 	*(int *)local_88 = (*(int *)local_88 * local_34);
-	local_8c = (*(int *)*(int *)pm + 0x24);
+	local_8c = (*(int *)pm + 0x24);
 	*(int *)local_8c = (*(int *)local_8c * local_34);
-	local_90 = (*(int *)*(int *)pm + 0x28);
+	local_90 = (*(int *)pm + 0x28);
 	*(int *)local_90 = (*(int *)local_90 * local_34);
-	local_94 = *(int *)*(int *)pm;
+	local_94 = *(int *)pm;
 	local_98 = 0x0;
 	if (*(int *)(local_94 + 0x20) != local_98) goto jmp_234b;
 	if (*(int *)(local_94 + 0x24) != local_98) goto jmp_234b;
@@ -3479,23 +3630,23 @@ void PM_DeadMove(void) {
 	if (bss_104518 != 0x0) goto jmp_2359;
 	goto jmp_23c9;
 jmp_2359:
-	local_10 = VectorLength((*(int *)*(int *)pm + 0x20));
+	local_10 = VectorLength((*(int *)pm + 0x20));
 	local_c = local_10;
 	local_c = (local_c - 0x41a00000);
 	if (local_c > 0x0) goto jmp_2390;
-	local_14 = *(int *)*(int *)pm;
+	local_14 = *(int *)pm;
 	local_18 = 0x0;
 	*(int *)(local_14 + 0x28) = local_18;
 	*(int *)(local_14 + 0x24) = local_18;
 	*(int *)(local_14 + 0x20) = local_18;
 	goto jmp_23c9;
 jmp_2390:
-	VectorNormalize((*(int *)*(int *)pm + 0x20));
-	local_14 = (*(int *)*(int *)pm + 0x20);
+	VectorNormalize((*(int *)pm + 0x20));
+	local_14 = (*(int *)pm + 0x20);
 	*(int *)local_14 = (*(int *)local_14 * local_c);
-	local_18 = (*(int *)*(int *)pm + 0x24);
+	local_18 = (*(int *)pm + 0x24);
 	*(int *)local_18 = (*(int *)local_18 * local_c);
-	local_1c = (*(int *)*(int *)pm + 0x28);
+	local_1c = (*(int *)pm + 0x28);
 	*(int *)local_1c = (*(int *)local_1c * local_c);
 jmp_23c9:
 }
@@ -3536,11 +3687,11 @@ void PM_NoclipMove(void) {
 	int		local_78;
 	int		local_7c;
 
-	*(int *)(*(int *)*(int *)pm + 0xa4) = 0x1a;
-	local_54 = VectorLength((*(int *)*(int *)pm + 0x20));
+	*(int *)(*(int *)pm + 0xa4) = 0x1a;
+	local_54 = VectorLength((*(int *)pm + 0x20));
 	local_2c = local_54;
 	if (local_2c >= 0x3f800000) goto jmp_23ee;
-	block_copy(&vec3_origin, (*(int *)*(int *)pm + 0x20), 0xc);
+	block_copy(&vec3_origin, (*(int *)pm + 0x20), 0xc);
 	goto jmp_245c;
 jmp_23ee:
 	local_48 = 0x0;
@@ -3558,16 +3709,16 @@ jmp_2406:
 	local_30 = 0x0;
 jmp_2425:
 	local_30 = (local_30 / local_2c);
-	local_5c = (*(int *)*(int *)pm + 0x20);
+	local_5c = (*(int *)pm + 0x20);
 	*(int *)local_5c = (*(int *)local_5c * local_30);
-	local_60 = (*(int *)*(int *)pm + 0x24);
+	local_60 = (*(int *)pm + 0x24);
 	*(int *)local_60 = (*(int *)local_60 * local_30);
-	local_64 = (*(int *)*(int *)pm + 0x28);
+	local_64 = (*(int *)pm + 0x28);
 	*(int *)local_64 = (*(int *)local_64 * local_30);
 jmp_245c:
-	local_58 = PM_CmdScale((*(int *)pm + 0x4));
+	local_58 = PM_CmdScale((pm + 0x4));
 	local_44 = local_58;
-	local_5c = *(int *)pm;
+	local_5c = pm;
 	local_24 = (float)(char)*(char *)(local_5c + 0x19);
 	local_28 = (float)(char)*(char *)(local_5c + 0x1a);
 	local_14 = 0x0;
@@ -3576,19 +3727,19 @@ jmp_2482:
 	*(int *)(local_60 + local_18) = ((*(int *)(local_60 + 0x1044ec) * local_24) + (*(int *)(local_60 + 0x1044f8) * local_28));
 	local_14 = (local_14 + 0x1);
 	if (local_14 < 0x3) goto jmp_2482;
-	local_20 = (local_20 + (float)(char)*(char *)(*(int *)pm + 0x1b));
+	local_20 = (local_20 + (float)(char)*(char *)(pm + 0x1b));
 	block_copy(local_18, local_34, 0xc);
 	local_64 = VectorNormalize(local_34);
 	local_40 = local_64;
 	local_40 = (local_40 * local_44);
 	PM_Accelerate(local_34, local_40, pm_accelerate);
-	local_68 = *(int *)*(int *)pm;
+	local_68 = *(int *)pm;
 	local_6c = (local_68 + 0x14);
 	*(int *)local_6c = (*(int *)local_6c + (*(int *)(local_68 + 0x20) * bss_104510));
-	local_70 = *(int *)*(int *)pm;
+	local_70 = *(int *)pm;
 	local_74 = (local_70 + 0x18);
 	*(int *)local_74 = (*(int *)local_74 + (*(int *)(local_70 + 0x24) * bss_104510));
-	local_78 = *(int *)*(int *)pm;
+	local_78 = *(int *)pm;
 	local_7c = (local_78 + 0x1c);
 	*(int *)local_7c = (*(int *)local_7c + (*(int *)(local_78 + 0x28) * bss_104510));
 }
@@ -3604,10 +3755,10 @@ Called by: PM_Footsteps, PM_CrashLand
 */
 int PM_FootstepForSurface(void) {
 
-	if ((*(int *)bss_10454c & 0x2000) == 0x0) goto jmp_252e;
+	if ((bss_10454c & 0x2000) == 0x0) goto jmp_252e;
 	return 0x0;
 jmp_252e:
-	if ((*(int *)bss_10454c & 0x1000) == 0x0) goto jmp_2538;
+	if ((bss_10454c & 0x1000) == 0x0) goto jmp_2538;
 	return 0x2;
 jmp_2538:
 	return 0x1;
@@ -3637,14 +3788,14 @@ void PM_CrashLand(void) {
 	char	local_38[8];
 	int		local_40;
 
-	if ((*(int *)(*(int *)*(int *)pm + 0xc) & 0x8) == 0x0) goto jmp_254e;
+	if ((*(int *)(*(int *)pm + 0xc) & 0x8) == 0x0) goto jmp_254e;
 	PM_ForceLegsAnim(0x15);
 	goto jmp_2553;
 jmp_254e:
 	PM_ForceLegsAnim(0x13);
 jmp_2553:
-	*(int *)(*(int *)*(int *)pm + 0x48) = 0x82;
-	*(int *)local_30 = *(int *)pm;
+	*(int *)(*(int *)pm + 0x48) = 0x82;
+	*(int *)local_30 = pm;
 	local_24 = (*(int *)(*(int *)*(int *)local_30 + 0x1c) - bss_104564);
 	local_14 = bss_104570;
 	local_18 = (float)-*(int *)(*(int *)*(int *)local_30 + 0x30);
@@ -3659,28 +3810,28 @@ jmp_259b:
 	local_28 = ((-local_10 - *(int *)local_38) / (0x40000000 * local_1c));
 	local_c = (local_14 + (local_28 * local_18));
 	local_c = (0x38d1b717 * (local_c * local_c));
-	if ((*(int *)(*(int *)*(int *)pm + 0xc) & 0x1) == 0x0) goto jmp_25d2;
+	if ((*(int *)(*(int *)pm + 0xc) & 0x1) == 0x0) goto jmp_25d2;
 	local_c = (0x40000000 * local_c);
 jmp_25d2:
-	if (*(int *)(*(int *)pm + 0xd0) != 0x3) goto jmp_25db;
+	if (*(int *)(pm + 0xd0) != 0x3) goto jmp_25db;
 	goto jmp_263b;
 jmp_25db:
-	if (*(int *)(*(int *)pm + 0xd0) != 0x2) goto jmp_25e8;
+	if (*(int *)(pm + 0xd0) != 0x2) goto jmp_25e8;
 	local_c = (0x3e800000 * local_c);
 jmp_25e8:
-	if (*(int *)(*(int *)pm + 0xd0) != 0x1) goto jmp_25f5;
+	if (*(int *)(pm + 0xd0) != 0x1) goto jmp_25f5;
 	local_c = (0x3f000000 * local_c);
 jmp_25f5:
 	if (local_c >= 0x3f800000) goto jmp_25fb;
 	goto jmp_263b;
 jmp_25fb:
-	if ((*(int *)bss_10454c & 0x1) != 0x0) goto jmp_2634;
+	if ((bss_10454c & 0x1) != 0x0) goto jmp_2634;
 	if (local_c <= 0x42700000) goto jmp_260c;
 	PM_AddEvent(0xc);
 	goto jmp_2634;
 jmp_260c:
 	if (local_c <= 0x42200000) goto jmp_261f;
-	if (*(int *)(*(int *)*(int *)pm + 0xb8) <= 0x0) goto jmp_2634;
+	if (*(int *)(*(int *)pm + 0xb8) <= 0x0) goto jmp_2634;
 	PM_AddEvent(0xb);
 	goto jmp_2634;
 jmp_261f:
@@ -3691,7 +3842,7 @@ jmp_262a:
 	local_40 = PM_FootstepForSurface();
 	PM_AddEvent(local_40);
 jmp_2634:
-	*(int *)(*(int *)*(int *)pm + 0x8) = 0x0;
+	*(int *)(*(int *)pm + 0x8) = 0x0;
 jmp_263b:
 }
 
@@ -3718,8 +3869,8 @@ int PM_CorrectAllSolid(int arg_0) {
 	int		local_48;
 
 	arg_0 = arg_0;
-	if (*(int *)(*(int *)pm + 0x20) == 0x0) goto jmp_2651;
-	Com_Printf(0x50b4, *(int *)c_pmove);
+	if (*(int *)(pm + 0x20) == 0x0) goto jmp_2651;
+	Com_Printf(0x50b4, c_pmove);
 jmp_2651:
 	local_38 = 0xffffffff;
 jmp_2654:
@@ -3727,13 +3878,13 @@ jmp_2654:
 jmp_2657:
 	local_30 = 0xffffffff;
 jmp_265a:
-	block_copy((*(int *)*(int *)pm + 0x14), &local_24, 0xc);
+	block_copy((*(int *)pm + 0x14), &local_24, 0xc);
 	local_24 = (local_24 + (float)local_38);
 	local_28 = (local_28 + (float)local_34);
 	local_2c = (local_2c + (float)local_30);
 #define next_call_arg_0 "arg_0"
 #define next_call_arg_1 "&local_24"
-	local_3c = *(int *)pm;
+	local_3c = pm;
 #define next_call_arg_2 "(local_3c + 0xb4)"
 #define next_call_arg_3 "(local_3c + 0xc0)"
 #define next_call_arg_4 "&local_24"
@@ -3741,12 +3892,12 @@ jmp_265a:
 #define next_call_arg_6 "*(int *)(local_3c + 0x1c)"
 	(*(*(int *)(local_3c + 0xe0)))();
 	if (*(int *)arg_0 != 0x0) goto jmp_26fd;
-	local_40 = *(int *)pm;
+	local_40 = pm;
 	local_24 = *(int *)(*(int *)local_40 + 0x14);
 	local_28 = *(int *)(*(int *)local_40 + 0x18);
-	local_2c = (*(int *)(*(int *)*(int *)pm + 0x1c) - 0x3e800000);
+	local_2c = (*(int *)(*(int *)pm + 0x1c) - 0x3e800000);
 #define next_call_arg_0 "arg_0"
-	local_44 = *(int *)pm;
+	local_44 = pm;
 	local_48 = *(int *)local_44;
 #define next_call_arg_1 "(local_48 + 0x14)"
 #define next_call_arg_2 "(local_44 + 0xb4)"
@@ -3764,7 +3915,7 @@ jmp_26fd:
 	if (local_34 <= 0x1) goto jmp_2657;
 	local_38 = (local_38 + 0x1);
 	if (local_38 <= 0x1) goto jmp_2654;
-	*(int *)(*(int *)*(int *)pm + 0x44) = 0x3ff;
+	*(int *)(*(int *)pm + 0x44) = 0x3ff;
 	bss_10451c = 0x0;
 	bss_104518 = 0x0;
 	return 0x0;
@@ -3789,14 +3940,14 @@ void PM_GroundTraceMissed(void) {
 	int		local_6c;
 	int		local_70;
 
-	if (*(int *)(*(int *)*(int *)pm + 0x44) == 0x3ff) goto jmp_27b6;
-	if (*(int *)(*(int *)pm + 0x20) == 0x0) goto jmp_2744;
-	Com_Printf(0x50ab, *(int *)c_pmove);
+	if (*(int *)(*(int *)pm + 0x44) == 0x3ff) goto jmp_27b6;
+	if (*(int *)(pm + 0x20) == 0x0) goto jmp_2744;
+	Com_Printf(0x50ab, c_pmove);
 jmp_2744:
-	block_copy((*(int *)*(int *)pm + 0x14), local_24, 0xc);
+	block_copy((*(int *)pm + 0x14), local_24, 0xc);
 	local_2c = (local_2c - 0x42800000);
 #define next_call_arg_0 "local_30"
-	local_68 = *(int *)pm;
+	local_68 = pm;
 	local_6c = *(int *)local_68;
 #define next_call_arg_1 "(local_6c + 0x14)"
 #define next_call_arg_2 "(local_68 + 0xb4)"
@@ -3806,17 +3957,17 @@ jmp_2744:
 #define next_call_arg_6 "*(int *)(local_68 + 0x1c)"
 	(*(*(int *)(local_68 + 0xe0)))();
 	if (*(int *)local_38 != 0x3f800000) goto jmp_27b6;
-	if ((char)*(char *)(*(int *)pm + 0x19) < 0x0) goto jmp_27a2;
+	if ((char)*(char *)(pm + 0x19) < 0x0) goto jmp_27a2;
 	PM_ForceLegsAnim(0x12);
-	local_70 = (*(int *)*(int *)pm + 0xc);
+	local_70 = (*(int *)pm + 0xc);
 	*(int *)local_70 = (*(int *)local_70 & 0xfffffff7);
 	goto jmp_27b6;
 jmp_27a2:
 	PM_ForceLegsAnim(0x14);
-	local_70 = (*(int *)*(int *)pm + 0xc);
+	local_70 = (*(int *)pm + 0xc);
 	*(int *)local_70 = (*(int *)local_70 | 0x8);
 jmp_27b6:
-	*(int *)(*(int *)*(int *)pm + 0x44) = 0x3ff;
+	*(int *)(*(int *)pm + 0x44) = 0x3ff;
 	bss_10451c = 0x0;
 	bss_104518 = 0x0;
 }
@@ -3848,12 +3999,12 @@ void PM_GroundTrace(void) {
 	int		local_78;
 	int		local_7c;
 
-	local_68 = *(int *)pm;
+	local_68 = pm;
 	local_5c = *(int *)(*(int *)local_68 + 0x14);
 	local_60 = *(int *)(*(int *)local_68 + 0x18);
-	local_64 = (*(int *)(*(int *)*(int *)pm + 0x1c) - 0x3e800000);
+	local_64 = (*(int *)(*(int *)pm + 0x1c) - 0x3e800000);
 #define next_call_arg_0 "local_24"
-	local_6c = *(int *)pm;
+	local_6c = pm;
 	local_70 = *(int *)local_6c;
 #define next_call_arg_1 "(local_70 + 0x14)"
 #define next_call_arg_2 "(local_6c + 0xb4)"
@@ -3874,55 +4025,55 @@ jmp_2826:
 	bss_104518 = 0x0;
 	goto jmp_2938;
 jmp_2835:
-	local_74 = *(int *)*(int *)pm;
+	local_74 = *(int *)pm;
 	local_78 = *(int *)(local_74 + 0x28);
 	if (local_78 <= 0x0) goto jmp_28ae;
 	if ((((*(int *)(local_74 + 0x20) * local_3c) + (*(int *)(local_74 + 0x24) * local_40)) + (local_78 * *(int *)local_44)) <= 0x41200000) goto jmp_28ae;
-	if (*(int *)(*(int *)pm + 0x20) == 0x0) goto jmp_286d;
-	Com_Printf(0x509f, *(int *)c_pmove);
+	if (*(int *)(pm + 0x20) == 0x0) goto jmp_286d;
+	Com_Printf(0x509f, c_pmove);
 jmp_286d:
-	if ((char)*(char *)(*(int *)pm + 0x19) < 0x0) goto jmp_288b;
+	if ((char)*(char *)(pm + 0x19) < 0x0) goto jmp_288b;
 	PM_ForceLegsAnim(0x12);
-	local_7c = (*(int *)*(int *)pm + 0xc);
+	local_7c = (*(int *)pm + 0xc);
 	*(int *)local_7c = (*(int *)local_7c & 0xfffffff7);
 	goto jmp_289f;
 jmp_288b:
 	PM_ForceLegsAnim(0x14);
-	local_7c = (*(int *)*(int *)pm + 0xc);
+	local_7c = (*(int *)pm + 0xc);
 	*(int *)local_7c = (*(int *)local_7c | 0x8);
 jmp_289f:
-	*(int *)(*(int *)*(int *)pm + 0x44) = 0x3ff;
+	*(int *)(*(int *)pm + 0x44) = 0x3ff;
 	bss_10451c = 0x0;
 	bss_104518 = 0x0;
 	goto jmp_2938;
 jmp_28ae:
 	if (*(int *)local_44 >= 0x3f333333) goto jmp_28d0;
-	if (*(int *)(*(int *)pm + 0x20) == 0x0) goto jmp_28c1;
-	Com_Printf(0x5095, *(int *)c_pmove);
+	if (*(int *)(pm + 0x20) == 0x0) goto jmp_28c1;
+	Com_Printf(0x5095, c_pmove);
 jmp_28c1:
-	*(int *)(*(int *)*(int *)pm + 0x44) = 0x3ff;
+	*(int *)(*(int *)pm + 0x44) = 0x3ff;
 	bss_10451c = 0x1;
 	bss_104518 = 0x0;
 	goto jmp_2938;
 jmp_28d0:
 	bss_10451c = 0x1;
 	bss_104518 = 0x1;
-	if ((*(int *)(*(int *)*(int *)pm + 0xc) & 0x100) == 0x0) goto jmp_28f6;
-	local_7c = (*(int *)*(int *)pm + 0xc);
+	if ((*(int *)(*(int *)pm + 0xc) & 0x100) == 0x0) goto jmp_28f6;
+	local_7c = (*(int *)pm + 0xc);
 	*(int *)local_7c = (*(int *)local_7c & 0xfffffedf);
-	*(int *)(*(int *)*(int *)pm + 0x10) = 0x0;
+	*(int *)(*(int *)pm + 0x10) = 0x0;
 jmp_28f6:
-	if (*(int *)(*(int *)*(int *)pm + 0x44) != 0x3ff) goto jmp_292a;
-	if (*(int *)(*(int *)pm + 0x20) == 0x0) goto jmp_290d;
-	Com_Printf(0x508c, *(int *)c_pmove);
+	if (*(int *)(*(int *)pm + 0x44) != 0x3ff) goto jmp_292a;
+	if (*(int *)(pm + 0x20) == 0x0) goto jmp_290d;
+	Com_Printf(0x508c, c_pmove);
 jmp_290d:
 	PM_CrashLand();
 	if (bss_104570 >= 0xc3480000) goto jmp_292a;
-	local_7c = (*(int *)*(int *)pm + 0xc);
+	local_7c = (*(int *)pm + 0xc);
 	*(int *)local_7c = (*(int *)local_7c | 0x20);
-	*(int *)(*(int *)*(int *)pm + 0x10) = 0xfa;
+	*(int *)(*(int *)pm + 0x10) = 0xfa;
 jmp_292a:
-	*(int *)(*(int *)*(int *)pm + 0x44) = local_58;
+	*(int *)(*(int *)pm + 0x44) = local_58;
 	PM_AddTouchEnt(local_58);
 jmp_2938:
 }
@@ -3952,39 +4103,39 @@ void PM_SetWaterLevel(void) {
 	int		local_40;
 	int		local_44;
 
-	*(int *)(*(int *)pm + 0xd0) = 0x0;
-	*(int *)(*(int *)pm + 0xcc) = 0x0;
-	local_28 = *(int *)pm;
+	*(int *)(pm + 0xd0) = 0x0;
+	*(int *)(pm + 0xcc) = 0x0;
+	local_28 = pm;
 	local_10 = *(int *)(*(int *)local_28 + 0x14);
 	local_14 = *(int *)(*(int *)local_28 + 0x18);
-	local_18 = ((*(int *)(*(int *)*(int *)pm + 0x1c) + 0xc1c00000) + 0x3f800000);
+	local_18 = ((*(int *)(*(int *)pm + 0x1c) + 0xc1c00000) + 0x3f800000);
 #define next_call_arg_0 "&local_10"
-	local_2c = *(int *)pm;
+	local_2c = pm;
 #define next_call_arg_1 "*(int *)(*(int *)local_2c + 0x8c)"
 	local_30 = (*(*(int *)(local_2c + 0xe4)))();
 	local_1c = local_30;
 	if ((local_1c & 0x38) == 0x0) goto jmp_2a0d;
-	local_34 = *(int *)pm;
+	local_34 = pm;
 	local_20 = (*(int *)(*(int *)local_34 + 0xa4) - 0xffffffe8);
 	local_24 = (local_20 / 0x2);
 	*(int *)(local_34 + 0xcc) = local_1c;
-	*(int *)(*(int *)pm + 0xd0) = 0x1;
-	local_18 = ((*(int *)(*(int *)*(int *)pm + 0x1c) + 0xc1c00000) + (float)local_24);
+	*(int *)(pm + 0xd0) = 0x1;
+	local_18 = ((*(int *)(*(int *)pm + 0x1c) + 0xc1c00000) + (float)local_24);
 #define next_call_arg_0 "&local_10"
-	local_38 = *(int *)pm;
+	local_38 = pm;
 #define next_call_arg_1 "*(int *)(*(int *)local_38 + 0x8c)"
 	local_3c = (*(*(int *)(local_38 + 0xe4)))();
 	local_1c = local_3c;
 	if ((local_1c & 0x38) == 0x0) goto jmp_2a0d;
-	*(int *)(*(int *)pm + 0xd0) = 0x2;
-	local_18 = ((*(int *)(*(int *)*(int *)pm + 0x1c) + 0xc1c00000) + (float)local_20);
+	*(int *)(pm + 0xd0) = 0x2;
+	local_18 = ((*(int *)(*(int *)pm + 0x1c) + 0xc1c00000) + (float)local_20);
 #define next_call_arg_0 "&local_10"
-	local_40 = *(int *)pm;
+	local_40 = pm;
 #define next_call_arg_1 "*(int *)(*(int *)local_40 + 0x8c)"
 	local_44 = (*(*(int *)(local_40 + 0xe4)))();
 	local_1c = local_44;
 	if ((local_1c & 0x38) == 0x0) goto jmp_2a0d;
-	*(int *)(*(int *)pm + 0xd0) = 0x3;
+	*(int *)(pm + 0xd0) = 0x3;
 jmp_2a0d:
 }
 
@@ -4005,49 +4156,49 @@ void PM_CheckDuck(void) {
 	int		local_68;
 	int		local_6c;
 
-	if (*(int *)(*(int *)*(int *)pm + 0x170) == 0x0) goto jmp_2a84;
-	if ((*(int *)(*(int *)*(int *)pm + 0xc) & 0x4000) == 0x0) goto jmp_2a48;
-	*(int *)(*(int *)pm + 0xb4) = 0xc2280000;
-	*(int *)(*(int *)pm + 0xb8) = 0xc2280000;
-	*(int *)(*(int *)pm + 0xbc) = 0xc2280000;
-	*(int *)(*(int *)pm + 0xc0) = 0x42280000;
-	*(int *)(*(int *)pm + 0xc4) = 0x42280000;
-	*(int *)(*(int *)pm + 0xc8) = 0x42280000;
+	if (*(int *)(*(int *)pm + 0x170) == 0x0) goto jmp_2a84;
+	if ((*(int *)(*(int *)pm + 0xc) & 0x4000) == 0x0) goto jmp_2a48;
+	*(int *)(pm + 0xb4) = 0xc2280000;
+	*(int *)(pm + 0xb8) = 0xc2280000;
+	*(int *)(pm + 0xbc) = 0xc2280000;
+	*(int *)(pm + 0xc0) = 0x42280000;
+	*(int *)(pm + 0xc4) = 0x42280000;
+	*(int *)(pm + 0xc8) = 0x42280000;
 	goto jmp_2a6c;
 jmp_2a48:
-	*(int *)(*(int *)pm + 0xb4) = 0xc1700000;
-	*(int *)(*(int *)pm + 0xb8) = 0xc1700000;
-	*(int *)(*(int *)pm + 0xbc) = 0xc1c00000;
-	*(int *)(*(int *)pm + 0xc0) = 0x41700000;
-	*(int *)(*(int *)pm + 0xc4) = 0x41700000;
-	*(int *)(*(int *)pm + 0xc8) = 0x41800000;
+	*(int *)(pm + 0xb4) = 0xc1700000;
+	*(int *)(pm + 0xb8) = 0xc1700000;
+	*(int *)(pm + 0xbc) = 0xc1c00000;
+	*(int *)(pm + 0xc0) = 0x41700000;
+	*(int *)(pm + 0xc4) = 0x41700000;
+	*(int *)(pm + 0xc8) = 0x41800000;
 jmp_2a6c:
-	local_5c = (*(int *)*(int *)pm + 0xc);
+	local_5c = (*(int *)pm + 0xc);
 	*(int *)local_5c = (*(int *)local_5c | 0x1);
-	*(int *)(*(int *)*(int *)pm + 0xa4) = 0xc;
+	*(int *)(*(int *)pm + 0xa4) = 0xc;
 	goto jmp_2b5e;
 jmp_2a84:
-	local_5c = (*(int *)*(int *)pm + 0xc);
+	local_5c = (*(int *)pm + 0xc);
 	*(int *)local_5c = (*(int *)local_5c & 0xffffbfff);
-	*(int *)(*(int *)pm + 0xb4) = 0xc1700000;
-	*(int *)(*(int *)pm + 0xb8) = 0xc1700000;
-	*(int *)(*(int *)pm + 0xc0) = 0x41700000;
-	*(int *)(*(int *)pm + 0xc4) = 0x41700000;
-	*(int *)(*(int *)pm + 0xbc) = 0xc1c00000;
-	if (*(int *)(*(int *)*(int *)pm + 0x4) != 0x3) goto jmp_2ac8;
-	*(int *)(*(int *)pm + 0xc8) = 0xc1000000;
-	*(int *)(*(int *)*(int *)pm + 0xa4) = 0xfffffff0;
+	*(int *)(pm + 0xb4) = 0xc1700000;
+	*(int *)(pm + 0xb8) = 0xc1700000;
+	*(int *)(pm + 0xc0) = 0x41700000;
+	*(int *)(pm + 0xc4) = 0x41700000;
+	*(int *)(pm + 0xbc) = 0xc1c00000;
+	if (*(int *)(*(int *)pm + 0x4) != 0x3) goto jmp_2ac8;
+	*(int *)(pm + 0xc8) = 0xc1000000;
+	*(int *)(*(int *)pm + 0xa4) = 0xfffffff0;
 	goto jmp_2b5e;
 jmp_2ac8:
-	if ((char)*(char *)(*(int *)pm + 0x1b) >= 0x0) goto jmp_2ae1;
-	local_60 = (*(int *)*(int *)pm + 0xc);
+	if ((char)*(char *)(pm + 0x1b) >= 0x0) goto jmp_2ae1;
+	local_60 = (*(int *)pm + 0xc);
 	*(int *)local_60 = (*(int *)local_60 | 0x1);
 	goto jmp_2b38;
 jmp_2ae1:
-	if ((*(int *)(*(int *)*(int *)pm + 0xc) & 0x1) == 0x0) goto jmp_2b38;
-	*(int *)(*(int *)pm + 0xc8) = 0x42000000;
+	if ((*(int *)(*(int *)pm + 0xc) & 0x1) == 0x0) goto jmp_2b38;
+	*(int *)(pm + 0xc8) = 0x42000000;
 #define next_call_arg_0 "local_24"
-	local_60 = *(int *)pm;
+	local_60 = pm;
 	local_64 = *(int *)local_60;
 	local_68 = (local_64 + 0x14);
 #define next_call_arg_1 "local_68"
@@ -4058,16 +4209,16 @@ jmp_2ae1:
 #define next_call_arg_6 "*(int *)(local_60 + 0x1c)"
 	(*(*(int *)(local_60 + 0xe0)))();
 	if (*(int *)local_24 != 0x0) goto jmp_2b38;
-	local_6c = (*(int *)*(int *)pm + 0xc);
+	local_6c = (*(int *)pm + 0xc);
 	*(int *)local_6c = (*(int *)local_6c & 0xfffffffe);
 jmp_2b38:
-	if ((*(int *)(*(int *)*(int *)pm + 0xc) & 0x1) == 0x0) goto jmp_2b51;
-	*(int *)(*(int *)pm + 0xc8) = 0x41800000;
-	*(int *)(*(int *)*(int *)pm + 0xa4) = 0xc;
+	if ((*(int *)(*(int *)pm + 0xc) & 0x1) == 0x0) goto jmp_2b51;
+	*(int *)(pm + 0xc8) = 0x41800000;
+	*(int *)(*(int *)pm + 0xa4) = 0xc;
 	goto jmp_2b5e;
 jmp_2b51:
-	*(int *)(*(int *)pm + 0xc8) = 0x42000000;
-	*(int *)(*(int *)*(int *)pm + 0xa4) = 0x1a;
+	*(int *)(pm + 0xc8) = 0x42000000;
+	*(int *)(*(int *)pm + 0xa4) = 0x1a;
 jmp_2b5e:
 }
 
@@ -4099,27 +4250,27 @@ void PM_Footsteps(void) {
 	int		local_44;
 	int		local_48;
 
-	local_18 = *(int *)pm;
+	local_18 = pm;
 	local_1c = *(int *)local_18;
 	local_20 = *(int *)(local_1c + 0x20);
 	local_24 = *(int *)(local_1c + 0x24);
 	local_28 = sqrt(((local_20 * local_20) + (local_24 * local_24)));
 	*(int *)(local_18 + 0xd4) = local_28;
-	if (*(int *)(*(int *)*(int *)pm + 0x44) != 0x3ff) goto jmp_2bb2;
-	if (*(int *)(*(int *)*(int *)pm + 0x170) == 0x0) goto jmp_2ba4;
+	if (*(int *)(*(int *)pm + 0x44) != 0x3ff) goto jmp_2bb2;
+	if (*(int *)(*(int *)pm + 0x170) == 0x0) goto jmp_2ba4;
 	PM_ContinueLegsAnim(0x17);
 jmp_2ba4:
-	if (*(int *)(*(int *)pm + 0xd0) <= 0x1) goto jmp_2cde;
+	if (*(int *)(pm + 0xd0) <= 0x1) goto jmp_2cde;
 	PM_ContinueLegsAnim(0x11);
 	goto jmp_2cde;
 jmp_2bb2:
-	local_2c = *(int *)pm;
+	local_2c = pm;
 	local_30 = 0x0;
 	if ((char)*(char *)(local_2c + 0x19) != local_30) goto jmp_2bf1;
 	if ((char)*(char *)(local_2c + 0x1a) != local_30) goto jmp_2bf1;
-	if (*(int *)(*(int *)pm + 0xd4) >= 0x40a00000) goto jmp_2cde;
-	*(int *)(*(int *)*(int *)pm + 0x8) = 0x0;
-	if ((*(int *)(*(int *)*(int *)pm + 0xc) & 0x1) == 0x0) goto jmp_2bea;
+	if (*(int *)(pm + 0xd4) >= 0x40a00000) goto jmp_2cde;
+	*(int *)(*(int *)pm + 0x8) = 0x0;
+	if ((*(int *)(*(int *)pm + 0xc) & 0x1) == 0x0) goto jmp_2bea;
 	PM_ContinueLegsAnim(0x17);
 	goto jmp_2cde;
 jmp_2bea:
@@ -4128,18 +4279,18 @@ jmp_2bea:
 jmp_2bf1:
 	local_34 = 0x0;
 	local_14 = local_34;
-	if ((*(int *)(*(int *)*(int *)pm + 0xc) & 0x1) == local_34) goto jmp_2c1e;
+	if ((*(int *)(*(int *)pm + 0xc) & 0x1) == local_34) goto jmp_2c1e;
 	local_10 = 0x3f000000;
-	if ((*(int *)(*(int *)*(int *)pm + 0xc) & 0x10) == 0x0) goto jmp_2c17;
+	if ((*(int *)(*(int *)pm + 0xc) & 0x10) == 0x0) goto jmp_2c17;
 	PM_ContinueLegsAnim(0x20);
 	goto jmp_2c5e;
 jmp_2c17:
 	PM_ContinueLegsAnim(0xd);
 	goto jmp_2c5e;
 jmp_2c1e:
-	if ((*(int *)(*(int *)pm + 0x14) & 0x10) != 0x0) goto jmp_2c45;
+	if ((*(int *)(pm + 0x14) & 0x10) != 0x0) goto jmp_2c45;
 	local_10 = 0x3ecccccd;
-	if ((*(int *)(*(int *)*(int *)pm + 0xc) & 0x10) == 0x0) goto jmp_2c3b;
+	if ((*(int *)(*(int *)pm + 0xc) & 0x10) == 0x0) goto jmp_2c3b;
 	PM_ContinueLegsAnim(0x10);
 	goto jmp_2c40;
 jmp_2c3b:
@@ -4149,35 +4300,35 @@ jmp_2c40:
 	goto jmp_2c5e;
 jmp_2c45:
 	local_10 = 0x3e99999a;
-	if ((*(int *)(*(int *)*(int *)pm + 0xc) & 0x10) == 0x0) goto jmp_2c59;
+	if ((*(int *)(*(int *)pm + 0xc) & 0x10) == 0x0) goto jmp_2c59;
 	PM_ContinueLegsAnim(0x21);
 	goto jmp_2c5e;
 jmp_2c59:
 	PM_ContinueLegsAnim(0xe);
 jmp_2c5e:
-	local_38 = *(int *)pm;
+	local_38 = pm;
 	local_3c = 0x8;
 	local_c = *(int *)(*(int *)local_38 + local_3c);
 	*(int *)(*(int *)local_38 + local_3c) = ((int)((float)local_c + (local_10 * (float)bss_104514)) & 0xff);
 	local_40 = 0x40;
-	if ((((local_c + local_40) ^ (*(int *)(*(int *)*(int *)pm + 0x8) + local_40)) & 0x80) == 0x0) goto jmp_2cde;
-	if (*(int *)(*(int *)pm + 0xd0) != 0x0) goto jmp_2cbb;
+	if ((((local_c + local_40) ^ (*(int *)(*(int *)pm + 0x8) + local_40)) & 0x80) == 0x0) goto jmp_2cde;
+	if (*(int *)(pm + 0xd0) != 0x0) goto jmp_2cbb;
 	local_44 = 0x0;
 	if (local_14 == local_44) goto jmp_2cde;
-	if (*(int *)(*(int *)pm + 0x24) != local_44) goto jmp_2cde;
+	if (*(int *)(pm + 0x24) != local_44) goto jmp_2cde;
 	local_48 = PM_FootstepForSurface();
 	PM_AddEvent(local_48);
 	goto jmp_2cde;
 jmp_2cbb:
-	if (*(int *)(*(int *)pm + 0xd0) != 0x1) goto jmp_2cc9;
+	if (*(int *)(pm + 0xd0) != 0x1) goto jmp_2cc9;
 	PM_AddEvent(0x3);
 	goto jmp_2cde;
 jmp_2cc9:
-	if (*(int *)(*(int *)pm + 0xd0) != 0x2) goto jmp_2cd7;
+	if (*(int *)(pm + 0xd0) != 0x2) goto jmp_2cd7;
 	PM_AddEvent(0x5);
 	goto jmp_2cde;
 jmp_2cd7:
-	if (*(int *)(*(int *)pm + 0xd0) != 0x3) goto jmp_2cde;
+	if (*(int *)(pm + 0xd0) != 0x3) goto jmp_2cde;
 jmp_2cde:
 }
 
@@ -4199,22 +4350,22 @@ void PM_WaterEvents(void) {
 
 	local_c = 0x0;
 	if (bss_104574 != local_c) goto jmp_2cf6;
-	if (*(int *)(*(int *)pm + 0xd0) == local_c) goto jmp_2cf6;
+	if (*(int *)(pm + 0xd0) == local_c) goto jmp_2cf6;
 	PM_AddEvent(0xf);
 jmp_2cf6:
 	local_10 = 0x0;
 	if (bss_104574 == local_10) goto jmp_2d0b;
-	if (*(int *)(*(int *)pm + 0xd0) != local_10) goto jmp_2d0b;
+	if (*(int *)(pm + 0xd0) != local_10) goto jmp_2d0b;
 	PM_AddEvent(0x10);
 jmp_2d0b:
 	local_14 = 0x3;
 	if (bss_104574 == local_14) goto jmp_2d20;
-	if (*(int *)(*(int *)pm + 0xd0) != local_14) goto jmp_2d20;
+	if (*(int *)(pm + 0xd0) != local_14) goto jmp_2d20;
 	PM_AddEvent(0x11);
 jmp_2d20:
 	local_18 = 0x3;
 	if (bss_104574 != local_18) goto jmp_2d35;
-	if (*(int *)(*(int *)pm + 0xd0) == local_18) goto jmp_2d35;
+	if (*(int *)(pm + 0xd0) == local_18) goto jmp_2d35;
 	PM_AddEvent(0x12);
 jmp_2d35:
 }
@@ -4238,15 +4389,15 @@ void PM_BeginWeaponChange(int arg_0) {
 jmp_2d44:
 	goto jmp_2d7f;
 jmp_2d46:
-	if ((*(int *)(*(int *)*(int *)pm + 0xc0) & (0x1 << arg_0)) != 0x0) goto jmp_2d55;
+	if ((*(int *)(*(int *)pm + 0xc0) & (0x1 << arg_0)) != 0x0) goto jmp_2d55;
 	goto jmp_2d7f;
 jmp_2d55:
-	if (*(int *)(*(int *)*(int *)pm + 0x94) != 0x2) goto jmp_2d5f;
+	if (*(int *)(*(int *)pm + 0x94) != 0x2) goto jmp_2d5f;
 	goto jmp_2d7f;
 jmp_2d5f:
 	PM_AddEvent(0x16);
-	*(int *)(*(int *)*(int *)pm + 0x94) = 0x2;
-	local_10 = (*(int *)*(int *)pm + 0x2c);
+	*(int *)(*(int *)pm + 0x94) = 0x2;
+	local_10 = (*(int *)pm + 0x2c);
 	*(int *)local_10 = (*(int *)local_10 + 0xc8);
 	PM_StartTorsoAnim(0x9);
 jmp_2d7f:
@@ -4266,18 +4417,18 @@ void PM_FinishWeaponChange(void) {
 	char	local_c[8];
 	int		local_14;
 
-	*(int *)local_c = *(char *)(*(int *)pm + 0x18);
+	*(int *)local_c = *(char *)(pm + 0x18);
 	if (*(int *)local_c < 0x0) goto jmp_2d91;
 	if (*(int *)local_c < 0xb) goto jmp_2d94;
 jmp_2d91:
 	*(int *)local_c = 0x0;
 jmp_2d94:
-	if ((*(int *)(*(int *)*(int *)pm + 0xc0) & (0x1 << *(int *)local_c)) != 0x0) goto jmp_2da4;
+	if ((*(int *)(*(int *)pm + 0xc0) & (0x1 << *(int *)local_c)) != 0x0) goto jmp_2da4;
 	*(int *)local_c = 0x0;
 jmp_2da4:
-	*(int *)(*(int *)*(int *)pm + 0x90) = *(int *)local_c;
-	*(int *)(*(int *)*(int *)pm + 0x94) = 0x1;
-	local_14 = (*(int *)*(int *)pm + 0x2c);
+	*(int *)(*(int *)pm + 0x90) = *(int *)local_c;
+	*(int *)(*(int *)pm + 0x94) = 0x1;
+	local_14 = (*(int *)pm + 0x2c);
 	*(int *)local_14 = (*(int *)local_14 + 0xfa);
 	PM_StartTorsoAnim(0xa);
 }
@@ -4294,8 +4445,8 @@ Called by: PmoveSingle
 */
 void PM_TorsoAnimation(void) {
 
-	if (*(int *)(*(int *)*(int *)pm + 0x94) != 0x0) goto jmp_2de6;
-	if (*(int *)(*(int *)*(int *)pm + 0x90) != 0x1) goto jmp_2de1;
+	if (*(int *)(*(int *)pm + 0x94) != 0x0) goto jmp_2de6;
+	if (*(int *)(*(int *)pm + 0x90) != 0x1) goto jmp_2de1;
 	PM_ContinueTorsoAnim(0xc);
 	goto jmp_2de6;
 jmp_2de1:
@@ -4322,69 +4473,69 @@ void PM_Weapon(void) {
 	int		local_20;
 	int		local_24;
 
-	if ((*(int *)(*(int *)*(int *)pm + 0xc) & 0x200) == 0x0) goto jmp_2df5;
+	if ((*(int *)(*(int *)pm + 0xc) & 0x200) == 0x0) goto jmp_2df5;
 	goto jmp_300c;
 jmp_2df5:
-	if (*(int *)(*(int *)*(int *)pm + 0x104) != 0x3) goto jmp_2dff;
+	if (*(int *)(*(int *)pm + 0x104) != 0x3) goto jmp_2dff;
 	goto jmp_300c;
 jmp_2dff:
-	if (*(int *)(*(int *)*(int *)pm + 0xb8) > 0x0) goto jmp_2e10;
-	*(int *)(*(int *)*(int *)pm + 0x90) = 0x0;
+	if (*(int *)(*(int *)pm + 0xb8) > 0x0) goto jmp_2e10;
+	*(int *)(*(int *)pm + 0x90) = 0x0;
 	goto jmp_300c;
 jmp_2e10:
-	if ((*(int *)(*(int *)pm + 0x14) & 0x4) == 0x0) goto jmp_2e6c;
-	if ((*(int *)(*(int *)*(int *)pm + 0xc) & 0x400) != 0x0) goto jmp_2e7b;
-	local_10 = *(int *)*(int *)pm;
+	if ((*(int *)(pm + 0x14) & 0x4) == 0x0) goto jmp_2e6c;
+	if ((*(int *)(*(int *)pm + 0xc) & 0x400) != 0x0) goto jmp_2e7b;
+	local_10 = *(int *)pm;
 	if (*(int *)((0x34 * *(int *)(local_10 + 0xbc)) + 0x5b4) != 0x2) goto jmp_2e43;
 	if (*(int *)(local_10 + 0xb8) < (*(int *)(local_10 + 0xd0) + 0x19)) goto jmp_2e43;
 	goto jmp_300c;
 jmp_2e43:
-	local_14 = (*(int *)*(int *)pm + 0xc);
+	local_14 = (*(int *)pm + 0xc);
 	*(int *)local_14 = (*(int *)local_14 | 0x400);
-	PM_AddEvent((*(int *)((0x34 * *(int *)(*(int *)*(int *)pm + 0xbc)) + 0x5b4) + 0x18));
-	*(int *)(*(int *)*(int *)pm + 0xbc) = 0x0;
+	PM_AddEvent((*(int *)((0x34 * *(int *)(*(int *)pm + 0xbc)) + 0x5b4) + 0x18));
+	*(int *)(*(int *)pm + 0xbc) = 0x0;
 	goto jmp_300c;
 jmp_2e6c:
-	local_10 = (*(int *)*(int *)pm + 0xc);
+	local_10 = (*(int *)pm + 0xc);
 	*(int *)local_10 = (*(int *)local_10 & 0xfffffbff);
 jmp_2e7b:
-	if (*(int *)(*(int *)*(int *)pm + 0x2c) <= 0x0) goto jmp_2e93;
-	local_10 = (*(int *)*(int *)pm + 0x2c);
+	if (*(int *)(*(int *)pm + 0x2c) <= 0x0) goto jmp_2e93;
+	local_10 = (*(int *)pm + 0x2c);
 	*(int *)local_10 = (*(int *)local_10 - bss_104514);
 jmp_2e93:
-	local_10 = *(int *)*(int *)pm;
+	local_10 = *(int *)pm;
 	if (*(int *)(local_10 + 0x2c) <= 0x0) goto jmp_2ea6;
 	if (*(int *)(local_10 + 0x94) == 0x3) goto jmp_2ebf;
 jmp_2ea6:
-	local_14 = *(int *)pm;
+	local_14 = pm;
 	if (*(int *)(*(int *)local_14 + 0x90) == *(char *)(local_14 + 0x18)) goto jmp_2ebf;
-	PM_BeginWeaponChange(*(char *)(*(int *)pm + 0x18));
+	PM_BeginWeaponChange(*(char *)(pm + 0x18));
 jmp_2ebf:
-	if (*(int *)(*(int *)*(int *)pm + 0x2c) <= 0x0) goto jmp_2ec9;
+	if (*(int *)(*(int *)pm + 0x2c) <= 0x0) goto jmp_2ec9;
 	goto jmp_300c;
 jmp_2ec9:
-	if (*(int *)(*(int *)*(int *)pm + 0x94) != 0x2) goto jmp_2ed6;
+	if (*(int *)(*(int *)pm + 0x94) != 0x2) goto jmp_2ed6;
 	PM_FinishWeaponChange();
 	goto jmp_300c;
 jmp_2ed6:
-	if (*(int *)(*(int *)*(int *)pm + 0x94) != 0x1) goto jmp_2efb;
-	*(int *)(*(int *)*(int *)pm + 0x94) = 0x0;
-	if (*(int *)(*(int *)*(int *)pm + 0x90) != 0x1) goto jmp_2ef4;
+	if (*(int *)(*(int *)pm + 0x94) != 0x1) goto jmp_2efb;
+	*(int *)(*(int *)pm + 0x94) = 0x0;
+	if (*(int *)(*(int *)pm + 0x90) != 0x1) goto jmp_2ef4;
 	PM_StartTorsoAnim(0xc);
 	goto jmp_300c;
 jmp_2ef4:
 	PM_StartTorsoAnim(0xb);
 	goto jmp_300c;
 jmp_2efb:
-	if ((*(int *)(*(int *)pm + 0x14) & 0x1) != 0x0) goto jmp_2f14;
-	*(int *)(*(int *)*(int *)pm + 0x2c) = 0x0;
-	*(int *)(*(int *)*(int *)pm + 0x94) = 0x0;
+	if ((*(int *)(pm + 0x14) & 0x1) != 0x0) goto jmp_2f14;
+	*(int *)(*(int *)pm + 0x2c) = 0x0;
+	*(int *)(*(int *)pm + 0x94) = 0x0;
 	goto jmp_300c;
 jmp_2f14:
-	if (*(int *)(*(int *)*(int *)pm + 0x90) != 0x1) goto jmp_2f3a;
-	if (*(int *)(*(int *)pm + 0x28) != 0x0) goto jmp_2f33;
-	*(int *)(*(int *)*(int *)pm + 0x2c) = 0x0;
-	*(int *)(*(int *)*(int *)pm + 0x94) = 0x0;
+	if (*(int *)(*(int *)pm + 0x90) != 0x1) goto jmp_2f3a;
+	if (*(int *)(pm + 0x28) != 0x0) goto jmp_2f33;
+	*(int *)(*(int *)pm + 0x2c) = 0x0;
+	*(int *)(*(int *)pm + 0x94) = 0x0;
 	goto jmp_300c;
 jmp_2f33:
 	PM_StartTorsoAnim(0x8);
@@ -4392,22 +4543,22 @@ jmp_2f33:
 jmp_2f3a:
 	PM_StartTorsoAnim(0x7);
 jmp_2f3f:
-	*(int *)(*(int *)*(int *)pm + 0x94) = 0x3;
-	local_14 = *(int *)*(int *)pm;
+	*(int *)(*(int *)pm + 0x94) = 0x3;
+	local_14 = *(int *)pm;
 	if (*(int *)((*(int *)(local_14 + 0x90) << 0x2) + (local_14 + 0x178)) != 0x0) goto jmp_2f70;
 	PM_AddEvent(0x15);
-	local_18 = (*(int *)*(int *)pm + 0x2c);
+	local_18 = (*(int *)pm + 0x2c);
 	*(int *)local_18 = (*(int *)local_18 + 0x1f4);
 	goto jmp_300c;
 jmp_2f70:
-	local_18 = *(int *)*(int *)pm;
+	local_18 = *(int *)pm;
 	if (*(int *)((*(int *)(local_18 + 0x90) << 0x2) + (local_18 + 0x178)) == 0xffffffff) goto jmp_2f9f;
-	local_1c = *(int *)*(int *)pm;
+	local_1c = *(int *)pm;
 	local_20 = ((*(int *)(local_1c + 0x90) << 0x2) + (local_1c + 0x178));
 	*(int *)local_20 = (*(int *)local_20 - 0x1);
 jmp_2f9f:
 	PM_AddEvent(0x17);
-	local_1c = *(int *)(*(int *)*(int *)pm + 0x90);
+	local_1c = *(int *)(*(int *)pm + 0x90);
 	if (local_1c < 0x1) goto jmp_2fbc;
 	if (local_1c > 0xa) goto jmp_2fbc;
 	goto *(int *)((local_1c << 0x2) + 0xee0);
@@ -4432,10 +4583,10 @@ jmp_2fbc:
 	goto jmp_2fec;
 	local_c = 0x190;
 jmp_2fec:
-	if (*(int *)(*(int *)*(int *)pm + 0x144) == 0x0) goto jmp_2ffc;
+	if (*(int *)(*(int *)pm + 0x144) == 0x0) goto jmp_2ffc;
 	local_c = (int)((float)local_c / 0x3fa66666);
 jmp_2ffc:
-	local_24 = (*(int *)*(int *)pm + 0x2c);
+	local_24 = (*(int *)pm + 0x2c);
 	*(int *)local_24 = (*(int *)local_24 + local_c);
 jmp_300c:
 }
@@ -4452,10 +4603,10 @@ Called by: PmoveSingle
 */
 void PM_Animate(void) {
 
-	if ((*(int *)(*(int *)pm + 0x14) & 0x8) == 0x0) goto jmp_3031;
-	if (*(int *)(*(int *)*(int *)pm + 0x50) != 0x0) goto jmp_3031;
+	if ((*(int *)(pm + 0x14) & 0x8) == 0x0) goto jmp_3031;
+	if (*(int *)(*(int *)pm + 0x50) != 0x0) goto jmp_3031;
 	PM_StartTorsoAnim(0x6);
-	*(int *)(*(int *)*(int *)pm + 0x50) = 0x8f6;
+	*(int *)(*(int *)pm + 0x50) = 0x8f6;
 	PM_AddEvent(0x4c);
 jmp_3031:
 }
@@ -4472,27 +4623,27 @@ Called by: PmoveSingle
 void PM_DropTimers(void) {
 	int		local_8;
 
-	if (*(int *)(*(int *)*(int *)pm + 0x10) == 0x0) goto jmp_306d;
-	if (bss_104514 < *(int *)(*(int *)*(int *)pm + 0x10)) goto jmp_305d;
-	local_8 = (*(int *)*(int *)pm + 0xc);
+	if (*(int *)(*(int *)pm + 0x10) == 0x0) goto jmp_306d;
+	if (bss_104514 < *(int *)(*(int *)pm + 0x10)) goto jmp_305d;
+	local_8 = (*(int *)pm + 0xc);
 	*(int *)local_8 = (*(int *)local_8 & 0xfffffe9f);
-	*(int *)(*(int *)*(int *)pm + 0x10) = 0x0;
+	*(int *)(*(int *)pm + 0x10) = 0x0;
 	goto jmp_306d;
 jmp_305d:
-	local_8 = (*(int *)*(int *)pm + 0x10);
+	local_8 = (*(int *)pm + 0x10);
 	*(int *)local_8 = (*(int *)local_8 - bss_104514);
 jmp_306d:
-	if (*(int *)(*(int *)*(int *)pm + 0x48) <= 0x0) goto jmp_3094;
-	local_8 = (*(int *)*(int *)pm + 0x48);
+	if (*(int *)(*(int *)pm + 0x48) <= 0x0) goto jmp_3094;
+	local_8 = (*(int *)pm + 0x48);
 	*(int *)local_8 = (*(int *)local_8 - bss_104514);
-	if (*(int *)(*(int *)*(int *)pm + 0x48) >= 0x0) goto jmp_3094;
-	*(int *)(*(int *)*(int *)pm + 0x48) = 0x0;
+	if (*(int *)(*(int *)pm + 0x48) >= 0x0) goto jmp_3094;
+	*(int *)(*(int *)pm + 0x48) = 0x0;
 jmp_3094:
-	if (*(int *)(*(int *)*(int *)pm + 0x50) <= 0x0) goto jmp_30bb;
-	local_8 = (*(int *)*(int *)pm + 0x50);
+	if (*(int *)(*(int *)pm + 0x50) <= 0x0) goto jmp_30bb;
+	local_8 = (*(int *)pm + 0x50);
 	*(int *)local_8 = (*(int *)local_8 - bss_104514);
-	if (*(int *)(*(int *)*(int *)pm + 0x50) >= 0x0) goto jmp_30bb;
-	*(int *)(*(int *)*(int *)pm + 0x50) = 0x0;
+	if (*(int *)(*(int *)pm + 0x50) >= 0x0) goto jmp_30bb;
+	*(int *)(*(int *)pm + 0x50) = 0x0;
 jmp_30bb:
 }
 
@@ -4581,29 +4732,29 @@ void PmoveSingle(int arg_0) {
 	local_1c = 0xee0;
 	*(int *)local_1c = (*(int *)local_1c + 0x1);
 	*(int *)(*(int *)local_18 + 0x30) = 0x0;
-	*(int *)(*(int *)pm + 0xcc) = 0x0;
-	*(int *)(*(int *)pm + 0xd0) = 0x0;
-	if (*(int *)(*(int *)*(int *)pm + 0xb8) > 0x0) goto jmp_31a6;
-	local_20 = (*(int *)pm + 0x1c);
+	*(int *)(pm + 0xcc) = 0x0;
+	*(int *)(pm + 0xd0) = 0x0;
+	if (*(int *)(*(int *)pm + 0xb8) > 0x0) goto jmp_31a6;
+	local_20 = (pm + 0x1c);
 	*(int *)local_20 = (*(int *)local_20 & 0xfdffffff);
 jmp_31a6:
-	local_20 = abs((char)*(char *)(*(int *)pm + 0x19));
+	local_20 = abs((char)*(char *)(pm + 0x19));
 	if (local_20 > 0x40) goto jmp_31c4;
-	local_24 = abs((char)*(char *)(*(int *)pm + 0x1a));
+	local_24 = abs((char)*(char *)(pm + 0x1a));
 	if (local_24 <= 0x40) goto jmp_31d2;
 jmp_31c4:
-	local_28 = (*(int *)pm + 0x14);
+	local_28 = (pm + 0x14);
 	*(int *)local_28 = (*(int *)local_28 & 0xffffffef);
 jmp_31d2:
-	if ((*(int *)(*(int *)pm + 0x14) & 0x2) == 0x0) goto jmp_31ec;
-	local_28 = (*(int *)*(int *)pm + 0x68);
+	if ((*(int *)(pm + 0x14) & 0x2) == 0x0) goto jmp_31ec;
+	local_28 = (*(int *)pm + 0x68);
 	*(int *)local_28 = (*(int *)local_28 | 0x1000);
 	goto jmp_31fb;
 jmp_31ec:
-	local_28 = (*(int *)*(int *)pm + 0x68);
+	local_28 = (*(int *)pm + 0x68);
 	*(int *)local_28 = (*(int *)local_28 & 0xffffefff);
 jmp_31fb:
-	local_28 = *(int *)pm;
+	local_28 = pm;
 	local_2c = *(int *)local_28;
 	local_30 = 0x0;
 	if ((*(int *)(local_2c + 0xc) & 0x200) != local_30) goto jmp_3250;
@@ -4613,18 +4764,18 @@ jmp_31fb:
 	if (local_34 == local_38) goto jmp_3250;
 	if ((*(int *)(local_28 + 0x14) & local_38) == local_30) goto jmp_3250;
 	if (*(int *)((*(int *)(local_2c + 0x90) << 0x2) + (local_2c + 0x178)) == local_30) goto jmp_3250;
-	local_3c = (*(int *)*(int *)pm + 0x68);
+	local_3c = (*(int *)pm + 0x68);
 	*(int *)local_3c = (*(int *)local_3c | 0x100);
 	goto jmp_325f;
 jmp_3250:
-	local_3c = (*(int *)*(int *)pm + 0x68);
+	local_3c = (*(int *)pm + 0x68);
 	*(int *)local_3c = (*(int *)local_3c & 0xfffffeff);
 jmp_325f:
-	local_3c = *(int *)pm;
+	local_3c = pm;
 	local_40 = 0x0;
 	if (*(int *)(*(int *)local_3c + 0xb8) <= local_40) goto jmp_3288;
 	if ((*(int *)(local_3c + 0x14) & 0x5) != local_40) goto jmp_3288;
-	local_44 = (*(int *)*(int *)pm + 0xc);
+	local_44 = (*(int *)pm + 0xc);
 	*(int *)local_44 = (*(int *)local_44 & 0xfffffdff);
 jmp_3288:
 	if ((*(int *)(arg_0 + 0x14) & 0x2) == 0x0) goto jmp_32a9;
@@ -4634,7 +4785,7 @@ jmp_3288:
 	*(char *)(arg_0 + 0x1b) = 0x0;
 jmp_32a9:
 	memset(0x1044ec, 0x0, 0x8c);
-	bss_104514 = (*(int *)(arg_0 + 0x4) - *(int *)*(int *)*(int *)pm);
+	bss_104514 = (*(int *)(arg_0 + 0x4) - *(int *)*(int *)pm);
 	if (bss_104514 >= 0x1) goto jmp_32c7;
 	bss_104514 = 0x1;
 	goto jmp_32ce;
@@ -4642,53 +4793,53 @@ jmp_32c7:
 	if (bss_104514 <= 0xc8) goto jmp_32ce;
 	bss_104514 = 0xc8;
 jmp_32ce:
-	*(int *)*(int *)*(int *)pm = *(int *)(arg_0 + 0x4);
-	block_copy((*(int *)*(int *)pm + 0x14), bss_10455c, 0xc);
-	block_copy((*(int *)*(int *)pm + 0x20), bss_104568, 0xc);
+	*(int *)*(int *)pm = *(int *)(arg_0 + 0x4);
+	block_copy((*(int *)pm + 0x14), bss_10455c, 0xc);
+	block_copy((*(int *)pm + 0x20), bss_104568, 0xc);
 	bss_104510 = (0x3a83126f * (float)bss_104514);
-	local_44 = *(int *)pm;
+	local_44 = pm;
 	PM_UpdateViewAngles(*(int *)local_44, (local_44 + 0x4));
-	AngleVectors((*(int *)*(int *)pm + 0x98), 0x1044ec, 0x1044f8, 0x104504);
-	if ((char)*(char *)(*(int *)pm + 0x1b) >= 0xa) goto jmp_3322;
-	local_48 = (*(int *)*(int *)pm + 0xc);
+	AngleVectors((*(int *)pm + 0x98), 0x1044ec, 0x1044f8, 0x104504);
+	if ((char)*(char *)(pm + 0x1b) >= 0xa) goto jmp_3322;
+	local_48 = (*(int *)pm + 0xc);
 	*(int *)local_48 = (*(int *)local_48 & 0xfffffffd);
 jmp_3322:
-	if ((char)*(char *)(*(int *)pm + 0x19) >= 0x0) goto jmp_333b;
-	local_48 = (*(int *)*(int *)pm + 0xc);
+	if ((char)*(char *)(pm + 0x19) >= 0x0) goto jmp_333b;
+	local_48 = (*(int *)pm + 0xc);
 	*(int *)local_48 = (*(int *)local_48 | 0x10);
 	goto jmp_336c;
 jmp_333b:
-	local_48 = *(int *)pm;
+	local_48 = pm;
 	local_4c = (char)*(char *)(local_48 + 0x19);
 	local_50 = 0x0;
 	if (local_4c > local_50) goto jmp_335d;
 	if (local_4c != local_50) goto jmp_336c;
 	if ((char)*(char *)(local_48 + 0x1a) == local_50) goto jmp_336c;
 jmp_335d:
-	local_54 = (*(int *)*(int *)pm + 0xc);
+	local_54 = (*(int *)pm + 0xc);
 	*(int *)local_54 = (*(int *)local_54 & 0xffffffef);
 jmp_336c:
-	if (*(int *)(*(int *)*(int *)pm + 0x4) < 0x3) goto jmp_3386;
-	*(char *)(*(int *)pm + 0x19) = 0x0;
-	*(char *)(*(int *)pm + 0x1a) = 0x0;
-	*(char *)(*(int *)pm + 0x1b) = 0x0;
+	if (*(int *)(*(int *)pm + 0x4) < 0x3) goto jmp_3386;
+	*(char *)(pm + 0x19) = 0x0;
+	*(char *)(pm + 0x1a) = 0x0;
+	*(char *)(pm + 0x1b) = 0x0;
 jmp_3386:
-	if (*(int *)(*(int *)*(int *)pm + 0x4) != 0x2) goto jmp_3399;
+	if (*(int *)(*(int *)pm + 0x4) != 0x2) goto jmp_3399;
 	PM_CheckDuck();
 	PM_FlyMove();
 	PM_DropTimers();
 	goto jmp_344c;
 jmp_3399:
-	if (*(int *)(*(int *)*(int *)pm + 0x4) != 0x1) goto jmp_33a9;
+	if (*(int *)(*(int *)pm + 0x4) != 0x1) goto jmp_33a9;
 	PM_NoclipMove();
 	PM_DropTimers();
 	goto jmp_344c;
 jmp_33a9:
 	local_54 = 0x4;
-	if (*(int *)(*(int *)*(int *)pm + local_54) != local_54) goto jmp_33b8;
+	if (*(int *)(*(int *)pm + local_54) != local_54) goto jmp_33b8;
 	goto jmp_344c;
 jmp_33b8:
-	local_58 = *(int *)(*(int *)*(int *)pm + 0x4);
+	local_58 = *(int *)(*(int *)pm + 0x4);
 	if (local_58 == 0x5) goto jmp_33c8;
 	if (local_58 != 0x6) goto jmp_33ca;
 jmp_33c8:
@@ -4698,24 +4849,24 @@ jmp_33ca:
 	bss_104574 = *(int *)(arg_0 + 0xd0);
 	PM_CheckDuck();
 	PM_GroundTrace();
-	if (*(int *)(*(int *)*(int *)pm + 0x4) != 0x3) goto jmp_33e5;
+	if (*(int *)(*(int *)pm + 0x4) != 0x3) goto jmp_33e5;
 	PM_DeadMove();
 jmp_33e5:
 	PM_DropTimers();
-	if (*(int *)(*(int *)*(int *)pm + 0x150) == 0x0) goto jmp_33f5;
+	if (*(int *)(*(int *)pm + 0x150) == 0x0) goto jmp_33f5;
 	PM_FlyMove();
 	goto jmp_342e;
 jmp_33f5:
-	if ((*(int *)(*(int *)*(int *)pm + 0xc) & 0x800) == 0x0) goto jmp_3407;
+	if ((*(int *)(*(int *)pm + 0xc) & 0x800) == 0x0) goto jmp_3407;
 	PM_GrappleMove();
 	PM_AirMove();
 	goto jmp_342e;
 jmp_3407:
-	if ((*(int *)(*(int *)*(int *)pm + 0xc) & 0x100) == 0x0) goto jmp_3416;
+	if ((*(int *)(*(int *)pm + 0xc) & 0x100) == 0x0) goto jmp_3416;
 	PM_WaterJumpMove();
 	goto jmp_342e;
 jmp_3416:
-	if (*(int *)(*(int *)pm + 0xd0) <= 0x1) goto jmp_3422;
+	if (*(int *)(pm + 0xd0) <= 0x1) goto jmp_3422;
 	PM_WaterMove();
 	goto jmp_342e;
 jmp_3422:
@@ -4732,7 +4883,7 @@ jmp_342e:
 	PM_TorsoAnimation();
 	PM_Footsteps();
 	PM_WaterEvents();
-	trap_SnapVector((*(int *)*(int *)pm + 0x20));
+	trap_SnapVector((*(int *)pm + 0x20));
 jmp_344c:
 }
 
@@ -4849,16 +5000,16 @@ int PM_SlideMove(int arg_0) {
 
 	arg_0 = arg_0;
 	local_f4 = 0x4;
-	block_copy((*(int *)*(int *)pm + 0x20), local_f8, 0xc);
+	block_copy((*(int *)pm + 0x20), local_f8, 0xc);
 	if (arg_0 == 0x0) goto jmp_3535;
-	local_104 = *(int *)pm;
+	local_104 = pm;
 	block_copy((*(int *)local_104 + 0x20), &local_98, 0xc);
 	local_a0 = (local_a0 - ((float)*(int *)(*(int *)local_104 + 0x30) * bss_104510));
-	local_108 = (*(int *)*(int *)pm + 0x28);
+	local_108 = (*(int *)pm + 0x28);
 	*(int *)local_108 = (0x3f000000 * (*(int *)local_108 + local_a0));
 	local_100 = local_a0;
 	if (bss_10451c == 0x0) goto jmp_3535;
-	local_10c = (*(int *)*(int *)pm + 0x20);
+	local_10c = (*(int *)pm + 0x20);
 	PM_ClipVelocity(local_10c, 0x104538, local_10c, 0x3f8020c5);
 jmp_3535:
 	local_e0 = bss_104510;
@@ -4869,20 +5020,20 @@ jmp_3535:
 jmp_3545:
 	local_84 = 0x0;
 jmp_3548:
-	VectorNormalize2((*(int *)*(int *)pm + 0x20), ((0xc * local_84) + &local_28));
+	VectorNormalize2((*(int *)pm + 0x20), ((0xc * local_84) + &local_28));
 	local_84 = (local_84 + 0x1);
 	local_f0 = 0x0;
 	goto jmp_38ba;
 jmp_3563:
-	local_104 = *(int *)pm;
+	local_104 = pm;
 	local_108 = *(int *)local_104;
 	local_e4 = (*(int *)(local_108 + 0x14) + (*(int *)(local_108 + 0x20) * local_e0));
 	local_110 = *(int *)local_104;
 	local_e8 = (*(int *)(local_110 + 0x18) + (*(int *)(local_110 + 0x24) * local_e0));
-	local_114 = *(int *)*(int *)pm;
+	local_114 = *(int *)pm;
 	local_ec = (*(int *)(local_114 + 0x1c) + (*(int *)(local_114 + 0x28) * local_e0));
 #define next_call_arg_0 "local_a4"
-	local_118 = *(int *)pm;
+	local_118 = pm;
 	*(int *)local_11c = *(int *)local_118;
 #define next_call_arg_1 "(*(int *)local_11c + 0x14)"
 #define next_call_arg_2 "(local_118 + 0xb4)"
@@ -4892,11 +5043,11 @@ jmp_3563:
 #define next_call_arg_6 "*(int *)(local_118 + 0x1c)"
 	(*(*(int *)(local_118 + 0xe0)))();
 	if (*(int *)local_a4 == 0x0) goto jmp_35e4;
-	*(int *)(*(int *)*(int *)pm + 0x28) = 0x0;
+	*(int *)(*(int *)pm + 0x28) = 0x0;
 	return 0x1;
 jmp_35e4:
 	if (local_ac <= 0x0) goto jmp_35ef;
-	block_copy(local_b0, (*(int *)*(int *)pm + 0x14), 0xc);
+	block_copy(local_b0, (*(int *)pm + 0x14), 0xc);
 jmp_35ef:
 	if (local_ac != 0x3f800000) goto jmp_35f5;
 	goto jmp_38bf;
@@ -4904,7 +5055,7 @@ jmp_35f5:
 	PM_AddTouchEnt(local_d8);
 	local_e0 = (local_e0 - (local_e0 * local_ac));
 	if (local_84 < 0x5) goto jmp_362a;
-	local_124 = *(int *)*(int *)pm;
+	local_124 = *(int *)pm;
 	local_128 = 0x0;
 	*(int *)(local_124 + 0x28) = local_128;
 	*(int *)(local_124 + 0x24) = local_128;
@@ -4916,11 +5067,11 @@ jmp_362a:
 jmp_362f:
 	local_124 = (0xc * local_74);
 	if ((((local_bc * *(int *)(local_124 + &local_28)) + (local_c0 * *(int *)(local_124 + &local_2c))) + (*(int *)local_c4 * *(int *)(local_124 + local_30))) <= 0x3f7d70a4) goto jmp_3683;
-	local_128 = (*(int *)*(int *)pm + 0x20);
+	local_128 = (*(int *)pm + 0x20);
 	*(int *)local_128 = (local_bc + *(int *)local_128);
-	local_12c = (*(int *)*(int *)pm + 0x24);
+	local_12c = (*(int *)pm + 0x24);
 	*(int *)local_12c = (local_c0 + *(int *)local_12c);
-	local_130 = (*(int *)*(int *)pm + 0x28);
+	local_130 = (*(int *)pm + 0x28);
 	*(int *)local_130 = (*(int *)local_c4 + *(int *)local_130);
 	goto jmp_368e;
 jmp_3683:
@@ -4936,7 +5087,7 @@ jmp_3695:
 	local_74 = 0x0;
 	goto jmp_38af;
 jmp_36a8:
-	local_124 = *(int *)*(int *)pm;
+	local_124 = *(int *)pm;
 	local_128 = (0xc * local_74);
 	local_dc = (((*(int *)(local_124 + 0x20) * *(int *)(local_128 + &local_28)) + (*(int *)(local_124 + 0x24) * *(int *)(local_128 + &local_2c))) + (*(int *)(local_124 + 0x28) * *(int *)(local_128 + local_30)));
 	if (local_dc < 0x3dcccccd) goto jmp_36de;
@@ -4945,7 +5096,7 @@ jmp_36de:
 	if (-local_dc <= bss_104558) goto jmp_36e9;
 	bss_104558 = -local_dc;
 jmp_36e9:
-	PM_ClipVelocity((*(int *)*(int *)pm + 0x20), ((0xc * local_74) + &local_28), &local_64, 0x3f8020c5);
+	PM_ClipVelocity((*(int *)pm + 0x20), ((0xc * local_74) + &local_28), &local_64, 0x3f8020c5);
 	if (arg_0 == 0x0) goto jmp_3711;
 	PM_ClipVelocity(&local_98, ((0xc * local_74) + &local_28), &local_8c, 0x3f8020c5);
 jmp_3711:
@@ -4971,7 +5122,7 @@ jmp_3789:
 	CrossProduct(((local_134 * local_74) + &local_28), ((local_134 * local_70) + &local_28), &local_78);
 	VectorNormalize(&local_78);
 	local_138 = local_78;
-	*(int *)local_13c = *(int *)*(int *)pm;
+	*(int *)local_13c = *(int *)pm;
 	local_88 = (((local_138 * *(int *)(*(int *)local_13c + 0x20)) + (local_7c * *(int *)(*(int *)local_13c + 0x24))) + (local_80 * *(int *)(*(int *)local_13c + 0x28)));
 	local_64 = (local_138 * local_88);
 	local_68 = (local_7c * local_88);
@@ -4998,7 +5149,7 @@ jmp_383e:
 	if ((((local_64 * *(int *)(local_148 + &local_28)) + (local_68 * *(int *)(local_148 + &local_2c))) + (local_6c * *(int *)(local_148 + local_30))) < 0x3dcccccd) goto jmp_3862;
 	goto jmp_3883;
 jmp_3862:
-	local_14c = *(int *)*(int *)pm;
+	local_14c = *(int *)pm;
 	local_150 = 0x0;
 	*(int *)(local_14c + 0x28) = local_150;
 	*(int *)(local_14c + 0x24) = local_150;
@@ -5012,7 +5163,7 @@ jmp_388e:
 	local_70 = (local_70 + 0x1);
 jmp_3894:
 	if (local_70 < local_84) goto jmp_3716;
-	block_copy(&local_64, (*(int *)*(int *)pm + 0x20), 0xc);
+	block_copy(&local_64, (*(int *)pm + 0x20), 0xc);
 	if (arg_0 == 0x0) goto jmp_38b4;
 	block_copy(&local_8c, &local_98, 0xc);
 	goto jmp_38b4;
@@ -5026,10 +5177,10 @@ jmp_38ba:
 	if (local_f0 < local_f4) goto jmp_3563;
 jmp_38bf:
 	if (arg_0 == 0x0) goto jmp_38ca;
-	block_copy(&local_98, (*(int *)*(int *)pm + 0x20), 0xc);
+	block_copy(&local_98, (*(int *)pm + 0x20), 0xc);
 jmp_38ca:
-	if (*(int *)(*(int *)*(int *)pm + 0x10) == 0x0) goto jmp_38d9;
-	block_copy(local_f8, (*(int *)*(int *)pm + 0x20), 0xc);
+	if (*(int *)(*(int *)pm + 0x10) == 0x0) goto jmp_38d9;
+	block_copy(local_f8, (*(int *)pm + 0x20), 0xc);
 jmp_38d9:
 	if (local_f0 == 0x0) goto jmp_38e2;
 	local_104 = 0x1;
@@ -5076,7 +5227,7 @@ void PM_StepSlideMove(int arg_0) {
 	int		local_a8;
 	int		local_ac;
 
-	local_90 = *(int *)pm;
+	local_90 = pm;
 	block_copy((*(int *)local_90 + 0x14), local_68, 0xc);
 	block_copy((*(int *)local_90 + 0x20), local_80, 0xc);
 	local_94 = PM_SlideMove(arg_0);
@@ -5087,7 +5238,7 @@ jmp_390a:
 	local_7c = (local_7c - 0x41900000);
 #define next_call_arg_0 "local_24"
 #define next_call_arg_1 "local_68"
-	local_98 = *(int *)pm;
+	local_98 = pm;
 #define next_call_arg_2 "(local_98 + 0xb4)"
 #define next_call_arg_3 "(local_98 + 0xc0)"
 #define next_call_arg_4 "local_74"
@@ -5098,7 +5249,7 @@ jmp_390a:
 	local_5c = local_9c;
 	local_60 = local_9c;
 	local_64 = 0x3f800000;
-	if (*(int *)(*(int *)*(int *)pm + 0x28) <= 0x0) goto jmp_396a;
+	if (*(int *)(*(int *)pm + 0x28) <= 0x0) goto jmp_396a;
 	if (local_2c == 0x3f800000) goto jmp_3968;
 	if ((((local_3c * local_5c) + (local_40 * local_60)) + (*(int *)local_44 * local_64)) >= 0x3f333333) goto jmp_396a;
 jmp_3968:
@@ -5108,7 +5259,7 @@ jmp_396a:
 	local_64 = (local_64 + 0x41900000);
 #define next_call_arg_0 "local_24"
 #define next_call_arg_1 "local_68"
-	local_a0 = *(int *)pm;
+	local_a0 = pm;
 #define next_call_arg_2 "(local_a0 + 0xb4)"
 #define next_call_arg_3 "(local_a0 + 0xc0)"
 #define next_call_arg_4 "&local_5c"
@@ -5116,18 +5267,18 @@ jmp_396a:
 #define next_call_arg_6 "*(int *)(local_a0 + 0x1c)"
 	(*(*(int *)(local_a0 + 0xe0)))();
 	if (*(int *)local_24 == 0x0) goto jmp_39b0;
-	if (*(int *)(*(int *)pm + 0x20) == 0x0) goto jmp_3a6f;
-	Com_Printf(0x50cd, *(int *)c_pmove);
+	if (*(int *)(pm + 0x20) == 0x0) goto jmp_3a6f;
+	Com_Printf(0x50cd, c_pmove);
 	goto jmp_3a6f;
 jmp_39b0:
 	local_8c = (local_38 - local_70);
-	block_copy(local_30, (*(int *)*(int *)pm + 0x14), 0xc);
-	block_copy(local_80, (*(int *)*(int *)pm + 0x20), 0xc);
+	block_copy(local_30, (*(int *)pm + 0x14), 0xc);
+	block_copy(local_80, (*(int *)pm + 0x20), 0xc);
 	PM_SlideMove(arg_0);
-	block_copy((*(int *)*(int *)pm + 0x14), local_74, 0xc);
+	block_copy((*(int *)pm + 0x14), local_74, 0xc);
 	local_7c = (local_7c - local_8c);
 #define next_call_arg_0 "local_24"
-	local_a4 = *(int *)pm;
+	local_a4 = pm;
 	local_a8 = *(int *)local_a4;
 #define next_call_arg_1 "(local_a8 + 0x14)"
 #define next_call_arg_2 "(local_a4 + 0xb4)"
@@ -5137,13 +5288,13 @@ jmp_39b0:
 #define next_call_arg_6 "*(int *)(local_a4 + 0x1c)"
 	(*(*(int *)(local_a4 + 0xe0)))();
 	if (*(int *)local_24 != 0x0) goto jmp_3a13;
-	block_copy(local_30, (*(int *)*(int *)pm + 0x14), 0xc);
+	block_copy(local_30, (*(int *)pm + 0x14), 0xc);
 jmp_3a13:
 	if (local_2c >= 0x3f800000) goto jmp_3a2b;
-	local_ac = (*(int *)*(int *)pm + 0x20);
+	local_ac = (*(int *)pm + 0x20);
 	PM_ClipVelocity(local_ac, &local_3c, local_ac, 0x3f8020c5);
 jmp_3a2b:
-	local_ac = (*(int *)(*(int *)*(int *)pm + 0x1c) - local_70);
+	local_ac = (*(int *)(*(int *)pm + 0x1c) - local_70);
 	if (local_ac <= 0x40000000) goto jmp_3a60;
 	if (local_ac >= 0x40e00000) goto jmp_3a45;
 	PM_AddEvent(0x6);
@@ -5159,8 +5310,8 @@ jmp_3a50:
 jmp_3a5b:
 	PM_AddEvent(0x9);
 jmp_3a60:
-	if (*(int *)(*(int *)pm + 0x20) == 0x0) goto jmp_3a6f;
-	Com_Printf(0x50c1, *(int *)c_pmove);
+	if (*(int *)(pm + 0x20) == 0x0) goto jmp_3a6f;
+	Com_Printf(0x50c1, c_pmove);
 jmp_3a6f:
 }
 
@@ -5875,7 +6026,7 @@ Stack Size: 0x8
 */
 void srand(int arg_0) {
 
-	*(int *)randSeed = arg_0;
+	randSeed = arg_0;
 }
 
 /*
@@ -7701,7 +7852,7 @@ Calls: trap_Cvar_Set, va
 void CG_SizeUp_f(void) {
 	int		local_10;
 
-	local_10 = va(0x5309, (*(int *)bss_a418 + 0xa));
+	local_10 = va(0x5309, (bss_a418 + 0xa));
 	trap_Cvar_Set(0x530c, local_10);
 }
 
@@ -7717,7 +7868,7 @@ Calls: trap_Cvar_Set, va
 void CG_SizeDown_f(void) {
 	int		local_10;
 
-	local_10 = va(0x5309, (*(int *)bss_a418 - 0xa));
+	local_10 = va(0x5309, (bss_a418 - 0xa));
 	trap_Cvar_Set(0x530c, local_10);
 }
 
@@ -7732,7 +7883,7 @@ Calls: CG_Printf
 */
 void CG_Viewpos_f(void) {
 
-	CG_Printf(0x52f8, (int)bss_dcd0c, (int)bss_dcd10, (int)bss_dcd14, (int)*(int *)bss_dce68);
+	CG_Printf(0x52f8, (int)bss_dcd0c, (int)bss_dcd10, (int)bss_dcd14, (int)bss_dce68);
 }
 
 /*
@@ -7751,7 +7902,7 @@ void CG_ScoresDown_f(void) {
 	trap_SendClientCommand(0x52f2);
 	if (bss_de190 != 0x0) goto jmp_5810;
 	bss_de190 = 0x1;
-	*(int *)bss_dd280 = 0x0;
+	bss_dd280 = 0x0;
 	goto jmp_5810;
 jmp_580d:
 	bss_de190 = 0x1;
@@ -8087,8 +8238,8 @@ void CG_Draw3DModel(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4, int a
 	int		local_214;
 
 	local_214 = 0x0;
-	if (*(int *)bss_c508 == local_214) goto jmp_5ada;
-	if (*(int *)bss_c3f8 != local_214) goto jmp_5adc;
+	if (bss_c508 == local_214) goto jmp_5ada;
+	if (bss_c3f8 != local_214) goto jmp_5adc;
 jmp_5ada:
 	goto jmp_5b43;
 jmp_5adc:
@@ -8140,7 +8291,7 @@ void CG_DrawHead(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4, int arg_
 	char	local_54[12];
 
 	local_28 = ((0x6b4 * arg_4) + 0xe8c24);
-	if (*(int *)bss_c508 == 0x0) goto jmp_5bca;
+	if (bss_c508 == 0x0) goto jmp_5bca;
 	local_50 = *(int *)(local_28 + 0x21c);
 	if (local_50 != 0x0) goto jmp_5b5f;
 	goto jmp_5bfc;
@@ -8156,7 +8307,7 @@ jmp_5b5f:
 	CG_Draw3DModel(arg_0, arg_1, arg_2, arg_3, *(int *)(local_28 + 0x21c), *(int *)(local_28 + 0x220), &local_2c, arg_5);
 	goto jmp_5be3;
 jmp_5bca:
-	if (*(int *)bss_c3f8 == 0x0) goto jmp_5be3;
+	if (bss_c3f8 == 0x0) goto jmp_5be3;
 	CG_DrawPic(arg_0, arg_1, arg_2, arg_3, *(int *)(local_28 + 0x224));
 jmp_5be3:
 	if (*(int *)(local_28 + 0x1e8) == 0x0) goto jmp_5bfc;
@@ -8196,7 +8347,7 @@ void CG_DrawFlagModel(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4, int
 
 	local_64 = 0x0;
 	if (arg_5 != local_64) goto jmp_5c90;
-	if (*(int *)bss_c508 == local_64) goto jmp_5c90;
+	if (bss_c508 == local_64) goto jmp_5c90;
 	local_68 = 0x0;
 	local_30 = local_68;
 	local_2c = local_68;
@@ -8223,7 +8374,7 @@ jmp_5c76:
 	CG_Draw3DModel(arg_0, arg_1, arg_2, arg_3, local_60, 0x0, &local_34, &local_28);
 	goto jmp_5ce1;
 jmp_5c90:
-	if (*(int *)bss_c3f8 == 0x0) goto jmp_5ce1;
+	if (bss_c3f8 == 0x0) goto jmp_5ce1;
 	if (arg_4 != 0x1) goto jmp_5ca4;
 	local_6c = BG_FindItemForPowerup(0x7);
 	local_68 = local_6c;
@@ -8408,7 +8559,7 @@ void CG_DrawStatusBar(void) {
 	int		local_70;
 	int		local_74;
 
-	if (*(int *)bss_b848 != 0x0) goto jmp_5ebe;
+	if (bss_b848 != 0x0) goto jmp_5ebe;
 	goto jmp_60b0;
 jmp_5ebe:
 	CG_DrawTeamBackground(0x0, 0x1a4, 0x280, 0x3c, 0x3ea8f5c3, *(int *)(bss_c2330 + 0x130));
@@ -8447,7 +8598,7 @@ jmp_5f58:
 	CG_DrawStatusBarFlag(0x43a68000, 0x2);
 	goto jmp_5f70;
 jmp_5f65:
-	if (*(int *)bss_dc8dc == 0x0) goto jmp_5f70;
+	if (bss_dc8dc == 0x0) goto jmp_5f70;
 	CG_DrawStatusBarFlag(0x43a68000, 0x0);
 jmp_5f70:
 	if (*(int *)(local_3c + 0xc4) == 0x0) goto jmp_5fa4;
@@ -8469,8 +8620,8 @@ jmp_5fa4:
 	if (*(int *)(local_2c + 0xc0) == 0x0) goto jmp_601f;
 	local_28 = *(int *)((*(int *)(local_2c + 0xc0) << 0x2) + (local_3c + 0x178));
 	if (local_28 <= 0xffffffff) goto jmp_601f;
-	if (*(int *)bss_dc814 != 0x3) goto jmp_5fcb;
-	if (*(int *)bss_dc7ac <= 0x64) goto jmp_5fcb;
+	if (bss_dc814 != 0x3) goto jmp_5fcb;
+	if (bss_dc7ac <= 0x64) goto jmp_5fcb;
 	local_5c = 0x2;
 	goto jmp_5fd7;
 jmp_5fcb:
@@ -8484,8 +8635,8 @@ jmp_5fd7:
 	CG_DrawField(0x0, 0x1b0, 0x3, local_28);
 	trap_R_SetColor(0x0);
 	local_6c = 0x0;
-	if (*(int *)bss_c508 != local_6c) goto jmp_601f;
-	if (*(int *)bss_c3f8 == local_6c) goto jmp_601f;
+	if (bss_c508 != local_6c) goto jmp_601f;
+	if (bss_c3f8 == local_6c) goto jmp_601f;
 	local_70 = *(int *)((0x84 * bss_dc810) + 0xeb14);
 	if (local_70 == 0x0) goto jmp_601f;
 #define next_call_arg_0 "0x42c80000"
@@ -8521,8 +8672,8 @@ jmp_6059:
 	CG_DrawField(0x172, 0x1b0, 0x3, local_28);
 	trap_R_SetColor(0x0);
 	local_6c = 0x0;
-	if (*(int *)bss_c508 != local_6c) goto jmp_60b0;
-	if (*(int *)bss_c3f8 == local_6c) goto jmp_60b0;
+	if (bss_c508 != local_6c) goto jmp_60b0;
+	if (bss_c3f8 == local_6c) goto jmp_60b0;
 #define next_call_arg_0 "0x43eb0000"
 #define next_call_arg_1 "0x43d80000"
 	local_70 = 0x42400000;
@@ -8557,13 +8708,13 @@ int CG_DrawAttacker(int arg_0) {
 	int		local_50;
 
 	arg_0 = arg_0;
-	if (*(int *)bss_dc838 > 0x0) goto jmp_60c0;
+	if (bss_dc838 > 0x0) goto jmp_60c0;
 	return arg_0;
 jmp_60c0:
-	if (*(int *)bss_de9fc != 0x0) goto jmp_60c9;
+	if (bss_de9fc != 0x0) goto jmp_60c9;
 	return arg_0;
 jmp_60c9:
-	local_20 = *(int *)bss_dc890;
+	local_20 = bss_dc890;
 	if (local_20 < 0x0) goto jmp_60dd;
 	if (local_20 >= 0x40) goto jmp_60dd;
 	if (local_20 != *(int *)(bss_c2330 + 0xb8)) goto jmp_60e2;
@@ -8571,12 +8722,12 @@ jmp_60dd:
 	return arg_0;
 jmp_60e2:
 	if (*(int *)((0x6b4 * local_20) + 0xe8c24) != 0x0) goto jmp_60f3;
-	*(int *)bss_de9fc = 0x0;
+	bss_de9fc = 0x0;
 	return arg_0;
 jmp_60f3:
-	local_38 = (bss_dc760 - *(int *)bss_de9fc);
+	local_38 = (bss_dc760 - bss_de9fc);
 	if (local_38 <= 0x2710) goto jmp_6106;
-	*(int *)bss_de9fc = 0x0;
+	bss_de9fc = 0x0;
 	return arg_0;
 jmp_6106:
 	local_24 = 0x42700000;
@@ -8648,7 +8799,7 @@ int CG_DrawFPS(int arg_0) {
 	local_3c = 0x104590;
 	local_24 = (local_20 - *(int *)local_3c);
 	*(int *)local_3c = local_20;
-	*(int *)(((*(int *)bss_10458c %% 0x4) << 0x2) + 0x10457c) = local_24;
+	*(int *)(((bss_10458c %% 0x4) << 0x2) + 0x10457c) = local_24;
 	local_40 = 0x10458c;
 	*(int *)local_40 = (*(int *)local_40 + 0x1);
 	if (*(int *)local_40 <= 0x4) goto jmp_623b;
@@ -8758,7 +8909,7 @@ int CG_DrawTeamOverlay(int arg_0, int arg_1, int arg_2) {
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
-	if (*(int *)bss_bea8 != 0x0) goto jmp_62c8;
+	if (bss_bea8 != 0x0) goto jmp_62c8;
 	return arg_0;
 jmp_62c8:
 	local_88 = 0x130;
@@ -8981,7 +9132,7 @@ void CG_DrawUpperRight(int arg_0) {
 
 	local_14 = 0x0;
 	if (bss_e66f8 < 0x3) goto jmp_6619;
-	if (*(int *)bss_bea8 != 0x1) goto jmp_6619;
+	if (bss_bea8 != 0x1) goto jmp_6619;
 #define next_call_arg_0 "local_14"
 	local_18 = 0x1;
 #define next_call_arg_1 "local_18"
@@ -8989,12 +9140,12 @@ void CG_DrawUpperRight(int arg_0) {
 	local_1c = CG_DrawTeamOverlay();
 	local_14 = local_1c;
 jmp_6619:
-	if (*(int *)bss_c618 == 0x0) goto jmp_6628;
+	if (bss_c618 == 0x0) goto jmp_6628;
 	local_18 = CG_DrawSnapshot(local_14);
 	local_14 = local_18;
 jmp_6628:
 	local_18 = 0x0;
-	if (*(int *)bss_c728 == local_18) goto jmp_6648;
+	if (bss_c728 == local_18) goto jmp_6648;
 	local_1c = arg_0;
 	if (local_1c == local_18) goto jmp_663d;
 	if (local_1c != 0x2) goto jmp_6648;
@@ -9002,11 +9153,11 @@ jmp_663d:
 	local_20 = CG_DrawFPS(local_14);
 	local_14 = local_20;
 jmp_6648:
-	if (*(int *)bss_c838 == 0x0) goto jmp_6657;
+	if (bss_c838 == 0x0) goto jmp_6657;
 	local_20 = CG_DrawTimer(local_14);
 	local_14 = local_20;
 jmp_6657:
-	if (*(int *)bss_9648 == 0x0) goto jmp_6661;
+	if (bss_9648 == 0x0) goto jmp_6661;
 	CG_DrawAttacker(local_14);
 jmp_6661:
 }
@@ -9337,7 +9488,7 @@ void CG_DrawLowerRight(void) {
 
 	local_14 = 0x43d80000;
 	if (bss_e66f8 < 0x3) goto jmp_6bbe;
-	if (*(int *)bss_bea8 != 0x2) goto jmp_6bbe;
+	if (bss_bea8 != 0x2) goto jmp_6bbe;
 	local_18 = CG_DrawTeamOverlay(local_14, 0x1, 0x0);
 	local_14 = local_18;
 jmp_6bbe:
@@ -9406,7 +9557,7 @@ void CG_DrawLowerLeft(void) {
 	local_14 = 0x43d80000;
 	local_18 = 0x3;
 	if (bss_e66f8 < local_18) goto jmp_6c6c;
-	if (*(int *)bss_bea8 != local_18) goto jmp_6c6c;
+	if (bss_bea8 != local_18) goto jmp_6c6c;
 #define next_call_arg_0 "local_14"
 	local_1c = 0x0;
 #define next_call_arg_1 "local_1c"
@@ -9440,8 +9591,8 @@ void CG_DrawTeamInfo(void) {
 	char	local_50[8];
 	int		local_58;
 
-	if (*(int *)bss_9318 >= 0x8) goto jmp_6c80;
-	local_40 = *(int *)bss_9318;
+	if (bss_9318 >= 0x8) goto jmp_6c80;
+	local_40 = bss_9318;
 	goto jmp_6c83;
 jmp_6c80:
 	local_40 = 0x8;
@@ -9449,12 +9600,12 @@ jmp_6c83:
 	if (local_40 > 0x0) goto jmp_6c89;
 	goto jmp_6d69;
 jmp_6c89:
-	if (*(int *)bss_1040d0 == bss_1040cc) goto jmp_6d69;
-	if ((bss_dc760 - *(int *)(((*(int *)bss_1040d0 %% local_40) << 0x2) + 0x1040ac)) <= *(int *)bss_9428) goto jmp_6ca9;
+	if (bss_1040d0 == bss_1040cc) goto jmp_6d69;
+	if ((bss_dc760 - *(int *)(((bss_1040d0 %% local_40) << 0x2) + 0x1040ac)) <= bss_9428) goto jmp_6ca9;
 	local_48 = 0x1040d0;
 	*(int *)local_48 = (*(int *)local_48 + 0x1);
 jmp_6ca9:
-	local_44 = ((bss_1040cc - *(int *)bss_1040d0) << 0x3);
+	local_44 = ((bss_1040cc - bss_1040d0) << 0x3);
 	if (*(int *)((0x6b4 * bss_c2310) + 0xe8c68) != 0x1) goto jmp_6cc9;
 	local_30 = 0x3f800000;
 	local_34 = 0x0;
@@ -9506,7 +9657,7 @@ jmp_6d2d:
 	CG_DrawStringExt();
 	local_2c = (local_2c - 0x1);
 jmp_6d64:
-	if (local_2c >= *(int *)bss_1040d0) goto jmp_6d2d;
+	if (local_2c >= bss_1040d0) goto jmp_6d2d;
 jmp_6d69:
 }
 
@@ -9559,7 +9710,7 @@ void CG_DrawReward(void) {
 	int		local_68;
 	int		local_6c;
 
-	if (*(int *)bss_bfb8 != 0x0) goto jmp_6d9e;
+	if (bss_bfb8 != 0x0) goto jmp_6d9e;
 	goto jmp_6ebe;
 jmp_6d9e:
 	local_60 = CG_FadeColor(bss_dea08, 0xbb8);
@@ -9583,10 +9734,10 @@ jmp_6dee:
 	*(int *)local_64 = (*(int *)local_64 - 0x1);
 	local_68 = CG_FadeColor(bss_dea08, 0xbb8);
 	local_3c = local_68;
-	trap_S_StartLocalSound(*(int *)bss_dea5c, 0x7);
+	trap_S_StartLocalSound(bss_dea5c, 0x7);
 jmp_6e17:
 	trap_R_SetColor(local_3c);
-	if (*(int *)bss_dea0c < 0xa) goto jmp_6e7c;
+	if (bss_dea0c < 0xa) goto jmp_6e7c;
 	local_34 = 0x42600000;
 	local_30 = 0x43940000;
 #define next_call_arg_0 "local_30"
@@ -9594,9 +9745,9 @@ jmp_6e17:
 	local_64 = 0x42300000;
 #define next_call_arg_2 "local_64"
 #define next_call_arg_3 "local_64"
-#define next_call_arg_4 "*(int *)bss_dea34"
+#define next_call_arg_4 "bss_dea34"
 	CG_DrawPic();
-	Com_sprintf(local_40, 0x20, 0x5462, *(int *)bss_dea0c);
+	Com_sprintf(local_40, 0x20, 0x5462, bss_dea0c);
 	local_68 = CG_DrawStrlen(local_40);
 	local_30 = (float)((0x280 - (local_68 << 0x3)) / 0x2);
 #define next_call_arg_0 "(int)local_30"
@@ -9612,7 +9763,7 @@ jmp_6e17:
 	CG_DrawStringExt();
 	goto jmp_6eb9;
 jmp_6e7c:
-	local_38 = *(int *)bss_dea0c;
+	local_38 = bss_dea0c;
 	local_34 = 0x42600000;
 	local_30 = (float)(0x140 - ((0x30 * local_38) / 0x2));
 	local_2c = 0x0;
@@ -9623,7 +9774,7 @@ jmp_6e93:
 	local_64 = 0x42300000;
 #define next_call_arg_2 "local_64"
 #define next_call_arg_3 "local_64"
-#define next_call_arg_4 "*(int *)bss_dea34"
+#define next_call_arg_4 "bss_dea34"
 	CG_DrawPic();
 	local_30 = (local_30 + 0x42400000);
 	local_2c = (local_2c + 0x1);
@@ -9648,7 +9799,7 @@ void CG_AddLagometerFrameInfo(void) {
 	int		local_c;
 
 	local_8 = (bss_dc760 - bss_c232c);
-	*(int *)(((*(int *)bss_104794 & 0x7f) << 0x2) + 0x104594) = local_8;
+	*(int *)(((bss_104794 & 0x7f) << 0x2) + 0x104594) = local_8;
 	local_c = 0x104794;
 	*(int *)local_c = (*(int *)local_c + 0x1);
 }
@@ -9762,7 +9913,7 @@ void CG_DrawLagometer(void) {
 	int		local_74;
 
 	local_60 = 0x0;
-	if (*(int *)bss_9758 == local_60) goto jmp_6fab;
+	if (bss_9758 == local_60) goto jmp_6fab;
 	if (bss_e66f4 == local_60) goto jmp_6fb0;
 jmp_6fab:
 	CG_DrawDisconnect();
@@ -9791,7 +9942,7 @@ jmp_6fb0:
 	local_30 = 0x0;
 	goto jmp_70b9;
 jmp_700d:
-	local_34 = (((*(int *)bss_104794 - 0x1) - local_30) & 0x7f);
+	local_34 = (((bss_104794 - 0x1) - local_30) & 0x7f);
 	local_2c = (float)*(int *)((local_34 << 0x2) + 0x104594);
 	local_2c = (local_2c * local_48);
 	if (local_2c <= 0x0) goto jmp_706e;
@@ -9896,8 +10047,8 @@ jmp_7190:
 	if ((float)local_30 < local_38) goto jmp_70d0;
 	trap_R_SetColor(0x0);
 	local_70 = 0x0;
-	if (*(int *)bss_afc8 != local_70) goto jmp_71a8;
-	if (*(int *)bss_9538 == local_70) goto jmp_71b5;
+	if (bss_afc8 != local_70) goto jmp_71a8;
+	if (bss_9538 == local_70) goto jmp_71b5;
 jmp_71a8:
 	CG_DrawBigString(local_58, local_5c, 0x5438, 0x3f800000);
 jmp_71b5:
@@ -9921,7 +10072,7 @@ void CG_CenterPrint(int arg_0, int arg_1, int arg_2) {
 
 	Q_strncpyz(0xde5e4, arg_0, 0x400);
 	bss_de5d8 = bss_dc760;
-	*(int *)bss_de5e0 = arg_1;
+	bss_de5e0 = arg_1;
 	bss_de5dc = arg_2;
 	bss_de9e4 = 0x1;
 	local_14 = 0xde5e4;
@@ -9962,14 +10113,14 @@ void CG_DrawCenterString(void) {
 	if (bss_de5d8 != 0x0) goto jmp_71ff;
 	goto jmp_72cc;
 jmp_71ff:
-	local_44 = CG_FadeColor(bss_de5d8, (int)(0x447a0000 * *(int *)bss_d1c4));
+	local_44 = CG_FadeColor(bss_de5d8, (int)(0x447a0000 * bss_d1c4));
 	local_40 = local_44;
 	if (local_40 != 0x0) goto jmp_7216;
 	goto jmp_72cc;
 jmp_7216:
 	trap_R_SetColor(local_40);
 	local_2c = 0xde5e4;
-	local_34 = (*(int *)bss_de5e0 - ((bss_de9e4 << 0x4) / 0x2));
+	local_34 = (bss_de5e0 - ((bss_de9e4 << 0x4) / 0x2));
 	goto jmp_72c5;
 jmp_722c:
 	local_30 = 0x0;
@@ -10044,7 +10195,7 @@ void CG_DrawCrosshair(void) {
 	int		local_5c;
 	int		local_60;
 
-	if (*(int *)bss_c1d8 != 0x0) goto jmp_72d5;
+	if (bss_c1d8 != 0x0) goto jmp_72d5;
 	goto jmp_73aa;
 jmp_72d5:
 	if (*(int *)(bss_c2330 + 0x130) != 0x3) goto jmp_72de;
@@ -10053,14 +10204,14 @@ jmp_72de:
 	if (bss_dc778 == 0x0) goto jmp_72e4;
 	goto jmp_73aa;
 jmp_72e4:
-	if (*(int *)bss_b958 == 0x0) goto jmp_72f4;
+	if (bss_b958 == 0x0) goto jmp_72f4;
 	CG_ColorForHealth(local_48);
 	trap_R_SetColor(local_48);
 	goto jmp_72f9;
 jmp_72f4:
 	trap_R_SetColor(0x0);
 jmp_72f9:
-	*(int *)local_48 = *(int *)bss_ba64;
+	*(int *)local_48 = bss_ba64;
 	local_30 = *(int *)local_48;
 	local_2c = *(int *)local_48;
 	local_34 = (float)(bss_dc760 - bss_deaf0);
@@ -10071,10 +10222,10 @@ jmp_72f9:
 	local_2c = (local_2c * local_50);
 	local_30 = (local_30 * local_50);
 jmp_732f:
-	local_3c = (float)*(int *)bss_bc88;
-	local_40 = (float)*(int *)bss_bb78;
+	local_3c = (float)bss_bc88;
+	local_40 = (float)bss_bb78;
 	CG_AdjustFrom640(&local_3c, &local_40, &local_2c, &local_30);
-	local_38 = *(int *)bss_c1d8;
+	local_38 = bss_c1d8;
 	if (local_38 >= 0x0) goto jmp_734f;
 	local_38 = 0x0;
 jmp_734f:
@@ -10134,7 +10285,7 @@ void CG_DrawCrosshair3D(void) {
 	char	local_1a0[8];
 	int		local_1a8;
 
-	if (*(int *)bss_c1d8 != 0x0) goto jmp_73b3;
+	if (bss_c1d8 != 0x0) goto jmp_73b3;
 	goto jmp_74a7;
 jmp_73b3:
 	if (*(int *)(bss_c2330 + 0x130) != 0x3) goto jmp_73bc;
@@ -10143,14 +10294,14 @@ jmp_73bc:
 	if (bss_dc778 == 0x0) goto jmp_73c2;
 	goto jmp_74a7;
 jmp_73c2:
-	local_188 = *(int *)bss_ba64;
+	local_188 = bss_ba64;
 	local_138 = (float)(bss_dc760 - bss_deaf0);
 	if (local_138 <= 0x0) goto jmp_73e5;
 	if (local_138 >= 0x43480000) goto jmp_73e5;
 	local_138 = (local_138 / 0x43480000);
 	local_188 = (local_188 * (local_138 + 0x3f800000));
 jmp_73e5:
-	local_148 = *(int *)bss_c1d8;
+	local_148 = bss_c1d8;
 	if (local_148 >= 0x0) goto jmp_73f0;
 	local_148 = 0x0;
 jmp_73f0:
@@ -10258,10 +10409,10 @@ void CG_DrawCrosshairNames(void) {
 	int		local_24;
 	int		local_28;
 
-	if (*(int *)bss_c1d8 != 0x0) goto jmp_751f;
+	if (bss_c1d8 != 0x0) goto jmp_751f;
 	goto jmp_7579;
 jmp_751f:
-	if (*(int *)bss_c0c8 != 0x0) goto jmp_7525;
+	if (bss_c0c8 != 0x0) goto jmp_7525;
 	goto jmp_7579;
 jmp_7525:
 	if (bss_dc778 == 0x0) goto jmp_752b;
@@ -10322,8 +10473,8 @@ void CG_DrawVote(void) {
 	if (bss_e67d4 != 0x0) goto jmp_75b0;
 	goto jmp_75f2;
 jmp_75b0:
-	if (*(int *)bss_e67e0 == 0x0) goto jmp_75bf;
-	*(int *)bss_e67e0 = 0x0;
+	if (bss_e67e0 == 0x0) goto jmp_75bf;
+	bss_e67e0 = 0x0;
 	trap_S_StartLocalSound(bss_1043e4, 0x6);
 jmp_75bf:
 	local_1c = ((0x7530 - (bss_dc760 - bss_e67d4)) / 0x3e8);
@@ -10485,7 +10636,7 @@ void CG_DrawAmmoWarning(void) {
 	int		local_1c;
 	int		local_20;
 
-	if (*(int *)bss_c2e8 != 0x0) goto jmp_770f;
+	if (bss_c2e8 != 0x0) goto jmp_770f;
 	goto jmp_773f;
 jmp_770f:
 	if (bss_de9e8 != 0x0) goto jmp_7715;
@@ -10559,7 +10710,7 @@ jmp_77b1:
 jmp_77b9:
 	local_2c = (local_2c + 0x1);
 jmp_77bf:
-	if (local_2c < *(int *)bss_e6710) goto jmp_778a;
+	if (local_2c < bss_e6710) goto jmp_778a;
 	local_4c = 0x0;
 	if (local_40 == local_4c) goto jmp_7890;
 	if (local_44 == local_4c) goto jmp_7890;
@@ -10696,7 +10847,7 @@ void CG_Draw2D(int arg_0) {
 	if (bss_c2318 == 0x0) goto jmp_7946;
 	goto jmp_79cd;
 jmp_7946:
-	if (*(int *)bss_b738 != 0x0) goto jmp_794c;
+	if (bss_b738 != 0x0) goto jmp_794c;
 	goto jmp_79cd;
 jmp_794c:
 	if (*(int *)(bss_c2330 + 0x30) != 0x5) goto jmp_7958;
@@ -11304,7 +11455,7 @@ void CG_TileClear(void) {
 	char	local_40[20];
 
 	local_24 = bss_e66c4;
-	local_30 = *(int *)bss_e66c8;
+	local_30 = bss_e66c8;
 	*(int *)local_34 = 0x0;
 	if (bss_dccf4 != *(int *)local_34) goto jmp_7ebb;
 	if (bss_dccf8 != *(int *)local_34) goto jmp_7ebb;
@@ -11794,7 +11945,7 @@ void CG_BubbleTrail(int arg_0, int arg_1, int arg_2) {
 	arg_0 = arg_0;
 	arg_1 = arg_1;
 	arg_2 = arg_2;
-	if (*(int *)bss_7dd8 == 0x0) goto jmp_8470;
+	if (bss_7dd8 == 0x0) goto jmp_8470;
 	goto jmp_85f9;
 jmp_8470:
 	block_copy(arg_0, &local_c, 0xc);
@@ -11908,7 +12059,7 @@ jmp_8689:
 	block_copy(arg_0, (local_c + 0x2c), 0xc);
 	block_copy(arg_0, (local_10 + 0x44), 0xc);
 	*(int *)(local_10 + 0x70) = arg_11;
-	if (*(int *)bss_e66b4 != 0x3) goto jmp_86f3;
+	if (bss_e66b4 != 0x3) goto jmp_86f3;
 	*(int *)(local_10 + 0x70) = bss_104234;
 	*(char *)(local_10 + 0x74) = 0xff;
 	*(char *)(local_10 + 0x75) = 0xff;
@@ -12015,7 +12166,7 @@ void CG_ScorePlum(int arg_0, int arg_1, int arg_2) {
 
 	arg_1 = arg_1;
 	if (arg_0 != bss_dc80c) goto jmp_882d;
-	if (*(int *)bss_8878 != 0x0) goto jmp_882f;
+	if (bss_8878 != 0x0) goto jmp_882f;
 jmp_882d:
 	goto jmp_88ee;
 jmp_882f:
@@ -12143,7 +12294,7 @@ void CG_Bleed(int arg_0, int arg_1) {
 	int		local_14;
 	int		local_18;
 
-	if (*(int *)bss_8dc8 != 0x0) goto jmp_8a02;
+	if (bss_8dc8 != 0x0) goto jmp_8a02;
 	goto jmp_8a61;
 jmp_8a02:
 	*(int *)local_c = CG_AllocLocalEntity();
@@ -12246,7 +12397,7 @@ void CG_GibPlayer(int arg_0) {
 	int		local_a4;
 
 	arg_0 = arg_0;
-	if (*(int *)bss_8dc8 != 0x0) goto jmp_8aed;
+	if (bss_8dc8 != 0x0) goto jmp_8aed;
 	goto jmp_8de3;
 jmp_8aed:
 	block_copy(arg_0, local_20, 0xc);
@@ -12263,7 +12414,7 @@ jmp_8aed:
 jmp_8b42:
 	CG_LaunchGib(local_20, &local_14, bss_1041c8);
 jmp_8b4c:
-	if (*(int *)bss_c948 != 0x0) goto jmp_8b52;
+	if (bss_c948 != 0x0) goto jmp_8b52;
 	goto jmp_8de3;
 jmp_8b52:
 	block_copy(arg_0, local_20, 0xc);
@@ -12409,7 +12560,7 @@ void CG_BigExplode(int arg_0) {
 	int		local_6c;
 
 	arg_0 = arg_0;
-	if (*(int *)bss_8dc8 != 0x0) goto jmp_8e6f;
+	if (bss_8dc8 != 0x0) goto jmp_8e6f;
 	goto jmp_8ff2;
 jmp_8e6f:
 	block_copy(arg_0, local_20, 0xc);
@@ -12750,7 +12901,7 @@ void CG_Item(int arg_0) {
 
 	arg_0 = arg_0;
 	local_ac = arg_0;
-	if (*(int *)(local_ac + 0xa0) < *(int *)bg_numItems) goto jmp_9364;
+	if (*(int *)(local_ac + 0xa0) < bg_numItems) goto jmp_9364;
 	CG_Error(0x5510, *(int *)(local_ac + 0xa0));
 jmp_9364:
 	*(int *)local_c0 = 0x0;
@@ -12760,7 +12911,7 @@ jmp_9379:
 	goto jmp_96b7;
 jmp_937b:
 	local_a4 = ((0x34 * *(int *)(local_ac + 0xa0)) + 0x58c);
-	if (*(int *)bss_9db8 == 0x0) goto jmp_93c5;
+	if (bss_9db8 == 0x0) goto jmp_93c5;
 	if (*(int *)(local_a4 + 0x24) == 0x8) goto jmp_93c5;
 	memset(&local_18, 0x0, 0x8c);
 	local_18 = 0x2;
@@ -12865,7 +13016,7 @@ jmp_95b8:
 	*(int *)local_120 = local_58;
 	trap_R_AddRefEntityToScene(&local_e0);
 jmp_9617:
-	if (*(int *)bss_9db8 != 0x0) goto jmp_96b7;
+	if (bss_9db8 != 0x0) goto jmp_96b7;
 	local_ec = 0x0;
 	local_e8 = local_ec;
 	local_e4 = local_ec;
@@ -13319,18 +13470,18 @@ void CG_InterpolateEntityPosition(int arg_0) {
 	int		local_3c;
 
 	arg_0 = arg_0;
-	if (*(int *)bss_c2334 != 0x0) goto jmp_9b94;
+	if (bss_c2334 != 0x0) goto jmp_9b94;
 	CG_Error(0x54d4);
 jmp_9b94:
 	local_2c = bss_dc750;
 	BG_EvaluateTrajectory((arg_0 + 0xc), *(int *)(bss_c2330 + 0x8), &local_14);
-	BG_EvaluateTrajectory((arg_0 + 0xdc), *(int *)(*(int *)bss_c2334 + 0x8), &local_20);
+	BG_EvaluateTrajectory((arg_0 + 0xdc), *(int *)(bss_c2334 + 0x8), &local_20);
 	local_30 = local_14;
 	*(int *)(arg_0 + 0x2b4) = (local_30 + (local_2c * (local_20 - local_30)));
 	*(int *)(arg_0 + 0x2b8) = (local_18 + (local_2c * (local_24 - local_18)));
 	*(int *)(arg_0 + 0x2bc) = (local_1c + (local_2c * (local_28 - local_1c)));
 	BG_EvaluateTrajectory((arg_0 + 0x30), *(int *)(bss_c2330 + 0x8), &local_14);
-	BG_EvaluateTrajectory((arg_0 + 0x100), *(int *)(*(int *)bss_c2334 + 0x8), &local_20);
+	BG_EvaluateTrajectory((arg_0 + 0x100), *(int *)(bss_c2334 + 0x8), &local_20);
 	local_34 = LerpAngle(local_14, local_20, local_2c);
 	*(int *)(arg_0 + 0x2c0) = local_34;
 	local_38 = LerpAngle(local_18, local_24, local_2c);
@@ -13354,7 +13505,7 @@ void CG_CalcEntityLerpPositions(int arg_0) {
 	int		local_3c;
 
 	arg_0 = arg_0;
-	if (*(int *)bss_8768 != 0x0) goto jmp_9c64;
+	if (bss_8768 != 0x0) goto jmp_9c64;
 	if (*(int *)arg_0 >= 0x40) goto jmp_9c64;
 	*(int *)(arg_0 + 0xc) = 0x1;
 	*(int *)(arg_0 + 0xdc) = 0x1;
@@ -13488,9 +13639,9 @@ void CG_AddPacketEntities(void) {
 	int		local_20;
 	int		local_24;
 
-	if (*(int *)bss_c2334 == 0x0) goto jmp_9df0;
+	if (bss_c2334 == 0x0) goto jmp_9df0;
 	local_24 = 0x8;
-	local_20 = (*(int *)(*(int *)bss_c2334 + local_24) - *(int *)(bss_c2330 + local_24));
+	local_20 = (*(int *)(bss_c2334 + local_24) - *(int *)(bss_c2330 + local_24));
 	if (local_20 != 0x0) goto jmp_9ddf;
 	bss_dc750 = 0x0;
 	goto jmp_9df3;
@@ -13874,9 +14025,9 @@ void CG_ItemPickup(int arg_0) {
 	bss_deaec = bss_dc760;
 	bss_deaf0 = bss_dc760;
 	if (*(int *)((0x34 * arg_0) + 0x5b0) != 0x1) goto jmp_a24f;
-	if (*(int *)bss_9fd8 == 0x0) goto jmp_a24f;
+	if (bss_9fd8 == 0x0) goto jmp_a24f;
 	if (*(int *)((0x34 * arg_0) + 0x5b4) == 0x2) goto jmp_a24f;
-	*(int *)bss_deaf4 = bss_dc760;
+	bss_deaf4 = bss_dc760;
 	bss_dcc90 = *(int *)((0x34 * arg_0) + 0x5b4);
 jmp_a24f:
 }
@@ -14032,11 +14183,11 @@ void CG_EntityEvent(int arg_0, int arg_1) {
 	arg_0 = arg_0;
 	local_38 = arg_0;
 	local_40 = (*(int *)(local_38 + 0xb4) & 0xfffffcff);
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a3bf;
+	if (bss_b2f8 == 0x0) goto jmp_a3bf;
 	CG_Printf(0x5959, *(int *)local_38, local_40);
 jmp_a3bf:
 	if (local_40 != 0x0) goto jmp_a3ce;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_ae93;
+	if (bss_b2f8 == 0x0) goto jmp_ae93;
 	CG_Printf(0x594e);
 	goto jmp_ae93;
 jmp_a3ce:
@@ -14050,50 +14201,50 @@ jmp_a3e0:
 	if (local_40 < 0x1) goto jmp_ae82;
 	if (local_40 > 0x4c) goto jmp_ae82;
 	goto *(int *)((local_40 << 0x2) + 0x18e0);
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a401;
+	if (bss_b2f8 == 0x0) goto jmp_a401;
 	CG_Printf(0x5941);
 jmp_a401:
-	if (*(int *)bss_ac98 == 0x0) goto jmp_ae93;
+	if (bss_ac98 == 0x0) goto jmp_ae93;
 	local_60 = rand();
 	trap_S_StartSound(0x0, *(int *)local_38, 0x5, *(int *)(((local_60 & 0x3) << 0x2) + ((*(int *)(local_44 + 0x204) << 0x4) + 0x104334)));
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a431;
+	if (bss_b2f8 == 0x0) goto jmp_a431;
 	CG_Printf(0x592e);
 jmp_a431:
-	if (*(int *)bss_ac98 == 0x0) goto jmp_ae93;
+	if (bss_ac98 == 0x0) goto jmp_ae93;
 	local_60 = rand();
 	trap_S_StartSound(0x0, *(int *)local_38, 0x5, *(int *)(((local_60 & 0x3) << 0x2) + 0x104384));
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a459;
+	if (bss_b2f8 == 0x0) goto jmp_a459;
 	CG_Printf(0x591f);
 jmp_a459:
-	if (*(int *)bss_ac98 == 0x0) goto jmp_ae93;
+	if (bss_ac98 == 0x0) goto jmp_ae93;
 	local_60 = rand();
 	trap_S_StartSound(0x0, *(int *)local_38, 0x5, *(int *)(((local_60 & 0x3) << 0x2) + 0x104394));
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a481;
+	if (bss_b2f8 == 0x0) goto jmp_a481;
 	CG_Printf(0x5912);
 jmp_a481:
-	if (*(int *)bss_ac98 == 0x0) goto jmp_ae93;
+	if (bss_ac98 == 0x0) goto jmp_ae93;
 	local_60 = rand();
 	trap_S_StartSound(0x0, *(int *)local_38, 0x5, *(int *)(((local_60 & 0x3) << 0x2) + 0x104394));
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a4a9;
+	if (bss_b2f8 == 0x0) goto jmp_a4a9;
 	CG_Printf(0x5909);
 jmp_a4a9:
-	if (*(int *)bss_ac98 == 0x0) goto jmp_ae93;
+	if (bss_ac98 == 0x0) goto jmp_ae93;
 	local_60 = rand();
 	trap_S_StartSound(0x0, *(int *)local_38, 0x5, *(int *)(((local_60 & 0x3) << 0x2) + 0x104394));
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a4d1;
+	if (bss_b2f8 == 0x0) goto jmp_a4d1;
 	CG_Printf(0x58fa);
 jmp_a4d1:
-	trap_S_StartSound(0x0, *(int *)local_38, 0x0, *(int *)bss_1043e8);
+	trap_S_StartSound(0x0, *(int *)local_38, 0x0, bss_1043e8);
 	if (local_3c != bss_dc80c) goto jmp_ae93;
 	bss_dcc88 = 0xc1000000;
 	bss_dcc8c = bss_dc760;
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a4f6;
+	if (bss_b2f8 == 0x0) goto jmp_a4f6;
 	CG_Printf(0x58ea);
 jmp_a4f6:
 	local_60 = CG_CustomSound(*(int *)local_38, 0x599b);
@@ -14102,7 +14253,7 @@ jmp_a4f6:
 	bss_dcc88 = 0xc1800000;
 	bss_dcc8c = bss_dc760;
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a525;
+	if (bss_b2f8 == 0x0) goto jmp_a525;
 	CG_Printf(0x58dd);
 jmp_a525:
 	local_64 = CG_CustomSound(*(int *)local_38, 0x58d2);
@@ -14112,7 +14263,7 @@ jmp_a525:
 	bss_dcc88 = 0xc1c00000;
 	bss_dcc8c = bss_dc760;
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a55b;
+	if (bss_b2f8 == 0x0) goto jmp_a55b;
 	CG_Printf(0x58c9);
 jmp_a55b:
 	if (local_3c == bss_dc80c) goto jmp_a562;
@@ -14121,8 +14272,8 @@ jmp_a562:
 	local_74 = 0x0;
 	if (bss_c2314 != local_74) goto jmp_a57e;
 	if ((*(int *)(bss_c2330 + 0x38) & 0x1000) != local_74) goto jmp_a57e;
-	if (*(int *)bss_afc8 != local_74) goto jmp_a57e;
-	if (*(int *)bss_9538 == local_74) goto jmp_a580;
+	if (bss_afc8 != local_74) goto jmp_a57e;
+	if (bss_9538 == local_74) goto jmp_a580;
 jmp_a57e:
 	goto jmp_ae93;
 jmp_a580:
@@ -14140,7 +14291,7 @@ jmp_a59c:
 jmp_a5b5:
 	bss_dcc7c = bss_dc760;
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a5c4;
+	if (bss_b2f8 == 0x0) goto jmp_a5c4;
 	CG_Printf(0x58bc);
 jmp_a5c4:
 	block_copy(global_18d8, &local_68, 0xc);
@@ -14162,46 +14313,46 @@ jmp_a5c4:
 	local_68 = CG_CustomSound(*(int *)local_38, 0x58b1);
 	trap_S_StartSound(0x0, *(int *)local_38, 0x3, local_68);
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a61f;
+	if (bss_b2f8 == 0x0) goto jmp_a61f;
 	CG_Printf(0x58a8);
 jmp_a61f:
 	local_6c = CG_CustomSound(*(int *)local_38, 0x58b1);
 	trap_S_StartSound(0x0, *(int *)local_38, 0x3, local_6c);
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a642;
+	if (bss_b2f8 == 0x0) goto jmp_a642;
 	CG_Printf(0x589e);
 jmp_a642:
 	local_70 = CG_CustomSound(*(int *)local_38, 0x5893);
 	trap_S_StartSound(0x0, *(int *)local_38, 0x3, local_70);
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a665;
+	if (bss_b2f8 == 0x0) goto jmp_a665;
 	CG_Printf(0x5883);
 jmp_a665:
 	trap_S_StartSound(0x0, *(int *)local_38, 0x0, bss_104458);
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a67e;
+	if (bss_b2f8 == 0x0) goto jmp_a67e;
 	CG_Printf(0x5873);
 jmp_a67e:
 	trap_S_StartSound(0x0, *(int *)local_38, 0x0, bss_10445c);
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a697;
+	if (bss_b2f8 == 0x0) goto jmp_a697;
 	CG_Printf(0x5863);
 jmp_a697:
 	trap_S_StartSound(0x0, *(int *)local_38, 0x0, bss_104460);
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a6b0;
+	if (bss_b2f8 == 0x0) goto jmp_a6b0;
 	CG_Printf(0x5853);
 jmp_a6b0:
 	local_74 = CG_CustomSound(*(int *)local_38, 0x5849);
 	trap_S_StartSound(0x0, *(int *)local_38, 0x0, local_74);
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a6d3;
+	if (bss_b2f8 == 0x0) goto jmp_a6d3;
 	CG_Printf(0x5839);
 jmp_a6d3:
 	local_78 = *(int *)(local_38 + 0xb8);
 	local_80 = local_78;
 	if (local_80 < 0x1) goto jmp_a6e7;
-	if (local_80 < *(int *)bg_numItems) goto jmp_a6e9;
+	if (local_80 < bg_numItems) goto jmp_a6e9;
 jmp_a6e7:
 	goto jmp_ae93;
 jmp_a6e9:
@@ -14222,13 +14373,13 @@ jmp_a733:
 	if (*(int *)local_38 != *(int *)(bss_c2330 + 0xb8)) goto jmp_ae93;
 	CG_ItemPickup(local_78);
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a74d;
+	if (bss_b2f8 == 0x0) goto jmp_a74d;
 	CG_Printf(0x5822);
 jmp_a74d:
 	local_78 = *(int *)(local_38 + 0xb8);
 	local_80 = local_78;
 	if (local_80 < 0x1) goto jmp_a761;
-	if (local_80 < *(int *)bg_numItems) goto jmp_a763;
+	if (local_80 < bg_numItems) goto jmp_a763;
 jmp_a761:
 	goto jmp_ae93;
 jmp_a763:
@@ -14240,126 +14391,126 @@ jmp_a78e:
 	if (*(int *)local_38 != *(int *)(bss_c2330 + 0xb8)) goto jmp_ae93;
 	CG_ItemPickup(local_78);
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a7a8;
+	if (bss_b2f8 == 0x0) goto jmp_a7a8;
 	CG_Printf(0x5817);
 jmp_a7a8:
 	if (*(int *)local_38 != *(int *)(bss_c2330 + 0xb8)) goto jmp_ae93;
 	CG_OutOfAmmoChange();
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a7bf;
+	if (bss_b2f8 == 0x0) goto jmp_a7bf;
 	CG_Printf(0x5805);
 jmp_a7bf:
 	trap_S_StartSound(0x0, *(int *)local_38, 0x0, bss_104328);
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a7d8;
+	if (bss_b2f8 == 0x0) goto jmp_a7d8;
 	CG_Printf(0x57f5);
 jmp_a7d8:
 	CG_FireWeapon(arg_0);
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a7e9;
+	if (bss_b2f8 == 0x0) goto jmp_a7e9;
 	CG_Printf(0x57e7);
 jmp_a7e9:
 	CG_UseItem(arg_0);
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a7fa;
+	if (bss_b2f8 == 0x0) goto jmp_a7fa;
 	CG_Printf(0x57d9);
 jmp_a7fa:
 	CG_UseItem(arg_0);
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a80b;
+	if (bss_b2f8 == 0x0) goto jmp_a80b;
 	CG_Printf(0x57cb);
 jmp_a80b:
 	CG_UseItem(arg_0);
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a81c;
+	if (bss_b2f8 == 0x0) goto jmp_a81c;
 	CG_Printf(0x57bd);
 jmp_a81c:
 	CG_UseItem(arg_0);
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a82d;
+	if (bss_b2f8 == 0x0) goto jmp_a82d;
 	CG_Printf(0x57af);
 jmp_a82d:
 	CG_UseItem(arg_0);
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a83e;
+	if (bss_b2f8 == 0x0) goto jmp_a83e;
 	CG_Printf(0x57a1);
 jmp_a83e:
 	CG_UseItem(arg_0);
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a84f;
+	if (bss_b2f8 == 0x0) goto jmp_a84f;
 	CG_Printf(0x5793);
 jmp_a84f:
 	CG_UseItem(arg_0);
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a860;
+	if (bss_b2f8 == 0x0) goto jmp_a860;
 	CG_Printf(0x5785);
 jmp_a860:
 	CG_UseItem(arg_0);
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a871;
+	if (bss_b2f8 == 0x0) goto jmp_a871;
 	CG_Printf(0x5777);
 jmp_a871:
 	CG_UseItem(arg_0);
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a882;
+	if (bss_b2f8 == 0x0) goto jmp_a882;
 	CG_Printf(0x5769);
 jmp_a882:
 	CG_UseItem(arg_0);
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a893;
+	if (bss_b2f8 == 0x0) goto jmp_a893;
 	CG_Printf(0x575a);
 jmp_a893:
 	CG_UseItem(arg_0);
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a8a4;
+	if (bss_b2f8 == 0x0) goto jmp_a8a4;
 	CG_Printf(0x574b);
 jmp_a8a4:
 	CG_UseItem(arg_0);
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a8b5;
+	if (bss_b2f8 == 0x0) goto jmp_a8b5;
 	CG_Printf(0x573c);
 jmp_a8b5:
 	CG_UseItem(arg_0);
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a8c6;
+	if (bss_b2f8 == 0x0) goto jmp_a8c6;
 	CG_Printf(0x572d);
 jmp_a8c6:
 	CG_UseItem(arg_0);
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a8d7;
+	if (bss_b2f8 == 0x0) goto jmp_a8d7;
 	CG_Printf(0x571e);
 jmp_a8d7:
 	CG_UseItem(arg_0);
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a8e8;
+	if (bss_b2f8 == 0x0) goto jmp_a8e8;
 	CG_Printf(0x570f);
 jmp_a8e8:
 	CG_UseItem(arg_0);
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a8f9;
+	if (bss_b2f8 == 0x0) goto jmp_a8f9;
 	CG_Printf(0x56f8);
 jmp_a8f9:
 	trap_S_StartSound(0x0, *(int *)local_38, 0x0, bss_1043d4);
 	CG_SpawnEffect(arg_1);
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a918;
+	if (bss_b2f8 == 0x0) goto jmp_a918;
 	CG_Printf(0x56e0);
 jmp_a918:
 	trap_S_StartSound(0x0, *(int *)local_38, 0x0, bss_1043d8);
 	CG_SpawnEffect(arg_1);
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a937;
+	if (bss_b2f8 == 0x0) goto jmp_a937;
 	CG_Printf(0x56d3);
 jmp_a937:
 	trap_S_StartSound(0x0, *(int *)local_38, 0x0, bss_1043e0);
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a950;
+	if (bss_b2f8 == 0x0) goto jmp_a950;
 	CG_Printf(0x56c2);
 jmp_a950:
 	*(int *)(arg_0 + 0x1bc) = bss_dc760;
 	trap_S_StartSound(0x0, *(int *)local_38, 0x0, bss_1043e0);
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a970;
+	if (bss_b2f8 == 0x0) goto jmp_a970;
 	CG_Printf(0x56af);
 jmp_a970:
 	local_78 = rand();
@@ -14367,20 +14518,20 @@ jmp_a970:
 	trap_S_StartSound(0x0, *(int *)local_38, 0x0, bss_1044d4);
 	goto jmp_ae93;
 jmp_a98a:
-	trap_S_StartSound(0x0, *(int *)local_38, 0x0, *(int *)bss_1044d8);
+	trap_S_StartSound(0x0, *(int *)local_38, 0x0, bss_1044d8);
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a9a3;
+	if (bss_b2f8 == 0x0) goto jmp_a9a3;
 	CG_Printf(0x56a1);
 jmp_a9a3:
 	CG_ScorePlum(*(int *)(arg_0 + 0x8c), (arg_0 + 0x2b4), *(int *)(arg_0 + 0x54));
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a9c2;
+	if (bss_b2f8 == 0x0) goto jmp_a9c2;
 	CG_Printf(0x5691);
 jmp_a9c2:
 	ByteToDir(*(int *)(local_38 + 0xb8), local_48);
 	CG_MissileHitPlayer(*(int *)(local_38 + 0xc0), arg_1, local_48, *(int *)(local_38 + 0x8c));
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_a9ec;
+	if (bss_b2f8 == 0x0) goto jmp_a9ec;
 	CG_Printf(0x5680);
 jmp_a9ec:
 	ByteToDir(*(int *)(local_38 + 0xb8), local_48);
@@ -14392,19 +14543,19 @@ jmp_a9ec:
 #define next_call_arg_4 "local_84"
 	CG_MissileHitWall();
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_aa19;
+	if (bss_b2f8 == 0x0) goto jmp_aa19;
 	CG_Printf(0x5669);
 jmp_aa19:
 	ByteToDir(*(int *)(local_38 + 0xb8), local_48);
 	CG_MissileHitWall(*(int *)(local_38 + 0xc0), 0x0, arg_1, local_48, 0x1);
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_aa41;
+	if (bss_b2f8 == 0x0) goto jmp_aa41;
 	CG_Printf(0x565b);
 jmp_aa41:
 	*(int *)(arg_0 + 0xc0) = 0x7;
 	if (*(int *)(local_38 + 0xa8) != *(int *)(bss_c2330 + 0xb8)) goto jmp_aac6;
 	if (bss_dc778 != 0x0) goto jmp_aac6;
-	if (*(int *)bss_a528 != 0x2) goto jmp_aa8f;
+	if (bss_a528 != 0x2) goto jmp_aa8f;
 	local_88 = (local_38 + 0x68);
 	*(int *)local_88 = (*(int *)local_88 + (0x41000000 * bss_dcd24));
 	local_8c = (local_38 + 0x6c);
@@ -14413,7 +14564,7 @@ jmp_aa41:
 	*(int *)local_90 = (*(int *)local_90 + (0x41000000 * bss_dcd2c));
 	goto jmp_aac6;
 jmp_aa8f:
-	if (*(int *)bss_a528 != 0x3) goto jmp_aac6;
+	if (bss_a528 != 0x3) goto jmp_aac6;
 	local_94 = (local_38 + 0x68);
 	*(int *)local_94 = (*(int *)local_94 + (0x40800000 * bss_dcd24));
 	local_98 = (local_38 + 0x6c);
@@ -14426,23 +14577,23 @@ jmp_aac6:
 	ByteToDir(*(int *)(local_38 + 0xb8), local_48);
 	CG_MissileHitWall(*(int *)(local_38 + 0xc0), *(int *)(local_38 + 0xa8), arg_1, local_48, 0x0);
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_ab09;
+	if (bss_b2f8 == 0x0) goto jmp_ab09;
 	CG_Printf(0x5647);
 jmp_ab09:
 	ByteToDir(*(int *)(local_38 + 0xb8), local_48);
 	CG_Bullet((local_38 + 0x18), *(int *)(local_38 + 0x8c), local_48, 0x0, 0x3fe);
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_ab33;
+	if (bss_b2f8 == 0x0) goto jmp_ab33;
 	CG_Printf(0x5632);
 jmp_ab33:
 	CG_Bullet((local_38 + 0x18), *(int *)(local_38 + 0x8c), local_48, 0x1, *(int *)(local_38 + 0xb8));
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_ab56;
+	if (bss_b2f8 == 0x0) goto jmp_ab56;
 	CG_Printf(0x5626);
 jmp_ab56:
 	CG_ShotgunFire(local_38);
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_ab67;
+	if (bss_b2f8 == 0x0) goto jmp_ab67;
 	CG_Printf(0x5614);
 jmp_ab67:
 	if (*(int *)((*(int *)(local_38 + 0xb8) << 0x2) + 0xe7820) == 0x0) goto jmp_ab8b;
@@ -14454,7 +14605,7 @@ jmp_ab8b:
 	local_98 = CG_CustomSound(*(int *)local_38, *(int *)local_54);
 	trap_S_StartSound(0x0, *(int *)local_38, 0x3, local_98);
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_abbf;
+	if (bss_b2f8 == 0x0) goto jmp_abbf;
 	CG_Printf(0x5603);
 jmp_abbf:
 	if (*(int *)((*(int *)(local_38 + 0xb8) << 0x2) + 0xe7820) == 0x0) goto jmp_abea;
@@ -14471,7 +14622,7 @@ jmp_abea:
 	local_98 = CG_CustomSound(*(int *)local_38, *(int *)local_54);
 	trap_S_StartSound(0x0, *(int *)(bss_c2330 + 0xb8), 0x0, local_98);
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_ac20;
+	if (bss_b2f8 == 0x0) goto jmp_ac20;
 	CG_Printf(0x55ed);
 jmp_ac20:
 	local_94 = *(int *)(local_38 + 0xb8);
@@ -14542,13 +14693,13 @@ jmp_acf6:
 	goto jmp_ae93;
 	CG_AddBufferedSound(bss_104480);
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_ad36;
+	if (bss_b2f8 == 0x0) goto jmp_ad36;
 	CG_Printf(0x55e4);
 jmp_ad36:
 	if (*(int *)arg_0 == *(int *)(bss_c2330 + 0xb8)) goto jmp_ae93;
 	CG_PainEvent(arg_0, *(int *)(local_38 + 0xb8));
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_ad56;
+	if (bss_b2f8 == 0x0) goto jmp_ad56;
 	CG_Printf(0x55d9);
 jmp_ad56:
 	local_94 = CG_WaterLevel(arg_0);
@@ -14561,12 +14712,12 @@ jmp_ad7b:
 	local_9c = CG_CustomSound(*(int *)local_38, local_98);
 	trap_S_StartSound(0x0, *(int *)local_38, 0x3, local_9c);
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_adac;
+	if (bss_b2f8 == 0x0) goto jmp_adac;
 	CG_Printf(0x55b4);
 jmp_adac:
 	CG_Obituary(local_38);
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_adbd;
+	if (bss_b2f8 == 0x0) goto jmp_adbd;
 	CG_Printf(0x55a3);
 jmp_adbd:
 	if (*(int *)local_38 != *(int *)(bss_c2330 + 0xb8)) goto jmp_adcd;
@@ -14575,7 +14726,7 @@ jmp_adbd:
 jmp_adcd:
 	trap_S_StartSound(0x0, *(int *)local_38, 0x4, bss_104320);
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_ade6;
+	if (bss_b2f8 == 0x0) goto jmp_ade6;
 	CG_Printf(0x558c);
 jmp_ade6:
 	if (*(int *)local_38 != *(int *)(bss_c2330 + 0xb8)) goto jmp_adf6;
@@ -14584,7 +14735,7 @@ jmp_ade6:
 jmp_adf6:
 	trap_S_StartSound(0x0, *(int *)local_38, 0x4, bss_1044cc);
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_ae0f;
+	if (bss_b2f8 == 0x0) goto jmp_ae0f;
 	CG_Printf(0x557a);
 jmp_ae0f:
 	if (*(int *)local_38 != *(int *)(bss_c2330 + 0xb8)) goto jmp_ae1f;
@@ -14593,7 +14744,7 @@ jmp_ae0f:
 jmp_ae1f:
 	trap_S_StartSound(0x0, *(int *)local_38, 0x4, bss_1044c8);
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_ae38;
+	if (bss_b2f8 == 0x0) goto jmp_ae38;
 	CG_Printf(0x556b);
 jmp_ae38:
 	if ((*(int *)(local_38 + 0x8) & 0x200) != 0x0) goto jmp_ae4f;
@@ -14601,19 +14752,19 @@ jmp_ae38:
 jmp_ae4f:
 	CG_GibPlayer((arg_0 + 0x2b4));
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_ae62;
+	if (bss_b2f8 == 0x0) goto jmp_ae62;
 	CG_Printf(0x5556);
 jmp_ae62:
 	trap_S_StopLoopingSound(*(int *)local_38);
 	*(int *)(local_38 + 0x9c) = 0x0;
 	goto jmp_ae93;
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_ae7a;
+	if (bss_b2f8 == 0x0) goto jmp_ae7a;
 	CG_Printf(0x5547);
 jmp_ae7a:
 	CG_Beam(arg_0);
 	goto jmp_ae93;
 jmp_ae82:
-	if (*(int *)bss_b2f8 == 0x0) goto jmp_ae8b;
+	if (bss_b2f8 == 0x0) goto jmp_ae8b;
 	CG_Printf(0x553e);
 jmp_ae8b:
 	CG_Error(0x552c, local_40);
@@ -14872,7 +15023,7 @@ jmp_b120:
 	local_460 = trap_R_RegisterShader(0x5e3e);
 	local_444 = local_460;
 	local_464 = 0x0;
-	trap_R_DrawStretchPic(local_464, local_464, (float)bss_e66c4, (float)*(int *)bss_e66c8, local_464, local_464, 0x40200000, 0x40000000, local_444);
+	trap_R_DrawStretchPic(local_464, local_464, (float)bss_e66c4, (float)bss_e66c8, local_464, local_464, 0x40200000, 0x40000000, local_444);
 	CG_DrawLoadingIcons();
 	if ((char)*(char *)bss_dce7c == 0x0) goto jmp_b183;
 	local_468 = va(0x5e30, 0xdce7c);
@@ -14978,7 +15129,7 @@ void CG_InitLocalEntities(void) {
 	int		local_1c;
 
 	memset(0x105154, 0x0, 0x24800);
-	*(int *)bss_105034 = 0x105030;
+	bss_105034 = 0x105030;
 	local_18 = 0x105030;
 	*(int *)local_18 = local_18;
 	cg_freeLocalEntities = 0x105154;
@@ -15037,10 +15188,10 @@ jmp_b3d1:
 	local_14 = local_1c;
 	*(int *)local_18 = *(int *)(local_1c + 0x4);
 	memset(local_14, 0x0, 0x124);
-	*(int *)(local_14 + 0x4) = *(int *)bss_105034;
+	*(int *)(local_14 + 0x4) = bss_105034;
 	*(int *)local_14 = 0x105030;
-	*(int *)*(int *)bss_105034 = local_14;
 	*(int *)bss_105034 = local_14;
+	bss_105034 = local_14;
 	return local_14;
 }
 
@@ -15084,7 +15235,7 @@ jmp_b42c:
 	local_5c = 0x0;
 #define next_call_arg_9 "local_5c"
 #define next_call_arg_10 "local_5c"
-#define next_call_arg_11 "*(int *)bss_104244"
+#define next_call_arg_11 "bss_104244"
 	local_60 = CG_SmokePuff();
 	local_3c = local_60;
 	*(int *)(local_3c + 0x8) = 0x5;
@@ -15848,7 +15999,7 @@ void CG_InitMarkPolys(void) {
 	int		local_1c;
 
 	memset(0x129a7c, 0x0, 0x12000);
-	*(int *)bss_129960 = 0x12995c;
+	bss_129960 = 0x12995c;
 	local_18 = 0x12995c;
 	*(int *)local_18 = local_18;
 	cg_freeMarkPolys = 0x129a7c;
@@ -15919,10 +16070,10 @@ jmp_bef9:
 	local_14 = local_20;
 	*(int *)local_1c = *(int *)(local_20 + 0x4);
 	memset(local_14, 0x0, 0x120);
-	*(int *)(local_14 + 0x4) = *(int *)bss_129960;
+	*(int *)(local_14 + 0x4) = bss_129960;
 	*(int *)local_14 = 0x12995c;
-	*(int *)*(int *)bss_129960 = local_14;
 	*(int *)bss_129960 = local_14;
+	bss_129960 = local_14;
 	return local_14;
 }
 
@@ -15995,7 +16146,7 @@ void CG_ImpactMark(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4, int ar
 	arg_8 = arg_8;
 	arg_9 = arg_9;
 	arg_10 = arg_10;
-	if (*(int *)bss_ab88 != 0x0) goto jmp_bf5f;
+	if (bss_ab88 != 0x0) goto jmp_bf5f;
 	goto jmp_c218;
 jmp_bf5f:
 	if (arg_9 > 0x0) goto jmp_bf68;
@@ -16141,10 +16292,10 @@ void CG_AddMarks(void) {
 	int		local_60;
 	int		local_64;
 
-	if (*(int *)bss_ab88 != 0x0) goto jmp_c221;
+	if (bss_ab88 != 0x0) goto jmp_c221;
 	goto jmp_c435;
 jmp_c221:
-	local_14 = *(int *)bss_129960;
+	local_14 = bss_129960;
 	goto jmp_c431;
 jmp_c227:
 	*(int *)local_24 = *(int *)(local_14 + 0x4);
@@ -16834,7 +16985,7 @@ jmp_cdb6:
 jmp_cdc2:
 	local_e4 = (0x3f800000 * *(int *)(arg_0 + 0x38));
 jmp_cdcb:
-	if (*(int *)bss_e66b4 != 0x3) goto jmp_cdd2;
+	if (bss_e66b4 != 0x3) goto jmp_cdd2;
 	local_e4 = 0x3f800000;
 jmp_cdd2:
 	if (local_e4 <= 0x3f800000) goto jmp_cdd9;
@@ -17094,7 +17245,7 @@ jmp_d35b:
 jmp_d361:
 	if (*(int *)(arg_0 + 0x40) != 0x8) goto jmp_d5e8;
 	local_128 = *(int *)(arg_0 + 0x38);
-	if (*(int *)bss_e66b4 != 0x3) goto jmp_d376;
+	if (bss_e66b4 != 0x3) goto jmp_d376;
 	local_128 = 0x3f800000;
 jmp_d376:
 	if (*(int *)(arg_0 + 0x74) == 0x0) goto jmp_d39c;
@@ -18007,7 +18158,7 @@ jmp_e3f8:
 	*(int *)(local_8 + 0x4c) = 0x3f000000;
 	*(int *)(local_8 + 0x50) = 0x3f000000;
 	*(int *)(local_8 + 0x54) = 0x3f000000;
-	*(int *)(local_8 + 0x44) = *(int *)bss_1041f8;
+	*(int *)(local_8 + 0x44) = bss_1041f8;
 	*(int *)(local_8 + 0x40) = 0x3;
 	block_copy(arg_0, (local_8 + 0xc), 0xc);
 	*(int *)(local_8 + 0x18) = *(int *)arg_1;
@@ -18857,7 +19008,7 @@ jmp_ef27:
 	*(int *)(local_8 + 0x4c) = 0x3f000000;
 	*(int *)(local_8 + 0x50) = 0x3f000000;
 	*(int *)(local_8 + 0x54) = 0x3f000000;
-	*(int *)(local_8 + 0x44) = *(int *)bss_1041f8;
+	*(int *)(local_8 + 0x44) = bss_1041f8;
 	*(int *)(local_8 + 0x40) = 0x3;
 	block_copy(arg_0, (local_8 + 0xc), 0xc);
 	local_18 = rand();
@@ -19842,7 +19993,7 @@ void CG_LoadClientInfo(int arg_0, int arg_1) {
 	local_28 = 0x1;
 	local_78 = CG_RegisterClientModelname(arg_1, (arg_1 + 0xa8), (arg_1 + 0xe8), (arg_1 + 0x128), (arg_1 + 0x168), local_34);
 	if (local_78 != 0x0) goto jmp_ffa2;
-	if (*(int *)bss_8fe8 == 0x0) goto jmp_ff2a;
+	if (bss_8fe8 == 0x0) goto jmp_ff2a;
 	CG_Error(0x62e2, (arg_1 + 0xa8), (arg_1 + 0xe8), (arg_1 + 0x128), (arg_1 + 0x168), local_34);
 jmp_ff2a:
 	if (bss_e66f8 < 0x3) goto jmp_ff79;
@@ -20053,7 +20204,7 @@ jmp_10230:
 jmp_10243:
 	local_14 = (local_14 + 0x1);
 jmp_10249:
-	if (local_14 < *(int *)bss_e6710) goto jmp_1017a;
+	if (local_14 < bss_e6710) goto jmp_1017a;
 	return 0x0;
 }
 
@@ -20106,7 +20257,7 @@ jmp_102bf:
 jmp_102ca:
 	*(int *)local_14 = (*(int *)local_14 + 0x1);
 jmp_102d0:
-	if (*(int *)local_14 < *(int *)bss_e6710) goto jmp_10260;
+	if (*(int *)local_14 < bss_e6710) goto jmp_10260;
 	if (bss_e66f8 < 0x3) goto jmp_1034d;
 	*(int *)local_14 = 0x0;
 	goto jmp_1033d;
@@ -20133,7 +20284,7 @@ jmp_10326:
 jmp_10337:
 	*(int *)local_14 = (*(int *)local_14 + 0x1);
 jmp_1033d:
-	if (*(int *)local_14 < *(int *)bss_e6710) goto jmp_102de;
+	if (*(int *)local_14 < bss_e6710) goto jmp_102de;
 	CG_LoadClientInfo(arg_0, arg_1);
 	goto jmp_1038b;
 jmp_1034d:
@@ -20150,7 +20301,7 @@ jmp_10361:
 jmp_10372:
 	*(int *)local_14 = (*(int *)local_14 + 0x1);
 jmp_10378:
-	if (*(int *)local_14 < *(int *)bss_e6710) goto jmp_10352;
+	if (*(int *)local_14 < bss_e6710) goto jmp_10352;
 	CG_Printf(0x6238);
 	CG_LoadClientInfo(arg_0, arg_1);
 jmp_1038b:
@@ -20362,7 +20513,7 @@ jmp_104d4:
 	Q_strncpyz(local_1dc, local_6c8, 0x20);
 	local_774 = Info_ValueForKey(local_6cc, 0x6200);
 	local_6c8 = local_774;
-	if (*(int *)bss_90f8 == 0x0) goto jmp_1063c;
+	if (bss_90f8 == 0x0) goto jmp_1063c;
 	if (bss_e66f8 < 0x3) goto jmp_105da;
 	Q_strncpyz(local_bc, 0x62dc, 0x40);
 	Q_strncpyz(local_fc, 0x66c0, 0x40);
@@ -20401,7 +20552,7 @@ jmp_10661:
 jmp_10671:
 	local_778 = Info_ValueForKey(local_6cc, 0x61f9);
 	local_6c8 = local_778;
-	if (*(int *)bss_90f8 == 0x0) goto jmp_106fc;
+	if (bss_90f8 == 0x0) goto jmp_106fc;
 	if (bss_e66f8 < 0x3) goto jmp_1069a;
 	Q_strncpyz(local_13c, 0x62dc, 0x40);
 	Q_strncpyz(local_17c, 0x66c0, 0x40);
@@ -20450,8 +20601,8 @@ jmp_1074b:
 	local_780 = local_784;
 	*(int *)local_78c = 0x0;
 	if (local_780 != *(int *)local_78c) goto jmp_10766;
-	if (*(int *)bss_8ba8 == *(int *)local_78c) goto jmp_1077c;
-	if (*(int *)bss_8fe8 != *(int *)local_78c) goto jmp_1077c;
+	if (bss_8ba8 == *(int *)local_78c) goto jmp_1077c;
+	if (bss_8fe8 != *(int *)local_78c) goto jmp_1077c;
 	if (bss_c2320 != *(int *)local_78c) goto jmp_1077c;
 jmp_10766:
 	CG_SetDeferredClientInfo(arg_0, &local_14);
@@ -20501,7 +20652,7 @@ jmp_107c5:
 	*(int *)local_14 = (*(int *)local_14 + 0x1);
 	local_10 = (local_10 + 0x6b4);
 jmp_107d1:
-	if (*(int *)local_14 < *(int *)bss_e6710) goto jmp_10796;
+	if (*(int *)local_14 < bss_e6710) goto jmp_10796;
 }
 
 /*
@@ -20529,7 +20680,7 @@ jmp_107fe:
 	*(int *)local_10 = ((0x1c * arg_2) + (arg_0 + 0x228));
 	*(int *)(arg_1 + 0x28) = *(int *)local_10;
 	*(int *)(arg_1 + 0x2c) = (*(int *)(arg_1 + 0xc) + *(int *)(*(int *)local_10 + 0x10));
-	if (*(int *)bss_b518 == 0x0) goto jmp_1082c;
+	if (bss_b518 == 0x0) goto jmp_1082c;
 	CG_Printf(0x61a6, arg_2);
 jmp_1082c:
 }
@@ -20556,7 +20707,7 @@ void CG_RunLerpFrame(int arg_0, int arg_1, int arg_2, int arg_3) {
 	int		local_40;
 
 	arg_1 = arg_1;
-	if (*(int *)bss_b628 != 0x0) goto jmp_10854;
+	if (bss_b628 != 0x0) goto jmp_10854;
 	local_24 = 0x0;
 	*(int *)(arg_1 + 0x10) = local_24;
 	local_28 = (int)local_24;
@@ -20615,7 +20766,7 @@ jmp_1097c:
 jmp_10987:
 	if (bss_dc760 <= *(int *)(arg_1 + 0xc)) goto jmp_1099f;
 	*(int *)(arg_1 + 0xc) = bss_dc760;
-	if (*(int *)bss_b518 == 0x0) goto jmp_1099f;
+	if (bss_b518 == 0x0) goto jmp_1099f;
 	CG_Printf(0x6191);
 jmp_1099f:
 	if (*(int *)(arg_1 + 0xc) <= (bss_dc760 + 0xc8)) goto jmp_109b0;
@@ -20675,7 +20826,7 @@ void CG_PlayerAnimation(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4, i
 
 	arg_0 = arg_0;
 	local_20 = *(int *)(arg_0 + 0xa8);
-	if (*(int *)bss_aeb8 == 0x0) goto jmp_10a54;
+	if (bss_aeb8 == 0x0) goto jmp_10a54;
 	*(int *)local_24 = 0x0;
 	*(int *)arg_5 = *(int *)local_24;
 	*(int *)arg_4 = *(int *)local_24;
@@ -20890,8 +21041,8 @@ jmp_10cb8:
 jmp_10cbd:
 	local_30 = (*(int *)local_3c + (float)*(int *)((local_54 << 0x2) + 0x1c98));
 	local_24 = (*(int *)local_3c + (0x3e800000 * (float)*(int *)((local_54 << 0x2) + 0x1c98)));
-	CG_SwingAngles(local_24, 0x41c80000, 0x42b40000, *(int *)bss_cb64, (arg_0 + 0x208), (arg_0 + 0x20c));
-	CG_SwingAngles(local_30, 0x42200000, 0x42b40000, *(int *)bss_cb64, (arg_0 + 0x1d8), (arg_0 + 0x1dc));
+	CG_SwingAngles(local_24, 0x41c80000, 0x42b40000, bss_cb64, (arg_0 + 0x208), (arg_0 + 0x20c));
+	CG_SwingAngles(local_30, 0x42200000, 0x42b40000, bss_cb64, (arg_0 + 0x1d8), (arg_0 + 0x1dc));
 	local_24 = *(int *)(arg_0 + 0x208);
 	local_30 = *(int *)(arg_0 + 0x1d8);
 	if (local_38 <= 0x43340000) goto jmp_10d23;
@@ -21351,7 +21502,7 @@ jmp_112dc:
 	if ((*(int *)(arg_0 + 0x8) & 0x1) != 0x0) goto jmp_1130a;
 	if (*(int *)(bss_c2330 + 0x130) != local_10) goto jmp_1130a;
 	if (bss_e66f8 < 0x3) goto jmp_1130a;
-	if (*(int *)bss_8a98 == 0x0) goto jmp_1130a;
+	if (bss_8a98 == 0x0) goto jmp_1130a;
 	CG_PlayerFloatSprite(arg_0, bss_1041e4);
 jmp_1130a:
 }
@@ -21384,7 +21535,7 @@ int CG_PlayerShadow(int arg_0, int arg_1) {
 	block_copy(global_1cb8, local_7c, 0xc);
 	block_copy(global_1cc4, local_88, 0xc);
 	*(int *)arg_1 = 0x0;
-	if (*(int *)bss_ca58 != 0x0) goto jmp_11323;
+	if (bss_ca58 != 0x0) goto jmp_11323;
 	return 0x0;
 jmp_11323:
 	if ((*(int *)(arg_0 + 0xbc) & 0x10) == 0x0) goto jmp_11330;
@@ -21401,7 +21552,7 @@ jmp_11361:
 	return 0x0;
 jmp_11365:
 	*(int *)arg_1 = (local_48 + 0x3f800000);
-	if (*(int *)bss_ca58 == 0x1) goto jmp_11374;
+	if (bss_ca58 == 0x1) goto jmp_11374;
 	return 0x1;
 jmp_11374:
 	local_6c = (0x3f800000 - local_3c);
@@ -21465,7 +21616,7 @@ void CG_PlayerSplash(int arg_0) {
 	int		local_e0;
 	int		local_e4;
 
-	if (*(int *)bss_ca58 != 0x0) goto jmp_113a6;
+	if (bss_ca58 != 0x0) goto jmp_113a6;
 	goto jmp_11495;
 jmp_113a6:
 	block_copy((arg_0 + 0x2b4), local_c8, 0xc);
@@ -21731,7 +21882,7 @@ jmp_1166f:
 	local_1cc = 0x2;
 	goto jmp_1168a;
 jmp_11684:
-	if (*(int *)bss_7ee8 == 0x0) goto jmp_1168a;
+	if (bss_7ee8 == 0x0) goto jmp_1168a;
 	goto jmp_117bf;
 jmp_1168a:
 	memset(&local_24, 0x0, 0x8c);
@@ -21743,7 +21894,7 @@ jmp_1168a:
 	local_1e0 = CG_PlayerShadow(arg_0, &local_1d4);
 	*(int *)local_1d8 = local_1e0;
 	CG_PlayerSplash(arg_0);
-	if (*(int *)bss_ca58 != 0x3) goto jmp_116ea;
+	if (bss_ca58 != 0x3) goto jmp_116ea;
 	if (*(int *)local_1d8 == 0x0) goto jmp_116ea;
 	local_1cc = (local_1cc | 0x100);
 jmp_116ea:
@@ -21815,7 +21966,7 @@ void CG_ResetPlayerEntity(int arg_0) {
 	*(int *)(arg_0 + 0x20c) = 0x0;
 	*(int *)(arg_0 + 0x210) = *(int *)(arg_0 + 0x29c);
 	*(int *)(arg_0 + 0x214) = 0x0;
-	if (*(int *)bss_b408 == 0x0) goto jmp_1189b;
+	if (bss_b408 == 0x0) goto jmp_1189b;
 	CG_Printf(0x6128, *(int *)arg_0, *(int *)(arg_0 + 0x208));
 jmp_1189b:
 }
@@ -21905,7 +22056,7 @@ void CG_DamageFeedback(int arg_0, int arg_1, int arg_2) {
 	int		local_64;
 	int		local_68;
 
-	*(int *)bss_de9fc = bss_dc760;
+	bss_de9fc = bss_dc760;
 	local_2c = *(int *)(bss_c2330 + 0xe4);
 	if (local_2c >= 0x28) goto jmp_1193f;
 	local_34 = 0x3f800000;
@@ -21980,7 +22131,7 @@ jmp_11a5f:
 	if (local_24 <= 0x41200000) goto jmp_11a66;
 	local_24 = 0x41200000;
 jmp_11a66:
-	*(int *)bss_deb0c = local_24;
+	bss_deb0c = local_24;
 	bss_deb2c = (float)(bss_dc760 + 0x1f4);
 	bss_deb00 = (float)*(int *)(bss_c2330 + 0x8);
 }
@@ -21997,7 +22148,7 @@ Called by: CG_SetInitialSnapshot, CG_TransitionPlayerState
 void CG_Respawn(void) {
 
 	bss_dc754 = 0x1;
-	*(int *)bss_deaf4 = bss_dc760;
+	bss_deaf4 = bss_dc760;
 	bss_dcc90 = *(int *)(bss_c2330 + 0xbc);
 }
 
@@ -22079,10 +22230,10 @@ void CG_CheckChangedPredictableEvents(int arg_0) {
 	local_10 = (*(int *)(arg_0 + 0x6c) - 0x2);
 	goto jmp_11bf9;
 jmp_11b85:
-	if (local_10 < *(int *)bss_dcc34) goto jmp_11b8c;
+	if (local_10 < bss_dcc34) goto jmp_11b8c;
 	goto jmp_11bf3;
 jmp_11b8c:
-	if (local_10 <= (*(int *)bss_dcc34 - 0x10)) goto jmp_11bf3;
+	if (local_10 <= (bss_dcc34 - 0x10)) goto jmp_11bf3;
 	*(int *)local_20 = 0x2;
 	if (*(int *)(((local_10 & 0x1) << *(int *)local_20) + (arg_0 + 0x70)) == *(int *)(((local_10 & 0xf) << *(int *)local_20) + 0xdcc38)) goto jmp_11bf3;
 	*(int *)local_18 = *(int *)(((local_10 & 0x1) << 0x2) + (arg_0 + 0x70));
@@ -22090,7 +22241,7 @@ jmp_11b8c:
 	*(int *)(local_14 + 0xb8) = *(int *)(((local_10 & 0x1) << 0x2) + (arg_0 + 0x78));
 	CG_EntityEvent(local_14, (local_14 + 0x2b4));
 	*(int *)(((local_10 & 0xf) << 0x2) + 0xdcc38) = *(int *)local_18;
-	if (*(int *)bss_ada8 == 0x0) goto jmp_11bf3;
+	if (bss_ada8 == 0x0) goto jmp_11bf3;
 	CG_Printf(0x67a0);
 jmp_11bf3:
 	local_10 = (local_10 + 0x1);
@@ -22159,7 +22310,7 @@ void CG_CheckLocalSounds(int arg_0, int arg_1) {
 jmp_11c4b:
 	local_24 = 0xfc;
 	if (*(int *)(arg_0 + local_24) <= *(int *)(arg_1 + local_24)) goto jmp_11c65;
-	trap_S_StartLocalSound(*(int *)bss_10440c, 0x6);
+	trap_S_StartLocalSound(bss_10440c, 0x6);
 	goto jmp_11c7d;
 jmp_11c65:
 	local_28 = 0xfc;
@@ -22200,7 +22351,7 @@ jmp_11d18:
 jmp_11d3e:
 	local_40 = 0x124;
 	if (*(int *)(arg_0 + local_40) == *(int *)(arg_1 + local_40)) goto jmp_11d60;
-	pushReward(*(int *)bss_104430, bss_104314, *(int *)(arg_0 + 0x124));
+	pushReward(bss_104430, bss_104314, *(int *)(arg_0 + 0x124));
 	local_14 = 0x1;
 jmp_11d60:
 	local_44 = 0x128;
@@ -22261,7 +22412,7 @@ jmp_11e7b:
 	goto jmp_11e99;
 jmp_11e8a:
 	if ((*(int *)(arg_1 + 0x100) & 0xffffbfff) != 0x0) goto jmp_11e99;
-	CG_AddBufferedSound(*(int *)bss_104448);
+	CG_AddBufferedSound(bss_104448);
 jmp_11e99:
 	if (bss_e670c <= 0x0) goto jmp_11f18;
 	local_4c = (bss_dc760 - bss_e7404);
@@ -22392,11 +22543,11 @@ void CG_BuildSolidList(void) {
 	local_18 = 0x0;
 	cg_numSolidEntities = local_18;
 	cg_numTriggerEntities = local_18;
-	if (*(int *)bss_c2334 == 0x0) goto jmp_1207d;
+	if (bss_c2334 == 0x0) goto jmp_1207d;
 	local_1c = 0x0;
 	if (bss_dc758 != local_1c) goto jmp_1207d;
 	if (bss_dc754 != local_1c) goto jmp_1207d;
-	local_14 = *(int *)bss_c2334;
+	local_14 = bss_c2334;
 	goto jmp_12081;
 jmp_1207d:
 	local_14 = bss_c2330;
@@ -22631,7 +22782,7 @@ void CG_InterpolatePlayerState(int arg_0) {
 	arg_0 = arg_0;
 	local_20 = 0xdc780;
 	local_18 = bss_c2330;
-	local_1c = *(int *)bss_c2334;
+	local_1c = bss_c2334;
 	block_copy((bss_c2330 + 0x2c), local_20, 0x1d4);
 	if (arg_0 == 0x0) goto jmp_122f0;
 	local_44 = trap_GetCurrentCmdNumber();
@@ -22698,7 +22849,7 @@ void CG_TouchItem(int arg_0) {
 	int		local_28;
 
 	arg_0 = arg_0;
-	if (*(int *)bss_8cb8 != 0x0) goto jmp_12406;
+	if (bss_8cb8 != 0x0) goto jmp_12406;
 	goto jmp_124c1;
 jmp_12406:
 	local_18 = BG_PlayerTouchesItem(0xdc780, arg_0, bss_dc760);
@@ -22714,12 +22865,12 @@ jmp_12422:
 jmp_12434:
 	local_14 = ((0x34 * *(int *)(arg_0 + 0xa0)) + 0x58c);
 	if (bss_e66f8 != 0x4) goto jmp_12470;
-	if (*(int *)bss_dc884 != 0x1) goto jmp_12457;
+	if (bss_dc884 != 0x1) goto jmp_12457;
 	if (*(int *)(local_14 + 0x24) != 0x8) goto jmp_12457;
 	if (*(int *)(local_14 + 0x28) != 0x7) goto jmp_12457;
 	goto jmp_124c1;
 jmp_12457:
-	if (*(int *)bss_dc884 != 0x2) goto jmp_12470;
+	if (bss_dc884 != 0x2) goto jmp_12470;
 	local_28 = 0x8;
 	if (*(int *)(local_14 + 0x24) != local_28) goto jmp_12470;
 	if (*(int *)(local_14 + 0x28) != local_28) goto jmp_12470;
@@ -22759,10 +22910,10 @@ void CG_TouchTriggerPrediction(void) {
 	int		local_74;
 	int		local_78;
 
-	if (*(int *)bss_dc838 > 0x0) goto jmp_124ca;
+	if (bss_dc838 > 0x0) goto jmp_124ca;
 	goto jmp_12574;
 jmp_124ca:
-	if (*(int *)bss_dc784 != 0x2) goto jmp_124d3;
+	if (bss_dc784 != 0x2) goto jmp_124d3;
 	local_70 = 0x1;
 	goto jmp_124d6;
 jmp_124d3:
@@ -22770,7 +22921,7 @@ jmp_124d3:
 jmp_124d6:
 	local_6c = local_70;
 	local_74 = 0x0;
-	if (*(int *)bss_dc784 == local_74) goto jmp_124e9;
+	if (bss_dc784 == local_74) goto jmp_124e9;
 	if (local_6c != local_74) goto jmp_124e9;
 	goto jmp_12574;
 jmp_124e9:
@@ -22806,9 +22957,9 @@ jmp_1255e:
 	local_28 = (local_28 + 0x1);
 jmp_12564:
 	if (local_28 < cg_numTriggerEntities) goto jmp_124ee;
-	if (*(int *)bss_dc94c == bss_dc948) goto jmp_12574;
-	*(int *)bss_dc94c = 0x0;
-	*(int *)bss_dc940 = 0x0;
+	if (bss_dc94c == bss_dc948) goto jmp_12574;
+	bss_dc94c = 0x0;
+	bss_dc940 = 0x0;
 jmp_12574:
 }
 
@@ -22864,8 +23015,8 @@ jmp_12599:
 	goto jmp_12826;
 jmp_125a0:
 	local_238 = 0x0;
-	if (*(int *)bss_afc8 != local_238) goto jmp_125ad;
-	if (*(int *)bss_9538 == local_238) goto jmp_125b4;
+	if (bss_afc8 != local_238) goto jmp_125ad;
+	if (bss_9538 == local_238) goto jmp_125b4;
 jmp_125ad:
 	CG_InterpolatePlayerState(0x1);
 	goto jmp_12826;
@@ -22874,10 +23025,10 @@ jmp_125b4:
 	bss_15d3bc = 0x12201;
 	bss_15d3c0 = 0x12245;
 	if (*(int *)(cg_pmove + 0x4) != 0x3) goto jmp_125c9;
-	*(int *)bss_15d2f8 = 0x10001;
+	bss_15d2f8 = 0x10001;
 	goto jmp_125cc;
 jmp_125c9:
-	*(int *)bss_15d2f8 = 0x2010001;
+	bss_15d2f8 = 0x2010001;
 jmp_125cc:
 	if (*(int *)(bss_c2330 + 0x130) != 0x3) goto jmp_125de;
 	local_23c = 0x15d2f8;
@@ -22898,33 +23049,33 @@ jmp_125ec:
 	local_244 = *(int *)local_21c;
 	if (local_244 <= *(int *)(bss_c2330 + 0x2c)) goto jmp_12627;
 	if (local_244 >= bss_dc760) goto jmp_12627;
-	if (*(int *)bss_ada8 == 0x0) goto jmp_12826;
+	if (bss_ada8 == 0x0) goto jmp_12826;
 	CG_Printf(0x686f);
 	goto jmp_12826;
 jmp_12627:
 	trap_GetUserCmd(local_1fc, local_204);
-	if (*(int *)bss_c2334 == 0x0) goto jmp_1264f;
+	if (bss_c2334 == 0x0) goto jmp_1264f;
 	local_248 = 0x0;
 	if (bss_dc758 != local_248) goto jmp_1264f;
 	if (bss_dc754 != local_248) goto jmp_1264f;
-	block_copy((*(int *)bss_c2334 + 0x2c), &bss_dc780, 0x1d4);
-	bss_dc768 = *(int *)(*(int *)bss_c2334 + 0x8);
+	block_copy((bss_c2334 + 0x2c), &bss_dc780, 0x1d4);
+	bss_dc768 = *(int *)(bss_c2334 + 0x8);
 	goto jmp_1265c;
 jmp_1264f:
 	block_copy((bss_c2330 + 0x2c), &bss_dc780, 0x1d4);
 	bss_dc768 = *(int *)(bss_c2330 + 0x8);
 jmp_1265c:
-	if (*(int *)bss_8548 >= 0x8) goto jmp_1266e;
+	if (bss_8548 >= 0x8) goto jmp_1266e;
 	trap_Cvar_Set(0x6864, 0x6862);
 	trap_Cvar_Update(0x853c);
 	goto jmp_1267e;
 jmp_1266e:
-	if (*(int *)bss_8548 <= 0x21) goto jmp_1267e;
+	if (bss_8548 <= 0x21) goto jmp_1267e;
 	trap_Cvar_Set(0x6864, 0x685f);
 	trap_Cvar_Update(0x853c);
 jmp_1267e:
-	bss_15d3b4 = *(int *)bss_8658;
-	bss_15d3b8 = *(int *)bss_8548;
+	bss_15d3b4 = bss_8658;
+	bss_15d3b8 = bss_8548;
 	local_200 = 0x0;
 	local_24 = ((local_1fc - 0x40) + 0x1);
 	goto jmp_127c6;
@@ -22933,10 +23084,10 @@ jmp_12693:
 	if (bss_15d3b4 == 0x0) goto jmp_126a7;
 	PM_UpdateViewAngles(cg_pmove, 0x15d2e0);
 jmp_126a7:
-	if (*(int *)bss_15d2e0 > bss_dc780) goto jmp_126ae;
+	if (bss_15d2e0 > bss_dc780) goto jmp_126ae;
 	goto jmp_127c0;
 jmp_126ae:
-	if (*(int *)bss_15d2e0 <= *(int *)local_204) goto jmp_126b5;
+	if (bss_15d2e0 <= *(int *)local_204) goto jmp_126b5;
 	goto jmp_127c0;
 jmp_126b5:
 	if (bss_dc780 != *(int *)local_28) goto jmp_1279f;
@@ -22945,14 +23096,14 @@ jmp_126b5:
 	bss_dcc30 = local_25c;
 	bss_dcc2c = local_25c;
 	bss_dcc28 = local_25c;
-	if (*(int *)bss_ada8 == 0x0) goto jmp_126d6;
+	if (bss_ada8 == 0x0) goto jmp_126d6;
 	CG_Printf(0x684b);
 jmp_126d6:
 	bss_dc754 = 0x0;
 	goto jmp_1279f;
 jmp_126db:
-	CG_AdjustPositionForMover(0xdc794, *(int *)bss_dc7c4, bss_dc768, bss_dc764, &local_25c, 0xdc818, local_268);
-	if (*(int *)bss_ada8 == 0x0) goto jmp_12704;
+	CG_AdjustPositionForMover(0xdc794, bss_dc7c4, bss_dc768, bss_dc764, &local_25c, 0xdc818, local_268);
+	if (bss_ada8 == 0x0) goto jmp_12704;
 	local_274 = VectorCompare(&local_3c, &local_25c);
 	if (local_274 != 0x0) goto jmp_12704;
 	CG_Printf(0x6839);
@@ -22963,17 +23114,17 @@ jmp_12704:
 	local_274 = VectorLength(&local_24c);
 	local_258 = local_274;
 	if (local_258 <= 0x3dcccccd) goto jmp_1279f;
-	if (*(int *)bss_ada8 == 0x0) goto jmp_12733;
+	if (bss_ada8 == 0x0) goto jmp_12733;
 	CG_Printf(0x6824, local_258);
 jmp_12733:
-	if (*(int *)bss_b0d8 == 0x0) goto jmp_12777;
+	if (bss_b0d8 == 0x0) goto jmp_12777;
 	local_27c = (bss_dc760 - bss_dcc24);
 	local_278 = ((bss_b0d4 - (float)local_27c) / bss_b0d4);
 	if (local_278 >= 0x0) goto jmp_12750;
 	local_278 = 0x0;
 jmp_12750:
 	if (local_278 <= 0x0) goto jmp_12760;
-	if (*(int *)bss_ada8 == 0x0) goto jmp_12760;
+	if (bss_ada8 == 0x0) goto jmp_12760;
 	CG_Printf(0x6807, local_278);
 jmp_12760:
 	bss_dcc28 = (bss_dcc28 * local_278);
@@ -22991,9 +23142,9 @@ jmp_12786:
 	bss_dcc30 = (local_254 + bss_dcc30);
 	bss_dcc24 = bss_dc764;
 jmp_1279f:
-	*(int *)bss_15d304 = 0x0;
+	bss_15d304 = 0x0;
 	if (bss_15d3b4 == 0x0) goto jmp_127b5;
-	*(int *)bss_15d2e0 = ((((*(int *)bss_15d2e0 + *(int *)bss_8548) - 0x1) / *(int *)bss_8548) * *(int *)bss_8548);
+	bss_15d2e0 = ((((bss_15d2e0 + bss_8548) - 0x1) / bss_8548) * bss_8548);
 jmp_127b5:
 	Pmove(0x15d2dc);
 	local_200 = 0x1;
@@ -23002,24 +23153,24 @@ jmp_127c0:
 	local_24 = (local_24 + 0x1);
 jmp_127c6:
 	if (local_24 <= local_1fc) goto jmp_12693;
-	if (*(int *)bss_ada8 <= 0x1) goto jmp_127da;
-	CG_Printf(0x67fc, *(int *)bss_15d2e0, bss_dc760);
+	if (bss_ada8 <= 0x1) goto jmp_127da;
+	CG_Printf(0x67fc, bss_15d2e0, bss_dc760);
 jmp_127da:
 	if (local_200 != 0x0) goto jmp_127e9;
-	if (*(int *)bss_ada8 == 0x0) goto jmp_12826;
+	if (bss_ada8 == 0x0) goto jmp_12826;
 	CG_Printf(0x67f1);
 	goto jmp_12826;
 jmp_127e9:
-	CG_AdjustPositionForMover(0xdc794, *(int *)bss_dc7c4, bss_dc768, bss_dc760, 0xdc794, 0xdc818, 0xdc818);
-	if (*(int *)bss_ada8 == 0x0) goto jmp_1280d;
-	if (*(int *)bss_dc7ec <= (*(int *)local_94 + 0x2)) goto jmp_1280d;
+	CG_AdjustPositionForMover(0xdc794, bss_dc7c4, bss_dc768, bss_dc760, 0xdc794, 0xdc818, 0xdc818);
+	if (bss_ada8 == 0x0) goto jmp_1280d;
+	if (bss_dc7ec <= (*(int *)local_94 + 0x2)) goto jmp_1280d;
 	CG_Printf(0x67d9);
 jmp_1280d:
 	CG_TransitionPlayerState(0xdc780, local_28);
-	if (*(int *)bss_ada8 == 0x0) goto jmp_12826;
-	if (*(int *)bss_dcc34 <= *(int *)bss_dc7ec) goto jmp_12826;
+	if (bss_ada8 == 0x0) goto jmp_12826;
+	if (bss_dcc34 <= bss_dc7ec) goto jmp_12826;
 	CG_Printf(0x67c2);
-	*(int *)bss_dcc34 = *(int *)bss_dc7ec;
+	bss_dcc34 = bss_dc7ec;
 jmp_12826:
 }
 
@@ -23055,7 +23206,7 @@ void CG_DrawClientScore(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4) {
 	arg_1 = arg_1;
 	local_43c = *(int *)arg_1;
 	if (local_43c < 0x0) goto jmp_1283f;
-	if (local_43c < *(int *)bss_e6710) goto jmp_1284a;
+	if (local_43c < bss_e6710) goto jmp_1284a;
 jmp_1283f:
 	Com_Printf(0x695c, *(int *)arg_1);
 	goto jmp_12b61;
@@ -23134,7 +23285,7 @@ jmp_1292c:
 	local_440 = *(int *)(local_30 + 0x48);
 	if (local_440 <= 0x0) goto jmp_12987;
 	if (local_440 > 0x5) goto jmp_12987;
-	if (*(int *)bss_c3f8 == 0x0) goto jmp_129c1;
+	if (bss_c3f8 == 0x0) goto jmp_129c1;
 	if (arg_4 == 0x0) goto jmp_12966;
 #define next_call_arg_0 "(float)local_434"
 #define next_call_arg_1 "(float)(arg_0 - 0x8)"
@@ -23318,7 +23469,7 @@ jmp_12bd0:
 jmp_12bdc:
 	local_20 = (local_20 + 0x1);
 jmp_12be2:
-	if (local_20 >= *(int *)bss_dd280) goto jmp_12bec;
+	if (local_20 >= bss_dd280) goto jmp_12bec;
 	if (local_1c < arg_3) goto jmp_12b98;
 jmp_12bec:
 	return local_1c;
@@ -23354,12 +23505,12 @@ int CG_DrawOldScoreboard(void) {
 	int		local_60;
 	char	local_64[8];
 
-	if (*(int *)bss_8ed8 == 0x0) goto jmp_12bfd;
+	if (bss_8ed8 == 0x0) goto jmp_12bfd;
 	bss_c231c = 0x0;
 	return 0x0;
 jmp_12bfd:
 	if (bss_e66f8 != 0x2) goto jmp_12c0c;
-	if (*(int *)bss_dc784 != 0x5) goto jmp_12c0c;
+	if (bss_dc784 != 0x5) goto jmp_12c0c;
 	bss_c231c = 0x0;
 	return 0x0;
 jmp_12c0c:
@@ -23369,8 +23520,8 @@ jmp_12c0c:
 	return 0x0;
 jmp_12c1d:
 	if (bss_de190 != 0x0) goto jmp_12c29;
-	if (*(int *)bss_dc784 == 0x3) goto jmp_12c29;
-	if (*(int *)bss_dc784 != 0x5) goto jmp_12c31;
+	if (bss_dc784 == 0x3) goto jmp_12c29;
+	if (bss_dc784 != 0x5) goto jmp_12c31;
 jmp_12c29:
 	local_2c = 0x3f800000;
 	local_34 = 0x1dfc;
@@ -23406,17 +23557,17 @@ jmp_12c89:
 	CG_DrawBigString(local_44, local_24, local_3c, local_2c);
 	goto jmp_12d3e;
 jmp_12cdc:
-	if (bss_dd288 != *(int *)bss_dd28c) goto jmp_12cf0;
+	if (bss_dd288 != bss_dd28c) goto jmp_12cf0;
 	local_58 = va(0x68e6, bss_dd288);
 	local_3c = local_58;
 	goto jmp_12d17;
 jmp_12cf0:
-	if (bss_dd288 < *(int *)bss_dd28c) goto jmp_12d07;
-	local_58 = va(0x68d3, bss_dd288, *(int *)bss_dd28c);
+	if (bss_dd288 < bss_dd28c) goto jmp_12d07;
+	local_58 = va(0x68d3, bss_dd288, bss_dd28c);
 	local_3c = local_58;
 	goto jmp_12d17;
 jmp_12d07:
-	local_58 = va(0x68bf, *(int *)bss_dd28c, bss_dd288);
+	local_58 = va(0x68bf, bss_dd28c, bss_dd288);
 	local_3c = local_58;
 jmp_12d17:
 	local_58 = CG_DrawStrlen(local_3c);
@@ -23431,7 +23582,7 @@ jmp_12d3e:
 	CG_DrawPic(0x43ac0000, (float)local_24, 0x42800000, 0x42000000, bss_104304);
 	CG_DrawPic(0x43d00000, (float)local_24, 0x42800000, 0x42000000, bss_1042f8);
 	local_24 = 0x76;
-	if (*(int *)bss_dd280 <= 0x7) goto jmp_12d9b;
+	if (bss_dd280 <= 0x7) goto jmp_12d9b;
 	local_38 = 0x11;
 	local_58 = 0x10;
 	local_28 = local_58;
@@ -23448,7 +23599,7 @@ jmp_12dac:
 	localClient = 0x0;
 	if (bss_e66f8 < 0x3) goto jmp_12ef3;
 	local_24 = (local_24 + (local_28 / 0x2));
-	if (bss_dd288 < *(int *)bss_dd28c) goto jmp_12e49;
+	if (bss_dd288 < bss_dd28c) goto jmp_12e49;
 	local_58 = CG_TeamScoreboard(local_24, 0x1, local_2c, local_38, local_28);
 	local_30 = local_58;
 	CG_DrawTeamBackground(0x0, (local_24 - local_4c), 0x280, ((local_30 * local_28) + local_50), 0x3ea8f5c3, 0x1);
@@ -23505,7 +23656,7 @@ jmp_12f6c:
 jmp_12f74:
 	local_20 = (local_20 + 0x1);
 jmp_12f7a:
-	if (local_20 < *(int *)bss_dd280) goto jmp_12f43;
+	if (local_20 < bss_dd280) goto jmp_12f43;
 jmp_12f7f:
 	local_58 = 0xc231c;
 	local_5c = (*(int *)local_58 + 0x1);
@@ -23665,7 +23816,7 @@ jmp_13037:
 #define next_call_arg_7 "0x30"
 #define next_call_arg_8 "0x0"
 	CG_DrawStringExt();
-	local_90 = va(0x6959, *(int *)bss_dd28c);
+	local_90 = va(0x6959, bss_dd28c);
 	local_30 = local_90;
 	local_94 = strlen(local_30);
 #define next_call_arg_0 "(0x278 - (local_94 << 0x5))"
@@ -23776,16 +23927,16 @@ void CG_ParseScores(void) {
 
 	local_1c = CG_Argv(0x1);
 	local_20 = atoi(local_1c);
-	*(int *)bss_dd280 = local_20;
-	if (*(int *)bss_dd280 <= 0x40) goto jmp_131cd;
-	*(int *)bss_dd280 = 0x40;
+	bss_dd280 = local_20;
+	if (bss_dd280 <= 0x40) goto jmp_131cd;
+	bss_dd280 = 0x40;
 jmp_131cd:
 	local_24 = CG_Argv(0x2);
 	local_28 = atoi(local_24);
 	bss_dd288 = local_28;
 	local_2c = CG_Argv(0x3);
 	*(int *)local_30 = atoi(local_2c);
-	*(int *)bss_dd28c = *(int *)local_30;
+	bss_dd28c = *(int *)local_30;
 	memset(0xdd290, 0x0, 0xf00);
 	local_14 = 0x0;
 	goto jmp_133d1;
@@ -23846,7 +23997,7 @@ jmp_13393:
 	*(int *)(local_e4 + 0xdd2c8) = *(int *)((0x6b4 * *(int *)(local_e4 + 0xdd290)) + 0xe8c68);
 	local_14 = (local_14 + 0x1);
 jmp_133d1:
-	if (local_14 < *(int *)bss_dd280) goto jmp_131fd;
+	if (local_14 < bss_dd280) goto jmp_131fd;
 }
 
 /*
@@ -23981,7 +24132,7 @@ void CG_ParseServerinfo(void) {
 	bss_e670c = local_54;
 	local_58 = Info_ValueForKey(local_18, 0x6a49);
 	local_5c = atoi(local_58);
-	*(int *)bss_e6710 = local_5c;
+	bss_e6710 = local_5c;
 	local_60 = Info_ValueForKey(local_18, 0x6a41);
 	local_1c = local_60;
 	Com_sprintf(0xe6714, 0x40, 0x6a35, local_1c);
@@ -24183,19 +24334,19 @@ jmp_13798:
 	if (local_14 != 0x8) goto jmp_137ac;
 	local_28 = atoi(local_18);
 	bss_e67d4 = local_28;
-	*(int *)bss_e67e0 = 0x1;
+	bss_e67e0 = 0x1;
 	goto jmp_138e8;
 jmp_137ac:
 	if (local_14 != 0xa) goto jmp_137c0;
 	local_28 = atoi(local_18);
 	bss_e67d8 = local_28;
-	*(int *)bss_e67e0 = 0x1;
+	bss_e67e0 = 0x1;
 	goto jmp_138e8;
 jmp_137c0:
 	if (local_14 != 0xb) goto jmp_137d4;
 	local_28 = atoi(local_18);
 	bss_e67dc = local_28;
-	*(int *)bss_e67e0 = 0x1;
+	bss_e67e0 = 0x1;
 	goto jmp_138e8;
 jmp_137d4:
 	if (local_14 != 0x9) goto jmp_137e4;
@@ -24289,18 +24440,18 @@ void CG_AddToTeamChat(int arg_0) {
 	int		local_3c;
 
 	arg_0 = arg_0;
-	if (*(int *)bss_9318 >= 0x8) goto jmp_138f9;
-	local_18 = *(int *)bss_9318;
+	if (bss_9318 >= 0x8) goto jmp_138f9;
+	local_18 = bss_9318;
 	goto jmp_138fc;
 jmp_138f9:
 	local_18 = 0x8;
 jmp_138fc:
 	local_20 = 0x0;
 	if (local_18 <= local_20) goto jmp_13909;
-	if (*(int *)bss_9428 > local_20) goto jmp_13916;
+	if (bss_9428 > local_20) goto jmp_13916;
 jmp_13909:
 	local_24 = 0x0;
-	*(int *)bss_1040d0 = local_24;
+	bss_1040d0 = local_24;
 	bss_1040cc = local_24;
 	goto jmp_13a50;
 jmp_13916:
@@ -24366,8 +24517,8 @@ jmp_13a20:
 	*(int *)(((bss_1040cc %% local_18) << 0x2) + 0x1040ac) = bss_dc760;
 	local_24 = 0x1040cc;
 	*(int *)local_24 = (*(int *)local_24 + 0x1);
-	if ((bss_1040cc - *(int *)bss_1040d0) <= local_18) goto jmp_13a50;
-	*(int *)bss_1040d0 = (bss_1040cc - local_18);
+	if ((bss_1040cc - bss_1040d0) <= local_18) goto jmp_13a50;
+	bss_1040d0 = (bss_1040cc - local_18);
 jmp_13a50:
 }
 
@@ -24383,7 +24534,7 @@ Called by: CG_ServerCommand
 */
 void CG_MapRestart(void) {
 
-	if (*(int *)bss_ada8 == 0x0) goto jmp_13a5c;
+	if (bss_ada8 == 0x0) goto jmp_13a5c;
 	CG_Printf(0x6a0b);
 jmp_13a5c:
 	CG_InitLocalEntities();
@@ -24496,7 +24647,7 @@ jmp_13b4f:
 	local_c0 = strcmp(local_14, 0x69df);
 	if (local_c0 != 0x0) goto jmp_13b8c;
 	if (bss_e66f8 < 0x3) goto jmp_13b66;
-	if (*(int *)bss_8988 == 0x0) goto jmp_13b66;
+	if (bss_8988 == 0x0) goto jmp_13b66;
 	goto jmp_13c76;
 jmp_13b66:
 	trap_S_StartLocalSound(bss_1043e4, 0x6);
@@ -24691,10 +24842,10 @@ void CG_TransitionSnapshot(void) {
 	if (bss_c2330 != 0x0) goto jmp_13d92;
 	CG_Error(0x6c15);
 jmp_13d92:
-	if (*(int *)bss_c2334 != 0x0) goto jmp_13d9b;
+	if (bss_c2334 != 0x0) goto jmp_13d9b;
 	CG_Error(0x6bed);
 jmp_13d9b:
-	CG_ExecuteNewServerCommands(*(int *)(*(int *)bss_c2334 + 0xd208));
+	CG_ExecuteNewServerCommands(*(int *)(bss_c2334 + 0xd208));
 	if (bss_dc774 == 0x0) goto jmp_13da8;
 jmp_13da8:
 	local_14 = 0x0;
@@ -24706,7 +24857,7 @@ jmp_13dad:
 jmp_13dc9:
 	if (local_14 < *(int *)(bss_c2330 + 0x200)) goto jmp_13dad;
 	local_1c = bss_c2330;
-	bss_c2330 = *(int *)bss_c2334;
+	bss_c2330 = bss_c2334;
 	BG_PlayerStateToEntityState((bss_c2330 + 0x2c), ((0x2cc * *(int *)(bss_c2330 + 0xb8)) + 0xf30c), 0x0);
 	*(int *)((0x2cc * *(int *)(bss_c2330 + 0xb8)) + 0xf4ac) = 0x0;
 	local_14 = 0x0;
@@ -24718,7 +24869,7 @@ jmp_13dfd:
 	local_14 = (local_14 + 0x1);
 jmp_13e23:
 	if (local_14 < *(int *)(bss_c2330 + 0x200)) goto jmp_13dfd;
-	*(int *)bss_c2334 = 0x0;
+	bss_c2334 = 0x0;
 	if (local_1c == 0x0) goto jmp_13e7f;
 	local_28 = 0x2c;
 	local_20 = (local_1c + local_28);
@@ -24730,8 +24881,8 @@ jmp_13e5a:
 	local_30 = 0x0;
 	if (bss_c2314 != local_30) goto jmp_13e76;
 	if ((*(int *)(bss_c2330 + 0x38) & 0x1000) != local_30) goto jmp_13e76;
-	if (*(int *)bss_afc8 != local_30) goto jmp_13e76;
-	if (*(int *)bss_9538 == local_30) goto jmp_13e7f;
+	if (bss_afc8 != local_30) goto jmp_13e76;
+	if (bss_9538 == local_30) goto jmp_13e7f;
 jmp_13e76:
 	CG_TransitionPlayerState(local_24, local_20);
 jmp_13e7f:
@@ -24757,7 +24908,7 @@ void CG_SetNextSnap(int arg_0) {
 	int		local_34;
 
 	arg_0 = arg_0;
-	*(int *)bss_c2334 = arg_0;
+	bss_c2334 = arg_0;
 	BG_PlayerStateToEntityState((arg_0 + 0x2c), ((0x2cc * *(int *)(arg_0 + 0xb8)) + 0xf3dc), 0x0);
 	*(int *)((0x2cc * *(int *)(bss_c2330 + 0xb8)) + 0xf4ac) = 0x1;
 	*(int *)local_1c = 0x0;
@@ -24789,10 +24940,10 @@ jmp_13f2d:
 	bss_dc758 = 0x0;
 jmp_13f30:
 	*(int *)local_28 = 0xb8;
-	if (*(int *)(*(int *)bss_c2334 + *(int *)local_28) == *(int *)(bss_c2330 + *(int *)local_28)) goto jmp_13f43;
+	if (*(int *)(bss_c2334 + *(int *)local_28) == *(int *)(bss_c2330 + *(int *)local_28)) goto jmp_13f43;
 	bss_dc758 = 0x1;
 jmp_13f43:
-	if (((*(int *)*(int *)bss_c2334 ^ *(int *)bss_c2330) & 0x4) == 0x0) goto jmp_13f51;
+	if (((*(int *)bss_c2334 ^ *(int *)bss_c2330) & 0x4) == 0x0) goto jmp_13f51;
 	bss_dc758 = 0x1;
 jmp_13f51:
 	CG_BuildSolidList();
@@ -24878,7 +25029,7 @@ jmp_13ff0:
 jmp_13ffd:
 	if (bss_c2330 == 0x0) goto jmp_13fe2;
 jmp_14001:
-	if (*(int *)bss_c2334 != 0x0) goto jmp_1402e;
+	if (bss_c2334 != 0x0) goto jmp_1402e;
 	local_18 = CG_ReadNextSnapshot();
 	local_10 = local_18;
 	if (local_10 != 0x0) goto jmp_14013;
@@ -24886,12 +25037,12 @@ jmp_14001:
 jmp_14013:
 	CG_SetNextSnap(local_10);
 	local_1c = 0x8;
-	if (*(int *)(*(int *)bss_c2334 + local_1c) >= *(int *)(bss_c2330 + local_1c)) goto jmp_1402e;
+	if (*(int *)(bss_c2334 + local_1c) >= *(int *)(bss_c2330 + local_1c)) goto jmp_1402e;
 	CG_Error(0x6b56);
 jmp_1402e:
 	local_18 = 0x8;
 	if (bss_dc760 < *(int *)(bss_c2330 + local_18)) goto jmp_14045;
-	if (bss_dc760 >= *(int *)(*(int *)bss_c2334 + local_18)) goto jmp_14045;
+	if (bss_dc760 >= *(int *)(bss_c2334 + local_18)) goto jmp_14045;
 	goto jmp_1404a;
 jmp_14045:
 	CG_TransitionSnapshot();
@@ -24903,8 +25054,8 @@ jmp_14053:
 	if (bss_dc760 >= *(int *)(bss_c2330 + 0x8)) goto jmp_14062;
 	bss_dc760 = *(int *)(bss_c2330 + 0x8);
 jmp_14062:
-	if (*(int *)bss_c2334 == 0x0) goto jmp_14073;
-	if (*(int *)(*(int *)bss_c2334 + 0x8) > bss_dc760) goto jmp_14073;
+	if (bss_c2334 == 0x0) goto jmp_14073;
+	if (*(int *)(bss_c2334 + 0x8) > bss_dc760) goto jmp_14073;
 	CG_Error(0x6af9);
 jmp_14073:
 }
@@ -24939,16 +25090,16 @@ jmp_1408c:
 	local_24 = CG_Argv(0x1);
 	Q_strncpyz(0xdebd4, local_24, 0x40);
 	local_28 = trap_R_RegisterModel(0xdebd4);
-	*(int *)bss_deb50 = local_28;
+	bss_deb50 = local_28;
 	local_2c = trap_Argc();
 	if (local_2c != 0x3) goto jmp_140c5;
 	local_30 = CG_Argv(0x2);
 	local_34 = atof(local_30);
 	bss_debac = local_34;
-	*(int *)bss_deb98 = 0x1;
+	bss_deb98 = 0x1;
 	bss_deba8 = 0x0;
 jmp_140c5:
-	if (*(int *)bss_deb50 != 0x0) goto jmp_140d0;
+	if (bss_deb50 != 0x0) goto jmp_140d0;
 	CG_Printf(0x6c7f);
 	goto jmp_140fe;
 jmp_140d0:
@@ -24956,7 +25107,7 @@ jmp_140d0:
 	bss_deb90 = (bss_dcd10 + (0x42c80000 * bss_dcd1c));
 	bss_deb94 = (bss_dcd14 + (0x42c80000 * bss_dcd20));
 	local_14 = 0x0;
-	local_18 = (*(int *)bss_dce68 + 0x43340000);
+	local_18 = (bss_dce68 + 0x43340000);
 	local_1c = 0x0;
 	AnglesToAxis(&local_14, 0xdeb64);
 jmp_140fe:
@@ -24974,7 +25125,7 @@ Calls: CG_TestModel_f
 void CG_TestGun_f(void) {
 
 	CG_TestModel_f();
-	if (*(int *)bss_deb50 != 0x0) goto jmp_1410a;
+	if (bss_deb50 != 0x0) goto jmp_1410a;
 	goto jmp_14110;
 jmp_1410a:
 	bss_dec14 = 0x1;
@@ -24996,7 +25147,7 @@ void CG_TestModelNextFrame_f(void) {
 
 	local_10 = 0xdeb98;
 	*(int *)local_10 = (*(int *)local_10 + 0x1);
-	CG_Printf(0x6c75, *(int *)bss_deb98);
+	CG_Printf(0x6c75, bss_deb98);
 }
 
 /*
@@ -25013,10 +25164,10 @@ void CG_TestModelPrevFrame_f(void) {
 
 	local_10 = 0xdeb98;
 	*(int *)local_10 = (*(int *)local_10 - 0x1);
-	if (*(int *)bss_deb98 >= 0x0) goto jmp_1413b;
-	*(int *)bss_deb98 = 0x0;
+	if (bss_deb98 >= 0x0) goto jmp_1413b;
+	bss_deb98 = 0x0;
 jmp_1413b:
-	CG_Printf(0x6c75, *(int *)bss_deb98);
+	CG_Printf(0x6c75, bss_deb98);
 }
 
 /*
@@ -25033,7 +25184,7 @@ void CG_TestModelNextSkin_f(void) {
 
 	local_10 = 0xdebb0;
 	*(int *)local_10 = (*(int *)local_10 + 0x1);
-	CG_Printf(0x6c6c, *(int *)bss_debb0);
+	CG_Printf(0x6c6c, bss_debb0);
 }
 
 /*
@@ -25050,10 +25201,10 @@ void CG_TestModelPrevSkin_f(void) {
 
 	local_10 = 0xdebb0;
 	*(int *)local_10 = (*(int *)local_10 - 0x1);
-	if (*(int *)bss_debb0 >= 0x0) goto jmp_1416e;
-	*(int *)bss_debb0 = 0x0;
+	if (bss_debb0 >= 0x0) goto jmp_1416e;
+	bss_debb0 = 0x0;
 jmp_1416e:
-	CG_Printf(0x6c6c, *(int *)bss_debb0);
+	CG_Printf(0x6c6c, bss_debb0);
 }
 
 /*
@@ -25077,8 +25228,8 @@ void CG_AddTestModel(void) {
 	int		local_28;
 
 	local_10 = trap_R_RegisterModel(0xdebd4);
-	*(int *)bss_deb50 = local_10;
-	if (*(int *)bss_deb50 != 0x0) goto jmp_1418e;
+	bss_deb50 = local_10;
+	if (bss_deb50 != 0x0) goto jmp_1418e;
 	CG_Printf(0x6c7f);
 	goto jmp_14201;
 jmp_1418e:
@@ -25091,13 +25242,13 @@ jmp_1418e:
 jmp_141a1:
 	local_14 = (local_c << 0x2);
 	local_18 = (local_14 + 0xdeb8c);
-	*(int *)local_18 = (*(int *)local_18 + (*(int *)(local_14 + 0xdcd18) * *(int *)bss_a854));
+	*(int *)local_18 = (*(int *)local_18 + (*(int *)(local_14 + 0xdcd18) * bss_a854));
 	local_1c = (local_c << 0x2);
 	local_20 = (local_1c + 0xdeb8c);
-	*(int *)local_20 = (*(int *)local_20 + (*(int *)(local_1c + 0xdcd24) * *(int *)bss_a744));
+	*(int *)local_20 = (*(int *)local_20 + (*(int *)(local_1c + 0xdcd24) * bss_a744));
 	local_24 = (local_c << 0x2);
 	local_28 = (local_24 + 0xdeb8c);
-	*(int *)local_28 = (*(int *)local_28 + (*(int *)(local_24 + 0xdcd30) * *(int *)bss_a634));
+	*(int *)local_28 = (*(int *)local_28 + (*(int *)(local_24 + 0xdcd30) * bss_a634));
 	local_c = (local_c + 0x1);
 	if (local_c < 0x3) goto jmp_141a1;
 jmp_141fc:
@@ -25124,26 +25275,26 @@ void CG_CalcVrect(void) {
 	local_10 = 0x64;
 	goto jmp_14234;
 jmp_14210:
-	if (*(int *)bss_a418 >= 0x1e) goto jmp_14220;
+	if (bss_a418 >= 0x1e) goto jmp_14220;
 	trap_Cvar_Set(0x6c60, 0x6c5d);
 	local_10 = 0x1e;
 	goto jmp_14234;
 jmp_14220:
-	if (*(int *)bss_a418 <= 0x64) goto jmp_14230;
+	if (bss_a418 <= 0x64) goto jmp_14230;
 	trap_Cvar_Set(0x6c60, 0x6c59);
 	local_10 = 0x64;
 	goto jmp_14234;
 jmp_14230:
-	local_10 = *(int *)bss_a418;
+	local_10 = bss_a418;
 jmp_14234:
 	bss_dccfc = ((bss_e66c4 * local_10) / 0x64);
 	local_14 = 0xdccfc;
 	*(int *)local_14 = (*(int *)local_14 & 0xfffffffe);
-	bss_dcd00 = ((*(int *)bss_e66c8 * local_10) / 0x64);
+	bss_dcd00 = ((bss_e66c8 * local_10) / 0x64);
 	local_18 = 0xdcd00;
 	*(int *)local_18 = (*(int *)local_18 & 0xfffffffe);
 	bss_dccf4 = ((bss_e66c4 - bss_dccfc) / 0x2);
-	bss_dccf8 = ((*(int *)bss_e66c8 - bss_dcd00) / 0x2);
+	bss_dccf8 = ((bss_e66c8 - bss_dcd00) / 0x2);
 }
 
 /*
@@ -25190,11 +25341,11 @@ void CG_OffsetThirdPersonView(void) {
 	int		local_dc;
 
 	local_b0 = 0xdcd14;
-	*(int *)local_b0 = (*(int *)local_b0 + (float)*(int *)bss_dc824);
+	*(int *)local_b0 = (*(int *)local_b0 + (float)bss_dc824);
 	block_copy(&bss_dce64, &local_54, 0xc);
-	if (*(int *)bss_dc838 > 0x0) goto jmp_1428f;
-	*(int *)local_58 = (float)*(int *)bss_dc848;
-	*(int *)bss_dce68 = (float)*(int *)bss_dc848;
+	if (bss_dc838 > 0x0) goto jmp_1428f;
+	*(int *)local_58 = (float)bss_dc848;
+	bss_dce68 = (float)bss_dc848;
 jmp_1428f:
 	if (local_54 <= 0x42340000) goto jmp_14296;
 	local_54 = 0x42340000;
@@ -25214,17 +25365,17 @@ jmp_14296:
 	local_bc = 0xdce64;
 	*(int *)local_bc = (0x3f000000 * *(int *)local_bc);
 	AngleVectors(0xdce64, &local_3c, &local_48, local_a4);
-	local_c0 = cos((0x40490fdb * (*(int *)bss_9974 / 0x43340000)));
+	local_c0 = cos((0x40490fdb * (bss_9974 / 0x43340000)));
 	local_60 = local_c0;
-	*(int *)local_c4 = sin((0x40490fdb * (*(int *)bss_9974 / 0x43340000)));
+	*(int *)local_c4 = sin((0x40490fdb * (bss_9974 / 0x43340000)));
 	local_64 = *(int *)local_c4;
-	local_24 = (local_24 + (local_3c * (-*(int *)bss_9a84 * local_60)));
-	local_28 = (local_28 + (local_40 * (-*(int *)bss_9a84 * local_60)));
-	local_2c = (local_2c + (local_44 * (-*(int *)bss_9a84 * local_60)));
-	local_24 = (local_24 + (local_48 * (-*(int *)bss_9a84 * local_64)));
-	local_28 = (local_28 + (local_4c * (-*(int *)bss_9a84 * local_64)));
-	local_2c = (local_2c + (local_50 * (-*(int *)bss_9a84 * local_64)));
-	if (*(int *)bss_7ee8 != 0x0) goto jmp_14394;
+	local_24 = (local_24 + (local_3c * (-bss_9a84 * local_60)));
+	local_28 = (local_28 + (local_40 * (-bss_9a84 * local_60)));
+	local_2c = (local_2c + (local_44 * (-bss_9a84 * local_60)));
+	local_24 = (local_24 + (local_48 * (-bss_9a84 * local_64)));
+	local_28 = (local_28 + (local_4c * (-bss_9a84 * local_64)));
+	local_2c = (local_2c + (local_50 * (-bss_9a84 * local_64)));
+	if (bss_7ee8 != 0x0) goto jmp_14394;
 	CG_Trace(local_6c, 0xdcd0c, 0x1ce4, 0x1cf0, &local_24, bss_dc80c, 0x1);
 	if (local_74 == 0x3f800000) goto jmp_14394;
 	block_copy(local_78, &local_24, 0xc);
@@ -25245,7 +25396,7 @@ jmp_143cb:
 	local_d8 = atan2(local_38, local_68);
 	bss_dce64 = (0xc2652ee1 * local_d8);
 	local_dc = 0xdce68;
-	*(int *)local_dc = (*(int *)local_dc - *(int *)bss_9974);
+	*(int *)local_dc = (*(int *)local_dc - bss_9974);
 }
 
 /*
@@ -25308,7 +25459,7 @@ jmp_14415:
 	*(int *)local_c = 0xc1700000;
 	*(int *)(local_c + 0x4) = (float)*(int *)(bss_c2330 + 0xf4);
 	local_34 = (local_1c + 0x8);
-	*(int *)local_34 = (*(int *)local_34 + (float)*(int *)bss_dc824);
+	*(int *)local_34 = (*(int *)local_34 + (float)bss_dc824);
 	goto jmp_145e8;
 jmp_14449:
 	if (bss_deb00 == 0x0) goto jmp_144ab;
@@ -25328,10 +25479,10 @@ jmp_1447f:
 jmp_144ab:
 	block_copy(bss_dc7a0, &local_10, 0xc);
 	local_8 = (((local_10 * bss_dcd18) + (local_14 * bss_dcd1c)) + (local_18 * bss_dcd20));
-	*(int *)local_c = (*(int *)local_c + (local_8 * *(int *)bss_d0b4));
+	*(int *)local_c = (*(int *)local_c + (local_8 * bss_d0b4));
 	local_8 = (((local_10 * bss_dcd24) + (local_14 * bss_dcd28)) + (local_18 * bss_dcd2c));
 	local_38 = (local_c + 0x8);
-	*(int *)local_38 = (*(int *)local_38 - (local_8 * *(int *)bss_cfa4));
+	*(int *)local_38 = (*(int *)local_38 - (local_8 * bss_cfa4));
 	if (bss_deb40 <= 0x43480000) goto jmp_144fc;
 	*(int *)local_3c = bss_deb40;
 	goto jmp_144ff;
@@ -25339,13 +25490,13 @@ jmp_144fc:
 	*(int *)local_3c = 0x43480000;
 jmp_144ff:
 	local_24 = *(int *)local_3c;
-	local_8 = ((bss_deb38 * *(int *)bss_cd84) * local_24);
-	if ((*(int *)bss_dc78c & 0x1) == 0x0) goto jmp_14519;
+	local_8 = ((bss_deb38 * bss_cd84) * local_24);
+	if ((bss_dc78c & 0x1) == 0x0) goto jmp_14519;
 	local_8 = (0x40400000 * local_8);
 jmp_14519:
 	*(int *)local_c = (*(int *)local_c + local_8);
-	local_8 = ((bss_deb38 * *(int *)bss_cc74) * local_24);
-	if ((*(int *)bss_dc78c & 0x1) == 0x0) goto jmp_14538;
+	local_8 = ((bss_deb38 * bss_cc74) * local_24);
+	if ((bss_dc78c & 0x1) == 0x0) goto jmp_14538;
 	local_8 = (0x40400000 * local_8);
 jmp_14538:
 	if ((bss_deb3c & 0x1) == 0x0) goto jmp_14543;
@@ -25354,13 +25505,13 @@ jmp_14543:
 	local_44 = (local_c + 0x8);
 	*(int *)local_44 = (*(int *)local_44 + local_8);
 	local_48 = (local_1c + 0x8);
-	*(int *)local_48 = (*(int *)local_48 + (float)*(int *)bss_dc824);
+	*(int *)local_48 = (*(int *)local_48 + (float)bss_dc824);
 	local_2c = (bss_dc760 - bss_dcc84);
 	if (local_2c >= 0x64) goto jmp_14581;
 	local_4c = 0xdcd14;
 	*(int *)local_4c = (*(int *)local_4c - ((bss_dcc80 * (float)(0x64 - local_2c)) / 0x42c80000));
 jmp_14581:
-	local_20 = ((bss_deb38 * bss_deb40) * *(int *)bss_ce94);
+	local_20 = ((bss_deb38 * bss_deb40) * bss_ce94);
 	if (local_20 <= 0x40c00000) goto jmp_14592;
 	local_20 = 0x40c00000;
 jmp_14592:
@@ -25445,7 +25596,7 @@ int CG_CalcFov(void) {
 	int		local_40;
 	int		local_44;
 
-	if (*(int *)bss_dc784 != 0x5) goto jmp_14614;
+	if (bss_dc784 != 0x5) goto jmp_14614;
 	local_10 = 0x42b40000;
 	goto jmp_1468d;
 jmp_14614:
@@ -25461,7 +25612,7 @@ jmp_1462c:
 	if (local_10 <= 0x43200000) goto jmp_14633;
 	local_10 = 0x43200000;
 jmp_14633:
-	local_18 = *(int *)bss_9b94;
+	local_18 = bss_9b94;
 	if (local_18 >= 0x3f800000) goto jmp_14640;
 	local_18 = 0x3f800000;
 	goto jmp_14647;
@@ -25541,13 +25692,13 @@ void CG_DamageBlendBlob(void) {
 	int		local_b0;
 	int		local_b4;
 
-	if (*(int *)bss_8dc8 != 0x0) goto jmp_14720;
+	if (bss_8dc8 != 0x0) goto jmp_14720;
 	goto jmp_147f7;
 jmp_14720:
-	if (*(int *)bss_deb0c != 0x0) goto jmp_14726;
+	if (bss_deb0c != 0x0) goto jmp_14726;
 	goto jmp_147f7;
 jmp_14726:
-	if (*(int *)bss_e66b4 != 0x3) goto jmp_1472c;
+	if (bss_e66b4 != 0x3) goto jmp_1472c;
 	goto jmp_147f7;
 jmp_1472c:
 	*(int *)local_a4 = 0x1f4;
@@ -25569,7 +25720,7 @@ jmp_14743:
 	local_58 = (local_58 + (bss_dcd30 * (0x41000000 * bss_deb08)));
 	local_5c = (local_5c + (bss_dcd34 * (0x41000000 * bss_deb08)));
 	*(int *)local_60 = (*(int *)local_60 + (bss_dcd38 * (0x41000000 * bss_deb08)));
-	*(int *)local_98 = (0x40400000 * *(int *)bss_deb0c);
+	*(int *)local_98 = (0x40400000 * bss_deb0c);
 	local_84 = bss_1041f4;
 	local_88 = 0xff;
 	local_89 = 0xff;
@@ -25628,9 +25779,9 @@ jmp_1482c:
 	bss_deb40 = local_2c;
 	block_copy((local_14 + 0x14), &bss_dcd0c, 0xc);
 	block_copy((local_14 + 0x98), &bss_dce64, 0xc);
-	if (*(int *)bss_8438 == 0x0) goto jmp_1489d;
-	if (bss_dc760 <= *(int *)bss_deb44) goto jmp_1489d;
-	*(int *)bss_deb44 = (bss_dc760 + *(int *)bss_8328);
+	if (bss_8438 == 0x0) goto jmp_1489d;
+	if (bss_dc760 <= bss_deb44) goto jmp_1489d;
+	bss_deb44 = (bss_dc760 + bss_8328);
 	local_30 = 0x9974;
 	*(int *)local_30 = (*(int *)local_30 + bss_8434);
 jmp_1489d:
@@ -25688,7 +25839,7 @@ jmp_14924:
 jmp_1492d:
 	local_24 = 0x3e8;
 	if (((local_18 - bss_dc760) / local_24) == ((local_18 - bss_dc764) / local_24)) goto jmp_14951;
-	trap_S_StartSound(0x0, *(int *)(bss_c2330 + 0xb8), 0x4, *(int *)bss_104330);
+	trap_S_StartSound(0x0, *(int *)(bss_c2330 + 0xb8), 0x4, bss_104330);
 jmp_14951:
 	*(int *)local_1c = (*(int *)local_1c + 0x1);
 	if (*(int *)local_1c < 0x10) goto jmp_14911;
@@ -25729,13 +25880,13 @@ Called by: CG_DrawActiveFrame
 */
 void CG_PlayBufferedSounds(void) {
 
-	if (*(int *)bss_dea8c >= bss_dc760) goto jmp_149be;
+	if (bss_dea8c >= bss_dc760) goto jmp_149be;
 	if (bss_dea88 == bss_dea84) goto jmp_149be;
 	if (*(int *)((bss_dea88 << 0x2) + 0xdea90) == 0x0) goto jmp_149be;
 	trap_S_StartLocalSound(*(int *)((bss_dea88 << 0x2) + 0xdea90), 0x7);
 	*(int *)((bss_dea88 << 0x2) + 0xdea90) = 0x0;
 	bss_dea88 = ((bss_dea88 + 0x1) %% 0x14);
-	*(int *)bss_dea8c = (bss_dc760 + 0x2ee);
+	bss_dea8c = (bss_dc760 + 0x2ee);
 jmp_149be:
 }
 
@@ -25779,7 +25930,7 @@ jmp_149f1:
 	CG_PredictPlayerState();
 	if (*(int *)(bss_c2330 + 0x130) == 0x3) goto jmp_14a24;
 	local_24 = 0x0;
-	if (*(int *)bss_9868 != local_24) goto jmp_14a1f;
+	if (bss_9868 != local_24) goto jmp_14a1f;
 	if (*(int *)(bss_c2330 + 0xe4) > local_24) goto jmp_14a24;
 jmp_14a1f:
 	local_20 = 0x1;
@@ -25801,7 +25952,7 @@ jmp_14a3a:
 jmp_14a4a:
 	CG_AddViewWeapon(0xdc780);
 	CG_PlayBufferedSounds();
-	if (*(int *)bss_deb50 == 0x0) goto jmp_14a59;
+	if (bss_deb50 == 0x0) goto jmp_14a59;
 	CG_AddTestModel();
 jmp_14a59:
 	*(int *)bss_dcd3c = bss_dc760;
@@ -25816,25 +25967,25 @@ jmp_14a8e:
 	bss_dc764 = bss_dc760;
 	CG_AddLagometerFrameInfo();
 jmp_14a95:
-	if (*(int *)bss_7ff4 == *(int *)bss_8214) goto jmp_14aec;
-	if (*(int *)bss_7ff4 >= *(int *)bss_8214) goto jmp_14abc;
+	if (bss_7ff4 == bss_8214) goto jmp_14aec;
+	if (bss_7ff4 >= bss_8214) goto jmp_14abc;
 	local_2c = 0x7ff4;
-	*(int *)local_2c = (*(int *)local_2c + ((*(int *)bss_8104 * (float)bss_dc75c) / 0x447a0000));
-	if (*(int *)bss_7ff4 <= *(int *)bss_8214) goto jmp_14ad7;
-	*(int *)bss_7ff4 = *(int *)bss_8214;
+	*(int *)local_2c = (*(int *)local_2c + ((bss_8104 * (float)bss_dc75c) / 0x447a0000));
+	if (bss_7ff4 <= bss_8214) goto jmp_14ad7;
+	bss_7ff4 = bss_8214;
 	goto jmp_14ad7;
 jmp_14abc:
 	local_2c = 0x7ff4;
-	*(int *)local_2c = (*(int *)local_2c - ((*(int *)bss_8104 * (float)bss_dc75c) / 0x447a0000));
-	if (*(int *)bss_7ff4 >= *(int *)bss_8214) goto jmp_14ad7;
-	*(int *)bss_7ff4 = *(int *)bss_8214;
+	*(int *)local_2c = (*(int *)local_2c - ((bss_8104 * (float)bss_dc75c) / 0x447a0000));
+	if (bss_7ff4 >= bss_8214) goto jmp_14ad7;
+	bss_7ff4 = bss_8214;
 jmp_14ad7:
-	if (*(int *)bss_8104 == 0x0) goto jmp_14aec;
-	local_2c = va(0x6c4c, *(int *)bss_7ff4);
+	if (bss_8104 == 0x0) goto jmp_14aec;
+	local_2c = va(0x6c4c, bss_7ff4);
 	trap_Cvar_Set(0x6c4f, local_2c);
 jmp_14aec:
 	CG_DrawActive(arg_1);
-	if (*(int *)bss_9208 == 0x0) goto jmp_14afe;
+	if (bss_9208 == 0x0) goto jmp_14afe;
 	CG_Printf(0x6c39, cg);
 jmp_14afe:
 }
@@ -25887,7 +26038,7 @@ void CG_MachineGunEjectBrass(int arg_0) {
 
 	arg_0 = arg_0;
 	local_6c = 0x3f800000;
-	if (*(int *)bss_aa78 > 0x0) goto jmp_14b0e;
+	if (bss_aa78 > 0x0) goto jmp_14b0e;
 	goto jmp_14cf1;
 jmp_14b0e:
 	local_70 = CG_AllocLocalEntity();
@@ -25901,7 +26052,7 @@ jmp_14b0e:
 	*(int *)(local_10 + 0x8) = 0x3;
 	*(int *)(local_10 + 0x10) = bss_dc760;
 	*(int *)local_7c = rand();
-	*(int *)(local_10 + 0x14) = (int)((float)(*(int *)(local_10 + 0x10) + *(int *)bss_aa78) + ((float)(*(int *)bss_aa78 / 0x4) * ((float)(*(int *)local_7c & 0x7fff) / 0x46fffe00)));
+	*(int *)(local_10 + 0x14) = (int)((float)(*(int *)(local_10 + 0x10) + bss_aa78) + ((float)(bss_aa78 / 0x4) * ((float)(*(int *)local_7c & 0x7fff) / 0x46fffe00)));
 	*(int *)(local_10 + 0x20) = 0x5;
 	local_84 = rand();
 	*(int *)(local_10 + 0x24) = (bss_dc760 - (local_84 & 0xf));
@@ -25995,7 +26146,7 @@ void CG_ShotgunEjectBrass(int arg_0) {
 	int		local_9c;
 
 	arg_0 = arg_0;
-	if (*(int *)bss_aa78 > 0x0) goto jmp_14cfe;
+	if (bss_aa78 > 0x0) goto jmp_14cfe;
 	goto jmp_14f12;
 jmp_14cfe:
 	local_6c = 0x0;
@@ -26019,7 +26170,7 @@ jmp_14d57:
 	*(int *)(local_10 + 0x8) = 0x3;
 	*(int *)(local_10 + 0x10) = bss_dc760;
 	*(int *)local_80 = rand();
-	*(int *)(local_10 + 0x14) = (int)((float)(*(int *)(local_10 + 0x10) + (0x3 * *(int *)bss_aa78)) + ((float)*(int *)bss_aa78 * ((float)(*(int *)local_80 & 0x7fff) / 0x46fffe00)));
+	*(int *)(local_10 + 0x14) = (int)((float)(*(int *)(local_10 + 0x10) + (0x3 * bss_aa78)) + ((float)bss_aa78 * ((float)(*(int *)local_80 & 0x7fff) / 0x46fffe00)));
 	*(int *)(local_10 + 0x20) = 0x5;
 	*(int *)(local_10 + 0x24) = bss_dc760;
 	AnglesToAxis((arg_0 + 0x2c0), &local_14);
@@ -26138,7 +26289,7 @@ void CG_RailTrail(int arg_0, int arg_1, int arg_2) {
 	local_2c = (local_18 + 0x98);
 	*(int *)(local_18 + 0x8) = 0x6;
 	*(int *)(local_18 + 0x10) = bss_dc760;
-	*(int *)(local_18 + 0x14) = (int)((float)bss_dc760 + *(int *)bss_b1e4);
+	*(int *)(local_18 + 0x14) = (int)((float)bss_dc760 + bss_b1e4);
 	*(int *)(local_18 + 0x1c) = (0x3f800000 / (float)(*(int *)(local_18 + 0x14) - *(int *)(local_18 + 0x10)));
 	*(int *)(local_2c + 0x80) = ((float)bss_dc760 / 0x447a0000);
 	*(int *)local_2c = 0x4;
@@ -26178,7 +26329,7 @@ jmp_15000:
 	*(int *)(local_18 + 0x74) = (0x3f400000 * *(int *)(arg_0 + 0x54));
 	*(int *)(local_18 + 0x78) = 0x3f800000;
 	AxisClear((local_2c + 0x1c));
-	if (*(int *)bss_7cc8 == 0x0) goto jmp_15061;
+	if (bss_7cc8 == 0x0) goto jmp_15061;
 	local_244 = (local_2c + 0x4c);
 	*(int *)local_244 = (*(int *)local_244 - 0x41000000);
 	local_248 = (local_2c + 0x5c);
@@ -26313,7 +26464,7 @@ void CG_RocketTrail(int arg_0, int arg_1) {
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
-	if (*(int *)bss_7dd8 == 0x0) goto jmp_152c4;
+	if (bss_7dd8 == 0x0) goto jmp_152c4;
 	goto jmp_153aa;
 jmp_152c4:
 	*(int *)local_78 = 0x0;
@@ -26427,8 +26578,8 @@ void CG_PlasmaTrail(int arg_0, int arg_1) {
 	arg_1 = arg_1;
 	local_70 = 0x3f800000;
 	local_84 = 0x0;
-	if (*(int *)bss_7dd8 != local_84) goto jmp_153c1;
-	if (*(int *)bss_7aa8 == local_84) goto jmp_153c3;
+	if (bss_7dd8 != local_84) goto jmp_153c1;
+	if (bss_7aa8 == local_84) goto jmp_153c3;
 jmp_153c1:
 	goto jmp_15663;
 jmp_153c3:
@@ -26912,9 +27063,9 @@ void CG_RegisterItemVisuals(int arg_0) {
 
 	arg_0 = arg_0;
 	if (arg_0 < 0x0) goto jmp_15c2b;
-	if (arg_0 < *(int *)bg_numItems) goto jmp_15c38;
+	if (arg_0 < bg_numItems) goto jmp_15c38;
 jmp_15c2b:
-	CG_Error(0x6cee, arg_0, (*(int *)bg_numItems - 0x1));
+	CG_Error(0x6cee, arg_0, (bg_numItems - 0x1));
 jmp_15c38:
 	*(int *)local_18 = ((0x18 * arg_0) + 0xd2cc);
 	if (*(int *)*(int *)local_18 == 0x0) goto jmp_15c47;
@@ -27086,7 +27237,7 @@ void CG_LightningBolt(int arg_0, int arg_1) {
 jmp_15e1c:
 	memset(local_24, 0x0, 0x8c);
 	if (*(int *)arg_0 != bss_dc80c) goto jmp_15ec8;
-	if (*(int *)bss_7994 == 0x0) goto jmp_15ec8;
+	if (bss_7994 == 0x0) goto jmp_15ec8;
 	local_110 = 0x0;
 jmp_15e32:
 	local_124 = (local_110 << 0x2);
@@ -27098,7 +27249,7 @@ jmp_15e52:
 	local_120 = (local_120 + 0x43b40000);
 jmp_15e5c:
 	local_128 = (local_110 << 0x2);
-	*(int *)(local_128 + &local_114) = (*(int *)(local_128 + 0xdce64) + (local_120 * (0x3f800000 - *(int *)bss_7994)));
+	*(int *)(local_128 + &local_114) = (*(int *)(local_128 + 0xdce64) + (local_120 * (0x3f800000 - bss_7994)));
 	if (*(int *)((local_110 << 0x2) + &local_114) >= 0x0) goto jmp_15e8d;
 	local_12c = ((local_110 << 0x2) + &local_114);
 	*(int *)local_12c = (*(int *)local_12c + 0x43b40000);
@@ -27370,14 +27521,14 @@ jmp_161c4:
 	local_68 = (local_68 + (*(int *)(arg_0 + 0x20) * local_138));
 	*(int *)local_6c = (*(int *)local_6c + (*(int *)(arg_0 + 0x24) * local_138));
 	if (arg_1 == 0x0) goto jmp_16246;
-	if (*(int *)bss_a528 != 0x2) goto jmp_16246;
+	if (bss_a528 != 0x2) goto jmp_16246;
 	local_64 = (local_64 + (*(int *)(arg_0 + 0x28) * -local_13c));
 	local_68 = (local_68 + (*(int *)(arg_0 + 0x2c) * -local_13c));
 	*(int *)local_6c = (*(int *)local_6c + (*(int *)(arg_0 + 0x30) * -local_13c));
 	goto jmp_16275;
 jmp_16246:
 	if (arg_1 == 0x0) goto jmp_1624e;
-	if (*(int *)bss_a528 == 0x3) goto jmp_16275;
+	if (bss_a528 == 0x3) goto jmp_16275;
 jmp_1624e:
 	local_64 = (local_64 + (*(int *)(arg_0 + 0x28) * local_13c));
 	local_68 = (local_68 + (*(int *)(arg_0 + 0x2c) * local_13c));
@@ -27519,7 +27670,7 @@ jmp_164a4:
 	if (bss_dc778 == 0x0) goto jmp_164aa;
 	goto jmp_165f4;
 jmp_164aa:
-	if (*(int *)bss_a528 != 0x0) goto jmp_164e8;
+	if (bss_a528 != 0x0) goto jmp_164e8;
 	if ((bss_dc7e8 & 0x100) == 0x0) goto jmp_165f4;
 	block_copy(&bss_dcd0c, &local_c0, 0xc);
 	local_cc = 0xc1000000;
@@ -27532,8 +27683,8 @@ jmp_164e8:
 	if (bss_dec14 == 0x0) goto jmp_164ee;
 	goto jmp_165f4;
 jmp_164ee:
-	if (*(int *)bss_9ca8 <= 0x5a) goto jmp_164fd;
-	local_a4 = (0xbe4ccccd * (float)(*(int *)bss_9ca8 - 0x5a));
+	if (bss_9ca8 <= 0x5a) goto jmp_164fd;
+	local_a4 = (0xbe4ccccd * (float)(bss_9ca8 - 0x5a));
 	goto jmp_16500;
 jmp_164fd:
 	local_a4 = 0x0;
@@ -27543,18 +27694,18 @@ jmp_16500:
 	local_b8 = ((0x84 * *(int *)(arg_0 + 0x90)) + 0xeacc);
 	memset(&local_18, 0x0, 0x8c);
 	CG_CalculateWeaponPosition(&local_5c, local_ac);
-	local_5c = (local_5c + (bss_dcd18 * *(int *)bss_a854));
-	local_60 = (local_60 + (bss_dcd1c * *(int *)bss_a854));
-	local_64 = (local_64 + (bss_dcd20 * *(int *)bss_a854));
-	local_5c = (local_5c + (bss_dcd24 * *(int *)bss_a744));
-	local_60 = (local_60 + (bss_dcd28 * *(int *)bss_a744));
-	local_64 = (local_64 + (bss_dcd2c * *(int *)bss_a744));
-	local_5c = (local_5c + (bss_dcd30 * (*(int *)bss_a634 + local_a4)));
-	local_60 = (local_60 + (bss_dcd34 * (*(int *)bss_a634 + local_a4)));
-	local_64 = (local_64 + (bss_dcd38 * (*(int *)bss_a634 + local_a4)));
+	local_5c = (local_5c + (bss_dcd18 * bss_a854));
+	local_60 = (local_60 + (bss_dcd1c * bss_a854));
+	local_64 = (local_64 + (bss_dcd20 * bss_a854));
+	local_5c = (local_5c + (bss_dcd24 * bss_a744));
+	local_60 = (local_60 + (bss_dcd28 * bss_a744));
+	local_64 = (local_64 + (bss_dcd2c * bss_a744));
+	local_5c = (local_5c + (bss_dcd30 * (bss_a634 + local_a4)));
+	local_60 = (local_60 + (bss_dcd34 * (bss_a634 + local_a4)));
+	local_64 = (local_64 + (bss_dcd38 * (bss_a634 + local_a4)));
 	AnglesToAxis(local_ac, local_34);
-	if (*(int *)bss_a968 == 0x0) goto jmp_165a6;
-	local_c0 = *(int *)bss_a968;
+	if (bss_a968 == 0x0) goto jmp_165a6;
+	local_c0 = bss_a968;
 	local_78 = local_c0;
 	*(int *)local_68 = local_c0;
 	*(int *)local_7c = 0x0;
@@ -27597,10 +27748,10 @@ void CG_DrawWeaponSelect(void) {
 	int		local_44;
 	int		local_48;
 
-	if (*(int *)bss_dc838 > 0x0) goto jmp_165fd;
+	if (bss_dc838 > 0x0) goto jmp_165fd;
 	goto jmp_16716;
 jmp_165fd:
-	local_3c = CG_FadeColor(*(int *)bss_deaf4, 0x578);
+	local_3c = CG_FadeColor(bss_deaf4, 0x578);
 	local_30 = local_3c;
 	if (local_30 != 0x0) goto jmp_16610;
 	goto jmp_16716;
@@ -27707,7 +27858,7 @@ jmp_16744:
 	if ((*(int *)(bss_c2330 + 0x38) & 0x1000) == 0x0) goto jmp_1674f;
 	goto jmp_16791;
 jmp_1674f:
-	*(int *)bss_deaf4 = bss_dc760;
+	bss_deaf4 = bss_dc760;
 	local_10 = bss_dcc90;
 	local_c = 0x0;
 jmp_1675a:
@@ -27752,7 +27903,7 @@ jmp_1679a:
 	if ((*(int *)(bss_c2330 + 0x38) & 0x1000) == 0x0) goto jmp_167a5;
 	goto jmp_167e7;
 jmp_167a5:
-	*(int *)bss_deaf4 = bss_dc760;
+	bss_deaf4 = bss_dc760;
 	local_10 = bss_dcc90;
 	local_c = 0x0;
 jmp_167b0:
@@ -27804,7 +27955,7 @@ jmp_167fb:
 jmp_16814:
 	goto jmp_1682c;
 jmp_16816:
-	*(int *)bss_deaf4 = bss_dc760;
+	bss_deaf4 = bss_dc760;
 	if ((*(int *)(bss_c2330 + 0xec) & (0x1 << local_c)) != 0x0) goto jmp_16828;
 	goto jmp_1682c;
 jmp_16828:
@@ -27826,7 +27977,7 @@ void CG_OutOfAmmoChange(void) {
 	int		local_c;
 	int		local_10;
 
-	*(int *)bss_deaf4 = bss_dc760;
+	bss_deaf4 = bss_dc760;
 	local_c = 0xf;
 jmp_16836:
 	local_10 = CG_WeaponSelectable(local_c);
@@ -27897,7 +28048,7 @@ jmp_168d5:
 	trap_S_StartSound();
 jmp_1690b:
 	if (*(int *)(local_1c + 0x70) == 0x0) goto jmp_16920;
-	if (*(int *)bss_aa78 <= 0x0) goto jmp_16920;
+	if (bss_aa78 <= 0x0) goto jmp_16920;
 	(*(*(int *)(local_1c + 0x70)))(arg_0);
 jmp_16920:
 }
@@ -28000,7 +28151,7 @@ jmp_16980:
 	local_34 = 0x3f800000;
 	local_38 = 0x3f400000;
 	local_3c = 0x0;
-	if (*(int *)bss_7bb8 != 0x0) goto jmp_16ac7;
+	if (bss_7bb8 != 0x0) goto jmp_16ac7;
 	local_98 = arg_2;
 	local_9c = 0x41c00000;
 	local_a0 = arg_3;
@@ -28344,7 +28495,7 @@ void CG_ShotgunFire(int arg_0) {
 	local_38 = (*(int *)(arg_0 + 0x18) + local_38);
 	local_3c = (*(int *)(arg_0 + 0x1c) + local_3c);
 	local_40 = (*(int *)(arg_0 + 0x20) + local_40);
-	if (*(int *)bss_e66b4 == 0x3) goto jmp_16ea2;
+	if (bss_e66b4 == 0x3) goto jmp_16ea2;
 	local_64 = CG_PointContents((arg_0 + 0x18), 0x0);
 	*(int *)local_44 = local_64;
 	if ((*(int *)local_44 & 0x20) != 0x0) goto jmp_16ea2;
@@ -28459,7 +28610,7 @@ void CG_Tracer(int arg_0, int arg_1) {
 jmp_16f03:
 	*(int *)local_e0 = rand();
 	local_b8 = ((((float)(*(int *)local_e0 & 0x7fff) / 0x46fffe00) * (local_bc - 0x42700000)) + 0x42480000);
-	local_b4 = (local_b8 + *(int *)bss_a0e4);
+	local_b4 = (local_b8 + bss_a0e4);
 	if (local_b4 <= local_bc) goto jmp_16f27;
 	local_b4 = local_bc;
 jmp_16f27:
@@ -28480,43 +28631,43 @@ jmp_16f27:
 	local_7c = (local_7c + (bss_dcd34 * local_fc));
 	local_80 = (local_80 + (bss_dcd38 * -local_a8));
 	VectorNormalize(&local_78);
-	local_18 = (local_9c + (local_78 * *(int *)bss_a1f4));
-	local_1c = (local_a0 + (local_7c * *(int *)bss_a1f4));
-	local_20 = (local_a4 + (local_80 * *(int *)bss_a1f4));
+	local_18 = (local_9c + (local_78 * bss_a1f4));
+	local_1c = (local_a0 + (local_7c * bss_a1f4));
+	local_20 = (local_a4 + (local_80 * bss_a1f4));
 	local_24 = 0x0;
 	local_28 = 0x3f800000;
 	local_2c = 0xff;
 	local_2d = 0xff;
 	local_2e = 0xff;
 	local_2f = 0xff;
-	local_30 = (local_9c + (local_78 * -*(int *)bss_a1f4));
-	local_34 = (local_a0 + (local_7c * -*(int *)bss_a1f4));
-	local_38 = (local_a4 + (local_80 * -*(int *)bss_a1f4));
+	local_30 = (local_9c + (local_78 * -bss_a1f4));
+	local_34 = (local_a0 + (local_7c * -bss_a1f4));
+	local_38 = (local_a4 + (local_80 * -bss_a1f4));
 	local_3c = 0x3f800000;
 	local_40 = 0x0;
 	local_44 = 0xff;
 	local_45 = 0xff;
 	local_46 = 0xff;
 	local_47 = 0xff;
-	local_48 = (local_90 + (local_78 * -*(int *)bss_a1f4));
-	local_4c = (local_94 + (local_7c * -*(int *)bss_a1f4));
-	local_50 = (local_98 + (local_80 * -*(int *)bss_a1f4));
+	local_48 = (local_90 + (local_78 * -bss_a1f4));
+	local_4c = (local_94 + (local_7c * -bss_a1f4));
+	local_50 = (local_98 + (local_80 * -bss_a1f4));
 	local_54 = 0x3f800000;
 	local_58 = 0x3f800000;
 	local_5c = 0xff;
 	local_5d = 0xff;
 	local_5e = 0xff;
 	local_5f = 0xff;
-	local_60 = (local_90 + (local_78 * *(int *)bss_a1f4));
-	local_64 = (local_94 + (local_7c * *(int *)bss_a1f4));
-	local_68 = (local_98 + (local_80 * *(int *)bss_a1f4));
+	local_60 = (local_90 + (local_78 * bss_a1f4));
+	local_64 = (local_94 + (local_7c * bss_a1f4));
+	local_68 = (local_98 + (local_80 * bss_a1f4));
 	local_6c = 0x0;
 	local_70 = 0x0;
 	local_74 = 0xff;
 	local_75 = 0xff;
 	local_76 = 0xff;
 	local_77 = 0xff;
-	trap_R_AddPolyToScene(*(int *)bss_1041f8, 0x4, &local_18);
+	trap_R_AddPolyToScene(bss_1041f8, 0x4, &local_18);
 	local_100 = 0x3f000000;
 	local_c0 = (local_100 * (local_90 + local_9c));
 	local_c4 = (local_100 * (local_94 + local_a0));
@@ -28618,7 +28769,7 @@ void CG_Bullet(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4) {
 	int		local_80;
 
 	if (arg_1 < 0x0) goto jmp_1727e;
-	if (*(int *)bss_a304 <= 0x0) goto jmp_1727e;
+	if (bss_a304 <= 0x0) goto jmp_1727e;
 	local_70 = CG_CalcMuzzlePoint(arg_1, local_24);
 	if (local_70 == 0x0) goto jmp_1727e;
 	local_74 = CG_PointContents(local_24, 0x0);
@@ -28657,7 +28808,7 @@ jmp_17241:
 	CG_BubbleTrail(local_44, arg_0, 0x42000000);
 jmp_17268:
 	local_80 = rand();
-	if (((float)(local_80 & 0x7fff) / 0x46fffe00) >= *(int *)bss_a304) goto jmp_1727e;
+	if (((float)(local_80 & 0x7fff) / 0x46fffe00) >= bss_a304) goto jmp_1727e;
 	CG_Tracer(local_24, arg_0);
 jmp_1727e:
 	if (arg_3 == 0x0) goto jmp_1728d;
@@ -30425,7 +30576,7 @@ void AngleVectors(int arg_0, int arg_1, int arg_2, int arg_3) {
 	local_10 = sin(local_c);
 	bss_15d3d0 = local_10;
 	local_14 = cos(local_c);
-	*(int *)bss_15d3dc = local_14;
+	bss_15d3dc = local_14;
 	local_c = (0x3c8efa35 * *(int *)arg_0);
 	local_18 = sin(local_c);
 	bss_15d3cc = local_18;
@@ -30437,20 +30588,20 @@ void AngleVectors(int arg_0, int arg_1, int arg_2, int arg_3) {
 	local_24 = cos(local_c);
 	bss_15d3d4 = local_24;
 	if (arg_1 == 0x0) goto jmp_18657;
-	*(int *)arg_1 = (bss_15d3d8 * *(int *)bss_15d3dc);
+	*(int *)arg_1 = (bss_15d3d8 * bss_15d3dc);
 	*(int *)(arg_1 + 0x4) = (bss_15d3d8 * bss_15d3d0);
 	*(int *)(arg_1 + 0x8) = -bss_15d3cc;
 jmp_18657:
 	if (arg_2 == 0x0) goto jmp_1869e;
 	local_28 = 0xbf800000;
-	*(int *)arg_2 = ((((local_28 * bss_15d3c8) * bss_15d3cc) * *(int *)bss_15d3dc) + ((local_28 * bss_15d3d4) * -bss_15d3d0));
+	*(int *)arg_2 = ((((local_28 * bss_15d3c8) * bss_15d3cc) * bss_15d3dc) + ((local_28 * bss_15d3d4) * -bss_15d3d0));
 	local_2c = 0xbf800000;
-	*(int *)(arg_2 + 0x4) = ((((local_2c * bss_15d3c8) * bss_15d3cc) * bss_15d3d0) + ((local_2c * bss_15d3d4) * *(int *)bss_15d3dc));
+	*(int *)(arg_2 + 0x4) = ((((local_2c * bss_15d3c8) * bss_15d3cc) * bss_15d3d0) + ((local_2c * bss_15d3d4) * bss_15d3dc));
 	*(int *)(arg_2 + 0x8) = ((0xbf800000 * bss_15d3c8) * bss_15d3d8);
 jmp_1869e:
 	if (arg_3 == 0x0) goto jmp_186d3;
-	*(int *)arg_3 = (((bss_15d3d4 * bss_15d3cc) * *(int *)bss_15d3dc) + (-bss_15d3c8 * -bss_15d3d0));
-	*(int *)(arg_3 + 0x4) = (((bss_15d3d4 * bss_15d3cc) * bss_15d3d0) + (-bss_15d3c8 * *(int *)bss_15d3dc));
+	*(int *)arg_3 = (((bss_15d3d4 * bss_15d3cc) * bss_15d3dc) + (-bss_15d3c8 * -bss_15d3d0));
+	*(int *)(arg_3 + 0x4) = (((bss_15d3d4 * bss_15d3cc) * bss_15d3d0) + (-bss_15d3c8 * bss_15d3dc));
 	*(int *)(arg_3 + 0x8) = (bss_15d3d4 * bss_15d3d8);
 jmp_186d3:
 }
@@ -32205,7 +32356,7 @@ jmp_1952d:
 	if ((char)*(char *)arg_0 != 0x5c) goto jmp_19504;
 	*(char *)local_10 = 0x0;
 	arg_0 = (arg_0 + 0x1);
-	local_10 = ((*(int *)global_2658 << 0xd) + 0x16ede0);
+	local_10 = ((global_2658 << 0xd) + 0x16ede0);
 	goto jmp_19566;
 jmp_19547:
 	local_2020 = local_10;
@@ -32222,7 +32373,7 @@ jmp_19574:
 	*(char *)local_10 = 0x0;
 	local_2024 = Q_stricmp(arg_1, local_14);
 	if (local_2024 != 0x0) goto jmp_1958e;
-	return ((*(int *)global_2658 << 0xd) + 0x16ede0);
+	return ((global_2658 << 0xd) + 0x16ede0);
 jmp_1958e:
 	if ((char)*(char *)arg_0 != 0x0) goto jmp_19596;
 	goto jmp_1959e;
