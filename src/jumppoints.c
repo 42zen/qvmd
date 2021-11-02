@@ -26,17 +26,12 @@ qvm_jumppoint_t *jumppoint_new(void)
 
 qvm_jumppoint_t *jumppoint_find(qvm_t *qvm, unsigned int address)
 {
-    qvm_jumppoint_t *jmp = qvm->jumppoints;
+    qvm_jumppoint_t *jmp;
 
-    // browse all jumppoints
-    while (jmp) {
-        // check if this is the same address
+    // find the jumppoint that have the same address
+    for (jmp = qvm->jumppoints; jmp; jmp = jmp->next)
         if (jmp->address == address)
             return jmp;
-
-        // got to the next jumppoint
-        jmp = jmp->next;
-    }
 
     // we didn't find it
     return NULL;

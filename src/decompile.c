@@ -56,11 +56,8 @@ static void qvm_decompile_globals(qvm_t *qvm, file_t *file)
     qvm_variable_t      *var;
     qvm_function_list_t *list;
 
-    // get the variables list
-    var = qvm->globals;
-
     // browse all variables
-    while (var) {
+    for (var = qvm->globals; var; var = var->next) {
         // print variable type
         if (var->size == 4)
             file_print(file, "int\t\t");
@@ -97,21 +94,16 @@ static void qvm_decompile_globals(qvm_t *qvm, file_t *file)
         file_print(file, ";");
 
         // print the variable 'used by' comments
-        list = var->parents;
-        if (list)
+        if (var->parents)
             file_print(file, " // Used by: ");
-        while (list) {
+        for (list = var->parents; list; list = list->next) {
             if (list != var->parents)
                 file_print(file, ", ");
             file_print(file, "%s", list->function->name);
-            list = list->next;
         }
 
         // go to the next line
         file_print(file, "\n");
-
-        // go to the next variable
-        var = var->next;
     }
     
     // print an end of line after all the variables
@@ -163,26 +155,22 @@ static void qvm_decompile_function_header(file_t *file, qvm_function_t *func)
 
     // print function calls
     if (func->calls) {
-        list = func->calls;
         file_print(file, "Calls: ");
-        while (list) {
+        for (list = func->calls; list; list = list->next) {
             if (list != func->calls)
                 file_print(file, ", ");
             file_print(file, "%s", list->function->name);
-            list = list->next;
         }
         file_print(file, "\n");
     }
 
     // print function called by
     if (func->called_by) {
-        list = func->called_by;
         file_print(file, "Called by: ");
-        while (list) {
+        for (list = func->called_by; list; list = list->next) {
             if (list != func->called_by)
                 file_print(file, ", ");
             file_print(file, "%s", list->function->name);
-            list = list->next;
         }
         file_print(file, "\n");
     }
@@ -235,8 +223,7 @@ static void qvm_decompile_function_locals(file_t *file, qvm_function_t *func)
     qvm_variable_t  *var;
 
     // print all locals
-    var = func->locals;
-    while (var && var->address < func->stack_size) {
+    for (var = func->locals; var && var->address < func->stack_size; var = var->next) {
         if (var->size == 4)
             file_print(file, "\tint\t\t%s;\n", var->name);
         else if (var->size == 2)
@@ -245,7 +232,6 @@ static void qvm_decompile_function_locals(file_t *file, qvm_function_t *func)
             file_print(file, "\tchar\t%s;\n", var->name);
         else
             file_print(file, "\tchar\t%s[%u];\n", var->name, var->size);
-        var = var->next;
     }
 
     // print an end of line after the variables

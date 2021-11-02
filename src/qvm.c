@@ -705,17 +705,12 @@ static int qvm_load_variables(qvm_t *qvm)
 
 static int qvm_load_variables_usage(qvm_t *qvm)
 {
-    qvm_opblock_t   *opb = qvm->opblocks;
+    qvm_opblock_t   *opb;
 
-    // search in all opblocks
-    while (opb) {
-        // load all variables from opblocks
+    // load all variables from opblocks
+    for (opb = qvm->opblocks; opb; opb = opb->next)
         if (!opb_load_variables(qvm, opb))
             return 0;
-
-        // go to the next opblock
-        opb = opb->next;
-    }
 
     return 1;
 }
@@ -742,19 +737,13 @@ static void qvm_load_variables_globals_size(qvm_t *qvm)
 {
     qvm_variable_t  *var;
     
-    // get the globals list
-    var = qvm->globals;
-
     // browse all globals
-    while (var) {
+    for (var = qvm->globals; var; var = var->next) {
         // set the global size
         if (var->next)
             var->size = var->next->address - var->address;
         else
             var->size = (qvm->sections[S_DATA].length + qvm->sections[S_LIT].length + qvm->sections[S_BSS].length) - var->address;
-
-        // go to the next global
-        var = var->next;
     }
 }
 
@@ -768,23 +757,17 @@ static void qvm_load_variables_locals_size(qvm_t *qvm)
         // get the current function
         func = &qvm->functions[i];
 
-        // get the function locals list
-        var = func->locals;
-
         // search in all locals variable
-        while (var && var->address < func->stack_size) {
+        for (var = func->locals; var && var->address < func->stack_size; var = var->next) {
             if (var->next && var->next->address < func->stack_size)
                 var->size = var->next->address - var->address;
             else
                 var->size = func->stack_size - var->address;
-            var = var->next;
         }
 
         // set default args size
-        while (var) {
+        for (; var; var = var->next)
             var->size = 4;
-            var = var->next;
-        }
     }
 }
 
@@ -793,11 +776,8 @@ static int qvm_load_variables_map(qvm_t *qvm)
     qvm_map_t       *map;
     qvm_variable_t  *var;
 
-    // get the map entry list
-    map = qvm->map;
-
     // browse all map entry
-    while (map) {
+    for (map = qvm->map; map; map = map->next) {
         // check the section of the map entry
         switch (map->section_id) {
             // if the section is not part of data
@@ -814,9 +794,6 @@ static int qvm_load_variables_map(qvm_t *qvm)
                 var_rename(var, map->name);
                 break;
         }
-
-        // go to the next map entry
-        map = map->next;
     }
 
     // success
@@ -864,8 +841,7 @@ static int qvm_load_returns(qvm_t *qvm)
         jmp = func->opblock_end->prev->prev->jumppoint;
 
         // browse all function opblocks
-        opb = func->opblock_start;
-        while (opb && opb != func->opblock_end) {
+        for (opb = func->opblock_start; opb && opb != func->opblock_end; opb = opb->next)
             if (opb->info->id == OPB_FUNC_RETURN)
                 if (opb->next && opb->next->info->id == OPB_JUMP)
                     if (opb->next->jumppoint == jmp) {
@@ -882,8 +858,6 @@ static int qvm_load_returns(qvm_t *qvm)
                             jumppoints_removed++;
                         }
                     }
-            opb = opb->next;
-        }
     }
 
     printf("Success: %i returns corrected and %i jumppoints removed.\n", returns_corrected, jumppoints_removed);

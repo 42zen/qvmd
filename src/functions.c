@@ -42,7 +42,7 @@ static qvm_function_t *func_new(void)
 
 qvm_function_t *func_find(qvm_t *qvm, unsigned int address)
 {
-    qvm_function_t  *sysc = qvm->syscalls;
+    qvm_function_t  *sysc;
 
     // search for function
     for (unsigned int i = 0; i < qvm->functions_count; i++) {
@@ -51,11 +51,9 @@ qvm_function_t *func_find(qvm_t *qvm, unsigned int address)
     }
 
     // search for syscall
-    while (sysc) {
+    for (sysc = qvm->syscalls; sysc; sysc = sysc->next)
         if (sysc->address == address)
             return sysc;
-        sysc = sysc->next;
-    }
 
     // we didn't find it
     return NULL;
@@ -127,11 +125,9 @@ static qvm_function_list_t *func_list_new(void)
 qvm_function_list_t *func_list_find(qvm_function_list_t *list, qvm_function_t *func)
 {
     // search in the list
-    while (list) {
+    for (; list; list = list->next)
         if (list->function == func)
             return list;
-        list = list->next;
-    }
 
     // we didn't find it
     return NULL;

@@ -57,15 +57,10 @@ qvm_variable_t *var_get(qvm_t *qvm, qvm_function_t *function, unsigned int addre
 
 qvm_variable_t *var_find(qvm_variable_t *list, unsigned int address)
 {
-    // browse the variables list given
-    while (list) {
-        // check if the address is the same
+    // find the variable from address
+    for (; list; list = list->next)
         if (list->address == address)
             return list;
-
-        // go to the next variable
-        list = list->next;
-    }
 
     // we didn't find it
     return NULL;
@@ -76,7 +71,7 @@ static qvm_variable_t *var_find_prev(qvm_variable_t *list, unsigned int address)
     qvm_variable_t  *prev = NULL;
 
     // browse the variables list given
-    while (list) {
+    for (; list; list = list->next) {
         // if there is no previous variables
         if (!prev) {
             // check if the address is before the address wanted
@@ -91,9 +86,6 @@ static qvm_variable_t *var_find_prev(qvm_variable_t *list, unsigned int address)
         // check if the address is before the address wanted and
         if (list->address < address && list->address > prev->address)
             prev = list;
-
-        // go to the next variable
-        list = list->next;
     }
 
     // return the previous variable if any
@@ -182,11 +174,8 @@ qvm_variable_t *var_cut(qvm_t *qvm, qvm_function_t *function, unsigned int addre
     qvm_variable_t *var;
     qvm_variable_t *new_var;
 
-    // get the variables list
-    var = function ? function->locals : qvm->globals;
-
     // search the variable to cut
-    while (var) {
+    for (var = function ? function->locals : qvm->globals; var; var = var->next) {
         // check if the variable is already cut
         if (var->address == address)
             return var;
@@ -208,7 +197,6 @@ qvm_variable_t *var_cut(qvm_t *qvm, qvm_function_t *function, unsigned int addre
                 return new_var;
             }
         }
-        var = var->next;
     }
 
     // failure
