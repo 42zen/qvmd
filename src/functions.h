@@ -18,6 +18,7 @@ typedef struct qvm_function_s {
     qvm_function_t      *next;
     qvm_function_list_t *calls;
     qvm_function_list_t *called_by;
+    unsigned int        op_size;
 } qvm_function_t;
 
 typedef struct qvm_function_list_s {

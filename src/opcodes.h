@@ -82,6 +82,7 @@ typedef struct qvm_opcode_s {
     unsigned int        address;
     qvm_opcode_info_t   *info;
     int                 value;
+	qvm_opblock_t		*opblock;
 } qvm_opcode_t;
 
 qvm_opcode_info_t   qvm_opcodes_info[OP_MAX];

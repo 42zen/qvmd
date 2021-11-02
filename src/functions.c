@@ -21,6 +21,7 @@ void func_init(qvm_function_t *func)
     func->next = NULL;
     func->calls = NULL;
     func->called_by = NULL;
+    func->op_size = 0;
 }
 
 static qvm_function_t *func_new(void)

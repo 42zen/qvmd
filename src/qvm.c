@@ -300,6 +300,7 @@ static int qvm_load_opcodes(qvm_t *qvm)
         // parse the opcode
         qvm->opcodes[curr_instr].address = curr_instr;
         qvm->opcodes[curr_instr].info = &qvm_opcodes_info[ope];
+        qvm->opcodes[curr_instr].opblock = NULL;
 
         // parse the opcode parameters if any
         if (qvm->opcodes[curr_instr].info->param_size == 4)
@@ -330,10 +331,6 @@ static int qvm_load_functions(qvm_t *qvm)
         printf("Error: Couldn't allocate functions list.\n");
         return 0;
     }
-
-    // initialize all functions
-    for (unsigned int i = 0; i < qvm->functions_count; i++)
-        func_init(&qvm->functions[i]);
 
     // load the functions data
     qvm_load_functions_data(qvm);
@@ -371,12 +368,11 @@ static void qvm_load_functions_data(qvm_t *qvm)
 {
     unsigned int    curr_instr;
     unsigned int    func_count = -1;
+    qvm_opcode_t    *op;
+    qvm_function_t  *func = NULL;
 
     // browse all opcodes
     for (curr_instr = 0; curr_instr < qvm->header->instructions_count; curr_instr++) {
-        qvm_opcode_t    *op;
-        qvm_function_t  *func;
-
         // get the current opcode
         op = &qvm->opcodes[curr_instr];
 
@@ -386,19 +382,24 @@ static void qvm_load_functions_data(qvm_t *qvm)
             func = &qvm->functions[++func_count];
 
             // initialize the function
-            func->opblock_start = NULL;
-            func->opblock_end = NULL;
-            func->locals = NULL;
+            func_init(func);
 
-            // save the function infos
+            // set the function address
             func->address = curr_instr;
+
+            // set the function name
             if (!func->address)
                 sprintf(func->name, "vmMain");
             else
                 sprintf(func->name, "sub_%x", func->address);
+
+            // set the function stack size
             func->stack_size = op->value;
-            func->return_size = 0;
         }
+
+        // increase the function size if needed
+        if (func)
+            func->op_size++;
     }
 }
 
@@ -477,6 +478,7 @@ static int qvm_load_opblocks(qvm_t *qvm)
         // save the opblock infos
         opb->info = &qvm_opblocks_info[op->info->opblock_id];
         opb->opcode = op;
+        op->opblock = opb;
 
         // save the start address if needed
         if (address_start == (unsigned int)-1)
