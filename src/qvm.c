@@ -21,6 +21,7 @@ static void     qvm_load_variables_globals_size(qvm_t *qvm);
 static void     qvm_load_variables_locals_size(qvm_t *qvm);
 static int      qvm_load_variables_map(qvm_t *qvm);
 static int      qvm_load_variables_probs(qvm_t *qvm);
+static int      qvm_load_variables_literals(qvm_t *qvm);
 static int      qvm_load_returns(qvm_t *qvm);
 static int      qvm_load_calls(qvm_t *qvm);
 
@@ -202,7 +203,7 @@ int qvm_load_map(qvm_t *qvm, char *map_filename)
         }
 
         // check if name is only alphanum char
-        if (!str_is_print(line)) {
+        if (!str_is_print(line, strlen(line) + 1)) {
             printf("Warning: Line %i of map file was ignored: Invalid name.\n", line_count);
             continue;
         }
@@ -697,6 +698,10 @@ static int qvm_load_variables(qvm_t *qvm)
     if (!qvm_load_variables_map(qvm))
         return 0;
 
+    // find the alphanumeric literals
+    if (!qvm_load_variables_literals(qvm))
+        return 0;
+
     printf("Success: %i globals and %i locals found.\n", qvm->globals_count, qvm->locals_count);
 
     // success
@@ -809,6 +814,33 @@ static int qvm_load_variables_probs(qvm_t *qvm)
         if (var->size > 4 && var->prob_size[4])
             if (!var_cut(qvm, NULL, var->address + 4))
                 return 0;
+
+    // success
+    return 1;
+}
+
+static int qvm_load_variables_literals(qvm_t *qvm)
+{
+    qvm_variable_t  *var;
+
+    // find all alphanum literals
+    for (unsigned int lit_address = 0; lit_address < qvm->sections[S_LIT].length; lit_address++) {
+        if (str_is_print(qvm->sections[S_LIT].content + lit_address, qvm->sections[S_LIT].length - lit_address)) {
+            // cut the alphanum variable
+            if (!(var = var_cut(qvm, NULL, lit_address + qvm->sections[S_DATA].length)))
+                return 0;
+
+            // set the alphanum variable size
+            var->content = qvm->sections[S_LIT].content + lit_address;
+
+            // go to the next literal variable
+            lit_address += strlen(qvm->sections[S_LIT].content + lit_address);
+
+            // cut the end of the alphanum variable
+            if (!var_cut(qvm, NULL, lit_address + qvm->sections[S_DATA].length))
+                return 0;
+        }
+    }
 
     // success
     return 1;

@@ -1,6 +1,6 @@
 NAME = qvmd
 CC = gcc
-CCFLAGS = -Wall -Werror -Wextra
+CCFLAGS = #-Wall -Werror -Wextra
 
 SRC = src/qvmd.c \
       src/decompile.c \

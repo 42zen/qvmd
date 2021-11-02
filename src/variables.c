@@ -77,9 +77,6 @@ static qvm_variable_t *var_find_prev(qvm_variable_t *list, unsigned int address)
             // check if the address is before the address wanted
             if (list->address < address)
                 prev = list;
-
-            // go to the next variable
-            list = list->next;
             continue;
         }
 

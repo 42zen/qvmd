@@ -74,6 +74,7 @@ static void qvm_decompile_globals(qvm_t *qvm, file_t *file)
             file_print(file, "[%u]", var->size);
 
         // print variable content if needed
+        // TODO: Also print literals content
         if (var->address < qvm->sections[S_DATA].length) {
             file_print(file, " = ");
             if (var->size == 1)
