@@ -222,9 +222,9 @@ void opb_print(file_t *file, qvm_opblock_t *opb)
             break;
         case OPB_STRUCT_COPY:
             file_print(file, "block_copy(");
-            opb_print(file, opb->op2);
-            file_print(file, ", ");
             opb_print(file, opb->op1);
+            file_print(file, ", ");
+            opb_print(file, opb->op2);
             file_print(file, ", 0x%x)", opb->opcode->value);
             break;
         case OPB_OPERATION:
@@ -290,12 +290,18 @@ int opb_load_variables(qvm_t *qvm, qvm_opblock_t *opb)
         }
 
     // check if there is a constant or a local address loaded by block_copy opcode
-    if (opb->info->id == OPB_STRUCT_COPY)
+    if (opb->info->id == OPB_STRUCT_COPY) {
+        if (opb->op1->info->id == OPB_CONST) {
+            if (!(opb->op1->variable = var_get(qvm, NULL, opb->op1->opcode->value, 0, opb->function)))
+                return 0;
+            opb->op1->info = &qvm_opblocks_info[OPB_GLOBAL_ADR];
+        }
         if (opb->op2->info->id == OPB_CONST) {
             if (!(opb->op2->variable = var_get(qvm, NULL, opb->op2->opcode->value, 0, opb->function)))
                 return 0;
             opb->op2->info = &qvm_opblocks_info[OPB_GLOBAL_ADR];
         }
+    }
 
     // check if this is a local address
     if (opb->info->id == OPB_LOCAL_ADR)
