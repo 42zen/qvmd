@@ -28,7 +28,7 @@ typedef struct qvm_function_list_s {
 void                func_init(qvm_function_t *func);
 qvm_function_t      *func_find(qvm_t *qvm, unsigned int address);
 qvm_function_t      *func_add_syscall(qvm_t *qvm, unsigned int address);
-int                 func_rename(qvm_function_t *func, char *name);
+void                func_rename(qvm_function_t *func, char *name);
 qvm_function_list_t *func_list_add(qvm_function_list_t **list, qvm_function_t *func);
 
 #endif

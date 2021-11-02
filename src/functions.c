@@ -4,7 +4,7 @@ void                        func_init(qvm_function_t *func);
 static qvm_function_t       *func_new(void);
 qvm_function_t              *func_find(qvm_t *qvm, unsigned int address);
 qvm_function_t              *func_add_syscall(qvm_t *qvm, unsigned int address);
-int                         func_rename(qvm_function_t *func, char *name);
+void                        func_rename(qvm_function_t *func, char *name);
 static qvm_function_list_t  *func_list_new(void);
 static qvm_function_list_t  *func_list_find(qvm_function_list_t *list, qvm_function_t *func);
 qvm_function_list_t         *func_list_add(qvm_function_list_t **list, qvm_function_t *func);
@@ -88,19 +88,22 @@ qvm_function_t *func_add_syscall(qvm_t *qvm, unsigned int address)
     return func;
 }
 
-int func_rename(qvm_function_t *func, char *name)
+void func_rename(qvm_function_t *func, char *name)
 {
     // check the name size
     if (strlen(name) >= sizeof(func->name)) {
-        printf("Error: Couldn't rename function %s: Name too big.\n", func->name);
-        return 0;
+        printf("Warning: Couldn't rename function %s: Name too big.\n", func->name);
+        return;
+    }
+
+    // check the forbidden names
+    if (!strcmp(name, "block_copy")) {
+        printf("Warning: Couldn't rename function %s: Name '%s' is forbidden.\n", func->name, name);
+        return;
     }
 
     // rename the function
     sprintf(func->name, "%s", name);
-
-    // success
-    return 1;
 }
 
 static qvm_function_list_t *func_list_new(void)
