@@ -162,7 +162,8 @@ static void qvm_decompile_function_header(file_t *file, qvm_function_t *func)
     // print function stack size
     file_print(file, "Stack Size: 0x%x\n", func->stack_size);
 
-    // TODO: print function opcodes count
+    // print function opcodes count
+    file_print(file, "Opcodes Size: 0x%x\n", func->op_size);
 
     // TODO: print function opblocks count
 
