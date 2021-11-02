@@ -830,14 +830,14 @@ static int qvm_load_variables_literals(qvm_t *qvm)
             if (!(var = var_cut(qvm, NULL, lit_address + qvm->sections[S_DATA].length)))
                 return 0;
 
-            // set the alphanum variable size
-            var->content = qvm->sections[S_LIT].content + lit_address;
+            // set the alphanum variable status
+            var->status = VS_LITERAL_TEXT;
 
             // go to the next literal variable
             lit_address += strlen(qvm->sections[S_LIT].content + lit_address);
 
             // cut the end of the alphanum variable
-            if (!var_cut(qvm, NULL, lit_address + qvm->sections[S_DATA].length))
+            if (!(var = var_cut(qvm, NULL, lit_address + qvm->sections[S_DATA].length + 1)))
                 return 0;
         }
     }

@@ -73,9 +73,8 @@ static void qvm_decompile_globals(qvm_t *qvm, file_t *file)
         if (var->size > 4 || var->size < 1 || var->size == 3)
             file_print(file, "[%u]", var->size);
 
-        // print variable content if needed
-        // TODO: Also print literals content
-        if (var->address < qvm->sections[S_DATA].length) {
+        // print variables content if needed
+        if (var->status == VS_GLOBAL) {
             file_print(file, " = ");
             if (var->size == 1)
                 file_print(file, "%hhi", *var->content);
@@ -89,6 +88,21 @@ static void qvm_decompile_globals(qvm_t *qvm, file_t *file)
                     file_print(file, "\\x%02hhx", var->content[i]);
                 file_print(file, "\"");
             }
+        }
+        else if (var->status == VS_LITERAL_TEXT) {
+            file_print(file, " = \"");
+            for (unsigned int i = 0; i < var->size - 1; i++) {
+                if (var->content[i] == '\"' || var->content[i] == '\\')
+                    file_print(file, "\\");
+                file_print(file, "%c", var->content[i]);
+            }
+            file_print(file, "\"");
+        }
+        else if (var->status == VS_LITERAL) {
+            file_print(file, " = \"");
+            for (unsigned int i = 0; i < var->size; i++)
+                file_print(file, "\\x%02hhx", var->content[i]);
+            file_print(file, "\"");
         }
 
         // print a semicolon to end the line

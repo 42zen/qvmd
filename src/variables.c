@@ -105,24 +105,34 @@ static qvm_variable_t *var_create(qvm_t *qvm, qvm_function_t *function, unsigned
     // get the variables list
     list = function ? &function->locals : &qvm->globals;
 
-    // set the variable name
+    // set the variable name and status
     if (function) {
-        if (address >= function->stack_size)
+        if (address >= function->stack_size) {
             sprintf(var->name, "arg_%i", (address - function->stack_size - 8) / 4);
-        else
+            var->status = VS_ARG;
+        }
+        else {
             sprintf(var->name, "local_%x", address);
+            var->status = VS_LOCAL;
+        }
     }
     else {
-        if (address < qvm->sections[S_DATA].length)
+        if (address < qvm->sections[S_DATA].length) {
             sprintf(var->name, "global_%x", address);
-        else if (address < qvm->sections[S_DATA].length + qvm->sections[S_LIT].length)
+            var->status = VS_GLOBAL;
+        }
+        else if (address < qvm->sections[S_DATA].length + qvm->sections[S_LIT].length) {
             sprintf(var->name, "lit_%x", address);
-        else
+            var->status = VS_LITERAL;
+        }
+        else {
             sprintf(var->name, "bss_%x", address);
+            var->status = VS_BSS;
+        }
     }
 
     // set the variable content if needed
-    if (!function && address < qvm->sections[S_DATA].length)
+    if (!function && address < qvm->sections[S_DATA].length + qvm->sections[S_LIT].length)
         var->content = qvm->sections[S_DATA].content + address;
 
     // set the probable size
