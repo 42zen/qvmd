@@ -91,7 +91,9 @@ static void qvm_disassemble_function_code(qvm_t *qvm, file_t *file, qvm_function
         file_print(file, "0x%-6x %s", func->address + i, op->info->name);
 
         // print the opcode parameter if needed
-        if (op->info->param_size)
+        if (op->opblock->info->id == OPB_FUNC_CALL && op->opblock->function_called)
+            file_print(file, " %s", op->opblock->function_called->name);
+        else if (op->info->param_size)
             file_print(file, " 0x%x", op->value);
 
         // print the end of line
