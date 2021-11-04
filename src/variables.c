@@ -141,7 +141,7 @@ static qvm_variable_t *var_create(qvm_t *qvm, qvm_function_t *function, unsigned
 
     // count the locals and globals
     if (function)
-        qvm->locals_count++;
+        function->locals_count++;
     else
         qvm->globals_count++;
 

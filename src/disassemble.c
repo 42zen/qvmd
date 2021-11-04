@@ -67,11 +67,54 @@ static void qvm_disassemble_functions(qvm_t *qvm, file_t *file)
 
 static void qvm_disassemble_function_header(file_t *file, qvm_function_t *func)
 {
-    // print the function header
-    file_print(file, "/*\n=================\n%s\n=================\n*/\n", func->name);
+    qvm_function_list_t *list;
 
-    // print the function name
-    file_print(file, "%s:\n", func->name);
+    // print header format
+    file_print(file, "/*\n");
+    file_print(file, "=================\n");
+
+    // print function name
+    file_print(file, "%s\n\n", func->name);
+
+    // print function address
+    file_print(file, "Address: 0x%x\n", func->address);
+
+    // print function stack size
+    file_print(file, "Stack Size: 0x%x\n", func->stack_size);
+
+    // print function opcodes count
+    file_print(file, "Opcodes Size: 0x%x\n", func->op_size);
+
+    // TODO: print function opblocks count
+
+    // print function locals count
+    file_print(file, "Locals Count: %i\n\n", func->locals_count);
+
+    // print function calls
+    if (func->calls) {
+        file_print(file, "Calls: ");
+        for (list = func->calls; list; list = list->next) {
+            if (list != func->calls)
+                file_print(file, ", ");
+            file_print(file, "%s", list->function->name);
+        }
+        file_print(file, "\n");
+    }
+
+    // print function called by
+    if (func->called_by) {
+        file_print(file, "Called by: ");
+        for (list = func->called_by; list; list = list->next) {
+            if (list != func->called_by)
+                file_print(file, ", ");
+            file_print(file, "%s", list->function->name);
+        }
+        file_print(file, "\n");
+    }
+
+    // print header format
+    file_print(file, "=================\n");
+    file_print(file, "*/\n");
 }
 
 static void qvm_disassemble_function_code(qvm_t *qvm, file_t *file, qvm_function_t *func)

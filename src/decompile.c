@@ -167,7 +167,8 @@ static void qvm_decompile_function_header(file_t *file, qvm_function_t *func)
 
     // TODO: print function opblocks count
 
-    // TODO: print function locals count
+    // print function locals count
+    file_print(file, "Locals Count: %i\n\n", func->locals_count);
 
     // print function calls
     if (func->calls) {
