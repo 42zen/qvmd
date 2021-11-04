@@ -32,7 +32,8 @@ qvm_opblock_info_t  qvm_opblocks_info[OPB_MAX] = {
 	{ OPB_OPERATION, OPB_F_STACK_POP | OPB_F_STACK_PUSH },
 	{ OPB_DOUBLE_OPERATION, OPB_F_STACK_2POP | OPB_F_STACK_PUSH },
 	{ OPB_JUMP_POINT, 0 },
-	{ OPB_JUMP_ADDRESS, OPB_F_STACK_PUSH }
+	{ OPB_JUMP_ADDRESS, OPB_F_STACK_PUSH },
+    { OPB_TYPE_CONVERSION, OPB_F_STACK_POP | OPB_F_STACK_PUSH }
 };
 
 qvm_opblock_t *opb_new(void)
@@ -228,6 +229,7 @@ void opb_print(file_t *file, qvm_opblock_t *opb)
             file_print(file, ", 0x%x)", opb->opcode->value);
             break;
         case OPB_OPERATION:
+        case OPB_TYPE_CONVERSION:
             file_print(file, "%s", opb->opcode->info->operation);
             opb_print(file, opb->child);
             break;

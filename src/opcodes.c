@@ -36,8 +36,8 @@ qvm_opcode_info_t   qvm_opcodes_info[OP_MAX] = {
 	{ OP_STORE4, "store4", 0, OPB_ASSIGNATION, NULL },
 	{ OP_ARG, "arg", 1, OPB_FUNC_ARG, NULL },
 	{ OP_BLOCK_COPY, "block_copy", 4, OPB_STRUCT_COPY, NULL },
-	{ OP_SEX8, "sex8", 0, OPB_OPERATION, "(char)" },
-	{ OP_SEX16, "sex16", 0, OPB_OPERATION, "(short)" },
+	{ OP_SEX8, "sex8", 0, OPB_TYPE_CONVERSION, "(char)" },
+	{ OP_SEX16, "sex16", 0, OPB_TYPE_CONVERSION, "(short)" },
 	{ OP_NEGI, "negi", 0, OPB_OPERATION, "-" },
 	{ OP_ADD, "add", 0, OPB_DOUBLE_OPERATION, "+" },
 	{ OP_SUB, "sub", 0, OPB_DOUBLE_OPERATION, "-" },
@@ -59,6 +59,6 @@ qvm_opcode_info_t   qvm_opcodes_info[OP_MAX] = {
 	{ OP_SUBF, "subf", 0, OPB_DOUBLE_OPERATION, "-" },
 	{ OP_DIVF, "divf", 0, OPB_DOUBLE_OPERATION, "/" },
 	{ OP_MULF, "mulf", 0, OPB_DOUBLE_OPERATION, "*" },
-	{ OP_CVIF, "cvif", 0, OPB_OPERATION, "(float)" },
-	{ OP_CVFI, "cvfi", 0, OPB_OPERATION, "(int)" }
+	{ OP_CVIF, "cvif", 0, OPB_TYPE_CONVERSION, "(float)" },
+	{ OP_CVFI, "cvfi", 0, OPB_TYPE_CONVERSION, "(int)" }
 };
