@@ -1954,6 +1954,7 @@ vmMain
 
 Address: 0x0
 Stack Size: 0x24
+Opcodes Size: 0x96
 Calls: BotAIStartFrame, ConsoleCommand, G_RunFrame, ClientCommand, ClientBegin, ClientDisconnect, ClientUserinfoChanged, ClientThink, ClientConnect, G_ShutdownGame, G_InitGame
 =================
 */
@@ -1999,6 +2000,7 @@ G_Printf
 
 Address: 0x96
 Stack Size: 0x41c
+Opcodes Size: 0x1b
 Calls: trap_Print, Q_vsnprintf
 Called by: G_AddEvent, G_Spawn, G_UseTargets, G_PickTarget, SP_func_timer, trigger_teleporter_touch, SP_trigger_multiple, Team_CaptureFlagSound, Team_TakeFlagSound, Team_ReturnFlagSound, SP_target_teleporter, target_teleporter_use, target_laser_start, Svcmd_ForceTeam_f, ClientForString, Svcmd_EntityList_f, Svcmd_RemoveIP_f, Svcmd_AddIP_f, AddIP, StringToFilter, G_CallSpawn, G_InitWorldSession, SP_func_train, SP_path_corner, Think_SetupTrainTargets, locateCamera, Svcmd_GameMem_f, G_Alloc, SaveRegisteredItems, G_CheckTeamItems, FinishSpawningItem, G_Damage, G_Say, G_AddBot, AddBotToSpawnQueue, SpawnModelOnVictoryPad, BotAI_Print, G_RunFrame, CheckExitRules, G_LogPrintf, G_ShutdownGame, G_InitGame, G_RegisterCvars, G_FindTeams
 =================
@@ -2019,6 +2021,7 @@ G_Error
 
 Address: 0xb1
 Stack Size: 0x41c
+Opcodes Size: 0x1b
 Calls: trap_Error, Q_vsnprintf
 Called by: G_Spawn, G_FindConfigstringIndex, PrintMsg, SP_target_speaker, G_SpawnEntitiesFromString, SP_worldspawn, G_ParseSpawnVars, G_AddSpawnVarToken, Reached_BinaryMover, G_TryPushingEntity, G_Alloc, RegisterItem, RespawnItem, Cmd_FollowCycle_f, SelectRandomFurthestSpawnPoint, BotAI_Print, G_RunThink
 =================
@@ -2039,6 +2042,7 @@ G_FindTeams
 
 Address: 0xcc
 Stack Size: 0x4c
+Opcodes Size: 0x10f
 Calls: G_Printf, strcmp
 Called by: G_InitGame
 =================
@@ -2124,6 +2128,7 @@ G_RemapTeamShaders
 
 Address: 0x1db
 Stack Size: 0x8
+Opcodes Size: 0x3
 Called by: G_InitGame, G_UpdateCvars, G_RegisterCvars
 =================
 */
@@ -2137,6 +2142,7 @@ G_RegisterCvars
 
 Address: 0x1de
 Stack Size: 0x2c
+Opcodes Size: 0x79
 Calls: trap_Cvar_Update, trap_Cvar_Set, trap_Cvar_Register, G_Printf, G_RemapTeamShaders
 Called by: G_InitGame
 =================
@@ -2181,6 +2187,7 @@ G_UpdateCvars
 
 Address: 0x257
 Stack Size: 0x30
+Opcodes Size: 0x74
 Calls: trap_SendServerCommand, trap_Cvar_Update, G_RemapTeamShaders, va
 Called by: G_RunFrame
 =================
@@ -2222,6 +2229,7 @@ G_InitGame
 
 Address: 0x2cb
 Stack Size: 0x424
+Opcodes Size: 0x141
 Calls: trap_SetConfigstring, trap_Cvar_VariableIntegerValue, trap_LocateGameData, trap_GetServerinfo, trap_FS_FOpenFile, memset, G_RemapTeamShaders, G_InitBots, BotAILoadMap, BotAISetup, G_ModelIndex, SaveRegisteredItems, G_CheckTeamItems, G_FindTeams, G_SpawnEntitiesFromString, ClearRegisteredItems, InitBodyQue, G_InitWorldSession, G_LogPrintf, G_SoundIndex, G_InitMemory, G_ProcessIPBans, G_RegisterCvars, srand, G_Printf
 Called by: vmMain
 =================
@@ -2314,6 +2322,7 @@ G_ShutdownGame
 
 Address: 0x40c
 Stack Size: 0x10
+Opcodes Size: 0x32
 Calls: trap_Cvar_VariableIntegerValue, trap_FS_FCloseFile, BotAIShutdown, G_WriteSessionData, G_LogPrintf, G_Printf
 Called by: vmMain
 =================
@@ -2341,6 +2350,7 @@ Com_Error
 
 Address: 0x43e
 Stack Size: 0x41c
+Opcodes Size: 0x1b
 Calls: trap_Error, Q_vsnprintf
 Called by: Info_SetValueForKey_Big, Info_SetValueForKey, Info_RemoveKey_Big, Info_RemoveKey, Info_ValueForKey, Q_strcat, Q_strncpyz, COM_MatchToken, BG_EvaluateTrajectoryDelta, BG_EvaluateTrajectory, BG_CanItemBeGrabbed, BG_FindItemForWeapon, BG_FindItemForHoldable
 =================
@@ -2361,6 +2371,7 @@ Com_Printf
 
 Address: 0x459
 Stack Size: 0x41c
+Opcodes Size: 0x1b
 Calls: trap_Print, Q_vsnprintf
 Called by: Info_SetValueForKey_Big, Info_SetValueForKey, Com_sprintf, COM_ParseWarning, COM_ParseError, ClientForString, UpdateIPBans, G_ParseInfos, PM_StepSlideMove, PM_GroundTrace, PM_GroundTraceMissed, PM_CorrectAllSolid
 =================
@@ -2381,6 +2392,7 @@ AddTournamentPlayer
 
 Address: 0x474
 Stack Size: 0x28
+Opcodes Size: 0x7f
 Calls: SetTeam
 Called by: CheckTournament
 =================
@@ -2436,6 +2448,7 @@ AddTournamentQueue
 
 Address: 0x4f3
 Stack Size: 0x14
+Opcodes Size: 0x49
 Called by: G_InitSessionData, SetTeam
 =================
 */
@@ -2469,6 +2482,7 @@ RemoveTournamentLoser
 
 Address: 0x53c
 Stack Size: 0x14
+Opcodes Size: 0x27
 Calls: SetTeam
 Called by: ExitLevel
 =================
@@ -2493,6 +2507,7 @@ RemoveTournamentWinner
 
 Address: 0x563
 Stack Size: 0x14
+Opcodes Size: 0x27
 Calls: SetTeam
 =================
 */
@@ -2516,6 +2531,7 @@ AdjustTournamentScores
 
 Address: 0x58a
 Stack Size: 0x14
+Opcodes Size: 0x55
 Calls: ClientUserinfoChanged
 Called by: BeginIntermission
 =================
@@ -2544,6 +2560,7 @@ SortRanks
 
 Address: 0x5df
 Stack Size: 0x30
+Opcodes Size: 0xde
 =================
 */
 int SortRanks(int arg_0, int arg_1) {
@@ -2613,6 +2630,7 @@ CalculateRanks
 
 Address: 0x6bd
 Stack Size: 0x44
+Opcodes Size: 0x280
 Calls: trap_SetConfigstring, SendScoreboardMessageToAllClients, CheckExitRules, va, qsort
 Called by: Team_TouchOurFlag, AddScore, ClientDisconnect, ClientBegin, ClientConnect, UpdateTournamentInfo
 =================
@@ -2764,6 +2782,7 @@ SendScoreboardMessageToAllClients
 
 Address: 0x93d
 Stack Size: 0x10
+Opcodes Size: 0x29
 Calls: DeathmatchScoreboardMessage
 Called by: BeginIntermission, CalculateRanks
 =================
@@ -2788,6 +2807,7 @@ MoveClientToIntermission
 
 Address: 0x966
 Stack Size: 0x14
+Opcodes Size: 0x77
 Calls: memset, FindIntermissionPoint, StopFollowing
 Called by: ClientSpawn, BeginIntermission
 =================
@@ -2819,6 +2839,7 @@ FindIntermissionPoint
 
 Address: 0x9dd
 Stack Size: 0x38
+Opcodes Size: 0x70
 Calls: vectoangles, G_PickTarget, SelectSpawnPoint, G_Find
 Called by: SelectSpectatorSpawnPoint, MoveClientToIntermission
 =================
@@ -2859,6 +2880,7 @@ BeginIntermission
 
 Address: 0xa4d
 Stack Size: 0x14
+Opcodes Size: 0x55
 Calls: SendScoreboardMessageToAllClients, SpawnModelsOnVictoryPads, UpdateTournamentInfo, MoveClientToIntermission, ClientRespawn, AdjustTournamentScores
 Called by: Cmd_LevelShot_f, CheckExitRules
 =================
@@ -2903,6 +2925,7 @@ ExitLevel
 
 Address: 0xaa2
 Stack Size: 0x824
+Opcodes Size: 0xc2
 Calls: trap_Cvar_Set, trap_Cvar_VariableStringBuffer, trap_SendConsoleCommand, G_WriteSessionData, Q_stricmp, RemoveTournamentLoser, BotInterbreedEndMatch
 Called by: BotInterbreeding, CheckIntermissionExit
 =================
@@ -2972,6 +2995,7 @@ G_LogPrintf
 
 Address: 0xb64
 Stack Size: 0x44c
+Opcodes Size: 0x7b
 Calls: trap_FS_Write, strlen, G_Printf, Q_vsnprintf, Com_sprintf
 Called by: SP_worldspawn, Touch_Item, player_die, Cmd_GameCommand_f, Cmd_Tell_f, G_Say, ClientDisconnect, ClientBegin, ClientConnect, ClientUserinfoChanged, CheckTournament, LogExit, G_ShutdownGame, G_InitGame
 =================
@@ -3015,6 +3039,7 @@ LogExit
 
 Address: 0xbdf
 Stack Size: 0x34
+Opcodes Size: 0x92
 Calls: trap_SetConfigstring, G_LogPrintf
 Called by: CheckExitRules
 =================
@@ -3066,6 +3091,7 @@ CheckIntermissionExit
 
 Address: 0xc71
 Stack Size: 0x24
+Opcodes Size: 0xd3
 Calls: ExitLevel
 Called by: CheckExitRules
 =================
@@ -3150,6 +3176,7 @@ ScoreIsTied
 
 Address: 0xd44
 Stack Size: 0x20
+Opcodes Size: 0x57
 Called by: CheckExitRules
 =================
 */
@@ -3193,6 +3220,7 @@ CheckExitRules
 
 Address: 0xd9b
 Stack Size: 0x24
+Opcodes Size: 0x141
 Calls: trap_SendServerCommand, trap_Cvar_Update, trap_Cvar_Set, va, LogExit, G_Printf, ScoreIsTied, BeginIntermission, CheckIntermissionExit
 Called by: G_RunFrame, CalculateRanks
 =================
@@ -3294,6 +3322,7 @@ CheckTournament
 
 Address: 0xedc
 Stack Size: 0x30
+Opcodes Size: 0x166
 Calls: trap_SendConsoleCommand, trap_Cvar_Set, trap_SetConfigstring, TeamCount, G_LogPrintf, va, AddTournamentPlayer
 Called by: G_RunFrame
 =================
@@ -3409,6 +3438,7 @@ CheckVote
 
 Address: 0x1042
 Stack Size: 0x14
+Opcodes Size: 0x63
 Calls: trap_SetConfigstring, trap_SendServerCommand, trap_SendConsoleCommand, va
 Called by: G_RunFrame
 =================
@@ -3448,6 +3478,7 @@ PrintTeam
 
 Address: 0x10a5
 Stack Size: 0x14
+Opcodes Size: 0x33
 Calls: trap_SendServerCommand
 Called by: SetLeader
 =================
@@ -3476,6 +3507,7 @@ SetLeader
 
 Address: 0x10d8
 Stack Size: 0x18
+Opcodes Size: 0xc0
 Calls: ClientUserinfoChanged, PrintTeam, va
 Called by: SetTeam, CheckTeamVote
 =================
@@ -3522,6 +3554,7 @@ CheckTeamLeader
 
 Address: 0x1198
 Stack Size: 0xc
+Opcodes Size: 0xa1
 Called by: SetTeam
 =================
 */
@@ -3579,6 +3612,7 @@ CheckTeamVote
 
 Address: 0x1239
 Stack Size: 0x28
+Opcodes Size: 0xc3
 Calls: trap_SetConfigstring, trap_SendConsoleCommand, trap_SendServerCommand, va, SetLeader, atoi, Q_strncmp
 Called by: G_RunFrame
 =================
@@ -3634,6 +3668,7 @@ CheckCvars
 
 Address: 0x12fc
 Stack Size: 0x14
+Opcodes Size: 0x2d
 Calls: trap_Cvar_Set, Q_stricmp
 Called by: G_RunFrame
 =================
@@ -3659,6 +3694,7 @@ G_RunThink
 
 Address: 0x1329
 Stack Size: 0x14
+Opcodes Size: 0x37
 Calls: G_Error
 Called by: G_RunMover, G_RunMissile, G_RunItem, G_RunFrame
 =================
@@ -3688,6 +3724,7 @@ G_RunFrame
 
 Address: 0x1360
 Stack Size: 0x30
+Opcodes Size: 0x15a
 Calls: trap_Cvar_Set, trap_UnlinkEntity, G_Printf, CheckCvars, CheckTeamVote, CheckVote, CheckTeamStatus, CheckExitRules, CheckTournament, ClientEndFrame, G_RunThink, G_RunClient, G_RunMover, G_RunItem, G_RunMissile, G_FreeEntity, G_UpdateCvars
 Called by: vmMain
 =================
@@ -3795,6 +3832,7 @@ BotNumActivePlayers
 
 Address: 0x14ba
 Stack Size: 0x434
+Opcodes Size: 0x64
 Calls: trap_GetConfigstring, atoi, Info_ValueForKey, strlen
 Called by: BotChat_Random, BotChat_HitNoKill, BotChat_HitNoDeath, BotChat_HitTalking, BotChat_EnemySuicide, BotChat_Kill, BotChat_Death, BotChat_EndLevel, BotChat_StartLevel, BotChat_ExitGame, BotChat_EnterGame
 =================
@@ -3843,6 +3881,7 @@ BotIsFirstInRankings
 
 Address: 0x151e
 Stack Size: 0x608
+Opcodes Size: 0x72
 Calls: trap_GetConfigstring, BotAI_GetClientState, atoi, Info_ValueForKey, strlen
 Called by: BotChat_EndLevel
 =================
@@ -3895,6 +3934,7 @@ BotIsLastInRankings
 
 Address: 0x1590
 Stack Size: 0x608
+Opcodes Size: 0x72
 Calls: trap_GetConfigstring, BotAI_GetClientState, atoi, Info_ValueForKey, strlen
 Called by: BotChat_EndLevel
 =================
@@ -3947,6 +3987,7 @@ BotFirstClientInRankings
 
 Address: 0x1602
 Stack Size: 0x610
+Opcodes Size: 0x84
 Calls: trap_GetConfigstring, EasyClientName, BotAI_GetClientState, atoi, Info_ValueForKey, strlen
 Called by: BotChatTest, BotChat_EndLevel
 =================
@@ -4005,6 +4046,7 @@ BotLastClientInRankings
 
 Address: 0x1686
 Stack Size: 0x610
+Opcodes Size: 0x84
 Calls: trap_GetConfigstring, EasyClientName, BotAI_GetClientState, atoi, Info_ValueForKey, strlen
 Called by: BotChatTest, BotChat_EndLevel
 =================
@@ -4063,6 +4105,7 @@ BotRandomOpponentName
 
 Address: 0x170a
 Stack Size: 0x53c
+Opcodes Size: 0xd7
 Calls: trap_GetConfigstring, EasyClientName, rand, BotSameTeam, atoi, Info_ValueForKey, strlen
 Called by: BotChatTest, BotChat_Random, BotChat_Death, BotChat_EndLevel, BotChat_ExitGame, BotChat_EnterGame
 =================
@@ -4138,6 +4181,7 @@ BotMapTitle
 
 Address: 0x17e1
 Stack Size: 0x418
+Opcodes Size: 0x21
 Calls: strncpy, trap_GetServerinfo, Info_ValueForKey
 Called by: BotChatTest, BotChat_Random, BotChat_EndLevel, BotChat_ExitGame, BotChat_EnterGame
 =================
@@ -4159,6 +4203,7 @@ BotWeaponNameForMeansOfDeath
 
 Address: 0x1802
 Stack Size: 0xc
+Opcodes Size: 0x41
 Called by: BotChatTest, BotChat_HitNoKill, BotChat_HitNoDeath, BotChat_HitTalking, BotChat_Death
 =================
 */
@@ -4189,6 +4234,7 @@ BotRandomWeaponName
 
 Address: 0x1843
 Stack Size: 0x14
+Opcodes Size: 0x49
 Calls: rand
 Called by: BotChatTest, BotChat_Random
 =================
@@ -4222,6 +4268,7 @@ BotVisibleEnemies
 
 Address: 0x188c
 Stack Size: 0xc8
+Opcodes Size: 0x8d
 Calls: BotEntityVisible, BotSameTeam, EntityIsShooting, EntityIsInvisible, EntityIsDead, BotEntityInfo
 Called by: BotChat_Random, BotChat_HitNoKill, BotChat_HitNoDeath, BotChat_EnemySuicide, BotChat_Kill
 =================
@@ -4279,6 +4326,7 @@ BotValidChatPosition
 
 Address: 0x1919
 Stack Size: 0xcc
+Opcodes Size: 0xd3
 Calls: trap_AAS_PresenceTypeBoundingBox, trap_PointContents, BotAI_Trace, BotIsDead
 Called by: BotCheckConsoleMessages, BotChat_Random, BotChat_HitNoKill, BotChat_HitNoDeath, BotChat_HitTalking, BotChat_EnemySuicide, BotChat_Kill, BotChat_EnterGame
 =================
@@ -4346,6 +4394,7 @@ BotChat_EnterGame
 
 Address: 0x19ec
 Stack Size: 0x6c
+Opcodes Size: 0xba
 Calls: trap_Characteristic_BFloat, BotAI_BotInitialChat, BotMapTitle, BotRandomOpponentName, EasyClientName, BotValidChatPosition, BotNumActivePlayers, rand, TeamPlayIsOn
 Called by: BotDeathmatchAI
 =================
@@ -4415,6 +4464,7 @@ BotChat_ExitGame
 
 Address: 0x1aa6
 Stack Size: 0x68
+Opcodes Size: 0xab
 Calls: trap_Characteristic_BFloat, BotAI_BotInitialChat, BotMapTitle, BotRandomOpponentName, EasyClientName, BotNumActivePlayers, rand, TeamPlayIsOn
 Called by: BotAIShutdownClient
 =================
@@ -4479,6 +4529,7 @@ BotChat_StartLevel
 
 Address: 0x1b51
 Stack Size: 0x50
+Opcodes Size: 0xa0
 Calls: trap_Characteristic_BFloat, BotAI_BotInitialChat, EasyClientName, BotNumActivePlayers, rand, TeamPlayIsOn, BotIsObserver
 Called by: AINode_Intermission
 =================
@@ -4534,6 +4585,7 @@ BotChat_EndLevel
 
 Address: 0x1bf1
 Stack Size: 0x78
+Opcodes Size: 0x143
 Calls: trap_Characteristic_BFloat, BotFirstClientInRankings, BotIsLastInRankings, BotAI_BotInitialChat, BotMapTitle, BotLastClientInRankings, BotRandomOpponentName, EasyClientName, BotIsFirstInRankings, BotNumActivePlayers, rand, TeamPlayIsOn, BotIsObserver
 Called by: AIEnter_Intermission
 =================
@@ -4618,6 +4670,7 @@ BotChat_Death
 
 Address: 0x1d34
 Stack Size: 0x90
+Opcodes Size: 0x272
 Calls: trap_Characteristic_BFloat, BotWeaponNameForMeansOfDeath, BotRandomOpponentName, BotAI_BotInitialChat, BotSameTeam, TeamPlayIsOn, strcpy, EasyClientName, BotNumActivePlayers, rand
 Called by: AIEnter_Respawn
 =================
@@ -4769,6 +4822,7 @@ BotChat_Kill
 
 Address: 0x1fa6
 Stack Size: 0x68
+Opcodes Size: 0x154
 Calls: trap_Characteristic_BFloat, BotAI_BotInitialChat, BotSameTeam, TeamPlayIsOn, EasyClientName, BotVisibleEnemies, BotValidChatPosition, BotNumActivePlayers, rand
 Called by: AINode_Battle_Fight
 =================
@@ -4863,6 +4917,7 @@ BotChat_EnemySuicide
 
 Address: 0x20fa
 Stack Size: 0x50
+Opcodes Size: 0xbd
 Calls: trap_Characteristic_BFloat, BotAI_BotInitialChat, strcpy, EasyClientName, BotVisibleEnemies, BotValidChatPosition, rand, TeamPlayIsOn, BotNumActivePlayers
 Called by: AINode_Battle_Fight
 =================
@@ -4927,6 +4982,7 @@ BotChat_HitTalking
 
 Address: 0x21b7
 Stack Size: 0x60
+Opcodes Size: 0xf0
 Calls: trap_Characteristic_BFloat, BotAI_BotInitialChat, BotWeaponNameForMeansOfDeath, ClientName, BotValidChatPosition, rand, TeamPlayIsOn, BotNumActivePlayers
 Called by: AINode_Stand
 =================
@@ -4998,6 +5054,7 @@ BotChat_HitNoDeath
 
 Address: 0x22a7
 Stack Size: 0xf4
+Opcodes Size: 0x10d
 Calls: trap_Characteristic_BFloat, BotAI_BotInitialChat, BotWeaponNameForMeansOfDeath, ClientName, EntityIsShooting, BotEntityInfo, BotVisibleEnemies, BotValidChatPosition, rand, TeamPlayIsOn, BotNumActivePlayers
 Called by: AINode_Battle_Fight
 =================
@@ -5081,6 +5138,7 @@ BotChat_HitNoKill
 
 Address: 0x23b4
 Stack Size: 0xec
+Opcodes Size: 0xe1
 Calls: trap_Characteristic_BFloat, BotAI_BotInitialChat, BotWeaponNameForMeansOfDeath, ClientName, EntityIsShooting, BotEntityInfo, BotVisibleEnemies, BotValidChatPosition, rand, TeamPlayIsOn, BotNumActivePlayers
 Called by: AINode_Battle_Fight
 =================
@@ -5151,6 +5209,7 @@ BotChat_Random
 
 Address: 0x2495
 Stack Size: 0x8c
+Opcodes Size: 0x185
 Calls: trap_Characteristic_BFloat, BotAI_BotInitialChat, BotRandomWeaponName, BotMapTitle, TeamPlayIsOn, EasyClientName, strcpy, BotRandomOpponentName, BotVisibleEnemies, BotValidChatPosition, BotNumActivePlayers, rand, BotIsObserver
 Called by: AINode_Seek_LTG
 =================
@@ -5277,6 +5336,7 @@ BotChatTime
 
 Address: 0x261a
 Stack Size: 0x8
+Opcodes Size: 0x5
 Called by: BotDeathmatchAI, BotCheckConsoleMessages, AINode_Battle_Fight, AINode_Seek_LTG, AIEnter_Respawn, AINode_Stand, AINode_Intermission
 =================
 */
@@ -5291,6 +5351,7 @@ BotChatTest
 
 Address: 0x261f
 Stack Size: 0xe4
+Opcodes Size: 0x8b4
 Calls: trap_BotEnterChat, trap_BotNumInitialChats, BotRandomWeaponName, strcpy, ClientName, BotWeaponNameForMeansOfDeath, BotLastClientInRankings, BotFirstClientInRankings, BotAI_BotInitialChat, BotMapTitle, BotRandomOpponentName, EasyClientName
 Called by: BotAISetupClient
 =================
@@ -5820,6 +5881,7 @@ BotGetItemTeamGoal
 
 Address: 0x2ed3
 Stack Size: 0x20
+Opcodes Size: 0x47
 Calls: trap_BotGetLevelItemGoal, strlen
 Called by: BotGetMessageTeamGoal
 =================
@@ -5855,6 +5917,7 @@ BotGetMessageTeamGoal
 
 Address: 0x2f1a
 Stack Size: 0x20
+Opcodes Size: 0x3d
 Calls: memcpy, BotFindWayPoint, BotGetItemTeamGoal
 Called by: BotMatch_Camp, BotMatch_GetItem, BotMatch_DefendKeyArea, BotMatch_HelpAccompany, BotGetPatrolWaypoints
 =================
@@ -5883,6 +5946,7 @@ BotGetTime
 
 Address: 0x2f57
 Stack Size: 0x270
+Opcodes Size: 0x7f
 Calls: trap_BotFindMatch, trap_BotMatchVariable, atof
 Called by: BotMatch_Patrol, BotMatch_Camp, BotMatch_DefendKeyArea, BotMatch_HelpAccompany
 =================
@@ -5937,6 +6001,7 @@ FindClientByName
 
 Address: 0x2fd6
 Stack Size: 0x41c
+Opcodes Size: 0x61
 Calls: stristr, Q_stricmp, ClientName
 Called by: BotMatch_NewLeader, BotMatch_EnterGame, BotMatch_LeadTheWay, BotMatch_StopTeamLeaderShip, BotMatch_StartTeamLeaderShip, BotMatch_ReturnFlag, BotMatch_RushBase, BotMatch_AttackEnemyBase, BotMatch_GetFlag, BotMatch_Patrol, BotMatch_Camp, BotMatch_HelpAccompany
 =================
@@ -5978,6 +6043,7 @@ FindEnemyByName
 
 Address: 0x3037
 Stack Size: 0x420
+Opcodes Size: 0x85
 Calls: stristr, Q_stricmp, ClientName, BotSameTeam
 Called by: BotMatch_Kill
 =================
@@ -6029,6 +6095,7 @@ NumPlayersOnSameTeam
 
 Address: 0x30bc
 Stack Size: 0x428
+Opcodes Size: 0x4e
 Calls: trap_GetConfigstring, BotSameTeam, strlen
 Called by: BotAddressedToBot
 =================
@@ -6066,6 +6133,7 @@ BotGetPatrolWaypoints
 
 Address: 0x310a
 Stack Size: 0x2c0
+Opcodes Size: 0x138
 Calls: trap_EA_SayTeam, trap_BotFindMatch, trap_BotMatchVariable, BotCreateWayPoint, BotGetMessageTeamGoal, BotFreeWaypoints
 Called by: BotMatch_Patrol
 =================
@@ -6163,6 +6231,7 @@ BotAddressedToBot
 
 Address: 0x3242
 Stack Size: 0x63c
+Opcodes Size: 0x121
 Calls: trap_BotFindMatch, trap_BotMatchVariable, NumPlayersOnSameTeam, rand, stristr, strlen, ClientName, ClientOnSameTeamFromName
 Called by: BotMatch_Kill, BotMatch_LeadTheWay, BotMatch_WhereAreYou, BotMatch_WhatAreYouDoing, BotMatch_Suicide, BotMatch_Dismiss, BotMatch_FormationSpace, BotMatch_CheckPoint, BotMatch_WhichTeam, BotMatch_LeaveSubteam, BotMatch_JoinSubteam, BotMatch_ReturnFlag, BotMatch_RushBase, BotMatch_AttackEnemyBase, BotMatch_GetFlag, BotMatch_Patrol, BotMatch_Camp, BotMatch_GetItem, BotMatch_DefendKeyArea, BotMatch_HelpAccompany
 =================
@@ -6250,6 +6319,7 @@ BotGPSToPosition
 
 Address: 0x3363
 Stack Size: 0x2c
+Opcodes Size: 0xa0
 Calls: BotAI_Print
 =================
 */
@@ -6304,6 +6374,7 @@ BotMatch_HelpAccompany
 
 Address: 0x3403
 Stack Size: 0x510
+Opcodes Size: 0x23d
 Calls: trap_BotEnterChat, trap_BotFindMatch, trap_BotMatchVariable, BotRememberLastOrderedTask, BotSetTeamStatus, BotGetTime, rand, BotGetMessageTeamGoal, BotPointAreaNum, BotEntityInfo, BotAI_BotInitialChat, BotSameTeam, FindClientByName, ClientFromName, BotAddressedToBot, TeamPlayIsOn
 Called by: BotMatchMessage
 =================
@@ -6443,6 +6514,7 @@ BotMatch_DefendKeyArea
 
 Address: 0x3640
 Stack Size: 0x238
+Opcodes Size: 0xba
 Calls: trap_BotMatchVariable, BotRememberLastOrderedTask, BotSetTeamStatus, BotGetTime, rand, ClientFromName, BotGetMessageTeamGoal, BotAddressedToBot, TeamPlayIsOn
 Called by: BotMatchMessage
 =================
@@ -6499,6 +6571,7 @@ BotMatch_GetItem
 
 Address: 0x36fa
 Stack Size: 0x234
+Opcodes Size: 0x9c
 Calls: trap_BotMatchVariable, BotSetTeamStatus, rand, ClientOnSameTeamFromName, BotGetMessageTeamGoal, BotAddressedToBot, TeamPlayIsOn
 Called by: BotMatchMessage
 =================
@@ -6548,6 +6621,7 @@ BotMatch_Camp
 
 Address: 0x3796
 Stack Size: 0x2c8
+Opcodes Size: 0x1c1
 Calls: trap_BotEnterChat, trap_BotMatchVariable, BotRememberLastOrderedTask, BotSetTeamStatus, BotGetTime, rand, BotGetMessageTeamGoal, ClientFromName, BotPointAreaNum, BotEntityInfo, BotAI_BotInitialChat, FindClientByName, BotAddressedToBot, TeamPlayIsOn
 Called by: BotMatchMessage
 =================
@@ -6652,6 +6726,7 @@ BotMatch_Patrol
 
 Address: 0x3957
 Stack Size: 0x134
+Opcodes Size: 0xa4
 Calls: trap_BotMatchVariable, BotRememberLastOrderedTask, BotSetTeamStatus, BotGetTime, rand, FindClientByName, BotGetPatrolWaypoints, BotAddressedToBot, TeamPlayIsOn
 Called by: BotMatchMessage
 =================
@@ -6705,6 +6780,7 @@ BotMatch_GetFlag
 
 Address: 0x39fb
 Stack Size: 0x12c
+Opcodes Size: 0x98
 Calls: trap_BotMatchVariable, BotRememberLastOrderedTask, BotSetTeamStatus, BotGetAlternateRouteGoal, BotOppositeTeam, rand, FindClientByName, BotAddressedToBot
 Called by: BotMatchMessage, BotMatch_AttackEnemyBase
 =================
@@ -6754,6 +6830,7 @@ BotMatch_AttackEnemyBase
 
 Address: 0x3a93
 Stack Size: 0x128
+Opcodes Size: 0x84
 Calls: trap_BotMatchVariable, BotRememberLastOrderedTask, BotSetTeamStatus, rand, FindClientByName, BotAddressedToBot, BotMatch_GetFlag
 =================
 */
@@ -6793,6 +6870,7 @@ BotMatch_RushBase
 
 Address: 0x3b17
 Stack Size: 0x128
+Opcodes Size: 0x84
 Calls: trap_BotMatchVariable, BotSetTeamStatus, rand, FindClientByName, BotAddressedToBot
 Called by: BotMatchMessage
 =================
@@ -6837,6 +6915,7 @@ BotMatch_TaskPreference
 
 Address: 0x3b9b
 Stack Size: 0x158
+Opcodes Size: 0xcc
 Calls: trap_EA_Action, trap_BotEnterChat, trap_BotMatchVariable, BotVoiceChatOnly, BotAI_BotInitialChat, EasyClientName, BotSetTeamMateTaskPreference, BotGetTeamMateTaskPreference, ClientFromName, Q_stricmp, ClientName
 Called by: BotMatchMessage
 =================
@@ -6896,6 +6975,7 @@ BotMatch_ReturnFlag
 
 Address: 0x3c67
 Stack Size: 0x128
+Opcodes Size: 0x77
 Calls: trap_BotMatchVariable, BotSetTeamStatus, rand, FindClientByName, BotAddressedToBot
 Called by: BotMatchMessage
 =================
@@ -6936,6 +7016,7 @@ BotMatch_JoinSubteam
 
 Address: 0x3cde
 Stack Size: 0x228
+Opcodes Size: 0x73
 Calls: trap_BotEnterChat, strncpy, trap_BotMatchVariable, ClientFromName, BotAI_BotInitialChat, BotAddressedToBot, TeamPlayIsOn
 Called by: BotMatchMessage
 =================
@@ -6975,6 +7056,7 @@ BotMatch_LeaveSubteam
 
 Address: 0x3d51
 Stack Size: 0x130
+Opcodes Size: 0x6b
 Calls: trap_BotEnterChat, trap_BotMatchVariable, strcpy, ClientFromName, BotAI_BotInitialChat, strlen, BotAddressedToBot, TeamPlayIsOn
 Called by: BotMatchMessage
 =================
@@ -7014,6 +7096,7 @@ BotMatch_WhichTeam
 
 Address: 0x3dbc
 Stack Size: 0x28
+Opcodes Size: 0x5a
 Calls: trap_BotEnterChat, BotAI_BotInitialChat, strlen, BotAddressedToBot, TeamPlayIsOn
 Called by: BotMatchMessage
 =================
@@ -7049,6 +7132,7 @@ BotMatch_CheckPoint
 
 Address: 0x3e16
 Stack Size: 0x25c
+Opcodes Size: 0x16a
 Calls: trap_BotEnterChat, trap_BotMatchVariable, Com_sprintf, BotCreateWayPoint, BotFindWayPoint, BotAI_BotInitialChat, BotAddressedToBot, BotPointAreaNum, sscanf, ClientFromName, TeamPlayIsOn
 Called by: BotMatchMessage
 =================
@@ -7134,6 +7218,7 @@ BotMatch_FormationSpace
 
 Address: 0x3f80
 Stack Size: 0x130
+Opcodes Size: 0x62
 Calls: trap_BotMatchVariable, atof, BotAddressedToBot, TeamPlayIsOn
 Called by: BotMatchMessage
 =================
@@ -7179,6 +7264,7 @@ BotMatch_Dismiss
 
 Address: 0x3fe2
 Stack Size: 0x128
+Opcodes Size: 0x68
 Calls: trap_BotEnterChat, trap_BotMatchVariable, BotAI_BotInitialChat, ClientFromName, BotAddressedToBot, TeamPlayIsOn
 Called by: BotMatchMessage
 =================
@@ -7217,6 +7303,7 @@ BotMatch_Suicide
 
 Address: 0x404a
 Stack Size: 0x128
+Opcodes Size: 0x58
 Calls: trap_EA_Action, trap_BotMatchVariable, trap_EA_Command, BotVoiceChat, ClientFromName, BotAddressedToBot, TeamPlayIsOn
 Called by: BotMatchMessage
 =================
@@ -7252,6 +7339,7 @@ BotMatch_StartTeamLeaderShip
 
 Address: 0x40a2
 Stack Size: 0x124
+Opcodes Size: 0x5f
 Calls: strncpy, trap_BotMatchVariable, ClientName, FindClientByName, TeamPlayIsOn
 Called by: BotMatchMessage
 =================
@@ -7286,6 +7374,7 @@ BotMatch_StopTeamLeaderShip
 
 Address: 0x4101
 Stack Size: 0x228
+Opcodes Size: 0x71
 Calls: trap_BotMatchVariable, Q_stricmp, ClientName, FindClientByName, TeamPlayIsOn
 Called by: BotMatchMessage
 =================
@@ -7327,6 +7416,7 @@ BotMatch_WhoIsTeamLeader
 
 Address: 0x4172
 Stack Size: 0x11c
+Opcodes Size: 0x34
 Calls: trap_EA_SayTeam, Q_stricmp, ClientName, TeamPlayIsOn
 Called by: BotMatchMessage
 =================
@@ -7353,6 +7443,7 @@ BotMatch_WhatAreYouDoing
 
 Address: 0x41a6
 Stack Size: 0x22c
+Opcodes Size: 0x11f
 Calls: trap_BotEnterChat, trap_BotMatchVariable, trap_BotGoalName, ClientFromName, ClientName, BotAI_BotInitialChat, EasyClientName, BotAddressedToBot
 Called by: BotMatchMessage
 =================
@@ -7415,6 +7506,7 @@ BotMatch_WhatIsMyCommand
 
 Address: 0x42c5
 Stack Size: 0x3c
+Opcodes Size: 0x2b
 Calls: Q_stricmp, ClientName
 Called by: BotMatchMessage
 =================
@@ -7439,6 +7531,7 @@ BotNearestVisibleItem
 
 Address: 0x42f0
 Stack Size: 0x120
+Opcodes Size: 0x9d
 Calls: memcpy, trap_BotGoalName, trap_BotGetLevelItemGoal, BotAI_Trace, VectorLength, Q_stricmp
 Called by: BotMatch_WhereAreYou
 =================
@@ -7503,6 +7596,7 @@ BotMatch_WhereAreYou
 
 Address: 0x438d
 Stack Size: 0x1d8
+Opcodes Size: 0x12e
 Calls: trap_BotEnterChat, trap_BotMatchVariable, trap_AAS_AreaTravelTimeToGoalArea, ClientFromName, BotAI_BotInitialChat, BotNearestVisibleItem, BotAddressedToBot, TeamPlayIsOn
 Called by: BotMatchMessage
 =================
@@ -7584,6 +7678,7 @@ BotMatch_LeadTheWay
 
 Address: 0x44bb
 Stack Size: 0x2c0
+Opcodes Size: 0x15e
 Calls: trap_BotEnterChat, trap_BotMatchVariable, rand, BotPointAreaNum, BotEntityInfo, BotAI_BotInitialChat, ClientFromName, BotSameTeam, FindClientByName, BotAddressedToBot, TeamPlayIsOn
 Called by: BotMatchMessage
 =================
@@ -7676,6 +7771,7 @@ BotMatch_Kill
 
 Address: 0x4619
 Stack Size: 0x22c
+Opcodes Size: 0xa1
 Calls: trap_BotEnterChat, trap_BotMatchVariable, BotSetTeamStatus, rand, ClientFromName, BotAI_BotInitialChat, FindEnemyByName, BotAddressedToBot, TeamPlayIsOn
 Called by: BotMatchMessage
 =================
@@ -7724,6 +7820,7 @@ BotMatch_CTF
 
 Address: 0x46ba
 Stack Size: 0xc8
+Opcodes Size: 0xd9
 Calls: trap_BotMatchVariable, ClientFromName, BotTeam, Q_stricmp
 Called by: BotMatchMessage
 =================
@@ -7784,6 +7881,7 @@ BotMatch_EnterGame
 
 Address: 0x4793
 Stack Size: 0x44
+Opcodes Size: 0x25
 Calls: trap_BotMatchVariable, FindClientByName
 Called by: BotMatchMessage
 =================
@@ -7807,6 +7905,7 @@ BotMatch_NewLeader
 
 Address: 0x47b8
 Stack Size: 0x48
+Opcodes Size: 0x39
 Calls: trap_BotMatchVariable, Q_strncpyz, BotSameTeam, FindClientByName
 Called by: BotMatchMessage
 =================
@@ -7835,6 +7934,7 @@ BotMatchMessage
 
 Address: 0x47f1
 Stack Size: 0x164
+Opcodes Size: 0x164
 Calls: trap_EA_SayTeam, trap_BotFindMatch, BotAI_Print, BotMatch_Suicide, BotMatch_NewLeader, BotMatch_EnterGame, BotMatch_Kill, BotMatch_LeadTheWay, BotMatch_WhereAreYou, BotMatch_WhatIsMyCommand, BotMatch_WhatAreYouDoing, BotMatch_WhoIsTeamLeader, BotMatch_StopTeamLeaderShip, BotMatch_StartTeamLeaderShip, BotMatch_Dismiss, BotMatch_FormationSpace, BotMatch_CheckPoint, BotMatch_WhichTeam, BotMatch_LeaveSubteam, BotMatch_JoinSubteam, BotMatch_GetItem, BotMatch_CTF, BotMatch_TaskPreference, BotMatch_ReturnFlag, BotMatch_RushBase, BotMatch_GetFlag, BotMatch_Patrol, BotMatch_Camp, BotMatch_DefendKeyArea, BotMatch_HelpAccompany
 Called by: BotCheckConsoleMessages
 =================
@@ -7928,6 +8028,7 @@ BotResetNodeSwitches
 
 Address: 0x4955
 Stack Size: 0x8
+Opcodes Size: 0x6
 Called by: BotDeathmatchAI
 =================
 */
@@ -7942,6 +8043,7 @@ BotDumpNodeSwitches
 
 Address: 0x495b
 Stack Size: 0x44
+Opcodes Size: 0x43
 Calls: BotAI_Print, ClientName
 Called by: BotDeathmatchAI
 =================
@@ -7968,6 +8070,7 @@ BotRecordNodeSwitch
 
 Address: 0x499e
 Stack Size: 0x54
+Opcodes Size: 0x3c
 Calls: Com_sprintf, ClientName
 Called by: AIEnter_Battle_NBG, AIEnter_Battle_Retreat, AIEnter_Battle_Chase, AIEnter_Battle_SuicidalFight, AIEnter_Battle_Fight, AIEnter_Seek_LTG, AIEnter_Seek_NBG, AIEnter_Seek_ActivateEntity, AIEnter_Respawn, AIEnter_Stand, AIEnter_Observer, AIEnter_Intermission
 =================
@@ -7990,6 +8093,7 @@ BotGetAirGoal
 
 Address: 0x49da
 Stack Size: 0xb0
+Opcodes Size: 0xbd
 Calls: BotPointAreaNum, BotAI_Trace
 Called by: BotGoForAir
 =================
@@ -8044,6 +8148,7 @@ BotGoForAir
 
 Address: 0x4a97
 Stack Size: 0x64
+Opcodes Size: 0x7d
 Calls: trap_BotResetAvoidGoals, trap_BotChooseNBGItem, trap_BotPopGoal, trap_AAS_PointContents, trap_BotGetTopGoal, trap_BotPushGoal, BotGetAirGoal
 Called by: BotGetLongTermGoal, BotNearbyGoal
 =================
@@ -8081,6 +8186,7 @@ BotNearbyGoal
 
 Address: 0x4b14
 Stack Size: 0x34
+Opcodes Size: 0x6c
 Calls: trap_BotChooseNBGItem, trap_AAS_AreaTravelTimeToGoalArea, BotCTFCarryingFlag, BotGoForAir
 Called by: AINode_Battle_Retreat, AINode_Battle_Chase, AINode_Seek_LTG
 =================
@@ -8113,6 +8219,7 @@ BotReachedGoal
 
 Address: 0x4b80
 Stack Size: 0x40
+Opcodes Size: 0x104
 Calls: trap_AAS_Swimming, trap_BotItemGoalInVisButNotVisible, trap_BotSetAvoidGoalTime, trap_BotTouchingGoal
 Called by: AINode_Battle_NBG, AINode_Seek_NBG, BotGetLongTermGoal, BotGetItemLongTermGoal
 =================
@@ -8174,6 +8281,7 @@ BotGetItemLongTermGoal
 
 Address: 0x4c84
 Stack Size: 0x2c
+Opcodes Size: 0x97
 Calls: trap_BotResetAvoidReach, trap_BotResetAvoidGoals, trap_BotChooseLTGItem, trap_BotPopGoal, trap_BotGetTopGoal, BotChooseWeapon, BotReachedGoal
 Called by: BotGetLongTermGoal
 =================
@@ -8217,6 +8325,7 @@ BotGetLongTermGoal
 
 Address: 0x4d1b
 Stack Size: 0x2b4
+Opcodes Size: 0xe89
 Calls: trap_BotTouchingGoal, trap_PointContents, trap_BotItemGoalInVisButNotVisible, trap_BotGoalName, trap_AAS_AreaTravelTimeToGoalArea, trap_BotResetLastAvoidReach, trap_EA_Crouch, trap_EA_Gesture, trap_AAS_Swimming, trap_Characteristic_BFloat, trap_BotMoveInDirection, memcpy, trap_AAS_AreaReachability, trap_BotResetAvoidReach, trap_EA_Action, trap_BotEnterChat, BotCTFCarryingFlag, BotAlternateRoute, BotTeam, strcat, strcpy, BotReachedGoal, BotGetItemLongTermGoal, BotHasPersistantPowerupAndWeapon, AIEnter_Seek_NBG, BotGoForAir, BotRoamGoal, vectoangles, rand, BotSetupForMovement, VectorNormalize, AngleVectors, BotPointAreaNum, VectorLengthSquared, BotEntityVisible, BotEntityInfo, BotVoiceChatOnly, BotAI_BotInitialChat, EasyClientName
 Called by: BotLongTermGoal
 =================
@@ -8827,6 +8936,7 @@ BotLongTermGoal
 
 Address: 0x5ba4
 Stack Size: 0x1dc
+Opcodes Size: 0x265
 Calls: memcpy, trap_AAS_AreaReachability, trap_BotEnterChat, vectoangles, VectorLengthSquared, BotEntityVisible, BotPointAreaNum, BotEntityInfo, BotGetLongTermGoal, BotAI_BotInitialChat, EasyClientName
 Called by: AINode_Battle_Retreat, AINode_Seek_LTG
 =================
@@ -8937,6 +9047,7 @@ AIEnter_Intermission
 
 Address: 0x5e09
 Stack Size: 0x20
+Opcodes Size: 0x3c
 Calls: trap_BotEnterChat, BotChat_EndLevel, BotResetState, BotRecordNodeSwitch
 Called by: AINode_Battle_NBG, AINode_Battle_Retreat, AINode_Battle_Chase, AINode_Battle_Fight, AINode_Seek_LTG, AINode_Seek_NBG, AINode_Seek_ActivateEntity
 =================
@@ -8960,6 +9071,7 @@ AINode_Intermission
 
 Address: 0x5e45
 Stack Size: 0x20
+Opcodes Size: 0x43
 Calls: AIEnter_Stand, BotChatTime, BotChat_StartLevel, BotIntermission
 =================
 */
@@ -8991,6 +9103,7 @@ AIEnter_Observer
 
 Address: 0x5e88
 Stack Size: 0x18
+Opcodes Size: 0x20
 Calls: BotResetState, BotRecordNodeSwitch
 Called by: AINode_Battle_NBG, AINode_Battle_Retreat, AINode_Battle_Chase, AINode_Battle_Fight, AINode_Seek_LTG, AINode_Seek_NBG, AINode_Seek_ActivateEntity
 =================
@@ -9009,6 +9122,7 @@ AINode_Observer
 
 Address: 0x5ea8
 Stack Size: 0x14
+Opcodes Size: 0x18
 Calls: AIEnter_Stand, BotIsObserver
 =================
 */
@@ -9028,6 +9142,7 @@ AIEnter_Stand
 
 Address: 0x5ec0
 Stack Size: 0x18
+Opcodes Size: 0x23
 Calls: BotRecordNodeSwitch
 Called by: BotDeathmatchAI, BotCheckConsoleMessages, AINode_Battle_Fight, AINode_Seek_LTG, AINode_Observer, AINode_Intermission
 =================
@@ -9046,6 +9161,7 @@ AINode_Stand
 
 Address: 0x5ee3
 Stack Size: 0x2c
+Opcodes Size: 0x9d
 Calls: trap_BotEnterChat, trap_EA_Talk, AIEnter_Seek_LTG, AIEnter_Battle_Fight, BotFindEnemy, BotChatTime, BotChat_HitTalking
 =================
 */
@@ -9086,6 +9202,7 @@ AIEnter_Respawn
 
 Address: 0x5f80
 Stack Size: 0x24
+Opcodes Size: 0x84
 Calls: trap_BotResetAvoidReach, trap_BotResetAvoidGoals, trap_BotResetGoalState, trap_BotResetMoveState, rand, BotChatTime, BotChat_Death, BotRecordNodeSwitch
 Called by: AINode_Battle_NBG, AINode_Battle_Retreat, AINode_Battle_Chase, AINode_Battle_Fight, AINode_Seek_LTG, AINode_Seek_NBG, AINode_Seek_ActivateEntity
 =================
@@ -9122,6 +9239,7 @@ AINode_Respawn
 
 Address: 0x6004
 Stack Size: 0x18
+Opcodes Size: 0x80
 Calls: trap_EA_Talk, trap_BotEnterChat, trap_EA_Respawn, AIEnter_Seek_LTG, BotIsDead
 =================
 */
@@ -9159,6 +9277,7 @@ BotSelectActivateWeapon
 
 Address: 0x6084
 Stack Size: 0x48
+Opcodes Size: 0xc1
 Called by: AINode_Seek_ActivateEntity, BotClearPath
 =================
 */
@@ -9222,6 +9341,7 @@ BotClearPath
 
 Address: 0x6145
 Stack Size: 0x19c
+Opcodes Size: 0x255
 Calls: trap_EA_Attack, VectorLength, BotAI_Trace, InFieldOfVision, BotSelectActivateWeapon, vectoangles, BotAI_GetEntityState
 Called by: AINode_Seek_LTG, AINode_Seek_NBG, AINode_Seek_ActivateEntity
 =================
@@ -9369,6 +9489,7 @@ AIEnter_Seek_ActivateEntity
 
 Address: 0x639a
 Stack Size: 0x18
+Opcodes Size: 0x16
 Calls: BotRecordNodeSwitch
 Called by: BotGoForActivateGoal
 =================
@@ -9385,6 +9506,7 @@ AINode_Seek_ActivateEntity
 
 Address: 0x63b0
 Stack Size: 0x1a0
+Opcodes Size: 0x42e
 Calls: trap_BotEmptyGoalStack, trap_BotResetLastAvoidReach, trap_BotMovementViewTarget, trap_BotResetAvoidReach, trap_BotMoveToGoal, trap_BotTouchingGoal, memset, trap_EA_Attack, AIEnter_Battle_Fight, AIEnter_Battle_NBG, BotWantsToRetreat, BotFindEnemy, BotRoamGoal, rand, BotSelectActivateWeapon, BotClearPath, BotAIBlocked, BotSetupForMovement, BotAIPredictObstacles, BotPopFromActivateGoalStack, VectorCompare, BotEntityInfo, InFieldOfVision, vectoangles, BotAI_Trace, AIEnter_Seek_NBG, BotMapScripts, BotInLavaOrSlime, AIEnter_Respawn, BotIsDead, AIEnter_Intermission, BotIntermission, AIEnter_Observer, BotClearActivateGoalStack, BotIsObserver
 =================
 */
@@ -9608,6 +9730,7 @@ AIEnter_Seek_NBG
 
 Address: 0x67de
 Stack Size: 0xe4
+Opcodes Size: 0x43
 Calls: trap_BotGoalName, trap_BotGetTopGoal, BotRecordNodeSwitch
 Called by: AINode_Battle_NBG, AINode_Seek_LTG, AINode_Seek_ActivateEntity, BotGetLongTermGoal
 =================
@@ -9636,6 +9759,7 @@ AINode_Seek_NBG
 
 Address: 0x6821
 Stack Size: 0xdc
+Opcodes Size: 0x27a
 Calls: trap_BotEmptyGoalStack, trap_BotResetLastAvoidReach, trap_BotMovementViewTarget, trap_BotGetSecondGoal, trap_BotResetAvoidReach, trap_BotMoveToGoal, trap_BotPopGoal, trap_BotGetTopGoal, AIEnter_Battle_Fight, AIEnter_Battle_NBG, BotWantsToRetreat, BotFindEnemy, vectoangles, BotRoamGoal, rand, BotClearPath, BotAIBlocked, BotSetupForMovement, BotAIPredictObstacles, AIEnter_Seek_LTG, BotChooseWeapon, BotReachedGoal, BotMapScripts, BotCanAndWantsToRocketJump, BotInLavaOrSlime, AIEnter_Respawn, BotIsDead, AIEnter_Intermission, BotIntermission, AIEnter_Observer, BotIsObserver
 =================
 */
@@ -9785,6 +9909,7 @@ AIEnter_Seek_LTG
 
 Address: 0x6a9b
 Stack Size: 0xe4
+Opcodes Size: 0x43
 Calls: trap_BotGoalName, trap_BotGetTopGoal, BotRecordNodeSwitch
 Called by: BotDeathmatchAI, AINode_Battle_Retreat, AINode_Battle_Chase, AINode_Battle_Fight, AINode_Seek_NBG, AINode_Respawn, AINode_Stand
 =================
@@ -9813,6 +9938,7 @@ AINode_Seek_LTG
 
 Address: 0x6ade
 Stack Size: 0xf0
+Opcodes Size: 0x34d
 Calls: trap_BotMovementViewTarget, trap_BotResetAvoidReach, trap_BotMoveToGoal, trap_BotEmptyGoalStack, trap_BotResetLastAvoidReach, trap_EA_Gesture, VectorLengthSquared, vectoangles, BotRoamGoal, BotClearPath, BotAIBlocked, BotSetupForMovement, BotAIPredictObstacles, AIEnter_Seek_NBG, BotNearbyGoal, BotCTFCarryingFlag, BotWantsToCamp, BotLongTermGoal, BotTeamGoals, AIEnter_Battle_Fight, AIEnter_Battle_Retreat, BotWantsToRetreat, BotFindEnemy, rand, BotMapScripts, BotCanAndWantsToRocketJump, BotInLavaOrSlime, AIEnter_Stand, BotChatTime, BotChat_Random, AIEnter_Respawn, BotIsDead, AIEnter_Intermission, BotIntermission, AIEnter_Observer, BotIsObserver
 =================
 */
@@ -10000,6 +10126,7 @@ AIEnter_Battle_Fight
 
 Address: 0x6e2b
 Stack Size: 0x1c
+Opcodes Size: 0x31
 Calls: trap_BotResetLastAvoidReach, BotRecordNodeSwitch
 Called by: AINode_Battle_NBG, AINode_Battle_Retreat, AINode_Battle_Chase, AINode_Seek_LTG, AINode_Seek_NBG, AINode_Seek_ActivateEntity, AINode_Stand
 =================
@@ -10021,6 +10148,7 @@ AIEnter_Battle_SuicidalFight
 
 Address: 0x6e5c
 Stack Size: 0x1c
+Opcodes Size: 0x31
 Calls: trap_BotResetLastAvoidReach, BotRecordNodeSwitch
 Called by: AINode_Battle_Retreat
 =================
@@ -10042,6 +10170,7 @@ AINode_Battle_Fight
 
 Address: 0x6e8d
 Stack Size: 0x140
+Opcodes Size: 0x2b4
 Calls: trap_BotResetAvoidReach, trap_AAS_AreaReachability, AIEnter_Battle_Retreat, BotWantsToRetreat, BotCheckAttack, BotAimAtEnemy, BotAIBlocked, BotAttackMove, BotChooseWeapon, BotCanAndWantsToRocketJump, BotInLavaOrSlime, BotBattleUseItems, AIEnter_Battle_Chase, BotWantsToChase, BotEntityVisible, BotChat_HitNoKill, BotChat_HitNoDeath, BotUpdateBattleInventory, BotPointAreaNum, rand, EntityIsShooting, EntityIsInvisible, EntityIsDead, AIEnter_Stand, BotChatTime, BotChat_Kill, BotChat_EnemySuicide, BotEntityInfo, AIEnter_Seek_LTG, BotFindEnemy, AIEnter_Respawn, BotIsDead, AIEnter_Intermission, BotIntermission, AIEnter_Observer, BotIsObserver
 =================
 */
@@ -10204,6 +10333,7 @@ AIEnter_Battle_Chase
 
 Address: 0x7141
 Stack Size: 0x18
+Opcodes Size: 0x21
 Calls: BotRecordNodeSwitch
 Called by: AINode_Battle_Retreat, AINode_Battle_Fight
 =================
@@ -10222,6 +10352,7 @@ AINode_Battle_Chase
 
 Address: 0x7162
 Stack Size: 0xe8
+Opcodes Size: 0x2ab
 Calls: trap_BotMovementViewTarget, trap_BotResetAvoidReach, trap_BotMoveToGoal, trap_BotResetLastAvoidReach, trap_BotTouchingGoal, AIEnter_Battle_Retreat, BotWantsToRetreat, vectoangles, BotAimAtEnemy, BotAIBlocked, BotSetupForMovement, BotUpdateBattleInventory, AIEnter_Battle_NBG, BotNearbyGoal, BotMapScripts, BotCanAndWantsToRocketJump, BotInLavaOrSlime, BotFindEnemy, AIEnter_Battle_Fight, BotEntityVisible, AIEnter_Seek_LTG, AIEnter_Respawn, BotIsDead, AIEnter_Intermission, BotIntermission, AIEnter_Observer, BotIsObserver
 =================
 */
@@ -10392,6 +10523,7 @@ AIEnter_Battle_Retreat
 
 Address: 0x740d
 Stack Size: 0x18
+Opcodes Size: 0x16
 Calls: BotRecordNodeSwitch
 Called by: AINode_Battle_NBG, AINode_Battle_Chase, AINode_Battle_Fight, AINode_Seek_LTG
 =================
@@ -10408,6 +10540,7 @@ AINode_Battle_Retreat
 
 Address: 0x7423
 Stack Size: 0x18c
+Opcodes Size: 0x303
 Calls: trap_BotMovementViewTarget, trap_Characteristic_BFloat, trap_BotResetAvoidReach, trap_BotMoveToGoal, trap_BotResetLastAvoidReach, trap_AAS_AreaReachability, trap_BotEmptyGoalStack, BotCheckAttack, vectoangles, BotAimAtEnemy, BotChooseWeapon, BotAIBlocked, BotSetupForMovement, AIEnter_Battle_NBG, BotNearbyGoal, BotCTFCarryingFlag, AIEnter_Battle_SuicidalFight, BotLongTermGoal, BotBattleUseItems, BotTeamGoals, AIEnter_Battle_Fight, BotPointAreaNum, BotEntityVisible, AIEnter_Battle_Chase, BotWantsToChase, BotUpdateBattleInventory, BotMapScripts, BotInLavaOrSlime, BotFindEnemy, EntityIsDead, BotEntityInfo, AIEnter_Seek_LTG, AIEnter_Respawn, BotIsDead, AIEnter_Intermission, BotIntermission, AIEnter_Observer, BotIsObserver
 =================
 */
@@ -10588,6 +10721,7 @@ AIEnter_Battle_NBG
 
 Address: 0x7726
 Stack Size: 0x18
+Opcodes Size: 0x16
 Calls: BotRecordNodeSwitch
 Called by: AINode_Battle_Retreat, AINode_Battle_Chase, AINode_Seek_NBG, AINode_Seek_ActivateEntity
 =================
@@ -10604,6 +10738,7 @@ AINode_Battle_NBG
 
 Address: 0x773c
 Stack Size: 0x180
+Opcodes Size: 0x288
 Calls: trap_BotMovementViewTarget, trap_Characteristic_BFloat, trap_BotResetAvoidReach, trap_BotMoveToGoal, trap_BotPopGoal, trap_BotGetTopGoal, trap_AAS_AreaReachability, BotCheckAttack, vectoangles, BotAimAtEnemy, BotChooseWeapon, BotUpdateBattleInventory, BotAIBlocked, BotSetupForMovement, AIEnter_Battle_Fight, AIEnter_Battle_Retreat, BotReachedGoal, BotPointAreaNum, BotEntityVisible, BotMapScripts, BotCanAndWantsToRocketJump, BotInLavaOrSlime, EntityIsDead, BotEntityInfo, AIEnter_Seek_NBG, AIEnter_Respawn, BotIsDead, AIEnter_Intermission, BotIntermission, AIEnter_Observer, BotIsObserver
 =================
 */
@@ -10767,6 +10902,7 @@ BotSetUserInfo
 
 Address: 0x79c4
 Stack Size: 0x414
+Opcodes Size: 0x33
 Calls: trap_SetUserinfo, trap_GetUserinfo, ClientUserinfoChanged, Info_SetValueForKey
 Called by: BotCTFSeekGoals
 =================
@@ -10787,6 +10923,7 @@ BotCTFCarryingFlag
 
 Address: 0x79f7
 Stack Size: 0x8
+Opcodes Size: 0x23
 Called by: BotSetInfoConfigString, BotReportStatus, BotWantsToChase, BotWantsToRetreat, BotBattleUseItems, BotCTFRetreatGoals, BotCTFSeekGoals, AINode_Battle_Retreat, AINode_Seek_LTG, BotGetLongTermGoal, BotNearbyGoal
 =================
 */
@@ -10810,6 +10947,7 @@ BotTeam
 
 Address: 0x7a1a
 Stack Size: 0xc
+Opcodes Size: 0x42
 Called by: BotVoiceChat_Defend, BotCTFOrders, BotSortTeamMatesByBaseTravelTime, BotReportStatus, BotSynonymContext, BotCTFSeekGoals, BotSetLastOrderedTask, BotTeamFlag, BotEnemyFlag, BotOppositeTeam, BotGetLongTermGoal, BotMatch_CTF
 =================
 */
@@ -10838,6 +10976,7 @@ BotOppositeTeam
 
 Address: 0x7a5c
 Stack Size: 0x18
+Opcodes Size: 0x22
 Calls: BotTeam
 Called by: BotVoiceChat_GetFlag, BotCTFSeekGoals, BotSetLastOrderedTask, BotMatch_GetFlag
 =================
@@ -10865,6 +11004,7 @@ BotEnemyFlag
 
 Address: 0x7a7e
 Stack Size: 0x10
+Opcodes Size: 0x14
 Calls: BotTeam
 Called by: BotSetLastOrderedTask
 =================
@@ -10885,6 +11025,7 @@ BotTeamFlag
 
 Address: 0x7a92
 Stack Size: 0x10
+Opcodes Size: 0x14
 Calls: BotTeam
 Called by: BotSetLastOrderedTask
 =================
@@ -10905,6 +11046,7 @@ EntityIsDead
 
 Address: 0x7aa6
 Stack Size: 0x1ec
+Opcodes Size: 0x30
 Calls: BotAI_GetClientState
 Called by: BotMapScripts, BotFindEnemy, AINode_Battle_NBG, AINode_Battle_Retreat, AINode_Battle_Fight, BotVisibleEnemies
 =================
@@ -10934,6 +11076,7 @@ EntityCarriesFlag
 
 Address: 0x7ad6
 Stack Size: 0x8
+Opcodes Size: 0x1f
 Called by: BotVisibleTeamMatesAndEnemies, BotEnemyFlagCarrierVisible, BotTeamFlagCarrier, BotTeamFlagCarrierVisible, BotFindEnemy, BotWantsToChase, BotWantsToRetreat, BotCTFSeekGoals, EntityIsInvisible
 =================
 */
@@ -10954,6 +11097,7 @@ EntityIsInvisible
 
 Address: 0x7af5
 Stack Size: 0x10
+Opcodes Size: 0x21
 Calls: EntityCarriesFlag
 Called by: BotAimAtEnemy, BotFindEnemy, AINode_Battle_Fight, BotVisibleEnemies
 =================
@@ -10977,6 +11121,7 @@ EntityIsShooting
 
 Address: 0x7b16
 Stack Size: 0x8
+Opcodes Size: 0x12
 Called by: BotFindEnemy, AINode_Battle_Fight, BotChat_HitNoKill, BotChat_HitNoDeath, BotVisibleEnemies
 =================
 */
@@ -10994,6 +11139,7 @@ EntityIsChatting
 
 Address: 0x7b28
 Stack Size: 0x8
+Opcodes Size: 0x12
 Called by: BotFindEnemy
 =================
 */
@@ -11011,6 +11157,7 @@ EntityHasQuad
 
 Address: 0x7b3a
 Stack Size: 0x8
+Opcodes Size: 0x12
 =================
 */
 int EntityHasQuad(int arg_0) {
@@ -11027,6 +11174,7 @@ BotRememberLastOrderedTask
 
 Address: 0x7b4c
 Stack Size: 0x24
+Opcodes Size: 0x3d
 Calls: memcpy
 Called by: BotVoiceChat_FollowMe, BotVoiceChat_Camp, BotVoiceChat_Defend, BotVoiceChat_Offense, BotVoiceChat_GetFlag, BotMatch_AttackEnemyBase, BotMatch_GetFlag, BotMatch_Patrol, BotMatch_Camp, BotMatch_DefendKeyArea, BotMatch_HelpAccompany
 =================
@@ -11050,6 +11198,7 @@ BotSetTeamStatus
 
 Address: 0x7b89
 Stack Size: 0x8
+Opcodes Size: 0x3
 Called by: BotVoiceChat_ReturnFlag, BotVoiceChat_FollowMe, BotVoiceChat_Camp, BotVoiceChat_Patrol, BotVoiceChat_Defend, BotVoiceChat_Offense, BotVoiceChat_GetFlag, BotCTFRetreatGoals, BotCTFSeekGoals, BotSetLastOrderedTask, BotMatch_Kill, BotMatch_ReturnFlag, BotMatch_RushBase, BotMatch_AttackEnemyBase, BotMatch_GetFlag, BotMatch_Patrol, BotMatch_Camp, BotMatch_GetItem, BotMatch_DefendKeyArea, BotMatch_HelpAccompany
 =================
 */
@@ -11063,6 +11212,7 @@ BotSetLastOrderedTask
 
 Address: 0x7b8c
 Stack Size: 0x54
+Opcodes Size: 0xf4
 Calls: trap_AAS_AreaTravelTimeToGoalArea, memcpy, BotGetAlternateRouteGoal, BotOppositeTeam, BotEnemyFlag, BotTeamFlag, BotSetTeamStatus, BotTeam
 Called by: FindHumanTeamLeader, BotCTFSeekGoals
 =================
@@ -11124,6 +11274,7 @@ BotRefuseOrder
 
 Address: 0x7c80
 Stack Size: 0x1c
+Opcodes Size: 0x41
 Calls: trap_EA_Action, BotVoiceChat
 Called by: BotCTFRetreatGoals, BotCTFSeekGoals
 =================
@@ -11150,6 +11301,7 @@ BotCTFSeekGoals
 
 Address: 0x7cc1
 Stack Size: 0x104
+Opcodes Size: 0x556
 Calls: memcpy, BotAggression, BotSetLastOrderedTask, BotTeamLeader, rand, BotEnemyFlagCarrierVisible, BotSetTeamStatus, BotTeamFlagCarrierVisible, EntityCarriesFlag, BotEntityInfo, BotVoiceChat, BotSetUserInfo, va, BotGetAlternateRouteGoal, BotOppositeTeam, VectorLength, BotTeam, BotRefuseOrder, BotCTFCarryingFlag
 Called by: BotTeamGoals
 =================
@@ -11453,6 +11605,7 @@ BotCTFRetreatGoals
 
 Address: 0x8217
 Stack Size: 0x14
+Opcodes Size: 0x4a
 Calls: BotSetTeamStatus, BotRefuseOrder, BotCTFCarryingFlag
 Called by: BotTeamGoals
 =================
@@ -11480,6 +11633,7 @@ BotTeamGoals
 
 Address: 0x8261
 Stack Size: 0xc
+Opcodes Size: 0x23
 Calls: BotCTFSeekGoals, BotCTFRetreatGoals
 Called by: AINode_Battle_Retreat, AINode_Seek_LTG
 =================
@@ -11503,6 +11657,7 @@ BotPointAreaNum
 
 Address: 0x8284
 Stack Size: 0x60
+Opcodes Size: 0x43
 Calls: trap_AAS_TraceAreas, trap_AAS_PointAreaNum
 Called by: BotVoiceChat_FollowMe, BotVoiceChat_Camp, BotClientTravelTimeToGoal, BotAI, BotTestAAS, AINode_Battle_NBG, AINode_Battle_Retreat, AINode_Battle_Fight, BotLongTermGoal, BotGetLongTermGoal, BotGetAirGoal, BotMatch_LeadTheWay, BotMatch_CheckPoint, BotMatch_Camp, BotMatch_HelpAccompany
 =================
@@ -11538,6 +11693,7 @@ ClientName
 
 Address: 0x82c7
 Stack Size: 0x41c
+Opcodes Size: 0x52
 Calls: strncpy, trap_GetConfigstring, Q_CleanStr, Info_ValueForKey, BotAI_Print
 Called by: BotVoiceChat_WhoIsLeader, BotVoiceChat_StopLeader, BotVoiceChat_StartLeader, BotTeamAI, FindHumanTeamLeader, BotCreateGroup, BotCTFOrders_BothFlagsAtBase, BotCTFOrders_EnemyFlagNotAtBase, BotCTFOrders_FlagNotAtBase, BotCTFOrders_BothFlagsNotAtBase, BotSayTeamOrderAlways, BotGetTeamMateTaskPreference, BotSetTeamMateTaskPreference, BotSetInfoConfigString, BotReportStatus, BotDeathmatchAI, BotCheckConsoleMessages, BotPrintActivateGoalInfo, EasyClientName, BotRecordNodeSwitch, BotDumpNodeSwitches, BotMatch_WhatIsMyCommand, BotMatch_WhatAreYouDoing, BotMatch_WhoIsTeamLeader, BotMatch_StopTeamLeaderShip, BotMatch_StartTeamLeaderShip, BotMatch_TaskPreference, BotAddressedToBot, FindEnemyByName, FindClientByName, BotChatTest, BotChat_HitNoKill, BotChat_HitNoDeath, BotChat_HitTalking
 =================
@@ -11568,6 +11724,7 @@ ClientSkin
 
 Address: 0x8319
 Stack Size: 0x41c
+Opcodes Size: 0x4c
 Calls: strncpy, trap_GetConfigstring, Info_ValueForKey, BotAI_Print
 =================
 */
@@ -11596,6 +11753,7 @@ ClientFromName
 
 Address: 0x8365
 Stack Size: 0x420
+Opcodes Size: 0x45
 Calls: trap_GetConfigstring, Q_stricmp, Info_ValueForKey, Q_CleanStr
 Called by: BotValidTeamLeader, BotTeamLeader, BotCheckConsoleMessages, BotMatch_CTF, BotMatch_Kill, BotMatch_LeadTheWay, BotMatch_WhereAreYou, BotMatch_WhatAreYouDoing, BotMatch_Suicide, BotMatch_Dismiss, BotMatch_CheckPoint, BotMatch_LeaveSubteam, BotMatch_JoinSubteam, BotMatch_TaskPreference, BotMatch_Camp, BotMatch_DefendKeyArea, BotMatch_HelpAccompany
 =================
@@ -11629,6 +11787,7 @@ ClientOnSameTeamFromName
 
 Address: 0x83aa
 Stack Size: 0x424
+Opcodes Size: 0x59
 Calls: trap_GetConfigstring, Q_stricmp, Info_ValueForKey, Q_CleanStr, BotSameTeam
 Called by: BotMatch_GetItem, BotAddressedToBot
 =================
@@ -11668,6 +11827,7 @@ stristr
 
 Address: 0x8403
 Stack Size: 0x18
+Opcodes Size: 0x6a
 Calls: toupper
 Called by: BotAddressedToBot, FindEnemyByName, FindClientByName
 =================
@@ -11710,6 +11870,7 @@ EasyClientName
 
 Address: 0x846d
 Stack Size: 0xd8
+Opcodes Size: 0x17b
 Calls: strncpy, memmove, strlen, strstr, ClientName
 Called by: BotVoiceChat_WantOnOffense, BotVoiceChat_WantOnDefense, BotVoiceChat_FollowMe, BotVoiceChat_Camp, BotSetInfoConfigString, BotReportStatus, BotLongTermGoal, BotGetLongTermGoal, BotMatch_WhatAreYouDoing, BotMatch_TaskPreference, BotChatTest, BotChat_Random, BotChat_EnemySuicide, BotChat_Kill, BotChat_Death, BotChat_EndLevel, BotChat_StartLevel, BotChat_ExitGame, BotChat_EnterGame, BotRandomOpponentName, BotLastClientInRankings, BotFirstClientInRankings
 =================
@@ -11820,6 +11981,7 @@ BotSynonymContext
 
 Address: 0x85e8
 Stack Size: 0x14
+Opcodes Size: 0x26
 Calls: BotTeam
 Called by: BotAI_BotInitialChat, BotCheckConsoleMessages
 =================
@@ -11846,6 +12008,7 @@ BotChooseWeapon
 
 Address: 0x860e
 Stack Size: 0x24
+Opcodes Size: 0x5f
 Calls: trap_BotChooseBestFightWeapon, trap_EA_SelectWeapon
 Called by: AINode_Battle_NBG, AINode_Battle_Retreat, AINode_Battle_Fight, AINode_Seek_NBG, BotGetItemLongTermGoal
 =================
@@ -11879,6 +12042,7 @@ BotSetupForMovement
 
 Address: 0x866d
 Stack Size: 0x70
+Opcodes Size: 0xbd
 Calls: trap_BotInitMoveState, memset
 Called by: BotAttackMove, AINode_Battle_NBG, AINode_Battle_Retreat, AINode_Battle_Chase, AINode_Seek_LTG, AINode_Seek_NBG, AINode_Seek_ActivateEntity, BotGetLongTermGoal
 =================
@@ -11943,6 +12107,7 @@ BotCheckItemPickup
 
 Address: 0x872a
 Stack Size: 0x8
+Opcodes Size: 0x3
 Called by: BotUpdateInventory
 =================
 */
@@ -11956,6 +12121,7 @@ BotUpdateInventory
 
 Address: 0x872d
 Stack Size: 0x4dc
+Opcodes Size: 0x24b
 Calls: memcpy, BotCheckItemPickup
 Called by: BotDeathmatchAI
 =================
@@ -12144,6 +12310,7 @@ BotUpdateBattleInventory
 
 Address: 0x8978
 Stack Size: 0xb0
+Opcodes Size: 0x46
 Calls: VectorLength, BotEntityInfo
 Called by: BotFindEnemy, AINode_Battle_NBG, AINode_Battle_Retreat, AINode_Battle_Chase, AINode_Battle_Fight
 =================
@@ -12175,6 +12342,7 @@ BotBattleUseItems
 
 Address: 0x89be
 Stack Size: 0x10
+Opcodes Size: 0x40
 Calls: trap_EA_Use, BotCTFCarryingFlag
 Called by: AINode_Battle_Retreat, AINode_Battle_Fight
 =================
@@ -12201,6 +12369,7 @@ BotSetTeleportTime
 
 Address: 0x89fe
 Stack Size: 0x10
+Opcodes Size: 0x27
 Called by: BotDeathmatchAI
 =================
 */
@@ -12219,6 +12388,7 @@ BotIsDead
 
 Address: 0x8a25
 Stack Size: 0xc
+Opcodes Size: 0x15
 Called by: AINode_Battle_NBG, AINode_Battle_Retreat, AINode_Battle_Chase, AINode_Battle_Fight, AINode_Seek_LTG, AINode_Seek_NBG, AINode_Seek_ActivateEntity, AINode_Respawn, BotValidChatPosition
 =================
 */
@@ -12240,6 +12410,7 @@ BotIsObserver
 
 Address: 0x8a3a
 Stack Size: 0x41c
+Opcodes Size: 0x36
 Calls: trap_GetConfigstring, atoi, Info_ValueForKey
 Called by: BotDeathmatchAI, AINode_Battle_NBG, AINode_Battle_Retreat, AINode_Battle_Chase, AINode_Battle_Fight, AINode_Seek_LTG, AINode_Seek_NBG, AINode_Seek_ActivateEntity, AINode_Observer, BotChat_Random, BotChat_EndLevel, BotChat_StartLevel
 =================
@@ -12267,6 +12438,7 @@ BotIntermission
 
 Address: 0x8a70
 Stack Size: 0x10
+Opcodes Size: 0x25
 Called by: BotDeathmatchAI, AINode_Battle_NBG, AINode_Battle_Retreat, AINode_Battle_Chase, AINode_Battle_Fight, AINode_Seek_LTG, AINode_Seek_NBG, AINode_Seek_ActivateEntity, AINode_Intermission
 =================
 */
@@ -12295,6 +12467,7 @@ BotInLavaOrSlime
 
 Address: 0x8a95
 Stack Size: 0x1c
+Opcodes Size: 0x1a
 Calls: trap_AAS_PointContents
 Called by: AINode_Battle_NBG, AINode_Battle_Retreat, AINode_Battle_Chase, AINode_Battle_Fight, AINode_Seek_LTG, AINode_Seek_NBG, AINode_Seek_ActivateEntity
 =================
@@ -12316,6 +12489,7 @@ BotCreateWayPoint
 
 Address: 0x8aaf
 Stack Size: 0x34
+Opcodes Size: 0x5e
 Calls: Q_strncpyz, BotAI_Print
 Called by: BotMatch_CheckPoint, BotGetPatrolWaypoints
 =================
@@ -12351,6 +12525,7 @@ BotFindWayPoint
 
 Address: 0x8b0d
 Stack Size: 0x18
+Opcodes Size: 0x2f
 Calls: Q_stricmp
 Called by: BotMatch_CheckPoint, BotGetMessageTeamGoal
 =================
@@ -12379,6 +12554,7 @@ BotFreeWaypoints
 
 Address: 0x8b3c
 Stack Size: 0x10
+Opcodes Size: 0x25
 Called by: BotResetState, BotAIShutdownClient, BotGetPatrolWaypoints
 =================
 */
@@ -12404,6 +12580,7 @@ BotInitWaypoints
 
 Address: 0x8b61
 Stack Size: 0xc
+Opcodes Size: 0x24
 Called by: BotSetupDeathmatchAI
 =================
 */
@@ -12425,6 +12602,7 @@ TeamPlayIsOn
 
 Address: 0x8b85
 Stack Size: 0xc
+Opcodes Size: 0x12
 Called by: BotVoiceChatCommand, BotVoiceChat_WhoIsLeader, BotCheckConsoleMessages, BotMatch_Kill, BotMatch_LeadTheWay, BotMatch_WhereAreYou, BotMatch_WhoIsTeamLeader, BotMatch_StopTeamLeaderShip, BotMatch_StartTeamLeaderShip, BotMatch_Suicide, BotMatch_Dismiss, BotMatch_FormationSpace, BotMatch_CheckPoint, BotMatch_WhichTeam, BotMatch_LeaveSubteam, BotMatch_JoinSubteam, BotMatch_Patrol, BotMatch_Camp, BotMatch_GetItem, BotMatch_DefendKeyArea, BotMatch_HelpAccompany, BotChat_Random, BotChat_HitNoKill, BotChat_HitNoDeath, BotChat_HitTalking, BotChat_EnemySuicide, BotChat_Kill, BotChat_Death, BotChat_EndLevel, BotChat_StartLevel, BotChat_ExitGame, BotChat_EnterGame
 =================
 */
@@ -12446,6 +12624,7 @@ BotAggression
 
 Address: 0x8b97
 Stack Size: 0x24
+Opcodes Size: 0xc8
 Called by: BotWantsToCamp, BotWantsToChase, BotWantsToRetreat, BotCTFSeekGoals
 =================
 */
@@ -12505,6 +12684,7 @@ BotFeelingBad
 
 Address: 0x8c5f
 Stack Size: 0x8
+Opcodes Size: 0x35
 =================
 */
 int BotFeelingBad(int arg_0) {
@@ -12531,6 +12711,7 @@ BotWantsToRetreat
 
 Address: 0x8c94
 Stack Size: 0xa0
+Opcodes Size: 0x56
 Calls: BotAggression, EntityCarriesFlag, BotEntityInfo, BotCTFCarryingFlag
 Called by: BotFindEnemy, AINode_Battle_Chase, AINode_Battle_Fight, AINode_Seek_LTG, AINode_Seek_NBG, AINode_Seek_ActivateEntity
 =================
@@ -12567,6 +12748,7 @@ BotWantsToChase
 
 Address: 0x8cea
 Stack Size: 0xa4
+Opcodes Size: 0x4f
 Calls: BotAggression, EntityCarriesFlag, BotEntityInfo, BotCTFCarryingFlag
 Called by: AINode_Battle_Retreat, AINode_Battle_Fight
 =================
@@ -12603,6 +12785,7 @@ BotWantsToHelp
 
 Address: 0x8d39
 Stack Size: 0x8
+Opcodes Size: 0x5
 =================
 */
 int BotWantsToHelp(void) {
@@ -12616,6 +12799,7 @@ BotCanAndWantsToRocketJump
 
 Address: 0x8d3e
 Stack Size: 0x20
+Opcodes Size: 0x6b
 Calls: trap_Characteristic_BFloat
 Called by: AINode_Battle_NBG, AINode_Battle_Chase, AINode_Battle_Fight, AINode_Seek_LTG, AINode_Seek_NBG
 =================
@@ -12658,6 +12842,7 @@ BotHasPersistantPowerupAndWeapon
 
 Address: 0x8da9
 Stack Size: 0x28
+Opcodes Size: 0xb6
 Called by: BotGetLongTermGoal
 =================
 */
@@ -12712,6 +12897,7 @@ BotGoCamp
 
 Address: 0x8e5f
 Stack Size: 0x28
+Opcodes Size: 0x7c
 Calls: trap_Characteristic_BFloat, memcpy, rand
 Called by: BotWantsToCamp
 =================
@@ -12746,6 +12932,7 @@ BotWantsToCamp
 
 Address: 0x8edb
 Stack Size: 0xc4
+Opcodes Size: 0x121
 Calls: memcpy, trap_AAS_AreaTravelTimeToGoalArea, trap_BotGetNextCampSpotGoal, trap_Characteristic_BFloat, BotGoCamp, BotAggression, rand
 Called by: AINode_Seek_LTG
 =================
@@ -12837,6 +13024,7 @@ BotDontAvoid
 
 Address: 0x8ffc
 Stack Size: 0x58
+Opcodes Size: 0x3c
 Calls: trap_BotRemoveFromAvoidGoals, trap_BotGetLevelItemGoal
 Called by: BotGoForPowerups
 =================
@@ -12867,6 +13055,7 @@ BotGoForPowerups
 
 Address: 0x9038
 Stack Size: 0x10
+Opcodes Size: 0x35
 Calls: BotDontAvoid
 Called by: BotCheckEvents
 =================
@@ -12888,6 +13077,7 @@ BotRoamGoal
 
 Address: 0x906d
 Stack Size: 0xd8
+Opcodes Size: 0x195
 Calls: trap_PointContents, VectorNormalize, BotAI_Trace, rand
 Called by: AINode_Seek_LTG, AINode_Seek_NBG, AINode_Seek_ActivateEntity, BotGetLongTermGoal
 =================
@@ -13003,6 +13193,7 @@ BotAttackMove
 
 Address: 0x9202
 Stack Size: 0x1a8
+Opcodes Size: 0x2ef
 Calls: trap_BotMoveInDirection, trap_Characteristic_BFloat, memset, trap_BotMoveToGoal, CrossProduct, rand, VectorNormalize, BotEntityInfo, BotSetupForMovement
 Called by: AINode_Battle_Fight
 =================
@@ -13206,6 +13397,7 @@ BotSameTeam
 
 Address: 0x94f1
 Stack Size: 0x1c
+Opcodes Size: 0x56
 Called by: BotVoiceChatCommand, FindHumanTeamLeader, BotTeamOrders, BotSortTeamMatesByBaseTravelTime, BotNumTeamMates, BotMapScripts, BotCheckAttack, BotVisibleTeamMatesAndEnemies, BotEnemyFlagCarrierVisible, BotTeamFlagCarrier, BotTeamFlagCarrierVisible, BotFindEnemy, ClientOnSameTeamFromName, BotMatch_NewLeader, BotMatch_LeadTheWay, BotMatch_HelpAccompany, NumPlayersOnSameTeam, FindEnemyByName, BotChat_Kill, BotChat_Death, BotVisibleEnemies, BotRandomOpponentName
 =================
 */
@@ -13244,6 +13436,7 @@ InFieldOfVision
 
 Address: 0x9547
 Stack Size: 0x2c
+Opcodes Size: 0x8d
 Calls: AngleMod
 Called by: BotMapScripts, BotCheckAttack, BotFindEnemy, BotEntityVisible, AINode_Seek_ActivateEntity, BotClearPath
 =================
@@ -13295,6 +13488,7 @@ BotEntityVisible
 
 Address: 0x95d4
 Stack Size: 0x1a0
+Opcodes Size: 0x26a
 Calls: trap_AAS_PointContents, VectorLengthSquared, BotAI_Trace, InFieldOfVision, vectoangles, BotEntityInfo
 Called by: BotAimAtEnemy, BotVisibleTeamMatesAndEnemies, BotEnemyFlagCarrierVisible, BotTeamFlagCarrierVisible, BotFindEnemy, AINode_Battle_NBG, AINode_Battle_Retreat, AINode_Battle_Chase, AINode_Battle_Fight, BotLongTermGoal, BotGetLongTermGoal, BotVisibleEnemies
 =================
@@ -13510,6 +13704,7 @@ BotFindEnemy
 
 Address: 0x983e
 Stack Size: 0x1cc
+Opcodes Size: 0x289
 Calls: trap_Characteristic_BFloat, BotWantsToRetreat, BotUpdateBattleInventory, InFieldOfVision, vectoangles, BotEntityVisible, BotSameTeam, EntityIsChatting, EntityIsShooting, EntityIsInvisible, EntityIsDead, VectorLengthSquared, EntityCarriesFlag, BotEntityInfo
 Called by: AINode_Battle_Retreat, AINode_Battle_Chase, AINode_Battle_Fight, AINode_Seek_LTG, AINode_Seek_NBG, AINode_Seek_ActivateEntity, AINode_Stand
 =================
@@ -13710,6 +13905,7 @@ BotTeamFlagCarrierVisible
 
 Address: 0x9ac7
 Stack Size: 0xc0
+Opcodes Size: 0x75
 Calls: BotEntityVisible, BotSameTeam, EntityCarriesFlag, BotEntityInfo
 Called by: BotCTFSeekGoals
 =================
@@ -13760,6 +13956,7 @@ BotTeamFlagCarrier
 
 Address: 0x9b3c
 Stack Size: 0xa8
+Opcodes Size: 0x52
 Calls: BotSameTeam, EntityCarriesFlag, BotEntityInfo
 Called by: BotVoiceChat_FollowFlagCarrier
 =================
@@ -13803,6 +14000,7 @@ BotEnemyFlagCarrierVisible
 
 Address: 0x9b8e
 Stack Size: 0xc0
+Opcodes Size: 0x75
 Calls: BotEntityVisible, BotSameTeam, EntityCarriesFlag, BotEntityInfo
 Called by: BotCTFSeekGoals
 =================
@@ -13853,6 +14051,7 @@ BotVisibleTeamMatesAndEnemies
 
 Address: 0x9c03
 Stack Size: 0xdc
+Opcodes Size: 0xd0
 Calls: BotSameTeam, BotEntityVisible, VectorLengthSquared, EntityCarriesFlag, BotEntityInfo
 =================
 */
@@ -13927,6 +14126,7 @@ BotAimAtEnemy
 
 Address: 0x9cd3
 Stack Size: 0x4b8
+Opcodes Size: 0x7de
 Calls: trap_EA_View, trap_BotPredictVisiblePosition, trap_AAS_PredictClientMovement, trap_BotGetWeaponInfo, trap_Characteristic_BFloat, AngleMod, fabs, VectorNormalize, VectorLength, BotAI_Trace, BotEntityVisible, VectorLengthSquared, rand, EntityIsInvisible, vectoangles, BotEntityInfo
 Called by: AINode_Battle_NBG, AINode_Battle_Retreat, AINode_Battle_Chase, AINode_Battle_Fight
 =================
@@ -14370,6 +14570,7 @@ BotCheckAttack
 
 Address: 0xa4b1
 Stack Size: 0x42c
+Opcodes Size: 0x279
 Calls: trap_EA_Attack, trap_BotGetWeaponInfo, trap_Characteristic_BFloat, BotSameTeam, AngleVectors, BotAI_Trace, InFieldOfVision, vectoangles, VectorLengthSquared, rand, BotEntityInfo
 Called by: AINode_Battle_NBG, AINode_Battle_Retreat, AINode_Battle_Fight
 =================
@@ -14541,6 +14742,7 @@ BotMapScripts
 
 Address: 0xa72a
 Stack Size: 0x5b4
+Opcodes Size: 0x206
 Calls: trap_EA_Attack, trap_Characteristic_BFloat, strncpy, trap_GetServerinfo, InFieldOfVision, AngleMod, rand, vectoangles, BotSameTeam, EntityIsDead, BotEntityInfo, Q_stricmp, Info_ValueForKey
 Called by: AINode_Battle_NBG, AINode_Battle_Retreat, AINode_Battle_Chase, AINode_Seek_LTG, AINode_Seek_NBG, AINode_Seek_ActivateEntity
 =================
@@ -14694,6 +14896,7 @@ BotSetMovedir
 
 Address: 0xa930
 Stack Size: 0x24
+Opcodes Size: 0x3b
 Calls: AngleVectors, VectorCompare
 Called by: BotFuncButtonActivateGoal
 =================
@@ -14728,6 +14931,7 @@ BotModelMinsMaxs
 
 Address: 0xa96b
 Stack Size: 0x30
+Opcodes Size: 0xfc
 Called by: BotAIPredictObstacles, BotGetActivateGoal, BotTriggerMultipleActivateGoal, BotFuncDoorActivateGoal, BotFuncButtonActivateGoal
 =================
 */
@@ -14795,6 +14999,7 @@ BotFuncButtonActivateGoal
 
 Address: 0xaa67
 Stack Size: 0x2a8
+Opcodes Size: 0x518
 Calls: trap_AAS_AreaReachability, trap_AAS_TraceAreas, trap_AAS_PresenceTypeBoundingBox, trap_AAS_FloatForBSPEpairKey, trap_AAS_ValueForBSPEpairKey, BotAI_Trace, fabs, BotSetMovedir, BotModelMinsMaxs, atoi
 Called by: BotGetActivateGoal
 =================
@@ -15092,6 +15297,7 @@ BotFuncDoorActivateGoal
 
 Address: 0xaf7f
 Stack Size: 0x454
+Opcodes Size: 0xc5
 Calls: trap_AAS_ValueForBSPEpairKey, BotModelMinsMaxs, atoi
 Called by: BotGetActivateGoal
 =================
@@ -15155,6 +15361,7 @@ BotTriggerMultipleActivateGoal
 
 Address: 0xb044
 Stack Size: 0x138
+Opcodes Size: 0x140
 Calls: trap_AAS_AreaReachability, trap_AAS_TraceAreas, trap_AAS_ValueForBSPEpairKey, BotModelMinsMaxs, atoi
 Called by: BotGetActivateGoal
 =================
@@ -15253,6 +15460,7 @@ BotPopFromActivateGoalStack
 
 Address: 0xb184
 Stack Size: 0x14
+Opcodes Size: 0x3f
 Calls: BotEnableActivateGoalAreas
 Called by: BotClearActivateGoalStack, AINode_Seek_ActivateEntity
 =================
@@ -15278,6 +15486,7 @@ BotPushOntoActivateGoalStack
 
 Address: 0xb1c3
 Stack Size: 0x28
+Opcodes Size: 0x90
 Calls: memcpy
 Called by: BotGoForActivateGoal
 =================
@@ -15315,6 +15524,7 @@ BotClearActivateGoalStack
 
 Address: 0xb253
 Stack Size: 0xc
+Opcodes Size: 0x16
 Calls: BotPopFromActivateGoalStack
 Called by: BotAIShutdownClient, AINode_Seek_ActivateEntity
 =================
@@ -15335,6 +15545,7 @@ BotEnableActivateGoalAreas
 
 Address: 0xb269
 Stack Size: 0x1c
+Opcodes Size: 0x58
 Calls: trap_AAS_EnableRoutingArea
 Called by: BotAIPredictObstacles, BotAIBlocked, BotGoForActivateGoal, BotGetActivateGoal, BotPopFromActivateGoalStack
 =================
@@ -15378,6 +15589,7 @@ BotIsGoingToActivateEntity
 
 Address: 0xb2c1
 Stack Size: 0x10
+Opcodes Size: 0x76
 Called by: BotAIPredictObstacles, BotAIBlocked
 =================
 */
@@ -15419,6 +15631,7 @@ BotGetActivateGoal
 
 Address: 0xb337
 Stack Size: 0xd08
+Opcodes Size: 0x48a
 Calls: trap_AAS_AreaTravelTimeToGoalArea, trap_AAS_AreaInfo, trap_AAS_AreaReachability, trap_AAS_BBoxAreas, trap_AAS_VectorForBSPEpairKey, trap_AAS_IntForBSPEpairKey, trap_AAS_FloatForBSPEpairKey, trap_AAS_ValueForBSPEpairKey, trap_AAS_NextBSPEntity, memset, BotTriggerMultipleActivateGoal, BotEnableActivateGoalAreas, BotFuncButtonActivateGoal, BotModelMinsMaxs, atoi, VectorCompare, BotFuncDoorActivateGoal, BotAI_Print, strcmp, Com_sprintf, BotEntityInfo
 Called by: BotAIPredictObstacles, BotAIBlocked
 =================
@@ -15703,6 +15916,7 @@ BotGoForActivateGoal
 
 Address: 0xb7c1
 Stack Size: 0xa0
+Opcodes Size: 0x57
 Calls: BotEnableActivateGoalAreas, AIEnter_Seek_ActivateEntity, BotPushOntoActivateGoalStack, BotEntityInfo
 Called by: BotAIPredictObstacles, BotAIBlocked
 =================
@@ -15735,6 +15949,7 @@ BotPrintActivateGoalInfo
 
 Address: 0xb818
 Stack Size: 0x154
+Opcodes Size: 0x7e
 Calls: trap_EA_Say, trap_AAS_ValueForBSPEpairKey, Com_sprintf, ClientName
 =================
 */
@@ -15761,6 +15976,7 @@ BotRandomMove
 
 Address: 0xb896
 Stack Size: 0x38
+Opcodes Size: 0x41
 Calls: trap_BotMoveInDirection, AngleVectors, rand
 Called by: BotAIBlocked
 =================
@@ -15794,6 +16010,7 @@ BotAIBlocked
 
 Address: 0xb8d7
 Stack Size: 0x1f0
+Opcodes Size: 0x1a3
 Calls: trap_BotMoveInDirection, trap_AAS_AreaReachability, CrossProduct, AngleVectors, rand, VectorNormalize, BotEnableActivateGoalAreas, BotGoForActivateGoal, BotIsGoingToActivateEntity, BotGetActivateGoal, BotEntityInfo, BotRandomMove
 Called by: AINode_Battle_NBG, AINode_Battle_Retreat, AINode_Battle_Chase, AINode_Battle_Fight, AINode_Seek_LTG, AINode_Seek_NBG, AINode_Seek_ActivateEntity
 =================
@@ -15913,6 +16130,7 @@ BotAIPredictObstacles
 
 Address: 0xba7a
 Stack Size: 0x178
+Opcodes Size: 0xfb
 Calls: trap_AAS_PredictRoute, BotEnableActivateGoalAreas, BotGoForActivateGoal, BotIsGoingToActivateEntity, BotGetActivateGoal, BotModelMinsMaxs
 Called by: AINode_Seek_LTG, AINode_Seek_NBG, AINode_Seek_ActivateEntity
 =================
@@ -15988,6 +16206,7 @@ BotCheckConsoleMessages
 
 Address: 0xbb75
 Stack Size: 0x42c
+Opcodes Size: 0x207
 Calls: trap_BotNextConsoleMessage, trap_Characteristic_BFloat, trap_BotReplyChat, trap_BotLibVarSet, trap_Cvar_Update, trap_BotMatchVariable, trap_BotRemoveConsoleMessage, trap_BotReplaceSynonyms, trap_UnifyWhiteSpaces, trap_BotFindMatch, trap_BotNumConsoleMessages, AIEnter_Stand, BotChatTime, NumBots, TeamPlayIsOn, BotValidChatPosition, BotAI_Print, ClientFromName, BotMatchMessage, BotSynonymContext, rand, ClientName
 Called by: BotDeathmatchAI
 =================
@@ -16136,6 +16355,7 @@ BotCheckForGrenades
 
 Address: 0xbd7c
 Stack Size: 0x20
+Opcodes Size: 0x2e
 Calls: trap_BotAddAvoidSpot
 Called by: BotCheckSnapshot
 =================
@@ -16160,6 +16380,7 @@ BotCheckEvents
 
 Address: 0xbdaa
 Stack Size: 0xbc
+Opcodes Size: 0x221
 Calls: trap_EA_Use, trap_GetConfigstring, BotGoForPowerups, strcmp, BotAI_Print
 Called by: BotCheckSnapshot
 =================
@@ -16288,6 +16509,7 @@ BotCheckSnapshot
 
 Address: 0xbfcb
 Stack Size: 0xf0
+Opcodes Size: 0x6f
 Calls: trap_BotAddAvoidSpot, BotAI_GetEntityState, BotAI_GetSnapshotEntity, BotCheckForGrenades, BotCheckEvents
 Called by: BotDeathmatchAI
 =================
@@ -16324,6 +16546,7 @@ BotCheckAir
 
 Address: 0xc03a
 Stack Size: 0x10
+Opcodes Size: 0x22
 Calls: trap_AAS_PointContents
 Called by: BotDeathmatchAI
 =================
@@ -16346,6 +16569,7 @@ BotAlternateRoute
 
 Address: 0xc05c
 Stack Size: 0x28
+Opcodes Size: 0x63
 Calls: memcpy, trap_AAS_AreaTravelTimeToGoalArea
 Called by: BotGetLongTermGoal
 =================
@@ -16379,6 +16603,7 @@ BotGetAlternateRouteGoal
 
 Address: 0xc0bf
 Stack Size: 0x24
+Opcodes Size: 0xa4
 Calls: rand
 Called by: BotVoiceChat_GetFlag, BotCTFSeekGoals, BotSetLastOrderedTask, BotMatch_GetFlag
 =================
@@ -16431,6 +16656,7 @@ BotSetupAlternativeRouteGoals
 
 Address: 0xc163
 Stack Size: 0x8
+Opcodes Size: 0xc
 Called by: BotDeathmatchAI
 =================
 */
@@ -16449,6 +16675,7 @@ BotDeathmatchAI
 
 Address: 0xc16f
 Stack Size: 0x560
+Opcodes Size: 0x1cf
 Calls: trap_BotDumpAvoidGoals, trap_BotDumpGoalStack, trap_BotSetChatName, trap_BotSetChatGender, trap_SetUserinfo, trap_GetUserinfo, trap_Characteristic_String, BotAI_Print, BotDumpNodeSwitches, BotResetNodeSwitches, AIEnter_Stand, BotChatTime, BotChat_EnterGame, AIEnter_Seek_LTG, BotTeamAI, BotIsObserver, BotCheckConsoleMessages, BotCheckAir, BotCheckSnapshot, BotUpdateInventory, BotSetTeleportTime, BotIntermission, BotSetupAlternativeRouteGoals, ClientName, Info_SetValueForKey
 Called by: BotAI
 =================
@@ -16554,6 +16781,7 @@ BotSetEntityNumForGoalWithModel
 
 Address: 0xc33e
 Stack Size: 0x38
+Opcodes Size: 0x88
 Calls: VectorLengthSquared, G_ModelIndex
 =================
 */
@@ -16606,6 +16834,7 @@ BotSetEntityNumForGoal
 
 Address: 0xc3c6
 Stack Size: 0x34
+Opcodes Size: 0x78
 Calls: VectorLengthSquared, Q_stricmp
 =================
 */
@@ -16652,6 +16881,7 @@ BotSetEntityNumForGoalWithActivator
 
 Address: 0xc43e
 Stack Size: 0x38
+Opcodes Size: 0x82
 Calls: VectorLengthSquared, Q_stricmp
 =================
 */
@@ -16700,6 +16930,7 @@ BotGoalForBSPEntity
 
 Address: 0xc4c0
 Stack Size: 0x484
+Opcodes Size: 0xa0
 Calls: trap_AAS_TraceAreas, trap_AAS_VectorForBSPEpairKey, trap_AAS_ValueForBSPEpairKey, trap_AAS_NextBSPEntity, memset, strcmp
 =================
 */
@@ -16762,6 +16993,7 @@ BotSetupDeathmatchAI
 
 Address: 0xc560
 Stack Size: 0xb4
+Opcodes Size: 0xe4
 Calls: trap_AAS_ValueForBSPEpairKey, trap_AAS_NextBSPEntity, trap_BotGetLevelItemGoal, trap_Cvar_Register, trap_Cvar_VariableIntegerValue, BotInitWaypoints, atoi, BotAI_Print
 Called by: BotAILoadMap
 =================
@@ -16825,6 +17057,7 @@ BotShutdownDeathmatchAI
 
 Address: 0xc644
 Stack Size: 0x8
+Opcodes Size: 0x6
 =================
 */
 void BotShutdownDeathmatchAI(void) {
@@ -16838,6 +17071,7 @@ BotAI_Print
 
 Address: 0xc64a
 Stack Size: 0x820
+Opcodes Size: 0x5c
 Calls: G_Error, G_Printf, Q_vsnprintf
 Called by: BotAISetupClient, BotAI, BotTeamplayReport, BotReportStatus, BotTestAAS, BotSetupDeathmatchAI, BotDeathmatchAI, BotCheckEvents, BotCheckConsoleMessages, BotGetActivateGoal, BotCreateWayPoint, ClientSkin, ClientName, BotDumpNodeSwitches, BotMatchMessage, BotGPSToPosition
 =================
@@ -16875,6 +17109,7 @@ BotAI_Trace
 
 Address: 0xc6a6
 Stack Size: 0x5c
+Opcodes Size: 0x78
 Calls: trap_Trace
 Called by: BotFuncButtonActivateGoal, BotCheckAttack, BotAimAtEnemy, BotEntityVisible, BotRoamGoal, AINode_Seek_ActivateEntity, BotClearPath, BotGetAirGoal, BotNearestVisibleItem, BotValidChatPosition
 =================
@@ -16915,6 +17150,7 @@ BotAI_GetClientState
 
 Address: 0xc71e
 Stack Size: 0x18
+Opcodes Size: 0x31
 Calls: memcpy
 Called by: BotClientTravelTimeToGoal, BotAI, EntityIsDead, BotLastClientInRankings, BotFirstClientInRankings, BotIsLastInRankings, BotIsFirstInRankings
 =================
@@ -16939,6 +17175,7 @@ BotAI_GetEntityState
 
 Address: 0xc74f
 Stack Size: 0x18
+Opcodes Size: 0x45
 Calls: memcpy, memset
 Called by: BotAI_GetSnapshotEntity, BotCheckSnapshot, BotClearPath
 =================
@@ -16967,6 +17204,7 @@ BotAI_GetSnapshotEntity
 
 Address: 0xc794
 Stack Size: 0x1c
+Opcodes Size: 0x31
 Calls: memset, trap_BotGetSnapshotEntity, BotAI_GetEntityState
 Called by: BotCheckSnapshot
 =================
@@ -16991,6 +17229,7 @@ BotAI_BotInitialChat
 
 Address: 0xc7c5
 Stack Size: 0x6c
+Opcodes Size: 0x82
 Calls: trap_BotInitialChat, memset, BotSynonymContext
 Called by: BotVoiceChat_WantOnOffense, BotVoiceChat_WantOnDefense, BotVoiceChat_WhoIsLeader, BotVoiceChat_FollowMe, BotVoiceChat_Camp, BotVoiceChat_Patrol, BotTeamAI, BotCreateGroup, BotCTFOrders_BothFlagsAtBase, BotCTFOrders_EnemyFlagNotAtBase, BotCTFOrders_FlagNotAtBase, BotCTFOrders_BothFlagsNotAtBase, BotLongTermGoal, BotGetLongTermGoal, BotMatch_Kill, BotMatch_LeadTheWay, BotMatch_WhereAreYou, BotMatch_WhatAreYouDoing, BotMatch_Dismiss, BotMatch_CheckPoint, BotMatch_WhichTeam, BotMatch_LeaveSubteam, BotMatch_JoinSubteam, BotMatch_TaskPreference, BotMatch_Camp, BotMatch_HelpAccompany, BotChatTest, BotChat_Random, BotChat_HitNoKill, BotChat_HitNoDeath, BotChat_HitTalking, BotChat_EnemySuicide, BotChat_Kill, BotChat_Death, BotChat_EndLevel, BotChat_StartLevel, BotChat_ExitGame, BotChat_EnterGame
 =================
@@ -17040,6 +17279,7 @@ BotTestAAS
 
 Address: 0xc847
 Stack Size: 0x58
+Opcodes Size: 0x77
 Calls: trap_AAS_AreaInfo, trap_AAS_Initialized, trap_Cvar_Update, BotAI_Print, BotPointAreaNum
 Called by: ClientThink_real
 =================
@@ -17089,6 +17329,7 @@ BotReportStatus
 
 Address: 0xc8be
 Stack Size: 0x250
+Opcodes Size: 0x18c
 Calls: trap_BotGoalName, BotAI_Print, EasyClientName, BotTeam, BotCTFCarryingFlag, strcpy, Q_stricmp, ClientName
 Called by: BotTeamplayReport
 =================
@@ -17166,6 +17407,7 @@ BotTeamplayReport
 
 Address: 0xca4a
 Stack Size: 0x430
+Opcodes Size: 0xeb
 Calls: trap_GetConfigstring, BotReportStatus, atoi, Info_ValueForKey, strlen, BotAI_Print
 =================
 */
@@ -17241,6 +17483,7 @@ BotSetInfoConfigString
 
 Address: 0xcb35
 Stack Size: 0x388
+Opcodes Size: 0x16d
 Calls: trap_SetConfigstring, trap_BotGetTopGoal, trap_BotGoalName, va, Com_sprintf, EasyClientName, BotCTFCarryingFlag, strcpy, Q_stricmp, ClientName
 Called by: BotUpdateInfoConfigStrings
 =================
@@ -17322,6 +17565,7 @@ BotUpdateInfoConfigStrings
 
 Address: 0xcca2
 Stack Size: 0x428
+Opcodes Size: 0x5d
 Calls: trap_GetConfigstring, BotSetInfoConfigString, Info_ValueForKey, strlen
 Called by: BotAIStartFrame
 =================
@@ -17365,6 +17609,7 @@ BotInterbreedBots
 
 Address: 0xccff
 Stack Size: 0x13c
+Opcodes Size: 0xd9
 Calls: trap_BotMutateGoalFuzzyLogic, trap_BotInterbreedGoalFuzzyLogic, trap_GeneticParentsAndChildSelection
 Called by: BotInterbreedEndMatch
 =================
@@ -17420,6 +17665,7 @@ BotWriteInterbreeded
 
 Address: 0xcdd8
 Stack Size: 0x28
+Opcodes Size: 0x68
 Calls: trap_BotSaveGoalFuzzyLogic
 Called by: BotInterbreedEndMatch
 =================
@@ -17462,6 +17708,7 @@ BotInterbreedEndMatch
 
 Address: 0xce40
 Stack Size: 0x18
+Opcodes Size: 0x3b
 Calls: trap_Cvar_Set, trap_Cvar_Update, BotInterbreedBots, BotWriteInterbreeded, strlen
 Called by: ExitLevel
 =================
@@ -17493,6 +17740,7 @@ BotInterbreeding
 
 Address: 0xce7b
 Stack Size: 0x2c
+Opcodes Size: 0x97
 Calls: trap_SendConsoleCommand, trap_BotLibVarSet, trap_Cvar_Set, trap_Cvar_Update, BotAIShutdownClient, ExitLevel, va, strlen
 Called by: BotAIStartFrame
 =================
@@ -17543,6 +17791,7 @@ BotEntityInfo
 
 Address: 0xcf12
 Stack Size: 0x10
+Opcodes Size: 0xc
 Calls: trap_AAS_EntityInfo
 Called by: BotVoiceChat_FollowMe, BotVoiceChat_Camp, BotAIBlocked, BotGoForActivateGoal, BotGetActivateGoal, BotMapScripts, BotCheckAttack, BotAimAtEnemy, BotVisibleTeamMatesAndEnemies, BotEnemyFlagCarrierVisible, BotTeamFlagCarrier, BotTeamFlagCarrierVisible, BotFindEnemy, BotEntityVisible, BotAttackMove, BotWantsToChase, BotWantsToRetreat, BotUpdateBattleInventory, BotCTFSeekGoals, AINode_Battle_NBG, AINode_Battle_Retreat, AINode_Battle_Fight, AINode_Seek_ActivateEntity, BotLongTermGoal, BotGetLongTermGoal, BotMatch_LeadTheWay, BotMatch_Camp, BotMatch_HelpAccompany, BotChat_HitNoKill, BotChat_HitNoDeath, BotVisibleEnemies
 =================
@@ -17558,6 +17807,7 @@ NumBots
 
 Address: 0xcf1e
 Stack Size: 0x8
+Opcodes Size: 0x6
 Called by: BotCheckConsoleMessages
 =================
 */
@@ -17572,6 +17822,7 @@ BotTeamLeader
 
 Address: 0xcf24
 Stack Size: 0x18
+Opcodes Size: 0x30
 Calls: ClientFromName
 Called by: BotCTFSeekGoals
 =================
@@ -17601,6 +17852,7 @@ AngleDifference
 
 Address: 0xcf54
 Stack Size: 0x14
+Opcodes Size: 0x30
 Called by: BotChangeViewAngles
 =================
 */
@@ -17629,6 +17881,7 @@ BotChangeViewAngle
 
 Address: 0xcf84
 Stack Size: 0x24
+Opcodes Size: 0x74
 Calls: AngleMod
 Called by: BotChangeViewAngles
 =================
@@ -17675,6 +17928,7 @@ BotChangeViewAngles
 
 Address: 0xcff8
 Stack Size: 0x68
+Opcodes Size: 0x1fd
 Calls: trap_EA_View, trap_Characteristic_BFloat, AngleMod, BotChangeViewAngle, fabs, AngleDifference
 Called by: BotUpdateInput
 =================
@@ -17785,6 +18039,7 @@ BotInputToUserCommand
 
 Address: 0xd1f5
 Stack Size: 0xb0
+Opcodes Size: 0x31c
 Calls: memset, fabs, AngleVectors
 Called by: BotUpdateInput
 =================
@@ -17964,6 +18219,7 @@ BotUpdateInput
 
 Address: 0xd511
 Stack Size: 0x58
+Opcodes Size: 0xb5
 Calls: trap_EA_GetInput, BotInputToUserCommand, BotChangeViewAngles, AngleMod
 Called by: BotAIStartFrame
 =================
@@ -18010,6 +18266,7 @@ BotAIRegularUpdate
 
 Address: 0xd5c6
 Stack Size: 0x8
+Opcodes Size: 0x11
 Calls: trap_BotUpdateEntityItems
 Called by: BotAIStartFrame
 =================
@@ -18028,6 +18285,7 @@ RemoveColorEscapeSequences
 
 Address: 0xd5d7
 Stack Size: 0x24
+Opcodes Size: 0x61
 Calls: Q_IsColorString
 Called by: BotAI
 =================
@@ -18069,6 +18327,7 @@ BotAI
 
 Address: 0xd638
 Stack Size: 0x45c
+Opcodes Size: 0x24c
 Calls: trap_EA_SelectWeapon, trap_BotGetServerCommand, trap_BotQueueConsoleMessage, trap_EA_ResetInput, BotDeathmatchAI, BotPointAreaNum, AngleMod, memmove, strlen, Q_stricmp, RemoveColorEscapeSequences, strchr, BotAI_GetClientState, BotAI_Print
 Called by: BotAIStartFrame
 =================
@@ -18196,6 +18455,7 @@ BotScheduleBotThink
 
 Address: 0xd884
 Stack Size: 0x18
+Opcodes Size: 0x44
 Called by: BotAIStartFrame, BotAISetupClient
 =================
 */
@@ -18228,6 +18488,7 @@ BotWriteSessionData
 
 Address: 0xd8c8
 Stack Size: 0x68
+Opcodes Size: 0x96
 Calls: trap_Cvar_Set, va
 Called by: BotAIShutdownClient
 =================
@@ -18252,6 +18513,7 @@ BotReadSessionData
 
 Address: 0xd95e
 Stack Size: 0x464
+Opcodes Size: 0x82
 Calls: trap_Cvar_VariableStringBuffer, sscanf, va
 Called by: BotAISetupClient
 =================
@@ -18274,6 +18536,7 @@ BotAISetupClient
 
 Address: 0xd9e0
 Stack Size: 0x218
+Opcodes Size: 0x249
 Calls: trap_BotMutateGoalFuzzyLogic, trap_BotLibVarSet, trap_Cvar_VariableIntegerValue, trap_Characteristic_BFloat, trap_BotAllocMoveState, trap_BotSetChatGender, trap_BotFreeChatState, trap_BotLoadChatFile, trap_BotAllocChatState, trap_BotFreeWeaponState, trap_BotLoadWeaponWeights, trap_BotAllocWeaponState, trap_BotFreeGoalState, trap_BotLoadItemWeights, trap_Characteristic_String, trap_BotAllocGoalState, memcpy, trap_BotLoadCharacter, trap_AAS_Initialized, BotReadSessionData, BotScheduleBotThink, BotChatTest, BotAI_Print, G_Alloc
 Called by: G_BotConnect
 =================
@@ -18407,6 +18670,7 @@ BotAIShutdownClient
 
 Address: 0xdc29
 Stack Size: 0x28
+Opcodes Size: 0xa4
 Calls: memset, trap_BotFreeCharacter, trap_BotFreeWeaponState, trap_BotFreeChatState, trap_BotFreeGoalState, trap_BotFreeMoveState, trap_BotEnterChat, BotClearActivateGoalStack, BotFreeWaypoints, BotChat_ExitGame, BotWriteSessionData
 Called by: ClientDisconnect, BotAIShutdown, BotInterbreeding
 =================
@@ -18452,6 +18716,7 @@ BotResetState
 
 Address: 0xdccd
 Stack Size: 0x2a4
+Opcodes Size: 0x11d
 Calls: trap_BotResetAvoidReach, trap_BotResetAvoidGoals, trap_BotResetWeaponState, trap_BotResetGoalState, trap_BotResetMoveState, memset, memcpy, BotFreeWaypoints
 Called by: BotAILoadMap, AIEnter_Observer, AIEnter_Intermission
 =================
@@ -18518,6 +18783,7 @@ BotAILoadMap
 
 Address: 0xddea
 Stack Size: 0x130
+Opcodes Size: 0x51
 Calls: trap_BotLibLoadMap, trap_Cvar_Register, BotSetupDeathmatchAI, BotResetState
 Called by: G_InitGame
 =================
@@ -18552,6 +18818,7 @@ BotAIStartFrame
 
 Address: 0xde3b
 Stack Size: 0xb8
+Opcodes Size: 0x347
 Calls: trap_AAS_Time, memset, trap_BotLibUpdateEntity, trap_AAS_Initialized, trap_BotLibStartFrame, trap_Cvar_Set, trap_BotLibVarSet, trap_BotUserCommand, trap_Cvar_Update, BotUpdateInput, BotAI, BotAIRegularUpdate, BotScheduleBotThink, BotInterbreeding, BotUpdateInfoConfigStrings, G_CheckBotSpawn
 Called by: vmMain
 =================
@@ -18771,6 +19038,7 @@ BotInitLibrary
 
 Address: 0xe182
 Stack Size: 0xe8
+Opcodes Size: 0x1da
 Calls: trap_BotLibSetup, trap_Cvar_VariableStringBuffer, trap_BotLibVarSet, strcpy, strlen, Com_sprintf
 Called by: BotAISetup
 =================
@@ -18888,6 +19156,7 @@ BotAISetup
 
 Address: 0xe35c
 Stack Size: 0x20
+Opcodes Size: 0xaa
 Calls: memset, trap_Cvar_Register, BotInitLibrary
 Called by: G_InitGame
 =================
@@ -18926,6 +19195,7 @@ BotAIShutdown
 
 Address: 0xe406
 Stack Size: 0x18
+Opcodes Size: 0x42
 Calls: trap_BotLibShutdown, BotAIShutdownClient
 Called by: G_ShutdownGame
 =================
@@ -18958,6 +19228,7 @@ BotValidTeamLeader
 
 Address: 0xe448
 Stack Size: 0x14
+Opcodes Size: 0x27
 Calls: ClientFromName, strlen
 Called by: BotTeamAI
 =================
@@ -18983,6 +19254,7 @@ BotNumTeamMates
 
 Address: 0xe46f
 Stack Size: 0x438
+Opcodes Size: 0x76
 Calls: trap_GetConfigstring, BotSameTeam, atoi, Info_ValueForKey, strlen
 Called by: BotTeamAI
 =================
@@ -19035,6 +19307,7 @@ BotClientTravelTimeToGoal
 
 Address: 0xe4e5
 Stack Size: 0x1f8
+Opcodes Size: 0x3b
 Calls: trap_AAS_AreaTravelTimeToGoalArea, BotPointAreaNum, BotAI_GetClientState
 Called by: BotSortTeamMatesByBaseTravelTime
 =================
@@ -19067,6 +19340,7 @@ BotSortTeamMatesByBaseTravelTime
 
 Address: 0xe520
 Stack Size: 0x558
+Opcodes Size: 0x115
 Calls: trap_GetConfigstring, BotClientTravelTimeToGoal, BotSameTeam, atoi, Info_ValueForKey, strlen, BotTeam
 Called by: BotCTFOrders_BothFlagsAtBase, BotCTFOrders_EnemyFlagNotAtBase, BotCTFOrders_FlagNotAtBase, BotCTFOrders_BothFlagsNotAtBase
 =================
@@ -19166,6 +19440,7 @@ BotSetTeamMateTaskPreference
 
 Address: 0xe635
 Stack Size: 0x38
+Opcodes Size: 0x26
 Calls: strcpy, ClientName
 Called by: BotVoiceChat_WantOnOffense, BotVoiceChat_WantOnDefense, BotMatch_TaskPreference
 =================
@@ -19185,6 +19460,7 @@ BotGetTeamMateTaskPreference
 
 Address: 0xe65b
 Stack Size: 0x3c
+Opcodes Size: 0x3b
 Calls: Q_stricmp, ClientName
 Called by: BotVoiceChat_WantOnOffense, BotVoiceChat_WantOnDefense, BotSortTeamMatesByTaskPreference, BotMatch_TaskPreference
 =================
@@ -19211,6 +19487,7 @@ BotSortTeamMatesByTaskPreference
 
 Address: 0xe696
 Stack Size: 0x338
+Opcodes Size: 0x10d
 Calls: memcpy, BotGetTeamMateTaskPreference
 Called by: BotCTFOrders_BothFlagsAtBase, BotCTFOrders_EnemyFlagNotAtBase, BotCTFOrders_FlagNotAtBase, BotCTFOrders_BothFlagsNotAtBase
 =================
@@ -19282,6 +19559,7 @@ BotSayTeamOrderAlways
 
 Address: 0xe7a3
 Stack Size: 0x240
+Opcodes Size: 0x53
 Calls: trap_BotEnterChat, trap_BotQueueConsoleMessage, trap_BotGetChatMessage, Com_sprintf, ClientName
 Called by: BotCreateGroup, BotSayTeamOrder
 =================
@@ -19309,6 +19587,7 @@ BotSayTeamOrder
 
 Address: 0xe7f6
 Stack Size: 0x10
+Opcodes Size: 0xc
 Calls: BotSayTeamOrderAlways
 Called by: BotCTFOrders_BothFlagsAtBase, BotCTFOrders_EnemyFlagNotAtBase, BotCTFOrders_FlagNotAtBase, BotCTFOrders_BothFlagsNotAtBase
 =================
@@ -19324,6 +19603,7 @@ BotVoiceChat
 
 Address: 0xe802
 Stack Size: 0x8
+Opcodes Size: 0x3
 Called by: BotCTFSeekGoals, BotRefuseOrder, BotMatch_Suicide
 =================
 */
@@ -19337,6 +19617,7 @@ BotVoiceChatOnly
 
 Address: 0xe805
 Stack Size: 0x8
+Opcodes Size: 0x3
 Called by: BotVoiceChat_WantOnOffense, BotVoiceChat_WantOnDefense, BotVoiceChat_WhoIsLeader, BotVoiceChat_Patrol, BotGetLongTermGoal, BotMatch_TaskPreference
 =================
 */
@@ -19350,6 +19631,7 @@ BotSayVoiceTeamOrder
 
 Address: 0xe808
 Stack Size: 0x8
+Opcodes Size: 0x3
 Called by: BotTeamAI, BotCTFOrders_BothFlagsAtBase, BotCTFOrders_EnemyFlagNotAtBase, BotCTFOrders_FlagNotAtBase, BotCTFOrders_BothFlagsNotAtBase
 =================
 */
@@ -19363,6 +19645,7 @@ BotCTFOrders_BothFlagsNotAtBase
 
 Address: 0xe80b
 Stack Size: 0x18c
+Opcodes Size: 0x2c4
 Calls: BotSayVoiceTeamOrder, BotSayTeamOrder, BotAI_BotInitialChat, ClientName, BotSortTeamMatesByTaskPreference, BotSortTeamMatesByBaseTravelTime
 Called by: BotCTFOrders
 =================
@@ -19511,6 +19794,7 @@ BotCTFOrders_FlagNotAtBase
 
 Address: 0xeacf
 Stack Size: 0x158
+Opcodes Size: 0x37c
 Calls: BotSayVoiceTeamOrder, BotSayTeamOrder, BotAI_BotInitialChat, ClientName, BotSortTeamMatesByTaskPreference, BotSortTeamMatesByBaseTravelTime
 Called by: BotCTFOrders
 =================
@@ -19660,6 +19944,7 @@ BotCTFOrders_EnemyFlagNotAtBase
 
 Address: 0xee4b
 Stack Size: 0x184
+Opcodes Size: 0x271
 Calls: BotSayVoiceTeamOrder, BotSayTeamOrder, BotAI_BotInitialChat, ClientName, BotSortTeamMatesByTaskPreference, BotSortTeamMatesByBaseTravelTime
 Called by: BotCTFOrders
 =================
@@ -19789,6 +20074,7 @@ BotCTFOrders_BothFlagsAtBase
 
 Address: 0xf0bc
 Stack Size: 0x158
+Opcodes Size: 0x383
 Calls: BotSayVoiceTeamOrder, BotSayTeamOrder, BotAI_BotInitialChat, ClientName, BotSortTeamMatesByTaskPreference, BotSortTeamMatesByBaseTravelTime
 Called by: BotCTFOrders
 =================
@@ -19939,6 +20225,7 @@ BotCTFOrders
 
 Address: 0xf43f
 Stack Size: 0x20
+Opcodes Size: 0x64
 Calls: BotCTFOrders_BothFlagsNotAtBase, BotCTFOrders_FlagNotAtBase, BotCTFOrders_EnemyFlagNotAtBase, BotCTFOrders_BothFlagsAtBase, BotTeam
 Called by: BotTeamAI
 =================
@@ -19976,6 +20263,7 @@ BotCreateGroup
 
 Address: 0xf4a3
 Stack Size: 0x68
+Opcodes Size: 0x6e
 Calls: BotSayTeamOrderAlways, BotAI_BotInitialChat, ClientName
 Called by: BotTeamOrders
 =================
@@ -20011,6 +20299,7 @@ BotTeamOrders
 
 Address: 0xf511
 Stack Size: 0x538
+Opcodes Size: 0xf0
 Calls: trap_GetConfigstring, BotCreateGroup, BotSameTeam, atoi, Info_ValueForKey, strlen
 Called by: BotTeamAI
 =================
@@ -20090,6 +20379,7 @@ FindHumanTeamLeader
 
 Address: 0xf601
 Stack Size: 0x20
+Opcodes Size: 0x68
 Calls: BotVoiceChat_Defend, BotSetLastOrderedTask, ClientName, BotSameTeam
 Called by: BotTeamAI
 =================
@@ -20125,6 +20415,7 @@ BotTeamAI
 
 Address: 0xf669
 Stack Size: 0x5c
+Opcodes Size: 0x21d
 Calls: strncpy, trap_BotEnterChat, BotCTFOrders, BotTeamOrders, BotNumTeamMates, Q_stricmp, ClientName, BotSayVoiceTeamOrder, BotAI_BotInitialChat, rand, FindHumanTeamLeader, BotValidTeamLeader
 Called by: BotDeathmatchAI
 =================
@@ -20241,6 +20532,7 @@ BotVoiceChat_GetFlag
 
 Address: 0xf886
 Stack Size: 0x18
+Opcodes Size: 0x72
 Calls: BotRememberLastOrderedTask, BotSetTeamStatus, BotGetAlternateRouteGoal, BotOppositeTeam, rand
 Called by: BotVoiceChat_Offense
 =================
@@ -20279,6 +20571,7 @@ BotVoiceChat_Offense
 
 Address: 0xf8f8
 Stack Size: 0x18
+Opcodes Size: 0x63
 Calls: BotRememberLastOrderedTask, BotSetTeamStatus, rand, BotVoiceChat_GetFlag
 =================
 */
@@ -20309,6 +20602,7 @@ BotVoiceChat_Defend
 
 Address: 0xf95b
 Stack Size: 0x20
+Opcodes Size: 0x84
 Calls: memcpy, BotRememberLastOrderedTask, BotSetTeamStatus, rand, BotTeam
 Called by: BotVoiceChat_DefendFlag, FindHumanTeamLeader
 =================
@@ -20349,6 +20643,7 @@ BotVoiceChat_DefendFlag
 
 Address: 0xf9df
 Stack Size: 0x14
+Opcodes Size: 0xf
 Calls: BotVoiceChat_Defend
 =================
 */
@@ -20363,6 +20658,7 @@ BotVoiceChat_Patrol
 
 Address: 0xf9ee
 Stack Size: 0x14
+Opcodes Size: 0x48
 Calls: trap_BotEnterChat, BotSetTeamStatus, BotVoiceChatOnly, BotAI_BotInitialChat
 =================
 */
@@ -20385,6 +20681,7 @@ BotVoiceChat_Camp
 
 Address: 0xfa36
 Stack Size: 0xd0
+Opcodes Size: 0xe3
 Calls: trap_BotEnterChat, BotRememberLastOrderedTask, BotSetTeamStatus, rand, BotAI_BotInitialChat, EasyClientName, BotPointAreaNum, BotEntityInfo
 =================
 */
@@ -20439,6 +20736,7 @@ BotVoiceChat_FollowMe
 
 Address: 0xfb19
 Stack Size: 0xd0
+Opcodes Size: 0xf0
 Calls: trap_BotEnterChat, BotRememberLastOrderedTask, BotSetTeamStatus, rand, BotAI_BotInitialChat, EasyClientName, BotPointAreaNum, BotEntityInfo
 Called by: BotVoiceChat_FollowFlagCarrier
 =================
@@ -20496,6 +20794,7 @@ BotVoiceChat_FollowFlagCarrier
 
 Address: 0xfc09
 Stack Size: 0x1c
+Opcodes Size: 0x1e
 Calls: BotVoiceChat_FollowMe, BotTeamFlagCarrier
 =================
 */
@@ -20516,6 +20815,7 @@ BotVoiceChat_ReturnFlag
 
 Address: 0xfc27
 Stack Size: 0x10
+Opcodes Size: 0x51
 Calls: BotSetTeamStatus, rand
 =================
 */
@@ -20544,6 +20844,7 @@ BotVoiceChat_StartLeader
 
 Address: 0xfc78
 Stack Size: 0x14
+Opcodes Size: 0x10
 Calls: ClientName
 =================
 */
@@ -20558,6 +20859,7 @@ BotVoiceChat_StopLeader
 
 Address: 0xfc88
 Stack Size: 0x11c
+Opcodes Size: 0x2c
 Calls: Q_stricmp, ClientName
 =================
 */
@@ -20580,6 +20882,7 @@ BotVoiceChat_WhoIsLeader
 
 Address: 0xfcb4
 Stack Size: 0x11c
+Opcodes Size: 0x4e
 Calls: trap_BotEnterChat, BotVoiceChatOnly, BotAI_BotInitialChat, Q_stricmp, ClientName, TeamPlayIsOn
 =================
 */
@@ -20608,6 +20911,7 @@ BotVoiceChat_WantOnDefense
 
 Address: 0xfd02
 Stack Size: 0x44
+Opcodes Size: 0x6b
 Calls: trap_EA_Action, trap_BotEnterChat, BotVoiceChatOnly, BotAI_BotInitialChat, EasyClientName, BotSetTeamMateTaskPreference, BotGetTeamMateTaskPreference
 =================
 */
@@ -20636,6 +20940,7 @@ BotVoiceChat_WantOnOffense
 
 Address: 0xfd6d
 Stack Size: 0x44
+Opcodes Size: 0x6b
 Calls: trap_EA_Action, trap_BotEnterChat, BotVoiceChatOnly, BotAI_BotInitialChat, EasyClientName, BotSetTeamMateTaskPreference, BotGetTeamMateTaskPreference
 =================
 */
@@ -20664,6 +20969,7 @@ BotVoiceChat_Dummy
 
 Address: 0xfdd8
 Stack Size: 0x8
+Opcodes Size: 0x3
 =================
 */
 void BotVoiceChat_Dummy(void) {
@@ -20676,6 +20982,7 @@ BotVoiceChatCommand
 
 Address: 0xfddb
 Stack Size: 0x158
+Opcodes Size: 0x128
 Calls: Q_stricmp, BotSameTeam, atoi, Q_strncpyz, TeamPlayIsOn
 =================
 */
@@ -20791,6 +21098,7 @@ BG_FindItemForPowerup
 
 Address: 0xff03
 Stack Size: 0x10
+Opcodes Size: 0x47
 Called by: TossClientItems, ClientEvents
 =================
 */
@@ -20822,6 +21130,7 @@ BG_FindItemForHoldable
 
 Address: 0xff4a
 Stack Size: 0x18
+Opcodes Size: 0x3e
 Calls: Com_Error
 =================
 */
@@ -20851,6 +21160,7 @@ BG_FindItemForWeapon
 
 Address: 0xff88
 Stack Size: 0x1c
+Opcodes Size: 0x37
 Calls: Com_Error
 Called by: InitShooter, ClearRegisteredItems, TossClientItems
 =================
@@ -20879,6 +21189,7 @@ BG_FindItem
 
 Address: 0xffbf
 Stack Size: 0x18
+Opcodes Size: 0x2f
 Calls: Q_stricmp
 Called by: G_CheckTeamItems, Cmd_Give_f
 =================
@@ -20907,6 +21218,7 @@ BG_PlayerTouchesItem
 
 Address: 0xffee
 Stack Size: 0x38
+Opcodes Size: 0x60
 Calls: BG_EvaluateTrajectory
 Called by: G_TouchTriggers
 =================
@@ -20946,6 +21258,7 @@ BG_CanItemBeGrabbed
 
 Address: 0x1004e
 Stack Size: 0x30
+Opcodes Size: 0x135
 Calls: Com_Error
 Called by: Touch_Item
 =================
@@ -21036,6 +21349,7 @@ BG_EvaluateTrajectory
 
 Address: 0x10183
 Stack Size: 0x68
+Opcodes Size: 0x196
 Calls: sin, Com_Error
 Called by: SetMoverState, G_MoverTeam, G_RunMissile, G_ExplodeMissile, G_RunItem, BG_PlayerTouchesItem
 =================
@@ -21097,6 +21411,7 @@ BG_EvaluateTrajectoryDelta
 
 Address: 0x10319
 Stack Size: 0x40
+Opcodes Size: 0xfc
 Calls: cos, Com_Error
 Called by: G_MissileImpact, G_BounceMissile, G_BounceItem
 =================
@@ -21162,6 +21477,7 @@ BG_AddPredictableEventToPlayerstate
 
 Address: 0x10415
 Stack Size: 0x14
+Opcodes Size: 0x37
 Called by: G_AddPredictableEvent, PM_AddEvent, BG_TouchJumpPad
 =================
 */
@@ -21181,6 +21497,7 @@ BG_TouchJumpPad
 
 Address: 0x1044c
 Stack Size: 0x30
+Opcodes Size: 0x74
 Calls: BG_AddPredictableEventToPlayerstate, fabs, AngleNormalize180, vectoangles
 Called by: trigger_push_touch
 =================
@@ -21225,6 +21542,7 @@ BG_PlayerStateToEntityState
 
 Address: 0x104c0
 Stack Size: 0x28
+Opcodes Size: 0x1f4
 Called by: TeleportPlayer, ClientSpawn, ClientEndFrame, ClientThink_real, SendPendingPredictableEvents
 =================
 */
@@ -21324,6 +21642,7 @@ BG_PlayerStateToEntityStateExtraPolate
 
 Address: 0x106b4
 Stack Size: 0x28
+Opcodes Size: 0x201
 Called by: ClientEndFrame, ClientThink_real
 =================
 */
@@ -21425,6 +21744,7 @@ PM_AddEvent
 
 Address: 0x108b5
 Stack Size: 0x14
+Opcodes Size: 0xf
 Calls: BG_AddPredictableEventToPlayerstate
 Called by: PM_StepSlideMove, PM_Animate, PM_Weapon, PM_BeginWeaponChange, PM_WaterEvents, PM_Footsteps, PM_CrashLand, PM_CheckJump
 =================
@@ -21440,6 +21760,7 @@ PM_AddTouchEnt
 
 Address: 0x108c4
 Stack Size: 0x14
+Opcodes Size: 0x59
 Called by: PM_SlideMove, PM_GroundTrace
 =================
 */
@@ -21477,6 +21798,7 @@ PM_StartTorsoAnim
 
 Address: 0x1091d
 Stack Size: 0x10
+Opcodes Size: 0x26
 Called by: PM_Animate, PM_Weapon, PM_FinishWeaponChange, PM_BeginWeaponChange, PM_ContinueTorsoAnim
 =================
 */
@@ -21499,6 +21821,7 @@ PM_StartLegsAnim
 
 Address: 0x10943
 Stack Size: 0x10
+Opcodes Size: 0x30
 Called by: PM_ForceLegsAnim, PM_ContinueLegsAnim
 =================
 */
@@ -21524,6 +21847,7 @@ PM_ContinueLegsAnim
 
 Address: 0x10973
 Stack Size: 0xc
+Opcodes Size: 0x20
 Calls: PM_StartLegsAnim
 Called by: PM_Footsteps
 =================
@@ -21546,6 +21870,7 @@ PM_ContinueTorsoAnim
 
 Address: 0x10993
 Stack Size: 0xc
+Opcodes Size: 0x20
 Calls: PM_StartTorsoAnim
 Called by: PM_TorsoAnimation
 =================
@@ -21568,6 +21893,7 @@ PM_ForceLegsAnim
 
 Address: 0x109b3
 Stack Size: 0xc
+Opcodes Size: 0x10
 Calls: PM_StartLegsAnim
 Called by: PM_GroundTrace, PM_GroundTraceMissed, PM_CrashLand, PM_CheckJump
 =================
@@ -21584,6 +21910,7 @@ PM_ClipVelocity
 
 Address: 0x109c3
 Stack Size: 0x28
+Opcodes Size: 0x7b
 Called by: PM_StepSlideMove, PM_SlideMove, PM_WalkMove, PM_AirMove, PM_WaterMove
 =================
 */
@@ -21622,6 +21949,7 @@ PM_Friction
 
 Address: 0x10a3e
 Stack Size: 0x3c
+Opcodes Size: 0xf3
 Calls: VectorLength
 Called by: PM_WalkMove, PM_AirMove, PM_FlyMove, PM_WaterMove
 =================
@@ -21694,6 +22022,7 @@ PM_Accelerate
 
 Address: 0x10b31
 Stack Size: 0x28
+Opcodes Size: 0x7c
 Called by: PM_NoclipMove, PM_WalkMove, PM_AirMove, PM_FlyMove, PM_WaterMove
 =================
 */
@@ -21733,6 +22062,7 @@ PM_CmdScale
 
 Address: 0x10bad
 Stack Size: 0x38
+Opcodes Size: 0xa4
 Calls: sqrt, abs
 Called by: PM_NoclipMove, PM_WalkMove, PM_AirMove, PM_FlyMove, PM_WaterMove
 =================
@@ -21781,6 +22111,7 @@ PM_SetMovementDir
 
 Address: 0x10c51
 Stack Size: 0x50
+Opcodes Size: 0x14c
 Called by: PM_WalkMove, PM_AirMove
 =================
 */
@@ -21880,6 +22211,7 @@ PM_CheckJump
 
 Address: 0x10d9d
 Stack Size: 0x14
+Opcodes Size: 0x8d
 Calls: PM_ForceLegsAnim, PM_AddEvent
 Called by: PM_WalkMove
 =================
@@ -21924,6 +22256,7 @@ PM_CheckWaterJump
 
 Address: 0x10e2a
 Stack Size: 0x48
+Opcodes Size: 0xe9
 Calls: VectorNormalize
 Called by: PM_WaterMove
 =================
@@ -21993,6 +22326,7 @@ PM_WaterJumpMove
 
 Address: 0x10f13
 Stack Size: 0x18
+Opcodes Size: 0x41
 Calls: PM_StepSlideMove
 Called by: PmoveSingle, PM_WaterMove
 =================
@@ -22019,6 +22353,7 @@ PM_WaterMove
 
 Address: 0x10f54
 Stack Size: 0x64
+Opcodes Size: 0x136
 Calls: PM_SlideMove, PM_ClipVelocity, VectorLength, PM_Accelerate, VectorNormalize, PM_CmdScale, PM_Friction, PM_WaterJumpMove, PM_CheckWaterJump
 Called by: PmoveSingle, PM_WalkMove
 =================
@@ -22098,6 +22433,7 @@ PM_FlyMove
 
 Address: 0x1108a
 Stack Size: 0x48
+Opcodes Size: 0x90
 Calls: PM_StepSlideMove, PM_Accelerate, VectorNormalize, PM_CmdScale, PM_Friction
 Called by: PmoveSingle
 =================
@@ -22146,6 +22482,7 @@ PM_AirMove
 
 Address: 0x1111a
 Stack Size: 0x6c
+Opcodes Size: 0xa7
 Calls: PM_StepSlideMove, PM_ClipVelocity, PM_Accelerate, VectorNormalize, PM_SetMovementDir, PM_CmdScale, PM_Friction
 Called by: PmoveSingle, PM_WalkMove
 =================
@@ -22202,6 +22539,7 @@ PM_GrappleMove
 
 Address: 0x111c1
 Stack Size: 0x40
+Opcodes Size: 0xb7
 Calls: VectorNormalize, VectorLength
 Called by: PmoveSingle
 =================
@@ -22258,6 +22596,7 @@ PM_WalkMove
 
 Address: 0x11278
 Stack Size: 0x9c
+Opcodes Size: 0x204
 Calls: PM_StepSlideMove, VectorLength, PM_Accelerate, VectorNormalize, PM_ClipVelocity, PM_SetMovementDir, PM_CmdScale, PM_Friction, PM_AirMove, PM_CheckJump, PM_WaterMove
 Called by: PmoveSingle
 =================
@@ -22384,6 +22723,7 @@ PM_DeadMove
 
 Address: 0x1147c
 Stack Size: 0x20
+Opcodes Size: 0x79
 Calls: VectorNormalize, VectorLength
 Called by: PmoveSingle
 =================
@@ -22425,6 +22765,7 @@ PM_NoclipMove
 
 Address: 0x114f5
 Stack Size: 0x80
+Opcodes Size: 0x158
 Calls: PM_Accelerate, VectorNormalize, PM_CmdScale, VectorLength
 Called by: PmoveSingle
 =================
@@ -22518,6 +22859,7 @@ PM_FootstepForSurface
 
 Address: 0x1164d
 Stack Size: 0x8
+Opcodes Size: 0x19
 Called by: PM_Footsteps, PM_CrashLand
 =================
 */
@@ -22538,6 +22880,7 @@ PM_CrashLand
 
 Address: 0x11666
 Stack Size: 0x44
+Opcodes Size: 0x101
 Calls: sqrt, PM_FootstepForSurface, PM_AddEvent, PM_ForceLegsAnim
 Called by: PM_GroundTrace
 =================
@@ -22620,6 +22963,7 @@ PM_CorrectAllSolid
 
 Address: 0x11767
 Stack Size: 0x4c
+Opcodes Size: 0xef
 Calls: Com_Printf
 Called by: PM_GroundTrace
 =================
@@ -22695,6 +23039,7 @@ PM_GroundTraceMissed
 
 Address: 0x11856
 Stack Size: 0x74
+Opcodes Size: 0x99
 Calls: PM_ForceLegsAnim, Com_Printf
 Called by: PM_GroundTrace
 =================
@@ -22746,6 +23091,7 @@ PM_GroundTrace
 
 Address: 0x118ef
 Stack Size: 0x80
+Opcodes Size: 0x175
 Calls: PM_AddTouchEnt, PM_CrashLand, PM_ForceLegsAnim, Com_Printf, PM_GroundTraceMissed, PM_CorrectAllSolid
 Called by: PmoveSingle
 =================
@@ -22852,6 +23198,7 @@ PM_SetWaterLevel
 
 Address: 0x11a64
 Stack Size: 0x48
+Opcodes Size: 0xd5
 Called by: PmoveSingle
 =================
 */
@@ -22913,6 +23260,7 @@ PM_CheckDuck
 
 Address: 0x11b39
 Stack Size: 0x70
+Opcodes Size: 0x151
 Called by: PmoveSingle
 =================
 */
@@ -22996,6 +23344,7 @@ PM_Footsteps
 
 Address: 0x11c8a
 Stack Size: 0x4c
+Opcodes Size: 0x180
 Calls: sqrt, PM_AddEvent, PM_FootstepForSurface, PM_ContinueLegsAnim
 Called by: PmoveSingle
 =================
@@ -23106,6 +23455,7 @@ PM_WaterEvents
 
 Address: 0x11e0a
 Stack Size: 0x1c
+Opcodes Size: 0x57
 Calls: PM_AddEvent
 Called by: PmoveSingle
 =================
@@ -23144,6 +23494,7 @@ PM_BeginWeaponChange
 
 Address: 0x11e61
 Stack Size: 0x14
+Opcodes Size: 0x4a
 Calls: PM_StartTorsoAnim, PM_AddEvent
 Called by: PM_Weapon
 =================
@@ -23177,6 +23528,7 @@ PM_FinishWeaponChange
 
 Address: 0x11eab
 Stack Size: 0x18
+Opcodes Size: 0x48
 Calls: PM_StartTorsoAnim
 Called by: PM_Weapon
 =================
@@ -23207,6 +23559,7 @@ PM_TorsoAnimation
 
 Address: 0x11ef3
 Stack Size: 0xc
+Opcodes Size: 0x1f
 Calls: PM_ContinueTorsoAnim
 Called by: PmoveSingle
 =================
@@ -23228,6 +23581,7 @@ PM_Weapon
 
 Address: 0x11f12
 Stack Size: 0x28
+Opcodes Size: 0x226
 Calls: PM_StartTorsoAnim, PM_FinishWeaponChange, PM_BeginWeaponChange, PM_AddEvent
 Called by: PmoveSingle
 =================
@@ -23365,6 +23719,7 @@ PM_Animate
 
 Address: 0x12138
 Stack Size: 0xc
+Opcodes Size: 0x25
 Calls: PM_AddEvent, PM_StartTorsoAnim
 Called by: PmoveSingle
 =================
@@ -23385,6 +23740,7 @@ PM_DropTimers
 
 Address: 0x1215d
 Stack Size: 0xc
+Opcodes Size: 0x8a
 Called by: PmoveSingle
 =================
 */
@@ -23421,6 +23777,7 @@ PM_UpdateViewAngles
 
 Address: 0x121e7
 Stack Size: 0x24
+Opcodes Size: 0xa8
 Called by: PmoveSingle
 =================
 */
@@ -23471,6 +23828,7 @@ PmoveSingle
 
 Address: 0x1228f
 Stack Size: 0x5c
+Opcodes Size: 0x2e9
 Calls: trap_SnapVector, memset, PM_WaterEvents, PM_Footsteps, PM_TorsoAnimation, PM_Weapon, PM_Animate, PM_WalkMove, PM_WaterMove, PM_WaterJumpMove, PM_AirMove, PM_GrappleMove, PM_DeadMove, PM_GroundTrace, PM_SetWaterLevel, PM_NoclipMove, PM_DropTimers, PM_FlyMove, PM_CheckDuck, AngleVectors, PM_UpdateViewAngles, abs
 Called by: Pmove
 =================
@@ -23661,6 +24019,7 @@ Pmove
 
 Address: 0x12578
 Stack Size: 0x24
+Opcodes Size: 0x8c
 Calls: PmoveSingle
 Called by: ClientThink_real, SpectatorThink
 =================
@@ -23706,6 +24065,7 @@ PM_SlideMove
 
 Address: 0x12604
 Stack Size: 0x154
+Opcodes Size: 0x410
 Calls: VectorNormalize, CrossProduct, PM_AddTouchEnt, VectorNormalize2, PM_ClipVelocity
 Called by: PM_StepSlideMove, PM_WaterMove
 =================
@@ -23965,6 +24325,7 @@ PM_StepSlideMove
 
 Address: 0x12a14
 Stack Size: 0xb0
+Opcodes Size: 0x187
 Calls: PM_AddEvent, PM_ClipVelocity, Com_Printf, PM_SlideMove
 Called by: PM_WalkMove, PM_AirMove, PM_FlyMove, PM_WaterJumpMove
 =================
@@ -24089,6 +24450,7 @@ swapfunc
 
 Address: 0x12b9b
 Stack Size: 0x20
+Opcodes Size: 0x87
 Called by: qsort
 =================
 */
@@ -24140,6 +24502,7 @@ med3
 
 Address: 0x12c22
 Stack Size: 0x38
+Opcodes Size: 0x93
 Called by: qsort
 =================
 */
@@ -24203,6 +24566,7 @@ qsort
 
 Address: 0x12cb5
 Stack Size: 0x94
+Opcodes Size: 0x3bd
 Calls: qsort, med3, swapfunc
 Called by: TeamplayInfoMessage, qsort, CalculateRanks
 =================
@@ -24450,6 +24814,7 @@ strlen
 
 Address: 0x13072
 Stack Size: 0xc
+Opcodes Size: 0x1b
 Called by: Com_CharIsOneOfCharset, Info_SetValueForKey_Big, Info_SetValueForKey, Info_RemoveKey_Big, Info_RemoveKey, Info_ValueForKey, Com_TruncateLongString, Q_stristr, Q_strcat, Com_HexStrToInt, COM_CompareExtension, TeamplayInfoMessage, UpdateIPBans, G_AddSpawnVarToken, G_NewString, Cmd_CallTeamVote_f, StringIsInteger, ConcatArgs, DeathmatchScoreboardMessage, G_LoadBots, G_LoadArenas, G_ParseInfos, UpdateTournamentInfo, BotTeamOrders, BotSortTeamMatesByBaseTravelTime, BotNumTeamMates, BotValidTeamLeader, BotInitLibrary, BotAI, BotInterbreeding, BotInterbreedEndMatch, BotUpdateInfoConfigStrings, BotTeamplayReport, EasyClientName, BotMatch_WhichTeam, BotMatch_LeaveSubteam, BotAddressedToBot, NumPlayersOnSameTeam, BotGetItemTeamGoal, BotRandomOpponentName, BotLastClientInRankings, BotFirstClientInRankings, BotIsLastInRankings, BotIsFirstInRankings, BotNumActivePlayers, G_LogPrintf
 =================
 */
@@ -24471,6 +24836,7 @@ strcat
 
 Address: 0x1308d
 Stack Size: 0x18
+Opcodes Size: 0x47
 Called by: Info_SetValueForKey_Big, Info_SetValueForKey, Cmd_CallTeamVote_f, G_LoadBots, G_LoadArenas, UpdateTournamentInfo, BotGetLongTermGoal
 =================
 */
@@ -24507,6 +24873,7 @@ strcpy
 
 Address: 0x130d4
 Stack Size: 0x18
+Opcodes Size: 0x39
 Called by: Info_SetValueForKey, AddRemap, TeamplayInfoMessage, DeathmatchScoreboardMessage, ClientUserinfoChanged, G_LoadBots, Svcmd_BotList_f, G_LoadArenas, G_ParseInfos, BotSetTeamMateTaskPreference, BotInitLibrary, BotSetInfoConfigString, BotReportStatus, BotGetLongTermGoal, BotMatch_LeaveSubteam, BotChatTest, BotChat_Random, BotChat_EnemySuicide, BotChat_Death
 =================
 */
@@ -24538,6 +24905,7 @@ strcmp
 
 Address: 0x1310d
 Stack Size: 0x14
+Opcodes Size: 0x46
 Called by: Info_RemoveKey_Big, Info_RemoveKey, COM_MatchToken, G_FindConfigstringIndex, Pickup_Team, G_CallSpawn, Think_SetupTrainTargets, G_MissileImpact, GibEntity, ClientConnect, ClientUserinfoChanged, G_ParseInfos, BotGoalForBSPEntity, BotCheckEvents, BotGetActivateGoal, G_FindTeams
 =================
 */
@@ -24570,6 +24938,7 @@ strchr
 
 Address: 0x13153
 Stack Size: 0x8
+Opcodes Size: 0x30
 Called by: Info_SetValueForKey_Big, Info_SetValueForKey, Info_Validate, Info_RemoveKey_Big, Info_RemoveKey, PrintMsg, G_ProcessIPBans, BotAI
 =================
 */
@@ -24597,6 +24966,7 @@ strrchr
 
 Address: 0x13183
 Stack Size: 0xc
+Opcodes Size: 0x33
 Called by: COM_DefaultExtension, COM_StripExtension, COM_GetExtension, PlayerIntroSound
 =================
 */
@@ -24626,6 +24996,7 @@ strstr
 
 Address: 0x131b6
 Stack Size: 0x10
+Opcodes Size: 0x4e
 Called by: SP_target_speaker, G_SpawnGEntityFromSpawnVars, EasyClientName
 =================
 */
@@ -24661,6 +25032,7 @@ tolower
 
 Address: 0x13204
 Stack Size: 0xc
+Opcodes Size: 0x18
 Called by: Q_strlwr, Com_HexStrToInt, Cmd_TeamVote_f, Cmd_Vote_f, strtod
 =================
 */
@@ -24680,6 +25052,7 @@ toupper
 
 Address: 0x1321c
 Stack Size: 0xc
+Opcodes Size: 0x18
 Called by: Q_strupr, stristr
 =================
 */
@@ -24699,6 +25072,7 @@ memmove
 
 Address: 0x13234
 Stack Size: 0x10
+Opcodes Size: 0x53
 Called by: Info_RemoveKey_Big, Info_RemoveKey, BotAI, EasyClientName
 =================
 */
@@ -24734,6 +25108,7 @@ powN
 
 Address: 0x13287
 Stack Size: 0x18
+Opcodes Size: 0x5f
 Calls: powN
 Called by: fmtfp, strtod, powN
 =================
@@ -24771,6 +25146,7 @@ tan
 
 Address: 0x132e6
 Stack Size: 0x14
+Opcodes Size: 0x17
 Calls: cos, sin
 =================
 */
@@ -24789,6 +25165,7 @@ srand
 
 Address: 0x132fd
 Stack Size: 0x8
+Opcodes Size: 0x7
 Called by: G_InitGame
 =================
 */
@@ -24803,6 +25180,7 @@ rand
 
 Address: 0x13304
 Stack Size: 0xc
+Opcodes Size: 0x16
 Called by: weapon_supershotgun_fire, Bullet_Fire, G_PickTarget, func_timer_think, multi_trigger, SelectRandomTeamSpawnPoint, Use_Target_Delay, Use_Shooter, FinishSpawningItem, Drop_Item, Touch_Item, RespawnItem, SelectRandomFurthestSpawnPoint, SelectRandomDeathmatchSpawnPoint, G_SelectRandomBotInfo, BotVoiceChat_ReturnFlag, BotVoiceChat_FollowMe, BotVoiceChat_Camp, BotVoiceChat_Defend, BotVoiceChat_Offense, BotVoiceChat_GetFlag, BotTeamAI, BotGetAlternateRouteGoal, BotCheckConsoleMessages, BotAIBlocked, BotRandomMove, BotMapScripts, BotCheckAttack, BotAimAtEnemy, BotAttackMove, BotRoamGoal, BotWantsToCamp, BotGoCamp, BotCTFSeekGoals, AINode_Battle_Fight, AINode_Seek_LTG, AINode_Seek_NBG, AINode_Seek_ActivateEntity, AIEnter_Respawn, BotGetLongTermGoal, BotMatch_Kill, BotMatch_LeadTheWay, BotMatch_ReturnFlag, BotMatch_RushBase, BotMatch_AttackEnemyBase, BotMatch_GetFlag, BotMatch_Patrol, BotMatch_Camp, BotMatch_GetItem, BotMatch_DefendKeyArea, BotMatch_HelpAccompany, BotAddressedToBot, BotChat_Random, BotChat_HitNoKill, BotChat_HitNoDeath, BotChat_HitTalking, BotChat_EnemySuicide, BotChat_Kill, BotChat_Death, BotChat_EndLevel, BotChat_StartLevel, BotChat_ExitGame, BotChat_EnterGame, BotRandomWeaponName, BotRandomOpponentName
 =================
 */
@@ -24820,6 +25198,7 @@ atof
 
 Address: 0x1331a
 Stack Size: 0x2c
+Opcodes Size: 0xc9
 Called by: Parse1DMatrix, G_ParseField, G_SpawnFloat, Cmd_SetViewpos_f, Svcmd_AddBot_f, G_BotConnect, trap_Cvar_VariableValue, BotMatch_FormationSpace, BotGetTime
 =================
 */
@@ -24899,6 +25278,7 @@ _atof
 
 Address: 0x133e3
 Stack Size: 0x30
+Opcodes Size: 0xcf
 Called by: sscanf
 =================
 */
@@ -24979,6 +25359,7 @@ strtod
 
 Address: 0x134b2
 Stack Size: 0x50
+Opcodes Size: 0x367
 Calls: powN, tolower, strtol, Q_stricmpn
 Called by: Q_isanumber
 =================
@@ -25203,6 +25584,7 @@ atoi
 
 Address: 0x13819
 Stack Size: 0x24
+Opcodes Size: 0x81
 Called by: ClientForString, StringToFilter, G_ParseField, G_SpawnInt, G_InitWorldSession, Cmd_CallTeamVote_f, Cmd_CallVote_f, Cmd_GameCommand_f, Cmd_TeamTask_f, ClientNumberFromString, ClientSpawn, ClientUserinfoChanged, G_InitBots, Svcmd_AddBot_f, BotVoiceChatCommand, BotTeamOrders, BotSortTeamMatesByBaseTravelTime, BotNumTeamMates, BotTeamplayReport, BotSetupDeathmatchAI, BotGetActivateGoal, BotTriggerMultipleActivateGoal, BotFuncDoorActivateGoal, BotFuncButtonActivateGoal, BotIsObserver, BotRandomOpponentName, BotLastClientInRankings, BotFirstClientInRankings, BotIsLastInRankings, BotIsFirstInRankings, BotNumActivePlayers, CheckTeamVote
 =================
 */
@@ -25261,6 +25643,7 @@ _atoi
 
 Address: 0x1389a
 Stack Size: 0x28
+Opcodes Size: 0x87
 Called by: sscanf
 =================
 */
@@ -25321,6 +25704,7 @@ strtol
 
 Address: 0x13921
 Stack Size: 0x28
+Opcodes Size: 0x154
 Called by: strtod
 =================
 */
@@ -25441,6 +25825,7 @@ abs
 
 Address: 0x13a75
 Stack Size: 0xc
+Opcodes Size: 0x19
 Called by: PmoveSingle, PM_CmdScale
 =================
 */
@@ -25463,6 +25848,7 @@ fabs
 
 Address: 0x13a8e
 Stack Size: 0xc
+Opcodes Size: 0x19
 Called by: PerpendicularVector, RadiusFromBounds, SP_func_pendulum, SP_func_button, SP_func_door, Touch_DoorTriggerSpectator, BG_TouchJumpPad, BotInputToUserCommand, BotChangeViewAngles, BotFuncButtonActivateGoal, BotAimAtEnemy
 =================
 */
@@ -25485,6 +25871,7 @@ dopr
 
 Address: 0x13aa7
 Stack Size: 0x13c
+Opcodes Size: 0x6ff
 Calls: fmtstr, fmtfp, fmtint, dopr_outch
 Called by: Q_vsnprintf
 =================
@@ -25968,6 +26355,7 @@ fmtstr
 
 Address: 0x141a6
 Stack Size: 0x38
+Opcodes Size: 0xe4
 Calls: dopr_outch
 Called by: dopr
 =================
@@ -26047,6 +26435,7 @@ fmtint
 
 Address: 0x1428a
 Stack Size: 0x6c
+Opcodes Size: 0x1b7
 Calls: dopr_outch
 Called by: dopr
 =================
@@ -26191,6 +26580,7 @@ abs_val
 
 Address: 0x14441
 Stack Size: 0xc
+Opcodes Size: 0x13
 Called by: fmtfp
 =================
 */
@@ -26210,6 +26600,7 @@ round
 
 Address: 0x14454
 Stack Size: 0x10
+Opcodes Size: 0x21
 Called by: fmtfp
 =================
 */
@@ -26231,6 +26622,7 @@ fmtfp
 
 Address: 0x14475
 Stack Size: 0xa0
+Opcodes Size: 0x2b1
 Calls: dopr_outch, round, powN, abs_val
 Called by: dopr
 =================
@@ -26431,6 +26823,7 @@ dopr_outch
 
 Address: 0x14726
 Stack Size: 0x10
+Opcodes Size: 0x29
 Called by: fmtfp, fmtint, fmtstr, dopr
 =================
 */
@@ -26454,6 +26847,7 @@ Q_vsnprintf
 
 Address: 0x1474f
 Stack Size: 0x1c
+Opcodes Size: 0x16
 Calls: dopr
 Called by: va, Com_sprintf, COM_ParseWarning, COM_ParseError, PrintMsg, BotAI_Print, G_LogPrintf, Com_Printf, Com_Error, G_Error, G_Printf
 =================
@@ -26471,6 +26865,7 @@ sscanf
 
 Address: 0x14765
 Stack Size: 0x60
+Opcodes Size: 0x13f
 Calls: _atof, _atoi
 Called by: G_ParseField, G_SpawnVector, G_ReadSessionData, BotReadSessionData, BotMatch_CheckPoint
 =================
@@ -26587,6 +26982,7 @@ P_DamageFeedback
 
 Address: 0x148a4
 Stack Size: 0x38
+Opcodes Size: 0xbf
 Calls: G_AddEvent, vectoangles
 Called by: ClientEndFrame
 =================
@@ -26640,6 +27036,7 @@ P_WorldEffects
 
 Address: 0x14963
 Stack Size: 0x4c
+Opcodes Size: 0x153
 Calls: G_AddEvent, G_Damage
 Called by: ClientEndFrame
 =================
@@ -26740,6 +27137,7 @@ G_SetClientSound
 
 Address: 0x14ab6
 Stack Size: 0x10
+Opcodes Size: 0x31
 Called by: ClientEndFrame
 =================
 */
@@ -26763,6 +27161,7 @@ ClientImpacts
 
 Address: 0x14ae7
 Stack Size: 0x60
+Opcodes Size: 0xa3
 Calls: memset
 Called by: ClientThink_real
 =================
@@ -26817,6 +27216,7 @@ G_TouchTriggers
 
 Address: 0x14b8a
 Stack Size: 0x10a8
+Opcodes Size: 0x1ce
 Calls: memset, trap_EntityContact, trap_EntitiesInBox, BG_PlayerTouchesItem
 Called by: ClientThink_real, SpectatorThink
 =================
@@ -26918,6 +27318,7 @@ SpectatorThink
 
 Address: 0x14d58
 Stack Size: 0x114
+Opcodes Size: 0xb9
 Calls: trap_UnlinkEntity, memset, Cmd_FollowCycle_f, G_TouchTriggers, Pmove
 Called by: ClientThink_real
 =================
@@ -26977,6 +27378,7 @@ ClientInactivityTimer
 
 Address: 0x14e11
 Stack Size: 0x1c
+Opcodes Size: 0x9e
 Calls: trap_SendServerCommand, trap_DropClient
 Called by: ClientThink_real
 =================
@@ -27019,6 +27421,7 @@ ClientTimerActions
 
 Address: 0x14eaf
 Stack Size: 0x28
+Opcodes Size: 0xef
 Calls: G_AddEvent
 Called by: ClientThink_real
 =================
@@ -27074,6 +27477,7 @@ ClientIntermissionThink
 
 Address: 0x14f9e
 Stack Size: 0x20
+Opcodes Size: 0x53
 Called by: ClientThink_real
 =================
 */
@@ -27101,6 +27505,7 @@ ClientEvents
 
 Address: 0x14ff1
 Stack Size: 0x78
+Opcodes Size: 0x177
 Calls: TeleportPlayer, SelectSpawnPoint, Drop_Item, BG_FindItemForPowerup, FireWeapon, G_Damage
 Called by: ClientThink_real
 =================
@@ -27214,6 +27619,7 @@ SendPendingPredictableEvents
 
 Address: 0x15168
 Stack Size: 0x4c
+Opcodes Size: 0xac
 Calls: BG_PlayerStateToEntityState, G_TempEntity
 Called by: ClientEndFrame, ClientThink_real
 =================
@@ -27262,6 +27668,7 @@ ClientThink_real
 
 Address: 0x15214
 Stack Size: 0x148
+Opcodes Size: 0x355
 Calls: trap_LinkEntity, memset, trap_Cvar_Update, trap_Cvar_Set, ClientTimerActions, ClientRespawn, ClientImpacts, BotTestAAS, G_TouchTriggers, ClientEvents, SendPendingPredictableEvents, BG_PlayerStateToEntityState, BG_PlayerStateToEntityStateExtraPolate, Pmove, CheckGauntletAttack, Weapon_HookFree, ClientInactivityTimer, SpectatorThink, ClientIntermissionThink
 Called by: G_RunClient, ClientThink
 =================
@@ -27470,6 +27877,7 @@ ClientThink
 
 Address: 0x15569
 Stack Size: 0x1c
+Opcodes Size: 0x3f
 Calls: trap_GetUsercmd, ClientThink_real
 Called by: ClientSpawn, vmMain
 =================
@@ -27496,6 +27904,7 @@ G_RunClient
 
 Address: 0x155a8
 Stack Size: 0x10
+Opcodes Size: 0x2b
 Calls: ClientThink_real
 Called by: G_RunFrame
 =================
@@ -27520,6 +27929,7 @@ SpectatorClientEndFrame
 
 Address: 0x155d3
 Stack Size: 0x2c
+Opcodes Size: 0xeb
 Calls: ClientBegin
 Called by: ClientEndFrame
 =================
@@ -27581,6 +27991,7 @@ ClientEndFrame
 
 Address: 0x156be
 Stack Size: 0x28
+Opcodes Size: 0xcd
 Calls: SendPendingPredictableEvents, BG_PlayerStateToEntityState, BG_PlayerStateToEntityStateExtraPolate, G_SetClientSound, P_DamageFeedback, P_WorldEffects, SpectatorClientEndFrame
 Called by: ClientSpawn, G_RunFrame
 =================
@@ -27634,6 +28045,7 @@ UpdateTournamentInfo
 
 Address: 0x1578b
 Stack Size: 0x480
+Opcodes Size: 0x146
 Calls: trap_SendConsoleCommand, strcat, strlen, Com_sprintf, CalculateRanks
 Called by: BeginIntermission
 =================
@@ -27743,6 +28155,7 @@ SpawnModelOnVictoryPad
 
 Address: 0x158d1
 Stack Size: 0x84
+Opcodes Size: 0x1f4
 Calls: trap_LinkEntity, G_SetOrigin, AngleVectors, vectoangles, G_Printf, G_Spawn
 Called by: SpawnModelsOnVictoryPads
 =================
@@ -27850,6 +28263,7 @@ CelebrateStop
 
 Address: 0x15ac5
 Stack Size: 0x14
+Opcodes Size: 0x2e
 =================
 */
 void CelebrateStop(int arg_0) {
@@ -27875,6 +28289,7 @@ CelebrateStart
 
 Address: 0x15af3
 Stack Size: 0x1c
+Opcodes Size: 0x37
 Calls: G_AddEvent
 =================
 */
@@ -27897,6 +28312,7 @@ PodiumPlacementThink
 
 Address: 0x15b2a
 Stack Size: 0x74
+Opcodes Size: 0x288
 Calls: trap_Cvar_VariableIntegerValue, vectoangles, G_SetOrigin, AngleVectors
 =================
 */
@@ -28008,6 +28424,7 @@ SpawnPodium
 
 Address: 0x15db2
 Stack Size: 0x5c
+Opcodes Size: 0xdd
 Calls: trap_LinkEntity, trap_Cvar_VariableIntegerValue, vectoyaw, G_SetOrigin, AngleVectors, G_ModelIndex, G_Spawn
 Called by: SpawnModelsOnVictoryPads
 =================
@@ -28073,6 +28490,7 @@ SpawnModelsOnVictoryPads
 
 Address: 0x15e8f
 Stack Size: 0x34
+Opcodes Size: 0xa8
 Calls: SpawnModelOnVictoryPad, SpawnPodium
 Called by: BeginIntermission
 =================
@@ -28118,6 +28536,7 @@ Svcmd_AbortPodium_f
 
 Address: 0x15f37
 Stack Size: 0x8
+Opcodes Size: 0x1a
 Called by: ConsoleCommand
 =================
 */
@@ -28138,6 +28557,7 @@ trap_Cvar_VariableValue
 
 Address: 0x15f51
 Stack Size: 0x98
+Opcodes Size: 0x16
 Calls: trap_Cvar_VariableStringBuffer, atof
 Called by: G_SpawnBots, G_AddRandomBot
 =================
@@ -28157,6 +28577,7 @@ G_ParseInfos
 
 Address: 0x15f67
 Stack Size: 0x838
+Opcodes Size: 0xf6
 Calls: G_Alloc, va, strlen, Info_SetValueForKey, strcpy, Q_strncpyz, COM_ParseExt, Com_Printf, strcmp, COM_Parse
 Called by: G_LoadBotsFromFile, G_LoadArenasFromFile
 =================
@@ -28237,6 +28658,7 @@ G_LoadArenasFromFile
 
 Address: 0x1605d
 Stack Size: 0x2030
+Opcodes Size: 0x80
 Calls: trap_FS_Read, trap_FS_FCloseFile, trap_Print, trap_FS_FOpenFile, G_ParseInfos, va
 Called by: G_LoadArenas
 =================
@@ -28282,6 +28704,7 @@ G_LoadArenas
 
 Address: 0x160dd
 Stack Size: 0x5cc
+Opcodes Size: 0xaa
 Calls: trap_Print, trap_FS_GetFileList, trap_Cvar_Register, Info_SetValueForKey, va, strcat, strcpy, strlen, G_LoadArenasFromFile
 Called by: G_InitBots
 =================
@@ -28343,6 +28766,7 @@ G_GetArenaInfoByMap
 
 Address: 0x16187
 Stack Size: 0x1c
+Opcodes Size: 0x3f
 Calls: Q_stricmp, Info_ValueForKey
 Called by: G_InitBots
 =================
@@ -28373,6 +28797,7 @@ PlayerIntroSound
 
 Address: 0x161c6
 Stack Size: 0x64
+Opcodes Size: 0x51
 Calls: trap_SendConsoleCommand, va, Q_stricmp, strrchr, Q_strncpyz
 Called by: G_CheckBotSpawn
 =================
@@ -28409,6 +28834,7 @@ G_CountBotPlayersByName
 
 Address: 0x16217
 Stack Size: 0x2c
+Opcodes Size: 0x6f
 Calls: Q_stricmp
 Called by: G_SelectRandomBotInfo
 =================
@@ -28457,6 +28883,7 @@ G_SelectRandomBotInfo
 
 Address: 0x16286
 Stack Size: 0x103c
+Opcodes Size: 0xc1
 Calls: rand, Info_ValueForKey, G_CountBotPlayersByName
 Called by: G_AddBot
 =================
@@ -28525,6 +28952,7 @@ G_AddRandomBot
 
 Address: 0x16347
 Stack Size: 0x28
+Opcodes Size: 0x38
 Calls: trap_SendConsoleCommand, va, trap_Cvar_VariableValue
 Called by: G_CheckMinimumPlayers
 =================
@@ -28557,6 +28985,7 @@ G_RemoveRandomBot
 
 Address: 0x1637f
 Stack Size: 0x20
+Opcodes Size: 0x5b
 Calls: trap_SendConsoleCommand, va
 Called by: G_CheckMinimumPlayers
 =================
@@ -28597,6 +29026,7 @@ G_CountHumanPlayers
 
 Address: 0x163da
 Stack Size: 0x1c
+Opcodes Size: 0x55
 Called by: G_CheckMinimumPlayers
 =================
 */
@@ -28637,6 +29067,7 @@ G_CountBotPlayers
 
 Address: 0x1642f
 Stack Size: 0x1c
+Opcodes Size: 0x55
 Called by: G_CheckMinimumPlayers
 =================
 */
@@ -28677,6 +29108,7 @@ G_CheckMinimumPlayers
 
 Address: 0x16484
 Stack Size: 0x30
+Opcodes Size: 0x134
 Calls: trap_Cvar_Update, G_RemoveRandomBot, G_AddRandomBot, G_CountBotPlayers, G_CountHumanPlayers
 Called by: G_CheckBotSpawn
 =================
@@ -28774,6 +29206,7 @@ G_CheckBotSpawn
 
 Address: 0x165b8
 Stack Size: 0x41c
+Opcodes Size: 0x5e
 Calls: trap_GetUserinfo, PlayerIntroSound, Info_ValueForKey, ClientBegin, G_CheckMinimumPlayers
 Called by: BotAIStartFrame
 =================
@@ -28809,6 +29242,7 @@ AddBotToSpawnQueue
 
 Address: 0x16616
 Stack Size: 0x10
+Opcodes Size: 0x43
 Calls: ClientBegin, G_Printf
 Called by: G_AddBot
 =================
@@ -28838,6 +29272,7 @@ G_RemoveQueuedBotBegin
 
 Address: 0x16659
 Stack Size: 0xc
+Opcodes Size: 0x28
 Called by: ClientDisconnect
 =================
 */
@@ -28862,6 +29297,7 @@ G_BotConnect
 
 Address: 0x16681
 Stack Size: 0x4b8
+Opcodes Size: 0x50
 Calls: trap_DropClient, trap_GetUserinfo, BotAISetupClient, atof, Q_strncpyz, Info_ValueForKey
 Called by: ClientConnect
 =================
@@ -28895,6 +29331,7 @@ G_AddBot
 
 Address: 0x166d1
 Stack Size: 0x47c
+Opcodes Size: 0x2de
 Calls: trap_SetUserinfo, trap_Print, trap_BotFreeClient, trap_BotAllocateClient, AddBotToSpawnQueue, ClientBegin, ClientConnect, va, Info_SetValueForKey, Info_ValueForKey, G_GetBotInfoByName, G_GetBotInfoByNumber, G_SelectRandomBotInfo, Q_stricmp, PickTeam, G_Printf
 Called by: Svcmd_AddBot_f
 =================
@@ -29100,6 +29537,7 @@ Svcmd_AddBot_f
 
 Address: 0x169af
 Stack Size: 0x1030
+Opcodes Size: 0xa2
 Calls: trap_SendServerCommand, trap_Print, trap_Argv, trap_Cvar_VariableIntegerValue, G_AddBot, atoi, Com_Clamp, atof
 Called by: ConsoleCommand
 =================
@@ -29157,6 +29595,7 @@ Svcmd_BotList_f
 
 Address: 0x16a51
 Stack Size: 0x1034
+Opcodes Size: 0xbc
 Calls: trap_Print, va, strcpy, Q_strncpyz, Info_ValueForKey
 Called by: ConsoleCommand
 =================
@@ -29210,6 +29649,7 @@ G_SpawnBots
 
 Address: 0x16b0d
 Stack Size: 0x43c
+Opcodes Size: 0xba
 Calls: trap_SendConsoleCommand, trap_Cvar_Set, va, Q_strncpyz, trap_Cvar_VariableValue
 Called by: G_InitBots
 =================
@@ -29283,6 +29723,7 @@ G_LoadBotsFromFile
 
 Address: 0x16bc7
 Stack Size: 0x2030
+Opcodes Size: 0x80
 Calls: trap_FS_Read, trap_FS_FCloseFile, trap_Print, trap_FS_FOpenFile, G_ParseInfos, va
 Called by: G_LoadBots
 =================
@@ -29328,6 +29769,7 @@ G_LoadBots
 
 Address: 0x16c47
 Stack Size: 0x5c8
+Opcodes Size: 0x8d
 Calls: trap_Print, trap_FS_GetFileList, trap_Cvar_Register, trap_Cvar_VariableIntegerValue, va, strcat, strcpy, strlen, G_LoadBotsFromFile
 Called by: G_InitBots
 =================
@@ -29385,6 +29827,7 @@ G_GetBotInfoByNumber
 
 Address: 0x16cd4
 Stack Size: 0x18
+Opcodes Size: 0x2b
 Calls: trap_Print, va
 Called by: G_AddBot
 =================
@@ -29409,6 +29852,7 @@ G_GetBotInfoByName
 
 Address: 0x16cff
 Stack Size: 0x20
+Opcodes Size: 0x43
 Calls: Q_stricmp, Info_ValueForKey
 Called by: G_AddBot
 =================
@@ -29441,6 +29885,7 @@ G_InitBots
 
 Address: 0x16d42
 Stack Size: 0x494
+Opcodes Size: 0xef
 Calls: trap_Cvar_Set, trap_GetServerinfo, trap_Cvar_Register, G_SpawnBots, Q_stricmp, atoi, G_GetArenaInfoByMap, Q_strncpyz, Info_ValueForKey, G_LoadArenas, G_LoadBots
 Called by: G_InitGame
 =================
@@ -29521,6 +29966,7 @@ SP_info_player_deathmatch
 
 Address: 0x16e31
 Stack Size: 0x1c
+Opcodes Size: 0x39
 Calls: G_SpawnInt
 Called by: SP_info_player_start
 =================
@@ -29547,6 +29993,7 @@ SP_info_player_start
 
 Address: 0x16e6a
 Stack Size: 0xc
+Opcodes Size: 0xf
 Calls: SP_info_player_deathmatch
 =================
 */
@@ -29562,6 +30009,7 @@ SP_info_player_intermission
 
 Address: 0x16e79
 Stack Size: 0x8
+Opcodes Size: 0x3
 =================
 */
 void SP_info_player_intermission(void) {
@@ -29574,6 +30022,7 @@ SpotWouldTelefrag
 
 Address: 0x16e7c
 Stack Size: 0x1048
+Opcodes Size: 0x7d
 Calls: trap_EntitiesInBox
 Called by: SelectRandomTeamSpawnPoint, SelectInitialSpawnPoint, SelectRandomFurthestSpawnPoint, SelectRandomDeathmatchSpawnPoint
 =================
@@ -29619,6 +30068,7 @@ SelectNearestDeathmatchSpawnPoint
 
 Address: 0x16ef9
 Stack Size: 0x40
+Opcodes Size: 0x69
 Calls: G_Find, VectorLength
 =================
 */
@@ -29662,6 +30112,7 @@ SelectRandomDeathmatchSpawnPoint
 
 Address: 0x16f62
 Stack Size: 0x22c
+Opcodes Size: 0x8e
 Calls: rand, G_Find, SpotWouldTelefrag
 =================
 */
@@ -29716,6 +30167,7 @@ SelectRandomFurthestSpawnPoint
 
 Address: 0x16ff0
 Stack Size: 0x458
+Opcodes Size: 0x19c
 Calls: rand, G_Error, G_Find, VectorLength, SpotWouldTelefrag
 Called by: SelectSpawnPoint
 =================
@@ -29830,6 +30282,7 @@ SelectSpawnPoint
 
 Address: 0x1718c
 Stack Size: 0x1c
+Opcodes Size: 0x16
 Calls: SelectRandomFurthestSpawnPoint
 Called by: SelectCTFSpawnPoint, ClientSpawn, SelectInitialSpawnPoint, ClientEvents, FindIntermissionPoint
 =================
@@ -29847,6 +30300,7 @@ SelectInitialSpawnPoint
 
 Address: 0x171a2
 Stack Size: 0x30
+Opcodes Size: 0x92
 Calls: SelectSpawnPoint, SpotWouldTelefrag, G_Find
 Called by: ClientSpawn
 =================
@@ -29900,6 +30354,7 @@ SelectSpectatorSpawnPoint
 
 Address: 0x17234
 Stack Size: 0x8
+Opcodes Size: 0x10
 Calls: FindIntermissionPoint
 Called by: ClientSpawn
 =================
@@ -29918,6 +30373,7 @@ InitBodyQue
 
 Address: 0x17244
 Stack Size: 0x14
+Opcodes Size: 0x30
 Calls: G_Spawn
 Called by: G_InitGame
 =================
@@ -29945,6 +30401,7 @@ BodySink
 
 Address: 0x17274
 Stack Size: 0x10
+Opcodes Size: 0x36
 Calls: trap_UnlinkEntity
 =================
 */
@@ -29969,6 +30426,7 @@ CopyToBodyQue
 
 Address: 0x172aa
 Stack Size: 0x40
+Opcodes Size: 0x17a
 Calls: trap_LinkEntity, trap_PointContents, trap_UnlinkEntity
 Called by: SetTeam, ClientRespawn
 =================
@@ -30061,6 +30519,7 @@ SetClientViewAngle
 
 Address: 0x17424
 Stack Size: 0x18
+Opcodes Size: 0x5a
 Called by: TeleportPlayer, StopFollowing, ClientSpawn
 =================
 */
@@ -30090,6 +30549,7 @@ ClientRespawn
 
 Address: 0x1747e
 Stack Size: 0xc
+Opcodes Size: 0xf
 Calls: ClientSpawn, CopyToBodyQue
 Called by: ClientThink_real, BeginIntermission
 =================
@@ -30106,6 +30566,7 @@ TeamCount
 
 Address: 0x1748d
 Stack Size: 0x10
+Opcodes Size: 0x49
 Called by: SetTeam, PickTeam, CheckTournament
 =================
 */
@@ -30140,6 +30601,7 @@ TeamLeader
 
 Address: 0x174d6
 Stack Size: 0xc
+Opcodes Size: 0x45
 Called by: SetTeam
 =================
 */
@@ -30169,6 +30631,7 @@ PickTeam
 
 Address: 0x1751b
 Stack Size: 0x28
+Opcodes Size: 0x3a
 Calls: TeamCount
 Called by: SetTeam, G_AddBot
 =================
@@ -30201,6 +30664,7 @@ ClientCleanName
 
 Address: 0x17555
 Stack Size: 0x28
+Opcodes Size: 0xca
 Calls: Q_strncpyz, Q_IsColorString
 Called by: ClientUserinfoChanged
 =================
@@ -30271,6 +30735,7 @@ ClientUserinfoChanged
 
 Address: 0x1761f
 Stack Size: 0x192c
+Opcodes Size: 0x276
 Calls: trap_SetConfigstring, trap_SendServerCommand, trap_DropClient, trap_GetUserinfo, G_LogPrintf, va, strcmp, ClientCleanName, Q_strncpyz, atoi, Info_ValueForKey, strcpy, Info_Validate
 Called by: SetTeam, Cmd_TeamTask_f, ClientDisconnect, ClientConnect, BotSetUserInfo, SetLeader, AdjustTournamentScores, vmMain
 =================
@@ -30407,6 +30872,7 @@ ClientConnect
 
 Address: 0x17895
 Stack Size: 0x444
+Opcodes Size: 0x15d
 Calls: trap_SendServerCommand, memset, trap_GetUserinfo, CalculateRanks, BroadcastTeamChange, va, ClientUserinfoChanged, G_ReadSessionData, G_InitSessionData, G_BotConnect, ClientDisconnect, G_LogPrintf, Q_stricmp, strcmp, G_FilterPacket, Info_ValueForKey
 Called by: G_AddBot, vmMain
 =================
@@ -30504,6 +30970,7 @@ ClientBegin
 
 Address: 0x179f2
 Stack Size: 0x2c
+Opcodes Size: 0x98
 Calls: trap_SendServerCommand, memset, trap_UnlinkEntity, CalculateRanks, G_LogPrintf, va, ClientSpawn, G_InitGentity
 Called by: SetTeam, G_AddBot, AddBotToSpawnQueue, G_CheckBotSpawn, SpectatorClientEndFrame, vmMain
 =================
@@ -30546,6 +31013,7 @@ ClientSpawn
 
 Address: 0x17a8a
 Stack Size: 0x598
+Opcodes Size: 0x3cf
 Calls: trap_LinkEntity, trap_GetUsercmd, trap_GetUserinfo, memset, BG_PlayerStateToEntityState, ClientEndFrame, ClientThink, MoveClientToIntermission, G_TempEntity, G_UseTargets, G_KillBox, SetClientViewAngle, G_SetOrigin, atoi, Info_ValueForKey, SelectSpawnPoint, SelectInitialSpawnPoint, SelectCTFSpawnPoint, SelectSpectatorSpawnPoint
 Called by: ClientBegin, ClientRespawn
 =================
@@ -30772,6 +31240,7 @@ ClientDisconnect
 
 Address: 0x17e59
 Stack Size: 0x2c
+Opcodes Size: 0x14d
 Calls: trap_SetConfigstring, trap_UnlinkEntity, trap_SendConsoleCommand, BotAIShutdownClient, CalculateRanks, ClientUserinfoChanged, G_LogPrintf, TossClientItems, G_TempEntity, StopFollowing, G_RemoveQueuedBotBegin
 Called by: ClientConnect, vmMain
 =================
@@ -30854,6 +31323,7 @@ DeathmatchScoreboardMessage
 
 Address: 0x17fa6
 Stack Size: 0x874
+Opcodes Size: 0x13f
 Calls: trap_SendServerCommand, va, strcpy, strlen, Com_sprintf
 Called by: Cmd_Score_f, SendScoreboardMessageToAllClients
 =================
@@ -30956,6 +31426,7 @@ Cmd_Score_f
 
 Address: 0x180e5
 Stack Size: 0xc
+Opcodes Size: 0x9
 Calls: DeathmatchScoreboardMessage
 Called by: player_die, ClientCommand
 =================
@@ -30971,6 +31442,7 @@ CheatsOk
 
 Address: 0x180ee
 Stack Size: 0x10
+Opcodes Size: 0x30
 Calls: trap_SendServerCommand
 Called by: Cmd_LevelShot_f, Cmd_Noclip_f, Cmd_Notarget_f, Cmd_God_f, Cmd_Give_f
 =================
@@ -30994,6 +31466,7 @@ ConcatArgs
 
 Address: 0x1811e
 Stack Size: 0x42c
+Opcodes Size: 0x6b
 Calls: memcpy, trap_Argv, trap_Argc, strlen
 Called by: ConsoleCommand, Cmd_Tell_f, Cmd_Say_f, Cmd_Give_f
 =================
@@ -31039,6 +31512,7 @@ StringIsInteger
 
 Address: 0x18189
 Stack Size: 0x24
+Opcodes Size: 0x45
 Calls: strlen
 Called by: ClientNumberFromString
 =================
@@ -31078,6 +31552,7 @@ ClientNumberFromString
 
 Address: 0x181ce
 Stack Size: 0x428
+Opcodes Size: 0xa1
 Calls: trap_SendServerCommand, va, Q_stricmp, Q_CleanStr, Q_strncpyz, atoi, StringIsInteger
 Called by: Cmd_CallVote_f, Cmd_GameCommand_f, Cmd_Tell_f, Cmd_Follow_f
 =================
@@ -31131,6 +31606,7 @@ Cmd_Give_f
 
 Address: 0x1826f
 Stack Size: 0x98
+Opcodes Size: 0x1c7
 Calls: memset, G_FreeEntity, Touch_Item, FinishSpawningItem, G_SpawnItem, G_Spawn, BG_FindItem, Q_stricmp, ConcatArgs, CheatsOk
 Called by: ClientCommand
 =================
@@ -31262,6 +31738,7 @@ Cmd_God_f
 
 Address: 0x18436
 Stack Size: 0x20
+Opcodes Size: 0x49
 Calls: trap_SendServerCommand, va, CheatsOk
 Called by: ClientCommand
 =================
@@ -31296,6 +31773,7 @@ Cmd_Notarget_f
 
 Address: 0x1847f
 Stack Size: 0x20
+Opcodes Size: 0x49
 Calls: trap_SendServerCommand, va, CheatsOk
 Called by: ClientCommand
 =================
@@ -31330,6 +31808,7 @@ Cmd_Noclip_f
 
 Address: 0x184c8
 Stack Size: 0x24
+Opcodes Size: 0x57
 Calls: trap_SendServerCommand, va, CheatsOk
 Called by: ClientCommand
 =================
@@ -31371,6 +31850,7 @@ Cmd_LevelShot_f
 
 Address: 0x1851f
 Stack Size: 0x14
+Opcodes Size: 0x4d
 Calls: trap_SendServerCommand, BeginIntermission, CheatsOk
 Called by: ClientCommand
 =================
@@ -31402,6 +31882,7 @@ Cmd_TeamTask_f
 
 Address: 0x1856c
 Stack Size: 0x828
+Opcodes Size: 0x57
 Calls: trap_SetUserinfo, trap_GetUserinfo, trap_Argv, trap_Argc, ClientUserinfoChanged, Info_SetValueForKey, va, atoi
 Called by: ClientCommand
 =================
@@ -31437,6 +31918,7 @@ Cmd_Kill_f
 
 Address: 0x185c3
 Stack Size: 0x2c
+Opcodes Size: 0x4e
 Calls: player_die
 Called by: ClientCommand
 =================
@@ -31467,6 +31949,7 @@ BroadcastTeamChange
 
 Address: 0x18611
 Stack Size: 0x18
+Opcodes Size: 0x7a
 Calls: trap_SendServerCommand, va
 Called by: SetTeam, ClientConnect
 =================
@@ -31504,6 +31987,7 @@ SetTeam
 
 Address: 0x1868b
 Stack Size: 0x84
+Opcodes Size: 0x26f
 Calls: trap_SendServerCommand, ClientBegin, BroadcastTeamChange, ClientUserinfoChanged, CheckTeamLeader, SetLeader, TeamLeader, AddTournamentQueue, player_die, CopyToBodyQue, TeamCount, PickTeam, Q_stricmp
 Called by: Svcmd_ForceTeam_f, G_InitSessionData, Cmd_FollowCycle_f, Cmd_Follow_f, Cmd_Team_f, RemoveTournamentWinner, RemoveTournamentLoser, AddTournamentPlayer
 =================
@@ -31688,6 +32172,7 @@ StopFollowing
 
 Address: 0x188fa
 Stack Size: 0x20
+Opcodes Size: 0x70
 Calls: SetClientViewAngle
 Called by: Cmd_Follow_f, ClientDisconnect, MoveClientToIntermission
 =================
@@ -31717,6 +32202,7 @@ Cmd_Team_f
 
 Address: 0x1896a
 Stack Size: 0x420
+Opcodes Size: 0xba
 Calls: trap_Argv, trap_SendServerCommand, trap_Argc, SetTeam
 Called by: ClientCommand
 =================
@@ -31765,6 +32251,7 @@ Cmd_Follow_f
 
 Address: 0x18a24
 Stack Size: 0x42c
+Opcodes Size: 0xa7
 Calls: trap_Argv, trap_Argc, SetTeam, ClientNumberFromString, StopFollowing
 Called by: ClientCommand
 =================
@@ -31820,6 +32307,7 @@ Cmd_FollowCycle_f
 
 Address: 0x18acb
 Stack Size: 0x1c
+Opcodes Size: 0xdd
 Calls: G_Error, SetTeam
 Called by: ClientCommand, SpectatorThink
 =================
@@ -31882,6 +32370,7 @@ G_SayTo
 
 Address: 0x18ba8
 Stack Size: 0x38
+Opcodes Size: 0x95
 Calls: trap_SendServerCommand, va, OnSameTeam
 Called by: G_Say
 =================
@@ -31943,6 +32432,7 @@ G_Say
 
 Address: 0x18c3d
 Stack Size: 0x16c
+Opcodes Size: 0x176
 Calls: G_Printf, G_SayTo, Q_strncpyz, Team_GetLocationMsg, Com_sprintf, G_LogPrintf
 Called by: Cmd_GameCommand_f, Cmd_Tell_f, Cmd_Say_f
 =================
@@ -32033,6 +32523,7 @@ SanitizeChatText
 
 Address: 0x18db3
 Stack Size: 0x10
+Opcodes Size: 0x33
 Called by: Cmd_Tell_f, Cmd_Say_f
 =================
 */
@@ -32061,6 +32552,7 @@ Cmd_Say_f
 
 Address: 0x18de6
 Stack Size: 0x24
+Opcodes Size: 0x3f
 Calls: trap_Argc, G_Say, SanitizeChatText, ConcatArgs
 Called by: ClientCommand
 =================
@@ -32094,6 +32586,7 @@ Cmd_Tell_f
 
 Address: 0x18e25
 Stack Size: 0x448
+Opcodes Size: 0xb6
 Calls: trap_Argv, trap_SendServerCommand, trap_Argc, G_Say, G_LogPrintf, SanitizeChatText, ConcatArgs, ClientNumberFromString
 Called by: ClientCommand
 =================
@@ -32156,6 +32649,7 @@ Cmd_GameCommand_f
 
 Address: 0x18edb
 Stack Size: 0x454
+Opcodes Size: 0xff
 Calls: trap_Argv, trap_SendServerCommand, trap_Argc, G_Say, G_LogPrintf, ClientNumberFromString, atoi, va
 Called by: ClientCommand
 =================
@@ -32238,6 +32732,7 @@ Cmd_Where_f
 
 Address: 0x18fda
 Stack Size: 0x18
+Opcodes Size: 0x22
 Calls: trap_SendServerCommand, va, vtos
 Called by: ClientCommand
 =================
@@ -32257,6 +32752,7 @@ Cmd_CallVote_f
 
 Address: 0x18ffc
 Stack Size: 0xc58
+Opcodes Size: 0x392
 Calls: trap_SetConfigstring, trap_Cvar_VariableStringBuffer, trap_SendConsoleCommand, trap_Argv, trap_SendServerCommand, ClientNumberFromString, Com_sprintf, atoi, va, Q_stricmpn, Q_stricmp
 Called by: ClientCommand
 =================
@@ -32479,6 +32975,7 @@ Cmd_Vote_f
 
 Address: 0x1938e
 Stack Size: 0x64
+Opcodes Size: 0xbc
 Calls: trap_SetConfigstring, trap_Argv, trap_SendServerCommand, va, tolower
 Called by: ClientCommand
 =================
@@ -32530,6 +33027,7 @@ Cmd_CallTeamVote_f
 
 Address: 0x1944a
 Stack Size: 0x88c
+Opcodes Size: 0x340
 Calls: trap_SetConfigstring, trap_Argc, trap_Argv, trap_SendServerCommand, Com_sprintf, Q_CleanStr, Q_strncpyz, va, atoi, Q_stricmp, strlen, strcat
 Called by: ClientCommand
 =================
@@ -32722,6 +33220,7 @@ Cmd_TeamVote_f
 
 Address: 0x1978a
 Stack Size: 0x6c
+Opcodes Size: 0xf5
 Calls: trap_SetConfigstring, trap_Argv, trap_SendServerCommand, va, tolower
 Called by: ClientCommand
 =================
@@ -32783,6 +33282,7 @@ Cmd_SetViewpos_f
 
 Address: 0x1987f
 Stack Size: 0x43c
+Opcodes Size: 0x7f
 Calls: trap_Argv, trap_Argc, trap_SendServerCommand, TeleportPlayer, atof
 Called by: ClientCommand
 =================
@@ -32831,6 +33331,7 @@ Cmd_Stats_f
 
 Address: 0x198fe
 Stack Size: 0x8
+Opcodes Size: 0x3
 Called by: ClientCommand
 =================
 */
@@ -32844,6 +33345,7 @@ ClientCommand
 
 Address: 0x19901
 Stack Size: 0x47c
+Opcodes Size: 0x253
 Calls: trap_SendServerCommand, trap_Argv, va, Cmd_Stats_f, Cmd_SetViewpos_f, Cmd_GameCommand_f, Cmd_TeamVote_f, Cmd_CallTeamVote_f, Cmd_Vote_f, Cmd_CallVote_f, Cmd_Where_f, Cmd_FollowCycle_f, Cmd_Follow_f, Cmd_LevelShot_f, Cmd_TeamTask_f, Cmd_Kill_f, Cmd_Noclip_f, Cmd_Notarget_f, Cmd_God_f, Cmd_Give_f, Cmd_Score_f, Cmd_Tell_f, Cmd_Say_f, Cmd_Team_f, Q_stricmp
 Called by: vmMain
 =================
@@ -33026,6 +33528,7 @@ ScorePlum
 
 Address: 0x19b54
 Stack Size: 0x1c
+Opcodes Size: 0x35
 Calls: G_TempEntity
 Called by: AddScore
 =================
@@ -33050,6 +33553,7 @@ AddScore
 
 Address: 0x19b89
 Stack Size: 0x1c
+Opcodes Size: 0x52
 Calls: CalculateRanks, ScorePlum
 Called by: Team_TouchOurFlag, Team_FragBonuses, Use_Target_Score, player_die
 =================
@@ -33082,6 +33586,7 @@ TossClientItems
 
 Address: 0x19bdb
 Stack Size: 0x3c
+Opcodes Size: 0xde
 Calls: BG_FindItemForPowerup, Drop_Item, BG_FindItemForWeapon
 Called by: player_die, ClientDisconnect
 =================
@@ -33144,6 +33649,7 @@ LookAtKiller
 
 Address: 0x19cb9
 Stack Size: 0x34
+Opcodes Size: 0xba
 Calls: vectoyaw
 Called by: player_die
 =================
@@ -33199,6 +33705,7 @@ GibEntity
 
 Address: 0x19d73
 Stack Size: 0x20
+Opcodes Size: 0x72
 Calls: G_AddEvent, G_FreeEntity, strcmp
 Called by: player_die, body_die
 =================
@@ -33243,6 +33750,7 @@ body_die
 
 Address: 0x19de5
 Stack Size: 0x10
+Opcodes Size: 0x20
 Calls: GibEntity
 =================
 */
@@ -33265,6 +33773,7 @@ CheckAlmostCapture
 
 Address: 0x19e05
 Stack Size: 0x4c
+Opcodes Size: 0xe5
 Calls: VectorLength, G_Find
 Called by: player_die
 =================
@@ -33333,6 +33842,7 @@ CheckAlmostScored
 
 Address: 0x19eea
 Stack Size: 0x40
+Opcodes Size: 0x9b
 Calls: VectorLength, G_Find
 Called by: player_die
 =================
@@ -33381,6 +33891,7 @@ player_die
 
 Address: 0x19f85
 Stack Size: 0x84
+Opcodes Size: 0x3cd
 Calls: trap_LinkEntity, trap_PointContents, memset, G_AddEvent, GibEntity, LookAtKiller, Cmd_Score_f, TossClientItems, Team_ReturnFlag, Team_FragBonuses, AddScore, OnSameTeam, G_TempEntity, G_LogPrintf, Weapon_HookFree, CheckAlmostScored, CheckAlmostCapture
 Called by: SetTeam, Cmd_Kill_f
 =================
@@ -33593,6 +34104,7 @@ CheckArmor
 
 Address: 0x1a352
 Stack Size: 0x20
+Opcodes Size: 0x5d
 Calls: ceil
 Called by: G_Damage
 =================
@@ -33634,6 +34146,7 @@ RaySphereIntersections
 
 Address: 0x1a3af
 Stack Size: 0x6c
+Opcodes Size: 0x1a4
 Calls: sqrt, VectorNormalize
 =================
 */
@@ -33712,6 +34225,7 @@ G_Damage
 
 Address: 0x1a553
 Stack Size: 0x6c
+Opcodes Size: 0x3a3
 Calls: Team_CheckHurtCarrier, G_Printf, CheckArmor, G_AddEvent, OnSameTeam, VectorNormalize
 Called by: Weapon_LightningFire, weapon_railgun_fire, ShotgunPellet, Bullet_Fire, CheckGauntletAttack, G_KillBox, hurt_touch, target_kill_use, target_laser_think, Blocked_Door, G_MoverPush, G_MissileImpact, G_RadiusDamage, ClientEvents, P_WorldEffects
 =================
@@ -33922,6 +34436,7 @@ CanDamage
 
 Address: 0x1a8f6
 Stack Size: 0xbc
+Opcodes Size: 0x231
 Calls: trap_Trace
 Called by: G_RadiusDamage
 =================
@@ -34116,6 +34631,7 @@ G_RadiusDamage
 
 Address: 0x1ab27
 Stack Size: 0x108c
+Opcodes Size: 0x191
 Calls: trap_EntitiesInBox, G_Damage, LogAccuracyHit, CanDamage, VectorLength
 Called by: G_MissileImpact, G_ExplodeMissile
 =================
@@ -34218,6 +34734,7 @@ Pickup_Powerup
 
 Address: 0x1acb8
 Stack Size: 0xa8
+Opcodes Size: 0x157
 Calls: trap_Trace, AngleVectors, VectorNormalize
 Called by: Touch_Item
 =================
@@ -34319,6 +34836,7 @@ Pickup_Holdable
 
 Address: 0x1ae0f
 Stack Size: 0xc
+Opcodes Size: 0x31
 Called by: Touch_Item
 =================
 */
@@ -34339,6 +34857,7 @@ Add_Ammo
 
 Address: 0x1ae40
 Stack Size: 0xc
+Opcodes Size: 0x37
 Called by: Pickup_Weapon, Pickup_Ammo
 =================
 */
@@ -34358,6 +34877,7 @@ Pickup_Ammo
 
 Address: 0x1ae77
 Stack Size: 0x18
+Opcodes Size: 0x35
 Calls: Add_Ammo
 Called by: Touch_Item
 =================
@@ -34382,6 +34902,7 @@ Pickup_Weapon
 
 Address: 0x1aeac
 Stack Size: 0x1c
+Opcodes Size: 0xc3
 Calls: Add_Ammo
 Called by: Touch_Item
 =================
@@ -34427,6 +34948,7 @@ Pickup_Health
 
 Address: 0x1af6f
 Stack Size: 0x1c
+Opcodes Size: 0x8a
 Called by: Touch_Item
 =================
 */
@@ -34470,6 +34992,7 @@ Pickup_Armor
 
 Address: 0x1aff9
 Stack Size: 0x14
+Opcodes Size: 0x48
 Called by: Touch_Item
 =================
 */
@@ -34495,6 +35018,7 @@ RespawnItem
 
 Address: 0x1b041
 Stack Size: 0x2c
+Opcodes Size: 0x14c
 Calls: trap_LinkEntity, G_AddEvent, G_SoundIndex, G_TempEntity, rand, G_Error
 Called by: Team_ResetFlag, Use_Item
 =================
@@ -34586,6 +35110,7 @@ Touch_Item
 
 Address: 0x1b18d
 Stack Size: 0x44
+Opcodes Size: 0x23f
 Calls: trap_LinkEntity, rand, G_UseTargets, G_TempEntity, G_AddEvent, G_AddPredictableEvent, Pickup_Holdable, Pickup_Team, Pickup_Powerup, Pickup_Health, Pickup_Armor, Pickup_Ammo, Pickup_Weapon, G_LogPrintf, BG_CanItemBeGrabbed
 Called by: Use_Target_Give, Cmd_Give_f
 =================
@@ -34716,6 +35241,7 @@ LaunchItem
 
 Address: 0x1b3cc
 Stack Size: 0x1c
+Opcodes Size: 0xd0
 Calls: trap_LinkEntity, Team_CheckDroppedItem, G_SetOrigin, G_Spawn
 Called by: Drop_Item
 =================
@@ -34768,6 +35294,7 @@ Drop_Item
 
 Address: 0x1b49c
 Stack Size: 0x40
+Opcodes Size: 0x63
 Calls: LaunchItem, rand, AngleVectors
 Called by: TossClientItems, ClientEvents
 =================
@@ -34808,6 +35335,7 @@ Use_Item
 
 Address: 0x1b4ff
 Stack Size: 0xc
+Opcodes Size: 0x9
 Calls: RespawnItem
 =================
 */
@@ -34822,6 +35350,7 @@ FinishSpawningItem
 
 Address: 0x1b508
 Stack Size: 0x7c
+Opcodes Size: 0x147
 Calls: trap_LinkEntity, trap_Trace, rand, G_FreeEntity, G_Printf, vtos, G_SetOrigin
 Called by: Cmd_Give_f
 =================
@@ -34896,6 +35425,7 @@ G_CheckTeamItems
 
 Address: 0x1b64f
 Stack Size: 0x20
+Opcodes Size: 0x52
 Calls: G_Printf, BG_FindItem, Team_InitGame
 Called by: G_InitGame
 =================
@@ -34933,6 +35463,7 @@ ClearRegisteredItems
 
 Address: 0x1b6a1
 Stack Size: 0x1c
+Opcodes Size: 0x24
 Calls: memset, RegisterItem, BG_FindItemForWeapon
 Called by: G_InitGame
 =================
@@ -34954,6 +35485,7 @@ RegisterItem
 
 Address: 0x1b6c5
 Stack Size: 0xc
+Opcodes Size: 0x18
 Calls: G_Error
 Called by: InitShooter, G_SpawnItem, ClearRegisteredItems
 =================
@@ -34972,6 +35504,7 @@ SaveRegisteredItems
 
 Address: 0x1b6dd
 Stack Size: 0x120
+Opcodes Size: 0x4d
 Calls: trap_SetConfigstring, G_Printf
 Called by: G_InitGame
 =================
@@ -35008,6 +35541,7 @@ G_ItemDisabled
 
 Address: 0x1b72a
 Stack Size: 0x9c
+Opcodes Size: 0x19
 Calls: trap_Cvar_VariableIntegerValue, Com_sprintf
 Called by: G_SpawnItem
 =================
@@ -35027,6 +35561,7 @@ G_SpawnItem
 
 Address: 0x1b743
 Stack Size: 0x18
+Opcodes Size: 0x6a
 Calls: G_SoundIndex, G_ItemDisabled, RegisterItem, G_SpawnFloat
 Called by: G_CallSpawn, Cmd_Give_f
 =================
@@ -35059,6 +35594,7 @@ G_BounceItem
 
 Address: 0x1b7ad
 Stack Size: 0x5c
+Opcodes Size: 0x15c
 Calls: G_SetOrigin, BG_EvaluateTrajectoryDelta
 Called by: G_RunItem
 =================
@@ -35126,6 +35662,7 @@ G_RunItem
 
 Address: 0x1b909
 Stack Size: 0x7c
+Opcodes Size: 0xce
 Calls: trap_PointContents, trap_LinkEntity, trap_Trace, G_BounceItem, G_FreeEntity, Team_FreeEntity, BG_EvaluateTrajectory, G_RunThink
 Called by: G_RunFrame
 =================
@@ -35190,6 +35727,7 @@ G_Alloc
 
 Address: 0x1b9d7
 Stack Size: 0x20
+Opcodes Size: 0x4f
 Calls: G_Error, G_Printf
 Called by: G_NewString, G_ParseInfos, BotAISetupClient
 =================
@@ -35220,6 +35758,7 @@ G_InitMemory
 
 Address: 0x1ba26
 Stack Size: 0x8
+Opcodes Size: 0x6
 Called by: G_InitGame
 =================
 */
@@ -35234,6 +35773,7 @@ Svcmd_GameMem_f
 
 Address: 0x1ba2c
 Stack Size: 0x14
+Opcodes Size: 0xd
 Calls: G_Printf
 Called by: ConsoleCommand
 =================
@@ -35249,6 +35789,7 @@ SP_info_camp
 
 Address: 0x1ba39
 Stack Size: 0x14
+Opcodes Size: 0x12
 Calls: G_SetOrigin
 =================
 */
@@ -35265,6 +35806,7 @@ SP_info_null
 
 Address: 0x1ba4b
 Stack Size: 0xc
+Opcodes Size: 0x9
 Calls: G_FreeEntity
 =================
 */
@@ -35279,6 +35821,7 @@ SP_info_notnull
 
 Address: 0x1ba54
 Stack Size: 0x14
+Opcodes Size: 0x12
 Calls: G_SetOrigin
 =================
 */
@@ -35295,6 +35838,7 @@ SP_light
 
 Address: 0x1ba66
 Stack Size: 0xc
+Opcodes Size: 0x9
 Calls: G_FreeEntity
 =================
 */
@@ -35309,6 +35853,7 @@ TeleportPlayer
 
 Address: 0x1ba6f
 Stack Size: 0x3c
+Opcodes Size: 0x13c
 Calls: trap_LinkEntity, trap_UnlinkEntity, BG_PlayerStateToEntityState, G_KillBox, SetClientViewAngle, AngleVectors, G_TempEntity
 Called by: trigger_teleporter_touch, target_teleporter_use, Touch_DoorTriggerSpectator, Cmd_SetViewpos_f, ClientEvents
 =================
@@ -35382,6 +35927,7 @@ SP_misc_teleporter_dest
 
 Address: 0x1bbab
 Stack Size: 0x8
+Opcodes Size: 0x3
 =================
 */
 void SP_misc_teleporter_dest(void) {
@@ -35394,6 +35940,7 @@ SP_misc_model
 
 Address: 0x1bbae
 Stack Size: 0xc
+Opcodes Size: 0x9
 Calls: G_FreeEntity
 =================
 */
@@ -35408,6 +35955,7 @@ locateCamera
 
 Address: 0x1bbb7
 Stack Size: 0x44
+Opcodes Size: 0xe3
 Calls: DirToByte, G_SetMovedir, VectorNormalize, G_FreeEntity, G_Printf, G_PickTarget
 =================
 */
@@ -35475,6 +36023,7 @@ SP_misc_portal_surface
 
 Address: 0x1bc9a
 Stack Size: 0x20
+Opcodes Size: 0x6a
 Calls: trap_LinkEntity
 =================
 */
@@ -35509,6 +36058,7 @@ SP_misc_portal_camera
 
 Address: 0x1bd04
 Stack Size: 0x28
+Opcodes Size: 0x52
 Calls: trap_LinkEntity, G_SpawnFloat
 =================
 */
@@ -35537,6 +36087,7 @@ Use_Shooter
 
 Address: 0x1bd56
 Stack Size: 0x60
+Opcodes Size: 0x116
 Calls: G_AddEvent, fire_plasma, fire_rocket, fire_grenade, rand, CrossProduct, PerpendicularVector, VectorNormalize
 =================
 */
@@ -35603,6 +36154,7 @@ InitShooter_Finish
 
 Address: 0x1be6c
 Stack Size: 0x14
+Opcodes Size: 0x24
 Calls: G_PickTarget
 =================
 */
@@ -35622,6 +36174,7 @@ InitShooter
 
 Address: 0x1be90
 Stack Size: 0x20
+Opcodes Size: 0x6e
 Calls: trap_LinkEntity, sin, G_SetMovedir, RegisterItem, BG_FindItemForWeapon
 Called by: SP_shooter_grenade, SP_shooter_plasma, SP_shooter_rocket
 =================
@@ -35656,6 +36209,7 @@ SP_shooter_rocket
 
 Address: 0x1befe
 Stack Size: 0x10
+Opcodes Size: 0xb
 Calls: InitShooter
 =================
 */
@@ -35670,6 +36224,7 @@ SP_shooter_plasma
 
 Address: 0x1bf09
 Stack Size: 0x10
+Opcodes Size: 0xb
 Calls: InitShooter
 =================
 */
@@ -35684,6 +36239,7 @@ SP_shooter_grenade
 
 Address: 0x1bf14
 Stack Size: 0x10
+Opcodes Size: 0xb
 Calls: InitShooter
 =================
 */
@@ -35698,6 +36254,7 @@ G_BounceMissile
 
 Address: 0x1bf1f
 Stack Size: 0x44
+Opcodes Size: 0x126
 Calls: G_SetOrigin, VectorLength, BG_EvaluateTrajectoryDelta
 Called by: G_MissileImpact
 =================
@@ -35756,6 +36313,7 @@ G_ExplodeMissile
 
 Address: 0x1c045
 Stack Size: 0x4c
+Opcodes Size: 0xa6
 Calls: trap_LinkEntity, G_RadiusDamage, G_AddEvent, DirToByte, G_SetOrigin, BG_EvaluateTrajectory
 =================
 */
@@ -35800,6 +36358,7 @@ G_MissileImpact
 
 Address: 0x1c0eb
 Stack Size: 0x60
+Opcodes Size: 0x2ba
 Calls: trap_LinkEntity, G_RadiusDamage, G_SetOrigin, SnapVectorTowards, DirToByte, G_Spawn, strcmp, G_Damage, VectorLength, BG_EvaluateTrajectoryDelta, LogAccuracyHit, G_AddEvent, G_BounceMissile
 Called by: G_RunMissile
 =================
@@ -35917,6 +36476,7 @@ G_RunMissile
 
 Address: 0x1c3a5
 Stack Size: 0x84
+Opcodes Size: 0xe5
 Calls: trap_LinkEntity, trap_Trace, G_RunThink, G_MissileImpact, G_FreeEntity, BG_EvaluateTrajectory
 Called by: G_RunFrame
 =================
@@ -35989,6 +36549,7 @@ fire_plasma
 
 Address: 0x1c48a
 Stack Size: 0x20
+Opcodes Size: 0xe1
 Calls: G_Spawn, VectorNormalize
 Called by: Weapon_Plasmagun_Fire, Use_Shooter
 =================
@@ -36041,6 +36602,7 @@ fire_grenade
 
 Address: 0x1c56b
 Stack Size: 0x20
+Opcodes Size: 0xe7
 Calls: G_Spawn, VectorNormalize
 Called by: weapon_grenadelauncher_fire, Use_Shooter
 =================
@@ -36094,6 +36656,7 @@ fire_bfg
 
 Address: 0x1c652
 Stack Size: 0x20
+Opcodes Size: 0xe1
 Calls: G_Spawn, VectorNormalize
 Called by: BFG_Fire
 =================
@@ -36146,6 +36709,7 @@ fire_rocket
 
 Address: 0x1c733
 Stack Size: 0x20
+Opcodes Size: 0xe1
 Calls: G_Spawn, VectorNormalize
 Called by: Weapon_RocketLauncher_Fire, Use_Shooter
 =================
@@ -36198,6 +36762,7 @@ fire_grapple
 
 Address: 0x1c814
 Stack Size: 0x20
+Opcodes Size: 0xdf
 Calls: G_Spawn, VectorNormalize
 Called by: Weapon_GrapplingHook_Fire
 =================
@@ -36249,6 +36814,7 @@ G_TestEntityPosition
 
 Address: 0x1c8f3
 Stack Size: 0x68
+Opcodes Size: 0x79
 Calls: trap_Trace
 Called by: G_MoverPush, G_TryPushingEntity
 =================
@@ -36301,6 +36867,7 @@ G_CreateRotationMatrix
 
 Address: 0x1c96c
 Stack Size: 0x1c
+Opcodes Size: 0x22
 Calls: VectorInverse, AngleVectors
 Called by: G_TryPushingEntity
 =================
@@ -36318,6 +36885,7 @@ G_TransposeMatrix
 
 Address: 0x1c98e
 Stack Size: 0x20
+Opcodes Size: 0x49
 Called by: G_TryPushingEntity
 =================
 */
@@ -36348,6 +36916,7 @@ G_RotatePoint
 
 Address: 0x1c9d7
 Stack Size: 0x24
+Opcodes Size: 0x68
 Called by: G_TryPushingEntity
 =================
 */
@@ -36370,6 +36939,7 @@ G_TryPushingEntity
 
 Address: 0x1ca3f
 Stack Size: 0xbc
+Opcodes Size: 0x289
 Calls: trap_LinkEntity, G_TestEntityPosition, G_RotatePoint, G_TransposeMatrix, G_CreateRotationMatrix, G_Error
 Called by: G_MoverPush
 =================
@@ -36504,6 +37074,7 @@ G_CheckProxMinePosition
 
 Address: 0x1ccc8
 Stack Size: 0x90
+Opcodes Size: 0x91
 Calls: trap_Trace
 Called by: G_TryPushingProxMine
 =================
@@ -36554,6 +37125,7 @@ G_TryPushingProxMine
 
 Address: 0x1cd59
 Stack Size: 0x94
+Opcodes Size: 0x136
 Calls: trap_LinkEntity, G_CheckProxMinePosition, AngleVectors
 =================
 */
@@ -36631,6 +37203,7 @@ G_MoverPush
 
 Address: 0x1ce8f
 Stack Size: 0x10b8
+Opcodes Size: 0x30c
 Calls: trap_LinkEntity, trap_EntitiesInBox, trap_UnlinkEntity, G_Damage, G_TryPushingEntity, G_TestEntityPosition, RadiusFromBounds
 Called by: G_MoverTeam
 =================
@@ -36806,6 +37379,7 @@ G_MoverTeam
 
 Address: 0x1d19b
 Stack Size: 0x60
+Opcodes Size: 0x133
 Calls: trap_LinkEntity, G_MoverPush, BG_EvaluateTrajectory
 Called by: G_RunMover
 =================
@@ -36889,6 +37463,7 @@ G_RunMover
 
 Address: 0x1d2ce
 Stack Size: 0x14
+Opcodes Size: 0x31
 Calls: G_RunThink, G_MoverTeam
 Called by: G_RunFrame
 =================
@@ -36916,6 +37491,7 @@ SetMoverState
 
 Address: 0x1d2ff
 Stack Size: 0x54
+Opcodes Size: 0x11f
 Calls: trap_LinkEntity, BG_EvaluateTrajectory
 Called by: Reached_Train, Reached_BinaryMover, MatchTeam
 =================
@@ -36970,6 +37546,7 @@ MatchTeam
 
 Address: 0x1d41e
 Stack Size: 0x18
+Opcodes Size: 0x28
 Calls: SetMoverState
 Called by: Think_MatchTeam, Think_SpawnNewDoorTrigger, Use_BinaryMover, ReturnToPos1
 =================
@@ -36994,6 +37571,7 @@ ReturnToPos1
 
 Address: 0x1d446
 Stack Size: 0x1c
+Opcodes Size: 0x31
 Calls: G_AddEvent, MatchTeam
 =================
 */
@@ -37013,6 +37591,7 @@ Reached_BinaryMover
 
 Address: 0x1d477
 Stack Size: 0x20
+Opcodes Size: 0xaf
 Calls: trap_AdjustAreaPortalState, G_Error, G_UseTargets, G_AddEvent, SetMoverState
 =================
 */
@@ -37056,6 +37635,7 @@ Use_BinaryMover
 
 Address: 0x1d526
 Stack Size: 0x28
+Opcodes Size: 0x11d
 Calls: trap_AdjustAreaPortalState, G_AddEvent, MatchTeam, Use_BinaryMover
 Called by: Touch_Button, Touch_PlatCenterTrigger, Touch_DoorTrigger, Blocked_Door, Use_BinaryMover
 =================
@@ -37117,6 +37697,7 @@ InitMover
 
 Address: 0x1d643
 Stack Size: 0x78
+Opcodes Size: 0x175
 Calls: trap_LinkEntity, VectorLength, G_SpawnVector, G_SpawnFloat, G_SoundIndex, G_SpawnString, G_ModelIndex
 Called by: SP_func_pendulum, SP_func_bobbing, SP_func_rotating, SP_func_static, SP_func_train, SP_func_button, SP_func_plat, SP_func_door
 =================
@@ -37212,6 +37793,7 @@ Blocked_Door
 
 Address: 0x1d7b8
 Stack Size: 0x30
+Opcodes Size: 0x7a
 Calls: Use_BinaryMover, G_Damage, G_FreeEntity, G_TempEntity, Team_DroppedFlagThink
 =================
 */
@@ -37255,6 +37837,7 @@ Touch_DoorTriggerSpectator
 
 Address: 0x1d832
 Stack Size: 0x4c
+Opcodes Size: 0xa4
 Calls: TeleportPlayer, tv, fabs
 Called by: Touch_DoorTrigger
 =================
@@ -37308,6 +37891,7 @@ Touch_DoorTrigger
 
 Address: 0x1d8d6
 Stack Size: 0x1c
+Opcodes Size: 0x52
 Calls: Use_BinaryMover, Touch_DoorTriggerSpectator
 =================
 */
@@ -37336,6 +37920,7 @@ Think_SpawnNewDoorTrigger
 
 Address: 0x1d928
 Stack Size: 0x4c
+Opcodes Size: 0x101
 Calls: trap_LinkEntity, MatchTeam, G_Spawn, AddPointToBounds
 =================
 */
@@ -37405,6 +37990,7 @@ Think_MatchTeam
 
 Address: 0x1da29
 Stack Size: 0x18
+Opcodes Size: 0x16
 Calls: MatchTeam
 =================
 */
@@ -37421,6 +38007,7 @@ SP_func_door
 
 Address: 0x1da3f
 Stack Size: 0x88
+Opcodes Size: 0x198
 Calls: trap_SetBrushModel, InitMover, fabs, G_SetMovedir, G_SpawnInt, G_SpawnFloat, G_SoundIndex
 =================
 */
@@ -37505,6 +38092,7 @@ Touch_Plat
 
 Address: 0x1dbd7
 Stack Size: 0xc
+Opcodes Size: 0x27
 =================
 */
 void Touch_Plat(int arg_0, int arg_1) {
@@ -37527,6 +38115,7 @@ Touch_PlatCenterTrigger
 
 Address: 0x1dbfe
 Stack Size: 0x18
+Opcodes Size: 0x29
 Calls: Use_BinaryMover
 =================
 */
@@ -37548,6 +38137,7 @@ SpawnPlatTrigger
 
 Address: 0x1dc27
 Stack Size: 0x48
+Opcodes Size: 0xdc
 Calls: trap_LinkEntity, G_Spawn
 Called by: SP_func_plat
 =================
@@ -37598,6 +38188,7 @@ SP_func_plat
 
 Address: 0x1dd03
 Stack Size: 0x4c
+Opcodes Size: 0xeb
 Calls: trap_SetBrushModel, SpawnPlatTrigger, InitMover, G_SpawnInt, G_SpawnFloat, G_SoundIndex
 =================
 */
@@ -37650,6 +38241,7 @@ Touch_Button
 
 Address: 0x1ddee
 Stack Size: 0x18
+Opcodes Size: 0x23
 Calls: Use_BinaryMover
 =================
 */
@@ -37674,6 +38266,7 @@ SP_func_button
 
 Address: 0x1de11
 Stack Size: 0x68
+Opcodes Size: 0x122
 Calls: trap_SetBrushModel, InitMover, fabs, G_SetMovedir, G_SpawnFloat, G_SoundIndex
 =================
 */
@@ -37735,6 +38328,7 @@ Think_BeginMoving
 
 Address: 0x1df33
 Stack Size: 0x8
+Opcodes Size: 0x10
 =================
 */
 void Think_BeginMoving(int arg_0) {
@@ -37749,6 +38343,7 @@ Reached_Train
 
 Address: 0x1df43
 Stack Size: 0x4c
+Opcodes Size: 0x10a
 Calls: SetMoverState, VectorLength, G_UseTargets
 Called by: Think_SetupTrainTargets
 =================
@@ -37816,6 +38411,7 @@ Think_SetupTrainTargets
 
 Address: 0x1e04d
 Stack Size: 0x30
+Opcodes Size: 0xb7
 Calls: Reached_Train, strcmp, G_Printf, vtos, G_Find
 =================
 */
@@ -37872,6 +38468,7 @@ SP_path_corner
 
 Address: 0x1e104
 Stack Size: 0x14
+Opcodes Size: 0x21
 Calls: G_FreeEntity, G_Printf, vtos
 =================
 */
@@ -37891,6 +38488,7 @@ SP_func_train
 
 Address: 0x1e125
 Stack Size: 0x1c
+Opcodes Size: 0x91
 Calls: trap_SetBrushModel, InitMover, G_FreeEntity, G_Printf, vtos
 =================
 */
@@ -37933,6 +38531,7 @@ SP_func_static
 
 Address: 0x1e1b6
 Stack Size: 0x1c
+Opcodes Size: 0x2b
 Calls: trap_SetBrushModel, InitMover
 =================
 */
@@ -37951,6 +38550,7 @@ SP_func_rotating
 
 Address: 0x1e1e1
 Stack Size: 0x20
+Opcodes Size: 0x8e
 Calls: trap_LinkEntity, trap_SetBrushModel, InitMover
 =================
 */
@@ -37988,6 +38588,7 @@ SP_func_bobbing
 
 Address: 0x1e26f
 Stack Size: 0x30
+Opcodes Size: 0xa2
 Calls: trap_SetBrushModel, InitMover, G_SpawnInt, G_SpawnFloat
 =================
 */
@@ -38025,6 +38626,7 @@ SP_func_pendulum
 
 Address: 0x1e311
 Stack Size: 0x40
+Opcodes Size: 0xa9
 Calls: sqrt, trap_SetBrushModel, InitMover, fabs, G_SpawnInt, G_SpawnFloat
 =================
 */
@@ -38065,6 +38667,7 @@ G_WriteClientSessionData
 
 Address: 0x1e3ba
 Stack Size: 0x3c
+Opcodes Size: 0x56
 Calls: trap_Cvar_Set, va
 Called by: G_WriteSessionData, G_InitSessionData
 =================
@@ -38089,6 +38692,7 @@ G_ReadSessionData
 
 Address: 0x1e410
 Stack Size: 0x444
+Opcodes Size: 0x59
 Calls: trap_Cvar_VariableStringBuffer, sscanf, va
 Called by: ClientConnect
 =================
@@ -38117,6 +38721,7 @@ G_InitSessionData
 
 Address: 0x1e469
 Stack Size: 0x24
+Opcodes Size: 0xc0
 Calls: trap_Cvar_Set, G_WriteClientSessionData, AddTournamentQueue, SetTeam, Info_ValueForKey
 Called by: ClientConnect
 =================
@@ -38185,6 +38790,7 @@ G_InitWorldSession
 
 Address: 0x1e529
 Stack Size: 0x41c
+Opcodes Size: 0x23
 Calls: trap_Cvar_VariableStringBuffer, G_Printf, atoi
 Called by: G_InitGame
 =================
@@ -38209,6 +38815,7 @@ G_WriteSessionData
 
 Address: 0x1e54c
 Stack Size: 0x18
+Opcodes Size: 0x3b
 Calls: trap_Cvar_Set, G_WriteClientSessionData, va
 Called by: ExitLevel, G_ShutdownGame
 =================
@@ -38236,6 +38843,7 @@ G_SpawnString
 
 Address: 0x1e587
 Stack Size: 0x18
+Opcodes Size: 0x4c
 Calls: Q_stricmp
 Called by: SP_target_speaker, SP_worldspawn, G_SpawnGEntityFromSpawnVars, G_SpawnVector, G_SpawnInt, G_SpawnFloat, InitMover
 =================
@@ -38270,6 +38878,7 @@ G_SpawnFloat
 
 Address: 0x1e5d3
 Stack Size: 0x24
+Opcodes Size: 0x22
 Calls: atof, G_SpawnString
 Called by: SP_func_timer, SP_trigger_multiple, SP_target_speaker, SP_target_delay, SP_func_pendulum, SP_func_bobbing, SP_func_button, SP_func_plat, SP_func_door, InitMover, SP_misc_portal_camera, G_SpawnItem
 =================
@@ -38293,6 +38902,7 @@ G_SpawnInt
 
 Address: 0x1e5f5
 Stack Size: 0x24
+Opcodes Size: 0x22
 Calls: atoi, G_SpawnString
 Called by: G_SpawnGEntityFromSpawnVars, SP_func_pendulum, SP_func_bobbing, SP_func_plat, SP_func_door, SP_info_player_deathmatch
 =================
@@ -38316,6 +38926,7 @@ G_SpawnVector
 
 Address: 0x1e617
 Stack Size: 0x2c
+Opcodes Size: 0x2f
 Calls: sscanf, G_SpawnString
 Called by: InitMover
 =================
@@ -38338,6 +38949,7 @@ SP_item_botroam
 
 Address: 0x1e646
 Stack Size: 0x8
+Opcodes Size: 0x3
 =================
 */
 void SP_item_botroam(void) {
@@ -38350,6 +38962,7 @@ G_CallSpawn
 
 Address: 0x1e649
 Stack Size: 0x1c
+Opcodes Size: 0x83
 Calls: G_SpawnItem, strcmp, G_Printf
 Called by: G_SpawnGEntityFromSpawnVars
 =================
@@ -38396,6 +39009,7 @@ G_NewString
 
 Address: 0x1e6cc
 Stack Size: 0x2c
+Opcodes Size: 0x88
 Calls: G_Alloc, strlen
 Called by: G_ParseField
 =================
@@ -38448,6 +39062,7 @@ G_ParseField
 
 Address: 0x1e754
 Stack Size: 0x58
+Opcodes Size: 0xf0
 Calls: atof, atoi, sscanf, G_NewString, Q_stricmp
 Called by: G_SpawnGEntityFromSpawnVars
 =================
@@ -38515,6 +39130,7 @@ G_SpawnGEntityFromSpawnVars
 
 Address: 0x1e844
 Stack Size: 0x3c
+Opcodes Size: 0x16d
 Calls: trap_AdjustAreaPortalState, trap_LinkEntity, G_CallSpawn, strstr, G_SpawnString, G_FreeEntity, G_SpawnInt, G_ParseField, G_Spawn
 Called by: G_SpawnEntitiesFromString
 =================
@@ -38613,6 +39229,7 @@ G_AddSpawnVarToken
 
 Address: 0x1e9b1
 Stack Size: 0x24
+Opcodes Size: 0x41
 Calls: memcpy, G_Error, strlen
 Called by: G_ParseSpawnVars
 =================
@@ -38641,6 +39258,7 @@ G_ParseSpawnVars
 
 Address: 0x1e9f2
 Stack Size: 0x828
+Opcodes Size: 0x90
 Calls: trap_GetEntityToken, G_AddSpawnVarToken, G_Error
 Called by: G_SpawnEntitiesFromString
 =================
@@ -38700,6 +39318,7 @@ SP_worldspawn
 
 Address: 0x1ea82
 Stack Size: 0x24
+Opcodes Size: 0xd8
 Calls: trap_Cvar_Set, trap_SetConfigstring, G_LogPrintf, va, G_Error, Q_stricmp, G_SpawnString
 Called by: G_SpawnEntitiesFromString
 =================
@@ -38755,6 +39374,7 @@ G_SpawnEntitiesFromString
 
 Address: 0x1eb5a
 Stack Size: 0x14
+Opcodes Size: 0x29
 Calls: G_SpawnGEntityFromSpawnVars, SP_worldspawn, G_Error, G_ParseSpawnVars
 Called by: G_InitGame
 =================
@@ -38785,6 +39405,7 @@ StringToFilter
 
 Address: 0x1eb83
 Stack Size: 0xb0
+Opcodes Size: 0xcc
 Calls: atoi, G_Printf
 Called by: Svcmd_RemoveIP_f, AddIP
 =================
@@ -38861,6 +39482,7 @@ UpdateIPBans
 
 Address: 0x1ec4f
 Stack Size: 0x170
+Opcodes Size: 0xbb
 Calls: trap_Cvar_Set, Com_Printf, strlen, va, Q_strcat
 Called by: Svcmd_RemoveIP_f, AddIP
 =================
@@ -38934,6 +39556,7 @@ G_FilterPacket
 
 Address: 0x1ed0a
 Stack Size: 0x24
+Opcodes Size: 0xb3
 Called by: ClientConnect
 =================
 */
@@ -39007,6 +39630,7 @@ AddIP
 
 Address: 0x1edbd
 Stack Size: 0x18
+Opcodes Size: 0x56
 Calls: UpdateIPBans, StringToFilter, G_Printf
 Called by: Svcmd_AddIP_f, G_ProcessIPBans
 =================
@@ -39047,6 +39671,7 @@ G_ProcessIPBans
 
 Address: 0x1ee13
 Stack Size: 0x128
+Opcodes Size: 0x56
 Calls: AddIP, strchr, Q_strncpyz
 Called by: G_InitGame
 =================
@@ -39090,6 +39715,7 @@ Svcmd_AddIP_f
 
 Address: 0x1ee69
 Stack Size: 0x418
+Opcodes Size: 0x20
 Calls: trap_Argv, trap_Argc, AddIP, G_Printf
 Called by: ConsoleCommand
 =================
@@ -39114,6 +39740,7 @@ Svcmd_RemoveIP_f
 
 Address: 0x1ee89
 Stack Size: 0x42c
+Opcodes Size: 0x68
 Calls: trap_Argv, trap_Argc, UpdateIPBans, StringToFilter, G_Printf
 Called by: ConsoleCommand
 =================
@@ -39161,6 +39788,7 @@ Svcmd_EntityList_f
 
 Address: 0x1eef1
 Stack Size: 0x20
+Opcodes Size: 0xba
 Calls: G_Printf
 Called by: ConsoleCommand
 =================
@@ -39226,6 +39854,7 @@ ClientForString
 
 Address: 0x1efab
 Stack Size: 0x28
+Opcodes Size: 0x9b
 Calls: Q_stricmp, G_Printf, Com_Printf, atoi
 Called by: Svcmd_ForceTeam_f
 =================
@@ -39282,6 +39911,7 @@ Svcmd_ForceTeam_f
 
 Address: 0x1f046
 Stack Size: 0x420
+Opcodes Size: 0x45
 Calls: trap_Argv, trap_Argc, SetTeam, ClientForString, G_Printf
 Called by: ConsoleCommand
 =================
@@ -39314,6 +39944,7 @@ ConsoleCommand
 
 Address: 0x1f08b
 Stack Size: 0x444
+Opcodes Size: 0x103
 Calls: trap_SendServerCommand, trap_SendConsoleCommand, trap_Argv, va, ConcatArgs, Svcmd_RemoveIP_f, Svcmd_AddIP_f, Svcmd_AbortPodium_f, Svcmd_BotList_f, Svcmd_AddBot_f, Svcmd_GameMem_f, Svcmd_ForceTeam_f, Svcmd_EntityList_f, Q_stricmp
 Called by: vmMain
 =================
@@ -39401,6 +40032,7 @@ Use_Target_Give
 
 Address: 0x1f18e
 Stack Size: 0x54
+Opcodes Size: 0x62
 Calls: trap_UnlinkEntity, memset, G_Find, Touch_Item
 =================
 */
@@ -39440,6 +40072,7 @@ SP_target_give
 
 Address: 0x1f1f0
 Stack Size: 0x8
+Opcodes Size: 0x9
 =================
 */
 void SP_target_give(int arg_0) {
@@ -39453,6 +40086,7 @@ Use_target_remove_powerups
 
 Address: 0x1f1f9
 Stack Size: 0x14
+Opcodes Size: 0x50
 Calls: memset, Team_ReturnFlag
 =================
 */
@@ -39483,6 +40117,7 @@ SP_target_remove_powerups
 
 Address: 0x1f249
 Stack Size: 0x8
+Opcodes Size: 0x9
 =================
 */
 void SP_target_remove_powerups(int arg_0) {
@@ -39496,6 +40131,7 @@ Think_Target_Delay
 
 Address: 0x1f252
 Stack Size: 0x14
+Opcodes Size: 0x13
 Calls: G_UseTargets
 =================
 */
@@ -39512,6 +40148,7 @@ Use_Target_Delay
 
 Address: 0x1f265
 Stack Size: 0x10
+Opcodes Size: 0x3b
 Calls: rand
 =================
 */
@@ -39531,6 +40168,7 @@ SP_target_delay
 
 Address: 0x1f2a0
 Stack Size: 0x18
+Opcodes Size: 0x37
 Calls: G_SpawnFloat
 =================
 */
@@ -39554,6 +40192,7 @@ Use_Target_Score
 
 Address: 0x1f2d7
 Stack Size: 0x18
+Opcodes Size: 0x18
 Calls: AddScore
 =================
 */
@@ -39573,6 +40212,7 @@ SP_target_score
 
 Address: 0x1f2ef
 Stack Size: 0x8
+Opcodes Size: 0x16
 =================
 */
 void SP_target_score(int arg_0) {
@@ -39589,6 +40229,7 @@ Use_Target_Print
 
 Address: 0x1f305
 Stack Size: 0x14
+Opcodes Size: 0x8b
 Calls: trap_SendServerCommand, G_TeamCommand, va
 =================
 */
@@ -39623,6 +40264,7 @@ SP_target_print
 
 Address: 0x1f390
 Stack Size: 0x8
+Opcodes Size: 0x9
 =================
 */
 void SP_target_print(int arg_0) {
@@ -39636,6 +40278,7 @@ Use_Target_Speaker
 
 Address: 0x1f399
 Stack Size: 0x18
+Opcodes Size: 0x6b
 Calls: G_AddEvent
 =================
 */
@@ -39668,6 +40311,7 @@ SP_target_speaker
 
 Address: 0x1f404
 Stack Size: 0x78
+Opcodes Size: 0xed
 Calls: trap_LinkEntity, G_SoundIndex, Q_strncpyz, Com_sprintf, strstr, G_Error, vtos, G_SpawnString, G_SpawnFloat
 =================
 */
@@ -39722,6 +40366,7 @@ target_laser_think
 
 Address: 0x1f4f1
 Stack Size: 0xa0
+Opcodes Size: 0x144
 Calls: trap_LinkEntity, trap_Trace, G_Damage, VectorNormalize
 Called by: target_laser_on
 =================
@@ -39791,6 +40436,7 @@ target_laser_on
 
 Address: 0x1f635
 Stack Size: 0x10
+Opcodes Size: 0x1b
 Calls: target_laser_think
 Called by: target_laser_start, target_laser_use
 =================
@@ -39810,6 +40456,7 @@ target_laser_off
 
 Address: 0x1f650
 Stack Size: 0xc
+Opcodes Size: 0xf
 Calls: trap_UnlinkEntity
 Called by: target_laser_start, target_laser_use
 =================
@@ -39826,6 +40473,7 @@ target_laser_use
 
 Address: 0x1f65f
 Stack Size: 0xc
+Opcodes Size: 0x23
 Calls: target_laser_on, target_laser_off
 =================
 */
@@ -39847,6 +40495,7 @@ target_laser_start
 
 Address: 0x1f682
 Stack Size: 0x28
+Opcodes Size: 0x8d
 Calls: target_laser_off, target_laser_on, G_SetMovedir, G_Printf, vtos, G_Find
 =================
 */
@@ -39888,6 +40537,7 @@ SP_target_laser
 
 Address: 0x1f70f
 Stack Size: 0x8
+Opcodes Size: 0x12
 =================
 */
 void SP_target_laser(int arg_0) {
@@ -39902,6 +40552,7 @@ target_teleporter_use
 
 Address: 0x1f721
 Stack Size: 0x20
+Opcodes Size: 0x35
 Calls: TeleportPlayer, G_Printf, G_PickTarget
 =================
 */
@@ -39928,6 +40579,7 @@ SP_target_teleporter
 
 Address: 0x1f756
 Stack Size: 0x18
+Opcodes Size: 0x2b
 Calls: G_Printf, vtos
 =================
 */
@@ -39948,6 +40600,7 @@ target_relay_use
 
 Address: 0x1f781
 Stack Size: 0x38
+Opcodes Size: 0x99
 Calls: G_UseTargets, G_PickTarget
 =================
 */
@@ -39999,6 +40652,7 @@ SP_target_relay
 
 Address: 0x1f81a
 Stack Size: 0x8
+Opcodes Size: 0x9
 =================
 */
 void SP_target_relay(int arg_0) {
@@ -40012,6 +40666,7 @@ target_kill_use
 
 Address: 0x1f823
 Stack Size: 0x30
+Opcodes Size: 0x21
 Calls: G_Damage
 =================
 */
@@ -40038,6 +40693,7 @@ SP_target_kill
 
 Address: 0x1f844
 Stack Size: 0x8
+Opcodes Size: 0x9
 =================
 */
 void SP_target_kill(int arg_0) {
@@ -40051,6 +40707,7 @@ SP_target_position
 
 Address: 0x1f84d
 Stack Size: 0x14
+Opcodes Size: 0x12
 Calls: G_SetOrigin
 =================
 */
@@ -40067,6 +40724,7 @@ target_location_linkup
 
 Address: 0x1f85f
 Stack Size: 0x20
+Opcodes Size: 0x74
 Calls: trap_SetConfigstring, Q_stricmp
 =================
 */
@@ -40111,6 +40769,7 @@ SP_target_location
 
 Address: 0x1f8d3
 Stack Size: 0x14
+Opcodes Size: 0x21
 Calls: G_SetOrigin
 =================
 */
@@ -40128,6 +40787,7 @@ Team_InitGame
 
 Address: 0x1f8f4
 Stack Size: 0x14
+Opcodes Size: 0x26
 Calls: memset, Team_SetFlagStatus
 Called by: G_CheckTeamItems
 =================
@@ -40151,6 +40811,7 @@ OtherTeam
 
 Address: 0x1f91a
 Stack Size: 0x8
+Opcodes Size: 0x16
 Called by: Team_TouchOurFlag, Team_FragBonuses
 =================
 */
@@ -40171,6 +40832,7 @@ TeamName
 
 Address: 0x1f930
 Stack Size: 0x8
+Opcodes Size: 0x1d
 Called by: Team_TouchEnemyFlag, Team_TouchOurFlag, Team_ReturnFlag, Team_FragBonuses
 =================
 */
@@ -40194,6 +40856,7 @@ TeamColorString
 
 Address: 0x1f94d
 Stack Size: 0x8
+Opcodes Size: 0x1d
 =================
 */
 int TeamColorString(int arg_0) {
@@ -40216,6 +40879,7 @@ PrintMsg
 
 Address: 0x1f96a
 Stack Size: 0x430
+Opcodes Size: 0x58
 Calls: trap_SendServerCommand, va, strchr, G_Error, Q_vsnprintf
 Called by: Pickup_Team, Team_TouchEnemyFlag, Team_TouchOurFlag, Team_ReturnFlag, Team_FragBonuses
 =================
@@ -40258,6 +40922,7 @@ AddTeamScore
 
 Address: 0x1f9c2
 Stack Size: 0x20
+Opcodes Size: 0x8b
 Calls: G_TempEntity
 Called by: Team_TouchOurFlag
 =================
@@ -40306,6 +40971,7 @@ OnSameTeam
 
 Address: 0x1fa4d
 Stack Size: 0x18
+Opcodes Size: 0x48
 Called by: LogAccuracyHit, Team_FragBonuses, G_Damage, player_die, G_SayTo
 =================
 */
@@ -40339,6 +41005,7 @@ Team_SetFlagStatus
 
 Address: 0x1fa95
 Stack Size: 0x20
+Opcodes Size: 0x71
 Calls: trap_SetConfigstring
 Called by: Team_TouchEnemyFlag, Team_ResetFlag, Team_CheckDroppedItem, Team_InitGame
 =================
@@ -40393,6 +41060,7 @@ Team_CheckDroppedItem
 
 Address: 0x1fb06
 Stack Size: 0x10
+Opcodes Size: 0x3a
 Calls: Team_SetFlagStatus
 Called by: LaunchItem
 =================
@@ -40418,6 +41086,7 @@ Team_ForceGesture
 
 Address: 0x1fb40
 Stack Size: 0x14
+Opcodes Size: 0x49
 Called by: Team_TouchOurFlag
 =================
 */
@@ -40452,6 +41121,7 @@ Team_FragBonuses
 
 Address: 0x1fb89
 Stack Size: 0x134
+Opcodes Size: 0x4ef
 Calls: trap_InPVS, VectorLength, G_Find, PrintMsg, TeamName, AddScore, OtherTeam, OnSameTeam
 Called by: player_die
 =================
@@ -40736,6 +41406,7 @@ Team_CheckHurtCarrier
 
 Address: 0x20078
 Stack Size: 0x2c
+Opcodes Size: 0x9e
 Called by: G_Damage
 =================
 */
@@ -40787,6 +41458,7 @@ Team_ResetFlag
 
 Address: 0x20116
 Stack Size: 0x28
+Opcodes Size: 0x6a
 Calls: Team_SetFlagStatus, G_Find, RespawnItem, G_FreeEntity
 Called by: Team_TouchOurFlag, Team_DroppedFlagThink, Team_ReturnFlag, Team_ResetFlags
 =================
@@ -40839,6 +41511,7 @@ Team_ResetFlags
 
 Address: 0x20180
 Stack Size: 0xc
+Opcodes Size: 0x11
 Calls: Team_ResetFlag
 Called by: Team_TouchOurFlag
 =================
@@ -40857,6 +41530,7 @@ Team_ReturnFlagSound
 
 Address: 0x20191
 Stack Size: 0x1c
+Opcodes Size: 0x3d
 Calls: G_TempEntity, G_Printf
 Called by: Team_TouchOurFlag, Team_DroppedFlagThink, Team_ReturnFlag
 =================
@@ -40889,6 +41563,7 @@ Team_TakeFlagSound
 
 Address: 0x201ce
 Stack Size: 0x20
+Opcodes Size: 0x6f
 Calls: G_TempEntity, G_Printf
 Called by: Team_TouchEnemyFlag
 =================
@@ -40940,6 +41615,7 @@ Team_CaptureFlagSound
 
 Address: 0x2023d
 Stack Size: 0x1c
+Opcodes Size: 0x3d
 Calls: G_TempEntity, G_Printf
 Called by: Team_TouchOurFlag
 =================
@@ -40972,6 +41648,7 @@ Team_ReturnFlag
 
 Address: 0x2027a
 Stack Size: 0x1c
+Opcodes Size: 0x35
 Calls: TeamName, PrintMsg, Team_ReturnFlagSound, Team_ResetFlag
 Called by: Team_FreeEntity, Use_target_remove_powerups, player_die
 =================
@@ -40998,6 +41675,7 @@ Team_FreeEntity
 
 Address: 0x202af
 Stack Size: 0xc
+Opcodes Size: 0x34
 Calls: Team_ReturnFlag
 Called by: G_RunItem
 =================
@@ -41023,6 +41701,7 @@ Team_DroppedFlagThink
 
 Address: 0x202e3
 Stack Size: 0x18
+Opcodes Size: 0x41
 Calls: Team_ReturnFlagSound, Team_ResetFlag
 Called by: Blocked_Door
 =================
@@ -41053,6 +41732,7 @@ Team_TouchOurFlag
 
 Address: 0x20324
 Stack Size: 0x5c
+Opcodes Size: 0x27c
 Calls: CalculateRanks, Team_ResetFlags, Team_CaptureFlagSound, Team_ForceGesture, AddTeamScore, OtherTeam, Team_ReturnFlagSound, Team_ResetFlag, AddScore, PrintMsg, TeamName
 Called by: Pickup_Team
 =================
@@ -41172,6 +41852,7 @@ Team_TouchEnemyFlag
 
 Address: 0x205a0
 Stack Size: 0x20
+Opcodes Size: 0x54
 Calls: Team_TakeFlagSound, Team_SetFlagStatus, PrintMsg, TeamName
 Called by: Pickup_Team
 =================
@@ -41202,6 +41883,7 @@ Pickup_Team
 
 Address: 0x205f4
 Stack Size: 0x28
+Opcodes Size: 0x6e
 Calls: Team_TouchEnemyFlag, Team_TouchOurFlag, PrintMsg, strcmp
 Called by: Touch_Item
 =================
@@ -41242,6 +41924,7 @@ Team_GetLocation
 
 Address: 0x20662
 Stack Size: 0x40
+Opcodes Size: 0x7a
 Calls: trap_InPVS
 Called by: CheckTeamStatus, Team_GetLocationMsg
 =================
@@ -41291,6 +41974,7 @@ Team_GetLocationMsg
 
 Address: 0x206dc
 Stack Size: 0x2c
+Opcodes Size: 0x67
 Calls: Com_sprintf, Team_GetLocation
 Called by: G_Say
 =================
@@ -41325,6 +42009,7 @@ SelectRandomTeamSpawnPoint
 
 Address: 0x20743
 Stack Size: 0xac
+Opcodes Size: 0x9c
 Calls: rand, G_Find, SpotWouldTelefrag
 Called by: SelectCTFSpawnPoint
 =================
@@ -41392,6 +42077,7 @@ SelectCTFSpawnPoint
 
 Address: 0x207df
 Stack Size: 0x24
+Opcodes Size: 0x48
 Calls: SelectSpawnPoint, SelectRandomTeamSpawnPoint
 Called by: ClientSpawn
 =================
@@ -41420,6 +42106,7 @@ SortClients
 
 Address: 0x20827
 Stack Size: 0x8
+Opcodes Size: 0xb
 =================
 */
 int SortClients(int arg_0, int arg_1) {
@@ -41433,6 +42120,7 @@ TeamplayInfoMessage
 
 Address: 0x20832
 Stack Size: 0x24ec
+Opcodes Size: 0x18e
 Calls: trap_SendServerCommand, va, strcpy, strlen, Com_sprintf, qsort
 Called by: CheckTeamStatus
 =================
@@ -41551,6 +42239,7 @@ CheckTeamStatus
 
 Address: 0x209c0
 Stack Size: 0x24
+Opcodes Size: 0xa3
 Calls: TeamplayInfoMessage, Team_GetLocation
 Called by: G_RunFrame
 =================
@@ -41609,6 +42298,7 @@ SP_team_CTF_redplayer
 
 Address: 0x20a63
 Stack Size: 0x8
+Opcodes Size: 0x3
 =================
 */
 void SP_team_CTF_redplayer(void) {
@@ -41621,6 +42311,7 @@ SP_team_CTF_blueplayer
 
 Address: 0x20a66
 Stack Size: 0x8
+Opcodes Size: 0x3
 =================
 */
 void SP_team_CTF_blueplayer(void) {
@@ -41633,6 +42324,7 @@ SP_team_CTF_redspawn
 
 Address: 0x20a69
 Stack Size: 0x8
+Opcodes Size: 0x3
 =================
 */
 void SP_team_CTF_redspawn(void) {
@@ -41645,6 +42337,7 @@ SP_team_CTF_bluespawn
 
 Address: 0x20a6c
 Stack Size: 0x8
+Opcodes Size: 0x3
 =================
 */
 void SP_team_CTF_bluespawn(void) {
@@ -41657,6 +42350,7 @@ InitTrigger
 
 Address: 0x20a6f
 Stack Size: 0x1c
+Opcodes Size: 0x3b
 Calls: trap_SetBrushModel, G_SetMovedir, VectorCompare
 Called by: SP_trigger_hurt, SP_trigger_teleport, SP_trigger_push, SP_trigger_multiple
 =================
@@ -41680,6 +42374,7 @@ multi_wait
 
 Address: 0x20aaa
 Stack Size: 0x8
+Opcodes Size: 0x9
 =================
 */
 void multi_wait(int arg_0) {
@@ -41693,6 +42388,7 @@ multi_trigger
 
 Address: 0x20ab3
 Stack Size: 0x1c
+Opcodes Size: 0xad
 Calls: rand, G_UseTargets
 Called by: Touch_Multi, Use_Multi
 =================
@@ -41737,6 +42433,7 @@ Use_Multi
 
 Address: 0x20b60
 Stack Size: 0x10
+Opcodes Size: 0xc
 Calls: multi_trigger
 =================
 */
@@ -41751,6 +42448,7 @@ Touch_Multi
 
 Address: 0x20b6c
 Stack Size: 0x10
+Opcodes Size: 0x15
 Calls: multi_trigger
 =================
 */
@@ -41769,6 +42467,7 @@ SP_trigger_multiple
 
 Address: 0x20b81
 Stack Size: 0x20
+Opcodes Size: 0x5b
 Calls: trap_LinkEntity, InitTrigger, G_Printf, G_SpawnFloat
 =================
 */
@@ -41796,6 +42495,7 @@ trigger_always_think
 
 Address: 0x20bdc
 Stack Size: 0x14
+Opcodes Size: 0x16
 Calls: G_FreeEntity, G_UseTargets
 =================
 */
@@ -41812,6 +42512,7 @@ SP_trigger_always
 
 Address: 0x20bf2
 Stack Size: 0x8
+Opcodes Size: 0x12
 =================
 */
 void SP_trigger_always(int arg_0) {
@@ -41826,6 +42527,7 @@ trigger_push_touch
 
 Address: 0x20c04
 Stack Size: 0x10
+Opcodes Size: 0x18
 Calls: BG_TouchJumpPad
 =================
 */
@@ -41844,6 +42546,7 @@ AimAtTarget
 
 Address: 0x20c1c
 Stack Size: 0x54
+Opcodes Size: 0x101
 Calls: sqrt, VectorNormalize, G_FreeEntity, G_PickTarget
 =================
 */
@@ -41910,6 +42613,7 @@ SP_trigger_push
 
 Address: 0x20d1d
 Stack Size: 0x10
+Opcodes Size: 0x41
 Calls: trap_LinkEntity, G_SoundIndex, InitTrigger
 =================
 */
@@ -41934,6 +42638,7 @@ Use_target_push
 
 Address: 0x20d5e
 Stack Size: 0x14
+Opcodes Size: 0x53
 Calls: G_Sound
 =================
 */
@@ -41962,6 +42667,7 @@ SP_target_push
 
 Address: 0x20db1
 Stack Size: 0x34
+Opcodes Size: 0xaa
 Calls: G_SoundIndex, G_SetMovedir
 =================
 */
@@ -42005,6 +42711,7 @@ trigger_teleporter_touch
 
 Address: 0x20e5b
 Stack Size: 0x20
+Opcodes Size: 0x5a
 Calls: TeleportPlayer, G_Printf, G_PickTarget
 =================
 */
@@ -42039,6 +42746,7 @@ SP_trigger_teleport
 
 Address: 0x20eb5
 Stack Size: 0x10
+Opcodes Size: 0x4b
 Calls: trap_LinkEntity, G_SoundIndex, InitTrigger
 =================
 */
@@ -42067,6 +42775,7 @@ hurt_use
 
 Address: 0x20f00
 Stack Size: 0xc
+Opcodes Size: 0x18
 Calls: trap_LinkEntity, trap_UnlinkEntity
 =================
 */
@@ -42086,6 +42795,7 @@ hurt_touch
 
 Address: 0x20f18
 Stack Size: 0x34
+Opcodes Size: 0x7f
 Calls: G_Damage, G_Sound
 =================
 */
@@ -42134,6 +42844,7 @@ SP_trigger_hurt
 
 Address: 0x20f97
 Stack Size: 0x10
+Opcodes Size: 0x4a
 Calls: trap_LinkEntity, trap_UnlinkEntity, G_SoundIndex, InitTrigger
 =================
 */
@@ -42163,6 +42874,7 @@ func_timer_think
 
 Address: 0x20fe1
 Stack Size: 0x1c
+Opcodes Size: 0x3a
 Calls: rand, G_UseTargets
 Called by: func_timer_use
 =================
@@ -42182,6 +42894,7 @@ func_timer_use
 
 Address: 0x2101b
 Stack Size: 0xc
+Opcodes Size: 0x23
 Calls: func_timer_think
 =================
 */
@@ -42203,6 +42916,7 @@ SP_func_timer
 
 Address: 0x2103e
 Stack Size: 0x20
+Opcodes Size: 0x72
 Calls: G_Printf, vtos, G_SpawnFloat
 =================
 */
@@ -42232,6 +42946,7 @@ AddRemap
 
 Address: 0x210b0
 Stack Size: 0x18
+Opcodes Size: 0x7b
 Calls: strcpy, Q_stricmp
 Called by: G_UseTargets
 =================
@@ -42270,6 +42985,7 @@ BuildShaderStateConfig
 
 Address: 0x2112b
 Stack Size: 0xb0
+Opcodes Size: 0x46
 Calls: memset, Q_strcat, Com_sprintf
 Called by: G_UseTargets
 =================
@@ -42304,6 +43020,7 @@ G_FindConfigstringIndex
 
 Address: 0x21171
 Stack Size: 0x420
+Opcodes Size: 0x74
 Calls: trap_SetConfigstring, trap_GetConfigstring, G_Error, strcmp
 Called by: G_SoundIndex, G_ModelIndex
 =================
@@ -42352,6 +43069,7 @@ G_ModelIndex
 
 Address: 0x211e5
 Stack Size: 0x1c
+Opcodes Size: 0x13
 Calls: G_FindConfigstringIndex
 Called by: InitMover, SpawnPodium, BotSetEntityNumForGoalWithModel, G_InitGame
 =================
@@ -42369,6 +43087,7 @@ G_SoundIndex
 
 Address: 0x211f8
 Stack Size: 0x1c
+Opcodes Size: 0x13
 Calls: G_FindConfigstringIndex
 Called by: SP_trigger_hurt, SP_trigger_teleport, SP_target_push, SP_trigger_push, SP_target_speaker, SP_func_button, SP_func_plat, SP_func_door, InitMover, G_SpawnItem, RespawnItem, G_InitGame
 =================
@@ -42386,6 +43105,7 @@ G_TeamCommand
 
 Address: 0x2120b
 Stack Size: 0x18
+Opcodes Size: 0x42
 Calls: trap_SendServerCommand, va
 Called by: Use_Target_Print
 =================
@@ -42414,6 +43134,7 @@ G_Find
 
 Address: 0x2124d
 Stack Size: 0x18
+Opcodes Size: 0x5b
 Calls: Q_stricmp
 Called by: G_UseTargets, G_PickTarget, SelectRandomTeamSpawnPoint, Team_ResetFlag, Team_FragBonuses, target_laser_start, Use_Target_Give, Think_SetupTrainTargets, CheckAlmostScored, CheckAlmostCapture, SelectInitialSpawnPoint, SelectRandomFurthestSpawnPoint, SelectRandomDeathmatchSpawnPoint, SelectNearestDeathmatchSpawnPoint, FindIntermissionPoint
 =================
@@ -42455,6 +43176,7 @@ G_PickTarget
 
 Address: 0x212a8
 Stack Size: 0xa4
+Opcodes Size: 0x6a
 Calls: rand, G_Find, G_Printf
 Called by: trigger_teleporter_touch, AimAtTarget, target_relay_use, target_teleporter_use, InitShooter_Finish, locateCamera, FindIntermissionPoint
 =================
@@ -42500,6 +43222,7 @@ G_UseTargets
 
 Address: 0x21312
 Stack Size: 0x2c
+Opcodes Size: 0x9b
 Calls: trap_SetConfigstring, G_Find, G_Printf, BuildShaderStateConfig, AddRemap
 Called by: func_timer_think, trigger_always_think, multi_trigger, target_relay_use, Think_Target_Delay, Reached_Train, Reached_BinaryMover, Touch_Item, ClientSpawn
 =================
@@ -42551,6 +43274,7 @@ tv
 
 Address: 0x213ad
 Stack Size: 0x14
+Opcodes Size: 0x32
 Called by: Touch_DoorTriggerSpectator
 =================
 */
@@ -42575,6 +43299,7 @@ vtos
 
 Address: 0x213df
 Stack Size: 0x30
+Opcodes Size: 0x40
 Calls: Com_sprintf
 Called by: SP_func_timer, SP_target_teleporter, target_laser_start, SP_target_speaker, SP_func_train, SP_path_corner, Think_SetupTrainTargets, FinishSpawningItem, Cmd_Where_f
 =================
@@ -42599,6 +43324,7 @@ G_SetMovedir
 
 Address: 0x2141f
 Stack Size: 0x28
+Opcodes Size: 0x55
 Calls: AngleVectors, VectorCompare
 Called by: SP_target_push, InitTrigger, target_laser_start, SP_func_button, SP_func_door, InitShooter, locateCamera
 =================
@@ -42639,6 +43365,7 @@ vectoyaw
 
 Address: 0x21474
 Stack Size: 0x24
+Opcodes Size: 0x56
 Calls: atan2
 Called by: LookAtKiller, SpawnPodium
 =================
@@ -42678,6 +43405,7 @@ G_InitGentity
 
 Address: 0x214ca
 Stack Size: 0xc
+Opcodes Size: 0x22
 Called by: G_Spawn, ClientBegin
 =================
 */
@@ -42696,6 +43424,7 @@ G_Spawn
 
 Address: 0x214ec
 Stack Size: 0x2c
+Opcodes Size: 0xab
 Calls: trap_LocateGameData, G_Error, G_Printf, G_InitGentity
 Called by: G_TempEntity, G_SpawnGEntityFromSpawnVars, SpawnPlatTrigger, Think_SpawnNewDoorTrigger, fire_grapple, fire_rocket, fire_bfg, fire_grenade, fire_plasma, G_MissileImpact, LaunchItem, Cmd_Give_f, InitBodyQue, SpawnPodium, SpawnModelOnVictoryPad
 =================
@@ -42756,6 +43485,7 @@ G_EntitiesFree
 
 Address: 0x21597
 Stack Size: 0x10
+Opcodes Size: 0x33
 =================
 */
 int G_EntitiesFree(void) {
@@ -42787,6 +43517,7 @@ G_FreeEntity
 
 Address: 0x215ca
 Stack Size: 0x14
+Opcodes Size: 0x33
 Calls: memset, trap_UnlinkEntity
 Called by: Weapon_HookFree, AimAtTarget, trigger_always_think, Team_ResetFlag, G_SpawnGEntityFromSpawnVars, SP_func_train, SP_path_corner, Blocked_Door, G_RunMissile, locateCamera, SP_misc_model, SP_light, SP_info_null, G_RunItem, FinishSpawningItem, GibEntity, Cmd_Give_f, G_RunFrame
 =================
@@ -42811,6 +43542,7 @@ G_TempEntity
 
 Address: 0x215fd
 Stack Size: 0x24
+Opcodes Size: 0x4e
 Calls: trap_LinkEntity, G_SetOrigin, G_Spawn
 Called by: Weapon_LightningFire, weapon_railgun_fire, weapon_supershotgun_fire, Bullet_Fire, CheckGauntletAttack, G_Sound, Team_CaptureFlagSound, Team_TakeFlagSound, Team_ReturnFlagSound, AddTeamScore, Blocked_Door, TeleportPlayer, Touch_Item, RespawnItem, player_die, ScorePlum, ClientDisconnect, ClientSpawn, SendPendingPredictableEvents
 =================
@@ -42843,6 +43575,7 @@ G_KillBox
 
 Address: 0x2164b
 Stack Size: 0x1070
+Opcodes Size: 0xbc
 Calls: trap_EntitiesInBox, G_Damage
 Called by: TeleportPlayer, ClientSpawn
 =================
@@ -42903,6 +43636,7 @@ G_AddPredictableEvent
 
 Address: 0x21707
 Stack Size: 0x14
+Opcodes Size: 0x1b
 Calls: BG_AddPredictableEventToPlayerstate
 Called by: Touch_Item
 =================
@@ -42922,6 +43656,7 @@ G_AddEvent
 
 Address: 0x21722
 Stack Size: 0x20
+Opcodes Size: 0x90
 Calls: G_Printf
 Called by: CheckGauntletAttack, Use_Target_Speaker, Use_BinaryMover, Reached_BinaryMover, ReturnToPos1, G_MissileImpact, G_ExplodeMissile, Use_Shooter, Touch_Item, RespawnItem, G_Damage, player_die, GibEntity, CelebrateStart, ClientTimerActions, P_WorldEffects, P_DamageFeedback
 =================
@@ -42965,6 +43700,7 @@ G_Sound
 
 Address: 0x217b2
 Stack Size: 0x18
+Opcodes Size: 0x19
 Calls: G_TempEntity
 Called by: hurt_touch, Use_target_push
 =================
@@ -42984,6 +43720,7 @@ G_SetOrigin
 
 Address: 0x217cb
 Stack Size: 0x10
+Opcodes Size: 0x3f
 Called by: Weapon_HookThink, G_TempEntity, SP_target_location, SP_target_position, G_MissileImpact, G_ExplodeMissile, G_BounceMissile, SP_info_notnull, SP_info_camp, G_BounceItem, FinishSpawningItem, LaunchItem, ClientSpawn, SpawnPodium, PodiumPlacementThink, SpawnModelOnVictoryPad
 =================
 */
@@ -43008,6 +43745,7 @@ DebugLine
 
 Address: 0x2180a
 Stack Size: 0x8c
+Opcodes Size: 0x103
 Calls: trap_DebugPolygonCreate, CrossProduct, VectorNormalize
 =================
 */
@@ -43087,6 +43825,7 @@ G_BounceProjectile
 
 Address: 0x2190d
 Stack Size: 0x50
+Opcodes Size: 0xc5
 Calls: VectorNormalize
 =================
 */
@@ -43136,6 +43875,7 @@ Weapon_Gauntlet
 
 Address: 0x219d2
 Stack Size: 0x8
+Opcodes Size: 0x3
 Called by: FireWeapon
 =================
 */
@@ -43149,6 +43889,7 @@ CheckGauntletAttack
 
 Address: 0x219d5
 Stack Size: 0x90
+Opcodes Size: 0x104
 Calls: trap_Trace, G_Damage, G_AddEvent, DirToByte, G_TempEntity, CalcMuzzlePoint, AngleVectors
 Called by: ClientThink_real
 =================
@@ -43225,6 +43966,7 @@ SnapVectorTowards
 
 Address: 0x21ad9
 Stack Size: 0x1c
+Opcodes Size: 0x59
 Calls: ceil, floor
 Called by: Weapon_HookThink, weapon_railgun_fire, Bullet_Fire, G_MissileImpact
 =================
@@ -43260,6 +44002,7 @@ Bullet_Fire
 
 Address: 0x21b32
 Stack Size: 0xb8
+Opcodes Size: 0x18a
 Calls: trap_Trace, cos, sin, G_Damage, DirToByte, LogAccuracyHit, G_TempEntity, SnapVectorTowards, rand
 Called by: FireWeapon
 =================
@@ -43360,6 +44103,7 @@ BFG_Fire
 
 Address: 0x21cbc
 Stack Size: 0x24
+Opcodes Size: 0x34
 Calls: fire_bfg
 Called by: FireWeapon
 =================
@@ -43384,6 +44128,7 @@ ShotgunPellet
 
 Address: 0x21cf0
 Stack Size: 0x98
+Opcodes Size: 0x8e
 Calls: trap_Trace, G_Damage, LogAccuracyHit
 Called by: ShotgunPattern
 =================
@@ -43444,6 +44189,7 @@ ShotgunPattern
 
 Address: 0x21d7e
 Stack Size: 0x7c
+Opcodes Size: 0xe4
 Calls: ShotgunPellet, Q_crandom, CrossProduct, PerpendicularVector, VectorNormalize2
 Called by: weapon_supershotgun_fire
 =================
@@ -43514,6 +44260,7 @@ weapon_supershotgun_fire
 
 Address: 0x21e62
 Stack Size: 0x2c
+Opcodes Size: 0x7f
 Calls: ShotgunPattern, rand, G_TempEntity
 Called by: FireWeapon
 =================
@@ -43548,6 +44295,7 @@ weapon_grenadelauncher_fire
 
 Address: 0x21ee1
 Stack Size: 0x28
+Opcodes Size: 0x44
 Calls: fire_grenade, VectorNormalize
 Called by: FireWeapon
 =================
@@ -43576,6 +44324,7 @@ Weapon_RocketLauncher_Fire
 
 Address: 0x21f25
 Stack Size: 0x24
+Opcodes Size: 0x34
 Calls: fire_rocket
 Called by: FireWeapon
 =================
@@ -43600,6 +44349,7 @@ Weapon_Plasmagun_Fire
 
 Address: 0x21f59
 Stack Size: 0x24
+Opcodes Size: 0x34
 Calls: fire_plasma
 Called by: FireWeapon
 =================
@@ -43624,6 +44374,7 @@ weapon_railgun_fire
 
 Address: 0x21f8d
 Stack Size: 0xd8
+Opcodes Size: 0x215
 Calls: trap_LinkEntity, trap_UnlinkEntity, trap_Trace, DirToByte, G_TempEntity, SnapVectorTowards, G_Damage, LogAccuracyHit
 Called by: FireWeapon
 =================
@@ -43764,6 +44515,7 @@ Weapon_GrapplingHook_Fire
 
 Address: 0x221a2
 Stack Size: 0x18
+Opcodes Size: 0x2f
 Calls: fire_grapple
 Called by: FireWeapon
 =================
@@ -43786,6 +44538,7 @@ Weapon_HookFree
 
 Address: 0x221d1
 Stack Size: 0x10
+Opcodes Size: 0x2d
 Calls: G_FreeEntity
 Called by: player_die, ClientThink_real
 =================
@@ -43806,6 +44559,7 @@ Weapon_HookThink
 
 Address: 0x221fe
 Stack Size: 0x44
+Opcodes Size: 0x92
 Calls: G_SetOrigin, SnapVectorTowards
 =================
 */
@@ -43845,6 +44599,7 @@ Weapon_LightningFire
 
 Address: 0x22290
 Stack Size: 0x98
+Opcodes Size: 0x103
 Calls: trap_Trace, DirToByte, G_TempEntity, G_Damage, LogAccuracyHit
 Called by: FireWeapon
 =================
@@ -43928,6 +44683,7 @@ LogAccuracyHit
 
 Address: 0x22393
 Stack Size: 0x14
+Opcodes Size: 0x57
 Calls: OnSameTeam
 Called by: Weapon_LightningFire, weapon_railgun_fire, ShotgunPellet, Bullet_Fire, G_MissileImpact, G_RadiusDamage
 =================
@@ -43965,6 +44721,7 @@ CalcMuzzlePoint
 
 Address: 0x223ea
 Stack Size: 0x2c
+Opcodes Size: 0x8a
 Called by: CheckGauntletAttack
 =================
 */
@@ -44002,6 +44759,7 @@ CalcMuzzlePointOrigin
 
 Address: 0x22474
 Stack Size: 0x2c
+Opcodes Size: 0x8a
 Called by: FireWeapon
 =================
 */
@@ -44039,6 +44797,7 @@ FireWeapon
 
 Address: 0x224fe
 Stack Size: 0x30
+Opcodes Size: 0xde
 Calls: Weapon_GrapplingHook_Fire, BFG_Fire, weapon_railgun_fire, Weapon_Plasmagun_Fire, Weapon_RocketLauncher_Fire, weapon_grenadelauncher_fire, Bullet_Fire, weapon_supershotgun_fire, Weapon_LightningFire, Weapon_Gauntlet, CalcMuzzlePointOrigin, AngleVectors
 Called by: ClientEvents
 =================
@@ -44099,6 +44858,7 @@ VectorCompare
 
 Address: 0x225dc
 Stack Size: 0x18
+Opcodes Size: 0x38
 Called by: G_SetMovedir, InitTrigger, BotGetActivateGoal, BotSetMovedir, AINode_Seek_ActivateEntity
 =================
 */
@@ -44125,6 +44885,7 @@ VectorLength
 
 Address: 0x22614
 Stack Size: 0x20
+Opcodes Size: 0x33
 Calls: sqrt
 Called by: RadiusFromBounds, Distance, Team_FragBonuses, Reached_Train, InitMover, G_MissileImpact, G_BounceMissile, G_RadiusDamage, CheckAlmostScored, CheckAlmostCapture, SelectRandomFurthestSpawnPoint, SelectNearestDeathmatchSpawnPoint, PM_NoclipMove, PM_DeadMove, PM_WalkMove, PM_GrappleMove, PM_WaterMove, PM_Friction, BotAimAtEnemy, BotUpdateBattleInventory, BotCTFSeekGoals, BotClearPath, BotNearestVisibleItem
 =================
@@ -44149,6 +44910,7 @@ VectorLengthSquared
 
 Address: 0x22647
 Stack Size: 0x18
+Opcodes Size: 0x2c
 Called by: BotSetEntityNumForGoalWithActivator, BotSetEntityNumForGoal, BotSetEntityNumForGoalWithModel, BotCheckAttack, BotAimAtEnemy, BotVisibleTeamMatesAndEnemies, BotFindEnemy, BotEntityVisible, AINode_Seek_LTG, BotLongTermGoal, BotGetLongTermGoal
 =================
 */
@@ -44170,6 +44932,7 @@ Distance
 
 Address: 0x22673
 Stack Size: 0x2c
+Opcodes Size: 0x41
 Calls: VectorLength
 =================
 */
@@ -44198,6 +44961,7 @@ DistanceSquared
 
 Address: 0x226b4
 Stack Size: 0x28
+Opcodes Size: 0x4e
 =================
 */
 int DistanceSquared(int arg_0, int arg_1) {
@@ -44225,6 +44989,7 @@ VectorNormalizeFast
 
 Address: 0x22702
 Stack Size: 0x30
+Opcodes Size: 0x5b
 Calls: Q_rsqrt
 =================
 */
@@ -44256,6 +45021,7 @@ VectorInverse
 
 Address: 0x2275d
 Stack Size: 0x14
+Opcodes Size: 0x28
 Called by: G_CreateRotationMatrix
 =================
 */
@@ -44277,6 +45043,7 @@ CrossProduct
 
 Address: 0x22785
 Stack Size: 0x30
+Opcodes Size: 0x6d
 Called by: MakeNormalVectors, RotateAroundDirection, RotatePointAroundVector, PlaneFromPoints, ShotgunPattern, DebugLine, Use_Shooter, PM_SlideMove, BotAIBlocked, BotAttackMove
 =================
 */
@@ -44304,6 +45071,7 @@ Q_rand
 
 Address: 0x227f2
 Stack Size: 0xc
+Opcodes Size: 0x15
 Called by: Q_random
 =================
 */
@@ -44320,6 +45088,7 @@ Q_random
 
 Address: 0x22807
 Stack Size: 0x10
+Opcodes Size: 0x12
 Calls: Q_rand
 Called by: Q_crandom
 =================
@@ -44337,6 +45106,7 @@ Q_crandom
 
 Address: 0x22819
 Stack Size: 0x10
+Opcodes Size: 0x11
 Calls: Q_random
 Called by: ShotgunPattern
 =================
@@ -44354,6 +45124,7 @@ ClampChar
 
 Address: 0x2282a
 Stack Size: 0x8
+Opcodes Size: 0x1b
 =================
 */
 int ClampChar(int arg_0) {
@@ -44374,6 +45145,7 @@ ClampShort
 
 Address: 0x22845
 Stack Size: 0x8
+Opcodes Size: 0x1b
 =================
 */
 int ClampShort(int arg_0) {
@@ -44394,6 +45166,7 @@ DirToByte
 
 Address: 0x22860
 Stack Size: 0x24
+Opcodes Size: 0x60
 Called by: Weapon_LightningFire, weapon_railgun_fire, Bullet_Fire, CheckGauntletAttack, G_MissileImpact, G_ExplodeMissile, locateCamera
 =================
 */
@@ -44431,6 +45204,7 @@ ByteToDir
 
 Address: 0x228c0
 Stack Size: 0xc
+Opcodes Size: 0x1e
 =================
 */
 void ByteToDir(int arg_0, int arg_1) {
@@ -44452,6 +45226,7 @@ ColorBytes3
 
 Address: 0x228de
 Stack Size: 0x30
+Opcodes Size: 0x6f
 =================
 */
 int ColorBytes3(int arg_0, int arg_1, int arg_2) {
@@ -44504,6 +45279,7 @@ ColorBytes4
 
 Address: 0x2294d
 Stack Size: 0x3c
+Opcodes Size: 0x92
 =================
 */
 int ColorBytes4(int arg_0, int arg_1, int arg_2, int arg_3) {
@@ -44569,6 +45345,7 @@ NormalizeColor
 
 Address: 0x229df
 Stack Size: 0x18
+Opcodes Size: 0x7a
 =================
 */
 int NormalizeColor(int arg_0, int arg_1) {
@@ -44607,6 +45384,7 @@ PlaneFromPoints
 
 Address: 0x22a59
 Stack Size: 0x60
+Opcodes Size: 0xb6
 Calls: VectorNormalize, CrossProduct
 =================
 */
@@ -44656,6 +45434,7 @@ RotatePointAroundVector
 
 Address: 0x22b0f
 Stack Size: 0x118
+Opcodes Size: 0x113
 Calls: sin, cos, memset, memcpy, MatrixMultiply, CrossProduct, PerpendicularVector
 Called by: RotateAroundDirection
 =================
@@ -44758,6 +45537,7 @@ RotateAroundDirection
 
 Address: 0x22c22
 Stack Size: 0x30
+Opcodes Size: 0x3e
 Calls: CrossProduct, RotatePointAroundVector, PerpendicularVector
 =================
 */
@@ -44781,6 +45561,7 @@ vectoangles
 
 Address: 0x22c60
 Stack Size: 0x38
+Opcodes Size: 0xbd
 Calls: sqrt, atan2
 Called by: PodiumPlacementThink, SpawnModelOnVictoryPad, P_DamageFeedback, BG_TouchJumpPad, BotMapScripts, BotCheckAttack, BotAimAtEnemy, BotFindEnemy, BotEntityVisible, AINode_Battle_NBG, AINode_Battle_Retreat, AINode_Battle_Chase, AINode_Seek_LTG, AINode_Seek_NBG, AINode_Seek_ActivateEntity, BotClearPath, BotLongTermGoal, BotGetLongTermGoal, FindIntermissionPoint
 =================
@@ -44844,6 +45625,7 @@ AnglesToAxis
 
 Address: 0x22d1d
 Stack Size: 0x28
+Opcodes Size: 0x35
 Calls: AngleVectors
 =================
 */
@@ -44865,6 +45647,7 @@ AxisClear
 
 Address: 0x22d52
 Stack Size: 0x8
+Opcodes Size: 0x3b
 =================
 */
 void AxisClear(int arg_0) {
@@ -44887,6 +45670,7 @@ AxisCopy
 
 Address: 0x22d8d
 Stack Size: 0x10
+Opcodes Size: 0x2c
 =================
 */
 void AxisCopy(int arg_0, int arg_1) {
@@ -44908,6 +45692,7 @@ ProjectPointOnPlane
 
 Address: 0x22db9
 Stack Size: 0x4c
+Opcodes Size: 0xbd
 Called by: PerpendicularVector
 =================
 */
@@ -44956,6 +45741,7 @@ MakeNormalVectors
 
 Address: 0x22e76
 Stack Size: 0x38
+Opcodes Size: 0xa7
 Calls: CrossProduct, VectorNormalize
 =================
 */
@@ -44993,6 +45779,7 @@ VectorRotate
 
 Address: 0x22f1d
 Stack Size: 0x30
+Opcodes Size: 0x91
 =================
 */
 void VectorRotate(int arg_0, int arg_1, int arg_2) {
@@ -45019,6 +45806,7 @@ Q_rsqrt
 
 Address: 0x22fae
 Stack Size: 0x20
+Opcodes Size: 0x33
 Called by: VectorNormalizeFast
 =================
 */
@@ -45045,6 +45833,7 @@ Q_fabs
 
 Address: 0x22fe1
 Stack Size: 0xc
+Opcodes Size: 0x10
 =================
 */
 int Q_fabs(int arg_0) {
@@ -45061,6 +45850,7 @@ LerpAngle
 
 Address: 0x22ff1
 Stack Size: 0x10
+Opcodes Size: 0x35
 =================
 */
 int LerpAngle(int arg_0, int arg_1, int arg_2) {
@@ -45084,6 +45874,7 @@ AngleSubtract
 
 Address: 0x23026
 Stack Size: 0xc
+Opcodes Size: 0x25
 Called by: AnglesSubtract
 =================
 */
@@ -45110,6 +45901,7 @@ AnglesSubtract
 
 Address: 0x2304b
 Stack Size: 0x24
+Opcodes Size: 0x5a
 Calls: AngleSubtract
 =================
 */
@@ -45139,6 +45931,7 @@ AngleMod
 
 Address: 0x230a5
 Stack Size: 0x8
+Opcodes Size: 0x16
 Called by: BotAI, BotUpdateInput, BotChangeViewAngles, BotChangeViewAngle, BotMapScripts, BotAimAtEnemy, InFieldOfVision
 =================
 */
@@ -45155,6 +45948,7 @@ AngleNormalize360
 
 Address: 0x230bb
 Stack Size: 0x8
+Opcodes Size: 0xe
 Called by: AngleNormalize180
 =================
 */
@@ -45169,6 +45963,7 @@ AngleNormalize180
 
 Address: 0x230c9
 Stack Size: 0x10
+Opcodes Size: 0x1f
 Calls: AngleNormalize360
 Called by: AngleDelta, BG_TouchJumpPad
 =================
@@ -45191,6 +45986,7 @@ AngleDelta
 
 Address: 0x230e8
 Stack Size: 0x10
+Opcodes Size: 0x10
 Calls: AngleNormalize180
 =================
 */
@@ -45207,6 +46003,7 @@ SetPlaneSignbits
 
 Address: 0x230f8
 Stack Size: 0x14
+Opcodes Size: 0x36
 =================
 */
 void SetPlaneSignbits(int arg_0) {
@@ -45233,6 +46030,7 @@ BoxOnPlaneSide
 
 Address: 0x2312e
 Stack Size: 0x44
+Opcodes Size: 0xe8
 =================
 */
 int BoxOnPlaneSide(int arg_0, int arg_1, int arg_2) {
@@ -45302,6 +46100,7 @@ RadiusFromBounds
 
 Address: 0x23216
 Stack Size: 0x30
+Opcodes Size: 0x5b
 Calls: VectorLength, fabs
 Called by: G_MoverPush
 =================
@@ -45342,6 +46141,7 @@ ClearBounds
 
 Address: 0x23271
 Stack Size: 0x18
+Opcodes Size: 0x37
 =================
 */
 void ClearBounds(int arg_0, int arg_1) {
@@ -45366,6 +46166,7 @@ AddPointToBounds
 
 Address: 0x232a8
 Stack Size: 0x1c
+Opcodes Size: 0xa5
 Called by: Think_SpawnNewDoorTrigger
 =================
 */
@@ -45413,6 +46214,7 @@ BoundsIntersect
 
 Address: 0x2334d
 Stack Size: 0x20
+Opcodes Size: 0x61
 =================
 */
 int BoundsIntersect(int arg_0, int arg_1, int arg_2, int arg_3) {
@@ -45443,6 +46245,7 @@ BoundsIntersectSphere
 
 Address: 0x233ae
 Stack Size: 0x2c
+Opcodes Size: 0x76
 =================
 */
 int BoundsIntersectSphere(int arg_0, int arg_1, int arg_2, int arg_3) {
@@ -45479,6 +46282,7 @@ BoundsIntersectPoint
 
 Address: 0x23424
 Stack Size: 0x28
+Opcodes Size: 0x60
 =================
 */
 int BoundsIntersectPoint(int arg_0, int arg_1, int arg_2) {
@@ -45514,6 +46318,7 @@ VectorNormalize
 
 Address: 0x23484
 Stack Size: 0x38
+Opcodes Size: 0x73
 Calls: sqrt
 Called by: PerpendicularVector, MakeNormalVectors, PlaneFromPoints, weapon_grenadelauncher_fire, G_BounceProjectile, DebugLine, AimAtTarget, target_laser_think, fire_grapple, fire_rocket, fire_bfg, fire_grenade, fire_plasma, Use_Shooter, locateCamera, Pickup_Powerup, G_Damage, RaySphereIntersections, PM_SlideMove, PM_NoclipMove, PM_DeadMove, PM_WalkMove, PM_GrappleMove, PM_AirMove, PM_FlyMove, PM_WaterMove, PM_CheckWaterJump, BotAIBlocked, BotAimAtEnemy, BotAttackMove, BotRoamGoal, BotGetLongTermGoal
 =================
@@ -45554,6 +46359,7 @@ VectorNormalize2
 
 Address: 0x234f7
 Stack Size: 0x34
+Opcodes Size: 0x95
 Calls: sqrt
 Called by: ShotgunPattern, PM_SlideMove
 =================
@@ -45601,6 +46407,7 @@ _VectorMA
 
 Address: 0x2358c
 Stack Size: 0x10
+Opcodes Size: 0x52
 =================
 */
 void _VectorMA(int arg_0, int arg_1, int arg_2, int arg_3) {
@@ -45624,6 +46431,7 @@ _DotProduct
 
 Address: 0x235de
 Stack Size: 0x18
+Opcodes Size: 0x35
 =================
 */
 int _DotProduct(int arg_0, int arg_1) {
@@ -45643,6 +46451,7 @@ _VectorSubtract
 
 Address: 0x23613
 Stack Size: 0x10
+Opcodes Size: 0x45
 =================
 */
 void _VectorSubtract(int arg_0, int arg_1, int arg_2) {
@@ -45665,6 +46474,7 @@ _VectorAdd
 
 Address: 0x23658
 Stack Size: 0x10
+Opcodes Size: 0x45
 =================
 */
 void _VectorAdd(int arg_0, int arg_1, int arg_2) {
@@ -45687,6 +46497,7 @@ _VectorCopy
 
 Address: 0x2369d
 Stack Size: 0x10
+Opcodes Size: 0x2f
 =================
 */
 void _VectorCopy(int arg_0, int arg_1) {
@@ -45708,6 +46519,7 @@ _VectorScale
 
 Address: 0x236cc
 Stack Size: 0x10
+Opcodes Size: 0x3c
 =================
 */
 void _VectorScale(int arg_0, int arg_1, int arg_2) {
@@ -45730,6 +46542,7 @@ Vector4Scale
 
 Address: 0x23708
 Stack Size: 0x14
+Opcodes Size: 0x4e
 =================
 */
 void Vector4Scale(int arg_0, int arg_1, int arg_2) {
@@ -45755,6 +46568,7 @@ Q_log2
 
 Address: 0x23756
 Stack Size: 0x10
+Opcodes Size: 0x23
 =================
 */
 int Q_log2(int arg_0) {
@@ -45779,6 +46593,7 @@ MatrixMultiply
 
 Address: 0x23779
 Stack Size: 0x70
+Opcodes Size: 0x199
 Called by: RotatePointAroundVector
 =================
 */
@@ -45820,6 +46635,7 @@ AngleVectors
 
 Address: 0x23912
 Stack Size: 0x30
+Opcodes Size: 0xfc
 Calls: cos, sin
 Called by: AnglesToAxis, FireWeapon, CheckGauntletAttack, G_SetMovedir, G_TryPushingProxMine, G_CreateRotationMatrix, TeleportPlayer, Drop_Item, Pickup_Powerup, SpawnPodium, PodiumPlacementThink, SpawnModelOnVictoryPad, PmoveSingle, BotInputToUserCommand, BotAIBlocked, BotRandomMove, BotSetMovedir, BotCheckAttack, BotGetLongTermGoal
 =================
@@ -45876,6 +46692,7 @@ PerpendicularVector
 
 Address: 0x23a0e
 Stack Size: 0x3c
+Opcodes Size: 0x70
 Calls: VectorNormalize, ProjectPointOnPlane, fabs
 Called by: RotateAroundDirection, RotatePointAroundVector, ShotgunPattern, Use_Shooter
 =================
@@ -45922,6 +46739,7 @@ Q_isnan
 
 Address: 0x23a7e
 Stack Size: 0xc
+Opcodes Size: 0x18
 =================
 */
 int Q_isnan(int arg_0) {
@@ -45939,6 +46757,7 @@ Q_IsColorString
 
 Address: 0x23a96
 Stack Size: 0x18
+Opcodes Size: 0x73
 Called by: Q_CleanStr, Q_PrintStrlen, ClientCleanName, RemoveColorEscapeSequences
 =================
 */
@@ -45990,6 +46809,7 @@ Com_Clamp
 
 Address: 0x23b09
 Stack Size: 0x8
+Opcodes Size: 0x1e
 Called by: Svcmd_AddBot_f
 =================
 */
@@ -46011,6 +46831,7 @@ COM_SkipPath
 
 Address: 0x23b27
 Stack Size: 0xc
+Opcodes Size: 0x28
 =================
 */
 int COM_SkipPath(int arg_0) {
@@ -46035,6 +46856,7 @@ COM_GetExtension
 
 Address: 0x23b4f
 Stack Size: 0x20
+Opcodes Size: 0x33
 Calls: strrchr
 =================
 */
@@ -46063,6 +46885,7 @@ COM_StripExtension
 
 Address: 0x23b82
 Stack Size: 0x28
+Opcodes Size: 0x6f
 Calls: Q_strncpyz, strrchr
 =================
 */
@@ -46106,6 +46929,7 @@ COM_CompareExtension
 
 Address: 0x23bf1
 Stack Size: 0x24
+Opcodes Size: 0x3c
 Calls: Q_stricmp, strlen
 =================
 */
@@ -46135,6 +46959,7 @@ COM_DefaultExtension
 
 Address: 0x23c2d
 Stack Size: 0x24
+Opcodes Size: 0x38
 Calls: Q_strcat, strrchr
 =================
 */
@@ -46164,6 +46989,7 @@ CopyShortSwap
 
 Address: 0x23c65
 Stack Size: 0x10
+Opcodes Size: 0x1b
 =================
 */
 void CopyShortSwap(int arg_0, int arg_1) {
@@ -46182,6 +47008,7 @@ CopyLongSwap
 
 Address: 0x23c80
 Stack Size: 0x10
+Opcodes Size: 0x2f
 =================
 */
 void CopyLongSwap(int arg_0, int arg_1) {
@@ -46202,6 +47029,7 @@ ShortSwap
 
 Address: 0x23caf
 Stack Size: 0x18
+Opcodes Size: 0x2d
 =================
 */
 int ShortSwap(int arg_0) {
@@ -46226,6 +47054,7 @@ ShortNoSwap
 
 Address: 0x23cdc
 Stack Size: 0x8
+Opcodes Size: 0xb
 =================
 */
 int ShortNoSwap(int arg_0) {
@@ -46240,6 +47069,7 @@ LongSwap
 
 Address: 0x23ce7
 Stack Size: 0x20
+Opcodes Size: 0x4d
 Called by: FloatSwap
 =================
 */
@@ -46271,6 +47101,7 @@ LongNoSwap
 
 Address: 0x23d34
 Stack Size: 0x8
+Opcodes Size: 0x6
 =================
 */
 int LongNoSwap(int arg_0) {
@@ -46284,6 +47115,7 @@ Long64Swap
 
 Address: 0x23d3a
 Stack Size: 0x14
+Opcodes Size: 0x41
 =================
 */
 void Long64Swap(int arg_0, int arg_1) {
@@ -46315,6 +47147,7 @@ Long64NoSwap
 
 Address: 0x23d7b
 Stack Size: 0x8
+Opcodes Size: 0x8
 =================
 */
 void Long64NoSwap(int arg_0, int arg_1) {
@@ -46328,6 +47161,7 @@ FloatSwap
 
 Address: 0x23d83
 Stack Size: 0x14
+Opcodes Size: 0x16
 Calls: LongSwap
 =================
 */
@@ -46347,6 +47181,7 @@ FloatNoSwap
 
 Address: 0x23d99
 Stack Size: 0x8
+Opcodes Size: 0x7
 =================
 */
 int FloatNoSwap(int arg_0) {
@@ -46360,6 +47195,7 @@ COM_BeginParseSession
 
 Address: 0x23da0
 Stack Size: 0x18
+Opcodes Size: 0x15
 Calls: Com_sprintf
 =================
 */
@@ -46376,6 +47212,7 @@ COM_GetCurrentParseLine
 
 Address: 0x23db5
 Stack Size: 0x8
+Opcodes Size: 0xf
 Called by: COM_ParseWarning, COM_ParseError
 =================
 */
@@ -46393,6 +47230,7 @@ COM_Parse
 
 Address: 0x23dc4
 Stack Size: 0x14
+Opcodes Size: 0xf
 Calls: COM_ParseExt
 Called by: Parse1DMatrix, COM_MatchToken, G_ParseInfos
 =================
@@ -46410,6 +47248,7 @@ COM_ParseError
 
 Address: 0x23dd3
 Stack Size: 0x20
+Opcodes Size: 0x26
 Calls: Com_Printf, COM_GetCurrentParseLine, Q_vsnprintf
 =================
 */
@@ -46430,6 +47269,7 @@ COM_ParseWarning
 
 Address: 0x23df9
 Stack Size: 0x20
+Opcodes Size: 0x26
 Calls: Com_Printf, COM_GetCurrentParseLine, Q_vsnprintf
 =================
 */
@@ -46450,6 +47290,7 @@ SkipWhitespace
 
 Address: 0x23e1f
 Stack Size: 0x14
+Opcodes Size: 0x44
 Called by: COM_ParseExt
 =================
 */
@@ -46485,6 +47326,7 @@ COM_Compress
 
 Address: 0x23e63
 Stack Size: 0x38
+Opcodes Size: 0x167
 =================
 */
 int COM_Compress(int arg_0) {
@@ -46610,6 +47452,7 @@ COM_ParseExt
 
 Address: 0x23fca
 Stack Size: 0x38
+Opcodes Size: 0x16a
 Calls: SkipWhitespace
 Called by: SkipBracedSection, COM_Parse, G_ParseInfos
 =================
@@ -46730,6 +47573,7 @@ COM_MatchToken
 
 Address: 0x24134
 Stack Size: 0x24
+Opcodes Size: 0x29
 Calls: Com_Error, strcmp, COM_Parse
 Called by: Parse3DMatrix, Parse2DMatrix, Parse1DMatrix
 =================
@@ -46753,6 +47597,7 @@ SkipBracedSection
 
 Address: 0x2415d
 Stack Size: 0x18
+Opcodes Size: 0x52
 Calls: COM_ParseExt
 =================
 */
@@ -46791,6 +47636,7 @@ SkipRestOfLine
 
 Address: 0x241af
 Stack Size: 0x18
+Opcodes Size: 0x3e
 =================
 */
 void SkipRestOfLine(int arg_0) {
@@ -46824,6 +47670,7 @@ Parse1DMatrix
 
 Address: 0x241ed
 Stack Size: 0x20
+Opcodes Size: 0x4b
 Calls: atof, COM_Parse, COM_MatchToken
 Called by: Parse2DMatrix
 =================
@@ -46857,6 +47704,7 @@ Parse2DMatrix
 
 Address: 0x24238
 Stack Size: 0x1c
+Opcodes Size: 0x47
 Calls: Parse1DMatrix, COM_MatchToken
 Called by: Parse3DMatrix
 =================
@@ -46885,6 +47733,7 @@ Parse3DMatrix
 
 Address: 0x2427f
 Stack Size: 0x24
+Opcodes Size: 0x51
 Calls: Parse2DMatrix, COM_MatchToken
 =================
 */
@@ -46913,6 +47762,7 @@ Com_HexStrToInt
 
 Address: 0x242d0
 Stack Size: 0x30
+Opcodes Size: 0x9a
 Calls: tolower, strlen
 =================
 */
@@ -46971,6 +47821,7 @@ Q_isprint
 
 Address: 0x2436a
 Stack Size: 0xc
+Opcodes Size: 0x15
 =================
 */
 int Q_isprint(int arg_0) {
@@ -46990,6 +47841,7 @@ Q_islower
 
 Address: 0x2437f
 Stack Size: 0xc
+Opcodes Size: 0x15
 =================
 */
 int Q_islower(int arg_0) {
@@ -47009,6 +47861,7 @@ Q_isupper
 
 Address: 0x24394
 Stack Size: 0xc
+Opcodes Size: 0x15
 =================
 */
 int Q_isupper(int arg_0) {
@@ -47028,6 +47881,7 @@ Q_isalpha
 
 Address: 0x243a9
 Stack Size: 0x10
+Opcodes Size: 0x1d
 =================
 */
 int Q_isalpha(int arg_0) {
@@ -47050,6 +47904,7 @@ Q_isanumber
 
 Address: 0x243c6
 Stack Size: 0x20
+Opcodes Size: 0x2b
 Calls: strtod
 =================
 */
@@ -47079,6 +47934,7 @@ Q_isintegral
 
 Address: 0x243f1
 Stack Size: 0x10
+Opcodes Size: 0x19
 =================
 */
 int Q_isintegral(int arg_0) {
@@ -47101,6 +47957,7 @@ Q_strncpyz
 
 Address: 0x2440a
 Stack Size: 0x14
+Opcodes Size: 0x43
 Calls: strncpy, Com_Error
 Called by: Com_TruncateLongString, Q_strcat, COM_StripExtension, SP_target_speaker, G_ProcessIPBans, Cmd_CallTeamVote_f, G_Say, ClientNumberFromString, ClientUserinfoChanged, ClientCleanName, G_InitBots, G_SpawnBots, Svcmd_BotList_f, G_BotConnect, PlayerIntroSound, G_ParseInfos, BotVoiceChatCommand, BotCreateWayPoint, BotMatch_NewLeader
 =================
@@ -47128,6 +47985,7 @@ Q_stricmpn
 
 Address: 0x2444d
 Stack Size: 0x2c
+Opcodes Size: 0x9d
 Called by: Q_stristr, Q_stricmp, Cmd_CallVote_f, strtod
 =================
 */
@@ -47192,6 +48050,7 @@ Q_strncmp
 
 Address: 0x244ea
 Stack Size: 0x24
+Opcodes Size: 0x64
 Called by: CheckTeamVote
 =================
 */
@@ -47239,6 +48098,7 @@ Q_stricmp
 
 Address: 0x2454e
 Stack Size: 0x20
+Opcodes Size: 0x28
 Calls: Q_stricmpn
 Called by: Info_ValueForKey, COM_CompareExtension, G_Find, AddRemap, target_location_linkup, ConsoleCommand, ClientForString, SP_worldspawn, G_ParseField, G_SpawnString, ClientCommand, Cmd_CallTeamVote_f, Cmd_CallVote_f, SetTeam, Cmd_Give_f, ClientNumberFromString, ClientConnect, G_InitBots, G_GetBotInfoByName, G_AddBot, G_CountBotPlayersByName, PlayerIntroSound, G_GetArenaInfoByMap, BG_FindItem, BotVoiceChatCommand, BotVoiceChat_WhoIsLeader, BotVoiceChat_StopLeader, BotTeamAI, BotGetTeamMateTaskPreference, BotAI, BotSetInfoConfigString, BotReportStatus, BotSetEntityNumForGoalWithActivator, BotSetEntityNumForGoal, BotMapScripts, BotFindWayPoint, ClientOnSameTeamFromName, ClientFromName, BotMatch_CTF, BotNearestVisibleItem, BotMatch_WhatIsMyCommand, BotMatch_WhoIsTeamLeader, BotMatch_StopTeamLeaderShip, BotMatch_TaskPreference, FindEnemyByName, FindClientByName, CheckCvars, ExitLevel
 =================
@@ -47266,6 +48126,7 @@ Q_strlwr
 
 Address: 0x24576
 Stack Size: 0x18
+Opcodes Size: 0x26
 Calls: tolower
 =================
 */
@@ -47290,6 +48151,7 @@ Q_strupr
 
 Address: 0x2459c
 Stack Size: 0x18
+Opcodes Size: 0x26
 Calls: toupper
 =================
 */
@@ -47314,6 +48176,7 @@ Q_strcat
 
 Address: 0x245c2
 Stack Size: 0x20
+Opcodes Size: 0x2c
 Calls: Q_strncpyz, Com_Error, strlen
 Called by: Com_TruncateLongString, COM_DefaultExtension, BuildShaderStateConfig, UpdateIPBans
 =================
@@ -47336,6 +48199,7 @@ Q_stristr
 
 Address: 0x245ee
 Stack Size: 0x38
+Opcodes Size: 0x93
 Calls: Q_stricmpn, strlen
 =================
 */
@@ -47392,6 +48256,7 @@ Q_PrintStrlen
 
 Address: 0x24681
 Stack Size: 0x1c
+Opcodes Size: 0x41
 Calls: Q_IsColorString
 =================
 */
@@ -47427,6 +48292,7 @@ Q_CleanStr
 
 Address: 0x246c2
 Stack Size: 0x28
+Opcodes Size: 0x56
 Calls: Q_IsColorString
 Called by: Cmd_CallTeamVote_f, ClientNumberFromString, ClientOnSameTeamFromName, ClientFromName, ClientName
 =================
@@ -47469,6 +48335,7 @@ Q_CountChar
 
 Address: 0x24718
 Stack Size: 0xc
+Opcodes Size: 0x2d
 =================
 */
 int Q_CountChar(int arg_0, int arg_1) {
@@ -47494,6 +48361,7 @@ Com_sprintf
 
 Address: 0x24745
 Stack Size: 0x24
+Opcodes Size: 0x32
 Calls: Com_Printf, Q_vsnprintf
 Called by: Info_SetValueForKey_Big, Info_SetValueForKey, COM_BeginParseSession, vtos, BuildShaderStateConfig, TeamplayInfoMessage, Team_GetLocationMsg, SP_target_speaker, G_ItemDisabled, Cmd_CallTeamVote_f, Cmd_CallVote_f, G_Say, DeathmatchScoreboardMessage, UpdateTournamentInfo, BotSayTeamOrderAlways, BotInitLibrary, BotSetInfoConfigString, BotPrintActivateGoalInfo, BotGetActivateGoal, BotRecordNodeSwitch, BotMatch_CheckPoint, G_LogPrintf
 =================
@@ -47519,6 +48387,7 @@ va
 
 Address: 0x24777
 Stack Size: 0x2c
+Opcodes Size: 0x38
 Calls: Q_vsnprintf
 Called by: G_TeamCommand, TeamplayInfoMessage, PrintMsg, Use_Target_Print, ConsoleCommand, UpdateIPBans, SP_worldspawn, G_WriteSessionData, G_ReadSessionData, G_WriteClientSessionData, ClientCommand, Cmd_TeamVote_f, Cmd_CallTeamVote_f, Cmd_Vote_f, Cmd_CallVote_f, Cmd_Where_f, Cmd_GameCommand_f, G_SayTo, BroadcastTeamChange, Cmd_TeamTask_f, Cmd_Noclip_f, Cmd_Notarget_f, Cmd_God_f, ClientNumberFromString, DeathmatchScoreboardMessage, ClientBegin, ClientConnect, ClientUserinfoChanged, G_GetBotInfoByNumber, G_LoadBots, G_LoadBotsFromFile, G_SpawnBots, Svcmd_BotList_f, G_AddBot, G_RemoveRandomBot, G_AddRandomBot, PlayerIntroSound, G_LoadArenas, G_LoadArenasFromFile, G_ParseInfos, BotReadSessionData, BotWriteSessionData, BotInterbreeding, BotSetInfoConfigString, BotCTFSeekGoals, CheckTeamVote, SetLeader, CheckVote, CheckTournament, CheckExitRules, CalculateRanks, G_UpdateCvars
 =================
@@ -47547,6 +48416,7 @@ Com_TruncateLongString
 
 Address: 0x247af
 Stack Size: 0x1c
+Opcodes Size: 0x44
 Calls: Q_strcat, Q_strncpyz, strlen
 =================
 */
@@ -47572,6 +48442,7 @@ Info_ValueForKey
 
 Address: 0x247f3
 Stack Size: 0x202c
+Opcodes Size: 0xe8
 Calls: Q_stricmp, Com_Error, strlen
 Called by: G_InitSessionData, ClientSpawn, ClientConnect, ClientUserinfoChanged, G_InitBots, G_GetBotInfoByName, Svcmd_BotList_f, G_AddBot, G_BotConnect, G_CheckBotSpawn, G_SelectRandomBotInfo, G_GetArenaInfoByMap, BotTeamOrders, BotSortTeamMatesByBaseTravelTime, BotNumTeamMates, BotUpdateInfoConfigStrings, BotTeamplayReport, BotMapScripts, BotIsObserver, ClientOnSameTeamFromName, ClientFromName, ClientSkin, ClientName, BotMapTitle, BotRandomOpponentName, BotLastClientInRankings, BotFirstClientInRankings, BotIsLastInRankings, BotIsFirstInRankings, BotNumActivePlayers
 =================
@@ -47655,6 +48526,7 @@ Info_NextPair
 
 Address: 0x248db
 Stack Size: 0x1c
+Opcodes Size: 0xa2
 =================
 */
 void Info_NextPair(int arg_0, int arg_1, int arg_2) {
@@ -47714,6 +48586,7 @@ Info_RemoveKey
 
 Address: 0x2497d
 Stack Size: 0x834
+Opcodes Size: 0xe4
 Calls: memmove, strcmp, strchr, Com_Error, strlen
 Called by: Info_SetValueForKey
 =================
@@ -47796,6 +48669,7 @@ Info_RemoveKey_Big
 
 Address: 0x24a61
 Stack Size: 0x4034
+Opcodes Size: 0xe4
 Calls: memmove, strcmp, strchr, Com_Error, strlen
 Called by: Info_SetValueForKey_Big
 =================
@@ -47878,6 +48752,7 @@ Info_Validate
 
 Address: 0x24b45
 Stack Size: 0x18
+Opcodes Size: 0x27
 Calls: strchr
 Called by: ClientUserinfoChanged
 =================
@@ -47903,6 +48778,7 @@ Info_SetValueForKey
 
 Address: 0x24b6c
 Stack Size: 0x434
+Opcodes Size: 0xb8
 Calls: strcpy, strcat, Com_sprintf, Info_RemoveKey, Com_Printf, strchr, Com_Error, strlen
 Called by: Cmd_TeamTask_f, G_AddBot, G_LoadArenas, G_ParseInfos, BotDeathmatchAI, BotSetUserInfo
 =================
@@ -47961,6 +48837,7 @@ Info_SetValueForKey_Big
 
 Address: 0x24c24
 Stack Size: 0x202c
+Opcodes Size: 0xa5
 Calls: strcat, Com_sprintf, Info_RemoveKey_Big, Com_Printf, strchr, Com_Error, strlen
 =================
 */
@@ -48012,6 +48889,7 @@ Com_CharIsOneOfCharset
 
 Address: 0x24cc9
 Stack Size: 0x14
+Opcodes Size: 0x33
 Calls: strlen
 Called by: Com_SkipTokens, Com_SkipCharset
 =================
@@ -48041,6 +48919,7 @@ Com_SkipCharset
 
 Address: 0x24cfc
 Stack Size: 0x18
+Opcodes Size: 0x2a
 Calls: Com_CharIsOneOfCharset
 =================
 */
@@ -48067,6 +48946,7 @@ Com_SkipTokens
 
 Address: 0x24d26
 Stack Size: 0x24
+Opcodes Size: 0x68
 Calls: Com_CharIsOneOfCharset
 =================
 */

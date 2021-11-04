@@ -93,6 +93,10 @@ static void qvm_disassemble_function_code(qvm_t *qvm, file_t *file, qvm_function
         // print the opcode parameter if needed
         if (op->opblock->info->id == OPB_FUNC_CALL && op->opblock->function_called)
             file_print(file, " %s", op->opblock->function_called->name);
+        else if (op->opblock->jumppoint && op->info->param_size)
+            file_print(file, " %s", op->opblock->jumppoint->name);
+        else if (op->opblock->info->id == OPB_GLOBAL_ADR || op->opblock->info->id == OPB_LOCAL_ADR)
+            file_print(file, " &%s", op->opblock->variable->name);
         else if (op->info->param_size)
             file_print(file, " 0x%x", op->value);
 
