@@ -119,31 +119,35 @@ static void qvm_disassemble_function_header(file_t *file, qvm_function_t *func)
 
 static void qvm_disassemble_function_code(qvm_t *qvm, file_t *file, qvm_function_t *func)
 {
-    qvm_opcode_t    *op;
     qvm_jumppoint_t *jmp;
 
     for (unsigned int i = 0; i < func->op_size; i++) {
-        // get the current opcode
-        op = &qvm->opcodes[func->address + i];
-
         // print the jumppoint if needed
         if ((jmp = jumppoint_find(qvm, func->address + i)))
             file_print(file, "\n%s:\n", jmp->name);
 
-        // print the opcode name
-        file_print(file, "0x%-6x %s", func->address + i, op->info->name);
-
-        // print the opcode parameter if needed
-        if (op->opblock->info->id == OPB_FUNC_CALL && op->opblock->function_called)
-            file_print(file, " %s", op->opblock->function_called->name);
-        else if (op->opblock->jumppoint && op->info->param_size)
-            file_print(file, " %s", op->opblock->jumppoint->name);
-        else if (op->opblock->info->id == OPB_GLOBAL_ADR || op->opblock->info->id == OPB_LOCAL_ADR)
-            file_print(file, " &%s", op->opblock->variable->name);
-        else if (op->info->param_size)
-            file_print(file, " 0x%x", op->value);
-
-        // print the end of line
-        file_print(file, "\n");
+        // print the opcode
+        qvm_disassemble_opcode(qvm, file, &qvm->opcodes[func->address + i]);
     }
+}
+
+static void qvm_disassemble_opcode(qvm_t *qvm, file_t *file, qvm_opcode_t *op)
+{
+    unsigned int    address = op - qvm->opcodes / sizeof(*op);
+
+    // print the opcode name
+    file_print(file, "0x%-6x %s", address, op->info->name);
+
+    // print the opcode parameter if needed
+    if (op->opblock->info->id == OPB_FUNC_CALL && op->opblock->function_called)
+        file_print(file, " %s", op->opblock->function_called->name);
+    else if (op->opblock->jumppoint && op->info->param_size)
+        file_print(file, " %s", op->opblock->jumppoint->name);
+    else if (op->opblock->info->id == OPB_GLOBAL_ADR || op->opblock->info->id == OPB_LOCAL_ADR)
+        file_print(file, " &%s", op->opblock->variable->name);
+    else if (op->info->param_size)
+        file_print(file, " 0x%x", op->value);
+
+    // print the end of line
+    file_print(file, "\n");
 }
