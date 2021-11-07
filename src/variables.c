@@ -140,8 +140,10 @@ static qvm_variable_t *var_create(qvm_t *qvm, qvm_function_t *function, unsigned
         var->prob_size[used_size]++;
 
     // count the locals and globals
-    if (function)
+    if (function) {
         function->locals_count++;
+        qvm->locals_count++;
+    }
     else
         qvm->globals_count++;
 

@@ -42,6 +42,7 @@ static qvm_t *qvm_new(void)
     qvm.opblocks = NULL;
     qvm.globals = NULL;
     qvm.globals_count = 0;
+    qvm.locals_count = 0;
     qvm.map = NULL;
     qvm.map_count = 0;
     qvm.restored_calls_perc = 0.0f;
@@ -702,8 +703,7 @@ static int qvm_load_variables(qvm_t *qvm)
     if (!qvm_load_variables_literals(qvm))
         return 0;
 
-    // TODO: also print locals found
-    printf("Success: %i globals found.\n", qvm->globals_count);
+    printf("Success: %i globals and %i locals found.\n", qvm->globals_count, qvm->locals_count);
 
     // success
     return 1;

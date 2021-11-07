@@ -5,7 +5,7 @@
 	Opcodes Count: 150926
 	Functions Count: 880
 	Syscalls Count: 155
-	Globals Count: 1938
+	Globals Count: 1930
 	Calls Restored: 96.85
 */
 
@@ -15,8 +15,7 @@ int		gameCvarTableSize = 46; // Used by: G_UpdateCvars, G_RegisterCvars
 char	global_510[44] = "\x15\x00\x00\x00\x25\x00\x00\x00\x2f\x00\x00\x00\x5f\x00\x00\x00\x4b\x00\x00\x00\x55\x00\x00\x00\x69\x00\x00\x00\x41\x00\x00\x00\x73\x00\x00\x00\x7d\x00\x00\x00\x86\x00\x00\x00";
 int		global_53c = -1; // Used by: CheckCvars
 char	global_540[168] = "\x17\x18\x00\x00\x1b\x18\x00\x00\x1f\x18\x00\x00\x23\x18\x00\x00\x23\x18\x00\x00\x27\x18\x00\x00\x27\x18\x00\x00\x2b\x18\x00\x00\x2b\x18\x00\x00\x2f\x18\x00\x00\x33\x18\x00\x00\x37\x18\x00\x00\x37\x18\x00\x00\x3f\x18\x00\x00\x3f\x18\x00\x00\x3f\x18\x00\x00\x3f\x18\x00\x00\x3f\x18\x00\x00\x3f\x18\x00\x00\x3f\x18\x00\x00\x3f\x18\x00\x00\x3f\x18\x00\x00\x3b\x18\x00\x00\x68\x18\x00\x00\x6c\x18\x00\x00\x70\x18\x00\x00\x74\x18\x00\x00\x78\x18\x00\x00\x7c\x18\x00\x00\x80\x18\x00\x00\x84\x18\x00\x00\xd2\x41\x00\x00\xed\x41\x00\x00\x08\x42\x00\x00\x71\x42\x00\x00\x7d\x42\x00\x00\x89\x42\x00\x00\x59\x42\x00\x00\x59\x42\x00\x00\x65\x42\x00\x00\x23\x42\x00\x00\x3e\x42\x00\x00";
-char	global_5e8[72] = "\x52\x2e\x00\x00\x41\x2e\x00\x00\x31\x2e\x00\x00\x27\x2e\x00\x00\x1f\x2e\x00\x00\x11\x2e\x00\x00\x0a\x2e\x00\x00\xfe\x2d\x00\x00\xf1\x2d\x00\x00\xe5\x2d\x00\x00\xdf\x2d\x00\x00\xd2\x2d\x00\x00\xcb\x2d\x00\x00\xc5\x2d\x00\x00\xb9\x2d\x00\x00\xb0\x2d\x00\x00\xa6\x2d\x00\x00\x00\x00\x00\x00"; // Used by: BotMatch_WhereAreYou
-char	global_630[132] = "\x36\x49\x00\x00\x2c\x49\x00\x00\x22\x48\x00\x00\x22\x48\x00\x00\x2c\x48\x00\x00\x54\x48\x00\x00\x4a\x48\x00\x00\xdc\x48\x00\x00\xe6\x48\x00\x00\xf0\x48\x00\x00\x51\x49\x00\x00\xfa\x48\x00\x00\x86\x48\x00\x00\x90\x48\x00\x00\xae\x48\x00\x00\xbb\x48\x00\x00\xc8\x48\x00\x00\x51\x49\x00\x00\xd2\x48\x00\x00\x36\x48\x00\x00\xa4\x48\x00\x00\x40\x48\x00\x00\x18\x49\x00\x00\x7c\x48\x00\x00\x22\x49\x00\x00\x0e\x49\x00\x00\x5e\x48\x00\x00\x04\x49\x00\x00\x9a\x48\x00\x00\x68\x48\x00\x00\x4a\x49\x00\x00\x4a\x49\x00\x00\x40\x49\x00\x00";
+char	global_5e8[204] = "\x52\x2e\x00\x00\x41\x2e\x00\x00\x31\x2e\x00\x00\x27\x2e\x00\x00\x1f\x2e\x00\x00\x11\x2e\x00\x00\x0a\x2e\x00\x00\xfe\x2d\x00\x00\xf1\x2d\x00\x00\xe5\x2d\x00\x00\xdf\x2d\x00\x00\xd2\x2d\x00\x00\xcb\x2d\x00\x00\xc5\x2d\x00\x00\xb9\x2d\x00\x00\xb0\x2d\x00\x00\xa6\x2d\x00\x00\x00\x00\x00\x00\x36\x49\x00\x00\x2c\x49\x00\x00\x22\x48\x00\x00\x22\x48\x00\x00\x2c\x48\x00\x00\x54\x48\x00\x00\x4a\x48\x00\x00\xdc\x48\x00\x00\xe6\x48\x00\x00\xf0\x48\x00\x00\x51\x49\x00\x00\xfa\x48\x00\x00\x86\x48\x00\x00\x90\x48\x00\x00\xae\x48\x00\x00\xbb\x48\x00\x00\xc8\x48\x00\x00\x51\x49\x00\x00\xd2\x48\x00\x00\x36\x48\x00\x00\xa4\x48\x00\x00\x40\x48\x00\x00\x18\x49\x00\x00\x7c\x48\x00\x00\x22\x49\x00\x00\x0e\x49\x00\x00\x5e\x48\x00\x00\x04\x49\x00\x00\x9a\x48\x00\x00\x68\x48\x00\x00\x4a\x49\x00\x00\x4a\x49\x00\x00\x40\x49\x00\x00"; // Used by: BotMatch_WhereAreYou
 char	global_6b4[12] = "\x00\x00\x70\xc1\x00\x00\x70\xc1\x00\x00\x00\xc0"; // Used by: BotGetAirGoal
 char	global_6c0[12] = "\x00\x00\x70\x41\x00\x00\x70\x41\x00\x00\x00\x40"; // Used by: BotGetAirGoal
 char	global_6cc[12] = "\x00\x00\x00\xc1\x00\x00\x00\xc1\x00\x00\x00\xc1"; // Used by: BotCreateWayPoint
@@ -35,11 +34,9 @@ char	VEC_DOWN[12] = "\x00\x00\x00\x00\x00\x00\x00\xc0\x00\x00\x00\x00";
 char	MOVEDIR_DOWN[12] = "\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80\xbf"; // Used by: BotSetMovedir
 char	global_774[12] = "\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f"; // Used by: BotFuncButtonActivateGoal
 char	global_780[12] = "\x00\x00\x80\xbf\x00\x00\x80\xbf\x00\x00\x80\xbf"; // Used by: BotFuncButtonActivateGoal
-char	global_78c[12] = "\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80\x3f"; // Used by: BotAIBlocked
-char	global_798[452] = "\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\x6b\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\x77\xbf\x00\x00\xaf\xbe\x00\x00\xf0\xbe\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\x0f\xbe\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\x0b\xbf\x00\x00\x1f\xbf\x00\x00\x33\xbf\x00\x00\x41\xbf\x00\x00\x4f\xbf\x00\x00\x5d\xbf\x00\x00\x72\xc6\x00\x00\x7b\xc6\x00\x00\x84\xc6\x00\x00\x8d\xc6\x00\x00\x96\xc6\x00\x00\x2f\xc9\x00\x00\x4e\xc9\x00\x00\x6d\xc9\x00\x00\xea\xc9\x00\x00\xfa\xc9\x00\x00\x0a\xca\x00\x00\xca\xc9\x00\x00\xca\xc9\x00\x00\xda\xc9\x00\x00\x8c\xc9\x00\x00\xab\xc9\x00\x00\x2a\xca\x00\x00\x1a\xca\x00\x00\x92\xcb\x00\x00\xac\xcb\x00\x00\xc6\xcb\x00\x00\x2a\xcc\x00\x00\x35\xcc\x00\x00\x40\xcc\x00\x00\x14\xcc\x00\x00\x14\xcc\x00\x00\x1f\xcc\x00\x00\xe0\xcb\x00\x00\xfa\xcb\x00\x00\x56\xcc\x00\x00\x4b\xcc\x00\x00";
+char	global_78c[464] = "\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80\x3f\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\x6b\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\x77\xbf\x00\x00\xaf\xbe\x00\x00\xf0\xbe\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\x0f\xbe\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\xc9\xbf\x00\x00\x0b\xbf\x00\x00\x1f\xbf\x00\x00\x33\xbf\x00\x00\x41\xbf\x00\x00\x4f\xbf\x00\x00\x5d\xbf\x00\x00\x72\xc6\x00\x00\x7b\xc6\x00\x00\x84\xc6\x00\x00\x8d\xc6\x00\x00\x96\xc6\x00\x00\x2f\xc9\x00\x00\x4e\xc9\x00\x00\x6d\xc9\x00\x00\xea\xc9\x00\x00\xfa\xc9\x00\x00\x0a\xca\x00\x00\xca\xc9\x00\x00\xca\xc9\x00\x00\xda\xc9\x00\x00\x8c\xc9\x00\x00\xab\xc9\x00\x00\x2a\xca\x00\x00\x1a\xca\x00\x00\x92\xcb\x00\x00\xac\xcb\x00\x00\xc6\xcb\x00\x00\x2a\xcc\x00\x00\x35\xcc\x00\x00\x40\xcc\x00\x00\x14\xcc\x00\x00\x14\xcc\x00\x00\x1f\xcc\x00\x00\xe0\xcb\x00\x00\xfa\xcb\x00\x00\x56\xcc\x00\x00\x4b\xcc\x00\x00"; // Used by: BotAIBlocked
 char	global_95c[256] = "\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"; // Used by: BotCTFOrders_BothFlagsNotAtBase
-char	global_a5c[256] = "\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"; // Used by: BotCTFOrders_BothFlagsAtBase
-char	global_b5c[36] = "\x83\xf4\x00\x00\x8b\xf4\x00\x00\x93\xf4\x00\x00\x9b\xf4\x00\x00\xff\xf5\x00\x00\xff\xf5\x00\x00\x9b\xf5\x00\x00\xa7\xf5\x00\x00\xbd\xf5\x00\x00";
+char	global_a5c[292] = "\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x83\xf4\x00\x00\x8b\xf4\x00\x00\x93\xf4\x00\x00\x9b\xf4\x00\x00\xff\xf5\x00\x00\xff\xf5\x00\x00\x9b\xf5\x00\x00\xa7\xf5\x00\x00\xbd\xf5\x00\x00"; // Used by: BotCTFOrders_BothFlagsAtBase
 char	voiceCommands[120] = "\xef\x44\x00\x00\x86\xf8\x00\x00\xe7\x44\x00\x00\xf8\xf8\x00\x00\xe0\x44\x00\x00\x5b\xf9\x00\x00\xd5\x44\x00\x00\xdf\xf9\x00\x00\xce\x44\x00\x00\xee\xf9\x00\x00\xc9\x44\x00\x00\x36\xfa\x00\x00\xc0\x44\x00\x00\x19\xfb\x00\x00\xae\x44\x00\x00\x09\xfc\x00\x00\xa3\x44\x00\x00\x27\xfc\x00\x00\x06\x45\x00\x00\x78\xfc\x00\x00\x98\x44\x00\x00\x88\xfc\x00\x00\x8c\x44\x00\x00\xb4\xfc\x00\x00\x7e\x44\x00\x00\x02\xfd\x00\x00\x70\x44\x00\x00\x6d\xfd\x00\x00\x00\x00\x00\x00\xd8\xfd\x00\x00";
 char	bg_itemlist[1924] = "\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa9\x59\x00\x00\xa9\x59\x00\x00\x98\x59\x00\x00\x80\x59\x00\x00\x60\x59\x00\x00\x39\x59\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x27\x59\x00\x00\x1b\x59\x00\x00\x05\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\xa9\x59\x00\x00\xa9\x59\x00\x00\x09\x59\x00\x00\xf1\x58\x00\x00\xcd\x58\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xba\x58\x00\x00\xb4\x58\x00\x00\x32\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\xa9\x59\x00\x00\xa9\x59\x00\x00\xa4\x58\x00\x00\xf1\x58\x00\x00\x80\x58\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x70\x58\x00\x00\x64\x58\x00\x00\x64\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\xa9\x59\x00\x00\xa9\x59\x00\x00\x52\x58\x00\x00\x39\x58\x00\x00\x12\x58\x00\x00\xea\x57\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xd8\x57\x00\x00\xcf\x57\x00\x00\x05\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\xa9\x59\x00\x00\xa9\x59\x00\x00\xc3\x57\x00\x00\xaa\x57\x00\x00\x82\x57\x00\x00\x59\x57\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x46\x57\x00\x00\x3c\x57\x00\x00\x19\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\xa9\x59\x00\x00\xa9\x59\x00\x00\x2a\x57\x00\x00\x11\x57\x00\x00\xea\x56\x00\x00\xc2\x56\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xb2\x56\x00\x00\xa8\x56\x00\x00\x32\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\xa9\x59\x00\x00\xa9\x59\x00\x00\x97\x56\x00\x00\x7e\x56\x00\x00\x58\x56\x00\x00\x31\x56\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x20\x56\x00\x00\x14\x56\x00\x00\x64\x00\x00\x00\x04\x00\x00\x00\x00\x00\x00\x00\xa9\x59\x00\x00\xa9\x59\x00\x00\x04\x56\x00\x00\xee\x55\x00\x00\xc8\x55\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xb3\x55\x00\x00\xaa\x55\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\xa9\x59\x00\x00\xa9\x59\x00\x00\x9b\x55\x00\x00\xee\x55\x00\x00\x77\x55\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x63\x55\x00\x00\x5b\x55\x00\x00\x0a\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\xa9\x59\x00\x00\xa9\x59\x00\x00\x49\x55\x00\x00\xee\x55\x00\x00\x1f\x55\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x08\x55\x00\x00\xfd\x54\x00\x00\x28\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\xa9\x59\x00\x00\xa9\x59\x00\x00\xe6\x54\x00\x00\xee\x55\x00\x00\xc0\x54\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xac\x54\x00\x00\x9b\x54\x00\x00\x0a\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00\xa9\x59\x00\x00\x55\x54\x00\x00\x3f\x54\x00\x00\xee\x55\x00\x00\x1b\x54\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x08\x54\x00\x00\xf8\x53\x00\x00\x0a\x00\x00\x00\x01\x00\x00\x00\x05\x00\x00\x00\xa9\x59\x00\x00\xa9\x59\x00\x00\xe7\x53\x00\x00\xee\x55\x00\x00\xbf\x53\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa9\x53\x00\x00\x9b\x53\x00\x00\x64\x00\x00\x00\x01\x00\x00\x00\x06\x00\x00\x00\xa9\x59\x00\x00\xa9\x59\x00\x00\x8c\x53\x00\x00\xee\x55\x00\x00\x68\x53\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x54\x53\x00\x00\x4c\x53\x00\x00\x0a\x00\x00\x00\x01\x00\x00\x00\x07\x00\x00\x00\xa9\x59\x00\x00\xa9\x59\x00\x00\x3b\x53\x00\x00\xee\x55\x00\x00\x19\x53\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x06\x53\x00\x00\xfb\x52\x00\x00\x32\x00\x00\x00\x01\x00\x00\x00\x08\x00\x00\x00\xa9\x59\x00\x00\xa9\x59\x00\x00\xf0\x52\x00\x00\xee\x55\x00\x00\xd4\x52\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xc4\x52\x00\x00\xbd\x52\x00\x00\x14\x00\x00\x00\x01\x00\x00\x00\x09\x00\x00\x00\xa9\x59\x00\x00\xa9\x59\x00\x00\xa8\x52\x00\x00\xee\x55\x00\x00\x84\x52\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x70\x52\x00\x00\x61\x52\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x0a\x00\x00\x00\xa9\x59\x00\x00\xa9\x59\x00\x00\x55\x52\x00\x00\x3e\x52\x00\x00\x1b\x52\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x07\x52\x00\x00\x00\x52\x00\x00\x0a\x00\x00\x00\x02\x00\x00\x00\x03\x00\x00\x00\xa9\x59\x00\x00\xa9\x59\x00\x00\xf3\x51\x00\x00\x3e\x52\x00\x00\xcd\x51\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xb6\x51\x00\x00\xae\x51\x00\x00\x32\x00\x00\x00\x02\x00\x00\x00\x02\x00\x00\x00\xa9\x59\x00\x00\xa9\x59\x00\x00\xa0\x51\x00\x00\x3e\x52\x00\x00\x7d\x51\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x69\x51\x00\x00\x60\x51\x00\x00\x05\x00\x00\x00\x02\x00\x00\x00\x04\x00\x00\x00\xa9\x59\x00\x00\xa9\x59\x00\x00\x55\x51\x00\x00\x3e\x52\x00\x00\x33\x51\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x20\x51\x00\x00\x1a\x51\x00\x00\x1e\x00\x00\x00\x02\x00\x00\x00\x08\x00\x00\x00\xa9\x59\x00\x00\xa9\x59\x00\x00\x0b\x51\x00\x00\x3e\x52\x00\x00\xe6\x50\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xd0\x50\x00\x00\xc6\x50\x00\x00\x3c\x00\x00\x00\x02\x00\x00\x00\x06\x00\x00\x00\xa9\x59\x00\x00\xa9\x59\x00\x00\xb9\x50\x00\x00\x3e\x52\x00\x00\x97\x50\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x84\x50\x00\x00\x7c\x50\x00\x00\x05\x00\x00\x00\x02\x00\x00\x00\x05\x00\x00\x00\xa9\x59\x00\x00\xa9\x59\x00\x00\x71\x50\x00\x00\x3e\x52\x00\x00\x4e\x50\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x3a\x50\x00\x00\x34\x50\x00\x00\x0a\x00\x00\x00\x02\x00\x00\x00\x07\x00\x00\x00\xa9\x59\x00\x00\xa9\x59\x00\x00\x2b\x50\x00\x00\x3e\x52\x00\x00\x0c\x50\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xfc\x4f\x00\x00\xf3\x4f\x00\x00\x0f\x00\x00\x00\x02\x00\x00\x00\x09\x00\x00\x00\xa9\x59\x00\x00\xa9\x59\x00\x00\xdf\x4f\x00\x00\xc6\x4f\x00\x00\x9e\x4f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x8d\x4f\x00\x00\x79\x4f\x00\x00\x3c\x00\x00\x00\x06\x00\x00\x00\x01\x00\x00\x00\xa9\x59\x00\x00\xa9\x59\x00\x00\x69\x4f\x00\x00\xc6\x4f\x00\x00\x45\x4f\x00\x00\x1a\x4f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0d\x4f\x00\x00\x06\x4f\x00\x00\x3c\x00\x00\x00\x06\x00\x00\x00\x02\x00\x00\x00\xa9\x59\x00\x00\xeb\x4e\x00\x00\xe1\x4e\x00\x00\xc6\x4e\x00\x00\xa5\x4e\x00\x00\x7f\x4e\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x74\x4e\x00\x00\x68\x4e\x00\x00\x1e\x00\x00\x00\x05\x00\x00\x00\x01\x00\x00\x00\xa9\x59\x00\x00\x38\x4e\x00\x00\x2c\x4e\x00\x00\x14\x4e\x00\x00\xf1\x4d\x00\x00\xc9\x4d\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xb8\x4d\x00\x00\xac\x4d\x00\x00\x1e\x00\x00\x00\x05\x00\x00\x00\x02\x00\x00\x00\xa9\x59\x00\x00\x7c\x4d\x00\x00\x71\x4d\x00\x00\x5b\x4d\x00\x00\x39\x4d\x00\x00\x12\x4d\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x06\x4d\x00\x00\x00\x4d\x00\x00\x1e\x00\x00\x00\x05\x00\x00\x00\x03\x00\x00\x00\xa9\x59\x00\x00\xa9\x59\x00\x00\xf5\x4c\x00\x00\xd8\x4c\x00\x00\xb6\x4c\x00\x00\x8f\x4c\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x83\x4c\x00\x00\x76\x4c\x00\x00\x1e\x00\x00\x00\x05\x00\x00\x00\x04\x00\x00\x00\xa9\x59\x00\x00\xa9\x59\x00\x00\x6b\x4c\x00\x00\x4e\x4c\x00\x00\x2c\x4c\x00\x00\x05\x4c\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xf9\x4b\x00\x00\xec\x4b\x00\x00\x1e\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\xa9\x59\x00\x00\xd6\x4b\x00\x00\xca\x4b\x00\x00\xb3\x4b\x00\x00\x90\x4b\x00\x00\x68\x4b\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x5b\x4b\x00\x00\x54\x4b\x00\x00\x3c\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\xa9\x59\x00\x00\xb3\x4b\x00\x00\x43\x4b\x00\x00\x00\x00\x00\x00\x2b\x4b\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x1a\x4b\x00\x00\x11\x4b\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x07\x00\x00\x00\xa9\x59\x00\x00\xa9\x59\x00\x00\xff\x4a\x00\x00\x00\x00\x00\x00\xe7\x4a\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xd6\x4a\x00\x00\xcc\x4a\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x08\x00\x00\x00\xa9\x59\x00\x00\xa9\x59\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00";
 int		bg_numItems = 36; // Used by: SaveRegisteredItems, BG_CanItemBeGrabbed, BG_FindItemForHoldable, BG_FindItemForPowerup
@@ -84,17 +81,14 @@ int		numgc_orders = 7; // Used by: Cmd_GameCommand_f
 char	gameNames[32] = "\x2e\x69\x00\x00\x23\x69\x00\x00\x15\x69\x00\x00\x05\x69\x00\x00\xf4\x68\x00\x00\xe7\x68\x00\x00\xde\x68\x00\x00\xd4\x68\x00\x00";
 char	modNames[96] = "\x48\x70\x00\x00\x3c\x70\x00\x00\x2f\x70\x00\x00\x20\x70\x00\x00\x14\x70\x00\x00\x01\x70\x00\x00\xf6\x6f\x00\x00\xe4\x6f\x00\x00\xd9\x6f\x00\x00\xc7\x6f\x00\x00\xbb\x6f\x00\x00\xad\x6f\x00\x00\xa5\x6f\x00\x00\x96\x6f\x00\x00\x8c\x6f\x00\x00\x82\x6f\x00\x00\x79\x6f\x00\x00\x6f\x6f\x00\x00\x62\x6f\x00\x00\x56\x6f\x00\x00\x4a\x6f\x00\x00\x39\x6f\x00\x00\x28\x6f\x00\x00\x1c\x6f\x00\x00";
 char	global_1708[12] = "\x00\x00\x70\xc1\x00\x00\x70\xc1\x00\x00\x70\xc1"; // Used by: CanDamage
-char	global_1714[12] = "\x00\x00\x70\x41\x00\x00\x70\x41\x00\x00\x70\x41"; // Used by: CanDamage
-char	global_1720[48] = "\xf2\xb1\x01\x00\x02\xb2\x01\x00\x12\xb2\x01\x00\x22\xb2\x01\x00\x32\xb2\x01\x00\x55\xb2\x01\x00\xca\xb3\x01\x00\x45\xb2\x01\x00\x26\xd3\x01\x00\x37\xd3\x01\x00\x48\xd3\x01\x00\xa8\xd3\x01\x00";
+char	global_1714[60] = "\x00\x00\x70\x41\x00\x00\x70\x41\x00\x00\x70\x41\xf2\xb1\x01\x00\x02\xb2\x01\x00\x12\xb2\x01\x00\x22\xb2\x01\x00\x32\xb2\x01\x00\x55\xb2\x01\x00\xca\xb3\x01\x00\x45\xb2\x01\x00\x26\xd3\x01\x00\x37\xd3\x01\x00\x48\xd3\x01\x00\xa8\xd3\x01\x00"; // Used by: CanDamage
 char	fields[240] = "\xa5\x7a\x00\x00\x0c\x02\x00\x00\x02\x00\x00\x00\x9e\x7a\x00\x00\x5c\x00\x00\x00\x03\x00\x00\x00\x98\x7a\x00\x00\x1c\x02\x00\x00\x02\x00\x00\x00\x91\x7a\x00\x00\x20\x02\x00\x00\x02\x00\x00\x00\x86\x7a\x00\x00\x10\x02\x00\x00\x00\x00\x00\x00\x80\x7a\x00\x00\x9c\x02\x00\x00\x01\x00\x00\x00\x79\x7a\x00\x00\x84\x02\x00\x00\x02\x00\x00\x00\x6e\x7a\x00\x00\x88\x02\x00\x00\x02\x00\x00\x00\x66\x7a\x00\x00\x7c\x02\x00\x00\x02\x00\x00\x00\x61\x7a\x00\x00\x8c\x02\x00\x00\x02\x00\x00\x00\x5c\x7a\x00\x00\x18\x03\x00\x00\x01\x00\x00\x00\x55\x7a\x00\x00\x1c\x03\x00\x00\x01\x00\x00\x00\x4f\x7a\x00\x00\xf4\x02\x00\x00\x00\x00\x00\x00\x48\x7a\x00\x00\xd8\x02\x00\x00\x00\x00\x00\x00\x44\x7a\x00\x00\xe0\x02\x00\x00\x00\x00\x00\x00\x3d\x7a\x00\x00\x74\x00\x00\x00\x03\x00\x00\x00\x37\x7a\x00\x00\x74\x00\x00\x00\x04\x00\x00\x00\x26\x7a\x00\x00\x90\x02\x00\x00\x02\x00\x00\x00\x12\x7a\x00\x00\x94\x02\x00\x00\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00";
 char	spawns[492] = "\x00\x7a\x00\x00\x6a\x6e\x01\x00\xe9\x79\x00\x00\x31\x6e\x01\x00\xd0\x79\x00\x00\x79\x6e\x01\x00\xc6\x79\x00\x00\x4b\xba\x01\x00\xb9\x79\x00\x00\x54\xba\x01\x00\xaf\x79\x00\x00\x39\xba\x01\x00\xa5\x79\x00\x00\x03\xdd\x01\x00\x99\x79\x00\x00\x11\xde\x01\x00\x8f\x79\x00\x00\x3f\xda\x01\x00\x83\x79\x00\x00\xb6\xe1\x01\x00\x75\x79\x00\x00\xe1\xe1\x01\x00\x68\x79\x00\x00\x6f\xe2\x01\x00\x5a\x79\x00\x00\x11\xe3\x01\x00\x4f\x79\x00\x00\x25\xe1\x01\x00\x44\x79\x00\x00\x4b\xba\x01\x00\x39\x79\x00\x00\x3e\x10\x02\x00\x2a\x79\x00\x00\xf2\x0b\x02\x00\x19\x79\x00\x00\x81\x0b\x02\x00\x0c\x79\x00\x00\x1d\x0d\x02\x00\xfb\x78\x00\x00\xb5\x0e\x02\x00\xee\x78\x00\x00\x97\x0f\x02\x00\xe2\x78\x00\x00\xf0\xf1\x01\x00\xcb\x78\x00\x00\x49\xf2\x01\x00\xbe\x78\x00\x00\xa0\xf2\x01\x00\xaf\x78\x00\x00\x04\xf4\x01\x00\xa2\x78\x00\x00\x90\xf3\x01\x00\x95\x78\x00\x00\x0f\xf7\x01\x00\x88\x78\x00\x00\xef\xf2\x01\x00\x76\x78\x00\x00\x56\xf7\x01\x00\x69\x78\x00\x00\x1a\xf8\x01\x00\x5d\x78\x00\x00\x44\xf8\x01\x00\x4d\x78\x00\x00\x4d\xf8\x01\x00\x3d\x78\x00\x00\xd3\xf8\x01\x00\x31\x78\x00\x00\xb1\x0d\x02\x00\x2b\x78\x00\x00\x66\xba\x01\x00\x1f\x78\x00\x00\x04\xe1\x01\x00\x0a\x78\x00\x00\xab\xbb\x01\x00\xff\x77\x00\x00\xae\xbb\x01\x00\xeb\x77\x00\x00\x9a\xbc\x01\x00\xd8\x77\x00\x00\x04\xbd\x01\x00\xc9\x77\x00\x00\xfe\xbe\x01\x00\xb9\x77\x00\x00\x14\xbf\x01\x00\xaa\x77\x00\x00\x09\xbf\x01\x00\x97\x77\x00\x00\x63\x0a\x02\x00\x83\x77\x00\x00\x66\x0a\x02\x00\x71\x77\x00\x00\x69\x0a\x02\x00\x5e\x77\x00\x00\x6c\x0a\x02\x00\x51\x77\x00\x00\x46\xe6\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\xda\xe7\x01\x00\xee\xe7\x01\x00\x8c\xe7\x01\x00\xa0\xe7\x01\x00\x02\xe8\x01\x00\x0e\x77\x00\x00\x03\x77\x00\x00\xfc\x76\x00\x00\x61\x7a\x00\x00\xf8\x76\x00\x00\xf0\x76\x00\x00\xe8\x76\x00\x00\xde\x76\x00\x00\x22\xef\x01\x00\x29\xef\x01\x00\x30\xef\x01\x00\x37\xef\x01\x00\x3e\xef\x01\x00\x45\xef\x01\x00\x4c\xef\x01\x00\x53\xef\x01\x00\x5a\xef\x01\x00\x61\xef\x01\x00\x68\xef\x01\x00\x6f\xef\x01\x00";
 int		remapCount = 0; // Used by: BuildShaderStateConfig, AddRemap
 char	global_1a30[12] = "\x00\x00\x00\x00\x00\x00\x80\xbf\x00\x00\x00\x00";
-char	global_1a3c[12] = "\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80\x3f"; // Used by: G_SetMovedir
-char	global_1a48[12] = "\x00\x00\x00\x00\x00\x00\x00\xc0\x00\x00\x00\x00";
+char	global_1a3c[24] = "\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80\x3f\x00\x00\x00\x00\x00\x00\x00\xc0\x00\x00\x00\x00"; // Used by: G_SetMovedir
 char	global_1a54[12] = "\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80\xbf"; // Used by: G_SetMovedir
-char	global_1a60[12] = "\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80\x3f"; // Used by: DebugLine
-char	global_1a6c[40] = "\x74\x25\x02\x00\x8c\x25\x02\x00\x84\x25\x02\x00\xac\x25\x02\x00\xb4\x25\x02\x00\x7c\x25\x02\x00\xc4\x25\x02\x00\xbc\x25\x02\x00\xcc\x25\x02\x00\xd4\x25\x02\x00";
+char	global_1a60[52] = "\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80\x3f\x74\x25\x02\x00\x8c\x25\x02\x00\x84\x25\x02\x00\xac\x25\x02\x00\xb4\x25\x02\x00\x7c\x25\x02\x00\xc4\x25\x02\x00\xbc\x25\x02\x00\xcc\x25\x02\x00\xd4\x25\x02\x00"; // Used by: DebugLine
 int		vec3_origin = 0; // Used by: AnglesToAxis, ByteToDir, G_TryPushingProxMine, PM_NoclipMove
 int		global_1a98 = 0; // Used by: AnglesToAxis, G_TryPushingProxMine
 int		global_1a9c = 0; // Used by: AnglesToAxis, G_TryPushingProxMine
@@ -437,8 +431,7 @@ char	lit_371c[11] = "help_start";
 char	lit_3727[37] = "\x25\x73\x20\x61\x74\x20\x25\x32\x2e\x31\x66\x20\x65\x6e\x74\x65\x72\x65\x64\x20\x25\x73\x3a\x20\x25\x73\x20\x66\x72\x6f\x6d\x20\x25\x73\x0a\x00\x00";
 char	lit_374c[3] = "%s";
 char	lit_374f[44] = "\x25\x73\x20\x61\x74\x20\x25\x31\x2e\x31\x66\x20\x73\x77\x69\x74\x63\x68\x65\x64\x20\x6d\x6f\x72\x65\x20\x74\x68\x61\x6e\x20\x25\x64\x20\x41\x49\x20\x6e\x6f\x64\x65\x73\x0a\x00";
-char	lit_377b[128] = "\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"; // Used by: EasyClientName
-char	lit_37fb[24] = "\x00\x43\x54\x46\x20\x77\x69\x74\x68\x6f\x75\x74\x20\x42\x6c\x75\x65\x20\x46\x6c\x61\x67\x0a\x00";
+char	lit_377b[152] = "\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x43\x54\x46\x20\x77\x69\x74\x68\x6f\x75\x74\x20\x42\x6c\x75\x65\x20\x46\x6c\x61\x67\x0a\x00"; // Used by: EasyClientName
 char	lit_3813[10] = "Blue Flag";
 char	lit_381d[22] = "\x43\x54\x46\x20\x77\x69\x74\x68\x6f\x75\x74\x20\x52\x65\x64\x20\x46\x6c\x61\x67\x0a\x00";
 char	lit_3833[9] = "Red Flag";
@@ -1465,8 +1458,7 @@ int		lit_7ab8 = "\x00\x00\x00\x00"; // Used by: UpdateIPBans
 int		lit_7abc = "\x00\x00\x00\x00"; // Used by: UpdateIPBans
 char	lit_7ac0[256] = "\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"; // Used by: UpdateIPBans
 char	lit_7bc0[64] = "\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"; // Used by: UpdateIPBans
-int		lit_7c00 = "\x00\x00\x00\x00"; // Used by: G_FilterPacket
-char	lit_7c04[18] = "\x70\x72\x69\x6e\x74\x20\x22\x73\x65\x72\x76\x65\x72\x3a\x20\x25\x73\x0a";
+char	lit_7c00[22] = "\x00\x00\x00\x00\x70\x72\x69\x6e\x74\x20\x22\x73\x65\x72\x76\x65\x72\x3a\x20\x25\x73\x0a"; // Used by: G_FilterPacket
 short	lit_7c16 = "\"";
 int		lit_7c18 = "say";
 char	lit_7c1c[10] = "\x67\x5f\x62\x61\x6e\x49\x50\x73\x0a\x00";
@@ -2846,13 +2838,13 @@ MoveClientToIntermission
 Address: 0x966
 Stack Size: 0x14
 Opcodes Size: 0x77
-Locals Count: 1
+Locals Count: 3
 
 Calls: memset, FindIntermissionPoint, StopFollowing
 Called by: ClientSpawn, BeginIntermission
 =================
 */
-void MoveClientToIntermission(int arg_0) {
+void MoveClientToIntermission(int arg_0, int arg_232094, int arg_232097) {
 
 	arg_0 = arg_0;
 	if (*(int *)(*(int *)(arg_0 + 0x204) + 0x270) != 0x2) goto jmp_97b;
@@ -2880,13 +2872,13 @@ FindIntermissionPoint
 Address: 0x9dd
 Stack Size: 0x38
 Opcodes Size: 0x70
-Locals Count: 8
+Locals Count: 10
 
 Calls: vectoangles, G_PickTarget, SelectSpawnPoint, G_Find
 Called by: SelectSpectatorSpawnPoint, MoveClientToIntermission
 =================
 */
-void FindIntermissionPoint(void) {
+void FindIntermissionPoint(, int arg_232085, int arg_232088) {
 	int		local_18;
 	int		local_1c;
 	int		local_20;
@@ -6515,7 +6507,7 @@ BotMatch_HelpAccompany
 Address: 0x3403
 Stack Size: 0x510
 Opcodes Size: 0x23d
-Locals Count: 18
+Locals Count: 19
 
 Calls: trap_BotEnterChat, trap_BotFindMatch, trap_BotMatchVariable, BotRememberLastOrderedTask, BotSetTeamStatus, BotGetTime, rand, BotGetMessageTeamGoal, BotPointAreaNum, BotEntityInfo, BotAI_BotInitialChat, BotSameTeam, FindClientByName, ClientFromName, BotAddressedToBot, TeamPlayIsOn
 Called by: BotMatchMessage
@@ -6526,7 +6518,8 @@ void BotMatch_HelpAccompany(int arg_0, int arg_1) {
 	char	local_1c[256];
 	char	local_11c[256];
 	char	local_21c[24];
-	char	local_234[116];
+	char	local_234[12];
+	char	local_240[104];
 	char	local_2a8[256];
 	char	local_3a8[72];
 	int		local_3f0;
@@ -6768,7 +6761,7 @@ BotMatch_Camp
 Address: 0x3796
 Stack Size: 0x2c8
 Opcodes Size: 0x1c1
-Locals Count: 15
+Locals Count: 16
 
 Calls: trap_BotEnterChat, trap_BotMatchVariable, BotRememberLastOrderedTask, BotSetTeamStatus, BotGetTime, rand, BotGetMessageTeamGoal, ClientFromName, BotPointAreaNum, BotEntityInfo, BotAI_BotInitialChat, FindClientByName, BotAddressedToBot, TeamPlayIsOn
 Called by: BotMatchMessage
@@ -6779,7 +6772,8 @@ void BotMatch_Camp(int arg_0, int arg_1) {
 	char	local_1c[256];
 	char	local_11c[256];
 	char	local_21c[24];
-	char	local_234[116];
+	char	local_234[12];
+	char	local_240[104];
 	int		local_2a8;
 	int		local_2ac;
 	int		local_2b0;
@@ -7783,13 +7777,13 @@ BotMatch_WhereAreYou
 Address: 0x438d
 Stack Size: 0x1d8
 Opcodes Size: 0x12e
-Locals Count: 19
+Locals Count: 20
 
 Calls: trap_BotEnterChat, trap_BotMatchVariable, trap_AAS_AreaTravelTimeToGoalArea, ClientFromName, BotAI_BotInitialChat, BotNearestVisibleItem, BotAddressedToBot, TeamPlayIsOn
 Called by: BotMatchMessage
 =================
 */
-void BotMatch_WhereAreYou(int arg_0, int arg_1) {
+void BotMatch_WhereAreYou(int arg_0, int arg_1, int arg_276) {
 	int		local_1c;
 	int		local_20;
 	char	local_24[72];
@@ -7867,7 +7861,7 @@ BotMatch_LeadTheWay
 Address: 0x44bb
 Stack Size: 0x2c0
 Opcodes Size: 0x15e
-Locals Count: 13
+Locals Count: 14
 
 Calls: trap_BotEnterChat, trap_BotMatchVariable, rand, BotPointAreaNum, BotEntityInfo, BotAI_BotInitialChat, ClientFromName, BotSameTeam, FindClientByName, BotAddressedToBot, TeamPlayIsOn
 Called by: BotMatchMessage
@@ -7876,7 +7870,8 @@ Called by: BotMatchMessage
 void BotMatch_LeadTheWay(int arg_0, int arg_1) {
 	int		local_18;
 	char	local_1c[24];
-	char	local_34[116];
+	char	local_34[12];
+	char	local_40[104];
 	char	local_a8[256];
 	char	local_1a8[256];
 	int		local_2a8;
@@ -8300,18 +8295,19 @@ BotGetAirGoal
 Address: 0x49da
 Stack Size: 0xb0
 Opcodes Size: 0xbd
-Locals Count: 12
+Locals Count: 15
 
 Calls: BotPointAreaNum, BotAI_Trace
 Called by: BotGoForAir
 =================
 */
-int BotGetAirGoal(int arg_0, int arg_1) {
+int BotGetAirGoal(int arg_0, int arg_1, int arg_386, int arg_389) {
 	char	local_24[8];
 	int		local_2c;
 	char	local_30[8];
 	int		local_38;
-	char	local_3c[72];
+	char	local_3c[12];
+	char	local_48[60];
 	char	local_84[12];
 	char	local_90[12];
 	char	local_9c[12];
@@ -9155,7 +9151,7 @@ BotLongTermGoal
 Address: 0x5ba4
 Stack Size: 0x1dc
 Opcodes Size: 0x265
-Locals Count: 21
+Locals Count: 22
 
 Calls: memcpy, trap_AAS_AreaReachability, trap_BotEnterChat, vectoangles, VectorLengthSquared, BotEntityVisible, BotPointAreaNum, BotEntityInfo, BotGetLongTermGoal, BotAI_BotInitialChat, EasyClientName
 Called by: AINode_Battle_Retreat, AINode_Seek_LTG
@@ -9168,7 +9164,8 @@ int BotLongTermGoal(int arg_0, int arg_1, int arg_2, int arg_3) {
 	char	local_28[24];
 	int		local_40;
 	int		local_44;
-	char	local_48[108];
+	int		local_48;
+	char	local_4c[104];
 	char	local_b4[256];
 	int		local_1b4;
 	int		local_1b8;
@@ -9251,7 +9248,7 @@ jmp_5d79:
 jmp_5dba:
 	local_1c = (local_40 - *(int *)(arg_0 + 0x129c));
 	local_20 = (local_44 - *(int *)(arg_0 + 0x12a0));
-	local_24 = (*(int *)local_48 - *(int *)(arg_0 + 0x12a4));
+	local_24 = (local_48 - *(int *)(arg_0 + 0x12a4));
 	vectoangles(&local_1c, (arg_0 + 0x191c));
 	local_1d8 = (arg_0 + 0x1924);
 	*(int *)local_1d8 = (0x3f000000 * *(int *)local_1d8);
@@ -9580,7 +9577,7 @@ BotClearPath
 Address: 0x6145
 Stack Size: 0x19c
 Opcodes Size: 0x255
-Locals Count: 28
+Locals Count: 29
 
 Calls: trap_EA_Attack, VectorLength, BotAI_Trace, InFieldOfVision, BotSelectActivateWeapon, vectoangles, BotAI_GetEntityState
 Called by: AINode_Seek_LTG, AINode_Seek_NBG, AINode_Seek_ActivateEntity
@@ -9593,7 +9590,8 @@ void BotClearPath(int arg_0, int arg_1) {
 	char	local_30[24];
 	int		local_48;
 	int		local_4c;
-	char	local_50[176];
+	int		local_50;
+	char	local_54[172];
 	int		local_100;
 	int		local_104;
 	int		local_108;
@@ -9663,7 +9661,7 @@ jmp_6246:
 	BotAI_GetEntityState(*(int *)((local_100 << 0x2) + (arg_0 + 0x17e0)), local_30);
 	local_24 = (local_48 - *(int *)(arg_0 + 0x129c));
 	local_28 = (local_4c - *(int *)(arg_0 + 0x12a0));
-	local_2c = (*(int *)local_50 - *(int *)(arg_0 + 0x12a4));
+	local_2c = (local_50 - *(int *)(arg_0 + 0x12a4));
 	local_174 = VectorLength(&local_24);
 	local_104 = local_174;
 	if (local_104 >= local_108) goto jmp_628b;
@@ -10427,14 +10425,15 @@ AINode_Battle_Fight
 Address: 0x6e8d
 Stack Size: 0x140
 Opcodes Size: 0x2b4
-Locals Count: 24
+Locals Count: 25
 
 Calls: trap_BotResetAvoidReach, trap_AAS_AreaReachability, AIEnter_Battle_Retreat, BotWantsToRetreat, BotCheckAttack, BotAimAtEnemy, BotAIBlocked, BotAttackMove, BotChooseWeapon, BotCanAndWantsToRocketJump, BotInLavaOrSlime, BotBattleUseItems, AIEnter_Battle_Chase, BotWantsToChase, BotEntityVisible, BotChat_HitNoKill, BotChat_HitNoDeath, BotUpdateBattleInventory, BotPointAreaNum, rand, EntityIsShooting, EntityIsInvisible, EntityIsDead, AIEnter_Stand, BotChatTime, BotChat_Kill, BotChat_EnemySuicide, BotEntityInfo, AIEnter_Seek_LTG, BotFindEnemy, AIEnter_Respawn, BotIsDead, AIEnter_Intermission, BotIntermission, AIEnter_Observer, BotIsObserver
 =================
 */
 int AINode_Battle_Fight(int arg_0) {
 	char	local_1c[24];
-	char	local_34[116];
+	char	local_34[12];
+	char	local_40[104];
 	char	local_a8[52];
 	int		local_dc;
 	char	local_e0[12];
@@ -10805,7 +10804,7 @@ AINode_Battle_Retreat
 Address: 0x7423
 Stack Size: 0x18c
 Opcodes Size: 0x303
-Locals Count: 35
+Locals Count: 36
 
 Calls: trap_BotMovementViewTarget, trap_Characteristic_BFloat, trap_BotResetAvoidReach, trap_BotMoveToGoal, trap_BotResetLastAvoidReach, trap_AAS_AreaReachability, trap_BotEmptyGoalStack, BotCheckAttack, vectoangles, BotAimAtEnemy, BotChooseWeapon, BotAIBlocked, BotSetupForMovement, AIEnter_Battle_NBG, BotNearbyGoal, BotCTFCarryingFlag, AIEnter_Battle_SuicidalFight, BotLongTermGoal, BotBattleUseItems, BotTeamGoals, AIEnter_Battle_Fight, BotPointAreaNum, BotEntityVisible, AIEnter_Battle_Chase, BotWantsToChase, BotUpdateBattleInventory, BotMapScripts, BotInLavaOrSlime, BotFindEnemy, EntityIsDead, BotEntityInfo, AIEnter_Seek_LTG, AIEnter_Respawn, BotIsDead, AIEnter_Intermission, BotIntermission, AIEnter_Observer, BotIsObserver
 =================
@@ -10818,7 +10817,8 @@ int AINode_Battle_Retreat(int arg_0) {
 	char	local_44[12];
 	char	local_50[56];
 	char	local_88[24];
-	char	local_a0[116];
+	char	local_a0[12];
+	char	local_ac[104];
 	int		local_114;
 	int		local_118;
 	int		local_11c;
@@ -11007,7 +11007,7 @@ AINode_Battle_NBG
 Address: 0x773c
 Stack Size: 0x180
 Opcodes Size: 0x288
-Locals Count: 34
+Locals Count: 35
 
 Calls: trap_BotMovementViewTarget, trap_Characteristic_BFloat, trap_BotResetAvoidReach, trap_BotMoveToGoal, trap_BotPopGoal, trap_BotGetTopGoal, trap_AAS_AreaReachability, BotCheckAttack, vectoangles, BotAimAtEnemy, BotChooseWeapon, BotUpdateBattleInventory, BotAIBlocked, BotSetupForMovement, AIEnter_Battle_Fight, AIEnter_Battle_Retreat, BotReachedGoal, BotPointAreaNum, BotEntityVisible, BotMapScripts, BotCanAndWantsToRocketJump, BotInLavaOrSlime, EntityIsDead, BotEntityInfo, AIEnter_Seek_NBG, AIEnter_Respawn, BotIsDead, AIEnter_Intermission, BotIntermission, AIEnter_Observer, BotIsObserver
 =================
@@ -11020,7 +11020,8 @@ int AINode_Battle_NBG(int arg_0) {
 	char	local_44[12];
 	char	local_50[56];
 	char	local_88[24];
-	char	local_a0[116];
+	char	local_a0[12];
+	char	local_ac[104];
 	int		local_114;
 	int		local_118;
 	int		local_11c;
@@ -12191,18 +12192,19 @@ EasyClientName
 Address: 0x846d
 Stack Size: 0xd8
 Opcodes Size: 0x17b
-Locals Count: 22
+Locals Count: 24
 
 Calls: strncpy, memmove, strlen, strstr, ClientName
 Called by: BotVoiceChat_WantOnOffense, BotVoiceChat_WantOnDefense, BotVoiceChat_FollowMe, BotVoiceChat_Camp, BotSetInfoConfigString, BotReportStatus, BotLongTermGoal, BotGetLongTermGoal, BotMatch_WhatAreYouDoing, BotMatch_TaskPreference, BotChatTest, BotChat_Random, BotChat_EnemySuicide, BotChat_Kill, BotChat_Death, BotChat_EndLevel, BotChat_StartLevel, BotChat_ExitGame, BotChat_EnterGame, BotRandomOpponentName, BotLastClientInRankings, BotFirstClientInRankings
 =================
 */
-int EasyClientName(int arg_0, int arg_1, int arg_2) {
+int EasyClientName(int arg_0, int arg_1, int arg_2, int arg_3526) {
 	int		local_14;
 	char	local_18;
 	char	local_19;
 	char	local_1a;
-	char	local_1b[129];
+	char	local_1b[126];
+	char	local_99[3];
 	int		local_9c;
 	int		local_a0;
 	int		local_a4;
@@ -12836,13 +12838,13 @@ BotCreateWayPoint
 Address: 0x8aaf
 Stack Size: 0x34
 Opcodes Size: 0x5e
-Locals Count: 7
+Locals Count: 9
 
 Calls: Q_strncpyz, BotAI_Print
 Called by: BotMatch_CheckPoint, BotGetPatrolWaypoints
 =================
 */
-int BotCreateWayPoint(int arg_0, int arg_1, int arg_2) {
+int BotCreateWayPoint(int arg_0, int arg_1, int arg_2, int arg_423, int arg_426) {
 	int		local_14;
 	char	local_18[12];
 	char	local_24[12];
@@ -13574,13 +13576,13 @@ BotAttackMove
 Address: 0x9202
 Stack Size: 0x1a8
 Opcodes Size: 0x2ef
-Locals Count: 50
+Locals Count: 51
 
 Calls: trap_BotMoveInDirection, trap_Characteristic_BFloat, memset, trap_BotMoveToGoal, CrossProduct, rand, VectorNormalize, BotEntityInfo, BotSetupForMovement
 Called by: AINode_Battle_Fight
 =================
 */
-void BotAttackMove(int arg_0, int arg_1, int arg_2) {
+void BotAttackMove(int arg_0, int arg_1, int arg_2, int arg_336) {
 	int		local_18;
 	int		local_1c;
 	int		local_20;
@@ -13875,7 +13877,7 @@ BotEntityVisible
 Address: 0x95d4
 Stack Size: 0x1a0
 Opcodes Size: 0x26a
-Locals Count: 55
+Locals Count: 56
 
 Calls: trap_AAS_PointContents, VectorLengthSquared, BotAI_Trace, InFieldOfVision, vectoangles, BotEntityInfo
 Called by: BotAimAtEnemy, BotVisibleTeamMatesAndEnemies, BotEnemyFlagCarrierVisible, BotTeamFlagCarrierVisible, BotFindEnemy, AINode_Battle_NBG, AINode_Battle_Retreat, AINode_Battle_Chase, AINode_Battle_Fight, BotLongTermGoal, BotGetLongTermGoal, BotVisibleEnemies
@@ -13886,7 +13888,8 @@ int BotEntityVisible(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4) {
 	int		local_2c;
 	int		local_30;
 	int		local_34;
-	char	local_38[56];
+	int		local_38;
+	char	local_3c[52];
 	int		local_70;
 	int		local_74;
 	int		local_78;
@@ -14016,7 +14019,7 @@ jmp_9714:
 	if (local_154 == local_190) goto jmp_9755;
 	local_ac = (local_30 - *(int *)arg_1);
 	local_b0 = (local_34 - *(int *)(arg_1 + 0x4));
-	local_b4 = (*(int *)local_38 - *(int *)(arg_1 + 0x8));
+	local_b4 = (local_38 - *(int *)(arg_1 + 0x8));
 	local_198 = VectorLengthSquared(&local_ac);
 	local_150 = local_198;
 	goto jmp_97df;
@@ -14034,7 +14037,7 @@ jmp_9755:
 	BotAI_Trace();
 	local_ac = (*(int *)arg_1 - local_30);
 	local_b0 = (*(int *)(arg_1 + 0x4) - local_34);
-	local_b4 = (*(int *)(arg_1 + 0x8) - *(int *)local_38);
+	local_b4 = (*(int *)(arg_1 + 0x8) - local_38);
 	local_19c = VectorLengthSquared(&local_ac);
 	local_150 = local_19c;
 	goto jmp_97df;
@@ -14052,7 +14055,7 @@ jmp_979c:
 	BotAI_Trace();
 	local_ac = (local_8c - local_30);
 	local_b0 = (local_90 - local_34);
-	local_b4 = (local_94 - *(int *)local_38);
+	local_b4 = (local_94 - local_38);
 	local_198 = VectorLengthSquared(&local_ac);
 	local_150 = local_198;
 	goto jmp_97df;
@@ -14525,19 +14528,20 @@ BotAimAtEnemy
 Address: 0x9cd3
 Stack Size: 0x4b8
 Opcodes Size: 0x7de
-Locals Count: 85
+Locals Count: 90
 
 Calls: trap_EA_View, trap_BotPredictVisiblePosition, trap_AAS_PredictClientMovement, trap_BotGetWeaponInfo, trap_Characteristic_BFloat, AngleMod, fabs, VectorNormalize, VectorLength, BotAI_Trace, BotEntityVisible, VectorLengthSquared, rand, EntityIsInvisible, vectoangles, BotEntityInfo
 Called by: AINode_Battle_NBG, AINode_Battle_Retreat, AINode_Battle_Chase, AINode_Battle_Fight
 =================
 */
-void BotAimAtEnemy(int arg_0) {
+void BotAimAtEnemy(int arg_0, int arg_143, int arg_146) {
 	char	local_3c[16];
 	int		local_4c;
 	int		local_50;
 	int		local_54;
 	int		local_58;
-	char	local_5c[28];
+	int		local_5c;
+	char	local_60[24];
 	int		local_78;
 	int		local_7c;
 	char	local_80[72];
@@ -14565,7 +14569,8 @@ void BotAimAtEnemy(int arg_0) {
 	int		local_328;
 	int		local_32c;
 	int		local_330;
-	char	local_334[60];
+	int		local_334;
+	char	local_338[56];
 	int		local_370;
 	int		local_374;
 	int		local_378;
@@ -14611,7 +14616,8 @@ void BotAimAtEnemy(int arg_0) {
 	int		local_448;
 	int		local_44c;
 	int		local_450;
-	char	local_454[84];
+	char	local_454[8];
+	char	local_45c[76];
 	int		local_4a8;
 	int		local_4ac;
 	int		local_4b0;
@@ -14706,7 +14712,7 @@ jmp_9ebe:
 jmp_9ee6:
 	local_304 = (local_54 - local_78);
 	local_308 = (local_58 - local_7c);
-	local_30c = (*(int *)local_5c - *(int *)local_80);
+	local_30c = (local_5c - *(int *)local_80);
 	*(int *)local_424 = 0x3f800000;
 	local_304 = (local_304 * (*(int *)local_424 / local_4c));
 	local_308 = (local_308 * (*(int *)local_424 / local_4c));
@@ -14719,7 +14725,7 @@ jmp_9f38:
 	if (local_31c >= 0x3f666666) goto jmp_9f86;
 	local_c8 = (local_54 - *(int *)(arg_0 + 0x17d0));
 	local_cc = (local_58 - *(int *)(arg_0 + 0x17d4));
-	local_d0 = (*(int *)local_5c - *(int *)(arg_0 + 0x17d8));
+	local_d0 = (local_5c - *(int *)(arg_0 + 0x17d8));
 	*(int *)local_42c = VectorLengthSquared(&local_c8);
 	if (*(int *)local_42c <= 0x45100000) goto jmp_9f86;
 	if ((((*(int *)(arg_0 + 0x17c4) * local_304) + (*(int *)(arg_0 + 0x17c8) * local_308)) + (*(int *)(arg_0 + 0x17cc) * local_30c)) >= 0x0) goto jmp_9f86;
@@ -14746,7 +14752,7 @@ jmp_9ff0:
 	local_384 = local_438;
 	local_c8 = (local_54 - *(int *)(arg_0 + 0x17d0));
 	local_cc = (local_58 - *(int *)(arg_0 + 0x17d4));
-	local_d0 = (*(int *)local_5c - *(int *)(arg_0 + 0x17d8));
+	local_d0 = (local_5c - *(int *)(arg_0 + 0x17d8));
 	if (local_384 <= 0x42c80000) goto jmp_a048;
 	local_440 = VectorLengthSquared(&local_c8);
 	if (local_440 < 0x44800000) goto jmp_a186;
@@ -14755,12 +14761,12 @@ jmp_a048:
 	if (*(int *)(arg_0 + 0xa4) != 0x0) goto jmp_a0fd;
 	local_c8 = (local_54 - *(int *)(arg_0 + 0x129c));
 	local_cc = (local_58 - *(int *)(arg_0 + 0x12a0));
-	local_d0 = (*(int *)local_5c - *(int *)(arg_0 + 0x12a4));
+	local_d0 = (local_5c - *(int *)(arg_0 + 0x12a4));
 	local_4a8 = VectorLength(&local_c8);
 	local_384 = local_4a8;
 	local_c8 = (local_54 - local_78);
 	local_cc = (local_58 - local_7c);
-	local_d0 = (*(int *)local_5c - *(int *)local_80);
+	local_d0 = (local_5c - *(int *)local_80);
 	local_4ac = 0x3f800000;
 	local_c8 = (local_c8 * (local_4ac / local_4c));
 	local_cc = (local_cc * (local_4ac / local_4c));
@@ -14792,12 +14798,12 @@ jmp_a0fd:
 	if (local_31c <= 0x3ecccccd) goto jmp_a186;
 	local_c8 = (local_54 - *(int *)(arg_0 + 0x129c));
 	local_cc = (local_58 - *(int *)(arg_0 + 0x12a0));
-	local_d0 = (*(int *)local_5c - *(int *)(arg_0 + 0x12a4));
+	local_d0 = (local_5c - *(int *)(arg_0 + 0x12a4));
 	local_448 = VectorLength(&local_c8);
 	local_384 = local_448;
 	local_c8 = (local_54 - local_78);
 	local_cc = (local_58 - local_7c);
-	local_d0 = (*(int *)local_5c - *(int *)local_80);
+	local_d0 = (local_5c - *(int *)local_80);
 	local_d0 = 0x0;
 	local_44c = VectorNormalize(&local_c8);
 	local_410 = (local_44c / local_4c);
@@ -14805,11 +14811,11 @@ jmp_a0fd:
 	*(int *)local_454 = local_410;
 	local_310 = (local_54 + (local_c8 * ((local_450 / *(int *)local_1ec) * *(int *)local_454)));
 	local_314 = (local_58 + (local_cc * ((local_450 / *(int *)local_1ec) * *(int *)local_454)));
-	local_318 = (*(int *)local_5c + (local_d0 * ((local_384 / *(int *)local_1ec) * local_410)));
+	local_318 = (local_5c + (local_d0 * ((local_384 / *(int *)local_1ec) * local_410)));
 jmp_a186:
 	if (local_31c <= 0x3f19999a) goto jmp_a259;
 	if ((*(int *)local_2e8 & 0x2) == 0x0) goto jmp_a259;
-	if (*(int *)local_5c >= (*(int *)(arg_0 + 0x12a4) + 0x41800000)) goto jmp_a259;
+	if (local_5c >= (*(int *)(arg_0 + 0x12a4) + 0x41800000)) goto jmp_a259;
 	block_copy(&local_54, local_3f8, 0xc);
 	local_400 = (local_400 - 0x42800000);
 #define next_call_arg_0 "&local_320"
@@ -14823,10 +14829,10 @@ jmp_a186:
 	BotAI_Trace();
 	block_copy(&local_310, &local_3ec, 0xc);
 	if (local_324 == 0x0) goto jmp_a1c9;
-	local_3f4 = (*(int *)local_5c - 0x41800000);
+	local_3f4 = (local_5c - 0x41800000);
 	goto jmp_a1cf;
 jmp_a1c9:
-	local_3f4 = (*(int *)local_334 - 0x41000000);
+	local_3f4 = (local_334 - 0x41000000);
 jmp_a1cf:
 #define next_call_arg_0 "&local_320"
 #define next_call_arg_1 "&local_388"
@@ -14837,19 +14843,19 @@ jmp_a1cf:
 #define next_call_arg_5 "*(int *)(arg_0 + 0xc)"
 #define next_call_arg_6 "0x6000001"
 	BotAI_Trace();
-	local_43c = fabs((*(int *)local_334 - local_3f4));
+	local_43c = fabs((local_334 - local_3f4));
 	if (local_43c >= 0x42480000) goto jmp_a259;
 	local_c8 = (local_32c - local_3ec);
 	local_cc = (local_330 - local_3f0);
-	local_d0 = (*(int *)local_334 - local_3f4);
+	local_d0 = (local_334 - local_3f4);
 	local_440 = VectorLengthSquared(&local_c8);
 	if (local_440 >= 0x45610000) goto jmp_a259;
 	local_c8 = (local_32c - local_388);
 	local_cc = (local_330 - local_38c);
-	local_d0 = (*(int *)local_334 - local_390);
+	local_d0 = (local_334 - local_390);
 	local_444 = VectorLengthSquared(&local_c8);
 	if (local_444 <= 0x461c4000) goto jmp_a259;
-	*(int *)local_334 = (*(int *)local_334 + 0x3f800000);
+	local_334 = (local_334 + 0x3f800000);
 #define next_call_arg_0 "&local_320"
 #define next_call_arg_1 "&local_32c"
 	local_448 = 0x0;
@@ -14971,13 +14977,13 @@ BotCheckAttack
 Address: 0xa4b1
 Stack Size: 0x42c
 Opcodes Size: 0x279
-Locals Count: 49
+Locals Count: 51
 
 Calls: trap_EA_Attack, trap_BotGetWeaponInfo, trap_Characteristic_BFloat, BotSameTeam, AngleVectors, BotAI_Trace, InFieldOfVision, vectoangles, VectorLengthSquared, rand, BotEntityInfo
 Called by: AINode_Battle_NBG, AINode_Battle_Retreat, AINode_Battle_Fight
 =================
 */
-void BotCheckAttack(int arg_0) {
+void BotCheckAttack(int arg_0, int arg_184, int arg_187) {
 	int		local_24;
 	int		local_28;
 	int		local_2c;
@@ -15145,13 +15151,13 @@ BotMapScripts
 Address: 0xa72a
 Stack Size: 0x5b4
 Opcodes Size: 0x206
-Locals Count: 44
+Locals Count: 47
 
 Calls: trap_EA_Attack, trap_Characteristic_BFloat, strncpy, trap_GetServerinfo, InFieldOfVision, AngleMod, rand, vectoangles, BotSameTeam, EntityIsDead, BotEntityInfo, Q_stricmp, Info_ValueForKey
 Called by: AINode_Battle_NBG, AINode_Battle_Retreat, AINode_Battle_Chase, AINode_Seek_LTG, AINode_Seek_NBG, AINode_Seek_ActivateEntity
 =================
 */
-void BotMapScripts(int arg_0) {
+void BotMapScripts(int arg_0, int arg_92, int arg_95, int arg_98) {
 	char	local_18[20];
 	int		local_2c;
 	int		local_30;
@@ -15301,13 +15307,13 @@ BotSetMovedir
 Address: 0xa930
 Stack Size: 0x24
 Opcodes Size: 0x3b
-Locals Count: 5
+Locals Count: 7
 
 Calls: AngleVectors, VectorCompare
 Called by: BotFuncButtonActivateGoal
 =================
 */
-void BotSetMovedir(int arg_0, int arg_1) {
+void BotSetMovedir(int arg_0, int arg_1, int arg_460, int arg_466) {
 	int		local_18;
 	int		local_1c;
 	int		local_20;
@@ -15408,13 +15414,13 @@ BotFuncButtonActivateGoal
 Address: 0xaa67
 Stack Size: 0x2a8
 Opcodes Size: 0x518
-Locals Count: 67
+Locals Count: 69
 
 Calls: trap_AAS_AreaReachability, trap_AAS_TraceAreas, trap_AAS_PresenceTypeBoundingBox, trap_AAS_FloatForBSPEpairKey, trap_AAS_ValueForBSPEpairKey, BotAI_Trace, fabs, BotSetMovedir, BotModelMinsMaxs, atoi
 Called by: BotGetActivateGoal
 =================
 */
-int BotFuncButtonActivateGoal(int arg_0, int arg_1, int arg_2) {
+int BotFuncButtonActivateGoal(int arg_0, int arg_1, int arg_2, int arg_308, int arg_311) {
 	int		local_24;
 	int		local_28;
 	int		local_2c;
@@ -16343,7 +16349,7 @@ BotGoForActivateGoal
 Address: 0xb7c1
 Stack Size: 0xa0
 Opcodes Size: 0x57
-Locals Count: 5
+Locals Count: 6
 
 Calls: BotEnableActivateGoalAreas, AIEnter_Seek_ActivateEntity, BotPushOntoActivateGoalStack, BotEntityInfo
 Called by: BotAIPredictObstacles, BotAIBlocked
@@ -16351,7 +16357,8 @@ Called by: BotAIPredictObstacles, BotAIBlocked
 */
 int BotGoForActivateGoal(int arg_0, int arg_1) {
 	char	local_10[24];
-	char	local_28[116];
+	char	local_28[12];
+	char	local_34[104];
 	int		local_9c;
 
 	arg_1 = arg_1;
@@ -16443,13 +16450,13 @@ BotAIBlocked
 Address: 0xb8d7
 Stack Size: 0x1f0
 Opcodes Size: 0x1a3
-Locals Count: 28
+Locals Count: 29
 
 Calls: trap_BotMoveInDirection, trap_AAS_AreaReachability, CrossProduct, AngleVectors, rand, VectorNormalize, BotEnableActivateGoalAreas, BotGoForActivateGoal, BotIsGoingToActivateEntity, BotGetActivateGoal, BotEntityInfo, BotRandomMove
 Called by: AINode_Battle_NBG, AINode_Battle_Retreat, AINode_Battle_Chase, AINode_Battle_Fight, AINode_Seek_LTG, AINode_Seek_NBG, AINode_Seek_ActivateEntity
 =================
 */
-void BotAIBlocked(int arg_0, int arg_1, int arg_2) {
+void BotAIBlocked(int arg_0, int arg_1, int arg_2, int arg_360) {
 	int		local_18;
 	int		local_1c;
 	int		local_20;
@@ -16821,13 +16828,13 @@ BotCheckEvents
 Address: 0xbdaa
 Stack Size: 0xbc
 Opcodes Size: 0x221
-Locals Count: 12
+Locals Count: 13
 
 Calls: trap_EA_Use, trap_GetConfigstring, BotGoForPowerups, strcmp, BotAI_Print
 Called by: BotCheckSnapshot
 =================
 */
-void BotCheckEvents(int arg_0, int arg_1) {
+void BotCheckEvents(int arg_0, int arg_1, int arg_234415) {
 	int		local_14;
 	char	local_18[128];
 	int		local_98;
@@ -20210,13 +20217,13 @@ BotCTFOrders_BothFlagsNotAtBase
 Address: 0xe80b
 Stack Size: 0x18c
 Opcodes Size: 0x2c4
-Locals Count: 15
+Locals Count: 16
 
 Calls: BotSayVoiceTeamOrder, BotSayTeamOrder, BotAI_BotInitialChat, ClientName, BotSortTeamMatesByTaskPreference, BotSortTeamMatesByBaseTravelTime
 Called by: BotCTFOrders
 =================
 */
-void BotCTFOrders_BothFlagsNotAtBase(int arg_0) {
+void BotCTFOrders_BothFlagsNotAtBase(int arg_0, int arg_562) {
 	int		local_18;
 	int		local_1c;
 	int		local_20;
@@ -20645,13 +20652,13 @@ BotCTFOrders_BothFlagsAtBase
 Address: 0xf0bc
 Stack Size: 0x158
 Opcodes Size: 0x383
-Locals Count: 12
+Locals Count: 13
 
 Calls: BotSayVoiceTeamOrder, BotSayTeamOrder, BotAI_BotInitialChat, ClientName, BotSortTeamMatesByTaskPreference, BotSortTeamMatesByBaseTravelTime
 Called by: BotCTFOrders
 =================
 */
-void BotCTFOrders_BothFlagsAtBase(int arg_0) {
+void BotCTFOrders_BothFlagsAtBase(int arg_0, int arg_639) {
 	int		local_14;
 	int		local_18;
 	int		local_1c;
@@ -21274,14 +21281,15 @@ BotVoiceChat_Camp
 Address: 0xfa36
 Stack Size: 0xd0
 Opcodes Size: 0xe3
-Locals Count: 7
+Locals Count: 8
 
 Calls: trap_BotEnterChat, BotRememberLastOrderedTask, BotSetTeamStatus, rand, BotAI_BotInitialChat, EasyClientName, BotPointAreaNum, BotEntityInfo
 =================
 */
 void BotVoiceChat_Camp(int arg_0, int arg_1) {
 	char	local_18[24];
-	char	local_30[116];
+	char	local_30[12];
+	char	local_3c[104];
 	int		local_a4;
 	char	local_a8[36];
 	int		local_cc;
@@ -21331,7 +21339,7 @@ BotVoiceChat_FollowMe
 Address: 0xfb19
 Stack Size: 0xd0
 Opcodes Size: 0xf0
-Locals Count: 7
+Locals Count: 8
 
 Calls: trap_BotEnterChat, BotRememberLastOrderedTask, BotSetTeamStatus, rand, BotAI_BotInitialChat, EasyClientName, BotPointAreaNum, BotEntityInfo
 Called by: BotVoiceChat_FollowFlagCarrier
@@ -21339,7 +21347,8 @@ Called by: BotVoiceChat_FollowFlagCarrier
 */
 void BotVoiceChat_FollowMe(int arg_0, int arg_1) {
 	char	local_18[24];
-	char	local_30[116];
+	char	local_30[12];
+	char	local_3c[104];
 	int		local_a4;
 	char	local_a8[36];
 	int		local_cc;
@@ -23446,13 +23455,13 @@ PM_NoclipMove
 Address: 0x114f5
 Stack Size: 0x80
 Opcodes Size: 0x158
-Locals Count: 24
+Locals Count: 25
 
 Calls: PM_Accelerate, VectorNormalize, PM_CmdScale, VectorLength
 Called by: PmoveSingle
 =================
 */
-void PM_NoclipMove(void) {
+void PM_NoclipMove(, int arg_1670) {
 	int		local_14;
 	char	local_18[8];
 	int		local_20;
@@ -23650,13 +23659,13 @@ PM_CorrectAllSolid
 Address: 0x11767
 Stack Size: 0x4c
 Opcodes Size: 0xef
-Locals Count: 11
+Locals Count: 12
 
 Calls: Com_Printf
 Called by: PM_GroundTrace
 =================
 */
-int PM_CorrectAllSolid(int arg_0) {
+int PM_CorrectAllSolid(int arg_0, int arg_239772) {
 	int		local_24;
 	int		local_28;
 	int		local_2c;
@@ -23782,13 +23791,13 @@ PM_GroundTrace
 Address: 0x118ef
 Stack Size: 0x80
 Opcodes Size: 0x175
-Locals Count: 15
+Locals Count: 16
 
 Calls: PM_AddTouchEnt, PM_CrashLand, PM_ForceLegsAnim, Com_Printf, PM_GroundTraceMissed, PM_CorrectAllSolid
 Called by: PmoveSingle
 =================
 */
-void PM_GroundTrace(void) {
+void PM_GroundTrace(, int arg_239759) {
 	char	local_24[8];
 	char	local_2c[16];
 	int		local_3c;
@@ -24543,13 +24552,13 @@ PmoveSingle
 Address: 0x1228f
 Stack Size: 0x5c
 Opcodes Size: 0x2e9
-Locals Count: 18
+Locals Count: 20
 
 Calls: trap_SnapVector, memset, PM_WaterEvents, PM_Footsteps, PM_TorsoAnimation, PM_Weapon, PM_Animate, PM_WalkMove, PM_WaterMove, PM_WaterJumpMove, PM_AirMove, PM_GrappleMove, PM_DeadMove, PM_GroundTrace, PM_SetWaterLevel, PM_NoclipMove, PM_DropTimers, PM_FlyMove, PM_CheckDuck, AngleVectors, PM_UpdateViewAngles, abs
 Called by: Pmove
 =================
 */
-void PmoveSingle(int arg_0) {
+void PmoveSingle(int arg_0, int arg_239772, int arg_239775) {
 	int		local_18;
 	int		local_1c;
 	int		local_20;
@@ -24784,17 +24793,18 @@ PM_SlideMove
 Address: 0x12604
 Stack Size: 0x154
 Opcodes Size: 0x410
-Locals Count: 55
+Locals Count: 58
 
 Calls: VectorNormalize, CrossProduct, PM_AddTouchEnt, VectorNormalize2, PM_ClipVelocity
 Called by: PM_StepSlideMove, PM_WaterMove
 =================
 */
-int PM_SlideMove(int arg_0) {
+int PM_SlideMove(int arg_0, int arg_239701) {
 	int		local_24;
 	int		local_28;
 	int		local_2c;
-	char	local_30[52];
+	int		local_30;
+	char	local_34[48];
 	int		local_64;
 	int		local_68;
 	int		local_6c;
@@ -24816,7 +24826,8 @@ int PM_SlideMove(int arg_0) {
 	char	local_b0[12];
 	int		local_bc;
 	int		local_c0;
-	char	local_c4[20];
+	int		local_c4;
+	char	local_c8[16];
 	int		local_d8;
 	int		local_dc;
 	int		local_e0;
@@ -24914,13 +24925,13 @@ jmp_12754:
 	goto jmp_127b3;
 jmp_12759:
 	local_124 = (0xc * local_74);
-	if ((((local_bc * *(int *)(local_124 + &local_28)) + (local_c0 * *(int *)(local_124 + &local_2c))) + (*(int *)local_c4 * *(int *)(local_124 + local_30))) <= 0x3f7d70a4) goto jmp_127ad;
+	if ((((local_bc * *(int *)(local_124 + &local_28)) + (local_c0 * *(int *)(local_124 + &local_2c))) + (local_c4 * *(int *)(local_124 + &local_30))) <= 0x3f7d70a4) goto jmp_127ad;
 	local_128 = (*(int *)pm + 0x20);
 	*(int *)local_128 = (local_bc + *(int *)local_128);
 	local_12c = (*(int *)pm + 0x24);
 	*(int *)local_12c = (local_c0 + *(int *)local_12c);
 	local_130 = (*(int *)pm + 0x28);
-	*(int *)local_130 = (*(int *)local_c4 + *(int *)local_130);
+	*(int *)local_130 = (local_c4 + *(int *)local_130);
 	goto jmp_127b8;
 jmp_127ad:
 	local_74 = (local_74 + 0x1);
@@ -24937,7 +24948,7 @@ jmp_127bf:
 jmp_127d2:
 	local_124 = *(int *)pm;
 	local_128 = (0xc * local_74);
-	local_dc = (((*(int *)(local_124 + 0x20) * *(int *)(local_128 + &local_28)) + (*(int *)(local_124 + 0x24) * *(int *)(local_128 + &local_2c))) + (*(int *)(local_124 + 0x28) * *(int *)(local_128 + local_30)));
+	local_dc = (((*(int *)(local_124 + 0x20) * *(int *)(local_128 + &local_28)) + (*(int *)(local_124 + 0x24) * *(int *)(local_128 + &local_2c))) + (*(int *)(local_124 + 0x28) * *(int *)(local_128 + &local_30)));
 	if (local_dc < 0x3dcccccd) goto jmp_12808;
 	goto jmp_129d3;
 jmp_12808:
@@ -24955,7 +24966,7 @@ jmp_12840:
 	goto jmp_129b8;
 jmp_12847:
 	local_12c = (0xc * local_70);
-	if ((((local_64 * *(int *)(local_12c + &local_28)) + (local_68 * *(int *)(local_12c + &local_2c))) + (local_6c * *(int *)(local_12c + local_30))) < 0x3dcccccd) goto jmp_1286b;
+	if ((((local_64 * *(int *)(local_12c + &local_28)) + (local_68 * *(int *)(local_12c + &local_2c))) + (local_6c * *(int *)(local_12c + &local_30))) < 0x3dcccccd) goto jmp_1286b;
 	goto jmp_129b8;
 jmp_1286b:
 	PM_ClipVelocity(&local_64, ((0xc * local_70) + &local_28), &local_64, 0x3f8020c5);
@@ -24963,7 +24974,7 @@ jmp_1286b:
 	PM_ClipVelocity(&local_8c, ((0xc * local_70) + &local_28), &local_8c, 0x3f8020c5);
 jmp_1288f:
 	local_130 = (0xc * local_74);
-	if ((((local_64 * *(int *)(local_130 + &local_28)) + (local_68 * *(int *)(local_130 + &local_2c))) + (local_6c * *(int *)(local_130 + local_30))) < 0x0) goto jmp_128b3;
+	if ((((local_64 * *(int *)(local_130 + &local_28)) + (local_68 * *(int *)(local_130 + &local_2c))) + (local_6c * *(int *)(local_130 + &local_30))) < 0x0) goto jmp_128b3;
 	goto jmp_129b8;
 jmp_128b3:
 	local_134 = 0xc;
@@ -24994,7 +25005,7 @@ jmp_12966:
 	goto jmp_129ad;
 jmp_12968:
 	local_148 = (0xc * local_24);
-	if ((((local_64 * *(int *)(local_148 + &local_28)) + (local_68 * *(int *)(local_148 + &local_2c))) + (local_6c * *(int *)(local_148 + local_30))) < 0x3dcccccd) goto jmp_1298c;
+	if ((((local_64 * *(int *)(local_148 + &local_28)) + (local_68 * *(int *)(local_148 + &local_2c))) + (local_6c * *(int *)(local_148 + &local_30))) < 0x3dcccccd) goto jmp_1298c;
 	goto jmp_129ad;
 jmp_1298c:
 	local_14c = *(int *)pm;
@@ -31263,13 +31274,13 @@ SelectSpectatorSpawnPoint
 Address: 0x17234
 Stack Size: 0x8
 Opcodes Size: 0x10
-Locals Count: 2
+Locals Count: 4
 
 Calls: FindIntermissionPoint
 Called by: ClientSpawn
 =================
 */
-int SelectSpectatorSpawnPoint(int arg_0, int arg_1) {
+int SelectSpectatorSpawnPoint(int arg_0, int arg_1, int arg_232097, int arg_232100) {
 
 	FindIntermissionPoint();
 	block_copy(&bss_e2a88, arg_0, 0xc);
@@ -31948,13 +31959,13 @@ ClientSpawn
 Address: 0x17a8a
 Stack Size: 0x598
 Opcodes Size: 0x3cf
-Locals Count: 33
+Locals Count: 35
 
 Calls: trap_LinkEntity, trap_GetUsercmd, trap_GetUserinfo, memset, BG_PlayerStateToEntityState, ClientEndFrame, ClientThink, MoveClientToIntermission, G_TempEntity, G_UseTargets, G_KillBox, SetClientViewAngle, G_SetOrigin, atoi, Info_ValueForKey, SelectSpawnPoint, SelectInitialSpawnPoint, SelectCTFSpawnPoint, SelectSpectatorSpawnPoint
 Called by: ClientBegin, ClientRespawn
 =================
 */
-void ClientSpawn(int arg_0) {
+void ClientSpawn(int arg_0, int arg_1061, int arg_1064) {
 	int		local_1c;
 	int		local_20;
 	char	local_24[64];
@@ -35465,13 +35476,13 @@ CanDamage
 Address: 0x1a8f6
 Stack Size: 0xbc
 Opcodes Size: 0x231
-Locals Count: 27
+Locals Count: 30
 
 Calls: trap_Trace
 Called by: G_RadiusDamage
 =================
 */
-int CanDamage(int arg_0, int arg_1) {
+int CanDamage(int arg_0, int arg_1, int arg_1428, int arg_1431) {
 	int		local_24;
 	int		local_28;
 	int		local_2c;
@@ -35486,7 +35497,8 @@ int CanDamage(int arg_0, int arg_1) {
 	int		local_7c;
 	int		local_80;
 	int		local_84;
-	char	local_88[12];
+	int		local_88;
+	char	local_8c[8];
 	int		local_94;
 	int		local_98;
 	int		local_9c;
@@ -35527,7 +35539,7 @@ jmp_1a96b:
 	block_copy(&local_68, &local_24, 0xc);
 	local_24 = (local_24 + local_80);
 	local_28 = (local_28 + local_84);
-	local_2c = (local_2c + *(int *)local_88);
+	local_2c = (local_2c + local_88);
 #define next_call_arg_0 "local_30"
 #define next_call_arg_1 "arg_1"
 	local_9c = 0x1a94;
@@ -35543,7 +35555,7 @@ jmp_1a9a2:
 	block_copy(&local_68, &local_24, 0xc);
 	local_24 = (local_24 + local_80);
 	local_28 = (local_28 + local_78);
-	local_2c = (local_2c + *(int *)local_88);
+	local_2c = (local_2c + local_88);
 #define next_call_arg_0 "local_30"
 #define next_call_arg_1 "arg_1"
 	local_a0 = 0x1a94;
@@ -35559,7 +35571,7 @@ jmp_1a9d9:
 	block_copy(&local_68, &local_24, 0xc);
 	local_24 = (local_24 + local_74);
 	local_28 = (local_28 + local_84);
-	local_2c = (local_2c + *(int *)local_88);
+	local_2c = (local_2c + local_88);
 #define next_call_arg_0 "local_30"
 #define next_call_arg_1 "arg_1"
 	local_a4 = 0x1a94;
@@ -35575,7 +35587,7 @@ jmp_1aa10:
 	block_copy(&local_68, &local_24, 0xc);
 	local_24 = (local_24 + local_74);
 	local_28 = (local_28 + local_78);
-	local_2c = (local_2c + *(int *)local_88);
+	local_2c = (local_2c + local_88);
 #define next_call_arg_0 "local_30"
 #define next_call_arg_1 "arg_1"
 	local_a8 = 0x1a94;
@@ -36735,7 +36747,7 @@ G_RunItem
 Address: 0x1b909
 Stack Size: 0x7c
 Opcodes Size: 0xce
-Locals Count: 10
+Locals Count: 11
 
 Calls: trap_PointContents, trap_LinkEntity, trap_Trace, G_BounceItem, G_FreeEntity, Team_FreeEntity, BG_EvaluateTrajectory, G_RunThink
 Called by: G_RunFrame
@@ -36745,7 +36757,8 @@ void G_RunItem(int arg_0) {
 	int		local_24;
 	int		local_28;
 	int		local_2c;
-	char	local_30[44];
+	char	local_30[12];
+	char	local_3c[32];
 	char	local_5c[12];
 	int		local_68;
 	char	local_6c[8];
@@ -37595,7 +37608,7 @@ G_RunMissile
 Address: 0x1c3a5
 Stack Size: 0x84
 Opcodes Size: 0xe5
-Locals Count: 12
+Locals Count: 13
 
 Calls: trap_LinkEntity, trap_Trace, G_RunThink, G_MissileImpact, G_FreeEntity, BG_EvaluateTrajectory
 Called by: G_RunFrame
@@ -37605,7 +37618,8 @@ void G_RunMissile(int arg_0) {
 	int		local_24;
 	int		local_28;
 	int		local_2c;
-	char	local_30[32];
+	char	local_30[12];
+	char	local_3c[20];
 	char	local_50[12];
 	int		local_5c;
 	char	local_60[16];
@@ -38053,7 +38067,7 @@ G_RotatePoint
 Address: 0x1c9d7
 Stack Size: 0x24
 Opcodes Size: 0x68
-Locals Count: 5
+Locals Count: 6
 
 Called by: G_TryPushingEntity
 =================
@@ -38061,14 +38075,15 @@ Called by: G_TryPushingEntity
 void G_RotatePoint(int arg_0, int arg_1) {
 	int		local_8;
 	int		local_c;
-	char	local_10[20];
+	int		local_10;
+	char	local_14[16];
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
 	block_copy(arg_0, &local_8, 0xc);
-	*(int *)arg_0 = (((*(int *)arg_1 * local_8) + (*(int *)(arg_1 + 0x4) * local_c)) + (*(int *)(arg_1 + 0x8) * *(int *)local_10));
-	*(int *)(arg_0 + 0x4) = (((*(int *)(arg_1 + 0xc) * local_8) + (*(int *)(arg_1 + 0x10) * local_c)) + (*(int *)(arg_1 + 0x14) * *(int *)local_10));
-	*(int *)(arg_0 + 0x8) = (((*(int *)(arg_1 + 0x18) * local_8) + (*(int *)(arg_1 + 0x1c) * local_c)) + (*(int *)(arg_1 + 0x20) * *(int *)local_10));
+	*(int *)arg_0 = (((*(int *)arg_1 * local_8) + (*(int *)(arg_1 + 0x4) * local_c)) + (*(int *)(arg_1 + 0x8) * local_10));
+	*(int *)(arg_0 + 0x4) = (((*(int *)(arg_1 + 0xc) * local_8) + (*(int *)(arg_1 + 0x10) * local_c)) + (*(int *)(arg_1 + 0x14) * local_10));
+	*(int *)(arg_0 + 0x8) = (((*(int *)(arg_1 + 0x18) * local_8) + (*(int *)(arg_1 + 0x1c) * local_c)) + (*(int *)(arg_1 + 0x20) * local_10));
 }
 
 /*
@@ -38348,7 +38363,7 @@ G_MoverPush
 Address: 0x1ce8f
 Stack Size: 0x10b8
 Opcodes Size: 0x30c
-Locals Count: 31
+Locals Count: 32
 
 Calls: trap_LinkEntity, trap_EntitiesInBox, trap_UnlinkEntity, G_Damage, G_TryPushingEntity, G_TestEntityPosition, RadiusFromBounds
 Called by: G_MoverTeam
@@ -38368,7 +38383,8 @@ int G_MoverPush(int arg_0, int arg_1, int arg_2, int arg_3) {
 	char	local_50[4096];
 	int		local_1050;
 	char	local_1054[12];
-	char	local_1060[16];
+	char	local_1060[12];
+	int		local_106c;
 	char	local_1070[8];
 	int		local_1078;
 	int		local_107c;
@@ -39180,7 +39196,7 @@ SP_func_door
 Address: 0x1da3f
 Stack Size: 0x88
 Opcodes Size: 0x198
-Locals Count: 17
+Locals Count: 18
 
 Calls: trap_SetBrushModel, InitMover, fabs, G_SetMovedir, G_SpawnInt, G_SpawnFloat, G_SoundIndex
 =================
@@ -39200,7 +39216,8 @@ void SP_func_door(int arg_0) {
 	int		local_54;
 	int		local_58;
 	char	local_5c[24];
-	char	local_74[16];
+	char	local_74[12];
+	int		local_80;
 	int		local_84;
 
 	arg_0 = arg_0;
@@ -40725,13 +40742,13 @@ UpdateIPBans
 Address: 0x1ec4f
 Stack Size: 0x170
 Opcodes Size: 0xbb
-Locals Count: 9
+Locals Count: 13
 
 Calls: trap_Cvar_Set, Com_Printf, strlen, va, Q_strcat
 Called by: Svcmd_RemoveIP_f, AddIP
 =================
 */
-void UpdateIPBans(void) {
+void UpdateIPBans(, int arg_7761, int arg_7762, int arg_7826, int arg_7842) {
 	int		local_14;
 	char	local_18[64];
 	int		local_58;
@@ -40801,12 +40818,12 @@ G_FilterPacket
 Address: 0x1ed0a
 Stack Size: 0x24
 Opcodes Size: 0xb3
-Locals Count: 8
+Locals Count: 9
 
 Called by: ClientConnect
 =================
 */
-int G_FilterPacket(int arg_0) {
+int G_FilterPacket(int arg_0, int arg_7926) {
 	int		local_8;
 	int		local_c;
 	int		local_10;
@@ -40815,7 +40832,7 @@ int G_FilterPacket(int arg_0) {
 	int		local_1c;
 	int		local_20;
 
-	block_copy(&lit_7c00, &local_10, 0x4);
+	block_copy(lit_7c00, &local_10, 0x4);
 	local_c = 0x0;
 	local_8 = arg_0;
 	goto jmp_1ed69;
@@ -41655,7 +41672,7 @@ target_laser_think
 Address: 0x1f4f1
 Stack Size: 0xa0
 Opcodes Size: 0x144
-Locals Count: 17
+Locals Count: 18
 
 Calls: trap_LinkEntity, trap_Trace, G_Damage, VectorNormalize
 Called by: target_laser_on
@@ -41669,7 +41686,8 @@ void target_laser_think(int arg_0) {
 	int		local_38;
 	int		local_3c;
 	char	local_40[12];
-	char	local_4c[40];
+	char	local_4c[12];
+	char	local_58[28];
 	int		local_74;
 	int		local_78;
 	int		local_7c;
@@ -44775,13 +44793,13 @@ G_SetMovedir
 Address: 0x2141f
 Stack Size: 0x28
 Opcodes Size: 0x55
-Locals Count: 6
+Locals Count: 8
 
 Calls: AngleVectors, VectorCompare
 Called by: SP_target_push, InitTrigger, target_laser_start, SP_func_button, SP_func_door, InitShooter, locateCamera
 =================
 */
-void G_SetMovedir(int arg_0, int arg_1) {
+void G_SetMovedir(int arg_0, int arg_1, int arg_1670, int arg_1676) {
 	int		local_18;
 	int		local_1c;
 	int		local_20;
@@ -45220,12 +45238,12 @@ DebugLine
 Address: 0x2180a
 Stack Size: 0x8c
 Opcodes Size: 0x103
-Locals Count: 29
+Locals Count: 30
 
 Calls: trap_DebugPolygonCreate, CrossProduct, VectorNormalize
 =================
 */
-int DebugLine(int arg_0, int arg_1, int arg_2) {
+int DebugLine(int arg_0, int arg_1, int arg_2, int arg_1654) {
 	int		local_14;
 	int		local_18;
 	int		local_1c;
@@ -45875,13 +45893,13 @@ weapon_railgun_fire
 Address: 0x21f8d
 Stack Size: 0xd8
 Opcodes Size: 0x215
-Locals Count: 34
+Locals Count: 35
 
 Calls: trap_LinkEntity, trap_UnlinkEntity, trap_Trace, DirToByte, G_TempEntity, SnapVectorTowards, G_Damage, LogAccuracyHit
 Called by: FireWeapon
 =================
 */
-void weapon_railgun_fire(int arg_0) {
+void weapon_railgun_fire(int arg_0, int arg_323543) {
 	int		local_28;
 	char	local_2c[12];
 	char	local_38[12];
@@ -46066,7 +46084,7 @@ Weapon_HookThink
 Address: 0x221fe
 Stack Size: 0x44
 Opcodes Size: 0x92
-Locals Count: 11
+Locals Count: 12
 
 Calls: G_SetOrigin, SnapVectorTowards
 =================
@@ -46075,7 +46093,8 @@ void Weapon_HookThink(int arg_0) {
 	int		local_10;
 	int		local_14;
 	int		local_18;
-	char	local_1c[16];
+	char	local_1c[12];
+	int		local_28;
 	int		local_2c;
 	int		local_30;
 	int		local_34;
@@ -46751,11 +46770,11 @@ ByteToDir
 Address: 0x228c0
 Stack Size: 0xc
 Opcodes Size: 0x1e
-Locals Count: 2
+Locals Count: 3
 
 =================
 */
-void ByteToDir(int arg_0, int arg_1) {
+void ByteToDir(int arg_0, int arg_1, int arg_1699) {
 
 	arg_0 = arg_0;
 	if (arg_0 < 0x0) goto jmp_228cd;
@@ -47096,13 +47115,14 @@ RotateAroundDirection
 Address: 0x22c22
 Stack Size: 0x30
 Opcodes Size: 0x3e
-Locals Count: 4
+Locals Count: 5
 
 Calls: CrossProduct, RotatePointAroundVector, PerpendicularVector
 =================
 */
 void RotateAroundDirection(int arg_0, int arg_1) {
-	char	local_1c[16];
+	char	local_1c[12];
+	int		local_28;
 	int		local_2c;
 
 	arg_0 = arg_0;

@@ -42,6 +42,7 @@ typedef struct qvm_s {
     qvm_opblock_t   *opblocks;
     qvm_variable_t  *globals;
     unsigned int    globals_count;
+    unsigned int    locals_count;
     qvm_map_t       *map;
     unsigned int    map_count;
     float           restored_calls_perc;

@@ -341,19 +341,20 @@ int opb_load_variables(qvm_t *qvm, qvm_opblock_t *opb)
         }
 
     // check if there is a constant or a local address loaded by block_copy opcode
-    // TODO: Handle locals
     if (opb->info->id == OPB_STRUCT_COPY) {
-        if (opb->op1->info->id == OPB_CONST) {
-            if (!(opb->op1->variable = var_get(qvm, NULL, opb->op1->opcode->value, 0, opb->function)))
+        if (opb->op1->info->id == OPB_CONST || opb->op1->info->id == OPB_LOCAL_ADR) {
+            if (!(opb->op1->variable = var_get(qvm, opb->op1->info->id != OPB_CONST ? opb->function : NULL, opb->op1->opcode->value, 0, opb->function)))
                 return 0;
-            opb->op1->info = &qvm_opblocks_info[OPB_GLOBAL_ADR];
-            var_get(qvm, NULL, opb->op1->opcode->value + opb->opcode->value, 0, NULL);
+            if (opb->op1->info->id == OPB_CONST)
+                opb->op1->info = &qvm_opblocks_info[OPB_GLOBAL_ADR];
+            var_get(qvm, opb->op1->info->id != OPB_CONST ? opb->function : NULL, opb->op1->opcode->value + opb->opcode->value, 0, NULL);
         }
-        if (opb->op2->info->id == OPB_CONST) {
-            if (!(opb->op2->variable = var_get(qvm, NULL, opb->op2->opcode->value, 0, opb->function)))
+        if (opb->op2->info->id == OPB_CONST || opb->op2->info->id == OPB_LOCAL_ADR) {
+            if (!(opb->op2->variable = var_get(qvm, opb->op2->info->id != OPB_CONST ? opb->function : NULL, opb->op2->opcode->value, 0, opb->function)))
                 return 0;
-            opb->op2->info = &qvm_opblocks_info[OPB_GLOBAL_ADR];
-            var_get(qvm, NULL, opb->op2->opcode->value + opb->opcode->value, 0, NULL);
+            if (opb->op2->info->id == OPB_CONST)
+                opb->op2->info = &qvm_opblocks_info[OPB_GLOBAL_ADR];
+            var_get(qvm, opb->op2->info->id != OPB_CONST ? opb->function : NULL, opb->op2->opcode->value + opb->opcode->value, 0, NULL);
         }
     }
 
