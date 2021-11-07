@@ -5,6 +5,7 @@ static void     qvm_disassemble_header(qvm_t *qvm, file_t *file);
 static void     qvm_disassemble_functions(qvm_t *qvm, file_t *file);
 static void     qvm_disassemble_function_header(file_t *file, qvm_function_t *func);
 static void     qvm_disassemble_function_code(qvm_t *qvm, file_t *file, qvm_function_t *func);
+static void     qvm_disassemble_opcode(qvm_t *qvm, file_t *file, qvm_opcode_t *op);
 
 int qvm_disassemble(qvm_t *qvm, char *filename)
 {
@@ -133,7 +134,7 @@ static void qvm_disassemble_function_code(qvm_t *qvm, file_t *file, qvm_function
 
 static void qvm_disassemble_opcode(qvm_t *qvm, file_t *file, qvm_opcode_t *op)
 {
-    unsigned int    address = op - qvm->opcodes / sizeof(*op);
+    unsigned int    address = op - qvm->opcodes;
 
     // print the opcode name
     file_print(file, "0x%-6x %s", address, op->info->name);
