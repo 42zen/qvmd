@@ -8,7 +8,8 @@ file_t          *file_read(char *filename);
 char            *file_ext(char *filename);
 void            file_print(file_t *file, char *format, ...);
 static int      file_is_endline(file_t *file);
-char            *file_get_nextline(file_t *file);
+static char     *file_get_nextline(file_t *file);
+void            file_foreach_line(file_t *file, void *context, void (*func)(void *context, char *line));
 
 static file_t *file_new(void)
 {
@@ -188,7 +189,7 @@ static int file_is_endline(file_t *file)
     return 0;
 }
 
-char *file_get_nextline(file_t *file)
+static char *file_get_nextline(file_t *file)
 {
     int             cursor_start;
     unsigned int    size;
@@ -210,4 +211,12 @@ char *file_get_nextline(file_t *file)
             line[size] = 0;
     }
     return line;
+}
+
+void file_foreach_line(file_t *file, void *context, void (*func)(void *context, char *line))
+{
+    char    *line;
+
+    while ((line = file_get_nextline(file)))
+        func(context, line);
 }

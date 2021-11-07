@@ -23,6 +23,6 @@ file_t  *file_create(char *filename);
 file_t  *file_read(char *filename);
 char    *file_ext(char *filename);
 void    file_print(file_t *file, char *format, ...);
-char    *file_get_nextline(file_t *file);
+void    file_foreach_line(file_t *file, void *context, void (*func)(void *context, char *line));
 
 #endif

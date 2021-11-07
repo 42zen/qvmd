@@ -5,6 +5,7 @@ void            qvm_free(qvm_t *qvm);
 qvm_t           *qvm_load(char *filename, char *map_filename);
 static int      qvm_load_file(qvm_t *qvm, char *filename);
 static int      qvm_load_map(qvm_t *qvm, char *map_filename);
+static void     qvm_load_map_entry(qvm_t *qvm, char *line);
 static void     qvm_load_map_functions(qvm_t *qvm);
 static int      qvm_load_opcodes(qvm_t *qvm);
 static int      qvm_load_functions(qvm_t *qvm);
@@ -42,6 +43,7 @@ static qvm_t *qvm_new(void)
     qvm.globals = NULL;
     qvm.globals_count = 0;
     qvm.map = NULL;
+    qvm.map_count = 0;
     qvm.restored_calls_perc = 0.0f;
 
     // init all qvm sections
@@ -71,9 +73,6 @@ void qvm_free(qvm_t *qvm)
     // free the functions if needed
     if (qvm->functions)
         free(qvm->functions);
-
-    // free the qvm
-    free(qvm);
 }
 
 qvm_t *qvm_load(char *filename, char *map_filename)
@@ -161,12 +160,8 @@ static int qvm_load_file(qvm_t *qvm, char *filename)
 int qvm_load_map(qvm_t *qvm, char *map_filename)
 {
     file_t          *file;
-    char            *line;
-    int             section_id;
-    unsigned int    address;
-    qvm_map_t       *map = NULL;
-    qvm_map_t       *entry;
-    unsigned int    line_count = 0;
+
+    printf("Loading map...");
 
     // read the map file
     if (!(file = file_read(map_filename))) {
@@ -174,81 +169,95 @@ int qvm_load_map(qvm_t *qvm, char *map_filename)
         return 1;
     }
 
-    // browse each map line 
-    while ((line = file_get_nextline(file))) {
-        // increase the line count
-        line_count++;
+    // load all map entry
+    file_foreach_line(file, (void *)qvm, (void (*)(void *, char *))qvm_load_map_entry);
 
-        // parse the section id
-        section_id = atoi(line);
+    // free the file
+    file_free(file);
 
-        // parse the address
-        while (isalnum(*line))
-            line++;
-        while (isspace(*line))
-            line++;
-        address = strtol(line, NULL, 16);
-
-        // parse the name
-        while (isalnum(*line))
-            line++;
-        while (isspace(*line))
-            line++;
-
-        // check if the name is too big
-        if (strlen(line) >= sizeof(map->name)) {
-            printf("Warning: Line %i of map file was ignored: Too long name.\n", line_count);
-            continue;
-        }
-
-        // check if name is only alphanum char
-        if (!str_is_print(line, strlen(line) + 1)) {
-            printf("Warning: Line %i of map file was ignored: Invalid name.\n", line_count);
-            continue;
-        }
-
-        // check if the section id is valid
-        if (section_id < 0 || section_id >= S_MAX) {
-            printf("Warning: Line %i of map file was ignored: Invalid section id.\n", line_count);
-            continue;
-        }
-
-        // correct the address for literal and bss section
-        if (section_id == S_LIT)
-            address += qvm->sections[S_DATA].length;
-        else if (section_id == S_BSS)
-            address += qvm->sections[S_DATA].length + qvm->sections[S_LIT].length;
-
-        // check address overflow for S_DATA, S_LIT and S_BSS
-        if (section_id == S_LIT && address > qvm->sections[S_DATA].length + qvm->sections[S_LIT].length) {
-            printf("Warning: Line %i of map file was ignored: Invalid literal address.\n", line_count);
-            continue;
-        }
-        else if (section_id == S_BSS && address > qvm->sections[S_DATA].length + qvm->sections[S_LIT].length + qvm->sections[S_BSS].length) {
-            printf("Warning: Line %i of map file was ignored: Invalid bss address.\n", line_count);
-            continue;
-        }
-
-        // create a new map entry
-        if (!(entry = map_new())) {
-            continue;
-        }
-
-        // set the map entry values
-        entry->section_id = section_id;
-        entry->address = address;
-        sprintf(entry->name, "%s", line);
-
-        // add new map entry
-        if (!map)
-            qvm->map = entry;
-        else
-            map->next = entry;
-        map = entry;
-    }
+    printf("Success: %i map entries found.\n", qvm->map_count);
 
     // success
     return 1;
+}
+
+static void qvm_load_map_entry(qvm_t *qvm, char *line)
+{
+    int                 section_id;
+    unsigned int        address;
+    static qvm_map_t    *map = NULL;
+    qvm_map_t           *entry;
+    static unsigned int line_count = 0;
+
+    // increase the line count
+    line_count++;
+
+    // parse the section id
+    section_id = atoi(line);
+
+    // parse the address
+    while (isalnum(*line))
+        line++;
+    while (isspace(*line))
+        line++;
+    address = strtol(line, NULL, 16);
+
+    // parse the name
+    while (isalnum(*line))
+        line++;
+    while (isspace(*line))
+        line++;
+
+    // check if the name is too big
+    if (strlen(line) >= sizeof(map->name)) {
+        printf("Warning: Line %i of map file was ignored: Too long name.\n", line_count);
+        return;
+    }
+
+    // check if name is only alphanum char
+    if (!str_is_print(line, strlen(line) + 1)) {
+        printf("Warning: Line %i of map file was ignored: Invalid name.\n", line_count);
+        return;
+    }
+
+    // check if the section id is valid
+    if (section_id < 0 || section_id >= S_MAX) {
+        printf("Warning: Line %i of map file was ignored: Invalid section id.\n", line_count);
+        return;
+    }
+
+    // correct the address for literal and bss section
+    if (section_id == S_LIT)
+        address += qvm->sections[S_DATA].length;
+    else if (section_id == S_BSS)
+        address += qvm->sections[S_DATA].length + qvm->sections[S_LIT].length;
+
+    // check address overflow for S_DATA, S_LIT and S_BSS
+    if (section_id == S_LIT && address > qvm->sections[S_DATA].length + qvm->sections[S_LIT].length) {
+        printf("Warning: Line %i of map file was ignored: Invalid literal address.\n", line_count);
+        return;
+    }
+    else if (section_id == S_BSS && address > qvm->sections[S_DATA].length + qvm->sections[S_LIT].length + qvm->sections[S_BSS].length) {
+        printf("Warning: Line %i of map file was ignored: Invalid bss address.\n", line_count);
+        return;
+    }
+
+    // create a new map entry
+    if (!(entry = map_new()))
+        return;
+
+    // set the map entry values
+    entry->section_id = section_id;
+    entry->address = address;
+    sprintf(entry->name, "%s", line);
+
+    // add new map entry
+    if (!map)
+        qvm->map = entry;
+    else
+        map->next = entry;
+    map = entry;
+    qvm->map_count++;
 }
 
 static void qvm_load_map_functions(qvm_t *qvm)
@@ -258,6 +267,7 @@ static void qvm_load_map_functions(qvm_t *qvm)
 
     // browse each map
     for (map = qvm->map; map; map = map->next) {
+        //printf("Scanning 0x%x --> %s\n", map->address, map->name);
         // check if this is a function entry
         if (map->section_id != S_CODE)
             continue;
