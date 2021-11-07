@@ -27,37 +27,31 @@ static int      qvm_load_calls(qvm_t *qvm);
 
 static qvm_t *qvm_new(void)
 {
-    qvm_t   *qvm;
-
-    // allocate the qvm
-    if (!(qvm = malloc(sizeof(qvm_t)))) {
-        printf("Error: Couldn't allocate qvm.\n");
-        return NULL;
-    }
+    static qvm_t   qvm;
 
     // initialize the qvm content
-    qvm->file = NULL;
-    qvm->header = NULL;
-    qvm->opcodes = NULL;
-    qvm->functions = NULL;
-    qvm->functions_count = 0;
-    qvm->syscalls = NULL;
-    qvm->syscalls_count = 0;
-    qvm->jumppoints = NULL;
-    qvm->opblocks = NULL;
-    qvm->globals = NULL;
-    qvm->globals_count = 0;
-    qvm->map = NULL;
-    qvm->restored_calls_perc = 0.0f;
+    qvm.file = NULL;
+    qvm.header = NULL;
+    qvm.opcodes = NULL;
+    qvm.functions = NULL;
+    qvm.functions_count = 0;
+    qvm.syscalls = NULL;
+    qvm.syscalls_count = 0;
+    qvm.jumppoints = NULL;
+    qvm.opblocks = NULL;
+    qvm.globals = NULL;
+    qvm.globals_count = 0;
+    qvm.map = NULL;
+    qvm.restored_calls_perc = 0.0f;
 
     // init all qvm sections
     for (int i = S_CODE; i < S_MAX; i++) {
-        qvm->sections[i].content = NULL;
-        qvm->sections[i].length = 0;
+        qvm.sections[i].content = NULL;
+        qvm.sections[i].length = 0;
     }
 
     // return the qvm
-    return qvm;
+    return &qvm;
 }
 
 void qvm_free(qvm_t *qvm)
