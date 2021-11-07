@@ -521,12 +521,6 @@ static int qvm_load_opblocks(qvm_t *qvm)
                 op->value = 4;
         }
 
-        // find function called if needed
-        if (opb->info->id == OPB_FUNC_CALL && opb->child->info->id == OPB_CONST)
-            if ((opb->function_called = func_find(qvm, opb->child->opcode->value)) && curr_func)
-                if (!func_list_add(&curr_func->calls, opb->function_called) || !func_list_add(&opb->function_called->called_by, curr_func))
-                    return 0;
-
         // check if this is a new function
         if (opb->info->id == OPB_FUNC_ENTER) {
             // check if there was already a function scanned
@@ -591,25 +585,28 @@ static int qvm_load_opblocks(qvm_t *qvm)
             opblocks_count++;
         }
 
-        // check if this is a comparaison
-        if (opb->info->id == OPB_COMPARE) {
-            // link the jumppoint to the opblock
-            opb->jumppoint = jumppoint_find(qvm, opb->opcode->value);
-        }
+        // link the direct function calls
+        if (opb->info->id == OPB_FUNC_CALL && opb->child->info->id == OPB_CONST)
+            if ((opb->function_called = func_find(qvm, opb->child->opcode->value)) && curr_func)
+                if (!func_list_add(&curr_func->calls, opb->function_called) || !func_list_add(&opb->function_called->called_by, curr_func))
+                    return 0;
 
-        // check if this is a direct jump
+        // link the comparaisons to the jumppoints
+        if (opb->info->id == OPB_COMPARE)
+            opb->jumppoint = jumppoint_find(qvm, opb->opcode->value); // TODO: print error when jumppoint_find not found
+
+        // link the direct jump to the jumppoints
         if (opb->info->id == OPB_JUMP && opb->child && opb->child->info->id == OPB_CONST) {
-            // link the jumppoint to the opblock
             opb->child->info = &qvm_opblocks_info[OPB_JUMP_ADDRESS];
             opb->child->jumppoint = jumppoint_find(qvm, opb->child->opcode->value);
             opb->jumppoint = opb->child->jumppoint;
         }
 
-        // check if this is a function leave opcodes
+        // check if this is a function leave opblock
         if (opb->info->id == OPB_FUNC_RETURN && opb->child && opb->child->info->id == OPB_PUSH)
             opb->info = &qvm_opblocks_info[OPB_FUNC_LEAVE];
 
-        // set the function return size
+        // set the function return size if needed
         if (opb->info->id == OPB_FUNC_RETURN)
             opb->function->return_size = 4;
     }
