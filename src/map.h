@@ -3,8 +3,6 @@
 
 typedef struct qvm_map_s        qvm_map_t;
 
-#include "qvm.h"
-
 typedef struct qvm_map_s {
     unsigned int    section_id;
     unsigned int    address;

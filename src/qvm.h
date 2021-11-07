@@ -15,6 +15,7 @@ typedef struct qvm_s                                        qvm_t;
 #include "variables.h"
 #include "map.h"
 #include "strings.h"
+#include "sections.h"
 
 typedef struct __attribute__((__packed__)) qvm_header_s {
     int             magic;
@@ -27,20 +28,6 @@ typedef struct __attribute__((__packed__)) qvm_header_s {
     unsigned int    bss_length;
     unsigned int    jmptab_length;
 } qvm_header_t;
-
-typedef enum {
-    S_CODE,
-    S_DATA,
-    S_LIT,
-    S_BSS,
-    S_JMPTAB,
-    S_MAX
-} qvm_section_e;
-
-typedef struct qvm_section_s {
-    char    *content;
-    size_t  length;
-} qvm_section_t;
 
 typedef struct qvm_s {
     file_t          *file;
