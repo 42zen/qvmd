@@ -12,7 +12,6 @@ int qvm_disassemble(qvm_t *qvm, char *filename)
     file_t          *file;
 
     printf("Disassembling QVM to %s...", filename);
-    fflush(stdout);
 
     // create the output file
     if (!(file = file_create(filename)))

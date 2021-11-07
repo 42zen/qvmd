@@ -5,6 +5,9 @@ int main(int argc, char **argv)
     opt_t   *opt;
     qvm_t   *qvm;
 
+    // remove the printf buffer
+    setbuf(stdout, NULL);
+
     // parse the options from command line
     if (!(opt = opt_parse(argc, argv)))
         return 1;

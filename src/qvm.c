@@ -112,7 +112,6 @@ qvm_t *qvm_load(char *filename, char *map_filename)
 static int qvm_load_file(qvm_t *qvm, char *filename)
 {
     printf("Loading qvm file...");
-    fflush(stdout);
 
     // read the qvm file
     if (!(qvm->file = file_read(filename))) {
@@ -285,7 +284,6 @@ static int qvm_load_opcodes(qvm_t *qvm)
     char            *end_opcodes = qvm->sections[S_CODE].content + qvm->sections[S_CODE].length;
 
     printf("Loading opcodes...");
-    fflush(stdout);
 
     // allocate the opcodes
     if (!(qvm->opcodes = malloc(sizeof(*qvm->opcodes) * qvm->header->instructions_count))) {
@@ -327,7 +325,6 @@ static int qvm_load_opcodes(qvm_t *qvm)
 static int qvm_load_functions(qvm_t *qvm)
 {
     printf("Loading functions...");
-    fflush(stdout);
 
     // count the functions
     qvm_load_functions_count(qvm);
@@ -413,7 +410,6 @@ static int qvm_load_jumppoints(qvm_t *qvm) {
     unsigned int    jumppoints_count = 0;
 
     printf("Loading jumppoints...");
-    fflush(stdout);
 
     // browse all opcodes
     for (unsigned int curr_instr = 0; curr_instr < qvm->header->instructions_count; curr_instr++) {
@@ -463,7 +459,6 @@ static int qvm_load_opblocks(qvm_t *qvm)
     qvm_function_t  *curr_func = NULL;
 
     printf("Loading opblocks...");
-    fflush(stdout);
 
     // browse all opcodes
     for (unsigned int curr_instr = 0; curr_instr < qvm->header->instructions_count; curr_instr++) {
@@ -633,7 +628,6 @@ static int qvm_load_opblocks(qvm_t *qvm)
 static int qvm_load_syscalls(qvm_t *qvm)
 {
     printf("Loading syscalls...");
-    fflush(stdout);
 
     // load syscalls usage
     if (!qvm_load_syscalls_usage(qvm))
@@ -679,7 +673,6 @@ static int qvm_load_syscalls_usage(qvm_t *qvm)
 static int qvm_load_variables(qvm_t *qvm)
 {
     printf("Loading variables...");
-    fflush(stdout);
 
     // load all the variables used in the code
     if (!qvm_load_variables_usage(qvm))
@@ -861,7 +854,6 @@ static int qvm_load_returns(qvm_t *qvm)
     qvm_opblock_t   *removed;
 
     printf("Loading returns...");
-    fflush(stdout);
 
     // browse all functions
     for (unsigned int i = 0; i < qvm->functions_count; i++) {
@@ -912,7 +904,6 @@ static int qvm_load_calls(qvm_t *qvm)
     unsigned int    calls_total = 0, calls_restored = 0;
 
     printf("Loading calls...");
-    fflush(stdout);
 
     // browse each opblocks
     for (opb = qvm->opblocks; opb; opb = opb->next) {

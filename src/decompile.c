@@ -13,7 +13,6 @@ int qvm_decompile(qvm_t *qvm, char *filename)
     file_t  *file;
 
     printf("Decompilling QVM to %s...", filename);
-    fflush(stdout);
 
     // create the output file
     if (!(file = file_create(filename)))
