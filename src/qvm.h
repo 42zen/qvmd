@@ -25,6 +25,7 @@ typedef struct __attribute__((__packed__)) qvm_header_s {
     unsigned int    data_length;
     unsigned int    lit_length;
     unsigned int    bss_length;
+    unsigned int    jmptab_length;
 } qvm_header_t;
 
 typedef enum {
@@ -32,6 +33,7 @@ typedef enum {
     S_DATA,
     S_LIT,
     S_BSS,
+    S_JMPTAB,
     S_MAX
 } qvm_section_e;
 

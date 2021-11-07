@@ -142,7 +142,8 @@ static int qvm_load_file(qvm_t *qvm, char *filename)
         return 0;
     }
 
-    // assign all qvm sections
+    // set all qvm sections
+    // TODO: section_set(section_t *sec, char *content, unsigned int length)
     qvm->sections[S_CODE].content = qvm->file->content + qvm->header->code_offset;
     qvm->sections[S_CODE].length = qvm->header->code_length;
     qvm->sections[S_DATA].content = qvm->file->content + qvm->header->data_offset;
@@ -151,6 +152,12 @@ static int qvm_load_file(qvm_t *qvm, char *filename)
     qvm->sections[S_LIT].length = qvm->header->lit_length;
     qvm->sections[S_BSS].content = NULL;
     qvm->sections[S_BSS].length = qvm->header->bss_length;
+
+    // set jmptab section if needed
+    if (qvm->header->magic == QVM_MAGIC_VER2) {
+        qvm->sections[S_JMPTAB].content = qvm->file->content + qvm->header->data_offset + qvm->header->data_length + qvm->header->lit_length;
+        qvm->sections[S_JMPTAB].length = qvm->header->jmptab_length;
+    }
 
     printf("Success.\n");
 
