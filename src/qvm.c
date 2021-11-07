@@ -162,7 +162,7 @@ int qvm_load_map(qvm_t *qvm, char *map_filename)
         return 1;
     }
 
-    // load all map entry
+    // load all map entries
     file_foreach_line(file, (void *)qvm, (void (*)(void *, char *))qvm_load_map_entry);
 
     // free the file
@@ -225,7 +225,7 @@ static void qvm_load_map_entry(qvm_t *qvm, char *line)
     else if (section_id == S_BSS)
         address += qvm->sections[S_DATA].length + qvm->sections[S_LIT].length;
 
-    // check address overflow for S_DATA, S_LIT and S_BSS
+    // check section address overflow
     if (section_id == S_LIT && address > qvm->sections[S_DATA].length + qvm->sections[S_LIT].length) {
         printf("Warning: Line %i of map file was ignored: Invalid literal address.\n", line_count);
         return;
@@ -260,7 +260,6 @@ static void qvm_load_map_functions(qvm_t *qvm)
 
     // browse each map
     for (map = qvm->map; map; map = map->next) {
-        //printf("Scanning 0x%x --> %s\n", map->address, map->name);
         // check if this is a function entry
         if (map->section_id != S_CODE)
             continue;
@@ -592,12 +591,14 @@ static int qvm_load_opblocks(qvm_t *qvm)
 
         // link the comparaisons to the jumppoints
         if (opb->info->id == OPB_COMPARE)
-            opb->jumppoint = jumppoint_find(qvm, opb->opcode->value); // TODO: print error when jumppoint_find not found
+            if (!(opb->jumppoint = jumppoint_find(qvm, opb->opcode->value)))
+                printf("Warning: Couldn't find comparaison jumppoint.\n");
 
         // link the direct jump to the jumppoints
         if (opb->info->id == OPB_JUMP && opb->child && opb->child->info->id == OPB_CONST) {
             opb->child->info = &qvm_opblocks_info[OPB_JUMP_ADDRESS];
-            opb->child->jumppoint = jumppoint_find(qvm, opb->child->opcode->value);
+            if (!(opb->child->jumppoint = jumppoint_find(qvm, opb->child->opcode->value)))
+                printf("Warning: Couldn't find direct jump jumppoint.\n");
             opb->jumppoint = opb->child->jumppoint;
         }
 
@@ -627,6 +628,7 @@ static int qvm_load_syscalls(qvm_t *qvm)
     printf("Loading syscalls...");
 
     // load syscalls usage
+    // TODO: opb_foreach(qvm, qvm_load_syscalls_usage)
     if (!qvm_load_syscalls_usage(qvm))
         return 0;
 
@@ -672,6 +674,7 @@ static int qvm_load_variables(qvm_t *qvm)
     printf("Loading variables...");
 
     // load all the variables used in the code
+    // TODO: opb_foreach(qvm, qvm_load_variables_usage)
     if (!qvm_load_variables_usage(qvm))
         return 0;
 
@@ -680,6 +683,7 @@ static int qvm_load_variables(qvm_t *qvm)
         return 0;
 
     // find all globals size
+    // TODO: var_foreach(qvm, qvm_load_variables_globals_size)
     qvm_load_variables_globals_size(qvm);
 
     // find all locals size
@@ -690,6 +694,7 @@ static int qvm_load_variables(qvm_t *qvm)
         return 0;
 
     // find all globals name from map file
+    // TODO: map_foreach(qvm, qvm_load_variables_map)
     if (!qvm_load_variables_map(qvm))
         return 0;
 
@@ -903,6 +908,7 @@ static int qvm_load_calls(qvm_t *qvm)
     printf("Loading calls...");
 
     // browse each opblocks
+    // TODO: opb_foreach(qvm, qvm_load_calls_arg)
     for (opb = qvm->opblocks; opb; opb = opb->next) {
         // check if the opblock is an arg
         if (opb->info->id != OPB_FUNC_ARG)

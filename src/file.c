@@ -158,6 +158,8 @@ char *file_ext(char *filename)
     while (--len >= 0)
         if (filename[len] == '.')
             return filename + len;
+
+    // there is no extension
     return NULL;
 }
 
@@ -176,16 +178,23 @@ void file_print(file_t *file, char *format, ...) {
 
 static int file_is_endline(file_t *file)
 {
+    // check for an end-of-line character
     if (file->cursor < file->size && file->content[file->cursor] == '\n') {
         file->cursor++;
         return 1;
     }
+
+    // check for a windows end-of-line
     if (file->cursor < file->size + 1 && !strncmp(file->content + file->cursor, "\r\n", 2)) {
         file->cursor += 2;
         return 1;
     }
+
+    // check if this is the end-of-file
     if (file->cursor == file->size)
         return 1;
+
+    // this is not an end-of-line
     return 0;
 }
 
@@ -195,21 +204,34 @@ static char *file_get_nextline(file_t *file)
     unsigned int    size;
     static char     line[2048];
 
+    // increase the cursor to get the end-of-line
     cursor_start = file->cursor;
     while (!file_is_endline(file))
         file->cursor++;
+
+    // get the size of the line
     size = file->cursor - cursor_start;
+
+    // if all the file as been read
     if (!size)
         return NULL;
+
+    // if the current line is too big go to the next one
     if (size >= sizeof(line))
         return file_get_nextline(file);
+
+    // save the line
     memcpy(line, file->content + cursor_start, size);
     line[size] = 0;
+
+    // remove the end-of-line at the end
     if (line[--size] == '\n') {
         line[size] = 0;
         if (line[--size] == '\r')
             line[size] = 0;
     }
+
+    // return the line
     return line;
 }
 
@@ -217,6 +239,7 @@ void file_foreach_line(file_t *file, void *context, void (*func)(void *context, 
 {
     char    *line;
 
+    // run func for each file lines
     while ((line = file_get_nextline(file)))
         func(context, line);
 }
