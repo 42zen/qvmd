@@ -74,6 +74,7 @@ void            opb_add(qvm_opblock_t *opb, qvm_opblock_t **list);
 void            opb_print(file_t *file, qvm_opblock_t *opb);
 int             opb_load_variables(qvm_t *qvm, qvm_opblock_t *opb);
 qvm_opblock_t   *opb_is_call(qvm_opblock_t *opb);
+void            opb_foreach(qvm_t *qvm, void (*func)(qvm_t *, qvm_opblock_t *));
 
 qvm_opblock_info_t  qvm_opblocks_info[OPB_MAX];
 

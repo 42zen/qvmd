@@ -37,10 +37,12 @@ static void qvm_disassemble_header(qvm_t *qvm, file_t *file)
     file_print(file, "/*\n");
     file_print(file, "\tQVM Disassembler " QVMD_VERSION " by zen\n\n");
     file_print(file, "\tName: %s\n", qvm->file->name);
-    file_print(file, "\tInstructions Count: %i\n", qvm->header->instructions_count);
+    file_print(file, "\tOpcodes Count: %i\n", qvm->header->instructions_count);
+    // TODO: Opblocks Count
     file_print(file, "\tFunctions Count: %i\n", qvm->functions_count);
     file_print(file, "\tSyscalls Count: %i\n", qvm->syscalls_count);
     file_print(file, "\tGlobals Count: %i\n", qvm->globals_count);
+    file_print(file, "\tCalls Restored: %.2f\n", qvm->restored_calls_perc);
     file_print(file, "*/\n\n");
 }
 

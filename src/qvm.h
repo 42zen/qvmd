@@ -45,6 +45,8 @@ typedef struct qvm_s {
     unsigned int    locals_count;
     qvm_map_t       *map;
     unsigned int    map_count;
+    int             calls_total;
+    int             calls_restored;
     float           restored_calls_perc;
 } qvm_t;
 

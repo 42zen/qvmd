@@ -9,6 +9,7 @@ void                    opb_print(file_t *file, qvm_opblock_t *opb);
 static qvm_opblock_t    *opb_load(qvm_opblock_t *opb, unsigned int size);
 int                     opb_load_variables(qvm_t *qvm, qvm_opblock_t *opb);
 qvm_opblock_t           *opb_is_call(qvm_opblock_t *opb);
+void                    opb_foreach(qvm_t *qvm, void (*func)(qvm_t *, qvm_opblock_t *));
 
 qvm_opblock_info_t  qvm_opblocks_info[OPB_MAX] = {
 	{ OPB_UNDEF, 0 },
@@ -402,4 +403,12 @@ qvm_opblock_t *opb_is_call(qvm_opblock_t *opb)
 
     // we didn't find it
     return NULL;
+}
+
+void opb_foreach(qvm_t *qvm, void (*func)(qvm_t *, qvm_opblock_t *))
+{
+    qvm_opblock_t   *opb;
+
+    for (opb = qvm->opblocks; opb; opb = opb->next)
+        func(qvm, opb);
 }
