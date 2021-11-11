@@ -7,7 +7,6 @@ qvm_opblock_t           *opb_pop(qvm_opblock_t **list);
 void                    opb_add(qvm_opblock_t *opb, qvm_opblock_t **list);
 void                    opb_print(file_t *file, qvm_opblock_t *opb);
 static qvm_opblock_t    *opb_load(qvm_opblock_t *opb, unsigned int size);
-int                     opb_load_variables(qvm_t *qvm, qvm_opblock_t *opb);
 qvm_opblock_t           *opb_is_call(qvm_opblock_t *opb);
 int                     opb_foreach(qvm_t *qvm, int (*func)(qvm_t *, qvm_opblock_t *));
 
@@ -319,65 +318,6 @@ qvm_opblock_t *opb_load(qvm_opblock_t *opb, unsigned int size)
         }
     }
     return NULL;
-}
-
-int opb_load_variables(qvm_t *qvm, qvm_opblock_t *opb)
-{
-    // check if there is a constant or a local address loaded by load opcode
-    if (opb->info->id == OPB_LOAD)
-        if (opb->child->info->id == OPB_LOCAL_ADR || opb->child->info->id == OPB_CONST) {
-            if (!(opb->child->variable = var_get(qvm, opb->child->info->id != OPB_CONST ? opb->function : NULL, opb->child->opcode->value, opb->opcode->value, opb->function)))
-                return 0;
-            if (opb->child->info->id == OPB_CONST)
-                opb->child->info = &qvm_opblocks_info[OPB_GLOBAL_ADR];
-        }
-
-    // check if there is a constant or a local address loaded by store opcode
-    if (opb->info->id == OPB_ASSIGNATION)
-        if (opb->op2->info->id == OPB_LOCAL_ADR || opb->op2->info->id == OPB_CONST) {
-            if (!(opb->op2->variable = var_get(qvm, opb->op2->info->id != OPB_CONST ? opb->function : NULL, opb->op2->opcode->value, opb->opcode->value, opb->function)))
-                return 0;
-            if (opb->op2->info->id == OPB_CONST)
-                opb->op2->info = &qvm_opblocks_info[OPB_GLOBAL_ADR];
-        }
-
-    // check if there is a constant or a local address loaded by block_copy opcode
-    if (opb->info->id == OPB_STRUCT_COPY) {
-        if (opb->op1->info->id == OPB_CONST || opb->op1->info->id == OPB_LOCAL_ADR) {
-            if (!(opb->op1->variable = var_get(qvm, opb->op1->info->id != OPB_CONST ? opb->function : NULL, opb->op1->opcode->value, 0, opb->function)))
-                return 0;
-            if (opb->op1->info->id == OPB_CONST)
-                opb->op1->info = &qvm_opblocks_info[OPB_GLOBAL_ADR];
-            var_get(qvm, opb->op1->info->id != OPB_CONST ? opb->function : NULL, opb->op1->opcode->value + opb->opcode->value, 0, NULL);
-        }
-        if (opb->op2->info->id == OPB_CONST || opb->op2->info->id == OPB_LOCAL_ADR) {
-            if (!(opb->op2->variable = var_get(qvm, opb->op2->info->id != OPB_CONST ? opb->function : NULL, opb->op2->opcode->value, 0, opb->function)))
-                return 0;
-            if (opb->op2->info->id == OPB_CONST)
-                opb->op2->info = &qvm_opblocks_info[OPB_GLOBAL_ADR];
-            var_get(qvm, opb->op2->info->id != OPB_CONST ? opb->function : NULL, opb->op2->opcode->value + opb->opcode->value, 0, NULL);
-        }
-    }
-
-    // check if this is a local address
-    if (opb->info->id == OPB_LOCAL_ADR)
-        if (!(opb->variable = var_get(qvm, opb->function, opb->opcode->value, 0, opb->function)))
-                return 0;
-
-    // load the variables from the child if needed
-    if (opb->child)
-        return opb_load_variables(qvm, opb->child);
-
-    // load the variables from the operation 1 if needed
-    if (opb->op1 && !opb_load_variables(qvm, opb->op1))
-        return 0;
-
-    // load the variables from the operation 2 if needed
-    if (opb->op2)
-        return opb_load_variables(qvm, opb->op2);
-
-    // success
-    return 1;
 }
 
 qvm_opblock_t *opb_is_call(qvm_opblock_t *opb)
