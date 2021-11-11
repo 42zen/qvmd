@@ -20,7 +20,7 @@ static int      qvm_load_variables_usage(qvm_t *qvm, qvm_opblock_t *opb);
 static int      qvm_load_variables_sections(qvm_t *qvm);
 static void     qvm_load_variables_globals_size(qvm_t *qvm);
 static void     qvm_load_variables_locals_size(qvm_t *qvm);
-static int      qvm_load_variables_map(qvm_t *qvm);
+static int      qvm_load_variables_map(qvm_t *qvm, qvm_map_t *map);
 static int      qvm_load_variables_probs(qvm_t *qvm);
 static int      qvm_load_variables_literals(qvm_t *qvm);
 static int      qvm_load_returns(qvm_t *qvm);
@@ -690,8 +690,7 @@ static int qvm_load_variables(qvm_t *qvm)
         return 0;
 
     // find all globals name from map file
-    // TODO: map_foreach(qvm, qvm_load_variables_map)
-    if (!qvm_load_variables_map(qvm))
+    if (!map_foreach(qvm, qvm_load_variables_map))
         return 0;
 
     // find the alphanumeric literals
@@ -819,29 +818,28 @@ static void qvm_load_variables_locals_size(qvm_t *qvm)
     }
 }
 
-static int qvm_load_variables_map(qvm_t *qvm)
+static int qvm_load_variables_map(qvm_t *qvm, qvm_map_t *map)
 {
-    qvm_map_t       *map;
     qvm_variable_t  *var;
 
-    // browse all map entry
-    for (map = qvm->map; map; map = map->next) {
-        // check the section of the map entry
-        switch (map->section_id) {
-            // if the section is not part of data
-            default:
-                break;
+    // check the section of the map entry
+    switch (map->section_id) {
+        // if the section is not part of data
+        default:
+            break;
+
+        // check if this is a variable entry
+        case S_DATA:
+        case S_LIT:
+        case S_BSS:
+            // find the variable
+            if (!(var = var_find(qvm->globals, map->address)))
+                if (!(var = var_cut(qvm, NULL, map->address)))
+                    return 0;
 
             // rename the variable
-            case S_DATA:
-            case S_LIT:
-            case S_BSS:
-                if (!(var = var_find(qvm->globals, map->address)))
-                    if (!(var = var_cut(qvm, NULL, map->address)))
-                        return 0;
-                var_rename(var, map->name);
-                break;
-        }
+            var_rename(var, map->name);
+            break;
     }
 
     // success

@@ -11,5 +11,6 @@ typedef struct qvm_map_s {
 } qvm_map_t;
 
 qvm_map_t   *map_new(void);
+int         map_foreach(qvm_t *qvm, int (*func)(qvm_t *, qvm_map_t *));
 
 #endif

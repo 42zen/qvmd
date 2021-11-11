@@ -1,6 +1,7 @@
 #include "qvmd.h"
 
 qvm_map_t   *map_new(void);
+int         map_foreach(qvm_t *qvm, int (*func)(qvm_t *, qvm_map_t *));
 
 qvm_map_t *map_new(void)
 {
@@ -20,4 +21,17 @@ qvm_map_t *map_new(void)
 
     // return the new map entry
     return map;
+}
+
+int map_foreach(qvm_t *qvm, int (*func)(qvm_t *, qvm_map_t *))
+{
+    qvm_map_t   *map;
+
+    // browse all map entry
+    for (map = qvm->map; map; map = map->next)
+        if (!func(qvm, map))
+            return 0;
+
+    // success
+    return 1;
 }
