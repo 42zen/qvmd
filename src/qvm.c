@@ -14,7 +14,7 @@ static void     qvm_load_functions_data(qvm_t *qvm);
 static int      qvm_load_jumppoints(qvm_t *qvm);
 static int      qvm_load_opblocks(qvm_t *qvm);
 static int      qvm_load_syscalls(qvm_t *qvm);
-static int      qvm_load_syscalls_usage(qvm_t *qvm);
+static int      qvm_load_syscalls_usage(qvm_t *qvm, qvm_opblock_t *opb);
 static int      qvm_load_variables(qvm_t *qvm);
 static int      qvm_load_variables_usage(qvm_t *qvm);
 static int      qvm_load_variables_sections(qvm_t *qvm);
@@ -25,7 +25,7 @@ static int      qvm_load_variables_probs(qvm_t *qvm);
 static int      qvm_load_variables_literals(qvm_t *qvm);
 static int      qvm_load_returns(qvm_t *qvm);
 static int      qvm_load_calls(qvm_t *qvm);
-static void     qvm_load_calls_opb(qvm_t *qvm, qvm_opblock_t *opb);
+static int      qvm_load_calls_opb(qvm_t *qvm, qvm_opblock_t *opb);
 
 static qvm_t *qvm_new(void)
 {
@@ -630,8 +630,7 @@ static int qvm_load_syscalls(qvm_t *qvm)
     printf("Loading syscalls...");
 
     // load syscalls usage
-    // TODO: opb_foreach(qvm, qvm_load_syscalls_usage)
-    if (!qvm_load_syscalls_usage(qvm))
+    if (!opb_foreach(qvm, qvm_load_syscalls_usage))
         return 0;
 
     // rename syscalls from map entries
@@ -641,31 +640,27 @@ static int qvm_load_syscalls(qvm_t *qvm)
     return 1;
 }
 
-static int qvm_load_syscalls_usage(qvm_t *qvm)
+static int qvm_load_syscalls_usage(qvm_t *qvm, qvm_opblock_t *opb)
 {
-    qvm_opblock_t   *opb;
     qvm_opblock_t   *call;
 
-    // search for syscalls in opblocks
-    for (opb = qvm->opblocks; opb; opb = opb->next) {
-        // check if there is a call in the opblock
-        if (!(call = opb_is_call(opb)))
-            continue;
+    // check if there is a call in the opblock
+    if (!(call = opb_is_call(opb)))
+        return 1;
 
-        // check if this is a direct call
-        if (call->child->info->id != OPB_CONST)
-            continue;
+    // check if this is a direct call
+    if (call->child->info->id != OPB_CONST)
+        return 1;
 
-        // add the syscall if needed
-        if (!(call->function_called = func_find(qvm, call->child->opcode->value)))
-            if (!(call->function_called = func_add_syscall(qvm, call->child->opcode->value)))
-                return 0;
+    // add the syscall if needed
+    if (!(call->function_called = func_find(qvm, call->child->opcode->value)))
+        if (!(call->function_called = func_add_syscall(qvm, call->child->opcode->value)))
+            return 0;
 
-        // add the calls and called_by
-        if (call->function)
-            if (!func_list_add(&call->function->calls, call->function_called) || !func_list_add(&call->function_called->called_by, call->function))
-                return 0;
-    }
+    // add the calls and called_by
+    if (call->function)
+        if (!func_list_add(&call->function->calls, call->function_called) || !func_list_add(&call->function_called->called_by, call->function))
+            return 0;
 
     // success
     return 1;
@@ -918,18 +913,18 @@ static int qvm_load_calls(qvm_t *qvm)
     return 1;
 }
 
-static void qvm_load_calls_opb(qvm_t *qvm, qvm_opblock_t *opb)
+static int qvm_load_calls_opb(qvm_t *qvm, qvm_opblock_t *opb)
 {
     qvm_opblock_t   *tmp;
     qvm_opblock_t   *call;
 
     // check if the opblock is an arg
     if (opb->info->id != OPB_FUNC_ARG)
-        return;
+        return 1;
 
     // check if the opblock is the first arg
     if (opb->opcode->value != 8)
-        return;
+        return 1;
 
     // increase the total of calls
     qvm->calls_total++;
@@ -943,11 +938,11 @@ static void qvm_load_calls_opb(qvm_t *qvm, qvm_opblock_t *opb)
 
     // check if we found an opblock
     if (!tmp)
-        return;
+        return 1;
 
     // check if the opblock contain a call
     if (!(call = opb_is_call(tmp)))
-        return;
+        return 1;
         
     // save the call function arg
     call->function_arg = opb;
@@ -962,4 +957,7 @@ static void qvm_load_calls_opb(qvm_t *qvm, qvm_opblock_t *opb)
 
     // change the value of opb
     opb = tmp;
+
+    // success
+    return 1;
 }
