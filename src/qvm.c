@@ -27,6 +27,7 @@ static void     qvm_load_variables_types(qvm_t *qvm);
 static int      qvm_load_returns(qvm_t *qvm);
 static int      qvm_load_calls(qvm_t *qvm);
 static int      qvm_load_calls_opb(qvm_t *qvm, qvm_opblock_t *opb);
+static int      qvm_load_variadic_functions(qvm_t *qvm);
 
 static qvm_t *qvm_new(void)
 {
@@ -96,7 +97,8 @@ qvm_t *qvm_load(char *filename, char *map_filename)
         !qvm_load_syscalls(qvm) ||
         !qvm_load_variables(qvm) ||
         !qvm_load_returns(qvm) ||
-        !qvm_load_calls(qvm)) {
+        !qvm_load_calls(qvm) ||
+        !qvm_load_variadic_functions(qvm)) {
         qvm_free(qvm);
         return NULL;
     }
@@ -988,7 +990,7 @@ static int qvm_load_calls(qvm_t *qvm)
     // save the % of restored calls
     qvm->restored_calls_perc = (float)(qvm->calls_restored * 100) / (float)qvm->calls_total;
 
-    printf("Success: %.2f%% (%i/%i) of calls restored.\n", qvm->restored_calls_perc, qvm->calls_restored, qvm->calls_total);
+    printf("Success: %.2f%% of calls restored.\n", qvm->restored_calls_perc);
 
     // success
     return 1;
@@ -1049,6 +1051,34 @@ static int qvm_load_calls_opb(qvm_t *qvm, qvm_opblock_t *opb)
 
     // change the value of the current opblock
     curr->next = tmp;
+
+    // success
+    return 1;
+}
+
+static int qvm_load_variadic_functions(qvm_t *qvm)
+{
+    qvm_function_t  *func;
+    qvm_opblock_t   *opb;
+    unsigned int    va_func_count = 0;
+
+    printf("Loading variadic functions...");
+
+    // browse all functions
+    for (unsigned int i = 0; i < qvm->functions_count; i++) {
+        func = &qvm->functions[i];
+
+        // browse all function opblocks
+        for (opb = func->opblock_start; opb && opb != func->opblock_end; opb = opb->next)
+            if (opb->info->id == OPB_ASSIGNATION && opb->opcode->value == 4)
+                if (opb->op2->info->id == OPB_LOCAL_ADR && opb->op2->variable->status == VS_LOCAL)
+                    if (opb->op1->info->id == OPB_LOCAL_ADR && opb->op1->variable->status == VS_ARG) {
+                        opb->info = &qvm_opblocks_info[OPB_VA_START];
+                        va_func_count++;
+                    }
+    }
+
+    printf("Success: %i variadic functions found.\n", va_func_count);
 
     // success
     return 1;

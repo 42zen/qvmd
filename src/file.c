@@ -165,14 +165,15 @@ char *file_ext(char *filename)
 
 void file_print(file_t *file, char *format, ...) {
     va_list arg_list;
+    int     fd = 1;
 
-    // check for closed file
-    if (file->is_open != 1)
-        return;
+    // check the file descriptor
+    if (file && file->is_open == 1)
+        fd = file->fd;
     
     // print format in file
     va_start(arg_list, format);
-    vdprintf(file->fd, format, arg_list);
+    vdprintf(fd, format, arg_list);
     va_end(arg_list);
 }
 

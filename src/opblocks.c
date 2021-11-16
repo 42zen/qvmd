@@ -33,7 +33,8 @@ qvm_opblock_info_t  qvm_opblocks_info[OPB_MAX] = {
 	{ OPB_DOUBLE_OPERATION, OPB_F_STACK_2POP | OPB_F_STACK_PUSH },
 	{ OPB_JUMP_POINT, 0 },
 	{ OPB_JUMP_ADDRESS, OPB_F_STACK_PUSH },
-    { OPB_TYPE_CONVERSION, OPB_F_STACK_POP | OPB_F_STACK_PUSH }
+    { OPB_TYPE_CONVERSION, OPB_F_STACK_POP | OPB_F_STACK_PUSH },
+	{ OPB_VA_START, OPB_F_STACK_2POP | OPB_F_BLOCK_ADD },
 };
 
 qvm_opblock_t *opb_new(void)
@@ -290,6 +291,12 @@ void opb_print(file_t *file, qvm_opblock_t *opb)
         // jump address
         case OPB_JUMP_ADDRESS:
             file_print(file, "%s", opb->jumppoint->name);
+            break;
+
+        // va_start call
+        case OPB_VA_START:
+            // TODO: 2nd parameters is the previous arg !
+            file_print(file, "va_start(%s, %s)", opb->op2->variable->name, opb->op1->variable->name);
             break;
 
         // default error
