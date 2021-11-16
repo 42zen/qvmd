@@ -34,6 +34,7 @@ typedef enum {
     OPB_JUMP_ADDRESS,
     OPB_TYPE_CONVERSION,
     OPB_VA_START,
+    OPB_VA_END,
     OPB_MAX
 } qvm_opblock_e;
 

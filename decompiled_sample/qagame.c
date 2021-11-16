@@ -2001,13 +2001,13 @@ Calls: trap_Print, Q_vsnprintf
 Called by: G_AddEvent, G_Spawn, G_UseTargets, G_PickTarget, SP_func_timer, trigger_teleporter_touch, SP_trigger_multiple, Team_CaptureFlagSound, Team_TakeFlagSound, Team_ReturnFlagSound, SP_target_teleporter, target_teleporter_use, target_laser_start, Svcmd_ForceTeam_f, ClientForString, Svcmd_EntityList_f, Svcmd_RemoveIP_f, Svcmd_AddIP_f, AddIP, StringToFilter, G_CallSpawn, G_InitWorldSession, SP_func_train, SP_path_corner, Think_SetupTrainTargets, locateCamera, Svcmd_GameMem_f, G_Alloc, SaveRegisteredItems, G_CheckTeamItems, FinishSpawningItem, G_Damage, G_Say, G_AddBot, AddBotToSpawnQueue, SpawnModelOnVictoryPad, BotAI_Print, G_RunFrame, CheckExitRules, G_LogPrintf, G_ShutdownGame, G_InitGame, G_RegisterCvars, G_FindTeams
 =================
 */
-void G_Printf(int arg_0, int arg_1) {
+void G_Printf(int arg_0, ...) {
 	va_list	local_18;
 	char	local_1c[1024];
 
 	va_start(local_18, arg_1);
 	Q_vsnprintf(local_1c, 0x400, arg_0, local_18);
-	local_18 = 0x0;
+	va_end(local_18);
 	trap_Print(local_1c);
 }
 
@@ -2024,13 +2024,13 @@ Calls: trap_Error, Q_vsnprintf
 Called by: G_Spawn, G_FindConfigstringIndex, PrintMsg, SP_target_speaker, G_SpawnEntitiesFromString, SP_worldspawn, G_ParseSpawnVars, G_AddSpawnVarToken, Reached_BinaryMover, G_TryPushingEntity, G_Alloc, RegisterItem, RespawnItem, Cmd_FollowCycle_f, SelectRandomFurthestSpawnPoint, BotAI_Print, G_RunThink
 =================
 */
-void G_Error(int arg_0, int arg_1) {
+void G_Error(int arg_0, ...) {
 	va_list	local_18;
 	char	local_1c[1024];
 
 	va_start(local_18, arg_1);
 	Q_vsnprintf(local_1c, 0x400, arg_0, local_18);
-	local_18 = 0x0;
+	va_end(local_18);
 	trap_Error(local_1c);
 }
 
@@ -2371,13 +2371,13 @@ Calls: trap_Error, Q_vsnprintf
 Called by: Info_SetValueForKey_Big, Info_SetValueForKey, Info_RemoveKey_Big, Info_RemoveKey, Info_ValueForKey, Q_strcat, Q_strncpyz, COM_MatchToken, BG_EvaluateTrajectoryDelta, BG_EvaluateTrajectory, BG_CanItemBeGrabbed, BG_FindItemForWeapon, BG_FindItemForHoldable
 =================
 */
-void Com_Error(, int arg_1, int arg_2) {
+void Com_Error(, int arg_1, ...) {
 	va_list	local_18;
 	char	local_1c[1024];
 
 	va_start(local_18, arg_2);
 	Q_vsnprintf(local_1c, 0x400, arg_1, local_18);
-	local_18 = 0x0;
+	va_end(local_18);
 	trap_Error(local_1c);
 }
 
@@ -2394,13 +2394,13 @@ Calls: trap_Print, Q_vsnprintf
 Called by: Info_SetValueForKey_Big, Info_SetValueForKey, Com_sprintf, COM_ParseWarning, COM_ParseError, ClientForString, UpdateIPBans, G_ParseInfos, PM_StepSlideMove, PM_GroundTrace, PM_GroundTraceMissed, PM_CorrectAllSolid
 =================
 */
-void Com_Printf(int arg_0, int arg_1) {
+void Com_Printf(int arg_0, ...) {
 	va_list	local_18;
 	char	local_1c[1024];
 
 	va_start(local_18, arg_1);
 	Q_vsnprintf(local_1c, 0x400, arg_0, local_18);
-	local_18 = 0x0;
+	va_end(local_18);
 	trap_Print(local_1c);
 }
 
@@ -3046,7 +3046,7 @@ Calls: trap_FS_Write, strlen, G_Printf, Q_vsnprintf, Com_sprintf
 Called by: SP_worldspawn, Touch_Item, player_die, Cmd_GameCommand_f, Cmd_Tell_f, G_Say, ClientDisconnect, ClientBegin, ClientConnect, ClientUserinfoChanged, CheckTournament, LogExit, G_ShutdownGame, G_InitGame
 =================
 */
-void G_LogPrintf(int arg_0, int arg_1) {
+void G_LogPrintf(int arg_0, ...) {
 	char	local_20[7];
 	char	local_27[1017];
 	int		local_420;
@@ -3070,7 +3070,7 @@ void G_LogPrintf(int arg_0, int arg_1) {
 	Com_sprintf(local_20, 0x400, 0x2652, local_428, local_42c, local_420);
 	va_start(local_424, arg_1);
 	Q_vsnprintf(local_27, 0x3f9, arg_0, local_424);
-	local_424 = 0x0;
+	va_end(local_424);
 	if (bss_174bc == 0x0) goto jmp_bc6;
 	G_Printf(0x264f, local_27);
 jmp_bc6:
@@ -17754,14 +17754,14 @@ Calls: G_Error, G_Printf, Q_vsnprintf
 Called by: BotAISetupClient, BotAI, BotTeamplayReport, BotReportStatus, BotTestAAS, BotSetupDeathmatchAI, BotDeathmatchAI, BotCheckEvents, BotCheckConsoleMessages, BotGetActivateGoal, BotCreateWayPoint, ClientSkin, ClientName, BotDumpNodeSwitches, BotMatchMessage, BotGPSToPosition
 =================
 */
-void BotAI_Print(int arg_0, int arg_1, int arg_2) {
+void BotAI_Print(int arg_0, int arg_1, ...) {
 	va_list	local_18;
 	char	local_1c[2048];
 	int		local_81c;
 
 	va_start(local_18, arg_2);
 	Q_vsnprintf(local_1c, 0x800, arg_1, local_18);
-	local_18 = 0x0;
+	va_end(local_18);
 	local_81c = arg_0;
 	if (local_81c < 0x1) goto jmp_c69f;
 	if (local_81c > 0x5) goto jmp_c69f;
@@ -17923,7 +17923,7 @@ Calls: trap_BotInitialChat, memset, BotSynonymContext
 Called by: BotVoiceChat_WantOnOffense, BotVoiceChat_WantOnDefense, BotVoiceChat_WhoIsLeader, BotVoiceChat_FollowMe, BotVoiceChat_Camp, BotVoiceChat_Patrol, BotTeamAI, BotCreateGroup, BotCTFOrders_BothFlagsAtBase, BotCTFOrders_EnemyFlagNotAtBase, BotCTFOrders_FlagNotAtBase, BotCTFOrders_BothFlagsNotAtBase, BotLongTermGoal, BotGetLongTermGoal, BotMatch_Kill, BotMatch_LeadTheWay, BotMatch_WhereAreYou, BotMatch_WhatAreYouDoing, BotMatch_Dismiss, BotMatch_CheckPoint, BotMatch_WhichTeam, BotMatch_LeaveSubteam, BotMatch_JoinSubteam, BotMatch_TaskPreference, BotMatch_Camp, BotMatch_HelpAccompany, BotChatTest, BotChat_Random, BotChat_HitNoKill, BotChat_HitNoDeath, BotChat_HitTalking, BotChat_EnemySuicide, BotChat_Kill, BotChat_Death, BotChat_EndLevel, BotChat_StartLevel, BotChat_ExitGame, BotChat_EnterGame
 =================
 */
-void BotAI_BotInitialChat(int arg_0, int arg_1, int arg_2) {
+void BotAI_BotInitialChat(int arg_0, int arg_1, ...) {
 	int		local_34;
 	int		local_38;
 	int		local_3c;
@@ -17956,7 +17956,7 @@ jmp_c7ec:
 	local_34 = (local_34 + 0x1);
 	if (local_34 < 0x8) goto jmp_c7e6;
 jmp_c810:
-	local_5c = 0x0;
+	va_end(local_5c);
 	local_68 = BotSynonymContext(arg_0);
 	local_60 = local_68;
 	trap_BotInitialChat(*(int *)(arg_0 + 0x18f0), arg_1, local_60, local_3c, local_40, local_44, local_48, local_4c, local_50, local_54, local_58);
@@ -27949,7 +27949,7 @@ Calls: _atof, _atoi
 Called by: G_ParseField, G_SpawnVector, G_ReadSessionData, BotReadSessionData, BotMatch_CheckPoint
 =================
 */
-int sscanf(int arg_0, int arg_1, int arg_2) {
+int sscanf(int arg_0, int arg_1, ...) {
 	int		local_c;
 	int		local_10;
 	va_list	local_14;
@@ -28053,7 +28053,7 @@ jmp_14888:
 	*(char *)local_5c = 0x0;
 jmp_14896:
 	if ((char)*(char *)arg_1 != 0x0) goto jmp_1476e;
-	local_14 = 0x0;
+	va_end(local_14);
 	return local_18;
 }
 
@@ -42659,7 +42659,7 @@ Calls: trap_SendServerCommand, va, strchr, G_Error, Q_vsnprintf
 Called by: Pickup_Team, Team_TouchEnemyFlag, Team_TouchOurFlag, Team_ReturnFlag, Team_FragBonuses
 =================
 */
-void PrintMsg(int arg_0, int arg_1, int arg_2) {
+void PrintMsg(int arg_0, int arg_1, ...) {
 	int		local_18;
 	char	local_1c[1024];
 	va_list	local_41c;
@@ -42673,7 +42673,7 @@ void PrintMsg(int arg_0, int arg_1, int arg_2) {
 	if (local_420 < 0x400) goto jmp_1f985;
 	G_Error(0x81d0);
 jmp_1f985:
-	local_41c = 0x0;
+	va_end(local_41c);
 	goto jmp_1f98e;
 jmp_1f98a:
 	*(char *)local_18 = 0x27;
@@ -49473,13 +49473,13 @@ Locals Count: 4
 Calls: Com_Printf, COM_GetCurrentParseLine, Q_vsnprintf
 =================
 */
-void COM_ParseError(int arg_0, int arg_1) {
+void COM_ParseError(int arg_0, ...) {
 	va_list	local_18;
 	int		local_1c;
 
 	va_start(local_18, arg_1);
 	Q_vsnprintf(0x13c07c, 0x1000, arg_0, local_18);
-	local_18 = 0x0;
+	va_end(local_18);
 	local_1c = COM_GetCurrentParseLine();
 	Com_Printf(0x85f3, 0x151a84, local_1c, 0x13c07c);
 }
@@ -49496,13 +49496,13 @@ Locals Count: 4
 Calls: Com_Printf, COM_GetCurrentParseLine, Q_vsnprintf
 =================
 */
-void COM_ParseWarning(int arg_0, int arg_1) {
+void COM_ParseWarning(int arg_0, ...) {
 	va_list	local_18;
 	int		local_1c;
 
 	va_start(local_18, arg_1);
 	Q_vsnprintf(0x13d07c, 0x1000, arg_0, local_18);
-	local_18 = 0x0;
+	va_end(local_18);
 	local_1c = COM_GetCurrentParseLine();
 	Com_Printf(0x85d9, 0x151a84, local_1c, 0x13d07c);
 }
@@ -50653,7 +50653,7 @@ Calls: Com_Printf, Q_vsnprintf
 Called by: Info_SetValueForKey_Big, Info_SetValueForKey, COM_BeginParseSession, vtos, BuildShaderStateConfig, TeamplayInfoMessage, Team_GetLocationMsg, SP_target_speaker, G_ItemDisabled, Cmd_CallTeamVote_f, Cmd_CallVote_f, G_Say, DeathmatchScoreboardMessage, UpdateTournamentInfo, BotSayTeamOrderAlways, BotInitLibrary, BotSetInfoConfigString, BotPrintActivateGoalInfo, BotGetActivateGoal, BotRecordNodeSwitch, BotMatch_CheckPoint, G_LogPrintf
 =================
 */
-int Com_sprintf(int arg_0, int arg_1, int arg_2, int arg_3) {
+int Com_sprintf(int arg_0, int arg_1, int arg_2, ...) {
 	int		local_18;
 	va_list	local_1c;
 	int		local_20;
@@ -50661,7 +50661,7 @@ int Com_sprintf(int arg_0, int arg_1, int arg_2, int arg_3) {
 	va_start(local_1c, arg_3);
 	local_20 = Q_vsnprintf(arg_0, arg_1, arg_2, local_1c);
 	local_18 = local_20;
-	local_1c = 0x0;
+	va_end(local_1c);
 	if (local_18 < arg_1) goto jmp_24772;
 	Com_Printf(0x8523, arg_1, (local_18 + 0x1));
 jmp_24772:
@@ -50681,7 +50681,7 @@ Calls: Q_vsnprintf
 Called by: G_TeamCommand, TeamplayInfoMessage, PrintMsg, Use_Target_Print, ConsoleCommand, UpdateIPBans, SP_worldspawn, G_WriteSessionData, G_ReadSessionData, G_WriteClientSessionData, ClientCommand, Cmd_TeamVote_f, Cmd_CallTeamVote_f, Cmd_Vote_f, Cmd_CallVote_f, Cmd_Where_f, Cmd_GameCommand_f, G_SayTo, BroadcastTeamChange, Cmd_TeamTask_f, Cmd_Noclip_f, Cmd_Notarget_f, Cmd_God_f, ClientNumberFromString, DeathmatchScoreboardMessage, ClientBegin, ClientConnect, ClientUserinfoChanged, G_GetBotInfoByNumber, G_LoadBots, G_LoadBotsFromFile, G_SpawnBots, Svcmd_BotList_f, G_AddBot, G_RemoveRandomBot, G_AddRandomBot, PlayerIntroSound, G_LoadArenas, G_LoadArenasFromFile, G_ParseInfos, BotReadSessionData, BotWriteSessionData, BotInterbreeding, BotSetInfoConfigString, BotCTFSeekGoals, CheckTeamVote, SetLeader, CheckVote, CheckTournament, CheckExitRules, CalculateRanks, G_UpdateCvars
 =================
 */
-int va(int arg_0, int arg_1) {
+int va(int arg_0, ...) {
 	va_list	local_18;
 	int		local_1c;
 	int		local_20;
@@ -50695,7 +50695,7 @@ int va(int arg_0, int arg_1) {
 	*(int *)local_20 = (local_24 + local_28);
 	va_start(local_18, arg_1);
 	Q_vsnprintf(local_1c, 0x7d00, arg_0, local_18);
-	local_18 = 0x0;
+	va_end(local_18);
 	return local_1c;
 }
 

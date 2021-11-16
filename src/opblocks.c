@@ -35,6 +35,7 @@ qvm_opblock_info_t  qvm_opblocks_info[OPB_MAX] = {
 	{ OPB_JUMP_ADDRESS, OPB_F_STACK_PUSH },
     { OPB_TYPE_CONVERSION, OPB_F_STACK_POP | OPB_F_STACK_PUSH },
 	{ OPB_VA_START, OPB_F_STACK_2POP | OPB_F_BLOCK_ADD },
+	{ OPB_VA_END, OPB_F_STACK_2POP | OPB_F_BLOCK_ADD },
 };
 
 qvm_opblock_t *opb_new(void)
@@ -138,7 +139,10 @@ void opb_print(file_t *file, qvm_opblock_t *opb)
                 while (var) {
                     if (var->address > opb->function->stack_size + 8)
                         file_print(file, ", ");
-                    file_print(file, "int %s", var->name);
+                    if (var->variadic)
+                        file_print(file, "...");
+                    else
+                        file_print(file, "int %s", var->name);
                     var = var->next;
                 }
             } else
@@ -297,6 +301,11 @@ void opb_print(file_t *file, qvm_opblock_t *opb)
         case OPB_VA_START:
             // TODO: 2nd parameters is the previous arg !
             file_print(file, "va_start(%s, %s)", opb->op2->variable->name, opb->op1->variable->name);
+            break;
+
+        // va_end call
+        case OPB_VA_END:
+            file_print(file, "va_end(%s)", opb->op2->variable->name);
             break;
 
         // default error

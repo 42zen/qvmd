@@ -25,6 +25,7 @@ The QVM format was created for Quake3 but is used by Wolfenstein, Call of Duty, 
 * Detect the variables size and type.
 * Handle function returns with a value.
 * Handle function calls.
+* Handle variadic functions with va_start and va_end.
 
 # Compilation and installation
   - Change to the directory containing this readme.

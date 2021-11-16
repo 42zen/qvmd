@@ -27,6 +27,7 @@ static qvm_variable_t *var_new(void)
     var->content = NULL;
     var->next = NULL;
     var->parents = NULL;
+    var->variadic = 0;
 
     // return the variable
     return var;

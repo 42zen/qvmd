@@ -1060,23 +1060,47 @@ static int qvm_load_variadic_functions(qvm_t *qvm)
 {
     qvm_function_t  *func;
     qvm_opblock_t   *opb;
+    char            va_found;
     unsigned int    va_func_count = 0;
 
     printf("Loading variadic functions...");
 
     // browse all functions
     for (unsigned int i = 0; i < qvm->functions_count; i++) {
+        // get the current function
         func = &qvm->functions[i];
 
-        // browse all function opblocks
+        // reset the boolean
+        va_found = 0;
+
+        // find all va_start calls
         for (opb = func->opblock_start; opb && opb != func->opblock_end; opb = opb->next)
             if (opb->info->id == OPB_ASSIGNATION && opb->opcode->value == 4)
                 if (opb->op2->info->id == OPB_LOCAL_ADR && opb->op2->variable->status == VS_LOCAL)
                     if (opb->op1->info->id == OPB_LOCAL_ADR && opb->op1->variable->status == VS_ARG) {
                         opb->info = &qvm_opblocks_info[OPB_VA_START];
                         opb->op2->variable->type = &qvm_types[T_VA_LIST];
-                        va_func_count++;
+                        opb->op1->variable->variadic = 1;
+                        // TODO: propagate va_list variable
+                        va_found = 1;
                     }
+
+        // if the function is not variadic go to the next one
+        if (!va_found)
+            continue;
+
+        // set the funciton as variadic
+        func->variadic = 1;
+
+        // count the variadic functions
+        va_func_count++;
+
+        // find all va_stop calls
+        for (opb = func->opblock_start; opb && opb != func->opblock_end; opb = opb->next)
+            if (opb->info->id == OPB_ASSIGNATION && opb->opcode->value == 4)
+                if (opb->op2->info->id == OPB_LOCAL_ADR && opb->op2->variable->status == VS_LOCAL && opb->op2->variable->type->id == T_VA_LIST)
+                    if (opb->op1->info->id == OPB_CONST && !opb->op1->opcode->value)
+                        opb->info = &qvm_opblocks_info[OPB_VA_END];
     }
 
     printf("Success: %i variadic functions found.\n", va_func_count);
