@@ -679,7 +679,6 @@ static int qvm_load_variables(qvm_t *qvm)
         return 0;
 
     // find all globals size
-    // TODO: var_foreach(qvm, qvm_load_variables_globals_size)
     qvm_load_variables_globals_size(qvm);
 
     // find all locals size
@@ -849,12 +848,26 @@ static int qvm_load_variables_map(qvm_t *qvm, qvm_map_t *map)
 static int qvm_load_variables_probs(qvm_t *qvm)
 {
     qvm_variable_t  *var;
+    qvm_function_t  *func;
 
-    // recut all variables that are represented with 4 bytes
+    // recut all globals that are represented with 4 bytes
     for (var = qvm->globals; var; var = var->next)
         if (var->size > 4 && var->prob_size[4])
             if (!var_cut(qvm, NULL, var->address + 4))
                 return 0;
+
+    // browse all functions
+    for (unsigned int i = 0; i < qvm->functions_count; i++) {
+        // get the current function
+        func = &qvm->functions[i];
+
+        // recut all locals that are represented with 4 bytes
+        for (var = func->locals; var && var->address < func->stack_size; var = var->next) {
+            if (var->size > 4 && var->prob_size[4])
+                if (!var_cut(qvm, func, var->address + 4))
+                    return 0;
+        }
+    }
 
     // success
     return 1;
@@ -951,7 +964,7 @@ static int qvm_load_calls(qvm_t *qvm)
     // save the % of restored calls
     qvm->restored_calls_perc = (float)(qvm->calls_restored * 100) / (float)qvm->calls_total;
 
-    printf("Success: %.2f%% of calls restored.\n", qvm->restored_calls_perc);
+    printf("Success: %.2f%% (%i/%i) of calls restored.\n", qvm->restored_calls_perc, qvm->calls_restored, qvm->calls_total);
 
     // success
     return 1;
@@ -961,6 +974,17 @@ static int qvm_load_calls_opb(qvm_t *qvm, qvm_opblock_t *opb)
 {
     qvm_opblock_t   *tmp;
     qvm_opblock_t   *call;
+    qvm_opblock_t   *curr;
+
+    // save the current opblock
+    curr = opb;
+
+    // go to the next opblock
+    opb = opb->next;
+
+    // check if the next opblock exist
+    if (!opb)
+        return 1;
 
     // check if the opblock is an arg
     if (opb->info->id != OPB_FUNC_ARG)
@@ -999,8 +1023,8 @@ static int qvm_load_calls_opb(qvm_t *qvm, qvm_opblock_t *opb)
     // increase the total of calls restored
     qvm->calls_restored++;
 
-    // change the value of opb
-    opb = tmp;
+    // change the value of the current opblock
+    curr->next = tmp;
 
     // success
     return 1;
