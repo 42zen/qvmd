@@ -2005,7 +2005,7 @@ void G_Printf(int arg_0, ...) {
 	va_list	local_18;
 	char	local_1c[1024];
 
-	va_start(local_18, arg_1);
+	va_start(local_18, arg_0);
 	Q_vsnprintf(local_1c, 0x400, arg_0, local_18);
 	va_end(local_18);
 	trap_Print(local_1c);
@@ -2028,7 +2028,7 @@ void G_Error(int arg_0, ...) {
 	va_list	local_18;
 	char	local_1c[1024];
 
-	va_start(local_18, arg_1);
+	va_start(local_18, arg_0);
 	Q_vsnprintf(local_1c, 0x400, arg_0, local_18);
 	va_end(local_18);
 	trap_Error(local_1c);
@@ -2375,7 +2375,7 @@ void Com_Error(, int arg_1, ...) {
 	va_list	local_18;
 	char	local_1c[1024];
 
-	va_start(local_18, arg_2);
+	va_start(local_18, arg_1);
 	Q_vsnprintf(local_1c, 0x400, arg_1, local_18);
 	va_end(local_18);
 	trap_Error(local_1c);
@@ -2398,7 +2398,7 @@ void Com_Printf(int arg_0, ...) {
 	va_list	local_18;
 	char	local_1c[1024];
 
-	va_start(local_18, arg_1);
+	va_start(local_18, arg_0);
 	Q_vsnprintf(local_1c, 0x400, arg_0, local_18);
 	va_end(local_18);
 	trap_Print(local_1c);
@@ -3068,7 +3068,7 @@ void G_LogPrintf(int arg_0, ...) {
 	local_42c = (local_420 / local_440);
 	local_420 = (local_420 - (local_440 * local_42c));
 	Com_sprintf(local_20, 0x400, 0x2652, local_428, local_42c, local_420);
-	va_start(local_424, arg_1);
+	va_start(local_424, arg_0);
 	Q_vsnprintf(local_27, 0x3f9, arg_0, local_424);
 	va_end(local_424);
 	if (bss_174bc == 0x0) goto jmp_bc6;
@@ -17759,7 +17759,7 @@ void BotAI_Print(int arg_0, int arg_1, ...) {
 	char	local_1c[2048];
 	int		local_81c;
 
-	va_start(local_18, arg_2);
+	va_start(local_18, arg_1);
 	Q_vsnprintf(local_1c, 0x800, arg_1, local_18);
 	va_end(local_18);
 	local_81c = arg_0;
@@ -17940,7 +17940,7 @@ void BotAI_BotInitialChat(int arg_0, int arg_1, ...) {
 	int		local_68;
 
 	memset(&local_3c, 0x0, 0x20);
-	va_start(local_5c, arg_2);
+	va_start(local_5c, arg_1);
 	local_64 = (local_5c + 0x4);
 	local_5c = local_64;
 	local_38 = *(int *)(local_64 + 0xfffffffc);
@@ -27972,7 +27972,7 @@ int sscanf(int arg_0, int arg_1, ...) {
 	int		local_58;
 	int		local_5c;
 
-	va_start(local_14, arg_2);
+	va_start(local_14, arg_1);
 	local_18 = 0x0;
 	goto jmp_14896;
 jmp_1476e:
@@ -42668,7 +42668,7 @@ void PrintMsg(int arg_0, int arg_1, ...) {
 	int		local_428;
 	int		local_42c;
 
-	va_start(local_41c, arg_2);
+	va_start(local_41c, arg_1);
 	local_420 = Q_vsnprintf(local_1c, 0x400, arg_1, local_41c);
 	if (local_420 < 0x400) goto jmp_1f985;
 	G_Error(0x81d0);
@@ -49477,7 +49477,7 @@ void COM_ParseError(int arg_0, ...) {
 	va_list	local_18;
 	int		local_1c;
 
-	va_start(local_18, arg_1);
+	va_start(local_18, arg_0);
 	Q_vsnprintf(0x13c07c, 0x1000, arg_0, local_18);
 	va_end(local_18);
 	local_1c = COM_GetCurrentParseLine();
@@ -49500,7 +49500,7 @@ void COM_ParseWarning(int arg_0, ...) {
 	va_list	local_18;
 	int		local_1c;
 
-	va_start(local_18, arg_1);
+	va_start(local_18, arg_0);
 	Q_vsnprintf(0x13d07c, 0x1000, arg_0, local_18);
 	va_end(local_18);
 	local_1c = COM_GetCurrentParseLine();
@@ -50658,7 +50658,7 @@ int Com_sprintf(int arg_0, int arg_1, int arg_2, ...) {
 	va_list	local_1c;
 	int		local_20;
 
-	va_start(local_1c, arg_3);
+	va_start(local_1c, arg_2);
 	local_20 = Q_vsnprintf(arg_0, arg_1, arg_2, local_1c);
 	local_18 = local_20;
 	va_end(local_1c);
@@ -50693,7 +50693,7 @@ int va(int arg_0, ...) {
 	local_28 = 0x1;
 	local_1c = ((0x7d00 * (local_24 & local_28)) + 0x13e07c);
 	*(int *)local_20 = (local_24 + local_28);
-	va_start(local_18, arg_1);
+	va_start(local_18, arg_0);
 	Q_vsnprintf(local_1c, 0x7d00, arg_0, local_18);
 	va_end(local_18);
 	return local_1c;

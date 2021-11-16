@@ -118,6 +118,7 @@ void opb_print(file_t *file, qvm_opblock_t *opb)
 {
     qvm_opblock_t   *tmp;
     qvm_variable_t  *var;
+    qvm_variable_t  *prev;
 
     switch (opb->info->id) {
         // do nothing
@@ -299,8 +300,18 @@ void opb_print(file_t *file, qvm_opblock_t *opb)
 
         // va_start call
         case OPB_VA_START:
-            // TODO: 2nd parameters is the previous arg !
-            file_print(file, "va_start(%s, %s)", opb->op2->variable->name, opb->op1->variable->name);
+            // find the previous parameters
+            for (var = opb->function->locals; var && var != opb->op1->variable; var = var->next)
+                prev = var;
+
+            // check errors
+            if (!var || !prev) {
+                printf("Warning: Couldn't find previous parameter from variadic detection.\n");
+                prev = opb->op1->variable;
+            }
+
+            // print va_start call
+            file_print(file, "va_start(%s, %s)", opb->op2->variable->name, prev->name);
             break;
 
         // va_end call
