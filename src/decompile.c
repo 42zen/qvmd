@@ -58,18 +58,13 @@ static void qvm_decompile_globals(qvm_t *qvm, file_t *file)
     // browse all variables
     for (var = qvm->globals; var; var = var->next) {
         // print variable type
-        if (var->size == 4)
-            file_print(file, "int\t\t");
-        else if (var->size == 2)
-            file_print(file, "short\t");
-        else
-            file_print(file, "char\t");
+        file_print(file, "%s", var->type->pretty_name);
 
         // print variable name
         file_print(file, "%s", var->name);
 
         // print variable size if needed
-        if (var->size > 4 || var->size < 1 || var->size == 3)
+        if (var->type->flags & TF_ARRAY)
             file_print(file, "[%u]", var->size);
 
         // print variables content if needed
@@ -240,14 +235,10 @@ static void qvm_decompile_function_locals(file_t *file, qvm_function_t *func)
 
     // print all locals
     for (var = func->locals; var && var->address < func->stack_size; var = var->next) {
-        if (var->size == 4)
-            file_print(file, "\tint\t\t%s;\n", var->name);
-        else if (var->size == 2)
-            file_print(file, "\tshort\t%s;\n", var->name);
-        else if (var->size == 1)
-            file_print(file, "\tchar\t%s;\n", var->name);
-        else
-            file_print(file, "\tchar\t%s[%u];\n", var->name, var->size);
+        file_print(file, "\t%s%s", var->type->pretty_name, var->name);
+        if (var->type->flags & TF_ARRAY)
+            file_print(file, "[%u]", var->size);
+        file_print(file, ";\n");
     }
 
     // print an end of line after the variables

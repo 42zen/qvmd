@@ -15,6 +15,7 @@ SRC = src/qvmd.c \
       src/qvm.c \
       src/sections.c \
       src/strings.c \
+      src/types.c \
       src/variables.c
 
 OBJ = $(SRC:.c=.o)

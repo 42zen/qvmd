@@ -4,6 +4,7 @@
 typedef struct qvm_variable_s   qvm_variable_t;
 
 #include "functions.h"
+#include "types.h"
 
 typedef enum {
     VS_LOCAL,
@@ -24,6 +25,7 @@ typedef struct qvm_variable_s {
     qvm_variable_t          *next;
     qvm_function_list_t     *parents;
     qvm_variable_status_e   status;
+    qvm_type_t              *type;
 } qvm_variable_t;
 
 qvm_variable_t  *var_get(qvm_t *qvm, qvm_function_t *function, unsigned int address, unsigned int size, qvm_function_t *parent);

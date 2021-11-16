@@ -23,6 +23,7 @@ static void     qvm_load_variables_locals_size(qvm_t *qvm);
 static int      qvm_load_variables_map(qvm_t *qvm, qvm_map_t *map);
 static int      qvm_load_variables_probs(qvm_t *qvm);
 static int      qvm_load_variables_literals(qvm_t *qvm);
+static void     qvm_load_variables_types(qvm_t *qvm);
 static int      qvm_load_returns(qvm_t *qvm);
 static int      qvm_load_calls(qvm_t *qvm);
 static int      qvm_load_calls_opb(qvm_t *qvm, qvm_opblock_t *opb);
@@ -696,6 +697,9 @@ static int qvm_load_variables(qvm_t *qvm)
     if (!qvm_load_variables_literals(qvm))
         return 0;
 
+    // find the variables types
+    qvm_load_variables_types(qvm);
+
     printf("Success: %i globals and %i locals found.\n", qvm->globals_count, qvm->locals_count);
 
     // success
@@ -898,6 +902,26 @@ static int qvm_load_variables_literals(qvm_t *qvm)
 
     // success
     return 1;
+}
+
+static void qvm_load_variables_types(qvm_t *qvm)
+{
+    qvm_variable_t  *var;
+    qvm_function_t  *func;
+
+    // find all globals default type
+    for (var = qvm->globals; var; var = var->next)
+        var->type = type_from_var(var);
+
+    // browse all functions
+    for (unsigned int i = 0; i < qvm->functions_count; i++) {
+        // get the current function
+        func = &qvm->functions[i];
+
+        // find all locals default type
+        for (var = func->locals; var && var->address < func->stack_size; var = var->next)
+            var->type = type_from_var(var);
+    }
 }
 
 static int qvm_load_returns(qvm_t *qvm)
