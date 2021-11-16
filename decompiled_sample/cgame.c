@@ -5,7 +5,7 @@
 	Opcodes Count: 105045
 	Functions Count: 522
 	Syscalls Count: 70
-	Globals Count: 1850
+	Globals Count: 1846
 	Calls Restored: 94.34
 */
 
@@ -39,10 +39,8 @@ int		drawTeamOverlayModificationCount = -1; // Used by: CG_UpdateCvars
 char	global_1038[176] = "\xba\x59\x00\x00\xde\x59\x00\x00\x02\x5a\x00\x00\x26\x5a\x00\x00\x00\x00\x80\x3f\xd7\xa3\x30\x3f\x00\x00\x00\x00\x00\x00\x80\x3f\x00\x00\x80\x3f\xcd\xcc\x4c\x3e\xcd\xcc\x4c\x3e\x00\x00\x80\x3f\x00\x00\x00\x3f\x00\x00\x00\x3f\x00\x00\x00\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\xcd\xcc\x4c\x3e\x00\x00\x80\x3f\xcd\xcc\x4c\x3e\x00\x00\x80\x3f\x00\x00\x80\x3f\xcd\xcc\x4c\x3e\xcd\xcc\x4c\x3e\x00\x00\x80\x3f\x00\x00\x80\x3f\xcd\xcc\x4c\x3e\xcd\xcc\x4c\x3e\x00\x00\x80\x3f\xcd\xcc\x4c\x3e\xcd\xcc\x4c\x3e\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x33\x33\x33\x3f\x33\x33\x33\x3f\x33\x33\x33\x3f\x00\x00\x80\x3f";
 char	propMap[1536] = "\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\x08\x00\x00\x00\x0b\x00\x00\x00\x7a\x00\x00\x00\x07\x00\x00\x00\x9a\x00\x00\x00\xb5\x00\x00\x00\x0e\x00\x00\x00\x37\x00\x00\x00\x7a\x00\x00\x00\x11\x00\x00\x00\x4f\x00\x00\x00\x7a\x00\x00\x00\x12\x00\x00\x00\x65\x00\x00\x00\x7a\x00\x00\x00\x17\x00\x00\x00\x99\x00\x00\x00\x7a\x00\x00\x00\x12\x00\x00\x00\x09\x00\x00\x00\x5d\x00\x00\x00\x07\x00\x00\x00\xcf\x00\x00\x00\x7a\x00\x00\x00\x08\x00\x00\x00\xe6\x00\x00\x00\x7a\x00\x00\x00\x09\x00\x00\x00\xb1\x00\x00\x00\x7a\x00\x00\x00\x12\x00\x00\x00\x1e\x00\x00\x00\x98\x00\x00\x00\x12\x00\x00\x00\x55\x00\x00\x00\xb5\x00\x00\x00\x07\x00\x00\x00\x22\x00\x00\x00\x5d\x00\x00\x00\x0b\x00\x00\x00\x6e\x00\x00\x00\xb5\x00\x00\x00\x06\x00\x00\x00\x82\x00\x00\x00\x98\x00\x00\x00\x0e\x00\x00\x00\x16\x00\x00\x00\x40\x00\x00\x00\x11\x00\x00\x00\x29\x00\x00\x00\x40\x00\x00\x00\x0c\x00\x00\x00\x3a\x00\x00\x00\x40\x00\x00\x00\x11\x00\x00\x00\x4e\x00\x00\x00\x40\x00\x00\x00\x12\x00\x00\x00\x62\x00\x00\x00\x40\x00\x00\x00\x13\x00\x00\x00\x78\x00\x00\x00\x40\x00\x00\x00\x12\x00\x00\x00\x8d\x00\x00\x00\x40\x00\x00\x00\x12\x00\x00\x00\xcc\x00\x00\x00\x40\x00\x00\x00\x10\x00\x00\x00\xa2\x00\x00\x00\x40\x00\x00\x00\x11\x00\x00\x00\xb6\x00\x00\x00\x40\x00\x00\x00\x12\x00\x00\x00\x3b\x00\x00\x00\xb5\x00\x00\x00\x07\x00\x00\x00\x23\x00\x00\x00\xb5\x00\x00\x00\x07\x00\x00\x00\xcb\x00\x00\x00\x98\x00\x00\x00\x0e\x00\x00\x00\x38\x00\x00\x00\x5d\x00\x00\x00\x0e\x00\x00\x00\xe4\x00\x00\x00\x98\x00\x00\x00\x0e\x00\x00\x00\xb1\x00\x00\x00\xb5\x00\x00\x00\x12\x00\x00\x00\x1c\x00\x00\x00\x7a\x00\x00\x00\x16\x00\x00\x00\x05\x00\x00\x00\x04\x00\x00\x00\x12\x00\x00\x00\x1b\x00\x00\x00\x04\x00\x00\x00\x12\x00\x00\x00\x30\x00\x00\x00\x04\x00\x00\x00\x12\x00\x00\x00\x45\x00\x00\x00\x04\x00\x00\x00\x11\x00\x00\x00\x5a\x00\x00\x00\x04\x00\x00\x00\x0d\x00\x00\x00\x6a\x00\x00\x00\x04\x00\x00\x00\x0d\x00\x00\x00\x79\x00\x00\x00\x04\x00\x00\x00\x12\x00\x00\x00\x8f\x00\x00\x00\x04\x00\x00\x00\x11\x00\x00\x00\xa4\x00\x00\x00\x04\x00\x00\x00\x08\x00\x00\x00\xaf\x00\x00\x00\x04\x00\x00\x00\x10\x00\x00\x00\xc3\x00\x00\x00\x04\x00\x00\x00\x12\x00\x00\x00\xd8\x00\x00\x00\x04\x00\x00\x00\x0c\x00\x00\x00\xe6\x00\x00\x00\x04\x00\x00\x00\x17\x00\x00\x00\x06\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\x1b\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\x30\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\x44\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\x5a\x00\x00\x00\x22\x00\x00\x00\x11\x00\x00\x00\x6e\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\x82\x00\x00\x00\x22\x00\x00\x00\x0e\x00\x00\x00\x92\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\xa6\x00\x00\x00\x22\x00\x00\x00\x13\x00\x00\x00\xb9\x00\x00\x00\x22\x00\x00\x00\x1d\x00\x00\x00\xd7\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\xea\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\x05\x00\x00\x00\x40\x00\x00\x00\x0e\x00\x00\x00\x3c\x00\x00\x00\x98\x00\x00\x00\x07\x00\x00\x00\x6a\x00\x00\x00\x97\x00\x00\x00\x0d\x00\x00\x00\x53\x00\x00\x00\x98\x00\x00\x00\x07\x00\x00\x00\x80\x00\x00\x00\x7a\x00\x00\x00\x11\x00\x00\x00\x04\x00\x00\x00\x98\x00\x00\x00\x15\x00\x00\x00\x86\x00\x00\x00\xb5\x00\x00\x00\x05\x00\x00\x00\x05\x00\x00\x00\x04\x00\x00\x00\x12\x00\x00\x00\x1b\x00\x00\x00\x04\x00\x00\x00\x12\x00\x00\x00\x30\x00\x00\x00\x04\x00\x00\x00\x12\x00\x00\x00\x45\x00\x00\x00\x04\x00\x00\x00\x11\x00\x00\x00\x5a\x00\x00\x00\x04\x00\x00\x00\x0d\x00\x00\x00\x6a\x00\x00\x00\x04\x00\x00\x00\x0d\x00\x00\x00\x79\x00\x00\x00\x04\x00\x00\x00\x12\x00\x00\x00\x8f\x00\x00\x00\x04\x00\x00\x00\x11\x00\x00\x00\xa4\x00\x00\x00\x04\x00\x00\x00\x08\x00\x00\x00\xaf\x00\x00\x00\x04\x00\x00\x00\x10\x00\x00\x00\xc3\x00\x00\x00\x04\x00\x00\x00\x12\x00\x00\x00\xd8\x00\x00\x00\x04\x00\x00\x00\x0c\x00\x00\x00\xe6\x00\x00\x00\x04\x00\x00\x00\x17\x00\x00\x00\x06\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\x1b\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\x30\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\x44\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\x5a\x00\x00\x00\x22\x00\x00\x00\x11\x00\x00\x00\x6e\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\x82\x00\x00\x00\x22\x00\x00\x00\x0e\x00\x00\x00\x92\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\xa6\x00\x00\x00\x22\x00\x00\x00\x13\x00\x00\x00\xb9\x00\x00\x00\x22\x00\x00\x00\x1d\x00\x00\x00\xd7\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\xea\x00\x00\x00\x22\x00\x00\x00\x12\x00\x00\x00\x05\x00\x00\x00\x40\x00\x00\x00\x0e\x00\x00\x00\x99\x00\x00\x00\x98\x00\x00\x00\x0d\x00\x00\x00\x0b\x00\x00\x00\xb5\x00\x00\x00\x05\x00\x00\x00\xb4\x00\x00\x00\x98\x00\x00\x00\x0d\x00\x00\x00\x4f\x00\x00\x00\x5d\x00\x00\x00\x11\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xff\xff\xff\xff";
 char	propMapB[496] = "\x0b\x00\x00\x00\x0c\x00\x00\x00\x21\x00\x00\x00\x31\x00\x00\x00\x0c\x00\x00\x00\x1f\x00\x00\x00\x55\x00\x00\x00\x0c\x00\x00\x00\x1f\x00\x00\x00\x78\x00\x00\x00\x0c\x00\x00\x00\x1e\x00\x00\x00\x9c\x00\x00\x00\x0c\x00\x00\x00\x15\x00\x00\x00\xb7\x00\x00\x00\x0c\x00\x00\x00\x15\x00\x00\x00\xcf\x00\x00\x00\x0c\x00\x00\x00\x20\x00\x00\x00\x0d\x00\x00\x00\x37\x00\x00\x00\x1e\x00\x00\x00\x31\x00\x00\x00\x37\x00\x00\x00\x0d\x00\x00\x00\x42\x00\x00\x00\x37\x00\x00\x00\x1d\x00\x00\x00\x65\x00\x00\x00\x37\x00\x00\x00\x1f\x00\x00\x00\x87\x00\x00\x00\x37\x00\x00\x00\x15\x00\x00\x00\x9e\x00\x00\x00\x37\x00\x00\x00\x28\x00\x00\x00\xcc\x00\x00\x00\x37\x00\x00\x00\x20\x00\x00\x00\x0c\x00\x00\x00\x61\x00\x00\x00\x1f\x00\x00\x00\x30\x00\x00\x00\x61\x00\x00\x00\x1f\x00\x00\x00\x52\x00\x00\x00\x61\x00\x00\x00\x1e\x00\x00\x00\x76\x00\x00\x00\x61\x00\x00\x00\x1e\x00\x00\x00\x99\x00\x00\x00\x61\x00\x00\x00\x1e\x00\x00\x00\xb9\x00\x00\x00\x61\x00\x00\x00\x19\x00\x00\x00\xd5\x00\x00\x00\x61\x00\x00\x00\x1e\x00\x00\x00\x0b\x00\x00\x00\x8b\x00\x00\x00\x20\x00\x00\x00\x2a\x00\x00\x00\x8b\x00\x00\x00\x33\x00\x00\x00\x5d\x00\x00\x00\x8b\x00\x00\x00\x20\x00\x00\x00\x7e\x00\x00\x00\x8b\x00\x00\x00\x1f\x00\x00\x00\x9e\x00\x00\x00\x8b\x00\x00\x00\x19\x00\x00\x00\x92\x00\x00\x00\x6f\x9d\x00\x00\x77\x9d\x00\x00\x7f\x9d\x00\x00\x87\x9d\x00\x00\x8f\x9d\x00\x00\x97\x9d\x00\x00\x9f\x9d\x00\x00\xa7\x9d\x00\x00\xbd\x9d\x00\x00\xbd\x9d\x00\x00\xbd\x9d\x00\x00\xaf\x9d\x00\x00\xb7\x9d\x00\x00\xb6\x9f\x00\x00\xbb\x9f\x00\x00\xc0\x9f\x00\x00\xb1\x9f\x00\x00\xcf\x9f\x00\x00\xac\x9f\x00\x00\xa7\x9f\x00\x00\xc5\x9f\x00\x00\xca\x9f\x00\x00\x0b\xa1\x00\x00\x01\xa1\x00\x00\x06\xa1\x00\x00\x10\xa1\x00\x00\x18\xa1\x00\x00\x20\xa1\x00\x00\x28\xa1\x00\x00\x30\xa1\x00\x00\x38\xa1\x00\x00\x40\xa1\x00\x00\x45\xa1\x00\x00\x4a\xa1\x00\x00\x4a\xa1\x00\x00\x5a\xa1\x00\x00\x5a\xa1\x00\x00\x5a\xa1\x00\x00\x5a\xa1\x00\x00\x52\xa1\x00\x00\x5a\xa1\x00\x00\x5a\xa1\x00\x00\x5a\xa1\x00\x00\x5a\xa1\x00\x00\xfc\xa0\x00\x00";
-char	global_18d8[12] = "\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80\x3f"; // Used by: CG_EntityEvent
-char	global_18e4[376] = "\xf8\xa3\x00\x00\x28\xa4\x00\x00\x50\xa4\x00\x00\x78\xa4\x00\x00\xa0\xa4\x00\x00\x52\xa5\x00\x00\x52\xa5\x00\x00\x52\xa5\x00\x00\x52\xa5\x00\x00\xc8\xa4\x00\x00\xed\xa4\x00\x00\x1c\xa5\x00\x00\xbb\xa5\x00\x00\x16\xa6\x00\x00\x5c\xa6\x00\x00\x75\xa6\x00\x00\x8e\xa6\x00\x00\xa7\xa6\x00\x00\xca\xa6\x00\x00\x44\xa7\x00\x00\x9f\xa7\x00\x00\xb6\xa7\x00\x00\xcf\xa7\x00\x00\xe0\xa7\x00\x00\xf1\xa7\x00\x00\x02\xa8\x00\x00\x13\xa8\x00\x00\x24\xa8\x00\x00\x35\xa8\x00\x00\x46\xa8\x00\x00\x57\xa8\x00\x00\x68\xa8\x00\x00\x79\xa8\x00\x00\x8a\xa8\x00\x00\x9b\xa8\x00\x00\xac\xa8\x00\x00\xbd\xa8\x00\x00\xce\xa8\x00\x00\xdf\xa8\x00\x00\x47\xa9\x00\x00\x2e\xa9\x00\x00\xf0\xa8\x00\x00\x0f\xa9\x00\x00\x67\xa9\x00\x00\x5e\xab\x00\x00\xb6\xab\x00\x00\x17\xac\x00\x00\x2a\xab\x00\x00\x00\xab\x00\x00\xb9\xa9\x00\x00\xe3\xa9\x00\x00\x10\xaa\x00\x00\x38\xaa\x00\x00\x4d\xab\x00\x00\x82\xae\x00\x00\x2d\xad\x00\x00\x4d\xad\x00\x00\x4d\xad\x00\x00\x4d\xad\x00\x00\xa3\xad\x00\x00\xb4\xad\x00\x00\xdd\xad\x00\x00\x06\xae\x00\x00\x2f\xae\x00\x00\x9a\xa9\x00\x00\x82\xae\x00\x00\x82\xae\x00\x00\x82\xae\x00\x00\x82\xae\x00\x00\x82\xae\x00\x00\x82\xae\x00\x00\x82\xae\x00\x00\x82\xae\x00\x00\x71\xae\x00\x00\x59\xae\x00\x00\x39\xa6\x00\x00\x37\xac\x00\x00\x4e\xac\x00\x00\x65\xac\x00\x00\x82\xac\x00\x00\x9f\xac\x00\x00\xd2\xac\x00\x00\x93\xae\x00\x00\x93\xae\x00\x00\x05\xad\x00\x00\x0d\xad\x00\x00\x15\xad\x00\x00\x1d\xad\x00\x00\x25\xad\x00\x00\x84\xb2\x00\x00\x8e\xb2\x00\x00\x89\xb2\x00\x00\x93\xb2\x00\x00\x98\xb2\x00\x00";
-char	global_1a5c[12] = "\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80\x3f"; // Used by: CG_AddScorePlum
-char	global_1a68[36] = "\x54\xbe\x00\x00\x1e\xbe\x00\x00\x16\xbe\x00\x00\x26\xbe\x00\x00\x2e\xbe\x00\x00\x3e\xbe\x00\x00\x36\xbe\x00\x00\x46\xbe\x00\x00\x4e\xbe\x00\x00";
+char	global_18d8[388] = "\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80\x3f\xf8\xa3\x00\x00\x28\xa4\x00\x00\x50\xa4\x00\x00\x78\xa4\x00\x00\xa0\xa4\x00\x00\x52\xa5\x00\x00\x52\xa5\x00\x00\x52\xa5\x00\x00\x52\xa5\x00\x00\xc8\xa4\x00\x00\xed\xa4\x00\x00\x1c\xa5\x00\x00\xbb\xa5\x00\x00\x16\xa6\x00\x00\x5c\xa6\x00\x00\x75\xa6\x00\x00\x8e\xa6\x00\x00\xa7\xa6\x00\x00\xca\xa6\x00\x00\x44\xa7\x00\x00\x9f\xa7\x00\x00\xb6\xa7\x00\x00\xcf\xa7\x00\x00\xe0\xa7\x00\x00\xf1\xa7\x00\x00\x02\xa8\x00\x00\x13\xa8\x00\x00\x24\xa8\x00\x00\x35\xa8\x00\x00\x46\xa8\x00\x00\x57\xa8\x00\x00\x68\xa8\x00\x00\x79\xa8\x00\x00\x8a\xa8\x00\x00\x9b\xa8\x00\x00\xac\xa8\x00\x00\xbd\xa8\x00\x00\xce\xa8\x00\x00\xdf\xa8\x00\x00\x47\xa9\x00\x00\x2e\xa9\x00\x00\xf0\xa8\x00\x00\x0f\xa9\x00\x00\x67\xa9\x00\x00\x5e\xab\x00\x00\xb6\xab\x00\x00\x17\xac\x00\x00\x2a\xab\x00\x00\x00\xab\x00\x00\xb9\xa9\x00\x00\xe3\xa9\x00\x00\x10\xaa\x00\x00\x38\xaa\x00\x00\x4d\xab\x00\x00\x82\xae\x00\x00\x2d\xad\x00\x00\x4d\xad\x00\x00\x4d\xad\x00\x00\x4d\xad\x00\x00\xa3\xad\x00\x00\xb4\xad\x00\x00\xdd\xad\x00\x00\x06\xae\x00\x00\x2f\xae\x00\x00\x9a\xa9\x00\x00\x82\xae\x00\x00\x82\xae\x00\x00\x82\xae\x00\x00\x82\xae\x00\x00\x82\xae\x00\x00\x82\xae\x00\x00\x82\xae\x00\x00\x82\xae\x00\x00\x71\xae\x00\x00\x59\xae\x00\x00\x39\xa6\x00\x00\x37\xac\x00\x00\x4e\xac\x00\x00\x65\xac\x00\x00\x82\xac\x00\x00\x9f\xac\x00\x00\xd2\xac\x00\x00\x93\xae\x00\x00\x93\xae\x00\x00\x05\xad\x00\x00\x0d\xad\x00\x00\x15\xad\x00\x00\x1d\xad\x00\x00\x25\xad\x00\x00\x84\xb2\x00\x00\x8e\xb2\x00\x00\x89\xb2\x00\x00\x93\xb2\x00\x00\x98\xb2\x00\x00"; // Used by: CG_EntityEvent
+char	global_1a5c[48] = "\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80\x3f\x54\xbe\x00\x00\x1e\xbe\x00\x00\x16\xbe\x00\x00\x26\xbe\x00\x00\x2e\xbe\x00\x00\x3e\xbe\x00\x00\x36\xbe\x00\x00\x46\xbe\x00\x00\x4e\xbe\x00\x00"; // Used by: CG_AddScorePlum
 char	shaderAnimNames[128] = "\x1c\x61\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00";
 char	shaderAnimCounts[128] = "\x17\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00";
 char	shaderAnimSTRatio[128] = "\x00\x00\x80\x3f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00";
@@ -51,8 +49,7 @@ int		initparticles = 0; // Used by: CG_AddParticles, CG_ClearParticles
 int		roll = 0;
 char	cg_customSoundNames[160] = "\x92\x67\x00\x00\x86\x67\x00\x00\x7a\x67\x00\x00\x6f\x67\x00\x00\x61\x67\x00\x00\x53\x67\x00\x00\x45\x67\x00\x00\x36\x67\x00\x00\x28\x67\x00\x00\x1e\x67\x00\x00\x13\x67\x00\x00\x08\x67\x00\x00\xfd\x66\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x16\x00\x00\x00\x2d\x00\x00\x00\xea\xff\xff\xff\x00\x00\x00\x00\x16\x00\x00\x00\xd3\xff\xff\xff\xea\xff\xff\xff";
 char	global_1cb8[12] = "\x00\x00\x70\xc1\x00\x00\x70\xc1\x00\x00\x00\x00"; // Used by: CG_PlayerShadow
-char	global_1cc4[12] = "\x00\x00\x70\x41\x00\x00\x70\x41\x00\x00\x00\x40"; // Used by: CG_PlayerShadow
-char	global_1cd0[140] = "\xd4\x18\x01\x00\xd4\x18\x01\x00\xd4\x18\x01\x00\xe7\x18\x01\x00\xd4\x18\x01\x00\x00\x00\x80\xc0\x00\x00\x80\xc0\x00\x00\x80\xc0\x00\x00\x80\x40\x00\x00\x80\x40\x00\x00\x80\x40\xac\x58\x01\x00\xbe\x59\x01\x00\x1e\x5a\x01\x00\xba\x5a\x01\x00\x47\x5a\x01\x00\xde\x58\x01\x00\x52\x5b\x01\x00\x06\x5b\x01\x00\xa2\x5b\x01\x00\x57\x59\x01\x00\x96\x6a\x01\x00\x82\x6a\x01\x00\x89\x69\x01\x00\xa4\x69\x01\x00\x5e\x69\x01\x00\x40\x6a\x01\x00\x55\x6a\x01\x00\x6a\x6a\x01\x00\x3b\x6c\x01\x00\x3b\x6c\x01\x00\x4b\x6c\x01\x00\x4b\x6c\x01\x00\x3b\x6c\x01\x00\x3b\x6c\x01\x00";
+char	global_1cc4[152] = "\x00\x00\x70\x41\x00\x00\x70\x41\x00\x00\x00\x40\xd4\x18\x01\x00\xd4\x18\x01\x00\xd4\x18\x01\x00\xe7\x18\x01\x00\xd4\x18\x01\x00\x00\x00\x80\xc0\x00\x00\x80\xc0\x00\x00\x80\xc0\x00\x00\x80\x40\x00\x00\x80\x40\x00\x00\x80\x40\xac\x58\x01\x00\xbe\x59\x01\x00\x1e\x5a\x01\x00\xba\x5a\x01\x00\x47\x5a\x01\x00\xde\x58\x01\x00\x52\x5b\x01\x00\x06\x5b\x01\x00\xa2\x5b\x01\x00\x57\x59\x01\x00\x96\x6a\x01\x00\x82\x6a\x01\x00\x89\x69\x01\x00\xa4\x69\x01\x00\x5e\x69\x01\x00\x40\x6a\x01\x00\x55\x6a\x01\x00\x6a\x6a\x01\x00\x3b\x6c\x01\x00\x3b\x6c\x01\x00\x4b\x6c\x01\x00\x4b\x6c\x01\x00\x3b\x6c\x01\x00\x3b\x6c\x01\x00"; // Used by: CG_PlayerShadow
 int		vec3_origin = 0; // Used by: AnglesToAxis, ByteToDir, CG_ClipMoveToEntities, CG_DamageFeedback, CG_Portal, PM_NoclipMove
 int		global_1d60 = 0; // Used by: AnglesToAxis, CG_DamageFeedback, CG_Portal
 int		global_1d64 = 0; // Used by: AnglesToAxis, CG_DamageFeedback, CG_Portal
@@ -71,7 +68,7 @@ char	colorDkGrey[16] = "\x00\x00\x80\x3e\x00\x00\x80\x3e\x00\x00\x80\x3e\x00\x00
 char	g_color_table[128] = "\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80\x3f\x00\x00\x00\x00\x00\x00\x80\x3f\x00\x00\x00\x00\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x00\x00\x00\x00\x80\x3f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x00\x00\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x00\x00\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f\x00\x00\x80\x3f";
 char	bytedirs[1948] = "\x4f\x96\x06\xbf\x00\x00\x00\x00\x44\xc4\x59\x3f\xf0\xbe\xe2\xbe\xab\x96\x74\x3e\x6d\x3b\x5d\x3f\xf6\x29\x97\xbe\x00\x00\x00\x00\x9a\x96\x74\x3f\x7a\x37\x9e\xbe\x00\x00\x00\x3f\xbd\x1b\x4f\x3f\xea\x5b\x26\xbe\x5f\x96\x86\x3e\x68\x78\x73\x3f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80\x3f\x00\x00\x00\x00\x44\xc4\x59\x3f\x4f\x96\x06\x3f\xf6\x29\x17\xbe\xef\x70\x37\x3f\x12\x85\x2e\x3f\xf6\x29\x17\x3e\xef\x70\x37\x3f\x12\x85\x2e\x3f\x00\x00\x00\x00\x4f\x96\x06\x3f\x44\xc4\x59\x3f\x7a\x37\x9e\x3e\x00\x00\x00\x3f\xbd\x1b\x4f\x3f\x4f\x96\x06\x3f\x00\x00\x00\x00\x44\xc4\x59\x3f\xf6\x29\x97\x3e\x00\x00\x00\x00\x9a\x96\x74\x3f\xf0\xbe\xe2\x3e\xab\x96\x74\x3e\x6d\x3b\x5d\x3f\xea\x5b\x26\x3e\x5f\x96\x86\x3e\x68\x78\x73\x3f\x12\x85\x2e\xbf\xf6\x29\x17\x3e\xef\x70\x37\x3f\xbd\x1b\x4f\xbf\x7a\x37\x9e\x3e\x00\x00\x00\x3f\x14\x79\x16\xbf\x33\xc4\xd9\x3e\x49\x2d\x30\x3f\x44\xc4\x59\xbf\x4f\x96\x06\x3f\x00\x00\x00\x00\x6d\x3b\x5d\xbf\xf0\xbe\xe2\x3e\xab\x96\x74\x3e\xef\x70\x37\xbf\x12\x85\x2e\x3f\xf6\x29\x17\x3e\x49\x2d\x30\xbf\x14\x79\x16\x3f\x33\xc4\xd9\x3e\x00\x00\x00\xbf\xbd\x1b\x4f\x3f\x7a\x37\x9e\x3e\xab\x96\x74\xbe\x6d\x3b\x5d\x3f\xf0\xbe\xe2\x3e\x33\xc4\xd9\xbe\x49\x2d\x30\x3f\x14\x79\x16\x3f\xef\x70\x37\xbf\x12\x85\x2e\x3f\xf6\x29\x17\xbe\x00\x00\x00\xbf\xbd\x1b\x4f\x3f\x7a\x37\x9e\xbe\x4f\x96\x06\xbf\x44\xc4\x59\x3f\x00\x00\x00\x00\x00\x00\x00\x00\x44\xc4\x59\x3f\x4f\x96\x06\xbf\xab\x96\x74\xbe\x6d\x3b\x5d\x3f\xf0\xbe\xe2\xbe\x00\x00\x00\x00\x9a\x96\x74\x3f\xf6\x29\x97\xbe\x5f\x96\x86\xbe\x68\x78\x73\x3f\xea\x5b\x26\xbe\x00\x00\x00\x00\x00\x00\x80\x3f\x00\x00\x00\x00\x00\x00\x00\x00\x9a\x96\x74\x3f\xf6\x29\x97\x3e\x5f\x96\x86\xbe\x68\x78\x73\x3f\xea\x5b\x26\x3e\xab\x96\x74\x3e\x6d\x3b\x5d\x3f\xf0\xbe\xe2\x3e\x5f\x96\x86\x3e\x68\x78\x73\x3f\xea\x5b\x26\x3e\x00\x00\x00\x3f\xbd\x1b\x4f\x3f\x7a\x37\x9e\x3e\xab\x96\x74\x3e\x6d\x3b\x5d\x3f\xf0\xbe\xe2\xbe\x5f\x96\x86\x3e\x68\x78\x73\x3f\xea\x5b\x26\xbe\x00\x00\x00\x3f\xbd\x1b\x4f\x3f\x7a\x37\x9e\xbe\x44\xc4\x59\x3f\x4f\x96\x06\x3f\x00\x00\x00\x00\xef\x70\x37\x3f\x12\x85\x2e\x3f\xf6\x29\x17\x3e\xef\x70\x37\x3f\x12\x85\x2e\x3f\xf6\x29\x17\xbe\x4f\x96\x06\x3f\x44\xc4\x59\x3f\x00\x00\x00\x00\x33\xc4\xd9\x3e\x49\x2d\x30\x3f\x14\x79\x16\x3f\x6d\x3b\x5d\x3f\xf0\xbe\xe2\x3e\xab\x96\x74\x3e\x49\x2d\x30\x3f\x14\x79\x16\x3f\x33\xc4\xd9\x3e\xbd\x1b\x4f\x3f\x7a\x37\x9e\x3e\x00\x00\x00\x3f\x12\x85\x2e\x3f\xf6\x29\x17\x3e\xef\x70\x37\x3f\x14\x79\x16\x3f\x33\xc4\xd9\x3e\x49\x2d\x30\x3f\x9a\x96\x74\x3f\xf6\x29\x97\x3e\x00\x00\x00\x00\x00\x00\x80\x3f\x00\x00\x00\x00\x00\x00\x00\x00\x68\x78\x73\x3f\xea\x5b\x26\x3e\x5f\x96\x86\x3e\x44\xc4\x59\x3f\x4f\x96\x06\xbf\x00\x00\x00\x00\x9a\x96\x74\x3f\xf6\x29\x97\xbe\x00\x00\x00\x00\x6d\x3b\x5d\x3f\xf0\xbe\xe2\xbe\xab\x96\x74\x3e\x68\x78\x73\x3f\xea\x5b\x26\xbe\x5f\x96\x86\x3e\xbd\x1b\x4f\x3f\x7a\x37\x9e\xbe\x00\x00\x00\x3f\x12\x85\x2e\x3f\xf6\x29\x17\xbe\xef\x70\x37\x3f\x44\xc4\x59\x3f\x00\x00\x00\x00\x4f\x96\x06\x3f\x6d\x3b\x5d\x3f\xf0\xbe\xe2\x3e\xab\x96\x74\xbe\xbd\x1b\x4f\x3f\x7a\x37\x9e\x3e\x00\x00\x00\xbf\x68\x78\x73\x3f\xea\x5b\x26\x3e\x5f\x96\x86\xbe\x4f\x96\x06\x3f\x00\x00\x00\x00\x44\xc4\x59\xbf\x12\x85\x2e\x3f\xf6\x29\x17\x3e\xef\x70\x37\xbf\x12\x85\x2e\x3f\xf6\x29\x17\xbe\xef\x70\x37\xbf\x44\xc4\x59\x3f\x00\x00\x00\x00\x4f\x96\x06\xbf\xbd\x1b\x4f\x3f\x7a\x37\x9e\xbe\x00\x00\x00\xbf\x6d\x3b\x5d\x3f\xf0\xbe\xe2\xbe\xab\x96\x74\xbe\x68\x78\x73\x3f\xea\x5b\x26\xbe\x5f\x96\x86\xbe\xf6\x29\x17\x3e\xef\x70\x37\x3f\x12\x85\x2e\xbf\x7a\x37\x9e\x3e\x00\x00\x00\x3f\xbd\x1b\x4f\xbf\x33\xc4\xd9\x3e\x49\x2d\x30\x3f\x14\x79\x16\xbf\xf0\xbe\xe2\x3e\xab\x96\x74\x3e\x6d\x3b\x5d\xbf\x14\x79\x16\x3f\x33\xc4\xd9\x3e\x49\x2d\x30\xbf\x49\x2d\x30\x3f\x14\x79\x16\x3f\x33\xc4\xd9\xbe\xf6\x29\x17\xbe\xef\x70\x37\x3f\x12\x85\x2e\xbf\x7a\x37\x9e\xbe\x00\x00\x00\x3f\xbd\x1b\x4f\xbf\x00\x00\x00\x00\x4f\x96\x06\x3f\x44\xc4\x59\xbf\x4f\x96\x06\xbf\x00\x00\x00\x00\x44\xc4\x59\xbf\xf0\xbe\xe2\xbe\xab\x96\x74\x3e\x6d\x3b\x5d\xbf\xf6\x29\x97\xbe\x00\x00\x00\x00\x9a\x96\x74\xbf\xea\x5b\x26\xbe\x5f\x96\x86\x3e\x68\x78\x73\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80\xbf\xf6\x29\x97\x3e\x00\x00\x00\x00\x9a\x96\x74\xbf\xea\x5b\x26\x3e\x5f\x96\x86\x3e\x68\x78\x73\xbf\xf0\xbe\xe2\xbe\xab\x96\x74\xbe\x6d\x3b\x5d\xbf\x7a\x37\x9e\xbe\x00\x00\x00\xbf\xbd\x1b\x4f\xbf\xea\x5b\x26\xbe\x5f\x96\x86\xbe\x68\x78\x73\xbf\x00\x00\x00\x00\x44\xc4\x59\xbf\x4f\x96\x06\xbf\xf6\x29\x17\xbe\xef\x70\x37\xbf\x12\x85\x2e\xbf\xf6\x29\x17\x3e\xef\x70\x37\xbf\x12\x85\x2e\xbf\x00\x00\x00\x00\x4f\x96\x06\xbf\x44\xc4\x59\xbf\x7a\x37\x9e\x3e\x00\x00\x00\xbf\xbd\x1b\x4f\xbf\xf0\xbe\xe2\x3e\xab\x96\x74\xbe\x6d\x3b\x5d\xbf\xea\x5b\x26\x3e\x5f\x96\x86\xbe\x68\x78\x73\xbf\xab\x96\x74\x3e\x6d\x3b\x5d\xbf\xf0\xbe\xe2\xbe\x00\x00\x00\x3f\xbd\x1b\x4f\xbf\x7a\x37\x9e\xbe\x33\xc4\xd9\x3e\x49\x2d\x30\xbf\x14\x79\x16\xbf\xef\x70\x37\x3f\x12\x85\x2e\xbf\xf6\x29\x17\xbe\x49\x2d\x30\x3f\x14\x79\x16\xbf\x33\xc4\xd9\xbe\x14\x79\x16\x3f\x33\xc4\xd9\xbe\x49\x2d\x30\xbf\x00\x00\x00\x00\x9a\x96\x74\xbf\xf6\x29\x97\xbe\x00\x00\x00\x00\x00\x00\x80\xbf\x00\x00\x00\x00\x5f\x96\x86\x3e\x68\x78\x73\xbf\xea\x5b\x26\xbe\x00\x00\x00\x00\x44\xc4\x59\xbf\x4f\x96\x06\x3f\x00\x00\x00\x00\x9a\x96\x74\xbf\xf6\x29\x97\x3e\xab\x96\x74\x3e\x6d\x3b\x5d\xbf\xf0\xbe\xe2\x3e\x5f\x96\x86\x3e\x68\x78\x73\xbf\xea\x5b\x26\x3e\x00\x00\x00\x3f\xbd\x1b\x4f\xbf\x7a\x37\x9e\x3e\xef\x70\x37\x3f\x12\x85\x2e\xbf\xf6\x29\x17\x3e\x4f\x96\x06\x3f\x44\xc4\x59\xbf\x00\x00\x00\x00\xab\x96\x74\xbe\x6d\x3b\x5d\xbf\xf0\xbe\xe2\xbe\x00\x00\x00\xbf\xbd\x1b\x4f\xbf\x7a\x37\x9e\xbe\x5f\x96\x86\xbe\x68\x78\x73\xbf\xea\x5b\x26\xbe\x44\xc4\x59\xbf\x4f\x96\x06\xbf\x00\x00\x00\x00\xef\x70\x37\xbf\x12\x85\x2e\xbf\xf6\x29\x17\xbe\xef\x70\x37\xbf\x12\x85\x2e\xbf\xf6\x29\x17\x3e\x4f\x96\x06\xbf\x44\xc4\x59\xbf\x00\x00\x00\x00\x00\x00\x00\xbf\xbd\x1b\x4f\xbf\x7a\x37\x9e\x3e\xab\x96\x74\xbe\x6d\x3b\x5d\xbf\xf0\xbe\xe2\x3e\x5f\x96\x86\xbe\x68\x78\x73\xbf\xea\x5b\x26\x3e\x6d\x3b\x5d\xbf\xf0\xbe\xe2\xbe\xab\x96\x74\x3e\xbd\x1b\x4f\xbf\x7a\x37\x9e\xbe\x00\x00\x00\x3f\x49\x2d\x30\xbf\x14\x79\x16\xbf\x33\xc4\xd9\x3e\x12\x85\x2e\xbf\xf6\x29\x17\xbe\xef\x70\x37\x3f\xf0\xbe\xe2\xbe\xab\x96\x74\xbe\x6d\x3b\x5d\x3f\x14\x79\x16\xbf\x33\xc4\xd9\xbe\x49\x2d\x30\x3f\x7a\x37\x9e\xbe\x00\x00\x00\xbf\xbd\x1b\x4f\x3f\xf6\x29\x17\xbe\xef\x70\x37\xbf\x12\x85\x2e\x3f\x33\xc4\xd9\xbe\x49\x2d\x30\xbf\x14\x79\x16\x3f\xea\x5b\x26\xbe\x5f\x96\x86\xbe\x68\x78\x73\x3f\xf0\xbe\xe2\x3e\xab\x96\x74\xbe\x6d\x3b\x5d\x3f\xea\x5b\x26\x3e\x5f\x96\x86\xbe\x68\x78\x73\x3f\x7a\x37\x9e\x3e\x00\x00\x00\xbf\xbd\x1b\x4f\x3f\xf6\x29\x17\x3e\xef\x70\x37\xbf\x12\x85\x2e\x3f\x00\x00\x00\x00\x4f\x96\x06\xbf\x44\xc4\x59\x3f\x33\xc4\xd9\x3e\x49\x2d\x30\xbf\x14\x79\x16\x3f\x14\x79\x16\x3f\x33\xc4\xd9\xbe\x49\x2d\x30\x3f\x49\x2d\x30\x3f\x14\x79\x16\xbf\x33\xc4\xd9\x3e\x9a\x96\x74\xbf\xf6\x29\x97\x3e\x00\x00\x00\x00\x68\x78\x73\xbf\xea\x5b\x26\x3e\x5f\x96\x86\x3e\x00\x00\x80\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x44\xc4\x59\xbf\x00\x00\x00\x00\x4f\x96\x06\x3f\x9a\x96\x74\xbf\xf6\x29\x97\xbe\x00\x00\x00\x00\x68\x78\x73\xbf\xea\x5b\x26\xbe\x5f\x96\x86\x3e\x6d\x3b\x5d\xbf\xf0\xbe\xe2\x3e\xab\x96\x74\xbe\x68\x78\x73\xbf\xea\x5b\x26\x3e\x5f\x96\x86\xbe\xbd\x1b\x4f\xbf\x7a\x37\x9e\x3e\x00\x00\x00\xbf\x6d\x3b\x5d\xbf\xf0\xbe\xe2\xbe\xab\x96\x74\xbe\x68\x78\x73\xbf\xea\x5b\x26\xbe\x5f\x96\x86\xbe\xbd\x1b\x4f\xbf\x7a\x37\x9e\xbe\x00\x00\x00\xbf\x12\x85\x2e\xbf\xf6\x29\x17\x3e\xef\x70\x37\xbf\x12\x85\x2e\xbf\xf6\x29\x17\xbe\xef\x70\x37\xbf\x44\xc4\x59\xbf\x00\x00\x00\x00\x4f\x96\x06\xbf\x49\x2d\x30\xbf\x14\x79\x16\x3f\x33\xc4\xd9\xbe\x14\x79\x16\xbf\x33\xc4\xd9\x3e\x49\x2d\x30\xbf\x33\xc4\xd9\xbe\x49\x2d\x30\x3f\x14\x79\x16\xbf\x33\xc4\xd9\xbe\x49\x2d\x30\xbf\x14\x79\x16\xbf\x14\x79\x16\xbf\x33\xc4\xd9\xbe\x49\x2d\x30\xbf\x49\x2d\x30\xbf\x14\x79\x16\xbf\x33\xc4\xd9\xbe\x00\x00\x00\x00";
 int		global_2658 = 0; // Used by: Info_ValueForKey
-char	lit_265c = "\x00";
+char	lit_265c[1] = "\x00";
 char	lit_265d[8] = "clients";
 char	lit_2665[9] = "graphics";
 char	lit_266e[7] = "sounds";
@@ -85,7 +82,7 @@ char	lit_26fb[6] = "white";
 char	lit_2701[16] = "gfx/2d/bigchars";
 char	lit_2711[31] = "CG_ConfigString: bad index: %i";
 char	lit_2730[8] = "%s     ";
-int		lit_2738 = "*%i";
+char	lit_2738[4] = "*%i";
 char	lit_273c[10] = "bloodMark";
 char	lit_2746[5] = "wake";
 char	lit_274b[11] = "markShadow";
@@ -251,7 +248,7 @@ char	lit_3652[26] = "sound/feedback/1_frag.wav";
 char	lit_366c[32] = "sound/feedback/sudden_death.wav";
 char	lit_368c[28] = "sound/feedback/5_minute.wav";
 char	lit_36a8[28] = "sound/feedback/1_minute.wav";
-int		lit_36c4 = "wav";
+char	lit_36c4[4] = "wav";
 char	lit_36c8[41] = "PrecacheItem: %s has bad precache string";
 char	lit_36f1[15] = "team_headmodel";
 char	lit_3700[11] = "team_model";
@@ -259,13 +256,13 @@ char	lit_370b[10] = "headmodel";
 char	lit_3715[6] = "sarge";
 char	lit_371b[6] = "model";
 char	lit_3721[11] = "sv_running";
-int		lit_372c = "0.0";
+char	lit_372c[4] = "0.0";
 char	lit_3730[17] = "cg_trueLightning";
 char	lit_3741[13] = "cg_oldPlasma";
 char	lit_374e[13] = "cg_oldRocket";
 char	lit_375b[11] = "cg_oldRail";
 char	lit_3766[21] = "cg_noProjectileTrail";
-short	lit_377b = "8";
+char	lit_377b[2] = "8";
 char	lit_377d[11] = "pmove_msec";
 char	lit_3788[12] = "pmove_fixed";
 char	lit_3794[15] = "com_cameraMode";
@@ -298,7 +295,7 @@ char	lit_3914[3] = "40";
 char	lit_3917[20] = "cg_thirdPersonRange";
 char	lit_392b[16] = "cg_tracerlength";
 char	lit_393b[15] = "cg_tracerwidth";
-int		lit_394a = "0.4";
+char	lit_394a[4] = "0.4";
 char	lit_394e[16] = "cg_tracerchance";
 char	lit_395e[13] = "cg_footsteps";
 char	lit_396b[12] = "cg_showmiss";
@@ -309,7 +306,7 @@ char	lit_39a3[15] = "cg_debugevents";
 char	lit_39b2[17] = "cg_debugposition";
 char	lit_39c3[13] = "cg_debuganim";
 char	lit_39d0[13] = "cg_animspeed";
-int		lit_39dd = "0.3";
+char	lit_39dd[4] = "0.3";
 char	lit_39e1[14] = "cg_swingSpeed";
 char	lit_39ef[11] = "cg_bobroll";
 char	lit_39fa[12] = "cg_bobpitch";
@@ -318,12 +315,12 @@ char	lit_3a0f[6] = "0.005";
 char	lit_3a15[11] = "cg_runroll";
 char	lit_3a20[6] = "0.002";
 char	lit_3a26[12] = "cg_runpitch";
-short	lit_3a32 = "3";
+char	lit_3a32[2] = "3";
 char	lit_3a34[14] = "cg_centertime";
 char	lit_3a42[8] = "cg_gunZ";
 char	lit_3a4a[8] = "cg_gunY";
 char	lit_3a52[8] = "cg_gunX";
-int		lit_3a5a = "400";
+char	lit_3a5a[4] = "400";
 char	lit_3a5e[17] = "cg_railTrailTime";
 char	lit_3a6f[13] = "cg_lagometer";
 char	lit_3a7c[9] = "cg_marks";
@@ -337,7 +334,7 @@ char	lit_3ad5[3] = "24";
 char	lit_3ad8[17] = "cg_crosshairSize";
 char	lit_3ae9[15] = "cg_drawRewards";
 char	lit_3af8[22] = "cg_drawCrosshairNames";
-short	lit_3b0e = "4";
+char	lit_3b0e[2] = "4";
 char	lit_3b10[17] = "cg_drawCrosshair";
 char	lit_3b21[16] = "cg_drawAttacker";
 char	lit_3b31[19] = "cg_drawAmmoWarning";
@@ -350,19 +347,19 @@ char	lit_3b88[14] = "cg_drawStatus";
 char	lit_3b96[10] = "cg_draw2D";
 char	lit_3ba0[8] = "cg_gibs";
 char	lit_3ba8[11] = "cg_shadows";
-int		lit_3bb3 = "100";
+char	lit_3bb3[4] = "100";
 char	lit_3bb7[12] = "cg_viewsize";
 char	lit_3bc3[3] = "90";
 char	lit_3bc6[7] = "cg_fov";
 char	lit_3bcd[5] = "22.5";
 char	lit_3bd2[11] = "cg_zoomfov";
 char	lit_3bdd[11] = "cg_drawGun";
-short	lit_3be8 = "1";
+char	lit_3be8[2] = "1";
 char	lit_3bea[14] = "cg_autoswitch";
-short	lit_3bf8 = "0";
+char	lit_3bf8[2] = "0";
 char	lit_3bfa[10] = "cg_ignore";
 char	lit_3c04[27] = "vmMain: unknown command %i";
-char	lit_3c1f = "\x00";
+char	lit_3c1f[1] = "\x00";
 char	lit_3c20[16] = "EV_TAUNT_PATROL";
 char	lit_3c30[19] = "EV_TAUNT_GUARDBASE";
 char	lit_3c43[17] = "EV_TAUNT_GETFLAG";
@@ -587,7 +584,7 @@ char	lit_4cce[22] = "sound/misc/w_pkup.wav";
 char	lit_4ce4[16] = "weapon_gauntlet";
 char	lit_4cf4[12] = "Mega Health";
 char	lit_4d00[16] = "icons/iconh_meg";
-char	lit_4d10 = "\x00";
+char	lit_4d10[1] = "\x00";
 char	lit_4d11[39] = "models/powerups/health/mega_sphere.md3";
 char	lit_4d38[38] = "models/powerups/health/mega_cross.md3";
 char	lit_4d5e[25] = "sound/items/m_health.wav";
@@ -631,8 +628,8 @@ char	lit_50f5[17] = "0123456789ABCDEF";
 char	lit_5106[7] = "<NULL>";
 char	lit_510d[3] = "0x";
 char	lit_5110[6] = "inity";
-int		lit_5116 = "inf";
-int		lit_511a = "nan";
+char	lit_5116[4] = "inf";
+char	lit_511a[4] = "nan";
 char	lit_511e[12] = "loaddefered";
 char	lit_512a[9] = "teamtask";
 char	lit_5133[6] = "stats";
@@ -650,11 +647,11 @@ char	lit_5196[5] = "team";
 char	lit_519b[6] = "where";
 char	lit_51a1[7] = "noclip";
 char	lit_51a8[9] = "notarget";
-int		lit_51b1 = "god";
+char	lit_51b1[4] = "god";
 char	lit_51b5[5] = "give";
 char	lit_51ba[5] = "tell";
 char	lit_51bf[9] = "say_team";
-int		lit_51c8 = "say";
+char	lit_51c8[4] = "say";
 char	lit_51cc[5] = "kill";
 char	lit_51d1[13] = "loaddeferred";
 char	lit_51de[11] = "startOrbit";
@@ -677,13 +674,13 @@ char	lit_5267[10] = "prevframe";
 char	lit_5271[10] = "nextframe";
 char	lit_527b[10] = "testmodel";
 char	lit_5285[8] = "testgun";
-int		lit_528d = "100";
+char	lit_528d[4] = "100";
 char	lit_5291[20] = "cg_thirdPersonRange";
 char	lit_52a5[20] = "cg_thirdPersonAngle";
-short	lit_52b9 = "1";
-short	lit_52bb = "5";
+char	lit_52b9[2] = "1";
+char	lit_52bb[2] = "5";
 char	lit_52bd[15] = "cg_thirdPerson";
-short	lit_52cc = "0";
+char	lit_52cc[2] = "0";
 char	lit_52ce[15] = "cg_cameraOrbit";
 char	lit_52dd[10] = "developer";
 char	lit_52e7[11] = "tell %i %s";
@@ -694,7 +691,7 @@ char	lit_530c[12] = "cg_viewsize";
 char	lit_5318[9] = "gc %i %i";
 char	lit_5321[3] = "\x00\x00\x00";
 char	lit_5324[14] = "Starts in: %i";
-char	lit_5332 = "\x00";
+char	lit_5332[1] = "\x00";
 char	lit_5333[17] = "Capture the Flag";
 char	lit_5344[16] = "Team Deathmatch";
 char	lit_5354[13] = "Free For All";
@@ -710,20 +707,20 @@ char	lit_5403[16] = "waiting to play";
 char	lit_5413[10] = "SPECTATOR";
 char	lit_541d[19] = "r_stereoSeparation";
 char	lit_5430[8] = "r_zProj";
-int		lit_5438 = "snc";
+char	lit_5438[4] = "snc";
 char	lit_543c[15] = "gfx/2d/net.tga";
 char	lit_544b[23] = "Connection Interrupted";
 char	lit_5462[3] = "%d";
-int		lit_5465 = "%2i";
+char	lit_5465[4] = "%2i";
 char	lit_5469[8] = "%3i %3i";
 char	lit_5471[8] = "unknown";
 char	lit_5479[8] = "%i:%i%i";
 char	lit_5481[6] = "%ifps";
 char	lit_5487[23] = "time:%i snap:%i cmd:%i";
-short	lit_549e = "n";
+char	lit_549e[2] = "n";
 char	lit_54a0[3] = "%i";
 char	lit_54a3[28] = "CG_MakeExplosion: msec = %i";
-char	lit_54bf = "\x00";
+char	lit_54bf[1] = "\x00";
 char	lit_54c0[20] = "Bad entity type: %i";
 char	lit_54d4[49] = "CG_InterpoateEntityPosition: cg.nextSnap == NULL";
 char	lit_5505[11] = "tag_barrel";
@@ -765,7 +762,7 @@ char	lit_5a91[10] = "'s rocket";
 char	lit_5a9b[12] = "'s shrapnel";
 char	lit_5aa7[16] = "was shredded by";
 char	lit_5ab7[11] = "'s grenade";
-int		lit_5ac2 = "ate";
+char	lit_5ac2[4] = "ate";
 char	lit_5ac6[19] = "was gunned down by";
 char	lit_5ad9[21] = "was machinegunned by";
 char	lit_5aee[16] = "was pummeled by";
@@ -797,7 +794,7 @@ char	lit_5c9d[13] = "was squished";
 char	lit_5caa[9] = "cratered";
 char	lit_5cb3[9] = "suicides";
 char	lit_5cbc[3] = "^7";
-short	lit_5cbf = "n";
+char	lit_5cbf[2] = "n";
 char	lit_5cc1[33] = "CG_Obituary: target out of range";
 char	lit_5ce2[5] = "%s%s";
 char	lit_5ce7[5] = "%ith";
@@ -810,7 +807,7 @@ char	lit_5d05[5] = "11th";
 char	lit_5d0a[8] = "^33rd^7";
 char	lit_5d12[8] = "^12nd^7";
 char	lit_5d1a[8] = "^41st^7";
-char	lit_5d22 = "\x00";
+char	lit_5d22[1] = "\x00";
 char	lit_5d23[10] = "Tied for ";
 char	lit_5d2d[3] = "\x00\x00\x00";
 char	lit_5d30[16] = "capturelimit %i";
@@ -838,13 +835,13 @@ char	lit_5e4e[20] = "menu/art/unknownmap";
 char	lit_5e62[18] = "levelshots/%s.tga";
 char	lit_5e74[8] = "mapname";
 char	lit_5e7c[29] = "sound/player/announce/%s.wav";
-short	lit_5e99 = "n";
+char	lit_5e99[2] = "n";
 char	lit_5e9b[6] = "sarge";
 char	lit_5ea1[41] = "models/players/characters/%s/icon_%s.tga";
 char	lit_5eca[30] = "models/players/%s/icon_%s.tga";
 char	lit_5ee8[8] = "default";
 char	lit_5ef0[6] = "model";
-short	lit_5ef6 = "\x00\x00";
+char	lit_5ef6[2] = "\x00\x00";
 char	lit_5ef8[15] = "Bad leType: %i";
 char	lit_5f07[31] = "CG_FreeLocalEntity: not active";
 char	lit_5f26[38] = "CG_ImpactMark called with <= 0 radius";
@@ -870,14 +867,14 @@ char	lit_6206[11] = "g_blueteam";
 char	lit_6211[10] = "g_redteam";
 char	lit_621b[3] = "tl";
 char	lit_621e[3] = "tt";
-short	lit_6221 = "t";
-short	lit_6223 = "l";
-short	lit_6225 = "w";
+char	lit_6221[2] = "t";
+char	lit_6223[2] = "l";
+char	lit_6225[2] = "w";
 char	lit_6227[3] = "hc";
 char	lit_622a[6] = "skill";
 char	lit_6230[3] = "c2";
 char	lit_6233[3] = "c1";
-short	lit_6236 = "n";
+char	lit_6236[2] = "n";
 char	lit_6238[45] = "\x43\x47\x5f\x53\x65\x74\x44\x65\x66\x65\x72\x72\x65\x64\x43\x6c\x69\x65\x6e\x74\x49\x6e\x66\x6f\x3a\x20\x6e\x6f\x20\x76\x61\x6c\x69\x64\x20\x63\x6c\x69\x65\x6e\x74\x73\x21\x0a\x00";
 char	lit_6265[19] = "sound/player/%s/%s";
 char	lit_6278[9] = "tag_flag";
@@ -885,7 +882,7 @@ char	lit_6281[38] = "DEFAULT_MODEL (%s) failed to register";
 char	lit_62a7[53] = "DEFAULT_TEAM_MODEL / skin (%s/%s) failed to register";
 char	lit_62dc[6] = "sarge";
 char	lit_62e2[55] = "CG_RegisterClientModelname( %s, %s, %s, %s %s ) failed";
-int		lit_6319 = "tga";
+char	lit_6319[4] = "tga";
 char	lit_631d[5] = "icon";
 char	lit_6322[34] = "\x46\x61\x69\x6c\x65\x64\x20\x74\x6f\x20\x6c\x6f\x61\x64\x20\x61\x6e\x69\x6d\x61\x74\x69\x6f\x6e\x20\x66\x69\x6c\x65\x20\x25\x73\x0a\x00";
 char	lit_6344[43] = "models/players/characters/%s/animation.cfg";
@@ -893,7 +890,7 @@ char	lit_636f[32] = "models/players/%s/animation.cfg";
 char	lit_638f[44] = "\x46\x61\x69\x6c\x65\x64\x20\x74\x6f\x20\x6c\x6f\x61\x64\x20\x73\x6b\x69\x6e\x20\x66\x69\x6c\x65\x3a\x20\x25\x73\x20\x3a\x20\x25\x73\x2c\x20\x25\x73\x20\x3a\x20\x25\x73\x0a\x00";
 char	lit_63bb[8] = "Stroggs";
 char	lit_63c3[7] = "Pagans";
-int		lit_63ca = "%s/";
+char	lit_63ca[4] = "%s/";
 char	lit_63ce[49] = "\x46\x61\x69\x6c\x65\x64\x20\x74\x6f\x20\x6c\x6f\x61\x64\x20\x73\x6b\x69\x6e\x20\x66\x69\x6c\x65\x3a\x20\x25\x73\x20\x3a\x20\x25\x73\x20\x3a\x20\x25\x73\x2c\x20\x25\x73\x20\x3a\x20\x25\x73\x0a\x00";
 char	lit_63ff[27] = "models/players/%s/head.md3";
 char	lit_641a[31] = "models/players/heads/%s/%s.md3";
@@ -917,13 +914,13 @@ char	lit_659c[29] = "models/players/%s%s/%s_%s.%s";
 char	lit_65b9[31] = "models/players/%s%s/%s%s_%s.%s";
 char	lit_65d8[32] = "models/players/%s%s/%s_%s_%s.%s";
 char	lit_65f8[34] = "models/players/%s%s/%s%s_%s_%s.%s";
-char	lit_661a = "\x00";
-int		lit_661b = "red";
+char	lit_661a[1] = "\x00";
+char	lit_661b[4] = "red";
 char	lit_661f[5] = "blue";
 char	lit_6624[60] = "\x45\x72\x72\x6f\x72\x20\x70\x61\x72\x73\x69\x6e\x67\x20\x61\x6e\x69\x6d\x61\x74\x69\x6f\x6e\x20\x66\x69\x6c\x65\x3a\x20\x25\x73\x0a\x00\x75\x6e\x6b\x6e\x6f\x77\x6e\x20\x74\x6f\x6b\x65\x6e\x20\x27\x25\x73\x27\x20\x69\x6e\x20\x25\x73\x0a\x00";
 char	lit_6660[11] = "fixedtorso";
 char	lit_666b[10] = "fixedlegs";
-int		lit_6675 = "sex";
+char	lit_6675[4] = "sex";
 char	lit_6679[11] = "headoffset";
 char	lit_6684[30] = "\x42\x61\x64\x20\x66\x6f\x6f\x74\x73\x74\x65\x70\x73\x20\x70\x61\x72\x6d\x20\x69\x6e\x20\x25\x73\x3a\x20\x25\x73\x0a\x00";
 char	lit_66a2[7] = "energy";
@@ -952,7 +949,7 @@ char	lit_679e[94] = "\x00\x00\x57\x41\x52\x4e\x49\x4e\x47\x3a\x20\x63\x68\x61\x6
 char	lit_67fc[11] = "[%i : %i] ";
 char	lit_6807[88] = "\x44\x6f\x75\x62\x6c\x65\x20\x70\x72\x65\x64\x69\x63\x74\x69\x6f\x6e\x20\x64\x65\x63\x61\x79\x3a\x20\x25\x66\x0a\x00\x50\x72\x65\x64\x69\x63\x74\x69\x6f\x6e\x20\x6d\x69\x73\x73\x3a\x20\x25\x66\x0a\x00\x70\x72\x65\x64\x69\x63\x74\x69\x6f\x6e\x20\x65\x72\x72\x6f\x72\x0a\x00\x50\x72\x65\x64\x69\x63\x74\x69\x6f\x6e\x54\x65\x6c\x65\x70\x6f\x72\x74\x0a\x00";
 char	lit_685f[3] = "33";
-short	lit_6862 = "8";
+char	lit_6862[2] = "8";
 char	lit_6864[11] = "pmove_msec";
 char	lit_686f[36] = "\x65\x78\x63\x65\x65\x64\x65\x64\x20\x50\x41\x43\x4b\x45\x54\x5f\x42\x41\x43\x4b\x55\x50\x20\x6f\x6e\x20\x63\x6f\x6d\x6d\x61\x6e\x64\x73\x0a\x00";
 char	lit_6893[10] = "Blue Team";
@@ -979,19 +976,19 @@ char	lit_69bc[12] = "map_restart";
 char	lit_69c8[6] = "tinfo";
 char	lit_69ce[7] = "scores";
 char	lit_69d5[6] = "tchat";
-int		lit_69db = "\x25\x73\x0a\x00";
+char	lit_69db[4] = "\x25\x73\x0a\x00";
 char	lit_69df[5] = "chat";
 char	lit_69e4[3] = "%s";
 char	lit_69e7[6] = "print";
 char	lit_69ed[3] = "cs";
 char	lit_69f0[3] = "cp";
-short	lit_69f3 = "0";
+char	lit_69f3[2] = "0";
 char	lit_69f5[15] = "cg_thirdPerson";
 char	lit_6a04[7] = "FIGHT!";
 char	lit_6a0b[15] = "\x43\x47\x5f\x4d\x61\x70\x52\x65\x73\x74\x61\x72\x74\x0a\x00";
-short	lit_6a1a = "@";
-short	lit_6a1c = ":";
-short	lit_6a1e = "=";
+char	lit_6a1a[2] = "@";
+char	lit_6a1c[2] = ":";
+char	lit_6a1e[2] = "=";
 char	lit_6a20[11] = "g_blueTeam";
 char	lit_6a2b[10] = "g_redTeam";
 char	lit_6a35[12] = "maps/%s.bsp";
@@ -1016,7 +1013,7 @@ char	lit_6c15[36] = "CG_TransitionSnapshot: NULL cg.snap";
 char	lit_6c39[19] = "\x63\x67\x2e\x63\x6c\x69\x65\x6e\x74\x46\x72\x61\x6d\x65\x3a\x25\x69\x0a\x00";
 char	lit_6c4c[3] = "%f";
 char	lit_6c4f[10] = "timescale";
-int		lit_6c59 = "100";
+char	lit_6c59[4] = "100";
 char	lit_6c5d[3] = "30";
 char	lit_6c60[12] = "cg_viewsize";
 char	lit_6c6c[44] = "\x73\x6b\x69\x6e\x20\x25\x69\x0a\x00\x66\x72\x61\x6d\x65\x20\x25\x69\x0a\x00\x43\x61\x6e\x27\x74\x20\x72\x65\x67\x69\x73\x74\x65\x72\x20\x6d\x6f\x64\x65\x6c\x0a\x00\x00\x00\x00";
@@ -1070,7 +1067,7 @@ char	lit_7165[62] = "\x42\x49\x47\x20\x49\x6e\x66\x6f\x20\x73\x74\x72\x69\x6e\x6
 char	lit_71a3[7] = "\\%s\\%s";
 char	lit_71aa[49] = "\x5e\x33\x43\x61\x6e\x27\x74\x20\x75\x73\x65\x20\x6b\x65\x79\x73\x20\x6f\x72\x20\x76\x61\x6c\x75\x65\x73\x20\x77\x69\x74\x68\x20\x61\x20\x27\x25\x63\x27\x3a\x20\x25\x73\x20\x3d\x20\x25\x73\x0a\x00";
 char	lit_71db[41] = "Info_SetValueForKey: oversize infostring";
-int		lit_7204 = "\\;\"";
+char	lit_7204[4] = "\\;\"";
 char	lit_7208[40] = "Info_RemoveKey_Big: oversize infostring";
 char	lit_7230[36] = "Info_RemoveKey: oversize infostring";
 char	lit_7254[38] = "Info_ValueForKey: oversize infostring";
@@ -1080,8 +1077,8 @@ char	lit_72bc[29] = "Q_strcat: already overflowed";
 char	lit_72d9[25] = "Q_strncpyz: destsize < 1";
 char	lit_72f2[21] = "Q_strncpyz: NULL src";
 char	lit_7307[22] = "Q_strncpyz: NULL dest";
-short	lit_731d = ")";
-short	lit_731f = "(";
+char	lit_731d[2] = ")";
+char	lit_731f[2] = "(";
 char	lit_7321[21] = "MatchToken: %s != %s";
 char	lit_7336[50] = "\x57\x41\x52\x4e\x49\x4e\x47\x3a\x20\x25\x73\x2c\x20\x6c\x69\x6e\x65\x20\x25\x64\x3a\x20\x25\x73\x0a\x00\x45\x52\x52\x4f\x52\x3a\x20\x25\x73\x2c\x20\x6c\x69\x6e\x65\x20\x25\x64\x3a\x20\x25\x73\x0a\x00";
 char	lit_7368[3] = "%s";
@@ -1405,8 +1402,7 @@ int		bss_dc940; // Used by: CG_TouchTriggerPrediction
 int		bss_dc944;
 int		bss_dc948; // Used by: CG_TouchTriggerPrediction
 int		bss_dc94c; // Used by: CG_TouchTriggerPrediction
-int		bss_dc950;
-char	bss_dc954[716];
+char	bss_dc950[720];
 int		bss_dcc20; // Used by: CG_PredictPlayerState
 int		bss_dcc24; // Used by: CG_CalcViewValues, CG_PredictPlayerState
 int		bss_dcc28; // Used by: CG_CalcViewValues, CG_PredictPlayerState
@@ -1447,7 +1443,8 @@ int		bss_dcd2c; // Used by: CG_Tracer, CG_AddViewWeapon, CG_DamageBlendBlob, CG_
 int		bss_dcd30; // Used by: CG_Tracer, CG_AddViewWeapon, CG_DamageBlendBlob, CG_AddTestModel, CG_DamageFeedback, CG_AddParticles
 int		bss_dcd34; // Used by: CG_Tracer, CG_AddViewWeapon, CG_DamageBlendBlob, CG_DamageFeedback
 int		bss_dcd38; // Used by: CG_Tracer, CG_AddViewWeapon, CG_DamageBlendBlob, CG_DamageFeedback
-char	bss_dcd3c[296]; // Used by: CG_DrawActiveFrame
+int		bss_dcd3c; // Used by: CG_DrawActiveFrame
+char	bss_dcd40[292];
 int		bss_dce64; // Used by: CG_CalculateWeaponPosition, CG_CalcViewValues, CG_OffsetThirdPersonView
 int		bss_dce68; // Used by: CG_OffsetThirdPersonView, CG_TestModel_f, CG_Viewpos_f
 int		bss_dce6c;
@@ -1524,8 +1521,7 @@ int		bss_deb50; // Used by: CG_DrawActiveFrame, CG_AddTestModel, CG_TestGun_f, C
 char	bss_deb54[16];
 char	bss_deb64[12]; // Used by: CG_AddTestModel
 char	bss_deb70[12]; // Used by: CG_AddTestModel
-char	bss_deb7c[12]; // Used by: CG_AddTestModel
-int		bss_deb88;
+char	bss_deb7c[16]; // Used by: CG_AddTestModel
 int		bss_deb8c; // Used by: CG_AddTestModel, CG_TestModel_f
 int		bss_deb90; // Used by: CG_TestModel_f
 int		bss_deb94; // Used by: CG_TestModel_f
@@ -1866,6 +1862,9 @@ vmMain
 
 Address: 0x0
 Stack Size: 0x24
+Opcodes Size: 0x87
+Locals Count: 8
+
 Calls: CG_Error, CG_EventHandling, CG_MouseEvent, CG_KeyEvent, CG_LastAttacker, CG_CrosshairPlayer, CG_DrawActiveFrame, CG_ConsoleCommand, CG_Shutdown, CG_Init
 =================
 */
@@ -1908,6 +1907,9 @@ CG_RegisterCvars
 
 Address: 0x87
 Stack Size: 0x424
+Opcodes Size: 0x78
+Locals Count: 4
+
 Calls: trap_Cvar_VariableStringBuffer, trap_Cvar_Register, atoi
 Called by: CG_Init
 =================
@@ -1943,6 +1945,9 @@ CG_ForceModelChange
 
 Address: 0xff
 Stack Size: 0x18
+Opcodes Size: 0x2b
+Locals Count: 3
+
 Calls: CG_NewClientInfo, CG_ConfigString
 Called by: CG_UpdateCvars
 =================
@@ -1971,6 +1976,9 @@ CG_UpdateCvars
 
 Address: 0x12a
 Stack Size: 0x18
+Opcodes Size: 0x4c
+Locals Count: 2
+
 Calls: trap_Cvar_Set, trap_Cvar_Update, CG_ForceModelChange
 Called by: CG_DrawActiveFrame
 =================
@@ -2008,6 +2016,9 @@ CG_CrosshairPlayer
 
 Address: 0x176
 Stack Size: 0x8
+Opcodes Size: 0x11
+Locals Count: 0
+
 Called by: CG_TellTarget_f, CG_TargetCommand_f, vmMain
 =================
 */
@@ -2025,6 +2036,9 @@ CG_LastAttacker
 
 Address: 0x187
 Stack Size: 0x8
+Opcodes Size: 0x11
+Locals Count: 0
+
 Called by: CG_TellAttacker_f, vmMain
 =================
 */
@@ -2042,17 +2056,20 @@ CG_Printf
 
 Address: 0x198
 Stack Size: 0x41c
+Opcodes Size: 0x1b
+Locals Count: 4
+
 Calls: trap_Print, Q_vsnprintf
 Called by: CG_DrawActiveFrame, CG_AddTestModel, CG_TestModelPrevSkin_f, CG_TestModelNextSkin_f, CG_TestModelPrevFrame_f, CG_TestModelNextFrame_f, CG_TestModel_f, CG_ReadNextSnapshot, CG_ServerCommand, CG_MapRestart, CG_PredictPlayerState, CG_CheckChangedPredictableEvents, CG_ResetPlayerEntity, CG_RunLerpFrame, CG_SetLerpFrameAnimation, CG_LoadDeferredPlayers, CG_NewClientInfo, CG_SetDeferredClientInfo, CG_ParseAnimationFile, CG_ParticleMisc, CG_BloodPool, CG_OilSlickRemove, CG_Particle_OilSlick, CG_Particle_OilParticle, CG_Particle_Bleed, CG_ParticleImpactSmokePuff, CG_ParticleSmoke, CG_ParticleBubble, CG_ParticleSnow, CG_ParticleSnowFlurry, CG_EntityEvent, CG_Obituary, CG_Viewpos_f
 =================
 */
-void CG_Printf(int arg_0, int arg_1) {
-	int		local_18;
+void CG_Printf(int arg_0, ...) {
+	va_list	local_18;
 	char	local_1c[1024];
 
-	local_18 = &arg_1;
+	va_start(local_18, arg_0);
 	Q_vsnprintf(local_1c, 0x400, arg_0, local_18);
-	local_18 = 0x0;
+	va_end(local_18);
 	trap_Print(local_1c);
 }
 
@@ -2062,17 +2079,20 @@ CG_Error
 
 Address: 0x1b3
 Stack Size: 0x41c
+Opcodes Size: 0x1b
+Locals Count: 4
+
 Calls: trap_Error, Q_vsnprintf
 Called by: CG_FireWeapon, CG_RegisterItemVisuals, CG_RegisterWeapon, CG_ProcessSnapshots, CG_TransitionSnapshot, CG_ParseTeamInfo, CG_Player, CG_PlayerAngles, CG_SetLerpFrameAnimation, CG_LoadClientInfo, CG_CustomSound, CG_ParticleExplosion, CG_ImpactMark, CG_FreeMarkPoly, CG_AddLocalEntities, CG_FreeLocalEntity, CG_EntityEvent, CG_Obituary, CG_AddCEntity, CG_InterpolateEntityPosition, CG_Item, CG_MakeExplosion, CG_Init, CG_ConfigString, CG_RegisterItemSounds, vmMain
 =================
 */
-void CG_Error(int arg_0, int arg_1) {
-	int		local_18;
+void CG_Error(int arg_0, ...) {
+	va_list	local_18;
 	char	local_1c[1024];
 
-	local_18 = &arg_1;
+	va_start(local_18, arg_0);
 	Q_vsnprintf(local_1c, 0x400, arg_0, local_18);
-	local_18 = 0x0;
+	va_end(local_18);
 	trap_Error(local_1c);
 }
 
@@ -2082,17 +2102,20 @@ Com_Error
 
 Address: 0x1ce
 Stack Size: 0x41c
+Opcodes Size: 0x1b
+Locals Count: 4
+
 Calls: trap_Error, Q_vsnprintf
 Called by: Info_SetValueForKey_Big, Info_SetValueForKey, Info_RemoveKey_Big, Info_RemoveKey, Info_ValueForKey, Q_strcat, Q_strncpyz, COM_MatchToken, BG_EvaluateTrajectoryDelta, BG_EvaluateTrajectory, BG_CanItemBeGrabbed, BG_FindItemForWeapon, BG_FindItemForHoldable
 =================
 */
-void Com_Error(, int arg_1, int arg_2) {
-	int		local_18;
+void Com_Error(, int arg_1, ...) {
+	va_list	local_18;
 	char	local_1c[1024];
 
-	local_18 = &arg_2;
+	va_start(local_18, arg_1);
 	Q_vsnprintf(local_1c, 0x400, arg_1, local_18);
-	local_18 = 0x0;
+	va_end(local_18);
 	trap_Error(local_1c);
 }
 
@@ -2102,17 +2125,20 @@ Com_Printf
 
 Address: 0x1e9
 Stack Size: 0x41c
+Opcodes Size: 0x1b
+Locals Count: 4
+
 Calls: trap_Print, Q_vsnprintf
 Called by: Info_SetValueForKey_Big, Info_SetValueForKey, Com_sprintf, COM_ParseWarning, COM_ParseError, CG_DrawClientScore, CG_RegisterClientModelname, CG_RegisterClientSkin, CG_ParseAnimationFile, PM_StepSlideMove, PM_GroundTrace, PM_GroundTraceMissed, PM_CorrectAllSolid
 =================
 */
-void Com_Printf(int arg_0, int arg_1) {
-	int		local_18;
+void Com_Printf(int arg_0, ...) {
+	va_list	local_18;
 	char	local_1c[1024];
 
-	local_18 = &arg_1;
+	va_start(local_18, arg_0);
 	Q_vsnprintf(local_1c, 0x400, arg_0, local_18);
-	local_18 = 0x0;
+	va_end(local_18);
 	trap_Print(local_1c);
 }
 
@@ -2122,6 +2148,9 @@ CG_Argv
 
 Address: 0x204
 Stack Size: 0x14
+Opcodes Size: 0xf
+Locals Count: 1
+
 Calls: trap_Argv
 Called by: CG_Weapon_f, CG_TestModel_f, CG_ServerCommand, CG_ConfigStringModified, CG_ParseTeamInfo, CG_ParseScores, CG_ConsoleCommand
 =================
@@ -2138,6 +2167,9 @@ CG_RegisterItemSounds
 
 Address: 0x213
 Stack Size: 0x74
+Opcodes Size: 0x9d
+Locals Count: 11
+
 Calls: memcpy, trap_S_RegisterSound, strcmp, CG_Error
 Called by: CG_RegisterSounds
 =================
@@ -2148,15 +2180,17 @@ void CG_RegisterItemSounds(int arg_0) {
 	char	local_19[3];
 	char	local_1c[64];
 	int		local_5c;
-	char	local_60[8];
-	char	local_68[8];
+	int		local_60;
+	int		local_64;
+	int		local_68;
+	int		local_6c;
 	int		local_70;
 
-	*(int *)local_60 = ((0x34 * arg_0) + 0x58c);
-	if (*(int *)(*(int *)local_60 + 0x4) == 0x0) goto jmp_22e;
-	trap_S_RegisterSound(*(int *)(*(int *)local_60 + 0x4), 0x0);
+	local_60 = ((0x34 * arg_0) + 0x58c);
+	if (*(int *)(local_60 + 0x4) == 0x0) goto jmp_22e;
+	trap_S_RegisterSound(*(int *)(local_60 + 0x4), 0x0);
 jmp_22e:
-	local_14 = *(int *)(*(int *)local_60 + 0x30);
+	local_14 = *(int *)(local_60 + 0x30);
 	if (local_14 == 0x0) goto jmp_23f;
 	if ((char)*(char *)local_14 != 0x0) goto jmp_2a8;
 jmp_23f:
@@ -2167,15 +2201,15 @@ jmp_241:
 jmp_247:
 	local_14 = (local_14 + 0x1);
 jmp_24d:
-	*(int *)local_68 = (char)*(char *)local_14;
-	if (*(int *)local_68 == 0x0) goto jmp_25b;
-	if (*(int *)local_68 != 0x20) goto jmp_247;
+	local_68 = (char)*(char *)local_14;
+	if (local_68 == 0x0) goto jmp_25b;
+	if (local_68 != 0x20) goto jmp_247;
 jmp_25b:
 	*(int *)&local_18 = (local_14 - local_5c);
 	if (*(int *)&local_18 >= 0x40) goto jmp_26a;
 	if (*(int *)&local_18 >= 0x5) goto jmp_275;
 jmp_26a:
-	CG_Error(0x36c8, *(int *)*(int *)local_60);
+	CG_Error(0x36c8, *(int *)local_60);
 	goto jmp_2ae;
 jmp_275:
 	memcpy(local_1c, local_5c, *(int *)&local_18);
@@ -2197,6 +2231,9 @@ CG_RegisterSounds
 
 Address: 0x2b0
 Stack Size: 0x238
+Opcodes Size: 0x4af
+Locals Count: 57
+
 Calls: trap_S_RegisterSound, CG_RegisterItemSounds, Q_strncpyz, CG_ConfigString, Com_sprintf
 Called by: CG_Init
 =================
@@ -2468,6 +2505,9 @@ CG_RegisterGraphics
 
 Address: 0x75f
 Stack Size: 0x260
+Opcodes Size: 0x464
+Locals Count: 78
+
 Calls: trap_R_ModelBounds, trap_CM_NumInlineModels, trap_R_RegisterModel, trap_R_RegisterShaderNoMip, trap_R_RegisterShader, trap_R_LoadWorldMap, trap_R_ClearScene, memset, CG_ClearParticles, Com_sprintf, CG_RegisterItemVisuals, CG_LoadingItem, Q_strncpyz, CG_ConfigString, va, CG_LoadingString
 Called by: CG_Init
 =================
@@ -2544,7 +2584,8 @@ void CG_RegisterGraphics(void) {
 	int		local_228;
 	int		local_22c;
 	int		local_230;
-	char	local_234[8];
+	int		local_234;
+	int		local_238;
 	char	local_23c[12];
 	char	local_248[12];
 	int		local_254;
@@ -2772,8 +2813,8 @@ jmp_b8f:
 	if ((char)*(char *)local_22c != 0x0) goto jmp_ba4;
 	goto jmp_bbe;
 jmp_ba4:
-	*(int *)local_234 = trap_R_RegisterModel(local_22c);
-	*(int *)((local_18 << 0x2) + 0xe7420) = *(int *)local_234;
+	local_234 = trap_R_RegisterModel(local_22c);
+	*(int *)((local_18 << 0x2) + 0xe7420) = local_234;
 	local_18 = (local_18 + 0x1);
 	if (local_18 < 0x100) goto jmp_b8f;
 jmp_bbe:
@@ -2786,6 +2827,9 @@ CG_BuildSpectatorString
 
 Address: 0xbc3
 Stack Size: 0x20
+Opcodes Size: 0x54
+Locals Count: 3
+
 Calls: strlen, Q_strcat, va
 Called by: CG_ConfigStringModified, CG_RegisterClients
 =================
@@ -2820,6 +2864,9 @@ CG_RegisterClients
 
 Address: 0xc17
 Stack Size: 0x18
+Opcodes Size: 0x47
+Locals Count: 3
+
 Calls: CG_BuildSpectatorString, CG_ConfigString, CG_NewClientInfo, CG_LoadingClient
 Called by: CG_Init
 =================
@@ -2855,6 +2902,9 @@ CG_ConfigString
 
 Address: 0xc5e
 Stack Size: 0x14
+Opcodes Size: 0x21
+Locals Count: 1
+
 Calls: CG_Error
 Called by: CG_ConfigStringModified, CG_ShaderStateChanged, CG_SetConfigValues, CG_ParseWarmup, CG_ParseServerinfo, CG_DrawTourneyScoreboard, CG_NewClientInfo, CG_NewParticleArea, CG_DrawInformation, CG_LoadingClient, CG_EntityEvent, CG_Obituary, CG_DrawTeamOverlay, CG_DrawAttacker, CG_Init, CG_StartMusic, CG_RegisterClients, CG_RegisterGraphics, CG_RegisterSounds, CG_ForceModelChange
 =================
@@ -2876,6 +2926,9 @@ CG_StartMusic
 
 Address: 0xc7f
 Stack Size: 0xa4
+Opcodes Size: 0x34
+Locals Count: 6
+
 Calls: trap_S_StartBackgroundTrack, Q_strncpyz, COM_Parse, CG_ConfigString
 Called by: CG_MapRestart, CG_ConfigStringModified, CG_Init
 =================
@@ -2903,6 +2956,9 @@ CG_Init
 
 Address: 0xcb3
 Stack Size: 0x40
+Opcodes Size: 0x11a
+Locals Count: 14
+
 Calls: trap_S_ClearLoopingSounds, trap_CM_LoadMap, trap_GetGameState, trap_GetGlconfig, trap_R_RegisterShaderNoMip, trap_R_RegisterShader, memset, CG_ShaderStateChanged, CG_StartMusic, CG_SetConfigValues, CG_InitMarkPolys, CG_InitLocalEntities, CG_RegisterClients, CG_RegisterGraphics, CG_RegisterSounds, CG_LoadingString, CG_ParseServerinfo, atoi, CG_Error, strcmp, CG_ConfigString, CG_InitConsoleCommands, CG_RegisterCvars
 Called by: vmMain
 =================
@@ -2986,6 +3042,9 @@ CG_Shutdown
 
 Address: 0xdcd
 Stack Size: 0x8
+Opcodes Size: 0x3
+Locals Count: 0
+
 Called by: vmMain
 =================
 */
@@ -2999,6 +3058,9 @@ CG_EventHandling
 
 Address: 0xdd0
 Stack Size: 0x8
+Opcodes Size: 0x3
+Locals Count: 0
+
 Called by: vmMain
 =================
 */
@@ -3012,6 +3074,9 @@ CG_KeyEvent
 
 Address: 0xdd3
 Stack Size: 0x8
+Opcodes Size: 0x3
+Locals Count: 0
+
 Called by: vmMain
 =================
 */
@@ -3025,6 +3090,9 @@ CG_MouseEvent
 
 Address: 0xdd6
 Stack Size: 0x8
+Opcodes Size: 0x3
+Locals Count: 0
+
 Called by: vmMain
 =================
 */
@@ -3038,6 +3106,9 @@ BG_FindItemForPowerup
 
 Address: 0xdd9
 Stack Size: 0x10
+Opcodes Size: 0x47
+Locals Count: 3
+
 Called by: CG_DrawPowerups, CG_DrawScores, CG_DrawTeamOverlay, CG_DrawFlagModel
 =================
 */
@@ -3069,6 +3140,9 @@ BG_FindItemForHoldable
 
 Address: 0xe20
 Stack Size: 0x18
+Opcodes Size: 0x3e
+Locals Count: 3
+
 Calls: Com_Error
 Called by: CG_UseItem
 =================
@@ -3099,23 +3173,27 @@ BG_FindItemForWeapon
 
 Address: 0xe5e
 Stack Size: 0x1c
+Opcodes Size: 0x37
+Locals Count: 3
+
 Calls: Com_Error
 =================
 */
 int BG_FindItemForWeapon(int arg_0) {
-	char	local_14[8];
+	int		local_14;
+	int		local_18;
 
 	arg_0 = arg_0;
-	*(int *)local_14 = 0x5c0;
+	local_14 = 0x5c0;
 	goto jmp_e82;
 jmp_e68:
-	if (*(int *)(*(int *)local_14 + 0x24) != 0x1) goto jmp_e7c;
-	if (*(int *)(*(int *)local_14 + 0x28) != arg_0) goto jmp_e7c;
-	return *(int *)local_14;
+	if (*(int *)(local_14 + 0x24) != 0x1) goto jmp_e7c;
+	if (*(int *)(local_14 + 0x28) != arg_0) goto jmp_e7c;
+	return local_14;
 jmp_e7c:
-	*(int *)local_14 = (*(int *)local_14 + 0x34);
+	local_14 = (local_14 + 0x34);
 jmp_e82:
-	if (*(int *)*(int *)local_14 != 0x0) goto jmp_e68;
+	if (*(int *)local_14 != 0x0) goto jmp_e68;
 	Com_Error(0x1, 0x4174, arg_0);
 	return 0x0;
 }
@@ -3126,6 +3204,9 @@ BG_FindItem
 
 Address: 0xe95
 Stack Size: 0x18
+Opcodes Size: 0x2f
+Locals Count: 3
+
 Calls: Q_stricmp
 =================
 */
@@ -3153,6 +3234,9 @@ BG_PlayerTouchesItem
 
 Address: 0xec4
 Stack Size: 0x38
+Opcodes Size: 0x60
+Locals Count: 12
+
 Calls: BG_EvaluateTrajectory
 Called by: CG_TouchItem
 =================
@@ -3160,7 +3244,8 @@ Called by: CG_TouchItem
 int BG_PlayerTouchesItem(int arg_0, int arg_1, int arg_2) {
 	int		local_14;
 	int		local_18;
-	char	local_1c[8];
+	int		local_1c;
+	int		local_20;
 	int		local_24;
 	int		local_28;
 	int		local_2c;
@@ -3178,8 +3263,8 @@ int BG_PlayerTouchesItem(int arg_0, int arg_1, int arg_2) {
 	local_30 = 0xc2100000;
 	if ((local_28 - local_18) < local_30) goto jmp_f1c;
 	local_34 = *(int *)(arg_0 + 0x1c);
-	if ((local_34 - *(int *)local_1c) > local_2c) goto jmp_f1c;
-	if ((local_34 - *(int *)local_1c) >= local_30) goto jmp_f20;
+	if ((local_34 - local_1c) > local_2c) goto jmp_f1c;
+	if ((local_34 - local_1c) >= local_30) goto jmp_f20;
 jmp_f1c:
 	return 0x0;
 jmp_f20:
@@ -3192,6 +3277,9 @@ BG_CanItemBeGrabbed
 
 Address: 0xf24
 Stack Size: 0x30
+Opcodes Size: 0x135
+Locals Count: 11
+
 Calls: Com_Error
 Called by: CG_TouchItem
 =================
@@ -3199,7 +3287,8 @@ Called by: CG_TouchItem
 int BG_CanItemBeGrabbed(int arg_0, int arg_1, int arg_2) {
 	int		local_10;
 	int		local_14;
-	char	local_18[8];
+	int		local_18;
+	int		local_1c;
 	int		local_20;
 	int		local_24;
 	int		local_28;
@@ -3213,10 +3302,10 @@ jmp_f39:
 	Com_Error(0x1, 0x414c);
 jmp_f40:
 	local_10 = ((0x34 * *(int *)(arg_1 + 0xa0)) + 0x58c);
-	*(int *)local_18 = *(int *)(local_10 + 0x24);
-	if (*(int *)local_18 < 0x0) goto jmp_1055;
-	if (*(int *)local_18 > 0x8) goto jmp_1055;
-	goto *(int *)((*(int *)local_18 << 0x2) + 0xd14);
+	local_18 = *(int *)(local_10 + 0x24);
+	if (local_18 < 0x0) goto jmp_1055;
+	if (local_18 > 0x8) goto jmp_1055;
+	goto *(int *)((local_18 << 0x2) + 0xd14);
 	return 0x1;
 	if (*(int *)((*(int *)(local_10 + 0x28) << 0x2) + (arg_2 + 0x178)) < 0xc8) goto jmp_f79;
 	return 0x0;
@@ -3282,6 +3371,9 @@ BG_EvaluateTrajectory
 
 Address: 0x1059
 Stack Size: 0x68
+Opcodes Size: 0x196
+Locals Count: 11
+
 Calls: sin, Com_Error
 Called by: CG_GrappleTrail, CG_PlasmaTrail, CG_RocketTrail, CG_ClipMoveToEntities, CG_ResetPlayerEntity, CG_AddMoveScaleFade, CG_AddFragment, CG_BloodTrail, CG_CheckEvents, CG_CalcEntityLerpPositions, CG_InterpolateEntityPosition, CG_AdjustPositionForMover, BG_PlayerTouchesItem
 =================
@@ -3289,16 +3381,18 @@ Called by: CG_GrappleTrail, CG_PlasmaTrail, CG_RocketTrail, CG_ClipMoveToEntitie
 void BG_EvaluateTrajectory(int arg_0, int arg_1, int arg_2) {
 	int		local_14;
 	int		local_18;
-	char	local_1c[24];
-	char	local_34[44];
+	int		local_1c;
+	char	local_20[20];
+	int		local_34;
+	char	local_38[40];
 	int		local_60;
 	int		local_64;
 
 	arg_0 = arg_0;
-	*(int *)local_1c = *(int *)arg_0;
-	if (*(int *)local_1c < 0x0) goto jmp_11e2;
-	if (*(int *)local_1c > 0x5) goto jmp_11e2;
-	goto *(int *)((*(int *)local_1c << 0x2) + 0xd38);
+	local_1c = *(int *)arg_0;
+	if (local_1c < 0x0) goto jmp_11e2;
+	if (local_1c > 0x5) goto jmp_11e2;
+	goto *(int *)((local_1c << 0x2) + 0xd38);
 	block_copy((arg_0 + 0xc), arg_2, 0xc);
 	goto jmp_11ed;
 	local_14 = (0x3a83126f * (float)(arg_1 - *(int *)(arg_0 + 0x4)));
@@ -3307,8 +3401,8 @@ void BG_EvaluateTrajectory(int arg_0, int arg_1, int arg_2) {
 	*(int *)(arg_2 + 0x8) = (*(int *)(arg_0 + 0x14) + (*(int *)(arg_0 + 0x20) * local_14));
 	goto jmp_11ed;
 	local_14 = ((float)(arg_1 - *(int *)(arg_0 + 0x4)) / (float)*(int *)(arg_0 + 0x8));
-	*(int *)local_34 = sin((0x40000000 * (0x40490fdb * local_14)));
-	local_18 = *(int *)local_34;
+	local_34 = sin((0x40000000 * (0x40490fdb * local_14)));
+	local_18 = local_34;
 	*(int *)arg_2 = (*(int *)(arg_0 + 0xc) + (*(int *)(arg_0 + 0x18) * local_18));
 	*(int *)(arg_2 + 0x4) = (*(int *)(arg_0 + 0x10) + (*(int *)(arg_0 + 0x1c) * local_18));
 	*(int *)(arg_2 + 0x8) = (*(int *)(arg_0 + 0x14) + (*(int *)(arg_0 + 0x20) * local_18));
@@ -3343,6 +3437,9 @@ BG_EvaluateTrajectoryDelta
 
 Address: 0x11ef
 Stack Size: 0x40
+Opcodes Size: 0xfc
+Locals Count: 14
+
 Calls: cos, Com_Error
 Called by: CG_ReflectVelocity, CG_Missile
 =================
@@ -3350,7 +3447,8 @@ Called by: CG_ReflectVelocity, CG_Missile
 void BG_EvaluateTrajectoryDelta(int arg_0, int arg_1, int arg_2) {
 	int		local_14;
 	int		local_18;
-	char	local_1c[8];
+	int		local_1c;
+	int		local_20;
 	int		local_24;
 	int		local_28;
 	int		local_2c;
@@ -3359,10 +3457,10 @@ void BG_EvaluateTrajectoryDelta(int arg_0, int arg_1, int arg_2) {
 	int		local_38;
 	int		local_3c;
 
-	*(int *)local_1c = *(int *)arg_0;
-	if (*(int *)local_1c < 0x0) goto jmp_12de;
-	if (*(int *)local_1c > 0x5) goto jmp_12de;
-	goto *(int *)((*(int *)local_1c << 0x2) + 0xd50);
+	local_1c = *(int *)arg_0;
+	if (local_1c < 0x0) goto jmp_12de;
+	if (local_1c > 0x5) goto jmp_12de;
+	goto *(int *)((local_1c << 0x2) + 0xd50);
 	local_24 = arg_2;
 	local_28 = 0x0;
 	*(int *)(local_24 + 0x8) = local_28;
@@ -3408,6 +3506,9 @@ BG_AddPredictableEventToPlayerstate
 
 Address: 0x12eb
 Stack Size: 0x14
+Opcodes Size: 0x37
+Locals Count: 4
+
 Called by: CG_TouchItem, PM_AddEvent, BG_TouchJumpPad
 =================
 */
@@ -3427,6 +3528,9 @@ BG_TouchJumpPad
 
 Address: 0x1322
 Stack Size: 0x30
+Opcodes Size: 0x74
+Locals Count: 7
+
 Calls: BG_AddPredictableEventToPlayerstate, fabs, AngleNormalize180, vectoangles
 Called by: CG_TouchTriggerPrediction
 =================
@@ -3471,6 +3575,9 @@ BG_PlayerStateToEntityState
 
 Address: 0x1396
 Stack Size: 0x28
+Opcodes Size: 0x1f4
+Locals Count: 11
+
 Called by: CG_SetNextSnap, CG_TransitionSnapshot, CG_SetInitialSnapshot, CG_AddPacketEntities
 =================
 */
@@ -3479,7 +3586,8 @@ void BG_PlayerStateToEntityState(int arg_0, int arg_1, int arg_2) {
 	int		local_c;
 	int		local_10;
 	int		local_14;
-	char	local_18[8];
+	int		local_18;
+	int		local_1c;
 	int		local_20;
 	int		local_24;
 
@@ -3506,8 +3614,8 @@ jmp_13cb:
 	*(int *)local_10 = (float)(int)*(int *)local_10;
 	local_14 = (arg_1 + 0x1c);
 	*(int *)local_14 = (float)(int)*(int *)local_14;
-	*(int *)local_18 = (arg_1 + 0x20);
-	*(int *)*(int *)local_18 = (float)(int)*(int *)*(int *)local_18;
+	local_18 = (arg_1 + 0x20);
+	*(int *)local_18 = (float)(int)*(int *)local_18;
 jmp_1410:
 	block_copy((arg_0 + 0x20), (arg_1 + 0x24), 0xc);
 	*(int *)(arg_1 + 0x30) = 0x1;
@@ -3517,8 +3625,8 @@ jmp_1410:
 	*(int *)local_10 = (float)(int)*(int *)local_10;
 	local_14 = (arg_1 + 0x40);
 	*(int *)local_14 = (float)(int)*(int *)local_14;
-	*(int *)local_18 = (arg_1 + 0x44);
-	*(int *)*(int *)local_18 = (float)(int)*(int *)*(int *)local_18;
+	local_18 = (arg_1 + 0x44);
+	*(int *)local_18 = (float)(int)*(int *)local_18;
 jmp_1456:
 	*(int *)(arg_1 + 0x84) = (float)*(int *)(arg_0 + 0x58);
 	*(int *)(arg_1 + 0xc4) = *(int *)(arg_0 + 0x4c);
@@ -3570,6 +3678,9 @@ BG_PlayerStateToEntityStateExtraPolate
 
 Address: 0x158a
 Stack Size: 0x28
+Opcodes Size: 0x201
+Locals Count: 12
+
 =================
 */
 void BG_PlayerStateToEntityStateExtraPolate(int arg_0, int arg_1, int arg_2, int arg_3) {
@@ -3577,7 +3688,8 @@ void BG_PlayerStateToEntityStateExtraPolate(int arg_0, int arg_1, int arg_2, int
 	int		local_c;
 	int		local_10;
 	int		local_14;
-	char	local_18[8];
+	int		local_18;
+	int		local_1c;
 	int		local_20;
 	int		local_24;
 
@@ -3604,8 +3716,8 @@ jmp_15bf:
 	*(int *)local_10 = (float)(int)*(int *)local_10;
 	local_14 = (arg_1 + 0x1c);
 	*(int *)local_14 = (float)(int)*(int *)local_14;
-	*(int *)local_18 = (arg_1 + 0x20);
-	*(int *)*(int *)local_18 = (float)(int)*(int *)*(int *)local_18;
+	local_18 = (arg_1 + 0x20);
+	*(int *)local_18 = (float)(int)*(int *)local_18;
 jmp_1604:
 	block_copy((arg_0 + 0x20), (arg_1 + 0x24), 0xc);
 	*(int *)(arg_1 + 0x10) = arg_2;
@@ -3617,8 +3729,8 @@ jmp_1604:
 	*(int *)local_10 = (float)(int)*(int *)local_10;
 	local_14 = (arg_1 + 0x40);
 	*(int *)local_14 = (float)(int)*(int *)local_14;
-	*(int *)local_18 = (arg_1 + 0x44);
-	*(int *)*(int *)local_18 = (float)(int)*(int *)*(int *)local_18;
+	local_18 = (arg_1 + 0x44);
+	*(int *)local_18 = (float)(int)*(int *)local_18;
 jmp_1657:
 	*(int *)(arg_1 + 0x84) = (float)*(int *)(arg_0 + 0x58);
 	*(int *)(arg_1 + 0xc4) = *(int *)(arg_0 + 0x4c);
@@ -3670,6 +3782,9 @@ PM_AddEvent
 
 Address: 0x178b
 Stack Size: 0x14
+Opcodes Size: 0xf
+Locals Count: 1
+
 Calls: BG_AddPredictableEventToPlayerstate
 Called by: PM_StepSlideMove, PM_Animate, PM_Weapon, PM_BeginWeaponChange, PM_WaterEvents, PM_Footsteps, PM_CrashLand, PM_CheckJump
 =================
@@ -3685,6 +3800,9 @@ PM_AddTouchEnt
 
 Address: 0x179a
 Stack Size: 0x14
+Opcodes Size: 0x59
+Locals Count: 4
+
 Called by: PM_SlideMove, PM_GroundTrace
 =================
 */
@@ -3722,6 +3840,9 @@ PM_StartTorsoAnim
 
 Address: 0x17f3
 Stack Size: 0x10
+Opcodes Size: 0x26
+Locals Count: 3
+
 Called by: PM_Animate, PM_Weapon, PM_FinishWeaponChange, PM_BeginWeaponChange, PM_ContinueTorsoAnim
 =================
 */
@@ -3744,6 +3865,9 @@ PM_StartLegsAnim
 
 Address: 0x1819
 Stack Size: 0x10
+Opcodes Size: 0x30
+Locals Count: 3
+
 Called by: PM_ForceLegsAnim, PM_ContinueLegsAnim
 =================
 */
@@ -3769,6 +3893,9 @@ PM_ContinueLegsAnim
 
 Address: 0x1849
 Stack Size: 0xc
+Opcodes Size: 0x20
+Locals Count: 1
+
 Calls: PM_StartLegsAnim
 Called by: PM_Footsteps
 =================
@@ -3791,6 +3918,9 @@ PM_ContinueTorsoAnim
 
 Address: 0x1869
 Stack Size: 0xc
+Opcodes Size: 0x20
+Locals Count: 1
+
 Calls: PM_StartTorsoAnim
 Called by: PM_TorsoAnimation
 =================
@@ -3813,6 +3943,9 @@ PM_ForceLegsAnim
 
 Address: 0x1889
 Stack Size: 0xc
+Opcodes Size: 0x10
+Locals Count: 1
+
 Calls: PM_StartLegsAnim
 Called by: PM_GroundTrace, PM_GroundTraceMissed, PM_CrashLand, PM_CheckJump
 =================
@@ -3829,13 +3962,17 @@ PM_ClipVelocity
 
 Address: 0x1899
 Stack Size: 0x28
+Opcodes Size: 0x7b
+Locals Count: 11
+
 Called by: PM_StepSlideMove, PM_SlideMove, PM_WalkMove, PM_AirMove, PM_WaterMove
 =================
 */
 void PM_ClipVelocity(int arg_0, int arg_1, int arg_2, int arg_3) {
 	int		local_8;
 	int		local_c;
-	char	local_10[12];
+	int		local_10;
+	char	local_14[8];
 	int		local_1c;
 	int		local_20;
 	int		local_24;
@@ -3845,17 +3982,17 @@ void PM_ClipVelocity(int arg_0, int arg_1, int arg_2, int arg_3) {
 	arg_2 = arg_2;
 	local_1c = 0x4;
 	local_20 = 0x8;
-	*(int *)local_10 = (((*(int *)arg_0 * *(int *)arg_1) + (*(int *)(arg_0 + local_1c) * *(int *)(arg_1 + local_1c))) + (*(int *)(arg_0 + local_20) * *(int *)(arg_1 + local_20)));
-	if (*(int *)local_10 >= 0x0) goto jmp_18de;
-	*(int *)local_10 = (*(int *)local_10 * arg_3);
+	local_10 = (((*(int *)arg_0 * *(int *)arg_1) + (*(int *)(arg_0 + local_1c) * *(int *)(arg_1 + local_1c))) + (*(int *)(arg_0 + local_20) * *(int *)(arg_1 + local_20)));
+	if (local_10 >= 0x0) goto jmp_18de;
+	local_10 = (local_10 * arg_3);
 	goto jmp_18e5;
 jmp_18de:
-	*(int *)local_10 = (*(int *)local_10 / arg_3);
+	local_10 = (local_10 / arg_3);
 jmp_18e5:
 	local_8 = 0x0;
 jmp_18e8:
 	local_24 = (local_8 << 0x2);
-	local_c = (*(int *)(local_24 + arg_1) * *(int *)local_10);
+	local_c = (*(int *)(local_24 + arg_1) * local_10);
 	*(int *)(local_24 + arg_2) = (*(int *)(local_24 + arg_0) - local_c);
 	local_8 = (local_8 + 0x1);
 	if (local_8 < 0x3) goto jmp_18e8;
@@ -3867,6 +4004,9 @@ PM_Friction
 
 Address: 0x1914
 Stack Size: 0x3c
+Opcodes Size: 0xf3
+Locals Count: 11
+
 Calls: VectorLength
 Called by: PM_WalkMove, PM_AirMove, PM_FlyMove, PM_WaterMove
 =================
@@ -3939,6 +4079,9 @@ PM_Accelerate
 
 Address: 0x1a07
 Stack Size: 0x28
+Opcodes Size: 0x7c
+Locals Count: 11
+
 Called by: PM_NoclipMove, PM_WalkMove, PM_AirMove, PM_FlyMove, PM_WaterMove
 =================
 */
@@ -3947,13 +4090,14 @@ void PM_Accelerate(int arg_0, int arg_1, int arg_2) {
 	int		local_c;
 	int		local_10;
 	int		local_14;
-	char	local_18[8];
+	int		local_18;
+	int		local_1c;
 	int		local_20;
 	int		local_24;
 
 	arg_0 = arg_0;
-	*(int *)local_18 = *(int *)pm;
-	local_14 = (((*(int *)(*(int *)local_18 + 0x20) * *(int *)arg_0) + (*(int *)(*(int *)local_18 + 0x24) * *(int *)(arg_0 + 0x4))) + (*(int *)(*(int *)local_18 + 0x28) * *(int *)(arg_0 + 0x8)));
+	local_18 = *(int *)pm;
+	local_14 = (((*(int *)(local_18 + 0x20) * *(int *)arg_0) + (*(int *)(local_18 + 0x24) * *(int *)(arg_0 + 0x4))) + (*(int *)(local_18 + 0x28) * *(int *)(arg_0 + 0x8)));
 	local_10 = (arg_1 - local_14);
 	if (local_10 > 0x0) goto jmp_1a41;
 	goto jmp_1a81;
@@ -3978,6 +4122,9 @@ PM_CmdScale
 
 Address: 0x1a83
 Stack Size: 0x38
+Opcodes Size: 0xa4
+Locals Count: 12
+
 Calls: sqrt, abs
 Called by: PM_NoclipMove, PM_WalkMove, PM_AirMove, PM_FlyMove, PM_WaterMove
 =================
@@ -4026,6 +4173,9 @@ PM_SetMovementDir
 
 Address: 0x1b27
 Stack Size: 0x50
+Opcodes Size: 0x14c
+Locals Count: 18
+
 Called by: PM_WalkMove, PM_AirMove
 =================
 */
@@ -4125,6 +4275,9 @@ PM_CheckJump
 
 Address: 0x1c73
 Stack Size: 0x14
+Opcodes Size: 0x8d
+Locals Count: 2
+
 Calls: PM_ForceLegsAnim, PM_AddEvent
 Called by: PM_WalkMove
 =================
@@ -4169,6 +4322,9 @@ PM_CheckWaterJump
 
 Address: 0x1d00
 Stack Size: 0x48
+Opcodes Size: 0xe9
+Locals Count: 14
+
 Calls: VectorNormalize
 Called by: PM_WaterMove
 =================
@@ -4238,6 +4394,9 @@ PM_WaterJumpMove
 
 Address: 0x1de9
 Stack Size: 0x18
+Opcodes Size: 0x41
+Locals Count: 3
+
 Calls: PM_StepSlideMove
 Called by: PmoveSingle, PM_WaterMove
 =================
@@ -4264,6 +4423,9 @@ PM_WaterMove
 
 Address: 0x1e2a
 Stack Size: 0x64
+Opcodes Size: 0x136
+Locals Count: 17
+
 Calls: PM_SlideMove, PM_ClipVelocity, VectorLength, PM_Accelerate, VectorNormalize, PM_CmdScale, PM_Friction, PM_WaterJumpMove, PM_CheckWaterJump
 Called by: PmoveSingle, PM_WalkMove
 =================
@@ -4343,6 +4505,9 @@ PM_FlyMove
 
 Address: 0x1f60
 Stack Size: 0x48
+Opcodes Size: 0x90
+Locals Count: 11
+
 Calls: PM_StepSlideMove, PM_Accelerate, VectorNormalize, PM_CmdScale, PM_Friction
 Called by: PmoveSingle
 =================
@@ -4356,31 +4521,32 @@ void PM_FlyMove(void) {
 	char	local_28[12];
 	int		local_34;
 	int		local_38;
-	char	local_3c[8];
+	int		local_3c;
+	int		local_40;
 	int		local_44;
 
 	PM_Friction();
 	local_38 = PM_CmdScale((pm + 0x4));
 	local_18 = local_38;
 	if (local_18 != 0x0) goto jmp_1f85;
-	*(int *)local_3c = 0x0;
-	local_1c = *(int *)local_3c;
-	local_20 = *(int *)local_3c;
+	local_3c = 0x0;
+	local_1c = local_3c;
+	local_20 = local_3c;
 	local_24 = 0x0;
 	goto jmp_1fd1;
 jmp_1f85:
 	local_14 = 0x0;
 jmp_1f88:
-	*(int *)local_3c = (local_14 << 0x2);
+	local_3c = (local_14 << 0x2);
 	local_44 = pm;
-	*(int *)(*(int *)local_3c + &local_1c) = (((local_18 * *(int *)(*(int *)local_3c + 0x1044ec)) * (float)(char)*(char *)(local_44 + 0x19)) + ((local_18 * *(int *)(*(int *)local_3c + 0x1044f8)) * (float)(char)*(char *)(local_44 + 0x1a)));
+	*(int *)(local_3c + &local_1c) = (((local_18 * *(int *)(local_3c + 0x1044ec)) * (float)(char)*(char *)(local_44 + 0x19)) + ((local_18 * *(int *)(local_3c + 0x1044f8)) * (float)(char)*(char *)(local_44 + 0x1a)));
 	local_14 = (local_14 + 0x1);
 	if (local_14 < 0x3) goto jmp_1f88;
 	local_24 = (local_24 + (local_18 * (float)(char)*(char *)(pm + 0x1b)));
 jmp_1fd1:
 	block_copy(&local_1c, local_28, 0xc);
-	*(int *)local_3c = VectorNormalize(local_28);
-	local_34 = *(int *)local_3c;
+	local_3c = VectorNormalize(local_28);
+	local_34 = local_3c;
 	PM_Accelerate(local_28, local_34, pm_flyaccelerate);
 	PM_StepSlideMove(0x0);
 }
@@ -4391,6 +4557,9 @@ PM_AirMove
 
 Address: 0x1ff0
 Stack Size: 0x6c
+Opcodes Size: 0xa7
+Locals Count: 13
+
 Calls: PM_StepSlideMove, PM_ClipVelocity, PM_Accelerate, VectorNormalize, PM_SetMovementDir, PM_CmdScale, PM_Friction
 Called by: PmoveSingle, PM_WalkMove
 =================
@@ -4447,6 +4616,9 @@ PM_GrappleMove
 
 Address: 0x2097
 Stack Size: 0x40
+Opcodes Size: 0xb7
+Locals Count: 13
+
 Calls: VectorNormalize, VectorLength
 Called by: PmoveSingle
 =================
@@ -4503,6 +4675,9 @@ PM_WalkMove
 
 Address: 0x214e
 Stack Size: 0x9c
+Opcodes Size: 0x204
+Locals Count: 24
+
 Calls: PM_StepSlideMove, VectorLength, PM_Accelerate, VectorNormalize, PM_ClipVelocity, PM_SetMovementDir, PM_CmdScale, PM_Friction, PM_AirMove, PM_CheckJump, PM_WaterMove
 Called by: PmoveSingle
 =================
@@ -4629,6 +4804,9 @@ PM_DeadMove
 
 Address: 0x2352
 Stack Size: 0x20
+Opcodes Size: 0x79
+Locals Count: 5
+
 Calls: VectorNormalize, VectorLength
 Called by: PmoveSingle
 =================
@@ -4670,11 +4848,14 @@ PM_NoclipMove
 
 Address: 0x23cb
 Stack Size: 0x80
+Opcodes Size: 0x158
+Locals Count: 25
+
 Calls: PM_Accelerate, VectorNormalize, PM_CmdScale, VectorLength
 Called by: PmoveSingle
 =================
 */
-void PM_NoclipMove(void) {
+void PM_NoclipMove(, int arg_1848) {
 	int		local_14;
 	char	local_18[8];
 	int		local_20;
@@ -4763,6 +4944,9 @@ PM_FootstepForSurface
 
 Address: 0x2523
 Stack Size: 0x8
+Opcodes Size: 0x19
+Locals Count: 0
+
 Called by: PM_Footsteps, PM_CrashLand
 =================
 */
@@ -4783,6 +4967,9 @@ PM_CrashLand
 
 Address: 0x253c
 Stack Size: 0x44
+Opcodes Size: 0x101
+Locals Count: 14
+
 Calls: sqrt, PM_FootstepForSurface, PM_AddEvent, PM_ForceLegsAnim
 Called by: PM_GroundTrace
 =================
@@ -4797,8 +4984,10 @@ void PM_CrashLand(void) {
 	int		local_24;
 	int		local_28;
 	int		local_2c;
-	char	local_30[8];
-	char	local_38[8];
+	int		local_30;
+	int		local_34;
+	int		local_38;
+	int		local_3c;
 	int		local_40;
 
 	if ((*(int *)(*(int *)pm + 0xc) & 0x8) == 0x0) goto jmp_254e;
@@ -4808,10 +4997,10 @@ jmp_254e:
 	PM_ForceLegsAnim(0x13);
 jmp_2553:
 	*(int *)(*(int *)pm + 0x48) = 0x82;
-	*(int *)local_30 = pm;
-	local_24 = (*(int *)(*(int *)*(int *)local_30 + 0x1c) - bss_104564);
+	local_30 = pm;
+	local_24 = (*(int *)(*(int *)local_30 + 0x1c) - bss_104564);
 	local_14 = bss_104570;
-	local_18 = (float)-*(int *)(*(int *)*(int *)local_30 + 0x30);
+	local_18 = (float)-*(int *)(*(int *)local_30 + 0x30);
 	local_1c = (local_18 / 0x40000000);
 	local_10 = local_14;
 	local_2c = -local_24;
@@ -4819,8 +5008,8 @@ jmp_2553:
 	if (local_20 >= 0x0) goto jmp_259b;
 	goto jmp_263b;
 jmp_259b:
-	*(int *)local_38 = sqrt(local_20);
-	local_28 = ((-local_10 - *(int *)local_38) / (0x40000000 * local_1c));
+	local_38 = sqrt(local_20);
+	local_28 = ((-local_10 - local_38) / (0x40000000 * local_1c));
 	local_c = (local_14 + (local_28 * local_18));
 	local_c = (0x38d1b717 * (local_c * local_c));
 	if ((*(int *)(*(int *)pm + 0xc) & 0x1) == 0x0) goto jmp_25d2;
@@ -4865,11 +5054,14 @@ PM_CorrectAllSolid
 
 Address: 0x263d
 Stack Size: 0x4c
+Opcodes Size: 0xef
+Locals Count: 12
+
 Calls: Com_Printf
 Called by: PM_GroundTrace
 =================
 */
-int PM_CorrectAllSolid(int arg_0) {
+int PM_CorrectAllSolid(int arg_0, int arg_266561) {
 	int		local_24;
 	int		local_28;
 	int		local_2c;
@@ -4940,6 +5132,9 @@ PM_GroundTraceMissed
 
 Address: 0x272c
 Stack Size: 0x74
+Opcodes Size: 0x99
+Locals Count: 8
+
 Calls: PM_ForceLegsAnim, Com_Printf
 Called by: PM_GroundTrace
 =================
@@ -4948,7 +5143,8 @@ void PM_GroundTraceMissed(void) {
 	char	local_24[8];
 	int		local_2c;
 	char	local_30[8];
-	char	local_38[48];
+	int		local_38;
+	char	local_3c[44];
 	int		local_68;
 	int		local_6c;
 	int		local_70;
@@ -4969,7 +5165,7 @@ jmp_2744:
 #define next_call_arg_5 "*(int *)(local_6c + 0x8c)"
 #define next_call_arg_6 "*(int *)(local_68 + 0x1c)"
 	(*(*(int *)(local_68 + 0xe0)))();
-	if (*(int *)local_38 != 0x3f800000) goto jmp_27b6;
+	if (local_38 != 0x3f800000) goto jmp_27b6;
 	if ((char)*(char *)(pm + 0x19) < 0x0) goto jmp_27a2;
 	PM_ForceLegsAnim(0x12);
 	local_70 = (*(int *)pm + 0xc);
@@ -4991,16 +5187,21 @@ PM_GroundTrace
 
 Address: 0x27c5
 Stack Size: 0x80
+Opcodes Size: 0x175
+Locals Count: 18
+
 Calls: PM_AddTouchEnt, PM_CrashLand, PM_ForceLegsAnim, Com_Printf, PM_GroundTraceMissed, PM_CorrectAllSolid
 Called by: PmoveSingle
 =================
 */
-void PM_GroundTrace(void) {
+void PM_GroundTrace(, int arg_266548) {
 	char	local_24[8];
-	char	local_2c[16];
+	int		local_2c;
+	char	local_30[12];
 	int		local_3c;
 	int		local_40;
-	char	local_44[20];
+	int		local_44;
+	char	local_48[16];
 	int		local_58;
 	int		local_5c;
 	int		local_60;
@@ -5032,7 +5233,7 @@ void PM_GroundTrace(void) {
 	if (local_74 != 0x0) goto jmp_2826;
 	goto jmp_2938;
 jmp_2826:
-	if (*(int *)local_2c != 0x3f800000) goto jmp_2835;
+	if (local_2c != 0x3f800000) goto jmp_2835;
 	PM_GroundTraceMissed();
 	bss_10451c = 0x0;
 	bss_104518 = 0x0;
@@ -5041,7 +5242,7 @@ jmp_2835:
 	local_74 = *(int *)pm;
 	local_78 = *(int *)(local_74 + 0x28);
 	if (local_78 <= 0x0) goto jmp_28ae;
-	if ((((*(int *)(local_74 + 0x20) * local_3c) + (*(int *)(local_74 + 0x24) * local_40)) + (local_78 * *(int *)local_44)) <= 0x41200000) goto jmp_28ae;
+	if ((((*(int *)(local_74 + 0x20) * local_3c) + (*(int *)(local_74 + 0x24) * local_40)) + (local_78 * local_44)) <= 0x41200000) goto jmp_28ae;
 	if (*(int *)(pm + 0x20) == 0x0) goto jmp_286d;
 	Com_Printf(0x509f, c_pmove);
 jmp_286d:
@@ -5060,7 +5261,7 @@ jmp_289f:
 	bss_104518 = 0x0;
 	goto jmp_2938;
 jmp_28ae:
-	if (*(int *)local_44 >= 0x3f333333) goto jmp_28d0;
+	if (local_44 >= 0x3f333333) goto jmp_28d0;
 	if (*(int *)(pm + 0x20) == 0x0) goto jmp_28c1;
 	Com_Printf(0x5095, c_pmove);
 jmp_28c1:
@@ -5097,6 +5298,9 @@ PM_SetWaterLevel
 
 Address: 0x293a
 Stack Size: 0x48
+Opcodes Size: 0xd5
+Locals Count: 14
+
 Called by: PmoveSingle
 =================
 */
@@ -5158,6 +5362,9 @@ PM_CheckDuck
 
 Address: 0x2a0f
 Stack Size: 0x70
+Opcodes Size: 0x151
+Locals Count: 6
+
 Called by: PmoveSingle
 =================
 */
@@ -5241,6 +5448,9 @@ PM_Footsteps
 
 Address: 0x2b60
 Stack Size: 0x4c
+Opcodes Size: 0x180
+Locals Count: 16
+
 Calls: sqrt, PM_AddEvent, PM_FootstepForSurface, PM_ContinueLegsAnim
 Called by: PmoveSingle
 =================
@@ -5351,6 +5561,9 @@ PM_WaterEvents
 
 Address: 0x2ce0
 Stack Size: 0x1c
+Opcodes Size: 0x57
+Locals Count: 4
+
 Calls: PM_AddEvent
 Called by: PmoveSingle
 =================
@@ -5389,6 +5602,9 @@ PM_BeginWeaponChange
 
 Address: 0x2d37
 Stack Size: 0x14
+Opcodes Size: 0x4a
+Locals Count: 2
+
 Calls: PM_StartTorsoAnim, PM_AddEvent
 Called by: PM_Weapon
 =================
@@ -5422,24 +5638,28 @@ PM_FinishWeaponChange
 
 Address: 0x2d81
 Stack Size: 0x18
+Opcodes Size: 0x48
+Locals Count: 3
+
 Calls: PM_StartTorsoAnim
 Called by: PM_Weapon
 =================
 */
 void PM_FinishWeaponChange(void) {
-	char	local_c[8];
+	int		local_c;
+	int		local_10;
 	int		local_14;
 
-	*(int *)local_c = *(char *)(pm + 0x18);
-	if (*(int *)local_c < 0x0) goto jmp_2d91;
-	if (*(int *)local_c < 0xb) goto jmp_2d94;
+	local_c = *(char *)(pm + 0x18);
+	if (local_c < 0x0) goto jmp_2d91;
+	if (local_c < 0xb) goto jmp_2d94;
 jmp_2d91:
-	*(int *)local_c = 0x0;
+	local_c = 0x0;
 jmp_2d94:
-	if ((*(int *)(*(int *)pm + 0xc0) & (0x1 << *(int *)local_c)) != 0x0) goto jmp_2da4;
-	*(int *)local_c = 0x0;
+	if ((*(int *)(*(int *)pm + 0xc0) & (0x1 << local_c)) != 0x0) goto jmp_2da4;
+	local_c = 0x0;
 jmp_2da4:
-	*(int *)(*(int *)pm + 0x90) = *(int *)local_c;
+	*(int *)(*(int *)pm + 0x90) = local_c;
 	*(int *)(*(int *)pm + 0x94) = 0x1;
 	local_14 = (*(int *)pm + 0x2c);
 	*(int *)local_14 = (*(int *)local_14 + 0xfa);
@@ -5452,6 +5672,9 @@ PM_TorsoAnimation
 
 Address: 0x2dc9
 Stack Size: 0xc
+Opcodes Size: 0x1f
+Locals Count: 0
+
 Calls: PM_ContinueTorsoAnim
 Called by: PmoveSingle
 =================
@@ -5473,6 +5696,9 @@ PM_Weapon
 
 Address: 0x2de8
 Stack Size: 0x28
+Opcodes Size: 0x226
+Locals Count: 7
+
 Calls: PM_StartTorsoAnim, PM_FinishWeaponChange, PM_BeginWeaponChange, PM_AddEvent
 Called by: PmoveSingle
 =================
@@ -5610,6 +5836,9 @@ PM_Animate
 
 Address: 0x300e
 Stack Size: 0xc
+Opcodes Size: 0x25
+Locals Count: 0
+
 Calls: PM_AddEvent, PM_StartTorsoAnim
 Called by: PmoveSingle
 =================
@@ -5630,6 +5859,9 @@ PM_DropTimers
 
 Address: 0x3033
 Stack Size: 0xc
+Opcodes Size: 0x8a
+Locals Count: 1
+
 Called by: PmoveSingle
 =================
 */
@@ -5666,21 +5898,25 @@ PM_UpdateViewAngles
 
 Address: 0x30bd
 Stack Size: 0x24
+Opcodes Size: 0xa8
+Locals Count: 8
+
 Called by: CG_PredictPlayerState, CG_InterpolatePlayerState, PmoveSingle
 =================
 */
 void PM_UpdateViewAngles(int arg_0, int arg_1) {
 	int		local_8;
 	int		local_c;
-	char	local_10[12];
+	int		local_10;
+	char	local_14[8];
 	int		local_1c;
 	int		local_20;
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
-	*(int *)local_10 = *(int *)(arg_0 + 0x4);
-	if (*(int *)local_10 == 0x5) goto jmp_30d5;
-	if (*(int *)local_10 != 0x6) goto jmp_30d7;
+	local_10 = *(int *)(arg_0 + 0x4);
+	if (local_10 == 0x5) goto jmp_30d5;
+	if (local_10 != 0x6) goto jmp_30d7;
 jmp_30d5:
 	goto jmp_3163;
 jmp_30d7:
@@ -5716,11 +5952,14 @@ PmoveSingle
 
 Address: 0x3165
 Stack Size: 0x5c
+Opcodes Size: 0x2e9
+Locals Count: 20
+
 Calls: trap_SnapVector, memset, PM_WaterEvents, PM_Footsteps, PM_TorsoAnimation, PM_Weapon, PM_Animate, PM_WalkMove, PM_WaterMove, PM_WaterJumpMove, PM_AirMove, PM_GrappleMove, PM_DeadMove, PM_GroundTrace, PM_SetWaterLevel, PM_NoclipMove, PM_DropTimers, PM_FlyMove, PM_CheckDuck, AngleVectors, PM_UpdateViewAngles, abs
 Called by: Pmove
 =================
 */
-void PmoveSingle(int arg_0) {
+void PmoveSingle(int arg_0, int arg_266561, int arg_266564) {
 	int		local_18;
 	int		local_1c;
 	int		local_20;
@@ -5906,42 +6145,47 @@ Pmove
 
 Address: 0x344e
 Stack Size: 0x24
+Opcodes Size: 0x8c
+Locals Count: 6
+
 Calls: PmoveSingle
 Called by: CG_PredictPlayerState
 =================
 */
 void Pmove(int arg_0) {
-	char	local_c[8];
+	int		local_c;
+	int		local_10;
 	int		local_14;
-	char	local_18[12];
+	int		local_18;
+	char	local_1c[8];
 
 	arg_0 = arg_0;
-	*(int *)local_c = *(int *)(arg_0 + 0x4);
-	if (*(int *)local_c >= *(int *)*(int *)arg_0) goto jmp_3463;
+	local_c = *(int *)(arg_0 + 0x4);
+	if (local_c >= *(int *)*(int *)arg_0) goto jmp_3463;
 	goto jmp_34d8;
 jmp_3463:
-	if (*(int *)local_c <= (*(int *)*(int *)arg_0 + 0x3e8)) goto jmp_3474;
-	*(int *)*(int *)arg_0 = (*(int *)local_c - 0x3e8);
+	if (local_c <= (*(int *)*(int *)arg_0 + 0x3e8)) goto jmp_3474;
+	*(int *)*(int *)arg_0 = (local_c - 0x3e8);
 jmp_3474:
 	local_14 = (*(int *)arg_0 + 0x1c8);
 	*(int *)local_14 = ((*(int *)local_14 + 0x1) & 0x3f);
 	goto jmp_34d1;
 jmp_3487:
-	*(int *)local_18 = (*(int *)local_c - *(int *)*(int *)arg_0);
+	local_18 = (local_c - *(int *)*(int *)arg_0);
 	if (*(int *)(arg_0 + 0xd8) == 0x0) goto jmp_34a8;
-	if (*(int *)local_18 <= *(int *)(arg_0 + 0xdc)) goto jmp_34af;
-	*(int *)local_18 = *(int *)(arg_0 + 0xdc);
+	if (local_18 <= *(int *)(arg_0 + 0xdc)) goto jmp_34af;
+	local_18 = *(int *)(arg_0 + 0xdc);
 	goto jmp_34af;
 jmp_34a8:
-	if (*(int *)local_18 <= 0x42) goto jmp_34af;
-	*(int *)local_18 = 0x42;
+	if (local_18 <= 0x42) goto jmp_34af;
+	local_18 = 0x42;
 jmp_34af:
-	*(int *)(arg_0 + 0x4) = (*(int *)*(int *)arg_0 + *(int *)local_18);
+	*(int *)(arg_0 + 0x4) = (*(int *)*(int *)arg_0 + local_18);
 	PmoveSingle(arg_0);
 	if ((*(int *)(*(int *)arg_0 + 0xc) & 0x2) == 0x0) goto jmp_34d1;
 	*(char *)(arg_0 + 0x1b) = 0x14;
 jmp_34d1:
-	if (*(int *)*(int *)arg_0 != *(int *)local_c) goto jmp_3487;
+	if (*(int *)*(int *)arg_0 != local_c) goto jmp_3487;
 jmp_34d8:
 }
 
@@ -5951,15 +6195,19 @@ PM_SlideMove
 
 Address: 0x34da
 Stack Size: 0x154
+Opcodes Size: 0x410
+Locals Count: 60
+
 Calls: VectorNormalize, CrossProduct, PM_AddTouchEnt, VectorNormalize2, PM_ClipVelocity
 Called by: PM_StepSlideMove, PM_WaterMove
 =================
 */
-int PM_SlideMove(int arg_0) {
+int PM_SlideMove(int arg_0, int arg_266490) {
 	int		local_24;
 	int		local_28;
 	int		local_2c;
-	char	local_30[52];
+	int		local_30;
+	char	local_34[48];
 	int		local_64;
 	int		local_68;
 	int		local_6c;
@@ -5981,7 +6229,8 @@ int PM_SlideMove(int arg_0) {
 	char	local_b0[12];
 	int		local_bc;
 	int		local_c0;
-	char	local_c4[20];
+	int		local_c4;
+	char	local_c8[16];
 	int		local_d8;
 	int		local_dc;
 	int		local_e0;
@@ -5998,14 +6247,16 @@ int PM_SlideMove(int arg_0) {
 	int		local_110;
 	int		local_114;
 	int		local_118;
-	char	local_11c[8];
+	int		local_11c;
+	int		local_120;
 	int		local_124;
 	int		local_128;
 	int		local_12c;
 	int		local_130;
 	int		local_134;
 	int		local_138;
-	char	local_13c[8];
+	int		local_13c;
+	int		local_140;
 	int		local_144;
 	int		local_148;
 	int		local_14c;
@@ -6047,12 +6298,12 @@ jmp_3563:
 	local_ec = (*(int *)(local_114 + 0x1c) + (*(int *)(local_114 + 0x28) * local_e0));
 #define next_call_arg_0 "local_a4"
 	local_118 = pm;
-	*(int *)local_11c = *(int *)local_118;
-#define next_call_arg_1 "(*(int *)local_11c + 0x14)"
+	local_11c = *(int *)local_118;
+#define next_call_arg_1 "(local_11c + 0x14)"
 #define next_call_arg_2 "(local_118 + 0xb4)"
 #define next_call_arg_3 "(local_118 + 0xc0)"
 #define next_call_arg_4 "&local_e4"
-#define next_call_arg_5 "*(int *)(*(int *)local_11c + 0x8c)"
+#define next_call_arg_5 "*(int *)(local_11c + 0x8c)"
 #define next_call_arg_6 "*(int *)(local_118 + 0x1c)"
 	(*(*(int *)(local_118 + 0xe0)))();
 	if (*(int *)local_a4 == 0x0) goto jmp_35e4;
@@ -6079,13 +6330,13 @@ jmp_362a:
 	goto jmp_3689;
 jmp_362f:
 	local_124 = (0xc * local_74);
-	if ((((local_bc * *(int *)(local_124 + &local_28)) + (local_c0 * *(int *)(local_124 + &local_2c))) + (*(int *)local_c4 * *(int *)(local_124 + local_30))) <= 0x3f7d70a4) goto jmp_3683;
+	if ((((local_bc * *(int *)(local_124 + &local_28)) + (local_c0 * *(int *)(local_124 + &local_2c))) + (local_c4 * *(int *)(local_124 + &local_30))) <= 0x3f7d70a4) goto jmp_3683;
 	local_128 = (*(int *)pm + 0x20);
 	*(int *)local_128 = (local_bc + *(int *)local_128);
 	local_12c = (*(int *)pm + 0x24);
 	*(int *)local_12c = (local_c0 + *(int *)local_12c);
 	local_130 = (*(int *)pm + 0x28);
-	*(int *)local_130 = (*(int *)local_c4 + *(int *)local_130);
+	*(int *)local_130 = (local_c4 + *(int *)local_130);
 	goto jmp_368e;
 jmp_3683:
 	local_74 = (local_74 + 0x1);
@@ -6102,7 +6353,7 @@ jmp_3695:
 jmp_36a8:
 	local_124 = *(int *)pm;
 	local_128 = (0xc * local_74);
-	local_dc = (((*(int *)(local_124 + 0x20) * *(int *)(local_128 + &local_28)) + (*(int *)(local_124 + 0x24) * *(int *)(local_128 + &local_2c))) + (*(int *)(local_124 + 0x28) * *(int *)(local_128 + local_30)));
+	local_dc = (((*(int *)(local_124 + 0x20) * *(int *)(local_128 + &local_28)) + (*(int *)(local_124 + 0x24) * *(int *)(local_128 + &local_2c))) + (*(int *)(local_124 + 0x28) * *(int *)(local_128 + &local_30)));
 	if (local_dc < 0x3dcccccd) goto jmp_36de;
 	goto jmp_38a9;
 jmp_36de:
@@ -6120,7 +6371,7 @@ jmp_3716:
 	goto jmp_388e;
 jmp_371d:
 	local_12c = (0xc * local_70);
-	if ((((local_64 * *(int *)(local_12c + &local_28)) + (local_68 * *(int *)(local_12c + &local_2c))) + (local_6c * *(int *)(local_12c + local_30))) < 0x3dcccccd) goto jmp_3741;
+	if ((((local_64 * *(int *)(local_12c + &local_28)) + (local_68 * *(int *)(local_12c + &local_2c))) + (local_6c * *(int *)(local_12c + &local_30))) < 0x3dcccccd) goto jmp_3741;
 	goto jmp_388e;
 jmp_3741:
 	PM_ClipVelocity(&local_64, ((0xc * local_70) + &local_28), &local_64, 0x3f8020c5);
@@ -6128,15 +6379,15 @@ jmp_3741:
 	PM_ClipVelocity(&local_8c, ((0xc * local_70) + &local_28), &local_8c, 0x3f8020c5);
 jmp_3765:
 	local_130 = (0xc * local_74);
-	if ((((local_64 * *(int *)(local_130 + &local_28)) + (local_68 * *(int *)(local_130 + &local_2c))) + (local_6c * *(int *)(local_130 + local_30))) < 0x0) goto jmp_3789;
+	if ((((local_64 * *(int *)(local_130 + &local_28)) + (local_68 * *(int *)(local_130 + &local_2c))) + (local_6c * *(int *)(local_130 + &local_30))) < 0x0) goto jmp_3789;
 	goto jmp_388e;
 jmp_3789:
 	local_134 = 0xc;
 	CrossProduct(((local_134 * local_74) + &local_28), ((local_134 * local_70) + &local_28), &local_78);
 	VectorNormalize(&local_78);
 	local_138 = local_78;
-	*(int *)local_13c = *(int *)pm;
-	local_88 = (((local_138 * *(int *)(*(int *)local_13c + 0x20)) + (local_7c * *(int *)(*(int *)local_13c + 0x24))) + (local_80 * *(int *)(*(int *)local_13c + 0x28)));
+	local_13c = *(int *)pm;
+	local_88 = (((local_138 * *(int *)(local_13c + 0x20)) + (local_7c * *(int *)(local_13c + 0x24))) + (local_80 * *(int *)(local_13c + 0x28)));
 	local_64 = (local_138 * local_88);
 	local_68 = (local_7c * local_88);
 	local_6c = (local_80 * local_88);
@@ -6159,7 +6410,7 @@ jmp_383c:
 	goto jmp_3883;
 jmp_383e:
 	local_148 = (0xc * local_24);
-	if ((((local_64 * *(int *)(local_148 + &local_28)) + (local_68 * *(int *)(local_148 + &local_2c))) + (local_6c * *(int *)(local_148 + local_30))) < 0x3dcccccd) goto jmp_3862;
+	if ((((local_64 * *(int *)(local_148 + &local_28)) + (local_68 * *(int *)(local_148 + &local_2c))) + (local_6c * *(int *)(local_148 + &local_30))) < 0x3dcccccd) goto jmp_3862;
 	goto jmp_3883;
 jmp_3862:
 	local_14c = *(int *)pm;
@@ -6210,6 +6461,9 @@ PM_StepSlideMove
 
 Address: 0x38ea
 Stack Size: 0xb0
+Opcodes Size: 0x187
+Locals Count: 26
+
 Calls: PM_AddEvent, PM_ClipVelocity, Com_Printf, PM_SlideMove
 Called by: PM_WalkMove, PM_AirMove, PM_FlyMove, PM_WaterJumpMove
 =================
@@ -6221,7 +6475,8 @@ void PM_StepSlideMove(int arg_0) {
 	int		local_38;
 	int		local_3c;
 	int		local_40;
-	char	local_44[24];
+	int		local_44;
+	char	local_48[20];
 	int		local_5c;
 	int		local_60;
 	int		local_64;
@@ -6264,7 +6519,7 @@ jmp_390a:
 	local_64 = 0x3f800000;
 	if (*(int *)(*(int *)pm + 0x28) <= 0x0) goto jmp_396a;
 	if (local_2c == 0x3f800000) goto jmp_3968;
-	if ((((local_3c * local_5c) + (local_40 * local_60)) + (*(int *)local_44 * local_64)) >= 0x3f333333) goto jmp_396a;
+	if ((((local_3c * local_5c) + (local_40 * local_60)) + (local_44 * local_64)) >= 0x3f333333) goto jmp_396a;
 jmp_3968:
 	goto jmp_3a6f;
 jmp_396a:
@@ -6334,6 +6589,9 @@ swapfunc
 
 Address: 0x3a71
 Stack Size: 0x20
+Opcodes Size: 0x87
+Locals Count: 10
+
 Called by: qsort
 =================
 */
@@ -6385,6 +6643,9 @@ med3
 
 Address: 0x3af8
 Stack Size: 0x38
+Opcodes Size: 0x93
+Locals Count: 14
+
 Called by: qsort
 =================
 */
@@ -6448,6 +6709,9 @@ qsort
 
 Address: 0x3b8b
 Stack Size: 0x94
+Opcodes Size: 0x3bd
+Locals Count: 35
+
 Calls: qsort, med3, swapfunc
 Called by: qsort
 =================
@@ -6469,7 +6733,8 @@ void qsort(int arg_0, int arg_1, int arg_2, int arg_3) {
 	int		local_4c;
 	int		local_50;
 	int		local_54;
-	char	local_58[8];
+	int		local_58;
+	int		local_5c;
 	int		local_60;
 	int		local_64;
 	int		local_68;
@@ -6479,8 +6744,10 @@ void qsort(int arg_0, int arg_1, int arg_2, int arg_3) {
 	int		local_78;
 	int		local_7c;
 	int		local_80;
-	char	local_84[8];
-	char	local_8c[8];
+	int		local_84;
+	int		local_88;
+	int		local_8c;
+	int		local_90;
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
@@ -6555,9 +6822,9 @@ jmp_3ccc:
 	local_38 = local_60;
 jmp_3ce0:
 	if (local_28 != 0x0) goto jmp_3cf6;
-	*(int *)local_58 = *(int *)arg_0;
+	local_58 = *(int *)arg_0;
 	*(int *)arg_0 = *(int *)local_38;
-	*(int *)local_38 = *(int *)local_58;
+	*(int *)local_38 = local_58;
 	goto jmp_3d05;
 jmp_3cf6:
 	swapfunc(arg_0, local_38, arg_2, local_28);
@@ -6675,14 +6942,14 @@ jmp_3eea:
 	if (local_24 <= 0x0) goto jmp_3f04;
 	swapfunc(local_1c, (local_3c - local_24), local_24, local_28);
 jmp_3f04:
-	*(int *)local_84 = (local_1c - local_2c);
-	local_24 = *(int *)local_84;
-	if (*(int *)local_84 <= arg_2) goto jmp_3f26;
+	local_84 = (local_1c - local_2c);
+	local_24 = local_84;
+	if (local_84 <= arg_2) goto jmp_3f26;
 	qsort(arg_0, (local_24 / arg_2), arg_2, arg_3);
 jmp_3f26:
-	*(int *)local_8c = (local_30 - local_20);
-	local_24 = *(int *)local_8c;
-	if (*(int *)local_8c <= arg_2) goto jmp_3f46;
+	local_8c = (local_30 - local_20);
+	local_24 = local_8c;
+	if (local_8c <= arg_2) goto jmp_3f46;
 	arg_0 = (local_3c - local_24);
 	arg_1 = (local_24 / arg_2);
 	goto jmp_3b9c;
@@ -6695,6 +6962,9 @@ strlen
 
 Address: 0x3f48
 Stack Size: 0xc
+Opcodes Size: 0x1b
+Locals Count: 2
+
 Called by: Com_CharIsOneOfCharset, Info_SetValueForKey_Big, Info_SetValueForKey, Info_RemoveKey_Big, Info_RemoveKey, Info_ValueForKey, Com_TruncateLongString, Q_stristr, Q_strcat, Com_HexStrToInt, COM_CompareExtension, CG_DrawTourneyScoreboard, CG_DrawField, CG_BuildSpectatorString
 =================
 */
@@ -6716,6 +6986,9 @@ strcat
 
 Address: 0x3f63
 Stack Size: 0x18
+Opcodes Size: 0x47
+Locals Count: 6
+
 Called by: Info_SetValueForKey_Big, Info_SetValueForKey, CG_Obituary
 =================
 */
@@ -6752,6 +7025,9 @@ strcpy
 
 Address: 0x3faa
 Stack Size: 0x18
+Opcodes Size: 0x39
+Locals Count: 6
+
 Called by: Info_SetValueForKey, CG_Obituary
 =================
 */
@@ -6783,6 +7059,9 @@ strcmp
 
 Address: 0x3fe3
 Stack Size: 0x14
+Opcodes Size: 0x46
+Locals Count: 5
+
 Called by: Info_RemoveKey_Big, Info_RemoveKey, COM_MatchToken, CG_ServerCommand, CG_CustomSound, CG_Init, CG_RegisterItemSounds
 =================
 */
@@ -6815,6 +7094,9 @@ strchr
 
 Address: 0x4029
 Stack Size: 0x8
+Opcodes Size: 0x30
+Locals Count: 2
+
 Called by: Info_SetValueForKey_Big, Info_SetValueForKey, Info_Validate, Info_RemoveKey_Big, Info_RemoveKey, CG_NewClientInfo
 =================
 */
@@ -6842,6 +7124,9 @@ strrchr
 
 Address: 0x4059
 Stack Size: 0xc
+Opcodes Size: 0x33
+Locals Count: 3
+
 Called by: COM_DefaultExtension, COM_StripExtension, COM_GetExtension, CG_LoadingClient
 =================
 */
@@ -6871,27 +7156,31 @@ strstr
 
 Address: 0x408c
 Stack Size: 0x10
+Opcodes Size: 0x4e
+Locals Count: 4
+
 Called by: CG_ShaderStateChanged
 =================
 */
 int strstr(int arg_0, int arg_1) {
-	char	local_8[8];
+	int		local_8;
+	int		local_c;
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
 	goto jmp_40d0;
 jmp_4097:
-	*(int *)local_8 = 0x0;
+	local_8 = 0x0;
 	goto jmp_40b3;
 jmp_409c:
-	if ((char)*(char *)(*(int *)local_8 + arg_0) == (char)*(char *)(*(int *)local_8 + arg_1)) goto jmp_40ad;
+	if ((char)*(char *)(local_8 + arg_0) == (char)*(char *)(local_8 + arg_1)) goto jmp_40ad;
 	goto jmp_40bc;
 jmp_40ad:
-	*(int *)local_8 = (*(int *)local_8 + 0x1);
+	local_8 = (local_8 + 0x1);
 jmp_40b3:
-	if ((char)*(char *)(*(int *)local_8 + arg_1) != 0x0) goto jmp_409c;
+	if ((char)*(char *)(local_8 + arg_1) != 0x0) goto jmp_409c;
 jmp_40bc:
-	if ((char)*(char *)(*(int *)local_8 + arg_1) != 0x0) goto jmp_40ca;
+	if ((char)*(char *)(local_8 + arg_1) != 0x0) goto jmp_40ca;
 	return arg_0;
 jmp_40ca:
 	arg_0 = (arg_0 + 0x1);
@@ -6906,6 +7195,9 @@ tolower
 
 Address: 0x40da
 Stack Size: 0xc
+Opcodes Size: 0x18
+Locals Count: 1
+
 Called by: Q_strlwr, Com_HexStrToInt, strtod
 =================
 */
@@ -6925,6 +7217,9 @@ toupper
 
 Address: 0x40f2
 Stack Size: 0xc
+Opcodes Size: 0x18
+Locals Count: 1
+
 Called by: Q_strupr
 =================
 */
@@ -6944,31 +7239,35 @@ memmove
 
 Address: 0x410a
 Stack Size: 0x10
+Opcodes Size: 0x53
+Locals Count: 5
+
 Called by: Info_RemoveKey_Big, Info_RemoveKey
 =================
 */
 int memmove(int arg_0, int arg_1, int arg_2) {
-	char	local_8[8];
+	int		local_8;
+	int		local_c;
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
 	arg_2 = arg_2;
 	if (arg_2 == 0x0) goto jmp_4158;
 	if (arg_0 <= arg_1) goto jmp_413c;
-	*(int *)local_8 = arg_2;
+	local_8 = arg_2;
 jmp_4124:
-	*(int *)local_8 = (*(int *)local_8 - 0x1);
-	*(char *)(*(int *)local_8 + arg_0) = *(char *)(*(int *)local_8 + arg_1);
-	if (*(int *)local_8 != 0x0) goto jmp_4124;
+	local_8 = (local_8 - 0x1);
+	*(char *)(local_8 + arg_0) = *(char *)(local_8 + arg_1);
+	if (local_8 != 0x0) goto jmp_4124;
 	goto jmp_4158;
 jmp_413c:
-	*(int *)local_8 = 0x0;
+	local_8 = 0x0;
 	goto jmp_4153;
 jmp_4141:
-	*(char *)(*(int *)local_8 + arg_0) = *(char *)(*(int *)local_8 + arg_1);
-	*(int *)local_8 = (*(int *)local_8 + 0x1);
+	*(char *)(local_8 + arg_0) = *(char *)(local_8 + arg_1);
+	local_8 = (local_8 + 0x1);
 jmp_4153:
-	if (*(int *)local_8 < arg_2) goto jmp_4141;
+	if (local_8 < arg_2) goto jmp_4141;
 jmp_4158:
 	return arg_0;
 }
@@ -6979,6 +7278,9 @@ powN
 
 Address: 0x415d
 Stack Size: 0x18
+Opcodes Size: 0x5f
+Locals Count: 4
+
 Calls: powN
 Called by: fmtfp, strtod, powN
 =================
@@ -7016,6 +7318,9 @@ tan
 
 Address: 0x41bc
 Stack Size: 0x14
+Opcodes Size: 0x17
+Locals Count: 3
+
 Calls: cos, sin
 Called by: CG_CalcFov, CG_DrawCrosshair3D
 =================
@@ -7035,6 +7340,9 @@ srand
 
 Address: 0x41d3
 Stack Size: 0x8
+Opcodes Size: 0x7
+Locals Count: 1
+
 =================
 */
 void srand(int arg_0) {
@@ -7048,6 +7356,9 @@ rand
 
 Address: 0x41da
 Stack Size: 0xc
+Opcodes Size: 0x16
+Locals Count: 1
+
 Called by: CG_Bullet, CG_Tracer, CG_MissileHitWall, CG_FireWeapon, CG_AddPlayerWeapon, CG_LightningBolt, CG_PlasmaTrail, CG_ShotgunEjectBrass, CG_MachineGunEjectBrass, CG_PlayerPowerups, CG_ParticleMisc, CG_ParticleDust, CG_ParticleSparks, CG_ParticleBloodCloud, CG_BloodPool, CG_Particle_OilSlick, CG_Particle_OilParticle, CG_Particle_Bleed, CG_ParticleImpactSmokePuff, CG_ParticleExplosion, CG_ParticleSmoke, CG_ParticleBubble, CG_ParticleSnow, CG_ParticleSnowFlurry, CG_AddParticleToScene, CG_FragmentBounceSound, CG_FragmentBounceMark, CG_EntityEvent, CG_PainEvent, CG_Speaker, CG_BigExplode, CG_LaunchExplode, CG_GibPlayer, CG_LaunchGib, CG_Bleed, CG_MakeExplosion, CG_BubbleTrail, CG_DrawStatusBarHead
 =================
 */
@@ -7065,6 +7376,9 @@ atof
 
 Address: 0x41f0
 Stack Size: 0x2c
+Opcodes Size: 0xc9
+Locals Count: 9
+
 Called by: Parse1DMatrix, CG_TestModel_f, CG_ParseAnimationFile, CG_NewParticleArea, CG_DrawCrosshair3D
 =================
 */
@@ -7072,9 +7386,11 @@ int atof(int arg_0) {
 	int		local_8;
 	int		local_c;
 	int		local_10;
-	char	local_14[8];
+	int		local_14;
+	int		local_18;
 	int		local_1c;
-	char	local_20[12];
+	int		local_20;
+	char	local_24[8];
 
 	arg_0 = arg_0;
 	goto jmp_4207;
@@ -7085,9 +7401,9 @@ jmp_4201:
 	arg_0 = (arg_0 + 0x1);
 jmp_4207:
 	if ((char)*(char *)arg_0 <= 0x20) goto jmp_41f7;
-	*(int *)local_14 = (char)*(char *)arg_0;
-	if (*(int *)local_14 == 0x2b) goto jmp_421d;
-	if (*(int *)local_14 == 0x2d) goto jmp_4228;
+	local_14 = (char)*(char *)arg_0;
+	if (local_14 == 0x2b) goto jmp_421d;
+	if (local_14 == 0x2d) goto jmp_4228;
 	goto jmp_4233;
 jmp_421d:
 	arg_0 = (arg_0 + 0x1);
@@ -7122,9 +7438,9 @@ jmp_4277:
 	if (local_8 != 0x2e) goto jmp_42b1;
 	local_1c = 0x3dcccccd;
 jmp_427e:
-	*(int *)local_20 = arg_0;
-	arg_0 = (*(int *)local_20 + 0x1);
-	local_8 = (char)*(char *)*(int *)local_20;
+	local_20 = arg_0;
+	arg_0 = (local_20 + 0x1);
+	local_8 = (char)*(char *)local_20;
 	if (local_8 < 0x30) goto jmp_4296;
 	if (local_8 <= 0x39) goto jmp_4298;
 jmp_4296:
@@ -7144,6 +7460,9 @@ _atof
 
 Address: 0x42b9
 Stack Size: 0x30
+Opcodes Size: 0xcf
+Locals Count: 10
+
 Called by: sscanf
 =================
 */
@@ -7152,9 +7471,11 @@ int _atof(int arg_0) {
 	int		local_c;
 	int		local_10;
 	int		local_14;
-	char	local_18[8];
+	int		local_18;
+	int		local_1c;
 	int		local_20;
-	char	local_24[12];
+	int		local_24;
+	char	local_28[8];
 
 	arg_0 = arg_0;
 	local_8 = 0x30;
@@ -7168,9 +7489,9 @@ jmp_42d7:
 	local_c = (local_c + 0x1);
 jmp_42dd:
 	if ((char)*(char *)local_c <= 0x20) goto jmp_42c8;
-	*(int *)local_18 = (char)*(char *)local_c;
-	if (*(int *)local_18 == 0x2b) goto jmp_42f3;
-	if (*(int *)local_18 == 0x2d) goto jmp_42fe;
+	local_18 = (char)*(char *)local_c;
+	if (local_18 == 0x2b) goto jmp_42f3;
+	if (local_18 == 0x2d) goto jmp_42fe;
 	goto jmp_4309;
 jmp_42f3:
 	local_c = (local_c + 0x1);
@@ -7201,9 +7522,9 @@ jmp_4341:
 	if (local_8 != 0x2e) goto jmp_437b;
 	local_20 = 0x3dcccccd;
 jmp_4348:
-	*(int *)local_24 = local_c;
-	local_c = (*(int *)local_24 + 0x1);
-	local_8 = (char)*(char *)*(int *)local_24;
+	local_24 = local_c;
+	local_c = (local_24 + 0x1);
+	local_8 = (char)*(char *)local_24;
 	if (local_8 < 0x30) goto jmp_4360;
 	if (local_8 <= 0x39) goto jmp_4362;
 jmp_4360:
@@ -7224,6 +7545,9 @@ strtod
 
 Address: 0x4388
 Stack Size: 0x50
+Opcodes Size: 0x367
+Locals Count: 17
+
 Calls: powN, tolower, strtol, Q_stricmpn
 Called by: Q_isanumber
 =================
@@ -7448,6 +7772,9 @@ atoi
 
 Address: 0x46ef
 Stack Size: 0x24
+Opcodes Size: 0x81
+Locals Count: 8
+
 Called by: CG_Weapon_f, CG_ConfigStringModified, CG_SetConfigValues, CG_ParseWarmup, CG_ParseServerinfo, CG_ParseTeamInfo, CG_ParseScores, CG_NewClientInfo, CG_ColorFromString, CG_ParseAnimationFile, CG_NewParticleArea, CG_DrawInformation, CG_StartOrbit_f, CG_TargetCommand_f, CG_Init, CG_RegisterCvars
 =================
 */
@@ -7455,8 +7782,10 @@ int atoi(int arg_0) {
 	int		local_8;
 	int		local_c;
 	int		local_10;
-	char	local_14[8];
-	char	local_1c[8];
+	int		local_14;
+	int		local_18;
+	int		local_1c;
+	int		local_20;
 
 	arg_0 = arg_0;
 	goto jmp_4706;
@@ -7467,14 +7796,14 @@ jmp_4700:
 	arg_0 = (arg_0 + 0x1);
 jmp_4706:
 	if ((char)*(char *)arg_0 <= 0x20) goto jmp_46f6;
-	*(int *)local_14 = (char)*(char *)arg_0;
-	if (*(int *)local_14 == 0x2b) goto jmp_471c;
-	if (*(int *)local_14 == 0x2d) goto jmp_472c;
+	local_14 = (char)*(char *)arg_0;
+	if (local_14 == 0x2b) goto jmp_471c;
+	if (local_14 == 0x2d) goto jmp_472c;
 	goto jmp_4737;
 jmp_471c:
-	*(int *)local_1c = 0x1;
-	arg_0 = (arg_0 + *(int *)local_1c);
-	local_10 = *(int *)local_1c;
+	local_1c = 0x1;
+	arg_0 = (arg_0 + local_1c);
+	local_10 = local_1c;
 	goto jmp_473a;
 jmp_472c:
 	arg_0 = (arg_0 + 0x1);
@@ -7485,9 +7814,9 @@ jmp_4737:
 jmp_473a:
 	local_c = 0x0;
 jmp_473d:
-	*(int *)local_1c = arg_0;
-	arg_0 = (*(int *)local_1c + 0x1);
-	local_8 = (char)*(char *)*(int *)local_1c;
+	local_1c = arg_0;
+	arg_0 = (local_1c + 0x1);
+	local_8 = (char)*(char *)local_1c;
 	if (local_8 < 0x30) goto jmp_4755;
 	if (local_8 <= 0x39) goto jmp_4757;
 jmp_4755:
@@ -7506,6 +7835,9 @@ _atoi
 
 Address: 0x4770
 Stack Size: 0x28
+Opcodes Size: 0x87
+Locals Count: 9
+
 Called by: sscanf
 =================
 */
@@ -7514,8 +7846,10 @@ int _atoi(int arg_0) {
 	int		local_c;
 	int		local_10;
 	int		local_14;
-	char	local_18[8];
-	char	local_20[8];
+	int		local_18;
+	int		local_1c;
+	int		local_20;
+	int		local_24;
 
 	local_c = *(int *)arg_0;
 	goto jmp_4788;
@@ -7526,14 +7860,14 @@ jmp_4782:
 	local_c = (local_c + 0x1);
 jmp_4788:
 	if ((char)*(char *)local_c <= 0x20) goto jmp_4778;
-	*(int *)local_18 = (char)*(char *)local_c;
-	if (*(int *)local_18 == 0x2b) goto jmp_479e;
-	if (*(int *)local_18 == 0x2d) goto jmp_47ae;
+	local_18 = (char)*(char *)local_c;
+	if (local_18 == 0x2b) goto jmp_479e;
+	if (local_18 == 0x2d) goto jmp_47ae;
 	goto jmp_47b9;
 jmp_479e:
-	*(int *)local_20 = 0x1;
-	local_c = (local_c + *(int *)local_20);
-	local_14 = *(int *)local_20;
+	local_20 = 0x1;
+	local_c = (local_c + local_20);
+	local_14 = local_20;
 	goto jmp_47bc;
 jmp_47ae:
 	local_c = (local_c + 0x1);
@@ -7544,9 +7878,9 @@ jmp_47b9:
 jmp_47bc:
 	local_10 = 0x0;
 jmp_47bf:
-	*(int *)local_20 = local_c;
-	local_c = (*(int *)local_20 + 0x1);
-	local_8 = (char)*(char *)*(int *)local_20;
+	local_20 = local_c;
+	local_c = (local_20 + 0x1);
+	local_8 = (char)*(char *)local_20;
 	if (local_8 < 0x30) goto jmp_47d7;
 	if (local_8 <= 0x39) goto jmp_47d9;
 jmp_47d7:
@@ -7566,12 +7900,16 @@ strtol
 
 Address: 0x47f7
 Stack Size: 0x28
+Opcodes Size: 0x154
+Locals Count: 11
+
 Called by: strtod
 =================
 */
 int strtol(int arg_0, int arg_1, int arg_2) {
 	int		local_8;
-	char	local_c[8];
+	int		local_c;
+	int		local_10;
 	int		local_14;
 	int		local_18;
 	int		local_1c;
@@ -7581,7 +7919,7 @@ int strtol(int arg_0, int arg_1, int arg_2) {
 	arg_0 = arg_0;
 	arg_1 = arg_1;
 	arg_2 = arg_2;
-	*(int *)local_c = 0x1;
+	local_c = 0x1;
 	if (arg_1 == 0x0) goto jmp_4810;
 	*(int *)arg_1 = arg_0;
 jmp_4810:
@@ -7602,7 +7940,7 @@ jmp_4826:
 	if (local_14 == 0xb) goto jmp_4820;
 	if ((char)*(char *)arg_0 != 0x2d) goto jmp_4855;
 	arg_0 = (arg_0 + 0x1);
-	*(int *)local_c = 0x0;
+	local_c = 0x0;
 	goto jmp_4861;
 jmp_4855:
 	if ((char)*(char *)arg_0 != 0x2b) goto jmp_4861;
@@ -7670,7 +8008,7 @@ jmp_4923:
 jmp_4932:
 	goto jmp_48b9;
 jmp_4934:
-	if (*(int *)local_c == 0x0) goto jmp_4946;
+	if (local_c == 0x0) goto jmp_4946;
 	if (local_8 != 0x80000000) goto jmp_4941;
 	local_8 = 0x7fffffff;
 	goto jmp_4946;
@@ -7686,6 +8024,9 @@ abs
 
 Address: 0x494b
 Stack Size: 0xc
+Opcodes Size: 0x19
+Locals Count: 2
+
 Called by: PmoveSingle, PM_CmdScale
 =================
 */
@@ -7708,6 +8049,9 @@ fabs
 
 Address: 0x4964
 Stack Size: 0xc
+Opcodes Size: 0x19
+Locals Count: 2
+
 Called by: PerpendicularVector, RadiusFromBounds, CG_CalcViewValues, CG_PlayerFlag, CG_SwingAngles, BG_TouchJumpPad
 =================
 */
@@ -7730,6 +8074,9 @@ dopr
 
 Address: 0x497d
 Stack Size: 0x13c
+Opcodes Size: 0x6ff
+Locals Count: 73
+
 Calls: fmtstr, fmtfp, fmtint, dopr_outch
 Called by: Q_vsnprintf
 =================
@@ -7747,11 +8094,14 @@ int dopr(int arg_0, int arg_1, int arg_2, int arg_3) {
 	int		local_4c;
 	int		local_50;
 	int		local_54;
-	char	local_58[8];
+	int		local_58;
+	int		local_5c;
 	int		local_60;
 	int		local_64;
-	char	local_68[8];
-	char	local_70[8];
+	int		local_68;
+	int		local_6c;
+	int		local_70;
+	int		local_74;
 	int		local_78;
 	int		local_7c;
 	int		local_80;
@@ -7760,8 +8110,10 @@ int dopr(int arg_0, int arg_1, int arg_2, int arg_3) {
 	int		local_8c;
 	int		local_90;
 	int		local_94;
-	char	local_98[8];
-	char	local_a0[8];
+	int		local_98;
+	int		local_9c;
+	int		local_a0;
+	int		local_a4;
 	int		local_a8;
 	int		local_ac;
 	int		local_b0;
@@ -7801,17 +8153,17 @@ int dopr(int arg_0, int arg_1, int arg_2, int arg_3) {
 	int		local_138;
 
 	arg_2 = arg_2;
-	*(int *)local_58 = 0x0;
-	local_28 = *(int *)local_58;
-	local_38 = *(int *)local_58;
-	local_34 = *(int *)local_58;
-	local_3c = *(int *)local_58;
-	local_44 = *(int *)local_58;
+	local_58 = 0x0;
+	local_28 = local_58;
+	local_38 = local_58;
+	local_34 = local_58;
+	local_3c = local_58;
+	local_44 = local_58;
 	local_30 = 0xffffffff;
 	local_54 = arg_2;
 	arg_2 = (local_54 + 0x1);
 	*(char *)&local_2c = *(char *)local_54;
-	local_40 = *(int *)local_58;
+	local_40 = local_58;
 	goto jmp_5068;
 jmp_49b1:
 	if ((char)*(char *)&local_2c != 0x0) goto jmp_49b9;
@@ -7831,14 +8183,14 @@ jmp_49ea:
 	arg_2 = (local_64 + 0x1);
 	*(char *)&local_2c = *(char *)local_64;
 	goto jmp_5068;
-	*(int *)local_68 = (char)*(char *)&local_2c;
-	*(int *)local_70 = 0x20;
-	if (*(int *)local_68 == *(int *)local_70) goto jmp_4a52;
-	if (*(int *)local_68 == 0x23) goto jmp_4a69;
-	if (*(int *)local_68 < *(int *)local_70) goto jmp_4a97;
-	if (*(int *)local_68 == 0x2b) goto jmp_4a3b;
-	if (*(int *)local_68 == 0x2d) goto jmp_4a1f;
-	if (*(int *)local_68 == 0x30) goto jmp_4a80;
+	local_68 = (char)*(char *)&local_2c;
+	local_70 = 0x20;
+	if (local_68 == local_70) goto jmp_4a52;
+	if (local_68 == 0x23) goto jmp_4a69;
+	if (local_68 < local_70) goto jmp_4a97;
+	if (local_68 == 0x2b) goto jmp_4a3b;
+	if (local_68 == 0x2d) goto jmp_4a1f;
+	if (local_68 == 0x30) goto jmp_4a80;
 	goto jmp_4a97;
 jmp_4a1f:
 	local_7c = 0x1;
@@ -7952,9 +8304,9 @@ jmp_4baa:
 	goto jmp_4bd0;
 jmp_4bbe:
 	local_34 = 0x4;
-	*(int *)local_98 = arg_2;
-	arg_2 = (*(int *)local_98 + 0x1);
-	*(char *)&local_2c = *(char *)*(int *)local_98;
+	local_98 = arg_2;
+	arg_2 = (local_98 + 0x1);
+	*(char *)&local_2c = *(char *)local_98;
 jmp_4bd0:
 	if (local_34 == 0x2) goto jmp_4bd9;
 	local_28 = 0x7;
@@ -7975,15 +8327,15 @@ jmp_4bfb:
 	goto jmp_5068;
 	local_90 = (char)*(char *)&local_2c;
 	if (local_90 == 0x45) goto jmp_4e85;
-	*(int *)local_98 = 0x47;
-	if (local_90 == *(int *)local_98) goto jmp_4ed4;
-	if (local_90 > *(int *)local_98) goto jmp_4c1c;
+	local_98 = 0x47;
+	if (local_90 == local_98) goto jmp_4ed4;
+	if (local_90 > local_98) goto jmp_4c1c;
 	if (local_90 == 0x25) goto jmp_501b;
 	goto jmp_5043;
 jmp_4c1c:
-	*(int *)local_a0 = 0x58;
-	if (local_90 == *(int *)local_a0) goto jmp_4db5;
-	if (local_90 < *(int *)local_a0) goto jmp_5043;
+	local_a0 = 0x58;
+	if (local_90 == local_a0) goto jmp_4db5;
+	if (local_90 < local_a0) goto jmp_5043;
 	if (local_90 < 0x63) goto jmp_5043;
 	if (local_90 > 0x78) goto jmp_5043;
 	goto *(int *)((local_90 << 0x2) + 0xda8);
@@ -8213,6 +8565,9 @@ fmtstr
 
 Address: 0x507c
 Stack Size: 0x38
+Opcodes Size: 0xe4
+Locals Count: 15
+
 Calls: dopr_outch
 Called by: dopr
 =================
@@ -8221,7 +8576,8 @@ int fmtstr(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4, int arg_5, int
 	int		local_18;
 	int		local_1c;
 	int		local_20;
-	char	local_24[8];
+	int		local_24;
+	int		local_28;
 	int		local_2c;
 	int		local_30;
 	int		local_34;
@@ -8231,7 +8587,7 @@ int fmtstr(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4, int arg_5, int
 	arg_2 = arg_2;
 	arg_3 = arg_3;
 	arg_6 = arg_6;
-	*(int *)local_24 = 0x0;
+	local_24 = 0x0;
 	local_1c = 0x0;
 	if (arg_3 != 0x0) goto jmp_509e;
 	arg_3 = 0x5106;
@@ -8269,12 +8625,12 @@ jmp_50fc:
 #define next_call_arg_3 "(char)*(char *)local_2c"
 	local_30 = dopr_outch();
 	local_1c = (local_1c + local_30);
-	*(int *)local_24 = (*(int *)local_24 + 0x1);
+	local_24 = (local_24 + 0x1);
 jmp_5125:
 	local_2c = 0x0;
 	if ((char)*(char *)arg_3 == local_2c) goto jmp_5139;
 	if (arg_6 < local_2c) goto jmp_50fc;
-	if (*(int *)local_24 < arg_6) goto jmp_50fc;
+	if (local_24 < arg_6) goto jmp_50fc;
 jmp_5139:
 	goto jmp_5157;
 jmp_513b:
@@ -8292,6 +8648,9 @@ fmtint
 
 Address: 0x5160
 Stack Size: 0x6c
+Opcodes Size: 0x1b7
+Locals Count: 23
+
 Calls: dopr_outch
 Called by: dopr
 =================
@@ -8306,7 +8665,8 @@ int fmtint(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4, int arg_5, int
 	int		local_44;
 	int		local_48;
 	int		local_4c;
-	char	local_50[12];
+	int		local_50;
+	char	local_54[8];
 	int		local_5c;
 	int		local_60;
 	int		local_64;
@@ -8365,12 +8725,12 @@ jmp_5212:
 	local_4c = local_18;
 jmp_5216:
 	if (local_48 == 0x0) goto jmp_521f;
-	*(int *)local_50 = 0x1;
+	local_50 = 0x1;
 	goto jmp_5222;
 jmp_521f:
-	*(int *)local_50 = 0x0;
+	local_50 = 0x0;
 jmp_5222:
-	local_1c = ((arg_5 - local_4c) - *(int *)local_50);
+	local_1c = ((arg_5 - local_4c) - local_50);
 	if (local_40 >= 0x0) goto jmp_5233;
 	local_40 = 0x0;
 jmp_5233:
@@ -8436,6 +8796,9 @@ abs_val
 
 Address: 0x5317
 Stack Size: 0xc
+Opcodes Size: 0x13
+Locals Count: 2
+
 Called by: fmtfp
 =================
 */
@@ -8455,19 +8818,23 @@ round
 
 Address: 0x532a
 Stack Size: 0x10
+Opcodes Size: 0x21
+Locals Count: 3
+
 Called by: fmtfp
 =================
 */
 int round(int arg_0) {
-	char	local_8[8];
+	int		local_8;
+	int		local_c;
 
 	arg_0 = arg_0;
-	*(int *)local_8 = (int)arg_0;
-	arg_0 = (arg_0 - (float)*(int *)local_8);
+	local_8 = (int)arg_0;
+	arg_0 = (arg_0 - (float)local_8);
 	if (arg_0 < 0x3f000000) goto jmp_5346;
-	*(int *)local_8 = (*(int *)local_8 + 0x1);
+	local_8 = (local_8 + 0x1);
 jmp_5346:
-	return *(int *)local_8;
+	return local_8;
 }
 
 /*
@@ -8476,6 +8843,9 @@ fmtfp
 
 Address: 0x534b
 Stack Size: 0xa0
+Opcodes Size: 0x2b1
+Locals Count: 33
+
 Calls: dopr_outch, round, powN, abs_val
 Called by: dopr
 =================
@@ -8676,6 +9046,9 @@ dopr_outch
 
 Address: 0x55fc
 Stack Size: 0x10
+Opcodes Size: 0x29
+Locals Count: 6
+
 Called by: fmtfp, fmtint, fmtstr, dopr
 =================
 */
@@ -8699,6 +9072,9 @@ Q_vsnprintf
 
 Address: 0x5625
 Stack Size: 0x1c
+Opcodes Size: 0x16
+Locals Count: 5
+
 Calls: dopr
 Called by: va, Com_sprintf, COM_ParseWarning, COM_ParseError, Com_Printf, Com_Error, CG_Error, CG_Printf
 =================
@@ -8716,16 +9092,21 @@ sscanf
 
 Address: 0x563b
 Stack Size: 0x60
+Opcodes Size: 0x13f
+Locals Count: 24
+
 Calls: _atof, _atoi
 =================
 */
-int sscanf(int arg_0, int arg_1, int arg_2) {
+int sscanf(int arg_0, int arg_1, ...) {
 	int		local_c;
 	int		local_10;
-	int		local_14;
-	char	local_18[8];
+	va_list	local_14;
+	int		local_18;
+	int		local_1c;
 	int		local_20;
-	char	local_24[8];
+	int		local_24;
+	int		local_28;
 	int		local_2c;
 	int		local_30;
 	int		local_34;
@@ -8740,8 +9121,8 @@ int sscanf(int arg_0, int arg_1, int arg_2) {
 	int		local_58;
 	int		local_5c;
 
-	local_14 = &arg_2;
-	*(int *)local_18 = 0x0;
+	va_start(local_14, arg_1);
+	local_18 = 0x0;
 	goto jmp_576c;
 jmp_5644:
 	if ((char)*(char *)arg_1 == 0x25) goto jmp_5652;
@@ -8760,11 +9141,11 @@ jmp_567a:
 	local_10 = 0x3ff;
 	arg_1 = (arg_1 + 0x1);
 jmp_5683:
-	*(int *)local_24 = 0x64;
-	if (local_c == *(int *)local_24) goto jmp_56a2;
+	local_24 = 0x64;
+	if (local_c == local_24) goto jmp_56a2;
 	if (local_c == 0x66) goto jmp_56bc;
 	if (local_c == 0x69) goto jmp_56a2;
-	if (local_c < *(int *)local_24) goto jmp_576c;
+	if (local_c < local_24) goto jmp_576c;
 	if (local_c == 0x73) goto jmp_56d6;
 	if (local_c == 0x75) goto jmp_56a2;
 	goto jmp_576c;
@@ -8821,8 +9202,8 @@ jmp_575e:
 	*(char *)local_5c = 0x0;
 jmp_576c:
 	if ((char)*(char *)arg_1 != 0x0) goto jmp_5644;
-	local_14 = 0x0;
-	return *(int *)local_18;
+	va_end(local_14);
+	return local_18;
 }
 
 /*
@@ -8831,6 +9212,9 @@ CG_TargetCommand_f
 
 Address: 0x577a
 Stack Size: 0x28
+Opcodes Size: 0x32
+Locals Count: 5
+
 Calls: trap_SendClientCommand, trap_Argv, va, atoi, CG_CrosshairPlayer
 =================
 */
@@ -8859,6 +9243,9 @@ CG_SizeUp_f
 
 Address: 0x57ac
 Stack Size: 0x14
+Opcodes Size: 0x16
+Locals Count: 1
+
 Calls: trap_Cvar_Set, va
 =================
 */
@@ -8875,6 +9262,9 @@ CG_SizeDown_f
 
 Address: 0x57c2
 Stack Size: 0x14
+Opcodes Size: 0x16
+Locals Count: 1
+
 Calls: trap_Cvar_Set, va
 =================
 */
@@ -8891,6 +9281,9 @@ CG_Viewpos_f
 
 Address: 0x57d8
 Stack Size: 0x1c
+Opcodes Size: 0x18
+Locals Count: 0
+
 Calls: CG_Printf
 =================
 */
@@ -8905,6 +9298,9 @@ CG_ScoresDown_f
 
 Address: 0x57f0
 Stack Size: 0xc
+Opcodes Size: 0x22
+Locals Count: 0
+
 Calls: trap_SendClientCommand
 =================
 */
@@ -8928,6 +9324,9 @@ CG_ScoresUp_f
 
 Address: 0x5812
 Stack Size: 0x8
+Opcodes Size: 0xe
+Locals Count: 0
+
 =================
 */
 void CG_ScoresUp_f(void) {
@@ -8944,6 +9343,9 @@ CG_TellTarget_f
 
 Address: 0x5820
 Stack Size: 0x124
+Opcodes Size: 0x2b
+Locals Count: 4
+
 Calls: trap_SendClientCommand, trap_Args, Com_sprintf, CG_CrosshairPlayer
 =================
 */
@@ -8970,6 +9372,9 @@ CG_TellAttacker_f
 
 Address: 0x584b
 Stack Size: 0x124
+Opcodes Size: 0x2b
+Locals Count: 4
+
 Calls: trap_SendClientCommand, trap_Args, Com_sprintf, CG_LastAttacker
 =================
 */
@@ -8996,6 +9401,9 @@ CG_StartOrbit_f
 
 Address: 0x5876
 Stack Size: 0x418
+Opcodes Size: 0x48
+Locals Count: 2
+
 Calls: trap_Cvar_Set, trap_Cvar_VariableStringBuffer, atoi
 =================
 */
@@ -9026,6 +9434,9 @@ CG_ConsoleCommand
 
 Address: 0x58be
 Stack Size: 0x20
+Opcodes Size: 0x3e
+Locals Count: 4
+
 Calls: Q_stricmp, CG_Argv
 Called by: vmMain
 =================
@@ -9058,6 +9469,9 @@ CG_InitConsoleCommands
 
 Address: 0x58fc
 Stack Size: 0x10
+Opcodes Size: 0x90
+Locals Count: 1
+
 Calls: trap_AddCommand
 Called by: CG_Init
 =================
@@ -9103,6 +9517,9 @@ CG_DrawField
 
 Address: 0x598c
 Stack Size: 0x5c
+Opcodes Size: 0x140
+Locals Count: 16
+
 Calls: CG_DrawPic, strlen, Com_sprintf
 Called by: CG_DrawPowerups, CG_DrawStatusBar
 =================
@@ -9228,6 +9645,9 @@ CG_Draw3DModel
 
 Address: 0x5acc
 Stack Size: 0x218
+Opcodes Size: 0x79
+Locals Count: 29
+
 Calls: trap_R_RenderScene, trap_R_AddRefEntityToScene, trap_R_ClearScene, memset, AxisClear, AnglesToAxis, CG_AdjustFrom640
 Called by: CG_DrawStatusBar, CG_DrawFlagModel, CG_DrawHead
 =================
@@ -9238,16 +9658,21 @@ void CG_Draw3DModel(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4, int a
 	int		local_20;
 	int		local_24;
 	int		local_28;
-	char	local_2c[16];
+	int		local_2c;
+	char	local_30[12];
 	char	local_3c[36];
 	int		local_60;
-	char	local_64[292];
+	int		local_64;
+	char	local_68[288];
 	int		local_188;
 	int		local_18c;
-	char	local_190[20];
+	int		local_190;
+	char	local_194[16];
 	char	local_1a4[40];
-	char	local_1cc[40];
-	char	local_1f4[32];
+	char	local_1cc[12];
+	char	local_1d8[28];
+	int		local_1f4;
+	char	local_1f8[28];
 	int		local_214;
 
 	local_214 = 0x0;
@@ -9261,13 +9686,13 @@ jmp_5adc:
 	memset(&local_188, 0x0, 0x8c);
 	AnglesToAxis(arg_7, local_1a4);
 	block_copy(arg_6, local_1cc, 0xc);
-	*(int *)local_190 = arg_4;
-	*(int *)local_1f4 = arg_5;
+	local_190 = arg_4;
+	local_1f4 = arg_5;
 	local_18c = 0x40;
-	*(int *)local_64 = 0x1;
+	local_64 = 0x1;
 	AxisClear(local_3c);
 	local_28 = 0x41f00000;
-	*(int *)local_2c = 0x41f00000;
+	local_2c = 0x41f00000;
 	local_18 = (int)arg_0;
 	local_1c = (int)arg_1;
 	local_20 = (int)arg_2;
@@ -9285,6 +9710,9 @@ CG_DrawHead
 
 Address: 0x5b45
 Stack Size: 0x60
+Opcodes Size: 0xb9
+Locals Count: 19
+
 Calls: trap_R_ModelBounds, CG_DrawPic, CG_Draw3DModel
 Called by: CG_DrawClientScore, CG_DrawAttacker, CG_DrawStatusBarHead
 =================
@@ -9301,7 +9729,8 @@ void CG_DrawHead(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4, int arg_
 	int		local_48;
 	int		local_4c;
 	int		local_50;
-	char	local_54[12];
+	int		local_54;
+	char	local_58[8];
 
 	local_28 = ((0x6b4 * arg_4) + 0xe8c24);
 	if (bss_c508 == 0x0) goto jmp_5bca;
@@ -9312,8 +9741,8 @@ jmp_5b5f:
 	trap_R_ModelBounds(local_50, &local_38, &local_44);
 	local_34 = (0xbf000000 * (local_40 + local_4c));
 	local_30 = (0x3f000000 * (local_3c + local_48));
-	*(int *)local_54 = (0x3f333333 * (local_4c - local_40));
-	local_2c = (*(int *)local_54 / 0x3e89374c);
+	local_54 = (0x3f333333 * (local_4c - local_40));
+	local_2c = (local_54 / 0x3e89374c);
 	local_2c = (local_2c + *(int *)(local_28 + 0x1f8));
 	local_30 = (local_30 + *(int *)(local_28 + 0x1fc));
 	local_34 = (local_34 + *(int *)(local_28 + 0x200));
@@ -9334,6 +9763,9 @@ CG_DrawFlagModel
 
 Address: 0x5bfe
 Stack Size: 0x70
+Opcodes Size: 0xe5
+Locals Count: 24
+
 Calls: sin, trap_R_ModelBounds, CG_DrawPic, BG_FindItemForPowerup, CG_Draw3DModel
 Called by: CG_DrawClientScore, CG_DrawStatusBarFlag
 =================
@@ -9413,6 +9845,9 @@ CG_DrawStatusBarHead
 
 Address: 0x5ce3
 Stack Size: 0x5c
+Opcodes Size: 0x173
+Locals Count: 16
+
 Calls: cos, CG_DrawHead, rand
 Called by: CG_DrawStatusBar
 =================
@@ -9490,6 +9925,9 @@ CG_DrawStatusBarFlag
 
 Address: 0x5e56
 Stack Size: 0x24
+Opcodes Size: 0x19
+Locals Count: 3
+
 Calls: CG_DrawFlagModel
 Called by: CG_DrawStatusBar
 =================
@@ -9513,6 +9951,9 @@ CG_DrawTeamBackground
 
 Address: 0x5e6f
 Stack Size: 0x30
+Opcodes Size: 0x48
+Locals Count: 11
+
 Calls: trap_R_SetColor, CG_DrawPic
 Called by: CG_DrawOldScoreboard, CG_DrawStatusBar
 =================
@@ -9549,6 +9990,9 @@ CG_DrawStatusBar
 
 Address: 0x5eb7
 Stack Size: 0x78
+Opcodes Size: 0x1fb
+Locals Count: 17
+
 Calls: trap_R_SetColor, sin, CG_ColorForHealth, CG_DrawPic, CG_DrawField, CG_DrawStatusBarFlag, CG_DrawStatusBarHead, CG_Draw3DModel, CG_DrawTeamBackground
 Called by: CG_Draw2D
 =================
@@ -9703,6 +10147,9 @@ CG_DrawAttacker
 
 Address: 0x60b2
 Stack Size: 0x54
+Opcodes Size: 0xba
+Locals Count: 13
+
 Calls: CG_DrawBigString, Q_PrintStrlen, Info_ValueForKey, CG_ConfigString, CG_DrawHead
 Called by: CG_DrawUpperRight
 =================
@@ -9715,7 +10162,8 @@ int CG_DrawAttacker(int arg_0) {
 	int		local_30;
 	int		local_34;
 	int		local_38;
-	char	local_3c[12];
+	int		local_3c;
+	char	local_40[8];
 	int		local_48;
 	int		local_4c;
 	int		local_50;
@@ -9749,8 +10197,8 @@ jmp_6106:
 	local_30 = 0x0;
 	CG_DrawHead((0x44200000 - local_24), arg_0, local_24, local_24, local_20, &local_28);
 	local_48 = CG_ConfigString((local_20 + 0x220));
-	*(int *)local_3c = local_48;
-	local_4c = Info_ValueForKey(*(int *)local_3c, 0x549e);
+	local_3c = local_48;
+	local_4c = Info_ValueForKey(local_3c, 0x549e);
 	local_34 = local_4c;
 	arg_0 = (arg_0 + local_24);
 	local_50 = Q_PrintStrlen(local_34);
@@ -9764,6 +10212,9 @@ CG_DrawSnapshot
 
 Address: 0x616c
 Stack Size: 0x28
+Opcodes Size: 0x40
+Locals Count: 5
+
 Calls: CG_DrawBigString, CG_DrawStrlen, va
 Called by: CG_DrawUpperRight
 =================
@@ -9788,6 +10239,9 @@ CG_DrawFPS
 
 Address: 0x61ac
 Stack Size: 0x50
+Opcodes Size: 0x98
+Locals Count: 15
+
 Calls: trap_Milliseconds, CG_DrawBigString, CG_DrawStrlen, va
 Called by: CG_DrawUpperRight
 =================
@@ -9800,15 +10254,16 @@ int CG_DrawFPS(int arg_0) {
 	int		local_28;
 	int		local_2c;
 	int		local_30;
-	char	local_34[8];
+	int		local_34;
+	int		local_38;
 	int		local_3c;
 	int		local_40;
 	int		local_44;
 	int		local_48;
 	int		local_4c;
 
-	*(int *)local_34 = trap_Milliseconds();
-	local_20 = *(int *)local_34;
+	local_34 = trap_Milliseconds();
+	local_20 = local_34;
 	local_3c = 0x104590;
 	local_24 = (local_20 - *(int *)local_3c);
 	*(int *)local_3c = local_20;
@@ -9842,6 +10297,9 @@ CG_DrawTimer
 
 Address: 0x6244
 Stack Size: 0x50
+Opcodes Size: 0x72
+Locals Count: 14
+
 Calls: CG_DrawBigString, CG_DrawStrlen, va
 Called by: CG_DrawUpperRight
 =================
@@ -9852,20 +10310,23 @@ int CG_DrawTimer(int arg_0) {
 	int		local_20;
 	int		local_24;
 	int		local_28;
-	char	local_2c[8];
-	char	local_34[12];
-	char	local_40[8];
+	int		local_2c;
+	int		local_30;
+	int		local_34;
+	char	local_38[8];
+	int		local_40;
+	int		local_44;
 	int		local_48;
 	int		local_4c;
 
-	*(int *)local_2c = (bss_dc760 - bss_e7404);
-	local_18 = (*(int *)local_2c / 0x3e8);
-	*(int *)local_34 = 0x3c;
-	local_20 = (local_18 / *(int *)local_34);
-	local_18 = (local_18 - (*(int *)local_34 * local_20));
-	*(int *)local_40 = 0xa;
-	local_24 = (local_18 / *(int *)local_40);
-	local_18 = (local_18 - (*(int *)local_40 * local_24));
+	local_2c = (bss_dc760 - bss_e7404);
+	local_18 = (local_2c / 0x3e8);
+	local_34 = 0x3c;
+	local_20 = (local_18 / local_34);
+	local_18 = (local_18 - (local_34 * local_20));
+	local_40 = 0xa;
+	local_24 = (local_18 / local_40);
+	local_18 = (local_18 - (local_40 * local_24));
 	local_48 = va(0x5479, local_20, local_24, local_18);
 	local_1c = local_48;
 	local_4c = CG_DrawStrlen(local_1c);
@@ -9880,6 +10341,9 @@ CG_DrawTeamOverlay
 
 Address: 0x62b6
 Stack Size: 0xc4
+Opcodes Size: 0x343
+Locals Count: 38
+
 Calls: trap_R_RegisterShader, trap_R_SetColor, BG_FindItemForPowerup, Com_sprintf, CG_GetColorForHealth, CG_DrawStringExt, CG_DrawPic, CG_ConfigString, CG_DrawStrlen
 Called by: CG_DrawLowerLeft, CG_DrawLowerRight, CG_DrawUpperRight
 =================
@@ -9912,7 +10376,8 @@ int CG_DrawTeamOverlay(int arg_0, int arg_1, int arg_2) {
 	int		local_98;
 	int		local_9c;
 	int		local_a0;
-	char	local_a4[8];
+	int		local_a4;
+	int		local_a8;
 	int		local_ac;
 	int		local_b0;
 	int		local_b4;
@@ -10034,8 +10499,8 @@ jmp_641f:
 #define next_call_arg_8 "0xc"
 	CG_DrawStringExt();
 	if (local_58 == 0x0) goto jmp_64cf;
-	*(int *)local_a4 = CG_ConfigString((*(int *)(local_30 + 0x70) + 0x260));
-	local_40 = *(int *)local_a4;
+	local_a4 = CG_ConfigString((*(int *)(local_30 + 0x70) + 0x260));
+	local_40 = local_a4;
 	if (local_40 == 0x0) goto jmp_6499;
 	if ((char)*(char *)local_40 != 0x0) goto jmp_649c;
 jmp_6499:
@@ -10133,6 +10598,9 @@ CG_DrawUpperRight
 
 Address: 0x65f9
 Stack Size: 0x24
+Opcodes Size: 0x6a
+Locals Count: 5
+
 Calls: CG_DrawAttacker, CG_DrawTimer, CG_DrawFPS, CG_DrawSnapshot, CG_DrawTeamOverlay
 Called by: CG_Draw2D
 =================
@@ -10181,6 +10649,9 @@ CG_DrawScores
 
 Address: 0x6663
 Stack Size: 0x78
+Opcodes Size: 0x37a
+Locals Count: 24
+
 Calls: BG_FindItemForPowerup, CG_DrawBigString, CG_DrawPic, CG_FillRect, CG_DrawStrlen, va
 Called by: CG_DrawLowerRight
 =================
@@ -10204,7 +10675,8 @@ int CG_DrawScores(int arg_0) {
 	int		local_58;
 	int		local_5c;
 	int		local_60;
-	char	local_64[8];
+	int		local_64;
+	int		local_68;
 	int		local_6c;
 	int		local_70;
 	int		local_74;
@@ -10246,8 +10718,8 @@ jmp_6732:
 	local_28 = 0x3ea8f5c3;
 	local_60 = va(0x5465, local_38);
 	local_34 = local_60;
-	*(int *)local_64 = CG_DrawStrlen(local_34);
-	local_30 = ((*(int *)local_64 << 0x4) + 0x8);
+	local_64 = CG_DrawStrlen(local_34);
+	local_30 = ((local_64 << 0x4) + 0x8);
 	local_2c = (local_2c - local_30);
 	CG_FillRect((float)local_2c, (arg_0 - 0x40800000), (float)local_30, 0x41c00000, &local_1c);
 	if (*(int *)(bss_c2330 + 0x130) != 0x1) goto jmp_6791;
@@ -10309,9 +10781,9 @@ jmp_6851:
 	CG_DrawPic((float)local_2c, (arg_0 - 0x40800000), (float)local_30, 0x41c00000, bss_1041f0);
 	goto jmp_68e6;
 jmp_68c1:
-	*(int *)local_64 = 0x3f000000;
-	local_1c = *(int *)local_64;
-	local_20 = *(int *)local_64;
+	local_64 = 0x3f000000;
+	local_1c = local_64;
+	local_20 = local_64;
 	local_24 = 0x3f000000;
 	local_28 = 0x3ea8f5c3;
 	CG_FillRect((float)local_2c, (arg_0 - 0x40800000), (float)local_30, 0x41c00000, &local_1c);
@@ -10362,6 +10834,9 @@ CG_DrawPowerups
 
 Address: 0x69dd
 Stack Size: 0xf0
+Opcodes Size: 0x1c6
+Locals Count: 25
+
 Calls: trap_R_RegisterShader, trap_R_SetColor, CG_DrawPic, CG_DrawField, BG_FindItemForPowerup
 Called by: CG_DrawLowerRight
 =================
@@ -10389,7 +10864,8 @@ int CG_DrawPowerups(int arg_0) {
 	int		local_d8;
 	int		local_dc;
 	int		local_e0;
-	char	local_e4[12];
+	int		local_e4;
+	char	local_e8[8];
 
 	arg_0 = arg_0;
 	local_b0 = (bss_c2330 + 0x2c);
@@ -10460,7 +10936,7 @@ jmp_6aa9:
 jmp_6b0f:
 	local_bc = ((float)(local_a8 - bss_dc760) / 0x447a0000);
 	local_bc = (local_bc - (float)(int)local_bc);
-	*(int *)local_e4 = local_bc;
+	local_e4 = local_bc;
 	local_e0 = local_bc;
 	local_dc = local_bc;
 	local_d8 = local_bc;
@@ -10491,6 +10967,9 @@ CG_DrawLowerRight
 
 Address: 0x6ba3
 Stack Size: 0x1c
+Opcodes Size: 0x2e
+Locals Count: 2
+
 Calls: CG_DrawPowerups, CG_DrawScores, CG_DrawTeamOverlay
 Called by: CG_Draw2D
 =================
@@ -10516,6 +10995,9 @@ CG_DrawPickupItem
 
 Address: 0x6bd1
 Stack Size: 0x2c
+Opcodes Size: 0x76
+Locals Count: 5
+
 Calls: trap_R_SetColor, CG_DrawBigString, CG_DrawPic, CG_RegisterItemVisuals, CG_FadeColor
 Called by: CG_DrawLowerLeft
 =================
@@ -10557,6 +11039,9 @@ CG_DrawLowerLeft
 
 Address: 0x6c47
 Stack Size: 0x24
+Opcodes Size: 0x2e
+Locals Count: 4
+
 Calls: CG_DrawPickupItem, CG_DrawTeamOverlay
 Called by: CG_Draw2D
 =================
@@ -10587,6 +11072,9 @@ CG_DrawTeamInfo
 
 Address: 0x6c75
 Stack Size: 0x5c
+Opcodes Size: 0xf6
+Locals Count: 12
+
 Calls: trap_R_SetColor, CG_DrawStringExt, CG_DrawPic
 Called by: CG_Draw2D
 =================
@@ -10601,7 +11089,8 @@ void CG_DrawTeamInfo(void) {
 	int		local_44;
 	int		local_48;
 	int		local_4c;
-	char	local_50[8];
+	int		local_50;
+	int		local_54;
 	int		local_58;
 
 	if (bss_9318 >= 0x8) goto jmp_6c80;
@@ -10656,16 +11145,16 @@ jmp_6cf1:
 	local_2c = (bss_1040cc - 0x1);
 	goto jmp_6d64;
 jmp_6d2d:
-	*(int *)local_50 = 0x8;
-#define next_call_arg_0 "*(int *)local_50"
+	local_50 = 0x8;
+#define next_call_arg_0 "local_50"
 #define next_call_arg_1 "(0x1a4 - ((bss_1040cc - local_2c) << 0x3))"
 #define next_call_arg_2 "((0xf1 * (local_2c %% local_40)) + 0x103924)"
 #define next_call_arg_3 "&local_30"
 	local_58 = 0x0;
 #define next_call_arg_4 "local_58"
 #define next_call_arg_5 "local_58"
-#define next_call_arg_6 "*(int *)local_50"
-#define next_call_arg_7 "*(int *)local_50"
+#define next_call_arg_6 "local_50"
+#define next_call_arg_7 "local_50"
 #define next_call_arg_8 "local_58"
 	CG_DrawStringExt();
 	local_2c = (local_2c - 0x1);
@@ -10680,6 +11169,9 @@ CG_DrawHoldableItem
 
 Address: 0x6d6b
 Stack Size: 0x24
+Opcodes Size: 0x2c
+Locals Count: 2
+
 Calls: CG_DrawPic, CG_RegisterItemVisuals
 Called by: CG_Draw2D
 =================
@@ -10707,6 +11199,9 @@ CG_DrawReward
 
 Address: 0x6d97
 Stack Size: 0x70
+Opcodes Size: 0x129
+Locals Count: 10
+
 Calls: trap_R_SetColor, trap_S_StartLocalSound, CG_DrawStringExt, CG_DrawStrlen, Com_sprintf, CG_DrawPic, CG_FadeColor
 Called by: CG_Draw2D
 =================
@@ -10804,6 +11299,9 @@ CG_AddLagometerFrameInfo
 
 Address: 0x6ec0
 Stack Size: 0x10
+Opcodes Size: 0x20
+Locals Count: 2
+
 Called by: CG_DrawActiveFrame
 =================
 */
@@ -10823,6 +11321,9 @@ CG_AddLagometerSnapshotInfo
 
 Address: 0x6ee0
 Stack Size: 0xc
+Opcodes Size: 0x47
+Locals Count: 2
+
 Called by: CG_ReadNextSnapshot
 =================
 */
@@ -10849,6 +11350,9 @@ CG_DrawDisconnect
 
 Address: 0x6f27
 Stack Size: 0x5c
+Opcodes Size: 0x76
+Locals Count: 11
+
 Calls: trap_R_RegisterShader, trap_GetUserCmd, trap_GetCurrentCmdNumber, CG_DrawPic, CG_DrawBigString, CG_DrawStrlen
 Called by: CG_DrawLagometer
 =================
@@ -10901,6 +11405,9 @@ CG_DrawLagometer
 
 Address: 0x6f9d
 Stack Size: 0x78
+Opcodes Size: 0x21d
+Locals Count: 19
+
 Calls: trap_R_DrawStretchPic, trap_R_SetColor, CG_DrawBigString, CG_AdjustFrom640, CG_DrawPic, CG_DrawDisconnect
 Called by: CG_Draw2D
 =================
@@ -10921,7 +11428,8 @@ void CG_DrawLagometer(void) {
 	int		local_5c;
 	int		local_60;
 	int		local_64;
-	char	local_68[8];
+	int		local_68;
+	int		local_6c;
 	int		local_70;
 	int		local_74;
 
@@ -10944,9 +11452,9 @@ jmp_6fb0:
 	CG_DrawPic();
 	local_44 = (float)local_58;
 	local_50 = (float)local_5c;
-	*(int *)local_68 = 0x42400000;
-	local_38 = *(int *)local_68;
-	local_4c = *(int *)local_68;
+	local_68 = 0x42400000;
+	local_38 = local_68;
+	local_4c = local_68;
 	CG_AdjustFrom640(&local_44, &local_50, &local_38, &local_4c);
 	local_40 = 0xffffffff;
 	local_3c = (local_4c / 0x40400000);
@@ -11075,6 +11583,9 @@ CG_CenterPrint
 
 Address: 0x71ba
 Stack Size: 0x1c
+Opcodes Size: 0x3e
+Locals Count: 5
+
 Calls: Q_strncpyz
 Called by: CG_ServerCommand, CG_MapRestart, CG_UseItem, CG_Obituary
 =================
@@ -11106,6 +11617,9 @@ CG_DrawCenterString
 
 Address: 0x71f8
 Stack Size: 0x454
+Opcodes Size: 0xd6
+Locals Count: 11
+
 Calls: trap_R_SetColor, CG_DrawStringExt, CG_DrawStrlen, CG_FadeColor
 Called by: CG_Draw2D, CG_DrawIntermission
 =================
@@ -11189,6 +11703,9 @@ CG_DrawCrosshair
 
 Address: 0x72ce
 Stack Size: 0x64
+Opcodes Size: 0xde
+Locals Count: 13
+
 Calls: trap_R_DrawStretchPic, trap_R_SetColor, CG_AdjustFrom640, CG_ColorForHealth
 Called by: CG_Draw2D
 =================
@@ -11268,16 +11785,23 @@ CG_DrawCrosshair3D
 
 Address: 0x73ac
 Stack Size: 0x1ac
+Opcodes Size: 0xfd
+Locals Count: 31
+
 Calls: trap_R_AddRefEntityToScene, memset, trap_Cvar_VariableStringBuffer, CG_Trace, tan, atof
 Called by: CG_DrawActive
 =================
 */
 void CG_DrawCrosshair3D(void) {
 	int		local_24;
-	char	local_28[64];
-	char	local_68[44];
-	char	local_94[20];
-	char	local_a8[8];
+	int		local_28;
+	char	local_2c[60];
+	char	local_68[12];
+	char	local_74[32];
+	int		local_94;
+	char	local_98[16];
+	int		local_a8;
+	int		local_ac;
 	char	local_b0[128];
 	int		local_130;
 	int		local_134;
@@ -11288,14 +11812,17 @@ void CG_DrawCrosshair3D(void) {
 	int		local_148;
 	char	local_14c[8];
 	int		local_154;
-	char	local_158[44];
+	char	local_158[12];
+	char	local_164[32];
 	int		local_184;
 	int		local_188;
 	int		local_18c;
-	char	local_190[8];
+	int		local_190;
+	int		local_194;
 	int		local_198;
 	int		local_19c;
-	char	local_1a0[8];
+	int		local_1a0;
+	int		local_1a4;
 	int		local_1a8;
 
 	if (bss_c1d8 != 0x0) goto jmp_73b3;
@@ -11324,10 +11851,10 @@ jmp_73f0:
 	local_130 = local_198;
 	trap_Cvar_VariableStringBuffer(0x541d, local_b0, 0x80);
 	local_19c = atof(local_b0);
-	*(int *)local_190 = (local_130 / local_19c);
-	*(int *)local_1a0 = tan(((0x40490fdb * bss_dcd04) / 0x43b40000));
-	local_184 = (local_130 * *(int *)local_1a0);
-	local_134 = ((((float)bss_e66c4 * *(int *)local_190) * local_130) / (0x40000000 * local_184));
+	local_190 = (local_130 / local_19c);
+	local_1a0 = tan(((0x40490fdb * bss_dcd04) / 0x43b40000));
+	local_184 = (local_130 * local_1a0);
+	local_134 = ((((float)bss_e66c4 * local_190) * local_130) / (0x40000000 * local_184));
 	local_13c = (bss_dcd0c + (bss_dcd18 * local_134));
 	local_140 = (bss_dcd10 + (bss_dcd1c * local_134));
 	local_144 = (bss_dcd14 + (bss_dcd20 * local_134));
@@ -11342,10 +11869,10 @@ jmp_73f0:
 	CG_Trace();
 	memset(&local_24, 0x0, 0x8c);
 	local_24 = 0x2;
-	*(int *)local_28 = 0x18;
+	local_28 = 0x18;
 	block_copy(local_158, local_68, 0xc);
-	*(int *)local_a8 = (((((local_188 / 0x44200000) * local_184) * local_154) * local_134) / local_130);
-	*(int *)local_94 = local_18c;
+	local_a8 = (((((local_188 / 0x44200000) * local_184) * local_154) * local_134) / local_130);
+	local_94 = local_18c;
 	trap_R_AddRefEntityToScene(&local_24);
 jmp_74a7:
 }
@@ -11356,11 +11883,14 @@ CG_ScanForCrosshairEntity
 
 Address: 0x74a9
 Stack Size: 0x84
+Opcodes Size: 0x6f
+Locals Count: 14
+
 Calls: CG_PointContents, CG_Trace
 Called by: CG_DrawCrosshairNames
 =================
 */
-void CG_ScanForCrosshairEntity(void) {
+void CG_ScanForCrosshairEntity(, int arg_226083) {
 	char	local_24[12];
 	char	local_30[40];
 	int		local_58;
@@ -11411,6 +11941,9 @@ CG_DrawCrosshairNames
 
 Address: 0x7518
 Stack Size: 0x2c
+Opcodes Size: 0x63
+Locals Count: 5
+
 Calls: trap_R_SetColor, CG_DrawBigString, CG_DrawStrlen, CG_FadeColor, CG_ScanForCrosshairEntity
 Called by: CG_Draw2D
 =================
@@ -11452,6 +11985,9 @@ CG_DrawSpectator
 
 Address: 0x757b
 Stack Size: 0x18
+Opcodes Size: 0x2e
+Locals Count: 0
+
 Calls: CG_DrawBigString
 Called by: CG_Draw2D
 =================
@@ -11474,6 +12010,9 @@ CG_DrawVote
 
 Address: 0x75a9
 Stack Size: 0x28
+Opcodes Size: 0x4b
+Locals Count: 3
+
 Calls: trap_S_StartLocalSound, CG_DrawSmallString, va
 Called by: CG_Draw2D
 =================
@@ -11506,6 +12045,9 @@ CG_DrawTeamVote
 
 Address: 0x75f4
 Stack Size: 0x34
+Opcodes Size: 0x8a
+Locals Count: 6
+
 Calls: trap_S_StartLocalSound, CG_DrawSmallString, va
 Called by: CG_Draw2D
 =================
@@ -11513,7 +12055,8 @@ Called by: CG_Draw2D
 void CG_DrawTeamVote(void) {
 	int		local_1c;
 	int		local_20;
-	char	local_24[8];
+	int		local_24;
+	int		local_28;
 	int		local_2c;
 	int		local_30;
 
@@ -11542,8 +12085,8 @@ jmp_764a:
 #define next_call_arg_3 "*(int *)(local_2c + 0xe6bec)"
 #define next_call_arg_4 "*(int *)(local_2c + 0xe6bf4)"
 	local_30 = va();
-	*(int *)local_24 = local_30;
-	CG_DrawSmallString(0x0, 0x5a, *(int *)local_24, 0x3f800000);
+	local_24 = local_30;
+	CG_DrawSmallString(0x0, 0x5a, local_24, 0x3f800000);
 jmp_767c:
 }
 
@@ -11553,6 +12096,9 @@ CG_DrawScoreboard
 
 Address: 0x767e
 Stack Size: 0xc
+Opcodes Size: 0xa
+Locals Count: 1
+
 Calls: CG_DrawOldScoreboard
 Called by: CG_Draw2D, CG_DrawIntermission
 =================
@@ -11570,6 +12116,9 @@ CG_DrawIntermission
 
 Address: 0x7688
 Stack Size: 0xc
+Opcodes Size: 0x18
+Locals Count: 1
+
 Calls: CG_DrawScoreboard, CG_DrawCenterString
 Called by: CG_Draw2D
 =================
@@ -11593,6 +12142,9 @@ CG_DrawFollow
 
 Address: 0x76a0
 Stack Size: 0x50
+Opcodes Size: 0x68
+Locals Count: 9
+
 Calls: CG_DrawStringExt, CG_DrawStrlen, CG_DrawBigString
 Called by: CG_Draw2D
 =================
@@ -11640,6 +12192,9 @@ CG_DrawAmmoWarning
 
 Address: 0x7708
 Stack Size: 0x24
+Opcodes Size: 0x39
+Locals Count: 3
+
 Calls: CG_DrawBigString, CG_DrawStrlen
 Called by: CG_Draw2D
 =================
@@ -11673,6 +12228,9 @@ CG_DrawWarmup
 
 Address: 0x7741
 Stack Size: 0x64
+Opcodes Size: 0x1fe
+Locals Count: 14
+
 Calls: trap_S_StartLocalSound, CG_DrawStringExt, va, CG_DrawBigString, CG_DrawStrlen
 Called by: CG_Draw2D
 =================
@@ -11689,7 +12247,8 @@ void CG_DrawWarmup(void) {
 	int		local_4c;
 	int		local_50;
 	int		local_54;
-	char	local_58[8];
+	int		local_58;
+	int		local_5c;
 	int		local_60;
 
 	local_30 = bss_deae0;
@@ -11733,8 +12292,8 @@ jmp_77bf:
 #define next_call_arg_2 "(local_44 + local_50)"
 	local_54 = va();
 	local_34 = local_54;
-	*(int *)local_58 = CG_DrawStrlen(local_34);
-	local_3c = *(int *)local_58;
+	local_58 = CG_DrawStrlen(local_34);
+	local_3c = local_58;
 	if (local_3c <= 0x14) goto jmp_7801;
 	local_38 = (0x280 / local_3c);
 	goto jmp_7804;
@@ -11833,12 +12392,12 @@ jmp_7909:
 #define next_call_arg_1 "0x46"
 #define next_call_arg_2 "local_34"
 #define next_call_arg_3 "0x1dfc"
-	*(int *)local_58 = 0x0;
-#define next_call_arg_4 "*(int *)local_58"
+	local_58 = 0x0;
+#define next_call_arg_4 "local_58"
 #define next_call_arg_5 "0x1"
 #define next_call_arg_6 "local_38"
 #define next_call_arg_7 "(int)(0x3fc00000 * (float)local_38)"
-#define next_call_arg_8 "*(int *)local_58"
+#define next_call_arg_8 "local_58"
 	CG_DrawStringExt();
 jmp_793d:
 }
@@ -11849,6 +12408,9 @@ CG_Draw2D
 
 Address: 0x793f
 Stack Size: 0x14
+Opcodes Size: 0x90
+Locals Count: 3
+
 Calls: CG_DrawCenterString, CG_DrawScoreboard, CG_DrawWarmup, CG_DrawFollow, CG_DrawLowerLeft, CG_DrawLowerRight, CG_DrawUpperRight, CG_DrawLagometer, CG_DrawTeamVote, CG_DrawVote, CG_DrawTeamInfo, CG_DrawReward, CG_DrawHoldableItem, CG_DrawWeaponSelect, CG_DrawAmmoWarning, CG_DrawStatusBar, CG_DrawCrosshairNames, CG_DrawCrosshair, CG_DrawSpectator, CG_DrawIntermission
 Called by: CG_DrawActive
 =================
@@ -11914,6 +12476,9 @@ CG_DrawActive
 
 Address: 0x79cf
 Stack Size: 0xc
+Opcodes Size: 0x36
+Locals Count: 1
+
 Calls: trap_R_RenderScene, CG_Draw2D, CG_DrawCrosshair3D, CG_TileClear, CG_DrawTourneyScoreboard, CG_DrawInformation
 Called by: CG_DrawActiveFrame
 =================
@@ -11944,6 +12509,9 @@ CG_AdjustFrom640
 
 Address: 0x7a05
 Stack Size: 0x18
+Opcodes Size: 0x37
+Locals Count: 8
+
 Called by: CG_DrawChar, CG_DrawPic, CG_DrawTopBottom, CG_DrawSides, CG_FillRect, CG_DrawCrosshair, CG_DrawLagometer, CG_Draw3DModel
 =================
 */
@@ -11969,6 +12537,9 @@ CG_FillRect
 
 Address: 0x7a3c
 Stack Size: 0x30
+Opcodes Size: 0x3a
+Locals Count: 6
+
 Calls: trap_R_DrawStretchPic, trap_R_SetColor, CG_AdjustFrom640
 Called by: CG_DrawTourneyScoreboard, CG_DrawClientScore, CG_DrawScores
 =================
@@ -11998,12 +12569,16 @@ CG_DrawSides
 
 Address: 0x7a76
 Stack Size: 0x38
+Opcodes Size: 0x61
+Locals Count: 8
+
 Calls: trap_R_DrawStretchPic, CG_AdjustFrom640
 Called by: CG_DrawRect
 =================
 */
 void CG_DrawSides(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4) {
-	char	local_2c[8];
+	int		local_2c;
+	int		local_30;
 	int		local_34;
 
 	arg_4 = arg_4;
@@ -12013,11 +12588,11 @@ void CG_DrawSides(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4) {
 #define next_call_arg_1 "arg_1"
 #define next_call_arg_2 "arg_4"
 #define next_call_arg_3 "arg_3"
-	*(int *)local_2c = 0x0;
-#define next_call_arg_4 "*(int *)local_2c"
-#define next_call_arg_5 "*(int *)local_2c"
-#define next_call_arg_6 "*(int *)local_2c"
-#define next_call_arg_7 "*(int *)local_2c"
+	local_2c = 0x0;
+#define next_call_arg_4 "local_2c"
+#define next_call_arg_5 "local_2c"
+#define next_call_arg_6 "local_2c"
+#define next_call_arg_7 "local_2c"
 #define next_call_arg_8 "bss_10413c"
 	trap_R_DrawStretchPic();
 #define next_call_arg_0 "((arg_0 + arg_2) - arg_4)"
@@ -12039,12 +12614,16 @@ CG_DrawTopBottom
 
 Address: 0x7ad7
 Stack Size: 0x38
+Opcodes Size: 0x61
+Locals Count: 8
+
 Calls: trap_R_DrawStretchPic, CG_AdjustFrom640
 Called by: CG_DrawRect
 =================
 */
 void CG_DrawTopBottom(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4) {
-	char	local_2c[8];
+	int		local_2c;
+	int		local_30;
 	int		local_34;
 
 	arg_4 = arg_4;
@@ -12054,11 +12633,11 @@ void CG_DrawTopBottom(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4) {
 #define next_call_arg_1 "arg_1"
 #define next_call_arg_2 "arg_2"
 #define next_call_arg_3 "arg_4"
-	*(int *)local_2c = 0x0;
-#define next_call_arg_4 "*(int *)local_2c"
-#define next_call_arg_5 "*(int *)local_2c"
-#define next_call_arg_6 "*(int *)local_2c"
-#define next_call_arg_7 "*(int *)local_2c"
+	local_2c = 0x0;
+#define next_call_arg_4 "local_2c"
+#define next_call_arg_5 "local_2c"
+#define next_call_arg_6 "local_2c"
+#define next_call_arg_7 "local_2c"
 #define next_call_arg_8 "bss_10413c"
 	trap_R_DrawStretchPic();
 #define next_call_arg_0 "arg_0"
@@ -12080,6 +12659,9 @@ CG_DrawRect
 
 Address: 0x7b38
 Stack Size: 0x20
+Opcodes Size: 0x3e
+Locals Count: 6
+
 Calls: trap_R_SetColor, CG_DrawSides, CG_DrawTopBottom
 =================
 */
@@ -12098,6 +12680,9 @@ CG_DrawPic
 
 Address: 0x7b76
 Stack Size: 0x34
+Opcodes Size: 0x32
+Locals Count: 7
+
 Calls: trap_R_DrawStretchPic, CG_AdjustFrom640
 Called by: CG_DrawWeaponSelect, CG_DrawOldScoreboard, CG_DrawClientScore, CG_DrawInformation, CG_DrawLoadingIcons, CG_DrawLagometer, CG_DrawDisconnect, CG_DrawReward, CG_DrawHoldableItem, CG_DrawTeamInfo, CG_DrawPickupItem, CG_DrawPowerups, CG_DrawScores, CG_DrawTeamOverlay, CG_DrawStatusBar, CG_DrawTeamBackground, CG_DrawFlagModel, CG_DrawHead, CG_DrawField
 =================
@@ -12127,6 +12712,9 @@ CG_DrawChar
 
 Address: 0x7ba8
 Stack Size: 0x64
+Opcodes Size: 0x78
+Locals Count: 17
+
 Calls: trap_R_DrawStretchPic, CG_AdjustFrom640
 Called by: CG_DrawStringExt
 =================
@@ -12140,8 +12728,10 @@ void CG_DrawChar(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4) {
 	int		local_40;
 	int		local_44;
 	int		local_48;
-	char	local_4c[8];
-	char	local_54[16];
+	int		local_4c;
+	int		local_50;
+	int		local_54;
+	char	local_58[12];
 
 	arg_4 = arg_4;
 	arg_4 = (arg_4 & 0xff);
@@ -12154,10 +12744,10 @@ jmp_7bb9:
 	local_44 = (float)arg_3;
 	CG_AdjustFrom640(&local_38, &local_3c, &local_40, &local_44);
 	local_48 = (arg_4 >> 0x4);
-	*(int *)local_4c = (arg_4 & 0xf);
-	*(int *)local_54 = 0x3d800000;
-	local_2c = (*(int *)local_54 * (float)local_48);
-	local_30 = (*(int *)local_54 * (float)*(int *)local_4c);
+	local_4c = (arg_4 & 0xf);
+	local_54 = 0x3d800000;
+	local_2c = (local_54 * (float)local_48);
+	local_30 = (local_54 * (float)local_4c);
 	local_34 = 0x3d800000;
 	trap_R_DrawStretchPic(local_38, local_3c, local_40, local_44, local_30, local_2c, (local_30 + local_34), (local_2c + local_34), bss_10412c);
 jmp_7c1e:
@@ -12169,6 +12759,9 @@ CG_DrawStringExt
 
 Address: 0x7c20
 Stack Size: 0x48
+Opcodes Size: 0x129
+Locals Count: 20
+
 Calls: memcpy, trap_R_SetColor, CG_DrawChar, Q_IsColorString
 Called by: CG_DrawTourneyScoreboard, CG_CenterGiantLine, CG_DrawSmallStringColor, CG_DrawSmallString, CG_DrawBigStringColor, CG_DrawBigString, CG_DrawWarmup, CG_DrawFollow, CG_DrawCenterString, CG_DrawReward, CG_DrawTeamInfo, CG_DrawTeamOverlay
 =================
@@ -12256,6 +12849,9 @@ CG_DrawBigString
 
 Address: 0x7d49
 Stack Size: 0x48
+Opcodes Size: 0x38
+Locals Count: 11
+
 Calls: CG_DrawStringExt
 Called by: CG_DrawOldScoreboard, CG_DrawClientScore, CG_DrawWarmup, CG_DrawAmmoWarning, CG_DrawFollow, CG_DrawSpectator, CG_DrawCrosshairNames, CG_DrawLagometer, CG_DrawDisconnect, CG_DrawPickupItem, CG_DrawScores, CG_DrawTimer, CG_DrawFPS, CG_DrawSnapshot, CG_DrawAttacker
 =================
@@ -12294,6 +12890,9 @@ CG_DrawBigStringColor
 
 Address: 0x7d81
 Stack Size: 0x34
+Opcodes Size: 0x26
+Locals Count: 6
+
 Calls: CG_DrawStringExt
 Called by: CG_DrawWeaponSelect, CG_DrawClientScore
 =================
@@ -12322,6 +12921,9 @@ CG_DrawSmallString
 
 Address: 0x7da7
 Stack Size: 0x44
+Opcodes Size: 0x34
+Locals Count: 10
+
 Calls: CG_DrawStringExt
 Called by: CG_DrawTeamVote, CG_DrawVote
 =================
@@ -12358,6 +12960,9 @@ CG_DrawSmallStringColor
 
 Address: 0x7ddb
 Stack Size: 0x30
+Opcodes Size: 0x21
+Locals Count: 5
+
 Calls: CG_DrawStringExt
 Called by: CG_DrawClientScore
 =================
@@ -12384,6 +12989,9 @@ CG_DrawStrlen
 
 Address: 0x7dfc
 Stack Size: 0x1c
+Opcodes Size: 0x39
+Locals Count: 5
+
 Calls: Q_IsColorString
 Called by: CG_DrawWeaponSelect, CG_CenterGiantLine, CG_DrawOldScoreboard, CG_DrawWarmup, CG_DrawAmmoWarning, CG_DrawFollow, CG_DrawCrosshairNames, CG_DrawCenterString, CG_DrawDisconnect, CG_DrawReward, CG_DrawScores, CG_DrawTeamOverlay, CG_DrawTimer, CG_DrawFPS, CG_DrawSnapshot
 =================
@@ -12417,6 +13025,9 @@ CG_TileClearBox
 
 Address: 0x7e35
 Stack Size: 0x58
+Opcodes Size: 0x64
+Locals Count: 16
+
 Calls: trap_R_DrawStretchPic
 Called by: CG_TileClear
 =================
@@ -12425,9 +13036,11 @@ void CG_TileClearBox(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4) {
 	int		local_2c;
 	int		local_30;
 	int		local_34;
-	char	local_38[8];
+	int		local_38;
+	int		local_3c;
 	int		local_40;
-	char	local_44[8];
+	int		local_44;
+	int		local_48;
 	int		local_4c;
 	int		local_50;
 	int		local_54;
@@ -12435,15 +13048,15 @@ void CG_TileClearBox(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4) {
 	arg_0 = arg_0;
 	arg_1 = arg_1;
 	local_40 = (float)arg_0;
-	*(int *)local_44 = 0x42800000;
-	local_2c = (local_40 / *(int *)local_44);
+	local_44 = 0x42800000;
+	local_2c = (local_40 / local_44);
 	local_4c = (float)arg_1;
-	local_30 = (local_4c / *(int *)local_44);
+	local_30 = (local_4c / local_44);
 	local_50 = arg_2;
-	local_34 = ((float)(arg_0 + local_50) / *(int *)local_44);
+	local_34 = ((float)(arg_0 + local_50) / local_44);
 	local_54 = arg_3;
-	*(int *)local_38 = ((float)(arg_1 + local_54) / *(int *)local_44);
-	trap_R_DrawStretchPic(local_40, local_4c, (float)local_50, (float)local_54, local_2c, local_30, local_34, *(int *)local_38, arg_4);
+	local_38 = ((float)(arg_1 + local_54) / local_44);
+	trap_R_DrawStretchPic(local_40, local_4c, (float)local_50, (float)local_54, local_2c, local_30, local_34, local_38, arg_4);
 }
 
 /*
@@ -12452,6 +13065,9 @@ CG_TileClear
 
 Address: 0x7e99
 Stack Size: 0x54
+Opcodes Size: 0x9c
+Locals Count: 11
+
 Calls: CG_TileClearBox
 Called by: CG_DrawActive
 =================
@@ -12463,15 +13079,17 @@ void CG_TileClear(void) {
 	int		local_28;
 	int		local_2c;
 	int		local_30;
-	char	local_34[8];
+	int		local_34;
+	int		local_38;
 	int		local_3c;
-	char	local_40[20];
+	int		local_40;
+	char	local_44[16];
 
 	local_24 = bss_e66c4;
 	local_30 = bss_e66c8;
-	*(int *)local_34 = 0x0;
-	if (bss_dccf4 != *(int *)local_34) goto jmp_7ebb;
-	if (bss_dccf8 != *(int *)local_34) goto jmp_7ebb;
+	local_34 = 0x0;
+	if (bss_dccf4 != local_34) goto jmp_7ebb;
+	if (bss_dccf8 != local_34) goto jmp_7ebb;
 	if (bss_dccfc != local_24) goto jmp_7ebb;
 	if (bss_dcd00 != local_30) goto jmp_7ebb;
 	goto jmp_7f33;
@@ -12481,8 +13099,8 @@ jmp_7ebb:
 	local_20 = ((local_1c + bss_dcd00) - local_3c);
 	local_28 = bss_dccf4;
 	local_2c = ((local_28 + bss_dccfc) - local_3c);
-	*(int *)local_40 = 0x0;
-	CG_TileClearBox(*(int *)local_40, *(int *)local_40, local_24, local_1c, bss_104228);
+	local_40 = 0x0;
+	CG_TileClearBox(local_40, local_40, local_24, local_1c, bss_104228);
 	CG_TileClearBox(0x0, local_20, local_24, (local_30 - local_20), bss_104228);
 	CG_TileClearBox(0x0, local_1c, local_28, ((local_20 - local_1c) + 0x1), bss_104228);
 	CG_TileClearBox(local_2c, local_1c, (local_24 - local_2c), ((local_20 - local_1c) + 0x1), bss_104228);
@@ -12495,6 +13113,9 @@ CG_FadeColor
 
 Address: 0x7f35
 Stack Size: 0x10
+Opcodes Size: 0x44
+Locals Count: 4
+
 Called by: CG_DrawWeaponSelect, CG_DrawOldScoreboard, CG_DrawCrosshairNames, CG_DrawCenterString, CG_DrawReward, CG_DrawPickupItem
 =================
 */
@@ -12528,6 +13149,9 @@ CG_TeamColor
 
 Address: 0x7f79
 Stack Size: 0xc
+Opcodes Size: 0x23
+Locals Count: 2
+
 =================
 */
 int CG_TeamColor(int arg_0) {
@@ -12554,12 +13178,16 @@ CG_GetColorForHealth
 
 Address: 0x7f9c
 Stack Size: 0x18
+Opcodes Size: 0x9d
+Locals Count: 7
+
 Called by: CG_ColorForHealth, CG_DrawTeamOverlay
 =================
 */
 void CG_GetColorForHealth(int arg_0, int arg_1, int arg_2) {
 	int		local_8;
-	char	local_c[8];
+	int		local_c;
+	int		local_10;
 	int		local_14;
 
 	arg_0 = arg_0;
@@ -12573,9 +13201,9 @@ void CG_GetColorForHealth(int arg_0, int arg_1, int arg_2) {
 	goto jmp_8037;
 jmp_7fc7:
 	local_8 = arg_1;
-	*(int *)local_c = (int)((0x3f28f5c3 * (float)arg_0) / 0x3eae147b);
-	if (*(int *)local_c >= local_8) goto jmp_7fde;
-	local_8 = *(int *)local_c;
+	local_c = (int)((0x3f28f5c3 * (float)arg_0) / 0x3eae147b);
+	if (local_c >= local_8) goto jmp_7fde;
+	local_8 = local_c;
 jmp_7fde:
 	arg_0 = (arg_0 + local_8);
 	*(int *)arg_2 = 0x3f800000;
@@ -12608,6 +13236,9 @@ CG_ColorForHealth
 
 Address: 0x8039
 Stack Size: 0x14
+Opcodes Size: 0x15
+Locals Count: 1
+
 Calls: CG_GetColorForHealth
 Called by: CG_DrawCrosshair, CG_DrawStatusBar
 =================
@@ -12623,6 +13254,9 @@ UI_DrawBannerString2
 
 Address: 0x804e
 Stack Size: 0x68
+Opcodes Size: 0xca
+Locals Count: 18
+
 Calls: trap_R_DrawStretchPic, trap_R_SetColor
 Called by: UI_DrawBannerString
 =================
@@ -12640,7 +13274,8 @@ void UI_DrawBannerString2(int arg_0, int arg_1, int arg_2, int arg_3) {
 	int		local_50;
 	int		local_54;
 	int		local_58;
-	char	local_5c[12];
+	int		local_5c;
+	char	local_60[8];
 
 	trap_R_SetColor(arg_3);
 	local_34 = (((float)arg_0 * bss_e66e0) + bss_e66e8);
@@ -12658,10 +13293,10 @@ jmp_8085:
 	if (local_54 > 0x5a) goto jmp_8105;
 	*(char *)&local_2c = (*(char *)&local_2c - 0x41);
 	local_58 = (0xc * *(char *)&local_2c);
-	*(int *)local_5c = 0x43800000;
-	local_40 = ((float)*(int *)(local_58 + 0x16e8) / *(int *)local_5c);
-	local_3c = ((float)*(int *)(local_58 + 0x16ec) / *(int *)local_5c);
-	local_48 = ((float)*(int *)(local_58 + 0x16f0) / *(int *)local_5c);
+	local_5c = 0x43800000;
+	local_40 = ((float)*(int *)(local_58 + 0x16e8) / local_5c);
+	local_3c = ((float)*(int *)(local_58 + 0x16ec) / local_5c);
+	local_48 = ((float)*(int *)(local_58 + 0x16f0) / local_5c);
 	local_4c = 0x3e100000;
 	local_38 = ((float)*(int *)(local_58 + 0x16f0) * bss_e66e0);
 	local_44 = (0x42100000 * bss_e66e4);
@@ -12680,6 +13315,9 @@ UI_DrawBannerString
 
 Address: 0x8118
 Stack Size: 0x44
+Opcodes Size: 0xae
+Locals Count: 16
+
 Calls: UI_DrawBannerString2
 =================
 */
@@ -12691,7 +13329,8 @@ void UI_DrawBannerString(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4) 
 	int		local_28;
 	int		local_2c;
 	int		local_30;
-	char	local_34[8];
+	int		local_34;
+	int		local_38;
 	int		local_3c;
 	int		local_40;
 
@@ -12712,10 +13351,10 @@ jmp_814a:
 jmp_8150:
 	if ((char)*(char *)local_1c != 0x0) goto jmp_8122;
 	local_20 = (local_20 - 0x4);
-	*(int *)local_34 = (arg_3 & 0x7);
-	if (*(int *)local_34 == 0x0) goto jmp_8182;
-	if (*(int *)local_34 == 0x1) goto jmp_8170;
-	if (*(int *)local_34 == 0x2) goto jmp_817b;
+	local_34 = (arg_3 & 0x7);
+	if (local_34 == 0x0) goto jmp_8182;
+	if (local_34 == 0x1) goto jmp_8170;
+	if (local_34 == 0x2) goto jmp_817b;
 	goto jmp_8182;
 jmp_8170:
 	arg_0 = (arg_0 - (local_20 / 0x2));
@@ -12741,6 +13380,9 @@ UI_ProportionalStringWidth
 
 Address: 0x81c6
 Stack Size: 0x18
+Opcodes Size: 0x43
+Locals Count: 5
+
 Called by: UI_DrawProportionalString
 =================
 */
@@ -12773,6 +13415,9 @@ UI_DrawProportionalString2
 
 Address: 0x8209
 Stack Size: 0x68
+Opcodes Size: 0xd3
+Locals Count: 19
+
 Calls: trap_R_DrawStretchPic, trap_R_SetColor
 Called by: UI_DrawProportionalString
 =================
@@ -12789,7 +13434,8 @@ void UI_DrawProportionalString2(int arg_0, int arg_1, int arg_2, int arg_3, int 
 	int		local_4c;
 	int		local_50;
 	int		local_54;
-	char	local_58[16];
+	int		local_58;
+	char	local_5c[12];
 
 	arg_4 = arg_4;
 	trap_R_SetColor(arg_3);
@@ -12805,10 +13451,10 @@ jmp_822d:
 jmp_8244:
 	if (*(int *)((0xc * *(char *)&local_2c) + 0x10f0) == 0xffffffff) goto jmp_82b7;
 	local_54 = (0xc * *(char *)&local_2c);
-	*(int *)local_58 = 0x43800000;
-	local_40 = ((float)*(int *)(local_54 + 0x10e8) / *(int *)local_58);
-	local_3c = ((float)*(int *)(local_54 + 0x10ec) / *(int *)local_58);
-	local_48 = ((float)*(int *)(local_54 + 0x10f0) / *(int *)local_58);
+	local_58 = 0x43800000;
+	local_40 = ((float)*(int *)(local_54 + 0x10e8) / local_58);
+	local_3c = ((float)*(int *)(local_54 + 0x10ec) / local_58);
+	local_48 = ((float)*(int *)(local_54 + 0x10f0) / local_58);
 	local_4c = 0x3dd80000;
 	local_34 = (((float)*(int *)(local_54 + 0x10f0) * bss_e66e0) * arg_4);
 	local_44 = ((0x41d80000 * bss_e66e4) * arg_4);
@@ -12830,6 +13476,9 @@ UI_ProportionalSizeScale
 
 Address: 0x82dc
 Stack Size: 0x8
+Opcodes Size: 0xf
+Locals Count: 1
+
 Called by: UI_DrawProportionalString
 =================
 */
@@ -12847,6 +13496,9 @@ UI_DrawProportionalString
 
 Address: 0x82eb
 Stack Size: 0x54
+Opcodes Size: 0x172
+Locals Count: 18
+
 Calls: sin, UI_DrawProportionalString2, UI_ProportionalStringWidth, UI_ProportionalSizeScale
 Called by: CG_DrawInformation
 =================
@@ -12859,9 +13511,11 @@ void UI_DrawProportionalString(int arg_0, int arg_1, int arg_2, int arg_3, int a
 	int		local_30;
 	int		local_34;
 	int		local_38;
-	char	local_3c[8];
+	int		local_3c;
+	int		local_40;
 	int		local_44;
-	char	local_48[8];
+	int		local_48;
+	int		local_4c;
 	int		local_50;
 
 	arg_0 = arg_0;
@@ -12871,10 +13525,10 @@ void UI_DrawProportionalString(int arg_0, int arg_1, int arg_2, int arg_3, int a
 	arg_4 = arg_4;
 	local_38 = UI_ProportionalSizeScale(arg_3);
 	local_30 = local_38;
-	*(int *)local_3c = (arg_3 & 0x7);
-	if (*(int *)local_3c == 0x0) goto jmp_8351;
-	if (*(int *)local_3c == 0x1) goto jmp_831f;
-	if (*(int *)local_3c == 0x2) goto jmp_833a;
+	local_3c = (arg_3 & 0x7);
+	if (local_3c == 0x0) goto jmp_8351;
+	if (local_3c == 0x1) goto jmp_831f;
+	if (local_3c == 0x2) goto jmp_833a;
 	goto jmp_8351;
 jmp_831f:
 	local_44 = UI_ProportionalStringWidth(arg_2);
@@ -12882,8 +13536,8 @@ jmp_831f:
 	arg_0 = (arg_0 - (local_34 / 0x2));
 	goto jmp_8351;
 jmp_833a:
-	*(int *)local_48 = UI_ProportionalStringWidth(arg_2);
-	local_34 = (int)((float)*(int *)local_48 * local_30);
+	local_48 = UI_ProportionalStringWidth(arg_2);
+	local_34 = (int)((float)local_48 * local_30);
 	arg_0 = (arg_0 - local_34);
 jmp_8351:
 	if ((arg_3 & 0x800) == 0x0) goto jmp_838a;
@@ -12892,8 +13546,8 @@ jmp_8351:
 	local_24 = local_44;
 	local_20 = local_44;
 	local_2c = *(int *)(arg_4 + 0xc);
-	*(int *)local_48 = 0x2;
-	UI_DrawProportionalString2((arg_0 + *(int *)local_48), (arg_1 + *(int *)local_48), arg_2, &local_20, local_30, bss_104130);
+	local_48 = 0x2;
+	UI_DrawProportionalString2((arg_0 + local_48), (arg_1 + local_48), arg_2, &local_20, local_30, bss_104130);
 jmp_838a:
 	if ((arg_3 & 0x2000) == 0x0) goto jmp_83cb;
 	local_44 = 0x3f4ccccd;
@@ -12929,6 +13583,9 @@ CG_BubbleTrail
 
 Address: 0x845d
 Stack Size: 0x6c
+Opcodes Size: 0x19e
+Locals Count: 26
+
 Calls: CG_AllocLocalEntity, rand, VectorNormalize
 Called by: CG_Bullet, CG_ShotgunPellet, CG_RocketTrail
 =================
@@ -12941,16 +13598,19 @@ void CG_BubbleTrail(int arg_0, int arg_1, int arg_2) {
 	int		local_1c;
 	int		local_20;
 	int		local_24;
-	char	local_28[12];
+	int		local_28;
+	char	local_2c[8];
 	int		local_34;
 	int		local_38;
 	int		local_3c;
 	int		local_40;
-	char	local_44[8];
+	int		local_44;
+	int		local_48;
 	int		local_4c;
 	int		local_50;
 	int		local_54;
-	char	local_58[8];
+	int		local_58;
+	int		local_5c;
 	int		local_60;
 	int		local_64;
 	int		local_68;
@@ -12968,12 +13628,12 @@ jmp_8470:
 	local_38 = 0x8;
 	local_20 = (*(int *)(arg_1 + local_38) - *(int *)(arg_0 + local_38));
 	local_3c = VectorNormalize(&local_18);
-	*(int *)local_28 = local_3c;
+	local_28 = local_3c;
 	local_40 = rand();
 	local_24 = (local_40 %% (int)arg_2);
-	*(int *)local_44 = (float)local_24;
-	local_c = (local_c + (local_18 * *(int *)local_44));
-	local_10 = (local_10 + (local_1c * *(int *)local_44));
+	local_44 = (float)local_24;
+	local_c = (local_c + (local_18 * local_44));
+	local_10 = (local_10 + (local_1c * local_44));
 	local_14 = (local_14 + (local_20 * (float)local_24));
 	local_18 = (local_18 * arg_2);
 	local_1c = (local_1c * arg_2);
@@ -12985,8 +13645,8 @@ jmp_84f2:
 	*(int *)(local_4c + 0xc) = 0x1;
 	*(int *)(local_4c + 0x8) = 0x4;
 	*(int *)(local_4c + 0x10) = bss_dc760;
-	*(int *)local_58 = rand();
-	*(int *)(local_4c + 0x14) = (int)((float)(bss_dc760 + 0x3e8) + (0x437a0000 * ((float)(*(int *)local_58 & 0x7fff) / 0x46fffe00)));
+	local_58 = rand();
+	*(int *)(local_4c + 0x14) = (int)((float)(bss_dc760 + 0x3e8) + (0x437a0000 * ((float)(local_58 & 0x7fff) / 0x46fffe00)));
 	*(int *)(local_4c + 0x1c) = (0x3f800000 / (float)(*(int *)(local_4c + 0x14) - *(int *)(local_4c + 0x10)));
 	local_50 = (local_4c + 0x98);
 	*(int *)(local_50 + 0x80) = ((float)bss_dc760 / 0x447a0000);
@@ -13013,7 +13673,7 @@ jmp_84f2:
 	local_14 = (local_14 + local_20);
 	local_24 = (int)((float)local_24 + arg_2);
 jmp_85f3:
-	if ((float)local_24 < *(int *)local_28) goto jmp_84f2;
+	if ((float)local_24 < local_28) goto jmp_84f2;
 jmp_85f9:
 }
 
@@ -13023,6 +13683,9 @@ CG_SmokePuff
 
 Address: 0x85fb
 Stack Size: 0x40
+Opcodes Size: 0x18c
+Locals Count: 25
+
 Calls: Q_random, CG_AllocLocalEntity
 Called by: CG_ShotgunFire, CG_RocketTrail, CG_HasteTrail, CG_BloodTrail, CG_EntityEvent
 =================
@@ -13120,6 +13783,9 @@ CG_SpawnEffect
 
 Address: 0x8787
 Stack Size: 0x28
+Opcodes Size: 0x98
+Locals Count: 7
+
 Calls: AxisClear, CG_AllocLocalEntity
 Called by: CG_EntityEvent
 =================
@@ -13127,12 +13793,13 @@ Called by: CG_EntityEvent
 void CG_SpawnEffect(int arg_0) {
 	int		local_c;
 	int		local_10;
-	char	local_14[12];
+	int		local_14;
+	char	local_18[8];
 	int		local_20;
 	int		local_24;
 
-	*(int *)local_14 = CG_AllocLocalEntity();
-	local_c = *(int *)local_14;
+	local_14 = CG_AllocLocalEntity();
+	local_c = local_14;
 	*(int *)(local_c + 0xc) = 0x0;
 	*(int *)(local_c + 0x8) = 0x6;
 	*(int *)(local_c + 0x10) = bss_dc760;
@@ -13160,18 +13827,22 @@ CG_ScorePlum
 
 Address: 0x881f
 Stack Size: 0x44
+Opcodes Size: 0xd1
+Locals Count: 16
+
 Calls: AnglesToAxis, CG_AllocLocalEntity
 Called by: CG_EntityEvent
 =================
 */
-void CG_ScorePlum(int arg_0, int arg_1, int arg_2) {
+void CG_ScorePlum(int arg_0, int arg_1, int arg_2, int arg_267196) {
 	int		local_10;
 	int		local_14;
 	int		local_18;
 	int		local_1c;
 	int		local_20;
 	int		local_24;
-	char	local_28[12];
+	int		local_28;
+	char	local_2c[8];
 	int		local_34;
 	int		local_38;
 	int		local_3c;
@@ -13186,8 +13857,8 @@ jmp_882f:
 	local_24 = CG_AllocLocalEntity();
 	local_10 = local_24;
 	*(int *)(local_10 + 0xc) = 0x0;
-	*(int *)local_28 = 0x8;
-	*(int *)(local_10 + *(int *)local_28) = *(int *)local_28;
+	local_28 = 0x8;
+	*(int *)(local_10 + local_28) = local_28;
 	*(int *)(local_10 + 0x10) = bss_dc760;
 	*(int *)(local_10 + 0x14) = (bss_dc760 + 0xfa0);
 	*(int *)(local_10 + 0x1c) = (0x3f800000 / (float)(*(int *)(local_10 + 0x14) - *(int *)(local_10 + 0x10)));
@@ -13223,6 +13894,9 @@ CG_MakeExplosion
 
 Address: 0x88f0
 Stack Size: 0x4c
+Opcodes Size: 0x10b
+Locals Count: 21
+
 Calls: RotateAroundDirection, AxisClear, CG_AllocLocalEntity, rand, CG_Error
 Called by: CG_MissileHitWall
 =================
@@ -13297,21 +13971,25 @@ CG_Bleed
 
 Address: 0x89fb
 Stack Size: 0x1c
+Opcodes Size: 0x68
+Locals Count: 7
+
 Calls: rand, CG_AllocLocalEntity
 Called by: CG_Bullet, CG_MissileHitPlayer
 =================
 */
 void CG_Bleed(int arg_0, int arg_1) {
 	int		local_8;
-	char	local_c[8];
+	int		local_c;
+	int		local_10;
 	int		local_14;
 	int		local_18;
 
 	if (bss_8dc8 != 0x0) goto jmp_8a02;
 	goto jmp_8a61;
 jmp_8a02:
-	*(int *)local_c = CG_AllocLocalEntity();
-	local_8 = *(int *)local_c;
+	local_c = CG_AllocLocalEntity();
+	local_8 = local_c;
 	*(int *)(local_8 + 0x8) = 0x1;
 	*(int *)(local_8 + 0x10) = bss_dc760;
 	*(int *)(local_8 + 0x14) = (*(int *)(local_8 + 0x10) + 0x1f4);
@@ -13333,6 +14011,9 @@ CG_LaunchGib
 
 Address: 0x8a63
 Stack Size: 0x28
+Opcodes Size: 0x7f
+Locals Count: 9
+
 Calls: AxisCopy, rand, CG_AllocLocalEntity
 Called by: CG_GibPlayer
 =================
@@ -13340,16 +14021,18 @@ Called by: CG_GibPlayer
 void CG_LaunchGib(int arg_0, int arg_1, int arg_2) {
 	int		local_10;
 	int		local_14;
-	char	local_18[8];
-	char	local_20[8];
+	int		local_18;
+	int		local_1c;
+	int		local_20;
+	int		local_24;
 
-	*(int *)local_18 = CG_AllocLocalEntity();
-	local_10 = *(int *)local_18;
+	local_18 = CG_AllocLocalEntity();
+	local_10 = local_18;
 	local_14 = (local_10 + 0x98);
 	*(int *)(local_10 + 0x8) = 0x3;
 	*(int *)(local_10 + 0x10) = bss_dc760;
-	*(int *)local_20 = rand();
-	*(int *)(local_10 + 0x14) = (int)((float)(*(int *)(local_10 + 0x10) + 0x1388) + (0x453b8000 * ((float)(*(int *)local_20 & 0x7fff) / 0x46fffe00)));
+	local_20 = rand();
+	*(int *)(local_10 + 0x14) = (int)((float)(*(int *)(local_10 + 0x10) + 0x1388) + (0x453b8000 * ((float)(local_20 & 0x7fff) / 0x46fffe00)));
 	block_copy(arg_0, (local_14 + 0x44), 0xc);
 	AxisCopy(0x1d68, (local_14 + 0x1c));
 	*(int *)(local_14 + 0x8) = arg_2;
@@ -13368,6 +14051,9 @@ CG_GibPlayer
 
 Address: 0x8ae2
 Stack Size: 0xa8
+Opcodes Size: 0x303
+Locals Count: 36
+
 Calls: CG_LaunchGib, rand
 Called by: CG_EntityEvent
 =================
@@ -13511,6 +14197,9 @@ CG_LaunchExplode
 
 Address: 0x8de5
 Stack Size: 0x28
+Opcodes Size: 0x7f
+Locals Count: 9
+
 Calls: AxisCopy, rand, CG_AllocLocalEntity
 Called by: CG_BigExplode
 =================
@@ -13518,16 +14207,18 @@ Called by: CG_BigExplode
 void CG_LaunchExplode(int arg_0, int arg_1, int arg_2) {
 	int		local_10;
 	int		local_14;
-	char	local_18[8];
-	char	local_20[8];
+	int		local_18;
+	int		local_1c;
+	int		local_20;
+	int		local_24;
 
-	*(int *)local_18 = CG_AllocLocalEntity();
-	local_10 = *(int *)local_18;
+	local_18 = CG_AllocLocalEntity();
+	local_10 = local_18;
 	local_14 = (local_10 + 0x98);
 	*(int *)(local_10 + 0x8) = 0x3;
 	*(int *)(local_10 + 0x10) = bss_dc760;
-	*(int *)local_20 = rand();
-	*(int *)(local_10 + 0x14) = (int)((float)(*(int *)(local_10 + 0x10) + 0x2710) + (0x45bb8000 * ((float)(*(int *)local_20 & 0x7fff) / 0x46fffe00)));
+	local_20 = rand();
+	*(int *)(local_10 + 0x14) = (int)((float)(*(int *)(local_10 + 0x10) + 0x2710) + (0x45bb8000 * ((float)(local_20 & 0x7fff) / 0x46fffe00)));
 	block_copy(arg_0, (local_14 + 0x44), 0xc);
 	AxisCopy(0x1d68, (local_14 + 0x1c));
 	*(int *)(local_14 + 0x8) = arg_2;
@@ -13546,6 +14237,9 @@ CG_BigExplode
 
 Address: 0x8e64
 Stack Size: 0x70
+Opcodes Size: 0x190
+Locals Count: 22
+
 Calls: CG_LaunchExplode, rand
 =================
 */
@@ -13627,6 +14321,9 @@ CG_PositionEntityOnTag
 
 Address: 0x8ff4
 Stack Size: 0x74
+Opcodes Size: 0xc9
+Locals Count: 14
+
 Calls: trap_R_LerpTag, MatrixMultiply
 Called by: CG_PlayerFlag
 =================
@@ -13638,8 +14335,10 @@ void CG_PositionEntityOnTag(int arg_0, int arg_1, int arg_2, int arg_3) {
 	int		local_58;
 	int		local_5c;
 	int		local_60;
-	char	local_64[8];
-	char	local_6c[8];
+	int		local_64;
+	int		local_68;
+	int		local_6c;
+	int		local_70;
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
@@ -13650,10 +14349,10 @@ void CG_PositionEntityOnTag(int arg_0, int arg_1, int arg_2, int arg_3) {
 jmp_902d:
 	local_5c = (arg_0 + 0x44);
 	*(int *)local_5c = (*(int *)local_5c + (*(int *)((0xc * local_20) + (arg_1 + 0x1c)) * *(int *)((local_20 << 0x2) + local_24)));
-	*(int *)local_64 = (arg_0 + 0x48);
-	*(int *)*(int *)local_64 = (*(int *)*(int *)local_64 + (*(int *)(((0xc * local_20) + (arg_1 + 0x1c)) + 0x4) * *(int *)((local_20 << 0x2) + local_24)));
-	*(int *)local_6c = (arg_0 + 0x4c);
-	*(int *)*(int *)local_6c = (*(int *)*(int *)local_6c + (*(int *)(((0xc * local_20) + (arg_1 + 0x1c)) + 0x8) * *(int *)((local_20 << 0x2) + local_24)));
+	local_64 = (arg_0 + 0x48);
+	*(int *)local_64 = (*(int *)local_64 + (*(int *)(((0xc * local_20) + (arg_1 + 0x1c)) + 0x4) * *(int *)((local_20 << 0x2) + local_24)));
+	local_6c = (arg_0 + 0x4c);
+	*(int *)local_6c = (*(int *)local_6c + (*(int *)(((0xc * local_20) + (arg_1 + 0x1c)) + 0x8) * *(int *)((local_20 << 0x2) + local_24)));
 	local_20 = (local_20 + 0x1);
 	if (local_20 < 0x3) goto jmp_902d;
 #define next_call_arg_0 "local_30"
@@ -13671,6 +14370,9 @@ CG_PositionRotatedEntityOnTag
 
 Address: 0x90bd
 Stack Size: 0x98
+Opcodes Size: 0xc6
+Locals Count: 15
+
 Calls: trap_R_LerpTag, MatrixMultiply
 Called by: CG_AddPlayerWeapon, CG_Player, CG_PlayerFlag, CG_Item
 =================
@@ -13681,9 +14383,12 @@ void CG_PositionRotatedEntityOnTag(int arg_0, int arg_1, int arg_2, int arg_3) {
 	char	local_30[36];
 	char	local_54[40];
 	int		local_7c;
-	char	local_80[8];
-	char	local_88[8];
-	char	local_90[8];
+	int		local_80;
+	int		local_84;
+	int		local_88;
+	int		local_8c;
+	int		local_90;
+	int		local_94;
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
@@ -13692,19 +14397,19 @@ void CG_PositionRotatedEntityOnTag(int arg_0, int arg_1, int arg_2, int arg_3) {
 	block_copy((arg_1 + local_7c), (arg_0 + local_7c), 0xc);
 	local_20 = 0x0;
 jmp_90f6:
-	*(int *)local_80 = (arg_0 + 0x44);
-	*(int *)*(int *)local_80 = (*(int *)*(int *)local_80 + (*(int *)((0xc * local_20) + (arg_1 + 0x1c)) * *(int *)((local_20 << 0x2) + local_24)));
-	*(int *)local_88 = (arg_0 + 0x48);
-	*(int *)*(int *)local_88 = (*(int *)*(int *)local_88 + (*(int *)(((0xc * local_20) + (arg_1 + 0x1c)) + 0x4) * *(int *)((local_20 << 0x2) + local_24)));
-	*(int *)local_90 = (arg_0 + 0x4c);
-	*(int *)*(int *)local_90 = (*(int *)*(int *)local_90 + (*(int *)(((0xc * local_20) + (arg_1 + 0x1c)) + 0x8) * *(int *)((local_20 << 0x2) + local_24)));
+	local_80 = (arg_0 + 0x44);
+	*(int *)local_80 = (*(int *)local_80 + (*(int *)((0xc * local_20) + (arg_1 + 0x1c)) * *(int *)((local_20 << 0x2) + local_24)));
+	local_88 = (arg_0 + 0x48);
+	*(int *)local_88 = (*(int *)local_88 + (*(int *)(((0xc * local_20) + (arg_1 + 0x1c)) + 0x4) * *(int *)((local_20 << 0x2) + local_24)));
+	local_90 = (arg_0 + 0x4c);
+	*(int *)local_90 = (*(int *)local_90 + (*(int *)(((0xc * local_20) + (arg_1 + 0x1c)) + 0x8) * *(int *)((local_20 << 0x2) + local_24)));
 	local_20 = (local_20 + 0x1);
 	if (local_20 < 0x3) goto jmp_90f6;
 	MatrixMultiply((arg_0 + 0x1c), local_30, local_54);
 #define next_call_arg_0 "local_54"
-	*(int *)local_80 = 0x1c;
-#define next_call_arg_1 "(arg_1 + *(int *)local_80)"
-#define next_call_arg_2 "(arg_0 + *(int *)local_80)"
+	local_80 = 0x1c;
+#define next_call_arg_1 "(arg_1 + local_80)"
+#define next_call_arg_2 "(arg_0 + local_80)"
 	MatrixMultiply();
 }
 
@@ -13714,6 +14419,9 @@ CG_SetEntitySoundPosition
 
 Address: 0x9183
 Stack Size: 0x28
+Opcodes Size: 0x59
+Locals Count: 7
+
 Calls: trap_S_UpdateEntityPosition
 Called by: CG_CheckEvents, CG_EntityEffects
 =================
@@ -13722,16 +14430,17 @@ void CG_SetEntitySoundPosition(int arg_0) {
 	int		local_10;
 	int		local_14;
 	int		local_18;
-	char	local_1c[8];
+	int		local_1c;
+	int		local_20;
 	int		local_24;
 
 	arg_0 = arg_0;
 	if (*(int *)(arg_0 + 0xb0) != 0xffffff) goto jmp_91ce;
-	*(int *)local_1c = ((0xc * *(int *)(arg_0 + 0xa0)) + 0xe8024);
-	local_24 = *(int *)local_1c;
+	local_1c = ((0xc * *(int *)(arg_0 + 0xa0)) + 0xe8024);
+	local_24 = local_1c;
 	local_10 = (*(int *)(arg_0 + 0x2b4) + *(int *)local_24);
 	local_14 = (*(int *)(arg_0 + 0x2b8) + *(int *)(local_24 + 0x4));
-	local_18 = (*(int *)(arg_0 + 0x2bc) + *(int *)(*(int *)local_1c + 0x8));
+	local_18 = (*(int *)(arg_0 + 0x2bc) + *(int *)(local_1c + 0x8));
 	trap_S_UpdateEntityPosition(*(int *)arg_0, &local_10);
 	goto jmp_91da;
 jmp_91ce:
@@ -13745,6 +14454,9 @@ CG_EntityEffects
 
 Address: 0x91dc
 Stack Size: 0x40
+Opcodes Size: 0xac
+Locals Count: 10
+
 Calls: trap_R_AddLightToScene, trap_S_AddRealLoopingSound, trap_S_AddLoopingSound, CG_SetEntitySoundPosition
 Called by: CG_AddCEntity
 =================
@@ -13754,7 +14466,8 @@ void CG_EntityEffects(int arg_0) {
 	int		local_20;
 	int		local_24;
 	int		local_28;
-	char	local_2c[8];
+	int		local_2c;
+	int		local_30;
 	int		local_34;
 	int		local_38;
 	int		local_3c;
@@ -13775,9 +14488,9 @@ jmp_9229:
 	local_3c = 0x437f0000;
 	local_24 = ((float)(local_34 & local_38) / local_3c);
 	local_28 = ((float)((local_34 >> 0x8) & local_38) / local_3c);
-	*(int *)local_2c = ((float)((local_34 >> 0x10) & local_38) / local_3c);
+	local_2c = ((float)((local_34 >> 0x10) & local_38) / local_3c);
 	local_20 = (0x40800000 * (float)((local_34 >> 0x18) & local_38));
-	trap_R_AddLightToScene((arg_0 + 0x2b4), local_20, local_24, local_28, *(int *)local_2c);
+	trap_R_AddLightToScene((arg_0 + 0x2b4), local_20, local_24, local_28, local_2c);
 jmp_9286:
 }
 
@@ -13787,6 +14500,9 @@ CG_General
 
 Address: 0x9288
 Stack Size: 0xa4
+Opcodes Size: 0x61
+Locals Count: 13
+
 Calls: trap_R_AddRefEntityToScene, memset, AnglesToAxis
 Called by: CG_AddCEntity
 =================
@@ -13794,13 +14510,15 @@ Called by: CG_AddCEntity
 void CG_General(int arg_0) {
 	int		local_14;
 	int		local_18;
-	char	local_1c[20];
+	int		local_1c;
+	char	local_20[16];
 	char	local_30[40];
 	char	local_58[12];
 	int		local_64;
 	char	local_68[12];
 	int		local_74;
-	char	local_78[40];
+	int		local_78;
+	char	local_7c[36];
 	int		local_a0;
 
 	arg_0 = arg_0;
@@ -13811,10 +14529,10 @@ jmp_929a:
 	memset(&local_14, 0x0, 0x8c);
 	local_64 = *(int *)(local_a0 + 0xac);
 	local_74 = local_64;
-	*(int *)local_78 = 0x0;
+	local_78 = 0x0;
 	block_copy((arg_0 + 0x2b4), local_58, 0xc);
 	block_copy((arg_0 + 0x2b4), local_68, 0xc);
-	*(int *)local_1c = *(int *)((*(int *)(local_a0 + 0xa0) << 0x2) + 0xe7420);
+	local_1c = *(int *)((*(int *)(local_a0 + 0xa0) << 0x2) + 0xe7420);
 	if (*(int *)local_a0 != *(int *)(bss_c2330 + 0xb8)) goto jmp_92d8;
 	local_18 = (local_18 | 0x2);
 jmp_92d8:
@@ -13829,12 +14547,16 @@ CG_Speaker
 
 Address: 0x92e9
 Stack Size: 0x28
+Opcodes Size: 0x5f
+Locals Count: 4
+
 Calls: trap_S_StartSound, rand
 Called by: CG_AddCEntity
 =================
 */
 void CG_Speaker(int arg_0) {
-	char	local_1c[8];
+	int		local_1c;
+	int		local_20;
 	int		local_24;
 
 	arg_0 = arg_0;
@@ -13845,9 +14567,9 @@ jmp_92f7:
 	goto jmp_9346;
 jmp_9301:
 	trap_S_StartSound(0x0, *(int *)arg_0, 0x4, *(int *)((*(int *)(arg_0 + 0xb8) << 0x2) + 0xe7820));
-	*(int *)local_1c = rand();
+	local_1c = rand();
 	local_24 = 0x64;
-	*(int *)(arg_0 + 0x1bc) = (int)((float)(bss_dc760 + (local_24 * *(int *)(arg_0 + 0xac))) + ((float)(local_24 * *(int *)(arg_0 + 0xa8)) * (0x40000000 * (((float)(*(int *)local_1c & 0x7fff) / 0x46fffe00) - 0x3f000000))));
+	*(int *)(arg_0 + 0x1bc) = (int)((float)(bss_dc760 + (local_24 * *(int *)(arg_0 + 0xac))) + ((float)(local_24 * *(int *)(arg_0 + 0xa8)) * (0x40000000 * (((float)(local_1c & 0x7fff) / 0x46fffe00) - 0x3f000000))));
 jmp_9346:
 }
 
@@ -13857,11 +14579,14 @@ CG_Item
 
 Address: 0x9348
 Stack Size: 0x17c
+Opcodes Size: 0x371
+Locals Count: 59
+
 Calls: cos, trap_R_AddRefEntityToScene, memset, CG_PositionRotatedEntityOnTag, AnglesToAxis, AxisCopy, CG_Error
 Called by: CG_AddCEntity
 =================
 */
-void CG_Item(int arg_0) {
+void CG_Item(int arg_0, int arg_225991, int arg_226003) {
 	int		local_18;
 	int		local_1c;
 	int		local_20;
@@ -13878,26 +14603,32 @@ void CG_Item(int arg_0) {
 	int		local_54;
 	int		local_58;
 	char	local_5c[8];
-	char	local_64[8];
-	char	local_6c[28];
+	int		local_64;
+	int		local_68;
+	char	local_6c[12];
+	char	local_78[16];
 	int		local_88;
 	char	local_8c;
 	char	local_8d;
 	char	local_8e;
 	char	local_8f[13];
-	char	local_9c[8];
+	int		local_9c;
+	int		local_a0;
 	int		local_a4;
 	int		local_a8;
 	int		local_ac;
 	int		local_b0;
 	int		local_b4;
-	char	local_b8[8];
-	char	local_c0[8];
+	int		local_b8;
+	int		local_bc;
+	int		local_c0;
+	int		local_c4;
 	int		local_c8;
 	int		local_cc;
 	int		local_d0;
 	int		local_d4;
-	char	local_d8[8];
+	int		local_d8;
+	int		local_dc;
 	int		local_e0;
 	int		local_e4;
 	int		local_e8;
@@ -13906,7 +14637,8 @@ void CG_Item(int arg_0) {
 	int		local_f4;
 	int		local_f8;
 	char	local_fc[36];
-	char	local_120[76];
+	int		local_120;
+	char	local_124[72];
 	int		local_16c;
 	int		local_170;
 	int		local_174;
@@ -13917,9 +14649,9 @@ void CG_Item(int arg_0) {
 	if (*(int *)(local_ac + 0xa0) < bg_numItems) goto jmp_9364;
 	CG_Error(0x5510, *(int *)(local_ac + 0xa0));
 jmp_9364:
-	*(int *)local_c0 = 0x0;
-	if (*(int *)(local_ac + 0xa0) == *(int *)local_c0) goto jmp_9379;
-	if ((*(int *)(local_ac + 0x8) & 0x80) == *(int *)local_c0) goto jmp_937b;
+	local_c0 = 0x0;
+	if (*(int *)(local_ac + 0xa0) == local_c0) goto jmp_9379;
+	if ((*(int *)(local_ac + 0x8) & 0x80) == local_c0) goto jmp_937b;
 jmp_9379:
 	goto jmp_96b7;
 jmp_937b:
@@ -13929,7 +14661,7 @@ jmp_937b:
 	memset(&local_18, 0x0, 0x8c);
 	local_18 = 0x2;
 	block_copy((arg_0 + 0x2b4), local_5c, 0xc);
-	*(int *)local_9c = 0x41600000;
+	local_9c = 0x41600000;
 	local_88 = *(int *)((0x18 * *(int *)(local_ac + 0xa0)) + 0xd2e0);
 	local_8c = 0xff;
 	local_8d = 0xff;
@@ -13938,8 +14670,8 @@ jmp_937b:
 	trap_R_AddRefEntityToScene(&local_18);
 	goto jmp_96b7;
 jmp_93c5:
-	*(int *)local_b8 = ((0x3727c5ac * (float)*(int *)arg_0) + 0x3ba3d70a);
-	local_c8 = cos(((float)(bss_dc760 + 0x3e8) * *(int *)local_b8));
+	local_b8 = ((0x3727c5ac * (float)*(int *)arg_0) + 0x3ba3d70a);
+	local_c8 = cos(((float)(bss_dc760 + 0x3e8) * local_b8));
 	local_cc = (arg_0 + 0x2bc);
 	*(int *)local_cc = (*(int *)local_cc + ((0x40800000 * local_c8) + 0x40800000));
 	memset(&local_18, 0x0, 0x8c);
@@ -13956,8 +14688,8 @@ jmp_941b:
 	local_a8 = ((0x84 * *(int *)(local_a4 + 0x28)) + 0xeacc);
 	local_d0 = (arg_0 + 0x2b4);
 	*(int *)local_d0 = (*(int *)local_d0 - (((*(int *)(local_a8 + 0x18) * local_34) + (*(int *)(local_a8 + 0x1c) * local_40)) + (*(int *)(local_a8 + 0x20) * local_4c)));
-	*(int *)local_d8 = (arg_0 + 0x2b8);
-	*(int *)*(int *)local_d8 = (*(int *)*(int *)local_d8 - (((*(int *)(local_a8 + 0x18) * local_38) + (*(int *)(local_a8 + 0x1c) * local_44)) + (*(int *)(local_a8 + 0x20) * local_50)));
+	local_d8 = (arg_0 + 0x2b8);
+	*(int *)local_d8 = (*(int *)local_d8 - (((*(int *)(local_a8 + 0x18) * local_38) + (*(int *)(local_a8 + 0x1c) * local_44)) + (*(int *)(local_a8 + 0x20) * local_50)));
 	local_e0 = (arg_0 + 0x2bc);
 	*(int *)local_e0 = (*(int *)local_e0 - (((*(int *)(local_a8 + 0x18) * local_3c) + (*(int *)(local_a8 + 0x1c) * local_48)) + (*(int *)(local_a8 + 0x20) * local_54)));
 	local_e8 = (arg_0 + 0x2bc);
@@ -13993,9 +14725,9 @@ jmp_94e8:
 jmp_9560:
 	local_b0 = 0x3f800000;
 jmp_9563:
-	*(int *)local_d8 = *(int *)(local_a4 + 0x24);
-	if (*(int *)local_d8 == 0x1) goto jmp_9572;
-	if (*(int *)local_d8 != 0x3) goto jmp_9578;
+	local_d8 = *(int *)(local_a4 + 0x24);
+	if (local_d8 == 0x1) goto jmp_9572;
+	if (local_d8 != 0x3) goto jmp_9578;
 jmp_9572:
 	local_1c = (local_1c | 0x1);
 jmp_9578:
@@ -14026,7 +14758,7 @@ jmp_95b8:
 	local_174 = local_178;
 	AnglesToAxis(&local_16c, local_fc);
 	CG_PositionRotatedEntityOnTag(&local_e0, &local_18, *(int *)(local_a8 + 0xc), 0x5505);
-	*(int *)local_120 = local_58;
+	local_120 = local_58;
 	trap_R_AddRefEntityToScene(&local_e0);
 jmp_9617:
 	if (bss_9db8 != 0x0) goto jmp_96b7;
@@ -14042,7 +14774,7 @@ jmp_9639:
 	local_20 = local_f4;
 	if (local_f4 == 0x0) goto jmp_96b7;
 	if (*(int *)(local_a4 + 0x24) != 0x5) goto jmp_9665;
-	*(int *)local_64 = (*(int *)local_64 + 0x41400000);
+	local_64 = (local_64 + 0x41400000);
 	local_e4 = ((float)(0x168 * (bss_dc760 & 0x3ff)) / 0xc4800000);
 jmp_9665:
 	AnglesToAxis(&local_e0, &local_34);
@@ -14068,6 +14800,9 @@ CG_Missile
 
 Address: 0x96b9
 Stack Size: 0xc4
+Opcodes Size: 0x111
+Locals Count: 22
+
 Calls: trap_R_AddRefEntityToScene, memset, trap_S_AddLoopingSound, trap_R_AddLightToScene, CG_AddRefEntityWithPowerups, RotateAroundDirection, VectorNormalize2, BG_EvaluateTrajectoryDelta
 Called by: CG_AddCEntity
 =================
@@ -14075,26 +14810,33 @@ Called by: CG_AddCEntity
 void CG_Missile(int arg_0) {
 	int		local_1c;
 	int		local_20;
-	char	local_24[20];
+	int		local_24;
+	char	local_28[16];
 	char	local_38[8];
-	char	local_40[32];
-	char	local_60[16];
-	char	local_70[20];
-	char	local_84[8];
-	char	local_8c[20];
+	int		local_40;
+	char	local_44[28];
+	char	local_60[12];
+	int		local_6c;
+	char	local_70[12];
+	char	local_7c[8];
+	int		local_84;
+	int		local_88;
+	int		local_8c;
+	char	local_90[16];
 	int		local_a0;
 	int		local_a4;
 	int		local_a8;
-	char	local_ac[8];
+	int		local_ac;
+	int		local_b0;
 	char	local_b4[16];
 
 	arg_0 = arg_0;
-	*(int *)local_ac = arg_0;
-	if (*(int *)(*(int *)local_ac + 0xc0) < 0xb) goto jmp_96cf;
-	*(int *)(*(int *)local_ac + 0xc0) = 0x0;
+	local_ac = arg_0;
+	if (*(int *)(local_ac + 0xc0) < 0xb) goto jmp_96cf;
+	*(int *)(local_ac + 0xc0) = 0x0;
 jmp_96cf:
-	local_a8 = ((0x84 * *(int *)(*(int *)local_ac + 0xc0)) + 0xeacc);
-	block_copy((*(int *)local_ac + 0x74), (arg_0 + 0x2c0), 0xc);
+	local_a8 = ((0x84 * *(int *)(local_ac + 0xc0)) + 0xeacc);
+	block_copy((local_ac + 0x74), (arg_0 + 0x2c0), 0xc);
 	if (*(int *)(local_a8 + 0x58) == 0x0) goto jmp_96f7;
 	(*(*(int *)(local_a8 + 0x58)))(arg_0, local_a8);
 jmp_96f7:
@@ -14112,24 +14854,24 @@ jmp_9746:
 	local_1c = 0x2;
 	local_a0 = 0x41800000;
 	local_a4 = 0x0;
-	*(int *)local_8c = bss_10423c;
+	local_8c = bss_10423c;
 	trap_R_AddRefEntityToScene(&local_1c);
 	goto jmp_97c8;
 jmp_9776:
-	*(int *)local_84 = (cg & 0x1);
-	*(int *)local_24 = *(int *)(local_a8 + 0x50);
+	local_84 = (cg & 0x1);
+	local_24 = *(int *)(local_a8 + 0x50);
 	local_20 = (*(int *)(local_a8 + 0x6c) | 0x40);
-	*(int *)local_b4 = VectorNormalize2((*(int *)local_ac + 0x24), local_38);
+	*(int *)local_b4 = VectorNormalize2((local_ac + 0x24), local_38);
 	if (*(int *)local_b4 != 0x0) goto jmp_979e;
-	*(int *)local_40 = 0x3f800000;
+	local_40 = 0x3f800000;
 jmp_979e:
-	if (*(int *)(*(int *)local_ac + 0xc) == 0x0) goto jmp_97b2;
+	if (*(int *)(local_ac + 0xc) == 0x0) goto jmp_97b2;
 	RotateAroundDirection(local_38, (float)(bss_dc760 / 0x4));
 	goto jmp_97be;
 jmp_97b2:
-	RotateAroundDirection(local_38, (float)*(int *)(*(int *)local_ac + 0x54));
+	RotateAroundDirection(local_38, (float)*(int *)(local_ac + 0x54));
 jmp_97be:
-	CG_AddRefEntityWithPowerups(&local_1c, *(int *)local_ac, 0x0);
+	CG_AddRefEntityWithPowerups(&local_1c, local_ac, 0x0);
 jmp_97c8:
 }
 
@@ -14139,6 +14881,9 @@ CG_Grapple
 
 Address: 0x97ca
 Stack Size: 0xb0
+Opcodes Size: 0x77
+Locals Count: 18
+
 Calls: trap_R_AddRefEntityToScene, memset, VectorNormalize2, CG_GrappleTrail
 Called by: CG_AddCEntity
 =================
@@ -14146,14 +14891,20 @@ Called by: CG_AddCEntity
 void CG_Grapple(int arg_0) {
 	int		local_14;
 	int		local_18;
-	char	local_1c[20];
+	int		local_1c;
+	char	local_20[16];
 	char	local_30[8];
-	char	local_38[32];
-	char	local_58[16];
-	char	local_68[20];
-	char	local_7c[36];
+	int		local_38;
+	char	local_3c[28];
+	char	local_58[12];
+	int		local_64;
+	char	local_68[12];
+	char	local_74[8];
+	int		local_7c;
+	char	local_80[32];
 	int		local_a0;
-	char	local_a4[8];
+	int		local_a4;
+	int		local_a8;
 	int		local_ac;
 
 	arg_0 = arg_0;
@@ -14161,18 +14912,18 @@ void CG_Grapple(int arg_0) {
 	if (*(int *)(local_a0 + 0xc0) < 0xb) goto jmp_97e0;
 	*(int *)(local_a0 + 0xc0) = 0x0;
 jmp_97e0:
-	*(int *)local_a4 = ((0x84 * *(int *)(local_a0 + 0xc0)) + 0xeacc);
+	local_a4 = ((0x84 * *(int *)(local_a0 + 0xc0)) + 0xeacc);
 	block_copy((local_a0 + 0x74), (arg_0 + 0x2c0), 0xc);
-	CG_GrappleTrail(arg_0, *(int *)local_a4);
+	CG_GrappleTrail(arg_0, local_a4);
 	memset(&local_14, 0x0, 0x8c);
 	block_copy((arg_0 + 0x2b4), local_58, 0xc);
 	block_copy((arg_0 + 0x2b4), local_68, 0xc);
-	*(int *)local_7c = (cg & 0x1);
-	*(int *)local_1c = *(int *)(*(int *)local_a4 + 0x50);
-	local_18 = (*(int *)(*(int *)local_a4 + 0x6c) | 0x40);
+	local_7c = (cg & 0x1);
+	local_1c = *(int *)(local_a4 + 0x50);
+	local_18 = (*(int *)(local_a4 + 0x6c) | 0x40);
 	local_ac = VectorNormalize2((local_a0 + 0x24), local_30);
 	if (local_ac != 0x0) goto jmp_983a;
-	*(int *)local_38 = 0x3f800000;
+	local_38 = 0x3f800000;
 jmp_983a:
 	trap_R_AddRefEntityToScene(&local_14);
 }
@@ -14183,6 +14934,9 @@ CG_Mover
 
 Address: 0x9841
 Stack Size: 0xa4
+Opcodes Size: 0x76
+Locals Count: 13
+
 Calls: trap_R_AddRefEntityToScene, memset, AnglesToAxis
 Called by: CG_AddCEntity
 =================
@@ -14190,11 +14944,15 @@ Called by: CG_AddCEntity
 void CG_Mover(int arg_0) {
 	int		local_14;
 	int		local_18;
-	char	local_1c[20];
+	int		local_1c;
+	char	local_20[16];
 	char	local_30[40];
-	char	local_58[16];
-	char	local_68[20];
-	char	local_7c[36];
+	char	local_58[12];
+	int		local_64;
+	char	local_68[12];
+	char	local_74[8];
+	int		local_7c;
+	char	local_80[32];
 	int		local_a0;
 
 	arg_0 = arg_0;
@@ -14204,17 +14962,17 @@ void CG_Mover(int arg_0) {
 	block_copy((arg_0 + 0x2b4), local_68, 0xc);
 	AnglesToAxis((arg_0 + 0x2c0), local_30);
 	local_18 = 0x40;
-	*(int *)local_7c = ((bss_dc760 >> 0x6) & 0x1);
+	local_7c = ((bss_dc760 >> 0x6) & 0x1);
 	if (*(int *)(local_a0 + 0xb0) != 0xffffff) goto jmp_9889;
-	*(int *)local_1c = *(int *)((*(int *)(local_a0 + 0xa0) << 0x2) + 0xe7c24);
+	local_1c = *(int *)((*(int *)(local_a0 + 0xa0) << 0x2) + 0xe7c24);
 	goto jmp_9895;
 jmp_9889:
-	*(int *)local_1c = *(int *)((*(int *)(local_a0 + 0xa0) << 0x2) + 0xe7420);
+	local_1c = *(int *)((*(int *)(local_a0 + 0xa0) << 0x2) + 0xe7420);
 jmp_9895:
 	trap_R_AddRefEntityToScene(&local_14);
 	if (*(int *)(local_a0 + 0xa4) == 0x0) goto jmp_98b5;
-	*(int *)local_7c = 0x0;
-	*(int *)local_1c = *(int *)((*(int *)(local_a0 + 0xa4) << 0x2) + 0xe7420);
+	local_7c = 0x0;
+	local_1c = *(int *)((*(int *)(local_a0 + 0xa4) << 0x2) + 0xe7420);
 	trap_R_AddRefEntityToScene(&local_14);
 jmp_98b5:
 }
@@ -14225,16 +14983,22 @@ CG_Beam
 
 Address: 0x98b7
 Stack Size: 0xa4
+Opcodes Size: 0x2c
+Locals Count: 10
+
 Calls: trap_R_AddRefEntityToScene, memset, AxisClear
 Called by: CG_EntityEvent, CG_AddCEntity
 =================
 */
 void CG_Beam(int arg_0) {
 	int		local_14;
-	char	local_18[24];
+	int		local_18;
+	char	local_1c[20];
 	char	local_30[40];
-	char	local_58[16];
-	char	local_68[56];
+	char	local_58[12];
+	int		local_64;
+	char	local_68[12];
+	char	local_74[44];
 	int		local_a0;
 
 	local_a0 = arg_0;
@@ -14243,7 +15007,7 @@ void CG_Beam(int arg_0) {
 	block_copy((local_a0 + 0x68), local_68, 0xc);
 	AxisClear(local_30);
 	local_14 = 0x3;
-	*(int *)local_18 = 0x40;
+	local_18 = 0x40;
 	trap_R_AddRefEntityToScene(&local_14);
 }
 
@@ -14253,6 +15017,9 @@ CG_Portal
 
 Address: 0x98e3
 Stack Size: 0xa4
+Opcodes Size: 0x6f
+Locals Count: 14
+
 Calls: trap_R_AddRefEntityToScene, memset, CrossProduct, PerpendicularVector, ByteToDir
 Called by: CG_AddCEntity
 =================
@@ -14268,7 +15035,8 @@ void CG_Portal(int arg_0) {
 	int		local_64;
 	char	local_68[12];
 	char	local_74[8];
-	char	local_7c[36];
+	int		local_7c;
+	char	local_80[32];
 	int		local_a0;
 
 	local_a0 = arg_0;
@@ -14284,7 +15052,7 @@ void CG_Portal(int arg_0) {
 	*(int *)local_14 = 0x7;
 	*(int *)local_74 = *(int *)(local_a0 + 0xbc);
 	local_64 = *(int *)(local_a0 + 0xac);
-	*(int *)local_7c = (int)(0x43b40000 * ((float)*(int *)(local_a0 + 0xa8) / 0x43800000));
+	local_7c = (int)(0x43b40000 * ((float)*(int *)(local_a0 + 0xa8) / 0x43800000));
 	trap_R_AddRefEntityToScene(local_14);
 }
 
@@ -14294,6 +15062,9 @@ CG_CreateRotationMatrix
 
 Address: 0x9952
 Stack Size: 0x1c
+Opcodes Size: 0x22
+Locals Count: 2
+
 Calls: VectorInverse, AngleVectors
 Called by: CG_AdjustPositionForMover
 =================
@@ -14311,28 +15082,33 @@ CG_TransposeMatrix
 
 Address: 0x9974
 Stack Size: 0x20
+Opcodes Size: 0x49
+Locals Count: 8
+
 Called by: CG_AdjustPositionForMover
 =================
 */
 void CG_TransposeMatrix(int arg_0, int arg_1) {
 	int		local_8;
-	char	local_c[8];
+	int		local_c;
+	int		local_10;
 	int		local_14;
-	char	local_18[8];
+	int		local_18;
+	int		local_1c;
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
-	*(int *)local_c = 0x0;
+	local_c = 0x0;
 jmp_9980:
 	local_8 = 0x0;
 jmp_9983:
 	local_14 = 0x2;
-	*(int *)local_18 = 0xc;
-	*(int *)((local_8 << local_14) + ((*(int *)local_18 * *(int *)local_c) + arg_1)) = *(int *)((*(int *)local_c << local_14) + ((*(int *)local_18 * local_8) + arg_0));
+	local_18 = 0xc;
+	*(int *)((local_8 << local_14) + ((local_18 * local_c) + arg_1)) = *(int *)((local_c << local_14) + ((local_18 * local_8) + arg_0));
 	local_8 = (local_8 + 0x1);
 	if (local_8 < 0x3) goto jmp_9983;
-	*(int *)local_c = (*(int *)local_c + 0x1);
-	if (*(int *)local_c < 0x3) goto jmp_9980;
+	local_c = (local_c + 0x1);
+	if (local_c < 0x3) goto jmp_9980;
 }
 
 /*
@@ -14341,20 +15117,24 @@ CG_RotatePoint
 
 Address: 0x99bd
 Stack Size: 0x24
+Opcodes Size: 0x68
+Locals Count: 6
+
 Called by: CG_AdjustPositionForMover
 =================
 */
 void CG_RotatePoint(int arg_0, int arg_1) {
 	int		local_8;
 	int		local_c;
-	char	local_10[20];
+	int		local_10;
+	char	local_14[16];
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
 	block_copy(arg_0, &local_8, 0xc);
-	*(int *)arg_0 = (((*(int *)arg_1 * local_8) + (*(int *)(arg_1 + 0x4) * local_c)) + (*(int *)(arg_1 + 0x8) * *(int *)local_10));
-	*(int *)(arg_0 + 0x4) = (((*(int *)(arg_1 + 0xc) * local_8) + (*(int *)(arg_1 + 0x10) * local_c)) + (*(int *)(arg_1 + 0x14) * *(int *)local_10));
-	*(int *)(arg_0 + 0x8) = (((*(int *)(arg_1 + 0x18) * local_8) + (*(int *)(arg_1 + 0x1c) * local_c)) + (*(int *)(arg_1 + 0x20) * *(int *)local_10));
+	*(int *)arg_0 = (((*(int *)arg_1 * local_8) + (*(int *)(arg_1 + 0x4) * local_c)) + (*(int *)(arg_1 + 0x8) * local_10));
+	*(int *)(arg_0 + 0x4) = (((*(int *)(arg_1 + 0xc) * local_8) + (*(int *)(arg_1 + 0x10) * local_c)) + (*(int *)(arg_1 + 0x14) * local_10));
+	*(int *)(arg_0 + 0x8) = (((*(int *)(arg_1 + 0x18) * local_8) + (*(int *)(arg_1 + 0x1c) * local_c)) + (*(int *)(arg_1 + 0x20) * local_10));
 }
 
 /*
@@ -14363,6 +15143,9 @@ CG_AdjustPositionForMover
 
 Address: 0x9a25
 Stack Size: 0xe8
+Opcodes Size: 0x161
+Locals Count: 43
+
 Calls: CG_RotatePoint, CG_TransposeMatrix, CG_CreateRotationMatrix, BG_EvaluateTrajectory
 Called by: CG_PredictPlayerState, CG_CalcEntityLerpPositions
 =================
@@ -14398,7 +15181,8 @@ void CG_AdjustPositionForMover(int arg_0, int arg_1, int arg_2, int arg_3, int a
 	int		local_80;
 	char	local_84[36];
 	char	local_a8[40];
-	char	local_d0[8];
+	int		local_d0;
+	int		local_d4;
 	int		local_d8;
 	int		local_dc;
 	int		local_e0;
@@ -14417,8 +15201,8 @@ jmp_9a42:
 	goto jmp_9b84;
 jmp_9a4e:
 	local_44 = ((0x2cc * arg_1) + 0xf30c);
-	*(int *)local_d0 = 0x4;
-	if (*(int *)(local_44 + *(int *)local_d0) == *(int *)local_d0) goto jmp_9a6e;
+	local_d0 = 0x4;
+	if (*(int *)(local_44 + local_d0) == local_d0) goto jmp_9a6e;
 	block_copy(arg_0, arg_4, 0xc);
 	block_copy(arg_5, arg_6, 0xc);
 	goto jmp_9b84;
@@ -14465,6 +15249,9 @@ CG_InterpolateEntityPosition
 
 Address: 0x9b86
 Stack Size: 0x40
+Opcodes Size: 0xc4
+Locals Count: 12
+
 Calls: LerpAngle, BG_EvaluateTrajectory, CG_Error
 Called by: CG_CalcEntityLerpPositions
 =================
@@ -14509,6 +15296,9 @@ CG_CalcEntityLerpPositions
 
 Address: 0x9c4a
 Stack Size: 0x40
+Opcodes Size: 0x9b
+Locals Count: 3
+
 Calls: CG_AdjustPositionForMover, BG_EvaluateTrajectory, CG_InterpolateEntityPosition
 Called by: CG_AddPacketEntities, CG_AddCEntity
 =================
@@ -14556,6 +15346,9 @@ CG_TeamBase
 
 Address: 0x9ce5
 Stack Size: 0xa0
+Opcodes Size: 0x4c
+Locals Count: 8
+
 Calls: trap_R_AddRefEntityToScene, memset, AnglesToAxis
 Called by: CG_AddCEntity
 =================
@@ -14563,9 +15356,11 @@ Called by: CG_AddCEntity
 void CG_TeamBase(int arg_0) {
 	char	local_14[8];
 	int		local_1c;
-	char	local_20[16];
+	char	local_20[12];
+	int		local_2c;
 	char	local_30[40];
-	char	local_58[72];
+	char	local_58[12];
+	char	local_64[60];
 
 	if (bss_e66f8 != 0x4) goto jmp_9d2f;
 	memset(local_14, 0x0, 0x8c);
@@ -14593,12 +15388,16 @@ CG_AddCEntity
 
 Address: 0x9d31
 Stack Size: 0x18
+Opcodes Size: 0x8e
+Locals Count: 3
+
 Calls: CG_TeamBase, CG_Grapple, CG_Speaker, CG_Portal, CG_Beam, CG_Mover, CG_Missile, CG_Item, CG_Player, CG_General, CG_Error, CG_EntityEffects, CG_CalcEntityLerpPositions
 Called by: CG_AddPacketEntities
 =================
 */
 void CG_AddCEntity(int arg_0) {
-	char	local_10[8];
+	int		local_10;
+	int		local_14;
 
 	arg_0 = arg_0;
 	if (*(int *)(arg_0 + 0x4) < 0xd) goto jmp_9d3f;
@@ -14606,10 +15405,10 @@ void CG_AddCEntity(int arg_0) {
 jmp_9d3f:
 	CG_CalcEntityLerpPositions(arg_0);
 	CG_EntityEffects(arg_0);
-	*(int *)local_10 = *(int *)(arg_0 + 0x4);
-	if (*(int *)local_10 < 0x0) goto jmp_9d62;
-	if (*(int *)local_10 > 0xc) goto jmp_9d62;
-	goto *(int *)((*(int *)local_10 << 0x2) + 0x1824);
+	local_10 = *(int *)(arg_0 + 0x4);
+	if (local_10 < 0x0) goto jmp_9d62;
+	if (local_10 > 0xc) goto jmp_9d62;
+	goto *(int *)((local_10 << 0x2) + 0x1824);
 jmp_9d62:
 	CG_Error(0x54c0, *(int *)(arg_0 + 0x4));
 	goto jmp_9dbd;
@@ -14641,6 +15440,9 @@ CG_AddPacketEntities
 
 Address: 0x9dbf
 Stack Size: 0x28
+Opcodes Size: 0xae
+Locals Count: 5
+
 Calls: CG_CalcEntityLerpPositions, CG_AddCEntity, BG_PlayerStateToEntityState, AnglesToAxis
 Called by: CG_DrawActiveFrame
 =================
@@ -14692,6 +15494,9 @@ CG_PlaceString
 
 Address: 0x9e6d
 Stack Size: 0x28
+Opcodes Size: 0xae
+Locals Count: 4
+
 Calls: Com_sprintf, va
 Called by: CG_DrawOldScoreboard, CG_Obituary
 =================
@@ -14761,6 +15566,9 @@ CG_Obituary
 
 Address: 0x9f1b
 Stack Size: 0xa4
+Opcodes Size: 0x260
+Locals Count: 19
+
 Calls: strcpy, CG_CenterPrint, va, CG_PlaceString, CG_Printf, strcat, Q_strncpyz, Info_ValueForKey, CG_ConfigString, CG_Error
 Called by: CG_EntityEvent
 =================
@@ -14776,9 +15584,11 @@ void CG_Obituary(int arg_0) {
 	char	local_54[32];
 	int		local_74;
 	int		local_78;
-	char	local_7c[16];
+	int		local_7c;
+	char	local_80[12];
 	int		local_8c;
-	char	local_90[8];
+	int		local_90;
+	int		local_94;
 	int		local_98;
 	int		local_9c;
 	int		local_a0;
@@ -14808,8 +15618,8 @@ jmp_9f67:
 	if (local_4c != 0x0) goto jmp_9f7a;
 	goto jmp_a179;
 jmp_9f7a:
-	*(int *)local_90 = Info_ValueForKey(local_4c, 0x5cbf);
-	Q_strncpyz(local_24, *(int *)local_90, 0x1e);
+	local_90 = Info_ValueForKey(local_4c, 0x5cbf);
+	Q_strncpyz(local_24, local_90, 0x1e);
 	strcat(local_24, 0x5cbc);
 	local_74 = 0x5d22;
 	if (local_48 < 0xe) goto jmp_9fcf;
@@ -14835,7 +15645,7 @@ jmp_9fcf:
 	local_44 = 0x0;
 jmp_9fd2:
 	if (local_1c != local_20) goto jmp_a058;
-	*(int *)local_7c = *(int *)(local_78 + 0x208);
+	local_7c = *(int *)(local_78 + 0x208);
 	local_9c = 0x5;
 	if (local_48 == local_9c) goto jmp_9ff9;
 	if (local_48 == 0x7) goto jmp_a010;
@@ -14844,33 +15654,33 @@ jmp_9fd2:
 	if (local_48 == 0xd) goto jmp_a03e;
 	goto jmp_a043;
 jmp_9ff9:
-	if (*(int *)local_7c != 0x1) goto jmp_a002;
+	if (local_7c != 0x1) goto jmp_a002;
 	local_44 = 0x5c26;
 	goto jmp_a058;
 jmp_a002:
-	if (*(int *)local_7c != 0x2) goto jmp_a00b;
+	if (local_7c != 0x2) goto jmp_a00b;
 	local_44 = 0x5c0b;
 	goto jmp_a058;
 jmp_a00b:
 	local_44 = 0x5bf0;
 	goto jmp_a058;
 jmp_a010:
-	if (*(int *)local_7c != 0x1) goto jmp_a019;
+	if (local_7c != 0x1) goto jmp_a019;
 	local_44 = 0x5be0;
 	goto jmp_a058;
 jmp_a019:
-	if (*(int *)local_7c != 0x2) goto jmp_a022;
+	if (local_7c != 0x2) goto jmp_a022;
 	local_44 = 0x5bd1;
 	goto jmp_a058;
 jmp_a022:
 	local_44 = 0x5bc1;
 	goto jmp_a058;
 jmp_a027:
-	if (*(int *)local_7c != 0x1) goto jmp_a030;
+	if (local_7c != 0x1) goto jmp_a030;
 	local_44 = 0x5bb2;
 	goto jmp_a058;
 jmp_a030:
-	if (*(int *)local_7c != 0x2) goto jmp_a039;
+	if (local_7c != 0x2) goto jmp_a039;
 	local_44 = 0x5ba4;
 	goto jmp_a058;
 jmp_a039:
@@ -14880,11 +15690,11 @@ jmp_a03e:
 	local_44 = 0x5b76;
 	goto jmp_a058;
 jmp_a043:
-	if (*(int *)local_7c != 0x1) goto jmp_a04c;
+	if (local_7c != 0x1) goto jmp_a04c;
 	local_44 = 0x5b67;
 	goto jmp_a058;
 jmp_a04c:
-	if (*(int *)local_7c != 0x2) goto jmp_a055;
+	if (local_7c != 0x2) goto jmp_a055;
 	local_44 = 0x5b59;
 	goto jmp_a058;
 jmp_a055:
@@ -14974,6 +15784,9 @@ CG_UseItem
 
 Address: 0xa17b
 Stack Size: 0x38
+Opcodes Size: 0xa4
+Locals Count: 9
+
 Calls: trap_S_StartSound, va, BG_FindItemForHoldable, CG_CenterPrint
 Called by: CG_EntityEvent
 =================
@@ -14983,7 +15796,8 @@ void CG_UseItem(int arg_0) {
 	int		local_1c;
 	int		local_20;
 	int		local_24;
-	char	local_28[8];
+	int		local_28;
+	int		local_2c;
 	int		local_30;
 	int		local_34;
 
@@ -15016,8 +15830,8 @@ jmp_a1ed:
 	local_34 = local_24;
 	if (local_34 < 0x0) goto jmp_a20f;
 	if (local_34 >= 0x40) goto jmp_a20f;
-	*(int *)local_28 = ((0x6b4 * local_24) + 0xe8c24);
-	*(int *)(*(int *)local_28 + 0x98) = bss_dc760;
+	local_28 = ((0x6b4 * local_24) + 0xe8c24);
+	*(int *)(local_28 + 0x98) = bss_dc760;
 jmp_a20f:
 	trap_S_StartSound(0x0, *(int *)local_1c, 0x5, bss_104468);
 jmp_a21d:
@@ -15029,6 +15843,9 @@ CG_ItemPickup
 
 Address: 0xa21f
 Stack Size: 0x8
+Opcodes Size: 0x32
+Locals Count: 1
+
 Called by: CG_EntityEvent
 =================
 */
@@ -15051,6 +15868,9 @@ CG_WaterLevel
 
 Address: 0xa251
 Stack Size: 0x48
+Opcodes Size: 0xa4
+Locals Count: 14
+
 Calls: CG_PointContents
 Called by: CG_EntityEvent, CG_PainEvent
 =================
@@ -15064,7 +15884,8 @@ int CG_WaterLevel(int arg_0) {
 	int		local_24;
 	int		local_28;
 	int		local_2c;
-	char	local_30[12];
+	int		local_30;
+	char	local_34[8];
 	int		local_3c;
 	int		local_40;
 	int		local_44;
@@ -15087,9 +15908,9 @@ jmp_a26f:
 	local_1c = local_3c;
 	if ((local_1c & 0x38) == 0x0) goto jmp_a2f0;
 	local_2c = (local_28 - 0xffffffe8);
-	*(int *)local_30 = (local_2c / 0x2);
+	local_30 = (local_2c / 0x2);
 	local_24 = 0x1;
-	local_18 = ((*(int *)(arg_0 + 0x2bc) + 0xc1c00000) + (float)*(int *)local_30);
+	local_18 = ((*(int *)(arg_0 + 0x2bc) + 0xc1c00000) + (float)local_30);
 	local_40 = CG_PointContents(&local_10, 0xffffffff);
 	local_1c = local_40;
 	if ((local_1c & 0x38) == 0x0) goto jmp_a2f0;
@@ -15109,6 +15930,9 @@ CG_PainEvent
 
 Address: 0xa2f5
 Stack Size: 0x28
+Opcodes Size: 0xa8
+Locals Count: 6
+
 Calls: trap_S_StartSound, CG_CustomSound, rand, CG_WaterLevel
 Called by: CG_CheckLocalSounds, CG_EntityEvent
 =================
@@ -15164,17 +15988,21 @@ CG_EntityEvent
 
 Address: 0xa39d
 Stack Size: 0xa4
+Opcodes Size: 0xaf8
+Locals Count: 27
+
 Calls: trap_S_StopLoopingSound, trap_S_RegisterSound, trap_S_StartSound, CG_Error, CG_Beam, CG_GibPlayer, CG_Obituary, va, CG_WaterLevel, CG_PainEvent, CG_AddBufferedSound, CG_ConfigString, CG_ShotgunFire, CG_Bullet, CG_RailTrail, CG_MissileHitWall, CG_MissileHitPlayer, ByteToDir, CG_ScorePlum, CG_SpawnEffect, CG_UseItem, CG_FireWeapon, CG_OutOfAmmoChange, CG_ItemPickup, CG_SmokePuff, CG_CustomSound, rand, CG_Printf
 Called by: CG_CheckChangedPredictableEvents, CG_CheckPlayerstateEvents, CG_CheckEvents
 =================
 */
-void CG_EntityEvent(int arg_0, int arg_1) {
+void CG_EntityEvent(int arg_0, int arg_1, int arg_1550) {
 	int		local_38;
 	int		local_3c;
 	int		local_40;
 	int		local_44;
 	char	local_48[12];
-	char	local_54[12];
+	int		local_54;
+	char	local_58[8];
 	int		local_60;
 	int		local_64;
 	int		local_68;
@@ -15614,8 +16442,8 @@ jmp_ab67:
 	goto jmp_ae93;
 jmp_ab8b:
 	local_94 = CG_ConfigString((*(int *)(local_38 + 0xb8) + 0x120));
-	*(int *)local_54 = local_94;
-	local_98 = CG_CustomSound(*(int *)local_38, *(int *)local_54);
+	local_54 = local_94;
+	local_98 = CG_CustomSound(*(int *)local_38, local_54);
 	trap_S_StartSound(0x0, *(int *)local_38, 0x3, local_98);
 	goto jmp_ae93;
 	if (bss_b2f8 == 0x0) goto jmp_abbf;
@@ -15631,8 +16459,8 @@ jmp_abbf:
 	goto jmp_ae93;
 jmp_abea:
 	local_94 = CG_ConfigString((*(int *)(local_38 + 0xb8) + 0x120));
-	*(int *)local_54 = local_94;
-	local_98 = CG_CustomSound(*(int *)local_38, *(int *)local_54);
+	local_54 = local_94;
+	local_98 = CG_CustomSound(*(int *)local_38, local_54);
 	trap_S_StartSound(0x0, *(int *)(bss_c2330 + 0xb8), 0x0, local_98);
 	goto jmp_ae93;
 	if (bss_b2f8 == 0x0) goto jmp_ac20;
@@ -15790,6 +16618,9 @@ CG_CheckEvents
 
 Address: 0xae95
 Stack Size: 0x1c
+Opcodes Size: 0x82
+Locals Count: 1
+
 Calls: CG_EntityEvent, CG_SetEntitySoundPosition, BG_EvaluateTrajectory
 Called by: CG_SetInitialSnapshot, CG_TransitionEntity
 =================
@@ -15827,6 +16658,9 @@ CG_DrawLoadingIcons
 
 Address: 0xaf17
 Stack Size: 0x30
+Opcodes Size: 0x7d
+Locals Count: 5
+
 Calls: CG_DrawPic
 Called by: CG_DrawInformation
 =================
@@ -15834,15 +16668,16 @@ Called by: CG_DrawInformation
 void CG_DrawLoadingIcons(void) {
 	int		local_1c;
 	int		local_20;
-	char	local_24[8];
+	int		local_24;
+	int		local_28;
 	int		local_2c;
 
 	local_1c = 0x0;
 	goto jmp_af4a;
 jmp_af1d:
-	*(int *)local_24 = ((0x4e * local_1c) + 0x10);
+	local_24 = ((0x4e * local_1c) + 0x10);
 	local_20 = 0x11c;
-#define next_call_arg_0 "(float)*(int *)local_24"
+#define next_call_arg_0 "(float)local_24"
 #define next_call_arg_1 "(float)local_20"
 	local_2c = 0x42800000;
 #define next_call_arg_2 "local_2c"
@@ -15859,8 +16694,8 @@ jmp_af54:
 	if (local_1c < 0xd) goto jmp_af61;
 	local_20 = (local_20 + 0x28);
 jmp_af61:
-	*(int *)local_24 = ((0x30 * (local_1c %% 0xd)) + 0x10);
-#define next_call_arg_0 "(float)*(int *)local_24"
+	local_24 = ((0x30 * (local_1c %% 0xd)) + 0x10);
+#define next_call_arg_0 "(float)local_24"
 #define next_call_arg_1 "(float)local_20"
 	local_2c = 0x42000000;
 #define next_call_arg_2 "local_2c"
@@ -15878,6 +16713,9 @@ CG_LoadingString
 
 Address: 0xaf94
 Stack Size: 0x14
+Opcodes Size: 0x10
+Locals Count: 1
+
 Calls: trap_UpdateScreen, Q_strncpyz
 Called by: CG_LoadingClient, CG_LoadingItem, CG_Init, CG_RegisterGraphics
 =================
@@ -15894,6 +16732,9 @@ CG_LoadingItem
 
 Address: 0xafa4
 Stack Size: 0x1c
+Opcodes Size: 0x41
+Locals Count: 5
+
 Calls: trap_R_RegisterShaderNoMip, CG_LoadingString
 Called by: CG_RegisterGraphics
 =================
@@ -15922,6 +16763,9 @@ CG_LoadingClient
 
 Address: 0xafe5
 Stack Size: 0xf8
+Opcodes Size: 0xf7
+Locals Count: 11
+
 Calls: trap_S_RegisterSound, trap_R_RegisterShaderNoMip, CG_LoadingString, va, Q_CleanStr, Com_sprintf, strrchr, Q_strncpyz, Info_ValueForKey, CG_ConfigString
 Called by: CG_RegisterClients
 =================
@@ -15986,6 +16830,9 @@ CG_DrawInformation
 
 Address: 0xb0dc
 Stack Size: 0x490
+Opcodes Size: 0x27f
+Locals Count: 26
+
 Calls: trap_Cvar_VariableStringBuffer, trap_R_DrawStretchPic, trap_R_RegisterShader, trap_R_SetColor, trap_R_RegisterShaderNoMip, Q_CleanStr, Q_strncpyz, atoi, UI_DrawProportionalString, CG_DrawLoadingIcons, CG_DrawPic, va, Info_ValueForKey, CG_ConfigString
 Called by: CG_DrawActiveFrame, CG_DrawActive
 =================
@@ -16010,7 +16857,8 @@ void CG_DrawInformation(void) {
 	int		local_468;
 	int		local_46c;
 	int		local_470;
-	char	local_474[8];
+	int		local_474;
+	int		local_478;
 	int		local_47c;
 	int		local_480;
 	int		local_484;
@@ -16060,8 +16908,8 @@ jmp_b190:
 	UI_DrawProportionalString(0x140, local_30, 0x5df0, 0x811, 0x1dfc);
 	local_30 = (local_30 + 0x1b);
 jmp_b1f9:
-	*(int *)local_474 = CG_ConfigString(0x4);
-	local_2c = *(int *)local_474;
+	local_474 = CG_ConfigString(0x4);
+	local_2c = local_474;
 	if ((char)*(char *)local_2c == 0x0) goto jmp_b21e;
 	UI_DrawProportionalString(0x140, local_30, local_2c, 0x811, 0x1dfc);
 	local_30 = (local_30 + 0x1b);
@@ -16080,10 +16928,10 @@ jmp_b249:
 	UI_DrawProportionalString(0x140, local_30, 0x5dd3, 0x811, 0x1dfc);
 	local_30 = (local_30 + 0x1b);
 jmp_b270:
-	*(int *)local_474 = bss_e66f8;
-	if (*(int *)local_474 < 0x0) goto jmp_b29d;
-	if (*(int *)local_474 > 0x4) goto jmp_b29d;
-	goto *(int *)((*(int *)local_474 << 0x2) + 0x1a48);
+	local_474 = bss_e66f8;
+	if (local_474 < 0x0) goto jmp_b29d;
+	if (local_474 > 0x4) goto jmp_b29d;
+	goto *(int *)((local_474 << 0x2) + 0x1a48);
 	local_2c = 0x5dc6;
 	goto jmp_b2a0;
 	local_2c = 0x5db8;
@@ -16132,6 +16980,9 @@ CG_InitLocalEntities
 
 Address: 0xb35b
 Stack Size: 0x20
+Opcodes Size: 0x36
+Locals Count: 3
+
 Calls: memset
 Called by: CG_MapRestart, CG_Init
 =================
@@ -16160,19 +17011,23 @@ CG_FreeLocalEntity
 
 Address: 0xb391
 Stack Size: 0x18
+Opcodes Size: 0x35
+Locals Count: 3
+
 Calls: CG_Error
 Called by: CG_AddLocalEntities, CG_AddScorePlum, CG_AddFallScaleFade, CG_AddScaleFade, CG_AddMoveScaleFade, CG_AddFragment, CG_AllocLocalEntity
 =================
 */
 void CG_FreeLocalEntity(int arg_0) {
-	char	local_10[8];
+	int		local_10;
+	int		local_14;
 
 	arg_0 = arg_0;
 	if (*(int *)arg_0 != 0x0) goto jmp_b3a0;
 	CG_Error(0x5f07);
 jmp_b3a0:
-	*(int *)local_10 = 0x4;
-	*(int *)(*(int *)arg_0 + *(int *)local_10) = *(int *)(arg_0 + *(int *)local_10);
+	local_10 = 0x4;
+	*(int *)(*(int *)arg_0 + local_10) = *(int *)(arg_0 + local_10);
 	*(int *)*(int *)(arg_0 + 0x4) = *(int *)arg_0;
 	*(int *)(arg_0 + 0x4) = cg_freeLocalEntities;
 	cg_freeLocalEntities = arg_0;
@@ -16184,6 +17039,9 @@ CG_AllocLocalEntity
 
 Address: 0xb3c6
 Stack Size: 0x20
+Opcodes Size: 0x42
+Locals Count: 3
+
 Calls: memset, CG_FreeLocalEntity
 Called by: CG_PlasmaTrail, CG_RailTrail, CG_ShotgunEjectBrass, CG_MachineGunEjectBrass, CG_LaunchExplode, CG_LaunchGib, CG_Bleed, CG_MakeExplosion, CG_ScorePlum, CG_SpawnEffect, CG_SmokePuff, CG_BubbleTrail
 =================
@@ -16214,6 +17072,9 @@ CG_BloodTrail
 
 Address: 0xb408
 Stack Size: 0x64
+Opcodes Size: 0x79
+Locals Count: 10
+
 Calls: CG_SmokePuff, BG_EvaluateTrajectory
 Called by: CG_AddFragment
 =================
@@ -16223,7 +17084,8 @@ void CG_BloodTrail(int arg_0) {
 	int		local_3c;
 	char	local_40[12];
 	int		local_4c;
-	char	local_50[8];
+	int		local_50;
+	int		local_54;
 	int		local_58;
 	int		local_5c;
 	int		local_60;
@@ -16231,7 +17093,7 @@ void CG_BloodTrail(int arg_0) {
 	arg_0 = arg_0;
 	local_4c = 0x96;
 	local_38 = (local_4c * (((bss_dc760 - bss_dc75c) + local_4c) / local_4c));
-	*(int *)local_50 = (local_4c * (bss_dc760 / local_4c));
+	local_50 = (local_4c * (bss_dc760 / local_4c));
 	goto jmp_b47a;
 jmp_b42c:
 	BG_EvaluateTrajectory((arg_0 + 0x20), local_38, local_40);
@@ -16255,7 +17117,7 @@ jmp_b42c:
 	*(int *)(local_3c + 0x40) = 0x42200000;
 	local_38 = (local_38 + local_4c);
 jmp_b47a:
-	if (local_38 <= *(int *)local_50) goto jmp_b42c;
+	if (local_38 <= local_50) goto jmp_b42c;
 }
 
 /*
@@ -16264,6 +17126,9 @@ CG_FragmentBounceMark
 
 Address: 0xb481
 Stack Size: 0x48
+Opcodes Size: 0xa3
+Locals Count: 7
+
 Calls: CG_ImpactMark, rand
 Called by: CG_AddFragment
 =================
@@ -16323,6 +17188,9 @@ CG_FragmentBounceSound
 
 Address: 0xb524
 Stack Size: 0x28
+Opcodes Size: 0x54
+Locals Count: 6
+
 Calls: trap_S_StartSound, rand
 Called by: CG_AddFragment
 =================
@@ -16362,6 +17230,9 @@ CG_ReflectVelocity
 
 Address: 0xb578
 Stack Size: 0x54
+Opcodes Size: 0xf0
+Locals Count: 18
+
 Calls: BG_EvaluateTrajectoryDelta
 Called by: CG_AddFragment
 =================
@@ -16372,29 +17243,34 @@ void CG_ReflectVelocity(int arg_0, int arg_1) {
 	int		local_1c;
 	int		local_20;
 	int		local_24;
-	char	local_28[8];
-	char	local_30[8];
-	char	local_38[8];
-	char	local_40[8];
-	char	local_48[8];
+	int		local_28;
+	int		local_2c;
+	int		local_30;
+	int		local_34;
+	int		local_38;
+	int		local_3c;
+	int		local_40;
+	int		local_44;
+	int		local_48;
+	int		local_4c;
 	int		local_50;
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
 	local_24 = (int)((float)(bss_dc760 - bss_dc75c) + ((float)bss_dc75c * *(int *)(arg_1 + 0x8)));
 	BG_EvaluateTrajectoryDelta((arg_0 + 0x20), local_24, &local_14);
-	*(int *)local_28 = local_14;
-	*(int *)local_30 = (arg_1 + 0x18);
-	local_20 = (((*(int *)local_28 * *(int *)*(int *)local_30) + (local_18 * *(int *)(arg_1 + 0x1c))) + (local_1c * *(int *)(arg_1 + 0x20)));
-	*(int *)(arg_0 + 0x38) = (*(int *)local_28 + (*(int *)*(int *)local_30 * (0xc0000000 * local_20)));
+	local_28 = local_14;
+	local_30 = (arg_1 + 0x18);
+	local_20 = (((local_28 * *(int *)local_30) + (local_18 * *(int *)(arg_1 + 0x1c))) + (local_1c * *(int *)(arg_1 + 0x20)));
+	*(int *)(arg_0 + 0x38) = (local_28 + (*(int *)local_30 * (0xc0000000 * local_20)));
 	*(int *)(arg_0 + 0x3c) = (local_18 + (*(int *)(arg_1 + 0x1c) * (0xc0000000 * local_20)));
 	*(int *)(arg_0 + 0x40) = (local_1c + (*(int *)(arg_1 + 0x20) * (0xc0000000 * local_20)));
-	*(int *)local_38 = (arg_0 + 0x38);
-	*(int *)*(int *)local_38 = (*(int *)*(int *)local_38 * *(int *)(arg_0 + 0x68));
-	*(int *)local_40 = (arg_0 + 0x3c);
-	*(int *)*(int *)local_40 = (*(int *)*(int *)local_40 * *(int *)(arg_0 + 0x68));
-	*(int *)local_48 = (arg_0 + 0x40);
-	*(int *)*(int *)local_48 = (*(int *)*(int *)local_48 * *(int *)(arg_0 + 0x68));
+	local_38 = (arg_0 + 0x38);
+	*(int *)local_38 = (*(int *)local_38 * *(int *)(arg_0 + 0x68));
+	local_40 = (arg_0 + 0x3c);
+	*(int *)local_40 = (*(int *)local_40 * *(int *)(arg_0 + 0x68));
+	local_48 = (arg_0 + 0x40);
+	*(int *)local_48 = (*(int *)local_48 * *(int *)(arg_0 + 0x68));
 	block_copy((arg_1 + 0xc), (arg_0 + 0x2c), 0xc);
 	*(int *)(arg_0 + 0x24) = bss_dc760;
 	if (*(int *)arg_1 != 0x0) goto jmp_b660;
@@ -16413,6 +17289,9 @@ CG_AddFragment
 
 Address: 0xb668
 Stack Size: 0x7c
+Opcodes Size: 0x106
+Locals Count: 10
+
 Calls: trap_R_AddRefEntityToScene, CG_ReflectVelocity, CG_FragmentBounceSound, CG_FragmentBounceMark, CG_FreeLocalEntity, CG_PointContents, CG_BloodTrail, AnglesToAxis, CG_Trace, BG_EvaluateTrajectory
 Called by: CG_AddLocalEntities
 =================
@@ -16423,7 +17302,8 @@ void CG_AddFragment(int arg_0) {
 	char	local_30[44];
 	char	local_5c[12];
 	int		local_68;
-	char	local_6c[8];
+	int		local_6c;
+	int		local_70;
 	int		local_74;
 	int		local_78;
 
@@ -16435,10 +17315,10 @@ void CG_AddFragment(int arg_0) {
 	local_74 = (arg_0 + 0x9c);
 	*(int *)local_74 = (*(int *)local_74 | 0x80);
 	local_78 = (arg_0 + 0xe4);
-	*(int *)local_6c = *(int *)local_78;
+	local_6c = *(int *)local_78;
 	*(int *)local_78 = (*(int *)local_78 - (0x41800000 * (0x3f800000 - ((float)local_68 / 0x447a0000))));
 	trap_R_AddRefEntityToScene((arg_0 + 0x98));
-	*(int *)(arg_0 + 0xe4) = *(int *)local_6c;
+	*(int *)(arg_0 + 0xe4) = local_6c;
 	goto jmp_b76c;
 jmp_b6c5:
 	trap_R_AddRefEntityToScene((arg_0 + 0x98));
@@ -16457,16 +17337,16 @@ jmp_b6cf:
 	if (local_2c != 0x3f800000) goto jmp_b736;
 	block_copy(local_5c, (arg_0 + 0xdc), 0xc);
 	if ((*(int *)(arg_0 + 0xc) & 0x2) == 0x0) goto jmp_b71f;
-	BG_EvaluateTrajectory((arg_0 + 0x44), bss_dc760, local_6c);
-	AnglesToAxis(local_6c, (arg_0 + 0xb4));
+	BG_EvaluateTrajectory((arg_0 + 0x44), bss_dc760, &local_6c);
+	AnglesToAxis(&local_6c, (arg_0 + 0xb4));
 jmp_b71f:
 	trap_R_AddRefEntityToScene((arg_0 + 0x98));
 	if (*(int *)(arg_0 + 0x94) != 0x1) goto jmp_b76c;
 	CG_BloodTrail(arg_0);
 	goto jmp_b76c;
 jmp_b736:
-	*(int *)local_6c = CG_PointContents(local_30, 0x0);
-	if ((*(int *)local_6c & 0x80000000) == 0x0) goto jmp_b74c;
+	local_6c = CG_PointContents(local_30, 0x0);
+	if ((local_6c & 0x80000000) == 0x0) goto jmp_b74c;
 	CG_FreeLocalEntity(arg_0);
 	goto jmp_b76c;
 jmp_b74c:
@@ -16483,6 +17363,9 @@ CG_AddFadeRGB
 
 Address: 0xb76e
 Stack Size: 0x48
+Opcodes Size: 0xd2
+Locals Count: 16
+
 Calls: trap_R_AddRefEntityToScene
 Called by: CG_AddLocalEntities
 =================
@@ -16490,7 +17373,8 @@ Called by: CG_AddLocalEntities
 void CG_AddFadeRGB(int arg_0) {
 	int		local_c;
 	int		local_10;
-	char	local_14[8];
+	int		local_14;
+	int		local_18;
 	int		local_1c;
 	int		local_20;
 	int		local_24;
@@ -16510,12 +17394,12 @@ void CG_AddFadeRGB(int arg_0) {
 	local_1c = (*(int *)(arg_0 + 0x6c) * local_10);
 	local_20 = 0x4f000000;
 	if (local_1c < local_20) goto jmp_b7ae;
-	*(int *)local_14 = ((int)(local_1c - local_20) + 0x80000000);
+	local_14 = ((int)(local_1c - local_20) + 0x80000000);
 	goto jmp_b7b3;
 jmp_b7ae:
-	*(int *)local_14 = (int)local_1c;
+	local_14 = (int)local_1c;
 jmp_b7b3:
-	*(char *)(local_c + 0x74) = *(int *)local_14;
+	*(char *)(local_c + 0x74) = local_14;
 	local_28 = (*(int *)(arg_0 + 0x70) * local_10);
 	local_2c = 0x4f000000;
 	if (local_28 < local_2c) goto jmp_b7d8;
@@ -16552,6 +17436,9 @@ CG_AddMoveScaleFade
 
 Address: 0xb840
 Stack Size: 0x48
+Opcodes Size: 0xe3
+Locals Count: 14
+
 Calls: trap_R_AddRefEntityToScene, CG_FreeLocalEntity, VectorLength, BG_EvaluateTrajectory
 Called by: CG_AddLocalEntities
 =================
@@ -16562,11 +17449,13 @@ void CG_AddMoveScaleFade(int arg_0) {
 	int		local_1c;
 	int		local_20;
 	int		local_24;
-	char	local_28[8];
+	int		local_28;
+	int		local_2c;
 	int		local_30;
 	int		local_34;
 	int		local_38;
-	char	local_3c[8];
+	int		local_3c;
+	int		local_40;
 	int		local_44;
 
 	arg_0 = arg_0;
@@ -16581,9 +17470,9 @@ jmp_b87c:
 	local_24 = ((float)(*(int *)(arg_0 + 0x14) - bss_dc760) * *(int *)(arg_0 + 0x1c));
 jmp_b88d:
 	local_38 = ((0x437f0000 * local_24) * *(int *)(arg_0 + 0x78));
-	*(int *)local_3c = 0x4f000000;
-	if (local_38 < *(int *)local_3c) goto jmp_b8ad;
-	local_34 = ((int)(local_38 - *(int *)local_3c) + 0x80000000);
+	local_3c = 0x4f000000;
+	if (local_38 < local_3c) goto jmp_b8ad;
+	local_34 = ((int)(local_38 - local_3c) + 0x80000000);
 	goto jmp_b8b2;
 jmp_b8ad:
 	local_34 = (int)local_38;
@@ -16597,8 +17486,8 @@ jmp_b8d3:
 	local_1c = (*(int *)(local_14 + 0x48) - bss_dcd10);
 	local_20 = (*(int *)(local_14 + 0x4c) - bss_dcd14);
 	local_44 = VectorLength(&local_18);
-	*(int *)local_28 = local_44;
-	if (*(int *)local_28 >= *(int *)(arg_0 + 0x7c)) goto jmp_b91b;
+	local_28 = local_44;
+	if (local_28 >= *(int *)(arg_0 + 0x7c)) goto jmp_b91b;
 	CG_FreeLocalEntity(arg_0);
 	goto jmp_b921;
 jmp_b91b:
@@ -16612,6 +17501,9 @@ CG_AddScaleFade
 
 Address: 0xb923
 Stack Size: 0x3c
+Opcodes Size: 0x99
+Locals Count: 13
+
 Calls: trap_R_AddRefEntityToScene, CG_FreeLocalEntity, VectorLength
 Called by: CG_AddLocalEntities
 =================
@@ -16623,23 +17515,25 @@ void CG_AddScaleFade(int arg_0) {
 	int		local_18;
 	int		local_1c;
 	int		local_20;
-	char	local_24[8];
+	int		local_24;
+	int		local_28;
 	int		local_2c;
-	char	local_30[8];
+	int		local_30;
+	int		local_34;
 	int		local_38;
 
 	arg_0 = arg_0;
 	local_c = (arg_0 + 0x98);
 	local_1c = ((float)(*(int *)(arg_0 + 0x14) - bss_dc760) * *(int *)(arg_0 + 0x1c));
 	local_2c = ((0x437f0000 * local_1c) * *(int *)(arg_0 + 0x78));
-	*(int *)local_30 = 0x4f000000;
-	if (local_2c < *(int *)local_30) goto jmp_b95f;
-	*(int *)local_24 = ((int)(local_2c - *(int *)local_30) + 0x80000000);
+	local_30 = 0x4f000000;
+	if (local_2c < local_30) goto jmp_b95f;
+	local_24 = ((int)(local_2c - local_30) + 0x80000000);
 	goto jmp_b964;
 jmp_b95f:
-	*(int *)local_24 = (int)local_2c;
+	local_24 = (int)local_2c;
 jmp_b964:
-	*(char *)(local_c + 0x77) = *(int *)local_24;
+	*(char *)(local_c + 0x77) = local_24;
 	*(int *)(local_c + 0x84) = ((*(int *)(arg_0 + 0x7c) * (0x3f800000 - local_1c)) + 0x41000000);
 	local_10 = (*(int *)(local_c + 0x44) - bss_dcd0c);
 	local_14 = (*(int *)(local_c + 0x48) - bss_dcd10);
@@ -16660,6 +17554,9 @@ CG_AddFallScaleFade
 
 Address: 0xb9bc
 Stack Size: 0x40
+Opcodes Size: 0xae
+Locals Count: 13
+
 Calls: trap_R_AddRefEntityToScene, CG_FreeLocalEntity, VectorLength
 Called by: CG_AddLocalEntities
 =================
@@ -16671,23 +17568,25 @@ void CG_AddFallScaleFade(int arg_0) {
 	int		local_18;
 	int		local_1c;
 	int		local_20;
-	char	local_24[8];
+	int		local_24;
+	int		local_28;
 	int		local_2c;
-	char	local_30[12];
+	int		local_30;
+	char	local_34[8];
 	int		local_3c;
 
 	arg_0 = arg_0;
 	local_c = (arg_0 + 0x98);
 	local_10 = ((float)(*(int *)(arg_0 + 0x14) - bss_dc760) * *(int *)(arg_0 + 0x1c));
 	local_2c = ((0x437f0000 * local_10) * *(int *)(arg_0 + 0x78));
-	*(int *)local_30 = 0x4f000000;
-	if (local_2c < *(int *)local_30) goto jmp_b9f8;
-	*(int *)local_24 = ((int)(local_2c - *(int *)local_30) + 0x80000000);
+	local_30 = 0x4f000000;
+	if (local_2c < local_30) goto jmp_b9f8;
+	local_24 = ((int)(local_2c - local_30) + 0x80000000);
 	goto jmp_b9fd;
 jmp_b9f8:
-	*(int *)local_24 = (int)local_2c;
+	local_24 = (int)local_2c;
 jmp_b9fd:
-	*(char *)(local_c + 0x77) = *(int *)local_24;
+	*(char *)(local_c + 0x77) = local_24;
 	*(int *)(local_c + 0x4c) = (*(int *)(arg_0 + 0x34) - ((0x3f800000 - local_10) * *(int *)(arg_0 + 0x40)));
 	*(int *)(local_c + 0x84) = ((*(int *)(arg_0 + 0x7c) * (0x3f800000 - local_10)) + 0x41800000);
 	local_14 = (*(int *)(local_c + 0x44) - bss_dcd0c);
@@ -16709,29 +17608,34 @@ CG_AddExplosion
 
 Address: 0xba6a
 Stack Size: 0x30
+Opcodes Size: 0x6d
+Locals Count: 6
+
 Calls: trap_R_AddLightToScene, trap_R_AddRefEntityToScene
 Called by: CG_AddLocalEntities
 =================
 */
 void CG_AddExplosion(int arg_0) {
 	int		local_1c;
-	char	local_20[8];
-	char	local_28[8];
+	int		local_20;
+	int		local_24;
+	int		local_28;
+	int		local_2c;
 
 	arg_0 = arg_0;
 	local_1c = (arg_0 + 0x98);
 	trap_R_AddRefEntityToScene(local_1c);
 	if (*(int *)(arg_0 + 0x80) == 0x0) goto jmp_bad5;
-	*(int *)local_28 = *(int *)(arg_0 + 0x10);
-	*(int *)local_20 = ((float)(bss_dc760 - *(int *)local_28) / (float)(*(int *)(arg_0 + 0x14) - *(int *)local_28));
-	if (*(int *)local_20 >= 0x3f000000) goto jmp_baa4;
-	*(int *)local_20 = 0x3f800000;
+	local_28 = *(int *)(arg_0 + 0x10);
+	local_20 = ((float)(bss_dc760 - local_28) / (float)(*(int *)(arg_0 + 0x14) - local_28));
+	if (local_20 >= 0x3f000000) goto jmp_baa4;
+	local_20 = 0x3f800000;
 	goto jmp_baae;
 jmp_baa4:
-	*(int *)local_20 = (0x3f800000 - (0x40000000 * (*(int *)local_20 - 0x3f000000)));
+	local_20 = (0x3f800000 - (0x40000000 * (local_20 - 0x3f000000)));
 jmp_baae:
-	*(int *)local_20 = (*(int *)(arg_0 + 0x80) * *(int *)local_20);
-	trap_R_AddLightToScene((local_1c + 0x44), *(int *)local_20, *(int *)(arg_0 + 0x84), *(int *)(arg_0 + 0x88), *(int *)(arg_0 + 0x8c));
+	local_20 = (*(int *)(arg_0 + 0x80) * local_20);
+	trap_R_AddLightToScene((local_1c + 0x44), local_20, *(int *)(arg_0 + 0x84), *(int *)(arg_0 + 0x88), *(int *)(arg_0 + 0x8c));
 jmp_bad5:
 }
 
@@ -16741,6 +17645,9 @@ CG_AddSpriteExplosion
 
 Address: 0xbad7
 Stack Size: 0xd0
+Opcodes Size: 0xc4
+Locals Count: 18
+
 Calls: trap_R_AddLightToScene, trap_R_AddRefEntityToScene
 Called by: CG_AddLocalEntities
 =================
@@ -16752,14 +17659,17 @@ void CG_AddSpriteExplosion(int arg_0) {
 	char	local_91;
 	char	local_92;
 	char	local_93[13];
-	char	local_a0[8];
+	int		local_a0;
+	int		local_a4;
 	char	local_a8[8];
 	int		local_b0;
 	int		local_b4;
 	int		local_b8;
 	int		local_bc;
-	char	local_c0[8];
-	char	local_c8[8];
+	int		local_c0;
+	int		local_c4;
+	int		local_c8;
+	int		local_cc;
 
 	arg_0 = arg_0;
 	block_copy((arg_0 + 0x98), local_1c, 0x8c);
@@ -16781,19 +17691,19 @@ jmp_bb27:
 jmp_bb2c:
 	*(char *)local_93 = local_b4;
 	*(int *)local_1c = 0x2;
-	*(int *)local_a0 = ((0x42280000 * (0x3f800000 - *(int *)local_a8)) + 0x41f00000);
+	local_a0 = ((0x42280000 * (0x3f800000 - *(int *)local_a8)) + 0x41f00000);
 	trap_R_AddRefEntityToScene(local_1c);
 	if (*(int *)(arg_0 + 0x80) == 0x0) goto jmp_bb99;
-	*(int *)local_c8 = *(int *)(arg_0 + 0x10);
-	*(int *)local_c0 = ((float)(bss_dc760 - *(int *)local_c8) / (float)(*(int *)(arg_0 + 0x14) - *(int *)local_c8));
-	if (*(int *)local_c0 >= 0x3f000000) goto jmp_bb6b;
-	*(int *)local_c0 = 0x3f800000;
+	local_c8 = *(int *)(arg_0 + 0x10);
+	local_c0 = ((float)(bss_dc760 - local_c8) / (float)(*(int *)(arg_0 + 0x14) - local_c8));
+	if (local_c0 >= 0x3f000000) goto jmp_bb6b;
+	local_c0 = 0x3f800000;
 	goto jmp_bb75;
 jmp_bb6b:
-	*(int *)local_c0 = (0x3f800000 - (0x40000000 * (*(int *)local_c0 - 0x3f000000)));
+	local_c0 = (0x3f800000 - (0x40000000 * (local_c0 - 0x3f000000)));
 jmp_bb75:
-	*(int *)local_c0 = (*(int *)(arg_0 + 0x80) * *(int *)local_c0);
-	trap_R_AddLightToScene(local_60, *(int *)local_c0, *(int *)(arg_0 + 0x84), *(int *)(arg_0 + 0x88), *(int *)(arg_0 + 0x8c));
+	local_c0 = (*(int *)(arg_0 + 0x80) * local_c0);
+	trap_R_AddLightToScene(local_60, local_c0, *(int *)(arg_0 + 0x84), *(int *)(arg_0 + 0x88), *(int *)(arg_0 + 0x8c));
 jmp_bb99:
 }
 
@@ -16803,11 +17713,14 @@ CG_AddScorePlum
 
 Address: 0xbb9b
 Stack Size: 0xc0
+Opcodes Size: 0x23b
+Locals Count: 33
+
 Calls: trap_R_AddRefEntityToScene, sin, CG_FreeLocalEntity, VectorLength, VectorNormalize, CrossProduct
 Called by: CG_AddLocalEntities
 =================
 */
-void CG_AddScorePlum(int arg_0) {
+void CG_AddScorePlum(int arg_0, int arg_1640) {
 	int		local_14;
 	int		local_18;
 	int		local_1c;
@@ -16951,27 +17864,32 @@ CG_AddLocalEntities
 
 Address: 0xbdd6
 Stack Size: 0x24
+Opcodes Size: 0x88
+Locals Count: 5
+
 Calls: CG_AddScorePlum, CG_AddScaleFade, CG_AddFallScaleFade, CG_AddFadeRGB, CG_AddMoveScaleFade, CG_AddFragment, CG_AddExplosion, CG_AddSpriteExplosion, CG_Error, CG_FreeLocalEntity
 Called by: CG_DrawActiveFrame
 =================
 */
 void CG_AddLocalEntities(void) {
 	int		local_10;
-	char	local_14[8];
-	char	local_1c[8];
+	int		local_14;
+	int		local_18;
+	int		local_1c;
+	int		local_20;
 
 	local_10 = cg_activeLocalEntities;
 	goto jmp_be58;
 jmp_bddd:
-	*(int *)local_14 = *(int *)local_10;
+	local_14 = *(int *)local_10;
 	if (bss_dc760 < *(int *)(local_10 + 0x14)) goto jmp_bdf2;
 	CG_FreeLocalEntity(local_10);
 	goto jmp_be54;
 jmp_bdf2:
-	*(int *)local_1c = *(int *)(local_10 + 0x8);
-	if (*(int *)local_1c < 0x0) goto jmp_be09;
-	if (*(int *)local_1c > 0x8) goto jmp_be09;
-	goto *(int *)((*(int *)local_1c << 0x2) + 0x1a68);
+	local_1c = *(int *)(local_10 + 0x8);
+	if (local_1c < 0x0) goto jmp_be09;
+	if (local_1c > 0x8) goto jmp_be09;
+	goto *(int *)((local_1c << 0x2) + 0x1a68);
 jmp_be09:
 	CG_Error(0x5ef8, *(int *)(local_10 + 0x8));
 	goto jmp_be54;
@@ -16991,7 +17909,7 @@ jmp_be09:
 	goto jmp_be54;
 	CG_AddScorePlum(local_10);
 jmp_be54:
-	local_10 = *(int *)local_14;
+	local_10 = local_14;
 jmp_be58:
 	if (local_10 != 0x105030) goto jmp_bddd;
 }
@@ -17002,6 +17920,9 @@ CG_InitMarkPolys
 
 Address: 0xbe5e
 Stack Size: 0x20
+Opcodes Size: 0x36
+Locals Count: 3
+
 Calls: memset
 Called by: CG_MapRestart, CG_Init
 =================
@@ -17030,23 +17951,28 @@ CG_FreeMarkPoly
 
 Address: 0xbe94
 Stack Size: 0x20
+Opcodes Size: 0x41
+Locals Count: 5
+
 Calls: CG_Error
 Called by: CG_AddMarks, CG_AllocMark
 =================
 */
 void CG_FreeMarkPoly(int arg_0) {
-	char	local_10[8];
-	char	local_18[8];
+	int		local_10;
+	int		local_14;
+	int		local_18;
+	int		local_1c;
 
 	arg_0 = arg_0;
-	*(int *)local_10 = 0x0;
-	if (*(int *)arg_0 == *(int *)local_10) goto jmp_beaa;
-	if (*(int *)(arg_0 + 0x4) != *(int *)local_10) goto jmp_beaf;
+	local_10 = 0x0;
+	if (*(int *)arg_0 == local_10) goto jmp_beaa;
+	if (*(int *)(arg_0 + 0x4) != local_10) goto jmp_beaf;
 jmp_beaa:
 	CG_Error(0x5f4c);
 jmp_beaf:
-	*(int *)local_18 = 0x4;
-	*(int *)(*(int *)arg_0 + *(int *)local_18) = *(int *)(arg_0 + *(int *)local_18);
+	local_18 = 0x4;
+	*(int *)(*(int *)arg_0 + local_18) = *(int *)(arg_0 + local_18);
 	*(int *)*(int *)(arg_0 + 0x4) = *(int *)arg_0;
 	*(int *)(arg_0 + 0x4) = cg_freeMarkPolys;
 	cg_freeMarkPolys = arg_0;
@@ -17058,6 +17984,9 @@ CG_AllocMark
 
 Address: 0xbed5
 Stack Size: 0x24
+Opcodes Size: 0x5b
+Locals Count: 4
+
 Calls: memset, CG_FreeMarkPoly
 Called by: CG_ImpactMark
 =================
@@ -17096,6 +18025,9 @@ CG_ImpactMark
 
 Address: 0xbf30
 Stack Size: 0x17ec
+Opcodes Size: 0x2ea
+Locals Count: 60
+
 Calls: memcpy, trap_R_AddPolyToScene, trap_CM_MarkFragments, CG_AllocMark, CrossProduct, RotatePointAroundVector, PerpendicularVector, VectorNormalize2, CG_Error
 Called by: CG_MissileHitWall, CG_PlayerShadow, CG_FragmentBounceMark
 =================
@@ -17126,7 +18058,8 @@ void CG_ImpactMark(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4, int ar
 	int		local_1294;
 	int		local_1298;
 	char	local_129c[1024];
-	char	local_169c[8];
+	int		local_169c;
+	int		local_16a0;
 	int		local_16a4;
 	int		local_16a8;
 	int		local_16ac;
@@ -17145,7 +18078,8 @@ void CG_ImpactMark(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4, int ar
 	char	local_16e0[240];
 	int		local_17d0;
 	int		local_17d4;
-	char	local_17d8[12];
+	int		local_17d8;
+	char	local_17dc[8];
 	int		local_17e4;
 	int		local_17e8;
 
@@ -17172,8 +18106,8 @@ jmp_bf68:
 	local_54 = (0x3f000000 / arg_9);
 	local_50 = 0x0;
 jmp_bf95:
-	*(int *)local_169c = (local_50 << 0x2);
-	*(int *)(*(int *)local_169c + local_125c) = ((*(int *)(*(int *)local_169c + arg_1) - (arg_9 * *(int *)(*(int *)local_169c + &local_30))) - (arg_9 * *(int *)(*(int *)local_169c + &local_3c)));
+	local_169c = (local_50 << 0x2);
+	*(int *)(local_169c + local_125c) = ((*(int *)(local_169c + arg_1) - (arg_9 * *(int *)(local_169c + &local_30))) - (arg_9 * *(int *)(local_169c + &local_3c)));
 	local_16a4 = (local_50 << 0x2);
 	*(int *)(local_16a4 + local_1268) = ((*(int *)(local_16a4 + arg_1) + (arg_9 * *(int *)(local_16a4 + &local_30))) - (arg_9 * *(int *)(local_16a4 + &local_3c)));
 	local_16ac = (local_50 << 0x2);
@@ -17182,9 +18116,9 @@ jmp_bf95:
 	*(int *)(local_16b4 + local_1280) = ((*(int *)(local_16b4 + arg_1) - (arg_9 * *(int *)(local_16b4 + &local_30))) + (arg_9 * *(int *)(local_16b4 + &local_3c)));
 	local_50 = (local_50 + 0x1);
 	if (local_50 < 0x3) goto jmp_bf95;
-	*(int *)local_169c = 0xc1a00000;
-	local_1290 = (*(int *)local_169c * *(int *)arg_2);
-	local_1294 = (*(int *)local_169c * *(int *)(arg_2 + 0x4));
+	local_169c = 0xc1a00000;
+	local_1290 = (local_169c * *(int *)arg_2);
+	local_1294 = (local_169c * *(int *)(arg_2 + 0x4));
 	local_1298 = (0xc1a00000 * *(int *)(arg_2 + 0x8));
 	local_16a4 = trap_CM_MarkFragments(0x4, local_125c, &local_1290, 0x180, local_5c, 0x80, local_129c);
 	local_128c = local_16a4;
@@ -17240,9 +18174,9 @@ jmp_c108:
 	local_17e4 = 0x4;
 	local_17d4 = (*(int *)(local_16d8 + local_17e4) - *(int *)(arg_1 + local_17e4));
 	local_17e8 = 0x8;
-	*(int *)local_17d8 = (*(int *)(local_16d8 + local_17e8) - *(int *)(arg_1 + local_17e8));
-	*(int *)(local_16d8 + 0xc) = (((((local_17d0 * local_30) + (local_17d4 * local_34)) + (*(int *)local_17d8 * local_38)) * local_54) + 0x3f000000);
-	*(int *)(local_16d8 + 0x10) = (((((local_17d0 * local_3c) + (local_17d4 * local_40)) + (*(int *)local_17d8 * local_44)) * local_54) + 0x3f000000);
+	local_17d8 = (*(int *)(local_16d8 + local_17e8) - *(int *)(arg_1 + local_17e8));
+	*(int *)(local_16d8 + 0xc) = (((((local_17d0 * local_30) + (local_17d4 * local_34)) + (local_17d8 * local_38)) * local_54) + 0x3f000000);
+	*(int *)(local_16d8 + 0x10) = (((((local_17d0 * local_3c) + (local_17d4 * local_40)) + (local_17d8 * local_44)) * local_54) + 0x3f000000);
 	*(int *)(local_16d8 + 0x14) = *(int *)&local_58;
 	local_48 = (local_48 + 0x1);
 	local_16d8 = (local_16d8 + 0x18);
@@ -17279,6 +18213,9 @@ CG_AddMarks
 
 Address: 0xc21a
 Stack Size: 0x68
+Opcodes Size: 0x21d
+Locals Count: 21
+
 Calls: trap_R_AddPolyToScene, CG_FreeMarkPoly
 Called by: CG_DrawActiveFrame
 =================
@@ -17288,7 +18225,8 @@ void CG_AddMarks(void) {
 	int		local_18;
 	int		local_1c;
 	int		local_20;
-	char	local_24[8];
+	int		local_24;
+	int		local_28;
 	int		local_2c;
 	int		local_30;
 	int		local_34;
@@ -17311,7 +18249,7 @@ jmp_c221:
 	local_14 = bss_129960;
 	goto jmp_c431;
 jmp_c227:
-	*(int *)local_24 = *(int *)(local_14 + 0x4);
+	local_24 = *(int *)(local_14 + 0x4);
 	if (bss_dc760 <= (*(int *)(local_14 + 0x8) + 0x2710)) goto jmp_c240;
 	CG_FreeMarkPoly(local_14);
 	goto jmp_c42d;
@@ -17411,7 +18349,7 @@ jmp_c411:
 jmp_c419:
 	trap_R_AddPolyToScene(*(int *)(local_14 + 0xc), *(int *)(local_14 + 0x28), (local_14 + 0x30));
 jmp_c42d:
-	local_14 = *(int *)local_24;
+	local_14 = local_24;
 jmp_c431:
 	if (local_14 != 0x12995c) goto jmp_c227;
 jmp_c435:
@@ -17423,14 +18361,19 @@ CG_ClearParticles
 
 Address: 0xc437
 Stack Size: 0x30
+Opcodes Size: 0xa3
+Locals Count: 7
+
 Calls: trap_R_RegisterShader, memset, va
 Called by: CG_MapRestart, CG_AddParticles, CG_RegisterGraphics
 =================
 */
 void CG_ClearParticles(void) {
 	int		local_14;
-	char	local_18[8];
-	char	local_20[8];
+	int		local_18;
+	int		local_1c;
+	int		local_20;
+	int		local_24;
 	int		local_28;
 	int		local_2c;
 
@@ -17440,8 +18383,8 @@ void CG_ClearParticles(void) {
 	local_14 = 0x0;
 	goto jmp_c469;
 jmp_c44c:
-	*(int *)local_18 = (0x7c * local_14);
-	*(int *)(*(int *)local_18 + 0x13bac8) = (*(int *)local_18 + 0x13bb44);
+	local_18 = (0x7c * local_14);
+	*(int *)(local_18 + 0x13bac8) = (local_18 + 0x13bb44);
 	*(int *)((0x7c * local_14) + 0x13bb08) = 0x0;
 	local_14 = (local_14 + 0x1);
 jmp_c469:
@@ -17451,19 +18394,19 @@ jmp_c469:
 	local_14 = 0x0;
 	goto jmp_c4c8;
 jmp_c480:
-	*(int *)local_18 = 0x0;
+	local_18 = 0x0;
 	goto jmp_c4b8;
 jmp_c485:
 #define next_call_arg_0 "0x6117"
-	*(int *)local_20 = 0x2;
-#define next_call_arg_1 "*(int *)((local_14 << *(int *)local_20) + 0x1a8c)"
-#define next_call_arg_2 "(*(int *)local_18 + 0x1)"
+	local_20 = 0x2;
+#define next_call_arg_1 "*(int *)((local_14 << local_20) + 0x1a8c)"
+#define next_call_arg_2 "(local_18 + 0x1)"
 	local_28 = va();
 	local_2c = trap_R_RegisterShader(local_28);
-	*(int *)((*(int *)local_18 << *(int *)local_20) + ((local_14 << 0x8) + 0x15aad4)) = local_2c;
-	*(int *)local_18 = (*(int *)local_18 + 0x1);
+	*(int *)((local_18 << local_20) + ((local_14 << 0x8) + 0x15aad4)) = local_2c;
+	local_18 = (local_18 + 0x1);
 jmp_c4b8:
-	if (*(int *)local_18 < *(int *)((local_14 << 0x2) + 0x1b0c)) goto jmp_c485;
+	if (local_18 < *(int *)((local_14 << 0x2) + 0x1b0c)) goto jmp_c485;
 	local_14 = (local_14 + 0x1);
 jmp_c4c8:
 	if (*(int *)((local_14 << 0x2) + 0x1a8c) != 0x0) goto jmp_c480;
@@ -17477,16 +18420,20 @@ CG_AddParticleToScene
 
 Address: 0xc4da
 Stack Size: 0x1f4
+Opcodes Size: 0x17ae
+Locals Count: 140
+
 Calls: trap_R_AddPolyToScene, floor, cos, sqrt, sin, AngleVectors, vectoangles, Distance, rand
 Called by: CG_AddParticles
 =================
 */
-void CG_AddParticleToScene(int arg_0, int arg_1) {
+void CG_AddParticleToScene(int arg_0, int arg_1, int arg_323108, int arg_323111, int arg_323117, int arg_323120) {
 	int		local_18;
 	int		local_1c;
 	int		local_20;
 	int		local_24;
-	char	local_28[8];
+	int		local_28;
+	int		local_2c;
 	int		local_30;
 	int		local_34;
 	char	local_38;
@@ -17494,7 +18441,8 @@ void CG_AddParticleToScene(int arg_0, int arg_1) {
 	char	local_3a;
 	char	local_3b;
 	int		local_3c;
-	char	local_40[8];
+	int		local_40;
+	int		local_44;
 	int		local_48;
 	int		local_4c;
 	char	local_50;
@@ -17502,7 +18450,8 @@ void CG_AddParticleToScene(int arg_0, int arg_1) {
 	char	local_52;
 	char	local_53;
 	int		local_54;
-	char	local_58[8];
+	int		local_58;
+	int		local_5c;
 	int		local_60;
 	int		local_64;
 	char	local_68;
@@ -17510,7 +18459,8 @@ void CG_AddParticleToScene(int arg_0, int arg_1) {
 	char	local_6a;
 	char	local_6b;
 	int		local_6c;
-	char	local_70[8];
+	int		local_70;
+	int		local_74;
 	int		local_78;
 	int		local_7c;
 	char	local_80;
@@ -18401,7 +19351,7 @@ jmp_d687:
 	local_114 = ((local_dc * local_140) * local_144);
 	block_copy(arg_1, &local_24, 0xc);
 	local_24 = (local_24 - local_110);
-	*(int *)local_28 = (*(int *)local_28 - local_114);
+	local_28 = (local_28 - local_114);
 	local_30 = 0x0;
 	local_34 = 0x0;
 	local_14c = (0x437f0000 * local_d0);
@@ -18434,7 +19384,7 @@ jmp_d742:
 	local_3b = 0xff;
 	block_copy(arg_1, &local_3c, 0xc);
 	local_3c = (local_3c - local_114);
-	*(int *)local_40 = (*(int *)local_40 + local_110);
+	local_40 = (local_40 + local_110);
 	local_48 = 0x0;
 	local_4c = 0x3f800000;
 	local_170 = (0x437f0000 * local_d0);
@@ -18467,7 +19417,7 @@ jmp_d7c6:
 	local_53 = 0xff;
 	block_copy(arg_1, &local_54, 0xc);
 	local_54 = (local_54 + local_110);
-	*(int *)local_58 = (*(int *)local_58 + local_114);
+	local_58 = (local_58 + local_114);
 	local_60 = 0x3f800000;
 	local_64 = 0x3f800000;
 	local_194 = (0x437f0000 * local_d0);
@@ -18500,7 +19450,7 @@ jmp_d84a:
 	local_6b = 0xff;
 	block_copy(arg_1, &local_6c, 0xc);
 	local_6c = (local_6c + local_114);
-	*(int *)local_70 = (*(int *)local_70 - local_110);
+	local_70 = (local_70 - local_110);
 	local_78 = 0x3f800000;
 	local_7c = 0x0;
 	local_1b8 = (0x437f0000 * local_d0);
@@ -18536,7 +19486,7 @@ jmp_d8d7:
 	if (*(int *)(arg_0 + 0x40) != 0x2) goto jmp_d988;
 	block_copy(arg_1, &local_24, 0xc);
 	local_24 = (local_24 - *(int *)(arg_0 + 0x48));
-	*(int *)local_28 = (*(int *)local_28 - *(int *)(arg_0 + 0x4c));
+	local_28 = (local_28 - *(int *)(arg_0 + 0x4c));
 	local_30 = 0x0;
 	local_34 = 0x0;
 	local_38 = 0xff;
@@ -18545,7 +19495,7 @@ jmp_d8d7:
 	local_3b = 0xff;
 	block_copy(arg_1, &local_3c, 0xc);
 	local_3c = (local_3c - *(int *)(arg_0 + 0x48));
-	*(int *)local_40 = (*(int *)local_40 + *(int *)(arg_0 + 0x4c));
+	local_40 = (local_40 + *(int *)(arg_0 + 0x4c));
 	local_48 = 0x0;
 	local_4c = 0x3f800000;
 	local_50 = 0xff;
@@ -18554,7 +19504,7 @@ jmp_d8d7:
 	local_53 = 0xff;
 	block_copy(arg_1, &local_54, 0xc);
 	local_54 = (local_54 + *(int *)(arg_0 + 0x48));
-	*(int *)local_58 = (*(int *)local_58 + *(int *)(arg_0 + 0x4c));
+	local_58 = (local_58 + *(int *)(arg_0 + 0x4c));
 	local_60 = 0x3f800000;
 	local_64 = 0x3f800000;
 	local_68 = 0xff;
@@ -18563,7 +19513,7 @@ jmp_d8d7:
 	local_6b = 0xff;
 	block_copy(arg_1, &local_6c, 0xc);
 	local_6c = (local_6c + *(int *)(arg_0 + 0x48));
-	*(int *)local_70 = (*(int *)local_70 - *(int *)(arg_0 + 0x4c));
+	local_70 = (local_70 - *(int *)(arg_0 + 0x4c));
 	local_78 = 0x3f800000;
 	local_7c = 0x0;
 	local_80 = 0xff;
@@ -18705,11 +19655,14 @@ CG_AddParticles
 
 Address: 0xdc88
 Stack Size: 0x74
+Opcodes Size: 0x1fd
+Locals Count: 24
+
 Calls: CG_AddParticleToScene, AngleVectors, vectoangles, CG_ClearParticles
 Called by: CG_DrawActiveFrame
 =================
 */
-void CG_AddParticles(void) {
+void CG_AddParticles(, int arg_226090, int arg_226093, int arg_226096, int arg_323213, int arg_323216, int arg_323219) {
 	int		local_18;
 	int		local_1c;
 	int		local_20;
@@ -18723,9 +19676,11 @@ void CG_AddParticles(void) {
 	char	local_40[8];
 	int		local_48;
 	int		local_4c;
-	char	local_50[8];
+	int		local_50;
+	int		local_54;
 	int		local_58;
-	char	local_5c[24];
+	int		local_5c;
+	char	local_60[20];
 
 	if (initparticles != 0x0) goto jmp_dc90;
 	CG_ClearParticles();
@@ -18739,9 +19694,9 @@ jmp_dc90:
 	local_48 = (local_48 + (0x3f666666 * *(int *)local_4c));
 	AngleVectors(local_40, 0x13ba98, 0x13ba8c, 0x13ba80);
 	oldtime = (float)bss_dc760;
-	*(int *)local_50 = 0x0;
-	local_3c = *(int *)local_50;
-	local_34 = *(int *)local_50;
+	local_50 = 0x0;
+	local_3c = local_50;
+	local_34 = local_50;
 	local_18 = active_particles;
 	goto jmp_de7b;
 jmp_dcdd:
@@ -18788,9 +19743,9 @@ jmp_dd8a:
 	*(int *)(local_18 + 0x38) = 0x0;
 	goto jmp_de77;
 jmp_ddb7:
-	*(int *)local_5c = *(int *)(local_18 + 0x40);
-	if (*(int *)local_5c == 0x7) goto jmp_ddc6;
-	if (*(int *)local_5c != 0xf) goto jmp_ddf8;
+	local_5c = *(int *)(local_18 + 0x40);
+	if (local_5c == 0x7) goto jmp_ddc6;
+	if (local_5c != 0xf) goto jmp_ddf8;
 jmp_ddc6:
 	if (*(int *)(local_18 + 0x8) >= 0x0) goto jmp_ddf8;
 	CG_AddParticleToScene(local_18, (local_18 + 0xc), local_20);
@@ -18831,15 +19786,21 @@ CG_ParticleSnowFlurry
 
 Address: 0xde85
 Stack Size: 0x50
+Opcodes Size: 0x181
+Locals Count: 18
+
 Calls: rand, CG_Printf
 =================
 */
 void CG_ParticleSnowFlurry(int arg_0, int arg_1) {
 	int		local_c;
 	int		local_10;
-	char	local_14[12];
-	char	local_20[8];
-	char	local_28[8];
+	int		local_14;
+	char	local_18[8];
+	int		local_20;
+	int		local_24;
+	int		local_28;
+	int		local_2c;
 	int		local_30;
 	int		local_34;
 	int		local_38;
@@ -18857,9 +19818,9 @@ jmp_de96:
 	if (free_particles != 0x0) goto jmp_de9c;
 	goto jmp_e004;
 jmp_de9c:
-	*(int *)local_14 = 0x15aac8;
-	local_c = *(int *)*(int *)local_14;
-	*(int *)*(int *)local_14 = *(int *)local_c;
+	local_14 = 0x15aac8;
+	local_c = *(int *)local_14;
+	*(int *)local_14 = *(int *)local_c;
 	*(int *)local_c = active_particles;
 	active_particles = local_c;
 	*(int *)(local_c + 0x4) = (float)bss_dc760;
@@ -18871,8 +19832,8 @@ jmp_de9c:
 	*(int *)(local_c + 0x8) = (float)(bss_dc760 + *(int *)(arg_1 + 0x54));
 	*(int *)(local_c + 0x60) = (float)(bss_dc760 + *(int *)(arg_1 + 0x58));
 	*(int *)(local_c + 0x44) = arg_0;
-	*(int *)local_20 = rand();
-	if ((*(int *)local_20 %% 0x64) <= 0x5a) goto jmp_df22;
+	local_20 = rand();
+	if ((local_20 %% 0x64) <= 0x5a) goto jmp_df22;
 	*(int *)(local_c + 0x48) = 0x42000000;
 	*(int *)(local_c + 0x4c) = 0x42000000;
 	*(int *)(local_c + 0x38) = 0x3dcccccd;
@@ -18887,9 +19848,9 @@ jmp_df2e:
 	*(int *)(local_c + 0x20) = 0xc1200000;
 jmp_df44:
 	block_copy((arg_1 + 0x5c), (local_c + 0xc), 0xc);
-	*(int *)local_28 = 0x0;
-	*(int *)(local_c + 0x1c) = *(int *)local_28;
-	*(int *)(local_c + 0x18) = *(int *)local_28;
+	local_28 = 0x0;
+	*(int *)(local_c + 0x1c) = local_28;
+	*(int *)(local_c + 0x18) = local_28;
 	local_30 = 0x0;
 	*(int *)(local_c + 0x2c) = local_30;
 	*(int *)(local_c + 0x28) = local_30;
@@ -18916,20 +19877,26 @@ CG_ParticleSnow
 
 Address: 0xe006
 Stack Size: 0x50
+Opcodes Size: 0x15b
+Locals Count: 21
+
 Calls: rand, CG_Printf
 Called by: CG_NewParticleArea
 =================
 */
 void CG_ParticleSnow(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4, int arg_5) {
 	int		local_c;
-	char	local_10[12];
+	int		local_10;
+	char	local_14[8];
 	int		local_1c;
 	int		local_20;
 	int		local_24;
 	int		local_28;
 	int		local_2c;
-	char	local_30[12];
-	char	local_3c[8];
+	int		local_30;
+	char	local_34[8];
+	int		local_3c;
+	int		local_40;
 	int		local_44;
 	int		local_48;
 	int		local_4c;
@@ -18940,9 +19907,9 @@ jmp_e010:
 	if (free_particles != 0x0) goto jmp_e016;
 	goto jmp_e15f;
 jmp_e016:
-	*(int *)local_10 = 0x15aac8;
-	local_c = *(int *)*(int *)local_10;
-	*(int *)*(int *)local_10 = *(int *)local_c;
+	local_10 = 0x15aac8;
+	local_c = *(int *)local_10;
+	*(int *)local_10 = *(int *)local_c;
 	*(int *)local_c = active_particles;
 	active_particles = local_c;
 	*(int *)(local_c + 0x4) = (float)bss_dc760;
@@ -18970,11 +19937,11 @@ jmp_e08c:
 	local_28 = (local_c + 0x10);
 	*(int *)local_28 = (*(int *)local_28 + ((0x40000000 * (((float)(local_24 & 0x7fff) / 0x46fffe00) - 0x3f000000)) * arg_4));
 	local_2c = rand();
-	*(int *)local_30 = (local_c + 0x14);
-	*(int *)*(int *)local_30 = (*(int *)*(int *)local_30 + ((0x40000000 * (((float)(local_2c & 0x7fff) / 0x46fffe00) - 0x3f000000)) * (*(int *)(local_c + 0x58) - *(int *)(local_c + 0x5c))));
-	*(int *)local_3c = 0x0;
-	*(int *)(local_c + 0x1c) = *(int *)local_3c;
-	*(int *)(local_c + 0x18) = *(int *)local_3c;
+	local_30 = (local_c + 0x14);
+	*(int *)local_30 = (*(int *)local_30 + ((0x40000000 * (((float)(local_2c & 0x7fff) / 0x46fffe00) - 0x3f000000)) * (*(int *)(local_c + 0x58) - *(int *)(local_c + 0x5c))));
+	local_3c = 0x0;
+	*(int *)(local_c + 0x1c) = local_3c;
+	*(int *)(local_c + 0x18) = local_3c;
 	local_44 = 0x0;
 	*(int *)(local_c + 0x2c) = local_44;
 	*(int *)(local_c + 0x28) = local_44;
@@ -18996,6 +19963,9 @@ CG_ParticleBubble
 
 Address: 0xe161
 Stack Size: 0x5c
+Opcodes Size: 0x184
+Locals Count: 24
+
 Calls: rand, CG_Printf
 Called by: CG_NewParticleArea
 =================
@@ -19003,7 +19973,8 @@ Called by: CG_NewParticleArea
 void CG_ParticleBubble(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4, int arg_5) {
 	int		local_c;
 	int		local_10;
-	char	local_14[12];
+	int		local_14;
+	char	local_18[8];
 	int		local_20;
 	int		local_24;
 	int		local_28;
@@ -19011,8 +19982,10 @@ void CG_ParticleBubble(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4, in
 	int		local_30;
 	int		local_34;
 	int		local_38;
-	char	local_3c[12];
-	char	local_48[8];
+	int		local_3c;
+	char	local_40[8];
+	int		local_48;
+	int		local_4c;
 	int		local_50;
 	int		local_54;
 	int		local_58;
@@ -19023,9 +19996,9 @@ jmp_e16b:
 	if (free_particles != 0x0) goto jmp_e171;
 	goto jmp_e2e3;
 jmp_e171:
-	*(int *)local_14 = 0x15aac8;
-	local_c = *(int *)*(int *)local_14;
-	*(int *)*(int *)local_14 = *(int *)local_c;
+	local_14 = 0x15aac8;
+	local_c = *(int *)local_14;
+	*(int *)local_14 = *(int *)local_c;
 	*(int *)local_c = active_particles;
 	active_particles = local_c;
 	*(int *)(local_c + 0x4) = (float)bss_dc760;
@@ -19056,11 +20029,11 @@ jmp_e210:
 	local_34 = (local_c + 0x10);
 	*(int *)local_34 = (*(int *)local_34 + ((0x40000000 * (((float)(local_30 & 0x7fff) / 0x46fffe00) - 0x3f000000)) * arg_4));
 	local_38 = rand();
-	*(int *)local_3c = (local_c + 0x14);
-	*(int *)*(int *)local_3c = (*(int *)*(int *)local_3c + ((0x40000000 * (((float)(local_38 & 0x7fff) / 0x46fffe00) - 0x3f000000)) * (*(int *)(local_c + 0x58) - *(int *)(local_c + 0x5c))));
-	*(int *)local_48 = 0x0;
-	*(int *)(local_c + 0x1c) = *(int *)local_48;
-	*(int *)(local_c + 0x18) = *(int *)local_48;
+	local_3c = (local_c + 0x14);
+	*(int *)local_3c = (*(int *)local_3c + ((0x40000000 * (((float)(local_38 & 0x7fff) / 0x46fffe00) - 0x3f000000)) * (*(int *)(local_c + 0x58) - *(int *)(local_c + 0x5c))));
+	local_48 = 0x0;
+	*(int *)(local_c + 0x1c) = local_48;
+	*(int *)(local_c + 0x18) = local_48;
 	local_50 = 0x0;
 	*(int *)(local_c + 0x2c) = local_50;
 	*(int *)(local_c + 0x28) = local_50;
@@ -19082,13 +20055,18 @@ CG_ParticleSmoke
 
 Address: 0xe2e5
 Stack Size: 0x34
+Opcodes Size: 0x108
+Locals Count: 10
+
 Calls: rand, CG_Printf
 =================
 */
 void CG_ParticleSmoke(int arg_0, int arg_1) {
 	int		local_c;
-	char	local_10[16];
-	char	local_20[8];
+	int		local_10;
+	char	local_14[12];
+	int		local_20;
+	int		local_24;
 	int		local_28;
 	int		local_2c;
 	int		local_30;
@@ -19100,9 +20078,9 @@ jmp_e2f3:
 	if (free_particles != 0x0) goto jmp_e2f9;
 	goto jmp_e3eb;
 jmp_e2f9:
-	*(int *)local_10 = 0x15aac8;
-	local_c = *(int *)*(int *)local_10;
-	*(int *)*(int *)local_10 = *(int *)local_c;
+	local_10 = 0x15aac8;
+	local_c = *(int *)local_10;
+	*(int *)local_10 = *(int *)local_c;
 	*(int *)local_c = active_particles;
 	active_particles = local_c;
 	*(int *)(local_c + 0x4) = (float)bss_dc760;
@@ -19121,9 +20099,9 @@ jmp_e2f9:
 	*(int *)(local_c + 0x54) = 0x42000000;
 	*(int *)(local_c + 0x40) = 0x3;
 	block_copy((arg_1 + 0x5c), (local_c + 0xc), 0xc);
-	*(int *)local_20 = 0x0;
-	*(int *)(local_c + 0x1c) = *(int *)local_20;
-	*(int *)(local_c + 0x18) = *(int *)local_20;
+	local_20 = 0x0;
+	*(int *)(local_c + 0x1c) = local_20;
+	*(int *)(local_c + 0x18) = local_20;
 	local_28 = 0x0;
 	*(int *)(local_c + 0x2c) = local_28;
 	*(int *)(local_c + 0x28) = local_28;
@@ -19144,11 +20122,15 @@ CG_ParticleBulletDebris
 
 Address: 0xe3ed
 Stack Size: 0x24
+Opcodes Size: 0xca
+Locals Count: 8
+
 =================
 */
 void CG_ParticleBulletDebris(int arg_0, int arg_1, int arg_2) {
 	int		local_8;
-	char	local_c[16];
+	int		local_c;
+	char	local_10[12];
 	int		local_1c;
 	int		local_20;
 
@@ -19156,9 +20138,9 @@ void CG_ParticleBulletDebris(int arg_0, int arg_1, int arg_2) {
 	if (free_particles != 0x0) goto jmp_e3f8;
 	goto jmp_e4b5;
 jmp_e3f8:
-	*(int *)local_c = 0x15aac8;
-	local_8 = *(int *)*(int *)local_c;
-	*(int *)*(int *)local_c = *(int *)local_8;
+	local_c = 0x15aac8;
+	local_8 = *(int *)local_c;
+	*(int *)local_c = *(int *)local_8;
 	*(int *)local_8 = active_particles;
 	active_particles = local_8;
 	*(int *)(local_8 + 0x4) = (float)bss_dc760;
@@ -19193,6 +20175,9 @@ CG_ParticleExplosion
 
 Address: 0xe4b7
 Stack Size: 0x2c
+Opcodes Size: 0x114
+Locals Count: 12
+
 Calls: rand, Q_stricmp, CG_Error
 Called by: CG_MissileHitWall
 =================
@@ -19200,7 +20185,8 @@ Called by: CG_MissileHitWall
 void CG_ParticleExplosion(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4, int arg_5) {
 	int		local_10;
 	int		local_14;
-	char	local_18[12];
+	int		local_18;
+	char	local_1c[8];
 	int		local_24;
 	int		local_28;
 
@@ -19211,8 +20197,8 @@ jmp_e4c5:
 	local_10 = 0x0;
 	goto jmp_e4e5;
 jmp_e4ca:
-	*(int *)local_18 = Q_stricmp(arg_0, *(int *)((local_10 << 0x2) + 0x1a8c));
-	if (*(int *)local_18 != 0x0) goto jmp_e4df;
+	local_18 = Q_stricmp(arg_0, *(int *)((local_10 << 0x2) + 0x1a8c));
+	if (local_18 != 0x0) goto jmp_e4df;
 	goto jmp_e4ee;
 jmp_e4df:
 	local_10 = (local_10 + 0x1);
@@ -19226,9 +20212,9 @@ jmp_e501:
 	if (free_particles != 0x0) goto jmp_e507;
 	goto jmp_e5c9;
 jmp_e507:
-	*(int *)local_18 = 0x15aac8;
-	local_14 = *(int *)*(int *)local_18;
-	*(int *)*(int *)local_18 = *(int *)local_14;
+	local_18 = 0x15aac8;
+	local_14 = *(int *)local_18;
+	*(int *)local_18 = *(int *)local_14;
 	*(int *)local_14 = active_particles;
 	active_particles = local_14;
 	*(int *)(local_14 + 0x4) = (float)bss_dc760;
@@ -19264,6 +20250,9 @@ CG_AddParticleShrapnel
 
 Address: 0xe5cb
 Stack Size: 0x8
+Opcodes Size: 0x3
+Locals Count: 0
+
 =================
 */
 void CG_AddParticleShrapnel(void) {
@@ -19276,6 +20265,9 @@ CG_NewParticleArea
 
 Address: 0xe5ce
 Stack Size: 0x7c
+Opcodes Size: 0x141
+Locals Count: 20
+
 Calls: CG_ParticleSnow, CG_ParticleBubble, atof, atoi, COM_Parse, CG_ConfigString
 =================
 */
@@ -19390,6 +20382,9 @@ CG_SnowLink
 
 Address: 0xe70f
 Stack Size: 0x18
+Opcodes Size: 0x46
+Locals Count: 6
+
 =================
 */
 void CG_SnowLink(int arg_0, int arg_1) {
@@ -19425,15 +20420,20 @@ CG_ParticleImpactSmokePuff
 
 Address: 0xe755
 Stack Size: 0x30
+Opcodes Size: 0xe8
+Locals Count: 9
+
 Calls: rand, CG_Printf
 =================
 */
 void CG_ParticleImpactSmokePuff(int arg_0, int arg_1) {
 	int		local_c;
-	char	local_10[12];
+	int		local_10;
+	char	local_14[8];
 	int		local_1c;
 	int		local_20;
-	char	local_24[12];
+	int		local_24;
+	char	local_28[8];
 
 	if (arg_0 != 0x0) goto jmp_e75f;
 	CG_Printf(0x600a);
@@ -19441,9 +20441,9 @@ jmp_e75f:
 	if (free_particles != 0x0) goto jmp_e765;
 	goto jmp_e83b;
 jmp_e765:
-	*(int *)local_10 = 0x15aac8;
-	local_c = *(int *)*(int *)local_10;
-	*(int *)*(int *)local_10 = *(int *)local_c;
+	local_10 = 0x15aac8;
+	local_c = *(int *)local_10;
+	*(int *)local_10 = *(int *)local_c;
 	*(int *)local_c = active_particles;
 	active_particles = local_c;
 	*(int *)(local_c + 0x4) = (float)bss_dc760;
@@ -19456,8 +20456,8 @@ jmp_e765:
 	*(int *)(local_c + 0x60) = (float)(bss_dc760 + 0x64);
 	local_20 = rand();
 	*(int *)(local_c + 0x4c) = (float)((local_20 %% 0x4) + 0x8);
-	*(int *)local_24 = rand();
-	*(int *)(local_c + 0x48) = (float)((*(int *)local_24 %% 0x4) + 0x8);
+	local_24 = rand();
+	*(int *)(local_c + 0x48) = (float)((local_24 %% 0x4) + 0x8);
 	*(int *)(local_c + 0x50) = (0x40000000 * *(int *)(local_c + 0x48));
 	*(int *)(local_c + 0x54) = (0x40000000 * *(int *)(local_c + 0x4c));
 	*(int *)(local_c + 0x8) = (float)(bss_dc760 + 0x1f4);
@@ -19479,13 +20479,18 @@ CG_Particle_Bleed
 
 Address: 0xe83d
 Stack Size: 0x30
+Opcodes Size: 0xe9
+Locals Count: 11
+
 Calls: rand, CG_Printf
 =================
 */
 void CG_Particle_Bleed(int arg_0, int arg_1, int arg_3, int arg_4) {
 	int		local_c;
-	char	local_10[12];
-	char	local_1c[12];
+	int		local_10;
+	char	local_14[8];
+	int		local_1c;
+	char	local_20[8];
 	int		local_28;
 	int		local_2c;
 
@@ -19495,9 +20500,9 @@ jmp_e847:
 	if (free_particles != 0x0) goto jmp_e84d;
 	goto jmp_e924;
 jmp_e84d:
-	*(int *)local_10 = 0x15aac8;
-	local_c = *(int *)*(int *)local_10;
-	*(int *)*(int *)local_10 = *(int *)local_c;
+	local_10 = 0x15aac8;
+	local_c = *(int *)local_10;
+	*(int *)local_10 = *(int *)local_c;
 	*(int *)local_c = active_particles;
 	active_particles = local_c;
 	*(int *)(local_c + 0x4) = (float)bss_dc760;
@@ -19514,8 +20519,8 @@ jmp_e89e:
 jmp_e8a8:
 	*(int *)(local_c + 0x4c) = 0x40800000;
 	*(int *)(local_c + 0x48) = 0x40800000;
-	*(int *)local_1c = rand();
-	*(int *)(local_c + 0x50) = (float)((*(int *)local_1c %% 0x3) + 0x4);
+	local_1c = rand();
+	*(int *)(local_c + 0x50) = (float)((local_1c %% 0x3) + 0x4);
 	*(int *)(local_c + 0x54) = *(int *)(local_c + 0x50);
 	*(int *)(local_c + 0x40) = 0x3;
 	block_copy(arg_1, (local_c + 0xc), 0xc);
@@ -19540,6 +20545,9 @@ CG_Particle_OilParticle
 
 Address: 0xe926
 Stack Size: 0x3c
+Opcodes Size: 0x10b
+Locals Count: 11
+
 Calls: rand, CG_Printf
 =================
 */
@@ -19549,7 +20557,8 @@ void CG_Particle_OilParticle(int arg_0, int arg_1) {
 	int		local_14;
 	int		local_18;
 	int		local_1c;
-	char	local_20[20];
+	int		local_20;
+	char	local_24[16];
 	int		local_34;
 	int		local_38;
 
@@ -19564,9 +20573,9 @@ jmp_e950:
 	if (free_particles != 0x0) goto jmp_e956;
 	goto jmp_ea2f;
 jmp_e956:
-	*(int *)local_20 = 0x15aac8;
-	local_c = *(int *)*(int *)local_20;
-	*(int *)*(int *)local_20 = *(int *)local_c;
+	local_20 = 0x15aac8;
+	local_c = *(int *)local_20;
+	*(int *)local_20 = *(int *)local_c;
 	*(int *)local_c = active_particles;
 	active_particles = local_c;
 	*(int *)(local_c + 0x4) = (float)bss_dc760;
@@ -19604,15 +20613,20 @@ CG_Particle_OilSlick
 
 Address: 0xea31
 Stack Size: 0x3c
+Opcodes Size: 0x146
+Locals Count: 11
+
 Calls: rand, CG_Printf
 =================
 */
 void CG_Particle_OilSlick(int arg_0, int arg_1) {
 	int		local_c;
-	char	local_10[20];
+	int		local_10;
+	char	local_14[16];
 	int		local_24;
 	int		local_28;
-	char	local_2c[8];
+	int		local_2c;
+	int		local_30;
 	int		local_34;
 	int		local_38;
 
@@ -19623,9 +20637,9 @@ jmp_ea3f:
 	if (free_particles != 0x0) goto jmp_ea45;
 	goto jmp_eb75;
 jmp_ea45:
-	*(int *)local_10 = 0x15aac8;
-	local_c = *(int *)*(int *)local_10;
-	*(int *)*(int *)local_10 = *(int *)local_c;
+	local_10 = 0x15aac8;
+	local_c = *(int *)local_10;
+	*(int *)local_10 = *(int *)local_c;
 	*(int *)local_c = active_particles;
 	active_particles = local_c;
 	*(int *)(local_c + 0x4) = (float)bss_dc760;
@@ -19659,8 +20673,8 @@ jmp_eafd:
 	*(int *)(local_c + 0x68) = 0x1;
 	block_copy((arg_1 + 0x5c), (local_c + 0xc), 0xc);
 	local_28 = rand();
-	*(int *)local_2c = (local_c + 0x14);
-	*(int *)*(int *)local_2c = (*(int *)*(int *)local_2c + ((0x3f000000 * (0x40000000 * (((float)(local_28 & 0x7fff) / 0x46fffe00) - 0x3f000000))) + 0x3f0ccccd));
+	local_2c = (local_c + 0x14);
+	*(int *)local_2c = (*(int *)local_2c + ((0x3f000000 * (0x40000000 * (((float)(local_28 & 0x7fff) / 0x46fffe00) - 0x3f000000))) + 0x3f0ccccd));
 	*(int *)(local_c + 0x18) = 0x0;
 	*(int *)(local_c + 0x1c) = 0x0;
 	*(int *)(local_c + 0x20) = 0x0;
@@ -19681,16 +20695,20 @@ CG_OilSlickRemove
 
 Address: 0xeb77
 Stack Size: 0x20
+Opcodes Size: 0x4b
+Locals Count: 4
+
 Calls: CG_Printf
 =================
 */
 void CG_OilSlickRemove(void) {
 	int		local_c;
 	int		local_10;
-	char	local_14[12];
+	int		local_14;
+	char	local_18[8];
 
-	*(int *)local_14 = 0x1;
-	if (*(int *)local_14 != 0x0) goto jmp_eb84;
+	local_14 = 0x1;
+	if (local_14 != 0x0) goto jmp_eb84;
 	CG_Printf(0x5f8a);
 jmp_eb84:
 	local_c = active_particles;
@@ -19698,7 +20716,7 @@ jmp_eb84:
 jmp_eb8a:
 	local_10 = *(int *)local_c;
 	if (*(int *)(local_c + 0x40) != 0x9) goto jmp_ebb8;
-	if (*(int *)(local_c + 0x68) != *(int *)local_14) goto jmp_ebb8;
+	if (*(int *)(local_c + 0x68) != local_14) goto jmp_ebb8;
 	*(int *)(local_c + 0x8) = (float)(bss_dc760 + 0x64);
 	*(int *)(local_c + 0x60) = *(int *)(local_c + 0x8);
 	*(int *)(local_c + 0x40) = 0xa;
@@ -19714,6 +20732,9 @@ ValidBloodPool
 
 Address: 0xebc2
 Stack Size: 0xec
+Opcodes Size: 0x117
+Locals Count: 40
+
 Calls: CG_Trace, AngleVectors, vectoangles
 Called by: CG_BloodPool
 =================
@@ -19728,7 +20749,8 @@ int ValidBloodPool(int arg_0) {
 	int		local_3c;
 	int		local_40;
 	int		local_44;
-	char	local_48[44];
+	int		local_48;
+	char	local_4c[40];
 	int		local_74;
 	int		local_78;
 	int		local_7c;
@@ -19750,7 +20772,8 @@ int ValidBloodPool(int arg_0) {
 	int		local_bc;
 	char	local_c0[12];
 	int		local_cc;
-	char	local_d0[8];
+	int		local_d0;
+	int		local_d4;
 	int		local_d8;
 	int		local_dc;
 	int		local_e0;
@@ -19761,9 +20784,9 @@ int ValidBloodPool(int arg_0) {
 	local_cc = 0x10;
 	local_bc = local_cc;
 	local_9c = local_cc;
-	*(int *)local_d0 = 0x0;
-	local_84 = *(int *)local_d0;
-	local_88 = *(int *)local_d0;
+	local_d0 = 0x0;
+	local_84 = local_d0;
+	local_88 = local_d0;
 	local_8c = 0x3f800000;
 	vectoangles(&local_84, local_c0);
 	AngleVectors(local_c0, 0x0, &local_b0, &local_90);
@@ -19802,7 +20825,7 @@ jmp_ec4f:
 	return 0x0;
 jmp_ecb1:
 	if (local_44 != 0x0) goto jmp_ecb9;
-	if (*(int *)local_48 < 0x3f800000) goto jmp_ecbd;
+	if (local_48 < 0x3f800000) goto jmp_ecbd;
 jmp_ecb9:
 	return 0x0;
 jmp_ecbd:
@@ -19821,6 +20844,9 @@ CG_BloodPool
 
 Address: 0xecd9
 Stack Size: 0x48
+Opcodes Size: 0xfe
+Locals Count: 13
+
 Calls: rand, ValidBloodPool, CG_Printf
 =================
 */
@@ -19830,8 +20856,10 @@ void CG_BloodPool(, int arg_1, int arg_2) {
 	char	local_14[12];
 	int		local_20;
 	int		local_24;
-	char	local_28[16];
-	char	local_38[8];
+	int		local_28;
+	char	local_2c[12];
+	int		local_38;
+	int		local_3c;
 	int		local_40;
 	int		local_44;
 
@@ -19847,9 +20875,9 @@ jmp_ece9:
 	if (local_20 != 0x0) goto jmp_ecff;
 	goto jmp_edd5;
 jmp_ecff:
-	*(int *)local_28 = 0x15aac8;
-	local_c = *(int *)*(int *)local_28;
-	*(int *)*(int *)local_28 = *(int *)local_c;
+	local_28 = 0x15aac8;
+	local_c = *(int *)local_28;
+	*(int *)local_28 = *(int *)local_c;
 	*(int *)local_c = active_particles;
 	active_particles = local_c;
 	*(int *)(local_c + 0x4) = (float)bss_dc760;
@@ -19859,8 +20887,8 @@ jmp_ecff:
 	*(int *)(local_c + 0x3c) = 0x0;
 	*(int *)(local_c + 0x74) = 0x0;
 	*(int *)(local_c + 0x44) = arg_1;
-	*(int *)local_38 = rand();
-	local_10 = ((0x3f19999a * ((float)(*(int *)local_38 & 0x7fff) / 0x46fffe00)) + 0x3ecccccd);
+	local_38 = rand();
+	local_10 = ((0x3f19999a * ((float)(local_38 & 0x7fff) / 0x46fffe00)) + 0x3ecccccd);
 	*(int *)(local_c + 0x4c) = (0x41000000 * local_10);
 	*(int *)(local_c + 0x48) = (0x41000000 * local_10);
 	*(int *)(local_c + 0x50) = (0x41800000 * local_10);
@@ -19888,6 +20916,9 @@ CG_ParticleBloodCloud
 
 Address: 0xedd7
 Stack Size: 0x78
+Opcodes Size: 0x145
+Locals Count: 23
+
 Calls: rand, AngleVectors, vectoangles, VectorLength
 =================
 */
@@ -19905,9 +20936,12 @@ void CG_ParticleBloodCloud(, int arg_1, int arg_2) {
 	int		local_40;
 	char	local_44[12];
 	int		local_50;
-	char	local_54[8];
-	char	local_5c[12];
-	char	local_68[8];
+	int		local_54;
+	int		local_58;
+	int		local_5c;
+	char	local_60[8];
+	int		local_68;
+	int		local_6c;
 	int		local_70;
 	int		local_74;
 
@@ -19918,9 +20952,9 @@ void CG_ParticleBloodCloud(, int arg_1, int arg_2) {
 	vectoangles(arg_2, local_44);
 #define next_call_arg_0 "local_44"
 #define next_call_arg_1 "&local_2c"
-	*(int *)local_54 = 0x0;
-#define next_call_arg_2 "*(int *)local_54"
-#define next_call_arg_3 "*(int *)local_54"
+	local_54 = 0x0;
+#define next_call_arg_2 "local_54"
+#define next_call_arg_3 "local_54"
 	AngleVectors();
 	local_28 = 0x42000000;
 	if (local_40 == 0x0) goto jmp_ee10;
@@ -19939,9 +20973,9 @@ jmp_ee20:
 	if (free_particles != 0x0) goto jmp_ee44;
 	goto jmp_ef1a;
 jmp_ee44:
-	*(int *)local_5c = 0x15aac8;
-	local_18 = *(int *)*(int *)local_5c;
-	*(int *)*(int *)local_5c = *(int *)local_18;
+	local_5c = 0x15aac8;
+	local_18 = *(int *)local_5c;
+	*(int *)local_5c = *(int *)local_18;
 	*(int *)local_18 = active_particles;
 	active_particles = local_18;
 	*(int *)(local_18 + 0x4) = (float)bss_dc760;
@@ -19949,8 +20983,8 @@ jmp_ee44:
 	*(int *)(local_18 + 0x3c) = 0x0;
 	*(int *)(local_18 + 0x74) = 0x0;
 	*(int *)(local_18 + 0x44) = bss_104230;
-	*(int *)local_68 = rand();
-	*(int *)(local_18 + 0x8) = ((float)(bss_dc760 + 0x15e) + (0x42c80000 * (0x40000000 * (((float)(*(int *)local_68 & 0x7fff) / 0x46fffe00) - 0x3f000000))));
+	local_68 = rand();
+	*(int *)(local_18 + 0x8) = ((float)(bss_dc760 + 0x15e) + (0x42c80000 * (0x40000000 * (((float)(local_68 & 0x7fff) / 0x46fffe00) - 0x3f000000))));
 	*(int *)(local_18 + 0x60) = (float)bss_dc760;
 	*(int *)(local_18 + 0x4c) = 0x42000000;
 	*(int *)(local_18 + 0x48) = 0x42000000;
@@ -19982,16 +21016,21 @@ CG_ParticleSparks
 
 Address: 0xef1c
 Stack Size: 0x50
+Opcodes Size: 0x17f
+Locals Count: 23
+
 Calls: rand
 =================
 */
 void CG_ParticleSparks(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4, int arg_5) {
 	int		local_8;
-	char	local_c[12];
+	int		local_c;
+	char	local_10[8];
 	int		local_18;
 	int		local_1c;
 	int		local_20;
-	char	local_24[8];
+	int		local_24;
+	int		local_28;
 	int		local_2c;
 	int		local_30;
 	int		local_34;
@@ -20006,9 +21045,9 @@ void CG_ParticleSparks(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4, in
 	if (free_particles != 0x0) goto jmp_ef27;
 	goto jmp_f099;
 jmp_ef27:
-	*(int *)local_c = 0x15aac8;
-	local_8 = *(int *)*(int *)local_c;
-	*(int *)*(int *)local_c = *(int *)local_8;
+	local_c = 0x15aac8;
+	local_8 = *(int *)local_c;
+	*(int *)local_c = *(int *)local_8;
 	*(int *)local_8 = active_particles;
 	active_particles = local_8;
 	*(int *)(local_8 + 0x4) = (float)bss_dc760;
@@ -20028,8 +21067,8 @@ jmp_ef27:
 	local_1c = (local_8 + 0xc);
 	*(int *)local_1c = (*(int *)local_1c + ((0x40000000 * (((float)(local_18 & 0x7fff) / 0x46fffe00) - 0x3f000000)) * arg_3));
 	local_20 = rand();
-	*(int *)local_24 = (local_8 + 0x10);
-	*(int *)*(int *)local_24 = (*(int *)*(int *)local_24 + ((0x40000000 * (((float)(local_20 & 0x7fff) / 0x46fffe00) - 0x3f000000)) * arg_4));
+	local_24 = (local_8 + 0x10);
+	*(int *)local_24 = (*(int *)local_24 + ((0x40000000 * (((float)(local_20 & 0x7fff) / 0x46fffe00) - 0x3f000000)) * arg_4));
 	*(int *)(local_8 + 0x18) = *(int *)arg_1;
 	*(int *)(local_8 + 0x1c) = *(int *)(arg_1 + 0x4);
 	*(int *)(local_8 + 0x20) = *(int *)(arg_1 + 0x8);
@@ -20059,6 +21098,9 @@ CG_ParticleDust
 
 Address: 0xf09b
 Stack Size: 0x9c
+Opcodes Size: 0x20b
+Locals Count: 31
+
 Calls: rand, AngleVectors, vectoangles, VectorLength
 =================
 */
@@ -20078,15 +21120,18 @@ void CG_ParticleDust(, int arg_1, int arg_2) {
 	int		local_54;
 	int		local_58;
 	int		local_5c;
-	char	local_60[8];
-	char	local_68[12];
+	int		local_60;
+	int		local_64;
+	int		local_68;
+	char	local_6c[8];
 	int		local_74;
 	int		local_78;
 	int		local_7c;
 	int		local_80;
 	int		local_84;
 	int		local_88;
-	char	local_8c[8];
+	int		local_8c;
+	int		local_90;
 	int		local_94;
 	int		local_98;
 
@@ -20102,9 +21147,9 @@ void CG_ParticleDust(, int arg_1, int arg_2) {
 	vectoangles(arg_2, local_44);
 #define next_call_arg_0 "local_44"
 #define next_call_arg_1 "&local_2c"
-	*(int *)local_60 = 0x0;
-#define next_call_arg_2 "*(int *)local_60"
-#define next_call_arg_3 "*(int *)local_60"
+	local_60 = 0x0;
+#define next_call_arg_2 "local_60"
+#define next_call_arg_3 "local_60"
 	AngleVectors();
 	local_28 = 0x42000000;
 	if (local_38 == 0x0) goto jmp_f0f5;
@@ -20123,9 +21168,9 @@ jmp_f105:
 	if (free_particles != 0x0) goto jmp_f129;
 	goto jmp_f2a4;
 jmp_f129:
-	*(int *)local_68 = 0x15aac8;
-	local_18 = *(int *)*(int *)local_68;
-	*(int *)*(int *)local_68 = *(int *)local_18;
+	local_68 = 0x15aac8;
+	local_18 = *(int *)local_68;
+	*(int *)local_68 = *(int *)local_18;
 	*(int *)local_18 = active_particles;
 	active_particles = local_18;
 	*(int *)(local_18 + 0x4) = (float)bss_dc760;
@@ -20164,8 +21209,8 @@ jmp_f1eb:
 	*(int *)(local_18 + 0x20) = (0x41a00000 * ((float)(local_84 & 0x7fff) / 0x46fffe00));
 	local_88 = rand();
 	*(int *)(local_18 + 0x24) = (0x40400000 * (0x40000000 * (((float)(local_88 & 0x7fff) / 0x46fffe00) - 0x3f000000)));
-	*(int *)local_8c = rand();
-	*(int *)(local_18 + 0x28) = (0x40400000 * (0x40000000 * (((float)(*(int *)local_8c & 0x7fff) / 0x46fffe00) - 0x3f000000)));
+	local_8c = rand();
+	*(int *)(local_18 + 0x28) = (0x40400000 * (0x40000000 * (((float)(local_8c & 0x7fff) / 0x46fffe00) - 0x3f000000)));
 	*(int *)(local_18 + 0x2c) = 0xc1800000;
 	local_94 = 0x0;
 	*(int *)(local_18 + 0x2c) = local_94;
@@ -20187,12 +21232,16 @@ CG_ParticleMisc
 
 Address: 0xf2a6
 Stack Size: 0x20
+Opcodes Size: 0xa9
+Locals Count: 8
+
 Calls: rand, CG_Printf
 =================
 */
 void CG_ParticleMisc(int arg_0, int arg_1, int arg_2, int arg_3) {
 	int		local_c;
-	char	local_10[12];
+	int		local_10;
+	char	local_14[8];
 	int		local_1c;
 
 	arg_2 = arg_2;
@@ -20202,9 +21251,9 @@ jmp_f2b4:
 	if (free_particles != 0x0) goto jmp_f2ba;
 	goto jmp_f34d;
 jmp_f2ba:
-	*(int *)local_10 = 0x15aac8;
-	local_c = *(int *)*(int *)local_10;
-	*(int *)*(int *)local_10 = *(int *)local_c;
+	local_10 = 0x15aac8;
+	local_c = *(int *)local_10;
+	*(int *)local_10 = *(int *)local_c;
 	*(int *)local_c = active_particles;
 	active_particles = local_c;
 	*(int *)(local_c + 0x4) = (float)bss_dc760;
@@ -20236,6 +21285,9 @@ CG_CustomSound
 
 Address: 0xf34f
 Stack Size: 0x20
+Opcodes Size: 0x74
+Locals Count: 6
+
 Calls: trap_S_RegisterSound, CG_Error, strcmp
 Called by: CG_EntityEvent, CG_PainEvent
 =================
@@ -20280,6 +21332,9 @@ CG_ParseAnimationFile
 
 Address: 0xf3c3
 Stack Size: 0x4e8c
+Opcodes Size: 0x45e
+Locals Count: 25
+
 Calls: memcpy, trap_FS_Read, trap_FS_FCloseFile, trap_FS_FOpenFile, atoi, Com_Printf, atof, Q_stricmp, COM_Parse, CG_Printf
 Called by: CG_RegisterClientModelname
 =================
@@ -20296,7 +21351,8 @@ int CG_ParseAnimationFile(int arg_0, int arg_1) {
 	char	local_34[20000];
 	int		local_4e54;
 	int		local_4e58;
-	char	local_4e5c[8];
+	int		local_4e5c;
+	int		local_4e60;
 	int		local_4e64;
 	int		local_4e68;
 	int		local_4e6c;
@@ -20325,9 +21381,9 @@ jmp_f3ff:
 	*(char *)(local_30 + local_34) = 0x0;
 	trap_FS_FCloseFile(local_4e54);
 	local_20 = local_34;
-	*(int *)local_4e5c = 0x0;
-	local_2c = *(int *)local_4e5c;
-	*(int *)(arg_1 + 0x204) = *(int *)local_4e5c;
+	local_4e5c = 0x0;
+	local_2c = local_4e5c;
+	*(int *)(arg_1 + 0x204) = local_4e5c;
 	local_4e64 = 0x0;
 	*(int *)(arg_1 + 0x200) = local_4e64;
 	*(int *)(arg_1 + 0x1fc) = local_4e64;
@@ -20538,6 +21594,9 @@ CG_FileExists
 
 Address: 0xf821
 Stack Size: 0x1c
+Opcodes Size: 0x1c
+Locals Count: 3
+
 Calls: trap_FS_FOpenFile
 Called by: CG_FindClientHeadFile, CG_FindClientModelFile
 =================
@@ -20560,6 +21619,9 @@ CG_FindClientModelFile
 
 Address: 0xf83d
 Stack Size: 0x50
+Opcodes Size: 0x178
+Locals Count: 16
+
 Calls: CG_FileExists, Com_sprintf
 Called by: CG_RegisterClientSkin
 =================
@@ -20568,9 +21630,11 @@ int CG_FindClientModelFile(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4
 	int		local_30;
 	int		local_34;
 	int		local_38;
-	char	local_3c[8];
+	int		local_3c;
+	int		local_40;
 	int		local_44;
-	char	local_48[8];
+	int		local_48;
+	int		local_4c;
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
@@ -20580,8 +21644,8 @@ int CG_FindClientModelFile(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4
 	arg_6 = arg_6;
 	arg_7 = arg_7;
 	if (bss_e66f8 < 0x3) goto jmp_f875;
-	*(int *)local_3c = *(int *)(arg_2 + 0x44);
-	if (*(int *)local_3c == 0x2) goto jmp_f86b;
+	local_3c = *(int *)(arg_2 + 0x44);
+	if (local_3c == 0x2) goto jmp_f86b;
 	goto jmp_f870;
 jmp_f86b:
 	local_38 = 0x661f;
@@ -20597,10 +21661,10 @@ jmp_f878:
 jmp_f87d:
 	local_30 = 0x0;
 jmp_f880:
-	*(int *)local_3c = 0x0;
-	if (local_30 != *(int *)local_3c) goto jmp_f8b5;
+	local_3c = 0x0;
+	if (local_30 != local_3c) goto jmp_f8b5;
 	if (arg_3 == 0x0) goto jmp_f8b5;
-	if ((char)*(char *)arg_3 == *(int *)local_3c) goto jmp_f8b5;
+	if ((char)*(char *)arg_3 == local_3c) goto jmp_f8b5;
 	Com_sprintf(arg_0, arg_1, 0x65f8, local_34, arg_4, arg_3, arg_6, arg_5, local_38, arg_7);
 	goto jmp_f8d2;
 jmp_f8b5:
@@ -20611,27 +21675,27 @@ jmp_f8d2:
 	return 0x1;
 jmp_f8e1:
 	if (bss_e66f8 < 0x3) goto jmp_f933;
-	*(int *)local_48 = 0x0;
-	if (local_30 != *(int *)local_48) goto jmp_f917;
+	local_48 = 0x0;
+	if (local_30 != local_48) goto jmp_f917;
 	if (arg_3 == 0x0) goto jmp_f917;
-	if ((char)*(char *)arg_3 == *(int *)local_48) goto jmp_f917;
+	if ((char)*(char *)arg_3 == local_48) goto jmp_f917;
 	Com_sprintf(arg_0, arg_1, 0x65b9, local_34, arg_4, arg_3, arg_6, local_38, arg_7);
 	goto jmp_f97f;
 jmp_f917:
 	Com_sprintf(arg_0, arg_1, 0x659c, local_34, arg_4, arg_6, local_38, arg_7);
 	goto jmp_f97f;
 jmp_f933:
-	*(int *)local_48 = 0x0;
-	if (local_30 != *(int *)local_48) goto jmp_f965;
+	local_48 = 0x0;
+	if (local_30 != local_48) goto jmp_f965;
 	if (arg_3 == 0x0) goto jmp_f965;
-	if ((char)*(char *)arg_3 == *(int *)local_48) goto jmp_f965;
+	if ((char)*(char *)arg_3 == local_48) goto jmp_f965;
 	Com_sprintf(arg_0, arg_1, 0x65b9, local_34, arg_4, arg_3, arg_6, arg_5, arg_7);
 	goto jmp_f97f;
 jmp_f965:
 	Com_sprintf(arg_0, arg_1, 0x659c, local_34, arg_4, arg_6, arg_5, arg_7);
 jmp_f97f:
-	*(int *)local_48 = CG_FileExists(arg_0);
-	if (*(int *)local_48 == 0x0) goto jmp_f98e;
+	local_48 = CG_FileExists(arg_0);
+	if (local_48 == 0x0) goto jmp_f98e;
 	return 0x1;
 jmp_f98e:
 	if (arg_3 == 0x0) goto jmp_f998;
@@ -20658,6 +21722,9 @@ CG_FindClientHeadFile
 
 Address: 0xf9b5
 Stack Size: 0x50
+Opcodes Size: 0x189
+Locals Count: 16
+
 Calls: CG_FileExists, Com_sprintf
 Called by: CG_RegisterClientModelname, CG_RegisterClientSkin
 =================
@@ -20666,9 +21733,11 @@ int CG_FindClientHeadFile(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4,
 	int		local_30;
 	int		local_34;
 	int		local_38;
-	char	local_3c[8];
+	int		local_3c;
+	int		local_40;
 	int		local_44;
-	char	local_48[8];
+	int		local_48;
+	int		local_4c;
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
@@ -20678,8 +21747,8 @@ int CG_FindClientHeadFile(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4,
 	arg_6 = arg_6;
 	arg_7 = arg_7;
 	if (bss_e66f8 < 0x3) goto jmp_f9ed;
-	*(int *)local_3c = *(int *)(arg_2 + 0x44);
-	if (*(int *)local_3c == 0x2) goto jmp_f9e3;
+	local_3c = *(int *)(arg_2 + 0x44);
+	if (local_3c == 0x2) goto jmp_f9e3;
 	goto jmp_f9e8;
 jmp_f9e3:
 	local_38 = 0x661f;
@@ -20700,10 +21769,10 @@ jmp_fa01:
 jmp_fa06:
 	local_30 = 0x0;
 jmp_fa09:
-	*(int *)local_3c = 0x0;
-	if (local_30 != *(int *)local_3c) goto jmp_fa3e;
+	local_3c = 0x0;
+	if (local_30 != local_3c) goto jmp_fa3e;
 	if (arg_3 == 0x0) goto jmp_fa3e;
-	if ((char)*(char *)arg_3 == *(int *)local_3c) goto jmp_fa3e;
+	if ((char)*(char *)arg_3 == local_3c) goto jmp_fa3e;
 	Com_sprintf(arg_0, arg_1, 0x6567, local_34, arg_4, arg_5, arg_3, arg_6, local_38, arg_7);
 	goto jmp_fa5b;
 jmp_fa3e:
@@ -20714,27 +21783,27 @@ jmp_fa5b:
 	return 0x1;
 jmp_fa6a:
 	if (bss_e66f8 < 0x3) goto jmp_fabc;
-	*(int *)local_48 = 0x0;
-	if (local_30 != *(int *)local_48) goto jmp_faa0;
+	local_48 = 0x0;
+	if (local_30 != local_48) goto jmp_faa0;
 	if (arg_3 == 0x0) goto jmp_faa0;
-	if ((char)*(char *)arg_3 == *(int *)local_48) goto jmp_faa0;
+	if ((char)*(char *)arg_3 == local_48) goto jmp_faa0;
 	Com_sprintf(arg_0, arg_1, 0x65b9, local_34, arg_4, arg_3, arg_6, local_38, arg_7);
 	goto jmp_fb08;
 jmp_faa0:
 	Com_sprintf(arg_0, arg_1, 0x659c, local_34, arg_4, arg_6, local_38, arg_7);
 	goto jmp_fb08;
 jmp_fabc:
-	*(int *)local_48 = 0x0;
-	if (local_30 != *(int *)local_48) goto jmp_faee;
+	local_48 = 0x0;
+	if (local_30 != local_48) goto jmp_faee;
 	if (arg_3 == 0x0) goto jmp_faee;
-	if ((char)*(char *)arg_3 == *(int *)local_48) goto jmp_faee;
+	if ((char)*(char *)arg_3 == local_48) goto jmp_faee;
 	Com_sprintf(arg_0, arg_1, 0x65b9, local_34, arg_4, arg_3, arg_6, arg_5, arg_7);
 	goto jmp_fb08;
 jmp_faee:
 	Com_sprintf(arg_0, arg_1, 0x659c, local_34, arg_4, arg_6, arg_5, arg_7);
 jmp_fb08:
-	*(int *)local_48 = CG_FileExists(arg_0);
-	if (*(int *)local_48 == 0x0) goto jmp_fb17;
+	local_48 = CG_FileExists(arg_0);
+	if (local_48 == 0x0) goto jmp_fb17;
 	return 0x1;
 jmp_fb17:
 	if (arg_3 == 0x0) goto jmp_fb21;
@@ -20761,6 +21830,9 @@ CG_RegisterClientSkin
 
 Address: 0xfb3e
 Stack Size: 0x7c
+Opcodes Size: 0xd1
+Locals Count: 12
+
 Calls: trap_R_RegisterSkin, CG_FindClientHeadFile, Com_Printf, CG_FindClientModelFile
 Called by: CG_RegisterClientModelname
 =================
@@ -20815,6 +21887,9 @@ CG_RegisterClientModelname
 
 Address: 0xfc0f
 Stack Size: 0xcc
+Opcodes Size: 0x268
+Locals Count: 17
+
 Calls: trap_R_RegisterShaderNoMip, trap_R_RegisterModel, CG_FindClientHeadFile, CG_ParseAnimationFile, CG_RegisterClientSkin, Com_Printf, Com_sprintf
 Called by: CG_LoadClientInfo
 =================
@@ -20940,37 +22015,42 @@ CG_ColorFromString
 
 Address: 0xfe77
 Stack Size: 0x20
+Opcodes Size: 0x64
+Locals Count: 7
+
 Calls: atoi
 Called by: CG_NewClientInfo
 =================
 */
 void CG_ColorFromString(int arg_0, int arg_1) {
-	char	local_c[8];
+	int		local_c;
+	int		local_10;
 	int		local_14;
-	char	local_18[8];
+	int		local_18;
+	int		local_1c;
 
 	arg_1 = arg_1;
 	local_14 = 0x0;
 	*(int *)(arg_1 + 0x8) = local_14;
 	*(int *)(arg_1 + 0x4) = local_14;
 	*(int *)arg_1 = local_14;
-	*(int *)local_18 = atoi(arg_0);
-	*(int *)local_c = *(int *)local_18;
-	if (*(int *)local_c < 0x1) goto jmp_fea5;
-	if (*(int *)local_c <= 0x7) goto jmp_feb7;
+	local_18 = atoi(arg_0);
+	local_c = local_18;
+	if (local_c < 0x1) goto jmp_fea5;
+	if (local_c <= 0x7) goto jmp_feb7;
 jmp_fea5:
 	*(int *)arg_1 = 0x3f800000;
 	*(int *)(arg_1 + 0x4) = 0x3f800000;
 	*(int *)(arg_1 + 0x8) = 0x3f800000;
 	goto jmp_fed9;
 jmp_feb7:
-	if ((*(int *)local_c & 0x1) == 0x0) goto jmp_fec3;
+	if ((local_c & 0x1) == 0x0) goto jmp_fec3;
 	*(int *)(arg_1 + 0x8) = 0x3f800000;
 jmp_fec3:
-	if ((*(int *)local_c & 0x2) == 0x0) goto jmp_fecf;
+	if ((local_c & 0x2) == 0x0) goto jmp_fecf;
 	*(int *)(arg_1 + 0x4) = 0x3f800000;
 jmp_fecf:
-	if ((*(int *)local_c & 0x4) == 0x0) goto jmp_fed9;
+	if ((local_c & 0x4) == 0x0) goto jmp_fed9;
 	*(int *)arg_1 = 0x3f800000;
 jmp_fed9:
 }
@@ -20981,6 +22061,9 @@ CG_LoadClientInfo
 
 Address: 0xfedb
 Stack Size: 0xb4
+Opcodes Size: 0x1be
+Locals Count: 16
+
 Calls: trap_S_RegisterSound, trap_R_LerpTag, CG_ResetPlayerEntity, va, Q_strncpyz, CG_Error, CG_RegisterClientModelname
 Called by: CG_LoadDeferredPlayers, CG_NewClientInfo, CG_SetDeferredClientInfo
 =================
@@ -20996,7 +22079,8 @@ void CG_LoadClientInfo(int arg_0, int arg_1) {
 	int		local_7c;
 	int		local_80;
 	int		local_84;
-	char	local_88[36];
+	int		local_88;
+	char	local_8c[32];
 	int		local_ac;
 	int		local_b0;
 
@@ -21024,8 +22108,8 @@ jmp_ff49:
 #define next_call_arg_3 "local_80"
 #define next_call_arg_4 "local_84"
 #define next_call_arg_5 "local_34"
-	*(int *)local_88 = CG_RegisterClientModelname();
-	if (*(int *)local_88 != 0x0) goto jmp_ff9f;
+	local_88 = CG_RegisterClientModelname();
+	if (local_88 != 0x0) goto jmp_ff9f;
 	CG_Error(0x62a7, 0x62dc, (arg_1 + 0xe8));
 	goto jmp_ff9f;
 jmp_ff79:
@@ -21102,6 +22186,9 @@ CG_CopyClientInfoModel
 
 Address: 0x10099
 Stack Size: 0x48
+Opcodes Size: 0xd7
+Locals Count: 15
+
 Calls: memcpy
 Called by: CG_SetDeferredClientInfo, CG_ScanForExistingClientInfo
 =================
@@ -21157,6 +22244,9 @@ CG_ScanForExistingClientInfo
 
 Address: 0x10170
 Stack Size: 0x4c
+Opcodes Size: 0xe2
+Locals Count: 16
+
 Calls: CG_CopyClientInfoModel, Q_stricmp
 Called by: CG_NewClientInfo
 =================
@@ -21227,13 +22317,17 @@ CG_SetDeferredClientInfo
 
 Address: 0x10252
 Stack Size: 0x34
+Opcodes Size: 0x13b
+Locals Count: 11
+
 Calls: CG_Printf, CG_CopyClientInfoModel, CG_LoadClientInfo, Q_stricmp
 Called by: CG_NewClientInfo
 =================
 */
 void CG_SetDeferredClientInfo(int arg_0, int arg_1) {
 	int		local_10;
-	char	local_14[8];
+	int		local_14;
+	int		local_18;
 	int		local_1c;
 	int		local_20;
 	int		local_24;
@@ -21243,10 +22337,10 @@ void CG_SetDeferredClientInfo(int arg_0, int arg_1) {
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
-	*(int *)local_14 = 0x0;
+	local_14 = 0x0;
 	goto jmp_102d0;
 jmp_10260:
-	local_10 = ((0x6b4 * *(int *)local_14) + 0xe8c24);
+	local_10 = ((0x6b4 * local_14) + 0xe8c24);
 	local_1c = 0x0;
 	if (*(int *)local_10 == local_1c) goto jmp_10279;
 	if (*(int *)(local_10 + 0x1e8) == local_1c) goto jmp_1027b;
@@ -21268,14 +22362,14 @@ jmp_102bf:
 	CG_LoadClientInfo(arg_0, arg_1);
 	goto jmp_1038b;
 jmp_102ca:
-	*(int *)local_14 = (*(int *)local_14 + 0x1);
+	local_14 = (local_14 + 0x1);
 jmp_102d0:
-	if (*(int *)local_14 < bss_e6710) goto jmp_10260;
+	if (local_14 < bss_e6710) goto jmp_10260;
 	if (bss_e66f8 < 0x3) goto jmp_1034d;
-	*(int *)local_14 = 0x0;
+	local_14 = 0x0;
 	goto jmp_1033d;
 jmp_102de:
-	local_10 = ((0x6b4 * *(int *)local_14) + 0xe8c24);
+	local_10 = ((0x6b4 * local_14) + 0xe8c24);
 	local_1c = 0x0;
 	if (*(int *)local_10 == local_1c) goto jmp_102f7;
 	if (*(int *)(local_10 + 0x1e8) == local_1c) goto jmp_102f9;
@@ -21295,16 +22389,16 @@ jmp_10326:
 	CG_CopyClientInfoModel(local_10, arg_1);
 	goto jmp_1038b;
 jmp_10337:
-	*(int *)local_14 = (*(int *)local_14 + 0x1);
+	local_14 = (local_14 + 0x1);
 jmp_1033d:
-	if (*(int *)local_14 < bss_e6710) goto jmp_102de;
+	if (local_14 < bss_e6710) goto jmp_102de;
 	CG_LoadClientInfo(arg_0, arg_1);
 	goto jmp_1038b;
 jmp_1034d:
-	*(int *)local_14 = 0x0;
+	local_14 = 0x0;
 	goto jmp_10378;
 jmp_10352:
-	local_10 = ((0x6b4 * *(int *)local_14) + 0xe8c24);
+	local_10 = ((0x6b4 * local_14) + 0xe8c24);
 	if (*(int *)local_10 != 0x0) goto jmp_10361;
 	goto jmp_10372;
 jmp_10361:
@@ -21312,9 +22406,9 @@ jmp_10361:
 	CG_CopyClientInfoModel(local_10, arg_1);
 	goto jmp_1038b;
 jmp_10372:
-	*(int *)local_14 = (*(int *)local_14 + 0x1);
+	local_14 = (local_14 + 0x1);
 jmp_10378:
-	if (*(int *)local_14 < bss_e6710) goto jmp_10352;
+	if (local_14 < bss_e6710) goto jmp_10352;
 	CG_Printf(0x6238);
 	CG_LoadClientInfo(arg_0, arg_1);
 jmp_1038b:
@@ -21326,6 +22420,9 @@ CG_NewClientInfo
 
 Address: 0x1038d
 Stack Size: 0x7c8
+Opcodes Size: 0x400
+Locals Count: 88
+
 Calls: trap_MemoryRemaining, trap_Cvar_VariableStringBuffer, memset, CG_LoadClientInfo, CG_Printf, CG_SetDeferredClientInfo, CG_ScanForExistingClientInfo, strchr, atoi, CG_ColorFromString, Q_strncpyz, Info_ValueForKey, CG_ConfigString
 Called by: CG_ConfigStringModified, CG_RegisterClients, CG_ForceModelChange
 =================
@@ -21353,14 +22450,16 @@ void CG_NewClientInfo(int arg_0) {
 	int		local_98;
 	int		local_9c;
 	int		local_a0;
-	char	local_a4[24];
+	int		local_a4;
+	char	local_a8[20];
 	char	local_bc[64];
 	char	local_fc[64];
 	char	local_13c[64];
 	char	local_17c[64];
 	char	local_1bc[32];
 	char	local_1dc[32];
-	char	local_1fc[1228];
+	int		local_1fc;
+	char	local_200[1224];
 	int		local_6c8;
 	int		local_6cc;
 	int		local_6d0;
@@ -21410,7 +22509,8 @@ void CG_NewClientInfo(int arg_0) {
 	int		local_780;
 	int		local_784;
 	int		local_788;
-	char	local_78c[44];
+	int		local_78c;
+	char	local_790[40];
 	int		local_7b8;
 	int		local_7bc;
 	int		local_7c0;
@@ -21517,7 +22617,7 @@ jmp_104d4:
 	local_764 = Info_ValueForKey(local_6cc, 0x621b);
 	local_6c8 = local_764;
 	local_768 = atoi(local_6c8);
-	*(int *)local_a4 = local_768;
+	local_a4 = local_768;
 	local_76c = Info_ValueForKey(local_6cc, 0x6211);
 	local_6c8 = local_76c;
 	Q_strncpyz(local_1bc, local_6c8, 0x20);
@@ -21612,16 +22712,16 @@ jmp_10748:
 	local_784 = 0x0;
 jmp_1074b:
 	local_780 = local_784;
-	*(int *)local_78c = 0x0;
-	if (local_780 != *(int *)local_78c) goto jmp_10766;
-	if (bss_8ba8 == *(int *)local_78c) goto jmp_1077c;
-	if (bss_8fe8 != *(int *)local_78c) goto jmp_1077c;
-	if (bss_c2320 != *(int *)local_78c) goto jmp_1077c;
+	local_78c = 0x0;
+	if (local_780 != local_78c) goto jmp_10766;
+	if (bss_8ba8 == local_78c) goto jmp_1077c;
+	if (bss_8fe8 != local_78c) goto jmp_1077c;
+	if (bss_c2320 != local_78c) goto jmp_1077c;
 jmp_10766:
 	CG_SetDeferredClientInfo(arg_0, &local_14);
 	if (local_780 == 0x0) goto jmp_10784;
 	CG_Printf(0x61c9);
-	*(int *)local_1fc = 0x0;
+	local_1fc = 0x0;
 	goto jmp_10784;
 jmp_1077c:
 	CG_LoadClientInfo(arg_0, &local_14);
@@ -21637,17 +22737,21 @@ CG_LoadDeferredPlayers
 
 Address: 0x1078d
 Stack Size: 0x24
+Opcodes Size: 0x4b
+Locals Count: 5
+
 Calls: trap_MemoryRemaining, CG_LoadClientInfo, CG_Printf
 Called by: CG_ServerCommand, CG_DrawOldScoreboard
 =================
 */
 void CG_LoadDeferredPlayers(void) {
 	int		local_10;
-	char	local_14[8];
+	int		local_14;
+	int		local_18;
 	int		local_1c;
 	int		local_20;
 
-	*(int *)local_14 = 0x0;
+	local_14 = 0x0;
 	local_10 = 0xe8c24;
 	goto jmp_107d1;
 jmp_10796:
@@ -21660,12 +22764,12 @@ jmp_10796:
 	*(int *)(local_10 + 0x1e8) = 0x0;
 	goto jmp_107c5;
 jmp_107bc:
-	CG_LoadClientInfo(*(int *)local_14, local_10);
+	CG_LoadClientInfo(local_14, local_10);
 jmp_107c5:
-	*(int *)local_14 = (*(int *)local_14 + 0x1);
+	local_14 = (local_14 + 0x1);
 	local_10 = (local_10 + 0x6b4);
 jmp_107d1:
-	if (*(int *)local_14 < bss_e6710) goto jmp_10796;
+	if (local_14 < bss_e6710) goto jmp_10796;
 }
 
 /*
@@ -21674,12 +22778,16 @@ CG_SetLerpFrameAnimation
 
 Address: 0x107d8
 Stack Size: 0x1c
+Opcodes Size: 0x56
+Locals Count: 5
+
 Calls: CG_Printf, CG_Error
 Called by: CG_ClearLerpFrame, CG_RunLerpFrame
 =================
 */
 void CG_SetLerpFrameAnimation(int arg_0, int arg_1, int arg_2) {
-	char	local_10[12];
+	int		local_10;
+	char	local_14[8];
 
 	arg_1 = arg_1;
 	arg_2 = arg_2;
@@ -21690,9 +22798,9 @@ void CG_SetLerpFrameAnimation(int arg_0, int arg_1, int arg_2) {
 jmp_107f6:
 	CG_Error(0x61b0, arg_2);
 jmp_107fe:
-	*(int *)local_10 = ((0x1c * arg_2) + (arg_0 + 0x228));
-	*(int *)(arg_1 + 0x28) = *(int *)local_10;
-	*(int *)(arg_1 + 0x2c) = (*(int *)(arg_1 + 0xc) + *(int *)(*(int *)local_10 + 0x10));
+	local_10 = ((0x1c * arg_2) + (arg_0 + 0x228));
+	*(int *)(arg_1 + 0x28) = local_10;
+	*(int *)(arg_1 + 0x2c) = (*(int *)(arg_1 + 0xc) + *(int *)(local_10 + 0x10));
 	if (bss_b518 == 0x0) goto jmp_1082c;
 	CG_Printf(0x61a6, arg_2);
 jmp_1082c:
@@ -21704,6 +22812,9 @@ CG_RunLerpFrame
 
 Address: 0x1082e
 Stack Size: 0x44
+Opcodes Size: 0x1c4
+Locals Count: 15
+
 Calls: CG_Printf, CG_SetLerpFrameAnimation
 Called by: CG_PlayerFlag, CG_PlayerAnimation
 =================
@@ -21711,11 +22822,13 @@ Called by: CG_PlayerFlag, CG_PlayerAnimation
 void CG_RunLerpFrame(int arg_0, int arg_1, int arg_2, int arg_3) {
 	int		local_14;
 	int		local_18;
-	char	local_1c[8];
+	int		local_1c;
+	int		local_20;
 	int		local_24;
 	int		local_28;
 	int		local_2c;
-	char	local_30[12];
+	int		local_30;
+	char	local_34[8];
 	int		local_3c;
 	int		local_40;
 
@@ -21744,25 +22857,25 @@ jmp_10899:
 	*(int *)(arg_1 + 0xc) = *(int *)(arg_1 + 0x2c);
 	goto jmp_108c2;
 jmp_108ad:
-	*(int *)local_30 = 0xc;
-	*(int *)(arg_1 + *(int *)local_30) = (*(int *)(arg_1 + 0x4) + *(int *)(local_14 + *(int *)local_30));
+	local_30 = 0xc;
+	*(int *)(arg_1 + local_30) = (*(int *)(arg_1 + 0x4) + *(int *)(local_14 + local_30));
 jmp_108c2:
-	*(int *)local_30 = 0xc;
-	local_18 = ((*(int *)(arg_1 + *(int *)local_30) - *(int *)(arg_1 + 0x2c)) / *(int *)(local_14 + *(int *)local_30));
+	local_30 = 0xc;
+	local_18 = ((*(int *)(arg_1 + local_30) - *(int *)(arg_1 + 0x2c)) / *(int *)(local_14 + local_30));
 	local_18 = (int)((float)local_18 * arg_3);
-	*(int *)local_1c = *(int *)(local_14 + 0x4);
+	local_1c = *(int *)(local_14 + 0x4);
 	if (*(int *)(local_14 + 0x18) == 0x0) goto jmp_108f7;
-	*(int *)local_1c = (*(int *)local_1c << 0x1);
+	local_1c = (local_1c << 0x1);
 jmp_108f7:
-	if (local_18 < *(int *)local_1c) goto jmp_10935;
-	local_18 = (local_18 - *(int *)local_1c);
+	if (local_18 < local_1c) goto jmp_10935;
+	local_18 = (local_18 - local_1c);
 	if (*(int *)(local_14 + 0x8) == 0x0) goto jmp_10928;
 	local_3c = (local_14 + 0x8);
 	local_18 = (local_18 %% *(int *)local_3c);
 	local_18 = (local_18 + (*(int *)(local_14 + 0x4) - *(int *)local_3c));
 	goto jmp_10935;
 jmp_10928:
-	local_18 = (*(int *)local_1c - 0x1);
+	local_18 = (local_1c - 0x1);
 	*(int *)(arg_1 + 0xc) = bss_dc760;
 jmp_10935:
 	if (*(int *)(local_14 + 0x14) == 0x0) goto jmp_10951;
@@ -21803,18 +22916,22 @@ CG_ClearLerpFrame
 
 Address: 0x109f2
 Stack Size: 0x24
+Opcodes Size: 0x39
+Locals Count: 6
+
 Calls: CG_SetLerpFrameAnimation
 Called by: CG_ResetPlayerEntity
 =================
 */
 void CG_ClearLerpFrame(int arg_0, int arg_1, int arg_2) {
-	char	local_18[8];
+	int		local_18;
+	int		local_1c;
 	int		local_20;
 
 	arg_1 = arg_1;
-	*(int *)local_18 = bss_dc760;
-	*(int *)(arg_1 + 0x4) = *(int *)local_18;
-	*(int *)(arg_1 + 0xc) = *(int *)local_18;
+	local_18 = bss_dc760;
+	*(int *)(arg_1 + 0x4) = local_18;
+	*(int *)(arg_1 + 0xc) = local_18;
 	CG_SetLerpFrameAnimation(arg_0, arg_1, arg_2);
 	local_20 = *(int *)*(int *)(arg_1 + 0x28);
 	*(int *)(arg_1 + 0x8) = local_20;
@@ -21827,6 +22944,9 @@ CG_PlayerAnimation
 
 Address: 0x10a2b
 Stack Size: 0x2c
+Opcodes Size: 0xbe
+Locals Count: 12
+
 Calls: CG_RunLerpFrame
 Called by: CG_Player
 =================
@@ -21835,16 +22955,17 @@ void CG_PlayerAnimation(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4, i
 	int		local_18;
 	int		local_1c;
 	int		local_20;
-	char	local_24[8];
+	int		local_24;
+	int		local_28;
 
 	arg_0 = arg_0;
 	local_20 = *(int *)(arg_0 + 0xa8);
 	if (bss_aeb8 == 0x0) goto jmp_10a54;
-	*(int *)local_24 = 0x0;
-	*(int *)arg_5 = *(int *)local_24;
-	*(int *)arg_4 = *(int *)local_24;
-	*(int *)arg_2 = *(int *)local_24;
-	*(int *)arg_1 = *(int *)local_24;
+	local_24 = 0x0;
+	*(int *)arg_5 = local_24;
+	*(int *)arg_4 = local_24;
+	*(int *)arg_2 = local_24;
+	*(int *)arg_1 = local_24;
 	goto jmp_10ae7;
 jmp_10a54:
 	if ((*(int *)(arg_0 + 0xbc) & 0x8) == 0x0) goto jmp_10a62;
@@ -21877,6 +22998,9 @@ CG_SwingAngles
 
 Address: 0x10ae9
 Stack Size: 0x2c
+Opcodes Size: 0x105
+Locals Count: 13
+
 Calls: AngleMod, fabs, AngleSubtract
 Called by: CG_PlayerFlag, CG_PlayerAngles
 =================
@@ -21956,6 +23080,9 @@ CG_AddPainTwitch
 
 Address: 0x10bee
 Stack Size: 0x14
+Opcodes Size: 0x47
+Locals Count: 5
+
 Called by: CG_PlayerAngles
 =================
 */
@@ -21985,6 +23112,9 @@ CG_PlayerAngles
 
 Address: 0x10c35
 Stack Size: 0xbc
+Opcodes Size: 0x1ee
+Locals Count: 37
+
 Calls: AnglesSubtract, CG_AddPainTwitch, AnglesToAxis, VectorNormalize, CG_SwingAngles, CG_Error, AngleMod
 Called by: CG_Player
 =================
@@ -21997,7 +23127,8 @@ void CG_PlayerAngles(int arg_0, int arg_1, int arg_2, int arg_3) {
 	int		local_30;
 	int		local_34;
 	int		local_38;
-	char	local_3c[8];
+	int		local_3c;
+	int		local_40;
 	int		local_44;
 	int		local_48;
 	int		local_4c;
@@ -22008,35 +23139,38 @@ void CG_PlayerAngles(int arg_0, int arg_1, int arg_2, int arg_3) {
 	int		local_60;
 	int		local_64;
 	int		local_68;
-	char	local_6c[8];
+	int		local_6c;
+	int		local_70;
 	int		local_74;
-	char	local_78[24];
+	int		local_78;
+	char	local_7c[20];
 	int		local_90;
 	int		local_94;
 	int		local_98;
 	int		local_9c;
 	int		local_a0;
 	int		local_a4;
-	char	local_a8[16];
+	int		local_a8;
+	char	local_ac[12];
 	int		local_b8;
 
 	arg_0 = arg_0;
 	block_copy((arg_0 + 0x2c0), &local_38, 0xc);
-	local_64 = AngleMod(*(int *)local_3c);
-	*(int *)local_3c = local_64;
+	local_64 = AngleMod(local_3c);
+	local_3c = local_64;
 	local_68 = 0x0;
 	local_34 = local_68;
 	local_30 = local_68;
 	local_2c = local_68;
-	*(int *)local_6c = 0x0;
-	local_28 = *(int *)local_6c;
-	local_24 = *(int *)local_6c;
-	local_20 = *(int *)local_6c;
+	local_6c = 0x0;
+	local_28 = local_6c;
+	local_24 = local_6c;
+	local_20 = local_6c;
 	local_74 = 0xffffff7f;
 	if ((*(int *)(arg_0 + 0xc4) & local_74) != 0x16) goto jmp_10c88;
-	*(int *)local_78 = (*(int *)(arg_0 + 0xc8) & local_74);
-	if (*(int *)local_78 == 0xb) goto jmp_10c9a;
-	if (*(int *)local_78 == 0xc) goto jmp_10c9a;
+	local_78 = (*(int *)(arg_0 + 0xc8) & local_74);
+	if (local_78 == 0xb) goto jmp_10c9a;
+	if (local_78 == 0xc) goto jmp_10c9a;
 jmp_10c88:
 	*(int *)(arg_0 + 0x20c) = 0x1;
 	*(int *)(arg_0 + 0x214) = 0x1;
@@ -22052,8 +23186,8 @@ jmp_10ca8:
 jmp_10cb8:
 	CG_Error(0x6177);
 jmp_10cbd:
-	local_30 = (*(int *)local_3c + (float)*(int *)((local_54 << 0x2) + 0x1c98));
-	local_24 = (*(int *)local_3c + (0x3e800000 * (float)*(int *)((local_54 << 0x2) + 0x1c98)));
+	local_30 = (local_3c + (float)*(int *)((local_54 << 0x2) + 0x1c98));
+	local_24 = (local_3c + (0x3e800000 * (float)*(int *)((local_54 << 0x2) + 0x1c98)));
 	CG_SwingAngles(local_24, 0x41c80000, 0x42b40000, bss_cb64, (arg_0 + 0x208), (arg_0 + 0x20c));
 	CG_SwingAngles(local_30, 0x42200000, 0x42b40000, bss_cb64, (arg_0 + 0x1d8), (arg_0 + 0x1dc));
 	local_24 = *(int *)(arg_0 + 0x208);
@@ -22079,7 +23213,7 @@ jmp_10d67:
 	if (local_58 == 0x0) goto jmp_10dc2;
 	local_58 = (0x3d4ccccd * local_58);
 	AnglesToAxis(&local_2c, &local_94);
-	local_b8 = (local_58 * (((local_48 * local_a0) + (local_4c * local_a4)) + (local_50 * *(int *)local_a8)));
+	local_b8 = (local_58 * (((local_48 * local_a0) + (local_4c * local_a4)) + (local_50 * local_a8)));
 	local_34 = (local_34 - local_b8);
 	local_b8 = (local_58 * (((local_48 * local_94) + (local_4c * local_98)) + (local_50 * local_9c)));
 	local_2c = (local_2c + local_b8);
@@ -22108,6 +23242,9 @@ CG_HasteTrail
 
 Address: 0x10e23
 Stack Size: 0x60
+Opcodes Size: 0x81
+Locals Count: 10
+
 Calls: CG_SmokePuff
 Called by: CG_PlayerPowerups
 =================
@@ -22116,7 +23253,8 @@ void CG_HasteTrail(int arg_0) {
 	char	local_38[8];
 	int		local_40;
 	int		local_44;
-	char	local_48[8];
+	int		local_48;
+	int		local_4c;
 	int		local_50;
 	int		local_54;
 	int		local_58;
@@ -22153,8 +23291,8 @@ jmp_10e62:
 #define next_call_arg_10 "local_58"
 #define next_call_arg_11 "bss_1042c0"
 	local_5c = CG_SmokePuff();
-	*(int *)local_48 = local_5c;
-	*(int *)(*(int *)local_48 + 0x8) = 0x7;
+	local_48 = local_5c;
+	*(int *)(local_48 + 0x8) = 0x7;
 jmp_10ea2:
 }
 
@@ -22164,23 +23302,29 @@ CG_TrailItem
 
 Address: 0x10ea4
 Stack Size: 0xd4
+Opcodes Size: 0x68
+Locals Count: 18
+
 Calls: trap_R_AddRefEntityToScene, memset, AnglesToAxis
 Called by: CG_PlayerPowerups
 =================
 */
 void CG_TrailItem(int arg_0, int arg_1) {
 	char	local_14[8];
-	char	local_1c[20];
+	int		local_1c;
+	char	local_20[16];
 	char	local_30[40];
 	int		local_58;
 	int		local_5c;
-	char	local_60[64];
+	int		local_60;
+	char	local_64[60];
 	int		local_a0;
 	int		local_a4;
 	int		local_a8;
 	int		local_ac;
 	int		local_b0;
-	char	local_b4[28];
+	int		local_b4;
+	char	local_b8[24];
 	int		local_d0;
 
 	arg_0 = arg_0;
@@ -22192,11 +23336,11 @@ void CG_TrailItem(int arg_0, int arg_1) {
 	memset(local_14, 0x0, 0x8c);
 	local_58 = (*(int *)(arg_0 + 0x2b4) + (0xc1800000 * local_ac));
 	local_5c = (*(int *)(arg_0 + 0x2b8) + (0xc1800000 * local_b0));
-	*(int *)local_60 = (*(int *)(arg_0 + 0x2bc) + (0xc1800000 * *(int *)local_b4));
-	*(int *)local_60 = (*(int *)local_60 + 0x41800000);
+	local_60 = (*(int *)(arg_0 + 0x2bc) + (0xc1800000 * local_b4));
+	local_60 = (local_60 + 0x41800000);
 	local_a4 = (local_a4 + 0x42b40000);
 	AnglesToAxis(&local_a0, local_30);
-	*(int *)local_1c = arg_1;
+	local_1c = arg_1;
 	trap_R_AddRefEntityToScene(local_14);
 }
 
@@ -22206,6 +23350,9 @@ CG_PlayerFlag
 
 Address: 0x10f0c
 Stack Size: 0x184
+Opcodes Size: 0x1a9
+Locals Count: 49
+
 Calls: acos, trap_R_AddRefEntityToScene, memset, CG_PositionRotatedEntityOnTag, AnglesToAxis, CG_RunLerpFrame, CG_SwingAngles, fabs, VectorNormalize, CG_PositionEntityOnTag
 Called by: CG_PlayerPowerups
 =================
@@ -22224,17 +23371,21 @@ void CG_PlayerFlag(int arg_0, int arg_1, int arg_2) {
 	int		local_50;
 	int		local_54;
 	int		local_58;
-	char	local_5c[80];
+	int		local_5c;
+	char	local_60[76];
 	int		local_ac;
 	int		local_b0;
 	int		local_b4;
 	char	local_b8[12];
 	int		local_c4;
 	char	local_c8[52];
-	char	local_fc[16];
+	int		local_fc;
+	char	local_100[12];
 	int		local_10c;
-	char	local_110[8];
-	char	local_118[32];
+	int		local_110;
+	int		local_114;
+	int		local_118;
+	char	local_11c[28];
 	int		local_138;
 	int		local_13c;
 	int		local_140;
@@ -22246,10 +23397,13 @@ void CG_PlayerFlag(int arg_0, int arg_1, int arg_2) {
 	int		local_158;
 	int		local_15c;
 	int		local_160;
-	char	local_164[8];
-	char	local_16c[12];
+	int		local_164;
+	int		local_168;
+	int		local_16c;
+	char	local_170[8];
 	int		local_178;
-	char	local_17c[8];
+	int		local_17c;
+	int		local_180;
 
 	arg_0 = arg_0;
 	arg_2 = arg_2;
@@ -22262,14 +23416,14 @@ void CG_PlayerFlag(int arg_0, int arg_1, int arg_2) {
 	trap_R_AddRefEntityToScene(&local_20);
 	memset(&local_ac, 0x0, 0x8c);
 	local_b4 = bss_104178;
-	*(int *)local_118 = arg_1;
+	local_118 = arg_1;
 	block_copy((arg_2 + 0xc), local_b8, 0xc);
 	local_c4 = *(int *)(arg_2 + 0x18);
 	local_b0 = *(int *)(arg_2 + 0x4);
-	*(int *)local_16c = 0x0;
-	local_140 = *(int *)local_16c;
-	local_13c = *(int *)local_16c;
-	local_138 = *(int *)local_16c;
+	local_16c = 0x0;
+	local_140 = local_16c;
+	local_13c = local_16c;
+	local_138 = local_16c;
 	local_158 = 0x0;
 	local_150 = (*(int *)(arg_0 + 0xc4) & 0xffffff7f);
 	if (local_150 == 0x16) goto jmp_10f93;
@@ -22292,7 +23446,7 @@ jmp_10fae:
 	block_copy((arg_0 + 0x24), &local_144, 0xc);
 	local_14c = (local_14c + 0x42c80000);
 	VectorNormalize(&local_144);
-	local_154 = (((local_54 * local_144) + (local_58 * local_148)) + (*(int *)local_5c * local_14c));
+	local_154 = (((local_54 * local_144) + (local_58 * local_148)) + (local_5c * local_14c));
 	local_178 = fabs(local_154);
 	if (local_178 >= 0x3f666666) goto jmp_11064;
 	local_154 = (((local_3c * local_144) + (local_40 * local_148)) + (local_44 * local_14c));
@@ -22303,14 +23457,14 @@ jmp_10ffd:
 	if (local_154 >= 0xbf800000) goto jmp_11004;
 	local_154 = 0xbf800000;
 jmp_11004:
-	*(int *)local_17c = acos(local_154);
-	*(int *)local_164 = *(int *)local_17c;
+	local_17c = acos(local_154);
+	local_164 = local_17c;
 	local_154 = (((local_48 * local_144) + (local_4c * local_148)) + (local_50 * local_14c));
 	if (local_154 >= 0x0) goto jmp_11032;
-	local_13c = (0x43b40000 - ((0x43340000 * *(int *)local_164) / 0x40490fdb));
+	local_13c = (0x43b40000 - ((0x43340000 * local_164) / 0x40490fdb));
 	goto jmp_1103a;
 jmp_11032:
-	local_13c = ((0x43340000 * *(int *)local_164) / 0x40490fdb);
+	local_13c = ((0x43340000 * local_164) / 0x40490fdb);
 jmp_1103a:
 	if (local_13c >= 0x0) goto jmp_11044;
 	local_13c = (local_13c + 0x43b40000);
@@ -22324,8 +23478,8 @@ jmp_11064:
 	local_15c = ((0x6b4 * *(int *)(arg_0 + 0xa8)) + 0xe8c24);
 	CG_RunLerpFrame(local_15c, (arg_0 + 0x224), local_160, 0x3f800000);
 	local_10c = *(int *)(arg_0 + 0x224);
-	*(int *)local_fc = *(int *)(arg_0 + 0x22c);
-	*(int *)local_110 = *(int *)(arg_0 + 0x234);
+	local_fc = *(int *)(arg_0 + 0x22c);
+	local_110 = *(int *)(arg_0 + 0x234);
 	AnglesToAxis(&local_138, local_c8);
 	CG_PositionRotatedEntityOnTag(&local_ac, &local_20, local_28, 0x6278);
 	trap_R_AddRefEntityToScene(&local_ac);
@@ -22337,6 +23491,9 @@ CG_PlayerPowerups
 
 Address: 0x110b5
 Stack Size: 0x2c
+Opcodes Size: 0x131
+Locals Count: 6
+
 Calls: trap_S_AddLoopingSound, trap_R_AddLightToScene, CG_HasteTrail, CG_TrailItem, CG_PlayerFlag, rand
 Called by: CG_Player
 =================
@@ -22425,21 +23582,27 @@ CG_PlayerFloatSprite
 
 Address: 0x111e6
 Stack Size: 0xa4
+Opcodes Size: 0x4c
+Locals Count: 16
+
 Calls: trap_R_AddRefEntityToScene, memset
 Called by: CG_PlayerSprites
 =================
 */
 void CG_PlayerFloatSprite(int arg_0, int arg_1) {
 	int		local_14;
-	char	local_18[64];
+	int		local_18;
+	char	local_1c[60];
 	char	local_58[8];
-	char	local_60[36];
+	int		local_60;
+	char	local_64[32];
 	int		local_84;
 	char	local_88;
 	char	local_89;
 	char	local_8a;
 	char	local_8b[13];
-	char	local_98[8];
+	int		local_98;
+	int		local_9c;
 	int		local_a0;
 
 	if (*(int *)arg_0 != *(int *)(bss_c2330 + 0xb8)) goto jmp_111f9;
@@ -22451,11 +23614,11 @@ jmp_111f9:
 jmp_111fc:
 	memset(&local_14, 0x0, 0x8c);
 	block_copy((arg_0 + 0x2b4), local_58, 0xc);
-	*(int *)local_60 = (*(int *)local_60 + 0x42400000);
+	local_60 = (local_60 + 0x42400000);
 	local_14 = 0x2;
 	local_84 = arg_1;
-	*(int *)local_98 = 0x41200000;
-	*(int *)local_18 = local_a0;
+	local_98 = 0x41200000;
+	local_18 = local_a0;
 	local_88 = 0xff;
 	local_89 = 0xff;
 	local_8a = 0xff;
@@ -22469,6 +23632,9 @@ CG_PlayerSprites
 
 Address: 0x11232
 Stack Size: 0x18
+Opcodes Size: 0xda
+Locals Count: 3
+
 Calls: CG_PlayerFloatSprite
 Called by: CG_Player
 =================
@@ -22526,11 +23692,14 @@ CG_PlayerShadow
 
 Address: 0x1130c
 Stack Size: 0x9c
+Opcodes Size: 0x93
+Locals Count: 16
+
 Calls: trap_CM_BoxTrace, CG_ImpactMark
 Called by: CG_Player
 =================
 */
-int CG_PlayerShadow(int arg_0, int arg_1) {
+int CG_PlayerShadow(int arg_0, int arg_1, int arg_1800, int arg_1803) {
 	int		local_34;
 	int		local_38;
 	int		local_3c;
@@ -22579,13 +23748,17 @@ CG_PlayerSplash
 
 Address: 0x1139f
 Stack Size: 0xe8
+Opcodes Size: 0xf8
+Locals Count: 50
+
 Calls: trap_R_AddPolyToScene, trap_CM_BoxTrace, CG_PointContents
 Called by: CG_Player
 =================
 */
 void CG_PlayerSplash(int arg_0) {
 	int		local_24;
-	char	local_28[8];
+	int		local_28;
+	int		local_2c;
 	int		local_30;
 	int		local_34;
 	char	local_38;
@@ -22593,7 +23766,8 @@ void CG_PlayerSplash(int arg_0) {
 	char	local_3a;
 	char	local_3b;
 	int		local_3c;
-	char	local_40[8];
+	int		local_40;
+	int		local_44;
 	int		local_48;
 	int		local_4c;
 	char	local_50;
@@ -22601,7 +23775,8 @@ void CG_PlayerSplash(int arg_0) {
 	char	local_52;
 	char	local_53;
 	int		local_54;
-	char	local_58[8];
+	int		local_58;
+	int		local_5c;
 	int		local_60;
 	int		local_64;
 	char	local_68;
@@ -22609,7 +23784,8 @@ void CG_PlayerSplash(int arg_0) {
 	char	local_6a;
 	char	local_6b;
 	int		local_6c;
-	char	local_70[8];
+	int		local_70;
+	int		local_74;
 	int		local_78;
 	int		local_7c;
 	char	local_80;
@@ -22618,7 +23794,8 @@ void CG_PlayerSplash(int arg_0) {
 	char	local_83;
 	char	local_84[8];
 	int		local_8c;
-	char	local_90[44];
+	char	local_90[12];
+	char	local_9c[32];
 	char	local_bc[8];
 	int		local_c4;
 	char	local_c8[8];
@@ -22661,7 +23838,7 @@ jmp_11402:
 	block_copy(local_90, &local_24, 0xc);
 	local_e4 = 0x42000000;
 	local_24 = (local_24 - local_e4);
-	*(int *)local_28 = (*(int *)local_28 - local_e4);
+	local_28 = (local_28 - local_e4);
 	local_30 = 0x0;
 	local_34 = 0x0;
 	local_38 = 0xff;
@@ -22670,7 +23847,7 @@ jmp_11402:
 	local_3b = 0xff;
 	block_copy(local_90, &local_3c, 0xc);
 	local_3c = (local_3c - 0x42000000);
-	*(int *)local_40 = (*(int *)local_40 + 0x42000000);
+	local_40 = (local_40 + 0x42000000);
 	local_48 = 0x0;
 	local_4c = 0x3f800000;
 	local_50 = 0xff;
@@ -22679,7 +23856,7 @@ jmp_11402:
 	local_53 = 0xff;
 	block_copy(local_90, &local_54, 0xc);
 	local_54 = (local_54 + 0x42000000);
-	*(int *)local_58 = (*(int *)local_58 + 0x42000000);
+	local_58 = (local_58 + 0x42000000);
 	local_60 = 0x3f800000;
 	local_64 = 0x3f800000;
 	local_68 = 0xff;
@@ -22688,7 +23865,7 @@ jmp_11402:
 	local_6b = 0xff;
 	block_copy(local_90, &local_6c, 0xc);
 	local_6c = (local_6c + 0x42000000);
-	*(int *)local_70 = (*(int *)local_70 - 0x42000000);
+	local_70 = (local_70 - 0x42000000);
 	local_78 = 0x3f800000;
 	local_7c = 0x0;
 	local_80 = 0xff;
@@ -22705,6 +23882,9 @@ CG_AddRefEntityWithPowerups
 
 Address: 0x11497
 Stack Size: 0xc
+Opcodes Size: 0x78
+Locals Count: 3
+
 Calls: trap_R_AddRefEntityToScene
 Called by: CG_Player, CG_Missile
 =================
@@ -22743,6 +23923,9 @@ CG_LightVerts
 
 Address: 0x1150f
 Stack Size: 0x70
+Opcodes Size: 0x138
+Locals Count: 25
+
 Calls: trap_R_LightForPoint
 =================
 */
@@ -22758,7 +23941,8 @@ int CG_LightVerts(int arg_0, int arg_1, int arg_2) {
 	int		local_38;
 	int		local_3c;
 	int		local_40;
-	char	local_44[8];
+	int		local_44;
+	int		local_48;
 	int		local_4c;
 	int		local_50;
 	int		local_54;
@@ -22818,7 +24002,7 @@ jmp_115e5:
 	local_18 = 0xff;
 jmp_11603:
 	*(char *)(((0x18 * local_1c) + arg_2) + 0x15) = local_18;
-	local_18 = (int)(local_2c + (local_20 * *(int *)local_44));
+	local_18 = (int)(local_2c + (local_20 * local_44));
 	if (local_18 <= 0xff) goto jmp_11621;
 	local_18 = 0xff;
 jmp_11621:
@@ -22837,6 +24021,9 @@ CG_Player
 
 Address: 0x11647
 Stack Size: 0x1e4
+Opcodes Size: 0x17a
+Locals Count: 40
+
 Calls: memset, CG_PlayerPowerups, CG_AddPlayerWeapon, CG_PositionRotatedEntityOnTag, CG_AddRefEntityWithPowerups, CG_PlayerSplash, CG_PlayerShadow, CG_PlayerSprites, CG_PlayerAnimation, CG_PlayerAngles, CG_Error
 Called by: CG_AddCEntity
 =================
@@ -22853,7 +24040,8 @@ void CG_Player(int arg_0) {
 	char	local_78[12];
 	int		local_84;
 	char	local_88[8];
-	char	local_90[32];
+	int		local_90;
+	char	local_94[28];
 	int		local_b0;
 	int		local_b4;
 	int		local_b8;
@@ -22863,7 +24051,8 @@ void CG_Player(int arg_0) {
 	char	local_100[16];
 	int		local_110;
 	char	local_114[8];
-	char	local_11c[32];
+	int		local_11c;
+	char	local_120[28];
 	int		local_13c;
 	int		local_140;
 	int		local_144;
@@ -22871,11 +24060,13 @@ void CG_Player(int arg_0) {
 	char	local_14c[12];
 	int		local_158;
 	char	local_15c[80];
-	char	local_1ac[32];
+	int		local_1ac;
+	char	local_1b0[28];
 	int		local_1cc;
 	int		local_1d0;
 	int		local_1d4;
-	char	local_1d8[8];
+	int		local_1d8;
+	int		local_1dc;
 	int		local_1e0;
 
 	arg_0 = arg_0;
@@ -22905,15 +24096,15 @@ jmp_1168a:
 	CG_PlayerAnimation(arg_0, &local_84, &local_74, local_88, &local_110, local_100, local_114);
 	CG_PlayerSprites(arg_0);
 	local_1e0 = CG_PlayerShadow(arg_0, &local_1d4);
-	*(int *)local_1d8 = local_1e0;
+	local_1d8 = local_1e0;
 	CG_PlayerSplash(arg_0);
 	if (bss_ca58 != 0x3) goto jmp_116ea;
-	if (*(int *)local_1d8 == 0x0) goto jmp_116ea;
+	if (local_1d8 == 0x0) goto jmp_116ea;
 	local_1cc = (local_1cc | 0x100);
 jmp_116ea:
 	local_1cc = (local_1cc | 0x80);
 	local_2c = *(int *)(local_13c + 0x20c);
-	*(int *)local_90 = *(int *)(local_13c + 0x210);
+	local_90 = *(int *)(local_13c + 0x210);
 	block_copy((arg_0 + 0x2b4), local_68, 0xc);
 	block_copy((arg_0 + 0x2b4), local_30, 0xc);
 	local_3c = local_1d4;
@@ -22927,7 +24118,7 @@ jmp_11729:
 	if (local_b8 != 0x0) goto jmp_11736;
 	goto jmp_117bf;
 jmp_11736:
-	*(int *)local_11c = *(int *)(local_13c + 0x218);
+	local_11c = *(int *)(local_13c + 0x218);
 	block_copy((arg_0 + 0x2b4), local_bc, 0xc);
 	CG_PositionRotatedEntityOnTag(&local_b0, &local_24, *(int *)(local_13c + 0x20c), 0x614e);
 	local_c8 = local_1d4;
@@ -22937,7 +24128,7 @@ jmp_11736:
 	if (local_148 != 0x0) goto jmp_11775;
 	goto jmp_117bf;
 jmp_11775:
-	*(int *)local_1ac = *(int *)(local_13c + 0x220);
+	local_1ac = *(int *)(local_13c + 0x220);
 	block_copy((arg_0 + 0x2b4), local_14c, 0xc);
 	CG_PositionRotatedEntityOnTag(&local_140, &local_b0, *(int *)(local_13c + 0x214), 0x6145);
 	local_158 = local_1d4;
@@ -22954,6 +24145,9 @@ CG_ResetPlayerEntity
 
 Address: 0x117c1
 Stack Size: 0x3c
+Opcodes Size: 0xdc
+Locals Count: 1
+
 Calls: memset, CG_Printf, BG_EvaluateTrajectory, CG_ClearLerpFrame
 Called by: CG_ResetEntity, CG_LoadClientInfo
 =================
@@ -22990,6 +24184,9 @@ CG_CheckAmmo
 
 Address: 0x1189d
 Stack Size: 0x24
+Opcodes Size: 0x8d
+Locals Count: 5
+
 Calls: trap_S_StartLocalSound
 Called by: CG_TransitionPlayerState
 =================
@@ -22998,7 +24195,8 @@ void CG_CheckAmmo(void) {
 	int		local_10;
 	int		local_14;
 	int		local_18;
-	char	local_1c[8];
+	int		local_1c;
+	int		local_20;
 
 	local_18 = *(int *)(bss_c2330 + 0xec);
 	local_14 = 0x0;
@@ -23024,14 +24222,14 @@ jmp_118f8:
 jmp_11901:
 	local_10 = (local_10 + 0x1);
 	if (local_10 < 0xb) goto jmp_118ab;
-	*(int *)local_1c = bss_de9e8;
+	local_1c = bss_de9e8;
 	if (local_14 != 0x0) goto jmp_11918;
 	bss_de9e8 = 0x2;
 	goto jmp_1191b;
 jmp_11918:
 	bss_de9e8 = 0x1;
 jmp_1191b:
-	if (bss_de9e8 == *(int *)local_1c) goto jmp_11928;
+	if (bss_de9e8 == local_1c) goto jmp_11928;
 	trap_S_StartLocalSound(bss_1043dc, 0x6);
 jmp_11928:
 }
@@ -23042,6 +24240,9 @@ CG_DamageFeedback
 
 Address: 0x1192a
 Stack Size: 0x6c
+Opcodes Size: 0x151
+Locals Count: 24
+
 Calls: VectorLength, AngleVectors
 Called by: CG_TransitionPlayerState
 =================
@@ -23155,6 +24356,9 @@ CG_Respawn
 
 Address: 0x11a7b
 Stack Size: 0x8
+Opcodes Size: 0x11
+Locals Count: 0
+
 Called by: CG_SetInitialSnapshot, CG_TransitionPlayerState
 =================
 */
@@ -23171,6 +24375,9 @@ CG_CheckPlayerstateEvents
 
 Address: 0x11a8c
 Stack Size: 0x44
+Opcodes Size: 0xe6
+Locals Count: 14
+
 Calls: CG_EntityEvent
 Called by: CG_TransitionPlayerState
 =================
@@ -23180,19 +24387,21 @@ void CG_CheckPlayerstateEvents(int arg_0, int arg_1) {
 	int		local_14;
 	int		local_18;
 	int		local_1c;
-	char	local_20[12];
+	int		local_20;
+	char	local_24[8];
 	int		local_2c;
 	int		local_30;
 	int		local_34;
-	char	local_38[8];
+	int		local_38;
+	int		local_3c;
 	int		local_40;
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
 	local_1c = 0x80;
-	*(int *)local_20 = *(int *)(arg_0 + local_1c);
-	if (*(int *)local_20 == 0x0) goto jmp_11ad7;
-	if (*(int *)local_20 == *(int *)(arg_1 + local_1c)) goto jmp_11ad7;
+	local_20 = *(int *)(arg_0 + local_1c);
+	if (local_20 == 0x0) goto jmp_11ad7;
+	if (local_20 == *(int *)(arg_1 + local_1c)) goto jmp_11ad7;
 	local_14 = ((0x2cc * *(int *)(arg_0 + 0x8c)) + 0xf30c);
 	*(int *)(local_14 + 0xb4) = *(int *)(arg_0 + 0x80);
 	*(int *)(local_14 + 0xb8) = *(int *)(arg_0 + 0x84);
@@ -23207,8 +24416,8 @@ jmp_11ae5:
 	local_30 = 0x2;
 	if (local_10 <= (local_2c - local_30)) goto jmp_11b62;
 	local_34 = ((local_10 & 0x1) << local_30);
-	*(int *)local_38 = 0x70;
-	if (*(int *)(local_34 + (arg_0 + *(int *)local_38)) == *(int *)(local_34 + (arg_1 + *(int *)local_38))) goto jmp_11b62;
+	local_38 = 0x70;
+	if (*(int *)(local_34 + (arg_0 + local_38)) == *(int *)(local_34 + (arg_1 + local_38))) goto jmp_11b62;
 jmp_11b1b:
 	local_18 = *(int *)(((local_10 & 0x1) << 0x2) + (arg_0 + 0x70));
 	*(int *)(local_14 + 0xb4) = local_18;
@@ -23229,14 +24438,19 @@ CG_CheckChangedPredictableEvents
 
 Address: 0x11b72
 Stack Size: 0x28
+Opcodes Size: 0x91
+Locals Count: 7
+
 Calls: CG_Printf, CG_EntityEvent
 =================
 */
 void CG_CheckChangedPredictableEvents(int arg_0) {
 	int		local_10;
 	int		local_14;
-	char	local_18[8];
-	char	local_20[8];
+	int		local_18;
+	int		local_1c;
+	int		local_20;
+	int		local_24;
 
 	arg_0 = arg_0;
 	local_14 = 0xdc954;
@@ -23247,13 +24461,13 @@ jmp_11b85:
 	goto jmp_11bf3;
 jmp_11b8c:
 	if (local_10 <= (bss_dcc34 - 0x10)) goto jmp_11bf3;
-	*(int *)local_20 = 0x2;
-	if (*(int *)(((local_10 & 0x1) << *(int *)local_20) + (arg_0 + 0x70)) == *(int *)(((local_10 & 0xf) << *(int *)local_20) + 0xdcc38)) goto jmp_11bf3;
-	*(int *)local_18 = *(int *)(((local_10 & 0x1) << 0x2) + (arg_0 + 0x70));
-	*(int *)(local_14 + 0xb4) = *(int *)local_18;
+	local_20 = 0x2;
+	if (*(int *)(((local_10 & 0x1) << local_20) + (arg_0 + 0x70)) == *(int *)(((local_10 & 0xf) << local_20) + 0xdcc38)) goto jmp_11bf3;
+	local_18 = *(int *)(((local_10 & 0x1) << 0x2) + (arg_0 + 0x70));
+	*(int *)(local_14 + 0xb4) = local_18;
 	*(int *)(local_14 + 0xb8) = *(int *)(((local_10 & 0x1) << 0x2) + (arg_0 + 0x78));
 	CG_EntityEvent(local_14, (local_14 + 0x2b4));
-	*(int *)(((local_10 & 0xf) << 0x2) + 0xdcc38) = *(int *)local_18;
+	*(int *)(((local_10 & 0xf) << 0x2) + 0xdcc38) = local_18;
 	if (bss_ada8 == 0x0) goto jmp_11bf3;
 	CG_Printf(0x67a0);
 jmp_11bf3:
@@ -23268,6 +24482,9 @@ pushReward
 
 Address: 0x11c03
 Stack Size: 0xc
+Opcodes Size: 0x2d
+Locals Count: 4
+
 Called by: CG_CheckLocalSounds
 =================
 */
@@ -23289,6 +24506,9 @@ CG_CheckLocalSounds
 
 Address: 0x11c30
 Stack Size: 0x64
+Opcodes Size: 0x374
+Locals Count: 22
+
 Calls: trap_S_StartLocalSound, CG_AddBufferedSound, pushReward, CG_PainEvent
 Called by: CG_TransitionPlayerState
 =================
@@ -23489,12 +24709,16 @@ CG_TransitionPlayerState
 
 Address: 0x11fa4
 Stack Size: 0x2c
+Opcodes Size: 0xb6
+Locals Count: 8
+
 Calls: CG_CheckPlayerstateEvents, CG_CheckAmmo, CG_CheckLocalSounds, CG_Respawn, CG_DamageFeedback
 Called by: CG_TransitionSnapshot, CG_PredictPlayerState
 =================
 */
 void CG_TransitionPlayerState(int arg_0, int arg_1) {
-	char	local_14[8];
+	int		local_14;
+	int		local_18;
 	int		local_1c;
 	int		local_20;
 	int		local_24;
@@ -23502,8 +24726,8 @@ void CG_TransitionPlayerState(int arg_0, int arg_1) {
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
-	*(int *)local_14 = 0x8c;
-	if (*(int *)(arg_0 + *(int *)local_14) == *(int *)(arg_1 + *(int *)local_14)) goto jmp_11fc5;
+	local_14 = 0x8c;
+	if (*(int *)(arg_0 + local_14) == *(int *)(arg_1 + local_14)) goto jmp_11fc5;
 	bss_dc754 = 0x1;
 	block_copy(arg_0, arg_1, 0x1d4);
 jmp_11fc5:
@@ -23540,6 +24764,9 @@ CG_BuildSolidList
 
 Address: 0x1205a
 Stack Size: 0x28
+Opcodes Size: 0x94
+Locals Count: 8
+
 Called by: CG_SetNextSnap, CG_SetInitialSnapshot
 =================
 */
@@ -23596,15 +24823,19 @@ CG_ClipMoveToEntities
 
 Address: 0x120ee
 Stack Size: 0xc4
+Opcodes Size: 0x113
+Locals Count: 33
+
 Calls: trap_CM_TransformedBoxTrace, trap_CM_TempBoxModel, trap_CM_InlineModel, BG_EvaluateTrajectory
 Called by: CG_Trace
 =================
 */
-void CG_ClipMoveToEntities(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4, int arg_5, int arg_6) {
+void CG_ClipMoveToEntities(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4, int arg_5, int arg_6, int arg_1831) {
 	int		local_2c;
 	int		local_30;
 	int		local_34;
-	char	local_38[44];
+	int		local_38;
+	char	local_3c[40];
 	int		local_64;
 	int		local_68;
 	int		local_6c;
@@ -23668,7 +24899,7 @@ jmp_1214f:
 jmp_121b1:
 	trap_CM_TransformedBoxTrace(&local_30, arg_0, arg_3, arg_1, arg_2, local_70, arg_5, local_8c, local_98);
 	if (local_30 != 0x0) goto jmp_121d8;
-	if (*(int *)local_38 >= *(int *)(arg_6 + 0x8)) goto jmp_121e3;
+	if (local_38 >= *(int *)(arg_6 + 0x8)) goto jmp_121e3;
 jmp_121d8:
 	local_64 = *(int *)local_2c;
 	block_copy(&local_30, arg_6, 0x38);
@@ -23692,18 +24923,22 @@ CG_Trace
 
 Address: 0x12201
 Stack Size: 0x60
+Opcodes Size: 0x44
+Locals Count: 12
+
 Calls: trap_CM_BoxTrace, CG_ClipMoveToEntities
 Called by: CG_ShotgunPellet, CG_LightningBolt, CG_OffsetThirdPersonView, ValidBloodPool, CG_AddFragment, CG_ScanForCrosshairEntity, CG_DrawCrosshair3D
 =================
 */
 void CG_Trace(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4, int arg_5, int arg_6) {
 	char	local_24[8];
-	char	local_2c[44];
+	int		local_2c;
+	char	local_30[40];
 	int		local_58;
 	int		local_5c;
 
 	trap_CM_BoxTrace(local_24, arg_1, arg_4, arg_2, arg_3, 0x0, arg_6);
-	if (*(int *)local_2c == 0x3f800000) goto jmp_12221;
+	if (local_2c == 0x3f800000) goto jmp_12221;
 	local_5c = 0x3fe;
 	goto jmp_12224;
 jmp_12221:
@@ -23720,6 +24955,9 @@ CG_PointContents
 
 Address: 0x12245
 Stack Size: 0x3c
+Opcodes Size: 0x78
+Locals Count: 11
+
 Calls: trap_CM_TransformedPointContents, trap_CM_InlineModel, trap_CM_PointContents
 Called by: CG_Bullet, CG_ShotgunFire, CG_ShotgunPellet, CG_PlasmaTrail, CG_RocketTrail, CG_ShotgunEjectBrass, CG_MachineGunEjectBrass, CG_CalcFov, CG_PlayerSplash, CG_AddFragment, CG_WaterLevel, CG_ScanForCrosshairEntity
 =================
@@ -23731,7 +24969,8 @@ int CG_PointContents(int arg_0, int arg_1) {
 	int		local_24;
 	int		local_28;
 	int		local_2c;
-	char	local_30[8];
+	int		local_30;
+	int		local_34;
 	int		local_38;
 
 	arg_0 = arg_0;
@@ -23749,8 +24988,8 @@ jmp_12275:
 	if (*(int *)(local_18 + 0xb0) == 0xffffff) goto jmp_1227e;
 	goto jmp_122ad;
 jmp_1227e:
-	*(int *)local_30 = trap_CM_InlineModel(*(int *)(local_18 + 0xa0));
-	local_24 = *(int *)local_30;
+	local_30 = trap_CM_InlineModel(*(int *)(local_18 + 0xa0));
+	local_24 = local_30;
 	if (local_24 != 0x0) goto jmp_12292;
 	goto jmp_122ad;
 jmp_12292:
@@ -23769,6 +25008,9 @@ CG_InterpolatePlayerState
 
 Address: 0x122bd
 Stack Size: 0x60
+Opcodes Size: 0x13e
+Locals Count: 20
+
 Calls: trap_GetUserCmd, trap_GetCurrentCmdNumber, LerpAngle, PM_UpdateViewAngles
 Called by: CG_PredictPlayerState
 =================
@@ -23780,9 +25022,11 @@ void CG_InterpolatePlayerState(int arg_0) {
 	int		local_20;
 	int		local_24;
 	int		local_28;
-	char	local_2c[8];
+	int		local_2c;
+	int		local_30;
 	int		local_34;
-	char	local_38[8];
+	int		local_38;
+	int		local_3c;
 	int		local_40;
 	int		local_44;
 	int		local_48;
@@ -23807,14 +25051,14 @@ jmp_122f0:
 	goto jmp_123f9;
 jmp_122f6:
 	if (local_1c == 0x0) goto jmp_1230a;
-	*(int *)local_2c = 0x8;
-	if (*(int *)(local_1c + *(int *)local_2c) > *(int *)(local_18 + *(int *)local_2c)) goto jmp_1230c;
+	local_2c = 0x8;
+	if (*(int *)(local_1c + local_2c) > *(int *)(local_18 + local_2c)) goto jmp_1230c;
 jmp_1230a:
 	goto jmp_123f9;
 jmp_1230c:
 	local_34 = 0x8;
-	*(int *)local_38 = *(int *)(local_18 + local_34);
-	local_24 = ((float)(bss_dc760 - *(int *)local_38) / (float)(*(int *)(local_1c + local_34) - *(int *)local_38));
+	local_38 = *(int *)(local_18 + local_34);
+	local_24 = ((float)(bss_dc760 - local_38) / (float)(*(int *)(local_1c + local_34) - local_38));
 	local_40 = 0x34;
 	local_14 = *(int *)(local_1c + local_40);
 	if (local_14 >= *(int *)(local_18 + local_40)) goto jmp_12344;
@@ -23849,6 +25093,9 @@ CG_TouchItem
 
 Address: 0x123fb
 Stack Size: 0x2c
+Opcodes Size: 0xc8
+Locals Count: 7
+
 Calls: BG_AddPredictableEventToPlayerstate, BG_CanItemBeGrabbed, BG_PlayerTouchesItem
 Called by: CG_TouchTriggerPrediction
 =================
@@ -23907,6 +25154,9 @@ CG_TouchTriggerPrediction
 
 Address: 0x124c3
 Stack Size: 0x7c
+Opcodes Size: 0xb3
+Locals Count: 11
+
 Calls: trap_CM_BoxTrace, trap_CM_InlineModel, BG_TouchJumpPad, CG_TouchItem
 Called by: CG_PredictPlayerState
 =================
@@ -23917,7 +25167,8 @@ void CG_TouchTriggerPrediction(void) {
 	int		local_2c;
 	int		local_30;
 	int		local_34;
-	char	local_38[52];
+	int		local_38;
+	char	local_3c[48];
 	int		local_6c;
 	int		local_70;
 	int		local_74;
@@ -23957,7 +25208,7 @@ jmp_12517:
 	goto jmp_1255e;
 jmp_1252b:
 	trap_CM_BoxTrace(&local_34, 0xdc794, 0xdc794, 0x15d390, 0x15d39c, local_2c, 0xffffffff);
-	if (*(int *)local_38 != 0x0) goto jmp_12543;
+	if (local_38 != 0x0) goto jmp_12543;
 	goto jmp_1255e;
 jmp_12543:
 	if (*(int *)(local_24 + 0x4) != 0x9) goto jmp_1254f;
@@ -23982,17 +25233,22 @@ CG_PredictPlayerState
 
 Address: 0x12576
 Stack Size: 0x280
+Opcodes Size: 0x2b2
+Locals Count: 30
+
 Calls: trap_Cvar_Update, trap_Cvar_Set, trap_GetUserCmd, trap_GetCurrentCmdNumber, CG_TransitionPlayerState, CG_TouchTriggerPrediction, Pmove, VectorLength, VectorCompare, CG_AdjustPositionForMover, PM_UpdateViewAngles, CG_Printf, CG_InterpolatePlayerState
 Called by: CG_DrawActiveFrame
 =================
 */
-void CG_PredictPlayerState(void) {
+void CG_PredictPlayerState(, int arg_225715) {
 	int		local_24;
 	char	local_28[20];
 	int		local_3c;
 	int		local_40;
-	char	local_44[80];
-	char	local_94[360];
+	int		local_44;
+	char	local_48[76];
+	int		local_94;
+	char	local_98[356];
 	int		local_1fc;
 	int		local_200;
 	char	local_204[24];
@@ -24123,7 +25379,7 @@ jmp_126db:
 jmp_12704:
 	local_24c = (local_3c - local_25c);
 	local_250 = (local_40 - local_260);
-	local_254 = (*(int *)local_44 - local_264);
+	local_254 = (local_44 - local_264);
 	local_274 = VectorLength(&local_24c);
 	local_258 = local_274;
 	if (local_258 <= 0x3dcccccd) goto jmp_1279f;
@@ -24176,7 +25432,7 @@ jmp_127da:
 jmp_127e9:
 	CG_AdjustPositionForMover(0xdc794, bss_dc7c4, bss_dc768, bss_dc760, 0xdc794, 0xdc818, 0xdc818);
 	if (bss_ada8 == 0x0) goto jmp_1280d;
-	if (bss_dc7ec <= (*(int *)local_94 + 0x2)) goto jmp_1280d;
+	if (bss_dc7ec <= (local_94 + 0x2)) goto jmp_1280d;
 	CG_Printf(0x67d9);
 jmp_1280d:
 	CG_TransitionPlayerState(0xdc780, local_28);
@@ -24193,6 +25449,9 @@ CG_DrawClientScore
 
 Address: 0x12828
 Stack Size: 0x460
+Opcodes Size: 0x33b
+Locals Count: 21
+
 Calls: CG_DrawBigStringColor, CG_DrawBigString, CG_FillRect, CG_DrawHead, CG_DrawSmallStringColor, Com_sprintf, CG_DrawPic, CG_DrawFlagModel, Com_Printf
 Called by: CG_DrawOldScoreboard, CG_TeamScoreboard
 =================
@@ -24429,6 +25688,9 @@ CG_TeamScoreboard
 
 Address: 0x12b63
 Stack Size: 0x4c
+Opcodes Size: 0x8e
+Locals Count: 17
+
 Calls: CG_DrawClientScore
 Called by: CG_DrawOldScoreboard
 =================
@@ -24444,7 +25706,8 @@ int CG_TeamScoreboard(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4) {
 	int		local_38;
 	int		local_3c;
 	int		local_40;
-	char	local_44[8];
+	int		local_44;
+	int		local_48;
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
@@ -24471,12 +25734,12 @@ jmp_12bb3:
 #define next_call_arg_2 "&local_2c"
 #define next_call_arg_3 "arg_2"
 	if (arg_4 != 0x28) goto jmp_12bcd;
-	*(int *)local_44 = 0x1;
+	local_44 = 0x1;
 	goto jmp_12bd0;
 jmp_12bcd:
-	*(int *)local_44 = 0x0;
+	local_44 = 0x0;
 jmp_12bd0:
-#define next_call_arg_4 "*(int *)local_44"
+#define next_call_arg_4 "local_44"
 	CG_DrawClientScore();
 	local_1c = (local_1c + 0x1);
 jmp_12bdc:
@@ -24494,6 +25757,9 @@ CG_DrawOldScoreboard
 
 Address: 0x12bf1
 Stack Size: 0x6c
+Opcodes Size: 0x3a8
+Locals Count: 19
+
 Calls: CG_LoadDeferredPlayers, CG_DrawClientScore, CG_DrawTeamBackground, CG_TeamScoreboard, CG_DrawPic, CG_PlaceString, CG_DrawBigString, CG_DrawStrlen, va, CG_FadeColor
 Called by: CG_DrawScoreboard
 =================
@@ -24516,7 +25782,8 @@ int CG_DrawOldScoreboard(void) {
 	int		local_58;
 	int		local_5c;
 	int		local_60;
-	char	local_64[8];
+	int		local_64;
+	int		local_68;
 
 	if (bss_8ed8 == 0x0) goto jmp_12bfd;
 	bss_c231c = 0x0;
@@ -24618,8 +25885,8 @@ jmp_12dac:
 	CG_DrawTeamBackground(0x0, (local_24 - local_4c), 0x280, ((local_30 * local_28) + local_50), 0x3ea8f5c3, 0x1);
 	local_24 = (local_24 + ((local_30 * local_28) + 0x10));
 	local_38 = (local_38 - local_30);
-	*(int *)local_64 = CG_TeamScoreboard(local_24, 0x2, local_2c, local_38, local_28);
-	local_40 = *(int *)local_64;
+	local_64 = CG_TeamScoreboard(local_24, 0x2, local_2c, local_38, local_28);
+	local_40 = local_64;
 	CG_DrawTeamBackground(0x0, (local_24 - local_4c), 0x280, ((local_40 * local_28) + local_50), 0x3ea8f5c3, 0x2);
 	local_24 = (local_24 + ((local_40 * local_28) + 0x10));
 	local_38 = (local_38 - local_40);
@@ -24630,8 +25897,8 @@ jmp_12e49:
 	CG_DrawTeamBackground(0x0, (local_24 - local_4c), 0x280, ((local_30 * local_28) + local_50), 0x3ea8f5c3, 0x2);
 	local_24 = (local_24 + ((local_30 * local_28) + 0x10));
 	local_38 = (local_38 - local_30);
-	*(int *)local_64 = CG_TeamScoreboard(local_24, 0x1, local_2c, local_38, local_28);
-	local_40 = *(int *)local_64;
+	local_64 = CG_TeamScoreboard(local_24, 0x1, local_2c, local_38, local_28);
+	local_40 = local_64;
 	CG_DrawTeamBackground(0x0, (local_24 - local_4c), 0x280, ((local_40 * local_28) + local_50), 0x3ea8f5c3, 0x1);
 	local_24 = (local_24 + ((local_40 * local_28) + 0x10));
 	local_38 = (local_38 - local_40);
@@ -24644,8 +25911,8 @@ jmp_12ef3:
 	local_58 = CG_TeamScoreboard(local_24, 0x0, local_2c, local_38, local_28);
 	local_30 = local_58;
 	local_24 = (local_24 + ((local_30 * local_28) + 0x10));
-	*(int *)local_64 = CG_TeamScoreboard(local_24, 0x3, local_2c, (local_38 - local_30), local_28);
-	local_40 = *(int *)local_64;
+	local_64 = CG_TeamScoreboard(local_24, 0x3, local_2c, (local_38 - local_30), local_28);
+	local_40 = local_64;
 	local_24 = (local_24 + ((local_40 * local_28) + 0x10));
 jmp_12f3a:
 	if (localClient != 0x0) goto jmp_12f7f;
@@ -24686,6 +25953,9 @@ CG_CenterGiantLine
 
 Address: 0x12f99
 Stack Size: 0x4c
+Opcodes Size: 0x45
+Locals Count: 10
+
 Calls: CG_DrawStringExt, CG_DrawStrlen
 Called by: CG_DrawTourneyScoreboard
 =================
@@ -24726,6 +25996,9 @@ CG_DrawTourneyScoreboard
 
 Address: 0x12fde
 Stack Size: 0x9c
+Opcodes Size: 0x1d6
+Locals Count: 28
+
 Calls: trap_SendClientCommand, strlen, CG_DrawStringExt, va, CG_CenterGiantLine, CG_ConfigString, CG_FillRect
 Called by: CG_DrawActive
 =================
@@ -24745,8 +26018,10 @@ void CG_DrawTourneyScoreboard(void) {
 	int		local_58;
 	int		local_5c;
 	int		local_60;
-	char	local_64[8];
-	char	local_6c[8];
+	int		local_64;
+	int		local_68;
+	int		local_6c;
+	int		local_70;
 	int		local_74;
 	int		local_78;
 	int		local_7c;
@@ -24774,16 +26049,16 @@ jmp_12fef:
 	local_38 = local_60;
 	local_3c = 0x3f800000;
 	local_40 = 0x3f800000;
-	*(int *)local_64 = CG_ConfigString(0x4);
-	local_30 = *(int *)local_64;
+	local_64 = CG_ConfigString(0x4);
+	local_30 = local_64;
 	if ((char)*(char *)local_30 != 0x0) goto jmp_13037;
 	local_30 = 0x68ae;
 jmp_13037:
 	CG_CenterGiantLine(0x41000000, local_30);
 	local_4c = (bss_dc760 / 0x3e8);
-	*(int *)local_6c = 0x3c;
-	local_50 = (local_4c / *(int *)local_6c);
-	local_4c = (local_4c %% *(int *)local_6c);
+	local_6c = 0x3c;
+	local_50 = (local_4c / local_6c);
+	local_4c = (local_4c %% local_6c);
 	local_74 = 0xa;
 	local_54 = (local_4c / local_74);
 	local_4c = (local_4c %% local_74);
@@ -24892,6 +26167,9 @@ CG_ParseScores
 
 Address: 0x131b4
 Stack Size: 0xe8
+Opcodes Size: 0x224
+Locals Count: 53
+
 Calls: memset, atoi, CG_Argv
 Called by: CG_ServerCommand
 =================
@@ -24904,34 +26182,47 @@ void CG_ParseScores(void) {
 	int		local_24;
 	int		local_28;
 	int		local_2c;
-	char	local_30[8];
+	int		local_30;
+	int		local_34;
 	int		local_38;
-	char	local_3c[8];
+	int		local_3c;
+	int		local_40;
 	int		local_44;
-	char	local_48[8];
+	int		local_48;
+	int		local_4c;
 	int		local_50;
-	char	local_54[8];
+	int		local_54;
+	int		local_58;
 	int		local_5c;
-	char	local_60[8];
+	int		local_60;
+	int		local_64;
 	int		local_68;
 	int		local_6c;
 	int		local_70;
-	char	local_74[8];
+	int		local_74;
+	int		local_78;
 	int		local_7c;
-	char	local_80[8];
+	int		local_80;
+	int		local_84;
 	int		local_88;
-	char	local_8c[8];
+	int		local_8c;
+	int		local_90;
 	int		local_94;
-	char	local_98[8];
+	int		local_98;
+	int		local_9c;
 	int		local_a0;
 	int		local_a4;
-	char	local_a8[8];
+	int		local_a8;
+	int		local_ac;
 	int		local_b0;
-	char	local_b4[8];
+	int		local_b4;
+	int		local_b8;
 	int		local_bc;
-	char	local_c0[8];
+	int		local_c0;
+	int		local_c4;
 	int		local_c8;
-	char	local_cc[8];
+	int		local_cc;
+	int		local_d0;
 	int		local_d4;
 	int		local_d8;
 	int		local_dc;
@@ -24948,52 +26239,52 @@ jmp_131cd:
 	local_28 = atoi(local_24);
 	bss_dd288 = local_28;
 	local_2c = CG_Argv(0x3);
-	*(int *)local_30 = atoi(local_2c);
-	bss_dd28c = *(int *)local_30;
+	local_30 = atoi(local_2c);
+	bss_dd28c = local_30;
 	memset(0xdd290, 0x0, 0xf00);
 	local_14 = 0x0;
 	goto jmp_133d1;
 jmp_131fd:
 	local_38 = CG_Argv(((0xe * local_14) + 0x4));
-	*(int *)local_3c = atoi(local_38);
-	*(int *)((0x3c * local_14) + 0xdd290) = *(int *)local_3c;
+	local_3c = atoi(local_38);
+	*(int *)((0x3c * local_14) + 0xdd290) = local_3c;
 	local_44 = CG_Argv(((0xe * local_14) + 0x5));
-	*(int *)local_48 = atoi(local_44);
-	*(int *)((0x3c * local_14) + 0xdd294) = *(int *)local_48;
+	local_48 = atoi(local_44);
+	*(int *)((0x3c * local_14) + 0xdd294) = local_48;
 	local_50 = CG_Argv(((0xe * local_14) + 0x6));
-	*(int *)local_54 = atoi(local_50);
-	*(int *)((0x3c * local_14) + 0xdd298) = *(int *)local_54;
+	local_54 = atoi(local_50);
+	*(int *)((0x3c * local_14) + 0xdd298) = local_54;
 	local_5c = CG_Argv(((0xe * local_14) + 0x7));
-	*(int *)local_60 = atoi(local_5c);
-	*(int *)((0x3c * local_14) + 0xdd29c) = *(int *)local_60;
+	local_60 = atoi(local_5c);
+	*(int *)((0x3c * local_14) + 0xdd29c) = local_60;
 	local_68 = CG_Argv(((0xe * local_14) + 0x8));
 	local_6c = atoi(local_68);
 	*(int *)((0x3c * local_14) + 0xdd2a0) = local_6c;
 	local_70 = CG_Argv(((0xe * local_14) + 0x9));
-	*(int *)local_74 = atoi(local_70);
-	local_18 = *(int *)local_74;
+	local_74 = atoi(local_70);
+	local_18 = local_74;
 	local_7c = CG_Argv(((0xe * local_14) + 0xa));
-	*(int *)local_80 = atoi(local_7c);
-	*(int *)((0x3c * local_14) + 0xdd2a8) = *(int *)local_80;
+	local_80 = atoi(local_7c);
+	*(int *)((0x3c * local_14) + 0xdd2a8) = local_80;
 	local_88 = CG_Argv(((0xe * local_14) + 0xb));
-	*(int *)local_8c = atoi(local_88);
-	*(int *)((0x3c * local_14) + 0xdd2ac) = *(int *)local_8c;
+	local_8c = atoi(local_88);
+	*(int *)((0x3c * local_14) + 0xdd2ac) = local_8c;
 	local_94 = CG_Argv(((0xe * local_14) + 0xc));
-	*(int *)local_98 = atoi(local_94);
-	*(int *)((0x3c * local_14) + 0xdd2b0) = *(int *)local_98;
+	local_98 = atoi(local_94);
+	*(int *)((0x3c * local_14) + 0xdd2b0) = local_98;
 	local_a0 = CG_Argv(((0xe * local_14) + 0xd));
 	local_a4 = atoi(local_a0);
 	*(int *)((0x3c * local_14) + 0xdd2b4) = local_a4;
-	*(int *)local_a8 = 0xe;
-	local_b0 = CG_Argv(((*(int *)local_a8 * local_14) + *(int *)local_a8));
-	*(int *)local_b4 = atoi(local_b0);
-	*(int *)((0x3c * local_14) + 0xdd2b8) = *(int *)local_b4;
+	local_a8 = 0xe;
+	local_b0 = CG_Argv(((local_a8 * local_14) + local_a8));
+	local_b4 = atoi(local_b0);
+	*(int *)((0x3c * local_14) + 0xdd2b8) = local_b4;
 	local_bc = CG_Argv(((0xe * local_14) + 0xf));
-	*(int *)local_c0 = atoi(local_bc);
-	*(int *)((0x3c * local_14) + 0xdd2bc) = *(int *)local_c0;
+	local_c0 = atoi(local_bc);
+	*(int *)((0x3c * local_14) + 0xdd2bc) = local_c0;
 	local_c8 = CG_Argv(((0xe * local_14) + 0x10));
-	*(int *)local_cc = atoi(local_c8);
-	*(int *)((0x3c * local_14) + 0xdd2c4) = *(int *)local_cc;
+	local_cc = atoi(local_c8);
+	*(int *)((0x3c * local_14) + 0xdd2c4) = local_cc;
 	local_d4 = CG_Argv(((0xe * local_14) + 0x11));
 	local_d8 = atoi(local_d4);
 	*(int *)((0x3c * local_14) + 0xdd2c0) = local_d8;
@@ -25019,6 +26310,9 @@ CG_ParseTeamInfo
 
 Address: 0x133d8
 Stack Size: 0x5c
+Opcodes Size: 0xf7
+Locals Count: 19
+
 Calls: CG_Error, atoi, CG_Argv
 Called by: CG_ServerCommand
 =================
@@ -25030,7 +26324,8 @@ void CG_ParseTeamInfo(void) {
 	int		local_1c;
 	int		local_20;
 	int		local_24;
-	char	local_28[8];
+	int		local_28;
+	int		local_2c;
 	int		local_30;
 	int		local_34;
 	int		local_38;
@@ -25057,8 +26352,8 @@ jmp_13400:
 	goto jmp_134c8;
 jmp_13405:
 	local_24 = CG_Argv(((0x6 * local_14) + 0x2));
-	*(int *)local_28 = atoi(local_24);
-	local_10 = *(int *)local_28;
+	local_28 = atoi(local_24);
+	local_10 = local_28;
 	if (local_10 < 0x0) goto jmp_13423;
 	if (local_10 < 0x40) goto jmp_1342d;
 jmp_13423:
@@ -25094,6 +26389,9 @@ CG_ParseServerinfo
 
 Address: 0x134cf
 Stack Size: 0x6c
+Opcodes Size: 0xf7
+Locals Count: 21
+
 Calls: trap_Cvar_Set, Q_strncpyz, Com_sprintf, va, atoi, Info_ValueForKey, CG_ConfigString
 Called by: CG_ConfigStringModified, CG_Init
 =================
@@ -25163,6 +26461,9 @@ CG_ParseWarmup
 
 Address: 0x135c6
 Stack Size: 0x28
+Opcodes Size: 0x43
+Locals Count: 6
+
 Calls: trap_S_StartLocalSound, atoi, CG_ConfigString
 Called by: CG_ConfigStringModified
 =================
@@ -25199,6 +26500,9 @@ CG_SetConfigValues
 
 Address: 0x13609
 Stack Size: 0x30
+Opcodes Size: 0x67
+Locals Count: 9
+
 Calls: atoi, CG_ConfigString
 Called by: CG_Init
 =================
@@ -25240,6 +26544,9 @@ CG_ShaderStateChanged
 
 Address: 0x13670
 Stack Size: 0xd0
+Opcodes Size: 0xb8
+Locals Count: 13
+
 Calls: trap_R_RemapShader, strncpy, strstr, CG_ConfigString
 Called by: CG_ConfigStringModified, CG_Init
 =================
@@ -25252,30 +26559,33 @@ void CG_ShaderStateChanged(void) {
 	char	local_60[64];
 	char	local_a0[16];
 	int		local_b0;
-	char	local_b4[12];
-	char	local_c0[8];
-	char	local_c8[8];
+	int		local_b4;
+	char	local_b8[8];
+	int		local_c0;
+	int		local_c4;
+	int		local_c8;
+	int		local_cc;
 
 	local_b0 = CG_ConfigString(0x18);
 	local_14 = local_b0;
 	goto jmp_1371c;
 jmp_1367d:
-	*(int *)local_b4 = strstr(local_14, 0x6a1e);
-	local_18 = *(int *)local_b4;
+	local_b4 = strstr(local_14, 0x6a1e);
+	local_18 = local_b4;
 	if (local_18 == 0x0) goto jmp_13726;
 	if ((char)*(char *)local_18 == 0x0) goto jmp_13726;
 	strncpy(local_20, local_14, (local_18 - local_14));
 	*(char *)((local_18 - local_14) + local_20) = 0x0;
 	local_18 = (local_18 + 0x1);
-	*(int *)local_c0 = strstr(local_18, 0x6a1c);
-	local_1c = *(int *)local_c0;
+	local_c0 = strstr(local_18, 0x6a1c);
+	local_1c = local_c0;
 	if (local_1c == 0x0) goto jmp_13726;
 	if ((char)*(char *)local_1c == 0x0) goto jmp_13726;
 	strncpy(local_60, local_18, (local_1c - local_18));
 	*(char *)((local_1c - local_18) + local_60) = 0x0;
 	local_1c = (local_1c + 0x1);
-	*(int *)local_c8 = strstr(local_1c, 0x6a1a);
-	local_14 = *(int *)local_c8;
+	local_c8 = strstr(local_1c, 0x6a1a);
+	local_14 = local_c8;
 	if (local_14 == 0x0) goto jmp_1371c;
 	strncpy(local_a0, local_1c, (local_14 - local_1c));
 	*(char *)((local_14 - local_1c) + local_a0) = 0x0;
@@ -25293,6 +26603,9 @@ CG_ConfigStringModified
 
 Address: 0x13728
 Stack Size: 0x44
+Opcodes Size: 0x1c2
+Locals Count: 12
+
 Calls: trap_S_RegisterSound, trap_R_RegisterModel, trap_GetGameState, CG_ShaderStateChanged, CG_BuildSpectatorString, CG_NewClientInfo, Q_strncpyz, CG_ParseWarmup, CG_ParseServerinfo, CG_StartMusic, CG_ConfigString, atoi, CG_Argv
 Called by: CG_ServerCommand
 =================
@@ -25433,6 +26746,9 @@ CG_AddToTeamChat
 
 Address: 0x138ea
 Stack Size: 0x40
+Opcodes Size: 0x168
+Locals Count: 14
+
 Calls: Q_IsColorString
 Called by: CG_ServerCommand
 =================
@@ -25541,6 +26857,9 @@ CG_MapRestart
 
 Address: 0x13a52
 Stack Size: 0x14
+Opcodes Size: 0x51
+Locals Count: 0
+
 Calls: trap_Cvar_Set, trap_S_StartLocalSound, trap_S_ClearLoopingSounds, CG_CenterPrint, CG_StartMusic, CG_ClearParticles, CG_InitMarkPolys, CG_InitLocalEntities, CG_Printf
 Called by: CG_ServerCommand
 =================
@@ -25576,6 +26895,9 @@ CG_RemoveChatEscapeChar
 
 Address: 0x13aa3
 Stack Size: 0x1c
+Opcodes Size: 0x4b
+Locals Count: 6
+
 Called by: CG_ServerCommand
 =================
 */
@@ -25583,7 +26905,8 @@ void CG_RemoveChatEscapeChar(int arg_0) {
 	int		local_8;
 	int		local_c;
 	int		local_10;
-	char	local_14[8];
+	int		local_14;
+	int		local_18;
 
 	arg_0 = arg_0;
 	local_10 = 0x0;
@@ -25594,9 +26917,9 @@ jmp_13ab5:
 	if ((char)*(char *)(local_8 + arg_0) != 0x19) goto jmp_13ac0;
 	goto jmp_13ad6;
 jmp_13ac0:
-	*(int *)local_14 = local_c;
-	local_c = (*(int *)local_14 + 0x1);
-	*(char *)(*(int *)local_14 + arg_0) = *(char *)(local_8 + arg_0);
+	local_14 = local_c;
+	local_c = (local_14 + 0x1);
+	*(char *)(local_14 + arg_0) = *(char *)(local_8 + arg_0);
 jmp_13ad6:
 	local_8 = (local_8 + 0x1);
 jmp_13adc:
@@ -25610,6 +26933,9 @@ CG_ServerCommand
 
 Address: 0x13aee
 Stack Size: 0x1a8
+Opcodes Size: 0x18a
+Locals Count: 19
+
 Calls: trap_R_RemapShader, trap_Argc, trap_S_StartLocalSound, CG_LoadDeferredPlayers, Q_stricmp, CG_MapRestart, CG_ParseTeamInfo, CG_ParseScores, CG_AddToTeamChat, CG_RemoveChatEscapeChar, Q_strncpyz, CG_Printf, CG_ConfigStringModified, CG_CenterPrint, strcmp, CG_Argv
 Called by: CG_ExecuteNewServerCommands
 =================
@@ -25728,6 +27054,9 @@ CG_ExecuteNewServerCommands
 
 Address: 0x13c78
 Stack Size: 0x18
+Opcodes Size: 0x2b
+Locals Count: 4
+
 Calls: trap_GetServerCommand, CG_ServerCommand
 Called by: CG_TransitionSnapshot, CG_SetInitialSnapshot
 =================
@@ -25756,6 +27085,9 @@ CG_ResetEntity
 
 Address: 0x13ca3
 Stack Size: 0x14
+Opcodes Size: 0x40
+Locals Count: 1
+
 Calls: CG_ResetPlayerEntity
 Called by: CG_SetInitialSnapshot, CG_TransitionEntity
 =================
@@ -25780,6 +27112,9 @@ CG_TransitionEntity
 
 Address: 0x13ce3
 Stack Size: 0x10
+Opcodes Size: 0x2d
+Locals Count: 1
+
 Calls: CG_CheckEvents, CG_ResetEntity
 Called by: CG_TransitionSnapshot
 =================
@@ -25802,6 +27137,9 @@ CG_SetInitialSnapshot
 
 Address: 0x13d10
 Stack Size: 0x28
+Opcodes Size: 0x78
+Locals Count: 5
+
 Calls: memcpy, CG_CheckEvents, CG_ResetEntity, CG_Respawn, CG_ExecuteNewServerCommands, CG_BuildSolidList, BG_PlayerStateToEntityState
 Called by: CG_ProcessSnapshots
 =================
@@ -25809,7 +27147,8 @@ Called by: CG_ProcessSnapshots
 void CG_SetInitialSnapshot(int arg_0) {
 	int		local_14;
 	int		local_18;
-	char	local_1c[12];
+	int		local_1c;
+	char	local_20[8];
 
 	arg_0 = arg_0;
 	bss_c2330 = arg_0;
@@ -25820,9 +27159,9 @@ void CG_SetInitialSnapshot(int arg_0) {
 	local_18 = 0x0;
 	goto jmp_13d7e;
 jmp_13d41:
-	*(int *)local_1c = ((0xd0 * local_18) + (bss_c2330 + 0x204));
-	local_14 = ((0x2cc * *(int *)*(int *)local_1c) + 0xf30c);
-	memcpy(local_14, *(int *)local_1c, 0xd0);
+	local_1c = ((0xd0 * local_18) + (bss_c2330 + 0x204));
+	local_14 = ((0x2cc * *(int *)local_1c) + 0xf30c);
+	memcpy(local_14, local_1c, 0xd0);
 	*(int *)(local_14 + 0x1a0) = 0x0;
 	*(int *)(local_14 + 0x1a4) = 0x1;
 	CG_ResetEntity(local_14);
@@ -25838,6 +27177,9 @@ CG_TransitionSnapshot
 
 Address: 0x13d88
 Stack Size: 0x34
+Opcodes Size: 0xf9
+Locals Count: 8
+
 Calls: CG_TransitionPlayerState, CG_TransitionEntity, BG_PlayerStateToEntityState, CG_ExecuteNewServerCommands, CG_Error
 Called by: CG_ProcessSnapshots
 =================
@@ -25907,6 +27249,9 @@ CG_SetNextSnap
 
 Address: 0x13e81
 Stack Size: 0x38
+Opcodes Size: 0xd5
+Locals Count: 10
+
 Calls: memcpy, CG_BuildSolidList, BG_PlayerStateToEntityState
 Called by: CG_ProcessSnapshots
 =================
@@ -25914,9 +27259,11 @@ Called by: CG_ProcessSnapshots
 void CG_SetNextSnap(int arg_0) {
 	int		local_14;
 	int		local_18;
-	char	local_1c[8];
+	int		local_1c;
+	int		local_20;
 	int		local_24;
-	char	local_28[8];
+	int		local_28;
+	int		local_2c;
 	int		local_30;
 	int		local_34;
 
@@ -25924,11 +27271,11 @@ void CG_SetNextSnap(int arg_0) {
 	bss_c2334 = arg_0;
 	BG_PlayerStateToEntityState((arg_0 + 0x2c), ((0x2cc * *(int *)(arg_0 + 0xb8)) + 0xf3dc), 0x0);
 	*(int *)((0x2cc * *(int *)(bss_c2330 + 0xb8)) + 0xf4ac) = 0x1;
-	*(int *)local_1c = 0x0;
+	local_1c = 0x0;
 	goto jmp_13f08;
 jmp_13eae:
 	local_24 = 0xd0;
-	local_18 = ((local_24 * *(int *)local_1c) + (arg_0 + 0x204));
+	local_18 = ((local_24 * local_1c) + (arg_0 + 0x204));
 	local_14 = ((0x2cc * *(int *)local_18) + 0xf30c);
 	memcpy((local_14 + local_24), local_18, 0xd0);
 	local_30 = 0x0;
@@ -25941,9 +27288,9 @@ jmp_13ef4:
 jmp_13efc:
 	*(int *)(local_14 + 0x1a0) = 0x1;
 jmp_13f02:
-	*(int *)local_1c = (*(int *)local_1c + 0x1);
+	local_1c = (local_1c + 0x1);
 jmp_13f08:
-	if (*(int *)local_1c < *(int *)(arg_0 + 0x200)) goto jmp_13eae;
+	if (local_1c < *(int *)(arg_0 + 0x200)) goto jmp_13eae;
 	if (bss_c2330 == 0x0) goto jmp_13f2d;
 	local_24 = 0x94;
 	if (((*(int *)(arg_0 + local_24) ^ *(int *)(bss_c2330 + local_24)) & 0x4) == 0x0) goto jmp_13f2d;
@@ -25952,8 +27299,8 @@ jmp_13f08:
 jmp_13f2d:
 	bss_dc758 = 0x0;
 jmp_13f30:
-	*(int *)local_28 = 0xb8;
-	if (*(int *)(bss_c2334 + *(int *)local_28) == *(int *)(bss_c2330 + *(int *)local_28)) goto jmp_13f43;
+	local_28 = 0xb8;
+	if (*(int *)(bss_c2334 + local_28) == *(int *)(bss_c2330 + local_28)) goto jmp_13f43;
 	bss_dc758 = 0x1;
 jmp_13f43:
 	if (((*(int *)bss_c2334 ^ *(int *)bss_c2330) & 0x4) == 0x0) goto jmp_13f51;
@@ -25968,6 +27315,9 @@ CG_ReadNextSnapshot
 
 Address: 0x13f56
 Stack Size: 0x28
+Opcodes Size: 0x6f
+Locals Count: 5
+
 Calls: trap_GetSnapshot, CG_AddLagometerSnapshotInfo, CG_Printf
 Called by: CG_ProcessSnapshots
 =================
@@ -26014,6 +27364,9 @@ CG_ProcessSnapshots
 
 Address: 0x13fc5
 Stack Size: 0x20
+Opcodes Size: 0xb0
+Locals Count: 4
+
 Calls: trap_GetCurrentSnapshotNumber, CG_TransitionSnapshot, CG_SetNextSnap, CG_SetInitialSnapshot, CG_ReadNextSnapshot, CG_Error
 Called by: CG_DrawActiveFrame
 =================
@@ -26079,6 +27432,9 @@ CG_TestModel_f
 
 Address: 0x14075
 Stack Size: 0x38
+Opcodes Size: 0x8b
+Locals Count: 9
+
 Calls: trap_R_RegisterModel, trap_Argc, memset, AnglesToAxis, CG_Printf, atof, Q_strncpyz, CG_Argv
 Called by: CG_TestGun_f
 =================
@@ -26132,6 +27488,9 @@ CG_TestGun_f
 
 Address: 0x14100
 Stack Size: 0x8
+Opcodes Size: 0x12
+Locals Count: 0
+
 Calls: CG_TestModel_f
 =================
 */
@@ -26152,6 +27511,9 @@ CG_TestModelNextFrame_f
 
 Address: 0x14112
 Stack Size: 0x14
+Opcodes Size: 0x16
+Locals Count: 1
+
 Calls: CG_Printf
 =================
 */
@@ -26169,6 +27531,9 @@ CG_TestModelPrevFrame_f
 
 Address: 0x14128
 Stack Size: 0x14
+Opcodes Size: 0x1d
+Locals Count: 1
+
 Calls: CG_Printf
 =================
 */
@@ -26189,6 +27554,9 @@ CG_TestModelNextSkin_f
 
 Address: 0x14145
 Stack Size: 0x14
+Opcodes Size: 0x16
+Locals Count: 1
+
 Calls: CG_Printf
 =================
 */
@@ -26206,6 +27574,9 @@ CG_TestModelPrevSkin_f
 
 Address: 0x1415b
 Stack Size: 0x14
+Opcodes Size: 0x1d
+Locals Count: 1
+
 Calls: CG_Printf
 =================
 */
@@ -26226,11 +27597,14 @@ CG_AddTestModel
 
 Address: 0x14178
 Stack Size: 0x2c
+Opcodes Size: 0x8b
+Locals Count: 16
+
 Calls: trap_R_AddRefEntityToScene, trap_R_RegisterModel, CG_Printf
 Called by: CG_DrawActiveFrame
 =================
 */
-void CG_AddTestModel(void) {
+void CG_AddTestModel(, int arg_226105, int arg_226108, int arg_226111, int arg_226114, int arg_228047, int arg_228050, int arg_228053, int arg_228057) {
 	int		local_c;
 	int		local_10;
 	int		local_14;
@@ -26275,6 +27649,9 @@ CG_CalcVrect
 
 Address: 0x14203
 Stack Size: 0x1c
+Opcodes Size: 0x6d
+Locals Count: 3
+
 Calls: trap_Cvar_Set
 Called by: CG_CalcViewValues
 =================
@@ -26316,11 +27693,14 @@ CG_OffsetThirdPersonView
 
 Address: 0x14270
 Stack Size: 0xe0
+Opcodes Size: 0x179
+Locals Count: 36
+
 Calls: atan2, sqrt, sin, cos, CG_Trace, AngleVectors
 Called by: CG_CalcViewValues
 =================
 */
-void CG_OffsetThirdPersonView(void) {
+void CG_OffsetThirdPersonView(, int arg_226060, int arg_226146) {
 	int		local_24;
 	int		local_28;
 	int		local_2c;
@@ -26334,20 +27714,23 @@ void CG_OffsetThirdPersonView(void) {
 	int		local_4c;
 	int		local_50;
 	int		local_54;
-	char	local_58[8];
+	int		local_58;
+	int		local_5c;
 	int		local_60;
 	int		local_64;
 	int		local_68;
 	char	local_6c[8];
 	int		local_74;
-	char	local_78[44];
+	char	local_78[12];
+	char	local_84[32];
 	char	local_a4[12];
 	int		local_b0;
 	int		local_b4;
 	int		local_b8;
 	int		local_bc;
 	int		local_c0;
-	char	local_c4[12];
+	int		local_c4;
+	char	local_c8[8];
 	int		local_d0;
 	int		local_d4;
 	int		local_d8;
@@ -26357,7 +27740,7 @@ void CG_OffsetThirdPersonView(void) {
 	*(int *)local_b0 = (*(int *)local_b0 + (float)bss_dc824);
 	block_copy(&bss_dce64, &local_54, 0xc);
 	if (bss_dc838 > 0x0) goto jmp_1428f;
-	*(int *)local_58 = (float)bss_dc848;
+	local_58 = (float)bss_dc848;
 	bss_dce68 = (float)bss_dc848;
 jmp_1428f:
 	if (local_54 <= 0x42340000) goto jmp_14296;
@@ -26380,8 +27763,8 @@ jmp_14296:
 	AngleVectors(0xdce64, &local_3c, &local_48, local_a4);
 	local_c0 = cos((0x40490fdb * (bss_9974 / 0x43340000)));
 	local_60 = local_c0;
-	*(int *)local_c4 = sin((0x40490fdb * (bss_9974 / 0x43340000)));
-	local_64 = *(int *)local_c4;
+	local_c4 = sin((0x40490fdb * (bss_9974 / 0x43340000)));
+	local_64 = local_c4;
 	local_24 = (local_24 + (local_3c * (-bss_9a84 * local_60)));
 	local_28 = (local_28 + (local_40 * (-bss_9a84 * local_60)));
 	local_2c = (local_2c + (local_44 * (-bss_9a84 * local_60)));
@@ -26418,6 +27801,9 @@ CG_StepOffset
 
 Address: 0x143e9
 Stack Size: 0x10
+Opcodes Size: 0x22
+Locals Count: 2
+
 Called by: CG_OffsetFirstPersonView
 =================
 */
@@ -26438,11 +27824,14 @@ CG_OffsetFirstPersonView
 
 Address: 0x1440b
 Stack Size: 0x54
+Opcodes Size: 0x1df
+Locals Count: 20
+
 Calls: CG_StepOffset
 Called by: CG_CalcViewValues
 =================
 */
-void CG_OffsetFirstPersonView(void) {
+void CG_OffsetFirstPersonView(, int arg_225748) {
 	int		local_8;
 	int		local_c;
 	int		local_10;
@@ -26456,7 +27845,8 @@ void CG_OffsetFirstPersonView(void) {
 	int		local_30;
 	int		local_34;
 	int		local_38;
-	char	local_3c[8];
+	int		local_3c;
+	int		local_40;
 	int		local_44;
 	int		local_48;
 	int		local_4c;
@@ -26497,12 +27887,12 @@ jmp_144ab:
 	local_38 = (local_c + 0x8);
 	*(int *)local_38 = (*(int *)local_38 - (local_8 * bss_cfa4));
 	if (bss_deb40 <= 0x43480000) goto jmp_144fc;
-	*(int *)local_3c = bss_deb40;
+	local_3c = bss_deb40;
 	goto jmp_144ff;
 jmp_144fc:
-	*(int *)local_3c = 0x43480000;
+	local_3c = 0x43480000;
 jmp_144ff:
-	local_24 = *(int *)local_3c;
+	local_24 = local_3c;
 	local_8 = ((bss_deb38 * bss_cd84) * local_24);
 	if ((bss_dc78c & 0x1) == 0x0) goto jmp_14519;
 	local_8 = (0x40400000 * local_8);
@@ -26553,6 +27943,9 @@ CG_ZoomDown_f
 
 Address: 0x145ea
 Stack Size: 0x8
+Opcodes Size: 0x10
+Locals Count: 0
+
 =================
 */
 void CG_ZoomDown_f(void) {
@@ -26571,6 +27964,9 @@ CG_ZoomUp_f
 
 Address: 0x145fa
 Stack Size: 0x8
+Opcodes Size: 0x10
+Locals Count: 0
+
 =================
 */
 void CG_ZoomUp_f(void) {
@@ -26589,6 +27985,9 @@ CG_CalcFov
 
 Address: 0x1460a
 Stack Size: 0x48
+Opcodes Size: 0x10f
+Locals Count: 14
+
 Calls: sin, atan2, CG_PointContents, tan
 Called by: CG_CalcViewValues
 =================
@@ -26683,24 +28082,31 @@ CG_DamageBlendBlob
 
 Address: 0x14719
 Stack Size: 0xb8
+Opcodes Size: 0xe0
+Locals Count: 20
+
 Calls: trap_R_AddRefEntityToScene, memset
 Called by: CG_DrawActiveFrame
 =================
 */
 void CG_DamageBlendBlob(void) {
 	int		local_14;
-	char	local_18[64];
+	int		local_18;
+	char	local_1c[60];
 	int		local_58;
 	int		local_5c;
-	char	local_60[36];
+	int		local_60;
+	char	local_64[32];
 	int		local_84;
 	char	local_88;
 	char	local_89;
 	char	local_8a;
 	char	local_8b[13];
-	char	local_98[8];
+	int		local_98;
+	int		local_9c;
 	int		local_a0;
-	char	local_a4[8];
+	int		local_a4;
+	int		local_a8;
 	int		local_ac;
 	int		local_b0;
 	int		local_b4;
@@ -26714,31 +28120,31 @@ jmp_14726:
 	if (bss_e66b4 != 0x3) goto jmp_1472c;
 	goto jmp_147f7;
 jmp_1472c:
-	*(int *)local_a4 = 0x1f4;
+	local_a4 = 0x1f4;
 	local_a0 = (int)((float)bss_dc760 - bss_deb00);
 	if (local_a0 <= 0x0) goto jmp_14741;
-	if (local_a0 < *(int *)local_a4) goto jmp_14743;
+	if (local_a0 < local_a4) goto jmp_14743;
 jmp_14741:
 	goto jmp_147f7;
 jmp_14743:
 	memset(&local_14, 0x0, 0x8c);
 	local_14 = 0x2;
-	*(int *)local_18 = 0x4;
+	local_18 = 0x4;
 	local_58 = (bss_dcd0c + (0x41000000 * bss_dcd18));
 	local_5c = (bss_dcd10 + (0x41000000 * bss_dcd1c));
-	*(int *)local_60 = (bss_dcd14 + (0x41000000 * bss_dcd20));
+	local_60 = (bss_dcd14 + (0x41000000 * bss_dcd20));
 	local_58 = (local_58 + (bss_dcd24 * (0xc1000000 * bss_deb04)));
 	local_5c = (local_5c + (bss_dcd28 * (0xc1000000 * bss_deb04)));
-	*(int *)local_60 = (*(int *)local_60 + (bss_dcd2c * (0xc1000000 * bss_deb04)));
+	local_60 = (local_60 + (bss_dcd2c * (0xc1000000 * bss_deb04)));
 	local_58 = (local_58 + (bss_dcd30 * (0x41000000 * bss_deb08)));
 	local_5c = (local_5c + (bss_dcd34 * (0x41000000 * bss_deb08)));
-	*(int *)local_60 = (*(int *)local_60 + (bss_dcd38 * (0x41000000 * bss_deb08)));
-	*(int *)local_98 = (0x40400000 * bss_deb0c);
+	local_60 = (local_60 + (bss_dcd38 * (0x41000000 * bss_deb08)));
+	local_98 = (0x40400000 * bss_deb0c);
 	local_84 = bss_1041f4;
 	local_88 = 0xff;
 	local_89 = 0xff;
 	local_8a = 0xff;
-	local_b0 = (0x43480000 * (0x3f800000 - ((float)local_a0 / (float)*(int *)local_a4)));
+	local_b0 = (0x43480000 * (0x3f800000 - ((float)local_a0 / (float)local_a4)));
 	local_b4 = 0x4f000000;
 	if (local_b0 < local_b4) goto jmp_147e9;
 	local_ac = ((int)(local_b0 - local_b4) + 0x80000000);
@@ -26757,14 +28163,18 @@ CG_CalcViewValues
 
 Address: 0x147f9
 Stack Size: 0x3c
+Opcodes Size: 0x114
+Locals Count: 12
+
 Calls: sqrt, sin, memset, CG_OffsetFirstPersonView, CG_OffsetThirdPersonView, fabs, CG_CalcFov, AnglesToAxis, CG_CalcVrect
 Called by: CG_DrawActiveFrame
 =================
 */
-int CG_CalcViewValues(void) {
+int CG_CalcViewValues(, int arg_226101, int arg_226187) {
 	int		local_14;
 	int		local_18;
-	char	local_1c[8];
+	int		local_1c;
+	int		local_20;
 	int		local_24;
 	int		local_28;
 	int		local_2c;
@@ -26784,8 +28194,8 @@ int CG_CalcViewValues(void) {
 jmp_1482c:
 	bss_deb3c = ((*(int *)(local_14 + 0x8) & 0x80) >> 0x7);
 	local_18 = sin((0x40490fdb * ((float)(*(int *)(local_14 + 0x8) & 0x7f) / 0x42fe0000)));
-	*(int *)local_1c = fabs(local_18);
-	bss_deb38 = *(int *)local_1c;
+	local_1c = fabs(local_18);
+	bss_deb38 = local_1c;
 	local_24 = *(int *)(local_14 + 0x20);
 	local_28 = *(int *)(local_14 + 0x24);
 	local_2c = sqrt(((local_24 * local_24) + (local_28 * local_28)));
@@ -26832,18 +28242,22 @@ CG_PowerupTimerSounds
 
 Address: 0x1490d
 Stack Size: 0x28
+Opcodes Size: 0x50
+Locals Count: 4
+
 Calls: trap_S_StartSound
 Called by: CG_DrawActiveFrame
 =================
 */
 void CG_PowerupTimerSounds(void) {
 	int		local_18;
-	char	local_1c[8];
+	int		local_1c;
+	int		local_20;
 	int		local_24;
 
-	*(int *)local_1c = 0x0;
+	local_1c = 0x0;
 jmp_14911:
-	local_18 = *(int *)((*(int *)local_1c << 0x2) + (bss_c2330 + 0x164));
+	local_18 = *(int *)((local_1c << 0x2) + (bss_c2330 + 0x164));
 	if (local_18 > bss_dc760) goto jmp_14924;
 	goto jmp_14951;
 jmp_14924:
@@ -26854,8 +28268,8 @@ jmp_1492d:
 	if (((local_18 - bss_dc760) / local_24) == ((local_18 - bss_dc764) / local_24)) goto jmp_14951;
 	trap_S_StartSound(0x0, *(int *)(bss_c2330 + 0xb8), 0x4, bss_104330);
 jmp_14951:
-	*(int *)local_1c = (*(int *)local_1c + 0x1);
-	if (*(int *)local_1c < 0x10) goto jmp_14911;
+	local_1c = (local_1c + 0x1);
+	if (local_1c < 0x10) goto jmp_14911;
 }
 
 /*
@@ -26864,6 +28278,9 @@ CG_AddBufferedSound
 
 Address: 0x1495d
 Stack Size: 0xc
+Opcodes Size: 0x2a
+Locals Count: 2
+
 Called by: CG_CheckLocalSounds, CG_EntityEvent
 =================
 */
@@ -26887,6 +28304,9 @@ CG_PlayBufferedSounds
 
 Address: 0x14987
 Stack Size: 0x10
+Opcodes Size: 0x39
+Locals Count: 0
+
 Calls: trap_S_StartLocalSound
 Called by: CG_DrawActiveFrame
 =================
@@ -26909,6 +28329,9 @@ CG_DrawActiveFrame
 
 Address: 0x149c0
 Stack Size: 0x30
+Opcodes Size: 0x140
+Locals Count: 9
+
 Calls: trap_Cvar_Set, trap_S_Respatialize, memcpy, trap_SetUserCmdValue, trap_R_ClearScene, trap_S_ClearLoopingSounds, CG_Printf, CG_DrawActive, va, CG_AddLagometerFrameInfo, CG_PowerupTimerSounds, CG_AddTestModel, CG_PlayBufferedSounds, CG_AddViewWeapon, CG_AddLocalEntities, CG_AddParticles, CG_AddMarks, CG_AddPacketEntities, CG_DamageBlendBlob, CG_CalcViewValues, CG_PredictPlayerState, CG_ProcessSnapshots, CG_DrawInformation, CG_UpdateCvars
 Called by: vmMain
 =================
@@ -26968,7 +28391,7 @@ jmp_14a4a:
 	if (bss_deb50 == 0x0) goto jmp_14a59;
 	CG_AddTestModel();
 jmp_14a59:
-	*(int *)bss_dcd3c = bss_dc760;
+	bss_dcd3c = bss_dc760;
 	memcpy(0xdcd44, (bss_c2330 + 0xc), 0x20);
 	CG_PowerupTimerSounds();
 	trap_S_Respatialize(*(int *)(bss_c2330 + 0xb8), 0xdcd0c, 0xdcd18, local_18);
@@ -27009,6 +28432,9 @@ CG_MachineGunEjectBrass
 
 Address: 0x14b00
 Stack Size: 0xa0
+Opcodes Size: 0x1f3
+Locals Count: 37
+
 Calls: AxisCopy, CG_PointContents, AnglesToAxis, rand, CG_AllocLocalEntity
 =================
 */
@@ -27040,7 +28466,8 @@ void CG_MachineGunEjectBrass(int arg_0) {
 	int		local_70;
 	int		local_74;
 	int		local_78;
-	char	local_7c[8];
+	int		local_7c;
+	int		local_80;
 	int		local_84;
 	int		local_88;
 	int		local_8c;
@@ -27064,8 +28491,8 @@ jmp_14b0e:
 	local_40 = ((0x42480000 * (0x40000000 * (((float)(local_78 & 0x7fff) / 0x46fffe00) - 0x3f000000))) + 0x42c80000);
 	*(int *)(local_10 + 0x8) = 0x3;
 	*(int *)(local_10 + 0x10) = bss_dc760;
-	*(int *)local_7c = rand();
-	*(int *)(local_10 + 0x14) = (int)((float)(*(int *)(local_10 + 0x10) + bss_aa78) + ((float)(bss_aa78 / 0x4) * ((float)(*(int *)local_7c & 0x7fff) / 0x46fffe00)));
+	local_7c = rand();
+	*(int *)(local_10 + 0x14) = (int)((float)(*(int *)(local_10 + 0x10) + bss_aa78) + ((float)(bss_aa78 / 0x4) * ((float)(local_7c & 0x7fff) / 0x46fffe00)));
 	*(int *)(local_10 + 0x20) = 0x5;
 	local_84 = rand();
 	*(int *)(local_10 + 0x24) = (bss_dc760 - (local_84 & 0xf));
@@ -27118,6 +28545,9 @@ CG_ShotgunEjectBrass
 
 Address: 0x14cf3
 Stack Size: 0xa0
+Opcodes Size: 0x221
+Locals Count: 37
+
 Calls: AxisCopy, CG_PointContents, AnglesToAxis, rand, CG_AllocLocalEntity
 =================
 */
@@ -27150,7 +28580,8 @@ void CG_ShotgunEjectBrass(int arg_0) {
 	int		local_74;
 	int		local_78;
 	int		local_7c;
-	char	local_80[8];
+	int		local_80;
+	int		local_84;
 	int		local_88;
 	int		local_8c;
 	int		local_90;
@@ -27182,8 +28613,8 @@ jmp_14d57:
 	local_40 = ((0x42480000 * (0x40000000 * (((float)(local_7c & 0x7fff) / 0x46fffe00) - 0x3f000000))) + 0x42c80000);
 	*(int *)(local_10 + 0x8) = 0x3;
 	*(int *)(local_10 + 0x10) = bss_dc760;
-	*(int *)local_80 = rand();
-	*(int *)(local_10 + 0x14) = (int)((float)(*(int *)(local_10 + 0x10) + (0x3 * bss_aa78)) + ((float)bss_aa78 * ((float)(*(int *)local_80 & 0x7fff) / 0x46fffe00)));
+	local_80 = rand();
+	*(int *)(local_10 + 0x14) = (int)((float)(*(int *)(local_10 + 0x10) + (0x3 * bss_aa78)) + ((float)bss_aa78 * ((float)(local_80 & 0x7fff) / 0x46fffe00)));
 	*(int *)(local_10 + 0x20) = 0x5;
 	*(int *)(local_10 + 0x24) = bss_dc760;
 	AnglesToAxis((arg_0 + 0x2c0), &local_14);
@@ -27237,6 +28668,9 @@ CG_RailTrail
 
 Address: 0x14f14
 Stack Size: 0x298
+Opcodes Size: 0x3a1
+Locals Count: 54
+
 Calls: RotatePointAroundVector, PerpendicularVector, VectorNormalize, AxisClear, CG_AllocLocalEntity
 Called by: CG_EntityEvent
 =================
@@ -27262,7 +28696,8 @@ void CG_RailTrail(int arg_0, int arg_1, int arg_2) {
 	char	local_200[12];
 	int		local_20c;
 	int		local_210;
-	char	local_214[12];
+	int		local_214;
+	char	local_218[8];
 	int		local_220;
 	int		local_224;
 	int		local_228;
@@ -27279,7 +28714,8 @@ void CG_RailTrail(int arg_0, int arg_1, int arg_2) {
 	int		local_254;
 	int		local_258;
 	int		local_25c;
-	char	local_260[12];
+	int		local_260;
+	char	local_264[8];
 	int		local_26c;
 	int		local_270;
 	int		local_274;
@@ -27297,8 +28733,8 @@ void CG_RailTrail(int arg_0, int arg_1, int arg_2) {
 	arg_2 = arg_2;
 	local_210 = (arg_1 + 0x8);
 	*(int *)local_210 = (*(int *)local_210 - 0x40800000);
-	*(int *)local_214 = CG_AllocLocalEntity();
-	local_18 = *(int *)local_214;
+	local_214 = CG_AllocLocalEntity();
+	local_18 = local_214;
 	local_2c = (local_18 + 0x98);
 	*(int *)(local_18 + 0x8) = 0x6;
 	*(int *)(local_18 + 0x10) = bss_dc760;
@@ -27378,8 +28814,8 @@ jmp_150a6:
 jmp_15106:
 	if (local_1c == local_1fc) goto jmp_1528a;
 	local_1fc = (local_1c + 0x5);
-	*(int *)local_260 = CG_AllocLocalEntity();
-	local_18 = *(int *)local_260;
+	local_260 = CG_AllocLocalEntity();
+	local_18 = local_260;
 	local_2c = (local_18 + 0x98);
 	*(int *)(local_18 + 0xc) = 0x1;
 	*(int *)(local_18 + 0x8) = 0x4;
@@ -27451,6 +28887,9 @@ CG_RocketTrail
 
 Address: 0x152b5
 Stack Size: 0x9c
+Opcodes Size: 0xf7
+Locals Count: 22
+
 Calls: CG_SmokePuff, CG_BubbleTrail, CG_PointContents, BG_EvaluateTrajectory
 Called by: CG_GrenadeTrail
 =================
@@ -27468,9 +28907,11 @@ void CG_RocketTrail(int arg_0, int arg_1) {
 	char	local_64[12];
 	int		local_70;
 	int		local_74;
-	char	local_78[12];
+	int		local_78;
+	char	local_7c[8];
 	int		local_84;
-	char	local_88[8];
+	int		local_88;
+	int		local_8c;
 	int		local_90;
 	int		local_94;
 	int		local_98;
@@ -27480,9 +28921,9 @@ void CG_RocketTrail(int arg_0, int arg_1) {
 	if (bss_7dd8 == 0x0) goto jmp_152c4;
 	goto jmp_153aa;
 jmp_152c4:
-	*(int *)local_78 = 0x0;
-	local_54 = *(int *)local_78;
-	local_58 = *(int *)local_78;
+	local_78 = 0x0;
+	local_54 = local_78;
+	local_58 = local_78;
 	local_5c = 0x0;
 	local_4c = 0x32;
 	local_50 = arg_0;
@@ -27496,8 +28937,8 @@ jmp_152c4:
 	goto jmp_153aa;
 jmp_15316:
 	BG_EvaluateTrajectory((local_50 + 0xc), *(int *)(arg_0 + 0x1b4), local_3c);
-	*(int *)local_88 = CG_PointContents(local_3c, 0xffffffff);
-	local_74 = *(int *)local_88;
+	local_88 = CG_PointContents(local_3c, 0xffffffff);
+	local_74 = local_88;
 	*(int *)(arg_0 + 0x1b4) = bss_dc760;
 	if ((local_60 & 0x38) == 0x0) goto jmp_153a2;
 	if (((local_60 & local_74) & 0x20) == 0x0) goto jmp_153aa;
@@ -27534,6 +28975,9 @@ CG_PlasmaTrail
 
 Address: 0x153ac
 Stack Size: 0xdc
+Opcodes Size: 0x2b9
+Locals Count: 52
+
 Calls: AxisCopy, CG_PointContents, AnglesToAxis, rand, CG_AllocLocalEntity, BG_EvaluateTrajectory
 =================
 */
@@ -27570,7 +29014,8 @@ void CG_PlasmaTrail(int arg_0, int arg_1) {
 	int		local_88;
 	int		local_8c;
 	int		local_90;
-	char	local_94[8];
+	int		local_94;
+	int		local_98;
 	int		local_9c;
 	int		local_a0;
 	int		local_a4;
@@ -27605,8 +29050,8 @@ jmp_153c3:
 	local_40 = (0x42700000 - (0x42f00000 * (0x40000000 * (((float)(local_8c & 0x7fff) / 0x46fffe00) - 0x3f000000))));
 	local_90 = rand();
 	local_44 = (0x42200000 - (0x42a00000 * (0x40000000 * (((float)(local_90 & 0x7fff) / 0x46fffe00) - 0x3f000000))));
-	*(int *)local_94 = rand();
-	local_48 = (0x42c80000 - (0x43480000 * (0x40000000 * (((float)(*(int *)local_94 & 0x7fff) / 0x46fffe00) - 0x3f000000))));
+	local_94 = rand();
+	local_48 = (0x42c80000 - (0x43480000 * (0x40000000 * (((float)(local_94 & 0x7fff) / 0x46fffe00) - 0x3f000000))));
 	*(int *)(local_14 + 0x8) = 0x4;
 	*(int *)(local_14 + 0xc) = 0x2;
 	*(int *)(local_14 + 0x94) = 0x0;
@@ -27697,6 +29142,9 @@ CG_GrappleTrail
 
 Address: 0x15665
 Stack Size: 0xd0
+Opcodes Size: 0x95
+Locals Count: 21
+
 Calls: trap_R_AddRefEntityToScene, memset, AxisClear, Distance, AngleVectors, BG_EvaluateTrajectory
 Called by: CG_Grapple
 =================
@@ -27706,8 +29154,10 @@ void CG_GrappleTrail(int arg_0) {
 	char	local_34[40];
 	int		local_5c;
 	int		local_60;
-	char	local_64[8];
-	char	local_6c[28];
+	int		local_64;
+	int		local_68;
+	char	local_6c[12];
+	char	local_78[16];
 	int		local_88;
 	char	local_8c;
 	char	local_8d;
@@ -27727,11 +29177,11 @@ void CG_GrappleTrail(int arg_0) {
 	*(int *)(arg_0 + 0x1b4) = bss_dc760;
 	memset(local_18, 0x0, 0x8c);
 	block_copy(((0x2cc * *(int *)(arg_0 + 0x8c)) + 0xf5c0), &local_5c, 0xc);
-	*(int *)local_64 = (*(int *)local_64 + 0x41d00000);
+	local_64 = (local_64 + 0x41d00000);
 	AngleVectors(((0x2cc * *(int *)(arg_0 + 0x8c)) + 0xf5cc), local_c0, 0x0, &local_a4);
 	local_5c = (local_5c + (0xc0c00000 * local_a4));
 	local_60 = (local_60 + (0xc0c00000 * local_a8));
-	*(int *)local_64 = (*(int *)local_64 + (0xc0c00000 * local_ac));
+	local_64 = (local_64 + (0xc0c00000 * local_ac));
 	block_copy(local_b0, local_6c, 0xc);
 	local_cc = Distance(&local_5c, local_6c);
 	if (local_cc >= 0x42800000) goto jmp_156db;
@@ -27754,6 +29204,9 @@ CG_GrenadeTrail
 
 Address: 0x156fa
 Stack Size: 0x10
+Opcodes Size: 0xc
+Locals Count: 2
+
 Calls: CG_RocketTrail
 =================
 */
@@ -27768,6 +29221,9 @@ CG_RegisterWeapon
 
 Address: 0x15706
 Stack Size: 0x14c
+Opcodes Size: 0x517
+Locals Count: 59
+
 Calls: trap_S_RegisterSound, trap_R_RegisterShader, trap_R_ModelBounds, trap_R_RegisterModel, memset, Q_strcat, COM_StripExtension, CG_RegisterItemVisuals, CG_Error
 Called by: CG_DrawWeaponSelect, CG_AddViewWeapon, CG_AddPlayerWeapon, CG_RegisterItemVisuals
 =================
@@ -27782,7 +29238,8 @@ void CG_RegisterWeapon(int arg_0) {
 	char	local_70[16];
 	int		local_80;
 	int		local_84;
-	char	local_88[8];
+	int		local_88;
+	int		local_8c;
 	int		local_90;
 	int		local_94;
 	int		local_98;
@@ -27863,14 +29320,14 @@ jmp_15763:
 	local_14 = 0x0;
 jmp_1578e:
 	local_84 = (local_14 << 0x2);
-	*(int *)local_88 = *(int *)(local_84 + local_24);
-	*(int *)(local_84 + (local_20 + 0x18)) = (*(int *)local_88 + (0x3f000000 * (*(int *)(local_84 + local_70) - *(int *)local_88)));
+	local_88 = *(int *)(local_84 + local_24);
+	*(int *)(local_84 + (local_20 + 0x18)) = (local_88 + (0x3f000000 * (*(int *)(local_84 + local_70) - local_88)));
 	local_14 = (local_14 + 0x1);
 	if (local_14 < 0x3) goto jmp_1578e;
 	local_84 = trap_R_RegisterShader(*(int *)(local_18 + 0x18));
 	*(int *)(local_20 + 0x44) = local_84;
-	*(int *)local_88 = trap_R_RegisterShader(*(int *)(local_18 + 0x18));
-	*(int *)(local_20 + 0x48) = *(int *)local_88;
+	local_88 = trap_R_RegisterShader(*(int *)(local_18 + 0x18));
+	*(int *)(local_20 + 0x48) = local_88;
 	local_1c = 0x5c0;
 	goto jmp_157f8;
 jmp_157e1:
@@ -28062,13 +29519,17 @@ CG_RegisterItemVisuals
 
 Address: 0x15c1d
 Stack Size: 0x30
+Opcodes Size: 0xa3
+Locals Count: 8
+
 Calls: trap_R_RegisterShader, trap_R_RegisterModel, memset, CG_RegisterWeapon, CG_Error
 Called by: CG_RegisterWeapon, CG_DrawHoldableItem, CG_DrawPickupItem, CG_RegisterGraphics
 =================
 */
 void CG_RegisterItemVisuals(int arg_0) {
 	int		local_14;
-	char	local_18[8];
+	int		local_18;
+	int		local_1c;
 	int		local_20;
 	int		local_24;
 	int		local_28;
@@ -28080,17 +29541,17 @@ void CG_RegisterItemVisuals(int arg_0) {
 jmp_15c2b:
 	CG_Error(0x6cee, arg_0, (bg_numItems - 0x1));
 jmp_15c38:
-	*(int *)local_18 = ((0x18 * arg_0) + 0xd2cc);
-	if (*(int *)*(int *)local_18 == 0x0) goto jmp_15c47;
+	local_18 = ((0x18 * arg_0) + 0xd2cc);
+	if (*(int *)local_18 == 0x0) goto jmp_15c47;
 	goto jmp_15cbe;
 jmp_15c47:
 	local_14 = ((0x34 * arg_0) + 0x58c);
-	memset(*(int *)local_18, 0x0, 0x18);
-	*(int *)*(int *)local_18 = 0x1;
+	memset(local_18, 0x0, 0x18);
+	*(int *)local_18 = 0x1;
 	local_20 = trap_R_RegisterModel(*(int *)(local_14 + 0x8));
-	*(int *)(*(int *)local_18 + 0x4) = local_20;
+	*(int *)(local_18 + 0x4) = local_20;
 	local_24 = trap_R_RegisterShader(*(int *)(local_14 + 0x18));
-	*(int *)(*(int *)local_18 + 0x14) = local_24;
+	*(int *)(local_18 + 0x14) = local_24;
 	if (*(int *)(local_14 + 0x24) != 0x1) goto jmp_15c8f;
 	CG_RegisterWeapon(*(int *)(local_14 + 0x28));
 jmp_15c8f:
@@ -28102,7 +29563,7 @@ jmp_15c8f:
 jmp_15ca6:
 	if (*(int *)(local_14 + 0xc) == 0x0) goto jmp_15cbe;
 	local_2c = trap_R_RegisterModel(*(int *)(local_14 + 0xc));
-	*(int *)(*(int *)local_18 + 0x8) = local_2c;
+	*(int *)(local_18 + 0x8) = local_2c;
 jmp_15cbe:
 }
 
@@ -28112,24 +29573,29 @@ CG_MapTorsoToWeaponFrame
 
 Address: 0x15cc0
 Stack Size: 0x20
+Opcodes Size: 0x6d
+Locals Count: 7
+
 Called by: CG_AddViewWeapon
 =================
 */
 int CG_MapTorsoToWeaponFrame(int arg_0, int arg_1) {
-	char	local_c[8];
-	char	local_14[8];
+	int		local_c;
+	int		local_10;
+	int		local_14;
+	int		local_18;
 	int		local_1c;
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
-	*(int *)local_c = *(int *)(arg_0 + 0x324);
-	if (arg_1 < *(int *)local_c) goto jmp_15ce9;
-	if (arg_1 >= (*(int *)local_c + 0x9)) goto jmp_15ce9;
+	local_c = *(int *)(arg_0 + 0x324);
+	if (arg_1 < local_c) goto jmp_15ce9;
+	if (arg_1 >= (local_c + 0x9)) goto jmp_15ce9;
 	return ((arg_1 - *(int *)(arg_0 + 0x324)) + 0x6);
 jmp_15ce9:
-	*(int *)local_14 = *(int *)(arg_0 + 0x2ec);
-	if (arg_1 < *(int *)local_14) goto jmp_15d09;
-	if (arg_1 >= (*(int *)local_14 + 0x6)) goto jmp_15d09;
+	local_14 = *(int *)(arg_0 + 0x2ec);
+	if (arg_1 < local_14) goto jmp_15d09;
+	if (arg_1 >= (local_14 + 0x6)) goto jmp_15d09;
 	return ((arg_1 + 0x1) - *(int *)(arg_0 + 0x2ec));
 jmp_15d09:
 	local_1c = *(int *)(arg_0 + 0x308);
@@ -28146,19 +29612,24 @@ CG_CalculateWeaponPosition
 
 Address: 0x15d2d
 Stack Size: 0x34
+Opcodes Size: 0xe1
+Locals Count: 14
+
 Calls: sin
 Called by: CG_AddViewWeapon
 =================
 */
-void CG_CalculateWeaponPosition(int arg_0, int arg_1) {
+void CG_CalculateWeaponPosition(int arg_0, int arg_1, int arg_226103, int arg_226189) {
 	int		local_c;
 	int		local_10;
 	int		local_14;
 	int		local_18;
-	char	local_1c[8];
+	int		local_1c;
+	int		local_20;
 	int		local_24;
 	int		local_28;
-	char	local_2c[8];
+	int		local_2c;
+	int		local_30;
 
 	arg_1 = arg_1;
 	block_copy(&bss_dcd0c, arg_0, 0xc);
@@ -28171,8 +29642,8 @@ jmp_15d47:
 jmp_15d4b:
 	local_18 = (arg_1 + 0x8);
 	*(int *)local_18 = (*(int *)local_18 + (0x3ba3d70a * (local_c * bss_deb38)));
-	*(int *)local_1c = (arg_1 + 0x4);
-	*(int *)*(int *)local_1c = (*(int *)*(int *)local_1c + (0x3c23d70a * (local_c * bss_deb38)));
+	local_1c = (arg_1 + 0x4);
+	*(int *)local_1c = (*(int *)local_1c + (0x3c23d70a * (local_c * bss_deb38)));
 	*(int *)arg_1 = (*(int *)arg_1 + (0x3ba3d70a * (bss_deb40 * bss_deb38)));
 	local_14 = (bss_dc760 - bss_dcc8c);
 	if (local_14 >= 0x96) goto jmp_15da5;
@@ -28189,8 +29660,8 @@ jmp_15dc2:
 	local_10 = local_24;
 	local_28 = (arg_1 + 0x8);
 	*(int *)local_28 = (*(int *)local_28 + (0x3c23d70a * (local_c * local_10)));
-	*(int *)local_2c = (arg_1 + 0x4);
-	*(int *)*(int *)local_2c = (*(int *)*(int *)local_2c + (0x3c23d70a * (local_c * local_10)));
+	local_2c = (arg_1 + 0x4);
+	*(int *)local_2c = (*(int *)local_2c + (0x3c23d70a * (local_c * local_10)));
 	*(int *)arg_1 = (*(int *)arg_1 + (0x3c23d70a * (local_c * local_10)));
 }
 
@@ -28200,21 +29671,28 @@ CG_LightningBolt
 
 Address: 0x15e0e
 Stack Size: 0x144
+Opcodes Size: 0x1d2
+Locals Count: 45
+
 Calls: trap_R_AddRefEntityToScene, memset, AnglesToAxis, rand, VectorNormalize, CG_Trace, AngleVectors
 Called by: CG_AddViewWeapon, CG_AddPlayerWeapon
 =================
 */
 void CG_LightningBolt(int arg_0, int arg_1) {
 	char	local_24[8];
-	char	local_2c[20];
+	int		local_2c;
+	char	local_30[16];
 	char	local_40[40];
 	int		local_68;
 	int		local_6c;
-	char	local_70[8];
+	int		local_70;
+	int		local_74;
 	int		local_78;
 	int		local_7c;
-	char	local_80[20];
-	char	local_94[28];
+	int		local_80;
+	char	local_84[16];
+	int		local_94;
+	char	local_98[24];
 	int		local_b0;
 	int		local_b4;
 	int		local_b8;
@@ -28225,7 +29703,8 @@ void CG_LightningBolt(int arg_0, int arg_1) {
 	int		local_d0;
 	int		local_d4;
 	int		local_d8;
-	char	local_dc[36];
+	int		local_dc;
+	char	local_e0[32];
 	int		local_100;
 	int		local_104;
 	int		local_108;
@@ -28319,18 +29798,18 @@ jmp_15f00:
 	block_copy(&local_d4, &local_78, 0xc);
 	block_copy(arg_1, &local_68, 0xc);
 	*(int *)local_24 = 0x6;
-	*(int *)local_94 = bss_1041e0;
+	local_94 = bss_1041e0;
 	trap_R_AddRefEntityToScene(local_24);
 	if (local_d0 >= 0x3f800000) goto jmp_15fde;
 	local_120 = (local_78 - local_68);
 	local_124 = (local_7c - local_6c);
-	local_128 = (*(int *)local_80 - *(int *)local_70);
+	local_128 = (local_80 - local_70);
 	VectorNormalize(&local_120);
 	memset(local_24, 0x0, 0x8c);
-	*(int *)local_2c = bss_1042d0;
+	local_2c = bss_1042d0;
 	local_68 = (local_d4 + (0xc1800000 * local_120));
 	local_6c = (local_d8 + (0xc1800000 * local_124));
-	*(int *)local_70 = (*(int *)local_dc + (0xc1800000 * local_128));
+	local_70 = (local_dc + (0xc1800000 * local_128));
 	local_138 = rand();
 	local_12c = (float)(local_138 %% 0x168);
 	local_13c = rand();
@@ -28348,6 +29827,9 @@ CG_MachinegunSpinAngle
 
 Address: 0x15fe0
 Stack Size: 0x30
+Opcodes Size: 0x92
+Locals Count: 10
+
 Calls: AngleMod
 Called by: CG_AddPlayerWeapon
 =================
@@ -28355,10 +29837,13 @@ Called by: CG_AddPlayerWeapon
 int CG_MachinegunSpinAngle(int arg_0) {
 	int		local_c;
 	int		local_10;
-	char	local_14[8];
-	char	local_1c[8];
+	int		local_14;
+	int		local_18;
+	int		local_1c;
+	int		local_20;
 	int		local_24;
-	char	local_28[8];
+	int		local_28;
+	int		local_2c;
 
 	arg_0 = arg_0;
 	local_c = (bss_dc760 - *(int *)(arg_0 + 0x268));
@@ -28369,26 +29854,26 @@ jmp_16005:
 	if (local_c <= 0x3e8) goto jmp_1600c;
 	local_c = 0x3e8;
 jmp_1600c:
-	*(int *)local_14 = (0x3f000000 * (((float)(0x3e8 - local_c) / 0x447a0000) + 0x3f666666));
-	local_10 = (*(int *)(arg_0 + 0x264) + ((float)local_c * *(int *)local_14));
+	local_14 = (0x3f000000 * (((float)(0x3e8 - local_c) / 0x447a0000) + 0x3f666666));
+	local_10 = (*(int *)(arg_0 + 0x264) + ((float)local_c * local_14));
 jmp_16027:
 	if ((*(int *)(arg_0 + 0x8) & 0x100) != 0x0) goto jmp_16035;
-	*(int *)local_1c = 0x1;
+	local_1c = 0x1;
 	goto jmp_16038;
 jmp_16035:
-	*(int *)local_1c = 0x0;
+	local_1c = 0x0;
 jmp_16038:
-	if (*(int *)(arg_0 + 0x26c) != *(int *)local_1c) goto jmp_1606d;
+	if (*(int *)(arg_0 + 0x26c) != local_1c) goto jmp_1606d;
 	*(int *)(arg_0 + 0x268) = bss_dc760;
 	local_24 = AngleMod(local_10);
 	*(int *)(arg_0 + 0x264) = local_24;
 	if ((*(int *)(arg_0 + 0x8) & 0x100) == 0x0) goto jmp_16063;
-	*(int *)local_28 = 0x1;
+	local_28 = 0x1;
 	goto jmp_16066;
 jmp_16063:
-	*(int *)local_28 = 0x0;
+	local_28 = 0x0;
 jmp_16066:
-	*(int *)(arg_0 + 0x26c) = *(int *)local_28;
+	*(int *)(arg_0 + 0x26c) = local_28;
 jmp_1606d:
 	return local_10;
 }
@@ -28399,6 +29884,9 @@ CG_AddWeaponWithPowerups
 
 Address: 0x16072
 Stack Size: 0xc
+Opcodes Size: 0x44
+Locals Count: 2
+
 Calls: trap_R_AddRefEntityToScene
 Called by: CG_AddPlayerWeapon
 =================
@@ -28427,6 +29915,9 @@ CG_AddPlayerWeapon
 
 Address: 0x160b6
 Stack Size: 0x248
+Opcodes Size: 0x3d7
+Locals Count: 60
+
 Calls: trap_R_AddLightToScene, trap_R_AddRefEntityToScene, trap_R_LerpTag, trap_S_AddLoopingSound, memset, CG_LightningBolt, rand, CG_PositionRotatedEntityOnTag, AnglesToAxis, CG_MachinegunSpinAngle, CG_AddWeaponWithPowerups, MatrixMultiply, CG_RegisterWeapon
 Called by: CG_AddViewWeapon, CG_Player
 =================
@@ -28440,8 +29931,10 @@ void CG_AddPlayerWeapon(int arg_0, int arg_1, int arg_2) {
 	char	local_3c[40];
 	int		local_64;
 	int		local_68;
-	char	local_6c[24];
-	char	local_84[16];
+	int		local_6c;
+	char	local_70[20];
+	int		local_84;
+	char	local_88[12];
 	char	local_94;
 	char	local_95;
 	char	local_96;
@@ -28474,7 +29967,8 @@ void CG_AddPlayerWeapon(int arg_0, int arg_1, int arg_2) {
 	int		local_208;
 	int		local_20c;
 	int		local_210;
-	char	local_214[8];
+	int		local_214;
+	int		local_218;
 	int		local_21c;
 	int		local_220;
 	int		local_224;
@@ -28532,12 +30026,12 @@ jmp_161c4:
 	block_copy((arg_0 + 0x44), &local_64, 0xc);
 	local_64 = (local_64 + (*(int *)(arg_0 + 0x1c) * local_138));
 	local_68 = (local_68 + (*(int *)(arg_0 + 0x20) * local_138));
-	*(int *)local_6c = (*(int *)local_6c + (*(int *)(arg_0 + 0x24) * local_138));
+	local_6c = (local_6c + (*(int *)(arg_0 + 0x24) * local_138));
 	if (arg_1 == 0x0) goto jmp_16246;
 	if (bss_a528 != 0x2) goto jmp_16246;
 	local_64 = (local_64 + (*(int *)(arg_0 + 0x28) * -local_13c));
 	local_68 = (local_68 + (*(int *)(arg_0 + 0x2c) * -local_13c));
-	*(int *)local_6c = (*(int *)local_6c + (*(int *)(arg_0 + 0x30) * -local_13c));
+	local_6c = (local_6c + (*(int *)(arg_0 + 0x30) * -local_13c));
 	goto jmp_16275;
 jmp_16246:
 	if (arg_1 == 0x0) goto jmp_1624e;
@@ -28545,13 +30039,13 @@ jmp_16246:
 jmp_1624e:
 	local_64 = (local_64 + (*(int *)(arg_0 + 0x28) * local_13c));
 	local_68 = (local_68 + (*(int *)(arg_0 + 0x2c) * local_13c));
-	*(int *)local_6c = (*(int *)local_6c + (*(int *)(arg_0 + 0x30) * local_13c));
+	local_6c = (local_6c + (*(int *)(arg_0 + 0x30) * local_13c));
 jmp_16275:
 	local_64 = (local_64 + (*(int *)(arg_0 + 0x34) * local_140));
 	local_68 = (local_68 + (*(int *)(arg_0 + 0x38) * local_140));
-	*(int *)local_6c = (*(int *)local_6c + (*(int *)(arg_0 + 0x3c) * local_140));
+	local_6c = (local_6c + (*(int *)(arg_0 + 0x3c) * local_140));
 	MatrixMultiply(local_144, (arg_0 + 0x1c), local_3c);
-	*(int *)local_84 = *(int *)(arg_0 + 0x64);
+	local_84 = *(int *)(arg_0 + 0x64);
 	CG_AddWeaponWithPowerups(&local_20, *(int *)(arg_2 + 0xbc));
 	if (*(int *)(local_168 + 0x10) == 0x0) goto jmp_16317;
 	memset(&local_17c, 0x0, 0x8c);
@@ -28567,9 +30061,9 @@ jmp_16275:
 	CG_PositionRotatedEntityOnTag(&local_17c, &local_20, *(int *)(local_168 + 0xc), 0x6cd8);
 	CG_AddWeaponWithPowerups(&local_17c, *(int *)(arg_2 + 0xbc));
 jmp_16317:
-	*(int *)local_214 = 0xf30c;
-	local_208 = ((0x2cc * *(int *)arg_2) + *(int *)local_214);
-	if (((local_208 - *(int *)local_214) / 0x2cc) == *(int *)(arg_2 + 0xa8)) goto jmp_16335;
+	local_214 = 0xf30c;
+	local_208 = ((0x2cc * *(int *)arg_2) + local_214);
+	if (((local_208 - local_214) / 0x2cc) == *(int *)(arg_2 + 0xa8)) goto jmp_16335;
 	local_208 = arg_2;
 jmp_16335:
 	if (local_16c == 0x6) goto jmp_16341;
@@ -28648,21 +30142,27 @@ CG_AddViewWeapon
 
 Address: 0x1648d
 Stack Size: 0xd0
+Opcodes Size: 0x169
+Locals Count: 24
+
 Calls: memset, CG_AddPlayerWeapon, CG_MapTorsoToWeaponFrame, AnglesToAxis, CG_CalculateWeaponPosition, CG_RegisterWeapon, CG_LightningBolt
 Called by: CG_DrawActiveFrame
 =================
 */
-void CG_AddViewWeapon(int arg_0) {
+void CG_AddViewWeapon(int arg_0, int arg_226064) {
 	int		local_18;
 	int		local_1c;
-	char	local_20[20];
+	int		local_20;
+	char	local_24[16];
 	char	local_34[40];
 	int		local_5c;
 	int		local_60;
 	int		local_64;
-	char	local_68[16];
+	int		local_68;
+	char	local_6c[12];
 	int		local_78;
-	char	local_7c[40];
+	int		local_7c;
+	char	local_80[36];
 	int		local_a4;
 	int		local_a8;
 	char	local_ac[12];
@@ -28720,18 +30220,18 @@ jmp_16500:
 	if (bss_a968 == 0x0) goto jmp_165a6;
 	local_c0 = bss_a968;
 	local_78 = local_c0;
-	*(int *)local_68 = local_c0;
-	*(int *)local_7c = 0x0;
+	local_68 = local_c0;
+	local_7c = 0x0;
 	goto jmp_165da;
 jmp_165a6:
 	local_bc = ((0x6b4 * *(int *)(local_a8 + 0xa8)) + 0xe8c24);
 	local_c4 = CG_MapTorsoToWeaponFrame(local_bc, *(int *)(local_a8 + 0x1fc));
-	*(int *)local_68 = local_c4;
+	local_68 = local_c4;
 	local_c8 = CG_MapTorsoToWeaponFrame(local_bc, *(int *)(local_a8 + 0x1f4));
 	local_78 = local_c8;
-	*(int *)local_7c = *(int *)(local_a8 + 0x204);
+	local_7c = *(int *)(local_a8 + 0x204);
 jmp_165da:
-	*(int *)local_20 = *(int *)(local_b8 + 0x8);
+	local_20 = *(int *)(local_b8 + 0x8);
 	local_1c = 0xd;
 	CG_AddPlayerWeapon(&local_18, arg_0, 0xdc954, *(int *)(arg_0 + 0x104));
 jmp_165f4:
@@ -28743,6 +30243,9 @@ CG_DrawWeaponSelect
 
 Address: 0x165f6
 Stack Size: 0x4c
+Opcodes Size: 0x122
+Locals Count: 12
+
 Calls: trap_R_SetColor, CG_DrawBigStringColor, CG_DrawStrlen, CG_DrawPic, CG_RegisterWeapon, CG_FadeColor
 Called by: CG_Draw2D
 =================
@@ -28836,6 +30339,9 @@ CG_WeaponSelectable
 
 Address: 0x16718
 Stack Size: 0x8
+Opcodes Size: 0x25
+Locals Count: 1
+
 Called by: CG_OutOfAmmoChange, CG_PrevWeapon_f, CG_NextWeapon_f
 =================
 */
@@ -28856,6 +30362,9 @@ CG_NextWeapon_f
 
 Address: 0x1673d
 Stack Size: 0x1c
+Opcodes Size: 0x56
+Locals Count: 4
+
 Calls: CG_WeaponSelectable
 =================
 */
@@ -28901,6 +30410,9 @@ CG_PrevWeapon_f
 
 Address: 0x16793
 Stack Size: 0x1c
+Opcodes Size: 0x56
+Locals Count: 4
+
 Calls: CG_WeaponSelectable
 =================
 */
@@ -28946,13 +30458,17 @@ CG_Weapon_f
 
 Address: 0x167e9
 Stack Size: 0x1c
+Opcodes Size: 0x45
+Locals Count: 4
+
 Calls: atoi, CG_Argv
 =================
 */
 void CG_Weapon_f(void) {
 	int		local_c;
 	int		local_10;
-	char	local_14[8];
+	int		local_14;
+	int		local_18;
 
 	if (bss_c2330 != 0x0) goto jmp_167f0;
 	goto jmp_1682c;
@@ -28961,8 +30477,8 @@ jmp_167f0:
 	goto jmp_1682c;
 jmp_167fb:
 	local_10 = CG_Argv(0x1);
-	*(int *)local_14 = atoi(local_10);
-	local_c = *(int *)local_14;
+	local_14 = atoi(local_10);
+	local_c = local_14;
 	if (local_c < 0x1) goto jmp_16814;
 	if (local_c <= 0xf) goto jmp_16816;
 jmp_16814:
@@ -28982,6 +30498,9 @@ CG_OutOfAmmoChange
 
 Address: 0x1682e
 Stack Size: 0x14
+Opcodes Size: 0x25
+Locals Count: 2
+
 Calls: CG_WeaponSelectable
 Called by: CG_EntityEvent
 =================
@@ -29009,6 +30528,9 @@ CG_FireWeapon
 
 Address: 0x16853
 Stack Size: 0x2c
+Opcodes Size: 0xcf
+Locals Count: 6
+
 Calls: trap_S_StartSound, rand, CG_Error
 Called by: CG_EntityEvent
 =================
@@ -29072,6 +30594,9 @@ CG_MissileHitWall
 
 Address: 0x16922
 Stack Size: 0xc8
+Opcodes Size: 0x2fb
+Locals Count: 41
+
 Calls: trap_S_StartSound, CG_ImpactMark, CG_MakeExplosion, CG_ParticleExplosion, rand
 Called by: CG_Bullet, CG_ShotgunPellet, CG_MissileHitPlayer, CG_EntityEvent
 =================
@@ -29110,7 +30635,8 @@ void CG_MissileHitWall(int arg_0, int arg_1, int arg_2, int arg_3) {
 	int		local_ac;
 	int		local_b0;
 	int		local_b4;
-	char	local_b8[8];
+	int		local_b8;
+	int		local_bc;
 	int		local_c0;
 	int		local_c4;
 
@@ -29253,12 +30779,12 @@ jmp_16b5d:
 	local_c0 = (0x437f0000 * *(int *)(local_40 + 0x74));
 	local_c4 = 0x4f000000;
 	if (local_c0 < local_c4) goto jmp_16b81;
-	*(int *)local_b8 = ((int)(local_c0 - local_c4) + 0x80000000);
+	local_b8 = ((int)(local_c0 - local_c4) + 0x80000000);
 	goto jmp_16b86;
 jmp_16b81:
-	*(int *)local_b8 = (int)local_c0;
+	local_b8 = (int)local_c0;
 jmp_16b86:
-	*(char *)(local_40 + 0x10e) = *(int *)local_b8;
+	*(char *)(local_40 + 0x10e) = local_b8;
 	*(char *)(local_40 + 0x10f) = 0xff;
 jmp_16b93:
 	if (local_48 != bss_1042a0) goto jmp_16b9d;
@@ -29309,6 +30835,9 @@ CG_MissileHitPlayer
 
 Address: 0x16c1d
 Stack Size: 0x20
+Opcodes Size: 0x30
+Locals Count: 5
+
 Calls: CG_MissileHitWall, CG_Bleed
 Called by: CG_ShotgunPellet, CG_EntityEvent
 =================
@@ -29331,6 +30860,9 @@ CG_ShotgunPellet
 
 Address: 0x16c4d
 Stack Size: 0xac
+Opcodes Size: 0xeb
+Locals Count: 17
+
 Calls: trap_CM_BoxTrace, CG_MissileHitWall, CG_MissileHitPlayer, CG_BubbleTrail, CG_PointContents, CG_Trace
 Called by: CG_ShotgunPattern
 =================
@@ -29339,7 +30871,8 @@ void CG_ShotgunPellet(int arg_0, int arg_1, int arg_2) {
 	char	local_24[12];
 	char	local_30[12];
 	char	local_3c[20];
-	char	local_50[8];
+	int		local_50;
+	int		local_54;
 	int		local_58;
 	int		local_5c;
 	int		local_60;
@@ -29393,17 +30926,17 @@ jmp_16cc1:
 	trap_CM_BoxTrace();
 	CG_BubbleTrail(local_30, local_7c, 0x42000000);
 jmp_16ce8:
-	if ((*(int *)local_50 & 0x10) == 0x0) goto jmp_16cf0;
+	if ((local_50 & 0x10) == 0x0) goto jmp_16cf0;
 	goto jmp_16d36;
 jmp_16cf0:
 	if (*(int *)((0x2cc * local_58) + 0xf310) != 0x1) goto jmp_16d07;
 	CG_MissileHitPlayer(0x3, local_30, local_3c, local_58);
 	goto jmp_16d36;
 jmp_16d07:
-	if ((*(int *)local_50 & 0x10) == 0x0) goto jmp_16d0f;
+	if ((local_50 & 0x10) == 0x0) goto jmp_16d0f;
 	goto jmp_16d36;
 jmp_16d0f:
-	if ((*(int *)local_50 & 0x1000) == 0x0) goto jmp_16d24;
+	if ((local_50 & 0x1000) == 0x0) goto jmp_16d24;
 	CG_MissileHitWall(0x3, 0x0, local_30, local_3c, 0x1);
 	goto jmp_16d36;
 jmp_16d24:
@@ -29423,6 +30956,9 @@ CG_ShotgunPattern
 
 Address: 0x16d38
 Stack Size: 0x68
+Opcodes Size: 0xba
+Locals Count: 24
+
 Calls: CG_ShotgunPellet, Q_crandom, CrossProduct, PerpendicularVector, VectorNormalize2
 Called by: CG_ShotgunFire
 =================
@@ -29444,8 +30980,10 @@ void CG_ShotgunPattern(int arg_0, int arg_1, int arg_2, int arg_3) {
 	int		local_48;
 	int		local_4c;
 	int		local_50;
-	char	local_54[8];
-	char	local_5c[12];
+	int		local_54;
+	int		local_58;
+	int		local_5c;
+	char	local_60[8];
 
 	arg_0 = arg_0;
 	arg_3 = arg_3;
@@ -29456,11 +30994,11 @@ void CG_ShotgunPattern(int arg_0, int arg_1, int arg_2, int arg_3) {
 jmp_16d5c:
 	local_50 = Q_crandom(&arg_2);
 	local_20 = (0x41800000 * (0x442f0000 * local_50));
-	*(int *)local_54 = Q_crandom(&arg_2);
-	local_24 = (0x41800000 * (0x442f0000 * *(int *)local_54));
-	*(int *)local_5c = 0x48000000;
-	local_14 = (*(int *)arg_0 + (*(int *)local_5c * local_28));
-	local_18 = (*(int *)(arg_0 + 0x4) + (*(int *)local_5c * local_2c));
+	local_54 = Q_crandom(&arg_2);
+	local_24 = (0x41800000 * (0x442f0000 * local_54));
+	local_5c = 0x48000000;
+	local_14 = (*(int *)arg_0 + (local_5c * local_28));
+	local_18 = (*(int *)(arg_0 + 0x4) + (local_5c * local_2c));
 	local_1c = (*(int *)(arg_0 + 0x8) + (0x48000000 * local_30));
 	local_14 = (local_14 + (local_34 * local_20));
 	local_18 = (local_18 + (local_38 * local_20));
@@ -29479,6 +31017,9 @@ CG_ShotgunFire
 
 Address: 0x16df2
 Stack Size: 0x70
+Opcodes Size: 0xcb
+Locals Count: 14
+
 Calls: CG_ShotgunPattern, CG_SmokePuff, CG_PointContents, VectorNormalize
 Called by: CG_EntityEvent
 =================
@@ -29487,8 +31028,10 @@ void CG_ShotgunFire(int arg_0) {
 	int		local_38;
 	int		local_3c;
 	int		local_40;
-	char	local_44[12];
-	char	local_50[8];
+	int		local_44;
+	char	local_48[8];
+	int		local_50;
+	int		local_54;
 	int		local_58;
 	int		local_5c;
 	int		local_60;
@@ -29501,17 +31044,17 @@ void CG_ShotgunFire(int arg_0) {
 	local_3c = (*(int *)(arg_0 + 0x6c) - *(int *)(arg_0 + 0x1c));
 	local_40 = (*(int *)(arg_0 + 0x70) - *(int *)(arg_0 + 0x20));
 	VectorNormalize(&local_38);
-	*(int *)local_50 = 0x42000000;
-	local_38 = (*(int *)local_50 * local_38);
-	local_3c = (*(int *)local_50 * local_3c);
+	local_50 = 0x42000000;
+	local_38 = (local_50 * local_38);
+	local_3c = (local_50 * local_3c);
 	local_40 = (0x42000000 * local_40);
 	local_38 = (*(int *)(arg_0 + 0x18) + local_38);
 	local_3c = (*(int *)(arg_0 + 0x1c) + local_3c);
 	local_40 = (*(int *)(arg_0 + 0x20) + local_40);
 	if (bss_e66b4 == 0x3) goto jmp_16ea2;
 	local_64 = CG_PointContents((arg_0 + 0x18), 0x0);
-	*(int *)local_44 = local_64;
-	if ((*(int *)local_44 & 0x20) != 0x0) goto jmp_16ea2;
+	local_44 = local_64;
+	if ((local_44 & 0x20) != 0x0) goto jmp_16ea2;
 	local_68 = 0x0;
 	local_58 = local_68;
 	local_5c = local_68;
@@ -29540,6 +31083,9 @@ CG_Tracer
 
 Address: 0x16ebd
 Stack Size: 0x104
+Opcodes Size: 0x21a
+Locals Count: 68
+
 Calls: trap_S_StartSound, trap_R_AddPolyToScene, rand, VectorNormalize
 Called by: CG_Bullet
 =================
@@ -29594,17 +31140,20 @@ void CG_Tracer(int arg_0, int arg_1) {
 	int		local_a0;
 	int		local_a4;
 	int		local_a8;
-	char	local_ac[8];
+	int		local_ac;
+	int		local_b0;
 	int		local_b4;
 	int		local_b8;
 	int		local_bc;
 	int		local_c0;
 	int		local_c4;
-	char	local_c8[12];
+	int		local_c8;
+	char	local_cc[8];
 	int		local_d4;
 	int		local_d8;
 	int		local_dc;
-	char	local_e0[24];
+	int		local_e0;
+	char	local_e4[20];
 	int		local_f8;
 	int		local_fc;
 	int		local_100;
@@ -29621,8 +31170,8 @@ void CG_Tracer(int arg_0, int arg_1) {
 	if (local_bc >= 0x42c80000) goto jmp_16f03;
 	goto jmp_170d5;
 jmp_16f03:
-	*(int *)local_e0 = rand();
-	local_b8 = ((((float)(*(int *)local_e0 & 0x7fff) / 0x46fffe00) * (local_bc - 0x42700000)) + 0x42480000);
+	local_e0 = rand();
+	local_b8 = ((((float)(local_e0 & 0x7fff) / 0x46fffe00) * (local_bc - 0x42700000)) + 0x42480000);
 	local_b4 = (local_b8 + bss_a0e4);
 	if (local_b4 <= local_bc) goto jmp_16f27;
 	local_b4 = local_bc;
@@ -29635,10 +31184,10 @@ jmp_16f27:
 	local_a4 = (*(int *)(arg_0 + 0x8) + (local_8c * local_b4));
 	local_f8 = local_84;
 	local_a8 = (((local_f8 * bss_dcd24) + (local_88 * bss_dcd28)) + (local_8c * bss_dcd2c));
-	*(int *)local_ac = (((local_f8 * bss_dcd30) + (local_88 * bss_dcd34)) + (local_8c * bss_dcd38));
-	local_78 = (bss_dcd24 * *(int *)local_ac);
-	local_7c = (bss_dcd28 * *(int *)local_ac);
-	local_80 = (bss_dcd2c * *(int *)local_ac);
+	local_ac = (((local_f8 * bss_dcd30) + (local_88 * bss_dcd34)) + (local_8c * bss_dcd38));
+	local_78 = (bss_dcd24 * local_ac);
+	local_7c = (bss_dcd28 * local_ac);
+	local_80 = (bss_dcd2c * local_ac);
 	local_fc = -local_a8;
 	local_78 = (local_78 + (bss_dcd30 * local_fc));
 	local_7c = (local_7c + (bss_dcd34 * local_fc));
@@ -29684,7 +31233,7 @@ jmp_16f27:
 	local_100 = 0x3f000000;
 	local_c0 = (local_100 * (local_90 + local_9c));
 	local_c4 = (local_100 * (local_94 + local_a0));
-	*(int *)local_c8 = (0x3f000000 * (local_98 + local_a4));
+	local_c8 = (0x3f000000 * (local_98 + local_a4));
 	trap_S_StartSound(&local_c0, 0x3fe, 0x0, bss_104324);
 jmp_170d5:
 }
@@ -29695,6 +31244,9 @@ CG_CalcMuzzlePoint
 
 Address: 0x170d7
 Stack Size: 0x40
+Opcodes Size: 0xf8
+Locals Count: 12
+
 Calls: AngleVectors
 Called by: CG_Bullet
 =================
@@ -29765,6 +31317,9 @@ CG_Bullet
 
 Address: 0x171cf
 Stack Size: 0x84
+Opcodes Size: 0xd4
+Locals Count: 15
+
 Calls: trap_CM_BoxTrace, CG_MissileHitWall, CG_Bleed, CG_Tracer, rand, CG_BubbleTrail, CG_PointContents, CG_CalcMuzzlePoint
 Called by: CG_EntityEvent
 =================
@@ -29844,6 +31399,9 @@ VectorCompare
 
 Address: 0x172a3
 Stack Size: 0x18
+Opcodes Size: 0x38
+Locals Count: 4
+
 Called by: CG_PredictPlayerState
 =================
 */
@@ -29870,6 +31428,9 @@ VectorLength
 
 Address: 0x172db
 Stack Size: 0x20
+Opcodes Size: 0x33
+Locals Count: 5
+
 Calls: sqrt
 Called by: RadiusFromBounds, Distance, CG_PredictPlayerState, CG_DamageFeedback, CG_ParticleDust, CG_ParticleBloodCloud, CG_AddScorePlum, CG_AddFallScaleFade, CG_AddScaleFade, CG_AddMoveScaleFade, PM_NoclipMove, PM_DeadMove, PM_WalkMove, PM_GrappleMove, PM_WaterMove, PM_Friction
 =================
@@ -29894,6 +31455,9 @@ VectorLengthSquared
 
 Address: 0x1730e
 Stack Size: 0x18
+Opcodes Size: 0x2c
+Locals Count: 4
+
 =================
 */
 int VectorLengthSquared(int arg_0) {
@@ -29914,6 +31478,9 @@ Distance
 
 Address: 0x1733a
 Stack Size: 0x2c
+Opcodes Size: 0x41
+Locals Count: 9
+
 Calls: VectorLength
 Called by: CG_GrappleTrail, CG_AddParticleToScene
 =================
@@ -29921,7 +31488,8 @@ Called by: CG_GrappleTrail, CG_AddParticleToScene
 int Distance(int arg_0, int arg_1) {
 	int		local_c;
 	int		local_10;
-	char	local_14[12];
+	int		local_14;
+	char	local_18[8];
 	int		local_20;
 	int		local_24;
 	int		local_28;
@@ -29932,7 +31500,7 @@ int Distance(int arg_0, int arg_1) {
 	local_20 = 0x4;
 	local_10 = (*(int *)(arg_1 + local_20) - *(int *)(arg_0 + local_20));
 	local_24 = 0x8;
-	*(int *)local_14 = (*(int *)(arg_1 + local_24) - *(int *)(arg_0 + local_24));
+	local_14 = (*(int *)(arg_1 + local_24) - *(int *)(arg_0 + local_24));
 	local_28 = VectorLength(&local_c);
 	return local_28;
 }
@@ -29943,12 +31511,16 @@ DistanceSquared
 
 Address: 0x1737b
 Stack Size: 0x28
+Opcodes Size: 0x4e
+Locals Count: 9
+
 =================
 */
 int DistanceSquared(int arg_0, int arg_1) {
 	int		local_8;
 	int		local_c;
-	char	local_10[12];
+	int		local_10;
+	char	local_14[8];
 	int		local_1c;
 	int		local_20;
 	int		local_24;
@@ -29959,9 +31531,9 @@ int DistanceSquared(int arg_0, int arg_1) {
 	local_1c = 0x4;
 	local_c = (*(int *)(arg_1 + local_1c) - *(int *)(arg_0 + local_1c));
 	local_20 = 0x8;
-	*(int *)local_10 = (*(int *)(arg_1 + local_20) - *(int *)(arg_0 + local_20));
+	local_10 = (*(int *)(arg_1 + local_20) - *(int *)(arg_0 + local_20));
 	local_24 = local_8;
-	return (((local_24 * local_24) + (local_c * local_c)) + (*(int *)local_10 * *(int *)local_10));
+	return (((local_24 * local_24) + (local_c * local_c)) + (local_10 * local_10));
 }
 
 /*
@@ -29970,15 +31542,20 @@ VectorNormalizeFast
 
 Address: 0x173c9
 Stack Size: 0x30
+Opcodes Size: 0x5b
+Locals Count: 10
+
 Calls: Q_rsqrt
 =================
 */
 void VectorNormalizeFast(int arg_0) {
-	char	local_c[8];
+	int		local_c;
+	int		local_10;
 	int		local_14;
 	int		local_18;
 	int		local_1c;
-	char	local_20[8];
+	int		local_20;
+	int		local_24;
 	int		local_28;
 	int		local_2c;
 
@@ -29986,13 +31563,13 @@ void VectorNormalizeFast(int arg_0) {
 	local_14 = *(int *)arg_0;
 	local_18 = *(int *)(arg_0 + 0x4);
 	local_1c = *(int *)(arg_0 + 0x8);
-	*(int *)local_20 = Q_rsqrt((((local_14 * local_14) + (local_18 * local_18)) + (local_1c * local_1c)));
-	*(int *)local_c = *(int *)local_20;
-	*(int *)arg_0 = (*(int *)arg_0 * *(int *)local_c);
+	local_20 = Q_rsqrt((((local_14 * local_14) + (local_18 * local_18)) + (local_1c * local_1c)));
+	local_c = local_20;
+	*(int *)arg_0 = (*(int *)arg_0 * local_c);
 	local_28 = (arg_0 + 0x4);
-	*(int *)local_28 = (*(int *)local_28 * *(int *)local_c);
+	*(int *)local_28 = (*(int *)local_28 * local_c);
 	local_2c = (arg_0 + 0x8);
-	*(int *)local_2c = (*(int *)local_2c * *(int *)local_c);
+	*(int *)local_2c = (*(int *)local_2c * local_c);
 }
 
 /*
@@ -30001,6 +31578,9 @@ VectorInverse
 
 Address: 0x17424
 Stack Size: 0x14
+Opcodes Size: 0x28
+Locals Count: 3
+
 Called by: CG_CreateRotationMatrix
 =================
 */
@@ -30022,23 +31602,29 @@ CrossProduct
 
 Address: 0x1744c
 Stack Size: 0x30
+Opcodes Size: 0x6d
+Locals Count: 10
+
 Called by: MakeNormalVectors, RotateAroundDirection, RotatePointAroundVector, PlaneFromPoints, CG_ShotgunPattern, CG_ImpactMark, CG_AddScorePlum, CG_Portal, PM_SlideMove
 =================
 */
 void CrossProduct(int arg_0, int arg_1, int arg_2) {
-	char	local_c[8];
-	char	local_14[8];
-	char	local_1c[16];
+	int		local_c;
+	int		local_10;
+	int		local_14;
+	int		local_18;
+	int		local_1c;
+	char	local_20[12];
 	int		local_2c;
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
 	arg_2 = arg_2;
-	*(int *)local_c = 0x4;
-	*(int *)local_14 = 0x8;
-	*(int *)arg_2 = ((*(int *)(arg_0 + *(int *)local_c) * *(int *)(arg_1 + *(int *)local_14)) - (*(int *)(arg_0 + *(int *)local_14) * *(int *)(arg_1 + *(int *)local_c)));
-	*(int *)local_1c = 0x8;
-	*(int *)(arg_2 + 0x4) = ((*(int *)(arg_0 + *(int *)local_1c) * *(int *)arg_1) - (*(int *)arg_0 * *(int *)(arg_1 + *(int *)local_1c)));
+	local_c = 0x4;
+	local_14 = 0x8;
+	*(int *)arg_2 = ((*(int *)(arg_0 + local_c) * *(int *)(arg_1 + local_14)) - (*(int *)(arg_0 + local_14) * *(int *)(arg_1 + local_c)));
+	local_1c = 0x8;
+	*(int *)(arg_2 + 0x4) = ((*(int *)(arg_0 + local_1c) * *(int *)arg_1) - (*(int *)arg_0 * *(int *)(arg_1 + local_1c)));
 	local_2c = 0x4;
 	*(int *)(arg_2 + 0x8) = ((*(int *)arg_0 * *(int *)(arg_1 + local_2c)) - (*(int *)(arg_0 + local_2c) * *(int *)arg_1));
 }
@@ -30049,6 +31635,9 @@ Q_rand
 
 Address: 0x174b9
 Stack Size: 0xc
+Opcodes Size: 0x15
+Locals Count: 1
+
 Called by: Q_random
 =================
 */
@@ -30065,6 +31654,9 @@ Q_random
 
 Address: 0x174ce
 Stack Size: 0x10
+Opcodes Size: 0x12
+Locals Count: 2
+
 Calls: Q_rand
 Called by: Q_crandom, CG_SmokePuff
 =================
@@ -30082,6 +31674,9 @@ Q_crandom
 
 Address: 0x174e0
 Stack Size: 0x10
+Opcodes Size: 0x11
+Locals Count: 2
+
 Calls: Q_random
 Called by: CG_ShotgunPattern
 =================
@@ -30099,6 +31694,9 @@ ClampChar
 
 Address: 0x174f1
 Stack Size: 0x8
+Opcodes Size: 0x1b
+Locals Count: 1
+
 =================
 */
 int ClampChar(int arg_0) {
@@ -30119,6 +31717,9 @@ ClampShort
 
 Address: 0x1750c
 Stack Size: 0x8
+Opcodes Size: 0x1b
+Locals Count: 1
+
 =================
 */
 int ClampShort(int arg_0) {
@@ -30139,6 +31740,9 @@ DirToByte
 
 Address: 0x17527
 Stack Size: 0x24
+Opcodes Size: 0x60
+Locals Count: 8
+
 =================
 */
 int DirToByte(int arg_0) {
@@ -30146,7 +31750,8 @@ int DirToByte(int arg_0) {
 	int		local_c;
 	int		local_10;
 	int		local_14;
-	char	local_18[8];
+	int		local_18;
+	int		local_1c;
 	int		local_20;
 
 	arg_0 = arg_0;
@@ -30154,9 +31759,9 @@ int DirToByte(int arg_0) {
 	return 0x0;
 jmp_17534:
 	local_10 = 0x0;
-	*(int *)local_18 = 0x0;
-	local_14 = *(int *)local_18;
-	local_8 = *(int *)local_18;
+	local_18 = 0x0;
+	local_14 = local_18;
+	local_8 = local_18;
 jmp_17542:
 	local_20 = (0xc * local_8);
 	local_c = (((*(int *)arg_0 * *(int *)(local_20 + 0x1ebc)) + (*(int *)(arg_0 + 0x4) * *(int *)(local_20 + 0x1ec0))) + (*(int *)(arg_0 + 0x8) * *(int *)(local_20 + 0x1ec4)));
@@ -30175,10 +31780,13 @@ ByteToDir
 
 Address: 0x17587
 Stack Size: 0xc
+Opcodes Size: 0x1e
+Locals Count: 3
+
 Called by: CG_EntityEvent, CG_Portal
 =================
 */
-void ByteToDir(int arg_0, int arg_1) {
+void ByteToDir(int arg_0, int arg_1, int arg_1877) {
 
 	arg_0 = arg_0;
 	if (arg_0 < 0x0) goto jmp_17594;
@@ -30197,6 +31805,9 @@ ColorBytes3
 
 Address: 0x175a5
 Stack Size: 0x30
+Opcodes Size: 0x6f
+Locals Count: 15
+
 =================
 */
 int ColorBytes3(int arg_0, int arg_1, int arg_2) {
@@ -30249,6 +31860,9 @@ ColorBytes4
 
 Address: 0x17614
 Stack Size: 0x3c
+Opcodes Size: 0x92
+Locals Count: 20
+
 =================
 */
 int ColorBytes4(int arg_0, int arg_1, int arg_2, int arg_3) {
@@ -30314,36 +31928,40 @@ NormalizeColor
 
 Address: 0x176a6
 Stack Size: 0x18
+Opcodes Size: 0x7a
+Locals Count: 6
+
 =================
 */
 int NormalizeColor(int arg_0, int arg_1) {
-	char	local_8[8];
+	int		local_8;
+	int		local_c;
 	int		local_10;
 	int		local_14;
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
-	*(int *)local_8 = *(int *)arg_0;
-	if (*(int *)(arg_0 + 0x4) <= *(int *)local_8) goto jmp_176c3;
-	*(int *)local_8 = *(int *)(arg_0 + 0x4);
+	local_8 = *(int *)arg_0;
+	if (*(int *)(arg_0 + 0x4) <= local_8) goto jmp_176c3;
+	local_8 = *(int *)(arg_0 + 0x4);
 jmp_176c3:
-	if (*(int *)(arg_0 + 0x8) <= *(int *)local_8) goto jmp_176d2;
-	*(int *)local_8 = *(int *)(arg_0 + 0x8);
+	if (*(int *)(arg_0 + 0x8) <= local_8) goto jmp_176d2;
+	local_8 = *(int *)(arg_0 + 0x8);
 jmp_176d2:
-	if (*(int *)local_8 != 0x0) goto jmp_176ee;
+	if (local_8 != 0x0) goto jmp_176ee;
 	local_14 = 0x0;
 	*(int *)(arg_1 + 0x8) = local_14;
 	*(int *)(arg_1 + 0x4) = local_14;
 	*(int *)arg_1 = local_14;
 	goto jmp_1771b;
 jmp_176ee:
-	*(int *)arg_1 = (*(int *)arg_0 / *(int *)local_8);
+	*(int *)arg_1 = (*(int *)arg_0 / local_8);
 	local_10 = 0x4;
-	*(int *)(arg_1 + local_10) = (*(int *)(arg_0 + local_10) / *(int *)local_8);
+	*(int *)(arg_1 + local_10) = (*(int *)(arg_0 + local_10) / local_8);
 	local_14 = 0x8;
-	*(int *)(arg_1 + local_14) = (*(int *)(arg_0 + local_14) / *(int *)local_8);
+	*(int *)(arg_1 + local_14) = (*(int *)(arg_0 + local_14) / local_8);
 jmp_1771b:
-	return *(int *)local_8;
+	return local_8;
 }
 
 /*
@@ -30352,6 +31970,9 @@ PlaneFromPoints
 
 Address: 0x17720
 Stack Size: 0x60
+Opcodes Size: 0xb6
+Locals Count: 20
+
 Calls: VectorNormalize, CrossProduct
 =================
 */
@@ -30361,12 +31982,15 @@ int PlaneFromPoints(int arg_0, int arg_1, int arg_2, int arg_3) {
 	int		local_1c;
 	int		local_20;
 	int		local_24;
-	char	local_28[12];
+	int		local_28;
+	char	local_2c[8];
 	int		local_34;
-	char	local_38[12];
+	int		local_38;
+	char	local_3c[8];
 	int		local_44;
 	int		local_48;
-	char	local_4c[12];
+	int		local_4c;
+	char	local_50[8];
 	int		local_58;
 	int		local_5c;
 
@@ -30377,16 +32001,16 @@ int PlaneFromPoints(int arg_0, int arg_1, int arg_2, int arg_3) {
 	local_14 = (*(int *)arg_2 - *(int *)arg_1);
 	local_34 = 0x4;
 	local_18 = (*(int *)(arg_2 + local_34) - *(int *)(arg_1 + local_34));
-	*(int *)local_38 = 0x8;
-	local_1c = (*(int *)(arg_2 + *(int *)local_38) - *(int *)(arg_1 + *(int *)local_38));
+	local_38 = 0x8;
+	local_1c = (*(int *)(arg_2 + local_38) - *(int *)(arg_1 + local_38));
 	local_20 = (*(int *)arg_3 - *(int *)arg_1);
 	local_44 = 0x4;
 	local_24 = (*(int *)(arg_3 + local_44) - *(int *)(arg_1 + local_44));
 	local_48 = 0x8;
-	*(int *)local_28 = (*(int *)(arg_3 + local_48) - *(int *)(arg_1 + local_48));
+	local_28 = (*(int *)(arg_3 + local_48) - *(int *)(arg_1 + local_48));
 	CrossProduct(&local_20, &local_14, arg_0);
-	*(int *)local_4c = VectorNormalize(arg_0);
-	if (*(int *)local_4c != 0x0) goto jmp_177a4;
+	local_4c = VectorNormalize(arg_0);
+	if (local_4c != 0x0) goto jmp_177a4;
 	return 0x0;
 jmp_177a4:
 	local_58 = 0x4;
@@ -30401,6 +32025,9 @@ RotatePointAroundVector
 
 Address: 0x177d6
 Stack Size: 0x118
+Opcodes Size: 0x113
+Locals Count: 52
+
 Calls: sin, cos, memset, memcpy, MatrixMultiply, CrossProduct, PerpendicularVector
 Called by: RotateAroundDirection, CG_RailTrail, CG_ImpactMark
 =================
@@ -30420,17 +32047,21 @@ void RotatePointAroundVector(int arg_0, int arg_1, int arg_2, int arg_3) {
 	int		local_58;
 	int		local_5c;
 	int		local_60;
-	char	local_64[8];
+	int		local_64;
+	int		local_68;
 	int		local_6c;
-	char	local_70[16];
+	int		local_70;
+	char	local_74[12];
 	int		local_80;
 	int		local_84;
 	int		local_88;
 	int		local_8c;
-	char	local_90[8];
+	int		local_90;
+	int		local_94;
 	int		local_98;
 	int		local_9c;
-	char	local_a0[8];
+	int		local_a0;
+	int		local_a4;
 	int		local_a8;
 	int		local_ac;
 	int		local_b0;
@@ -30446,8 +32077,10 @@ void RotatePointAroundVector(int arg_0, int arg_1, int arg_2, int arg_3) {
 	int		local_fc;
 	int		local_100;
 	int		local_104;
-	char	local_108[8];
-	char	local_110[8];
+	int		local_108;
+	int		local_10c;
+	int		local_110;
+	int		local_114;
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
@@ -30469,30 +32102,30 @@ void RotatePointAroundVector(int arg_0, int arg_1, int arg_2, int arg_3) {
 	memcpy(&local_84, &local_3c, 0x24);
 	local_88 = local_48;
 	local_8c = local_54;
-	*(int *)local_90 = local_40;
+	local_90 = local_40;
 	local_98 = local_58;
 	local_9c = local_44;
-	*(int *)local_a0 = local_50;
+	local_a0 = local_50;
 	memset(&local_60, 0x0, 0x24);
 	local_f8 = 0x3f800000;
 	local_80 = local_f8;
-	*(int *)local_70 = local_f8;
+	local_70 = local_f8;
 	local_60 = local_f8;
 	local_c0 = ((0x40490fdb * arg_3) / 0x43340000);
 	local_fc = cos(local_c0);
 	local_60 = local_fc;
 	local_100 = sin(local_c0);
-	*(int *)local_64 = local_100;
+	local_64 = local_100;
 	local_104 = sin(local_c0);
 	local_6c = -local_104;
-	*(int *)local_108 = cos(local_c0);
-	*(int *)local_70 = *(int *)local_108;
+	local_108 = cos(local_c0);
+	local_70 = local_108;
 	MatrixMultiply(&local_3c, &local_60, local_d0);
 	MatrixMultiply(local_d0, &local_84, &local_18);
 	local_14 = 0x0;
 jmp_178ae:
-	*(int *)local_110 = (0xc * local_14);
-	*(int *)((local_14 << 0x2) + arg_0) = (((*(int *)(*(int *)local_110 + &local_18) * *(int *)arg_2) + (*(int *)(*(int *)local_110 + &local_1c) * *(int *)(arg_2 + 0x4))) + (*(int *)(*(int *)local_110 + local_20) * *(int *)(arg_2 + 0x8)));
+	local_110 = (0xc * local_14);
+	*(int *)((local_14 << 0x2) + arg_0) = (((*(int *)(local_110 + &local_18) * *(int *)arg_2) + (*(int *)(local_110 + &local_1c) * *(int *)(arg_2 + 0x4))) + (*(int *)(local_110 + local_20) * *(int *)(arg_2 + 0x8)));
 	local_14 = (local_14 + 0x1);
 	if (local_14 < 0x3) goto jmp_178ae;
 }
@@ -30503,12 +32136,16 @@ RotateAroundDirection
 
 Address: 0x178e9
 Stack Size: 0x30
+Opcodes Size: 0x3e
+Locals Count: 5
+
 Calls: CrossProduct, RotatePointAroundVector, PerpendicularVector
 Called by: CG_Missile, CG_MakeExplosion
 =================
 */
 void RotateAroundDirection(int arg_0, int arg_1) {
-	char	local_1c[16];
+	char	local_1c[12];
+	int		local_28;
 	int		local_2c;
 
 	arg_0 = arg_0;
@@ -30527,6 +32164,9 @@ vectoangles
 
 Address: 0x17927
 Stack Size: 0x38
+Opcodes Size: 0xbd
+Locals Count: 12
+
 Calls: sqrt, atan2
 Called by: CG_ParticleDust, CG_ParticleBloodCloud, ValidBloodPool, CG_AddParticles, CG_AddParticleToScene, BG_TouchJumpPad
 =================
@@ -30534,7 +32174,8 @@ Called by: CG_ParticleDust, CG_ParticleBloodCloud, ValidBloodPool, CG_AddParticl
 void vectoangles(int arg_0, int arg_1) {
 	int		local_10;
 	int		local_14;
-	char	local_18[8];
+	int		local_18;
+	int		local_1c;
 	int		local_20;
 	int		local_24;
 	int		local_28;
@@ -30573,8 +32214,8 @@ jmp_17990:
 	local_28 = *(int *)arg_0;
 	local_2c = *(int *)(arg_0 + 0x4);
 	local_30 = sqrt(((local_28 * local_28) + (local_2c * local_2c)));
-	*(int *)local_18 = local_30;
-	local_34 = atan2(*(int *)(arg_0 + 0x8), *(int *)local_18);
+	local_18 = local_30;
+	local_34 = atan2(*(int *)(arg_0 + 0x8), local_18);
 	local_14 = ((0x43340000 * local_34) / 0x40490fdb);
 	if (local_14 >= 0x0) goto jmp_179cf;
 	local_14 = (local_14 + 0x43b40000);
@@ -30590,6 +32231,9 @@ AnglesToAxis
 
 Address: 0x179e4
 Stack Size: 0x28
+Opcodes Size: 0x35
+Locals Count: 6
+
 Calls: AngleVectors
 Called by: CG_AddViewWeapon, CG_AddPlayerWeapon, CG_LightningBolt, CG_PlasmaTrail, CG_ShotgunEjectBrass, CG_MachineGunEjectBrass, CG_CalcViewValues, CG_TestModel_f, CG_PlayerFlag, CG_TrailItem, CG_PlayerAngles, CG_AddFragment, CG_AddPacketEntities, CG_TeamBase, CG_Mover, CG_Item, CG_General, CG_ScorePlum, CG_Draw3DModel
 =================
@@ -30597,13 +32241,14 @@ Called by: CG_AddViewWeapon, CG_AddPlayerWeapon, CG_LightningBolt, CG_PlasmaTrai
 void AnglesToAxis(int arg_0, int arg_1) {
 	int		local_18;
 	int		local_1c;
-	char	local_20[8];
+	int		local_20;
+	int		local_24;
 
 	arg_1 = arg_1;
 	AngleVectors(arg_0, arg_1, &local_18, (arg_1 + 0x18));
 	*(int *)(arg_1 + 0xc) = (vec3_origin - local_18);
 	*(int *)(arg_1 + 0x10) = (global_1d60 - local_1c);
-	*(int *)(arg_1 + 0x14) = (global_1d64 - *(int *)local_20);
+	*(int *)(arg_1 + 0x14) = (global_1d64 - local_20);
 }
 
 /*
@@ -30612,6 +32257,9 @@ AxisClear
 
 Address: 0x17a19
 Stack Size: 0x8
+Opcodes Size: 0x3b
+Locals Count: 1
+
 Called by: CG_GrappleTrail, CG_RailTrail, CG_Beam, CG_MakeExplosion, CG_SpawnEffect, CG_Draw3DModel
 =================
 */
@@ -30635,6 +32283,9 @@ AxisCopy
 
 Address: 0x17a54
 Stack Size: 0x10
+Opcodes Size: 0x2c
+Locals Count: 4
+
 Called by: CG_PlasmaTrail, CG_ShotgunEjectBrass, CG_MachineGunEjectBrass, CG_Item, CG_LaunchExplode, CG_LaunchGib
 =================
 */
@@ -30657,6 +32308,9 @@ ProjectPointOnPlane
 
 Address: 0x17a80
 Stack Size: 0x4c
+Opcodes Size: 0xbd
+Locals Count: 19
+
 Called by: PerpendicularVector
 =================
 */
@@ -30665,14 +32319,16 @@ void ProjectPointOnPlane(int arg_0, int arg_1, int arg_2) {
 	int		local_c;
 	int		local_10;
 	int		local_14;
-	char	local_18[8];
+	int		local_18;
+	int		local_1c;
 	int		local_20;
 	int		local_24;
 	int		local_28;
 	int		local_2c;
 	int		local_30;
 	int		local_34;
-	char	local_38[12];
+	int		local_38;
+	char	local_3c[8];
 	int		local_44;
 	int		local_48;
 
@@ -30685,18 +32341,18 @@ void ProjectPointOnPlane(int arg_0, int arg_1, int arg_2) {
 	local_2c = *(int *)local_28;
 	local_30 = 0x8;
 	local_34 = (arg_2 + local_30);
-	*(int *)local_38 = *(int *)local_34;
-	local_8 = (((local_20 * local_20) + (local_2c * local_2c)) + (*(int *)local_38 * *(int *)local_38));
+	local_38 = *(int *)local_34;
+	local_8 = (((local_20 * local_20) + (local_2c * local_2c)) + (local_38 * local_38));
 	local_8 = (0x3f800000 / local_8);
-	*(int *)local_18 = ((((*(int *)arg_2 * *(int *)arg_1) + (*(int *)local_28 * *(int *)(arg_1 + local_24))) + (*(int *)local_34 * *(int *)(arg_1 + local_30))) * local_8);
+	local_18 = ((((*(int *)arg_2 * *(int *)arg_1) + (*(int *)local_28 * *(int *)(arg_1 + local_24))) + (*(int *)local_34 * *(int *)(arg_1 + local_30))) * local_8);
 	local_c = (*(int *)arg_2 * local_8);
 	local_10 = (*(int *)local_28 * local_8);
 	local_14 = (*(int *)(arg_2 + 0x8) * local_8);
-	*(int *)arg_0 = (*(int *)arg_1 - (*(int *)local_18 * local_c));
+	*(int *)arg_0 = (*(int *)arg_1 - (local_18 * local_c));
 	local_44 = 0x4;
-	*(int *)(arg_0 + local_44) = (*(int *)(arg_1 + local_44) - (*(int *)local_18 * local_10));
+	*(int *)(arg_0 + local_44) = (*(int *)(arg_1 + local_44) - (local_18 * local_10));
 	local_48 = 0x8;
-	*(int *)(arg_0 + local_48) = (*(int *)(arg_1 + local_48) - (*(int *)local_18 * local_14));
+	*(int *)(arg_0 + local_48) = (*(int *)(arg_1 + local_48) - (local_18 * local_14));
 }
 
 /*
@@ -30705,11 +32361,15 @@ MakeNormalVectors
 
 Address: 0x17b3d
 Stack Size: 0x38
+Opcodes Size: 0xa7
+Locals Count: 11
+
 Calls: CrossProduct, VectorNormalize
 =================
 */
 void MakeNormalVectors(int arg_0, int arg_1, int arg_2) {
-	char	local_14[12];
+	int		local_14;
+	char	local_18[8];
 	int		local_20;
 	int		local_24;
 	int		local_28;
@@ -30724,14 +32384,14 @@ void MakeNormalVectors(int arg_0, int arg_1, int arg_2) {
 	*(int *)arg_1 = *(int *)(arg_0 + 0x8);
 	local_20 = 0x4;
 	local_24 = 0x8;
-	*(int *)local_14 = (((*(int *)arg_1 * *(int *)arg_0) + (*(int *)(arg_1 + local_20) * *(int *)(arg_0 + local_20))) + (*(int *)(arg_1 + local_24) * *(int *)(arg_0 + local_24)));
-	*(int *)arg_1 = (*(int *)arg_1 + (*(int *)arg_0 * -*(int *)local_14));
+	local_14 = (((*(int *)arg_1 * *(int *)arg_0) + (*(int *)(arg_1 + local_20) * *(int *)(arg_0 + local_20))) + (*(int *)(arg_1 + local_24) * *(int *)(arg_0 + local_24)));
+	*(int *)arg_1 = (*(int *)arg_1 + (*(int *)arg_0 * -local_14));
 	local_28 = 0x4;
 	local_2c = (arg_1 + local_28);
-	*(int *)local_2c = (*(int *)local_2c + (*(int *)(arg_0 + local_28) * -*(int *)local_14));
+	*(int *)local_2c = (*(int *)local_2c + (*(int *)(arg_0 + local_28) * -local_14));
 	local_30 = 0x8;
 	local_34 = (arg_1 + local_30);
-	*(int *)local_34 = (*(int *)local_34 + (*(int *)(arg_0 + local_30) * -*(int *)local_14));
+	*(int *)local_34 = (*(int *)local_34 + (*(int *)(arg_0 + local_30) * -local_14));
 	VectorNormalize(arg_1);
 	CrossProduct(arg_1, arg_0, arg_2);
 }
@@ -30742,13 +32402,18 @@ VectorRotate
 
 Address: 0x17be4
 Stack Size: 0x30
+Opcodes Size: 0x91
+Locals Count: 9
+
 =================
 */
 void VectorRotate(int arg_0, int arg_1, int arg_2) {
 	int		local_10;
 	int		local_14;
-	char	local_18[12];
-	char	local_24[12];
+	int		local_18;
+	char	local_1c[8];
+	int		local_24;
+	char	local_28[8];
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
@@ -30756,10 +32421,10 @@ void VectorRotate(int arg_0, int arg_1, int arg_2) {
 	local_10 = 0x4;
 	local_14 = 0x8;
 	*(int *)arg_2 = (((*(int *)arg_0 * *(int *)arg_1) + (*(int *)(arg_0 + local_10) * *(int *)(arg_1 + local_10))) + (*(int *)(arg_0 + local_14) * *(int *)(arg_1 + local_14)));
-	*(int *)local_18 = 0x4;
-	*(int *)(arg_2 + *(int *)local_18) = (((*(int *)arg_0 * *(int *)(arg_1 + 0xc)) + (*(int *)(arg_0 + *(int *)local_18) * *(int *)(arg_1 + 0x10))) + (*(int *)(arg_0 + 0x8) * *(int *)(arg_1 + 0x14)));
-	*(int *)local_24 = 0x8;
-	*(int *)(arg_2 + *(int *)local_24) = (((*(int *)arg_0 * *(int *)(arg_1 + 0x18)) + (*(int *)(arg_0 + 0x4) * *(int *)(arg_1 + 0x1c))) + (*(int *)(arg_0 + *(int *)local_24) * *(int *)(arg_1 + 0x20)));
+	local_18 = 0x4;
+	*(int *)(arg_2 + local_18) = (((*(int *)arg_0 * *(int *)(arg_1 + 0xc)) + (*(int *)(arg_0 + local_18) * *(int *)(arg_1 + 0x10))) + (*(int *)(arg_0 + 0x8) * *(int *)(arg_1 + 0x14)));
+	local_24 = 0x8;
+	*(int *)(arg_2 + local_24) = (((*(int *)arg_0 * *(int *)(arg_1 + 0x18)) + (*(int *)(arg_0 + 0x4) * *(int *)(arg_1 + 0x1c))) + (*(int *)(arg_0 + local_24) * *(int *)(arg_1 + 0x20)));
 }
 
 /*
@@ -30768,6 +32433,9 @@ Q_rsqrt
 
 Address: 0x17c75
 Stack Size: 0x20
+Opcodes Size: 0x33
+Locals Count: 7
+
 Called by: VectorNormalizeFast
 =================
 */
@@ -30776,12 +32444,13 @@ int Q_rsqrt(int arg_0) {
 	int		local_c;
 	int		local_10;
 	int		local_14;
-	char	local_18[8];
+	int		local_18;
+	int		local_1c;
 
 	local_14 = 0x3fc00000;
-	*(int *)local_18 = arg_0;
-	local_10 = (0x3f000000 * *(int *)local_18);
-	local_c = *(int *)local_18;
+	local_18 = arg_0;
+	local_10 = (0x3f000000 * local_18);
+	local_c = local_18;
 	local_c = (0x5f3759df - (local_c >> 0x1));
 	local_8 = local_c;
 	local_8 = (local_8 * (local_14 - ((local_10 * local_8) * local_8)));
@@ -30794,6 +32463,9 @@ Q_fabs
 
 Address: 0x17ca8
 Stack Size: 0xc
+Opcodes Size: 0x10
+Locals Count: 2
+
 =================
 */
 int Q_fabs(int arg_0) {
@@ -30810,11 +32482,15 @@ LerpAngle
 
 Address: 0x17cb8
 Stack Size: 0x10
+Opcodes Size: 0x35
+Locals Count: 5
+
 Called by: CG_InterpolatePlayerState, CG_InterpolateEntityPosition
 =================
 */
 int LerpAngle(int arg_0, int arg_1, int arg_2) {
-	char	local_8[8];
+	int		local_8;
+	int		local_c;
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
@@ -30824,8 +32500,8 @@ jmp_17cce:
 	if ((arg_1 - arg_0) >= 0xc3340000) goto jmp_17cdb;
 	arg_1 = (arg_1 + 0x43b40000);
 jmp_17cdb:
-	*(int *)local_8 = (arg_0 + (arg_2 * (arg_1 - arg_0)));
-	return *(int *)local_8;
+	local_8 = (arg_0 + (arg_2 * (arg_1 - arg_0)));
+	return local_8;
 }
 
 /*
@@ -30834,6 +32510,9 @@ AngleSubtract
 
 Address: 0x17ced
 Stack Size: 0xc
+Opcodes Size: 0x25
+Locals Count: 3
+
 Called by: AnglesSubtract, CG_SwingAngles
 =================
 */
@@ -30860,6 +32539,9 @@ AnglesSubtract
 
 Address: 0x17d12
 Stack Size: 0x24
+Opcodes Size: 0x5a
+Locals Count: 8
+
 Calls: AngleSubtract
 Called by: CG_PlayerAngles
 =================
@@ -30890,6 +32572,9 @@ AngleMod
 
 Address: 0x17d6c
 Stack Size: 0x8
+Opcodes Size: 0x16
+Locals Count: 1
+
 Called by: CG_MachinegunSpinAngle, CG_PlayerAngles, CG_SwingAngles
 =================
 */
@@ -30906,6 +32591,9 @@ AngleNormalize360
 
 Address: 0x17d82
 Stack Size: 0x8
+Opcodes Size: 0xe
+Locals Count: 1
+
 Called by: AngleNormalize180
 =================
 */
@@ -30920,6 +32608,9 @@ AngleNormalize180
 
 Address: 0x17d90
 Stack Size: 0x10
+Opcodes Size: 0x1f
+Locals Count: 2
+
 Calls: AngleNormalize360
 Called by: AngleDelta, BG_TouchJumpPad
 =================
@@ -30942,6 +32633,9 @@ AngleDelta
 
 Address: 0x17daf
 Stack Size: 0x10
+Opcodes Size: 0x10
+Locals Count: 3
+
 Calls: AngleNormalize180
 =================
 */
@@ -30958,6 +32652,9 @@ SetPlaneSignbits
 
 Address: 0x17dbf
 Stack Size: 0x14
+Opcodes Size: 0x36
+Locals Count: 4
+
 =================
 */
 void SetPlaneSignbits(int arg_0) {
@@ -30984,6 +32681,9 @@ BoxOnPlaneSide
 
 Address: 0x17df5
 Stack Size: 0x44
+Opcodes Size: 0xe8
+Locals Count: 17
+
 =================
 */
 int BoxOnPlaneSide(int arg_0, int arg_1, int arg_2) {
@@ -30992,7 +32692,8 @@ int BoxOnPlaneSide(int arg_0, int arg_1, int arg_2) {
 	int		local_10;
 	int		local_14;
 	int		local_18;
-	char	local_1c[12];
+	int		local_1c;
+	char	local_20[8];
 	int		local_28;
 	int		local_2c;
 	int		local_30;
@@ -31013,9 +32714,9 @@ jmp_17e1e:
 jmp_17e33:
 	return 0x3;
 jmp_17e37:
-	*(int *)local_1c = 0x0;
-	local_14 = *(int *)local_1c;
-	local_10 = *(int *)local_1c;
+	local_1c = 0x0;
+	local_14 = local_1c;
+	local_10 = local_1c;
 	if (*(char *)(arg_2 + 0x11) >= 0x8) goto jmp_17ebc;
 	local_8 = 0x0;
 jmp_17e4c:
@@ -31053,6 +32754,9 @@ RadiusFromBounds
 
 Address: 0x17edd
 Stack Size: 0x30
+Opcodes Size: 0x5b
+Locals Count: 9
+
 Calls: VectorLength, fabs
 =================
 */
@@ -31092,18 +32796,22 @@ ClearBounds
 
 Address: 0x17f38
 Stack Size: 0x18
+Opcodes Size: 0x37
+Locals Count: 5
+
 =================
 */
 void ClearBounds(int arg_0, int arg_1) {
-	char	local_c[8];
+	int		local_c;
+	int		local_10;
 	int		local_14;
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
-	*(int *)local_c = 0x47c34f80;
-	*(int *)(arg_0 + 0x8) = *(int *)local_c;
-	*(int *)(arg_0 + 0x4) = *(int *)local_c;
-	*(int *)arg_0 = *(int *)local_c;
+	local_c = 0x47c34f80;
+	*(int *)(arg_0 + 0x8) = local_c;
+	*(int *)(arg_0 + 0x4) = local_c;
+	*(int *)arg_0 = local_c;
 	local_14 = 0xc7c34f80;
 	*(int *)(arg_1 + 0x8) = local_14;
 	*(int *)(arg_1 + 0x4) = local_14;
@@ -31116,6 +32824,9 @@ AddPointToBounds
 
 Address: 0x17f6f
 Stack Size: 0x1c
+Opcodes Size: 0xa5
+Locals Count: 8
+
 =================
 */
 void AddPointToBounds(int arg_0, int arg_1, int arg_2) {
@@ -31162,11 +32873,15 @@ BoundsIntersect
 
 Address: 0x18014
 Stack Size: 0x20
+Opcodes Size: 0x61
+Locals Count: 7
+
 =================
 */
 int BoundsIntersect(int arg_0, int arg_1, int arg_2, int arg_3) {
 	int		local_10;
-	char	local_14[12];
+	int		local_14;
+	char	local_18[8];
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
@@ -31175,11 +32890,11 @@ int BoundsIntersect(int arg_0, int arg_1, int arg_2, int arg_3) {
 	if (*(int *)arg_1 < *(int *)arg_2) goto jmp_1806d;
 	local_10 = 0x4;
 	if (*(int *)(arg_1 + local_10) < *(int *)(arg_2 + local_10)) goto jmp_1806d;
-	*(int *)local_14 = 0x8;
-	if (*(int *)(arg_1 + *(int *)local_14) < *(int *)(arg_2 + *(int *)local_14)) goto jmp_1806d;
+	local_14 = 0x8;
+	if (*(int *)(arg_1 + local_14) < *(int *)(arg_2 + local_14)) goto jmp_1806d;
 	if (*(int *)arg_0 > *(int *)arg_3) goto jmp_1806d;
 	if (*(int *)(arg_0 + local_10) > *(int *)(arg_3 + local_10)) goto jmp_1806d;
-	if (*(int *)(arg_0 + *(int *)local_14) <= *(int *)(arg_3 + *(int *)local_14)) goto jmp_18071;
+	if (*(int *)(arg_0 + local_14) <= *(int *)(arg_3 + local_14)) goto jmp_18071;
 jmp_1806d:
 	return 0x0;
 jmp_18071:
@@ -31192,10 +32907,14 @@ BoundsIntersectSphere
 
 Address: 0x18075
 Stack Size: 0x2c
+Opcodes Size: 0x76
+Locals Count: 10
+
 =================
 */
 int BoundsIntersectSphere(int arg_0, int arg_1, int arg_2, int arg_3) {
-	char	local_c[16];
+	int		local_c;
+	char	local_10[12];
 	int		local_1c;
 	int		local_20;
 	int		local_24;
@@ -31205,9 +32924,9 @@ int BoundsIntersectSphere(int arg_0, int arg_1, int arg_2, int arg_3) {
 	arg_1 = arg_1;
 	arg_2 = arg_2;
 	arg_3 = arg_3;
-	*(int *)local_c = *(int *)arg_2;
-	if ((*(int *)local_c - arg_3) > *(int *)arg_1) goto jmp_180e3;
-	if ((*(int *)local_c + arg_3) < *(int *)arg_0) goto jmp_180e3;
+	local_c = *(int *)arg_2;
+	if ((local_c - arg_3) > *(int *)arg_1) goto jmp_180e3;
+	if ((local_c + arg_3) < *(int *)arg_0) goto jmp_180e3;
 	local_1c = 0x4;
 	local_20 = *(int *)(arg_2 + local_1c);
 	if ((local_20 - arg_3) > *(int *)(arg_1 + local_1c)) goto jmp_180e3;
@@ -31228,10 +32947,14 @@ BoundsIntersectPoint
 
 Address: 0x180eb
 Stack Size: 0x28
+Opcodes Size: 0x60
+Locals Count: 9
+
 =================
 */
 int BoundsIntersectPoint(int arg_0, int arg_1, int arg_2) {
-	char	local_c[12];
+	int		local_c;
+	char	local_10[8];
 	int		local_18;
 	int		local_1c;
 	int		local_20;
@@ -31240,9 +32963,9 @@ int BoundsIntersectPoint(int arg_0, int arg_1, int arg_2) {
 	arg_0 = arg_0;
 	arg_1 = arg_1;
 	arg_2 = arg_2;
-	*(int *)local_c = *(int *)arg_2;
-	if (*(int *)local_c > *(int *)arg_1) goto jmp_18143;
-	if (*(int *)local_c < *(int *)arg_0) goto jmp_18143;
+	local_c = *(int *)arg_2;
+	if (local_c > *(int *)arg_1) goto jmp_18143;
+	if (local_c < *(int *)arg_0) goto jmp_18143;
 	local_18 = 0x4;
 	local_1c = *(int *)(arg_2 + local_18);
 	if (local_1c > *(int *)(arg_1 + local_18)) goto jmp_18143;
@@ -31263,18 +32986,23 @@ VectorNormalize
 
 Address: 0x1814b
 Stack Size: 0x38
+Opcodes Size: 0x73
+Locals Count: 12
+
 Calls: sqrt
 Called by: PerpendicularVector, MakeNormalVectors, PlaneFromPoints, CG_Tracer, CG_ShotgunFire, CG_LightningBolt, CG_RailTrail, CG_PlayerFlag, CG_PlayerAngles, CG_AddScorePlum, CG_BubbleTrail, PM_SlideMove, PM_NoclipMove, PM_DeadMove, PM_WalkMove, PM_GrappleMove, PM_AirMove, PM_FlyMove, PM_WaterMove, PM_CheckWaterJump
 =================
 */
 int VectorNormalize(int arg_0) {
 	int		local_c;
-	char	local_10[8];
+	int		local_10;
+	int		local_14;
 	int		local_18;
 	int		local_1c;
 	int		local_20;
 	int		local_24;
-	char	local_28[8];
+	int		local_28;
+	int		local_2c;
 	int		local_30;
 	int		local_34;
 
@@ -31285,14 +33013,14 @@ int VectorNormalize(int arg_0) {
 	local_c = (((local_18 * local_18) + (local_1c * local_1c)) + (local_20 * local_20));
 	if (local_c == 0x0) goto jmp_181b9;
 	local_24 = sqrt(local_c);
-	*(int *)local_10 = (0x3f800000 / local_24);
-	*(int *)local_28 = *(int *)local_10;
-	local_c = (local_c * *(int *)local_28);
-	*(int *)arg_0 = (*(int *)arg_0 * *(int *)local_28);
+	local_10 = (0x3f800000 / local_24);
+	local_28 = local_10;
+	local_c = (local_c * local_28);
+	*(int *)arg_0 = (*(int *)arg_0 * local_28);
 	local_30 = (arg_0 + 0x4);
-	*(int *)local_30 = (*(int *)local_30 * *(int *)local_10);
+	*(int *)local_30 = (*(int *)local_30 * local_10);
 	local_34 = (arg_0 + 0x8);
-	*(int *)local_34 = (*(int *)local_34 * *(int *)local_10);
+	*(int *)local_34 = (*(int *)local_34 * local_10);
 jmp_181b9:
 	return local_c;
 }
@@ -31303,13 +33031,17 @@ VectorNormalize2
 
 Address: 0x181be
 Stack Size: 0x34
+Opcodes Size: 0x95
+Locals Count: 12
+
 Calls: sqrt
 Called by: CG_ShotgunPattern, CG_ImpactMark, CG_Grapple, CG_Missile, PM_SlideMove
 =================
 */
 int VectorNormalize2(int arg_0, int arg_1) {
 	int		local_c;
-	char	local_10[8];
+	int		local_10;
+	int		local_14;
 	int		local_18;
 	int		local_1c;
 	int		local_20;
@@ -31326,14 +33058,14 @@ int VectorNormalize2(int arg_0, int arg_1) {
 	local_c = (((local_18 * local_18) + (local_1c * local_1c)) + (local_20 * local_20));
 	if (local_c == 0x0) goto jmp_18238;
 	local_24 = sqrt(local_c);
-	*(int *)local_10 = (0x3f800000 / local_24);
-	local_28 = *(int *)local_10;
+	local_10 = (0x3f800000 / local_24);
+	local_28 = local_10;
 	local_c = (local_c * local_28);
 	*(int *)arg_1 = (*(int *)arg_0 * local_28);
 	local_2c = 0x4;
-	*(int *)(arg_1 + local_2c) = (*(int *)(arg_0 + local_2c) * *(int *)local_10);
+	*(int *)(arg_1 + local_2c) = (*(int *)(arg_0 + local_2c) * local_10);
 	local_30 = 0x8;
-	*(int *)(arg_1 + local_30) = (*(int *)(arg_0 + local_30) * *(int *)local_10);
+	*(int *)(arg_1 + local_30) = (*(int *)(arg_0 + local_30) * local_10);
 	goto jmp_1824e;
 jmp_18238:
 	local_28 = 0x0;
@@ -31350,6 +33082,9 @@ _VectorMA
 
 Address: 0x18253
 Stack Size: 0x10
+Opcodes Size: 0x52
+Locals Count: 6
+
 =================
 */
 void _VectorMA(int arg_0, int arg_1, int arg_2, int arg_3) {
@@ -31373,6 +33108,9 @@ _DotProduct
 
 Address: 0x182a5
 Stack Size: 0x18
+Opcodes Size: 0x35
+Locals Count: 4
+
 =================
 */
 int _DotProduct(int arg_0, int arg_1) {
@@ -31392,6 +33130,9 @@ _VectorSubtract
 
 Address: 0x182da
 Stack Size: 0x10
+Opcodes Size: 0x45
+Locals Count: 5
+
 =================
 */
 void _VectorSubtract(int arg_0, int arg_1, int arg_2) {
@@ -31414,6 +33155,9 @@ _VectorAdd
 
 Address: 0x1831f
 Stack Size: 0x10
+Opcodes Size: 0x45
+Locals Count: 5
+
 =================
 */
 void _VectorAdd(int arg_0, int arg_1, int arg_2) {
@@ -31436,6 +33180,9 @@ _VectorCopy
 
 Address: 0x18364
 Stack Size: 0x10
+Opcodes Size: 0x2f
+Locals Count: 4
+
 =================
 */
 void _VectorCopy(int arg_0, int arg_1) {
@@ -31457,6 +33204,9 @@ _VectorScale
 
 Address: 0x18393
 Stack Size: 0x10
+Opcodes Size: 0x3c
+Locals Count: 5
+
 =================
 */
 void _VectorScale(int arg_0, int arg_1, int arg_2) {
@@ -31479,6 +33229,9 @@ Vector4Scale
 
 Address: 0x183cf
 Stack Size: 0x14
+Opcodes Size: 0x4e
+Locals Count: 6
+
 =================
 */
 void Vector4Scale(int arg_0, int arg_1, int arg_2) {
@@ -31504,6 +33257,9 @@ Q_log2
 
 Address: 0x1841d
 Stack Size: 0x10
+Opcodes Size: 0x23
+Locals Count: 3
+
 =================
 */
 int Q_log2(int arg_0) {
@@ -31528,39 +33284,50 @@ MatrixMultiply
 
 Address: 0x18440
 Stack Size: 0x70
+Opcodes Size: 0x199
+Locals Count: 19
+
 Called by: RotatePointAroundVector, CG_AddPlayerWeapon, CG_PositionRotatedEntityOnTag, CG_PositionEntityOnTag
 =================
 */
 void MatrixMultiply(int arg_0, int arg_1, int arg_2) {
-	char	local_10[12];
-	char	local_1c[12];
-	char	local_28[12];
-	char	local_34[12];
-	char	local_40[12];
-	char	local_4c[12];
-	char	local_58[12];
-	char	local_64[12];
+	int		local_10;
+	char	local_14[8];
+	int		local_1c;
+	char	local_20[8];
+	int		local_28;
+	char	local_2c[8];
+	int		local_34;
+	char	local_38[8];
+	int		local_40;
+	char	local_44[8];
+	int		local_4c;
+	char	local_50[8];
+	int		local_58;
+	char	local_5c[8];
+	int		local_64;
+	char	local_68[8];
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
 	arg_2 = arg_2;
 	*(int *)arg_2 = (((*(int *)arg_0 * *(int *)arg_1) + (*(int *)(arg_0 + 0x4) * *(int *)(arg_1 + 0xc))) + (*(int *)(arg_0 + 0x8) * *(int *)(arg_1 + 0x18)));
-	*(int *)local_10 = 0x4;
-	*(int *)(arg_2 + *(int *)local_10) = (((*(int *)arg_0 * *(int *)(arg_1 + *(int *)local_10)) + (*(int *)(arg_0 + *(int *)local_10) * *(int *)(arg_1 + 0x10))) + (*(int *)(arg_0 + 0x8) * *(int *)(arg_1 + 0x1c)));
-	*(int *)local_1c = 0x8;
-	*(int *)(arg_2 + *(int *)local_1c) = (((*(int *)arg_0 * *(int *)(arg_1 + *(int *)local_1c)) + (*(int *)(arg_0 + 0x4) * *(int *)(arg_1 + 0x14))) + (*(int *)(arg_0 + *(int *)local_1c) * *(int *)(arg_1 + 0x20)));
-	*(int *)local_28 = 0xc;
-	*(int *)(arg_2 + *(int *)local_28) = (((*(int *)(arg_0 + *(int *)local_28) * *(int *)arg_1) + (*(int *)(arg_0 + 0x10) * *(int *)(arg_1 + *(int *)local_28))) + (*(int *)(arg_0 + 0x14) * *(int *)(arg_1 + 0x18)));
-	*(int *)local_34 = 0x10;
-	*(int *)(arg_2 + *(int *)local_34) = (((*(int *)(arg_0 + 0xc) * *(int *)(arg_1 + 0x4)) + (*(int *)(arg_0 + *(int *)local_34) * *(int *)(arg_1 + *(int *)local_34))) + (*(int *)(arg_0 + 0x14) * *(int *)(arg_1 + 0x1c)));
-	*(int *)local_40 = 0x14;
-	*(int *)(arg_2 + *(int *)local_40) = (((*(int *)(arg_0 + 0xc) * *(int *)(arg_1 + 0x8)) + (*(int *)(arg_0 + 0x10) * *(int *)(arg_1 + *(int *)local_40))) + (*(int *)(arg_0 + *(int *)local_40) * *(int *)(arg_1 + 0x20)));
-	*(int *)local_4c = 0x18;
-	*(int *)(arg_2 + *(int *)local_4c) = (((*(int *)(arg_0 + *(int *)local_4c) * *(int *)arg_1) + (*(int *)(arg_0 + 0x1c) * *(int *)(arg_1 + 0xc))) + (*(int *)(arg_0 + 0x20) * *(int *)(arg_1 + *(int *)local_4c)));
-	*(int *)local_58 = 0x1c;
-	*(int *)(arg_2 + *(int *)local_58) = (((*(int *)(arg_0 + 0x18) * *(int *)(arg_1 + 0x4)) + (*(int *)(arg_0 + *(int *)local_58) * *(int *)(arg_1 + 0x10))) + (*(int *)(arg_0 + 0x20) * *(int *)(arg_1 + *(int *)local_58)));
-	*(int *)local_64 = 0x20;
-	*(int *)(arg_2 + *(int *)local_64) = (((*(int *)(arg_0 + 0x18) * *(int *)(arg_1 + 0x8)) + (*(int *)(arg_0 + 0x1c) * *(int *)(arg_1 + 0x14))) + (*(int *)(arg_0 + *(int *)local_64) * *(int *)(arg_1 + *(int *)local_64)));
+	local_10 = 0x4;
+	*(int *)(arg_2 + local_10) = (((*(int *)arg_0 * *(int *)(arg_1 + local_10)) + (*(int *)(arg_0 + local_10) * *(int *)(arg_1 + 0x10))) + (*(int *)(arg_0 + 0x8) * *(int *)(arg_1 + 0x1c)));
+	local_1c = 0x8;
+	*(int *)(arg_2 + local_1c) = (((*(int *)arg_0 * *(int *)(arg_1 + local_1c)) + (*(int *)(arg_0 + 0x4) * *(int *)(arg_1 + 0x14))) + (*(int *)(arg_0 + local_1c) * *(int *)(arg_1 + 0x20)));
+	local_28 = 0xc;
+	*(int *)(arg_2 + local_28) = (((*(int *)(arg_0 + local_28) * *(int *)arg_1) + (*(int *)(arg_0 + 0x10) * *(int *)(arg_1 + local_28))) + (*(int *)(arg_0 + 0x14) * *(int *)(arg_1 + 0x18)));
+	local_34 = 0x10;
+	*(int *)(arg_2 + local_34) = (((*(int *)(arg_0 + 0xc) * *(int *)(arg_1 + 0x4)) + (*(int *)(arg_0 + local_34) * *(int *)(arg_1 + local_34))) + (*(int *)(arg_0 + 0x14) * *(int *)(arg_1 + 0x1c)));
+	local_40 = 0x14;
+	*(int *)(arg_2 + local_40) = (((*(int *)(arg_0 + 0xc) * *(int *)(arg_1 + 0x8)) + (*(int *)(arg_0 + 0x10) * *(int *)(arg_1 + local_40))) + (*(int *)(arg_0 + local_40) * *(int *)(arg_1 + 0x20)));
+	local_4c = 0x18;
+	*(int *)(arg_2 + local_4c) = (((*(int *)(arg_0 + local_4c) * *(int *)arg_1) + (*(int *)(arg_0 + 0x1c) * *(int *)(arg_1 + 0xc))) + (*(int *)(arg_0 + 0x20) * *(int *)(arg_1 + local_4c)));
+	local_58 = 0x1c;
+	*(int *)(arg_2 + local_58) = (((*(int *)(arg_0 + 0x18) * *(int *)(arg_1 + 0x4)) + (*(int *)(arg_0 + local_58) * *(int *)(arg_1 + 0x10))) + (*(int *)(arg_0 + 0x20) * *(int *)(arg_1 + local_58)));
+	local_64 = 0x20;
+	*(int *)(arg_2 + local_64) = (((*(int *)(arg_0 + 0x18) * *(int *)(arg_1 + 0x8)) + (*(int *)(arg_0 + 0x1c) * *(int *)(arg_1 + 0x14))) + (*(int *)(arg_0 + local_64) * *(int *)(arg_1 + local_64)));
 }
 
 /*
@@ -31569,6 +33336,9 @@ AngleVectors
 
 Address: 0x185d9
 Stack Size: 0x30
+Opcodes Size: 0xfc
+Locals Count: 13
+
 Calls: cos, sin
 Called by: AnglesToAxis, CG_CalcMuzzlePoint, CG_LightningBolt, CG_GrappleTrail, CG_OffsetThirdPersonView, CG_DamageFeedback, CG_ParticleDust, CG_ParticleBloodCloud, ValidBloodPool, CG_AddParticles, CG_AddParticleToScene, CG_CreateRotationMatrix, PmoveSingle
 =================
@@ -31625,6 +33395,9 @@ PerpendicularVector
 
 Address: 0x186d5
 Stack Size: 0x3c
+Opcodes Size: 0x70
+Locals Count: 12
+
 Calls: VectorNormalize, ProjectPointOnPlane, fabs
 Called by: RotateAroundDirection, RotatePointAroundVector, CG_ShotgunPattern, CG_RailTrail, CG_ImpactMark, CG_Portal
 =================
@@ -31637,7 +33410,8 @@ void PerpendicularVector(int arg_0, int arg_1) {
 	int		local_24;
 	int		local_28;
 	int		local_2c;
-	char	local_30[8];
+	int		local_30;
+	int		local_34;
 	int		local_38;
 
 	arg_1 = arg_1;
@@ -31647,8 +33421,8 @@ void PerpendicularVector(int arg_0, int arg_1) {
 	local_14 = local_2c;
 	goto jmp_18717;
 jmp_186ea:
-	*(int *)local_30 = fabs(*(int *)((local_14 << 0x2) + arg_1));
-	if (*(int *)local_30 >= local_18) goto jmp_18711;
+	local_30 = fabs(*(int *)((local_14 << 0x2) + arg_1));
+	if (local_30 >= local_18) goto jmp_18711;
 	local_1c = local_14;
 	local_38 = fabs(*(int *)((local_14 << 0x2) + arg_1));
 	local_18 = local_38;
@@ -31656,10 +33430,10 @@ jmp_18711:
 	local_14 = (local_14 + 0x1);
 jmp_18717:
 	if (local_14 < 0x3) goto jmp_186ea;
-	*(int *)local_30 = 0x0;
-	local_28 = *(int *)local_30;
-	local_24 = *(int *)local_30;
-	local_20 = *(int *)local_30;
+	local_30 = 0x0;
+	local_28 = local_30;
+	local_24 = local_30;
+	local_20 = local_30;
 	*(int *)((local_1c << 0x2) + &local_20) = 0x3f800000;
 	ProjectPointOnPlane(arg_0, &local_20, arg_1);
 	VectorNormalize(arg_0);
@@ -31671,6 +33445,9 @@ Q_isnan
 
 Address: 0x18745
 Stack Size: 0xc
+Opcodes Size: 0x18
+Locals Count: 2
+
 =================
 */
 int Q_isnan(int arg_0) {
@@ -31688,6 +33465,9 @@ Q_IsColorString
 
 Address: 0x1875d
 Stack Size: 0x18
+Opcodes Size: 0x73
+Locals Count: 5
+
 Called by: Q_CleanStr, Q_PrintStrlen, CG_AddToTeamChat, CG_DrawStrlen, CG_DrawStringExt
 =================
 */
@@ -31739,6 +33519,9 @@ Com_Clamp
 
 Address: 0x187d0
 Stack Size: 0x8
+Opcodes Size: 0x1e
+Locals Count: 3
+
 =================
 */
 int Com_Clamp(int arg_0, int arg_1, int arg_2) {
@@ -31759,6 +33542,9 @@ COM_SkipPath
 
 Address: 0x187ee
 Stack Size: 0xc
+Opcodes Size: 0x28
+Locals Count: 2
+
 =================
 */
 int COM_SkipPath(int arg_0) {
@@ -31783,6 +33569,9 @@ COM_GetExtension
 
 Address: 0x18816
 Stack Size: 0x20
+Opcodes Size: 0x33
+Locals Count: 5
+
 Calls: strrchr
 =================
 */
@@ -31811,6 +33600,9 @@ COM_StripExtension
 
 Address: 0x18849
 Stack Size: 0x28
+Opcodes Size: 0x6f
+Locals Count: 8
+
 Calls: Q_strncpyz, strrchr
 Called by: CG_RegisterWeapon
 =================
@@ -31855,6 +33647,9 @@ COM_CompareExtension
 
 Address: 0x188b8
 Stack Size: 0x24
+Opcodes Size: 0x3c
+Locals Count: 7
+
 Calls: Q_stricmp, strlen
 =================
 */
@@ -31884,6 +33679,9 @@ COM_DefaultExtension
 
 Address: 0x188f4
 Stack Size: 0x24
+Opcodes Size: 0x38
+Locals Count: 7
+
 Calls: Q_strcat, strrchr
 =================
 */
@@ -31913,6 +33711,9 @@ CopyShortSwap
 
 Address: 0x1892c
 Stack Size: 0x10
+Opcodes Size: 0x1b
+Locals Count: 4
+
 =================
 */
 void CopyShortSwap(int arg_0, int arg_1) {
@@ -31931,6 +33732,9 @@ CopyLongSwap
 
 Address: 0x18947
 Stack Size: 0x10
+Opcodes Size: 0x2f
+Locals Count: 4
+
 =================
 */
 void CopyLongSwap(int arg_0, int arg_1) {
@@ -31951,6 +33755,9 @@ ShortSwap
 
 Address: 0x18976
 Stack Size: 0x18
+Opcodes Size: 0x2d
+Locals Count: 6
+
 =================
 */
 int ShortSwap(int arg_0) {
@@ -31975,6 +33782,9 @@ ShortNoSwap
 
 Address: 0x189a3
 Stack Size: 0x8
+Opcodes Size: 0xb
+Locals Count: 1
+
 =================
 */
 int ShortNoSwap(int arg_0) {
@@ -31989,6 +33799,9 @@ LongSwap
 
 Address: 0x189ae
 Stack Size: 0x20
+Opcodes Size: 0x4d
+Locals Count: 9
+
 Called by: FloatSwap
 =================
 */
@@ -32020,6 +33833,9 @@ LongNoSwap
 
 Address: 0x189fb
 Stack Size: 0x8
+Opcodes Size: 0x6
+Locals Count: 1
+
 =================
 */
 int LongNoSwap(int arg_0) {
@@ -32033,6 +33849,9 @@ Long64Swap
 
 Address: 0x18a01
 Stack Size: 0x14
+Opcodes Size: 0x41
+Locals Count: 11
+
 =================
 */
 void Long64Swap(int arg_0, int arg_1) {
@@ -32064,6 +33883,9 @@ Long64NoSwap
 
 Address: 0x18a42
 Stack Size: 0x8
+Opcodes Size: 0x8
+Locals Count: 2
+
 =================
 */
 void Long64NoSwap(int arg_0, int arg_1) {
@@ -32077,6 +33899,9 @@ FloatSwap
 
 Address: 0x18a4a
 Stack Size: 0x14
+Opcodes Size: 0x16
+Locals Count: 3
+
 Calls: LongSwap
 =================
 */
@@ -32096,6 +33921,9 @@ FloatNoSwap
 
 Address: 0x18a60
 Stack Size: 0x8
+Opcodes Size: 0x7
+Locals Count: 1
+
 =================
 */
 int FloatNoSwap(int arg_0) {
@@ -32109,6 +33937,9 @@ COM_BeginParseSession
 
 Address: 0x18a67
 Stack Size: 0x18
+Opcodes Size: 0x15
+Locals Count: 1
+
 Calls: Com_sprintf
 =================
 */
@@ -32125,6 +33956,9 @@ COM_GetCurrentParseLine
 
 Address: 0x18a7c
 Stack Size: 0x8
+Opcodes Size: 0xf
+Locals Count: 0
+
 Called by: COM_ParseWarning, COM_ParseError
 =================
 */
@@ -32142,6 +33976,9 @@ COM_Parse
 
 Address: 0x18a8b
 Stack Size: 0x14
+Opcodes Size: 0xf
+Locals Count: 2
+
 Calls: COM_ParseExt
 Called by: Parse1DMatrix, COM_MatchToken, CG_ParseAnimationFile, CG_NewParticleArea, CG_StartMusic
 =================
@@ -32159,16 +33996,19 @@ COM_ParseError
 
 Address: 0x18a9a
 Stack Size: 0x20
+Opcodes Size: 0x26
+Locals Count: 4
+
 Calls: Com_Printf, COM_GetCurrentParseLine, Q_vsnprintf
 =================
 */
-void COM_ParseError(int arg_0, int arg_1) {
-	int		local_18;
+void COM_ParseError(int arg_0, ...) {
+	va_list	local_18;
 	int		local_1c;
 
-	local_18 = &arg_1;
+	va_start(local_18, arg_0);
 	Q_vsnprintf(0x15d3e0, 0x1000, arg_0, local_18);
-	local_18 = 0x0;
+	va_end(local_18);
 	local_1c = COM_GetCurrentParseLine();
 	Com_Printf(0x7350, 0x172de8, local_1c, 0x15d3e0);
 }
@@ -32179,16 +34019,19 @@ COM_ParseWarning
 
 Address: 0x18ac0
 Stack Size: 0x20
+Opcodes Size: 0x26
+Locals Count: 4
+
 Calls: Com_Printf, COM_GetCurrentParseLine, Q_vsnprintf
 =================
 */
-void COM_ParseWarning(int arg_0, int arg_1) {
-	int		local_18;
+void COM_ParseWarning(int arg_0, ...) {
+	va_list	local_18;
 	int		local_1c;
 
-	local_18 = &arg_1;
+	va_start(local_18, arg_0);
 	Q_vsnprintf(0x15e3e0, 0x1000, arg_0, local_18);
-	local_18 = 0x0;
+	va_end(local_18);
 	local_1c = COM_GetCurrentParseLine();
 	Com_Printf(0x7336, 0x172de8, local_1c, 0x15e3e0);
 }
@@ -32199,6 +34042,9 @@ SkipWhitespace
 
 Address: 0x18ae6
 Stack Size: 0x14
+Opcodes Size: 0x44
+Locals Count: 5
+
 Called by: COM_ParseExt
 =================
 */
@@ -32234,6 +34080,9 @@ COM_Compress
 
 Address: 0x18b2a
 Stack Size: 0x38
+Opcodes Size: 0x167
+Locals Count: 13
+
 =================
 */
 int COM_Compress(int arg_0) {
@@ -32359,6 +34208,9 @@ COM_ParseExt
 
 Address: 0x18c91
 Stack Size: 0x38
+Opcodes Size: 0x16a
+Locals Count: 12
+
 Calls: SkipWhitespace
 Called by: SkipBracedSection, COM_Parse
 =================
@@ -32479,6 +34331,9 @@ COM_MatchToken
 
 Address: 0x18dfb
 Stack Size: 0x24
+Opcodes Size: 0x29
+Locals Count: 5
+
 Calls: Com_Error, strcmp, COM_Parse
 Called by: Parse3DMatrix, Parse2DMatrix, Parse1DMatrix
 =================
@@ -32502,6 +34357,9 @@ SkipBracedSection
 
 Address: 0x18e24
 Stack Size: 0x18
+Opcodes Size: 0x52
+Locals Count: 4
+
 Calls: COM_ParseExt
 =================
 */
@@ -32540,6 +34398,9 @@ SkipRestOfLine
 
 Address: 0x18e76
 Stack Size: 0x18
+Opcodes Size: 0x3e
+Locals Count: 5
+
 =================
 */
 void SkipRestOfLine(int arg_0) {
@@ -32573,6 +34434,9 @@ Parse1DMatrix
 
 Address: 0x18eb4
 Stack Size: 0x20
+Opcodes Size: 0x4b
+Locals Count: 7
+
 Calls: atof, COM_Parse, COM_MatchToken
 Called by: Parse2DMatrix
 =================
@@ -32606,25 +34470,29 @@ Parse2DMatrix
 
 Address: 0x18eff
 Stack Size: 0x1c
+Opcodes Size: 0x47
+Locals Count: 6
+
 Calls: Parse1DMatrix, COM_MatchToken
 Called by: Parse3DMatrix
 =================
 */
 void Parse2DMatrix(int arg_0, int arg_1, int arg_2, int arg_3) {
-	char	local_14[8];
+	int		local_14;
+	int		local_18;
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
 	arg_2 = arg_2;
 	arg_3 = arg_3;
 	COM_MatchToken(arg_0, 0x731f);
-	*(int *)local_14 = 0x0;
+	local_14 = 0x0;
 	goto jmp_18f37;
 jmp_18f1d:
-	Parse1DMatrix(arg_0, arg_2, (((*(int *)local_14 * arg_2) << 0x2) + arg_3));
-	*(int *)local_14 = (*(int *)local_14 + 0x1);
+	Parse1DMatrix(arg_0, arg_2, (((local_14 * arg_2) << 0x2) + arg_3));
+	local_14 = (local_14 + 0x1);
 jmp_18f37:
-	if (*(int *)local_14 < arg_1) goto jmp_18f1d;
+	if (local_14 < arg_1) goto jmp_18f1d;
 	COM_MatchToken(arg_0, 0x731d);
 }
 
@@ -32634,11 +34502,15 @@ Parse3DMatrix
 
 Address: 0x18f46
 Stack Size: 0x24
+Opcodes Size: 0x51
+Locals Count: 7
+
 Calls: Parse2DMatrix, COM_MatchToken
 =================
 */
 void Parse3DMatrix(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4) {
-	char	local_18[12];
+	int		local_18;
+	char	local_1c[8];
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
@@ -32646,13 +34518,13 @@ void Parse3DMatrix(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4) {
 	arg_3 = arg_3;
 	arg_4 = arg_4;
 	COM_MatchToken(arg_0, 0x731f);
-	*(int *)local_18 = 0x0;
+	local_18 = 0x0;
 	goto jmp_18f88;
 jmp_18f68:
-	Parse2DMatrix(arg_0, arg_2, arg_3, ((((*(int *)local_18 * arg_3) * arg_2) << 0x2) + arg_4));
-	*(int *)local_18 = (*(int *)local_18 + 0x1);
+	Parse2DMatrix(arg_0, arg_2, arg_3, ((((local_18 * arg_3) * arg_2) << 0x2) + arg_4));
+	local_18 = (local_18 + 0x1);
 jmp_18f88:
-	if (*(int *)local_18 < arg_1) goto jmp_18f68;
+	if (local_18 < arg_1) goto jmp_18f68;
 	COM_MatchToken(arg_0, 0x731d);
 }
 
@@ -32662,6 +34534,9 @@ Com_HexStrToInt
 
 Address: 0x18f97
 Stack Size: 0x30
+Opcodes Size: 0x9a
+Locals Count: 9
+
 Calls: tolower, strlen
 =================
 */
@@ -32720,6 +34595,9 @@ Q_isprint
 
 Address: 0x19031
 Stack Size: 0xc
+Opcodes Size: 0x15
+Locals Count: 2
+
 =================
 */
 int Q_isprint(int arg_0) {
@@ -32739,6 +34617,9 @@ Q_islower
 
 Address: 0x19046
 Stack Size: 0xc
+Opcodes Size: 0x15
+Locals Count: 2
+
 =================
 */
 int Q_islower(int arg_0) {
@@ -32758,6 +34639,9 @@ Q_isupper
 
 Address: 0x1905b
 Stack Size: 0xc
+Opcodes Size: 0x15
+Locals Count: 2
+
 =================
 */
 int Q_isupper(int arg_0) {
@@ -32777,6 +34661,9 @@ Q_isalpha
 
 Address: 0x19070
 Stack Size: 0x10
+Opcodes Size: 0x1d
+Locals Count: 1
+
 =================
 */
 int Q_isalpha(int arg_0) {
@@ -32799,6 +34686,9 @@ Q_isanumber
 
 Address: 0x1908d
 Stack Size: 0x20
+Opcodes Size: 0x2b
+Locals Count: 5
+
 Calls: strtod
 =================
 */
@@ -32828,6 +34718,9 @@ Q_isintegral
 
 Address: 0x190b8
 Stack Size: 0x10
+Opcodes Size: 0x19
+Locals Count: 3
+
 =================
 */
 int Q_isintegral(int arg_0) {
@@ -32850,6 +34743,9 @@ Q_strncpyz
 
 Address: 0x190d1
 Stack Size: 0x14
+Opcodes Size: 0x43
+Locals Count: 3
+
 Calls: strncpy, Com_Error
 Called by: Com_TruncateLongString, Q_strcat, COM_StripExtension, CG_TestModel_f, CG_ServerCommand, CG_ConfigStringModified, CG_ParseServerinfo, CG_NewClientInfo, CG_LoadClientInfo, CG_DrawInformation, CG_LoadingClient, CG_LoadingString, CG_Obituary, CG_CenterPrint, CG_StartMusic, CG_RegisterGraphics, CG_RegisterSounds
 =================
@@ -32877,6 +34773,9 @@ Q_stricmpn
 
 Address: 0x19114
 Stack Size: 0x2c
+Opcodes Size: 0x9d
+Locals Count: 11
+
 Called by: Q_stristr, Q_stricmp, strtod
 =================
 */
@@ -32886,7 +34785,8 @@ int Q_stricmpn(int arg_0, int arg_1, int arg_2) {
 	int		local_10;
 	int		local_14;
 	int		local_18;
-	char	local_1c[12];
+	int		local_1c;
+	char	local_20[8];
 	int		local_28;
 
 	arg_0 = arg_0;
@@ -32902,14 +34802,14 @@ jmp_19131:
 	return 0x1;
 jmp_19139:
 	local_10 = arg_0;
-	*(int *)local_1c = 0x1;
-	arg_0 = (local_10 + *(int *)local_1c);
+	local_1c = 0x1;
+	arg_0 = (local_10 + local_1c);
 	local_8 = (char)*(char *)local_10;
 	local_14 = arg_1;
-	arg_1 = (local_14 + *(int *)local_1c);
+	arg_1 = (local_14 + local_1c);
 	local_c = (char)*(char *)local_14;
 	local_18 = arg_2;
-	arg_2 = (local_18 - *(int *)local_1c);
+	arg_2 = (local_18 - local_1c);
 	if (local_18 != 0x0) goto jmp_19171;
 	return 0x0;
 jmp_19171:
@@ -32941,6 +34841,9 @@ Q_strncmp
 
 Address: 0x191b1
 Stack Size: 0x24
+Opcodes Size: 0x64
+Locals Count: 10
+
 =================
 */
 int Q_strncmp(int arg_0, int arg_1, int arg_2) {
@@ -32987,6 +34890,9 @@ Q_stricmp
 
 Address: 0x19215
 Stack Size: 0x20
+Opcodes Size: 0x28
+Locals Count: 5
+
 Calls: Q_stricmpn
 Called by: Info_ValueForKey, COM_CompareExtension, CG_ServerCommand, CG_SetDeferredClientInfo, CG_ScanForExistingClientInfo, CG_ParseAnimationFile, CG_ParticleExplosion, CG_ConsoleCommand, BG_FindItem
 =================
@@ -33014,21 +34920,25 @@ Q_strlwr
 
 Address: 0x1923d
 Stack Size: 0x18
+Opcodes Size: 0x26
+Locals Count: 4
+
 Calls: tolower
 =================
 */
 int Q_strlwr(int arg_0) {
-	char	local_c[8];
+	int		local_c;
+	int		local_10;
 	int		local_14;
 
-	*(int *)local_c = arg_0;
+	local_c = arg_0;
 	goto jmp_19258;
 jmp_19244:
-	local_14 = tolower((char)*(char *)*(int *)local_c);
-	*(char *)*(int *)local_c = local_14;
-	*(int *)local_c = (*(int *)local_c + 0x1);
+	local_14 = tolower((char)*(char *)local_c);
+	*(char *)local_c = local_14;
+	local_c = (local_c + 0x1);
 jmp_19258:
-	if ((char)*(char *)*(int *)local_c != 0x0) goto jmp_19244;
+	if ((char)*(char *)local_c != 0x0) goto jmp_19244;
 	return arg_0;
 }
 
@@ -33038,21 +34948,25 @@ Q_strupr
 
 Address: 0x19263
 Stack Size: 0x18
+Opcodes Size: 0x26
+Locals Count: 4
+
 Calls: toupper
 =================
 */
 int Q_strupr(int arg_0) {
-	char	local_c[8];
+	int		local_c;
+	int		local_10;
 	int		local_14;
 
-	*(int *)local_c = arg_0;
+	local_c = arg_0;
 	goto jmp_1927e;
 jmp_1926a:
-	local_14 = toupper((char)*(char *)*(int *)local_c);
-	*(char *)*(int *)local_c = local_14;
-	*(int *)local_c = (*(int *)local_c + 0x1);
+	local_14 = toupper((char)*(char *)local_c);
+	*(char *)local_c = local_14;
+	local_c = (local_c + 0x1);
 jmp_1927e:
-	if ((char)*(char *)*(int *)local_c != 0x0) goto jmp_1926a;
+	if ((char)*(char *)local_c != 0x0) goto jmp_1926a;
 	return arg_0;
 }
 
@@ -33062,16 +34976,20 @@ Q_strcat
 
 Address: 0x19289
 Stack Size: 0x20
+Opcodes Size: 0x2c
+Locals Count: 6
+
 Calls: Q_strncpyz, Com_Error, strlen
 Called by: Com_TruncateLongString, COM_DefaultExtension, CG_RegisterWeapon, CG_BuildSpectatorString
 =================
 */
 void Q_strcat(int arg_0, int arg_1, int arg_2) {
 	int		local_14;
-	char	local_18[8];
+	int		local_18;
+	int		local_1c;
 
-	*(int *)local_18 = strlen(arg_0);
-	local_14 = *(int *)local_18;
+	local_18 = strlen(arg_0);
+	local_14 = local_18;
 	if (local_14 < arg_1) goto jmp_192a1;
 	Com_Error(0x0, 0x72bc);
 jmp_192a1:
@@ -33084,6 +35002,9 @@ Q_stristr
 
 Address: 0x192b5
 Stack Size: 0x38
+Opcodes Size: 0x93
+Locals Count: 12
+
 Calls: Q_stricmpn, strlen
 =================
 */
@@ -33140,6 +35061,9 @@ Q_PrintStrlen
 
 Address: 0x19348
 Stack Size: 0x1c
+Opcodes Size: 0x41
+Locals Count: 5
+
 Calls: Q_IsColorString
 Called by: CG_DrawAttacker
 =================
@@ -33176,6 +35100,9 @@ Q_CleanStr
 
 Address: 0x19389
 Stack Size: 0x28
+Opcodes Size: 0x56
+Locals Count: 8
+
 Calls: Q_IsColorString
 Called by: CG_DrawInformation, CG_LoadingClient
 =================
@@ -33183,32 +35110,34 @@ Called by: CG_DrawInformation, CG_LoadingClient
 int Q_CleanStr(int arg_0) {
 	int		local_c;
 	int		local_10;
-	char	local_14[8];
-	char	local_1c[8];
+	int		local_14;
+	int		local_18;
+	int		local_1c;
+	int		local_20;
 	int		local_24;
 
 	arg_0 = arg_0;
 	local_c = arg_0;
-	*(int *)local_14 = arg_0;
+	local_14 = arg_0;
 	goto jmp_193c8;
 jmp_19398:
-	*(int *)local_1c = Q_IsColorString(local_c);
-	if (*(int *)local_1c == 0x0) goto jmp_193ab;
+	local_1c = Q_IsColorString(local_c);
+	if (local_1c == 0x0) goto jmp_193ab;
 	local_c = (local_c + 0x1);
 	goto jmp_193c2;
 jmp_193ab:
 	if (local_10 < 0x20) goto jmp_193c2;
 	if (local_10 > 0x7e) goto jmp_193c2;
-	local_24 = *(int *)local_14;
-	*(int *)local_14 = (local_24 + 0x1);
+	local_24 = local_14;
+	local_14 = (local_24 + 0x1);
 	*(char *)local_24 = local_10;
 jmp_193c2:
 	local_c = (local_c + 0x1);
 jmp_193c8:
-	*(int *)local_1c = (char)*(char *)local_c;
-	local_10 = *(int *)local_1c;
-	if (*(int *)local_1c != 0x0) goto jmp_19398;
-	*(char *)*(int *)local_14 = 0x0;
+	local_1c = (char)*(char *)local_c;
+	local_10 = local_1c;
+	if (local_1c != 0x0) goto jmp_19398;
+	*(char *)local_14 = 0x0;
 	return arg_0;
 }
 
@@ -33218,6 +35147,9 @@ Q_CountChar
 
 Address: 0x193df
 Stack Size: 0xc
+Opcodes Size: 0x2d
+Locals Count: 3
+
 =================
 */
 int Q_CountChar(int arg_0, int arg_1) {
@@ -33243,19 +35175,22 @@ Com_sprintf
 
 Address: 0x1940c
 Stack Size: 0x24
+Opcodes Size: 0x32
+Locals Count: 7
+
 Calls: Com_Printf, Q_vsnprintf
 Called by: Info_SetValueForKey_Big, Info_SetValueForKey, COM_BeginParseSession, CG_ParseServerinfo, CG_DrawClientScore, CG_RegisterClientModelname, CG_FindClientHeadFile, CG_FindClientModelFile, CG_LoadingClient, CG_PlaceString, CG_DrawReward, CG_DrawTeamOverlay, CG_DrawField, CG_TellAttacker_f, CG_TellTarget_f, CG_RegisterGraphics, CG_RegisterSounds
 =================
 */
-int Com_sprintf(int arg_0, int arg_1, int arg_2, int arg_3) {
+int Com_sprintf(int arg_0, int arg_1, int arg_2, ...) {
 	int		local_18;
-	int		local_1c;
+	va_list	local_1c;
 	int		local_20;
 
-	local_1c = &arg_3;
+	va_start(local_1c, arg_2);
 	local_20 = Q_vsnprintf(arg_0, arg_1, arg_2, local_1c);
 	local_18 = local_20;
-	local_1c = 0x0;
+	va_end(local_1c);
 	if (local_18 < arg_1) goto jmp_19439;
 	Com_Printf(0x7280, arg_1, (local_18 + 0x1));
 jmp_19439:
@@ -33268,12 +35203,15 @@ va
 
 Address: 0x1943e
 Stack Size: 0x2c
+Opcodes Size: 0x38
+Locals Count: 7
+
 Calls: Q_vsnprintf
 Called by: CG_DrawActiveFrame, CG_ParseServerinfo, CG_DrawTourneyScoreboard, CG_DrawOldScoreboard, CG_LoadClientInfo, CG_ClearParticles, CG_DrawInformation, CG_LoadingClient, CG_EntityEvent, CG_UseItem, CG_Obituary, CG_PlaceString, CG_DrawWarmup, CG_DrawTeamVote, CG_DrawVote, CG_DrawScores, CG_DrawTimer, CG_DrawFPS, CG_DrawSnapshot, CG_SizeDown_f, CG_SizeUp_f, CG_TargetCommand_f, CG_BuildSpectatorString, CG_RegisterGraphics
 =================
 */
-int va(int arg_0, int arg_1) {
-	int		local_18;
+int va(int arg_0, ...) {
+	va_list	local_18;
 	int		local_1c;
 	int		local_20;
 	int		local_24;
@@ -33284,9 +35222,9 @@ int va(int arg_0, int arg_1) {
 	local_28 = 0x1;
 	local_1c = ((0x7d00 * (local_24 & local_28)) + 0x15f3e0);
 	*(int *)local_20 = (local_24 + local_28);
-	local_18 = &arg_1;
+	va_start(local_18, arg_0);
 	Q_vsnprintf(local_1c, 0x7d00, arg_0, local_18);
-	local_18 = 0x0;
+	va_end(local_18);
 	return local_1c;
 }
 
@@ -33296,6 +35234,9 @@ Com_TruncateLongString
 
 Address: 0x19476
 Stack Size: 0x1c
+Opcodes Size: 0x44
+Locals Count: 4
+
 Calls: Q_strcat, Q_strncpyz, strlen
 =================
 */
@@ -33321,6 +35262,9 @@ Info_ValueForKey
 
 Address: 0x194ba
 Stack Size: 0x202c
+Opcodes Size: 0xe8
+Locals Count: 10
+
 Calls: Q_stricmp, Com_Error, strlen
 Called by: CG_ParseServerinfo, CG_NewClientInfo, CG_DrawInformation, CG_LoadingClient, CG_Obituary, CG_DrawAttacker
 =================
@@ -33404,6 +35348,9 @@ Info_NextPair
 
 Address: 0x195a2
 Stack Size: 0x1c
+Opcodes Size: 0xa2
+Locals Count: 8
+
 =================
 */
 void Info_NextPair(int arg_0, int arg_1, int arg_2) {
@@ -33463,6 +35410,9 @@ Info_RemoveKey
 
 Address: 0x19644
 Stack Size: 0x834
+Opcodes Size: 0xe4
+Locals Count: 12
+
 Calls: memmove, strcmp, strchr, Com_Error, strlen
 Called by: Info_SetValueForKey
 =================
@@ -33473,7 +35423,8 @@ void Info_RemoveKey(int arg_0, int arg_1) {
 	int		local_418;
 	char	local_41c[1024];
 	int		local_81c;
-	char	local_820[8];
+	int		local_820;
+	int		local_824;
 	int		local_828;
 	int		local_82c;
 	int		local_830;
@@ -33484,8 +35435,8 @@ void Info_RemoveKey(int arg_0, int arg_1) {
 	if (local_81c < 0x400) goto jmp_1965f;
 	Com_Error(0x1, 0x7230);
 jmp_1965f:
-	*(int *)local_820 = strchr(arg_1, 0x5c);
-	if (*(int *)local_820 == 0x0) goto jmp_19724;
+	local_820 = strchr(arg_1, 0x5c);
+	if (local_820 == 0x0) goto jmp_19724;
 	goto jmp_19726;
 jmp_1966e:
 	local_418 = arg_0;
@@ -33545,6 +35496,9 @@ Info_RemoveKey_Big
 
 Address: 0x19728
 Stack Size: 0x4034
+Opcodes Size: 0xe4
+Locals Count: 12
+
 Calls: memmove, strcmp, strchr, Com_Error, strlen
 Called by: Info_SetValueForKey_Big
 =================
@@ -33555,7 +35509,8 @@ void Info_RemoveKey_Big(int arg_0, int arg_1) {
 	int		local_2018;
 	char	local_201c[8192];
 	int		local_401c;
-	char	local_4020[8];
+	int		local_4020;
+	int		local_4024;
 	int		local_4028;
 	int		local_402c;
 	int		local_4030;
@@ -33566,8 +35521,8 @@ void Info_RemoveKey_Big(int arg_0, int arg_1) {
 	if (local_401c < 0x2000) goto jmp_19743;
 	Com_Error(0x1, 0x7208);
 jmp_19743:
-	*(int *)local_4020 = strchr(arg_1, 0x5c);
-	if (*(int *)local_4020 == 0x0) goto jmp_19808;
+	local_4020 = strchr(arg_1, 0x5c);
+	if (local_4020 == 0x0) goto jmp_19808;
 	goto jmp_1980a;
 jmp_19752:
 	local_2018 = arg_0;
@@ -33627,6 +35582,9 @@ Info_Validate
 
 Address: 0x1980c
 Stack Size: 0x18
+Opcodes Size: 0x27
+Locals Count: 3
+
 Calls: strchr
 =================
 */
@@ -33651,6 +35609,9 @@ Info_SetValueForKey
 
 Address: 0x19833
 Stack Size: 0x434
+Opcodes Size: 0xb8
+Locals Count: 10
+
 Calls: strcpy, strcat, Com_sprintf, Info_RemoveKey, Com_Printf, strchr, Com_Error, strlen
 =================
 */
@@ -33708,6 +35669,9 @@ Info_SetValueForKey_Big
 
 Address: 0x198eb
 Stack Size: 0x202c
+Opcodes Size: 0xa5
+Locals Count: 8
+
 Calls: strcat, Com_sprintf, Info_RemoveKey_Big, Com_Printf, strchr, Com_Error, strlen
 =================
 */
@@ -33759,6 +35723,9 @@ Com_CharIsOneOfCharset
 
 Address: 0x19990
 Stack Size: 0x14
+Opcodes Size: 0x33
+Locals Count: 4
+
 Calls: strlen
 Called by: Com_SkipTokens, Com_SkipCharset
 =================
@@ -33788,6 +35755,9 @@ Com_SkipCharset
 
 Address: 0x199c3
 Stack Size: 0x18
+Opcodes Size: 0x2a
+Locals Count: 4
+
 Calls: Com_CharIsOneOfCharset
 =================
 */
@@ -33814,6 +35784,9 @@ Com_SkipTokens
 
 Address: 0x199ed
 Stack Size: 0x24
+Opcodes Size: 0x68
+Locals Count: 8
+
 Calls: Com_CharIsOneOfCharset
 =================
 */

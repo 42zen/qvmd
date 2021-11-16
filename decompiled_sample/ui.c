@@ -5,7 +5,7 @@
 	Opcodes Count: 87240
 	Functions Count: 605
 	Syscalls Count: 59
-	Globals Count: 6186
+	Globals Count: 6185
 	Calls Restored: 97.96
 */
 
@@ -33,8 +33,7 @@ char	g_weapons_controls[56] = "\x4c\x20\x01\x00\xc4\x20\x01\x00\x88\x20\x01\x00\
 char	g_looking_controls[48] = "\xe8\x22\x01\x00\x34\x23\x01\x00\xa8\x22\x01\x00\x00\x21\x01\x00\x3c\x21\x01\x00\x78\x21\x01\x00\xb4\x21\x01\x00\xf4\x21\x01\x00\x30\x22\x01\x00\x08\x2a\x01\x00\x48\x2a\x01\x00\x00\x00\x00\x00";
 char	g_misc_controls[36] = "\xb4\x23\x01\x00\x30\x24\x01\x00\x6c\x22\x01\x00\xdc\x28\x01\x00\x18\x29\x01\x00\x54\x29\x01\x00\x90\x29\x01\x00\xcc\x29\x01\x00\x00\x00\x00\x00";
 char	g_controls[392] = "\x04\x1a\x00\x00\x6c\x1a\x00\x00\x34\x1a\x00\x00\x9c\x1a\x00\x00\x52\x48\x00\x00\x57\x48\x00\x00\x5c\x48\x00\x00\x61\x48\x00\x00\x66\x48\x00\x00\x85\x48\x00\x00\x90\x48\x00\x00\x6b\x48\x00\x00\x78\x48\x00\x00\x9b\x48\x00\x00\xa0\x48\x00\x00\xa5\x48\x00\x00\xaa\x48\x00\x00\xaf\x48\x00\x00\xb4\x48\x00\x00\xb9\x48\x00\x00\xbe\x48\x00\x00\xc3\x48\x00\x00\xc8\x48\x00\x00\xcd\x48\x00\x00\xd2\x48\x00\x00\xd7\x48\x00\x00\xdc\x48\x00\x00\xe1\x48\x00\x00\xec\x48\x00\x00\xa8\x4a\x00\x00\xc0\x4a\x00\x00\xd8\x4a\x00\x00\xf0\x4a\x00\x00\x01\x52\x00\x00\x01\x52\x00\x00\x01\x52\x00\x00\x01\x52\x00\x00\x01\x52\x00\x00\x01\x52\x00\x00\x01\x52\x00\x00\x01\x52\x00\x00\x9d\x51\x00\x00\xa9\x51\x00\x00\xb5\x51\x00\x00\xc1\x51\x00\x00\xcd\x51\x00\x00\xdc\x51\x00\x00\xec\x51\x00\x00\xf8\x51\x00\x00\x3c\x57\x00\x00\x2f\x57\x00\x00\x21\x57\x00\x00\x12\x57\x00\x00\x07\x57\x00\x00\xf8\x56\x00\x00\xea\x56\x00\x00\xd9\x56\x00\x00\xcc\x56\x00\x00\xbf\x56\x00\x00\xad\x56\x00\x00\x9f\x56\x00\x00\x85\x56\x00\x00\x00\x00\x00\x00\x8c\x5a\x00\x00\x70\x5a\x00\x00\xa1\x5a\x00\x00\x9a\x5a\x00\x00\x91\x5a\x00\x00\x18\x5d\x00\x00\x4b\x5d\x00\x00\x20\x5d\x00\x00\x28\x5d\x00\x00\x30\x5d\x00\x00\x3c\x5d\x00\x00\x48\x5d\x00\x00\xc5\x69\x00\x00\xf3\x69\x00\x00\xf8\x69\x00\x00\xca\x69\x00\x00\xee\x69\x00\x00\xcf\x69\x00\x00\xd8\x69\x00\x00\xe3\x69\x00\x00\x02\x6a\x00\x00\xfd\x69\x00\x00\xd6\x6c\x00\x00\xba\x6c\x00\x00\xeb\x6c\x00\x00\xdb\x6c\x00\x00\xe4\x6c\x00\x00\x0e\x6f\x00\x00\x13\x6f\x00\x00\x18\x6f\x00\x00\x1d\x6f\x00\x00\x22\x6f\x00\x00\x2c\x6f\x00\x00\x27\x6f\x00\x00\x3c\x6f\x00\x00";
-char	global_1c48[16] = "\x00\x00\x00\x3f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80\x3f"; // Used by: Main_MenuDraw
-char	global_1c58[16] = "\xab\x78\x00\x00\xab\x78\x00\x00\xab\x78\x00\x00\xab\x78\x00\x00";
+char	global_1c48[32] = "\x00\x00\x00\x3f\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x80\x3f\xab\x78\x00\x00\xab\x78\x00\x00\xab\x78\x00\x00\xab\x78\x00\x00"; // Used by: Main_MenuDraw
 char	rate_items[68] = "\x42\x60\x00\x00\x3c\x60\x00\x00\x38\x60\x00\x00\x33\x60\x00\x00\x24\x60\x00\x00\x00\x00\x00\x00\x6d\x7b\x00\x00\x75\x7b\x00\x00\x7d\x7b\x00\x00\xc9\x7b\x00\x00\x85\x7b\x00\x00\xc6\x7b\x00\x00\x7d\x7d\x00\x00\x82\x7d\x00\x00\x87\x7d\x00\x00\x8c\x7d\x00\x00\x91\x7d\x00\x00";
 char	playermodel_artlist[84] = "\x5b\x62\x00\x00\x4b\x62\x00\x00\x31\x62\x00\x00\x15\x62\x00\x00\x03\x62\x00\x00\xf1\x61\x00\x00\xd4\x61\x00\x00\xbf\x61\x00\x00\xaa\x61\x00\x00\x95\x61\x00\x00\x00\x00\x00\x00\x16\x89\x00\x00\x2a\x89\x00\x00\x3e\x89\x00\x00\x52\x89\x00\x00\x66\x89\x00\x00\x7a\x89\x00\x00\x8e\x89\x00\x00\xa2\x89\x00\x00\xb6\x89\x00\x00\xca\x89\x00\x00";
 char	global_1d00[140] = "\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00"; // Used by: UI_DrawPlayer
@@ -148,12 +147,12 @@ char	lit_3367[5] = "2500";
 char	lit_336c[13] = "cg_brassTime";
 char	lit_3379[20] = "ui_browserShowEmpty";
 char	lit_338d[19] = "ui_browserShowFull";
-short	lit_33a0 = "4";
+char	lit_33a0[2] = "4";
 char	lit_33a2[18] = "ui_browserSortKey";
 char	lit_33b4[19] = "ui_browserGameType";
 char	lit_33c7[17] = "ui_browserMaster";
 char	lit_33d8[15] = "ui_spSelection";
-short	lit_33e7 = "2";
+char	lit_33e7[2] = "2";
 char	lit_33e9[10] = "g_spSkill";
 char	lit_33f3[11] = "g_spVideos";
 char	lit_33fe[11] = "g_spAwards";
@@ -163,25 +162,25 @@ char	lit_3421[12] = "g_spScores3";
 char	lit_342d[12] = "g_spScores2";
 char	lit_3439[12] = "g_spScores1";
 char	lit_3445[11] = "g_botsFile";
-char	lit_3450 = "\x00";
+char	lit_3450[1] = "\x00";
 char	lit_3451[13] = "g_arenasFile";
 char	lit_345e[16] = "ui_ctf_friendly";
 char	lit_346e[3] = "30";
 char	lit_3471[17] = "ui_ctf_timelimit";
-short	lit_3482 = "8";
+char	lit_3482[2] = "8";
 char	lit_3484[20] = "ui_ctf_capturelimit";
-short	lit_3498 = "1";
+char	lit_3498[2] = "1";
 char	lit_349a[17] = "ui_team_friendly";
 char	lit_34ab[18] = "ui_team_timelimit";
 char	lit_34bd[18] = "ui_team_fraglimit";
 char	lit_34cf[3] = "15";
 char	lit_34d2[21] = "ui_tourney_timelimit";
 char	lit_34e7[21] = "ui_tourney_fraglimit";
-short	lit_34fc = "0";
+char	lit_34fc[2] = "0";
 char	lit_34fe[17] = "ui_ffa_timelimit";
 char	lit_350f[3] = "20";
 char	lit_3512[17] = "ui_ffa_fraglimit";
-char	lit_3523 = "\x00";
+char	lit_3523[1] = "\x00";
 char	lit_3524[16] = "EV_TAUNT_PATROL";
 char	lit_3534[19] = "EV_TAUNT_GUARDBASE";
 char	lit_3547[17] = "EV_TAUNT_GETFLAG";
@@ -449,8 +448,8 @@ char	lit_49a1[17] = "0123456789ABCDEF";
 char	lit_49b2[7] = "<NULL>";
 char	lit_49b9[3] = "0x";
 char	lit_49bc[6] = "inity";
-int		lit_49c2 = "inf";
-int		lit_49c6 = "nan";
+char	lit_49c2[4] = "inf";
+char	lit_49c6[4] = "nan";
 char	lit_49ca[16] = "menu/art/back_1";
 char	lit_49da[16] = "menu/art/back_0";
 char	lit_49ea[18] = "menu/art/accept_1";
@@ -465,7 +464,7 @@ char	lit_4a6f[21] = "menu/art/addbotframe";
 char	lit_4a84[9] = "ADD BOTS";
 char	lit_4a8d[11] = "g_gametype";
 char	lit_4a98[5] = "Blue";
-int		lit_4a9d = "Red";
+char	lit_4a9d[4] = "Red";
 char	lit_4aa1[5] = "Free";
 char	lit_4aa6[11] = "Nightmare!";
 char	lit_4ab1[9] = "Hardcore";
@@ -484,15 +483,15 @@ char	lit_4b3c[9] = "ui_cache";
 char	lit_4b45[9] = "postgame";
 char	lit_4b4e[12] = "levelselect";
 char	lit_4b5a[31] = "\x55\x49\x5f\x53\x65\x74\x41\x63\x74\x69\x76\x65\x4d\x65\x6e\x75\x3a\x20\x62\x61\x64\x20\x65\x6e\x75\x6d\x20\x25\x64\x0a\x00";
-short	lit_4b79 = "1";
+char	lit_4b79[2] = "1";
 char	lit_4b7b[11] = "Bad CD Key";
 char	lit_4b86[14] = "Insert the CD";
 char	lit_4b94[6] = "\x71\x75\x69\x74\x0a\x00";
-short	lit_4b9a = "0";
+char	lit_4b9a[2] = "0";
 char	lit_4b9c[10] = "cl_paused";
 char	lit_4ba6[33] = "UI_PopMenu: menu stack underflow";
 char	lit_4bc7[33] = "UI_PushMenu: menu stack overflow";
-int		lit_4be8 = "\x64\x31\x0a\x00";
+char	lit_4be8[4] = "\x64\x31\x0a\x00";
 char	lit_4bec[16] = "menu/art/back_1";
 char	lit_4bfc[16] = "menu/art/back_0";
 char	lit_4c0c[18] = "menu/art/accept_1";
@@ -500,14 +499,14 @@ char	lit_4c1e[18] = "menu/art/accept_0";
 char	lit_4c30[8] = "CD Key:";
 char	lit_4c38[19] = "menu/art/cut_frame";
 char	lit_4c4b[7] = "CD KEY";
-short	lit_4c52 = "1";
+char	lit_4c52[2] = "1";
 char	lit_4c54[16] = "ui_cdkeychecked";
 char	lit_4c64[24] = "The CD Key is not valid";
 char	lit_4c7c[42] = "The CD Key appears to be valid, thank you";
 char	lit_4ca6[25] = "Please enter your CD Key";
 char	lit_4cbf[16] = "menu/art/back_1";
 char	lit_4ccf[16] = "menu/art/back_0";
-int		lit_4cdf = "END";
+char	lit_4cdf[4] = "END";
 char	lit_4ce3[7] = "Tier 7";
 char	lit_4cea[7] = "Tier 6";
 char	lit_4cf1[7] = "Tier 5";
@@ -523,7 +522,7 @@ char	lit_4d46[11] = "CINEMATICS";
 char	lit_4d51[67] = "\x64\x69\x73\x63\x6f\x6e\x6e\x65\x63\x74\x3b\x20\x63\x69\x6e\x65\x6d\x61\x74\x69\x63\x20\x25\x73\x2e\x52\x6f\x51\x0a\x00\x64\x69\x73\x63\x6f\x6e\x6e\x65\x63\x74\x3b\x20\x63\x69\x6e\x65\x6d\x61\x74\x69\x63\x20\x64\x65\x6d\x6f\x45\x6e\x64\x2e\x52\x6f\x51\x20\x31\x0a\x00";
 char	lit_4d94[17] = "ui_cinematics %i";
 char	lit_4da5[8] = "nextmap";
-int		lit_4dad = "end";
+char	lit_4dad[4] = "end";
 char	lit_4db1[6] = "tier7";
 char	lit_4db7[6] = "tier6";
 char	lit_4dbd[6] = "tier5";
@@ -535,9 +534,9 @@ char	lit_4ddb[6] = "intro";
 char	lit_4de1[7] = "idlogo";
 char	lit_4de8[3] = "OK";
 char	lit_4deb[3] = "NO";
-int		lit_4dee = "YES";
+char	lit_4dee[4] = "YES";
 char	lit_4df2[7] = "YES/NO";
-short	lit_4df9 = "/";
+char	lit_4df9[2] = "/";
 char	lit_4dfb[19] = "menu/art/cut_frame";
 char	lit_4e0e[13] = "Downloading:";
 char	lit_4e1b[21] = "Estimated time left:";
@@ -596,7 +595,7 @@ char	lit_50d6[25] = "Press BACKSPACE to clear";
 char	lit_50ef[31] = "Press ENTER or CLICK to change";
 char	lit_510e[41] = "Waiting for new key ... ESCAPE to cancel";
 char	lit_5137[5] = " or ";
-int		lit_513c = "???";
+char	lit_513c[4] = "???";
 char	lit_5140[12] = "cl_freelook";
 char	lit_514c[9] = "m_filter";
 char	lit_5155[14] = "joy_threshold";
@@ -623,7 +622,7 @@ char	lit_5237[12] = "prev weapon";
 char	lit_5243[9] = "weapprev";
 char	lit_524c[7] = "attack";
 char	lit_5253[8] = "+attack";
-int		lit_525b = "BFG";
+char	lit_525b[4] = "BFG";
 char	lit_525f[9] = "weapon 9";
 char	lit_5268[11] = "plasma gun";
 char	lit_5273[9] = "weapon 8";
@@ -684,14 +683,14 @@ char	lit_550e[22] = "Biz Assist and id Mom";
 char	lit_5524[15] = "Marty Stratton";
 char	lit_5533[33] = "Director of Business Development";
 char	lit_5554[17] = "Todd Hollenshead";
-int		lit_5565 = "CEO";
+char	lit_5565[4] = "CEO";
 char	lit_5569[44] = "Tim Willits, Christian Antkow, Paul Jaquays";
 char	lit_5595[13] = "Level Design";
 char	lit_55a2[14] = "Graeme Devine";
 char	lit_55b0[14] = "Game Designer";
 char	lit_55be[43] = "Kenneth Scott, Seneca Menard, Fred Nilsson";
 char	lit_55e9[29] = "Adrian Carmack, Kevin Cloud,";
-int		lit_5606 = "Art";
+char	lit_5606[4] = "Art";
 char	lit_560a[41] = "John Carmack, Robert A. Duffy, Jim Dose'";
 char	lit_5633[12] = "Programming";
 char	lit_563f[16] = "id Software is:";
@@ -700,7 +699,7 @@ char	lit_5655[25] = "http://www.ioquake3.org/";
 char	lit_566e[23] = "ioquake3 contributors:";
 char	lit_5685[26] = "...and many, many others!";
 char	lit_569f[13] = "Tony J. Whit";
-char	lit_56ac = "\x00";
+char	lit_56ac[1] = "\x00";
 char	lit_56ad[18] = "Zachary J. Slater";
 char	lit_56bf[13] = "Thilo Schulz";
 char	lit_56cc[13] = "Scirocco Six";
@@ -712,10 +711,10 @@ char	lit_5712[15] = "Ryan C. Gordon";
 char	lit_5721[14] = "Vincent Cojot";
 char	lit_572f[13] = "James Canete";
 char	lit_573c[10] = "Tim Angus";
-short	lit_5746 = "\x00\x00";
+char	lit_5746[2] = "\x00\x00";
 char	lit_5748[16] = "No Demos Found.";
 char	lit_5758[6] = "demos";
-int		lit_575e = "dm_";
+char	lit_575e[4] = "dm_";
 char	lit_5762[6] = ".%s%d";
 char	lit_5768[9] = "protocol";
 char	lit_5771[13] = "com_protocol";
@@ -745,9 +744,9 @@ char	lit_58cc[13] = "SYSTEM SETUP";
 char	lit_58d9[12] = "cg_viewsize";
 char	lit_58e5[8] = "r_gamma";
 char	lit_58ed[28] = "\x41\x6c\x6c\x20\x61\x77\x61\x72\x64\x73\x20\x75\x6e\x6c\x6f\x63\x6b\x65\x64\x20\x61\x74\x20\x31\x30\x30\x0a\x00";
-int		lit_5909 = "100";
+char	lit_5909[4] = "100";
 char	lit_590d[38] = "\x41\x6c\x6c\x20\x6c\x65\x76\x65\x6c\x73\x20\x75\x6e\x6c\x6f\x63\x6b\x65\x64\x20\x61\x74\x20\x73\x6b\x69\x6c\x6c\x20\x6c\x65\x76\x65\x6c\x20\x31\x0a\x00";
-short	lit_5933 = "1";
+char	lit_5933[2] = "1";
 char	lit_5935[12] = "g_spScores5";
 char	lit_5941[12] = "g_spScores4";
 char	lit_594d[12] = "g_spScores3";
@@ -757,11 +756,11 @@ char	lit_5971[7] = "tier%i";
 char	lit_5978[11] = "g_spVideos";
 char	lit_5983[6] = "final";
 char	lit_5989[9] = "training";
-int		lit_5992 = "a%i";
+char	lit_5992[4] = "a%i";
 char	lit_5996[11] = "g_spAwards";
 char	lit_59a1[35] = "\x5e\x31\x42\x61\x64\x20\x61\x77\x61\x72\x64\x20\x25\x69\x20\x69\x6e\x20\x55\x49\x5f\x4c\x6f\x67\x41\x77\x61\x72\x64\x44\x61\x74\x61\x0a\x00";
 char	lit_59c4[10] = "g_spSkill";
-int		lit_59ce = "l%i";
+char	lit_59ce[4] = "l%i";
 char	lit_59d2[13] = "g_spScores%i";
 char	lit_59df[5] = "name";
 char	lit_59e4[42] = "\x5e\x31\x49\x6e\x76\x61\x6c\x69\x64\x20\x62\x6f\x74\x20\x6e\x75\x6d\x62\x65\x72\x3a\x20\x25\x69\x0a\x00\x25\x69\x20\x62\x6f\x74\x73\x20\x70\x61\x72\x73\x65\x64\x0a\x00";
@@ -769,34 +768,34 @@ char	lit_5a0e[5] = ".bot";
 char	lit_5a13[17] = "scripts/bots.txt";
 char	lit_5a24[11] = "g_botsFile";
 char	lit_5a2f[55] = "\x5e\x33\x57\x41\x52\x4e\x49\x4e\x47\x3a\x20\x6e\x6f\x74\x20\x65\x6e\x6f\x75\x67\x68\x20\x6d\x65\x6d\x6f\x72\x79\x20\x69\x6e\x20\x70\x6f\x6f\x6c\x20\x74\x6f\x20\x6c\x6f\x61\x64\x20\x61\x6c\x6c\x20\x62\x6f\x74\x73\x0a\x00";
-int		lit_5a66 = "map";
+char	lit_5a66[4] = "map";
 char	lit_5a6a[77] = "\x5e\x31\x49\x6e\x76\x61\x6c\x69\x64\x20\x61\x72\x65\x6e\x61\x20\x6e\x75\x6d\x62\x65\x72\x3a\x20\x25\x69\x0a\x00\x25\x69\x20\x61\x72\x65\x6e\x61\x73\x20\x69\x67\x6e\x6f\x72\x65\x64\x20\x74\x6f\x20\x6d\x61\x6b\x65\x20\x63\x6f\x75\x6e\x74\x20\x64\x69\x76\x69\x73\x69\x62\x6c\x65\x20\x62\x79\x20\x25\x69\x0a\x00";
 char	lit_5ab7[8] = "special";
 char	lit_5abf[7] = "single";
 char	lit_5ac6[5] = "type";
 char	lit_5acb[3] = "%i";
-int		lit_5ace = "num";
+char	lit_5ace[4] = "num";
 char	lit_5ad2[75] = "\x5e\x33\x57\x41\x52\x4e\x49\x4e\x47\x3a\x20\x6e\x6f\x74\x20\x65\x6e\x6f\x75\x67\x68\x20\x6d\x65\x6d\x6f\x72\x79\x20\x69\x6e\x20\x70\x6f\x6f\x6c\x20\x74\x6f\x20\x6c\x6f\x61\x64\x20\x61\x6c\x6c\x20\x61\x72\x65\x6e\x61\x73\x0a\x00\x25\x69\x20\x61\x72\x65\x6e\x61\x73\x20\x70\x61\x72\x73\x65\x64\x0a\x00";
 char	lit_5b1d[9] = "scripts/";
 char	lit_5b26[7] = ".arena";
 char	lit_5b2d[8] = "scripts";
 char	lit_5b35[19] = "scripts/arenas.txt";
-char	lit_5b48 = "\x00";
+char	lit_5b48[1] = "\x00";
 char	lit_5b49[13] = "g_arenasFile";
 char	lit_5b56[69] = "\x5e\x31\x66\x69\x6c\x65\x20\x74\x6f\x6f\x20\x6c\x61\x72\x67\x65\x3a\x20\x25\x73\x20\x69\x73\x20\x25\x69\x2c\x20\x6d\x61\x78\x20\x61\x6c\x6c\x6f\x77\x65\x64\x20\x69\x73\x20\x25\x69\x0a\x00\x5e\x31\x66\x69\x6c\x65\x20\x6e\x6f\x74\x20\x66\x6f\x75\x6e\x64\x3a\x20\x25\x73\x0a\x00";
 char	lit_5b9b[3] = "%d";
 char	lit_5b9e[6] = "\\num\\";
 char	lit_5ba4[7] = "<NULL>";
-short	lit_5bab = "}";
+char	lit_5bab[2] = "}";
 char	lit_5bad[73] = "\x55\x6e\x65\x78\x70\x65\x63\x74\x65\x64\x20\x65\x6e\x64\x20\x6f\x66\x20\x69\x6e\x66\x6f\x20\x66\x69\x6c\x65\x0a\x00\x4d\x61\x78\x20\x69\x6e\x66\x6f\x73\x20\x65\x78\x63\x65\x65\x64\x65\x64\x0a\x00\x4d\x69\x73\x73\x69\x6e\x67\x20\x7b\x20\x69\x6e\x20\x69\x6e\x66\x6f\x20\x66\x69\x6c\x65\x0a\x00";
-short	lit_5bf6 = "{";
+char	lit_5bf6[2] = "{";
 char	lit_5bf8[10] = "EXIT GAME";
 char	lit_5c02[12] = "LEAVE ARENA";
 char	lit_5c0e[12] = "RESUME GAME";
 char	lit_5c1a[14] = "RESTART ARENA";
 char	lit_5c28[12] = "SERVER INFO";
 char	lit_5c34[6] = "SETUP";
-short	lit_5c3a = "t";
+char	lit_5c3a[2] = "t";
 char	lit_5c3c[12] = "TEAM ORDERS";
 char	lit_5c48[12] = "REMOVE BOTS";
 char	lit_5c54[11] = "g_gametype";
@@ -810,8 +809,8 @@ char	lit_5ca4[15] = "RESTART ARENA?";
 char	lit_5cb3[29] = "\x64\x69\x73\x63\x6f\x6e\x6e\x65\x63\x74\x0a\x00\x6d\x61\x70\x5f\x72\x65\x73\x74\x61\x72\x74\x20\x30\x0a\x00\x00\x00";
 char	lit_5cd0[5] = ".cfg";
 char	lit_5cd5[16] = "No Files Found.";
-int		lit_5ce5 = "cfg";
-char	lit_5ce9 = "\x00";
+char	lit_5ce5[4] = "cfg";
+char	lit_5ce9[1] = "\x00";
 char	lit_5cea[16] = "menu/art/load_1";
 char	lit_5cfa[16] = "menu/art/load_0";
 char	lit_5d0a[16] = "menu/art/back_1";
@@ -831,12 +830,12 @@ char	lit_5dd0[6] = "DEMOS";
 char	lit_5dd6[6] = "SETUP";
 char	lit_5ddc[12] = "MULTIPLAYER";
 char	lit_5de8[14] = "SINGLE PLAYER";
-short	lit_5df6 = "1";
+char	lit_5df6[2] = "1";
 char	lit_5df8[14] = "sv_killserver";
 char	lit_5e06[9] = "$modlist";
 char	lit_5e0f[69] = "Quake III Arena(c) 1999-2000, Id Software, Inc.  All Rights Reserved";
 char	lit_5e54[41] = "DEMO      FOR MATURE AUDIENCES      DEMO";
-char	lit_5e7d = "\x00";
+char	lit_5e7d[1] = "\x00";
 char	lit_5e7e[17] = "com_errorMessage";
 char	lit_5e8f[37] = "models/mapobjects/banner/banner5.md3";
 char	lit_5eb4[11] = "EXIT GAME?";
@@ -853,7 +852,7 @@ char	lit_5f4e[18] = "menu/art/frame2_l";
 char	lit_5f60[5] = "MODS";
 char	lit_5f65[16] = "\x25\x69\x20\x6d\x6f\x64\x73\x20\x70\x61\x72\x73\x65\x64\x0a\x00";
 char	lit_5f75[9] = "$modlist";
-char	lit_5f7e = "\x00";
+char	lit_5f7e[1] = "\x00";
 char	lit_5f7f[16] = "Quake III Arena";
 char	lit_5f8f[13] = "vid_restart;";
 char	lit_5f9c[8] = "fs_game";
@@ -870,10 +869,10 @@ char	lit_6012[13] = "SYSTEM SETUP";
 char	lit_601f[5] = "rate";
 char	lit_6024[15] = "LAN/Cable/xDSL";
 char	lit_6033[5] = "ISDN";
-int		lit_6038 = "56K";
+char	lit_6038[4] = "56K";
 char	lit_603c[6] = "33.6K";
 char	lit_6042[9] = "<= 28.8K";
-char	lit_604b = "\x00";
+char	lit_604b[1] = "\x00";
 char	lit_604c[8] = "NETWORK";
 char	lit_6054[6] = "SOUND";
 char	lit_605a[8] = "DISPLAY";
@@ -888,11 +887,11 @@ char	lit_60c9[9] = "/default";
 char	lit_60d2[5] = "name";
 char	lit_60d7[34] = "sound/player/announce/%s_wins.wav";
 char	lit_60f9[21] = "models/players/%s/%s";
-int		lit_610e = "tga";
+char	lit_610e[4] = "tga";
 char	lit_6112[18] = "models/players/%s";
 char	lit_6124[3] = "..";
-short	lit_6127 = ".";
-short	lit_6129 = "/";
+char	lit_6127[2] = ".";
+char	lit_6129[2] = "/";
 char	lit_612b[15] = "models/players";
 char	lit_613a[16] = "com_buildscript";
 char	lit_614a[11] = "LOW MEMORY";
@@ -912,7 +911,7 @@ char	lit_6215[28] = "menu/art/opponents_selected";
 char	lit_6231[26] = "menu/art/opponents_select";
 char	lit_624b[16] = "menu/art/back_1";
 char	lit_625b[16] = "menu/art/back_0";
-char	lit_626b = "\x00";
+char	lit_626b[1] = "\x00";
 char	lit_626c[7] = "color1";
 char	lit_6273[34] = "\x46\x61\x69\x6c\x65\x64\x20\x74\x6f\x20\x6c\x6f\x61\x64\x20\x61\x6e\x69\x6d\x61\x74\x69\x6f\x6e\x20\x66\x69\x6c\x65\x20\x25\x73\x0a\x00";
 char	lit_6295[32] = "models/players/%s/animation.cfg";
@@ -925,7 +924,7 @@ char	lit_6349[8] = "default";
 char	lit_6351[60] = "\x45\x72\x72\x6f\x72\x20\x70\x61\x72\x73\x69\x6e\x67\x20\x61\x6e\x69\x6d\x61\x74\x69\x6f\x6e\x20\x66\x69\x6c\x65\x3a\x20\x25\x73\x0a\x00\x75\x6e\x6b\x6e\x6f\x77\x6e\x20\x74\x6f\x6b\x65\x6e\x20\x27\x25\x73\x27\x20\x69\x6e\x20\x25\x73\x0a\x00";
 char	lit_638d[11] = "fixedtorso";
 char	lit_6398[10] = "fixedlegs";
-int		lit_63a2 = "sex";
+char	lit_63a2[4] = "sex";
 char	lit_63a6[11] = "headoffset";
 char	lit_63b1[10] = "footsteps";
 char	lit_63bb[18] = "\x46\x69\x6c\x65\x20\x25\x73\x20\x74\x6f\x6f\x20\x6c\x6f\x6e\x67\x0a\x00";
@@ -964,7 +963,7 @@ char	lit_65b4[6] = "model";
 char	lit_65ba[8] = "Effects";
 char	lit_65c2[9] = "Handicap";
 char	lit_65cb[5] = "Name";
-short	lit_65d0 = "5";
+char	lit_65d0[2] = "5";
 char	lit_65d2[3] = "10";
 char	lit_65d5[3] = "15";
 char	lit_65d8[3] = "20";
@@ -1017,7 +1016,7 @@ char	lit_67d1[17] = "cg_drawCrosshair";
 char	lit_67e2[11] = "lower left";
 char	lit_67ed[12] = "lower right";
 char	lit_67f9[12] = "upper right";
-int		lit_6805 = "off";
+char	lit_6805[4] = "off";
 char	lit_6809[3] = "\x00\x00\x00";
 char	lit_680c[22] = "menu/art/sliderbutt_1";
 char	lit_6822[22] = "menu/art/sliderbutt_0";
@@ -1043,7 +1042,7 @@ char	lit_6986[27] = "Menu_Draw: unknown type %d";
 char	lit_69a1[27] = "Menu_Init: unknown type %d";
 char	lit_69bc[30] = "Menu_AddItem: excessive items";
 char	lit_69da[3] = "on";
-int		lit_69dd = "off";
+char	lit_69dd[4] = "off";
 char	lit_69e1[25] = "menu/art/arrows_vert_bot";
 char	lit_69fa[25] = "menu/art/arrows_vert_top";
 char	lit_6a13[23] = "menu/art/arrows_vert_0";
@@ -1056,7 +1055,7 @@ char	lit_6a7a[21] = "menu/art/addbotframe";
 char	lit_6a8f[6] = "skill";
 char	lit_6a95[14] = "sv_maxclients";
 char	lit_6aa3[15] = "\x63\x6c\x69\x65\x6e\x74\x6b\x69\x63\x6b\x20\x25\x69\x0a\x00";
-short	lit_6ab2 = "n";
+char	lit_6ab2[2] = "n";
 char	lit_6ab4[16] = "menu/art/save_1";
 char	lit_6ac4[16] = "menu/art/save_0";
 char	lit_6ad4[16] = "menu/art/back_1";
@@ -1068,7 +1067,7 @@ char	lit_6b23[20] = "\x77\x72\x69\x74\x65\x63\x6f\x6e\x66\x69\x67\x20\x25\x73\x2
 char	lit_6b37[11] = "sv_running";
 char	lit_6b42[17] = "ADD TO FAVORITES";
 char	lit_6b53[12] = "SERVER INFO";
-short	lit_6b5f = ":";
+char	lit_6b5f[2] = ":";
 char	lit_6b61[9] = "server%d";
 char	lit_6b6a[24] = "cl_currentServerAddress";
 char	lit_6b82[16] = "menu/art/back_1";
@@ -1134,7 +1133,7 @@ char	lit_6f1f[8] = "clients";
 char	lit_6f27[8] = "mapname";
 char	lit_6f2f[9] = "hostname";
 char	lit_6f38[3] = "No";
-int		lit_6f3b = "Yes";
+char	lit_6f3b[4] = "Yes";
 char	lit_6f3f[47] = "%-20.20s %-12.12s %2d/%2d %-8.8s %4s%s%3d ^3%s";
 char	lit_6f6e[3] = "^1";
 char	lit_6f71[3] = "^3";
@@ -1143,7 +1142,7 @@ char	lit_6f77[3] = "^4";
 char	lit_6f7a[18] = "No Servers Found.";
 char	lit_6f8c[32] = "No Response From Master Server.";
 char	lit_6fac[22] = "Scanning For Servers.";
-char	lit_6fc2 = "\x00";
+char	lit_6fc2[1] = "\x00";
 char	lit_6fc3[20] = "Press SPACE to stop";
 char	lit_6fd7[24] = "%d of %d Arena Servers.";
 char	lit_6fef[18] = "levelshots/%s.tga";
@@ -1158,19 +1157,19 @@ char	lit_7066[9] = "Disabled";
 char	lit_706f[5] = "UDP6";
 char	lit_7074[5] = "UDP ";
 char	lit_7079[5] = "??? ";
-int		lit_707e = "???";
-int		lit_7082 = "OSP";
+char	lit_707e[4] = "???";
+char	lit_7082[4] = "OSP";
 char	lit_7086[13] = "Urban Terror";
-int		lit_7093 = "Q3F";
+char	lit_7093[4] = "Q3F";
 char	lit_7097[15] = "Rocket Arena 3";
 char	lit_70a6[10] = "Harvester";
 char	lit_70b0[9] = "OverLoad";
 char	lit_70b9[13] = "One Flag CTF";
-int		lit_70c6 = "CTF";
+char	lit_70c6[4] = "CTF";
 char	lit_70ca[8] = "Team DM";
-int		lit_70d2 = "SP ";
-int		lit_70d6 = "1v1";
-int		lit_70da = "DM ";
+char	lit_70d2[4] = "SP ";
+char	lit_70d6[4] = "1v1";
+char	lit_70da[4] = "DM ";
 char	lit_70de[10] = "Ping Time";
 char	lit_70e8[10] = "Game Type";
 char	lit_70f2[18] = "Open Player Spots";
@@ -1180,7 +1179,7 @@ char	lit_7119[17] = "Capture the Flag";
 char	lit_712a[11] = "Tournament";
 char	lit_7135[16] = "Team Deathmatch";
 char	lit_7145[13] = "Free For All";
-int		lit_7152 = "All";
+char	lit_7152[4] = "All";
 char	lit_7156[10] = "Favorites";
 char	lit_7160[8] = "Master5";
 char	lit_7168[8] = "Master4";
@@ -1189,7 +1188,7 @@ char	lit_7178[8] = "Master2";
 char	lit_7180[8] = "Master1";
 char	lit_7188[9] = "Internet";
 char	lit_7191[6] = "Local";
-char	lit_7197 = "\x00";
+char	lit_7197[1] = "\x00";
 char	lit_7198[16] = "menu/art/back_1";
 char	lit_71a8[16] = "menu/art/back_0";
 char	lit_71b8[9] = "DEFAULTS";
@@ -1227,24 +1226,24 @@ char	lit_738c[11] = "s_sdlSpeed";
 char	lit_7397[14] = "s_musicvolume";
 char	lit_73a5[9] = "s_volume";
 char	lit_73ae[7] = "OpenAL";
-int		lit_73b5 = "SDL";
+char	lit_73b5[4] = "SDL";
 char	lit_73b9[5] = "High";
 char	lit_73be[7] = "Medium";
-int		lit_73c5 = "Low";
+char	lit_73c5[4] = "Low";
 char	lit_73c9[10] = "\x73\x70\x6d\x61\x70\x20\x25\x73\x0a\x00";
-int		lit_73d3 = "map";
+char	lit_73d3[4] = "map";
 char	lit_73d7[15] = "ui_spSelection";
 char	lit_73e6[6] = "final";
 char	lit_73ec[9] = "training";
 char	lit_73f5[8] = "special";
-int		lit_73fd = "num";
+char	lit_73fd[4] = "num";
 char	lit_7401[14] = "sv_maxclients";
 char	lit_740f[3] = "%i";
 char	lit_7412[6] = "Port:";
 char	lit_7418[9] = "Address:";
 char	lit_7421[15] = "SPECIFY SERVER";
 char	lit_7430[12] = "\x63\x6f\x6e\x6e\x65\x63\x74\x20\x25\x73\x0a\x00";
-int		lit_743c = ":%s";
+char	lit_743c[4] = ":%s";
 char	lit_7440[17] = "menu/art/fight_1";
 char	lit_7451[17] = "menu/art/fight_0";
 char	lit_7462[16] = "menu/art/back_1";
@@ -1252,7 +1251,7 @@ char	lit_7472[16] = "menu/art/back_0";
 char	lit_7482[18] = "menu/art/frame1_r";
 char	lit_7494[18] = "menu/art/frame2_l";
 char	lit_74a6[13] = "CHOOSE LEVEL";
-short	lit_74b3 = "2";
+char	lit_74b3[2] = "2";
 char	lit_74b5[10] = "g_spSkill";
 char	lit_74bf[20] = "menu/art/skirmish_1";
 char	lit_74d3[20] = "menu/art/skirmish_0";
@@ -1271,26 +1270,26 @@ char	lit_75c8[18] = "menu/art/narrow_1";
 char	lit_75da[18] = "menu/art/narrow_0";
 char	lit_75ec[23] = "menu/art/maps_selected";
 char	lit_7603[21] = "menu/art/maps_select";
-short	lit_7618 = "?";
+char	lit_7618[2] = "?";
 char	lit_761a[9] = "longname";
 char	lit_7623[7] = "%s: %s";
 char	lit_762a[14] = "ACCESS DENIED";
 char	lit_7638[8] = "Tier %i";
 char	lit_7640[3] = "%i";
-int		lit_7643 = "%ik";
-int		lit_7647 = "%im";
+char	lit_7643[4] = "%ik";
+char	lit_7647[4] = "%im";
 char	lit_764b[12] = "RESET GAME?";
 char	lit_7657[31] = "start over from the beginning.";
 char	lit_7676[28] = "Do this only if you want to";
 char	lit_7692[30] = "single player game variables.";
 char	lit_76b0[32] = "WARNING: This resets all of the";
 char	lit_76d0[6] = "final";
-int		lit_76d6 = "num";
+char	lit_76d6[4] = "num";
 char	lit_76da[9] = "training";
 char	lit_76e3[15] = "ui_spSelection";
 char	lit_76f2[20] = "menu/art/unknownmap";
 char	lit_7706[18] = "levelshots/%s.tga";
-int		lit_7718 = "map";
+char	lit_7718[4] = "map";
 char	lit_771c[5] = "name";
 char	lit_7721[6] = "model";
 char	lit_7727[5] = "bots";
@@ -1300,7 +1299,7 @@ char	lit_776d[8] = "default";
 char	lit_7775[6] = "final";
 char	lit_777b[35] = "\x6d\x75\x73\x69\x63\x20\x6d\x75\x73\x69\x63\x2f\x77\x69\x6e\x0a\x00\x6d\x75\x73\x69\x63\x20\x6d\x75\x73\x69\x63\x2f\x6c\x6f\x73\x73\x0a\x00";
 char	lit_779e[34] = "sound/player/announce/%s_wins.wav";
-int		lit_77c0 = "num";
+char	lit_77c0[4] = "num";
 char	lit_77c4[8] = "mapname";
 char	lit_77cc[33] = "sound/player/announce/youwin.wav";
 char	lit_77ed[14] = "music/win.wav";
@@ -1320,7 +1319,7 @@ char	lit_78cb[67] = "\x64\x69\x73\x63\x6f\x6e\x6e\x65\x63\x74\x3b\x20\x63\x69\x6
 char	lit_790e[8] = "nextmap";
 char	lit_7916[12] = "sv_serverid";
 char	lit_7922[15] = "#%i: %-16s %2i";
-short	lit_7931 = "n";
+char	lit_7931[2] = "n";
 char	lit_7933[6] = "(tie)";
 char	lit_7939[3] = "%i";
 char	lit_793c[5] = "%i%%";
@@ -1419,13 +1418,13 @@ char	lit_7f6a[9] = "Hardcore";
 char	lit_7f73[15] = "Hurt Me Plenty";
 char	lit_7f82[12] = "Bring It On";
 char	lit_7f8e[10] = "I Can Win";
-int		lit_7f98 = "Red";
+char	lit_7f98[4] = "Red";
 char	lit_7f9c[5] = "Blue";
 char	lit_7fa1[5] = "----";
-int		lit_7fa6 = "Bot";
+char	lit_7fa6[4] = "Bot";
 char	lit_7faa[5] = "Open";
 char	lit_7faf[9] = "Internet";
-int		lit_7fb8 = "LAN";
+char	lit_7fb8[4] = "LAN";
 char	lit_7fbc[3] = "No";
 char	lit_7fbf[16] = "com_buildscript";
 char	lit_7fcf[16] = "menu/art/next_1";
@@ -1446,17 +1445,17 @@ char	lit_80c9[11] = "g_gameType";
 char	lit_80d4[5] = "type";
 char	lit_80d9[14] = "NO MAPS FOUND";
 char	lit_80e7[14] = "levelshots/%s";
-int		lit_80f5 = "map";
-int		lit_80f9 = "ctf";
+char	lit_80f5[4] = "map";
+char	lit_80f9[4] = "ctf";
 char	lit_80fd[5] = "team";
 char	lit_8102[7] = "single";
 char	lit_8109[8] = "tourney";
-int		lit_8111 = "ffa";
+char	lit_8111[4] = "ffa";
 char	lit_8115[17] = "Capture the Flag";
 char	lit_8126[11] = "Tournament";
 char	lit_8131[16] = "Team Deathmatch";
 char	lit_8141[13] = "Free For All";
-short	lit_814e = "\x00\x00";
+char	lit_814e[2] = "\x00\x00";
 char	lit_8150[11] = "g_gametype";
 char	lit_815b[9] = "SPECTATE";
 char	lit_8164[10] = "JOIN GAME";
@@ -1468,9 +1467,9 @@ char	lit_81d4[16] = "menu/art/back_1";
 char	lit_81e4[16] = "menu/art/back_0";
 char	lit_81f4[21] = "menu/art/addbotframe";
 char	lit_8209[12] = "TEAM ORDERS";
-short	lit_8215 = "n";
+char	lit_8215[2] = "n";
 char	lit_8217[6] = "skill";
-short	lit_821d = "t";
+char	lit_821d[2] = "t";
 char	lit_821f[11] = "g_gametype";
 char	lit_822a[14] = "sv_maxclients";
 char	lit_8238[9] = "Everyone";
@@ -1513,10 +1512,10 @@ char	lit_841b[8] = "DISPLAY";
 char	lit_8423[9] = "GRAPHICS";
 char	lit_842c[13] = "SYSTEM SETUP";
 char	lit_8439[3] = "On";
-int		lit_843c = "Off";
+char	lit_843c[4] = "Off";
 char	lit_8440[5] = "High";
 char	lit_8445[7] = "Medium";
-int		lit_844c = "Low";
+char	lit_844c[4] = "Low";
 char	lit_8450[10] = "Trilinear";
 char	lit_845a[9] = "Bilinear";
 char	lit_8463[7] = "Vertex";
@@ -1553,17 +1552,17 @@ char	lit_85c3[17] = "r_availableModes";
 char	lit_85d4[7] = "%.2f:1";
 char	lit_85db[5] = "16:9";
 char	lit_85e0[7] = "1.78:1";
-int		lit_85e7 = "5:3";
+char	lit_85e7[4] = "5:3";
 char	lit_85eb[7] = "1.67:1";
 char	lit_85f2[6] = "16:10";
 char	lit_85f8[7] = "1.60:1";
 char	lit_85ff[5] = "14:9";
 char	lit_8604[7] = "1.56:1";
-int		lit_860b = "3:2";
+char	lit_860b[4] = "3:2";
 char	lit_860f[7] = "1.50:1";
-int		lit_8616 = "4:3";
+char	lit_8616[4] = "4:3";
 char	lit_861a[7] = "1.33:1";
-int		lit_8621 = "5:4";
+char	lit_8621[4] = "5:4";
 char	lit_8625[7] = "1.25:1";
 char	lit_862c[8] = "856x480";
 char	lit_8634[10] = "2048x1536";
@@ -1590,7 +1589,7 @@ char	lit_872d[62] = "\x42\x49\x47\x20\x49\x6e\x66\x6f\x20\x73\x74\x72\x69\x6e\x6
 char	lit_876b[7] = "\\%s\\%s";
 char	lit_8772[49] = "\x5e\x33\x43\x61\x6e\x27\x74\x20\x75\x73\x65\x20\x6b\x65\x79\x73\x20\x6f\x72\x20\x76\x61\x6c\x75\x65\x73\x20\x77\x69\x74\x68\x20\x61\x20\x27\x25\x63\x27\x3a\x20\x25\x73\x20\x3d\x20\x25\x73\x0a\x00";
 char	lit_87a3[41] = "Info_SetValueForKey: oversize infostring";
-int		lit_87cc = "\\;\"";
+char	lit_87cc[4] = "\\;\"";
 char	lit_87d0[40] = "Info_RemoveKey_Big: oversize infostring";
 char	lit_87f8[36] = "Info_RemoveKey: oversize infostring";
 char	lit_881c[38] = "Info_ValueForKey: oversize infostring";
@@ -1600,12 +1599,12 @@ char	lit_8884[29] = "Q_strcat: already overflowed";
 char	lit_88a1[25] = "Q_strncpyz: destsize < 1";
 char	lit_88ba[21] = "Q_strncpyz: NULL src";
 char	lit_88cf[22] = "Q_strncpyz: NULL dest";
-short	lit_88e5 = ")";
-short	lit_88e7 = "(";
+char	lit_88e5[2] = ")";
+char	lit_88e7[2] = "(";
 char	lit_88e9[21] = "MatchToken: %s != %s";
 char	lit_88fe[50] = "\x57\x41\x52\x4e\x49\x4e\x47\x3a\x20\x25\x73\x2c\x20\x6c\x69\x6e\x65\x20\x25\x64\x3a\x20\x25\x73\x0a\x00\x45\x52\x52\x4f\x52\x3a\x20\x25\x73\x2c\x20\x6c\x69\x6e\x65\x20\x25\x64\x3a\x20\x25\x73\x0a\x00";
 char	lit_8930[3] = "%s";
-char	lit_8933 = "\x00";
+char	lit_8933[1] = "\x00";
 char	ui_ioq3[272];
 char	ui_cdkeychecked[12];
 int		bss_8a50; // Used by: UI_MainMenu
@@ -6202,6 +6201,9 @@ vmMain
 
 Address: 0x0
 Stack Size: 0x1c
+Opcodes Size: 0x7c
+Locals Count: 6
+
 Calls: UI_DrawConnectScreen, UI_ConsoleCommand, UI_SetActiveMenu, UI_IsFullscreen, UI_Refresh, UI_MouseEvent, UI_KeyEvent, UI_Shutdown, UI_Init
 =================
 */
@@ -6244,23 +6246,27 @@ UI_RegisterCvars
 
 Address: 0x7c
 Stack Size: 0x24
+Opcodes Size: 0x35
+Locals Count: 3
+
 Calls: trap_Cvar_Register
 Called by: UI_Init
 =================
 */
 void UI_RegisterCvars(void) {
 	int		local_18;
-	char	local_1c[8];
+	int		local_1c;
+	int		local_20;
 
-	*(int *)local_1c = 0x0;
+	local_1c = 0x0;
 	local_18 = 0x30;
 	goto jmp_aa;
 jmp_85:
 	trap_Cvar_Register(*(int *)local_18, *(int *)(local_18 + 0x4), *(int *)(local_18 + 0x8), *(int *)(local_18 + 0xc));
-	*(int *)local_1c = (*(int *)local_1c + 0x1);
+	local_1c = (local_1c + 0x1);
 	local_18 = (local_18 + 0x10);
 jmp_aa:
-	if (*(int *)local_1c < cvarTableSize) goto jmp_85;
+	if (local_1c < cvarTableSize) goto jmp_85;
 }
 
 /*
@@ -6269,6 +6275,9 @@ UI_UpdateCvars
 
 Address: 0xb1
 Stack Size: 0x14
+Opcodes Size: 0x2a
+Locals Count: 2
+
 Calls: trap_Cvar_Update
 Called by: UI_Refresh
 =================
@@ -6298,6 +6307,9 @@ BG_FindItemForPowerup
 
 Address: 0xdb
 Stack Size: 0x10
+Opcodes Size: 0x47
+Locals Count: 3
+
 =================
 */
 int BG_FindItemForPowerup(int arg_0) {
@@ -6328,6 +6340,9 @@ BG_FindItemForHoldable
 
 Address: 0x122
 Stack Size: 0x18
+Opcodes Size: 0x3e
+Locals Count: 3
+
 Calls: Com_Error
 =================
 */
@@ -6357,23 +6372,27 @@ BG_FindItemForWeapon
 
 Address: 0x160
 Stack Size: 0x1c
+Opcodes Size: 0x37
+Locals Count: 3
+
 Calls: Com_Error
 =================
 */
 int BG_FindItemForWeapon(int arg_0) {
-	char	local_14[8];
+	int		local_14;
+	int		local_18;
 
 	arg_0 = arg_0;
-	*(int *)local_14 = 0x378;
+	local_14 = 0x378;
 	goto jmp_184;
 jmp_16a:
-	if (*(int *)(*(int *)local_14 + 0x24) != 0x1) goto jmp_17e;
-	if (*(int *)(*(int *)local_14 + 0x28) != arg_0) goto jmp_17e;
-	return *(int *)local_14;
+	if (*(int *)(local_14 + 0x24) != 0x1) goto jmp_17e;
+	if (*(int *)(local_14 + 0x28) != arg_0) goto jmp_17e;
+	return local_14;
 jmp_17e:
-	*(int *)local_14 = (*(int *)local_14 + 0x34);
+	local_14 = (local_14 + 0x34);
 jmp_184:
-	if (*(int *)*(int *)local_14 != 0x0) goto jmp_16a;
+	if (*(int *)local_14 != 0x0) goto jmp_16a;
 	Com_Error(0x1, 0x3a78, arg_0);
 	return 0x0;
 }
@@ -6384,6 +6403,9 @@ BG_FindItem
 
 Address: 0x197
 Stack Size: 0x18
+Opcodes Size: 0x2f
+Locals Count: 3
+
 Calls: Q_stricmp
 =================
 */
@@ -6411,13 +6433,17 @@ BG_PlayerTouchesItem
 
 Address: 0x1c6
 Stack Size: 0x38
+Opcodes Size: 0x60
+Locals Count: 12
+
 Calls: BG_EvaluateTrajectory
 =================
 */
 int BG_PlayerTouchesItem(int arg_0, int arg_1, int arg_2) {
 	int		local_14;
 	int		local_18;
-	char	local_1c[8];
+	int		local_1c;
+	int		local_20;
 	int		local_24;
 	int		local_28;
 	int		local_2c;
@@ -6435,8 +6461,8 @@ int BG_PlayerTouchesItem(int arg_0, int arg_1, int arg_2) {
 	local_30 = 0xc2100000;
 	if ((local_28 - local_18) < local_30) goto jmp_21e;
 	local_34 = *(int *)(arg_0 + 0x1c);
-	if ((local_34 - *(int *)local_1c) > local_2c) goto jmp_21e;
-	if ((local_34 - *(int *)local_1c) >= local_30) goto jmp_222;
+	if ((local_34 - local_1c) > local_2c) goto jmp_21e;
+	if ((local_34 - local_1c) >= local_30) goto jmp_222;
 jmp_21e:
 	return 0x0;
 jmp_222:
@@ -6449,13 +6475,17 @@ BG_CanItemBeGrabbed
 
 Address: 0x226
 Stack Size: 0x30
+Opcodes Size: 0x135
+Locals Count: 11
+
 Calls: Com_Error
 =================
 */
 int BG_CanItemBeGrabbed(int arg_0, int arg_1, int arg_2) {
 	int		local_10;
 	int		local_14;
-	char	local_18[8];
+	int		local_18;
+	int		local_1c;
 	int		local_20;
 	int		local_24;
 	int		local_28;
@@ -6469,10 +6499,10 @@ jmp_23b:
 	Com_Error(0x1, 0x3a50);
 jmp_242:
 	local_10 = ((0x34 * *(int *)(arg_1 + 0xa0)) + 0x344);
-	*(int *)local_18 = *(int *)(local_10 + 0x24);
-	if (*(int *)local_18 < 0x0) goto jmp_357;
-	if (*(int *)local_18 > 0x8) goto jmp_357;
-	goto *(int *)((*(int *)local_18 << 0x2) + 0xacc);
+	local_18 = *(int *)(local_10 + 0x24);
+	if (local_18 < 0x0) goto jmp_357;
+	if (local_18 > 0x8) goto jmp_357;
+	goto *(int *)((local_18 << 0x2) + 0xacc);
 	return 0x1;
 	if (*(int *)((*(int *)(local_10 + 0x28) << 0x2) + (arg_2 + 0x178)) < 0xc8) goto jmp_27b;
 	return 0x0;
@@ -6538,6 +6568,9 @@ BG_EvaluateTrajectory
 
 Address: 0x35b
 Stack Size: 0x68
+Opcodes Size: 0x196
+Locals Count: 11
+
 Calls: sin, Com_Error
 Called by: BG_PlayerTouchesItem
 =================
@@ -6545,16 +6578,18 @@ Called by: BG_PlayerTouchesItem
 void BG_EvaluateTrajectory(int arg_0, int arg_1, int arg_2) {
 	int		local_14;
 	int		local_18;
-	char	local_1c[24];
-	char	local_34[44];
+	int		local_1c;
+	char	local_20[20];
+	int		local_34;
+	char	local_38[40];
 	int		local_60;
 	int		local_64;
 
 	arg_0 = arg_0;
-	*(int *)local_1c = *(int *)arg_0;
-	if (*(int *)local_1c < 0x0) goto jmp_4e4;
-	if (*(int *)local_1c > 0x5) goto jmp_4e4;
-	goto *(int *)((*(int *)local_1c << 0x2) + 0xaf0);
+	local_1c = *(int *)arg_0;
+	if (local_1c < 0x0) goto jmp_4e4;
+	if (local_1c > 0x5) goto jmp_4e4;
+	goto *(int *)((local_1c << 0x2) + 0xaf0);
 	block_copy((arg_0 + 0xc), arg_2, 0xc);
 	goto jmp_4ef;
 	local_14 = (0x3a83126f * (float)(arg_1 - *(int *)(arg_0 + 0x4)));
@@ -6563,8 +6598,8 @@ void BG_EvaluateTrajectory(int arg_0, int arg_1, int arg_2) {
 	*(int *)(arg_2 + 0x8) = (*(int *)(arg_0 + 0x14) + (*(int *)(arg_0 + 0x20) * local_14));
 	goto jmp_4ef;
 	local_14 = ((float)(arg_1 - *(int *)(arg_0 + 0x4)) / (float)*(int *)(arg_0 + 0x8));
-	*(int *)local_34 = sin((0x40000000 * (0x40490fdb * local_14)));
-	local_18 = *(int *)local_34;
+	local_34 = sin((0x40000000 * (0x40490fdb * local_14)));
+	local_18 = local_34;
 	*(int *)arg_2 = (*(int *)(arg_0 + 0xc) + (*(int *)(arg_0 + 0x18) * local_18));
 	*(int *)(arg_2 + 0x4) = (*(int *)(arg_0 + 0x10) + (*(int *)(arg_0 + 0x1c) * local_18));
 	*(int *)(arg_2 + 0x8) = (*(int *)(arg_0 + 0x14) + (*(int *)(arg_0 + 0x20) * local_18));
@@ -6599,13 +6634,17 @@ BG_EvaluateTrajectoryDelta
 
 Address: 0x4f1
 Stack Size: 0x40
+Opcodes Size: 0xfc
+Locals Count: 14
+
 Calls: cos, Com_Error
 =================
 */
 void BG_EvaluateTrajectoryDelta(int arg_0, int arg_1, int arg_2) {
 	int		local_14;
 	int		local_18;
-	char	local_1c[8];
+	int		local_1c;
+	int		local_20;
 	int		local_24;
 	int		local_28;
 	int		local_2c;
@@ -6614,10 +6653,10 @@ void BG_EvaluateTrajectoryDelta(int arg_0, int arg_1, int arg_2) {
 	int		local_38;
 	int		local_3c;
 
-	*(int *)local_1c = *(int *)arg_0;
-	if (*(int *)local_1c < 0x0) goto jmp_5e0;
-	if (*(int *)local_1c > 0x5) goto jmp_5e0;
-	goto *(int *)((*(int *)local_1c << 0x2) + 0xb08);
+	local_1c = *(int *)arg_0;
+	if (local_1c < 0x0) goto jmp_5e0;
+	if (local_1c > 0x5) goto jmp_5e0;
+	goto *(int *)((local_1c << 0x2) + 0xb08);
 	local_24 = arg_2;
 	local_28 = 0x0;
 	*(int *)(local_24 + 0x8) = local_28;
@@ -6663,6 +6702,9 @@ BG_AddPredictableEventToPlayerstate
 
 Address: 0x5ed
 Stack Size: 0x14
+Opcodes Size: 0x37
+Locals Count: 4
+
 Called by: BG_TouchJumpPad
 =================
 */
@@ -6682,6 +6724,9 @@ BG_TouchJumpPad
 
 Address: 0x624
 Stack Size: 0x30
+Opcodes Size: 0x74
+Locals Count: 7
+
 Calls: BG_AddPredictableEventToPlayerstate, fabs, AngleNormalize180, vectoangles
 =================
 */
@@ -6725,6 +6770,9 @@ BG_PlayerStateToEntityState
 
 Address: 0x698
 Stack Size: 0x28
+Opcodes Size: 0x1f4
+Locals Count: 11
+
 =================
 */
 void BG_PlayerStateToEntityState(int arg_0, int arg_1, int arg_2) {
@@ -6732,7 +6780,8 @@ void BG_PlayerStateToEntityState(int arg_0, int arg_1, int arg_2) {
 	int		local_c;
 	int		local_10;
 	int		local_14;
-	char	local_18[8];
+	int		local_18;
+	int		local_1c;
 	int		local_20;
 	int		local_24;
 
@@ -6759,8 +6808,8 @@ jmp_6cd:
 	*(int *)local_10 = (float)(int)*(int *)local_10;
 	local_14 = (arg_1 + 0x1c);
 	*(int *)local_14 = (float)(int)*(int *)local_14;
-	*(int *)local_18 = (arg_1 + 0x20);
-	*(int *)*(int *)local_18 = (float)(int)*(int *)*(int *)local_18;
+	local_18 = (arg_1 + 0x20);
+	*(int *)local_18 = (float)(int)*(int *)local_18;
 jmp_712:
 	block_copy((arg_0 + 0x20), (arg_1 + 0x24), 0xc);
 	*(int *)(arg_1 + 0x30) = 0x1;
@@ -6770,8 +6819,8 @@ jmp_712:
 	*(int *)local_10 = (float)(int)*(int *)local_10;
 	local_14 = (arg_1 + 0x40);
 	*(int *)local_14 = (float)(int)*(int *)local_14;
-	*(int *)local_18 = (arg_1 + 0x44);
-	*(int *)*(int *)local_18 = (float)(int)*(int *)*(int *)local_18;
+	local_18 = (arg_1 + 0x44);
+	*(int *)local_18 = (float)(int)*(int *)local_18;
 jmp_758:
 	*(int *)(arg_1 + 0x84) = (float)*(int *)(arg_0 + 0x58);
 	*(int *)(arg_1 + 0xc4) = *(int *)(arg_0 + 0x4c);
@@ -6823,6 +6872,9 @@ BG_PlayerStateToEntityStateExtraPolate
 
 Address: 0x88c
 Stack Size: 0x28
+Opcodes Size: 0x201
+Locals Count: 12
+
 =================
 */
 void BG_PlayerStateToEntityStateExtraPolate(int arg_0, int arg_1, int arg_2, int arg_3) {
@@ -6830,7 +6882,8 @@ void BG_PlayerStateToEntityStateExtraPolate(int arg_0, int arg_1, int arg_2, int
 	int		local_c;
 	int		local_10;
 	int		local_14;
-	char	local_18[8];
+	int		local_18;
+	int		local_1c;
 	int		local_20;
 	int		local_24;
 
@@ -6857,8 +6910,8 @@ jmp_8c1:
 	*(int *)local_10 = (float)(int)*(int *)local_10;
 	local_14 = (arg_1 + 0x1c);
 	*(int *)local_14 = (float)(int)*(int *)local_14;
-	*(int *)local_18 = (arg_1 + 0x20);
-	*(int *)*(int *)local_18 = (float)(int)*(int *)*(int *)local_18;
+	local_18 = (arg_1 + 0x20);
+	*(int *)local_18 = (float)(int)*(int *)local_18;
 jmp_906:
 	block_copy((arg_0 + 0x20), (arg_1 + 0x24), 0xc);
 	*(int *)(arg_1 + 0x10) = arg_2;
@@ -6870,8 +6923,8 @@ jmp_906:
 	*(int *)local_10 = (float)(int)*(int *)local_10;
 	local_14 = (arg_1 + 0x40);
 	*(int *)local_14 = (float)(int)*(int *)local_14;
-	*(int *)local_18 = (arg_1 + 0x44);
-	*(int *)*(int *)local_18 = (float)(int)*(int *)*(int *)local_18;
+	local_18 = (arg_1 + 0x44);
+	*(int *)local_18 = (float)(int)*(int *)local_18;
 jmp_959:
 	*(int *)(arg_1 + 0x84) = (float)*(int *)(arg_0 + 0x58);
 	*(int *)(arg_1 + 0xc4) = *(int *)(arg_0 + 0x4c);
@@ -6923,6 +6976,9 @@ swapfunc
 
 Address: 0xa8d
 Stack Size: 0x20
+Opcodes Size: 0x87
+Locals Count: 10
+
 Called by: qsort
 =================
 */
@@ -6974,6 +7030,9 @@ med3
 
 Address: 0xb14
 Stack Size: 0x38
+Opcodes Size: 0x93
+Locals Count: 14
+
 Called by: qsort
 =================
 */
@@ -7037,6 +7096,9 @@ qsort
 
 Address: 0xba7
 Stack Size: 0x94
+Opcodes Size: 0x3bd
+Locals Count: 35
+
 Calls: qsort, med3, swapfunc
 Called by: UI_BotSelectMenu_BuildList, ArenaServers_Sort, ArenaServers_StopRefresh, ArenaServers_UpdateMenu, UI_AddBotsMenu_GetSortedBotNums, qsort
 =================
@@ -7058,7 +7120,8 @@ void qsort(int arg_0, int arg_1, int arg_2, int arg_3) {
 	int		local_4c;
 	int		local_50;
 	int		local_54;
-	char	local_58[8];
+	int		local_58;
+	int		local_5c;
 	int		local_60;
 	int		local_64;
 	int		local_68;
@@ -7068,8 +7131,10 @@ void qsort(int arg_0, int arg_1, int arg_2, int arg_3) {
 	int		local_78;
 	int		local_7c;
 	int		local_80;
-	char	local_84[8];
-	char	local_8c[8];
+	int		local_84;
+	int		local_88;
+	int		local_8c;
+	int		local_90;
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
@@ -7144,9 +7209,9 @@ jmp_ce8:
 	local_38 = local_60;
 jmp_cfc:
 	if (local_28 != 0x0) goto jmp_d12;
-	*(int *)local_58 = *(int *)arg_0;
+	local_58 = *(int *)arg_0;
 	*(int *)arg_0 = *(int *)local_38;
-	*(int *)local_38 = *(int *)local_58;
+	*(int *)local_38 = local_58;
 	goto jmp_d21;
 jmp_d12:
 	swapfunc(arg_0, local_38, arg_2, local_28);
@@ -7264,14 +7329,14 @@ jmp_f06:
 	if (local_24 <= 0x0) goto jmp_f20;
 	swapfunc(local_1c, (local_3c - local_24), local_24, local_28);
 jmp_f20:
-	*(int *)local_84 = (local_1c - local_2c);
-	local_24 = *(int *)local_84;
-	if (*(int *)local_84 <= arg_2) goto jmp_f42;
+	local_84 = (local_1c - local_2c);
+	local_24 = local_84;
+	if (local_84 <= arg_2) goto jmp_f42;
 	qsort(arg_0, (local_24 / arg_2), arg_2, arg_3);
 jmp_f42:
-	*(int *)local_8c = (local_30 - local_20);
-	local_24 = *(int *)local_8c;
-	if (*(int *)local_8c <= arg_2) goto jmp_f62;
+	local_8c = (local_30 - local_20);
+	local_24 = local_8c;
+	if (local_8c <= arg_2) goto jmp_f62;
 	arg_0 = (local_3c - local_24);
 	arg_1 = (local_24 / arg_2);
 	goto jmp_bb8;
@@ -7284,6 +7349,9 @@ strlen
 
 Address: 0xf64
 Stack Size: 0xc
+Opcodes Size: 0x1b
+Locals Count: 2
+
 Called by: Com_CharIsOneOfCharset, Info_SetValueForKey_Big, Info_SetValueForKey, Info_RemoveKey_Big, Info_RemoveKey, Info_ValueForKey, Com_TruncateLongString, Q_stristr, Q_strcat, Com_HexStrToInt, COM_CompareExtension, GraphicsOptions_SetMenuItems, UI_DriverInfo_Menu, ServerOptions_MenuInit, Prepname, SpecifyServer_Event, ArenaServers_StartRefresh, SpinControl_Init, Slider_Init, RadioButton_Init, Action_Init, Preferences_MenuInit, PlayerModel_SetMenuItems, PlayerModel_BuildList, PlayerModel_PicEvent, UI_Mods_LoadMods, UI_Mods_ParseInfos, MenuField_Init, MField_CharEvent, MField_KeyDownEvent, MField_Paste, MField_Draw, UI_MainMenu, UI_TeamArenaExists, Main_MenuDraw, LoadConfig_MenuInit, UI_LoadBots, UI_LoadArenas, UI_ParseInfos, Demos_MenuInit, UI_ReadableSize, UI_CDKeyMenu_PreValidateKey, UI_DrawString
 =================
 */
@@ -7305,6 +7373,9 @@ strcat
 
 Address: 0xf7f
 Stack Size: 0x18
+Opcodes Size: 0x47
+Locals Count: 6
+
 Called by: Info_SetValueForKey_Big, Info_SetValueForKey, ArenaServers_StartRefresh, Text_Draw, PlayerModel_SetMenuItems, PlayerModel_PicEvent, UI_LoadBots, UI_LoadArenas, Controls_DrawKeyBinding
 =================
 */
@@ -7341,6 +7412,9 @@ strcpy
 
 Address: 0xfc6
 Stack Size: 0x18
+Opcodes Size: 0x39
+Locals Count: 6
+
 Called by: Info_SetValueForKey, ServerOptions_SetMenuItems, ServerOptions_InitBotNames, StartServer_Update, UI_SPLevelMenu_SetMenuArena, SpecifyServer_Event, ArenaServers_SetType, ArenaServers_StartRefresh, ArenaServers_DoRefresh, ArenaServers_LoadFavorites, ArenaServers_UpdateMenu, Text_Draw, PlayerSettings_DrawPlayer, LoadConfig_MenuInit, UI_LoadBots, UI_LoadArenas, UI_ParseInfos, Controls_DrawPlayer, Controls_DrawKeyBinding
 =================
 */
@@ -7372,6 +7446,9 @@ strcmp
 
 Address: 0xfff
 Stack Size: 0x14
+Opcodes Size: 0x46
+Locals Count: 5
+
 Called by: Info_RemoveKey_Big, Info_RemoveKey, COM_MatchToken, GraphicsOptions_GetResolutions, PlayerSettings_DrawPlayer, PlayerModel_BuildList, UI_ParseInfos, Controls_DrawPlayer, Controls_GetCvarValue, Controls_GetCvarDefault
 =================
 */
@@ -7404,6 +7481,9 @@ strchr
 
 Address: 0x1045
 Stack Size: 0x8
+Opcodes Size: 0x30
+Locals Count: 2
+
 Called by: Info_SetValueForKey_Big, Info_SetValueForKey, Info_Validate, Info_RemoveKey_Big, Info_RemoveKey, GraphicsOptions_ApplyChanges, GraphicsOptions_GetResolutions, GraphicsOptions_GetAspectRatios, UI_RegisterClientModelname, PlayerModel_SetMenuItems
 =================
 */
@@ -7431,6 +7511,9 @@ strrchr
 
 Address: 0x1075
 Stack Size: 0xc
+Opcodes Size: 0x33
+Locals Count: 3
+
 Called by: COM_DefaultExtension, COM_StripExtension, COM_GetExtension, ServerPlayerIcon, PlayerIcon
 =================
 */
@@ -7460,27 +7543,31 @@ strstr
 
 Address: 0x10a8
 Stack Size: 0x10
+Opcodes Size: 0x4e
+Locals Count: 4
+
 Called by: PlayerModel_SetMenuItems, PlayerModel_PicEvent, UI_LoadArenas
 =================
 */
 int strstr(int arg_0, int arg_1) {
-	char	local_8[8];
+	int		local_8;
+	int		local_c;
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
 	goto jmp_10ec;
 jmp_10b3:
-	*(int *)local_8 = 0x0;
+	local_8 = 0x0;
 	goto jmp_10cf;
 jmp_10b8:
-	if ((char)*(char *)(*(int *)local_8 + arg_0) == (char)*(char *)(*(int *)local_8 + arg_1)) goto jmp_10c9;
+	if ((char)*(char *)(local_8 + arg_0) == (char)*(char *)(local_8 + arg_1)) goto jmp_10c9;
 	goto jmp_10d8;
 jmp_10c9:
-	*(int *)local_8 = (*(int *)local_8 + 0x1);
+	local_8 = (local_8 + 0x1);
 jmp_10cf:
-	if ((char)*(char *)(*(int *)local_8 + arg_1) != 0x0) goto jmp_10b8;
+	if ((char)*(char *)(local_8 + arg_1) != 0x0) goto jmp_10b8;
 jmp_10d8:
-	if ((char)*(char *)(*(int *)local_8 + arg_1) != 0x0) goto jmp_10e6;
+	if ((char)*(char *)(local_8 + arg_1) != 0x0) goto jmp_10e6;
 	return arg_0;
 jmp_10e6:
 	arg_0 = (arg_0 + 0x1);
@@ -7495,6 +7582,9 @@ tolower
 
 Address: 0x10f6
 Stack Size: 0xc
+Opcodes Size: 0x18
+Locals Count: 1
+
 Called by: Q_strlwr, Com_HexStrToInt, MField_KeyDownEvent, strtod
 =================
 */
@@ -7514,6 +7604,9 @@ toupper
 
 Address: 0x110e
 Stack Size: 0xc
+Opcodes Size: 0x18
+Locals Count: 1
+
 Called by: Q_strupr
 =================
 */
@@ -7533,31 +7626,35 @@ memmove
 
 Address: 0x1126
 Stack Size: 0x10
+Opcodes Size: 0x53
+Locals Count: 5
+
 Called by: Info_RemoveKey_Big, Info_RemoveKey, MField_CharEvent, MField_KeyDownEvent
 =================
 */
 int memmove(int arg_0, int arg_1, int arg_2) {
-	char	local_8[8];
+	int		local_8;
+	int		local_c;
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
 	arg_2 = arg_2;
 	if (arg_2 == 0x0) goto jmp_1174;
 	if (arg_0 <= arg_1) goto jmp_1158;
-	*(int *)local_8 = arg_2;
+	local_8 = arg_2;
 jmp_1140:
-	*(int *)local_8 = (*(int *)local_8 - 0x1);
-	*(char *)(*(int *)local_8 + arg_0) = *(char *)(*(int *)local_8 + arg_1);
-	if (*(int *)local_8 != 0x0) goto jmp_1140;
+	local_8 = (local_8 - 0x1);
+	*(char *)(local_8 + arg_0) = *(char *)(local_8 + arg_1);
+	if (local_8 != 0x0) goto jmp_1140;
 	goto jmp_1174;
 jmp_1158:
-	*(int *)local_8 = 0x0;
+	local_8 = 0x0;
 	goto jmp_116f;
 jmp_115d:
-	*(char *)(*(int *)local_8 + arg_0) = *(char *)(*(int *)local_8 + arg_1);
-	*(int *)local_8 = (*(int *)local_8 + 0x1);
+	*(char *)(local_8 + arg_0) = *(char *)(local_8 + arg_1);
+	local_8 = (local_8 + 0x1);
 jmp_116f:
-	if (*(int *)local_8 < arg_2) goto jmp_115d;
+	if (local_8 < arg_2) goto jmp_115d;
 jmp_1174:
 	return arg_0;
 }
@@ -7568,6 +7665,9 @@ powN
 
 Address: 0x1179
 Stack Size: 0x18
+Opcodes Size: 0x5f
+Locals Count: 4
+
 Calls: powN
 Called by: fmtfp, strtod, powN
 =================
@@ -7605,6 +7705,9 @@ tan
 
 Address: 0x11d8
 Stack Size: 0x14
+Opcodes Size: 0x17
+Locals Count: 3
+
 Calls: cos, sin
 Called by: UI_DrawPlayer
 =================
@@ -7624,6 +7727,9 @@ srand
 
 Address: 0x11ef
 Stack Size: 0x8
+Opcodes Size: 0x7
+Locals Count: 1
+
 =================
 */
 void srand(int arg_0) {
@@ -7637,6 +7743,9 @@ rand
 
 Address: 0x11f6
 Stack Size: 0xc
+Opcodes Size: 0x16
+Locals Count: 1
+
 Called by: UI_DrawPlayer
 =================
 */
@@ -7654,6 +7763,9 @@ atof
 
 Address: 0x120c
 Stack Size: 0x2c
+Opcodes Size: 0xc9
+Locals Count: 9
+
 Called by: Parse1DMatrix, UI_ParseAnimationFile
 =================
 */
@@ -7661,9 +7773,11 @@ int atof(int arg_0) {
 	int		local_8;
 	int		local_c;
 	int		local_10;
-	char	local_14[8];
+	int		local_14;
+	int		local_18;
 	int		local_1c;
-	char	local_20[12];
+	int		local_20;
+	char	local_24[8];
 
 	arg_0 = arg_0;
 	goto jmp_1223;
@@ -7674,9 +7788,9 @@ jmp_121d:
 	arg_0 = (arg_0 + 0x1);
 jmp_1223:
 	if ((char)*(char *)arg_0 <= 0x20) goto jmp_1213;
-	*(int *)local_14 = (char)*(char *)arg_0;
-	if (*(int *)local_14 == 0x2b) goto jmp_1239;
-	if (*(int *)local_14 == 0x2d) goto jmp_1244;
+	local_14 = (char)*(char *)arg_0;
+	if (local_14 == 0x2b) goto jmp_1239;
+	if (local_14 == 0x2d) goto jmp_1244;
 	goto jmp_124f;
 jmp_1239:
 	arg_0 = (arg_0 + 0x1);
@@ -7711,9 +7825,9 @@ jmp_1293:
 	if (local_8 != 0x2e) goto jmp_12cd;
 	local_1c = 0x3dcccccd;
 jmp_129a:
-	*(int *)local_20 = arg_0;
-	arg_0 = (*(int *)local_20 + 0x1);
-	local_8 = (char)*(char *)*(int *)local_20;
+	local_20 = arg_0;
+	arg_0 = (local_20 + 0x1);
+	local_8 = (char)*(char *)local_20;
 	if (local_8 < 0x30) goto jmp_12b2;
 	if (local_8 <= 0x39) goto jmp_12b4;
 jmp_12b2:
@@ -7733,6 +7847,9 @@ _atof
 
 Address: 0x12d5
 Stack Size: 0x30
+Opcodes Size: 0xcf
+Locals Count: 10
+
 Called by: sscanf
 =================
 */
@@ -7741,9 +7858,11 @@ int _atof(int arg_0) {
 	int		local_c;
 	int		local_10;
 	int		local_14;
-	char	local_18[8];
+	int		local_18;
+	int		local_1c;
 	int		local_20;
-	char	local_24[12];
+	int		local_24;
+	char	local_28[8];
 
 	arg_0 = arg_0;
 	local_8 = 0x30;
@@ -7757,9 +7876,9 @@ jmp_12f3:
 	local_c = (local_c + 0x1);
 jmp_12f9:
 	if ((char)*(char *)local_c <= 0x20) goto jmp_12e4;
-	*(int *)local_18 = (char)*(char *)local_c;
-	if (*(int *)local_18 == 0x2b) goto jmp_130f;
-	if (*(int *)local_18 == 0x2d) goto jmp_131a;
+	local_18 = (char)*(char *)local_c;
+	if (local_18 == 0x2b) goto jmp_130f;
+	if (local_18 == 0x2d) goto jmp_131a;
 	goto jmp_1325;
 jmp_130f:
 	local_c = (local_c + 0x1);
@@ -7790,9 +7909,9 @@ jmp_135d:
 	if (local_8 != 0x2e) goto jmp_1397;
 	local_20 = 0x3dcccccd;
 jmp_1364:
-	*(int *)local_24 = local_c;
-	local_c = (*(int *)local_24 + 0x1);
-	local_8 = (char)*(char *)*(int *)local_24;
+	local_24 = local_c;
+	local_c = (local_24 + 0x1);
+	local_8 = (char)*(char *)local_24;
 	if (local_8 < 0x30) goto jmp_137c;
 	if (local_8 <= 0x39) goto jmp_137e;
 jmp_137c:
@@ -7813,6 +7932,9 @@ strtod
 
 Address: 0x13a4
 Stack Size: 0x50
+Opcodes Size: 0x367
+Locals Count: 17
+
 Calls: powN, tolower, strtol, Q_stricmpn
 Called by: Q_isanumber
 =================
@@ -8037,6 +8159,9 @@ atoi
 
 Address: 0x170b
 Stack Size: 0x24
+Opcodes Size: 0x81
+Locals Count: 8
+
 Called by: GraphicsOptions_GetAspectRatios, UI_TeamOrdersMenu_f, UI_TeamOrdersMenu_BuildBotList, TeamMain_MenuInit, ServerOptions_Start, UI_SPPostgameMenu_f, UI_SPPostgameMenu_MenuDraw, UI_SPLevelMenu, UI_SPLevelMenu_Init, UI_SPLevelMenu_SetMenuItems, UI_SPArena_Start, ArenaServers_Insert, UI_RemoveBotsMenu_GetBots, UI_ParseAnimationFile, InGame_MenuInit, UI_GetCurrentGame, UI_CanShowTierVideo, UI_ShowTierVideo, UI_TierCompleted, UI_GetAwardLevel, UI_LogAwardData, UI_SetBestScore, UI_GetBestScore, UI_GetArenaInfoByNumber, UI_CinematicsMenu_f, UI_AddBotsMenu_Init
 =================
 */
@@ -8044,8 +8169,10 @@ int atoi(int arg_0) {
 	int		local_8;
 	int		local_c;
 	int		local_10;
-	char	local_14[8];
-	char	local_1c[8];
+	int		local_14;
+	int		local_18;
+	int		local_1c;
+	int		local_20;
 
 	arg_0 = arg_0;
 	goto jmp_1722;
@@ -8056,14 +8183,14 @@ jmp_171c:
 	arg_0 = (arg_0 + 0x1);
 jmp_1722:
 	if ((char)*(char *)arg_0 <= 0x20) goto jmp_1712;
-	*(int *)local_14 = (char)*(char *)arg_0;
-	if (*(int *)local_14 == 0x2b) goto jmp_1738;
-	if (*(int *)local_14 == 0x2d) goto jmp_1748;
+	local_14 = (char)*(char *)arg_0;
+	if (local_14 == 0x2b) goto jmp_1738;
+	if (local_14 == 0x2d) goto jmp_1748;
 	goto jmp_1753;
 jmp_1738:
-	*(int *)local_1c = 0x1;
-	arg_0 = (arg_0 + *(int *)local_1c);
-	local_10 = *(int *)local_1c;
+	local_1c = 0x1;
+	arg_0 = (arg_0 + local_1c);
+	local_10 = local_1c;
 	goto jmp_1756;
 jmp_1748:
 	arg_0 = (arg_0 + 0x1);
@@ -8074,9 +8201,9 @@ jmp_1753:
 jmp_1756:
 	local_c = 0x0;
 jmp_1759:
-	*(int *)local_1c = arg_0;
-	arg_0 = (*(int *)local_1c + 0x1);
-	local_8 = (char)*(char *)*(int *)local_1c;
+	local_1c = arg_0;
+	arg_0 = (local_1c + 0x1);
+	local_8 = (char)*(char *)local_1c;
 	if (local_8 < 0x30) goto jmp_1771;
 	if (local_8 <= 0x39) goto jmp_1773;
 jmp_1771:
@@ -8095,6 +8222,9 @@ _atoi
 
 Address: 0x178c
 Stack Size: 0x28
+Opcodes Size: 0x87
+Locals Count: 9
+
 Called by: sscanf
 =================
 */
@@ -8103,8 +8233,10 @@ int _atoi(int arg_0) {
 	int		local_c;
 	int		local_10;
 	int		local_14;
-	char	local_18[8];
-	char	local_20[8];
+	int		local_18;
+	int		local_1c;
+	int		local_20;
+	int		local_24;
 
 	local_c = *(int *)arg_0;
 	goto jmp_17a4;
@@ -8115,14 +8247,14 @@ jmp_179e:
 	local_c = (local_c + 0x1);
 jmp_17a4:
 	if ((char)*(char *)local_c <= 0x20) goto jmp_1794;
-	*(int *)local_18 = (char)*(char *)local_c;
-	if (*(int *)local_18 == 0x2b) goto jmp_17ba;
-	if (*(int *)local_18 == 0x2d) goto jmp_17ca;
+	local_18 = (char)*(char *)local_c;
+	if (local_18 == 0x2b) goto jmp_17ba;
+	if (local_18 == 0x2d) goto jmp_17ca;
 	goto jmp_17d5;
 jmp_17ba:
-	*(int *)local_20 = 0x1;
-	local_c = (local_c + *(int *)local_20);
-	local_14 = *(int *)local_20;
+	local_20 = 0x1;
+	local_c = (local_c + local_20);
+	local_14 = local_20;
 	goto jmp_17d8;
 jmp_17ca:
 	local_c = (local_c + 0x1);
@@ -8133,9 +8265,9 @@ jmp_17d5:
 jmp_17d8:
 	local_10 = 0x0;
 jmp_17db:
-	*(int *)local_20 = local_c;
-	local_c = (*(int *)local_20 + 0x1);
-	local_8 = (char)*(char *)*(int *)local_20;
+	local_20 = local_c;
+	local_c = (local_20 + 0x1);
+	local_8 = (char)*(char *)local_20;
 	if (local_8 < 0x30) goto jmp_17f3;
 	if (local_8 <= 0x39) goto jmp_17f5;
 jmp_17f3:
@@ -8155,12 +8287,16 @@ strtol
 
 Address: 0x1813
 Stack Size: 0x28
+Opcodes Size: 0x154
+Locals Count: 11
+
 Called by: strtod
 =================
 */
 int strtol(int arg_0, int arg_1, int arg_2) {
 	int		local_8;
-	char	local_c[8];
+	int		local_c;
+	int		local_10;
 	int		local_14;
 	int		local_18;
 	int		local_1c;
@@ -8170,7 +8306,7 @@ int strtol(int arg_0, int arg_1, int arg_2) {
 	arg_0 = arg_0;
 	arg_1 = arg_1;
 	arg_2 = arg_2;
-	*(int *)local_c = 0x1;
+	local_c = 0x1;
 	if (arg_1 == 0x0) goto jmp_182c;
 	*(int *)arg_1 = arg_0;
 jmp_182c:
@@ -8191,7 +8327,7 @@ jmp_1842:
 	if (local_14 == 0xb) goto jmp_183c;
 	if ((char)*(char *)arg_0 != 0x2d) goto jmp_1871;
 	arg_0 = (arg_0 + 0x1);
-	*(int *)local_c = 0x0;
+	local_c = 0x0;
 	goto jmp_187d;
 jmp_1871:
 	if ((char)*(char *)arg_0 != 0x2b) goto jmp_187d;
@@ -8259,7 +8395,7 @@ jmp_193f:
 jmp_194e:
 	goto jmp_18d5;
 jmp_1950:
-	if (*(int *)local_c == 0x0) goto jmp_1962;
+	if (local_c == 0x0) goto jmp_1962;
 	if (local_8 != 0x80000000) goto jmp_195d;
 	local_8 = 0x7fffffff;
 	goto jmp_1962;
@@ -8275,6 +8411,9 @@ abs
 
 Address: 0x1967
 Stack Size: 0xc
+Opcodes Size: 0x19
+Locals Count: 2
+
 =================
 */
 int abs(int arg_0) {
@@ -8296,6 +8435,9 @@ fabs
 
 Address: 0x1980
 Stack Size: 0xc
+Opcodes Size: 0x19
+Locals Count: 2
+
 Called by: PerpendicularVector, RadiusFromBounds, UI_SwingAngles, Controls_SetConfig, BG_TouchJumpPad
 =================
 */
@@ -8318,6 +8460,9 @@ dopr
 
 Address: 0x1999
 Stack Size: 0x13c
+Opcodes Size: 0x6ff
+Locals Count: 73
+
 Calls: fmtstr, fmtfp, fmtint, dopr_outch
 Called by: Q_vsnprintf
 =================
@@ -8335,11 +8480,14 @@ int dopr(int arg_0, int arg_1, int arg_2, int arg_3) {
 	int		local_4c;
 	int		local_50;
 	int		local_54;
-	char	local_58[8];
+	int		local_58;
+	int		local_5c;
 	int		local_60;
 	int		local_64;
-	char	local_68[8];
-	char	local_70[8];
+	int		local_68;
+	int		local_6c;
+	int		local_70;
+	int		local_74;
 	int		local_78;
 	int		local_7c;
 	int		local_80;
@@ -8348,8 +8496,10 @@ int dopr(int arg_0, int arg_1, int arg_2, int arg_3) {
 	int		local_8c;
 	int		local_90;
 	int		local_94;
-	char	local_98[8];
-	char	local_a0[8];
+	int		local_98;
+	int		local_9c;
+	int		local_a0;
+	int		local_a4;
 	int		local_a8;
 	int		local_ac;
 	int		local_b0;
@@ -8389,17 +8539,17 @@ int dopr(int arg_0, int arg_1, int arg_2, int arg_3) {
 	int		local_138;
 
 	arg_2 = arg_2;
-	*(int *)local_58 = 0x0;
-	local_28 = *(int *)local_58;
-	local_38 = *(int *)local_58;
-	local_34 = *(int *)local_58;
-	local_3c = *(int *)local_58;
-	local_44 = *(int *)local_58;
+	local_58 = 0x0;
+	local_28 = local_58;
+	local_38 = local_58;
+	local_34 = local_58;
+	local_3c = local_58;
+	local_44 = local_58;
 	local_30 = 0xffffffff;
 	local_54 = arg_2;
 	arg_2 = (local_54 + 0x1);
 	*(char *)&local_2c = *(char *)local_54;
-	local_40 = *(int *)local_58;
+	local_40 = local_58;
 	goto jmp_2084;
 jmp_19cd:
 	if ((char)*(char *)&local_2c != 0x0) goto jmp_19d5;
@@ -8419,14 +8569,14 @@ jmp_1a06:
 	arg_2 = (local_64 + 0x1);
 	*(char *)&local_2c = *(char *)local_64;
 	goto jmp_2084;
-	*(int *)local_68 = (char)*(char *)&local_2c;
-	*(int *)local_70 = 0x20;
-	if (*(int *)local_68 == *(int *)local_70) goto jmp_1a6e;
-	if (*(int *)local_68 == 0x23) goto jmp_1a85;
-	if (*(int *)local_68 < *(int *)local_70) goto jmp_1ab3;
-	if (*(int *)local_68 == 0x2b) goto jmp_1a57;
-	if (*(int *)local_68 == 0x2d) goto jmp_1a3b;
-	if (*(int *)local_68 == 0x30) goto jmp_1a9c;
+	local_68 = (char)*(char *)&local_2c;
+	local_70 = 0x20;
+	if (local_68 == local_70) goto jmp_1a6e;
+	if (local_68 == 0x23) goto jmp_1a85;
+	if (local_68 < local_70) goto jmp_1ab3;
+	if (local_68 == 0x2b) goto jmp_1a57;
+	if (local_68 == 0x2d) goto jmp_1a3b;
+	if (local_68 == 0x30) goto jmp_1a9c;
 	goto jmp_1ab3;
 jmp_1a3b:
 	local_7c = 0x1;
@@ -8540,9 +8690,9 @@ jmp_1bc6:
 	goto jmp_1bec;
 jmp_1bda:
 	local_34 = 0x4;
-	*(int *)local_98 = arg_2;
-	arg_2 = (*(int *)local_98 + 0x1);
-	*(char *)&local_2c = *(char *)*(int *)local_98;
+	local_98 = arg_2;
+	arg_2 = (local_98 + 0x1);
+	*(char *)&local_2c = *(char *)local_98;
 jmp_1bec:
 	if (local_34 == 0x2) goto jmp_1bf5;
 	local_28 = 0x7;
@@ -8563,15 +8713,15 @@ jmp_1c17:
 	goto jmp_2084;
 	local_90 = (char)*(char *)&local_2c;
 	if (local_90 == 0x45) goto jmp_1ea1;
-	*(int *)local_98 = 0x47;
-	if (local_90 == *(int *)local_98) goto jmp_1ef0;
-	if (local_90 > *(int *)local_98) goto jmp_1c38;
+	local_98 = 0x47;
+	if (local_90 == local_98) goto jmp_1ef0;
+	if (local_90 > local_98) goto jmp_1c38;
 	if (local_90 == 0x25) goto jmp_2037;
 	goto jmp_205f;
 jmp_1c38:
-	*(int *)local_a0 = 0x58;
-	if (local_90 == *(int *)local_a0) goto jmp_1dd1;
-	if (local_90 < *(int *)local_a0) goto jmp_205f;
+	local_a0 = 0x58;
+	if (local_90 == local_a0) goto jmp_1dd1;
+	if (local_90 < local_a0) goto jmp_205f;
 	if (local_90 < 0x63) goto jmp_205f;
 	if (local_90 > 0x78) goto jmp_205f;
 	goto *(int *)((local_90 << 0x2) + 0xb08);
@@ -8801,6 +8951,9 @@ fmtstr
 
 Address: 0x2098
 Stack Size: 0x38
+Opcodes Size: 0xe4
+Locals Count: 15
+
 Calls: dopr_outch
 Called by: dopr
 =================
@@ -8809,7 +8962,8 @@ int fmtstr(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4, int arg_5, int
 	int		local_18;
 	int		local_1c;
 	int		local_20;
-	char	local_24[8];
+	int		local_24;
+	int		local_28;
 	int		local_2c;
 	int		local_30;
 	int		local_34;
@@ -8819,7 +8973,7 @@ int fmtstr(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4, int arg_5, int
 	arg_2 = arg_2;
 	arg_3 = arg_3;
 	arg_6 = arg_6;
-	*(int *)local_24 = 0x0;
+	local_24 = 0x0;
 	local_1c = 0x0;
 	if (arg_3 != 0x0) goto jmp_20ba;
 	arg_3 = 0x49b2;
@@ -8857,12 +9011,12 @@ jmp_2118:
 #define next_call_arg_3 "(char)*(char *)local_2c"
 	local_30 = dopr_outch();
 	local_1c = (local_1c + local_30);
-	*(int *)local_24 = (*(int *)local_24 + 0x1);
+	local_24 = (local_24 + 0x1);
 jmp_2141:
 	local_2c = 0x0;
 	if ((char)*(char *)arg_3 == local_2c) goto jmp_2155;
 	if (arg_6 < local_2c) goto jmp_2118;
-	if (*(int *)local_24 < arg_6) goto jmp_2118;
+	if (local_24 < arg_6) goto jmp_2118;
 jmp_2155:
 	goto jmp_2173;
 jmp_2157:
@@ -8880,6 +9034,9 @@ fmtint
 
 Address: 0x217c
 Stack Size: 0x6c
+Opcodes Size: 0x1b7
+Locals Count: 23
+
 Calls: dopr_outch
 Called by: dopr
 =================
@@ -8894,7 +9051,8 @@ int fmtint(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4, int arg_5, int
 	int		local_44;
 	int		local_48;
 	int		local_4c;
-	char	local_50[12];
+	int		local_50;
+	char	local_54[8];
 	int		local_5c;
 	int		local_60;
 	int		local_64;
@@ -8953,12 +9111,12 @@ jmp_222e:
 	local_4c = local_18;
 jmp_2232:
 	if (local_48 == 0x0) goto jmp_223b;
-	*(int *)local_50 = 0x1;
+	local_50 = 0x1;
 	goto jmp_223e;
 jmp_223b:
-	*(int *)local_50 = 0x0;
+	local_50 = 0x0;
 jmp_223e:
-	local_1c = ((arg_5 - local_4c) - *(int *)local_50);
+	local_1c = ((arg_5 - local_4c) - local_50);
 	if (local_40 >= 0x0) goto jmp_224f;
 	local_40 = 0x0;
 jmp_224f:
@@ -9024,6 +9182,9 @@ abs_val
 
 Address: 0x2333
 Stack Size: 0xc
+Opcodes Size: 0x13
+Locals Count: 2
+
 Called by: fmtfp
 =================
 */
@@ -9043,19 +9204,23 @@ round
 
 Address: 0x2346
 Stack Size: 0x10
+Opcodes Size: 0x21
+Locals Count: 3
+
 Called by: fmtfp
 =================
 */
 int round(int arg_0) {
-	char	local_8[8];
+	int		local_8;
+	int		local_c;
 
 	arg_0 = arg_0;
-	*(int *)local_8 = (int)arg_0;
-	arg_0 = (arg_0 - (float)*(int *)local_8);
+	local_8 = (int)arg_0;
+	arg_0 = (arg_0 - (float)local_8);
 	if (arg_0 < 0x3f000000) goto jmp_2362;
-	*(int *)local_8 = (*(int *)local_8 + 0x1);
+	local_8 = (local_8 + 0x1);
 jmp_2362:
-	return *(int *)local_8;
+	return local_8;
 }
 
 /*
@@ -9064,6 +9229,9 @@ fmtfp
 
 Address: 0x2367
 Stack Size: 0xa0
+Opcodes Size: 0x2b1
+Locals Count: 33
+
 Calls: dopr_outch, round, powN, abs_val
 Called by: dopr
 =================
@@ -9264,6 +9432,9 @@ dopr_outch
 
 Address: 0x2618
 Stack Size: 0x10
+Opcodes Size: 0x29
+Locals Count: 6
+
 Called by: fmtfp, fmtint, fmtstr, dopr
 =================
 */
@@ -9287,6 +9458,9 @@ Q_vsnprintf
 
 Address: 0x2641
 Stack Size: 0x1c
+Opcodes Size: 0x16
+Locals Count: 5
+
 Calls: dopr
 Called by: va, Com_sprintf, COM_ParseWarning, COM_ParseError, Com_Printf, Com_Error
 =================
@@ -9304,16 +9478,21 @@ sscanf
 
 Address: 0x2657
 Stack Size: 0x60
+Opcodes Size: 0x13f
+Locals Count: 24
+
 Calls: _atof, _atoi
 =================
 */
-int sscanf(int arg_0, int arg_1, int arg_2) {
+int sscanf(int arg_0, int arg_1, ...) {
 	int		local_c;
 	int		local_10;
-	int		local_14;
-	char	local_18[8];
+	va_list	local_14;
+	int		local_18;
+	int		local_1c;
 	int		local_20;
-	char	local_24[8];
+	int		local_24;
+	int		local_28;
 	int		local_2c;
 	int		local_30;
 	int		local_34;
@@ -9328,8 +9507,8 @@ int sscanf(int arg_0, int arg_1, int arg_2) {
 	int		local_58;
 	int		local_5c;
 
-	local_14 = &arg_2;
-	*(int *)local_18 = 0x0;
+	va_start(local_14, arg_1);
+	local_18 = 0x0;
 	goto jmp_2788;
 jmp_2660:
 	if ((char)*(char *)arg_1 == 0x25) goto jmp_266e;
@@ -9348,11 +9527,11 @@ jmp_2696:
 	local_10 = 0x3ff;
 	arg_1 = (arg_1 + 0x1);
 jmp_269f:
-	*(int *)local_24 = 0x64;
-	if (local_c == *(int *)local_24) goto jmp_26be;
+	local_24 = 0x64;
+	if (local_c == local_24) goto jmp_26be;
 	if (local_c == 0x66) goto jmp_26d8;
 	if (local_c == 0x69) goto jmp_26be;
-	if (local_c < *(int *)local_24) goto jmp_2788;
+	if (local_c < local_24) goto jmp_2788;
 	if (local_c == 0x73) goto jmp_26f2;
 	if (local_c == 0x75) goto jmp_26be;
 	goto jmp_2788;
@@ -9409,8 +9588,8 @@ jmp_277a:
 	*(char *)local_5c = 0x0;
 jmp_2788:
 	if ((char)*(char *)arg_1 != 0x0) goto jmp_2660;
-	local_14 = 0x0;
-	return *(int *)local_18;
+	va_end(local_14);
+	return local_18;
 }
 
 /*
@@ -9419,6 +9598,9 @@ UI_AddBotsMenu_FightEvent
 
 Address: 0x2796
 Stack Size: 0x2c
+Opcodes Size: 0x42
+Locals Count: 5
+
 Calls: trap_Cmd_ExecuteText, va
 =================
 */
@@ -9446,6 +9628,9 @@ UI_AddBotsMenu_BotEvent
 
 Address: 0x27d8
 Stack Size: 0x8
+Opcodes Size: 0x22
+Locals Count: 2
+
 =================
 */
 void UI_AddBotsMenu_BotEvent(int arg_0, int arg_1) {
@@ -9465,6 +9650,9 @@ UI_AddBotsMenu_BackEvent
 
 Address: 0x27fa
 Stack Size: 0x8
+Opcodes Size: 0xc
+Locals Count: 1
+
 Calls: UI_PopMenu
 =================
 */
@@ -9483,6 +9671,9 @@ UI_AddBotsMenu_SetBotNames
 
 Address: 0x2806
 Stack Size: 0x24
+Opcodes Size: 0x3b
+Locals Count: 4
+
 Calls: Q_strncpyz, Info_ValueForKey, UI_GetBotInfoByNumber
 Called by: UI_AddBotsMenu_Init, UI_AddBotsMenu_DownEvent, UI_AddBotsMenu_UpEvent
 =================
@@ -9509,6 +9700,9 @@ UI_AddBotsMenu_UpEvent
 
 Address: 0x2841
 Stack Size: 0xc
+Opcodes Size: 0x1b
+Locals Count: 2
+
 Calls: UI_AddBotsMenu_SetBotNames
 =================
 */
@@ -9531,6 +9725,9 @@ UI_AddBotsMenu_DownEvent
 
 Address: 0x285c
 Stack Size: 0xc
+Opcodes Size: 0x1e
+Locals Count: 2
+
 Calls: UI_AddBotsMenu_SetBotNames
 =================
 */
@@ -9553,6 +9750,9 @@ UI_AddBotsMenu_SortCompare
 
 Address: 0x287a
 Stack Size: 0x3c
+Opcodes Size: 0x4a
+Locals Count: 13
+
 Calls: Q_stricmp, Info_ValueForKey, UI_GetBotInfoByNumber
 =================
 */
@@ -9589,20 +9789,24 @@ UI_AddBotsMenu_GetSortedBotNums
 
 Address: 0x28c4
 Stack Size: 0x20
+Opcodes Size: 0x28
+Locals Count: 2
+
 Calls: qsort
 Called by: UI_AddBotsMenu_Init
 =================
 */
 void UI_AddBotsMenu_GetSortedBotNums(void) {
-	char	local_18[8];
+	int		local_18;
+	int		local_1c;
 
-	*(int *)local_18 = 0x0;
+	local_18 = 0x0;
 	goto jmp_28d9;
 jmp_28ca:
-	*(int *)((*(int *)local_18 << 0x2) + 0xc274) = *(int *)local_18;
-	*(int *)local_18 = (*(int *)local_18 + 0x1);
+	*(int *)((local_18 << 0x2) + 0xc274) = local_18;
+	local_18 = (local_18 + 0x1);
 jmp_28d9:
-	if (*(int *)local_18 < bss_c264) goto jmp_28ca;
+	if (local_18 < bss_c264) goto jmp_28ca;
 	qsort(0xc274, bss_c264, 0x4, 0x287a);
 }
 
@@ -9612,6 +9816,9 @@ UI_AddBotsMenu_Init
 
 Address: 0x28ec
 Stack Size: 0x43c
+Opcodes Size: 0x22d
+Locals Count: 11
+
 Calls: trap_Cvar_VariableValue, memset, trap_GetConfigString, Menu_AddItem, UI_AddBotsMenu_SetBotNames, UI_AddBotsMenu_GetSortedBotNums, Com_Clamp, UI_GetNumBots, UI_AddBots_Cache, atoi, Info_ValueForKey
 Called by: UI_AddBotsMenu
 =================
@@ -9776,6 +9983,9 @@ UI_AddBots_Cache
 
 Address: 0x2b19
 Stack Size: 0xc
+Opcodes Size: 0x2b
+Locals Count: 0
+
 Calls: trap_R_RegisterShaderNoMip
 Called by: UI_Cache_f, UI_AddBotsMenu_Init
 =================
@@ -9798,6 +10008,9 @@ UI_AddBotsMenu
 
 Address: 0x2b44
 Stack Size: 0xc
+Opcodes Size: 0xb
+Locals Count: 0
+
 Calls: UI_PushMenu, UI_AddBotsMenu_Init
 Called by: InGame_Event
 =================
@@ -9814,17 +10027,20 @@ Com_Error
 
 Address: 0x2b4f
 Stack Size: 0x41c
+Opcodes Size: 0x1b
+Locals Count: 4
+
 Calls: trap_Error, Q_vsnprintf
 Called by: Info_SetValueForKey_Big, Info_SetValueForKey, Info_RemoveKey_Big, Info_RemoveKey, Info_ValueForKey, Q_strcat, Q_strncpyz, COM_MatchToken, BG_EvaluateTrajectoryDelta, BG_EvaluateTrajectory, BG_CanItemBeGrabbed, BG_FindItemForWeapon, BG_FindItemForHoldable
 =================
 */
-void Com_Error(, int arg_1, int arg_2) {
-	int		local_18;
+void Com_Error(, int arg_1, ...) {
+	va_list	local_18;
 	char	local_1c[1024];
 
-	local_18 = &arg_2;
+	va_start(local_18, arg_1);
 	Q_vsnprintf(local_1c, 0x400, arg_1, local_18);
-	local_18 = 0x0;
+	va_end(local_18);
 	trap_Error(local_1c);
 }
 
@@ -9834,17 +10050,20 @@ Com_Printf
 
 Address: 0x2b6a
 Stack Size: 0x41c
+Opcodes Size: 0x1b
+Locals Count: 4
+
 Calls: trap_Print, Q_vsnprintf
 Called by: Info_SetValueForKey_Big, Info_SetValueForKey, Com_sprintf, COM_ParseWarning, COM_ParseError, UI_RegisterClientModelname, UI_ParseAnimationFile, UI_ParseInfos, UI_SetActiveMenu
 =================
 */
-void Com_Printf(int arg_0, int arg_1) {
-	int		local_18;
+void Com_Printf(int arg_0, ...) {
+	va_list	local_18;
 	char	local_1c[1024];
 
-	local_18 = &arg_1;
+	va_start(local_18, arg_0);
 	Q_vsnprintf(local_1c, 0x400, arg_0, local_18);
-	local_18 = 0x0;
+	va_end(local_18);
 	trap_Print(local_1c);
 }
 
@@ -9854,6 +10073,9 @@ UI_ClampCvar
 
 Address: 0x2b85
 Stack Size: 0x8
+Opcodes Size: 0x1e
+Locals Count: 3
+
 Called by: Controls_GetConfig
 =================
 */
@@ -9875,6 +10097,9 @@ UI_StartDemoLoop
 
 Address: 0x2ba3
 Stack Size: 0x10
+Opcodes Size: 0xa
+Locals Count: 0
+
 Calls: trap_Cmd_ExecuteText
 =================
 */
@@ -9889,6 +10114,9 @@ UI_PushMenu
 
 Address: 0x2bad
 Stack Size: 0x20
+Opcodes Size: 0x9f
+Locals Count: 5
+
 Calls: trap_Key_SetCatcher, trap_Error, Menu_SetCursor
 Called by: UI_GraphicsOptionsMenu, UI_DriverInfo_Menu, UI_TeamOrdersMenu, UI_TeamMainMenu, UI_BotSelectMenu, UI_ServerOptionsMenu, UI_StartServerMenu, UI_SPSkillMenu, UI_SPPostgameMenu_f, UI_SPLevelMenu, UI_SpecifyServerMenu, UI_SoundOptionsMenu, UI_SetupMenu, UI_ArenaServersMenu, UI_ServerInfoMenu, UI_SaveConfigMenu, UI_RemoveBotsMenu, UI_PreferencesMenu, UI_PlayerSettingsMenu, UI_PlayerModelMenu, UI_SystemConfigMenu, UI_NetworkOptionsMenu, UI_ModsMenu, UI_MainMenu, UI_LoadConfigMenu, UI_InGameMenu, UI_DisplayOptionsMenu, UI_DemosMenu, UI_CreditMenu, UI_ControlsMenu, UI_Message, UI_ConfirmMenu_Style, UI_CinematicsMenu, UI_CDKeyMenu, UI_AddBotsMenu
 =================
@@ -9947,6 +10175,9 @@ UI_PopMenu
 
 Address: 0x2c4c
 Stack Size: 0x14
+Opcodes Size: 0x34
+Locals Count: 1
+
 Calls: trap_Error, trap_S_StartLocalSound, UI_ForceMenuOff
 Called by: GraphicsOptions_Event, DriverInfo_Event, UI_TeamOrdersMenu_ListEvent, UI_TeamOrdersMenu_BackEvent, UI_BotSelectMenu_SelectEvent, UI_BotSelectMenu_BackEvent, ServerOptions_Event, StartServer_MenuEvent, UI_SPSkillMenu_BackEvent, UI_SPPostgameMenu_MenuDraw, UI_SPPostgameMenu_MenuEvent, UI_SPPostgameMenu_NextEvent, UI_SPPostgameMenu_AgainEvent, UI_SPLevelMenu_MenuDraw, UI_SPLevelMenu_BackEvent, UI_SPLevelMenu_ResetAction, SpecifyServer_Event, UI_SoundOptionsMenu_Event, UI_SetupMenu_Event, ArenaServers_Event, ServerInfo_Event, UI_SaveConfigMenu_SaveEvent, UI_SaveConfigMenu_BackEvent, UI_RemoveBotsMenu_BackEvent, Menu_DefaultKey, Preferences_Event, PlayerSettings_MenuEvent, PlayerModel_MenuEvent, Options_Event, UI_NetworkOptionsMenu_Event, UI_Mods_MenuEvent, MainMenu_ExitAction, LoadConfig_MenuEvent, InGame_Event, InGame_QuitAction, InGame_RestartAction, UI_DisplayOptionsMenu_Event, Demos_MenuEvent, Controls_MenuEvent, ConfirmMenu_Event, UI_CinematicsMenu_BackEvent, UI_CDKeyMenu_Event, UI_AddBotsMenu_BackEvent
 =================
@@ -9975,6 +10206,9 @@ UI_ForceMenuOff
 
 Address: 0x2c80
 Stack Size: 0x14
+Opcodes Size: 0x1f
+Locals Count: 1
+
 Calls: trap_Cvar_Set, trap_Key_ClearStates, trap_Key_SetCatcher, trap_Key_GetCatcher
 Called by: TeamMain_MenuEvent, UI_SoundOptionsMenu_Event, Demos_MenuEvent, UI_SetActiveMenu, UI_PopMenu
 =================
@@ -9996,6 +10230,9 @@ UI_LerpColor
 
 Address: 0x2c9f
 Stack Size: 0x14
+Opcodes Size: 0x6b
+Locals Count: 7
+
 Called by: UI_DrawString
 =================
 */
@@ -10030,6 +10267,9 @@ UI_DrawBannerString2
 
 Address: 0x2d0a
 Stack Size: 0x68
+Opcodes Size: 0xca
+Locals Count: 18
+
 Calls: trap_R_DrawStretchPic, trap_R_SetColor
 Called by: UI_DrawBannerString
 =================
@@ -10047,7 +10287,8 @@ void UI_DrawBannerString2(int arg_0, int arg_1, int arg_2, int arg_3) {
 	int		local_50;
 	int		local_54;
 	int		local_58;
-	char	local_5c[12];
+	int		local_5c;
+	char	local_60[8];
 
 	trap_R_SetColor(arg_3);
 	local_34 = (((float)arg_0 * bss_107fc) + bss_10804);
@@ -10065,10 +10306,10 @@ jmp_2d41:
 	if (local_54 > 0x5a) goto jmp_2dc1;
 	*(char *)&local_2c = (*(char *)&local_2c - 0x41);
 	local_58 = (0xc * *(char *)&local_2c);
-	*(int *)local_5c = 0x43800000;
-	local_40 = ((float)*(int *)(local_58 + 0x1318) / *(int *)local_5c);
-	local_3c = ((float)*(int *)(local_58 + 0x131c) / *(int *)local_5c);
-	local_48 = ((float)*(int *)(local_58 + 0x1320) / *(int *)local_5c);
+	local_5c = 0x43800000;
+	local_40 = ((float)*(int *)(local_58 + 0x1318) / local_5c);
+	local_3c = ((float)*(int *)(local_58 + 0x131c) / local_5c);
+	local_48 = ((float)*(int *)(local_58 + 0x1320) / local_5c);
 	local_4c = 0x3e100000;
 	local_38 = ((float)*(int *)(local_58 + 0x1320) * bss_107fc);
 	local_44 = (0x42100000 * bss_10800);
@@ -10087,6 +10328,9 @@ UI_DrawBannerString
 
 Address: 0x2dd4
 Stack Size: 0x44
+Opcodes Size: 0xae
+Locals Count: 16
+
 Calls: UI_DrawBannerString2
 Called by: BText_Draw
 =================
@@ -10099,7 +10343,8 @@ void UI_DrawBannerString(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4) 
 	int		local_28;
 	int		local_2c;
 	int		local_30;
-	char	local_34[8];
+	int		local_34;
+	int		local_38;
 	int		local_3c;
 	int		local_40;
 
@@ -10120,10 +10365,10 @@ jmp_2e06:
 jmp_2e0c:
 	if ((char)*(char *)local_1c != 0x0) goto jmp_2dde;
 	local_20 = (local_20 - 0x4);
-	*(int *)local_34 = (arg_3 & 0x7);
-	if (*(int *)local_34 == 0x0) goto jmp_2e3e;
-	if (*(int *)local_34 == 0x1) goto jmp_2e2c;
-	if (*(int *)local_34 == 0x2) goto jmp_2e37;
+	local_34 = (arg_3 & 0x7);
+	if (local_34 == 0x0) goto jmp_2e3e;
+	if (local_34 == 0x1) goto jmp_2e2c;
+	if (local_34 == 0x2) goto jmp_2e37;
 	goto jmp_2e3e;
 jmp_2e2c:
 	arg_0 = (arg_0 - (local_20 / 0x2));
@@ -10149,6 +10394,9 @@ UI_ProportionalStringWidth
 
 Address: 0x2e82
 Stack Size: 0x18
+Opcodes Size: 0x43
+Locals Count: 5
+
 Called by: Prepname, PText_Init, UI_DisplayDownloadInfo, UI_Message, UI_ConfirmMenu_Style, UI_DrawProportionalString_AutoWrapped, UI_DrawProportionalString
 =================
 */
@@ -10181,6 +10429,9 @@ UI_DrawProportionalString2
 
 Address: 0x2ec5
 Stack Size: 0x68
+Opcodes Size: 0xd1
+Locals Count: 19
+
 Calls: trap_R_DrawStretchPic, trap_R_SetColor
 Called by: UI_DrawProportionalString
 =================
@@ -10197,7 +10448,8 @@ void UI_DrawProportionalString2(int arg_0, int arg_1, int arg_2, int arg_3, int 
 	int		local_4c;
 	int		local_50;
 	int		local_54;
-	char	local_58[16];
+	int		local_58;
+	char	local_5c[12];
 
 	arg_4 = arg_4;
 	local_34 = 0x0;
@@ -10214,10 +10466,10 @@ jmp_2eec:
 jmp_2f03:
 	if (*(int *)((0xc * *(char *)&local_2c) + 0xd20) == 0xffffffff) goto jmp_2f74;
 	local_54 = (0xc * *(char *)&local_2c);
-	*(int *)local_58 = 0x43800000;
-	local_40 = ((float)*(int *)(local_54 + 0xd18) / *(int *)local_58);
-	local_3c = ((float)*(int *)(local_54 + 0xd1c) / *(int *)local_58);
-	local_48 = ((float)*(int *)(local_54 + 0xd20) / *(int *)local_58);
+	local_58 = 0x43800000;
+	local_40 = ((float)*(int *)(local_54 + 0xd18) / local_58);
+	local_3c = ((float)*(int *)(local_54 + 0xd1c) / local_58);
+	local_48 = ((float)*(int *)(local_54 + 0xd20) / local_58);
 	local_4c = 0x3dd80000;
 	local_34 = (((float)*(int *)(local_54 + 0xd20) * bss_107fc) * arg_4);
 	local_44 = ((0x41d80000 * bss_10800) * arg_4);
@@ -10236,6 +10488,9 @@ UI_ProportionalSizeScale
 
 Address: 0x2f96
 Stack Size: 0x8
+Opcodes Size: 0xf
+Locals Count: 1
+
 Called by: PText_Init, UI_DisplayDownloadInfo, UI_DrawProportionalString_AutoWrapped, UI_DrawProportionalString
 =================
 */
@@ -10253,6 +10508,9 @@ UI_DrawProportionalString
 
 Address: 0x2fa5
 Stack Size: 0x54
+Opcodes Size: 0x178
+Locals Count: 18
+
 Calls: sin, UI_DrawProportionalString2, UI_ProportionalStringWidth, UI_ProportionalSizeScale
 Called by: UI_TeamOrdersMenu_ListDraw, UI_SPPostgameMenu_MenuDraw, UI_SPPostgameMenu_DrawAwardsPresentation, UI_SPLevelMenu_MenuDraw, UI_SPLevelMenu_ResetDraw, Setup_ResetDefaults_Draw, UI_SaveConfigMenu_SavenameDraw, PText_Draw, PlayerSettings_DrawEffects, PlayerSettings_DrawHandicap, PlayerSettings_DrawName, PlayerModel_DrawPlayer, Main_MenuDraw, UI_CreditMenu_Draw, UI_CreditMenu_Draw_ioq3, Controls_ResetDefaults_Draw, UI_DrawConnectScreen, UI_DisplayDownloadInfo, ConfirmMenu_Draw, MessageMenu_Draw, UI_CDKeyMenu_DrawKey, UI_DrawProportionalString_AutoWrapped
 =================
@@ -10265,9 +10523,11 @@ void UI_DrawProportionalString(int arg_0, int arg_1, int arg_2, int arg_3, int a
 	int		local_30;
 	int		local_34;
 	int		local_38;
-	char	local_3c[8];
+	int		local_3c;
+	int		local_40;
 	int		local_44;
-	char	local_48[8];
+	int		local_48;
+	int		local_4c;
 	int		local_50;
 
 	arg_0 = arg_0;
@@ -10280,10 +10540,10 @@ void UI_DrawProportionalString(int arg_0, int arg_1, int arg_2, int arg_3, int a
 jmp_2fc0:
 	local_38 = UI_ProportionalSizeScale(arg_3);
 	local_30 = local_38;
-	*(int *)local_3c = (arg_3 & 0x7);
-	if (*(int *)local_3c == 0x0) goto jmp_3011;
-	if (*(int *)local_3c == 0x1) goto jmp_2fdf;
-	if (*(int *)local_3c == 0x2) goto jmp_2ffa;
+	local_3c = (arg_3 & 0x7);
+	if (local_3c == 0x0) goto jmp_3011;
+	if (local_3c == 0x1) goto jmp_2fdf;
+	if (local_3c == 0x2) goto jmp_2ffa;
 	goto jmp_3011;
 jmp_2fdf:
 	local_44 = UI_ProportionalStringWidth(arg_2);
@@ -10291,8 +10551,8 @@ jmp_2fdf:
 	arg_0 = (arg_0 - (local_34 / 0x2));
 	goto jmp_3011;
 jmp_2ffa:
-	*(int *)local_48 = UI_ProportionalStringWidth(arg_2);
-	local_34 = (int)((float)*(int *)local_48 * local_30);
+	local_48 = UI_ProportionalStringWidth(arg_2);
+	local_34 = (int)((float)local_48 * local_30);
 	arg_0 = (arg_0 - local_34);
 jmp_3011:
 	if ((arg_3 & 0x800) == 0x0) goto jmp_304a;
@@ -10301,8 +10561,8 @@ jmp_3011:
 	local_24 = local_44;
 	local_20 = local_44;
 	local_2c = *(int *)(arg_4 + 0xc);
-	*(int *)local_48 = 0x2;
-	UI_DrawProportionalString2((arg_0 + *(int *)local_48), (arg_1 + *(int *)local_48), arg_2, &local_20, local_30, bss_107e4);
+	local_48 = 0x2;
+	UI_DrawProportionalString2((arg_0 + local_48), (arg_1 + local_48), arg_2, &local_20, local_30, bss_107e4);
 jmp_304a:
 	if ((arg_3 & 0x2000) == 0x0) goto jmp_308b;
 	local_44 = 0x3f333333;
@@ -10338,6 +10598,9 @@ UI_DrawProportionalString_AutoWrapped
 
 Address: 0x311d
 Stack Size: 0x44c
+Opcodes Size: 0xfc
+Locals Count: 19
+
 Calls: UI_DrawProportionalString, UI_ProportionalStringWidth, Q_strncpyz, UI_ProportionalSizeScale
 Called by: Main_MenuDraw, UI_DrawConnectScreen
 =================
@@ -10351,8 +10614,10 @@ void UI_DrawProportionalString_AutoWrapped(int arg_0, int arg_1, int arg_2, int 
 	int		local_30;
 	char	local_34[1028];
 	int		local_438;
-	char	local_43c[8];
-	char	local_444[8];
+	int		local_43c;
+	int		local_440;
+	int		local_444;
+	int		local_448;
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
@@ -10375,14 +10640,14 @@ jmp_3146:
 	goto jmp_3215;
 jmp_3166:
 	local_1c = (local_1c + 0x1);
-	*(int *)local_43c = (char)*(char *)local_1c;
-	if (*(int *)local_43c == 0x20) goto jmp_317a;
-	if (*(int *)local_43c != 0x0) goto jmp_3166;
+	local_43c = (char)*(char *)local_1c;
+	if (local_43c == 0x20) goto jmp_317a;
+	if (local_43c != 0x0) goto jmp_3166;
 jmp_317a:
 	*(char *)&local_24 = *(char *)local_1c;
 	*(char *)local_1c = 0x0;
-	*(int *)local_444 = UI_ProportionalStringWidth(local_28);
-	local_2c = (int)((float)*(int *)local_444 * local_30);
+	local_444 = UI_ProportionalStringWidth(local_28);
+	local_2c = (int)((float)local_444 * local_30);
 	*(char *)local_1c = *(char *)&local_24;
 	if (local_2c <= arg_2) goto jmp_31f8;
 	if (local_28 != local_20) goto jmp_31a6;
@@ -10417,6 +10682,9 @@ UI_DrawString2
 
 Address: 0x3219
 Stack Size: 0x74
+Opcodes Size: 0xdf
+Locals Count: 21
+
 Calls: trap_R_DrawStretchPic, memcpy, trap_R_SetColor, Q_IsColorString
 Called by: UI_DrawString
 =================
@@ -10435,7 +10703,8 @@ void UI_DrawString2(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4, int a
 	int		local_5c;
 	int		local_60;
 	int		local_64;
-	char	local_68[12];
+	int		local_68;
+	char	local_6c[8];
 
 	arg_3 = arg_3;
 	local_54 = 0x0;
@@ -10463,9 +10732,9 @@ jmp_3291:
 	*(char *)&local_30 = ((char)*(char *)local_2c & 0xff);
 	if ((char)*(char *)&local_30 == 0x20) goto jmp_32de;
 	local_64 = 0x3d800000;
-	*(int *)local_68 = (char)*(char *)&local_30;
-	local_3c = (local_64 * (float)(*(int *)local_68 >> 0x4));
-	local_40 = (local_64 * (float)(*(int *)local_68 & 0xf));
+	local_68 = (char)*(char *)&local_30;
+	local_3c = (local_64 * (float)(local_68 >> 0x4));
+	local_40 = (local_64 * (float)(local_68 & 0xf));
 	trap_R_DrawStretchPic(local_34, local_58, local_38, local_5c, local_40, local_3c, (local_40 + local_64), (local_3c + local_64), bss_107e0);
 jmp_32de:
 	local_34 = (local_34 + local_38);
@@ -10482,6 +10751,9 @@ UI_DrawString
 
 Address: 0x32f8
 Stack Size: 0x74
+Opcodes Size: 0x12a
+Locals Count: 23
+
 Calls: sin, UI_DrawString2, strlen, UI_LerpColor
 Called by: DriverInfo_MenuDraw, PlayerName_Draw, ServerOptions_LevelshotDraw, ServerOptions_StatusBar, StartServer_LevelshotDraw, UI_SPPostgameMenu_MenuDrawScoreLine, UI_SPPostgameMenu_DrawAwardsMedals, UI_SPLevelMenu_MenuDraw, ServerInfo_MenuDraw, ScrollList_Draw, SpinControl_Draw, Slider_Draw, RadioButton_Draw, Action_Draw, Text_Draw, Crosshair_Draw, MenuField_Draw, MField_Draw, Main_MenuDraw, UI_CreditMenu_Draw, UI_CreditMenu_Draw_ioq3, Controls_StatusBar, Controls_DrawKeyBinding, UI_CDKeyMenu_DrawKey, UI_Refresh, UI_DrawChar
 =================
@@ -10501,7 +10773,8 @@ void UI_DrawString(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4) {
 	char	local_4c[16];
 	int		local_5c;
 	int		local_60;
-	char	local_64[8];
+	int		local_64;
+	int		local_68;
 	int		local_6c;
 	int		local_70;
 
@@ -10525,14 +10798,14 @@ jmp_332a:
 	local_24 = 0x30;
 	goto jmp_3343;
 jmp_3338:
-	*(int *)local_64 = 0x10;
-	local_20 = *(int *)local_64;
-	local_24 = *(int *)local_64;
+	local_64 = 0x10;
+	local_20 = local_64;
+	local_24 = local_64;
 jmp_3343:
 	if ((arg_3 & 0x4000) == 0x0) goto jmp_3390;
-	*(int *)local_64 = 0x3f4ccccd;
-	local_28 = (*(int *)local_64 * *(int *)arg_4);
-	local_2c = (*(int *)local_64 * *(int *)(arg_4 + 0x4));
+	local_64 = 0x3f4ccccd;
+	local_28 = (local_64 * *(int *)arg_4);
+	local_2c = (local_64 * *(int *)(arg_4 + 0x4));
 	local_30 = (0x3f4ccccd * *(int *)(arg_4 + 0x8));
 	local_34 = (0x3f4ccccd * *(int *)(arg_4 + 0xc));
 	local_6c = sin((float)(bss_db58 / 0x4b));
@@ -10542,9 +10815,9 @@ jmp_3343:
 jmp_3390:
 	local_38 = arg_4;
 jmp_3394:
-	*(int *)local_64 = (arg_3 & 0x7);
-	if (*(int *)local_64 == 0x1) goto jmp_33a4;
-	if (*(int *)local_64 == 0x2) goto jmp_33bd;
+	local_64 = (arg_3 & 0x7);
+	if (local_64 == 0x1) goto jmp_33a4;
+	if (local_64 == 0x2) goto jmp_33bd;
 	goto jmp_33d2;
 jmp_33a4:
 	local_6c = strlen(arg_2);
@@ -10575,6 +10848,9 @@ UI_DrawChar
 
 Address: 0x3422
 Stack Size: 0x20
+Opcodes Size: 0x1b
+Locals Count: 7
+
 Calls: UI_DrawString
 Called by: PlayerName_Draw, SpinControl_Draw, RadioButton_Draw, Action_Draw, Crosshair_Draw, PlayerSettings_DrawName, MenuField_Draw, MField_Draw, Controls_DrawKeyBinding, UI_CDKeyMenu_DrawKey
 =================
@@ -10594,6 +10870,9 @@ UI_IsFullscreen
 
 Address: 0x343d
 Stack Size: 0xc
+Opcodes Size: 0x1b
+Locals Count: 1
+
 Calls: trap_Key_GetCatcher
 Called by: vmMain
 =================
@@ -10615,6 +10894,9 @@ NeedCDAction
 
 Address: 0x3458
 Stack Size: 0x10
+Opcodes Size: 0xe
+Locals Count: 1
+
 Calls: trap_Cmd_ExecuteText
 =================
 */
@@ -10631,6 +10913,9 @@ NeedCDKeyAction
 
 Address: 0x3466
 Stack Size: 0x10
+Opcodes Size: 0xe
+Locals Count: 1
+
 Calls: trap_Cmd_ExecuteText
 =================
 */
@@ -10647,18 +10932,22 @@ UI_SetActiveMenu
 
 Address: 0x3474
 Stack Size: 0x1c
+Opcodes Size: 0x4e
+Locals Count: 3
+
 Calls: trap_Cvar_Set, Com_Printf, UI_InGameMenu, UI_ConfirmMenu, UI_MainMenu, UI_ForceMenuOff, Menu_Cache
 Called by: vmMain
 =================
 */
 void UI_SetActiveMenu(int arg_0) {
-	char	local_14[8];
+	int		local_14;
+	int		local_18;
 
 	Menu_Cache();
-	*(int *)local_14 = arg_0;
-	if (*(int *)local_14 < 0x0) goto jmp_34b8;
-	if (*(int *)local_14 > 0x6) goto jmp_34b8;
-	goto *(int *)((*(int *)local_14 << 0x2) + 0x1450);
+	local_14 = arg_0;
+	if (local_14 < 0x0) goto jmp_34b8;
+	if (local_14 > 0x6) goto jmp_34b8;
+	goto *(int *)((local_14 << 0x2) + 0x1450);
 	UI_ForceMenuOff();
 	goto jmp_34c0;
 	UI_MainMenu();
@@ -10681,6 +10970,9 @@ UI_KeyEvent
 
 Address: 0x34c2
 Stack Size: 0x20
+Opcodes Size: 0x46
+Locals Count: 6
+
 Calls: trap_S_StartLocalSound, Menu_DefaultKey
 Called by: vmMain
 =================
@@ -10688,7 +10980,8 @@ Called by: vmMain
 void UI_KeyEvent(int arg_0, int arg_1) {
 	int		local_10;
 	int		local_14;
-	char	local_18[8];
+	int		local_18;
+	int		local_1c;
 
 	if (bss_db68 != 0x0) goto jmp_34c9;
 	goto jmp_3506;
@@ -10701,8 +10994,8 @@ jmp_34cf:
 	local_10 = local_14;
 	goto jmp_34f5;
 jmp_34e7:
-	*(int *)local_18 = Menu_DefaultKey(bss_db68, arg_0);
-	local_10 = *(int *)local_18;
+	local_18 = Menu_DefaultKey(bss_db68, arg_0);
+	local_10 = local_18;
 jmp_34f5:
 	if (local_10 <= 0x0) goto jmp_3506;
 	if (local_10 == menu_null_sound) goto jmp_3506;
@@ -10716,6 +11009,9 @@ UI_MouseEvent
 
 Address: 0x3508
 Stack Size: 0x2c
+Opcodes Size: 0x118
+Locals Count: 9
+
 Calls: trap_S_StartLocalSound, Menu_SetCursor
 Called by: UI_Refresh, vmMain
 =================
@@ -10791,6 +11087,9 @@ UI_Argv
 
 Address: 0x3620
 Stack Size: 0x14
+Opcodes Size: 0xf
+Locals Count: 1
+
 Calls: trap_Argv
 Called by: UI_SPPostgameMenu_f, UI_CinematicsMenu_f, UI_ConsoleCommand
 =================
@@ -10807,6 +11106,9 @@ UI_Cvar_VariableString
 
 Address: 0x362f
 Stack Size: 0x14
+Opcodes Size: 0xf
+Locals Count: 1
+
 Calls: trap_Cvar_VariableStringBuffer
 Called by: GraphicsOptions_SetMenuItems, ServerOptions_SetMenuItems, PlayerSettings_SetMenuItems, Controls_InitModel
 =================
@@ -10823,6 +11125,9 @@ UI_Cache_f
 
 Address: 0x363e
 Stack Size: 0x8
+Opcodes Size: 0x5a
+Locals Count: 0
+
 Calls: UI_ModsMenu_Cache, UI_CDKeyMenu_Cache, UI_BotSelectMenu_Cache, UI_SetupMenu_Cache, UI_RemoveBots_Cache, UI_AddBots_Cache, TeamMain_Cache, UI_SPPostgameMenu_Cache, UI_SPSkillMenu_Cache, UI_SPLevelMenu_Cache, UI_NetworkOptionsMenu_Cache, UI_SoundOptionsMenu_Cache, UI_DisplayOptionsMenu_Cache, GraphicsOptions_Cache, DriverInfo_Cache, ServerOptions_Cache, StartServer_Cache, ArenaServers_Cache, SpecifyServer_Cache, ServerInfo_Cache, Preferences_Cache, UI_CinematicsMenu_Cache, Demos_Cache, Controls_Cache, PlayerSettings_Cache, PlayerModel_Cache, ConfirmMenu_Cache, InGame_Cache, MainMenu_Cache
 Called by: UI_ConsoleCommand
 =================
@@ -10866,6 +11171,9 @@ UI_ConsoleCommand
 
 Address: 0x3698
 Stack Size: 0x3c
+Opcodes Size: 0xc1
+Locals Count: 12
+
 Calls: UI_CDKeyMenu_f, UI_SPUnlockMedals_f, UI_SPUnlock_f, UI_TeamOrdersMenu_f, UI_CinematicsMenu_f, UI_Cache_f, UI_SPPostgameMenu_f, UI_SPLevelMenu_f, Q_stricmp, Menu_Cache, UI_Argv
 Called by: vmMain
 =================
@@ -10938,6 +11246,9 @@ UI_Shutdown
 
 Address: 0x3759
 Stack Size: 0x8
+Opcodes Size: 0x3
+Locals Count: 0
+
 Called by: vmMain
 =================
 */
@@ -10951,6 +11262,9 @@ UI_Init
 
 Address: 0x375c
 Stack Size: 0xc
+Opcodes Size: 0x44
+Locals Count: 0
+
 Calls: trap_GetGlconfig, Menu_Cache, UI_InitGameinfo, UI_RegisterCvars
 Called by: vmMain
 =================
@@ -10980,6 +11294,9 @@ UI_AdjustFrom640
 
 Address: 0x37a0
 Stack Size: 0x18
+Opcodes Size: 0x3a
+Locals Count: 8
+
 Called by: UI_DrawPlayer, Main_MenuDraw, UI_DrawRect, UI_FillRect, UI_DrawHandlePic, UI_DrawNamedPic
 =================
 */
@@ -11005,6 +11322,9 @@ UI_DrawNamedPic
 
 Address: 0x37da
 Stack Size: 0x3c
+Opcodes Size: 0x3d
+Locals Count: 9
+
 Calls: trap_R_DrawStretchPic, trap_R_RegisterShaderNoMip, UI_AdjustFrom640
 Called by: UI_SPPostgameMenu_DrawAwardsMedals, ConfirmMenu_Draw, MessageMenu_Draw
 =================
@@ -11038,6 +11358,9 @@ UI_DrawHandlePic
 
 Address: 0x3817
 Stack Size: 0x3c
+Opcodes Size: 0x5a
+Locals Count: 9
+
 Calls: trap_R_DrawStretchPic, UI_AdjustFrom640
 Called by: StartServer_LevelshotDraw, UI_SPLevelMenu_MenuDraw, Slider_Draw, RadioButton_Draw, Bitmap_Draw, Crosshair_Draw, PlayerSettings_DrawEffects, UI_DrawConnectScreen, UI_Refresh
 =================
@@ -11076,6 +11399,9 @@ UI_FillRect
 
 Address: 0x3871
 Stack Size: 0x30
+Opcodes Size: 0x3a
+Locals Count: 6
+
 Calls: trap_R_DrawStretchPic, trap_R_SetColor, UI_AdjustFrom640
 Called by: PlayerName_Draw, ServerOptions_LevelshotDraw, StartServer_LevelshotDraw, UI_SPLevelMenu_MenuDraw, UI_SaveConfigMenu_SavenameDraw, ScrollList_Draw, SpinControl_Draw, RadioButton_Draw, Crosshair_Draw, MenuField_Draw, Controls_DrawKeyBinding, UI_CDKeyMenu_DrawKey, UI_DrawTextBox
 =================
@@ -11105,6 +11431,9 @@ UI_DrawRect
 
 Address: 0x38ab
 Stack Size: 0x44
+Opcodes Size: 0xad
+Locals Count: 11
+
 Calls: trap_R_DrawStretchPic, trap_R_SetColor, UI_AdjustFrom640
 Called by: Menu_Draw, UI_DrawTextBox
 =================
@@ -11174,6 +11503,9 @@ UI_SetColor
 
 Address: 0x3958
 Stack Size: 0xc
+Opcodes Size: 0x9
+Locals Count: 1
+
 Calls: trap_R_SetColor
 Called by: Slider_Draw, UI_DrawConnectScreen, UI_Refresh
 =================
@@ -11189,6 +11521,9 @@ UI_UpdateScreen
 
 Address: 0x3961
 Stack Size: 0x8
+Opcodes Size: 0x6
+Locals Count: 0
+
 Calls: trap_UpdateScreen
 =================
 */
@@ -11203,6 +11538,9 @@ UI_Refresh
 
 Address: 0x3967
 Stack Size: 0x34
+Opcodes Size: 0xdb
+Locals Count: 7
+
 Calls: trap_S_StartLocalSound, trap_Key_GetCatcher, UI_DrawString, va, UI_SetColor, UI_MouseEvent, Menu_Draw, UI_DrawHandlePic, UI_UpdateCvars
 Called by: vmMain
 =================
@@ -11270,6 +11608,9 @@ UI_DrawTextBox
 
 Address: 0x3a42
 Stack Size: 0x34
+Opcodes Size: 0x63
+Locals Count: 10
+
 Calls: UI_DrawRect, UI_FillRect
 =================
 */
@@ -11307,6 +11648,9 @@ UI_CursorInRect
 
 Address: 0x3aa5
 Stack Size: 0x10
+Opcodes Size: 0x2b
+Locals Count: 6
+
 Called by: UI_TeamOrdersMenu_Key, ScrollList_Key
 =================
 */
@@ -11332,18 +11676,22 @@ UI_CDKeyMenu_Event
 
 Address: 0x3ad0
 Stack Size: 0x14
+Opcodes Size: 0x2c
+Locals Count: 4
+
 Calls: trap_SetCDKey, UI_PopMenu
 =================
 */
 void UI_CDKeyMenu_Event(int arg_0, int arg_1) {
-	char	local_c[8];
+	int		local_c;
+	int		local_10;
 
 	if (arg_1 == 0x3) goto jmp_3ad7;
 	goto jmp_3afa;
 jmp_3ad7:
-	*(int *)local_c = *(int *)(arg_0 + 0x8);
-	if (*(int *)local_c == 0xb) goto jmp_3ae8;
-	if (*(int *)local_c == 0xc) goto jmp_3af7;
+	local_c = *(int *)(arg_0 + 0x8);
+	if (local_c == 0xb) goto jmp_3ae8;
+	if (local_c == 0xc) goto jmp_3af7;
 	goto jmp_3afa;
 jmp_3ae8:
 	if ((char)*(char *)bss_10a1c == 0x0) goto jmp_3af2;
@@ -11362,6 +11710,9 @@ UI_CDKeyMenu_PreValidateKey
 
 Address: 0x3afc
 Stack Size: 0x24
+Opcodes Size: 0x5e
+Locals Count: 7
+
 Calls: strlen
 Called by: UI_CDKeyMenu_DrawKey
 =================
@@ -11371,7 +11722,8 @@ int UI_CDKeyMenu_PreValidateKey(int arg_0) {
 	int		local_10;
 	int		local_14;
 	int		local_18;
-	char	local_1c[8];
+	int		local_1c;
+	int		local_20;
 
 	arg_0 = arg_0;
 	local_10 = strlen(arg_0);
@@ -11379,11 +11731,11 @@ int UI_CDKeyMenu_PreValidateKey(int arg_0) {
 	return 0x1;
 jmp_3b10:
 	local_14 = (char)*(char *)&local_c;
-	*(int *)local_1c = 0x32;
-	if (local_14 == *(int *)local_1c) goto jmp_3b3e;
+	local_1c = 0x32;
+	if (local_14 == local_1c) goto jmp_3b3e;
 	if (local_14 == 0x33) goto jmp_3b3e;
 	if (local_14 == 0x37) goto jmp_3b3e;
-	if (local_14 < *(int *)local_1c) goto jmp_3b3a;
+	if (local_14 < local_1c) goto jmp_3b3a;
 	if (local_14 < 0x61) goto jmp_3b3a;
 	if (local_14 > 0x77) goto jmp_3b3a;
 	goto *(int *)((local_14 << 0x2) + 0x12e8);
@@ -11404,6 +11756,9 @@ UI_CDKeyMenu_DrawKey
 
 Address: 0x3b5a
 Stack Size: 0x4c
+Opcodes Size: 0xd8
+Locals Count: 13
+
 Calls: trap_Key_GetOverstrikeMode, UI_DrawProportionalString, UI_CDKeyMenu_PreValidateKey, UI_DrawChar, UI_DrawString, UI_FillRect
 =================
 */
@@ -11416,18 +11771,19 @@ void UI_CDKeyMenu_DrawKey(int arg_0) {
 	int		local_30;
 	int		local_34;
 	int		local_38;
-	char	local_3c[8];
+	int		local_3c;
+	int		local_40;
 	int		local_44;
 	int		local_48;
 
 	local_1c = arg_0;
 	if (*(int *)*(int *)(local_1c + 0x24) != *(int *)(local_1c + 0x28)) goto jmp_3b70;
-	*(int *)local_3c = 0x1;
+	local_3c = 0x1;
 	goto jmp_3b73;
 jmp_3b70:
-	*(int *)local_3c = 0x0;
+	local_3c = 0x0;
 jmp_3b73:
-	local_2c = *(int *)local_3c;
+	local_2c = local_3c;
 	local_44 = 0x0;
 	local_20 = local_44;
 	if (local_2c == local_44) goto jmp_3b88;
@@ -11472,6 +11828,9 @@ UI_CDKeyMenu_Init
 
 Address: 0x3c32
 Stack Size: 0x18
+Opcodes Size: 0xd7
+Locals Count: 1
+
 Calls: trap_VerifyCDKey, trap_GetCDKey, memset, trap_Cvar_Set, Menu_AddItem, UI_CDKeyMenu_Cache
 Called by: UI_CDKeyMenu
 =================
@@ -11545,6 +11904,9 @@ UI_CDKeyMenu_Cache
 
 Address: 0x3d09
 Stack Size: 0xc
+Opcodes Size: 0x1c
+Locals Count: 0
+
 Calls: trap_R_RegisterShaderNoMip
 Called by: UI_CDKeyMenu_Init, UI_Cache_f
 =================
@@ -11564,6 +11926,9 @@ UI_CDKeyMenu
 
 Address: 0x3d25
 Stack Size: 0xc
+Opcodes Size: 0xb
+Locals Count: 0
+
 Calls: UI_PushMenu, UI_CDKeyMenu_Init
 Called by: UI_SetupMenu_Event, UI_MainMenu, UI_CDKeyMenu_f
 =================
@@ -11580,6 +11945,9 @@ UI_CDKeyMenu_f
 
 Address: 0x3d30
 Stack Size: 0x8
+Opcodes Size: 0x6
+Locals Count: 0
+
 Calls: UI_CDKeyMenu
 Called by: UI_ConsoleCommand
 =================
@@ -11595,6 +11963,9 @@ UI_CinematicsMenu_BackEvent
 
 Address: 0x3d36
 Stack Size: 0x8
+Opcodes Size: 0xc
+Locals Count: 1
+
 Calls: UI_PopMenu
 =================
 */
@@ -11613,6 +11984,9 @@ UI_CinematicsMenu_Event
 
 Address: 0x3d42
 Stack Size: 0x1c
+Opcodes Size: 0x4d
+Locals Count: 5
+
 Calls: trap_Cmd_ExecuteText, trap_Cvar_Set, va
 =================
 */
@@ -11643,6 +12017,9 @@ UI_CinematicsMenu_Init
 
 Address: 0x3d8f
 Stack Size: 0x3c
+Opcodes Size: 0x2d6
+Locals Count: 10
+
 Calls: memset, Menu_AddItem, UI_CanShowTierVideo, UI_CinematicsMenu_Cache
 Called by: UI_CinematicsMenu
 =================
@@ -11858,6 +12235,9 @@ UI_CinematicsMenu_Cache
 
 Address: 0x4065
 Stack Size: 0xc
+Opcodes Size: 0x17
+Locals Count: 0
+
 Calls: trap_R_RegisterShaderNoMip
 Called by: UI_CinematicsMenu_Init, UI_Cache_f
 =================
@@ -11876,6 +12256,9 @@ UI_CinematicsMenu
 
 Address: 0x407c
 Stack Size: 0xc
+Opcodes Size: 0xb
+Locals Count: 0
+
 Calls: UI_PushMenu, UI_CinematicsMenu_Init
 Called by: Main_MenuEvent, UI_CinematicsMenu_f
 =================
@@ -11892,6 +12275,9 @@ UI_CinematicsMenu_f
 
 Address: 0x4087
 Stack Size: 0x1c
+Opcodes Size: 0x24
+Locals Count: 3
+
 Calls: Menu_SetCursorToItem, UI_CinematicsMenu, atoi, UI_Argv
 Called by: UI_ConsoleCommand
 =================
@@ -11914,6 +12300,9 @@ ConfirmMenu_Event
 
 Address: 0x40ab
 Stack Size: 0x10
+Opcodes Size: 0x26
+Locals Count: 3
+
 Calls: UI_PopMenu
 Called by: ConfirmMenu_Key
 =================
@@ -11942,29 +12331,35 @@ ConfirmMenu_Key
 
 Address: 0x40d1
 Stack Size: 0x30
+Opcodes Size: 0x69
+Locals Count: 8
+
 Calls: Menu_DefaultKey, ConfirmMenu_Event
 =================
 */
 int ConfirmMenu_Key(int arg_0) {
-	char	local_14[8];
-	char	local_1c[8];
-	char	local_24[8];
+	int		local_14;
+	int		local_18;
+	int		local_1c;
+	int		local_20;
+	int		local_24;
+	int		local_28;
 	int		local_2c;
 
 	arg_0 = arg_0;
-	*(int *)local_14 = 0x6e;
-	if (arg_0 == *(int *)local_14) goto jmp_411c;
-	if (arg_0 > *(int *)local_14) goto jmp_40f6;
-	*(int *)local_1c = 0x4e;
-	if (arg_0 == *(int *)local_1c) goto jmp_411c;
-	if (arg_0 < *(int *)local_1c) goto jmp_412c;
+	local_14 = 0x6e;
+	if (arg_0 == local_14) goto jmp_411c;
+	if (arg_0 > local_14) goto jmp_40f6;
+	local_1c = 0x4e;
+	if (arg_0 == local_1c) goto jmp_411c;
+	if (arg_0 < local_1c) goto jmp_412c;
 	if (arg_0 == 0x59) goto jmp_4125;
 	goto jmp_412c;
 jmp_40f6:
 	if (arg_0 == 0x86) goto jmp_4117;
-	*(int *)local_24 = 0x87;
-	if (arg_0 == *(int *)local_24) goto jmp_4117;
-	if (arg_0 > *(int *)local_24) goto jmp_410d;
+	local_24 = 0x87;
+	if (arg_0 == local_24) goto jmp_4117;
+	if (arg_0 > local_24) goto jmp_410d;
 	if (arg_0 == 0x79) goto jmp_4125;
 	goto jmp_412c;
 jmp_410d:
@@ -11990,6 +12385,9 @@ MessageMenu_Draw
 
 Address: 0x413a
 Stack Size: 0x24
+Opcodes Size: 0x51
+Locals Count: 2
+
 Calls: Menu_Draw, UI_DrawProportionalString, UI_DrawNamedPic
 =================
 */
@@ -12019,6 +12417,9 @@ ConfirmMenu_Draw
 
 Address: 0x418b
 Stack Size: 0x1c
+Opcodes Size: 0x3a
+Locals Count: 0
+
 Calls: Menu_Draw, UI_DrawProportionalString, UI_DrawNamedPic
 =================
 */
@@ -12039,6 +12440,9 @@ ConfirmMenu_Cache
 
 Address: 0x41c5
 Stack Size: 0xc
+Opcodes Size: 0x8
+Locals Count: 0
+
 Calls: trap_R_RegisterShaderNoMip
 Called by: UI_Message, UI_ConfirmMenu_Style, UI_Cache_f
 =================
@@ -12054,6 +12458,9 @@ UI_ConfirmMenu_Style
 
 Address: 0x41cd
 Stack Size: 0xc48
+Opcodes Size: 0xc7
+Locals Count: 15
+
 Calls: trap_GetClientState, memset, Menu_SetCursorToItem, UI_PushMenu, Menu_AddItem, UI_ProportionalStringWidth, ConfirmMenu_Cache
 Called by: ArenaServers_Event, UI_ConfirmMenu
 =================
@@ -12068,7 +12475,8 @@ void UI_ConfirmMenu_Style(int arg_0, int arg_1, int arg_2, int arg_3) {
 	int		local_c34;
 	int		local_c38;
 	int		local_c3c;
-	char	local_c40[8];
+	int		local_c40;
+	int		local_c44;
 
 	memset(0x11110, 0x0, 0x1c8);
 	ConfirmMenu_Cache();
@@ -12076,8 +12484,8 @@ void UI_ConfirmMenu_Style(int arg_0, int arg_1, int arg_2, int arg_3) {
 	local_c28 = local_c38;
 	local_c3c = UI_ProportionalStringWidth(0x4dee);
 	local_c2c = (local_c3c + 0x3);
-	*(int *)local_c40 = UI_ProportionalStringWidth(0x4df9);
-	local_c30 = (*(int *)local_c40 + 0x3);
+	local_c40 = UI_ProportionalStringWidth(0x4df9);
+	local_c30 = (local_c40 + 0x3);
 	local_14 = (0x140 - (local_c28 / 0x2));
 	local_18 = (local_14 + local_c2c);
 	local_c34 = (local_18 + local_c30);
@@ -12126,6 +12534,9 @@ UI_ConfirmMenu
 
 Address: 0x4294
 Stack Size: 0x18
+Opcodes Size: 0x11
+Locals Count: 3
+
 Calls: UI_ConfirmMenu_Style
 Called by: UI_SPLevelMenu_ResetEvent, UI_SetupMenu_Event, Main_MenuEvent, InGame_Event, Controls_MenuEvent, UI_SetActiveMenu
 =================
@@ -12141,6 +12552,9 @@ UI_Message
 
 Address: 0x42a5
 Stack Size: 0xc2c
+Opcodes Size: 0x71
+Locals Count: 5
+
 Calls: trap_GetClientState, memset, Menu_SetCursorToItem, UI_PushMenu, Menu_AddItem, UI_ProportionalStringWidth, ConfirmMenu_Cache
 Called by: Punkbuster_ConfirmDisable
 =================
@@ -12188,12 +12602,16 @@ UI_ReadableSize
 
 Address: 0x4316
 Stack Size: 0x28
+Opcodes Size: 0xb5
+Locals Count: 7
+
 Calls: strlen, Com_sprintf
 Called by: UI_DisplayDownloadInfo
 =================
 */
 void UI_ReadableSize(int arg_0, int arg_1, int arg_2) {
-	char	local_18[8];
+	int		local_18;
+	int		local_1c;
 	int		local_20;
 	int		local_24;
 
@@ -12201,9 +12619,9 @@ void UI_ReadableSize(int arg_0, int arg_1, int arg_2) {
 	arg_2 = arg_2;
 	if (arg_2 <= 0x40000000) goto jmp_4362;
 	Com_sprintf(arg_0, arg_1, 0x4f7a, (arg_2 / 0x40000000));
-	*(int *)local_18 = strlen(arg_0);
+	local_18 = strlen(arg_0);
 	local_20 = strlen(arg_0);
-#define next_call_arg_0 "(*(int *)local_18 + arg_0)"
+#define next_call_arg_0 "(local_18 + arg_0)"
 #define next_call_arg_1 "(arg_1 - local_20)"
 #define next_call_arg_2 "0x4f71"
 	local_24 = 0x40000000;
@@ -12213,9 +12631,9 @@ void UI_ReadableSize(int arg_0, int arg_1, int arg_2) {
 jmp_4362:
 	if (arg_2 <= 0x100000) goto jmp_43a5;
 	Com_sprintf(arg_0, arg_1, 0x4f7a, (arg_2 / 0x100000));
-	*(int *)local_18 = strlen(arg_0);
+	local_18 = strlen(arg_0);
 	local_20 = strlen(arg_0);
-#define next_call_arg_0 "(*(int *)local_18 + arg_0)"
+#define next_call_arg_0 "(local_18 + arg_0)"
 #define next_call_arg_1 "(arg_1 - local_20)"
 #define next_call_arg_2 "0x4f68"
 	local_24 = 0x100000;
@@ -12237,6 +12655,9 @@ UI_PrintTime
 
 Address: 0x43cb
 Stack Size: 0x24
+Opcodes Size: 0x5d
+Locals Count: 4
+
 Calls: Com_sprintf
 Called by: UI_DisplayDownloadInfo
 =================
@@ -12276,6 +12697,9 @@ UI_DisplayDownloadInfo
 
 Address: 0x4428
 Stack Size: 0x174
+Opcodes Size: 0x210
+Locals Count: 27
+
 Calls: trap_Cvar_VariableValue, UI_PrintTime, UI_ReadableSize, va, UI_DrawProportionalString, UI_ProportionalSizeScale, UI_ProportionalStringWidth
 Called by: UI_DrawConnectScreen
 =================
@@ -12393,13 +12817,17 @@ UI_DrawConnectScreen
 
 Address: 0x4638
 Stack Size: 0x1454
+Opcodes Size: 0x100
+Locals Count: 18
+
 Calls: trap_Cvar_VariableStringBuffer, trap_GetConfigString, trap_GetClientState, UI_DisplayDownloadInfo, UI_DrawProportionalString_AutoWrapped, UI_DrawProportionalString, va, Info_ValueForKey, UI_DrawHandlePic, UI_SetColor, Menu_Cache
 Called by: vmMain
 =================
 */
 void UI_DrawConnectScreen(int arg_0) {
 	int		local_24;
-	char	local_28[8];
+	int		local_28;
+	int		local_2c;
 	char	local_30[1024];
 	char	local_430[1024];
 	char	local_830[1024];
@@ -12409,7 +12837,8 @@ void UI_DrawConnectScreen(int arg_0) {
 	int		local_1038;
 	int		local_103c;
 	int		local_1040;
-	char	local_1044[8];
+	int		local_1044;
+	int		local_1048;
 	int		local_104c;
 	int		local_1050;
 	char	local_1054[1024];
@@ -12438,16 +12867,16 @@ jmp_46ce:
 	if (lastConnState <= local_24) goto jmp_46d6;
 	*(char *)lastLoadingText = 0x0;
 jmp_46d6:
-	*(int *)local_1044 = local_24;
-	lastConnState = *(int *)local_1044;
-	local_1040 = *(int *)local_1044;
+	local_1044 = local_24;
+	lastConnState = local_1044;
+	local_1040 = local_1044;
 	if (local_1040 < 0x3) goto jmp_4736;
 	if (local_1040 > 0x7) goto jmp_4736;
 	goto *(int *)((local_1040 << 0x2) + 0x14e8);
-	local_104c = va(0x4e8b, *(int *)local_28);
+	local_104c = va(0x4e8b, local_28);
 	local_1030 = local_104c;
 	goto jmp_4728;
-	local_1050 = va(0x4e72, *(int *)local_28);
+	local_1050 = va(0x4e72, local_28);
 	local_1030 = local_1050;
 	goto jmp_4728;
 	trap_Cvar_VariableStringBuffer(0x4e62, local_1054, 0x400);
@@ -12467,6 +12896,9 @@ UI_KeyConnect
 
 Address: 0x4738
 Stack Size: 0x10
+Opcodes Size: 0xe
+Locals Count: 1
+
 Calls: trap_Cmd_ExecuteText
 =================
 */
@@ -12483,29 +12915,35 @@ Controls_InitCvars
 
 Address: 0x4746
 Stack Size: 0x2c
+Opcodes Size: 0x50
+Locals Count: 7
+
 Calls: trap_Cvar_SetValue, trap_Cvar_Reset, trap_Cvar_VariableValue
 Called by: Controls_MenuInit
 =================
 */
 void Controls_InitCvars(void) {
 	int		local_10;
-	char	local_14[8];
-	char	local_1c[8];
-	char	local_24[8];
+	int		local_14;
+	int		local_18;
+	int		local_1c;
+	int		local_20;
+	int		local_24;
+	int		local_28;
 
 	local_10 = 0x1998;
-	*(int *)local_14 = 0x0;
+	local_14 = 0x0;
 jmp_474d:
 	if (*(int *)local_10 != 0x0) goto jmp_4754;
 	goto jmp_4794;
 jmp_4754:
-	*(int *)local_1c = trap_Cvar_VariableValue(*(int *)local_10);
-	*(int *)(local_10 + 0x8) = *(int *)local_1c;
+	local_1c = trap_Cvar_VariableValue(*(int *)local_10);
+	*(int *)(local_10 + 0x8) = local_1c;
 	trap_Cvar_Reset(*(int *)local_10);
-	*(int *)local_24 = trap_Cvar_VariableValue(*(int *)local_10);
-	*(int *)(local_10 + 0x4) = *(int *)local_24;
+	local_24 = trap_Cvar_VariableValue(*(int *)local_10);
+	*(int *)(local_10 + 0x4) = local_24;
 	trap_Cvar_SetValue(*(int *)local_10, *(int *)(local_10 + 0x8));
-	*(int *)local_14 = (*(int *)local_14 + 0x1);
+	local_14 = (local_14 + 0x1);
 	local_10 = (local_10 + 0xc);
 	goto jmp_474d;
 jmp_4794:
@@ -12517,6 +12955,9 @@ Controls_GetCvarDefault
 
 Address: 0x4796
 Stack Size: 0x1c
+Opcodes Size: 0x3b
+Locals Count: 4
+
 Calls: strcmp
 Called by: Controls_SetDefaults
 =================
@@ -12550,6 +12991,9 @@ Controls_GetCvarValue
 
 Address: 0x47d1
 Stack Size: 0x1c
+Opcodes Size: 0x3b
+Locals Count: 4
+
 Calls: strcmp
 Called by: Controls_GetConfig
 =================
@@ -12583,6 +13027,9 @@ Controls_UpdateModel
 
 Address: 0x480c
 Stack Size: 0x38
+Opcodes Size: 0xfa
+Locals Count: 6
+
 Calls: UI_PlayerInfo_SetInfo
 Called by: Controls_InitModel, Controls_ActionEvent, Controls_DrawPlayer
 =================
@@ -12677,6 +13124,9 @@ Controls_Update
 
 Address: 0x4906
 Stack Size: 0x68
+Opcodes Size: 0x202
+Locals Count: 24
+
 Called by: Controls_MenuInit, Controls_ActionEvent, Controls_MenuEvent, Controls_ResetDefaults_Action, Controls_MenuKey
 =================
 */
@@ -12819,6 +13269,9 @@ Controls_DrawKeyBinding
 
 Address: 0x4b08
 Stack Size: 0x94
+Opcodes Size: 0x1a9
+Locals Count: 17
+
 Calls: trap_Key_KeynumToStringBuf, UI_DrawChar, UI_DrawString, UI_FillRect, strcat, Q_strupr, strcpy, Menu_ItemAtCursor
 =================
 */
@@ -12831,7 +13284,8 @@ void Controls_DrawKeyBinding(int arg_0) {
 	int		local_4c;
 	int		local_50;
 	char	local_54[32];
-	char	local_74[8];
+	int		local_74;
+	int		local_78;
 	int		local_7c;
 	int		local_80;
 	int		local_84;
@@ -12844,12 +13298,12 @@ void Controls_DrawKeyBinding(int arg_0) {
 	local_24 = *(int *)(local_1c + 0x10);
 	local_7c = Menu_ItemAtCursor(*(int *)(local_1c + 0x24));
 	if (local_1c != local_7c) goto jmp_4b2f;
-	*(int *)local_74 = 0x1;
+	local_74 = 0x1;
 	goto jmp_4b32;
 jmp_4b2f:
-	*(int *)local_74 = 0x0;
+	local_74 = 0x0;
 jmp_4b32:
-	local_4c = *(int *)local_74;
+	local_4c = local_74;
 	local_48 = *(int *)((*(int *)(local_1c + 0x8) << 0x5) + 0x1530);
 	if (local_48 != 0xffffffff) goto jmp_4b4f;
 	strcpy(local_28, 0x513c);
@@ -12905,6 +13359,9 @@ Controls_StatusBar
 
 Address: 0x4cb1
 Stack Size: 0x1c
+Opcodes Size: 0x10
+Locals Count: 0
+
 Calls: UI_DrawString
 =================
 */
@@ -12919,17 +13376,21 @@ Controls_DrawPlayer
 
 Address: 0x4cc1
 Stack Size: 0x6c
+Opcodes Size: 0x55
+Locals Count: 5
+
 Calls: trap_Cvar_VariableStringBuffer, UI_DrawPlayer, Controls_UpdateModel, strcpy, UI_PlayerInfo_SetModel, strcmp
 =================
 */
 void Controls_DrawPlayer(int arg_0) {
 	int		local_20;
 	char	local_24[64];
-	char	local_64[8];
+	int		local_64;
+	int		local_68;
 
 	trap_Cvar_VariableStringBuffer(0x50ae, local_24, 0x40);
-	*(int *)local_64 = strcmp(local_24, 0x12a9c);
-	if (*(int *)local_64 == 0x0) goto jmp_4cea;
+	local_64 = strcmp(local_24, 0x12a9c);
+	if (local_64 == 0x0) goto jmp_4cea;
 	UI_PlayerInfo_SetModel(0x1246c, local_24);
 	strcpy(0x12a9c, local_24);
 	Controls_UpdateModel(0x0);
@@ -12944,6 +13405,9 @@ Controls_GetKeyAssignment
 
 Address: 0x4d16
 Stack Size: 0x12c
+Opcodes Size: 0x63
+Locals Count: 9
+
 Calls: trap_Key_GetBindingBuf, Q_stricmp
 Called by: Controls_GetConfig
 =================
@@ -12951,7 +13415,8 @@ Called by: Controls_GetConfig
 void Controls_GetKeyAssignment(int arg_0, int arg_1) {
 	int		local_14;
 	char	local_18[256];
-	char	local_118[8];
+	int		local_118;
+	int		local_11c;
 	int		local_120;
 	int		local_124;
 	int		local_128;
@@ -12962,7 +13427,7 @@ void Controls_GetKeyAssignment(int arg_0, int arg_1) {
 	*(int *)(arg_1 + 0x4) = local_120;
 	*(int *)arg_1 = local_120;
 	local_124 = 0x0;
-	*(int *)local_118 = local_124;
+	local_118 = local_124;
 	local_14 = local_124;
 jmp_4d39:
 	trap_Key_GetBindingBuf(local_14, local_18, 0x100);
@@ -12971,9 +13436,9 @@ jmp_4d39:
 jmp_4d4a:
 	local_128 = Q_stricmp(local_18, arg_0);
 	if (local_128 != 0x0) goto jmp_4d6d;
-	*(int *)((*(int *)local_118 << 0x2) + arg_1) = local_14;
-	*(int *)local_118 = (*(int *)local_118 + 0x1);
-	if (*(int *)local_118 != 0x2) goto jmp_4d6d;
+	*(int *)((local_118 << 0x2) + arg_1) = local_14;
+	local_118 = (local_118 + 0x1);
+	if (local_118 != 0x2) goto jmp_4d6d;
 	goto jmp_4d77;
 jmp_4d6d:
 	local_14 = (local_14 + 0x1);
@@ -12987,6 +13452,9 @@ Controls_GetConfig
 
 Address: 0x4d79
 Stack Size: 0x64
+Opcodes Size: 0xe5
+Locals Count: 20
+
 Calls: UI_ClampCvar, Controls_GetCvarValue, Controls_GetKeyAssignment
 Called by: Controls_MenuInit
 =================
@@ -13063,6 +13531,9 @@ Controls_SetConfig
 
 Address: 0x4e5e
 Stack Size: 0x28
+Opcodes Size: 0xbd
+Locals Count: 6
+
 Calls: trap_Cmd_ExecuteText, trap_Cvar_SetValue, trap_Cvar_VariableValue, trap_Key_SetBinding, fabs
 Called by: Controls_MenuEvent, Controls_MenuKey
 =================
@@ -13116,6 +13587,9 @@ Controls_SetDefaults
 
 Address: 0x4f1b
 Stack Size: 0x38
+Opcodes Size: 0x95
+Locals Count: 11
+
 Calls: Controls_GetCvarDefault
 Called by: Controls_ResetDefaults_Action
 =================
@@ -13175,6 +13649,9 @@ Controls_MenuKey
 
 Address: 0x4fb0
 Stack Size: 0x3c
+Opcodes Size: 0x196
+Locals Count: 12
+
 Calls: trap_Key_SetBinding, Menu_DefaultKey, Controls_Update, Controls_SetConfig
 =================
 */
@@ -13185,20 +13662,22 @@ int Controls_MenuKey(int arg_0) {
 	int		local_1c;
 	int		local_20;
 	int		local_24;
-	char	local_28[8];
-	char	local_30[8];
+	int		local_28;
+	int		local_2c;
+	int		local_30;
+	int		local_34;
 	int		local_38;
 
 	arg_0 = arg_0;
 	local_20 = 0x0;
 	local_1c = local_20;
 	if (bss_12a98 != local_20) goto jmp_5002;
-	*(int *)local_28 = 0x8c;
-	if (arg_0 == *(int *)local_28) goto jmp_4ff4;
-	if (arg_0 > *(int *)local_28) goto jmp_4fe1;
-	*(int *)local_30 = 0x1b;
-	if (arg_0 == *(int *)local_30) goto jmp_4ff9;
-	if (arg_0 < *(int *)local_30) goto jmp_5138;
+	local_28 = 0x8c;
+	if (arg_0 == local_28) goto jmp_4ff4;
+	if (arg_0 > local_28) goto jmp_4fe1;
+	local_30 = 0x1b;
+	if (arg_0 == local_30) goto jmp_4ff9;
+	if (arg_0 < local_30) goto jmp_5138;
 	if (arg_0 == 0x7f) goto jmp_4ff4;
 	goto jmp_5138;
 jmp_4fe1:
@@ -13218,9 +13697,9 @@ jmp_5002:
 	if ((arg_0 & 0x400) == 0x0) goto jmp_500a;
 	goto jmp_5138;
 jmp_500a:
-	*(int *)local_28 = 0x1b;
-	if (arg_0 == *(int *)local_28) goto jmp_501d;
-	if (arg_0 < *(int *)local_28) goto jmp_5028;
+	local_28 = 0x1b;
+	if (arg_0 == local_28) goto jmp_501d;
+	if (arg_0 < local_28) goto jmp_5028;
 	if (arg_0 == 0x60) goto jmp_5138;
 	goto jmp_5028;
 jmp_501d:
@@ -13300,6 +13779,9 @@ Controls_ResetDefaults_Action
 
 Address: 0x5146
 Stack Size: 0x8
+Opcodes Size: 0x12
+Locals Count: 1
+
 Calls: Controls_Update, Controls_SetDefaults
 =================
 */
@@ -13320,6 +13802,9 @@ Controls_ResetDefaults_Draw
 
 Address: 0x5158
 Stack Size: 0x1c
+Opcodes Size: 0x1d
+Locals Count: 0
+
 Calls: UI_DrawProportionalString
 =================
 */
@@ -13335,20 +13820,24 @@ Controls_MenuEvent
 
 Address: 0x5175
 Stack Size: 0x20
+Opcodes Size: 0x95
+Locals Count: 4
+
 Calls: UI_PopMenu, Controls_SetConfig, UI_ConfirmMenu, Controls_Update
 =================
 */
 void Controls_MenuEvent(int arg_0, int arg_1) {
-	char	local_14[12];
+	int		local_14;
+	char	local_18[8];
 
-	*(int *)local_14 = *(int *)(arg_0 + 0x8);
-	if (*(int *)local_14 < 0x23) goto jmp_5208;
-	if (*(int *)local_14 > 0x2a) goto jmp_518d;
-	goto *(int *)((*(int *)local_14 << 0x2) + 0x1ab8);
+	local_14 = *(int *)(arg_0 + 0x8);
+	if (local_14 < 0x23) goto jmp_5208;
+	if (local_14 > 0x2a) goto jmp_518d;
+	goto *(int *)((local_14 << 0x2) + 0x1ab8);
 jmp_518d:
-	if (*(int *)local_14 < 0x64) goto jmp_5208;
-	if (*(int *)local_14 > 0x6b) goto jmp_5208;
-	goto *(int *)((*(int *)local_14 << 0x2) + 0x19d4);
+	if (local_14 < 0x64) goto jmp_5208;
+	if (local_14 > 0x6b) goto jmp_5208;
+	goto *(int *)((local_14 << 0x2) + 0x19d4);
 	if (arg_1 != 0x3) goto jmp_5208;
 	bss_12a94 = 0x0;
 	Controls_Update();
@@ -13392,6 +13881,9 @@ Controls_ActionEvent
 
 Address: 0x520a
 Stack Size: 0xc
+Opcodes Size: 0x30
+Locals Count: 2
+
 Calls: Controls_Update, Controls_UpdateModel
 =================
 */
@@ -13418,6 +13910,9 @@ Controls_InitModel
 
 Address: 0x523a
 Stack Size: 0x18
+Opcodes Size: 0x1f
+Locals Count: 1
+
 Calls: memset, Controls_UpdateModel, UI_PlayerInfo_SetModel, UI_Cvar_VariableString
 Called by: Controls_MenuInit
 =================
@@ -13437,6 +13932,9 @@ Controls_InitWeapons
 
 Address: 0x5259
 Stack Size: 0x10
+Opcodes Size: 0x25
+Locals Count: 1
+
 Calls: trap_R_RegisterModel
 Called by: Controls_MenuInit
 =================
@@ -13463,6 +13961,9 @@ Controls_MenuInit
 
 Address: 0x527e
 Stack Size: 0x14
+Opcodes Size: 0x561
+Locals Count: 0
+
 Calls: trap_Cvar_VariableStringBuffer, memset, Controls_Update, Controls_InitWeapons, Controls_InitModel, Controls_GetConfig, Controls_InitCvars, Q_CleanStr, Menu_AddItem, Controls_Cache
 Called by: UI_ControlsMenu
 =================
@@ -13859,6 +14360,9 @@ Controls_Cache
 
 Address: 0x57df
 Stack Size: 0xc
+Opcodes Size: 0x17
+Locals Count: 0
+
 Calls: trap_R_RegisterShaderNoMip
 Called by: Controls_MenuInit, UI_Cache_f
 =================
@@ -13877,6 +14381,9 @@ UI_ControlsMenu
 
 Address: 0x57f6
 Stack Size: 0xc
+Opcodes Size: 0xb
+Locals Count: 0
+
 Calls: UI_PushMenu, Controls_MenuInit
 Called by: UI_SetupMenu_Event
 =================
@@ -13893,6 +14400,9 @@ UI_CreditMenu_Draw_ioq3
 
 Address: 0x5801
 Stack Size: 0x24
+Opcodes Size: 0x59
+Locals Count: 2
+
 Calls: UI_DrawString, UI_DrawProportionalString
 =================
 */
@@ -13920,6 +14430,9 @@ UI_CreditMenu_Key
 
 Address: 0x585a
 Stack Size: 0x14
+Opcodes Size: 0x2a
+Locals Count: 2
+
 Calls: trap_Cmd_ExecuteText
 =================
 */
@@ -13946,6 +14459,9 @@ UI_CreditMenu_Draw
 
 Address: 0x5884
 Stack Size: 0x20
+Opcodes Size: 0x1b4
+Locals Count: 1
+
 Calls: UI_DrawString, UI_DrawProportionalString
 =================
 */
@@ -14000,6 +14516,9 @@ UI_CreditMenu
 
 Address: 0x5a38
 Stack Size: 0x14
+Opcodes Size: 0x1a
+Locals Count: 0
+
 Calls: memset, UI_PushMenu
 Called by: MainMenu_ExitAction, InGame_QuitAction
 =================
@@ -14019,20 +14538,24 @@ Demos_MenuEvent
 
 Address: 0x5a52
 Stack Size: 0x1c
+Opcodes Size: 0x51
+Locals Count: 5
+
 Calls: trap_Cmd_ExecuteText, ScrollList_Key, UI_PopMenu, va, UI_ForceMenuOff
 =================
 */
 void Demos_MenuEvent(int arg_0, int arg_1) {
-	char	local_10[8];
+	int		local_10;
+	int		local_14;
 	int		local_18;
 
 	if (arg_1 == 0x3) goto jmp_5a59;
 	goto jmp_5aa1;
 jmp_5a59:
-	*(int *)local_10 = *(int *)(arg_0 + 0x8);
-	if (*(int *)local_10 < 0xa) goto jmp_5aa1;
-	if (*(int *)local_10 > 0xe) goto jmp_5aa1;
-	goto *(int *)((*(int *)local_10 << 0x2) + 0x1b94);
+	local_10 = *(int *)(arg_0 + 0x8);
+	if (local_10 < 0xa) goto jmp_5aa1;
+	if (local_10 > 0xe) goto jmp_5aa1;
+	goto *(int *)((local_10 << 0x2) + 0x1b94);
 	UI_ForceMenuOff();
 	local_18 = va(0x5847, *(int *)((bss_12f20 << 0x2) + bss_12f2c));
 	trap_Cmd_ExecuteText(0x2, local_18);
@@ -14051,6 +14574,9 @@ Demos_MenuInit
 
 Address: 0x5aa3
 Stack Size: 0x74
+Opcodes Size: 0x21c
+Locals Count: 15
+
 Calls: trap_FS_GetFileList, trap_Cvar_VariableValue, memset, Menu_AddItem, strlen, Com_sprintf, Demos_Cache
 Called by: UI_DemosMenu
 =================
@@ -14216,6 +14742,9 @@ Demos_Cache
 
 Address: 0x5cbf
 Stack Size: 0xc
+Opcodes Size: 0x30
+Locals Count: 0
+
 Calls: trap_R_RegisterShaderNoMip
 Called by: Demos_MenuInit, UI_Cache_f
 =================
@@ -14239,6 +14768,9 @@ UI_DemosMenu
 
 Address: 0x5cef
 Stack Size: 0xc
+Opcodes Size: 0xb
+Locals Count: 0
+
 Calls: UI_PushMenu, Demos_MenuInit
 Called by: Main_MenuEvent
 =================
@@ -14255,19 +14787,23 @@ UI_DisplayOptionsMenu_Event
 
 Address: 0x5cfa
 Stack Size: 0x18
+Opcodes Size: 0x53
+Locals Count: 4
+
 Calls: trap_Cvar_SetValue, UI_NetworkOptionsMenu, UI_SoundOptionsMenu, UI_GraphicsOptionsMenu, UI_PopMenu
 =================
 */
 void UI_DisplayOptionsMenu_Event(int arg_0, int arg_1) {
-	char	local_10[8];
+	int		local_10;
+	int		local_14;
 
 	if (arg_1 == 0x3) goto jmp_5d01;
 	goto jmp_5d4b;
 jmp_5d01:
-	*(int *)local_10 = *(int *)(arg_0 + 0x8);
-	if (*(int *)local_10 < 0xa) goto jmp_5d4b;
-	if (*(int *)local_10 > 0x10) goto jmp_5d4b;
-	goto *(int *)((*(int *)local_10 << 0x2) + 0x1ba8);
+	local_10 = *(int *)(arg_0 + 0x8);
+	if (local_10 < 0xa) goto jmp_5d4b;
+	if (local_10 > 0x10) goto jmp_5d4b;
+	goto *(int *)((local_10 << 0x2) + 0x1ba8);
 	UI_PopMenu();
 	UI_GraphicsOptionsMenu();
 	goto jmp_5d4b;
@@ -14291,6 +14827,9 @@ UI_DisplayOptionsMenu_Init
 
 Address: 0x5d4d
 Stack Size: 0x20
+Opcodes Size: 0x18c
+Locals Count: 3
+
 Calls: trap_Cvar_VariableValue, memset, Menu_AddItem, UI_DisplayOptionsMenu_Cache
 Called by: UI_DisplayOptionsMenu
 =================
@@ -14417,6 +14956,9 @@ UI_DisplayOptionsMenu_Cache
 
 Address: 0x5ed9
 Stack Size: 0xc
+Opcodes Size: 0x17
+Locals Count: 0
+
 Calls: trap_R_RegisterShaderNoMip
 Called by: UI_DisplayOptionsMenu_Init, UI_Cache_f
 =================
@@ -14435,6 +14977,9 @@ UI_DisplayOptionsMenu
 
 Address: 0x5ef0
 Stack Size: 0x10
+Opcodes Size: 0x12
+Locals Count: 0
+
 Calls: Menu_SetCursorToItem, UI_PushMenu, UI_DisplayOptionsMenu_Init
 Called by: GraphicsOptions_Event, UI_SoundOptionsMenu_Event, Options_Event, UI_NetworkOptionsMenu_Event
 =================
@@ -14452,6 +14997,9 @@ UI_Alloc
 
 Address: 0x5f02
 Stack Size: 0x14
+Opcodes Size: 0x2e
+Locals Count: 4
+
 Called by: UI_ParseInfos
 =================
 */
@@ -14477,6 +15025,9 @@ UI_InitMemory
 
 Address: 0x5f30
 Stack Size: 0xc
+Opcodes Size: 0xe
+Locals Count: 1
+
 Called by: UI_InitGameinfo
 =================
 */
@@ -14494,6 +15045,9 @@ UI_ParseInfos
 
 Address: 0x5f3e
 Stack Size: 0x838
+Opcodes Size: 0xf6
+Locals Count: 14
+
 Calls: UI_Alloc, va, strlen, Info_SetValueForKey, strcpy, Q_strncpyz, COM_ParseExt, Com_Printf, strcmp, COM_Parse
 Called by: UI_LoadBotsFromFile, UI_LoadArenasFromFile
 =================
@@ -14574,6 +15128,9 @@ UI_LoadArenasFromFile
 
 Address: 0x6034
 Stack Size: 0x2030
+Opcodes Size: 0x80
+Locals Count: 8
+
 Calls: trap_FS_Read, trap_FS_FCloseFile, trap_Print, trap_FS_FOpenFile, UI_ParseInfos, va
 Called by: UI_LoadArenas
 =================
@@ -14619,6 +15176,9 @@ UI_LoadArenas
 
 Address: 0x60b4
 Stack Size: 0x11f8
+Opcodes Size: 0x21d
+Locals Count: 24
+
 Calls: trap_Print, trap_FS_GetFileList, trap_Cvar_Register, strstr, Info_ValueForKey, Info_SetValueForKey, va, strcat, strcpy, strlen, UI_LoadArenasFromFile
 Called by: UI_InitGameinfo
 =================
@@ -14768,31 +15328,36 @@ UI_GetArenaInfoByNumber
 
 Address: 0x62d1
 Stack Size: 0x28
+Opcodes Size: 0x63
+Locals Count: 7
+
 Calls: trap_Print, atoi, Info_ValueForKey, va
 Called by: ServerOptions_SetMenuItems, ServerOptions_Start, StartServer_Cache, StartServer_LevelshotDraw, StartServer_GametypeEvent, StartServer_Update, UI_SPPostgameMenu_NextEvent, UI_SPLevelMenu_LevelEvent, UI_SPLevelMenu_SetMenuItems
 =================
 */
 int UI_GetArenaInfoByNumber(int arg_0) {
 	int		local_10;
-	char	local_14[8];
-	char	local_1c[8];
+	int		local_14;
+	int		local_18;
+	int		local_1c;
+	int		local_20;
 	int		local_24;
 
 	arg_0 = arg_0;
 	if (arg_0 < 0x0) goto jmp_62df;
 	if (arg_0 < ui_numArenas) goto jmp_62f2;
 jmp_62df:
-	*(int *)local_1c = va(0x5a6a, arg_0);
-	trap_Print(*(int *)local_1c);
+	local_1c = va(0x5a6a, arg_0);
+	trap_Print(local_1c);
 	return 0x0;
 jmp_62f2:
 	local_10 = 0x0;
 	goto jmp_632b;
 jmp_62f7:
-	*(int *)local_1c = Info_ValueForKey(*(int *)((local_10 << 0x2) + 0x3c534), 0x5ace);
-	*(int *)local_14 = *(int *)local_1c;
-	if ((char)*(char *)*(int *)local_14 == 0x0) goto jmp_6325;
-	local_24 = atoi(*(int *)local_14);
+	local_1c = Info_ValueForKey(*(int *)((local_10 << 0x2) + 0x3c534), 0x5ace);
+	local_14 = local_1c;
+	if ((char)*(char *)local_14 == 0x0) goto jmp_6325;
+	local_24 = atoi(local_14);
 	if (local_24 != arg_0) goto jmp_6325;
 	return *(int *)((local_10 << 0x2) + 0x3c534);
 jmp_6325:
@@ -14808,6 +15373,9 @@ UI_GetArenaInfoByMap
 
 Address: 0x6334
 Stack Size: 0x1c
+Opcodes Size: 0x3f
+Locals Count: 4
+
 Calls: Q_stricmp, Info_ValueForKey
 Called by: ServerOptions_InitBotNames, UI_SPPostgameMenu_f
 =================
@@ -14838,6 +15406,9 @@ UI_GetSpecialArenaInfo
 
 Address: 0x6373
 Stack Size: 0x1c
+Opcodes Size: 0x3f
+Locals Count: 4
+
 Calls: Q_stricmp, Info_ValueForKey
 Called by: UI_SPPostgameMenu_f, UI_SPLevelMenu, UI_SPLevelMenu_ResetAction, UI_SPLevelMenu_SetMenuItems, UI_GetCurrentGame, UI_TierCompleted
 =================
@@ -14868,6 +15439,9 @@ UI_LoadBotsFromFile
 
 Address: 0x63b2
 Stack Size: 0x2030
+Opcodes Size: 0x89
+Locals Count: 8
+
 Calls: trap_FS_Read, trap_FS_FCloseFile, trap_Print, trap_FS_FOpenFile, UI_ParseInfos, va
 Called by: UI_LoadBots
 =================
@@ -14915,6 +15489,9 @@ UI_LoadBots
 
 Address: 0x643b
 Stack Size: 0x5c4
+Opcodes Size: 0x81
+Locals Count: 11
+
 Calls: trap_Print, trap_FS_GetFileList, trap_Cvar_Register, va, strcat, strcpy, strlen, UI_LoadBotsFromFile
 Called by: UI_InitGameinfo
 =================
@@ -14966,6 +15543,9 @@ UI_GetBotInfoByNumber
 
 Address: 0x64bc
 Stack Size: 0x18
+Opcodes Size: 0x2b
+Locals Count: 2
+
 Calls: trap_Print, va
 Called by: UI_BotSelectMenu_Default, UI_BotSelectMenu_UpdateGrid, UI_BotSelectMenu_SortCompare, ServerOptions_InitBotNames, UI_SPLevelMenu_SetBots, UI_AddBotsMenu_SortCompare, UI_AddBotsMenu_SetBotNames
 =================
@@ -14990,6 +15570,9 @@ UI_GetBotInfoByName
 
 Address: 0x64e7
 Stack Size: 0x20
+Opcodes Size: 0x43
+Locals Count: 5
+
 Calls: Q_stricmp, Info_ValueForKey
 Called by: ServerOptions_InitBotNames, UI_SPLevelMenu_SetBots
 =================
@@ -15022,6 +15605,9 @@ UI_GetBestScore
 
 Address: 0x652a
 Stack Size: 0x458
+Opcodes Size: 0x90
+Locals Count: 16
+
 Calls: trap_Cvar_VariableStringBuffer, atoi, Info_ValueForKey, Com_sprintf, va
 Called by: UI_SPLevelMenu_SetMenuArena, UI_GetCurrentGame, UI_TierCompleted
 =================
@@ -15033,16 +15619,18 @@ void UI_GetBestScore(int arg_0, int arg_1, int arg_2) {
 	int		local_30;
 	char	local_34[1024];
 	int		local_434;
-	char	local_438[8];
+	int		local_438;
+	int		local_43c;
 	int		local_440;
 	int		local_444;
 	int		local_448;
-	char	local_44c[12];
+	int		local_44c;
+	char	local_450[8];
 
 	arg_0 = arg_0;
-	*(int *)local_438 = 0x0;
-	if (arg_1 == *(int *)local_438) goto jmp_653c;
-	if (arg_2 != *(int *)local_438) goto jmp_653e;
+	local_438 = 0x0;
+	if (arg_1 == local_438) goto jmp_653c;
+	if (arg_2 != local_438) goto jmp_653e;
 jmp_653c:
 	goto jmp_65b8;
 jmp_653e:
@@ -15060,8 +15648,8 @@ jmp_6557:
 	trap_Cvar_VariableStringBuffer(local_444, local_34, 0x400);
 	Com_sprintf(local_20, 0x10, 0x59ce, arg_0);
 	local_448 = Info_ValueForKey(local_34, local_20);
-	*(int *)local_44c = atoi(local_448);
-	local_18 = *(int *)local_44c;
+	local_44c = atoi(local_448);
+	local_18 = local_44c;
 	if (local_18 < 0x1) goto jmp_6591;
 	if (local_18 <= 0x8) goto jmp_6593;
 jmp_6591:
@@ -15086,6 +15674,9 @@ UI_SetBestScore
 
 Address: 0x65ba
 Stack Size: 0x454
+Opcodes Size: 0x87
+Locals Count: 15
+
 Calls: trap_Cvar_Set, trap_Cvar_VariableStringBuffer, trap_Cvar_VariableValue, Info_SetValueForKey, atoi, Info_ValueForKey, Com_sprintf, va
 Called by: UI_SPPostgameMenu_f
 =================
@@ -15094,11 +15685,14 @@ void UI_SetBestScore(int arg_0, int arg_1) {
 	int		local_18;
 	char	local_1c[16];
 	char	local_2c[1024];
-	char	local_42c[8];
-	char	local_434[8];
+	int		local_42c;
+	int		local_430;
+	int		local_434;
+	int		local_438;
 	int		local_43c;
 	int		local_440;
-	char	local_444[8];
+	int		local_444;
+	int		local_448;
 	int		local_44c;
 	int		local_450;
 
@@ -15108,8 +15702,8 @@ void UI_SetBestScore(int arg_0, int arg_1) {
 jmp_65c7:
 	goto jmp_663f;
 jmp_65c9:
-	*(int *)local_434 = trap_Cvar_VariableValue(0x59c4);
-	local_18 = (int)*(int *)local_434;
+	local_434 = trap_Cvar_VariableValue(0x59c4);
+	local_18 = (int)local_434;
 	if (local_18 < 0x1) goto jmp_65dc;
 	if (local_18 <= 0x5) goto jmp_65de;
 jmp_65dc:
@@ -15119,10 +15713,10 @@ jmp_65de:
 	trap_Cvar_VariableStringBuffer(local_43c, local_2c, 0x400);
 	Com_sprintf(local_1c, 0x10, 0x59ce, arg_0);
 	local_440 = Info_ValueForKey(local_2c, local_1c);
-	*(int *)local_444 = atoi(local_440);
-	*(int *)local_42c = *(int *)local_444;
-	if (*(int *)local_42c == 0x0) goto jmp_661b;
-	if (*(int *)local_42c > arg_1) goto jmp_661b;
+	local_444 = atoi(local_440);
+	local_42c = local_444;
+	if (local_42c == 0x0) goto jmp_661b;
+	if (local_42c > arg_1) goto jmp_661b;
 	goto jmp_663f;
 jmp_661b:
 	local_44c = va(0x5acb, arg_1);
@@ -15138,6 +15732,9 @@ UI_LogAwardData
 
 Address: 0x6641
 Stack Size: 0x438
+Opcodes Size: 0x63
+Locals Count: 8
+
 Calls: trap_Cvar_Set, trap_Cvar_VariableStringBuffer, trap_Print, Info_SetValueForKey, atoi, Info_ValueForKey, Com_sprintf, va
 Called by: UI_SPPostgameMenu_f
 =================
@@ -15175,6 +15772,9 @@ UI_GetAwardLevel
 
 Address: 0x66a4
 Stack Size: 0x430
+Opcodes Size: 0x2a
+Locals Count: 5
+
 Calls: trap_Cvar_VariableStringBuffer, atoi, Info_ValueForKey, Com_sprintf
 Called by: UI_SPPostgameMenu_f, UI_SPLevelMenu_Init
 =================
@@ -15198,6 +15798,9 @@ UI_TierCompleted
 
 Address: 0x66ce
 Stack Size: 0x50
+Opcodes Size: 0x9c
+Locals Count: 16
+
 Calls: UI_GetBestScore, atoi, Info_ValueForKey, UI_GetSpecialArenaInfo, UI_GetNumSPTiers
 Called by: UI_SPPostgameMenu_f
 =================
@@ -15208,7 +15811,8 @@ int UI_TierCompleted(int arg_0) {
 	int		local_1c;
 	int		local_20;
 	int		local_24;
-	char	local_28[8];
+	int		local_28;
+	int		local_2c;
 	int		local_30;
 	int		local_34;
 	int		local_38;
@@ -15223,15 +15827,15 @@ int UI_TierCompleted(int arg_0) {
 	local_30 = UI_GetNumSPTiers();
 	if (local_24 != local_30) goto jmp_6739;
 	local_34 = UI_GetSpecialArenaInfo(0x5989);
-	*(int *)local_28 = local_34;
-	local_38 = Info_ValueForKey(*(int *)local_28, 0x5ace);
+	local_28 = local_34;
+	local_38 = Info_ValueForKey(local_28, 0x5ace);
 	local_3c = atoi(local_38);
 	if (arg_0 != local_3c) goto jmp_6707;
 	return 0x0;
 jmp_6707:
 	local_40 = UI_GetSpecialArenaInfo(0x5983);
-	*(int *)local_28 = local_40;
-	local_44 = *(int *)local_28;
+	local_28 = local_40;
+	local_44 = local_28;
 	if (local_44 == 0x0) goto jmp_672e;
 	local_48 = Info_ValueForKey(local_44, 0x5ace);
 	local_4c = atoi(local_48);
@@ -15260,6 +15864,9 @@ UI_ShowTierVideo
 
 Address: 0x676a
 Stack Size: 0x434
+Opcodes Size: 0x52
+Locals Count: 6
+
 Calls: trap_Cvar_Set, trap_Cvar_VariableStringBuffer, Info_SetValueForKey, va, atoi, Info_ValueForKey, Com_sprintf
 Called by: UI_SPPostgameMenu_MenuDraw, UI_SPUnlock_f
 =================
@@ -15293,6 +15900,9 @@ UI_CanShowTierVideo
 
 Address: 0x67bc
 Stack Size: 0x430
+Opcodes Size: 0x49
+Locals Count: 5
+
 Calls: trap_Cvar_VariableStringBuffer, atoi, Info_ValueForKey, Com_sprintf
 Called by: UI_CinematicsMenu_Init
 =================
@@ -15327,6 +15937,9 @@ UI_GetCurrentGame
 
 Address: 0x6805
 Stack Size: 0x34
+Opcodes Size: 0x93
+Locals Count: 8
+
 Calls: UI_GetBestScore, atoi, Info_ValueForKey, UI_GetSpecialArenaInfo
 Called by: UI_SPPostgameMenu_NextEvent, UI_SPLevelMenu
 =================
@@ -15384,6 +15997,9 @@ UI_NewGame
 
 Address: 0x6898
 Stack Size: 0x10
+Opcodes Size: 0x34
+Locals Count: 0
+
 Calls: trap_Cvar_Set
 Called by: UI_SPLevelMenu_ResetAction
 =================
@@ -15405,6 +16021,9 @@ UI_GetNumArenas
 
 Address: 0x68cc
 Stack Size: 0x8
+Opcodes Size: 0x6
+Locals Count: 0
+
 Called by: StartServer_Cache, StartServer_GametypeEvent
 =================
 */
@@ -15419,6 +16038,9 @@ UI_GetNumSPArenas
 
 Address: 0x68d2
 Stack Size: 0x8
+Opcodes Size: 0x6
+Locals Count: 0
+
 Called by: UI_SPLevelMenu
 =================
 */
@@ -15433,6 +16055,9 @@ UI_GetNumSPTiers
 
 Address: 0x68d8
 Stack Size: 0x8
+Opcodes Size: 0x8
+Locals Count: 0
+
 Called by: UI_SPPostgameMenu_f, UI_SPPostgameMenu_NextEvent, UI_SPLevelMenu, UI_SPArena_Start, UI_TierCompleted
 =================
 */
@@ -15447,6 +16072,9 @@ UI_GetNumBots
 
 Address: 0x68e0
 Stack Size: 0x8
+Opcodes Size: 0x6
+Locals Count: 0
+
 Called by: UI_BotSelectMenu_BuildList, UI_AddBotsMenu_Init
 =================
 */
@@ -15461,6 +16089,9 @@ UI_SPUnlock_f
 
 Address: 0x68e6
 Stack Size: 0x430
+Opcodes Size: 0x56
+Locals Count: 4
+
 Calls: trap_Print, trap_Cvar_Set, trap_Cvar_VariableStringBuffer, UI_SPLevelMenu_ReInit, UI_ShowTierVideo, Info_SetValueForKey, Com_sprintf
 Called by: UI_ConsoleCommand
 =================
@@ -15496,6 +16127,9 @@ UI_SPUnlockMedals_f
 
 Address: 0x693c
 Stack Size: 0x42c
+Opcodes Size: 0x3a
+Locals Count: 3
+
 Calls: trap_Print, trap_Cvar_Set, trap_Cvar_VariableStringBuffer, Info_SetValueForKey, Com_sprintf
 Called by: UI_ConsoleCommand
 =================
@@ -15522,6 +16156,9 @@ UI_InitGameinfo
 
 Address: 0x6976
 Stack Size: 0x8
+Opcodes Size: 0xf
+Locals Count: 0
+
 Calls: UI_LoadBots, UI_LoadArenas, UI_InitMemory
 Called by: UI_Init
 =================
@@ -15540,6 +16177,9 @@ InGame_RestartAction
 
 Address: 0x6985
 Stack Size: 0x10
+Opcodes Size: 0x13
+Locals Count: 1
+
 Calls: trap_Cmd_ExecuteText, UI_PopMenu
 =================
 */
@@ -15559,6 +16199,9 @@ InGame_QuitAction
 
 Address: 0x6998
 Stack Size: 0x8
+Opcodes Size: 0xf
+Locals Count: 1
+
 Calls: UI_CreditMenu, UI_PopMenu
 =================
 */
@@ -15578,19 +16221,23 @@ InGame_Event
 
 Address: 0x69a7
 Stack Size: 0x1c
+Opcodes Size: 0x60
+Locals Count: 4
+
 Calls: trap_Cmd_ExecuteText, UI_PopMenu, UI_TeamOrdersMenu, UI_RemoveBotsMenu, UI_AddBotsMenu, UI_ServerInfoMenu, UI_ConfirmMenu, UI_SetupMenu, UI_TeamMainMenu
 =================
 */
 void InGame_Event(int arg_0, int arg_1) {
-	char	local_14[8];
+	int		local_14;
+	int		local_18;
 
 	if (arg_1 == 0x3) goto jmp_69ae;
 	goto jmp_6a05;
 jmp_69ae:
-	*(int *)local_14 = *(int *)(arg_0 + 0x8);
-	if (*(int *)local_14 < 0xa) goto jmp_6a05;
-	if (*(int *)local_14 > 0x13) goto jmp_6a05;
-	goto *(int *)((*(int *)local_14 << 0x2) + 0x1bc4);
+	local_14 = *(int *)(arg_0 + 0x8);
+	if (local_14 < 0xa) goto jmp_6a05;
+	if (local_14 > 0x13) goto jmp_6a05;
+	goto *(int *)((local_14 << 0x2) + 0x1bc4);
 	UI_TeamMainMenu();
 	goto jmp_6a05;
 	UI_SetupMenu();
@@ -15619,6 +16266,9 @@ InGame_MenuInit
 
 Address: 0x6a07
 Stack Size: 0x1050
+Opcodes Size: 0x279
+Locals Count: 16
+
 Calls: trap_GetConfigString, trap_GetClientState, trap_Cvar_VariableValue, memset, Menu_AddItem, atoi, Info_ValueForKey, InGame_Cache
 Called by: UI_InGameMenu
 =================
@@ -15626,7 +16276,8 @@ Called by: UI_InGameMenu
 void InGame_MenuInit(void) {
 	int		local_14;
 	char	local_18[8];
-	char	local_20[3076];
+	int		local_20;
+	char	local_24[3072];
 	char	local_c24[1024];
 	int		local_1024;
 	int		local_1028;
@@ -15718,7 +16369,7 @@ jmp_6ae4:
 	goto jmp_6b50;
 jmp_6b1d:
 	trap_GetClientState(local_18);
-	trap_GetConfigString((*(int *)local_20 + 0x220), local_c24, 0x400);
+	trap_GetConfigString((local_20 + 0x220), local_c24, 0x400);
 	local_1044 = Info_ValueForKey(local_c24, 0x5c3a);
 	local_1048 = atoi(local_1044);
 	local_1024 = local_1048;
@@ -15810,6 +16461,9 @@ InGame_Cache
 
 Address: 0x6c80
 Stack Size: 0xc
+Opcodes Size: 0x8
+Locals Count: 0
+
 Calls: trap_R_RegisterShaderNoMip
 Called by: InGame_MenuInit, UI_Cache_f
 =================
@@ -15825,6 +16479,9 @@ UI_InGameMenu
 
 Address: 0x6c88
 Stack Size: 0xc
+Opcodes Size: 0x14
+Locals Count: 0
+
 Calls: UI_PushMenu, InGame_MenuInit
 Called by: UI_SetActiveMenu
 =================
@@ -15844,20 +16501,24 @@ LoadConfig_MenuEvent
 
 Address: 0x6c9c
 Stack Size: 0x1c
+Opcodes Size: 0x51
+Locals Count: 5
+
 Calls: trap_Cmd_ExecuteText, ScrollList_Key, UI_PopMenu, va
 =================
 */
 void LoadConfig_MenuEvent(int arg_0, int arg_1) {
-	char	local_10[8];
+	int		local_10;
+	int		local_14;
 	int		local_18;
 
 	if (arg_1 == 0x3) goto jmp_6ca3;
 	goto jmp_6ceb;
 jmp_6ca3:
-	*(int *)local_10 = *(int *)(arg_0 + 0x8);
-	if (*(int *)local_10 < 0xa) goto jmp_6ceb;
-	if (*(int *)local_10 > 0xe) goto jmp_6ceb;
-	goto *(int *)((*(int *)local_10 << 0x2) + 0x1bec);
+	local_10 = *(int *)(arg_0 + 0x8);
+	if (local_10 < 0xa) goto jmp_6ceb;
+	if (local_10 > 0xe) goto jmp_6ceb;
+	goto *(int *)((local_10 << 0x2) + 0x1bec);
 	local_18 = va(0x5da6, *(int *)((bss_3ebdc << 0x2) + bss_3ebe8));
 	trap_Cmd_ExecuteText(0x2, local_18);
 	UI_PopMenu();
@@ -15876,6 +16537,9 @@ LoadConfig_MenuInit
 
 Address: 0x6ced
 Stack Size: 0x30
+Opcodes Size: 0x1b9
+Locals Count: 6
+
 Calls: trap_FS_GetFileList, memset, Menu_AddItem, Q_strupr, Q_stricmp, strlen, strcpy, UI_LoadConfig_Cache
 Called by: UI_LoadConfigMenu
 =================
@@ -16012,6 +16676,9 @@ UI_LoadConfig_Cache
 
 Address: 0x6ea6
 Stack Size: 0xc
+Opcodes Size: 0x30
+Locals Count: 0
+
 Calls: trap_R_RegisterShaderNoMip
 Called by: LoadConfig_MenuInit
 =================
@@ -16035,6 +16702,9 @@ UI_LoadConfigMenu
 
 Address: 0x6ed6
 Stack Size: 0xc
+Opcodes Size: 0xb
+Locals Count: 0
+
 Calls: UI_PushMenu, LoadConfig_MenuInit
 =================
 */
@@ -16050,6 +16720,9 @@ MainMenu_ExitAction
 
 Address: 0x6ee1
 Stack Size: 0x8
+Opcodes Size: 0xf
+Locals Count: 1
+
 Calls: UI_CreditMenu, UI_PopMenu
 =================
 */
@@ -16069,19 +16742,23 @@ Main_MenuEvent
 
 Address: 0x6ef0
 Stack Size: 0x1c
+Opcodes Size: 0x57
+Locals Count: 4
+
 Calls: trap_Cmd_ExecuteText, trap_Cvar_Set, UI_ConfirmMenu, UI_ModsMenu, UI_CinematicsMenu, UI_DemosMenu, UI_SetupMenu, UI_ArenaServersMenu, UI_SPLevelMenu
 =================
 */
 void Main_MenuEvent(int arg_0, int arg_1) {
-	char	local_14[8];
+	int		local_14;
+	int		local_18;
 
 	if (arg_1 == 0x3) goto jmp_6ef7;
 	goto jmp_6f45;
 jmp_6ef7:
-	*(int *)local_14 = *(int *)(arg_0 + 0x8);
-	if (*(int *)local_14 < 0xa) goto jmp_6f45;
-	if (*(int *)local_14 > 0x11) goto jmp_6f45;
-	goto *(int *)((*(int *)local_14 << 0x2) + 0x1c00);
+	local_14 = *(int *)(arg_0 + 0x8);
+	if (local_14 < 0xa) goto jmp_6f45;
+	if (local_14 > 0x11) goto jmp_6f45;
+	goto *(int *)((local_14 << 0x2) + 0x1c00);
 	UI_SPLevelMenu();
 	goto jmp_6f45;
 	UI_ArenaServersMenu();
@@ -16107,6 +16784,9 @@ MainMenu_Cache
 
 Address: 0x6f47
 Stack Size: 0x10
+Opcodes Size: 0xd
+Locals Count: 1
+
 Calls: trap_R_RegisterModel
 Called by: UI_MainMenu, UI_Cache_f
 =================
@@ -16124,6 +16804,9 @@ ErrorMessage_Key
 
 Address: 0x6f54
 Stack Size: 0x10
+Opcodes Size: 0x10
+Locals Count: 0
+
 Calls: trap_Cvar_Set, UI_MainMenu
 =================
 */
@@ -16140,26 +16823,34 @@ Main_MenuDraw
 
 Address: 0x6f64
 Stack Size: 0x268
+Opcodes Size: 0xfb
+Locals Count: 37
+
 Calls: trap_R_RenderScene, trap_R_AddRefEntityToScene, sin, trap_R_ClearScene, memset, UI_DrawString, UI_DrawProportionalString, Menu_Draw, UI_DrawProportionalString_AutoWrapped, strlen, AnglesToAxis, UI_AdjustFrom640, AxisClear
 =================
 */
-void Main_MenuDraw(void) {
+void Main_MenuDraw(, int arg_1658) {
 	int		local_24;
 	int		local_28;
 	int		local_2c;
 	int		local_30;
 	int		local_34;
-	char	local_38[16];
+	int		local_38;
+	char	local_3c[12];
 	char	local_48[36];
 	int		local_6c;
-	char	local_70[292];
+	int		local_70;
+	char	local_74[288];
 	int		local_194;
 	int		local_198;
 	int		local_19c;
-	char	local_1a0[16];
+	char	local_1a0[12];
+	int		local_1ac;
 	char	local_1b0[40];
-	char	local_1d8[16];
-	char	local_1e8[56];
+	char	local_1d8[12];
+	int		local_1e4;
+	char	local_1e8[12];
+	char	local_1f4[44];
 	int		local_220;
 	int		local_224;
 	int		local_228;
@@ -16178,7 +16869,7 @@ void Main_MenuDraw(void) {
 
 	block_copy(global_1c48, local_24c, 0x10);
 	memset(&local_24, 0x0, 0x170);
-	*(int *)local_70 = 0x1;
+	local_70 = 0x1;
 	AxisClear(local_48);
 	local_25c = 0x0;
 	local_23c = local_25c;
@@ -16192,7 +16883,7 @@ void Main_MenuDraw(void) {
 	local_30 = (int)local_248;
 	local_22c = 0x0;
 	local_34 = (local_22c + 0x42700000);
-	*(int *)local_38 = (local_22c + 0x419d8000);
+	local_38 = (local_22c + 0x419d8000);
 	local_6c = bss_db58;
 	local_220 = 0x43960000;
 	local_224 = 0x0;
@@ -16234,6 +16925,9 @@ UI_TeamArenaExists
 
 Address: 0x705f
 Stack Size: 0x840
+Opcodes Size: 0x60
+Locals Count: 11
+
 Calls: trap_FS_GetFileList, Q_stricmp, strlen
 Called by: UI_MainMenu
 =================
@@ -16246,7 +16940,8 @@ int UI_TeamArenaExists(void) {
 	int		local_28;
 	char	local_2c[2048];
 	int		local_82c;
-	char	local_830[8];
+	int		local_830;
+	int		local_834;
 	int		local_838;
 	int		local_83c;
 
@@ -16256,8 +16951,8 @@ int UI_TeamArenaExists(void) {
 	local_20 = 0x0;
 	goto jmp_70b6;
 jmp_7078:
-	*(int *)local_830 = strlen(local_18);
-	local_1c = (*(int *)local_830 + 0x1);
+	local_830 = strlen(local_18);
+	local_1c = (local_830 + 0x1);
 	local_24 = (local_1c + local_18);
 	local_838 = Q_stricmp(local_18, 0x5ecc);
 	if (local_838 != 0x0) goto jmp_709d;
@@ -16277,6 +16972,9 @@ UI_MainMenu
 
 Address: 0x70bf
 Stack Size: 0x3c
+Opcodes Size: 0x1fc
+Locals Count: 8
+
 Calls: trap_Key_SetCatcher, trap_Cvar_VariableStringBuffer, memset, trap_VerifyCDKey, trap_GetCDKey, trap_Cvar_Set, Menu_AddItem, UI_TeamArenaExists, UI_PushMenu, strlen, MainMenu_Cache, UI_CDKeyMenu
 Called by: ErrorMessage_Key, UI_SetActiveMenu
 =================
@@ -16287,7 +16985,8 @@ void UI_MainMenu(void) {
 	int		local_1c;
 	int		local_20;
 	int		local_24;
-	char	local_28[16];
+	int		local_28;
+	char	local_2c[12];
 	int		local_38;
 
 	local_1c = 0x0;
@@ -16373,8 +17072,8 @@ jmp_7138:
 	bss_40b58 = 0x21b0;
 	bss_40b54 = local_18;
 	if (bss_10808 != 0x0) goto jmp_7222;
-	*(int *)local_28 = UI_TeamArenaExists();
-	if (*(int *)local_28 == 0x0) goto jmp_7222;
+	local_28 = UI_TeamArenaExists();
+	if (local_28 == 0x0) goto jmp_7222;
 	local_1c = 0x1;
 	local_14 = (local_14 + 0x22);
 	bss_40b5c = 0x9;
@@ -16433,6 +17132,9 @@ MField_Draw
 
 Address: 0x72bb
 Stack Size: 0x440
+Opcodes Size: 0x12a
+Locals Count: 15
+
 Calls: trap_Key_GetOverstrikeMode, memcpy, trap_Error, UI_DrawChar, UI_DrawString, strlen
 Called by: UI_SaveConfigMenu_SavenameDraw, MenuField_Draw
 =================
@@ -16443,7 +17145,8 @@ void MField_Draw(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4) {
 	int		local_24;
 	char	local_28[1024];
 	int		local_428;
-	char	local_42c[8];
+	int		local_42c;
+	int		local_430;
 	int		local_434;
 	int		local_438;
 	int		local_43c;
@@ -16479,10 +17182,10 @@ jmp_7329:
 jmp_7358:
 	local_438 = trap_Key_GetOverstrikeMode();
 	if (local_438 == 0x0) goto jmp_7365;
-	*(int *)local_42c = 0xb;
+	local_42c = 0xb;
 	goto jmp_7368;
 jmp_7365:
-	*(int *)local_42c = 0xa;
+	local_42c = 0xa;
 jmp_7368:
 	arg_3 = (arg_3 & 0xffffbfff);
 	arg_3 = (arg_3 | 0x1000);
@@ -16507,7 +17210,7 @@ jmp_73ab:
 	local_20 = local_43c;
 	arg_1 = (arg_1 - (local_20 * local_428));
 jmp_73c5:
-	UI_DrawChar((arg_1 + ((*(int *)arg_0 - local_24) * local_428)), arg_2, *(int *)local_42c, (arg_3 & 0xfffffffc), arg_4);
+	UI_DrawChar((arg_1 + ((*(int *)arg_0 - local_24) * local_428)), arg_2, local_42c, (arg_3 & 0xfffffffc), arg_4);
 jmp_73e3:
 }
 
@@ -16517,6 +17220,9 @@ MField_Paste
 
 Address: 0x73e5
 Stack Size: 0x5c
+Opcodes Size: 0x35
+Locals Count: 5
+
 Calls: trap_GetClipboardData, MField_CharEvent, strlen
 Called by: MField_CharEvent, MField_KeyDownEvent
 =================
@@ -16546,20 +17252,27 @@ MField_KeyDownEvent
 
 Address: 0x741a
 Stack Size: 0x54
+Opcodes Size: 0x154
+Locals Count: 17
+
 Calls: trap_Key_SetOverstrikeMode, trap_Key_GetOverstrikeMode, trap_Key_IsDown, tolower, memmove, strlen, MField_Paste
 Called by: MenuField_Key
 =================
 */
 void MField_KeyDownEvent(int arg_0, int arg_1) {
-	char	local_14[8];
+	int		local_14;
+	int		local_18;
 	int		local_1c;
-	char	local_20[12];
+	int		local_20;
+	char	local_24[8];
 	int		local_2c;
 	int		local_30;
 	int		local_34;
-	char	local_38[8];
+	int		local_38;
+	int		local_3c;
 	int		local_40;
-	char	local_44[8];
+	int		local_44;
+	int		local_48;
 	int		local_4c;
 	int		local_50;
 
@@ -16573,26 +17286,26 @@ jmp_742b:
 	MField_Paste(arg_0);
 	goto jmp_756c;
 jmp_743d:
-	*(int *)local_20 = strlen((arg_0 + 0xc));
-	*(int *)local_14 = *(int *)local_20;
+	local_20 = strlen((arg_0 + 0xc));
+	local_14 = local_20;
 	if (arg_1 == 0x8c) goto jmp_7452;
 	if (arg_1 != 0xab) goto jmp_7479;
 jmp_7452:
-	if (*(int *)arg_0 >= *(int *)local_14) goto jmp_756c;
+	if (*(int *)arg_0 >= local_14) goto jmp_756c;
 	local_2c = *(int *)arg_0;
 	local_30 = (local_2c + (arg_0 + 0xc));
-	memmove(local_30, (local_30 + 0x1), (*(int *)local_14 - local_2c));
+	memmove(local_30, (local_30 + 0x1), (local_14 - local_2c));
 	goto jmp_756c;
 jmp_7479:
 	if (arg_1 == 0x87) goto jmp_7481;
 	if (arg_1 != 0xa5) goto jmp_74b7;
 jmp_7481:
-	if (*(int *)arg_0 >= *(int *)local_14) goto jmp_748f;
+	if (*(int *)arg_0 >= local_14) goto jmp_748f;
 	*(int *)arg_0 = (*(int *)arg_0 + 0x1);
 jmp_748f:
 	local_30 = *(int *)arg_0;
 	if (local_30 < (*(int *)(arg_0 + 0x4) + *(int *)(arg_0 + 0x8))) goto jmp_756c;
-	if (local_30 > *(int *)local_14) goto jmp_756c;
+	if (local_30 > local_14) goto jmp_756c;
 	local_34 = (arg_0 + 0x4);
 	*(int *)local_34 = (*(int *)local_34 + 0x1);
 	goto jmp_756c;
@@ -16612,8 +17325,8 @@ jmp_74e5:
 	if (arg_1 == 0xa0) goto jmp_7502;
 	local_34 = tolower(arg_1);
 	if (local_34 != 0x61) goto jmp_750e;
-	*(int *)local_38 = trap_Key_IsDown(0x89);
-	if (*(int *)local_38 == 0x0) goto jmp_750e;
+	local_38 = trap_Key_IsDown(0x89);
+	if (local_38 == 0x0) goto jmp_750e;
 jmp_7502:
 	*(int *)arg_0 = 0x0;
 	*(int *)(arg_0 + 0x4) = 0x0;
@@ -16623,11 +17336,11 @@ jmp_750e:
 	if (arg_1 == 0xa6) goto jmp_752b;
 	local_40 = tolower(arg_1);
 	if (local_40 != 0x65) goto jmp_754e;
-	*(int *)local_44 = trap_Key_IsDown(0x89);
-	if (*(int *)local_44 == 0x0) goto jmp_754e;
+	local_44 = trap_Key_IsDown(0x89);
+	if (local_44 == 0x0) goto jmp_754e;
 jmp_752b:
-	*(int *)arg_0 = *(int *)local_14;
-	*(int *)(arg_0 + 0x4) = ((*(int *)local_14 - *(int *)(arg_0 + 0x8)) + 0x1);
+	*(int *)arg_0 = local_14;
+	*(int *)(arg_0 + 0x4) = ((local_14 - *(int *)(arg_0 + 0x8)) + 0x1);
 	if (*(int *)(arg_0 + 0x4) >= 0x0) goto jmp_756c;
 	*(int *)(arg_0 + 0x4) = 0x0;
 	goto jmp_756c;
@@ -16652,6 +17365,9 @@ MField_CharEvent
 
 Address: 0x756e
 Stack Size: 0x38
+Opcodes Size: 0x167
+Locals Count: 11
+
 Calls: trap_Key_GetOverstrikeMode, memmove, strlen, MField_Clear, MField_Paste
 Called by: MenuField_Key, MField_Paste
 =================
@@ -16749,6 +17465,9 @@ MField_Clear
 
 Address: 0x76d5
 Stack Size: 0x8
+Opcodes Size: 0x17
+Locals Count: 1
+
 Called by: MenuField_Init, MField_CharEvent
 =================
 */
@@ -16766,6 +17485,9 @@ MenuField_Init
 
 Address: 0x76ec
 Stack Size: 0x2c
+Opcodes Size: 0x84
+Locals Count: 6
+
 Calls: strlen, MField_Clear
 Called by: Menu_AddItem
 =================
@@ -16774,7 +17496,8 @@ void MenuField_Init(int arg_0) {
 	int		local_c;
 	int		local_10;
 	int		local_14;
-	char	local_18[20];
+	int		local_18;
+	char	local_1c[16];
 
 	arg_0 = arg_0;
 	MField_Clear((arg_0 + 0x3c));
@@ -16783,13 +17506,13 @@ void MenuField_Init(int arg_0) {
 	local_14 = 0x10;
 	goto jmp_7715;
 jmp_770a:
-	*(int *)local_18 = 0x10;
-	local_c = *(int *)local_18;
-	local_14 = *(int *)local_18;
+	local_18 = 0x10;
+	local_c = local_18;
+	local_14 = local_18;
 jmp_7715:
 	if (*(int *)(arg_0 + 0x4) == 0x0) goto jmp_7731;
-	*(int *)local_18 = strlen(*(int *)(arg_0 + 0x4));
-	local_10 = ((*(int *)local_18 + 0x1) * local_c);
+	local_18 = strlen(*(int *)(arg_0 + 0x4));
+	local_10 = ((local_18 + 0x1) * local_c);
 	goto jmp_7734;
 jmp_7731:
 	local_10 = 0x0;
@@ -16806,6 +17529,9 @@ MenuField_Draw
 
 Address: 0x7770
 Stack Size: 0x50
+Opcodes Size: 0xea
+Locals Count: 13
+
 Calls: MField_Draw, UI_DrawString, UI_DrawChar, UI_FillRect, Menu_ItemAtCursor
 Called by: Menu_Draw
 =================
@@ -16816,8 +17542,10 @@ void MenuField_Draw(int arg_0) {
 	int		local_24;
 	int		local_28;
 	int		local_2c;
-	char	local_30[12];
-	char	local_3c[8];
+	int		local_30;
+	char	local_34[8];
+	int		local_3c;
+	int		local_40;
 	int		local_44;
 	int		local_48;
 	int		local_4c;
@@ -16833,25 +17561,25 @@ jmp_7794:
 	local_2c = 0x10;
 	local_1c = 0x20;
 jmp_779a:
-	*(int *)local_3c = Menu_ItemAtCursor(*(int *)(arg_0 + 0x24));
-	if (arg_0 != *(int *)local_3c) goto jmp_77b4;
-	*(int *)local_30 = 0x1;
+	local_3c = Menu_ItemAtCursor(*(int *)(arg_0 + 0x24));
+	if (arg_0 != local_3c) goto jmp_77b4;
+	local_30 = 0x1;
 	local_1c = (local_1c | 0x4000);
 	goto jmp_77b7;
 jmp_77b4:
-	*(int *)local_30 = 0x0;
+	local_30 = 0x0;
 jmp_77b7:
 	if ((*(int *)(arg_0 + 0x2c) & 0x2000) == 0x0) goto jmp_77c5;
 	local_28 = 0x21e0;
 	goto jmp_77d1;
 jmp_77c5:
-	if (*(int *)local_30 == 0x0) goto jmp_77ce;
+	if (local_30 == 0x0) goto jmp_77ce;
 	local_28 = 0x2200;
 	goto jmp_77d1;
 jmp_77ce:
 	local_28 = 0x21f0;
 jmp_77d1:
-	if (*(int *)local_30 == 0x0) goto jmp_7820;
+	if (local_30 == 0x0) goto jmp_7820;
 	local_44 = *(int *)(arg_0 + 0x14);
 #define next_call_arg_0 "(float)local_44"
 	local_48 = *(int *)(arg_0 + 0x18);
@@ -16875,67 +17603,74 @@ MenuField_Key
 
 Address: 0x785a
 Stack Size: 0x3c
+Opcodes Size: 0xd0
+Locals Count: 13
+
 Calls: MField_KeyDownEvent, MField_CharEvent, Q_isalpha, Q_isupper, Q_islower
 Called by: Menu_DefaultKey
 =================
 */
 int MenuField_Key(int arg_0, int arg_1) {
-	char	local_10[8];
-	char	local_18[8];
-	char	local_20[8];
-	char	local_28[8];
+	int		local_10;
+	int		local_14;
+	int		local_18;
+	int		local_1c;
+	int		local_20;
+	int		local_24;
+	int		local_28;
+	int		local_2c;
 	int		local_30;
 	int		local_34;
 	int		local_38;
 
-	*(int *)local_10 = *(int *)arg_1;
-	if (*(int *)local_10 == 0x84) goto jmp_7926;
-	*(int *)local_18 = 0x85;
-	if (*(int *)local_10 == *(int *)local_18) goto jmp_7926;
-	if (*(int *)local_10 > *(int *)local_18) goto jmp_7884;
-	*(int *)local_20 = 0x9;
-	if (*(int *)local_10 == *(int *)local_20) goto jmp_7926;
-	if (*(int *)local_10 < *(int *)local_20) goto jmp_78b1;
-	if (*(int *)local_10 == 0xd) goto jmp_78ab;
+	local_10 = *(int *)arg_1;
+	if (local_10 == 0x84) goto jmp_7926;
+	local_18 = 0x85;
+	if (local_10 == local_18) goto jmp_7926;
+	if (local_10 > local_18) goto jmp_7884;
+	local_20 = 0x9;
+	if (local_10 == local_20) goto jmp_7926;
+	if (local_10 < local_20) goto jmp_78b1;
+	if (local_10 == 0xd) goto jmp_78ab;
 	goto jmp_78b1;
 jmp_7884:
-	if (*(int *)local_10 == 0xa7) goto jmp_7926;
-	*(int *)local_28 = 0xa9;
-	if (*(int *)local_10 == *(int *)local_28) goto jmp_78ab;
-	if (*(int *)local_10 > *(int *)local_28) goto jmp_789b;
-	if (*(int *)local_10 == 0xa1) goto jmp_7926;
+	if (local_10 == 0xa7) goto jmp_7926;
+	local_28 = 0xa9;
+	if (local_10 == local_28) goto jmp_78ab;
+	if (local_10 > local_28) goto jmp_789b;
+	if (local_10 == 0xa1) goto jmp_7926;
 	goto jmp_78b1;
 jmp_789b:
-	if (*(int *)local_10 < 0xb9) goto jmp_78b1;
-	if (*(int *)local_10 > 0xbc) goto jmp_78b1;
-	goto *(int *)((*(int *)local_10 << 0x2) + 0x1974);
+	if (local_10 < 0xb9) goto jmp_78b1;
+	if (local_10 > 0xbc) goto jmp_78b1;
+	goto *(int *)((local_10 << 0x2) + 0x1974);
 jmp_78ab:
 	*(int *)arg_1 = 0x9;
 	goto jmp_7926;
 jmp_78b1:
-	if ((*(int *)local_10 & 0x400) == 0x0) goto jmp_791b;
-	*(int *)local_10 = (*(int *)local_10 & 0xfffffbff);
+	if ((local_10 & 0x400) == 0x0) goto jmp_791b;
+	local_10 = (local_10 & 0xfffffbff);
 	if ((*(int *)(arg_0 + 0x2c) & 0x80000) == 0x0) goto jmp_78d9;
-	local_30 = Q_islower(*(int *)local_10);
+	local_30 = Q_islower(local_10);
 	if (local_30 == 0x0) goto jmp_78d9;
-	*(int *)local_10 = (*(int *)local_10 - 0x20);
+	local_10 = (local_10 - 0x20);
 	goto jmp_790e;
 jmp_78d9:
 	if ((*(int *)(arg_0 + 0x2c) & 0x40000) == 0x0) goto jmp_78f5;
-	local_34 = Q_isupper(*(int *)local_10);
+	local_34 = Q_isupper(local_10);
 	if (local_34 == 0x0) goto jmp_78f5;
-	*(int *)local_10 = (*(int *)local_10 - 0xffffffe0);
+	local_10 = (local_10 - 0xffffffe0);
 	goto jmp_790e;
 jmp_78f5:
 	if ((*(int *)(arg_0 + 0x2c) & 0x20) == 0x0) goto jmp_790e;
-	local_38 = Q_isalpha(*(int *)local_10);
+	local_38 = Q_isalpha(local_10);
 	if (local_38 == 0x0) goto jmp_790e;
 	return menu_buzz_sound;
 jmp_790e:
-	MField_CharEvent((arg_0 + 0x3c), *(int *)local_10);
+	MField_CharEvent((arg_0 + 0x3c), local_10);
 	goto jmp_7926;
 jmp_791b:
-	MField_KeyDownEvent((arg_0 + 0x3c), *(int *)local_10);
+	MField_KeyDownEvent((arg_0 + 0x3c), local_10);
 jmp_7926:
 	return 0x0;
 }
@@ -16946,18 +17681,22 @@ UI_Mods_MenuEvent
 
 Address: 0x792a
 Stack Size: 0x18
+Opcodes Size: 0x36
+Locals Count: 4
+
 Calls: trap_Cmd_ExecuteText, trap_Cvar_Set, UI_PopMenu
 =================
 */
 void UI_Mods_MenuEvent(int arg_0, int arg_1) {
-	char	local_10[8];
+	int		local_10;
+	int		local_14;
 
 	if (arg_1 == 0x3) goto jmp_7931;
 	goto jmp_795e;
 jmp_7931:
-	*(int *)local_10 = *(int *)(arg_0 + 0x8);
-	if (*(int *)local_10 == 0xa) goto jmp_795b;
-	if (*(int *)local_10 == 0xb) goto jmp_7942;
+	local_10 = *(int *)(arg_0 + 0x8);
+	if (local_10 == 0xa) goto jmp_795b;
+	if (local_10 == 0xb) goto jmp_7942;
 	goto jmp_795e;
 jmp_7942:
 	trap_Cvar_Set(0x5f9c, *(int *)((bss_40e90 << 0x2) + 0x42068));
@@ -16975,6 +17714,9 @@ UI_Mods_ParseInfos
 
 Address: 0x7960
 Stack Size: 0x28
+Opcodes Size: 0x6a
+Locals Count: 7
+
 Calls: strlen, Q_strncpyz
 Called by: UI_Mods_LoadMods
 =================
@@ -17007,6 +17749,9 @@ UI_Mods_LoadMods
 
 Address: 0x79ca
 Stack Size: 0x840
+Opcodes Size: 0x87
+Locals Count: 11
+
 Calls: trap_Print, trap_FS_GetFileList, va, UI_Mods_ParseInfos, strlen
 Called by: UI_Mods_MenuInit
 =================
@@ -17020,7 +17765,8 @@ void UI_Mods_LoadMods(void) {
 	char	local_2c[2048];
 	int		local_82c;
 	int		local_830;
-	char	local_834[8];
+	int		local_834;
+	int		local_838;
 	int		local_83c;
 
 	bss_40e9c = 0x41f68;
@@ -17037,8 +17783,8 @@ void UI_Mods_LoadMods(void) {
 	local_24 = 0x0;
 	goto jmp_7a34;
 jmp_79fe:
-	*(int *)local_834 = strlen(local_18);
-	local_20 = (*(int *)local_834 + 0x1);
+	local_834 = strlen(local_18);
+	local_20 = (local_834 + 0x1);
 	local_1c = (local_20 + local_18);
 	UI_Mods_ParseInfos(local_18, local_1c);
 	local_83c = strlen(local_1c);
@@ -17046,8 +17792,8 @@ jmp_79fe:
 	local_24 = (local_24 + 0x1);
 jmp_7a34:
 	if (local_24 < local_28) goto jmp_79fe;
-	*(int *)local_834 = va(0x5f65, bss_40e94);
-	trap_Print(*(int *)local_834);
+	local_834 = va(0x5f65, bss_40e94);
+	trap_Print(local_834);
 	if (bss_40e94 <= 0x40) goto jmp_7a4f;
 	bss_40e94 = 0x40;
 jmp_7a4f:
@@ -17059,6 +17805,9 @@ UI_Mods_MenuInit
 
 Address: 0x7a51
 Stack Size: 0x14
+Opcodes Size: 0xd2
+Locals Count: 0
+
 Calls: memset, Menu_AddItem, UI_Mods_LoadMods, UI_ModsMenu_Cache
 Called by: UI_ModsMenu
 =================
@@ -17132,6 +17881,9 @@ UI_ModsMenu_Cache
 
 Address: 0x7b23
 Stack Size: 0xc
+Opcodes Size: 0x21
+Locals Count: 0
+
 Calls: trap_R_RegisterShaderNoMip
 Called by: UI_Mods_MenuInit, UI_Cache_f
 =================
@@ -17152,6 +17904,9 @@ UI_ModsMenu
 
 Address: 0x7b44
 Stack Size: 0xc
+Opcodes Size: 0xb
+Locals Count: 0
+
 Calls: UI_PushMenu, UI_Mods_MenuInit
 Called by: Main_MenuEvent
 =================
@@ -17168,19 +17923,23 @@ UI_NetworkOptionsMenu_Event
 
 Address: 0x7b4f
 Stack Size: 0x18
+Opcodes Size: 0x7c
+Locals Count: 4
+
 Calls: trap_Cvar_SetValue, UI_SoundOptionsMenu, UI_DisplayOptionsMenu, UI_GraphicsOptionsMenu, UI_PopMenu
 =================
 */
 void UI_NetworkOptionsMenu_Event(int arg_0, int arg_1) {
-	char	local_10[8];
+	int		local_10;
+	int		local_14;
 
 	if (arg_1 == 0x3) goto jmp_7b56;
 	goto jmp_7bc9;
 jmp_7b56:
-	*(int *)local_10 = *(int *)(arg_0 + 0x8);
-	if (*(int *)local_10 < 0xa) goto jmp_7bc9;
-	if (*(int *)local_10 > 0xf) goto jmp_7bc9;
-	goto *(int *)((*(int *)local_10 << 0x2) + 0x1c58);
+	local_10 = *(int *)(arg_0 + 0x8);
+	if (local_10 < 0xa) goto jmp_7bc9;
+	if (local_10 > 0xf) goto jmp_7bc9;
+	goto *(int *)((local_10 << 0x2) + 0x1c58);
 	UI_PopMenu();
 	UI_GraphicsOptionsMenu();
 	goto jmp_7bc9;
@@ -17219,6 +17978,9 @@ UI_NetworkOptionsMenu_Init
 
 Address: 0x7bcb
 Stack Size: 0x20
+Opcodes Size: 0x16b
+Locals Count: 3
+
 Calls: trap_Cvar_VariableValue, memset, Menu_AddItem, UI_NetworkOptionsMenu_Cache
 Called by: UI_NetworkOptionsMenu
 =================
@@ -17345,6 +18107,9 @@ UI_NetworkOptionsMenu_Cache
 
 Address: 0x7d36
 Stack Size: 0xc
+Opcodes Size: 0x17
+Locals Count: 0
+
 Calls: trap_R_RegisterShaderNoMip
 Called by: UI_NetworkOptionsMenu_Init, UI_Cache_f
 =================
@@ -17363,6 +18128,9 @@ UI_NetworkOptionsMenu
 
 Address: 0x7d4d
 Stack Size: 0x10
+Opcodes Size: 0x12
+Locals Count: 0
+
 Calls: Menu_SetCursorToItem, UI_PushMenu, UI_NetworkOptionsMenu_Init
 Called by: GraphicsOptions_Event, UI_SoundOptionsMenu_Event, Options_Event, UI_DisplayOptionsMenu_Event
 =================
@@ -17380,19 +18148,23 @@ Options_Event
 
 Address: 0x7d5f
 Stack Size: 0x10
+Opcodes Size: 0x37
+Locals Count: 4
+
 Calls: UI_PopMenu, UI_NetworkOptionsMenu, UI_SoundOptionsMenu, UI_DisplayOptionsMenu, UI_GraphicsOptionsMenu
 =================
 */
 void Options_Event(int arg_0, int arg_1) {
-	char	local_8[8];
+	int		local_8;
+	int		local_c;
 
 	if (arg_1 == 0x3) goto jmp_7d66;
 	goto jmp_7d94;
 jmp_7d66:
-	*(int *)local_8 = *(int *)(arg_0 + 0x8);
-	if (*(int *)local_8 < 0xa) goto jmp_7d94;
-	if (*(int *)local_8 > 0xe) goto jmp_7d94;
-	goto *(int *)((*(int *)local_8 << 0x2) + 0x1c70);
+	local_8 = *(int *)(arg_0 + 0x8);
+	if (local_8 < 0xa) goto jmp_7d94;
+	if (local_8 > 0xe) goto jmp_7d94;
+	goto *(int *)((local_8 << 0x2) + 0x1c70);
 	UI_GraphicsOptionsMenu();
 	goto jmp_7d94;
 	UI_DisplayOptionsMenu();
@@ -17411,6 +18183,9 @@ SystemConfig_Cache
 
 Address: 0x7d96
 Stack Size: 0xc
+Opcodes Size: 0x17
+Locals Count: 0
+
 Calls: trap_R_RegisterShaderNoMip
 Called by: Options_MenuInit
 =================
@@ -17429,6 +18204,9 @@ Options_MenuInit
 
 Address: 0x7dad
 Stack Size: 0xc24
+Opcodes Size: 0x13d
+Locals Count: 2
+
 Calls: trap_GetClientState, memset, Menu_AddItem, SystemConfig_Cache
 Called by: UI_SystemConfigMenu
 =================
@@ -17534,6 +18312,9 @@ UI_SystemConfigMenu
 
 Address: 0x7eea
 Stack Size: 0xc
+Opcodes Size: 0xb
+Locals Count: 0
+
 Calls: UI_PushMenu, Options_MenuInit
 =================
 */
@@ -17549,6 +18330,9 @@ PlayerModel_UpdateGrid
 
 Address: 0x7ef5
 Stack Size: 0x24
+Opcodes Size: 0x109
+Locals Count: 7
+
 Called by: PlayerModel_MenuInit, PlayerModel_MenuKey, PlayerModel_MenuEvent
 =================
 */
@@ -17621,6 +18405,9 @@ PlayerModel_UpdateModel
 
 Address: 0x7ffe
 Stack Size: 0x44
+Opcodes Size: 0x41
+Locals Count: 8
+
 Calls: memset, UI_PlayerInfo_SetInfo, UI_PlayerInfo_SetModel
 Called by: PlayerModel_MenuInit, PlayerModel_PicEvent
 =================
@@ -17654,6 +18441,9 @@ PlayerModel_SaveChanges
 
 Address: 0x803f
 Stack Size: 0x10
+Opcodes Size: 0x1f
+Locals Count: 0
+
 Calls: trap_Cvar_Set
 Called by: PlayerModel_MenuKey, PlayerModel_MenuEvent
 =================
@@ -17672,20 +18462,24 @@ PlayerModel_MenuEvent
 
 Address: 0x805e
 Stack Size: 0x14
+Opcodes Size: 0x4f
+Locals Count: 5
+
 Calls: UI_PopMenu, PlayerModel_SaveChanges, PlayerModel_UpdateGrid
 =================
 */
 void PlayerModel_MenuEvent(int arg_0, int arg_1) {
-	char	local_8[8];
+	int		local_8;
+	int		local_c;
 	int		local_10;
 
 	if (arg_1 == 0x3) goto jmp_8065;
 	goto jmp_80ab;
 jmp_8065:
-	*(int *)local_8 = *(int *)(arg_0 + 0x8);
-	if (*(int *)local_8 == 0x64) goto jmp_807a;
-	if (*(int *)local_8 == 0x65) goto jmp_808e;
-	if (*(int *)local_8 == 0x66) goto jmp_80a5;
+	local_8 = *(int *)(arg_0 + 0x8);
+	if (local_8 == 0x64) goto jmp_807a;
+	if (local_8 == 0x65) goto jmp_808e;
+	if (local_8 == 0x66) goto jmp_80a5;
 	goto jmp_80ab;
 jmp_807a:
 	if (bss_4bdb8 <= 0x0) goto jmp_80ab;
@@ -17711,6 +18505,9 @@ PlayerModel_MenuKey
 
 Address: 0x80ad
 Stack Size: 0x44
+Opcodes Size: 0x11f
+Locals Count: 14
+
 Calls: Menu_DefaultKey, PlayerModel_SaveChanges, PlayerModel_UpdateGrid, Menu_SetCursor, Menu_ItemAtCursor
 =================
 */
@@ -17802,6 +18599,9 @@ PlayerModel_PicEvent
 
 Address: 0x81cc
 Stack Size: 0x44
+Opcodes Size: 0xfb
+Locals Count: 14
+
 Calls: trap_MemoryRemaining, PlayerModel_UpdateModel, Q_strupr, strcat, Q_strncpyz, strstr, strlen
 =================
 */
@@ -17814,7 +18614,8 @@ void PlayerModel_PicEvent(int arg_0, int arg_1) {
 	int		local_28;
 	int		local_2c;
 	int		local_30;
-	char	local_34[8];
+	int		local_34;
+	int		local_38;
 	int		local_3c;
 	int		local_40;
 
@@ -17837,8 +18638,8 @@ jmp_81d6:
 	local_24 = ((bss_4bdb8 << 0x4) + local_14);
 	local_30 = strlen(0x615b);
 	local_1c = (local_30 + ((local_24 << 0x7) + 0x43db8));
-	*(int *)local_34 = strstr(local_1c, 0x6155);
-	local_18 = *(int *)local_34;
+	local_34 = strstr(local_1c, 0x6155);
+	local_18 = local_34;
 	if (local_18 == 0x0) goto jmp_82c5;
 	Q_strncpyz(0x4bdc0, local_1c, ((local_18 - local_1c) + 0x1));
 	strcat(0x4bdc0, (local_18 + 0x5));
@@ -17868,16 +18669,20 @@ PlayerModel_DrawPlayer
 
 Address: 0x82c7
 Stack Size: 0x2c
+Opcodes Size: 0x54
+Locals Count: 4
+
 Calls: trap_MemoryRemaining, UI_DrawPlayer, UI_DrawProportionalString
 =================
 */
 void PlayerModel_DrawPlayer(int arg_0) {
 	int		local_20;
-	char	local_24[8];
+	int		local_24;
+	int		local_28;
 
 	local_20 = arg_0;
-	*(int *)local_24 = trap_MemoryRemaining();
-	if (*(int *)local_24 > 0x500000) goto jmp_82f3;
+	local_24 = trap_MemoryRemaining();
+	if (local_24 > 0x500000) goto jmp_82f3;
 	UI_DrawProportionalString(*(int *)(local_20 + 0xc), (*(int *)(local_20 + 0x10) + (*(int *)(local_20 + 0x50) / 0x2)), 0x614a, 0x0, 0x21b0);
 	goto jmp_8319;
 jmp_82f3:
@@ -17891,6 +18696,9 @@ PlayerModel_BuildList
 
 Address: 0x831b
 Stack Size: 0x10b0
+Opcodes Size: 0x137
+Locals Count: 24
+
 Calls: trap_S_RegisterSound, trap_FS_GetFileList, trap_Cvar_VariableValue, Com_sprintf, Q_stricmpn, COM_StripExtension, va, strcmp, strlen
 Called by: PlayerModel_Cache
 =================
@@ -17992,6 +18800,9 @@ PlayerModel_SetMenuItems
 
 Address: 0x8452
 Stack Size: 0x78
+Opcodes Size: 0xdf
+Locals Count: 10
+
 Calls: trap_Cvar_VariableStringBuffer, Q_strupr, Q_stricmp, strcat, Q_strncpyz, strstr, strlen, Q_strcat, strchr, Q_CleanStr
 Called by: PlayerModel_MenuInit
 =================
@@ -18056,6 +18867,9 @@ PlayerModel_MenuInit
 
 Address: 0x8531
 Stack Size: 0x30
+Opcodes Size: 0x2aa
+Locals Count: 7
+
 Calls: memset, PlayerModel_UpdateModel, PlayerModel_UpdateGrid, PlayerModel_SetMenuItems, Menu_AddItem, PlayerModel_Cache
 Called by: UI_PlayerModelMenu
 =================
@@ -18233,6 +19047,9 @@ PlayerModel_Cache
 
 Address: 0x87db
 Stack Size: 0x10
+Opcodes Size: 0x3f
+Locals Count: 1
+
 Calls: trap_R_RegisterShaderNoMip, PlayerModel_BuildList
 Called by: PlayerModel_MenuInit, UI_Cache_f
 =================
@@ -18263,6 +19080,9 @@ UI_PlayerModelMenu
 
 Address: 0x881a
 Stack Size: 0x10
+Opcodes Size: 0x19
+Locals Count: 0
+
 Calls: Menu_SetCursorToItem, UI_PushMenu, PlayerModel_MenuInit
 Called by: PlayerSettings_MenuEvent
 =================
@@ -18280,6 +19100,9 @@ UI_PlayerInfo_SetWeapon
 
 Address: 0x8833
 Stack Size: 0x68
+Opcodes Size: 0x1bf
+Locals Count: 8
+
 Calls: trap_R_RegisterModel, Q_strcat, COM_StripExtension
 Called by: UI_PlayerInfo_SetInfo, UI_PlayerInfo_SetModel, UI_TorsoSequencing
 =================
@@ -18289,7 +19112,8 @@ void UI_PlayerInfo_SetWeapon(int arg_0, int arg_1) {
 	char	local_18[64];
 	int		local_58;
 	int		local_5c;
-	char	local_60[8];
+	int		local_60;
+	int		local_64;
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
@@ -18340,10 +19164,10 @@ jmp_88df:
 	Q_strcat(local_18, 0x40, 0x6489);
 	local_5c = trap_R_RegisterModel(local_18);
 	*(int *)(arg_0 + 0x3ec) = local_5c;
-	*(int *)local_60 = arg_1;
-	if (*(int *)local_60 < 0x1) goto jmp_89de;
-	if (*(int *)local_60 > 0xa) goto jmp_89de;
-	goto *(int *)((*(int *)local_60 << 0x2) + 0x1cd4);
+	local_60 = arg_1;
+	if (local_60 < 0x1) goto jmp_89de;
+	if (local_60 > 0xa) goto jmp_89de;
+	goto *(int *)((local_60 << 0x2) + 0x1cd4);
 	*(int *)(arg_0 + 0x3f0) = 0x3f19999a;
 	*(int *)(arg_0 + 0x3f4) = 0x3f19999a;
 	*(int *)(arg_0 + 0x3f8) = 0x3f800000;
@@ -18397,6 +19221,9 @@ UI_ForceLegsAnim
 
 Address: 0x89f2
 Stack Size: 0x10
+Opcodes Size: 0x25
+Locals Count: 4
+
 Called by: UI_PlayerInfo_SetInfo, UI_LegsSequencing, UI_SetLegsAnim
 =================
 */
@@ -18418,6 +19245,9 @@ UI_SetLegsAnim
 
 Address: 0x8a17
 Stack Size: 0x14
+Opcodes Size: 0x26
+Locals Count: 3
+
 Calls: UI_ForceLegsAnim
 Called by: UI_LegsSequencing
 =================
@@ -18440,18 +19270,22 @@ UI_ForceTorsoAnim
 
 Address: 0x8a3d
 Stack Size: 0x14
+Opcodes Size: 0x3b
+Locals Count: 5
+
 Called by: UI_PlayerInfo_SetInfo, UI_TorsoSequencing, UI_SetTorsoAnim
 =================
 */
 void UI_ForceTorsoAnim(int arg_0, int arg_1) {
 	int		local_8;
-	char	local_c[8];
+	int		local_c;
+	int		local_10;
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
 	local_8 = (arg_0 + 0x430);
-	*(int *)local_c = 0x80;
-	*(int *)local_8 = (((*(int *)local_8 & *(int *)local_c) ^ *(int *)local_c) | arg_1);
+	local_c = 0x80;
+	*(int *)local_8 = (((*(int *)local_8 & local_c) ^ local_c) | arg_1);
 	if (arg_1 != 0x6) goto jmp_8a68;
 	*(int *)(arg_0 + 0x448) = 0x8fc;
 jmp_8a68:
@@ -18468,6 +19302,9 @@ UI_SetTorsoAnim
 
 Address: 0x8a78
 Stack Size: 0x14
+Opcodes Size: 0x26
+Locals Count: 3
+
 Calls: UI_ForceTorsoAnim
 Called by: UI_TorsoSequencing
 =================
@@ -18490,40 +19327,44 @@ UI_TorsoSequencing
 
 Address: 0x8a9e
 Stack Size: 0x20
+Opcodes Size: 0x82
+Locals Count: 3
+
 Calls: UI_PlayerInfo_SetWeapon, UI_SetTorsoAnim, UI_ForceTorsoAnim
 Called by: UI_PlayerAnimation
 =================
 */
 void UI_TorsoSequencing(int arg_0) {
-	char	local_10[16];
+	int		local_10;
+	char	local_14[12];
 
 	arg_0 = arg_0;
-	*(int *)local_10 = (*(int *)(arg_0 + 0x430) & 0xffffff7f);
+	local_10 = (*(int *)(arg_0 + 0x430) & 0xffffff7f);
 	if (*(int *)(arg_0 + 0x434) == *(int *)(arg_0 + 0x428)) goto jmp_8ac9;
-	if (*(int *)local_10 == 0x9) goto jmp_8ac9;
+	if (local_10 == 0x9) goto jmp_8ac9;
 	*(int *)(arg_0 + 0x448) = 0x12c;
 	UI_ForceTorsoAnim(arg_0, 0x9);
 jmp_8ac9:
 	if (*(int *)(arg_0 + 0x448) <= 0x0) goto jmp_8ad2;
 	goto jmp_8b1e;
 jmp_8ad2:
-	if (*(int *)local_10 != 0x6) goto jmp_8ae0;
+	if (local_10 != 0x6) goto jmp_8ae0;
 	UI_SetTorsoAnim(arg_0, 0xb);
 	goto jmp_8b1e;
 jmp_8ae0:
-	if (*(int *)local_10 == 0x7) goto jmp_8ae8;
-	if (*(int *)local_10 != 0x8) goto jmp_8af2;
+	if (local_10 == 0x7) goto jmp_8ae8;
+	if (local_10 != 0x8) goto jmp_8af2;
 jmp_8ae8:
 	UI_SetTorsoAnim(arg_0, 0xb);
 	goto jmp_8b1e;
 jmp_8af2:
-	if (*(int *)local_10 != 0x9) goto jmp_8b12;
+	if (local_10 != 0x9) goto jmp_8b12;
 	UI_PlayerInfo_SetWeapon(arg_0, *(int *)(arg_0 + 0x434));
 	*(int *)(arg_0 + 0x448) = 0x12c;
 	UI_ForceTorsoAnim(arg_0, 0xa);
 	goto jmp_8b1e;
 jmp_8b12:
-	if (*(int *)local_10 != 0xa) goto jmp_8b1e;
+	if (local_10 != 0xa) goto jmp_8b1e;
 	UI_SetTorsoAnim(arg_0, 0xb);
 jmp_8b1e:
 }
@@ -18534,29 +19375,33 @@ UI_LegsSequencing
 
 Address: 0x8b20
 Stack Size: 0x1c
+Opcodes Size: 0x57
+Locals Count: 4
+
 Calls: sin, UI_SetLegsAnim, UI_ForceLegsAnim
 Called by: UI_PlayerAnimation
 =================
 */
 void UI_LegsSequencing(int arg_0) {
-	char	local_10[8];
+	int		local_10;
+	int		local_14;
 	int		local_18;
 
 	arg_0 = arg_0;
-	*(int *)local_10 = (*(int *)(arg_0 + 0x42c) & 0xffffff7f);
+	local_10 = (*(int *)(arg_0 + 0x42c) & 0xffffff7f);
 	if (*(int *)(arg_0 + 0x450) <= 0x0) goto jmp_8b52;
-	if (*(int *)local_10 != 0x12) goto jmp_8b75;
+	if (local_10 != 0x12) goto jmp_8b75;
 	local_18 = sin(((0x40490fdb * (float)(0x3e8 - *(int *)(arg_0 + 0x450))) / 0x447a0000));
 	jumpHeight = (0x42600000 * local_18);
 	goto jmp_8b75;
 jmp_8b52:
-	if (*(int *)local_10 != 0x12) goto jmp_8b69;
+	if (local_10 != 0x12) goto jmp_8b69;
 	UI_ForceLegsAnim(arg_0, 0x13);
 	*(int *)(arg_0 + 0x450) = 0x82;
 	jumpHeight = 0x0;
 	goto jmp_8b75;
 jmp_8b69:
-	if (*(int *)local_10 != 0x13) goto jmp_8b75;
+	if (local_10 != 0x13) goto jmp_8b75;
 	UI_SetLegsAnim(arg_0, 0x16);
 jmp_8b75:
 }
@@ -18567,6 +19412,9 @@ UI_PositionEntityOnTag
 
 Address: 0x8b77
 Stack Size: 0x74
+Opcodes Size: 0xc9
+Locals Count: 14
+
 Calls: trap_CM_LerpTag, MatrixMultiply
 Called by: UI_DrawPlayer
 =================
@@ -18578,8 +19426,10 @@ void UI_PositionEntityOnTag(int arg_0, int arg_1, int arg_2, int arg_3) {
 	int		local_58;
 	int		local_5c;
 	int		local_60;
-	char	local_64[8];
-	char	local_6c[8];
+	int		local_64;
+	int		local_68;
+	int		local_6c;
+	int		local_70;
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
@@ -18590,10 +19440,10 @@ void UI_PositionEntityOnTag(int arg_0, int arg_1, int arg_2, int arg_3) {
 jmp_8bb0:
 	local_5c = (arg_0 + 0x44);
 	*(int *)local_5c = (*(int *)local_5c + (*(int *)((0xc * local_20) + (arg_1 + 0x1c)) * *(int *)((local_20 << 0x2) + local_24)));
-	*(int *)local_64 = (arg_0 + 0x48);
-	*(int *)*(int *)local_64 = (*(int *)*(int *)local_64 + (*(int *)(((0xc * local_20) + (arg_1 + 0x1c)) + 0x4) * *(int *)((local_20 << 0x2) + local_24)));
-	*(int *)local_6c = (arg_0 + 0x4c);
-	*(int *)*(int *)local_6c = (*(int *)*(int *)local_6c + (*(int *)(((0xc * local_20) + (arg_1 + 0x1c)) + 0x8) * *(int *)((local_20 << 0x2) + local_24)));
+	local_64 = (arg_0 + 0x48);
+	*(int *)local_64 = (*(int *)local_64 + (*(int *)(((0xc * local_20) + (arg_1 + 0x1c)) + 0x4) * *(int *)((local_20 << 0x2) + local_24)));
+	local_6c = (arg_0 + 0x4c);
+	*(int *)local_6c = (*(int *)local_6c + (*(int *)(((0xc * local_20) + (arg_1 + 0x1c)) + 0x8) * *(int *)((local_20 << 0x2) + local_24)));
 	local_20 = (local_20 + 0x1);
 	if (local_20 < 0x3) goto jmp_8bb0;
 #define next_call_arg_0 "local_30"
@@ -18611,6 +19461,9 @@ UI_PositionRotatedEntityOnTag
 
 Address: 0x8c40
 Stack Size: 0x98
+Opcodes Size: 0xc6
+Locals Count: 15
+
 Calls: trap_CM_LerpTag, MatrixMultiply
 Called by: UI_DrawPlayer
 =================
@@ -18621,9 +19474,12 @@ void UI_PositionRotatedEntityOnTag(int arg_0, int arg_1, int arg_2, int arg_3) {
 	char	local_30[36];
 	char	local_54[40];
 	int		local_7c;
-	char	local_80[8];
-	char	local_88[8];
-	char	local_90[8];
+	int		local_80;
+	int		local_84;
+	int		local_88;
+	int		local_8c;
+	int		local_90;
+	int		local_94;
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
@@ -18632,19 +19488,19 @@ void UI_PositionRotatedEntityOnTag(int arg_0, int arg_1, int arg_2, int arg_3) {
 	block_copy((arg_1 + local_7c), (arg_0 + local_7c), 0xc);
 	local_20 = 0x0;
 jmp_8c79:
-	*(int *)local_80 = (arg_0 + 0x44);
-	*(int *)*(int *)local_80 = (*(int *)*(int *)local_80 + (*(int *)((0xc * local_20) + (arg_1 + 0x1c)) * *(int *)((local_20 << 0x2) + local_24)));
-	*(int *)local_88 = (arg_0 + 0x48);
-	*(int *)*(int *)local_88 = (*(int *)*(int *)local_88 + (*(int *)(((0xc * local_20) + (arg_1 + 0x1c)) + 0x4) * *(int *)((local_20 << 0x2) + local_24)));
-	*(int *)local_90 = (arg_0 + 0x4c);
-	*(int *)*(int *)local_90 = (*(int *)*(int *)local_90 + (*(int *)(((0xc * local_20) + (arg_1 + 0x1c)) + 0x8) * *(int *)((local_20 << 0x2) + local_24)));
+	local_80 = (arg_0 + 0x44);
+	*(int *)local_80 = (*(int *)local_80 + (*(int *)((0xc * local_20) + (arg_1 + 0x1c)) * *(int *)((local_20 << 0x2) + local_24)));
+	local_88 = (arg_0 + 0x48);
+	*(int *)local_88 = (*(int *)local_88 + (*(int *)(((0xc * local_20) + (arg_1 + 0x1c)) + 0x4) * *(int *)((local_20 << 0x2) + local_24)));
+	local_90 = (arg_0 + 0x4c);
+	*(int *)local_90 = (*(int *)local_90 + (*(int *)(((0xc * local_20) + (arg_1 + 0x1c)) + 0x8) * *(int *)((local_20 << 0x2) + local_24)));
 	local_20 = (local_20 + 0x1);
 	if (local_20 < 0x3) goto jmp_8c79;
 	MatrixMultiply((arg_0 + 0x1c), local_30, local_54);
 #define next_call_arg_0 "local_54"
-	*(int *)local_80 = 0x1c;
-#define next_call_arg_1 "(arg_1 + *(int *)local_80)"
-#define next_call_arg_2 "(arg_0 + *(int *)local_80)"
+	local_80 = 0x1c;
+#define next_call_arg_1 "(arg_1 + local_80)"
+#define next_call_arg_2 "(arg_0 + local_80)"
 	MatrixMultiply();
 }
 
@@ -18654,12 +19510,16 @@ UI_SetLerpFrameAnimation
 
 Address: 0x8d06
 Stack Size: 0x1c
+Opcodes Size: 0x51
+Locals Count: 6
+
 Calls: trap_Error, va
 Called by: UI_RunLerpFrame
 =================
 */
 void UI_SetLerpFrameAnimation(int arg_0, int arg_1, int arg_2) {
-	char	local_10[8];
+	int		local_10;
+	int		local_14;
 	int		local_18;
 
 	arg_1 = arg_1;
@@ -18672,9 +19532,9 @@ jmp_8d24:
 	local_18 = va(0x6470, arg_2);
 	trap_Error(local_18);
 jmp_8d33:
-	*(int *)local_10 = ((0x1c * arg_2) + (arg_0 + 0x78));
-	*(int *)(arg_1 + 0x28) = *(int *)local_10;
-	*(int *)(arg_1 + 0x2c) = (*(int *)(arg_1 + 0xc) + *(int *)(*(int *)local_10 + 0x10));
+	local_10 = ((0x1c * arg_2) + (arg_0 + 0x78));
+	*(int *)(arg_1 + 0x28) = local_10;
+	*(int *)(arg_1 + 0x2c) = (*(int *)(arg_1 + 0xc) + *(int *)(local_10 + 0x10));
 }
 
 /*
@@ -18683,6 +19543,9 @@ UI_RunLerpFrame
 
 Address: 0x8d57
 Stack Size: 0x44
+Opcodes Size: 0x191
+Locals Count: 12
+
 Calls: UI_SetLerpFrameAnimation
 Called by: UI_PlayerAnimation
 =================
@@ -18690,9 +19553,11 @@ Called by: UI_PlayerAnimation
 void UI_RunLerpFrame(int arg_0, int arg_1, int arg_2) {
 	int		local_14;
 	int		local_18;
-	char	local_1c[16];
+	int		local_1c;
+	char	local_20[12];
 	int		local_2c;
-	char	local_30[12];
+	int		local_30;
+	char	local_34[8];
 	int		local_3c;
 	int		local_40;
 
@@ -18713,24 +19578,24 @@ jmp_8da1:
 	*(int *)(arg_1 + 0xc) = *(int *)(arg_1 + 0x2c);
 	goto jmp_8dca;
 jmp_8db5:
-	*(int *)local_30 = 0xc;
-	*(int *)(arg_1 + *(int *)local_30) = (*(int *)(arg_1 + 0x4) + *(int *)(local_14 + *(int *)local_30));
+	local_30 = 0xc;
+	*(int *)(arg_1 + local_30) = (*(int *)(arg_1 + 0x4) + *(int *)(local_14 + local_30));
 jmp_8dca:
-	*(int *)local_30 = 0xc;
-	local_18 = ((*(int *)(arg_1 + *(int *)local_30) - *(int *)(arg_1 + 0x2c)) / *(int *)(local_14 + *(int *)local_30));
-	*(int *)local_1c = *(int *)(local_14 + 0x4);
+	local_30 = 0xc;
+	local_18 = ((*(int *)(arg_1 + local_30) - *(int *)(arg_1 + 0x2c)) / *(int *)(local_14 + local_30));
+	local_1c = *(int *)(local_14 + 0x4);
 	if (*(int *)(local_14 + 0x18) == 0x0) goto jmp_8df6;
-	*(int *)local_1c = (*(int *)local_1c << 0x1);
+	local_1c = (local_1c << 0x1);
 jmp_8df6:
-	if (local_18 < *(int *)local_1c) goto jmp_8e34;
-	local_18 = (local_18 - *(int *)local_1c);
+	if (local_18 < local_1c) goto jmp_8e34;
+	local_18 = (local_18 - local_1c);
 	if (*(int *)(local_14 + 0x8) == 0x0) goto jmp_8e27;
 	local_3c = (local_14 + 0x8);
 	local_18 = (local_18 %% *(int *)local_3c);
 	local_18 = (local_18 + (*(int *)(local_14 + 0x4) - *(int *)local_3c));
 	goto jmp_8e34;
 jmp_8e27:
-	local_18 = (*(int *)local_1c - 0x1);
+	local_18 = (local_1c - 0x1);
 	*(int *)(arg_1 + 0xc) = dp_realtime;
 jmp_8e34:
 	if (*(int *)(local_14 + 0x14) == 0x0) goto jmp_8e50;
@@ -18769,17 +19634,22 @@ UI_PlayerAnimation
 
 Address: 0x8ee8
 Stack Size: 0x24
+Opcodes Size: 0xbc
+Locals Count: 11
+
 Calls: UI_TorsoSequencing, UI_RunLerpFrame, UI_LegsSequencing
 Called by: UI_DrawPlayer
 =================
 */
 void UI_PlayerAnimation(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4, int arg_5, int arg_6) {
-	char	local_14[8];
-	char	local_1c[8];
+	int		local_14;
+	int		local_18;
+	int		local_1c;
+	int		local_20;
 
 	arg_0 = arg_0;
-	*(int *)local_14 = (arg_0 + 0x450);
-	*(int *)*(int *)local_14 = (*(int *)*(int *)local_14 - uis);
+	local_14 = (arg_0 + 0x450);
+	*(int *)local_14 = (*(int *)local_14 - uis);
 	if (*(int *)(arg_0 + 0x450) >= 0x0) goto jmp_8f09;
 	*(int *)(arg_0 + 0x450) = 0x0;
 jmp_8f09:
@@ -18794,8 +19664,8 @@ jmp_8f3f:
 	*(int *)arg_1 = *(int *)(arg_0 + 0x8);
 	*(int *)arg_2 = *(int *)(arg_0 + 0x10);
 	*(int *)arg_3 = *(int *)(arg_0 + 0x18);
-	*(int *)local_1c = (arg_0 + 0x448);
-	*(int *)*(int *)local_1c = (*(int *)*(int *)local_1c - uis);
+	local_1c = (arg_0 + 0x448);
+	*(int *)local_1c = (*(int *)local_1c - uis);
 	if (*(int *)(arg_0 + 0x448) >= 0x0) goto jmp_8f73;
 	*(int *)(arg_0 + 0x448) = 0x0;
 jmp_8f73:
@@ -18812,6 +19682,9 @@ UI_SwingAngles
 
 Address: 0x8fa4
 Stack Size: 0x2c
+Opcodes Size: 0x105
+Locals Count: 13
+
 Calls: AngleMod, fabs, AngleSubtract
 Called by: UI_PlayerAngles
 =================
@@ -18891,16 +19764,21 @@ UI_MovedirAdjustment
 
 Address: 0x90a9
 Stack Size: 0x60
+Opcodes Size: 0xd3
+Locals Count: 18
+
 Calls: Q_fabs, AngleVectors
 Called by: UI_PlayerAngles
 =================
 */
 int UI_MovedirAdjustment(int arg_0) {
 	int		local_18;
-	char	local_1c[8];
+	int		local_1c;
+	int		local_20;
 	int		local_24;
 	int		local_28;
-	char	local_2c[12];
+	int		local_2c;
+	char	local_30[8];
 	int		local_38;
 	int		local_3c;
 	int		local_40;
@@ -18915,7 +19793,7 @@ int UI_MovedirAdjustment(int arg_0) {
 	arg_0 = arg_0;
 	local_24 = (*(int *)(arg_0 + 0x410) - *(int *)(arg_0 + 0x41c));
 	local_28 = (*(int *)(arg_0 + 0x414) - *(int *)(arg_0 + 0x420));
-	*(int *)local_2c = (*(int *)(arg_0 + 0x418) - *(int *)(arg_0 + 0x424));
+	local_2c = (*(int *)(arg_0 + 0x418) - *(int *)(arg_0 + 0x424));
 #define next_call_arg_0 "&local_24"
 #define next_call_arg_1 "&local_18"
 	local_38 = 0x0;
@@ -18926,42 +19804,42 @@ int UI_MovedirAdjustment(int arg_0) {
 	if (local_3c >= 0x3c23d70a) goto jmp_90f3;
 	local_18 = 0x0;
 jmp_90f3:
-	local_40 = Q_fabs(*(int *)local_1c);
+	local_40 = Q_fabs(local_1c);
 	if (local_40 >= 0x3c23d70a) goto jmp_9101;
-	*(int *)local_1c = 0x0;
+	local_1c = 0x0;
 jmp_9101:
 	local_44 = 0x0;
-	if (*(int *)local_1c != local_44) goto jmp_9112;
+	if (local_1c != local_44) goto jmp_9112;
 	if (local_18 <= local_44) goto jmp_9112;
 	return 0x0;
 jmp_9112:
 	local_48 = 0x0;
-	if (*(int *)local_1c >= local_48) goto jmp_9123;
+	if (local_1c >= local_48) goto jmp_9123;
 	if (local_18 <= local_48) goto jmp_9123;
 	return 0x41b00000;
 jmp_9123:
 	local_4c = 0x0;
-	if (*(int *)local_1c >= local_4c) goto jmp_9134;
+	if (local_1c >= local_4c) goto jmp_9134;
 	if (local_18 != local_4c) goto jmp_9134;
 	return 0x42340000;
 jmp_9134:
 	local_50 = 0x0;
-	if (*(int *)local_1c >= local_50) goto jmp_9145;
+	if (local_1c >= local_50) goto jmp_9145;
 	if (local_18 >= local_50) goto jmp_9145;
 	return 0xc1b00000;
 jmp_9145:
 	local_54 = 0x0;
-	if (*(int *)local_1c != local_54) goto jmp_9156;
+	if (local_1c != local_54) goto jmp_9156;
 	if (local_18 >= local_54) goto jmp_9156;
 	return 0x0;
 jmp_9156:
 	local_58 = 0x0;
-	if (*(int *)local_1c <= local_58) goto jmp_9167;
+	if (local_1c <= local_58) goto jmp_9167;
 	if (local_18 >= local_58) goto jmp_9167;
 	return 0x41b00000;
 jmp_9167:
 	local_5c = 0x0;
-	if (*(int *)local_1c <= local_5c) goto jmp_9178;
+	if (local_1c <= local_5c) goto jmp_9178;
 	if (local_18 != local_5c) goto jmp_9178;
 	return 0xc2340000;
 jmp_9178:
@@ -18974,6 +19852,9 @@ UI_PlayerAngles
 
 Address: 0x917c
 Stack Size: 0x78
+Opcodes Size: 0x12f
+Locals Count: 23
+
 Calls: AnglesToAxis, AnglesSubtract, UI_SwingAngles, UI_MovedirAdjustment, AngleMod
 Called by: UI_DrawPlayer
 =================
@@ -18983,7 +19864,8 @@ void UI_PlayerAngles(int arg_0, int arg_1, int arg_2, int arg_3) {
 	int		local_24;
 	int		local_28;
 	int		local_2c;
-	char	local_30[8];
+	int		local_30;
+	int		local_34;
 	int		local_38;
 	int		local_3c;
 	int		local_40;
@@ -18991,23 +19873,25 @@ void UI_PlayerAngles(int arg_0, int arg_1, int arg_2, int arg_3) {
 	int		local_48;
 	int		local_4c;
 	int		local_50;
-	char	local_54[8];
+	int		local_54;
+	int		local_58;
 	int		local_5c;
-	char	local_60[20];
+	int		local_60;
+	char	local_64[16];
 	int		local_74;
 
 	arg_0 = arg_0;
 	block_copy((arg_0 + 0x410), &local_2c, 0xc);
-	local_4c = AngleMod(*(int *)local_30);
-	*(int *)local_30 = local_4c;
+	local_4c = AngleMod(local_30);
+	local_30 = local_4c;
 	local_50 = 0x0;
 	local_40 = local_50;
 	local_3c = local_50;
 	local_38 = local_50;
-	*(int *)local_54 = 0x0;
-	local_28 = *(int *)local_54;
-	local_24 = *(int *)local_54;
-	local_20 = *(int *)local_54;
+	local_54 = 0x0;
+	local_28 = local_54;
+	local_24 = local_54;
+	local_20 = local_54;
 	local_5c = 0xffffff7f;
 	if ((*(int *)(arg_0 + 0x42c) & local_5c) != 0x16) goto jmp_91c7;
 	if ((*(int *)(arg_0 + 0x430) & local_5c) == 0xb) goto jmp_91d9;
@@ -19016,10 +19900,10 @@ jmp_91c7:
 	*(int *)(arg_0 + 0x60) = 0x1;
 	*(int *)(arg_0 + 0x20) = 0x1;
 jmp_91d9:
-	*(int *)local_60 = UI_MovedirAdjustment(arg_0);
-	local_44 = *(int *)local_60;
-	local_3c = (*(int *)local_30 + local_44);
-	local_24 = (*(int *)local_30 + (0x3e800000 * local_44));
+	local_60 = UI_MovedirAdjustment(arg_0);
+	local_44 = local_60;
+	local_3c = (local_30 + local_44);
+	local_24 = (local_30 + (0x3e800000 * local_44));
 	UI_SwingAngles(local_24, 0x41c80000, 0x42b40000, 0x3e99999a, (arg_0 + 0x54), (arg_0 + 0x58));
 	UI_SwingAngles(local_3c, 0x42200000, 0x42b40000, 0x3e99999a, (arg_0 + 0x1c), (arg_0 + 0x20));
 	local_24 = *(int *)(arg_0 + 0x54);
@@ -19054,25 +19938,32 @@ UI_PlayerFloatSprite
 
 Address: 0x92ab
 Stack Size: 0xa0
+Opcodes Size: 0x28
+Locals Count: 12
+
 Calls: trap_R_AddRefEntityToScene, memset
 Called by: UI_DrawPlayer
 =================
 */
 void UI_PlayerFloatSprite(, int arg_1, int arg_2) {
 	int		local_14;
-	char	local_18[64];
+	int		local_18;
+	char	local_1c[60];
 	char	local_58[8];
-	char	local_60[36];
-	char	local_84[20];
-	char	local_98[8];
+	int		local_60;
+	char	local_64[32];
+	int		local_84;
+	char	local_88[16];
+	int		local_98;
+	int		local_9c;
 
 	memset(&local_14, 0x0, 0x8c);
 	block_copy(arg_1, local_58, 0xc);
-	*(int *)local_60 = (*(int *)local_60 + 0x42400000);
+	local_60 = (local_60 + 0x42400000);
 	local_14 = 0x2;
-	*(int *)local_84 = arg_2;
-	*(int *)local_98 = 0x41200000;
-	*(int *)local_18 = 0x0;
+	local_84 = arg_2;
+	local_98 = 0x41200000;
+	local_18 = 0x0;
 	trap_R_AddRefEntityToScene(&local_14);
 }
 
@@ -19082,6 +19973,9 @@ UI_MachinegunSpinAngle
 
 Address: 0x92d3
 Stack Size: 0x2c
+Opcodes Size: 0x98
+Locals Count: 9
+
 Calls: AngleMod
 Called by: UI_DrawPlayer
 =================
@@ -19090,7 +19984,8 @@ int UI_MachinegunSpinAngle(int arg_0) {
 	int		local_c;
 	int		local_10;
 	int		local_14;
-	char	local_18[8];
+	int		local_18;
+	int		local_1c;
 	int		local_20;
 	int		local_24;
 	int		local_28;
@@ -19104,8 +19999,8 @@ jmp_92f8:
 	if (local_10 <= 0x3e8) goto jmp_92ff;
 	local_10 = 0x3e8;
 jmp_92ff:
-	*(int *)local_18 = (0x3f000000 * (((float)(0x3e8 - local_10) / 0x447a0000) + 0x3f666666));
-	local_14 = (*(int *)(arg_0 + 0x460) + ((float)local_10 * *(int *)local_18));
+	local_18 = (0x3f000000 * (((float)(0x3e8 - local_10) / 0x447a0000) + 0x3f666666));
+	local_14 = (*(int *)(arg_0 + 0x460) + ((float)local_10 * local_18));
 jmp_931a:
 	local_c = (*(int *)(arg_0 + 0x430) & 0xffffff7f);
 	if (local_c != 0x8) goto jmp_932a;
@@ -19138,53 +20033,65 @@ UI_DrawPlayer
 
 Address: 0x936b
 Stack Size: 0x558
+Opcodes Size: 0x4af
+Locals Count: 113
+
 Calls: trap_R_RenderScene, trap_R_RegisterShaderNoMip, trap_R_AddLightToScene, trap_R_AddRefEntityToScene, trap_R_ClearScene, atan2, memset, trap_S_StartLocalSound, UI_PlayerFloatSprite, rand, AnglesToAxis, UI_MachinegunSpinAngle, UI_PositionEntityOnTag, UI_PositionRotatedEntityOnTag, UI_PlayerAnimation, UI_PlayerAngles, tan, AxisClear, UI_AdjustFrom640
 Called by: PlayerSettings_DrawPlayer, PlayerModel_DrawPlayer, Controls_DrawPlayer
 =================
 */
-void UI_DrawPlayer(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4, int arg_5) {
+void UI_DrawPlayer(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4, int arg_5, int arg_1547, int arg_1582, int arg_1617, int arg_1652, int arg_1687, int arg_1722, int arg_1725, int arg_1728) {
 	int		local_24;
 	int		local_28;
 	int		local_2c;
 	int		local_30;
 	int		local_34;
-	char	local_38[16];
+	int		local_38;
+	char	local_3c[12];
 	char	local_48[36];
 	int		local_6c;
-	char	local_70[292];
+	int		local_70;
+	char	local_74[288];
 	int		local_194;
 	int		local_198;
 	int		local_19c;
-	char	local_1a0[16];
+	char	local_1a0[12];
+	int		local_1ac;
 	char	local_1b0[40];
 	char	local_1d8[12];
 	int		local_1e4;
 	char	local_1e8[12];
 	int		local_1f4;
 	char	local_1f8[8];
-	char	local_200[32];
+	int		local_200;
+	char	local_204[28];
 	int		local_220;
 	int		local_224;
 	int		local_228;
 	int		local_22c;
 	int		local_230;
 	int		local_234;
-	char	local_238[16];
+	char	local_238[12];
+	int		local_244;
 	char	local_248[52];
 	char	local_27c[16];
 	int		local_28c;
 	char	local_290[8];
-	char	local_298[32];
+	int		local_298;
+	char	local_29c[28];
 	int		local_2b8;
 	int		local_2bc;
 	int		local_2c0;
-	char	local_2c4[16];
+	char	local_2c4[12];
+	int		local_2d0;
 	char	local_2d4[80];
-	char	local_324[32];
+	int		local_324;
+	char	local_328[28];
 	int		local_344;
 	int		local_348;
 	int		local_34c;
-	char	local_350[104];
+	char	local_350[12];
+	char	local_35c[92];
 	char	local_3b8;
 	char	local_3b9;
 	char	local_3ba;
@@ -19193,12 +20100,14 @@ void UI_DrawPlayer(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4, int ar
 	int		local_3d4;
 	int		local_3d8;
 	int		local_3dc;
-	char	local_3e0[16];
+	char	local_3e0[12];
+	int		local_3ec;
 	char	local_3f0[112];
 	int		local_460;
 	int		local_464;
 	int		local_468;
-	char	local_46c[56];
+	char	local_46c[12];
+	char	local_478[44];
 	char	local_4a4[48];
 	char	local_4d4;
 	char	local_4d5;
@@ -19211,8 +20120,10 @@ void UI_DrawPlayer(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4, int ar
 	int		local_4fc;
 	int		local_500;
 	int		local_504;
-	char	local_508[8];
-	char	local_510[8];
+	int		local_508;
+	int		local_50c;
+	int		local_510;
+	int		local_514;
 	int		local_518;
 	int		local_51c;
 	int		local_520;
@@ -19239,11 +20150,11 @@ void UI_DrawPlayer(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4, int ar
 	block_copy(global_1fbc, &local_460, 0x8c);
 	block_copy(global_2048, &local_4ec, 0xc);
 	block_copy(global_2054, &local_4f8, 0xc);
-	*(int *)local_510 = 0x0;
-	if (*(int *)arg_4 == *(int *)local_510) goto jmp_93a9;
-	if (*(int *)(arg_4 + 0x38) == *(int *)local_510) goto jmp_93a9;
-	if (*(int *)(arg_4 + 0x70) == *(int *)local_510) goto jmp_93a9;
-	if (*(int *)(arg_4 + 0x7c) != *(int *)local_510) goto jmp_93ab;
+	local_510 = 0x0;
+	if (*(int *)arg_4 == local_510) goto jmp_93a9;
+	if (*(int *)(arg_4 + 0x38) == local_510) goto jmp_93a9;
+	if (*(int *)(arg_4 + 0x70) == local_510) goto jmp_93a9;
+	if (*(int *)(arg_4 + 0x7c) != local_510) goto jmp_93ab;
 jmp_93a9:
 	goto jmp_9818;
 jmp_93ab:
@@ -19263,7 +20174,7 @@ jmp_93f1:
 	memset(&local_194, 0x0, 0x8c);
 	memset(&local_22c, 0x0, 0x8c);
 	memset(&local_2b8, 0x0, 0x8c);
-	*(int *)local_70 = 0x1;
+	local_70 = 0x1;
 	AxisClear(local_48);
 	local_24 = (int)arg_0;
 	local_28 = (int)arg_1;
@@ -19271,10 +20182,10 @@ jmp_93f1:
 	local_30 = (int)arg_3;
 	local_34 = (float)(int)(0x42b40000 * (((float)local_2c / bss_107fc) / 0x44200000));
 	local_518 = tan((0x40490fdb * (local_34 / 0x43b40000)));
-	*(int *)local_508 = (((float)local_2c / bss_107fc) / local_518);
-	local_51c = atan2(((float)local_30 / bss_10800), *(int *)local_508);
-	*(int *)local_38 = local_51c;
-	*(int *)local_38 = (0x42e52ee1 * *(int *)local_38);
+	local_508 = (((float)local_2c / bss_107fc) / local_518);
+	local_51c = atan2(((float)local_30 / bss_10800), local_508);
+	local_38 = local_51c;
+	local_38 = (0x42e52ee1 * local_38);
 	local_504 = (0x3f333333 * (local_500 - local_4f4));
 	local_520 = tan((0x3f000000 * ((0x40490fdb * local_34) / 0x43340000)));
 	local_220 = (local_504 / local_520);
@@ -19286,7 +20197,7 @@ jmp_93f1:
 	UI_PlayerAnimation(arg_4, &local_1f4, &local_1e4, local_1f8, &local_28c, local_27c, local_290);
 	local_3d0 = 0xc0;
 	local_19c = *(int *)arg_4;
-	*(int *)local_200 = *(int *)(arg_4 + 0x4);
+	local_200 = *(int *)(arg_4 + 0x4);
 	block_copy(&local_220, local_1d8, 0xc);
 	block_copy(&local_220, local_1a0, 0xc);
 	local_198 = local_3d0;
@@ -19299,7 +20210,7 @@ jmp_94fa:
 	if (local_234 != 0x0) goto jmp_9507;
 	goto jmp_9818;
 jmp_9507:
-	*(int *)local_298 = *(int *)(arg_4 + 0x3c);
+	local_298 = *(int *)(arg_4 + 0x3c);
 	block_copy(&local_220, local_238, 0xc);
 	UI_PositionRotatedEntityOnTag(&local_22c, &local_194, *(int *)arg_4, 0x6466);
 	local_230 = local_3d0;
@@ -19308,7 +20219,7 @@ jmp_9507:
 	if (local_2c0 != 0x0) goto jmp_9534;
 	goto jmp_9818;
 jmp_9534:
-	*(int *)local_324 = *(int *)(arg_4 + 0x74);
+	local_324 = *(int *)(arg_4 + 0x74);
 	block_copy(&local_220, local_2c4, 0xc);
 	UI_PositionRotatedEntityOnTag(&local_2b8, &local_22c, *(int *)(arg_4 + 0x38), 0x645d);
 	local_2bc = local_3d0;
@@ -19479,6 +20390,9 @@ UI_RegisterClientSkin
 
 Address: 0x981a
 Stack Size: 0x70
+Opcodes Size: 0x84
+Locals Count: 9
+
 Calls: trap_R_RegisterSkin, Com_sprintf
 Called by: UI_RegisterClientModelname
 =================
@@ -19487,7 +20401,8 @@ int UI_RegisterClientSkin(int arg_0, int arg_1, int arg_2) {
 	char	local_1c[64];
 	int		local_5c;
 	int		local_60;
-	char	local_64[8];
+	int		local_64;
+	int		local_68;
 	int		local_6c;
 
 	arg_0 = arg_0;
@@ -19500,8 +20415,8 @@ int UI_RegisterClientSkin(int arg_0, int arg_1, int arg_2) {
 	local_60 = trap_R_RegisterSkin(local_1c);
 	*(int *)(arg_0 + 0x3c) = local_60;
 	Com_sprintf(local_1c, 0x40, 0x63cd, arg_1, arg_2);
-	*(int *)local_64 = trap_R_RegisterSkin(local_1c);
-	*(int *)(arg_0 + 0x74) = *(int *)local_64;
+	local_64 = trap_R_RegisterSkin(local_1c);
+	*(int *)(arg_0 + 0x74) = local_64;
 	local_6c = 0x0;
 	if (*(int *)(arg_0 + 0x4) == local_6c) goto jmp_9896;
 	if (*(int *)(arg_0 + 0x3c) == local_6c) goto jmp_9896;
@@ -19518,6 +20433,9 @@ UI_ParseAnimationFile
 
 Address: 0x989e
 Stack Size: 0x4e80
+Opcodes Size: 0x2df
+Locals Count: 22
+
 Calls: trap_FS_Read, trap_FS_FCloseFile, trap_FS_FOpenFile, memset, atof, atoi, Q_stricmp, COM_Parse, Com_Printf
 Called by: UI_RegisterClientModelname
 =================
@@ -19696,6 +20614,9 @@ UI_RegisterClientModelname
 
 Address: 0x9b7d
 Stack Size: 0xf4
+Opcodes Size: 0x11c
+Locals Count: 12
+
 Calls: trap_R_RegisterModel, UI_ParseAnimationFile, UI_RegisterClientSkin, Com_Printf, Com_sprintf, strchr, Q_strncpyz
 Called by: UI_PlayerInfo_SetModel
 =================
@@ -19771,6 +20692,9 @@ UI_PlayerInfo_SetModel
 
 Address: 0x9c99
 Stack Size: 0x20
+Opcodes Size: 0x58
+Locals Count: 2
+
 Calls: memset, UI_PlayerInfo_SetWeapon, UI_RegisterClientModelname
 Called by: PlayerSettings_SetMenuItems, PlayerSettings_DrawPlayer, PlayerModel_UpdateModel, Controls_InitModel, Controls_DrawPlayer
 =================
@@ -19796,6 +20720,9 @@ UI_PlayerInfo_SetInfo
 
 Address: 0x9cf1
 Stack Size: 0x7c
+Opcodes Size: 0x2d5
+Locals Count: 30
+
 Calls: trap_Cvar_VariableValue, UI_PlayerInfo_SetWeapon, UI_ForceTorsoAnim, UI_ForceLegsAnim
 Called by: PlayerSettings_SetMenuItems, PlayerSettings_DrawPlayer, PlayerModel_UpdateModel, Controls_UpdateModel
 =================
@@ -19804,31 +20731,38 @@ void UI_PlayerInfo_SetInfo(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4
 	int		local_10;
 	int		local_14;
 	int		local_18;
-	char	local_1c[8];
-	char	local_24[8];
-	char	local_2c[8];
+	int		local_1c;
+	int		local_20;
+	int		local_24;
+	int		local_28;
+	int		local_2c;
+	int		local_30;
 	int		local_34;
 	int		local_38;
-	char	local_3c[8];
+	int		local_3c;
+	int		local_40;
 	int		local_44;
 	int		local_48;
-	char	local_4c[8];
+	int		local_4c;
+	int		local_50;
 	int		local_54;
-	char	local_58[8];
+	int		local_58;
+	int		local_5c;
 	int		local_60;
-	char	local_64[24];
+	int		local_64;
+	char	local_68[20];
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
 	arg_2 = arg_2;
 	arg_5 = arg_5;
 	*(int *)(arg_0 + 0x454) = arg_6;
-	*(int *)local_1c = trap_Cvar_VariableValue(0x626c);
-	local_18 = (int)*(int *)local_1c;
-	*(int *)local_24 = 0x0;
-	*(int *)(arg_0 + 0x408) = *(int *)local_24;
-	*(int *)(arg_0 + 0x404) = *(int *)local_24;
-	*(int *)(arg_0 + 0x400) = *(int *)local_24;
+	local_1c = trap_Cvar_VariableValue(0x626c);
+	local_18 = (int)local_1c;
+	local_24 = 0x0;
+	*(int *)(arg_0 + 0x408) = local_24;
+	*(int *)(arg_0 + 0x404) = local_24;
+	*(int *)(arg_0 + 0x400) = local_24;
 	if (local_18 < 0x1) goto jmp_9d34;
 	if (local_18 <= 0x7) goto jmp_9d48;
 jmp_9d34:
@@ -19849,30 +20783,30 @@ jmp_9d6c:
 	local_34 = (0x437f0000 * *(int *)(arg_0 + 0x400));
 	local_38 = 0x4f000000;
 	if (local_34 < local_38) goto jmp_9d89;
-	*(int *)local_2c = ((int)(local_34 - local_38) + 0x80000000);
+	local_2c = ((int)(local_34 - local_38) + 0x80000000);
 	goto jmp_9d8e;
 jmp_9d89:
-	*(int *)local_2c = (int)local_34;
+	local_2c = (int)local_34;
 jmp_9d8e:
-	*(char *)(arg_0 + 0x40c) = *(int *)local_2c;
+	*(char *)(arg_0 + 0x40c) = local_2c;
 	local_44 = (0x437f0000 * *(int *)(arg_0 + 0x404));
 	local_48 = 0x4f000000;
 	if (local_44 < local_48) goto jmp_9db2;
-	*(int *)local_3c = ((int)(local_44 - local_48) + 0x80000000);
+	local_3c = ((int)(local_44 - local_48) + 0x80000000);
 	goto jmp_9db7;
 jmp_9db2:
-	*(int *)local_3c = (int)local_44;
+	local_3c = (int)local_44;
 jmp_9db7:
-	*(char *)(arg_0 + 0x40d) = *(int *)local_3c;
+	*(char *)(arg_0 + 0x40d) = local_3c;
 	local_54 = (0x437f0000 * *(int *)(arg_0 + 0x408));
-	*(int *)local_58 = 0x4f000000;
-	if (local_54 < *(int *)local_58) goto jmp_9ddb;
-	*(int *)local_4c = ((int)(local_54 - *(int *)local_58) + 0x80000000);
+	local_58 = 0x4f000000;
+	if (local_54 < local_58) goto jmp_9ddb;
+	local_4c = ((int)(local_54 - local_58) + 0x80000000);
 	goto jmp_9de0;
 jmp_9ddb:
-	*(int *)local_4c = (int)local_54;
+	local_4c = (int)local_54;
 jmp_9de0:
-	*(char *)(arg_0 + 0x40e) = *(int *)local_4c;
+	*(char *)(arg_0 + 0x40e) = local_4c;
 	*(char *)(arg_0 + 0x40f) = 0xff;
 	block_copy(arg_3, (arg_0 + 0x410), 0xc);
 	block_copy(arg_4, (arg_0 + 0x41c), 0xc);
@@ -19911,11 +20845,11 @@ jmp_9ea2:
 	if (arg_2 == local_60) goto jmp_9ebd;
 	if (arg_1 != local_60) goto jmp_9f05;
 jmp_9ebd:
-	*(int *)local_64 = 0x0;
-	arg_1 = *(int *)local_64;
-	arg_2 = *(int *)local_64;
-	*(int *)(arg_0 + 0x428) = *(int *)local_64;
-	*(int *)(arg_0 + 0x434) = *(int *)local_64;
+	local_64 = 0x0;
+	arg_1 = local_64;
+	arg_2 = local_64;
+	*(int *)(arg_0 + 0x428) = local_64;
+	*(int *)(arg_0 + 0x434) = local_64;
 	UI_PlayerInfo_SetWeapon(arg_0, *(int *)(arg_0 + 0x434));
 	jumpHeight = 0x0;
 	*(int *)(arg_0 + 0x444) = 0x0;
@@ -19925,9 +20859,9 @@ jmp_9ebd:
 	goto jmp_9fc4;
 jmp_9f05:
 	local_10 = (*(int *)(arg_0 + 0x42c) & 0xffffff7f);
-	*(int *)local_64 = 0x12;
-	if (arg_1 == *(int *)local_64) goto jmp_9f28;
-	if (local_10 == *(int *)local_64) goto jmp_9f1f;
+	local_64 = 0x12;
+	if (arg_1 == local_64) goto jmp_9f28;
+	if (local_10 == local_64) goto jmp_9f1f;
 	if (local_10 != 0x13) goto jmp_9f28;
 jmp_9f1f:
 	*(int *)(arg_0 + 0x444) = arg_1;
@@ -19989,6 +20923,9 @@ PlayerSettings_DrawName
 
 Address: 0x9fc6
 Stack Size: 0x74
+Opcodes Size: 0x123
+Locals Count: 16
+
 Calls: trap_Key_GetOverstrikeMode, Q_CleanStr, Q_strncpyz, UI_DrawChar, Q_IsColorString, UI_DrawProportionalString
 =================
 */
@@ -20004,7 +20941,8 @@ void PlayerSettings_DrawName(int arg_0) {
 	int		local_3c;
 	int		local_40;
 	char	local_44[32];
-	char	local_64[8];
+	int		local_64;
+	int		local_68;
 	int		local_6c;
 	int		local_70;
 
@@ -20012,12 +20950,12 @@ void PlayerSettings_DrawName(int arg_0) {
 	local_40 = *(int *)(local_3c + 0xc);
 	local_34 = *(int *)(local_3c + 0x10);
 	if (*(int *)*(int *)(local_3c + 0x24) != *(int *)(local_3c + 0x28)) goto jmp_9fea;
-	*(int *)local_64 = 0x1;
+	local_64 = 0x1;
 	goto jmp_9fed;
 jmp_9fea:
-	*(int *)local_64 = 0x0;
+	local_64 = 0x0;
 jmp_9fed:
-	local_38 = *(int *)local_64;
+	local_38 = local_64;
 	local_30 = 0x10;
 	local_28 = 0x21f0;
 	if (local_38 == 0x0) goto jmp_a004;
@@ -20073,6 +21011,9 @@ PlayerSettings_DrawHandicap
 
 Address: 0xa0e9
 Stack Size: 0x40
+Opcodes Size: 0x72
+Locals Count: 8
+
 Calls: UI_DrawProportionalString
 =================
 */
@@ -20081,17 +21022,18 @@ void PlayerSettings_DrawHandicap(int arg_0) {
 	int		local_20;
 	int		local_24;
 	int		local_28;
-	char	local_2c[16];
+	int		local_2c;
+	char	local_30[12];
 	int		local_3c;
 
 	local_1c = arg_0;
 	if (*(int *)*(int *)(local_1c + 0x24) != *(int *)(local_1c + 0x28)) goto jmp_a0ff;
-	*(int *)local_2c = 0x1;
+	local_2c = 0x1;
 	goto jmp_a102;
 jmp_a0ff:
-	*(int *)local_2c = 0x0;
+	local_2c = 0x0;
 jmp_a102:
-	local_28 = *(int *)local_2c;
+	local_28 = local_2c;
 	local_20 = 0x10;
 	local_24 = 0x21f0;
 	if (local_28 == 0x0) goto jmp_a119;
@@ -20109,6 +21051,9 @@ PlayerSettings_DrawEffects
 
 Address: 0xa15b
 Stack Size: 0x48
+Opcodes Size: 0x9d
+Locals Count: 9
+
 Calls: UI_DrawHandlePic, UI_DrawProportionalString
 =================
 */
@@ -20117,18 +21062,19 @@ void PlayerSettings_DrawEffects(int arg_0) {
 	int		local_20;
 	int		local_24;
 	int		local_28;
-	char	local_2c[20];
+	int		local_2c;
+	char	local_30[16];
 	int		local_40;
 	int		local_44;
 
 	local_1c = arg_0;
 	if (*(int *)*(int *)(local_1c + 0x24) != *(int *)(local_1c + 0x28)) goto jmp_a171;
-	*(int *)local_2c = 0x1;
+	local_2c = 0x1;
 	goto jmp_a174;
 jmp_a171:
-	*(int *)local_2c = 0x0;
+	local_2c = 0x0;
 jmp_a174:
-	local_28 = *(int *)local_2c;
+	local_28 = local_2c;
 	local_20 = 0x10;
 	local_24 = 0x21f0;
 	if (local_28 == 0x0) goto jmp_a18b;
@@ -20148,6 +21094,9 @@ PlayerSettings_DrawPlayer
 
 Address: 0xa1f8
 Stack Size: 0x7c
+Opcodes Size: 0x6f
+Locals Count: 8
+
 Calls: trap_Cvar_VariableStringBuffer, UI_DrawPlayer, UI_PlayerInfo_SetInfo, strcpy, UI_PlayerInfo_SetModel, strcmp
 =================
 */
@@ -20181,6 +21130,9 @@ PlayerSettings_SaveChanges
 
 Address: 0xa267
 Stack Size: 0x10
+Opcodes Size: 0x25
+Locals Count: 0
+
 Calls: trap_Cvar_SetValue, trap_Cvar_Set
 Called by: PlayerSettings_MenuEvent, PlayerSettings_MenuKey
 =================
@@ -20198,6 +21150,9 @@ PlayerSettings_MenuKey
 
 Address: 0xa28c
 Stack Size: 0x18
+Opcodes Size: 0x1e
+Locals Count: 2
+
 Calls: Menu_DefaultKey, PlayerSettings_SaveChanges
 =================
 */
@@ -20220,6 +21175,9 @@ PlayerSettings_SetMenuItems
 
 Address: 0xa2aa
 Stack Size: 0x54
+Opcodes Size: 0x88
+Locals Count: 12
+
 Calls: memset, trap_Cvar_VariableValue, Com_Clamp, UI_PlayerInfo_SetInfo, UI_PlayerInfo_SetModel, Q_strncpyz, UI_Cvar_VariableString
 Called by: PlayerSettings_MenuInit
 =================
@@ -20231,7 +21189,8 @@ void PlayerSettings_SetMenuItems(void) {
 	int		local_30;
 	int		local_34;
 	int		local_38;
-	char	local_3c[8];
+	int		local_3c;
+	int		local_40;
 	int		local_44;
 	int		local_48;
 	int		local_4c;
@@ -20239,8 +21198,8 @@ void PlayerSettings_SetMenuItems(void) {
 
 	local_38 = UI_Cvar_VariableString(0x65af);
 	Q_strncpyz(0x4c0c4, local_38, 0x100);
-	*(int *)local_3c = trap_Cvar_VariableValue(0x659f);
-	local_24 = (int)(*(int *)local_3c - 0x3f800000);
+	local_3c = trap_Cvar_VariableValue(0x659f);
+	local_24 = (int)(local_3c - 0x3f800000);
 	if (local_24 < 0x0) goto jmp_a2d0;
 	if (local_24 <= 0x6) goto jmp_a2d3;
 jmp_a2d0:
@@ -20267,20 +21226,24 @@ PlayerSettings_MenuEvent
 
 Address: 0xa332
 Stack Size: 0x1c
+Opcodes Size: 0x43
+Locals Count: 5
+
 Calls: trap_Cvar_Set, UI_PopMenu, UI_PlayerModelMenu, PlayerSettings_SaveChanges, va
 =================
 */
 void PlayerSettings_MenuEvent(int arg_0, int arg_1) {
-	char	local_10[8];
+	int		local_10;
+	int		local_14;
 	int		local_18;
 
 	if (arg_1 == 0x3) goto jmp_a339;
 	goto jmp_a373;
 jmp_a339:
-	*(int *)local_10 = *(int *)(arg_0 + 0x8);
-	if (*(int *)local_10 == 0xb) goto jmp_a34e;
-	if (*(int *)local_10 == 0xd) goto jmp_a36d;
-	if (*(int *)local_10 == 0xe) goto jmp_a365;
+	local_10 = *(int *)(arg_0 + 0x8);
+	if (local_10 == 0xb) goto jmp_a34e;
+	if (local_10 == 0xd) goto jmp_a36d;
+	if (local_10 == 0xe) goto jmp_a365;
 	goto jmp_a373;
 jmp_a34e:
 	local_18 = va(0x659c, (0x64 - (0x19 * bss_4c208)));
@@ -20302,6 +21265,9 @@ PlayerSettings_MenuInit
 
 Address: 0xa375
 Stack Size: 0x18
+Opcodes Size: 0x187
+Locals Count: 1
+
 Calls: memset, PlayerSettings_SetMenuItems, Menu_AddItem, PlayerSettings_Cache
 Called by: UI_PlayerSettingsMenu
 =================
@@ -20422,6 +21388,9 @@ PlayerSettings_Cache
 
 Address: 0xa4fc
 Stack Size: 0x2c
+Opcodes Size: 0x71
+Locals Count: 8
+
 Calls: trap_R_RegisterShaderNoMip
 Called by: PlayerSettings_MenuInit, UI_Cache_f
 =================
@@ -20466,6 +21435,9 @@ UI_PlayerSettingsMenu
 
 Address: 0xa56d
 Stack Size: 0xc
+Opcodes Size: 0xb
+Locals Count: 0
+
 Calls: UI_PushMenu, PlayerSettings_MenuInit
 Called by: UI_SPLevelMenu_PlayerEvent, UI_SetupMenu_Event
 =================
@@ -20482,6 +21454,9 @@ Preferences_SetMenuItems
 
 Address: 0xa578
 Stack Size: 0x68
+Opcodes Size: 0xec
+Locals Count: 21
+
 Calls: trap_Cvar_VariableValue, Com_Clamp
 Called by: Preferences_MenuInit
 =================
@@ -20594,20 +21569,24 @@ Preferences_Event
 
 Address: 0xa664
 Stack Size: 0x1c
+Opcodes Size: 0xba
+Locals Count: 5
+
 Calls: trap_Cvar_Reset, trap_Cvar_SetValue, UI_PopMenu
 =================
 */
 void Preferences_Event(int arg_0, int arg_1) {
-	char	local_10[8];
+	int		local_10;
+	int		local_14;
 	int		local_18;
 
 	if (arg_1 == 0x3) goto jmp_a66b;
 	goto jmp_a71c;
 jmp_a66b:
-	*(int *)local_10 = *(int *)(arg_0 + 0x8);
-	if (*(int *)local_10 < 0x7f) goto jmp_a71c;
-	if (*(int *)local_10 > 0x8a) goto jmp_a71c;
-	goto *(int *)((*(int *)local_10 << 0x2) + 0x1f04);
+	local_10 = *(int *)(arg_0 + 0x8);
+	if (local_10 < 0x7f) goto jmp_a71c;
+	if (local_10 > 0x8a) goto jmp_a71c;
+	goto *(int *)((local_10 << 0x2) + 0x1f04);
 	trap_Cvar_SetValue(0x67d1, (float)bss_4cab8);
 	goto jmp_a71c;
 	trap_Cvar_SetValue(0x67c2, (float)bss_4cb14);
@@ -20653,6 +21632,9 @@ Crosshair_Draw
 
 Address: 0xa71e
 Stack Size: 0x50
+Opcodes Size: 0xfa
+Locals Count: 14
+
 Calls: UI_DrawHandlePic, UI_DrawString, UI_DrawChar, UI_FillRect
 =================
 */
@@ -20663,7 +21645,8 @@ void Crosshair_Draw(int arg_0) {
 	int		local_28;
 	int		local_2c;
 	int		local_30;
-	char	local_34[8];
+	int		local_34;
+	int		local_38;
 	int		local_3c;
 	int		local_40;
 	int		local_44;
@@ -20676,12 +21659,12 @@ void Crosshair_Draw(int arg_0) {
 	local_24 = *(int *)(local_1c + local_3c);
 	local_30 = local_3c;
 	if (*(int *)*(int *)(local_1c + 0x24) != *(int *)(local_1c + 0x28)) goto jmp_a74a;
-	*(int *)local_34 = 0x1;
+	local_34 = 0x1;
 	goto jmp_a74d;
 jmp_a74a:
-	*(int *)local_34 = 0x0;
+	local_34 = 0x0;
 jmp_a74d:
-	local_2c = *(int *)local_34;
+	local_2c = local_34;
 	if ((*(int *)(local_1c + 0x2c) & 0x2000) == 0x0) goto jmp_a75f;
 	local_28 = 0x21e0;
 	goto jmp_a785;
@@ -20730,6 +21713,9 @@ Preferences_MenuInit
 
 Address: 0xa818
 Stack Size: 0x1c
+Opcodes Size: 0x235
+Locals Count: 2
+
 Calls: memset, Preferences_SetMenuItems, Menu_AddItem, strlen, Preferences_Cache
 Called by: UI_PreferencesMenu
 =================
@@ -20892,12 +21878,16 @@ Preferences_Cache
 
 Address: 0xaa4d
 Stack Size: 0x20
+Opcodes Size: 0x3f
+Locals Count: 4
+
 Calls: trap_R_RegisterShaderNoMip, va
 Called by: Preferences_MenuInit, UI_Cache_f
 =================
 */
 void Preferences_Cache(void) {
-	char	local_10[8];
+	int		local_10;
+	int		local_14;
 	int		local_18;
 	int		local_1c;
 
@@ -20905,13 +21895,13 @@ void Preferences_Cache(void) {
 	trap_R_RegisterShaderNoMip(0x6700);
 	trap_R_RegisterShaderNoMip(0x6633);
 	trap_R_RegisterShaderNoMip(0x6623);
-	*(int *)local_10 = 0x0;
+	local_10 = 0x0;
 jmp_aa65:
-	local_18 = va(0x6610, (*(int *)local_10 + 0x61));
+	local_18 = va(0x6610, (local_10 + 0x61));
 	local_1c = trap_R_RegisterShaderNoMip(local_18);
-	*(int *)((*(int *)local_10 << 0x2) + 0x4cdd0) = local_1c;
-	*(int *)local_10 = (*(int *)local_10 + 0x1);
-	if (*(int *)local_10 < 0xa) goto jmp_aa65;
+	*(int *)((local_10 << 0x2) + 0x4cdd0) = local_1c;
+	local_10 = (local_10 + 0x1);
+	if (local_10 < 0xa) goto jmp_aa65;
 }
 
 /*
@@ -20920,6 +21910,9 @@ UI_PreferencesMenu
 
 Address: 0xaa8c
 Stack Size: 0xc
+Opcodes Size: 0xb
+Locals Count: 0
+
 Calls: UI_PushMenu, Preferences_MenuInit
 Called by: UI_SetupMenu_Event
 =================
@@ -20936,6 +21929,9 @@ Text_Init
 
 Address: 0xaa97
 Stack Size: 0xc
+Opcodes Size: 0x11
+Locals Count: 2
+
 Called by: Menu_AddItem
 =================
 */
@@ -20952,6 +21948,9 @@ Text_Draw
 
 Address: 0xaaa8
 Stack Size: 0x22c
+Opcodes Size: 0x65
+Locals Count: 6
+
 Calls: UI_DrawString, strcat, strcpy
 Called by: Menu_Draw
 =================
@@ -20960,7 +21959,8 @@ void Text_Draw(int arg_0) {
 	char	local_1c[512];
 	int		local_21c;
 	int		local_220;
-	char	local_224[8];
+	int		local_224;
+	int		local_228;
 
 	arg_0 = arg_0;
 	local_21c = *(int *)(arg_0 + 0xc);
@@ -20973,12 +21973,12 @@ jmp_aad0:
 	strcat(local_1c, *(int *)(arg_0 + 0x3c));
 jmp_aae2:
 	if ((*(int *)(arg_0 + 0x2c) & 0x2000) == 0x0) goto jmp_aaf0;
-	*(int *)local_224 = 0x21e0;
+	local_224 = 0x21e0;
 	goto jmp_aaf7;
 jmp_aaf0:
-	*(int *)local_224 = *(int *)(arg_0 + 0x44);
+	local_224 = *(int *)(arg_0 + 0x44);
 jmp_aaf7:
-	UI_DrawString(local_21c, local_220, local_1c, *(int *)(arg_0 + 0x40), *(int *)local_224);
+	UI_DrawString(local_21c, local_220, local_1c, *(int *)(arg_0 + 0x40), local_224);
 }
 
 /*
@@ -20987,6 +21987,9 @@ BText_Init
 
 Address: 0xab0d
 Stack Size: 0xc
+Opcodes Size: 0x11
+Locals Count: 2
+
 Called by: Menu_AddItem
 =================
 */
@@ -21003,6 +22006,9 @@ BText_Draw
 
 Address: 0xab1e
 Stack Size: 0x30
+Opcodes Size: 0x42
+Locals Count: 5
+
 Calls: UI_DrawBannerString
 Called by: Menu_Draw
 =================
@@ -21010,18 +22016,19 @@ Called by: Menu_Draw
 void BText_Draw(int arg_0) {
 	int		local_1c;
 	int		local_20;
-	char	local_24[12];
+	int		local_24;
+	char	local_28[8];
 
 	arg_0 = arg_0;
 	local_1c = *(int *)(arg_0 + 0xc);
 	local_20 = *(int *)(arg_0 + 0x10);
 	if ((*(int *)(arg_0 + 0x2c) & 0x2000) == 0x0) goto jmp_ab3f;
-	*(int *)local_24 = 0x21e0;
+	local_24 = 0x21e0;
 	goto jmp_ab46;
 jmp_ab3f:
-	*(int *)local_24 = *(int *)(arg_0 + 0x44);
+	local_24 = *(int *)(arg_0 + 0x44);
 jmp_ab46:
-	UI_DrawBannerString(local_1c, local_20, *(int *)(arg_0 + 0x3c), *(int *)(arg_0 + 0x40), *(int *)local_24);
+	UI_DrawBannerString(local_1c, local_20, *(int *)(arg_0 + 0x3c), *(int *)(arg_0 + 0x40), local_24);
 }
 
 /*
@@ -21030,6 +22037,9 @@ PText_Init
 
 Address: 0xab60
 Stack Size: 0x30
+Opcodes Size: 0x91
+Locals Count: 10
+
 Calls: UI_ProportionalStringWidth, UI_ProportionalSizeScale
 Called by: Menu_AddItem
 =================
@@ -21040,16 +22050,18 @@ void PText_Init(int arg_0) {
 	int		local_14;
 	int		local_18;
 	int		local_1c;
-	char	local_20[8];
-	char	local_28[8];
+	int		local_20;
+	int		local_24;
+	int		local_28;
+	int		local_2c;
 
 	arg_0 = arg_0;
-	*(int *)local_20 = UI_ProportionalSizeScale(*(int *)(arg_0 + 0x40));
-	local_c = *(int *)local_20;
+	local_20 = UI_ProportionalSizeScale(*(int *)(arg_0 + 0x40));
+	local_c = local_20;
 	local_10 = *(int *)(arg_0 + 0xc);
 	local_14 = *(int *)(arg_0 + 0x10);
-	*(int *)local_28 = UI_ProportionalStringWidth(*(int *)(arg_0 + 0x3c));
-	local_18 = (int)((float)*(int *)local_28 * local_c);
+	local_28 = UI_ProportionalStringWidth(*(int *)(arg_0 + 0x3c));
+	local_18 = (int)((float)local_28 * local_c);
 	local_1c = (int)(0x41d80000 * local_c);
 	if ((*(int *)(arg_0 + 0x2c) & 0x10) == 0x0) goto jmp_abad;
 	local_10 = (local_10 - local_18);
@@ -21070,6 +22082,9 @@ PText_Draw
 
 Address: 0xabf1
 Stack Size: 0x3c
+Opcodes Size: 0x6c
+Locals Count: 7
+
 Calls: UI_DrawProportionalString, Menu_ItemAtCursor
 Called by: Menu_Draw
 =================
@@ -21078,17 +22093,18 @@ void PText_Draw(int arg_0) {
 	int		local_1c;
 	int		local_20;
 	int		local_24;
-	char	local_28[16];
+	int		local_28;
+	char	local_2c[12];
 	int		local_38;
 
 	arg_0 = arg_0;
 	local_20 = *(int *)(arg_0 + 0xc);
 	local_24 = *(int *)(arg_0 + 0x10);
 	if ((*(int *)(arg_0 + 0x2c) & 0x2000) == 0x0) goto jmp_ac12;
-	*(int *)local_28 = 0x21e0;
+	local_28 = 0x21e0;
 	goto jmp_ac19;
 jmp_ac12:
-	*(int *)local_28 = *(int *)(arg_0 + 0x44);
+	local_28 = *(int *)(arg_0 + 0x44);
 jmp_ac19:
 	local_1c = *(int *)(arg_0 + 0x40);
 	if ((*(int *)(arg_0 + 0x2c) & 0x100) == 0x0) goto jmp_ac46;
@@ -21099,7 +22115,7 @@ jmp_ac19:
 jmp_ac40:
 	local_1c = (local_1c | 0x2000);
 jmp_ac46:
-	UI_DrawProportionalString(local_20, local_24, *(int *)(arg_0 + 0x3c), local_1c, *(int *)local_28);
+	UI_DrawProportionalString(local_20, local_24, *(int *)(arg_0 + 0x3c), local_1c, local_28);
 }
 
 /*
@@ -21108,6 +22124,9 @@ Bitmap_Init
 
 Address: 0xac5d
 Stack Size: 0x1c
+Opcodes Size: 0x87
+Locals Count: 6
+
 Called by: UI_SPLevelMenu_SetMenuItems, Menu_AddItem
 =================
 */
@@ -21115,11 +22134,12 @@ void Bitmap_Init(int arg_0) {
 	int		local_8;
 	int		local_c;
 	int		local_10;
-	char	local_14[8];
+	int		local_14;
+	int		local_18;
 
 	arg_0 = arg_0;
 	local_c = *(int *)(arg_0 + 0xc);
-	*(int *)local_14 = *(int *)(arg_0 + 0x10);
+	local_14 = *(int *)(arg_0 + 0x10);
 	local_8 = *(int *)(arg_0 + 0x4c);
 	local_10 = *(int *)(arg_0 + 0x50);
 	if (local_8 >= 0x0) goto jmp_ac87;
@@ -21137,8 +22157,8 @@ jmp_aca2:
 jmp_acb4:
 	*(int *)(arg_0 + 0x14) = local_c;
 	*(int *)(arg_0 + 0x1c) = (local_c + local_8);
-	*(int *)(arg_0 + 0x18) = *(int *)local_14;
-	*(int *)(arg_0 + 0x20) = (*(int *)local_14 + local_10);
+	*(int *)(arg_0 + 0x18) = local_14;
+	*(int *)(arg_0 + 0x20) = (local_14 + local_10);
 	*(int *)(arg_0 + 0x44) = 0x0;
 	*(int *)(arg_0 + 0x48) = 0x0;
 }
@@ -21149,6 +22169,9 @@ Bitmap_Draw
 
 Address: 0xace4
 Stack Size: 0x74
+Opcodes Size: 0x1e8
+Locals Count: 20
+
 Calls: sin, trap_R_SetColor, trap_R_RegisterShaderNoMip, Menu_ItemAtCursor, UI_DrawHandlePic
 Called by: ServerOptions_LevelshotDraw, Menu_Draw
 =================
@@ -21161,11 +22184,13 @@ void Bitmap_Draw(int arg_0) {
 	int		local_2c;
 	int		local_30;
 	int		local_34;
-	char	local_38[20];
+	int		local_38;
+	char	local_3c[16];
 	int		local_4c;
 	int		local_50;
 	int		local_54;
-	char	local_58[8];
+	int		local_58;
+	int		local_5c;
 	int		local_60;
 	int		local_64;
 	int		local_68;
@@ -21190,8 +22215,8 @@ jmp_ad2d:
 	*(int *)(arg_0 + 0x44) = local_4c;
 	if (*(int *)(arg_0 + 0x44) != 0x0) goto jmp_ad6b;
 	if (*(int *)(arg_0 + 0x40) == 0x0) goto jmp_ad6b;
-	*(int *)local_58 = trap_R_RegisterShaderNoMip(*(int *)(arg_0 + 0x40));
-	*(int *)(arg_0 + 0x44) = *(int *)local_58;
+	local_58 = trap_R_RegisterShaderNoMip(*(int *)(arg_0 + 0x40));
+	*(int *)(arg_0 + 0x44) = local_58;
 jmp_ad6b:
 	if (*(int *)(arg_0 + 0x3c) == 0x0) goto jmp_ad8a;
 	if (*(int *)(arg_0 + 0x48) != 0x0) goto jmp_ad8a;
@@ -21209,9 +22234,9 @@ jmp_adbb:
 	UI_DrawHandlePic(local_1c, local_24, local_20, local_28, *(int *)(arg_0 + 0x44));
 jmp_add7:
 	local_54 = *(int *)(arg_0 + 0x2c);
-	*(int *)local_58 = 0x0;
-	if ((local_54 & 0x20000) != *(int *)local_58) goto jmp_adef;
-	if ((local_54 & 0x100) == *(int *)local_58) goto jmp_ae62;
+	local_58 = 0x0;
+	if ((local_54 & 0x20000) != local_58) goto jmp_adef;
+	if ((local_54 & 0x100) == local_58) goto jmp_ae62;
 jmp_adef:
 	local_60 = Menu_ItemAtCursor(*(int *)(arg_0 + 0x24));
 	if (arg_0 != local_60) goto jmp_ae62;
@@ -21219,7 +22244,7 @@ jmp_adef:
 	local_64 = (arg_0 + 0x54);
 	local_30 = *(int *)*(int *)local_64;
 	local_34 = *(int *)(*(int *)local_64 + 0x4);
-	*(int *)local_38 = *(int *)(*(int *)(arg_0 + 0x54) + 0x8);
+	local_38 = *(int *)(*(int *)(arg_0 + 0x54) + 0x8);
 	local_2c = &local_30;
 	goto jmp_ae2b;
 jmp_ae28:
@@ -21255,19 +22280,23 @@ Action_Init
 
 Address: 0xaecc
 Stack Size: 0x28
+Opcodes Size: 0x55
+Locals Count: 5
+
 Calls: strlen
 Called by: Menu_AddItem
 =================
 */
 void Action_Init(int arg_0) {
 	int		local_c;
-	char	local_10[20];
+	int		local_10;
+	char	local_14[16];
 	int		local_24;
 
 	arg_0 = arg_0;
 	if (*(int *)(arg_0 + 0x4) == 0x0) goto jmp_aee8;
-	*(int *)local_10 = strlen(*(int *)(arg_0 + 0x4));
-	local_c = *(int *)local_10;
+	local_10 = strlen(*(int *)(arg_0 + 0x4));
+	local_c = local_10;
 	goto jmp_aeeb;
 jmp_aee8:
 	local_c = 0x0;
@@ -21285,6 +22314,9 @@ Action_Draw
 
 Address: 0xaf21
 Stack Size: 0x3c
+Opcodes Size: 0xa2
+Locals Count: 6
+
 Calls: UI_DrawChar, UI_DrawString
 Called by: Menu_Draw
 =================
@@ -21293,10 +22325,11 @@ void Action_Draw(int arg_0) {
 	int		local_1c;
 	int		local_20;
 	int		local_24;
-	char	local_28[20];
+	int		local_28;
+	char	local_2c[16];
 
 	arg_0 = arg_0;
-	*(int *)local_28 = 0x0;
+	local_28 = 0x0;
 	local_1c = 0x2130;
 	if ((*(int *)(arg_0 + 0x2c) & 0x2000) == 0x0) goto jmp_af3a;
 	local_1c = 0x21e0;
@@ -21305,7 +22338,7 @@ jmp_af3a:
 	if ((*(int *)(arg_0 + 0x2c) & 0x100) == 0x0) goto jmp_af57;
 	if (*(int *)*(int *)(arg_0 + 0x24) != *(int *)(arg_0 + 0x28)) goto jmp_af57;
 	local_1c = 0x2200;
-	*(int *)local_28 = 0x4000;
+	local_28 = 0x4000;
 	goto jmp_af80;
 jmp_af57:
 	if ((*(int *)(arg_0 + 0x2c) & 0x80) == 0x0) goto jmp_af71;
@@ -21314,12 +22347,12 @@ jmp_af57:
 	goto jmp_af80;
 jmp_af71:
 	if ((*(int *)(arg_0 + 0x2c) & 0x1) == 0x0) goto jmp_af80;
-	*(int *)local_28 = 0x1000;
+	local_28 = 0x1000;
 	local_1c = 0x2200;
 jmp_af80:
 	local_20 = *(int *)(arg_0 + 0xc);
 	local_24 = *(int *)(arg_0 + 0x10);
-	UI_DrawString(local_20, local_24, *(int *)(arg_0 + 0x4), *(int *)local_28, local_1c);
+	UI_DrawString(local_20, local_24, *(int *)(arg_0 + 0x4), local_28, local_1c);
 	if (*(int *)*(int *)(arg_0 + 0x24) != *(int *)(arg_0 + 0x28)) goto jmp_afc1;
 	UI_DrawChar((local_20 - 0x10), local_24, 0xd, 0x1000, local_1c);
 jmp_afc1:
@@ -21331,19 +22364,23 @@ RadioButton_Init
 
 Address: 0xafc3
 Stack Size: 0x28
+Opcodes Size: 0x59
+Locals Count: 5
+
 Calls: strlen
 Called by: Menu_AddItem
 =================
 */
 void RadioButton_Init(int arg_0) {
 	int		local_c;
-	char	local_10[20];
+	int		local_10;
+	char	local_14[16];
 	int		local_24;
 
 	arg_0 = arg_0;
 	if (*(int *)(arg_0 + 0x4) == 0x0) goto jmp_afdf;
-	*(int *)local_10 = strlen(*(int *)(arg_0 + 0x4));
-	local_c = *(int *)local_10;
+	local_10 = strlen(*(int *)(arg_0 + 0x4));
+	local_c = local_10;
 	goto jmp_afe2;
 jmp_afdf:
 	local_c = 0x0;
@@ -21361,6 +22398,9 @@ RadioButton_Key
 
 Address: 0xb01c
 Stack Size: 0x3c
+Opcodes Size: 0xa3
+Locals Count: 13
+
 Called by: Menu_DefaultKey
 =================
 */
@@ -21429,6 +22469,9 @@ RadioButton_Draw
 
 Address: 0xb0bf
 Stack Size: 0x48
+Opcodes Size: 0x122
+Locals Count: 12
+
 Calls: UI_DrawHandlePic, UI_DrawString, UI_DrawChar, UI_FillRect
 Called by: Menu_Draw
 =================
@@ -21439,7 +22482,8 @@ void RadioButton_Draw(int arg_0) {
 	int		local_24;
 	int		local_28;
 	int		local_2c;
-	char	local_30[8];
+	int		local_30;
+	int		local_34;
 	int		local_38;
 	int		local_3c;
 	int		local_40;
@@ -21449,12 +22493,12 @@ void RadioButton_Draw(int arg_0) {
 	local_1c = *(int *)(arg_0 + 0xc);
 	local_20 = *(int *)(arg_0 + 0x10);
 	if (*(int *)*(int *)(arg_0 + 0x24) != *(int *)(arg_0 + 0x28)) goto jmp_b0e3;
-	*(int *)local_30 = 0x1;
+	local_30 = 0x1;
 	goto jmp_b0e6;
 jmp_b0e3:
-	*(int *)local_30 = 0x0;
+	local_30 = 0x0;
 jmp_b0e6:
-	local_28 = *(int *)local_30;
+	local_28 = local_30;
 	if ((*(int *)(arg_0 + 0x2c) & 0x2000) == 0x0) goto jmp_b0fb;
 	local_24 = 0x21e0;
 	local_2c = 0x10;
@@ -21511,19 +22555,23 @@ Slider_Init
 
 Address: 0xb1e1
 Stack Size: 0x28
+Opcodes Size: 0x59
+Locals Count: 5
+
 Calls: strlen
 Called by: Menu_AddItem
 =================
 */
 void Slider_Init(int arg_0) {
 	int		local_c;
-	char	local_10[20];
+	int		local_10;
+	char	local_14[16];
 	int		local_24;
 
 	arg_0 = arg_0;
 	if (*(int *)(arg_0 + 0x4) == 0x0) goto jmp_b1fd;
-	*(int *)local_10 = strlen(*(int *)(arg_0 + 0x4));
-	local_c = *(int *)local_10;
+	local_10 = strlen(*(int *)(arg_0 + 0x4));
+	local_c = local_10;
 	goto jmp_b200;
 jmp_b1fd:
 	local_c = 0x0;
@@ -21541,6 +22589,9 @@ Slider_Key
 
 Address: 0xb23a
 Stack Size: 0x50
+Opcodes Size: 0x10a
+Locals Count: 14
+
 Called by: Menu_DefaultKey
 =================
 */
@@ -21550,9 +22601,11 @@ int Slider_Key(int arg_0, int arg_1) {
 	int		local_18;
 	int		local_1c;
 	int		local_20;
-	char	local_24[8];
+	int		local_24;
+	int		local_28;
 	int		local_2c;
-	char	local_30[24];
+	int		local_30;
+	char	local_34[20];
 	int		local_48;
 	int		local_4c;
 
@@ -21562,9 +22615,9 @@ int Slider_Key(int arg_0, int arg_1) {
 	local_20 = 0xa5;
 	if (local_1c == local_20) goto jmp_b300;
 	if (local_1c > local_20) goto jmp_b262;
-	*(int *)local_24 = arg_1;
-	if (*(int *)local_24 == 0x86) goto jmp_b2db;
-	if (*(int *)local_24 == 0x87) goto jmp_b300;
+	local_24 = arg_1;
+	if (local_24 == 0x86) goto jmp_b2db;
+	if (local_24 == 0x87) goto jmp_b300;
 	goto jmp_b325;
 jmp_b262:
 	if (arg_1 == 0xb2) goto jmp_b268;
@@ -21573,8 +22626,8 @@ jmp_b268:
 	local_14 = ((bss_db5c - *(int *)(arg_0 + 0xc)) - 0x10);
 	local_2c = (arg_0 + 0x44);
 	local_18 = (int)*(int *)local_2c;
-	*(int *)local_30 = *(int *)(arg_0 + 0x3c);
-	*(int *)local_2c = ((((float)local_14 / 0x42a00000) * (*(int *)(arg_0 + 0x40) - *(int *)local_30)) + *(int *)local_30);
+	local_30 = *(int *)(arg_0 + 0x3c);
+	*(int *)local_2c = ((((float)local_14 / 0x42a00000) * (*(int *)(arg_0 + 0x40) - local_30)) + local_30);
 	if (*(int *)(arg_0 + 0x44) >= *(int *)(arg_0 + 0x3c)) goto jmp_b2b2;
 	*(int *)(arg_0 + 0x44) = *(int *)(arg_0 + 0x3c);
 	goto jmp_b2c7;
@@ -21622,6 +22675,9 @@ Slider_Draw
 
 Address: 0xb344
 Stack Size: 0x48
+Opcodes Size: 0x10b
+Locals Count: 11
+
 Calls: UI_DrawHandlePic, UI_SetColor, UI_DrawString
 Called by: Menu_Draw
 =================
@@ -21633,7 +22689,8 @@ void Slider_Draw(int arg_0) {
 	int		local_28;
 	int		local_2c;
 	int		local_30;
-	char	local_34[12];
+	int		local_34;
+	char	local_38[8];
 	int		local_40;
 	int		local_44;
 
@@ -21641,12 +22698,12 @@ void Slider_Draw(int arg_0) {
 	local_1c = *(int *)(arg_0 + 0xc);
 	local_20 = *(int *)(arg_0 + 0x10);
 	if (*(int *)*(int *)(arg_0 + 0x24) != *(int *)(arg_0 + 0x28)) goto jmp_b368;
-	*(int *)local_34 = 0x1;
+	local_34 = 0x1;
 	goto jmp_b36b;
 jmp_b368:
-	*(int *)local_34 = 0x0;
+	local_34 = 0x0;
 jmp_b36b:
-	local_30 = *(int *)local_34;
+	local_30 = local_34;
 	if ((*(int *)(arg_0 + 0x2c) & 0x2000) == 0x0) goto jmp_b380;
 	local_28 = 0x21e0;
 	local_24 = 0x10;
@@ -21693,6 +22750,9 @@ SpinControl_Init
 
 Address: 0xb44f
 Stack Size: 0x3c
+Opcodes Size: 0xa8
+Locals Count: 11
+
 Calls: strlen
 Called by: Menu_AddItem
 =================
@@ -21701,16 +22761,18 @@ void SpinControl_Init(int arg_0) {
 	int		local_c;
 	int		local_10;
 	int		local_14;
-	char	local_18[8];
+	int		local_18;
+	int		local_1c;
 	int		local_20;
 	int		local_24;
-	char	local_28[16];
+	int		local_28;
+	char	local_2c[12];
 	int		local_38;
 
 	arg_0 = arg_0;
 	if (*(int *)(arg_0 + 0x4) == 0x0) goto jmp_b46d;
-	*(int *)local_18 = strlen(*(int *)(arg_0 + 0x4));
-	local_14 = (*(int *)local_18 << 0x3);
+	local_18 = strlen(*(int *)(arg_0 + 0x4));
+	local_14 = (local_18 << 0x3);
 	goto jmp_b470;
 jmp_b46d:
 	local_14 = 0x0;
@@ -21726,12 +22788,12 @@ jmp_b48f:
 	if (local_c <= local_14) goto jmp_b4a3;
 	local_14 = local_c;
 jmp_b4a3:
-	*(int *)local_28 = (arg_0 + 0x44);
-	*(int *)*(int *)local_28 = (*(int *)*(int *)local_28 + 0x1);
+	local_28 = (arg_0 + 0x44);
+	*(int *)local_28 = (*(int *)local_28 + 0x1);
 jmp_b4b1:
-	*(int *)local_28 = *(int *)((*(int *)(arg_0 + 0x44) << 0x2) + *(int *)(arg_0 + 0x4c));
-	local_10 = *(int *)local_28;
-	if (*(int *)local_28 != 0x0) goto jmp_b48f;
+	local_28 = *(int *)((*(int *)(arg_0 + 0x44) << 0x2) + *(int *)(arg_0 + 0x4c));
+	local_10 = local_28;
+	if (local_28 != 0x0) goto jmp_b48f;
 	*(int *)(arg_0 + 0x18) = *(int *)(arg_0 + 0x10);
 	*(int *)(arg_0 + 0x1c) = (*(int *)(arg_0 + 0xc) + ((local_14 << 0x3) + 0x8));
 	local_38 = 0x10;
@@ -21744,6 +22806,9 @@ SpinControl_Key
 
 Address: 0xb4f7
 Stack Size: 0x30
+Opcodes Size: 0x9f
+Locals Count: 10
+
 Called by: Menu_DefaultKey
 =================
 */
@@ -21802,6 +22867,9 @@ SpinControl_Draw
 
 Address: 0xb596
 Stack Size: 0x4c
+Opcodes Size: 0xee
+Locals Count: 13
+
 Calls: UI_DrawString, UI_DrawChar, UI_FillRect
 Called by: Menu_Draw
 =================
@@ -21812,24 +22880,26 @@ void SpinControl_Draw(int arg_0) {
 	int		local_24;
 	int		local_28;
 	int		local_2c;
-	char	local_30[8];
-	char	local_38[8];
+	int		local_30;
+	int		local_34;
+	int		local_38;
+	int		local_3c;
 	int		local_40;
 	int		local_44;
 	int		local_48;
 
 	arg_0 = arg_0;
 	local_20 = *(int *)(arg_0 + 0xc);
-	*(int *)local_38 = 0x10;
-	local_24 = *(int *)(arg_0 + *(int *)local_38);
-	local_28 = *(int *)local_38;
+	local_38 = 0x10;
+	local_24 = *(int *)(arg_0 + local_38);
+	local_28 = local_38;
 	if (*(int *)*(int *)(arg_0 + 0x24) != *(int *)(arg_0 + 0x28)) goto jmp_b5c2;
-	*(int *)local_30 = 0x1;
+	local_30 = 0x1;
 	goto jmp_b5c5;
 jmp_b5c2:
-	*(int *)local_30 = 0x0;
+	local_30 = 0x0;
 jmp_b5c5:
-	local_2c = *(int *)local_30;
+	local_2c = local_30;
 	if ((*(int *)(arg_0 + 0x2c) & 0x2000) == 0x0) goto jmp_b5d7;
 	local_1c = 0x21e0;
 	goto jmp_b5fd;
@@ -21868,12 +22938,17 @@ ScrollList_Init
 
 Address: 0xb684
 Stack Size: 0x28
+Opcodes Size: 0xb5
+Locals Count: 7
+
 Called by: Menu_AddItem
 =================
 */
 void ScrollList_Init(int arg_0) {
-	char	local_8[8];
-	char	local_10[16];
+	int		local_8;
+	int		local_c;
+	int		local_10;
+	char	local_14[12];
 	int		local_20;
 	int		local_24;
 
@@ -21889,17 +22964,17 @@ jmp_b6b0:
 	if (*(int *)(arg_0 + 0x5c) != 0x0) goto jmp_b6bd;
 	*(int *)(arg_0 + 0x5c) = 0x3;
 jmp_b6bd:
-	*(int *)local_10 = *(int *)(arg_0 + 0x5c);
-	*(int *)local_8 = ((((*(int *)(arg_0 + 0x50) + *(int *)local_10) * *(int *)(arg_0 + 0x58)) - *(int *)local_10) << 0x3);
+	local_10 = *(int *)(arg_0 + 0x5c);
+	local_8 = ((((*(int *)(arg_0 + 0x50) + local_10) * *(int *)(arg_0 + 0x58)) - local_10) << 0x3);
 	*(int *)(arg_0 + 0x14) = *(int *)(arg_0 + 0xc);
 	*(int *)(arg_0 + 0x18) = *(int *)(arg_0 + 0x10);
-	*(int *)(arg_0 + 0x1c) = (*(int *)(arg_0 + 0xc) + *(int *)local_8);
+	*(int *)(arg_0 + 0x1c) = (*(int *)(arg_0 + 0xc) + local_8);
 	*(int *)(arg_0 + 0x20) = (*(int *)(arg_0 + 0x10) + (*(int *)(arg_0 + 0x54) << 0x4));
 	if ((*(int *)(arg_0 + 0x2c) & 0x8) == 0x0) goto jmp_b737;
 	local_20 = (arg_0 + 0x14);
-	*(int *)local_20 = (*(int *)local_20 - (*(int *)local_8 / 0x2));
+	*(int *)local_20 = (*(int *)local_20 - (local_8 / 0x2));
 	local_24 = (arg_0 + 0x1c);
-	*(int *)local_24 = (*(int *)local_24 - (*(int *)local_8 / 0x2));
+	*(int *)local_24 = (*(int *)local_24 - (local_8 / 0x2));
 jmp_b737:
 }
 
@@ -21909,6 +22984,9 @@ ScrollList_Key
 
 Address: 0xb739
 Stack Size: 0xb4
+Opcodes Size: 0x66f
+Locals Count: 37
+
 Calls: Q_isupper, Q_isprint, UI_CursorInRect
 Called by: ArenaServers_Event, Menu_DefaultKey, LoadConfig_MenuEvent, Demos_MenuEvent
 =================
@@ -21923,12 +23001,15 @@ int ScrollList_Key(int arg_0, int arg_1) {
 	int		local_30;
 	int		local_34;
 	int		local_38;
-	char	local_3c[16];
-	char	local_4c[8];
+	int		local_3c;
+	char	local_40[12];
+	int		local_4c;
+	int		local_50;
 	int		local_54;
 	int		local_58;
 	int		local_5c;
-	char	local_60[8];
+	int		local_60;
+	int		local_64;
 	int		local_68;
 	int		local_6c;
 	int		local_70;
@@ -21936,11 +23017,15 @@ int ScrollList_Key(int arg_0, int arg_1) {
 	int		local_78;
 	int		local_7c;
 	int		local_80;
-	char	local_84[8];
+	int		local_84;
+	int		local_88;
 	int		local_8c;
-	char	local_90[8];
-	char	local_98[12];
-	char	local_a4[12];
+	int		local_90;
+	int		local_94;
+	int		local_98;
+	char	local_9c[8];
+	int		local_a4;
+	char	local_a8[8];
 	int		local_b0;
 
 	arg_0 = arg_0;
@@ -21953,9 +23038,9 @@ jmp_b752:
 	if (arg_1 > 0x90) goto jmp_bcd5;
 	goto *(int *)((arg_1 << 0x2) + 0x2054);
 jmp_b762:
-	*(int *)local_4c = 0xb2;
-	if (arg_1 == *(int *)local_4c) goto jmp_b779;
-	if (arg_1 < *(int *)local_4c) goto jmp_bcd5;
+	local_4c = 0xb2;
+	if (arg_1 == local_4c) goto jmp_b779;
+	if (arg_1 < local_4c) goto jmp_bcd5;
 	if (arg_1 == 0xb7) goto jmp_ba7f;
 	if (arg_1 == 0xb8) goto jmp_ba20;
 	goto jmp_bcd5;
@@ -21971,9 +23056,9 @@ jmp_b7be:
 	local_5c = UI_CursorInRect(local_24, local_28, local_2c, (*(int *)(arg_0 + 0x54) << 0x4));
 	if (local_5c == 0x0) goto jmp_b84e;
 	local_34 = ((bss_db5c - local_24) / 0x8);
-	*(int *)local_3c = (local_34 / (*(int *)(arg_0 + 0x50) + *(int *)(arg_0 + 0x5c)));
+	local_3c = (local_34 / (*(int *)(arg_0 + 0x50) + *(int *)(arg_0 + 0x5c)));
 	local_38 = ((bss_db60 - local_28) / 0x10);
-	local_30 = ((*(int *)local_3c * *(int *)(arg_0 + 0x54)) + local_38);
+	local_30 = ((local_3c * *(int *)(arg_0 + 0x54)) + local_38);
 	if ((*(int *)(arg_0 + 0x48) + local_30) >= *(int *)(arg_0 + 0x44)) goto jmp_b84e;
 	*(int *)(arg_0 + 0x3c) = *(int *)(arg_0 + 0x40);
 	*(int *)(arg_0 + 0x40) = (*(int *)(arg_0 + 0x48) + local_30);
@@ -22121,16 +23206,16 @@ jmp_bb67:
 	return menu_buzz_sound;
 jmp_bb7e:
 	*(int *)(arg_0 + 0x3c) = *(int *)(arg_0 + 0x40);
-	*(int *)local_84 = (arg_0 + 0x40);
-	*(int *)*(int *)local_84 = (*(int *)*(int *)local_84 + 0x1);
+	local_84 = (arg_0 + 0x40);
+	*(int *)local_84 = (*(int *)local_84 + 0x1);
 	if (*(int *)(arg_0 + 0x40) < (*(int *)(arg_0 + 0x48) + (*(int *)(arg_0 + 0x58) * *(int *)(arg_0 + 0x54)))) goto jmp_bbd6;
 	if (*(int *)(arg_0 + 0x58) != 0x1) goto jmp_bbc4;
 	local_8c = (arg_0 + 0x48);
 	*(int *)local_8c = (*(int *)local_8c + 0x1);
 	goto jmp_bbd6;
 jmp_bbc4:
-	*(int *)local_90 = (arg_0 + 0x48);
-	*(int *)*(int *)local_90 = (*(int *)*(int *)local_90 + *(int *)(arg_0 + 0x54));
+	local_90 = (arg_0 + 0x48);
+	*(int *)local_90 = (*(int *)local_90 + *(int *)(arg_0 + 0x54));
 jmp_bbd6:
 	if (*(int *)(arg_0 + 0x30) == 0x0) goto jmp_bbe9;
 	(*(*(int *)(arg_0 + 0x30)))(arg_0, 0x1);
@@ -22143,11 +23228,11 @@ jmp_bbfa:
 	return menu_buzz_sound;
 jmp_bc0a:
 	*(int *)(arg_0 + 0x3c) = *(int *)(arg_0 + 0x40);
-	*(int *)local_98 = (arg_0 + 0x40);
-	*(int *)*(int *)local_98 = (*(int *)*(int *)local_98 - *(int *)(arg_0 + 0x54));
+	local_98 = (arg_0 + 0x40);
+	*(int *)local_98 = (*(int *)local_98 - *(int *)(arg_0 + 0x54));
 	if (*(int *)(arg_0 + 0x40) >= *(int *)(arg_0 + 0x48)) goto jmp_bc43;
-	*(int *)local_a4 = (arg_0 + 0x48);
-	*(int *)*(int *)local_a4 = (*(int *)*(int *)local_a4 - *(int *)(arg_0 + 0x54));
+	local_a4 = (arg_0 + 0x48);
+	*(int *)local_a4 = (*(int *)local_a4 - *(int *)(arg_0 + 0x54));
 jmp_bc43:
 	if (*(int *)(arg_0 + 0x30) == 0x0) goto jmp_bc56;
 	(*(*(int *)(arg_0 + 0x30)))(arg_0, 0x1);
@@ -22184,8 +23269,8 @@ jmp_bcf5:
 jmp_bcfa:
 	local_18 = ((*(int *)(arg_0 + 0x40) + local_20) %% *(int *)(arg_0 + 0x44));
 	local_1c = (char)*(char *)*(int *)((local_18 << 0x2) + *(int *)(arg_0 + 0x4c));
-	*(int *)local_60 = Q_isupper(local_1c);
-	if (*(int *)local_60 == 0x0) goto jmp_bd2a;
+	local_60 = Q_isupper(local_1c);
+	if (local_60 == 0x0) goto jmp_bd2a;
 	local_1c = (local_1c - 0xffffffe0);
 jmp_bd2a:
 	if (local_1c != arg_1) goto jmp_bd95;
@@ -22218,6 +23303,9 @@ ScrollList_Draw
 
 Address: 0xbda8
 Stack Size: 0x50
+Opcodes Size: 0x109
+Locals Count: 12
+
 Calls: UI_DrawString, UI_FillRect
 Called by: Menu_Draw
 =================
@@ -22232,16 +23320,17 @@ void ScrollList_Draw(int arg_0) {
 	int		local_34;
 	int		local_38;
 	int		local_3c;
-	char	local_40[16];
+	int		local_40;
+	char	local_44[12];
 
 	arg_0 = arg_0;
 	if (*(int *)*(int *)(arg_0 + 0x24) != *(int *)(arg_0 + 0x28)) goto jmp_bdbe;
-	*(int *)local_40 = 0x1;
+	local_40 = 0x1;
 	goto jmp_bdc1;
 jmp_bdbe:
-	*(int *)local_40 = 0x0;
+	local_40 = 0x0;
 jmp_bdc1:
-	local_38 = *(int *)local_40;
+	local_38 = local_40;
 	local_2c = *(int *)(arg_0 + 0xc);
 	local_3c = 0x0;
 	goto jmp_bea7;
@@ -22292,15 +23381,21 @@ Menu_AddItem
 
 Address: 0xbeb1
 Stack Size: 0x38
+Opcodes Size: 0xf3
+Locals Count: 10
+
 Calls: trap_Error, va, BText_Init, PText_Init, ScrollList_Init, Text_Init, Bitmap_Init, Slider_Init, RadioButton_Init, SpinControl_Init, MenuField_Init, Action_Init
 Called by: GraphicsOptions_MenuInit, UI_DriverInfo_Menu, UI_TeamOrdersMenu_Init, TeamMain_MenuInit, UI_BotSelectMenu_Init, ServerOptions_MenuInit, StartServer_MenuInit, UI_SPSkillMenu_Init, UI_SPPostgameMenu_Init, UI_SPLevelMenu_Init, SpecifyServer_MenuInit, UI_SoundOptionsMenu_Init, UI_SetupMenu_Init, ArenaServers_MenuInit, UI_ServerInfoMenu, UI_SaveConfigMenu_Init, UI_RemoveBotsMenu_Init, Preferences_MenuInit, PlayerSettings_MenuInit, PlayerModel_MenuInit, Options_MenuInit, UI_NetworkOptionsMenu_Init, UI_Mods_MenuInit, UI_MainMenu, LoadConfig_MenuInit, InGame_MenuInit, UI_DisplayOptionsMenu_Init, Demos_MenuInit, Controls_MenuInit, UI_Message, UI_ConfirmMenu_Style, UI_CinematicsMenu_Init, UI_CDKeyMenu_Init, UI_AddBotsMenu_Init
 =================
 */
 void Menu_AddItem(int arg_0, int arg_1) {
-	char	local_10[16];
-	char	local_20[8];
+	int		local_10;
+	char	local_14[12];
+	int		local_20;
+	int		local_24;
 	int		local_28;
-	char	local_2c[8];
+	int		local_2c;
+	int		local_30;
 	int		local_34;
 
 	arg_0 = arg_0;
@@ -22309,16 +23404,16 @@ void Menu_AddItem(int arg_0, int arg_1) {
 jmp_bec2:
 	*(int *)((*(int *)(arg_0 + 0x8) << 0x2) + (arg_0 + 0xc)) = arg_1;
 	*(int *)(*(int *)((*(int *)(arg_0 + 0x8) << 0x2) + (arg_0 + 0xc)) + 0x24) = arg_0;
-	*(int *)local_20 = *(int *)(arg_0 + 0x8);
-	*(int *)(*(int *)((*(int *)local_20 << 0x2) + (arg_0 + 0xc)) + 0x28) = *(int *)local_20;
+	local_20 = *(int *)(arg_0 + 0x8);
+	*(int *)(*(int *)((local_20 << 0x2) + (arg_0 + 0xc)) + 0x28) = local_20;
 	local_28 = (*(int *)((*(int *)(arg_0 + 0x8) << 0x2) + (arg_0 + 0xc)) + 0x2c);
 	*(int *)local_28 = (*(int *)local_28 & 0xfffffdff);
-	*(int *)local_10 = arg_1;
-	if ((*(int *)(*(int *)local_10 + 0x2c) & 0x8000) != 0x0) goto jmp_bf94;
-	*(int *)local_2c = *(int *)*(int *)local_10;
-	if (*(int *)local_2c < 0x1) goto jmp_bf84;
-	if (*(int *)local_2c > 0xa) goto jmp_bf84;
-	goto *(int *)((*(int *)local_2c << 0x2) + 0x2294);
+	local_10 = arg_1;
+	if ((*(int *)(local_10 + 0x2c) & 0x8000) != 0x0) goto jmp_bf94;
+	local_2c = *(int *)local_10;
+	if (local_2c < 0x1) goto jmp_bf84;
+	if (local_2c > 0xa) goto jmp_bf84;
+	goto *(int *)((local_2c << 0x2) + 0x2294);
 	Action_Init(arg_1);
 	goto jmp_bf94;
 	MenuField_Init(arg_1);
@@ -22340,11 +23435,11 @@ jmp_bec2:
 	BText_Init(arg_1);
 	goto jmp_bf94;
 jmp_bf84:
-	local_34 = va(0x69a1, *(int *)*(int *)local_10);
+	local_34 = va(0x69a1, *(int *)local_10);
 	trap_Error(local_34);
 jmp_bf94:
-	*(int *)local_2c = (arg_0 + 0x8);
-	*(int *)*(int *)local_2c = (*(int *)*(int *)local_2c + 0x1);
+	local_2c = (arg_0 + 0x8);
+	*(int *)local_2c = (*(int *)local_2c + 0x1);
 }
 
 /*
@@ -22353,33 +23448,39 @@ Menu_CursorMoved
 
 Address: 0xbfa4
 Stack Size: 0x30
+Opcodes Size: 0x8b
+Locals Count: 8
+
 Called by: Menu_DefaultKey, Menu_SetCursor
 =================
 */
 void Menu_CursorMoved(int arg_0) {
-	char	local_10[12];
-	char	local_1c[8];
+	int		local_10;
+	char	local_14[8];
+	int		local_1c;
+	int		local_20;
 	int		local_24;
-	char	local_28[8];
+	int		local_28;
+	int		local_2c;
 
 	arg_0 = arg_0;
 	if (*(int *)(arg_0 + 0x4) != *(int *)arg_0) goto jmp_bfb4;
 	goto jmp_c02d;
 jmp_bfb4:
-	*(int *)local_1c = *(int *)(arg_0 + 0x4);
-	if (*(int *)local_1c < 0x0) goto jmp_bff6;
-	if (*(int *)local_1c >= *(int *)(arg_0 + 0x8)) goto jmp_bff6;
-	*(int *)local_10 = *(int *)(*(int *)((*(int *)(arg_0 + 0x4) << 0x2) + (arg_0 + 0xc)) + 0x30);
-	if (*(int *)local_10 == 0x0) goto jmp_bff6;
-	*(int *)local_28 = 0x2;
-	(*(*(int *)local_10))(*(int *)((*(int *)(arg_0 + 0x4) << *(int *)local_28) + (arg_0 + 0xc)), *(int *)local_28);
+	local_1c = *(int *)(arg_0 + 0x4);
+	if (local_1c < 0x0) goto jmp_bff6;
+	if (local_1c >= *(int *)(arg_0 + 0x8)) goto jmp_bff6;
+	local_10 = *(int *)(*(int *)((*(int *)(arg_0 + 0x4) << 0x2) + (arg_0 + 0xc)) + 0x30);
+	if (local_10 == 0x0) goto jmp_bff6;
+	local_28 = 0x2;
+	(*(local_10))(*(int *)((*(int *)(arg_0 + 0x4) << local_28) + (arg_0 + 0xc)), local_28);
 jmp_bff6:
 	local_24 = *(int *)arg_0;
 	if (local_24 < 0x0) goto jmp_c02d;
 	if (local_24 >= *(int *)(arg_0 + 0x8)) goto jmp_c02d;
-	*(int *)local_10 = *(int *)(*(int *)((*(int *)arg_0 << 0x2) + (arg_0 + 0xc)) + 0x30);
-	if (*(int *)local_10 == 0x0) goto jmp_c02d;
-	(*(*(int *)local_10))(*(int *)((*(int *)arg_0 << 0x2) + (arg_0 + 0xc)), 0x1);
+	local_10 = *(int *)(*(int *)((*(int *)arg_0 << 0x2) + (arg_0 + 0xc)) + 0x30);
+	if (local_10 == 0x0) goto jmp_c02d;
+	(*(local_10))(*(int *)((*(int *)arg_0 << 0x2) + (arg_0 + 0xc)), 0x1);
 jmp_c02d:
 }
 
@@ -22389,6 +23490,9 @@ Menu_SetCursor
 
 Address: 0xc02f
 Stack Size: 0x10
+Opcodes Size: 0x2d
+Locals Count: 2
+
 Calls: Menu_CursorMoved
 Called by: Menu_SetCursorToItem, PlayerModel_MenuKey, UI_MouseEvent, UI_PushMenu
 =================
@@ -22411,6 +23515,9 @@ Menu_SetCursorToItem
 
 Address: 0xc05c
 Stack Size: 0x14
+Opcodes Size: 0x36
+Locals Count: 3
+
 Calls: Menu_SetCursor
 Called by: UI_GraphicsOptionsMenu, UI_SPSkillMenu, UI_SPPostgameMenu_f, UI_SPLevelMenu, UI_SoundOptionsMenu, UI_PlayerModelMenu, UI_NetworkOptionsMenu, UI_DisplayOptionsMenu, UI_Message, UI_ConfirmMenu_Style, UI_CinematicsMenu_f
 =================
@@ -22439,37 +23546,42 @@ Menu_AdjustCursor
 
 Address: 0xc092
 Stack Size: 0x20
+Opcodes Size: 0xa9
+Locals Count: 7
+
 Called by: Menu_DefaultKey
 =================
 */
 void Menu_AdjustCursor(int arg_0, int arg_1) {
 	int		local_8;
-	char	local_c[8];
-	char	local_14[12];
+	int		local_c;
+	int		local_10;
+	int		local_14;
+	char	local_18[8];
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
 	local_8 = 0x0;
-	*(int *)local_c = 0x0;
+	local_c = 0x0;
 	goto jmp_c0c2;
 jmp_c0a3:
 	local_8 = *(int *)((*(int *)arg_0 << 0x2) + (arg_0 + 0xc));
 	if ((*(int *)(local_8 + 0x2c) & 0x6800) == 0x0) goto jmp_c0d3;
 	*(int *)arg_0 = (*(int *)arg_0 + arg_1);
 jmp_c0c2:
-	*(int *)local_14 = *(int *)arg_0;
-	if (*(int *)local_14 < 0x0) goto jmp_c0d3;
-	if (*(int *)local_14 < *(int *)(arg_0 + 0x8)) goto jmp_c0a3;
+	local_14 = *(int *)arg_0;
+	if (local_14 < 0x0) goto jmp_c0d3;
+	if (local_14 < *(int *)(arg_0 + 0x8)) goto jmp_c0a3;
 jmp_c0d3:
 	if (arg_1 != 0x1) goto jmp_c108;
 	if (*(int *)arg_0 < *(int *)(arg_0 + 0x8)) goto jmp_c139;
 	if (*(int *)(arg_0 + 0x114) == 0x0) goto jmp_c0fe;
-	if (*(int *)local_c == 0x0) goto jmp_c0f5;
+	if (local_c == 0x0) goto jmp_c0f5;
 	*(int *)arg_0 = *(int *)(arg_0 + 0x4);
 	goto jmp_c139;
 jmp_c0f5:
 	*(int *)arg_0 = 0x0;
-	*(int *)local_c = 0x1;
+	local_c = 0x1;
 	goto jmp_c0c2;
 jmp_c0fe:
 	*(int *)arg_0 = *(int *)(arg_0 + 0x4);
@@ -22477,12 +23589,12 @@ jmp_c0fe:
 jmp_c108:
 	if (*(int *)arg_0 >= 0x0) goto jmp_c139;
 	if (*(int *)(arg_0 + 0x114) == 0x0) goto jmp_c131;
-	if (*(int *)local_c == 0x0) goto jmp_c122;
+	if (local_c == 0x0) goto jmp_c122;
 	*(int *)arg_0 = *(int *)(arg_0 + 0x4);
 	goto jmp_c139;
 jmp_c122:
 	*(int *)arg_0 = (*(int *)(arg_0 + 0x8) - 0x1);
-	*(int *)local_c = 0x1;
+	local_c = 0x1;
 	goto jmp_c0c2;
 jmp_c131:
 	*(int *)arg_0 = *(int *)(arg_0 + 0x4);
@@ -22495,6 +23607,9 @@ Menu_Draw
 
 Address: 0xc13b
 Stack Size: 0x44
+Opcodes Size: 0x155
+Locals Count: 11
+
 Calls: trap_Error, Menu_ItemAtCursor, UI_DrawRect, va, BText_Draw, PText_Draw, ScrollList_Draw, Text_Draw, Bitmap_Draw, Action_Draw, SpinControl_Draw, Slider_Draw, MenuField_Draw, RadioButton_Draw
 Called by: GraphicsOptions_MenuDraw, DriverInfo_MenuDraw, UI_SPPostgameMenu_MenuDraw, UI_SPLevelMenu_MenuDraw, SoundOptions_MenuDraw, ArenaServers_MenuDraw, ServerInfo_MenuDraw, Main_MenuDraw, ConfirmMenu_Draw, MessageMenu_Draw, UI_Refresh
 =================
@@ -22505,7 +23620,8 @@ void Menu_Draw(int arg_0) {
 	int		local_24;
 	int		local_28;
 	int		local_2c;
-	char	local_30[8];
+	int		local_30;
+	int		local_34;
 	int		local_38;
 	int		local_3c;
 	int		local_40;
@@ -22558,12 +23674,12 @@ jmp_c1e4:
 	local_28 = *(int *)local_3c;
 	local_40 = 0x1;
 	local_2c = ((*(int *)(local_1c + 0x1c) - *(int *)local_38) + local_40);
-	*(int *)local_30 = ((*(int *)(local_1c + 0x20) - *(int *)local_3c) + local_40);
+	local_30 = ((*(int *)(local_1c + 0x20) - *(int *)local_3c) + local_40);
 	if ((*(int *)(local_1c + 0x2c) & 0x200) == 0x0) goto jmp_c246;
-	UI_DrawRect((float)local_24, (float)local_28, (float)local_2c, (float)*(int *)local_30, 0x29f8);
+	UI_DrawRect((float)local_24, (float)local_28, (float)local_2c, (float)local_30, 0x29f8);
 	goto jmp_c25b;
 jmp_c246:
-	UI_DrawRect((float)local_24, (float)local_28, (float)local_2c, (float)*(int *)local_30, 0x2a28);
+	UI_DrawRect((float)local_24, (float)local_28, (float)local_2c, (float)local_30, 0x2a28);
 jmp_c25b:
 	local_20 = (local_20 + 0x1);
 jmp_c261:
@@ -22583,16 +23699,20 @@ Menu_ItemAtCursor
 
 Address: 0xc290
 Stack Size: 0x14
+Opcodes Size: 0x28
+Locals Count: 3
+
 Called by: UI_TeamOrdersMenu_Key, UI_SPLevelMenu_MenuDraw, ArenaServers_MenuKey, UI_SaveConfigMenu_SavenameDraw, Menu_DefaultKey, Menu_Draw, Bitmap_Draw, PText_Draw, PlayerModel_MenuKey, MenuField_Draw, Controls_DrawKeyBinding
 =================
 */
 int Menu_ItemAtCursor(int arg_0) {
-	char	local_c[8];
+	int		local_c;
+	int		local_10;
 
 	arg_0 = arg_0;
-	*(int *)local_c = *(int *)arg_0;
-	if (*(int *)local_c < 0x0) goto jmp_c2a6;
-	if (*(int *)local_c < *(int *)(arg_0 + 0x8)) goto jmp_c2aa;
+	local_c = *(int *)arg_0;
+	if (local_c < 0x0) goto jmp_c2a6;
+	if (local_c < *(int *)(arg_0 + 0x8)) goto jmp_c2aa;
 jmp_c2a6:
 	return 0x0;
 jmp_c2aa:
@@ -22605,6 +23725,9 @@ Menu_ActivateItem
 
 Address: 0xc2b8
 Stack Size: 0x14
+Opcodes Size: 0x2a
+Locals Count: 2
+
 Called by: Menu_DefaultKey
 =================
 */
@@ -22626,6 +23749,9 @@ Menu_DefaultKey
 
 Address: 0xc2e2
 Stack Size: 0x7c
+Opcodes Size: 0x1fb
+Locals Count: 26
+
 Calls: trap_Cmd_ExecuteText, Menu_ActivateItem, Menu_CursorMoved, Menu_AdjustCursor, MenuField_Key, ScrollList_Key, Slider_Key, RadioButton_Key, SpinControl_Key, Menu_ItemAtCursor, UI_PopMenu
 Called by: UI_TeamOrdersMenu_Key, UI_SPSkillMenu_Key, UI_SPPostgameMenu_MenuKey, ArenaServers_MenuKey, ServerInfo_MenuKey, PlayerSettings_MenuKey, PlayerModel_MenuKey, Controls_MenuKey, ConfirmMenu_Key, UI_KeyEvent
 =================
@@ -22635,8 +23761,10 @@ int Menu_DefaultKey(int arg_0, int arg_1) {
 	int		local_14;
 	int		local_18;
 	int		local_1c;
-	char	local_20[8];
-	char	local_28[8];
+	int		local_20;
+	int		local_24;
+	int		local_28;
+	int		local_2c;
 	int		local_30;
 	int		local_34;
 	int		local_38;
@@ -22647,7 +23775,8 @@ int Menu_DefaultKey(int arg_0, int arg_1) {
 	int		local_4c;
 	int		local_50;
 	int		local_54;
-	char	local_58[20];
+	int		local_58;
+	char	local_5c[16];
 	int		local_6c;
 	int		local_70;
 	int		local_74;
@@ -22656,9 +23785,9 @@ int Menu_DefaultKey(int arg_0, int arg_1) {
 	arg_0 = arg_0;
 	local_14 = 0x0;
 	local_1c = arg_1;
-	*(int *)local_20 = 0x1b;
-	if (local_1c == *(int *)local_20) goto jmp_c301;
-	if (local_1c < *(int *)local_20) goto jmp_c309;
+	local_20 = 0x1b;
+	if (local_1c == local_20) goto jmp_c301;
+	if (local_1c < local_20) goto jmp_c309;
 	if (arg_1 == 0xb3) goto jmp_c301;
 	goto jmp_c309;
 jmp_c301:
@@ -22670,8 +23799,8 @@ jmp_c309:
 jmp_c314:
 	return 0x0;
 jmp_c318:
-	*(int *)local_28 = Menu_ItemAtCursor(arg_0);
-	local_10 = *(int *)local_28;
+	local_28 = Menu_ItemAtCursor(arg_0);
+	local_10 = local_28;
 	local_30 = 0x0;
 	if (local_10 == local_30) goto jmp_c3a0;
 	if ((*(int *)(local_10 + 0x2c) & 0x6000) != local_30) goto jmp_c3a0;
@@ -22732,8 +23861,8 @@ jmp_c409:
 	if (local_54 > 0xe8) goto jmp_c4d8;
 	goto *(int *)((local_54 << 0x2) + 0x1fd0);
 jmp_c41d:
-	*(int *)local_58 = 0x107d0;
-	*(int *)*(int *)local_58 = (*(int *)*(int *)local_58 ^ 0x1);
+	local_58 = 0x107d0;
+	*(int *)local_58 = (*(int *)local_58 ^ 0x1);
 	goto jmp_c4d8;
 jmp_c42a:
 	trap_Cmd_ExecuteText(0x2, 0x697a);
@@ -22778,6 +23907,9 @@ Menu_Cache
 
 Address: 0xc4dd
 Stack Size: 0x54
+Opcodes Size: 0xd4
+Locals Count: 17
+
 Calls: trap_S_RegisterSound, trap_R_RegisterShaderNoMip
 Called by: UI_DrawConnectScreen, UI_Init, UI_ConsoleCommand, UI_SetActiveMenu
 =================
@@ -22852,6 +23984,9 @@ UI_RemoveBotsMenu_SetBotNames
 
 Address: 0xc5b1
 Stack Size: 0x41c
+Opcodes Size: 0x4f
+Locals Count: 3
+
 Calls: trap_GetConfigString, Q_CleanStr, Q_strncpyz, Info_ValueForKey
 Called by: UI_RemoveBotsMenu_Init, UI_RemoveBotsMenu_DownEvent, UI_RemoveBotsMenu_UpEvent
 =================
@@ -22881,6 +24016,9 @@ UI_RemoveBotsMenu_DeleteEvent
 
 Address: 0xc600
 Stack Size: 0x14
+Opcodes Size: 0x22
+Locals Count: 2
+
 Calls: trap_Cmd_ExecuteText, va
 =================
 */
@@ -22901,6 +24039,9 @@ UI_RemoveBotsMenu_BotEvent
 
 Address: 0xc622
 Stack Size: 0x8
+Opcodes Size: 0x22
+Locals Count: 2
+
 =================
 */
 void UI_RemoveBotsMenu_BotEvent(int arg_0, int arg_1) {
@@ -22920,6 +24061,9 @@ UI_RemoveBotsMenu_BackEvent
 
 Address: 0xc644
 Stack Size: 0x8
+Opcodes Size: 0xc
+Locals Count: 1
+
 Calls: UI_PopMenu
 =================
 */
@@ -22938,6 +24082,9 @@ UI_RemoveBotsMenu_UpEvent
 
 Address: 0xc650
 Stack Size: 0xc
+Opcodes Size: 0x1b
+Locals Count: 2
+
 Calls: UI_RemoveBotsMenu_SetBotNames
 =================
 */
@@ -22960,6 +24107,9 @@ UI_RemoveBotsMenu_DownEvent
 
 Address: 0xc66b
 Stack Size: 0xc
+Opcodes Size: 0x1e
+Locals Count: 2
+
 Calls: UI_RemoveBotsMenu_SetBotNames
 =================
 */
@@ -22982,6 +24132,9 @@ UI_RemoveBotsMenu_GetBots
 
 Address: 0xc689
 Stack Size: 0x434
+Opcodes Size: 0x6b
+Locals Count: 9
+
 Calls: trap_GetConfigString, atoi, Info_ValueForKey
 Called by: UI_RemoveBotsMenu_Init
 =================
@@ -23027,6 +24180,9 @@ UI_RemoveBots_Cache
 
 Address: 0xc6f4
 Stack Size: 0xc
+Opcodes Size: 0x1c
+Locals Count: 0
+
 Calls: trap_R_RegisterShaderNoMip
 Called by: UI_RemoveBotsMenu_Init, UI_Cache_f
 =================
@@ -23046,6 +24202,9 @@ UI_RemoveBotsMenu_Init
 
 Address: 0xc710
 Stack Size: 0x2c
+Opcodes Size: 0x19a
+Locals Count: 5
+
 Calls: memset, Menu_AddItem, UI_RemoveBotsMenu_SetBotNames, UI_RemoveBotsMenu_GetBots, UI_RemoveBots_Cache
 Called by: UI_RemoveBotsMenu
 =================
@@ -23054,7 +24213,8 @@ void UI_RemoveBotsMenu_Init(void) {
 	int		local_14;
 	int		local_18;
 	int		local_1c;
-	char	local_20[12];
+	int		local_20;
+	char	local_24[8];
 
 	memset(0x4ce1c, 0x0, 0x165c);
 	bss_4cf34 = 0x0;
@@ -23063,12 +24223,12 @@ void UI_RemoveBotsMenu_Init(void) {
 	UI_RemoveBotsMenu_GetBots();
 	UI_RemoveBotsMenu_SetBotNames();
 	if (bss_4d38c >= 0x7) goto jmp_c733;
-	*(int *)local_20 = bss_4d38c;
+	local_20 = bss_4d38c;
 	goto jmp_c736;
 jmp_c733:
-	*(int *)local_20 = 0x7;
+	local_20 = 0x7;
 jmp_c736:
-	local_18 = *(int *)local_20;
+	local_18 = local_20;
 	bss_4cf3c = 0xa;
 	bss_4cf48 = 0x140;
 	bss_4cf4c = 0x10;
@@ -23169,6 +24329,9 @@ UI_RemoveBotsMenu
 
 Address: 0xc8aa
 Stack Size: 0xc
+Opcodes Size: 0xb
+Locals Count: 0
+
 Calls: UI_PushMenu, UI_RemoveBotsMenu_Init
 Called by: InGame_Event
 =================
@@ -23185,6 +24348,9 @@ UI_SaveConfigMenu_BackEvent
 
 Address: 0xc8b5
 Stack Size: 0x8
+Opcodes Size: 0xc
+Locals Count: 1
+
 Calls: UI_PopMenu
 =================
 */
@@ -23203,6 +24369,9 @@ UI_SaveConfigMenu_SaveEvent
 
 Address: 0xc8c1
 Stack Size: 0x58
+Opcodes Size: 0x2c
+Locals Count: 3
+
 Calls: trap_Cmd_ExecuteText, UI_PopMenu, va, COM_StripExtension
 =================
 */
@@ -23229,6 +24398,9 @@ UI_SaveConfigMenu_SavenameDraw
 
 Address: 0xc8ed
 Stack Size: 0x34
+Opcodes Size: 0x65
+Locals Count: 6
+
 Calls: MField_Draw, UI_FillRect, UI_DrawProportionalString, Menu_ItemAtCursor
 =================
 */
@@ -23236,11 +24408,12 @@ void UI_SaveConfigMenu_SavenameDraw(int arg_0) {
 	int		local_1c;
 	int		local_20;
 	int		local_24;
-	char	local_28[12];
+	int		local_28;
+	char	local_2c[8];
 
 	local_1c = arg_0;
-	*(int *)local_28 = Menu_ItemAtCursor(0x4e478);
-	if (local_1c != *(int *)local_28) goto jmp_c905;
+	local_28 = Menu_ItemAtCursor(0x4e478);
+	if (local_1c != local_28) goto jmp_c905;
 	local_20 = 0x4010;
 	local_24 = 0x2200;
 	goto jmp_c90b;
@@ -23259,6 +24432,9 @@ UI_SaveConfigMenu_Init
 
 Address: 0xc952
 Stack Size: 0x14
+Opcodes Size: 0xbc
+Locals Count: 0
+
 Calls: memset, Menu_AddItem, UI_SaveConfigMenu_Cache
 Called by: UI_SaveConfigMenu
 =================
@@ -23326,6 +24502,9 @@ UI_SaveConfigMenu_Cache
 
 Address: 0xca0e
 Stack Size: 0xc
+Opcodes Size: 0x1c
+Locals Count: 0
+
 Calls: trap_R_RegisterShaderNoMip
 Called by: UI_SaveConfigMenu_Init
 =================
@@ -23345,6 +24524,9 @@ UI_SaveConfigMenu
 
 Address: 0xca2a
 Stack Size: 0xc
+Opcodes Size: 0xb
+Locals Count: 0
+
 Calls: UI_PushMenu, UI_SaveConfigMenu_Init
 =================
 */
@@ -23360,6 +24542,9 @@ Favorites_Add
 
 Address: 0xca35
 Stack Size: 0x12c
+Opcodes Size: 0x74
+Locals Count: 8
+
 Calls: trap_Cvar_Set, trap_Cvar_VariableStringBuffer, Q_stricmp, va
 Called by: ServerInfo_Event
 =================
@@ -23407,15 +24592,19 @@ ServerInfo_Event
 
 Address: 0xcaa9
 Stack Size: 0x10
+Opcodes Size: 0x2b
+Locals Count: 4
+
 Calls: UI_PopMenu, Favorites_Add
 =================
 */
 void ServerInfo_Event(int arg_0, int arg_1) {
-	char	local_8[8];
+	int		local_8;
+	int		local_c;
 
-	*(int *)local_8 = *(int *)(arg_0 + 0x8);
-	if (*(int *)local_8 == 0x64) goto jmp_cabb;
-	if (*(int *)local_8 == 0x65) goto jmp_cac9;
+	local_8 = *(int *)(arg_0 + 0x8);
+	if (local_8 == 0x64) goto jmp_cabb;
+	if (local_8 == 0x65) goto jmp_cac9;
 	goto jmp_cad2;
 jmp_cabb:
 	if (arg_1 == 0x3) goto jmp_cac1;
@@ -23438,6 +24627,9 @@ ServerInfo_MenuDraw
 
 Address: 0xcad4
 Stack Size: 0x828
+Opcodes Size: 0x66
+Locals Count: 5
+
 Calls: Menu_Draw, UI_DrawString, Q_strcat, Info_NextPair
 =================
 */
@@ -23475,6 +24667,9 @@ ServerInfo_MenuKey
 
 Address: 0xcb3a
 Stack Size: 0x14
+Opcodes Size: 0xf
+Locals Count: 2
+
 Calls: Menu_DefaultKey
 =================
 */
@@ -23491,6 +24686,9 @@ ServerInfo_Cache
 
 Address: 0xcb49
 Stack Size: 0x10
+Opcodes Size: 0x24
+Locals Count: 1
+
 Calls: trap_R_RegisterShaderNoMip
 Called by: UI_ServerInfoMenu, UI_Cache_f
 =================
@@ -23515,6 +24713,9 @@ UI_ServerInfoMenu
 
 Address: 0xcb6d
 Stack Size: 0x820
+Opcodes Size: 0x104
+Locals Count: 5
+
 Calls: trap_GetConfigString, trap_Cvar_VariableValue, memset, UI_PushMenu, Menu_AddItem, Info_NextPair, ServerInfo_Cache
 Called by: InGame_Event
 =================
@@ -23607,6 +24808,9 @@ ArenaServers_MaxPing
 
 Address: 0xcc71
 Stack Size: 0x14
+Opcodes Size: 0x18
+Locals Count: 2
+
 Calls: trap_Cvar_VariableValue
 Called by: ArenaServers_DoRefresh, ArenaServers_LoadFavorites, ArenaServers_Insert
 =================
@@ -23629,6 +24833,9 @@ ArenaServers_Compare
 
 Address: 0xcc89
 Stack Size: 0x54
+Opcodes Size: 0x105
+Locals Count: 19
+
 Calls: Q_stricmp
 =================
 */
@@ -23710,6 +24917,9 @@ ArenaServers_SourceForLAN
 
 Address: 0xcd8e
 Stack Size: 0xc
+Opcodes Size: 0x21
+Locals Count: 1
+
 Called by: ArenaServers_DoRefresh
 =================
 */
@@ -23732,6 +24942,9 @@ ArenaServers_Go
 
 Address: 0xcdaf
 Stack Size: 0x18
+Opcodes Size: 0x21
+Locals Count: 2
+
 Calls: trap_Cmd_ExecuteText, va
 Called by: ArenaServers_Event
 =================
@@ -23753,6 +24966,9 @@ ArenaServers_UpdatePicture
 
 Address: 0xcdd0
 Stack Size: 0x1c
+Opcodes Size: 0x29
+Locals Count: 1
+
 Calls: Com_sprintf
 Called by: ArenaServers_Event, ArenaServers_UpdateMenu
 =================
@@ -23777,6 +24993,9 @@ ArenaServers_UpdateMenu
 
 Address: 0xcdf9
 Stack Size: 0x7c
+Opcodes Size: 0x2db
+Locals Count: 17
+
 Calls: ArenaServers_UpdatePicture, strcpy, qsort, Com_sprintf
 Called by: ArenaServers_MenuKey, ArenaServers_Event, ArenaServers_SetType, ArenaServers_StartRefresh, ArenaServers_DoRefresh, ArenaServers_StopRefresh
 =================
@@ -23983,6 +25202,9 @@ ArenaServers_Remove
 
 Address: 0xd0d4
 Stack Size: 0x30
+Opcodes Size: 0xdf
+Locals Count: 7
+
 Calls: memset, memcpy, Q_stricmp
 Called by: ArenaServers_MenuKey, ArenaServers_Event
 =================
@@ -24048,6 +25270,9 @@ ArenaServers_Insert
 
 Address: 0xd1b3
 Stack Size: 0x6c
+Opcodes Size: 0x1a3
+Locals Count: 25
+
 Calls: atoi, Q_strupr, Q_CleanStr, Info_ValueForKey, Q_strncpyz, ArenaServers_MaxPing
 Called by: ArenaServers_DoRefresh
 =================
@@ -24152,6 +25377,9 @@ ArenaServers_LoadFavorites
 
 Address: 0xd356
 Stack Size: 0x9f4
+Opcodes Size: 0xcf
+Locals Count: 10
+
 Calls: trap_Cvar_VariableStringBuffer, memset, memcpy, ArenaServers_MaxPing, Q_strncpyz, Q_stricmp, strcpy, va
 Called by: ArenaServers_MenuInit
 =================
@@ -24220,6 +25448,9 @@ ArenaServers_StopRefresh
 
 Address: 0xd425
 Stack Size: 0x18
+Opcodes Size: 0x2b
+Locals Count: 0
+
 Calls: ArenaServers_UpdateMenu, qsort
 Called by: ArenaServers_MenuKey, ArenaServers_Event, ArenaServers_SetType, ArenaServers_DoRefresh
 =================
@@ -24245,6 +25476,9 @@ ArenaServers_DoRefresh
 
 Address: 0xd450
 Stack Size: 0x478
+Opcodes Size: 0x1b9
+Locals Count: 10
+
 Calls: trap_LAN_GetServerAddressString, trap_LAN_GetPingQueueCount, trap_LAN_ClearPing, trap_LAN_GetPingInfo, trap_LAN_GetPing, trap_Cmd_ExecuteText, trap_LAN_GetServerCount, ArenaServers_UpdateMenu, ArenaServers_StopRefresh, va, strcpy, ArenaServers_Insert, Info_SetValueForKey, Q_stricmp, ArenaServers_MaxPing, ArenaServers_SourceForLAN
 Called by: ArenaServers_MenuDraw
 =================
@@ -24383,6 +25617,9 @@ ArenaServers_StartRefresh
 
 Address: 0xd609
 Stack Size: 0x70
+Opcodes Size: 0xfc
+Locals Count: 8
+
 Calls: trap_Cvar_VariableValue, trap_Cvar_VariableStringBuffer, trap_Cmd_ExecuteText, trap_LAN_ClearPing, memset, va, strlen, strcat, strcpy, ArenaServers_UpdateMenu
 Called by: ArenaServers_Event, ArenaServers_SetType
 =================
@@ -24459,6 +25696,9 @@ ArenaServers_SaveChanges
 
 Address: 0xd705
 Stack Size: 0x1c
+Opcodes Size: 0x4a
+Locals Count: 3
+
 Calls: trap_Cvar_Set, va
 Called by: ArenaServers_MenuKey, ArenaServers_Event
 =================
@@ -24491,6 +25731,9 @@ ArenaServers_Sort
 
 Address: 0xd74f
 Stack Size: 0x18
+Opcodes Size: 0x1c
+Locals Count: 1
+
 Calls: qsort
 Called by: ArenaServers_Event
 =================
@@ -24511,6 +25754,9 @@ ArenaServers_SetType
 
 Address: 0xd76b
 Stack Size: 0x3c
+Opcodes Size: 0xdb
+Locals Count: 10
+
 Calls: trap_Cvar_VariableStringBuffer, strcpy, ArenaServers_UpdateMenu, ArenaServers_StartRefresh, Com_sprintf, ArenaServers_StopRefresh
 Called by: ArenaServers_MenuInit, ArenaServers_Event
 =================
@@ -24521,21 +25767,23 @@ int ArenaServers_SetType(int arg_0) {
 	int		local_20;
 	int		local_24;
 	int		local_28;
-	char	local_2c[8];
-	char	local_34[8];
+	int		local_2c;
+	int		local_30;
+	int		local_34;
+	int		local_38;
 
 	arg_0 = arg_0;
 	ArenaServers_StopRefresh();
 	if (arg_0 < 0x2) goto jmp_d7c4;
 	if (arg_0 > 0x6) goto jmp_d7c4;
-	*(int *)local_34 = g_servertype;
-	if (arg_0 == *(int *)local_34) goto jmp_d78d;
-	if (arg_0 != ((*(int *)local_34 + 0x1) %% 0x8)) goto jmp_d792;
+	local_34 = g_servertype;
+	if (arg_0 == local_34) goto jmp_d78d;
+	if (arg_0 != ((local_34 + 0x1) %% 0x8)) goto jmp_d792;
 jmp_d78d:
-	*(int *)local_2c = 0x1;
+	local_2c = 0x1;
 	goto jmp_d7bc;
 jmp_d792:
-	*(int *)local_2c = 0xffffffff;
+	local_2c = 0xffffffff;
 	goto jmp_d7bc;
 jmp_d797:
 	Com_sprintf(&local_1e, 0xb, 0x6e3d, (arg_0 - 0x1));
@@ -24543,7 +25791,7 @@ jmp_d797:
 	if ((char)*(char *)&local_1c == 0x0) goto jmp_d7b5;
 	goto jmp_d7c4;
 jmp_d7b5:
-	arg_0 = (arg_0 + *(int *)local_2c);
+	arg_0 = (arg_0 + local_2c);
 jmp_d7bc:
 	if (arg_0 < 0x2) goto jmp_d7c4;
 	if (arg_0 <= 0x6) goto jmp_d797;
@@ -24589,6 +25837,9 @@ Punkbuster_ConfirmEnable
 
 Address: 0xd846
 Stack Size: 0x1c
+Opcodes Size: 0x22
+Locals Count: 3
+
 Calls: trap_Cvar_VariableValue, trap_SetPbClStatus, Com_Clamp
 =================
 */
@@ -24610,6 +25861,9 @@ Punkbuster_ConfirmDisable
 
 Address: 0xd868
 Stack Size: 0x1c
+Opcodes Size: 0x27
+Locals Count: 3
+
 Calls: trap_Cvar_VariableValue, trap_SetPbClStatus, Com_Clamp, UI_Message
 =================
 */
@@ -24632,21 +25886,25 @@ ArenaServers_Event
 
 Address: 0xd88f
 Stack Size: 0x24
+Opcodes Size: 0xe4
+Locals Count: 5
+
 Calls: trap_Cvar_SetValue, UI_ConfirmMenu_Style, ArenaServers_Remove, ArenaServers_Go, UI_StartServerMenu, UI_SpecifyServerMenu, ArenaServers_StartRefresh, UI_PopMenu, ArenaServers_SaveChanges, ArenaServers_StopRefresh, ScrollList_Key, ArenaServers_UpdatePicture, ArenaServers_Sort, ArenaServers_UpdateMenu, ArenaServers_SetType
 =================
 */
 void ArenaServers_Event(int arg_0, int arg_1) {
-	char	local_18[8];
+	int		local_18;
+	int		local_1c;
 	int		local_20;
 
-	*(int *)local_18 = *(int *)(arg_0 + 0x8);
+	local_18 = *(int *)(arg_0 + 0x8);
 	if (arg_1 == 0x3) goto jmp_d8a1;
-	if (*(int *)local_18 == 0xf) goto jmp_d8a1;
+	if (local_18 == 0xf) goto jmp_d8a1;
 	goto jmp_d971;
 jmp_d8a1:
-	if (*(int *)local_18 < 0xa) goto jmp_d971;
-	if (*(int *)local_18 > 0x18) goto jmp_d971;
-	goto *(int *)((*(int *)local_18 << 0x2) + 0x2498);
+	if (local_18 < 0xa) goto jmp_d971;
+	if (local_18 > 0x18) goto jmp_d971;
+	goto *(int *)((local_18 << 0x2) + 0x2498);
 	local_20 = ArenaServers_SetType(bss_70ecc);
 	bss_70ecc = local_20;
 	trap_Cvar_SetValue(0x6e08, (float)bss_70ecc);
@@ -24703,6 +25961,9 @@ ArenaServers_MenuDraw
 
 Address: 0xd973
 Stack Size: 0xc
+Opcodes Size: 0xf
+Locals Count: 0
+
 Calls: Menu_Draw, ArenaServers_DoRefresh
 =================
 */
@@ -24720,11 +25981,15 @@ ArenaServers_MenuKey
 
 Address: 0xd982
 Stack Size: 0x20
+Opcodes Size: 0x52
+Locals Count: 4
+
 Calls: Menu_DefaultKey, ArenaServers_SaveChanges, ArenaServers_UpdateMenu, ArenaServers_Remove, Menu_ItemAtCursor, ArenaServers_StopRefresh
 =================
 */
 int ArenaServers_MenuKey(int arg_0) {
-	char	local_14[8];
+	int		local_14;
+	int		local_18;
 	int		local_1c;
 
 	arg_0 = arg_0;
@@ -24737,8 +26002,8 @@ jmp_d997:
 	if (arg_0 != 0xab) goto jmp_d9b8;
 jmp_d99f:
 	if (g_servertype != 0x7) goto jmp_d9b8;
-	*(int *)local_14 = Menu_ItemAtCursor(0x70d24);
-	if (0x7102c != *(int *)local_14) goto jmp_d9b8;
+	local_14 = Menu_ItemAtCursor(0x70d24);
+	if (0x7102c != local_14) goto jmp_d9b8;
 	ArenaServers_Remove();
 	ArenaServers_UpdateMenu();
 	return menu_move_sound;
@@ -24759,6 +26024,9 @@ ArenaServers_MenuInit
 
 Address: 0xd9d4
 Stack Size: 0x48
+Opcodes Size: 0x3ac
+Locals Count: 12
+
 Calls: trap_Cvar_Register, trap_Cvar_VariableValue, memset, ArenaServers_SetType, Com_Clamp, ArenaServers_LoadFavorites, Menu_AddItem, ArenaServers_Cache
 Called by: UI_ArenaServersMenu
 =================
@@ -25025,6 +26293,9 @@ ArenaServers_Cache
 
 Address: 0xdd80
 Stack Size: 0xc
+Opcodes Size: 0x4e
+Locals Count: 0
+
 Calls: trap_R_RegisterShaderNoMip
 Called by: ArenaServers_MenuInit, UI_Cache_f
 =================
@@ -25054,6 +26325,9 @@ UI_ArenaServersMenu
 
 Address: 0xddce
 Stack Size: 0xc
+Opcodes Size: 0xb
+Locals Count: 0
+
 Calls: UI_PushMenu, ArenaServers_MenuInit
 Called by: Main_MenuEvent
 =================
@@ -25070,6 +26344,9 @@ Setup_ResetDefaults_Action
 
 Address: 0xddd9
 Stack Size: 0x10
+Opcodes Size: 0x1e
+Locals Count: 1
+
 Calls: trap_Cmd_ExecuteText
 =================
 */
@@ -25090,6 +26367,9 @@ Setup_ResetDefaults_Draw
 
 Address: 0xddf7
 Stack Size: 0x1c
+Opcodes Size: 0x1d
+Locals Count: 0
+
 Calls: UI_DrawProportionalString
 =================
 */
@@ -25105,19 +26385,23 @@ UI_SetupMenu_Event
 
 Address: 0xde14
 Stack Size: 0x1c
+Opcodes Size: 0x47
+Locals Count: 4
+
 Calls: UI_PopMenu, UI_ConfirmMenu, UI_CDKeyMenu, UI_PreferencesMenu, UI_GraphicsOptionsMenu, UI_ControlsMenu, UI_PlayerSettingsMenu
 =================
 */
 void UI_SetupMenu_Event(int arg_0, int arg_1) {
-	char	local_14[8];
+	int		local_14;
+	int		local_18;
 
 	if (arg_1 == 0x3) goto jmp_de1b;
 	goto jmp_de59;
 jmp_de1b:
-	*(int *)local_14 = *(int *)(arg_0 + 0x8);
-	if (*(int *)local_14 < 0xa) goto jmp_de59;
-	if (*(int *)local_14 > 0x12) goto jmp_de59;
-	goto *(int *)((*(int *)local_14 << 0x2) + 0x24d4);
+	local_14 = *(int *)(arg_0 + 0x8);
+	if (local_14 < 0xa) goto jmp_de59;
+	if (local_14 > 0x12) goto jmp_de59;
+	goto *(int *)((local_14 << 0x2) + 0x24d4);
 	UI_PlayerSettingsMenu();
 	goto jmp_de59;
 	UI_ControlsMenu();
@@ -25140,6 +26424,9 @@ UI_SetupMenu_Init
 
 Address: 0xde5b
 Stack Size: 0x20
+Opcodes Size: 0x192
+Locals Count: 3
+
 Calls: trap_Cvar_VariableValue, memset, Menu_AddItem, UI_SetupMenu_Cache
 Called by: UI_SetupMenu
 =================
@@ -25267,6 +26554,9 @@ UI_SetupMenu_Cache
 
 Address: 0xdfed
 Stack Size: 0xc
+Opcodes Size: 0x17
+Locals Count: 0
+
 Calls: trap_R_RegisterShaderNoMip
 Called by: UI_SetupMenu_Init, UI_Cache_f
 =================
@@ -25285,6 +26575,9 @@ UI_SetupMenu
 
 Address: 0xe004
 Stack Size: 0xc
+Opcodes Size: 0xb
+Locals Count: 0
+
 Calls: UI_PushMenu, UI_SetupMenu_Init
 Called by: Main_MenuEvent, InGame_Event
 =================
@@ -25301,11 +26594,15 @@ UI_SoundOptionsMenu_Event
 
 Address: 0xe00f
 Stack Size: 0x24
+Opcodes Size: 0xb9
+Locals Count: 7
+
 Calls: trap_Cmd_ExecuteText, trap_Cvar_SetValue, UI_ForceMenuOff, UI_NetworkOptionsMenu, UI_DisplayOptionsMenu, UI_GraphicsOptionsMenu, UI_PopMenu
 =================
 */
 void UI_SoundOptionsMenu_Event(int arg_0, int arg_1) {
-	char	local_10[8];
+	int		local_10;
+	int		local_14;
 	int		local_18;
 	int		local_1c;
 	int		local_20;
@@ -25313,10 +26610,10 @@ void UI_SoundOptionsMenu_Event(int arg_0, int arg_1) {
 	if (arg_1 == 0x3) goto jmp_e016;
 	goto jmp_e0c6;
 jmp_e016:
-	*(int *)local_10 = *(int *)(arg_0 + 0x8);
-	if (*(int *)local_10 < 0xa) goto jmp_e0c6;
-	if (*(int *)local_10 > 0x14) goto jmp_e0c6;
-	goto *(int *)((*(int *)local_10 << 0x2) + 0x2514);
+	local_10 = *(int *)(arg_0 + 0x8);
+	if (local_10 < 0xa) goto jmp_e0c6;
+	if (local_10 > 0x14) goto jmp_e0c6;
+	goto *(int *)((local_10 << 0x2) + 0x2514);
 	UI_PopMenu();
 	UI_GraphicsOptionsMenu();
 	goto jmp_e0c6;
@@ -25375,6 +26672,9 @@ SoundOptions_UpdateMenuItems
 
 Address: 0xe0c8
 Stack Size: 0x10
+Opcodes Size: 0x6a
+Locals Count: 2
+
 Called by: SoundOptions_MenuDraw
 =================
 */
@@ -25416,6 +26716,9 @@ SoundOptions_MenuDraw
 
 Address: 0xe132
 Stack Size: 0xc
+Opcodes Size: 0xb
+Locals Count: 0
+
 Calls: Menu_Draw, SoundOptions_UpdateMenuItems
 =================
 */
@@ -25431,6 +26734,9 @@ UI_SoundOptionsMenu_Init
 
 Address: 0xe13d
 Stack Size: 0x34
+Opcodes Size: 0x242
+Locals Count: 8
+
 Calls: trap_Cvar_VariableValue, memset, Menu_AddItem, UI_SoundOptionsMenu_Cache
 Called by: UI_SoundOptionsMenu
 =================
@@ -25618,6 +26924,9 @@ UI_SoundOptionsMenu_Cache
 
 Address: 0xe37f
 Stack Size: 0xc
+Opcodes Size: 0x21
+Locals Count: 0
+
 Calls: trap_R_RegisterShaderNoMip
 Called by: UI_SoundOptionsMenu_Init, UI_Cache_f
 =================
@@ -25638,6 +26947,9 @@ UI_SoundOptionsMenu
 
 Address: 0xe3a0
 Stack Size: 0x10
+Opcodes Size: 0x12
+Locals Count: 0
+
 Calls: Menu_SetCursorToItem, UI_PushMenu, UI_SoundOptionsMenu_Init
 Called by: GraphicsOptions_Event, Options_Event, UI_NetworkOptionsMenu_Event, UI_DisplayOptionsMenu_Event
 =================
@@ -25655,6 +26967,9 @@ UI_SPArena_Start
 
 Address: 0xe3b2
 Stack Size: 0x3c
+Opcodes Size: 0x94
+Locals Count: 12
+
 Calls: trap_Cmd_ExecuteText, trap_Cvar_SetValue, trap_Cvar_VariableValue, va, UI_GetNumSPTiers, Q_stricmp, atoi, Info_ValueForKey
 Called by: UI_SPSkillMenu_FightEvent, UI_SPPostgameMenu_NextEvent
 =================
@@ -25707,18 +27022,22 @@ SpecifyServer_Event
 
 Address: 0xe446
 Stack Size: 0x128
+Opcodes Size: 0x5a
+Locals Count: 7
+
 Calls: trap_Cmd_ExecuteText, UI_PopMenu, va, Com_sprintf, strlen, strcpy
 =================
 */
 void SpecifyServer_Event(int arg_0, int arg_1) {
 	char	local_18[256];
-	char	local_118[8];
+	int		local_118;
+	int		local_11c;
 	int		local_120;
 	int		local_124;
 
-	*(int *)local_118 = *(int *)(arg_0 + 0x8);
-	if (*(int *)local_118 == 0x66) goto jmp_e495;
-	if (*(int *)local_118 == 0x67) goto jmp_e458;
+	local_118 = *(int *)(arg_0 + 0x8);
+	if (local_118 == 0x66) goto jmp_e495;
+	if (local_118 == 0x67) goto jmp_e458;
 	goto jmp_e49e;
 jmp_e458:
 	if (arg_1 == 0x3) goto jmp_e45e;
@@ -25747,6 +27066,9 @@ SpecifyServer_MenuInit
 
 Address: 0xe4a0
 Stack Size: 0x18
+Opcodes Size: 0xf3
+Locals Count: 0
+
 Calls: memset, Com_sprintf, Menu_AddItem, SpecifyServer_Cache
 Called by: UI_SpecifyServerMenu
 =================
@@ -25827,6 +27149,9 @@ SpecifyServer_Cache
 
 Address: 0xe593
 Stack Size: 0x10
+Opcodes Size: 0x24
+Locals Count: 1
+
 Calls: trap_R_RegisterShaderNoMip
 Called by: SpecifyServer_MenuInit, UI_Cache_f
 =================
@@ -25851,6 +27176,9 @@ UI_SpecifyServerMenu
 
 Address: 0xe5b7
 Stack Size: 0xc
+Opcodes Size: 0xb
+Locals Count: 0
+
 Calls: UI_PushMenu, SpecifyServer_MenuInit
 Called by: ArenaServers_Event
 =================
@@ -25867,6 +27195,9 @@ PlayerIcon
 
 Address: 0xe5c2
 Stack Size: 0x6c
+Opcodes Size: 0x65
+Locals Count: 8
+
 Calls: trap_R_RegisterShaderNoMip, Q_stricmp, Com_sprintf, strrchr, Q_strncpyz
 Called by: UI_SPLevelMenu_Init, UI_SPLevelMenu_MenuDraw, PlayerIconHandle
 =================
@@ -25904,6 +27235,9 @@ PlayerIconHandle
 
 Address: 0xe627
 Stack Size: 0x58
+Opcodes Size: 0x16
+Locals Count: 3
+
 Calls: trap_R_RegisterShaderNoMip, PlayerIcon
 Called by: UI_SPLevelMenu_SetBots
 =================
@@ -25923,6 +27257,9 @@ UI_SPLevelMenu_SetBots
 
 Address: 0xe63d
 Stack Size: 0x440
+Opcodes Size: 0x100
+Locals Count: 12
+
 Calls: Q_CleanStr, PlayerIconHandle, UI_GetBotInfoByNumber, UI_GetBotInfoByName, Q_strncpyz, Info_ValueForKey
 Called by: UI_SPLevelMenu_LevelEvent, UI_SPLevelMenu_SetMenuItems
 =================
@@ -26007,6 +27344,9 @@ UI_SPLevelMenu_SetMenuArena
 
 Address: 0xe73d
 Stack Size: 0x68
+Opcodes Size: 0xc3
+Locals Count: 8
+
 Calls: trap_R_RegisterShaderNoMip, strcpy, Com_sprintf, UI_GetBestScore, Q_strupr, Q_strncpyz, Info_ValueForKey
 Called by: UI_SPLevelMenu_SetMenuItems
 =================
@@ -26055,6 +27395,9 @@ UI_SPLevelMenu_SetMenuItems
 
 Address: 0xe800
 Stack Size: 0x40
+Opcodes Size: 0x1c5
+Locals Count: 11
+
 Calls: trap_Cvar_SetValue, UI_SPLevelMenu_SetBots, UI_GetArenaInfoByNumber, Bitmap_Init, UI_SPLevelMenu_SetMenuArena, atoi, Info_ValueForKey, UI_GetSpecialArenaInfo
 Called by: UI_SPLevelMenu_Init, UI_SPLevelMenu_RightArrowEvent, UI_SPLevelMenu_LeftArrowEvent
 =================
@@ -26184,6 +27527,9 @@ UI_SPLevelMenu_ResetDraw
 
 Address: 0xe9c5
 Stack Size: 0x1c
+Opcodes Size: 0x37
+Locals Count: 0
+
 Calls: UI_DrawProportionalString
 =================
 */
@@ -26201,6 +27547,9 @@ UI_SPLevelMenu_ResetAction
 
 Address: 0xe9fc
 Stack Size: 0x14
+Opcodes Size: 0x2c
+Locals Count: 2
+
 Calls: trap_Cvar_SetValue, UI_SPLevelMenu, UI_PopMenu, UI_GetSpecialArenaInfo, UI_NewGame
 =================
 */
@@ -26229,6 +27578,9 @@ UI_SPLevelMenu_ResetEvent
 
 Address: 0xea28
 Stack Size: 0x14
+Opcodes Size: 0x12
+Locals Count: 1
+
 Calls: UI_ConfirmMenu
 =================
 */
@@ -26247,6 +27599,9 @@ UI_SPLevelMenu_LevelEvent
 
 Address: 0xea3a
 Stack Size: 0x1c
+Opcodes Size: 0x48
+Locals Count: 5
+
 Calls: trap_Cvar_SetValue, UI_SPLevelMenu_SetBots, UI_GetArenaInfoByNumber
 =================
 */
@@ -26279,6 +27634,9 @@ UI_SPLevelMenu_LeftArrowEvent
 
 Address: 0xea82
 Stack Size: 0xc
+Opcodes Size: 0x1e
+Locals Count: 2
+
 Calls: UI_SPLevelMenu_SetMenuItems
 =================
 */
@@ -26303,6 +27661,9 @@ UI_SPLevelMenu_RightArrowEvent
 
 Address: 0xeaa0
 Stack Size: 0xc
+Opcodes Size: 0x1e
+Locals Count: 2
+
 Calls: UI_SPLevelMenu_SetMenuItems
 =================
 */
@@ -26327,6 +27688,9 @@ UI_SPLevelMenu_PlayerEvent
 
 Address: 0xeabe
 Stack Size: 0x8
+Opcodes Size: 0xc
+Locals Count: 1
+
 Calls: UI_PlayerSettingsMenu
 =================
 */
@@ -26345,6 +27709,9 @@ UI_SPLevelMenu_AwardEvent
 
 Address: 0xeaca
 Stack Size: 0x14
+Opcodes Size: 0x1f
+Locals Count: 3
+
 Calls: trap_S_StartLocalSound
 =================
 */
@@ -26365,6 +27732,9 @@ UI_SPLevelMenu_NextEvent
 
 Address: 0xeae9
 Stack Size: 0xc
+Opcodes Size: 0x1d
+Locals Count: 1
+
 Calls: UI_SPSkillMenu
 =================
 */
@@ -26389,6 +27759,9 @@ UI_SPLevelMenu_BackEvent
 
 Address: 0xeb06
 Stack Size: 0x8
+Opcodes Size: 0x13
+Locals Count: 1
+
 Calls: UI_PopMenu
 =================
 */
@@ -26410,6 +27783,9 @@ UI_SPLevelMenu_CustomEvent
 
 Address: 0xeb19
 Stack Size: 0xc
+Opcodes Size: 0xe
+Locals Count: 1
+
 Calls: UI_StartServerMenu
 =================
 */
@@ -26428,6 +27804,9 @@ UI_SPLevelMenu_MenuDraw
 
 Address: 0xeb27
 Stack Size: 0x4a4
+Opcodes Size: 0x31b
+Locals Count: 20
+
 Calls: trap_R_SetColor, sin, trap_Cvar_VariableStringBuffer, Q_strupr, Info_ValueForKey, Menu_ItemAtCursor, UI_DrawHandlePic, UI_FillRect, va, UI_DrawString, Com_sprintf, Menu_Draw, PlayerIcon, Q_strncpyz, Q_stricmp, UI_DrawProportionalString, Q_CleanStr, UI_SPLevelMenu, UI_PopMenu
 =================
 */
@@ -26603,6 +27982,9 @@ UI_SPLevelMenu_Cache
 
 Address: 0xee42
 Stack Size: 0x30
+Opcodes Size: 0xd4
+Locals Count: 8
+
 Calls: trap_S_RegisterSound, trap_R_RegisterShaderNoMip
 Called by: UI_SPLevelMenu_Init, UI_Cache_f
 =================
@@ -26665,6 +28047,9 @@ UI_SPLevelMenu_Init
 
 Address: 0xef16
 Stack Size: 0x94
+Opcodes Size: 0x33e
+Locals Count: 17
+
 Calls: trap_Cvar_VariableStringBuffer, memset, trap_Cvar_Set, trap_Cvar_VariableValue, UI_SPLevelMenu_SetMenuItems, atoi, Menu_AddItem, UI_GetAwardLevel, PlayerIcon, UI_SPLevelMenu_Cache
 Called by: UI_SPLevelMenu
 =================
@@ -26676,18 +28061,20 @@ void UI_SPLevelMenu_Init(void) {
 	int		local_20;
 	char	local_24[64];
 	int		local_64;
-	char	local_68[8];
+	int		local_68;
+	int		local_6c;
 	int		local_70;
 	int		local_74;
 	int		local_78;
 	int		local_7c;
 	int		local_80;
 	int		local_84;
-	char	local_88[8];
+	int		local_88;
+	int		local_8c;
 	int		local_90;
 
-	*(int *)local_68 = trap_Cvar_VariableValue(0x74b5);
-	local_64 = (int)*(int *)local_68;
+	local_68 = trap_Cvar_VariableValue(0x74b5);
+	local_64 = (int)local_68;
 	if (local_64 < 0x1) goto jmp_ef2a;
 	if (local_64 <= 0x5) goto jmp_ef31;
 jmp_ef2a:
@@ -26880,8 +28267,8 @@ jmp_f1f4:
 	Menu_AddItem(0x756d8, 0x75e18);
 	trap_Cvar_VariableStringBuffer(0x76e3, local_24, 0x40);
 	if ((char)*(char *)local_24 == 0x0) goto jmp_f247;
-	*(int *)local_88 = atoi(local_24);
-	local_14 = *(int *)local_88;
+	local_88 = atoi(local_24);
+	local_14 = local_88;
 	local_90 = 0x4;
 	selectedArenaSet = (local_14 / local_90);
 	selectedArena = (local_14 %% local_90);
@@ -26899,6 +28286,9 @@ UI_SPLevelMenu
 
 Address: 0xf254
 Stack Size: 0x34
+Opcodes Size: 0xb2
+Locals Count: 9
+
 Calls: Menu_SetCursorToItem, UI_PushMenu, UI_SPLevelMenu_Init, UI_GetNumSPArenas, UI_GetCurrentGame, UI_GetNumSPTiers, atoi, Info_ValueForKey, UI_GetSpecialArenaInfo
 Called by: UI_SPLevelMenu_f, UI_SPLevelMenu_MenuDraw, UI_SPLevelMenu_ResetAction, Main_MenuEvent
 =================
@@ -26968,6 +28358,9 @@ UI_SPLevelMenu_f
 
 Address: 0xf306
 Stack Size: 0xc
+Opcodes Size: 0xe
+Locals Count: 0
+
 Calls: trap_Key_SetCatcher, UI_SPLevelMenu
 Called by: UI_ConsoleCommand
 =================
@@ -26985,6 +28378,9 @@ UI_SPLevelMenu_ReInit
 
 Address: 0xf314
 Stack Size: 0x8
+Opcodes Size: 0x6
+Locals Count: 0
+
 Called by: UI_SPUnlock_f
 =================
 */
@@ -26999,6 +28395,9 @@ UI_SPPostgameMenu_AgainEvent
 
 Address: 0xf31a
 Stack Size: 0x10
+Opcodes Size: 0x13
+Locals Count: 1
+
 Calls: trap_Cmd_ExecuteText, UI_PopMenu
 =================
 */
@@ -27018,6 +28417,9 @@ UI_SPPostgameMenu_NextEvent
 
 Address: 0xf32d
 Stack Size: 0x30
+Opcodes Size: 0x60
+Locals Count: 10
+
 Calls: UI_SPArena_Start, UI_GetArenaInfoByNumber, UI_GetNumSPTiers, UI_GetCurrentGame, UI_PopMenu
 =================
 */
@@ -27027,7 +28429,8 @@ void UI_SPPostgameMenu_NextEvent(, int arg_1) {
 	int		local_14;
 	int		local_18;
 	int		local_1c;
-	char	local_20[8];
+	int		local_20;
+	int		local_24;
 	int		local_28;
 	int		local_2c;
 
@@ -27042,8 +28445,8 @@ jmp_f340:
 	local_10 = (bss_7686c + 0x1);
 jmp_f346:
 	local_14 = (local_10 / 0x4);
-	*(int *)local_20 = UI_GetCurrentGame();
-	local_c = *(int *)local_20;
+	local_20 = UI_GetCurrentGame();
+	local_c = local_20;
 	if (local_c != 0xffffffff) goto jmp_f35c;
 	local_c = bss_7686c;
 jmp_f35c:
@@ -27069,6 +28472,9 @@ UI_SPPostgameMenu_MenuEvent
 
 Address: 0xf38d
 Stack Size: 0x10
+Opcodes Size: 0x13
+Locals Count: 1
+
 Calls: trap_Cmd_ExecuteText, UI_PopMenu
 =================
 */
@@ -27088,6 +28494,9 @@ UI_SPPostgameMenu_MenuKey
 
 Address: 0xf3a0
 Stack Size: 0x18
+Opcodes Size: 0x59
+Locals Count: 2
+
 Calls: trap_Cmd_ExecuteText, Menu_DefaultKey
 =================
 */
@@ -27126,6 +28535,9 @@ UI_SPPostgameMenu_DrawAwardsMedals
 
 Address: 0xf3f9
 Stack Size: 0x4c
+Opcodes Size: 0x8d
+Locals Count: 10
+
 Calls: UI_DrawString, Com_sprintf, UI_DrawNamedPic
 Called by: UI_SPPostgameMenu_MenuDraw, UI_SPPostgameMenu_DrawAwardsPresentation
 =================
@@ -27180,6 +28592,9 @@ UI_SPPostgameMenu_DrawAwardsPresentation
 
 Address: 0xf486
 Stack Size: 0x4c
+Opcodes Size: 0x86
+Locals Count: 13
+
 Calls: trap_S_StartLocalSound, trap_S_RegisterSound, UI_SPPostgameMenu_DrawAwardsMedals, UI_DrawProportionalString
 Called by: UI_SPPostgameMenu_MenuDraw
 =================
@@ -27229,6 +28644,9 @@ UI_SPPostgameMenu_MenuDrawScoreLine
 
 Address: 0xf50c
 Stack Size: 0x468
+Opcodes Size: 0x8d
+Locals Count: 7
+
 Calls: trap_GetConfigString, va, Q_CleanStr, Q_strncpyz, Info_ValueForKey, UI_DrawString
 Called by: UI_SPPostgameMenu_MenuDraw
 =================
@@ -27267,6 +28685,9 @@ UI_SPPostgameMenu_MenuDraw
 
 Address: 0xf599
 Stack Size: 0x440
+Opcodes Size: 0x188
+Locals Count: 10
+
 Calls: trap_Cvar_VariableValue, trap_Cvar_SetValue, trap_Cmd_ExecuteText, trap_Cvar_Set, trap_S_StartLocalSound, trap_GetConfigString, UI_SPPostgameMenu_MenuDrawScoreLine, Menu_Draw, UI_SPPostgameMenu_DrawAwardsMedals, va, UI_ShowTierVideo, UI_SPPostgameMenu_DrawAwardsPresentation, UI_DrawProportionalString, UI_PopMenu, atoi, Info_ValueForKey
 =================
 */
@@ -27375,6 +28796,9 @@ UI_SPPostgameMenu_Cache
 
 Address: 0xf721
 Stack Size: 0x1c
+Opcodes Size: 0x6a
+Locals Count: 3
+
 Calls: trap_S_RegisterSound, trap_R_RegisterShaderNoMip, trap_Cvar_VariableValue
 Called by: UI_SPPostgameMenu_Init, UI_Cache_f
 =================
@@ -27411,6 +28835,9 @@ UI_SPPostgameMenu_Init
 
 Address: 0xf78b
 Stack Size: 0x10
+Opcodes Size: 0x84
+Locals Count: 0
+
 Calls: Menu_AddItem, UI_SPPostgameMenu_Cache
 Called by: UI_SPPostgameMenu_f
 =================
@@ -27463,6 +28890,9 @@ Prepname
 
 Address: 0xf80f
 Stack Size: 0x464
+Opcodes Size: 0x63
+Locals Count: 7
+
 Calls: trap_GetConfigString, UI_ProportionalStringWidth, strlen, Q_CleanStr, Q_strncpyz, Info_ValueForKey
 Called by: UI_SPPostgameMenu_f
 =================
@@ -27500,6 +28930,9 @@ UI_SPPostgameMenu_f
 
 Address: 0xf872
 Stack Size: 0x4f4
+Opcodes Size: 0x34c
+Locals Count: 42
+
 Calls: trap_Cmd_ExecuteText, trap_S_RegisterSound, trap_Key_SetCatcher, trap_GetConfigString, memset, UI_GetSpecialArenaInfo, UI_GetNumSPTiers, va, Prepname, Menu_SetCursorToItem, UI_PushMenu, UI_SPPostgameMenu_Init, UI_TierCompleted, UI_GetAwardLevel, UI_LogAwardData, UI_SetBestScore, UI_Argv, UI_GetArenaInfoByMap, Q_strncpyz, atoi, Info_ValueForKey
 Called by: UI_ConsoleCommand
 =================
@@ -27712,6 +29145,9 @@ SetSkillColor
 
 Address: 0xfbbe
 Stack Size: 0xc
+Opcodes Size: 0x33
+Locals Count: 3
+
 Called by: UI_SPSkillMenu_Init, UI_SPSkillMenu_SkillEvent
 =================
 */
@@ -27740,6 +29176,9 @@ UI_SPSkillMenu_SkillEvent
 
 Address: 0xfbf1
 Stack Size: 0x1c
+Opcodes Size: 0x57
+Locals Count: 5
+
 Calls: trap_S_StartLocalSound, trap_Cvar_SetValue, trap_Cvar_VariableValue, SetSkillColor
 =================
 */
@@ -27772,6 +29211,9 @@ UI_SPSkillMenu_FightEvent
 
 Address: 0xfc48
 Stack Size: 0xc
+Opcodes Size: 0xf
+Locals Count: 1
+
 Calls: UI_SPArena_Start
 =================
 */
@@ -27790,6 +29232,9 @@ UI_SPSkillMenu_BackEvent
 
 Address: 0xfc57
 Stack Size: 0x10
+Opcodes Size: 0x14
+Locals Count: 1
+
 Calls: trap_S_StartLocalSound, UI_PopMenu
 =================
 */
@@ -27809,6 +29254,9 @@ UI_SPSkillMenu_Key
 
 Address: 0xfc6b
 Stack Size: 0x18
+Opcodes Size: 0x23
+Locals Count: 2
+
 Calls: trap_S_StartLocalSound, Menu_DefaultKey
 =================
 */
@@ -27831,6 +29279,9 @@ UI_SPSkillMenu_Cache
 
 Address: 0xfc8e
 Stack Size: 0x2c
+Opcodes Size: 0x66
+Locals Count: 7
+
 Calls: trap_S_RegisterSound, trap_R_RegisterShaderNoMip
 Called by: UI_SPSkillMenu_Init, UI_Cache_f
 =================
@@ -27871,6 +29322,9 @@ UI_SPSkillMenu_Init
 
 Address: 0xfcf4
 Stack Size: 0x20
+Opcodes Size: 0x18d
+Locals Count: 3
+
 Calls: trap_S_StartLocalSound, trap_Cvar_VariableValue, memset, SetSkillColor, Com_Clamp, Menu_AddItem, UI_SPSkillMenu_Cache
 Called by: UI_SPSkillMenu
 =================
@@ -27995,6 +29449,9 @@ UI_SPSkillMenu
 
 Address: 0xfe81
 Stack Size: 0x10
+Opcodes Size: 0x16
+Locals Count: 1
+
 Calls: Menu_SetCursorToItem, UI_PushMenu, UI_SPSkillMenu_Init
 Called by: UI_SPLevelMenu_NextEvent
 =================
@@ -28013,6 +29470,9 @@ GametypeBits
 
 Address: 0xfe97
 Stack Size: 0x34
+Opcodes Size: 0x8c
+Locals Count: 10
+
 Calls: Q_stricmp, COM_ParseExt
 Called by: StartServer_GametypeEvent
 =================
@@ -28072,6 +29532,9 @@ StartServer_Update
 
 Address: 0xff23
 Stack Size: 0x4c
+Opcodes Size: 0x169
+Locals Count: 10
+
 Calls: strcpy, Com_sprintf, Q_strupr, Q_strncpyz, Info_ValueForKey, UI_GetArenaInfoByNumber
 Called by: StartServer_MenuEvent, StartServer_GametypeEvent, StartServer_MapEvent
 =================
@@ -28153,6 +29616,9 @@ StartServer_MapEvent
 
 Address: 0x1008c
 Stack Size: 0x8
+Opcodes Size: 0x1a
+Locals Count: 2
+
 Calls: StartServer_Update
 =================
 */
@@ -28172,6 +29638,9 @@ StartServer_GametypeEvent
 
 Address: 0x100a6
 Stack Size: 0x40
+Opcodes Size: 0x9c
+Locals Count: 13
+
 Calls: StartServer_Update, GametypeBits, Info_ValueForKey, UI_GetArenaInfoByNumber, UI_GetNumArenas
 Called by: StartServer_MenuInit
 =================
@@ -28234,20 +29703,24 @@ StartServer_MenuEvent
 
 Address: 0x10142
 Stack Size: 0x1c
+Opcodes Size: 0x64
+Locals Count: 5
+
 Calls: trap_Cvar_SetValue, UI_PopMenu, UI_ServerOptionsMenu, StartServer_Update
 =================
 */
 void StartServer_MenuEvent(int arg_0, int arg_1) {
-	char	local_10[8];
+	int		local_10;
+	int		local_14;
 	int		local_18;
 
 	if (arg_1 == 0x3) goto jmp_10149;
 	goto jmp_101a4;
 jmp_10149:
-	*(int *)local_10 = *(int *)(arg_0 + 0x8);
-	if (*(int *)local_10 < 0xf) goto jmp_101a4;
-	if (*(int *)local_10 > 0x12) goto jmp_101a4;
-	goto *(int *)((*(int *)local_10 << 0x2) + 0x25f4);
+	local_10 = *(int *)(arg_0 + 0x8);
+	if (local_10 < 0xf) goto jmp_101a4;
+	if (local_10 > 0x12) goto jmp_101a4;
+	goto *(int *)((local_10 << 0x2) + 0x25f4);
 	if (bss_7b580 <= 0x0) goto jmp_101a4;
 	local_18 = 0x7b580;
 	*(int *)local_18 = (*(int *)local_18 - 0x1);
@@ -28271,6 +29744,9 @@ StartServer_LevelshotDraw
 
 Address: 0x101a6
 Stack Size: 0x6c
+Opcodes Size: 0x170
+Locals Count: 17
+
 Calls: trap_R_RegisterShaderNoMip, UI_DrawString, Q_strupr, Q_strncpyz, Info_ValueForKey, UI_GetArenaInfoByNumber, UI_FillRect, UI_DrawHandlePic
 =================
 */
@@ -28282,12 +29758,15 @@ void StartServer_LevelshotDraw(int arg_0) {
 	int		local_2c;
 	char	local_30[16];
 	int		local_40;
-	char	local_44[12];
+	int		local_44;
+	char	local_48[8];
 	int		local_50;
-	char	local_54[8];
+	int		local_54;
+	int		local_58;
 	int		local_5c;
 	int		local_60;
-	char	local_64[8];
+	int		local_64;
+	int		local_68;
 
 	local_1c = arg_0;
 	if (*(int *)(local_1c + 0x4) != 0x0) goto jmp_101b4;
@@ -28304,8 +29783,8 @@ jmp_101b4:
 jmp_101f2:
 	if (*(int *)(local_1c + 0x3c) == 0x0) goto jmp_10211;
 	if (*(int *)(local_1c + 0x48) != 0x0) goto jmp_10211;
-	*(int *)local_54 = trap_R_RegisterShaderNoMip(*(int *)(local_1c + 0x3c));
-	*(int *)(local_1c + 0x48) = *(int *)local_54;
+	local_54 = trap_R_RegisterShaderNoMip(*(int *)(local_1c + 0x3c));
+	*(int *)(local_1c + 0x48) = local_54;
 jmp_10211:
 	local_20 = *(int *)(local_1c + 0xc);
 	local_24 = *(int *)(local_1c + 0x10);
@@ -28322,9 +29801,9 @@ jmp_1024d:
 	local_24 = (local_24 + 0x4);
 	local_40 = (((bss_7b580 << local_5c) + *(int *)(local_1c + 0x8)) - 0xb);
 	local_60 = UI_GetArenaInfoByNumber(*(int *)((local_40 << local_5c) + 0x7b588));
-	*(int *)local_44 = local_60;
-	*(int *)local_64 = Info_ValueForKey(*(int *)local_44, 0x80f5);
-	Q_strncpyz(local_30, *(int *)local_64, 0x10);
+	local_44 = local_60;
+	local_64 = Info_ValueForKey(local_44, 0x80f5);
+	Q_strncpyz(local_30, local_64, 0x10);
 	Q_strupr(local_30);
 	UI_DrawString(local_20, local_24, local_30, 0x11, 0x21a0);
 	local_20 = *(int *)(local_1c + 0xc);
@@ -28342,6 +29821,9 @@ StartServer_MenuInit
 
 Address: 0x10316
 Stack Size: 0x34
+Opcodes Size: 0x289
+Locals Count: 7
+
 Calls: memset, StartServer_GametypeEvent, Menu_AddItem, StartServer_Cache
 Called by: UI_StartServerMenu
 =================
@@ -28350,8 +29832,10 @@ void StartServer_MenuInit(void) {
 	int		local_14;
 	int		local_18;
 	int		local_1c;
-	char	local_20[8];
-	char	local_28[12];
+	int		local_20;
+	int		local_24;
+	int		local_28;
+	char	local_2c[8];
 
 	memset(0x7ade4, 0x0, 0x17a4);
 	StartServer_Cache();
@@ -28387,10 +29871,10 @@ void StartServer_MenuInit(void) {
 	bss_7b048 = 0x25f8;
 	local_14 = 0x0;
 jmp_10380:
-	*(int *)local_20 = 0x88;
-	*(int *)local_28 = 0x2;
-	local_18 = ((*(int *)local_20 * (local_14 %% *(int *)local_28)) + 0xbc);
-	local_1c = ((*(int *)local_20 * (local_14 / *(int *)local_28)) + 0x60);
+	local_20 = 0x88;
+	local_28 = 0x2;
+	local_18 = ((local_20 * (local_14 %% local_28)) + 0xbc);
+	local_1c = ((local_20 * (local_14 / local_28)) + 0x60);
 	*(int *)((0x58 * local_14) + 0x7b05c) = 0x6;
 	*(int *)((0x58 * local_14) + 0x7b088) = 0x4004;
 	*(int *)((0x58 * local_14) + 0x7b068) = local_18;
@@ -28500,6 +29984,9 @@ StartServer_Cache
 
 Address: 0x1059f
 Stack Size: 0x80
+Opcodes Size: 0x95
+Locals Count: 8
+
 Calls: trap_Cvar_VariableValue, trap_R_RegisterShaderNoMip, UI_GetNumArenas, Com_sprintf, Q_strupr, Q_strncpyz, Info_ValueForKey, UI_GetArenaInfoByNumber
 Called by: StartServer_MenuInit, UI_Cache_f
 =================
@@ -28552,6 +30039,9 @@ UI_StartServerMenu
 
 Address: 0x10634
 Stack Size: 0xc
+Opcodes Size: 0xf
+Locals Count: 1
+
 Calls: UI_PushMenu, StartServer_MenuInit
 Called by: UI_SPLevelMenu_CustomEvent, ArenaServers_Event
 =================
@@ -28569,6 +30059,9 @@ BotAlreadySelected
 
 Address: 0x10643
 Stack Size: 0x1c
+Opcodes Size: 0x51
+Locals Count: 4
+
 Calls: Q_stricmp
 Called by: UI_BotSelectMenu_UpdateGrid
 =================
@@ -28604,6 +30097,9 @@ ServerOptions_Start
 
 Address: 0x10694
 Stack Size: 0xcc
+Opcodes Size: 0x245
+Locals Count: 28
+
 Calls: trap_Cmd_ExecuteText, trap_Cvar_Set, trap_Cvar_SetValue, Com_sprintf, va, Info_ValueForKey, UI_GetArenaInfoByNumber, Com_Clamp, atoi
 Called by: ServerOptions_Event
 =================
@@ -28751,6 +30247,9 @@ ServerOptions_InitPlayerItems
 
 Address: 0x108d9
 Stack Size: 0x20
+Opcodes Size: 0xae
+Locals Count: 3
+
 Calls: trap_Cvar_VariableStringBuffer, Q_CleanStr
 Called by: ServerOptions_SetMenuItems
 =================
@@ -28815,6 +30314,9 @@ ServerOptions_SetPlayerItems
 
 Address: 0x10987
 Stack Size: 0x14
+Opcodes Size: 0x9c
+Locals Count: 3
+
 Called by: ServerOptions_SetMenuItems, ServerOptions_Event
 =================
 */
@@ -28873,16 +30375,20 @@ ServerOptions_Event
 
 Address: 0x10a23
 Stack Size: 0x10
+Opcodes Size: 0x44
+Locals Count: 4
+
 Calls: UI_PopMenu, ServerOptions_Start, ServerOptions_SetPlayerItems
 =================
 */
 void ServerOptions_Event(int arg_0, int arg_1) {
-	char	local_8[8];
+	int		local_8;
+	int		local_c;
 
-	*(int *)local_8 = *(int *)(arg_0 + 0x8);
-	if (*(int *)local_8 < 0x12) goto jmp_10a65;
-	if (*(int *)local_8 > 0x18) goto jmp_10a65;
-	goto *(int *)((*(int *)local_8 << 0x2) + 0x2650);
+	local_8 = *(int *)(arg_0 + 0x8);
+	if (local_8 < 0x12) goto jmp_10a65;
+	if (local_8 > 0x18) goto jmp_10a65;
+	goto *(int *)((local_8 << 0x2) + 0x2650);
 	if (arg_1 == 0x3) goto jmp_10a41;
 	goto jmp_10a65;
 jmp_10a41:
@@ -28910,6 +30416,9 @@ ServerOptions_PlayerNameEvent
 
 Address: 0x10a67
 Stack Size: 0x10
+Opcodes Size: 0x1e
+Locals Count: 3
+
 Calls: UI_BotSelectMenu
 =================
 */
@@ -28931,6 +30440,9 @@ ServerOptions_StatusBar
 
 Address: 0x10a85
 Stack Size: 0x20
+Opcodes Size: 0x19
+Locals Count: 2
+
 Calls: UI_DrawString
 =================
 */
@@ -28949,13 +30461,17 @@ ServerOptions_LevelshotDraw
 
 Address: 0x10a9e
 Stack Size: 0x30
+Opcodes Size: 0x92
+Locals Count: 6
+
 Calls: UI_DrawString, UI_FillRect, Bitmap_Draw, Q_strncpyz
 =================
 */
 void ServerOptions_LevelshotDraw(int arg_0) {
 	int		local_1c;
 	int		local_20;
-	char	local_24[8];
+	int		local_24;
+	int		local_28;
 	int		local_2c;
 
 	if (bss_7ad6c == 0x0) goto jmp_10ab4;
@@ -28964,14 +30480,14 @@ void ServerOptions_LevelshotDraw(int arg_0) {
 jmp_10ab4:
 	local_1c = arg_0;
 	Bitmap_Draw(local_1c);
-	*(int *)local_24 = *(int *)(local_1c + 0xc);
+	local_24 = *(int *)(local_1c + 0xc);
 	local_20 = (*(int *)(local_1c + 0x10) + *(int *)(local_1c + 0x50));
-	UI_FillRect((float)*(int *)local_24, (float)local_20, (float)*(int *)(local_1c + 0x4c), 0x42200000, 0x29b8);
-	*(int *)local_24 = (*(int *)local_24 + (*(int *)(local_1c + 0x4c) / 0x2));
+	UI_FillRect((float)local_24, (float)local_20, (float)*(int *)(local_1c + 0x4c), 0x42200000, 0x29b8);
+	local_24 = (local_24 + (*(int *)(local_1c + 0x4c) / 0x2));
 	local_20 = (local_20 + 0x4);
-	UI_DrawString(*(int *)local_24, local_20, 0x7ac8c, 0x11, 0x21a0);
+	UI_DrawString(local_24, local_20, 0x7ac8c, 0x11, 0x21a0);
 	local_20 = (local_20 + 0x10);
-#define next_call_arg_0 "*(int *)local_24"
+#define next_call_arg_0 "local_24"
 #define next_call_arg_1 "local_20"
 	local_2c = 0x2;
 #define next_call_arg_2 "*(int *)((*(int *)((bss_7ac88 << local_2c) + 0x261c) << local_2c) + 0x25f8)"
@@ -28986,6 +30502,9 @@ ServerOptions_InitBotNames
 
 Address: 0x10b30
 Stack Size: 0x444
+Opcodes Size: 0x168
+Locals Count: 13
+
 Calls: strcpy, UI_GetBotInfoByNumber, UI_GetBotInfoByName, Info_ValueForKey, UI_GetArenaInfoByMap, Q_strncpyz
 Called by: ServerOptions_SetMenuItems
 =================
@@ -29104,6 +30623,9 @@ ServerOptions_SetMenuItems
 
 Address: 0x10c98
 Stack Size: 0x80
+Opcodes Size: 0x1ae
+Locals Count: 23
+
 Calls: trap_Cvar_VariableValue, ServerOptions_InitBotNames, ServerOptions_SetPlayerItems, ServerOptions_InitPlayerItems, strcpy, Q_strupr, Info_ValueForKey, UI_GetArenaInfoByNumber, Q_strncpyz, UI_Cvar_VariableString, Com_sprintf, Com_Clamp
 Called by: ServerOptions_MenuInit
 =================
@@ -29198,6 +30720,9 @@ PlayerName_Draw
 
 Address: 0x10e46
 Stack Size: 0x50
+Opcodes Size: 0xe5
+Locals Count: 14
+
 Calls: UI_DrawString, UI_DrawChar, UI_FillRect
 =================
 */
@@ -29208,24 +30733,26 @@ void PlayerName_Draw(int arg_0) {
 	int		local_28;
 	int		local_2c;
 	int		local_30;
-	char	local_34[8];
-	char	local_3c[8];
+	int		local_34;
+	int		local_38;
+	int		local_3c;
+	int		local_40;
 	int		local_44;
 	int		local_48;
 	int		local_4c;
 
 	local_1c = arg_0;
 	local_24 = *(int *)(local_1c + 0xc);
-	*(int *)local_3c = 0x10;
-	local_28 = *(int *)(local_1c + *(int *)local_3c);
-	local_2c = *(int *)local_3c;
+	local_3c = 0x10;
+	local_28 = *(int *)(local_1c + local_3c);
+	local_2c = local_3c;
 	if (*(int *)*(int *)(local_1c + 0x24) != *(int *)(local_1c + 0x28)) goto jmp_10e72;
-	*(int *)local_34 = 0x1;
+	local_34 = 0x1;
 	goto jmp_10e75;
 jmp_10e72:
-	*(int *)local_34 = 0x0;
+	local_34 = 0x0;
 jmp_10e75:
-	local_30 = *(int *)local_34;
+	local_30 = local_34;
 	if ((*(int *)(local_1c + 0x2c) & 0x2000) == 0x0) goto jmp_10e87;
 	local_20 = 0x21e0;
 	goto jmp_10ead;
@@ -29264,6 +30791,9 @@ ServerOptions_MenuInit
 
 Address: 0x10f2b
 Stack Size: 0x48
+Opcodes Size: 0x3da
+Locals Count: 13
+
 Calls: trap_Cvar_VariableValue, memset, ServerOptions_SetMenuItems, Menu_AddItem, strlen, ServerOptions_Cache, Com_Clamp
 Called by: UI_ServerOptionsMenu
 =================
@@ -29275,7 +30805,8 @@ void ServerOptions_MenuInit(int arg_0) {
 	int		local_20;
 	int		local_24;
 	int		local_28;
-	char	local_2c[12];
+	int		local_2c;
+	char	local_30[8];
 	int		local_38;
 	int		local_3c;
 	int		local_40;
@@ -29390,8 +30921,8 @@ jmp_1107a:
 	bss_79e74 = 0x3;
 	bss_79ea0 = 0x102;
 	bss_79e78 = 0x7d26;
-	*(int *)local_2c = strlen(bss_79e78);
-	bss_79e80 = (((*(int *)local_2c + 0x2) << 0x3) + 0x20);
+	local_2c = strlen(bss_79e78);
+	bss_79e80 = (((local_2c + 0x2) << 0x3) + 0x20);
 	bss_79e84 = local_18;
 	bss_79ec0 = 0x266c;
 	bss_79eb4 = 0x1;
@@ -29514,6 +31045,9 @@ ServerOptions_Cache
 
 Address: 0x11305
 Stack Size: 0xc
+Opcodes Size: 0x21
+Locals Count: 0
+
 Calls: trap_R_RegisterShaderNoMip
 Called by: ServerOptions_MenuInit, UI_Cache_f
 =================
@@ -29534,6 +31068,9 @@ UI_ServerOptionsMenu
 
 Address: 0x11326
 Stack Size: 0xc
+Opcodes Size: 0xe
+Locals Count: 1
+
 Calls: UI_PushMenu, ServerOptions_MenuInit
 Called by: StartServer_MenuEvent
 =================
@@ -29550,6 +31087,9 @@ UI_BotSelectMenu_SortCompare
 
 Address: 0x11334
 Stack Size: 0x3c
+Opcodes Size: 0x4a
+Locals Count: 13
+
 Calls: Q_stricmp, Info_ValueForKey, UI_GetBotInfoByNumber
 =================
 */
@@ -29586,6 +31126,9 @@ UI_BotSelectMenu_BuildList
 
 Address: 0x1137e
 Stack Size: 0x24
+Opcodes Size: 0x4a
+Locals Count: 3
+
 Calls: qsort, UI_GetNumBots
 Called by: UI_BotSelectMenu_Init
 =================
@@ -29619,6 +31162,9 @@ ServerPlayerIcon
 
 Address: 0x113c8
 Stack Size: 0x6c
+Opcodes Size: 0x65
+Locals Count: 8
+
 Calls: trap_R_RegisterShaderNoMip, Q_stricmp, Com_sprintf, strrchr, Q_strncpyz
 Called by: UI_BotSelectMenu_UpdateGrid
 =================
@@ -29656,6 +31202,9 @@ UI_BotSelectMenu_UpdateGrid
 
 Address: 0x1142d
 Stack Size: 0x38
+Opcodes Size: 0x175
+Locals Count: 9
+
 Calls: BotAlreadySelected, Q_CleanStr, Q_strncpyz, ServerPlayerIcon, Info_ValueForKey, UI_GetBotInfoByNumber
 Called by: UI_BotSelectMenu_Init, UI_BotSelectMenu_RightEvent, UI_BotSelectMenu_LeftEvent
 =================
@@ -29744,6 +31293,9 @@ UI_BotSelectMenu_Default
 
 Address: 0x115a2
 Stack Size: 0x2c
+Opcodes Size: 0x73
+Locals Count: 8
+
 Calls: Q_stricmp, Info_ValueForKey, UI_GetBotInfoByNumber
 Called by: UI_BotSelectMenu_Init
 =================
@@ -29801,6 +31353,9 @@ UI_BotSelectMenu_LeftEvent
 
 Address: 0x11615
 Stack Size: 0xc
+Opcodes Size: 0x21
+Locals Count: 2
+
 Calls: UI_BotSelectMenu_UpdateGrid
 =================
 */
@@ -29824,6 +31379,9 @@ UI_BotSelectMenu_RightEvent
 
 Address: 0x11636
 Stack Size: 0xc
+Opcodes Size: 0x24
+Locals Count: 2
+
 Calls: UI_BotSelectMenu_UpdateGrid
 =================
 */
@@ -29847,6 +31405,9 @@ UI_BotSelectMenu_BotEvent
 
 Address: 0x1165a
 Stack Size: 0x14
+Opcodes Size: 0x66
+Locals Count: 5
+
 =================
 */
 void UI_BotSelectMenu_BotEvent(int arg_0, int arg_1) {
@@ -29880,6 +31441,9 @@ UI_BotSelectMenu_BackEvent
 
 Address: 0x116c0
 Stack Size: 0x8
+Opcodes Size: 0xc
+Locals Count: 1
+
 Calls: UI_PopMenu
 =================
 */
@@ -29898,6 +31462,9 @@ UI_BotSelectMenu_SelectEvent
 
 Address: 0x116cc
 Stack Size: 0x18
+Opcodes Size: 0x24
+Locals Count: 2
+
 Calls: Q_strncpyz, UI_PopMenu
 =================
 */
@@ -29923,6 +31490,9 @@ UI_BotSelectMenu_Cache
 
 Address: 0x116f0
 Stack Size: 0xc
+Opcodes Size: 0x30
+Locals Count: 0
+
 Calls: trap_R_RegisterShaderNoMip
 Called by: UI_BotSelectMenu_Init, UI_Cache_f
 =================
@@ -29946,6 +31516,9 @@ UI_BotSelectMenu_Init
 
 Address: 0x11720
 Stack Size: 0x38
+Opcodes Size: 0x261
+Locals Count: 9
+
 Calls: memset, UI_BotSelectMenu_UpdateGrid, UI_BotSelectMenu_Default, UI_BotSelectMenu_BuildList, Menu_AddItem, UI_BotSelectMenu_Cache
 Called by: UI_BotSelectMenu
 =================
@@ -29957,7 +31530,8 @@ void UI_BotSelectMenu_Init(int arg_0) {
 	int		local_20;
 	int		local_24;
 	int		local_28;
-	char	local_2c[12];
+	int		local_2c;
+	char	local_30[8];
 
 	memset(0x76e9c, 0x0, 0x27b0);
 	bss_76fb0 = 0x1;
@@ -30009,9 +31583,9 @@ jmp_1175b:
 	*(int *)((0x48 * local_14) + 0x77b48) = 0x21a0;
 	*(int *)((0x48 * local_14) + 0x77b44) = 0x11;
 	local_18 = (local_18 + 0x46);
-	*(int *)local_2c = 0x1;
-	local_20 = (local_20 + *(int *)local_2c);
-	local_14 = (local_14 + *(int *)local_2c);
+	local_2c = 0x1;
+	local_20 = (local_20 + local_2c);
+	local_14 = (local_14 + local_2c);
 	if (local_20 < 0x4) goto jmp_1175b;
 	local_1c = (local_1c + 0x56);
 	local_24 = (local_24 + 0x1);
@@ -30083,6 +31657,9 @@ UI_BotSelectMenu
 
 Address: 0x11981
 Stack Size: 0xc
+Opcodes Size: 0xe
+Locals Count: 1
+
 Calls: UI_PushMenu, UI_BotSelectMenu_Init
 Called by: ServerOptions_PlayerNameEvent
 =================
@@ -30099,19 +31676,23 @@ TeamMain_MenuEvent
 
 Address: 0x1198f
 Stack Size: 0x18
+Opcodes Size: 0x4e
+Locals Count: 4
+
 Calls: trap_Cmd_ExecuteText, UI_ForceMenuOff
 =================
 */
 void TeamMain_MenuEvent(int arg_0, int arg_1) {
-	char	local_10[8];
+	int		local_10;
+	int		local_14;
 
 	if (arg_1 == 0x3) goto jmp_11996;
 	goto jmp_119db;
 jmp_11996:
-	*(int *)local_10 = *(int *)(arg_0 + 0x8);
-	if (*(int *)local_10 < 0x64) goto jmp_119db;
-	if (*(int *)local_10 > 0x67) goto jmp_119db;
-	goto *(int *)((*(int *)local_10 << 0x2) + 0x2538);
+	local_10 = *(int *)(arg_0 + 0x8);
+	if (local_10 < 0x64) goto jmp_119db;
+	if (local_10 > 0x67) goto jmp_119db;
+	goto *(int *)((local_10 << 0x2) + 0x2538);
 	trap_Cmd_ExecuteText(0x2, 0x81c6);
 	UI_ForceMenuOff();
 	goto jmp_119db;
@@ -30132,6 +31713,9 @@ TeamMain_MenuInit
 
 Address: 0x119dd
 Stack Size: 0x434
+Opcodes Size: 0x125
+Locals Count: 9
+
 Calls: trap_GetConfigString, memset, Menu_AddItem, atoi, Info_ValueForKey, TeamMain_Cache
 Called by: UI_TeamMainMenu
 =================
@@ -30228,6 +31812,9 @@ TeamMain_Cache
 
 Address: 0x11b02
 Stack Size: 0xc
+Opcodes Size: 0x8
+Locals Count: 0
+
 Calls: trap_R_RegisterShaderNoMip
 Called by: TeamMain_MenuInit, UI_Cache_f
 =================
@@ -30243,6 +31830,9 @@ UI_TeamMainMenu
 
 Address: 0x11b0a
 Stack Size: 0xc
+Opcodes Size: 0xb
+Locals Count: 0
+
 Calls: UI_PushMenu, TeamMain_MenuInit
 Called by: InGame_Event
 =================
@@ -30259,6 +31849,9 @@ UI_TeamOrdersMenu_BackEvent
 
 Address: 0x11b15
 Stack Size: 0x8
+Opcodes Size: 0xc
+Locals Count: 1
+
 Calls: UI_PopMenu
 =================
 */
@@ -30277,6 +31870,9 @@ UI_TeamOrdersMenu_SetList
 
 Address: 0x11b21
 Stack Size: 0xc
+Opcodes Size: 0x41
+Locals Count: 2
+
 Called by: UI_TeamOrdersMenu_Init, UI_TeamOrdersMenu_ListEvent
 =================
 */
@@ -30312,6 +31908,9 @@ UI_TeamOrdersMenu_Key
 
 Address: 0x11b62
 Stack Size: 0x60
+Opcodes Size: 0x12a
+Locals Count: 18
+
 Calls: UI_CursorInRect, Menu_DefaultKey, Menu_ItemAtCursor
 =================
 */
@@ -30322,13 +31921,16 @@ int UI_TeamOrdersMenu_Key(int arg_0) {
 	int		local_24;
 	int		local_28;
 	int		local_2c;
-	char	local_30[12];
+	int		local_30;
+	char	local_34[8];
 	int		local_3c;
 	int		local_40;
 	int		local_44;
 	int		local_48;
-	char	local_4c[8];
-	char	local_54[8];
+	int		local_4c;
+	int		local_50;
+	int		local_54;
+	int		local_58;
 	int		local_5c;
 
 	arg_0 = arg_0;
@@ -30338,9 +31940,9 @@ int UI_TeamOrdersMenu_Key(int arg_0) {
 	local_2c = Menu_DefaultKey(0x7c820, arg_0);
 	return local_2c;
 jmp_11b83:
-	*(int *)local_30 = 0xa1;
-	if (arg_0 == *(int *)local_30) goto jmp_11c1a;
-	if (arg_0 > *(int *)local_30) goto jmp_11b9a;
+	local_30 = 0xa1;
+	if (arg_0 == local_30) goto jmp_11c1a;
+	if (arg_0 > local_30) goto jmp_11b9a;
 	if (arg_0 == 0x84) goto jmp_11c1a;
 	if (arg_0 == 0x85) goto jmp_11c4c;
 	goto jmp_11c7e;
@@ -30359,8 +31961,8 @@ jmp_11bad:
 #define next_call_arg_1 "local_48"
 #define next_call_arg_2 "(*(int *)(local_18 + 0x1c) - local_44)"
 #define next_call_arg_3 "(*(int *)(local_18 + 0x20) - local_48)"
-	*(int *)local_4c = UI_CursorInRect();
-	if (*(int *)local_4c == 0x0) goto jmp_11c15;
+	local_4c = UI_CursorInRect();
+	if (local_4c == 0x0) goto jmp_11c15;
 	local_24 = ((bss_db60 - local_1c) / 0x1b);
 	*(int *)(local_18 + 0x3c) = *(int *)(local_18 + 0x40);
 	*(int *)(local_18 + 0x40) = local_24;
@@ -30375,8 +31977,8 @@ jmp_11c1a:
 	*(int *)(local_18 + 0x40) = (*(int *)(local_18 + 0x44) - 0x1);
 	goto jmp_11c47;
 jmp_11c39:
-	*(int *)local_54 = (local_18 + 0x40);
-	*(int *)*(int *)local_54 = (*(int *)*(int *)local_54 - 0x1);
+	local_54 = (local_18 + 0x40);
+	*(int *)local_54 = (*(int *)local_54 - 0x1);
 jmp_11c47:
 	return menu_move_sound;
 jmp_11c4c:
@@ -30400,6 +32002,9 @@ UI_TeamOrdersMenu_ListDraw
 
 Address: 0x11c8c
 Stack Size: 0x40
+Opcodes Size: 0x7a
+Locals Count: 10
+
 Calls: UI_DrawProportionalString
 =================
 */
@@ -30411,16 +32016,17 @@ void UI_TeamOrdersMenu_ListDraw(int arg_0) {
 	int		local_2c;
 	int		local_30;
 	int		local_34;
-	char	local_38[8];
+	int		local_38;
+	int		local_3c;
 
 	local_20 = arg_0;
 	if (*(int *)*(int *)(local_20 + 0x24) != *(int *)(local_20 + 0x28)) goto jmp_11ca2;
-	*(int *)local_38 = 0x1;
+	local_38 = 0x1;
 	goto jmp_11ca5;
 jmp_11ca2:
-	*(int *)local_38 = 0x0;
+	local_38 = 0x0;
 jmp_11ca5:
-	local_34 = *(int *)local_38;
+	local_34 = local_38;
 	local_30 = 0x140;
 	local_28 = *(int *)(local_20 + 0x10);
 	local_1c = 0x0;
@@ -30448,6 +32054,9 @@ UI_TeamOrdersMenu_ListEvent
 
 Address: 0x11d06
 Stack Size: 0x128
+Opcodes Size: 0x7a
+Locals Count: 7
+
 Calls: trap_Cmd_ExecuteText, UI_PopMenu, va, Com_sprintf, UI_TeamOrdersMenu_SetList
 =================
 */
@@ -30491,6 +32100,9 @@ UI_TeamOrdersMenu_BuildBotList
 
 Address: 0x11d80
 Stack Size: 0x105c
+Opcodes Size: 0xf8
+Locals Count: 19
+
 Calls: trap_GetConfigString, trap_GetClientState, Q_CleanStr, atoi, Info_ValueForKey, Q_strncpyz
 Called by: UI_TeamOrdersMenu_Init
 =================
@@ -30501,7 +32113,8 @@ void UI_TeamOrdersMenu_BuildBotList(void) {
 	int		local_418;
 	int		local_41c;
 	char	local_420[8];
-	char	local_428[3076];
+	int		local_428;
+	char	local_42c[3072];
 	int		local_102c;
 	int		local_1030;
 	int		local_1034;
@@ -30530,13 +32143,13 @@ jmp_11d84:
 	local_103c = Info_ValueForKey(local_18, 0x821f);
 	local_1040 = atoi(local_103c);
 	bss_7ca98 = local_1040;
-	trap_GetConfigString((*(int *)local_428 + 0x220), local_18, 0x400);
+	trap_GetConfigString((local_428 + 0x220), local_18, 0x400);
 	local_1044 = Info_ValueForKey(local_18, 0x821d);
 	*(char *)&local_1030 = *(char *)local_1044;
 	local_14 = 0x0;
 	goto jmp_11e6d;
 jmp_11df9:
-	if (local_14 != *(int *)local_428) goto jmp_11e00;
+	if (local_14 != local_428) goto jmp_11e00;
 	goto jmp_11e67;
 jmp_11e00:
 	trap_GetConfigString((local_14 + 0x220), local_18, 0x400);
@@ -30570,6 +32183,9 @@ UI_TeamOrdersMenu_Init
 
 Address: 0x11e78
 Stack Size: 0x14
+Opcodes Size: 0x97
+Locals Count: 0
+
 Calls: memset, UI_TeamOrdersMenu_SetList, Menu_AddItem, UI_TeamOrdersMenu_BuildBotList, UI_TeamOrdersMenu_Cache
 Called by: UI_TeamOrdersMenu
 =================
@@ -30625,6 +32241,9 @@ UI_TeamOrdersMenu_Cache
 
 Address: 0x11f0f
 Stack Size: 0xc
+Opcodes Size: 0x12
+Locals Count: 0
+
 Calls: trap_R_RegisterShaderNoMip
 Called by: UI_TeamOrdersMenu_Init
 =================
@@ -30642,6 +32261,9 @@ UI_TeamOrdersMenu
 
 Address: 0x11f21
 Stack Size: 0xc
+Opcodes Size: 0xb
+Locals Count: 0
+
 Calls: UI_PushMenu, UI_TeamOrdersMenu_Init
 Called by: UI_TeamOrdersMenu_f, InGame_Event
 =================
@@ -30658,6 +32280,9 @@ UI_TeamOrdersMenu_f
 
 Address: 0x11f2c
 Stack Size: 0x1034
+Opcodes Size: 0x52
+Locals Count: 9
+
 Calls: trap_GetClientState, trap_GetConfigString, UI_TeamOrdersMenu, atoi, Info_ValueForKey
 Called by: UI_ConsoleCommand
 =================
@@ -30665,7 +32290,8 @@ Called by: UI_ConsoleCommand
 void UI_TeamOrdersMenu_f(void) {
 	char	local_14[1024];
 	char	local_414[8];
-	char	local_41c[3076];
+	int		local_41c;
+	char	local_420[3072];
 	int		local_1020;
 	int		local_1024;
 	int		local_1028;
@@ -30680,7 +32306,7 @@ void UI_TeamOrdersMenu_f(void) {
 	goto jmp_11f7c;
 jmp_11f4f:
 	trap_GetClientState(local_414);
-	trap_GetConfigString((*(int *)local_41c + 0x220), local_14, 0x400);
+	trap_GetConfigString((local_41c + 0x220), local_14, 0x400);
 	local_102c = Info_ValueForKey(local_14, 0x821d);
 	local_1030 = atoi(local_102c);
 	local_1020 = local_1030;
@@ -30697,6 +32323,9 @@ DriverInfo_Event
 
 Address: 0x11f7e
 Stack Size: 0xc
+Opcodes Size: 0x19
+Locals Count: 3
+
 Calls: UI_PopMenu
 =================
 */
@@ -30720,6 +32349,9 @@ DriverInfo_MenuDraw
 
 Address: 0x11f97
 Stack Size: 0x28
+Opcodes Size: 0xd4
+Locals Count: 3
+
 Calls: va, UI_DrawString, Menu_Draw
 =================
 */
@@ -30758,6 +32390,9 @@ DriverInfo_Cache
 
 Address: 0x1206b
 Stack Size: 0x10
+Opcodes Size: 0x24
+Locals Count: 1
+
 Calls: trap_R_RegisterShaderNoMip
 Called by: UI_DriverInfo_Menu, UI_Cache_f
 =================
@@ -30782,6 +32417,9 @@ UI_DriverInfo_Menu
 
 Address: 0x1208f
 Stack Size: 0x38
+Opcodes Size: 0x13e
+Locals Count: 9
+
 Calls: memset, UI_PushMenu, Menu_AddItem, strlen, Q_strncpyz, DriverInfo_Cache
 Called by: GraphicsOptions_Event
 =================
@@ -30886,6 +32524,9 @@ GraphicsOptions_FindBuiltinResolution
 
 Address: 0x121cd
 Stack Size: 0x1c
+Opcodes Size: 0x50
+Locals Count: 4
+
 Calls: Q_stricmp
 Called by: GraphicsOptions_ApplyChanges
 =================
@@ -30922,6 +32563,9 @@ GraphicsOptions_FindDetectedResolution
 
 Address: 0x1221d
 Stack Size: 0x1c
+Opcodes Size: 0x50
+Locals Count: 4
+
 Calls: Q_stricmp
 Called by: GraphicsOptions_SetMenuItems, GraphicsOptions_Event, GraphicsOptions_CheckConfig
 =================
@@ -30958,6 +32602,9 @@ GraphicsOptions_GetAspectRatios
 
 Address: 0x1226d
 Stack Size: 0x48
+Opcodes Size: 0x109
+Locals Count: 11
+
 Calls: Q_stricmp, Com_sprintf, atoi, Q_strncpyz, strchr
 Called by: GraphicsOptions_MenuInit
 =================
@@ -31031,6 +32678,9 @@ GraphicsOptions_GetInitialVideo
 
 Address: 0x12376
 Stack Size: 0x8
+Opcodes Size: 0x2c
+Locals Count: 0
+
 Called by: GraphicsOptions_MenuInit
 =================
 */
@@ -31054,6 +32704,9 @@ GraphicsOptions_GetResolutions
 
 Address: 0x123a2
 Stack Size: 0x30
+Opcodes Size: 0xbf
+Locals Count: 5
+
 Calls: trap_Cvar_VariableStringBuffer, strcmp, Com_sprintf, strchr
 Called by: GraphicsOptions_MenuInit
 =================
@@ -31115,6 +32768,9 @@ GraphicsOptions_CheckConfig
 
 Address: 0x12461
 Stack Size: 0x14
+Opcodes Size: 0x83
+Locals Count: 2
+
 Calls: GraphicsOptions_FindDetectedResolution
 Called by: GraphicsOptions_UpdateMenuItems
 =================
@@ -31167,6 +32823,9 @@ GraphicsOptions_UpdateMenuItems
 
 Address: 0x124e4
 Stack Size: 0x10
+Opcodes Size: 0x102
+Locals Count: 2
+
 Calls: GraphicsOptions_CheckConfig
 Called by: GraphicsOptions_MenuDraw
 =================
@@ -31251,6 +32910,9 @@ GraphicsOptions_ApplyChanges
 
 Address: 0x125e6
 Stack Size: 0x48
+Opcodes Size: 0x172
+Locals Count: 8
+
 Calls: trap_Cmd_ExecuteText, trap_Cvar_Reset, trap_Cvar_Set, trap_Cvar_SetValue, strchr, Q_strncpyz, GraphicsOptions_FindBuiltinResolution
 =================
 */
@@ -31355,21 +33017,25 @@ GraphicsOptions_Event
 
 Address: 0x12758
 Stack Size: 0x1c
+Opcodes Size: 0xb9
+Locals Count: 6
+
 Calls: UI_NetworkOptionsMenu, UI_SoundOptionsMenu, UI_DisplayOptionsMenu, UI_PopMenu, UI_DriverInfo_Menu, GraphicsOptions_FindDetectedResolution
 =================
 */
 void GraphicsOptions_Event(int arg_0, int arg_1) {
 	int		local_c;
-	char	local_10[8];
+	int		local_10;
+	int		local_14;
 	int		local_18;
 
 	if (arg_1 == 0x3) goto jmp_1275f;
 	goto jmp_1280f;
 jmp_1275f:
-	*(int *)local_10 = *(int *)(arg_0 + 0x8);
-	if (*(int *)local_10 < 0x65) goto jmp_1280f;
-	if (*(int *)local_10 > 0x6e) goto jmp_1280f;
-	goto *(int *)((*(int *)local_10 << 0x2) + 0x2750);
+	local_10 = *(int *)(arg_0 + 0x8);
+	if (local_10 < 0x65) goto jmp_1280f;
+	if (local_10 > 0x6e) goto jmp_1280f;
+	goto *(int *)((local_10 << 0x2) + 0x2750);
 	bss_7d6a4 = *(int *)((bss_7d644 << 0x2) + 0x7d06c);
 	if (bss_7d704 != 0x1) goto jmp_12793;
 	if (bss_7d6a4 >= 0x2) goto jmp_1278c;
@@ -31414,6 +33080,9 @@ GraphicsOptions_TQEvent
 
 Address: 0x12811
 Stack Size: 0x8
+Opcodes Size: 0x11
+Locals Count: 1
+
 =================
 */
 void GraphicsOptions_TQEvent(, int arg_1) {
@@ -31431,6 +33100,9 @@ GraphicsOptions_MenuDraw
 
 Address: 0x12822
 Stack Size: 0xc
+Opcodes Size: 0xb
+Locals Count: 0
+
 Calls: Menu_Draw, GraphicsOptions_UpdateMenuItems
 =================
 */
@@ -31446,6 +33118,9 @@ GraphicsOptions_SetMenuItems
 
 Address: 0x1282d
 Stack Size: 0x434
+Opcodes Size: 0x190
+Locals Count: 24
+
 Calls: trap_Cvar_VariableStringBuffer, trap_Cvar_VariableValue, UI_Cvar_VariableString, Q_stricmp, strlen, GraphicsOptions_FindDetectedResolution
 Called by: GraphicsOptions_MenuInit
 =================
@@ -31459,14 +33134,17 @@ void GraphicsOptions_SetMenuItems(void) {
 	int		local_28;
 	int		local_2c;
 	int		local_30;
-	char	local_34[8];
+	int		local_34;
+	int		local_38;
 	int		local_3c;
 	int		local_40;
 	int		local_44;
 	int		local_48;
 	int		local_4c;
-	char	local_50[8];
-	char	local_58[968];
+	int		local_50;
+	int		local_54;
+	int		local_58;
+	char	local_5c[964];
 	int		local_420;
 	int		local_424;
 	int		local_428;
@@ -31526,8 +33204,8 @@ jmp_12908:
 	local_28 = 0x0;
 jmp_1290b:
 	bss_7d810 = local_28;
-	*(int *)local_34 = trap_Cvar_VariableValue(0x85af);
-	local_30 = (int)*(int *)local_34;
+	local_34 = trap_Cvar_VariableValue(0x85af);
+	local_30 = (int)local_34;
 	local_3c = 0x10;
 	if (local_30 == local_3c) goto jmp_12938;
 	if (local_30 > local_3c) goto jmp_1292d;
@@ -31565,11 +33243,11 @@ jmp_12974:
 jmp_12979:
 	bss_7d990 = 0x2;
 jmp_1297c:
-	*(int *)local_50 = trap_Cvar_VariableValue(0x8557);
-	local_4c = (int)*(int *)local_50;
-	*(int *)local_58 = 0x10;
-	if (local_4c == *(int *)local_58) goto jmp_129a5;
-	if (local_4c > *(int *)local_58) goto jmp_1299a;
+	local_50 = trap_Cvar_VariableValue(0x8557);
+	local_4c = (int)local_50;
+	local_58 = 0x10;
+	if (local_4c == local_58) goto jmp_129a5;
+	if (local_4c > local_58) goto jmp_1299a;
 	if (local_4c == 0x0) goto jmp_129a0;
 	goto jmp_129a0;
 jmp_1299a:
@@ -31598,6 +33276,9 @@ GraphicsOptions_MenuInit
 
 Address: 0x129bd
 Stack Size: 0x20
+Opcodes Size: 0x326
+Locals Count: 3
+
 Calls: memset, GraphicsOptions_GetInitialVideo, GraphicsOptions_SetMenuItems, Menu_AddItem, GraphicsOptions_Cache, GraphicsOptions_GetAspectRatios, GraphicsOptions_GetResolutions
 Called by: UI_GraphicsOptionsMenu
 =================
@@ -31835,6 +33516,9 @@ GraphicsOptions_Cache
 
 Address: 0x12ce3
 Stack Size: 0xc
+Opcodes Size: 0x21
+Locals Count: 0
+
 Calls: trap_R_RegisterShaderNoMip
 Called by: GraphicsOptions_MenuInit, UI_Cache_f
 =================
@@ -31855,6 +33539,9 @@ UI_GraphicsOptionsMenu
 
 Address: 0x12d04
 Stack Size: 0x10
+Opcodes Size: 0x12
+Locals Count: 0
+
 Calls: Menu_SetCursorToItem, UI_PushMenu, GraphicsOptions_MenuInit
 Called by: UI_SoundOptionsMenu_Event, UI_SetupMenu_Event, Options_Event, UI_NetworkOptionsMenu_Event, UI_DisplayOptionsMenu_Event
 =================
@@ -31872,6 +33559,9 @@ VectorCompare
 
 Address: 0x12d16
 Stack Size: 0x18
+Opcodes Size: 0x38
+Locals Count: 4
+
 =================
 */
 int VectorCompare(int arg_0, int arg_1) {
@@ -31897,6 +33587,9 @@ VectorLength
 
 Address: 0x12d4e
 Stack Size: 0x20
+Opcodes Size: 0x33
+Locals Count: 5
+
 Calls: sqrt
 Called by: RadiusFromBounds, Distance
 =================
@@ -31921,6 +33614,9 @@ VectorLengthSquared
 
 Address: 0x12d81
 Stack Size: 0x18
+Opcodes Size: 0x2c
+Locals Count: 4
+
 =================
 */
 int VectorLengthSquared(int arg_0) {
@@ -31941,13 +33637,17 @@ Distance
 
 Address: 0x12dad
 Stack Size: 0x2c
+Opcodes Size: 0x41
+Locals Count: 9
+
 Calls: VectorLength
 =================
 */
 int Distance(int arg_0, int arg_1) {
 	int		local_c;
 	int		local_10;
-	char	local_14[12];
+	int		local_14;
+	char	local_18[8];
 	int		local_20;
 	int		local_24;
 	int		local_28;
@@ -31958,7 +33658,7 @@ int Distance(int arg_0, int arg_1) {
 	local_20 = 0x4;
 	local_10 = (*(int *)(arg_1 + local_20) - *(int *)(arg_0 + local_20));
 	local_24 = 0x8;
-	*(int *)local_14 = (*(int *)(arg_1 + local_24) - *(int *)(arg_0 + local_24));
+	local_14 = (*(int *)(arg_1 + local_24) - *(int *)(arg_0 + local_24));
 	local_28 = VectorLength(&local_c);
 	return local_28;
 }
@@ -31969,12 +33669,16 @@ DistanceSquared
 
 Address: 0x12dee
 Stack Size: 0x28
+Opcodes Size: 0x4e
+Locals Count: 9
+
 =================
 */
 int DistanceSquared(int arg_0, int arg_1) {
 	int		local_8;
 	int		local_c;
-	char	local_10[12];
+	int		local_10;
+	char	local_14[8];
 	int		local_1c;
 	int		local_20;
 	int		local_24;
@@ -31985,9 +33689,9 @@ int DistanceSquared(int arg_0, int arg_1) {
 	local_1c = 0x4;
 	local_c = (*(int *)(arg_1 + local_1c) - *(int *)(arg_0 + local_1c));
 	local_20 = 0x8;
-	*(int *)local_10 = (*(int *)(arg_1 + local_20) - *(int *)(arg_0 + local_20));
+	local_10 = (*(int *)(arg_1 + local_20) - *(int *)(arg_0 + local_20));
 	local_24 = local_8;
-	return (((local_24 * local_24) + (local_c * local_c)) + (*(int *)local_10 * *(int *)local_10));
+	return (((local_24 * local_24) + (local_c * local_c)) + (local_10 * local_10));
 }
 
 /*
@@ -31996,15 +33700,20 @@ VectorNormalizeFast
 
 Address: 0x12e3c
 Stack Size: 0x30
+Opcodes Size: 0x5b
+Locals Count: 10
+
 Calls: Q_rsqrt
 =================
 */
 void VectorNormalizeFast(int arg_0) {
-	char	local_c[8];
+	int		local_c;
+	int		local_10;
 	int		local_14;
 	int		local_18;
 	int		local_1c;
-	char	local_20[8];
+	int		local_20;
+	int		local_24;
 	int		local_28;
 	int		local_2c;
 
@@ -32012,13 +33721,13 @@ void VectorNormalizeFast(int arg_0) {
 	local_14 = *(int *)arg_0;
 	local_18 = *(int *)(arg_0 + 0x4);
 	local_1c = *(int *)(arg_0 + 0x8);
-	*(int *)local_20 = Q_rsqrt((((local_14 * local_14) + (local_18 * local_18)) + (local_1c * local_1c)));
-	*(int *)local_c = *(int *)local_20;
-	*(int *)arg_0 = (*(int *)arg_0 * *(int *)local_c);
+	local_20 = Q_rsqrt((((local_14 * local_14) + (local_18 * local_18)) + (local_1c * local_1c)));
+	local_c = local_20;
+	*(int *)arg_0 = (*(int *)arg_0 * local_c);
 	local_28 = (arg_0 + 0x4);
-	*(int *)local_28 = (*(int *)local_28 * *(int *)local_c);
+	*(int *)local_28 = (*(int *)local_28 * local_c);
 	local_2c = (arg_0 + 0x8);
-	*(int *)local_2c = (*(int *)local_2c * *(int *)local_c);
+	*(int *)local_2c = (*(int *)local_2c * local_c);
 }
 
 /*
@@ -32027,6 +33736,9 @@ VectorInverse
 
 Address: 0x12e97
 Stack Size: 0x14
+Opcodes Size: 0x28
+Locals Count: 3
+
 =================
 */
 void VectorInverse(int arg_0) {
@@ -32047,23 +33759,29 @@ CrossProduct
 
 Address: 0x12ebf
 Stack Size: 0x30
+Opcodes Size: 0x6d
+Locals Count: 10
+
 Called by: MakeNormalVectors, RotateAroundDirection, RotatePointAroundVector, PlaneFromPoints
 =================
 */
 void CrossProduct(int arg_0, int arg_1, int arg_2) {
-	char	local_c[8];
-	char	local_14[8];
-	char	local_1c[16];
+	int		local_c;
+	int		local_10;
+	int		local_14;
+	int		local_18;
+	int		local_1c;
+	char	local_20[12];
 	int		local_2c;
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
 	arg_2 = arg_2;
-	*(int *)local_c = 0x4;
-	*(int *)local_14 = 0x8;
-	*(int *)arg_2 = ((*(int *)(arg_0 + *(int *)local_c) * *(int *)(arg_1 + *(int *)local_14)) - (*(int *)(arg_0 + *(int *)local_14) * *(int *)(arg_1 + *(int *)local_c)));
-	*(int *)local_1c = 0x8;
-	*(int *)(arg_2 + 0x4) = ((*(int *)(arg_0 + *(int *)local_1c) * *(int *)arg_1) - (*(int *)arg_0 * *(int *)(arg_1 + *(int *)local_1c)));
+	local_c = 0x4;
+	local_14 = 0x8;
+	*(int *)arg_2 = ((*(int *)(arg_0 + local_c) * *(int *)(arg_1 + local_14)) - (*(int *)(arg_0 + local_14) * *(int *)(arg_1 + local_c)));
+	local_1c = 0x8;
+	*(int *)(arg_2 + 0x4) = ((*(int *)(arg_0 + local_1c) * *(int *)arg_1) - (*(int *)arg_0 * *(int *)(arg_1 + local_1c)));
 	local_2c = 0x4;
 	*(int *)(arg_2 + 0x8) = ((*(int *)arg_0 * *(int *)(arg_1 + local_2c)) - (*(int *)(arg_0 + local_2c) * *(int *)arg_1));
 }
@@ -32074,6 +33792,9 @@ Q_rand
 
 Address: 0x12f2c
 Stack Size: 0xc
+Opcodes Size: 0x15
+Locals Count: 1
+
 Called by: Q_random
 =================
 */
@@ -32090,6 +33811,9 @@ Q_random
 
 Address: 0x12f41
 Stack Size: 0x10
+Opcodes Size: 0x12
+Locals Count: 2
+
 Calls: Q_rand
 Called by: Q_crandom
 =================
@@ -32107,6 +33831,9 @@ Q_crandom
 
 Address: 0x12f53
 Stack Size: 0x10
+Opcodes Size: 0x11
+Locals Count: 2
+
 Calls: Q_random
 =================
 */
@@ -32123,6 +33850,9 @@ ClampChar
 
 Address: 0x12f64
 Stack Size: 0x8
+Opcodes Size: 0x1b
+Locals Count: 1
+
 =================
 */
 int ClampChar(int arg_0) {
@@ -32143,6 +33873,9 @@ ClampShort
 
 Address: 0x12f7f
 Stack Size: 0x8
+Opcodes Size: 0x1b
+Locals Count: 1
+
 =================
 */
 int ClampShort(int arg_0) {
@@ -32163,6 +33896,9 @@ DirToByte
 
 Address: 0x12f9a
 Stack Size: 0x24
+Opcodes Size: 0x60
+Locals Count: 8
+
 =================
 */
 int DirToByte(int arg_0) {
@@ -32170,7 +33906,8 @@ int DirToByte(int arg_0) {
 	int		local_c;
 	int		local_10;
 	int		local_14;
-	char	local_18[8];
+	int		local_18;
+	int		local_1c;
 	int		local_20;
 
 	arg_0 = arg_0;
@@ -32178,9 +33915,9 @@ int DirToByte(int arg_0) {
 	return 0x0;
 jmp_12fa7:
 	local_10 = 0x0;
-	*(int *)local_18 = 0x0;
-	local_14 = *(int *)local_18;
-	local_8 = *(int *)local_18;
+	local_18 = 0x0;
+	local_14 = local_18;
+	local_8 = local_18;
 jmp_12fb5:
 	local_20 = (0xc * local_8);
 	local_c = (((*(int *)arg_0 * *(int *)(local_20 + 0x2ae8)) + (*(int *)(arg_0 + 0x4) * *(int *)(local_20 + 0x2aec))) + (*(int *)(arg_0 + 0x8) * *(int *)(local_20 + 0x2af0)));
@@ -32199,9 +33936,12 @@ ByteToDir
 
 Address: 0x12ffa
 Stack Size: 0xc
+Opcodes Size: 0x1e
+Locals Count: 3
+
 =================
 */
-void ByteToDir(int arg_0, int arg_1) {
+void ByteToDir(int arg_0, int arg_1, int arg_2656) {
 
 	arg_0 = arg_0;
 	if (arg_0 < 0x0) goto jmp_13007;
@@ -32220,6 +33960,9 @@ ColorBytes3
 
 Address: 0x13018
 Stack Size: 0x30
+Opcodes Size: 0x6f
+Locals Count: 15
+
 =================
 */
 int ColorBytes3(int arg_0, int arg_1, int arg_2) {
@@ -32272,6 +34015,9 @@ ColorBytes4
 
 Address: 0x13087
 Stack Size: 0x3c
+Opcodes Size: 0x92
+Locals Count: 20
+
 =================
 */
 int ColorBytes4(int arg_0, int arg_1, int arg_2, int arg_3) {
@@ -32337,36 +34083,40 @@ NormalizeColor
 
 Address: 0x13119
 Stack Size: 0x18
+Opcodes Size: 0x7a
+Locals Count: 6
+
 =================
 */
 int NormalizeColor(int arg_0, int arg_1) {
-	char	local_8[8];
+	int		local_8;
+	int		local_c;
 	int		local_10;
 	int		local_14;
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
-	*(int *)local_8 = *(int *)arg_0;
-	if (*(int *)(arg_0 + 0x4) <= *(int *)local_8) goto jmp_13136;
-	*(int *)local_8 = *(int *)(arg_0 + 0x4);
+	local_8 = *(int *)arg_0;
+	if (*(int *)(arg_0 + 0x4) <= local_8) goto jmp_13136;
+	local_8 = *(int *)(arg_0 + 0x4);
 jmp_13136:
-	if (*(int *)(arg_0 + 0x8) <= *(int *)local_8) goto jmp_13145;
-	*(int *)local_8 = *(int *)(arg_0 + 0x8);
+	if (*(int *)(arg_0 + 0x8) <= local_8) goto jmp_13145;
+	local_8 = *(int *)(arg_0 + 0x8);
 jmp_13145:
-	if (*(int *)local_8 != 0x0) goto jmp_13161;
+	if (local_8 != 0x0) goto jmp_13161;
 	local_14 = 0x0;
 	*(int *)(arg_1 + 0x8) = local_14;
 	*(int *)(arg_1 + 0x4) = local_14;
 	*(int *)arg_1 = local_14;
 	goto jmp_1318e;
 jmp_13161:
-	*(int *)arg_1 = (*(int *)arg_0 / *(int *)local_8);
+	*(int *)arg_1 = (*(int *)arg_0 / local_8);
 	local_10 = 0x4;
-	*(int *)(arg_1 + local_10) = (*(int *)(arg_0 + local_10) / *(int *)local_8);
+	*(int *)(arg_1 + local_10) = (*(int *)(arg_0 + local_10) / local_8);
 	local_14 = 0x8;
-	*(int *)(arg_1 + local_14) = (*(int *)(arg_0 + local_14) / *(int *)local_8);
+	*(int *)(arg_1 + local_14) = (*(int *)(arg_0 + local_14) / local_8);
 jmp_1318e:
-	return *(int *)local_8;
+	return local_8;
 }
 
 /*
@@ -32375,6 +34125,9 @@ PlaneFromPoints
 
 Address: 0x13193
 Stack Size: 0x60
+Opcodes Size: 0xb6
+Locals Count: 20
+
 Calls: VectorNormalize, CrossProduct
 =================
 */
@@ -32384,12 +34137,15 @@ int PlaneFromPoints(int arg_0, int arg_1, int arg_2, int arg_3) {
 	int		local_1c;
 	int		local_20;
 	int		local_24;
-	char	local_28[12];
+	int		local_28;
+	char	local_2c[8];
 	int		local_34;
-	char	local_38[12];
+	int		local_38;
+	char	local_3c[8];
 	int		local_44;
 	int		local_48;
-	char	local_4c[12];
+	int		local_4c;
+	char	local_50[8];
 	int		local_58;
 	int		local_5c;
 
@@ -32400,16 +34156,16 @@ int PlaneFromPoints(int arg_0, int arg_1, int arg_2, int arg_3) {
 	local_14 = (*(int *)arg_2 - *(int *)arg_1);
 	local_34 = 0x4;
 	local_18 = (*(int *)(arg_2 + local_34) - *(int *)(arg_1 + local_34));
-	*(int *)local_38 = 0x8;
-	local_1c = (*(int *)(arg_2 + *(int *)local_38) - *(int *)(arg_1 + *(int *)local_38));
+	local_38 = 0x8;
+	local_1c = (*(int *)(arg_2 + local_38) - *(int *)(arg_1 + local_38));
 	local_20 = (*(int *)arg_3 - *(int *)arg_1);
 	local_44 = 0x4;
 	local_24 = (*(int *)(arg_3 + local_44) - *(int *)(arg_1 + local_44));
 	local_48 = 0x8;
-	*(int *)local_28 = (*(int *)(arg_3 + local_48) - *(int *)(arg_1 + local_48));
+	local_28 = (*(int *)(arg_3 + local_48) - *(int *)(arg_1 + local_48));
 	CrossProduct(&local_20, &local_14, arg_0);
-	*(int *)local_4c = VectorNormalize(arg_0);
-	if (*(int *)local_4c != 0x0) goto jmp_13217;
+	local_4c = VectorNormalize(arg_0);
+	if (local_4c != 0x0) goto jmp_13217;
 	return 0x0;
 jmp_13217:
 	local_58 = 0x4;
@@ -32424,6 +34180,9 @@ RotatePointAroundVector
 
 Address: 0x13249
 Stack Size: 0x118
+Opcodes Size: 0x113
+Locals Count: 52
+
 Calls: sin, cos, memset, memcpy, MatrixMultiply, CrossProduct, PerpendicularVector
 Called by: RotateAroundDirection
 =================
@@ -32443,17 +34202,21 @@ void RotatePointAroundVector(int arg_0, int arg_1, int arg_2, int arg_3) {
 	int		local_58;
 	int		local_5c;
 	int		local_60;
-	char	local_64[8];
+	int		local_64;
+	int		local_68;
 	int		local_6c;
-	char	local_70[16];
+	int		local_70;
+	char	local_74[12];
 	int		local_80;
 	int		local_84;
 	int		local_88;
 	int		local_8c;
-	char	local_90[8];
+	int		local_90;
+	int		local_94;
 	int		local_98;
 	int		local_9c;
-	char	local_a0[8];
+	int		local_a0;
+	int		local_a4;
 	int		local_a8;
 	int		local_ac;
 	int		local_b0;
@@ -32469,8 +34232,10 @@ void RotatePointAroundVector(int arg_0, int arg_1, int arg_2, int arg_3) {
 	int		local_fc;
 	int		local_100;
 	int		local_104;
-	char	local_108[8];
-	char	local_110[8];
+	int		local_108;
+	int		local_10c;
+	int		local_110;
+	int		local_114;
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
@@ -32492,30 +34257,30 @@ void RotatePointAroundVector(int arg_0, int arg_1, int arg_2, int arg_3) {
 	memcpy(&local_84, &local_3c, 0x24);
 	local_88 = local_48;
 	local_8c = local_54;
-	*(int *)local_90 = local_40;
+	local_90 = local_40;
 	local_98 = local_58;
 	local_9c = local_44;
-	*(int *)local_a0 = local_50;
+	local_a0 = local_50;
 	memset(&local_60, 0x0, 0x24);
 	local_f8 = 0x3f800000;
 	local_80 = local_f8;
-	*(int *)local_70 = local_f8;
+	local_70 = local_f8;
 	local_60 = local_f8;
 	local_c0 = ((0x40490fdb * arg_3) / 0x43340000);
 	local_fc = cos(local_c0);
 	local_60 = local_fc;
 	local_100 = sin(local_c0);
-	*(int *)local_64 = local_100;
+	local_64 = local_100;
 	local_104 = sin(local_c0);
 	local_6c = -local_104;
-	*(int *)local_108 = cos(local_c0);
-	*(int *)local_70 = *(int *)local_108;
+	local_108 = cos(local_c0);
+	local_70 = local_108;
 	MatrixMultiply(&local_3c, &local_60, local_d0);
 	MatrixMultiply(local_d0, &local_84, &local_18);
 	local_14 = 0x0;
 jmp_13321:
-	*(int *)local_110 = (0xc * local_14);
-	*(int *)((local_14 << 0x2) + arg_0) = (((*(int *)(*(int *)local_110 + &local_18) * *(int *)arg_2) + (*(int *)(*(int *)local_110 + &local_1c) * *(int *)(arg_2 + 0x4))) + (*(int *)(*(int *)local_110 + local_20) * *(int *)(arg_2 + 0x8)));
+	local_110 = (0xc * local_14);
+	*(int *)((local_14 << 0x2) + arg_0) = (((*(int *)(local_110 + &local_18) * *(int *)arg_2) + (*(int *)(local_110 + &local_1c) * *(int *)(arg_2 + 0x4))) + (*(int *)(local_110 + local_20) * *(int *)(arg_2 + 0x8)));
 	local_14 = (local_14 + 0x1);
 	if (local_14 < 0x3) goto jmp_13321;
 }
@@ -32526,11 +34291,15 @@ RotateAroundDirection
 
 Address: 0x1335c
 Stack Size: 0x30
+Opcodes Size: 0x3e
+Locals Count: 5
+
 Calls: CrossProduct, RotatePointAroundVector, PerpendicularVector
 =================
 */
 void RotateAroundDirection(int arg_0, int arg_1) {
-	char	local_1c[16];
+	char	local_1c[12];
+	int		local_28;
 	int		local_2c;
 
 	arg_0 = arg_0;
@@ -32549,6 +34318,9 @@ vectoangles
 
 Address: 0x1339a
 Stack Size: 0x38
+Opcodes Size: 0xbd
+Locals Count: 12
+
 Calls: sqrt, atan2
 Called by: BG_TouchJumpPad
 =================
@@ -32556,7 +34328,8 @@ Called by: BG_TouchJumpPad
 void vectoangles(int arg_0, int arg_1) {
 	int		local_10;
 	int		local_14;
-	char	local_18[8];
+	int		local_18;
+	int		local_1c;
 	int		local_20;
 	int		local_24;
 	int		local_28;
@@ -32595,8 +34368,8 @@ jmp_13403:
 	local_28 = *(int *)arg_0;
 	local_2c = *(int *)(arg_0 + 0x4);
 	local_30 = sqrt(((local_28 * local_28) + (local_2c * local_2c)));
-	*(int *)local_18 = local_30;
-	local_34 = atan2(*(int *)(arg_0 + 0x8), *(int *)local_18);
+	local_18 = local_30;
+	local_34 = atan2(*(int *)(arg_0 + 0x8), local_18);
 	local_14 = ((0x43340000 * local_34) / 0x40490fdb);
 	if (local_14 >= 0x0) goto jmp_13442;
 	local_14 = (local_14 + 0x43b40000);
@@ -32612,6 +34385,9 @@ AnglesToAxis
 
 Address: 0x13457
 Stack Size: 0x28
+Opcodes Size: 0x35
+Locals Count: 6
+
 Calls: AngleVectors
 Called by: UI_DrawPlayer, UI_PlayerAngles, Main_MenuDraw
 =================
@@ -32619,13 +34395,14 @@ Called by: UI_DrawPlayer, UI_PlayerAngles, Main_MenuDraw
 void AnglesToAxis(int arg_0, int arg_1) {
 	int		local_18;
 	int		local_1c;
-	char	local_20[8];
+	int		local_20;
+	int		local_24;
 
 	arg_1 = arg_1;
 	AngleVectors(arg_0, arg_1, &local_18, (arg_1 + 0x18));
 	*(int *)(arg_1 + 0xc) = (vec3_origin - local_18);
 	*(int *)(arg_1 + 0x10) = (global_298c - local_1c);
-	*(int *)(arg_1 + 0x14) = (global_2990 - *(int *)local_20);
+	*(int *)(arg_1 + 0x14) = (global_2990 - local_20);
 }
 
 /*
@@ -32634,6 +34411,9 @@ AxisClear
 
 Address: 0x1348c
 Stack Size: 0x8
+Opcodes Size: 0x3b
+Locals Count: 1
+
 Called by: UI_DrawPlayer, Main_MenuDraw
 =================
 */
@@ -32657,6 +34437,9 @@ AxisCopy
 
 Address: 0x134c7
 Stack Size: 0x10
+Opcodes Size: 0x2c
+Locals Count: 4
+
 =================
 */
 void AxisCopy(int arg_0, int arg_1) {
@@ -32678,6 +34461,9 @@ ProjectPointOnPlane
 
 Address: 0x134f3
 Stack Size: 0x4c
+Opcodes Size: 0xbd
+Locals Count: 19
+
 Called by: PerpendicularVector
 =================
 */
@@ -32686,14 +34472,16 @@ void ProjectPointOnPlane(int arg_0, int arg_1, int arg_2) {
 	int		local_c;
 	int		local_10;
 	int		local_14;
-	char	local_18[8];
+	int		local_18;
+	int		local_1c;
 	int		local_20;
 	int		local_24;
 	int		local_28;
 	int		local_2c;
 	int		local_30;
 	int		local_34;
-	char	local_38[12];
+	int		local_38;
+	char	local_3c[8];
 	int		local_44;
 	int		local_48;
 
@@ -32706,18 +34494,18 @@ void ProjectPointOnPlane(int arg_0, int arg_1, int arg_2) {
 	local_2c = *(int *)local_28;
 	local_30 = 0x8;
 	local_34 = (arg_2 + local_30);
-	*(int *)local_38 = *(int *)local_34;
-	local_8 = (((local_20 * local_20) + (local_2c * local_2c)) + (*(int *)local_38 * *(int *)local_38));
+	local_38 = *(int *)local_34;
+	local_8 = (((local_20 * local_20) + (local_2c * local_2c)) + (local_38 * local_38));
 	local_8 = (0x3f800000 / local_8);
-	*(int *)local_18 = ((((*(int *)arg_2 * *(int *)arg_1) + (*(int *)local_28 * *(int *)(arg_1 + local_24))) + (*(int *)local_34 * *(int *)(arg_1 + local_30))) * local_8);
+	local_18 = ((((*(int *)arg_2 * *(int *)arg_1) + (*(int *)local_28 * *(int *)(arg_1 + local_24))) + (*(int *)local_34 * *(int *)(arg_1 + local_30))) * local_8);
 	local_c = (*(int *)arg_2 * local_8);
 	local_10 = (*(int *)local_28 * local_8);
 	local_14 = (*(int *)(arg_2 + 0x8) * local_8);
-	*(int *)arg_0 = (*(int *)arg_1 - (*(int *)local_18 * local_c));
+	*(int *)arg_0 = (*(int *)arg_1 - (local_18 * local_c));
 	local_44 = 0x4;
-	*(int *)(arg_0 + local_44) = (*(int *)(arg_1 + local_44) - (*(int *)local_18 * local_10));
+	*(int *)(arg_0 + local_44) = (*(int *)(arg_1 + local_44) - (local_18 * local_10));
 	local_48 = 0x8;
-	*(int *)(arg_0 + local_48) = (*(int *)(arg_1 + local_48) - (*(int *)local_18 * local_14));
+	*(int *)(arg_0 + local_48) = (*(int *)(arg_1 + local_48) - (local_18 * local_14));
 }
 
 /*
@@ -32726,11 +34514,15 @@ MakeNormalVectors
 
 Address: 0x135b0
 Stack Size: 0x38
+Opcodes Size: 0xa7
+Locals Count: 11
+
 Calls: CrossProduct, VectorNormalize
 =================
 */
 void MakeNormalVectors(int arg_0, int arg_1, int arg_2) {
-	char	local_14[12];
+	int		local_14;
+	char	local_18[8];
 	int		local_20;
 	int		local_24;
 	int		local_28;
@@ -32745,14 +34537,14 @@ void MakeNormalVectors(int arg_0, int arg_1, int arg_2) {
 	*(int *)arg_1 = *(int *)(arg_0 + 0x8);
 	local_20 = 0x4;
 	local_24 = 0x8;
-	*(int *)local_14 = (((*(int *)arg_1 * *(int *)arg_0) + (*(int *)(arg_1 + local_20) * *(int *)(arg_0 + local_20))) + (*(int *)(arg_1 + local_24) * *(int *)(arg_0 + local_24)));
-	*(int *)arg_1 = (*(int *)arg_1 + (*(int *)arg_0 * -*(int *)local_14));
+	local_14 = (((*(int *)arg_1 * *(int *)arg_0) + (*(int *)(arg_1 + local_20) * *(int *)(arg_0 + local_20))) + (*(int *)(arg_1 + local_24) * *(int *)(arg_0 + local_24)));
+	*(int *)arg_1 = (*(int *)arg_1 + (*(int *)arg_0 * -local_14));
 	local_28 = 0x4;
 	local_2c = (arg_1 + local_28);
-	*(int *)local_2c = (*(int *)local_2c + (*(int *)(arg_0 + local_28) * -*(int *)local_14));
+	*(int *)local_2c = (*(int *)local_2c + (*(int *)(arg_0 + local_28) * -local_14));
 	local_30 = 0x8;
 	local_34 = (arg_1 + local_30);
-	*(int *)local_34 = (*(int *)local_34 + (*(int *)(arg_0 + local_30) * -*(int *)local_14));
+	*(int *)local_34 = (*(int *)local_34 + (*(int *)(arg_0 + local_30) * -local_14));
 	VectorNormalize(arg_1);
 	CrossProduct(arg_1, arg_0, arg_2);
 }
@@ -32763,13 +34555,18 @@ VectorRotate
 
 Address: 0x13657
 Stack Size: 0x30
+Opcodes Size: 0x91
+Locals Count: 9
+
 =================
 */
 void VectorRotate(int arg_0, int arg_1, int arg_2) {
 	int		local_10;
 	int		local_14;
-	char	local_18[12];
-	char	local_24[12];
+	int		local_18;
+	char	local_1c[8];
+	int		local_24;
+	char	local_28[8];
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
@@ -32777,10 +34574,10 @@ void VectorRotate(int arg_0, int arg_1, int arg_2) {
 	local_10 = 0x4;
 	local_14 = 0x8;
 	*(int *)arg_2 = (((*(int *)arg_0 * *(int *)arg_1) + (*(int *)(arg_0 + local_10) * *(int *)(arg_1 + local_10))) + (*(int *)(arg_0 + local_14) * *(int *)(arg_1 + local_14)));
-	*(int *)local_18 = 0x4;
-	*(int *)(arg_2 + *(int *)local_18) = (((*(int *)arg_0 * *(int *)(arg_1 + 0xc)) + (*(int *)(arg_0 + *(int *)local_18) * *(int *)(arg_1 + 0x10))) + (*(int *)(arg_0 + 0x8) * *(int *)(arg_1 + 0x14)));
-	*(int *)local_24 = 0x8;
-	*(int *)(arg_2 + *(int *)local_24) = (((*(int *)arg_0 * *(int *)(arg_1 + 0x18)) + (*(int *)(arg_0 + 0x4) * *(int *)(arg_1 + 0x1c))) + (*(int *)(arg_0 + *(int *)local_24) * *(int *)(arg_1 + 0x20)));
+	local_18 = 0x4;
+	*(int *)(arg_2 + local_18) = (((*(int *)arg_0 * *(int *)(arg_1 + 0xc)) + (*(int *)(arg_0 + local_18) * *(int *)(arg_1 + 0x10))) + (*(int *)(arg_0 + 0x8) * *(int *)(arg_1 + 0x14)));
+	local_24 = 0x8;
+	*(int *)(arg_2 + local_24) = (((*(int *)arg_0 * *(int *)(arg_1 + 0x18)) + (*(int *)(arg_0 + 0x4) * *(int *)(arg_1 + 0x1c))) + (*(int *)(arg_0 + local_24) * *(int *)(arg_1 + 0x20)));
 }
 
 /*
@@ -32789,6 +34586,9 @@ Q_rsqrt
 
 Address: 0x136e8
 Stack Size: 0x20
+Opcodes Size: 0x33
+Locals Count: 7
+
 Called by: VectorNormalizeFast
 =================
 */
@@ -32797,12 +34597,13 @@ int Q_rsqrt(int arg_0) {
 	int		local_c;
 	int		local_10;
 	int		local_14;
-	char	local_18[8];
+	int		local_18;
+	int		local_1c;
 
 	local_14 = 0x3fc00000;
-	*(int *)local_18 = arg_0;
-	local_10 = (0x3f000000 * *(int *)local_18);
-	local_c = *(int *)local_18;
+	local_18 = arg_0;
+	local_10 = (0x3f000000 * local_18);
+	local_c = local_18;
 	local_c = (0x5f3759df - (local_c >> 0x1));
 	local_8 = local_c;
 	local_8 = (local_8 * (local_14 - ((local_10 * local_8) * local_8)));
@@ -32815,6 +34616,9 @@ Q_fabs
 
 Address: 0x1371b
 Stack Size: 0xc
+Opcodes Size: 0x10
+Locals Count: 2
+
 Called by: UI_MovedirAdjustment
 =================
 */
@@ -32832,10 +34636,14 @@ LerpAngle
 
 Address: 0x1372b
 Stack Size: 0x10
+Opcodes Size: 0x35
+Locals Count: 5
+
 =================
 */
 int LerpAngle(int arg_0, int arg_1, int arg_2) {
-	char	local_8[8];
+	int		local_8;
+	int		local_c;
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
@@ -32845,8 +34653,8 @@ jmp_13741:
 	if ((arg_1 - arg_0) >= 0xc3340000) goto jmp_1374e;
 	arg_1 = (arg_1 + 0x43b40000);
 jmp_1374e:
-	*(int *)local_8 = (arg_0 + (arg_2 * (arg_1 - arg_0)));
-	return *(int *)local_8;
+	local_8 = (arg_0 + (arg_2 * (arg_1 - arg_0)));
+	return local_8;
 }
 
 /*
@@ -32855,6 +34663,9 @@ AngleSubtract
 
 Address: 0x13760
 Stack Size: 0xc
+Opcodes Size: 0x25
+Locals Count: 3
+
 Called by: AnglesSubtract, UI_SwingAngles
 =================
 */
@@ -32881,6 +34692,9 @@ AnglesSubtract
 
 Address: 0x13785
 Stack Size: 0x24
+Opcodes Size: 0x5a
+Locals Count: 8
+
 Calls: AngleSubtract
 Called by: UI_PlayerAngles
 =================
@@ -32911,6 +34725,9 @@ AngleMod
 
 Address: 0x137df
 Stack Size: 0x8
+Opcodes Size: 0x16
+Locals Count: 1
+
 Called by: UI_MachinegunSpinAngle, UI_PlayerAngles, UI_SwingAngles
 =================
 */
@@ -32927,6 +34744,9 @@ AngleNormalize360
 
 Address: 0x137f5
 Stack Size: 0x8
+Opcodes Size: 0xe
+Locals Count: 1
+
 Called by: AngleNormalize180
 =================
 */
@@ -32941,6 +34761,9 @@ AngleNormalize180
 
 Address: 0x13803
 Stack Size: 0x10
+Opcodes Size: 0x1f
+Locals Count: 2
+
 Calls: AngleNormalize360
 Called by: AngleDelta, BG_TouchJumpPad
 =================
@@ -32963,6 +34786,9 @@ AngleDelta
 
 Address: 0x13822
 Stack Size: 0x10
+Opcodes Size: 0x10
+Locals Count: 3
+
 Calls: AngleNormalize180
 =================
 */
@@ -32979,6 +34805,9 @@ SetPlaneSignbits
 
 Address: 0x13832
 Stack Size: 0x14
+Opcodes Size: 0x36
+Locals Count: 4
+
 =================
 */
 void SetPlaneSignbits(int arg_0) {
@@ -33005,6 +34834,9 @@ BoxOnPlaneSide
 
 Address: 0x13868
 Stack Size: 0x44
+Opcodes Size: 0xe8
+Locals Count: 17
+
 =================
 */
 int BoxOnPlaneSide(int arg_0, int arg_1, int arg_2) {
@@ -33013,7 +34845,8 @@ int BoxOnPlaneSide(int arg_0, int arg_1, int arg_2) {
 	int		local_10;
 	int		local_14;
 	int		local_18;
-	char	local_1c[12];
+	int		local_1c;
+	char	local_20[8];
 	int		local_28;
 	int		local_2c;
 	int		local_30;
@@ -33034,9 +34867,9 @@ jmp_13891:
 jmp_138a6:
 	return 0x3;
 jmp_138aa:
-	*(int *)local_1c = 0x0;
-	local_14 = *(int *)local_1c;
-	local_10 = *(int *)local_1c;
+	local_1c = 0x0;
+	local_14 = local_1c;
+	local_10 = local_1c;
 	if (*(char *)(arg_2 + 0x11) >= 0x8) goto jmp_1392f;
 	local_8 = 0x0;
 jmp_138bf:
@@ -33074,6 +34907,9 @@ RadiusFromBounds
 
 Address: 0x13950
 Stack Size: 0x30
+Opcodes Size: 0x5b
+Locals Count: 9
+
 Calls: VectorLength, fabs
 =================
 */
@@ -33113,18 +34949,22 @@ ClearBounds
 
 Address: 0x139ab
 Stack Size: 0x18
+Opcodes Size: 0x37
+Locals Count: 5
+
 =================
 */
 void ClearBounds(int arg_0, int arg_1) {
-	char	local_c[8];
+	int		local_c;
+	int		local_10;
 	int		local_14;
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
-	*(int *)local_c = 0x47c34f80;
-	*(int *)(arg_0 + 0x8) = *(int *)local_c;
-	*(int *)(arg_0 + 0x4) = *(int *)local_c;
-	*(int *)arg_0 = *(int *)local_c;
+	local_c = 0x47c34f80;
+	*(int *)(arg_0 + 0x8) = local_c;
+	*(int *)(arg_0 + 0x4) = local_c;
+	*(int *)arg_0 = local_c;
 	local_14 = 0xc7c34f80;
 	*(int *)(arg_1 + 0x8) = local_14;
 	*(int *)(arg_1 + 0x4) = local_14;
@@ -33137,6 +34977,9 @@ AddPointToBounds
 
 Address: 0x139e2
 Stack Size: 0x1c
+Opcodes Size: 0xa5
+Locals Count: 8
+
 =================
 */
 void AddPointToBounds(int arg_0, int arg_1, int arg_2) {
@@ -33183,11 +35026,15 @@ BoundsIntersect
 
 Address: 0x13a87
 Stack Size: 0x20
+Opcodes Size: 0x61
+Locals Count: 7
+
 =================
 */
 int BoundsIntersect(int arg_0, int arg_1, int arg_2, int arg_3) {
 	int		local_10;
-	char	local_14[12];
+	int		local_14;
+	char	local_18[8];
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
@@ -33196,11 +35043,11 @@ int BoundsIntersect(int arg_0, int arg_1, int arg_2, int arg_3) {
 	if (*(int *)arg_1 < *(int *)arg_2) goto jmp_13ae0;
 	local_10 = 0x4;
 	if (*(int *)(arg_1 + local_10) < *(int *)(arg_2 + local_10)) goto jmp_13ae0;
-	*(int *)local_14 = 0x8;
-	if (*(int *)(arg_1 + *(int *)local_14) < *(int *)(arg_2 + *(int *)local_14)) goto jmp_13ae0;
+	local_14 = 0x8;
+	if (*(int *)(arg_1 + local_14) < *(int *)(arg_2 + local_14)) goto jmp_13ae0;
 	if (*(int *)arg_0 > *(int *)arg_3) goto jmp_13ae0;
 	if (*(int *)(arg_0 + local_10) > *(int *)(arg_3 + local_10)) goto jmp_13ae0;
-	if (*(int *)(arg_0 + *(int *)local_14) <= *(int *)(arg_3 + *(int *)local_14)) goto jmp_13ae4;
+	if (*(int *)(arg_0 + local_14) <= *(int *)(arg_3 + local_14)) goto jmp_13ae4;
 jmp_13ae0:
 	return 0x0;
 jmp_13ae4:
@@ -33213,10 +35060,14 @@ BoundsIntersectSphere
 
 Address: 0x13ae8
 Stack Size: 0x2c
+Opcodes Size: 0x76
+Locals Count: 10
+
 =================
 */
 int BoundsIntersectSphere(int arg_0, int arg_1, int arg_2, int arg_3) {
-	char	local_c[16];
+	int		local_c;
+	char	local_10[12];
 	int		local_1c;
 	int		local_20;
 	int		local_24;
@@ -33226,9 +35077,9 @@ int BoundsIntersectSphere(int arg_0, int arg_1, int arg_2, int arg_3) {
 	arg_1 = arg_1;
 	arg_2 = arg_2;
 	arg_3 = arg_3;
-	*(int *)local_c = *(int *)arg_2;
-	if ((*(int *)local_c - arg_3) > *(int *)arg_1) goto jmp_13b56;
-	if ((*(int *)local_c + arg_3) < *(int *)arg_0) goto jmp_13b56;
+	local_c = *(int *)arg_2;
+	if ((local_c - arg_3) > *(int *)arg_1) goto jmp_13b56;
+	if ((local_c + arg_3) < *(int *)arg_0) goto jmp_13b56;
 	local_1c = 0x4;
 	local_20 = *(int *)(arg_2 + local_1c);
 	if ((local_20 - arg_3) > *(int *)(arg_1 + local_1c)) goto jmp_13b56;
@@ -33249,10 +35100,14 @@ BoundsIntersectPoint
 
 Address: 0x13b5e
 Stack Size: 0x28
+Opcodes Size: 0x60
+Locals Count: 9
+
 =================
 */
 int BoundsIntersectPoint(int arg_0, int arg_1, int arg_2) {
-	char	local_c[12];
+	int		local_c;
+	char	local_10[8];
 	int		local_18;
 	int		local_1c;
 	int		local_20;
@@ -33261,9 +35116,9 @@ int BoundsIntersectPoint(int arg_0, int arg_1, int arg_2) {
 	arg_0 = arg_0;
 	arg_1 = arg_1;
 	arg_2 = arg_2;
-	*(int *)local_c = *(int *)arg_2;
-	if (*(int *)local_c > *(int *)arg_1) goto jmp_13bb6;
-	if (*(int *)local_c < *(int *)arg_0) goto jmp_13bb6;
+	local_c = *(int *)arg_2;
+	if (local_c > *(int *)arg_1) goto jmp_13bb6;
+	if (local_c < *(int *)arg_0) goto jmp_13bb6;
 	local_18 = 0x4;
 	local_1c = *(int *)(arg_2 + local_18);
 	if (local_1c > *(int *)(arg_1 + local_18)) goto jmp_13bb6;
@@ -33284,18 +35139,23 @@ VectorNormalize
 
 Address: 0x13bbe
 Stack Size: 0x38
+Opcodes Size: 0x73
+Locals Count: 12
+
 Calls: sqrt
 Called by: PerpendicularVector, MakeNormalVectors, PlaneFromPoints
 =================
 */
 int VectorNormalize(int arg_0) {
 	int		local_c;
-	char	local_10[8];
+	int		local_10;
+	int		local_14;
 	int		local_18;
 	int		local_1c;
 	int		local_20;
 	int		local_24;
-	char	local_28[8];
+	int		local_28;
+	int		local_2c;
 	int		local_30;
 	int		local_34;
 
@@ -33306,14 +35166,14 @@ int VectorNormalize(int arg_0) {
 	local_c = (((local_18 * local_18) + (local_1c * local_1c)) + (local_20 * local_20));
 	if (local_c == 0x0) goto jmp_13c2c;
 	local_24 = sqrt(local_c);
-	*(int *)local_10 = (0x3f800000 / local_24);
-	*(int *)local_28 = *(int *)local_10;
-	local_c = (local_c * *(int *)local_28);
-	*(int *)arg_0 = (*(int *)arg_0 * *(int *)local_28);
+	local_10 = (0x3f800000 / local_24);
+	local_28 = local_10;
+	local_c = (local_c * local_28);
+	*(int *)arg_0 = (*(int *)arg_0 * local_28);
 	local_30 = (arg_0 + 0x4);
-	*(int *)local_30 = (*(int *)local_30 * *(int *)local_10);
+	*(int *)local_30 = (*(int *)local_30 * local_10);
 	local_34 = (arg_0 + 0x8);
-	*(int *)local_34 = (*(int *)local_34 * *(int *)local_10);
+	*(int *)local_34 = (*(int *)local_34 * local_10);
 jmp_13c2c:
 	return local_c;
 }
@@ -33324,12 +35184,16 @@ VectorNormalize2
 
 Address: 0x13c31
 Stack Size: 0x34
+Opcodes Size: 0x95
+Locals Count: 12
+
 Calls: sqrt
 =================
 */
 int VectorNormalize2(int arg_0, int arg_1) {
 	int		local_c;
-	char	local_10[8];
+	int		local_10;
+	int		local_14;
 	int		local_18;
 	int		local_1c;
 	int		local_20;
@@ -33346,14 +35210,14 @@ int VectorNormalize2(int arg_0, int arg_1) {
 	local_c = (((local_18 * local_18) + (local_1c * local_1c)) + (local_20 * local_20));
 	if (local_c == 0x0) goto jmp_13cab;
 	local_24 = sqrt(local_c);
-	*(int *)local_10 = (0x3f800000 / local_24);
-	local_28 = *(int *)local_10;
+	local_10 = (0x3f800000 / local_24);
+	local_28 = local_10;
 	local_c = (local_c * local_28);
 	*(int *)arg_1 = (*(int *)arg_0 * local_28);
 	local_2c = 0x4;
-	*(int *)(arg_1 + local_2c) = (*(int *)(arg_0 + local_2c) * *(int *)local_10);
+	*(int *)(arg_1 + local_2c) = (*(int *)(arg_0 + local_2c) * local_10);
 	local_30 = 0x8;
-	*(int *)(arg_1 + local_30) = (*(int *)(arg_0 + local_30) * *(int *)local_10);
+	*(int *)(arg_1 + local_30) = (*(int *)(arg_0 + local_30) * local_10);
 	goto jmp_13cc1;
 jmp_13cab:
 	local_28 = 0x0;
@@ -33370,6 +35234,9 @@ _VectorMA
 
 Address: 0x13cc6
 Stack Size: 0x10
+Opcodes Size: 0x52
+Locals Count: 6
+
 =================
 */
 void _VectorMA(int arg_0, int arg_1, int arg_2, int arg_3) {
@@ -33393,6 +35260,9 @@ _DotProduct
 
 Address: 0x13d18
 Stack Size: 0x18
+Opcodes Size: 0x35
+Locals Count: 4
+
 =================
 */
 int _DotProduct(int arg_0, int arg_1) {
@@ -33412,6 +35282,9 @@ _VectorSubtract
 
 Address: 0x13d4d
 Stack Size: 0x10
+Opcodes Size: 0x45
+Locals Count: 5
+
 =================
 */
 void _VectorSubtract(int arg_0, int arg_1, int arg_2) {
@@ -33434,6 +35307,9 @@ _VectorAdd
 
 Address: 0x13d92
 Stack Size: 0x10
+Opcodes Size: 0x45
+Locals Count: 5
+
 =================
 */
 void _VectorAdd(int arg_0, int arg_1, int arg_2) {
@@ -33456,6 +35332,9 @@ _VectorCopy
 
 Address: 0x13dd7
 Stack Size: 0x10
+Opcodes Size: 0x2f
+Locals Count: 4
+
 =================
 */
 void _VectorCopy(int arg_0, int arg_1) {
@@ -33477,6 +35356,9 @@ _VectorScale
 
 Address: 0x13e06
 Stack Size: 0x10
+Opcodes Size: 0x3c
+Locals Count: 5
+
 =================
 */
 void _VectorScale(int arg_0, int arg_1, int arg_2) {
@@ -33499,6 +35381,9 @@ Vector4Scale
 
 Address: 0x13e42
 Stack Size: 0x14
+Opcodes Size: 0x4e
+Locals Count: 6
+
 =================
 */
 void Vector4Scale(int arg_0, int arg_1, int arg_2) {
@@ -33524,6 +35409,9 @@ Q_log2
 
 Address: 0x13e90
 Stack Size: 0x10
+Opcodes Size: 0x23
+Locals Count: 3
+
 =================
 */
 int Q_log2(int arg_0) {
@@ -33548,39 +35436,50 @@ MatrixMultiply
 
 Address: 0x13eb3
 Stack Size: 0x70
+Opcodes Size: 0x199
+Locals Count: 19
+
 Called by: RotatePointAroundVector, UI_PositionRotatedEntityOnTag, UI_PositionEntityOnTag
 =================
 */
 void MatrixMultiply(int arg_0, int arg_1, int arg_2) {
-	char	local_10[12];
-	char	local_1c[12];
-	char	local_28[12];
-	char	local_34[12];
-	char	local_40[12];
-	char	local_4c[12];
-	char	local_58[12];
-	char	local_64[12];
+	int		local_10;
+	char	local_14[8];
+	int		local_1c;
+	char	local_20[8];
+	int		local_28;
+	char	local_2c[8];
+	int		local_34;
+	char	local_38[8];
+	int		local_40;
+	char	local_44[8];
+	int		local_4c;
+	char	local_50[8];
+	int		local_58;
+	char	local_5c[8];
+	int		local_64;
+	char	local_68[8];
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
 	arg_2 = arg_2;
 	*(int *)arg_2 = (((*(int *)arg_0 * *(int *)arg_1) + (*(int *)(arg_0 + 0x4) * *(int *)(arg_1 + 0xc))) + (*(int *)(arg_0 + 0x8) * *(int *)(arg_1 + 0x18)));
-	*(int *)local_10 = 0x4;
-	*(int *)(arg_2 + *(int *)local_10) = (((*(int *)arg_0 * *(int *)(arg_1 + *(int *)local_10)) + (*(int *)(arg_0 + *(int *)local_10) * *(int *)(arg_1 + 0x10))) + (*(int *)(arg_0 + 0x8) * *(int *)(arg_1 + 0x1c)));
-	*(int *)local_1c = 0x8;
-	*(int *)(arg_2 + *(int *)local_1c) = (((*(int *)arg_0 * *(int *)(arg_1 + *(int *)local_1c)) + (*(int *)(arg_0 + 0x4) * *(int *)(arg_1 + 0x14))) + (*(int *)(arg_0 + *(int *)local_1c) * *(int *)(arg_1 + 0x20)));
-	*(int *)local_28 = 0xc;
-	*(int *)(arg_2 + *(int *)local_28) = (((*(int *)(arg_0 + *(int *)local_28) * *(int *)arg_1) + (*(int *)(arg_0 + 0x10) * *(int *)(arg_1 + *(int *)local_28))) + (*(int *)(arg_0 + 0x14) * *(int *)(arg_1 + 0x18)));
-	*(int *)local_34 = 0x10;
-	*(int *)(arg_2 + *(int *)local_34) = (((*(int *)(arg_0 + 0xc) * *(int *)(arg_1 + 0x4)) + (*(int *)(arg_0 + *(int *)local_34) * *(int *)(arg_1 + *(int *)local_34))) + (*(int *)(arg_0 + 0x14) * *(int *)(arg_1 + 0x1c)));
-	*(int *)local_40 = 0x14;
-	*(int *)(arg_2 + *(int *)local_40) = (((*(int *)(arg_0 + 0xc) * *(int *)(arg_1 + 0x8)) + (*(int *)(arg_0 + 0x10) * *(int *)(arg_1 + *(int *)local_40))) + (*(int *)(arg_0 + *(int *)local_40) * *(int *)(arg_1 + 0x20)));
-	*(int *)local_4c = 0x18;
-	*(int *)(arg_2 + *(int *)local_4c) = (((*(int *)(arg_0 + *(int *)local_4c) * *(int *)arg_1) + (*(int *)(arg_0 + 0x1c) * *(int *)(arg_1 + 0xc))) + (*(int *)(arg_0 + 0x20) * *(int *)(arg_1 + *(int *)local_4c)));
-	*(int *)local_58 = 0x1c;
-	*(int *)(arg_2 + *(int *)local_58) = (((*(int *)(arg_0 + 0x18) * *(int *)(arg_1 + 0x4)) + (*(int *)(arg_0 + *(int *)local_58) * *(int *)(arg_1 + 0x10))) + (*(int *)(arg_0 + 0x20) * *(int *)(arg_1 + *(int *)local_58)));
-	*(int *)local_64 = 0x20;
-	*(int *)(arg_2 + *(int *)local_64) = (((*(int *)(arg_0 + 0x18) * *(int *)(arg_1 + 0x8)) + (*(int *)(arg_0 + 0x1c) * *(int *)(arg_1 + 0x14))) + (*(int *)(arg_0 + *(int *)local_64) * *(int *)(arg_1 + *(int *)local_64)));
+	local_10 = 0x4;
+	*(int *)(arg_2 + local_10) = (((*(int *)arg_0 * *(int *)(arg_1 + local_10)) + (*(int *)(arg_0 + local_10) * *(int *)(arg_1 + 0x10))) + (*(int *)(arg_0 + 0x8) * *(int *)(arg_1 + 0x1c)));
+	local_1c = 0x8;
+	*(int *)(arg_2 + local_1c) = (((*(int *)arg_0 * *(int *)(arg_1 + local_1c)) + (*(int *)(arg_0 + 0x4) * *(int *)(arg_1 + 0x14))) + (*(int *)(arg_0 + local_1c) * *(int *)(arg_1 + 0x20)));
+	local_28 = 0xc;
+	*(int *)(arg_2 + local_28) = (((*(int *)(arg_0 + local_28) * *(int *)arg_1) + (*(int *)(arg_0 + 0x10) * *(int *)(arg_1 + local_28))) + (*(int *)(arg_0 + 0x14) * *(int *)(arg_1 + 0x18)));
+	local_34 = 0x10;
+	*(int *)(arg_2 + local_34) = (((*(int *)(arg_0 + 0xc) * *(int *)(arg_1 + 0x4)) + (*(int *)(arg_0 + local_34) * *(int *)(arg_1 + local_34))) + (*(int *)(arg_0 + 0x14) * *(int *)(arg_1 + 0x1c)));
+	local_40 = 0x14;
+	*(int *)(arg_2 + local_40) = (((*(int *)(arg_0 + 0xc) * *(int *)(arg_1 + 0x8)) + (*(int *)(arg_0 + 0x10) * *(int *)(arg_1 + local_40))) + (*(int *)(arg_0 + local_40) * *(int *)(arg_1 + 0x20)));
+	local_4c = 0x18;
+	*(int *)(arg_2 + local_4c) = (((*(int *)(arg_0 + local_4c) * *(int *)arg_1) + (*(int *)(arg_0 + 0x1c) * *(int *)(arg_1 + 0xc))) + (*(int *)(arg_0 + 0x20) * *(int *)(arg_1 + local_4c)));
+	local_58 = 0x1c;
+	*(int *)(arg_2 + local_58) = (((*(int *)(arg_0 + 0x18) * *(int *)(arg_1 + 0x4)) + (*(int *)(arg_0 + local_58) * *(int *)(arg_1 + 0x10))) + (*(int *)(arg_0 + 0x20) * *(int *)(arg_1 + local_58)));
+	local_64 = 0x20;
+	*(int *)(arg_2 + local_64) = (((*(int *)(arg_0 + 0x18) * *(int *)(arg_1 + 0x8)) + (*(int *)(arg_0 + 0x1c) * *(int *)(arg_1 + 0x14))) + (*(int *)(arg_0 + local_64) * *(int *)(arg_1 + local_64)));
 }
 
 /*
@@ -33589,6 +35488,9 @@ AngleVectors
 
 Address: 0x1404c
 Stack Size: 0x30
+Opcodes Size: 0xfc
+Locals Count: 13
+
 Calls: cos, sin
 Called by: AnglesToAxis, UI_MovedirAdjustment
 =================
@@ -33645,6 +35547,9 @@ PerpendicularVector
 
 Address: 0x14148
 Stack Size: 0x3c
+Opcodes Size: 0x70
+Locals Count: 12
+
 Calls: VectorNormalize, ProjectPointOnPlane, fabs
 Called by: RotateAroundDirection, RotatePointAroundVector
 =================
@@ -33657,7 +35562,8 @@ void PerpendicularVector(int arg_0, int arg_1) {
 	int		local_24;
 	int		local_28;
 	int		local_2c;
-	char	local_30[8];
+	int		local_30;
+	int		local_34;
 	int		local_38;
 
 	arg_1 = arg_1;
@@ -33667,8 +35573,8 @@ void PerpendicularVector(int arg_0, int arg_1) {
 	local_14 = local_2c;
 	goto jmp_1418a;
 jmp_1415d:
-	*(int *)local_30 = fabs(*(int *)((local_14 << 0x2) + arg_1));
-	if (*(int *)local_30 >= local_18) goto jmp_14184;
+	local_30 = fabs(*(int *)((local_14 << 0x2) + arg_1));
+	if (local_30 >= local_18) goto jmp_14184;
 	local_1c = local_14;
 	local_38 = fabs(*(int *)((local_14 << 0x2) + arg_1));
 	local_18 = local_38;
@@ -33676,10 +35582,10 @@ jmp_14184:
 	local_14 = (local_14 + 0x1);
 jmp_1418a:
 	if (local_14 < 0x3) goto jmp_1415d;
-	*(int *)local_30 = 0x0;
-	local_28 = *(int *)local_30;
-	local_24 = *(int *)local_30;
-	local_20 = *(int *)local_30;
+	local_30 = 0x0;
+	local_28 = local_30;
+	local_24 = local_30;
+	local_20 = local_30;
 	*(int *)((local_1c << 0x2) + &local_20) = 0x3f800000;
 	ProjectPointOnPlane(arg_0, &local_20, arg_1);
 	VectorNormalize(arg_0);
@@ -33691,6 +35597,9 @@ Q_isnan
 
 Address: 0x141b8
 Stack Size: 0xc
+Opcodes Size: 0x18
+Locals Count: 2
+
 =================
 */
 int Q_isnan(int arg_0) {
@@ -33708,6 +35617,9 @@ Q_IsColorString
 
 Address: 0x141d0
 Stack Size: 0x18
+Opcodes Size: 0x73
+Locals Count: 5
+
 Called by: Q_CleanStr, Q_PrintStrlen, PlayerSettings_DrawName, UI_DrawString2
 =================
 */
@@ -33759,6 +35671,9 @@ Com_Clamp
 
 Address: 0x14243
 Stack Size: 0x8
+Opcodes Size: 0x1e
+Locals Count: 3
+
 Called by: ServerOptions_MenuInit, ServerOptions_SetMenuItems, ServerOptions_Start, UI_SPSkillMenu_Init, ArenaServers_MenuInit, Punkbuster_ConfirmDisable, Punkbuster_ConfirmEnable, Preferences_SetMenuItems, PlayerSettings_SetMenuItems, UI_AddBotsMenu_Init
 =================
 */
@@ -33780,6 +35695,9 @@ COM_SkipPath
 
 Address: 0x14261
 Stack Size: 0xc
+Opcodes Size: 0x28
+Locals Count: 2
+
 =================
 */
 int COM_SkipPath(int arg_0) {
@@ -33804,6 +35722,9 @@ COM_GetExtension
 
 Address: 0x14289
 Stack Size: 0x20
+Opcodes Size: 0x33
+Locals Count: 5
+
 Calls: strrchr
 =================
 */
@@ -33832,6 +35753,9 @@ COM_StripExtension
 
 Address: 0x142bc
 Stack Size: 0x28
+Opcodes Size: 0x6f
+Locals Count: 8
+
 Calls: Q_strncpyz, strrchr
 Called by: UI_SaveConfigMenu_SaveEvent, UI_PlayerInfo_SetWeapon, PlayerModel_BuildList
 =================
@@ -33876,6 +35800,9 @@ COM_CompareExtension
 
 Address: 0x1432b
 Stack Size: 0x24
+Opcodes Size: 0x3c
+Locals Count: 7
+
 Calls: Q_stricmp, strlen
 =================
 */
@@ -33905,6 +35832,9 @@ COM_DefaultExtension
 
 Address: 0x14367
 Stack Size: 0x24
+Opcodes Size: 0x38
+Locals Count: 7
+
 Calls: Q_strcat, strrchr
 =================
 */
@@ -33934,6 +35864,9 @@ CopyShortSwap
 
 Address: 0x1439f
 Stack Size: 0x10
+Opcodes Size: 0x1b
+Locals Count: 4
+
 =================
 */
 void CopyShortSwap(int arg_0, int arg_1) {
@@ -33952,6 +35885,9 @@ CopyLongSwap
 
 Address: 0x143ba
 Stack Size: 0x10
+Opcodes Size: 0x2f
+Locals Count: 4
+
 =================
 */
 void CopyLongSwap(int arg_0, int arg_1) {
@@ -33972,6 +35908,9 @@ ShortSwap
 
 Address: 0x143e9
 Stack Size: 0x18
+Opcodes Size: 0x2d
+Locals Count: 6
+
 =================
 */
 int ShortSwap(int arg_0) {
@@ -33996,6 +35935,9 @@ ShortNoSwap
 
 Address: 0x14416
 Stack Size: 0x8
+Opcodes Size: 0xb
+Locals Count: 1
+
 =================
 */
 int ShortNoSwap(int arg_0) {
@@ -34010,6 +35952,9 @@ LongSwap
 
 Address: 0x14421
 Stack Size: 0x20
+Opcodes Size: 0x4d
+Locals Count: 9
+
 Called by: FloatSwap
 =================
 */
@@ -34041,6 +35986,9 @@ LongNoSwap
 
 Address: 0x1446e
 Stack Size: 0x8
+Opcodes Size: 0x6
+Locals Count: 1
+
 =================
 */
 int LongNoSwap(int arg_0) {
@@ -34054,6 +36002,9 @@ Long64Swap
 
 Address: 0x14474
 Stack Size: 0x14
+Opcodes Size: 0x41
+Locals Count: 11
+
 =================
 */
 void Long64Swap(int arg_0, int arg_1) {
@@ -34085,6 +36036,9 @@ Long64NoSwap
 
 Address: 0x144b5
 Stack Size: 0x8
+Opcodes Size: 0x8
+Locals Count: 2
+
 =================
 */
 void Long64NoSwap(int arg_0, int arg_1) {
@@ -34098,6 +36052,9 @@ FloatSwap
 
 Address: 0x144bd
 Stack Size: 0x14
+Opcodes Size: 0x16
+Locals Count: 3
+
 Calls: LongSwap
 =================
 */
@@ -34117,6 +36074,9 @@ FloatNoSwap
 
 Address: 0x144d3
 Stack Size: 0x8
+Opcodes Size: 0x7
+Locals Count: 1
+
 =================
 */
 int FloatNoSwap(int arg_0) {
@@ -34130,6 +36090,9 @@ COM_BeginParseSession
 
 Address: 0x144da
 Stack Size: 0x18
+Opcodes Size: 0x15
+Locals Count: 1
+
 Calls: Com_sprintf
 =================
 */
@@ -34146,6 +36109,9 @@ COM_GetCurrentParseLine
 
 Address: 0x144ef
 Stack Size: 0x8
+Opcodes Size: 0xf
+Locals Count: 0
+
 Called by: COM_ParseWarning, COM_ParseError
 =================
 */
@@ -34163,6 +36129,9 @@ COM_Parse
 
 Address: 0x144fe
 Stack Size: 0x14
+Opcodes Size: 0xf
+Locals Count: 2
+
 Calls: COM_ParseExt
 Called by: Parse1DMatrix, COM_MatchToken, UI_ParseAnimationFile, UI_ParseInfos
 =================
@@ -34180,16 +36149,19 @@ COM_ParseError
 
 Address: 0x1450d
 Stack Size: 0x20
+Opcodes Size: 0x26
+Locals Count: 4
+
 Calls: Com_Printf, COM_GetCurrentParseLine, Q_vsnprintf
 =================
 */
-void COM_ParseError(int arg_0, int arg_1) {
-	int		local_18;
+void COM_ParseError(int arg_0, ...) {
+	va_list	local_18;
 	int		local_1c;
 
-	local_18 = &arg_1;
+	va_start(local_18, arg_0);
 	Q_vsnprintf(0x7e2bc, 0x1000, arg_0, local_18);
-	local_18 = 0x0;
+	va_end(local_18);
 	local_1c = COM_GetCurrentParseLine();
 	Com_Printf(0x8918, 0x93cc4, local_1c, 0x7e2bc);
 }
@@ -34200,16 +36172,19 @@ COM_ParseWarning
 
 Address: 0x14533
 Stack Size: 0x20
+Opcodes Size: 0x26
+Locals Count: 4
+
 Calls: Com_Printf, COM_GetCurrentParseLine, Q_vsnprintf
 =================
 */
-void COM_ParseWarning(int arg_0, int arg_1) {
-	int		local_18;
+void COM_ParseWarning(int arg_0, ...) {
+	va_list	local_18;
 	int		local_1c;
 
-	local_18 = &arg_1;
+	va_start(local_18, arg_0);
 	Q_vsnprintf(0x7f2bc, 0x1000, arg_0, local_18);
-	local_18 = 0x0;
+	va_end(local_18);
 	local_1c = COM_GetCurrentParseLine();
 	Com_Printf(0x88fe, 0x93cc4, local_1c, 0x7f2bc);
 }
@@ -34220,6 +36195,9 @@ SkipWhitespace
 
 Address: 0x14559
 Stack Size: 0x14
+Opcodes Size: 0x44
+Locals Count: 5
+
 Called by: COM_ParseExt
 =================
 */
@@ -34255,6 +36233,9 @@ COM_Compress
 
 Address: 0x1459d
 Stack Size: 0x38
+Opcodes Size: 0x167
+Locals Count: 13
+
 =================
 */
 int COM_Compress(int arg_0) {
@@ -34380,6 +36361,9 @@ COM_ParseExt
 
 Address: 0x14704
 Stack Size: 0x38
+Opcodes Size: 0x16a
+Locals Count: 12
+
 Calls: SkipWhitespace
 Called by: SkipBracedSection, COM_Parse, GametypeBits, UI_ParseInfos
 =================
@@ -34500,6 +36484,9 @@ COM_MatchToken
 
 Address: 0x1486e
 Stack Size: 0x24
+Opcodes Size: 0x29
+Locals Count: 5
+
 Calls: Com_Error, strcmp, COM_Parse
 Called by: Parse3DMatrix, Parse2DMatrix, Parse1DMatrix
 =================
@@ -34523,6 +36510,9 @@ SkipBracedSection
 
 Address: 0x14897
 Stack Size: 0x18
+Opcodes Size: 0x52
+Locals Count: 4
+
 Calls: COM_ParseExt
 =================
 */
@@ -34561,6 +36551,9 @@ SkipRestOfLine
 
 Address: 0x148e9
 Stack Size: 0x18
+Opcodes Size: 0x3e
+Locals Count: 5
+
 =================
 */
 void SkipRestOfLine(int arg_0) {
@@ -34594,6 +36587,9 @@ Parse1DMatrix
 
 Address: 0x14927
 Stack Size: 0x20
+Opcodes Size: 0x4b
+Locals Count: 7
+
 Calls: atof, COM_Parse, COM_MatchToken
 Called by: Parse2DMatrix
 =================
@@ -34627,25 +36623,29 @@ Parse2DMatrix
 
 Address: 0x14972
 Stack Size: 0x1c
+Opcodes Size: 0x47
+Locals Count: 6
+
 Calls: Parse1DMatrix, COM_MatchToken
 Called by: Parse3DMatrix
 =================
 */
 void Parse2DMatrix(int arg_0, int arg_1, int arg_2, int arg_3) {
-	char	local_14[8];
+	int		local_14;
+	int		local_18;
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
 	arg_2 = arg_2;
 	arg_3 = arg_3;
 	COM_MatchToken(arg_0, 0x88e7);
-	*(int *)local_14 = 0x0;
+	local_14 = 0x0;
 	goto jmp_149aa;
 jmp_14990:
-	Parse1DMatrix(arg_0, arg_2, (((*(int *)local_14 * arg_2) << 0x2) + arg_3));
-	*(int *)local_14 = (*(int *)local_14 + 0x1);
+	Parse1DMatrix(arg_0, arg_2, (((local_14 * arg_2) << 0x2) + arg_3));
+	local_14 = (local_14 + 0x1);
 jmp_149aa:
-	if (*(int *)local_14 < arg_1) goto jmp_14990;
+	if (local_14 < arg_1) goto jmp_14990;
 	COM_MatchToken(arg_0, 0x88e5);
 }
 
@@ -34655,11 +36655,15 @@ Parse3DMatrix
 
 Address: 0x149b9
 Stack Size: 0x24
+Opcodes Size: 0x51
+Locals Count: 7
+
 Calls: Parse2DMatrix, COM_MatchToken
 =================
 */
 void Parse3DMatrix(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4) {
-	char	local_18[12];
+	int		local_18;
+	char	local_1c[8];
 
 	arg_0 = arg_0;
 	arg_1 = arg_1;
@@ -34667,13 +36671,13 @@ void Parse3DMatrix(int arg_0, int arg_1, int arg_2, int arg_3, int arg_4) {
 	arg_3 = arg_3;
 	arg_4 = arg_4;
 	COM_MatchToken(arg_0, 0x88e7);
-	*(int *)local_18 = 0x0;
+	local_18 = 0x0;
 	goto jmp_149fb;
 jmp_149db:
-	Parse2DMatrix(arg_0, arg_2, arg_3, ((((*(int *)local_18 * arg_3) * arg_2) << 0x2) + arg_4));
-	*(int *)local_18 = (*(int *)local_18 + 0x1);
+	Parse2DMatrix(arg_0, arg_2, arg_3, ((((local_18 * arg_3) * arg_2) << 0x2) + arg_4));
+	local_18 = (local_18 + 0x1);
 jmp_149fb:
-	if (*(int *)local_18 < arg_1) goto jmp_149db;
+	if (local_18 < arg_1) goto jmp_149db;
 	COM_MatchToken(arg_0, 0x88e5);
 }
 
@@ -34683,6 +36687,9 @@ Com_HexStrToInt
 
 Address: 0x14a0a
 Stack Size: 0x30
+Opcodes Size: 0x9a
+Locals Count: 9
+
 Calls: tolower, strlen
 =================
 */
@@ -34741,6 +36748,9 @@ Q_isprint
 
 Address: 0x14aa4
 Stack Size: 0xc
+Opcodes Size: 0x15
+Locals Count: 2
+
 Called by: ScrollList_Key
 =================
 */
@@ -34761,6 +36771,9 @@ Q_islower
 
 Address: 0x14ab9
 Stack Size: 0xc
+Opcodes Size: 0x15
+Locals Count: 2
+
 Called by: MenuField_Key
 =================
 */
@@ -34781,6 +36794,9 @@ Q_isupper
 
 Address: 0x14ace
 Stack Size: 0xc
+Opcodes Size: 0x15
+Locals Count: 2
+
 Called by: ScrollList_Key, MenuField_Key
 =================
 */
@@ -34801,6 +36817,9 @@ Q_isalpha
 
 Address: 0x14ae3
 Stack Size: 0x10
+Opcodes Size: 0x1d
+Locals Count: 1
+
 Called by: MenuField_Key
 =================
 */
@@ -34824,6 +36843,9 @@ Q_isanumber
 
 Address: 0x14b00
 Stack Size: 0x20
+Opcodes Size: 0x2b
+Locals Count: 5
+
 Calls: strtod
 =================
 */
@@ -34853,6 +36875,9 @@ Q_isintegral
 
 Address: 0x14b2b
 Stack Size: 0x10
+Opcodes Size: 0x19
+Locals Count: 3
+
 =================
 */
 int Q_isintegral(int arg_0) {
@@ -34875,6 +36900,9 @@ Q_strncpyz
 
 Address: 0x14b44
 Stack Size: 0x14
+Opcodes Size: 0x43
+Locals Count: 3
+
 Calls: strncpy, Com_Error
 Called by: Com_TruncateLongString, Q_strcat, COM_StripExtension, GraphicsOptions_ApplyChanges, GraphicsOptions_GetAspectRatios, UI_DriverInfo_Menu, UI_TeamOrdersMenu_BuildBotList, UI_BotSelectMenu_SelectEvent, UI_BotSelectMenu_UpdateGrid, ServerPlayerIcon, ServerOptions_SetMenuItems, ServerOptions_InitBotNames, ServerOptions_LevelshotDraw, StartServer_Cache, StartServer_LevelshotDraw, StartServer_Update, UI_SPPostgameMenu_f, Prepname, UI_SPPostgameMenu_MenuDrawScoreLine, UI_SPLevelMenu_MenuDraw, UI_SPLevelMenu_SetMenuArena, UI_SPLevelMenu_SetBots, PlayerIcon, ArenaServers_LoadFavorites, ArenaServers_Insert, UI_RemoveBotsMenu_SetBotNames, PlayerSettings_SetMenuItems, PlayerSettings_DrawName, UI_RegisterClientModelname, PlayerModel_SetMenuItems, PlayerModel_PicEvent, UI_Mods_ParseInfos, UI_ParseInfos, UI_DrawProportionalString_AutoWrapped, UI_AddBotsMenu_SetBotNames
 =================
@@ -34902,6 +36930,9 @@ Q_stricmpn
 
 Address: 0x14b87
 Stack Size: 0x2c
+Opcodes Size: 0x9d
+Locals Count: 11
+
 Called by: Q_stristr, Q_stricmp, PlayerModel_BuildList, strtod
 =================
 */
@@ -34911,7 +36942,8 @@ int Q_stricmpn(int arg_0, int arg_1, int arg_2) {
 	int		local_10;
 	int		local_14;
 	int		local_18;
-	char	local_1c[12];
+	int		local_1c;
+	char	local_20[8];
 	int		local_28;
 
 	arg_0 = arg_0;
@@ -34927,14 +36959,14 @@ jmp_14ba4:
 	return 0x1;
 jmp_14bac:
 	local_10 = arg_0;
-	*(int *)local_1c = 0x1;
-	arg_0 = (local_10 + *(int *)local_1c);
+	local_1c = 0x1;
+	arg_0 = (local_10 + local_1c);
 	local_8 = (char)*(char *)local_10;
 	local_14 = arg_1;
-	arg_1 = (local_14 + *(int *)local_1c);
+	arg_1 = (local_14 + local_1c);
 	local_c = (char)*(char *)local_14;
 	local_18 = arg_2;
-	arg_2 = (local_18 - *(int *)local_1c);
+	arg_2 = (local_18 - local_1c);
 	if (local_18 != 0x0) goto jmp_14be4;
 	return 0x0;
 jmp_14be4:
@@ -34966,6 +36998,9 @@ Q_strncmp
 
 Address: 0x14c24
 Stack Size: 0x24
+Opcodes Size: 0x64
+Locals Count: 10
+
 =================
 */
 int Q_strncmp(int arg_0, int arg_1, int arg_2) {
@@ -35012,6 +37047,9 @@ Q_stricmp
 
 Address: 0x14c88
 Stack Size: 0x20
+Opcodes Size: 0x28
+Locals Count: 5
+
 Calls: Q_stricmpn
 Called by: Info_ValueForKey, COM_CompareExtension, GraphicsOptions_SetMenuItems, GraphicsOptions_GetAspectRatios, GraphicsOptions_FindDetectedResolution, GraphicsOptions_FindBuiltinResolution, UI_BotSelectMenu_Default, ServerPlayerIcon, UI_BotSelectMenu_SortCompare, BotAlreadySelected, GametypeBits, UI_SPLevelMenu_MenuDraw, PlayerIcon, UI_SPArena_Start, ArenaServers_DoRefresh, ArenaServers_LoadFavorites, ArenaServers_Remove, ArenaServers_Compare, Favorites_Add, UI_ParseAnimationFile, PlayerModel_SetMenuItems, UI_TeamArenaExists, LoadConfig_MenuInit, UI_GetBotInfoByName, UI_GetSpecialArenaInfo, UI_GetArenaInfoByMap, Controls_GetKeyAssignment, UI_ConsoleCommand, UI_AddBotsMenu_SortCompare, BG_FindItem
 =================
@@ -35039,21 +37077,25 @@ Q_strlwr
 
 Address: 0x14cb0
 Stack Size: 0x18
+Opcodes Size: 0x26
+Locals Count: 4
+
 Calls: tolower
 =================
 */
 int Q_strlwr(int arg_0) {
-	char	local_c[8];
+	int		local_c;
+	int		local_10;
 	int		local_14;
 
-	*(int *)local_c = arg_0;
+	local_c = arg_0;
 	goto jmp_14ccb;
 jmp_14cb7:
-	local_14 = tolower((char)*(char *)*(int *)local_c);
-	*(char *)*(int *)local_c = local_14;
-	*(int *)local_c = (*(int *)local_c + 0x1);
+	local_14 = tolower((char)*(char *)local_c);
+	*(char *)local_c = local_14;
+	local_c = (local_c + 0x1);
 jmp_14ccb:
-	if ((char)*(char *)*(int *)local_c != 0x0) goto jmp_14cb7;
+	if ((char)*(char *)local_c != 0x0) goto jmp_14cb7;
 	return arg_0;
 }
 
@@ -35063,22 +37105,26 @@ Q_strupr
 
 Address: 0x14cd6
 Stack Size: 0x18
+Opcodes Size: 0x26
+Locals Count: 4
+
 Calls: toupper
 Called by: ServerOptions_SetMenuItems, StartServer_Cache, StartServer_LevelshotDraw, StartServer_Update, UI_SPLevelMenu_MenuDraw, UI_SPLevelMenu_SetMenuArena, ArenaServers_Insert, PlayerModel_SetMenuItems, PlayerModel_PicEvent, LoadConfig_MenuInit, Controls_DrawKeyBinding
 =================
 */
 int Q_strupr(int arg_0) {
-	char	local_c[8];
+	int		local_c;
+	int		local_10;
 	int		local_14;
 
-	*(int *)local_c = arg_0;
+	local_c = arg_0;
 	goto jmp_14cf1;
 jmp_14cdd:
-	local_14 = toupper((char)*(char *)*(int *)local_c);
-	*(char *)*(int *)local_c = local_14;
-	*(int *)local_c = (*(int *)local_c + 0x1);
+	local_14 = toupper((char)*(char *)local_c);
+	*(char *)local_c = local_14;
+	local_c = (local_c + 0x1);
 jmp_14cf1:
-	if ((char)*(char *)*(int *)local_c != 0x0) goto jmp_14cdd;
+	if ((char)*(char *)local_c != 0x0) goto jmp_14cdd;
 	return arg_0;
 }
 
@@ -35088,16 +37134,20 @@ Q_strcat
 
 Address: 0x14cfc
 Stack Size: 0x20
+Opcodes Size: 0x2c
+Locals Count: 6
+
 Calls: Q_strncpyz, Com_Error, strlen
 Called by: Com_TruncateLongString, COM_DefaultExtension, ServerInfo_MenuDraw, UI_PlayerInfo_SetWeapon, PlayerModel_SetMenuItems
 =================
 */
 void Q_strcat(int arg_0, int arg_1, int arg_2) {
 	int		local_14;
-	char	local_18[8];
+	int		local_18;
+	int		local_1c;
 
-	*(int *)local_18 = strlen(arg_0);
-	local_14 = *(int *)local_18;
+	local_18 = strlen(arg_0);
+	local_14 = local_18;
 	if (local_14 < arg_1) goto jmp_14d14;
 	Com_Error(0x0, 0x8884);
 jmp_14d14:
@@ -35110,6 +37160,9 @@ Q_stristr
 
 Address: 0x14d28
 Stack Size: 0x38
+Opcodes Size: 0x93
+Locals Count: 12
+
 Calls: Q_stricmpn, strlen
 =================
 */
@@ -35166,6 +37219,9 @@ Q_PrintStrlen
 
 Address: 0x14dbb
 Stack Size: 0x1c
+Opcodes Size: 0x41
+Locals Count: 5
+
 Calls: Q_IsColorString
 =================
 */
@@ -35201,6 +37257,9 @@ Q_CleanStr
 
 Address: 0x14dfc
 Stack Size: 0x28
+Opcodes Size: 0x56
+Locals Count: 8
+
 Calls: Q_IsColorString
 Called by: UI_TeamOrdersMenu_BuildBotList, UI_BotSelectMenu_UpdateGrid, ServerOptions_InitPlayerItems, Prepname, UI_SPPostgameMenu_MenuDrawScoreLine, UI_SPLevelMenu_MenuDraw, UI_SPLevelMenu_SetBots, ArenaServers_Insert, UI_RemoveBotsMenu_SetBotNames, PlayerSettings_DrawName, PlayerModel_SetMenuItems, Controls_MenuInit
 =================
@@ -35208,32 +37267,34 @@ Called by: UI_TeamOrdersMenu_BuildBotList, UI_BotSelectMenu_UpdateGrid, ServerOp
 int Q_CleanStr(int arg_0) {
 	int		local_c;
 	int		local_10;
-	char	local_14[8];
-	char	local_1c[8];
+	int		local_14;
+	int		local_18;
+	int		local_1c;
+	int		local_20;
 	int		local_24;
 
 	arg_0 = arg_0;
 	local_c = arg_0;
-	*(int *)local_14 = arg_0;
+	local_14 = arg_0;
 	goto jmp_14e3b;
 jmp_14e0b:
-	*(int *)local_1c = Q_IsColorString(local_c);
-	if (*(int *)local_1c == 0x0) goto jmp_14e1e;
+	local_1c = Q_IsColorString(local_c);
+	if (local_1c == 0x0) goto jmp_14e1e;
 	local_c = (local_c + 0x1);
 	goto jmp_14e35;
 jmp_14e1e:
 	if (local_10 < 0x20) goto jmp_14e35;
 	if (local_10 > 0x7e) goto jmp_14e35;
-	local_24 = *(int *)local_14;
-	*(int *)local_14 = (local_24 + 0x1);
+	local_24 = local_14;
+	local_14 = (local_24 + 0x1);
 	*(char *)local_24 = local_10;
 jmp_14e35:
 	local_c = (local_c + 0x1);
 jmp_14e3b:
-	*(int *)local_1c = (char)*(char *)local_c;
-	local_10 = *(int *)local_1c;
-	if (*(int *)local_1c != 0x0) goto jmp_14e0b;
-	*(char *)*(int *)local_14 = 0x0;
+	local_1c = (char)*(char *)local_c;
+	local_10 = local_1c;
+	if (local_1c != 0x0) goto jmp_14e0b;
+	*(char *)local_14 = 0x0;
 	return arg_0;
 }
 
@@ -35243,6 +37304,9 @@ Q_CountChar
 
 Address: 0x14e52
 Stack Size: 0xc
+Opcodes Size: 0x2d
+Locals Count: 3
+
 =================
 */
 int Q_CountChar(int arg_0, int arg_1) {
@@ -35268,19 +37332,22 @@ Com_sprintf
 
 Address: 0x14e7f
 Stack Size: 0x24
+Opcodes Size: 0x32
+Locals Count: 7
+
 Calls: Com_Printf, Q_vsnprintf
 Called by: Info_SetValueForKey_Big, Info_SetValueForKey, COM_BeginParseSession, GraphicsOptions_GetResolutions, GraphicsOptions_GetAspectRatios, UI_TeamOrdersMenu_ListEvent, ServerPlayerIcon, ServerOptions_SetMenuItems, ServerOptions_Start, StartServer_Cache, StartServer_Update, UI_SPPostgameMenu_DrawAwardsMedals, UI_SPLevelMenu_MenuDraw, UI_SPLevelMenu_SetMenuArena, PlayerIcon, SpecifyServer_MenuInit, SpecifyServer_Event, ArenaServers_SetType, ArenaServers_UpdateMenu, ArenaServers_UpdatePicture, UI_RegisterClientModelname, UI_RegisterClientSkin, PlayerModel_BuildList, UI_SPUnlockMedals_f, UI_SPUnlock_f, UI_CanShowTierVideo, UI_ShowTierVideo, UI_GetAwardLevel, UI_LogAwardData, UI_SetBestScore, UI_GetBestScore, Demos_MenuInit, UI_PrintTime, UI_ReadableSize
 =================
 */
-int Com_sprintf(int arg_0, int arg_1, int arg_2, int arg_3) {
+int Com_sprintf(int arg_0, int arg_1, int arg_2, ...) {
 	int		local_18;
-	int		local_1c;
+	va_list	local_1c;
 	int		local_20;
 
-	local_1c = &arg_3;
+	va_start(local_1c, arg_2);
 	local_20 = Q_vsnprintf(arg_0, arg_1, arg_2, local_1c);
 	local_18 = local_20;
-	local_1c = 0x0;
+	va_end(local_1c);
 	if (local_18 < arg_1) goto jmp_14eac;
 	Com_Printf(0x8848, arg_1, (local_18 + 0x1));
 jmp_14eac:
@@ -35293,12 +37360,15 @@ va
 
 Address: 0x14eb1
 Stack Size: 0x2c
+Opcodes Size: 0x38
+Locals Count: 7
+
 Calls: Q_vsnprintf
 Called by: DriverInfo_MenuDraw, UI_TeamOrdersMenu_ListEvent, ServerOptions_Start, UI_SPPostgameMenu_f, UI_SPPostgameMenu_MenuDraw, UI_SPPostgameMenu_MenuDrawScoreLine, UI_SPLevelMenu_MenuDraw, SpecifyServer_Event, UI_SPArena_Start, ArenaServers_SaveChanges, ArenaServers_StartRefresh, ArenaServers_DoRefresh, ArenaServers_LoadFavorites, ArenaServers_Go, Favorites_Add, UI_SaveConfigMenu_SaveEvent, UI_RemoveBotsMenu_DeleteEvent, Menu_Draw, Menu_AddItem, Preferences_Cache, PlayerSettings_MenuEvent, UI_SetLerpFrameAnimation, PlayerModel_BuildList, UI_Mods_LoadMods, LoadConfig_MenuEvent, UI_ShowTierVideo, UI_LogAwardData, UI_SetBestScore, UI_GetBestScore, UI_GetBotInfoByNumber, UI_LoadBots, UI_LoadBotsFromFile, UI_GetArenaInfoByNumber, UI_LoadArenas, UI_LoadArenasFromFile, UI_ParseInfos, Demos_MenuEvent, UI_DrawConnectScreen, UI_DisplayDownloadInfo, UI_CinematicsMenu_Event, UI_Refresh, UI_AddBotsMenu_FightEvent
 =================
 */
-int va(int arg_0, int arg_1) {
-	int		local_18;
+int va(int arg_0, ...) {
+	va_list	local_18;
 	int		local_1c;
 	int		local_20;
 	int		local_24;
@@ -35309,9 +37379,9 @@ int va(int arg_0, int arg_1) {
 	local_28 = 0x1;
 	local_1c = ((0x7d00 * (local_24 & local_28)) + 0x802bc);
 	*(int *)local_20 = (local_24 + local_28);
-	local_18 = &arg_1;
+	va_start(local_18, arg_0);
 	Q_vsnprintf(local_1c, 0x7d00, arg_0, local_18);
-	local_18 = 0x0;
+	va_end(local_18);
 	return local_1c;
 }
 
@@ -35321,6 +37391,9 @@ Com_TruncateLongString
 
 Address: 0x14ee9
 Stack Size: 0x1c
+Opcodes Size: 0x44
+Locals Count: 4
+
 Calls: Q_strcat, Q_strncpyz, strlen
 =================
 */
@@ -35346,6 +37419,9 @@ Info_ValueForKey
 
 Address: 0x14f2d
 Stack Size: 0x202c
+Opcodes Size: 0xe8
+Locals Count: 10
+
 Calls: Q_stricmp, Com_Error, strlen
 Called by: UI_TeamOrdersMenu_f, UI_TeamOrdersMenu_BuildBotList, TeamMain_MenuInit, UI_BotSelectMenu_Default, UI_BotSelectMenu_UpdateGrid, UI_BotSelectMenu_SortCompare, ServerOptions_SetMenuItems, ServerOptions_InitBotNames, ServerOptions_Start, StartServer_Cache, StartServer_LevelshotDraw, StartServer_GametypeEvent, StartServer_Update, UI_SPPostgameMenu_f, Prepname, UI_SPPostgameMenu_MenuDraw, UI_SPPostgameMenu_MenuDrawScoreLine, UI_SPLevelMenu, UI_SPLevelMenu_MenuDraw, UI_SPLevelMenu_SetMenuItems, UI_SPLevelMenu_SetMenuArena, UI_SPLevelMenu_SetBots, UI_SPArena_Start, ArenaServers_Insert, UI_RemoveBotsMenu_GetBots, UI_RemoveBotsMenu_SetBotNames, InGame_MenuInit, UI_GetCurrentGame, UI_CanShowTierVideo, UI_ShowTierVideo, UI_TierCompleted, UI_GetAwardLevel, UI_LogAwardData, UI_SetBestScore, UI_GetBestScore, UI_GetBotInfoByName, UI_GetSpecialArenaInfo, UI_GetArenaInfoByMap, UI_GetArenaInfoByNumber, UI_LoadArenas, UI_DrawConnectScreen, UI_AddBotsMenu_Init, UI_AddBotsMenu_SortCompare, UI_AddBotsMenu_SetBotNames
 =================
@@ -35429,6 +37505,9 @@ Info_NextPair
 
 Address: 0x15015
 Stack Size: 0x1c
+Opcodes Size: 0xa2
+Locals Count: 8
+
 Called by: UI_ServerInfoMenu, ServerInfo_MenuDraw
 =================
 */
@@ -35489,6 +37568,9 @@ Info_RemoveKey
 
 Address: 0x150b7
 Stack Size: 0x834
+Opcodes Size: 0xe4
+Locals Count: 12
+
 Calls: memmove, strcmp, strchr, Com_Error, strlen
 Called by: Info_SetValueForKey
 =================
@@ -35499,7 +37581,8 @@ void Info_RemoveKey(int arg_0, int arg_1) {
 	int		local_418;
 	char	local_41c[1024];
 	int		local_81c;
-	char	local_820[8];
+	int		local_820;
+	int		local_824;
 	int		local_828;
 	int		local_82c;
 	int		local_830;
@@ -35510,8 +37593,8 @@ void Info_RemoveKey(int arg_0, int arg_1) {
 	if (local_81c < 0x400) goto jmp_150d2;
 	Com_Error(0x1, 0x87f8);
 jmp_150d2:
-	*(int *)local_820 = strchr(arg_1, 0x5c);
-	if (*(int *)local_820 == 0x0) goto jmp_15197;
+	local_820 = strchr(arg_1, 0x5c);
+	if (local_820 == 0x0) goto jmp_15197;
 	goto jmp_15199;
 jmp_150e1:
 	local_418 = arg_0;
@@ -35571,6 +37654,9 @@ Info_RemoveKey_Big
 
 Address: 0x1519b
 Stack Size: 0x4034
+Opcodes Size: 0xe4
+Locals Count: 12
+
 Calls: memmove, strcmp, strchr, Com_Error, strlen
 Called by: Info_SetValueForKey_Big
 =================
@@ -35581,7 +37667,8 @@ void Info_RemoveKey_Big(int arg_0, int arg_1) {
 	int		local_2018;
 	char	local_201c[8192];
 	int		local_401c;
-	char	local_4020[8];
+	int		local_4020;
+	int		local_4024;
 	int		local_4028;
 	int		local_402c;
 	int		local_4030;
@@ -35592,8 +37679,8 @@ void Info_RemoveKey_Big(int arg_0, int arg_1) {
 	if (local_401c < 0x2000) goto jmp_151b6;
 	Com_Error(0x1, 0x87d0);
 jmp_151b6:
-	*(int *)local_4020 = strchr(arg_1, 0x5c);
-	if (*(int *)local_4020 == 0x0) goto jmp_1527b;
+	local_4020 = strchr(arg_1, 0x5c);
+	if (local_4020 == 0x0) goto jmp_1527b;
 	goto jmp_1527d;
 jmp_151c5:
 	local_2018 = arg_0;
@@ -35653,6 +37740,9 @@ Info_Validate
 
 Address: 0x1527f
 Stack Size: 0x18
+Opcodes Size: 0x27
+Locals Count: 3
+
 Calls: strchr
 =================
 */
@@ -35677,6 +37767,9 @@ Info_SetValueForKey
 
 Address: 0x152a6
 Stack Size: 0x434
+Opcodes Size: 0xb8
+Locals Count: 10
+
 Calls: strcpy, strcat, Com_sprintf, Info_RemoveKey, Com_Printf, strchr, Com_Error, strlen
 Called by: ArenaServers_DoRefresh, UI_SPUnlockMedals_f, UI_SPUnlock_f, UI_ShowTierVideo, UI_LogAwardData, UI_SetBestScore, UI_LoadArenas, UI_ParseInfos
 =================
@@ -35735,6 +37828,9 @@ Info_SetValueForKey_Big
 
 Address: 0x1535e
 Stack Size: 0x202c
+Opcodes Size: 0xa5
+Locals Count: 8
+
 Calls: strcat, Com_sprintf, Info_RemoveKey_Big, Com_Printf, strchr, Com_Error, strlen
 =================
 */
@@ -35786,6 +37882,9 @@ Com_CharIsOneOfCharset
 
 Address: 0x15403
 Stack Size: 0x14
+Opcodes Size: 0x33
+Locals Count: 4
+
 Calls: strlen
 Called by: Com_SkipTokens, Com_SkipCharset
 =================
@@ -35815,6 +37914,9 @@ Com_SkipCharset
 
 Address: 0x15436
 Stack Size: 0x18
+Opcodes Size: 0x2a
+Locals Count: 4
+
 Calls: Com_CharIsOneOfCharset
 =================
 */
@@ -35841,6 +37943,9 @@ Com_SkipTokens
 
 Address: 0x15460
 Stack Size: 0x24
+Opcodes Size: 0x68
+Locals Count: 8
+
 Calls: Com_CharIsOneOfCharset
 =================
 */

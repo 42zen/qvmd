@@ -1065,6 +1065,8 @@ static int qvm_load_variadic_functions(qvm_t *qvm)
 
     printf("Loading variadic functions...");
 
+    // TODO: handle variadic globals variables
+
     // browse all functions
     for (unsigned int i = 0; i < qvm->functions_count; i++) {
         // get the current function
