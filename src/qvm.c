@@ -1074,6 +1074,7 @@ static int qvm_load_variadic_functions(qvm_t *qvm)
                 if (opb->op2->info->id == OPB_LOCAL_ADR && opb->op2->variable->status == VS_LOCAL)
                     if (opb->op1->info->id == OPB_LOCAL_ADR && opb->op1->variable->status == VS_ARG) {
                         opb->info = &qvm_opblocks_info[OPB_VA_START];
+                        opb->op2->variable->type = &qvm_types[T_VA_LIST];
                         va_func_count++;
                     }
     }

@@ -2,11 +2,12 @@
 
 qvm_type_t  *type_from_var(qvm_variable_t *var);
 
-qvm_type_t qvm_types[] = {
+qvm_type_t qvm_types[T_MAX] = {
     {T_CHAR, "char", "char\t", 1, TF_NONE},
     {T_SHORT, "short", "short\t", 2, TF_NONE},
     {T_INT, "int", "int\t\t", 4, TF_NONE},
-    {T_CHAR_ARRAY, "char", "char\t", 0, TF_ARRAY}
+    {T_CHAR_ARRAY, "char", "char\t", 0, TF_ARRAY},
+    {T_VA_LIST, "va_list", "va_list\t", 0, TF_NONE}
 };
 
 qvm_type_t *type_from_var(qvm_variable_t *var)

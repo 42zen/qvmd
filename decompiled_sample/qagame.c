@@ -2002,7 +2002,7 @@ Called by: G_AddEvent, G_Spawn, G_UseTargets, G_PickTarget, SP_func_timer, trigg
 =================
 */
 void G_Printf(int arg_0, int arg_1) {
-	int		local_18;
+	va_list	local_18;
 	char	local_1c[1024];
 
 	va_start(local_18, arg_1);
@@ -2025,7 +2025,7 @@ Called by: G_Spawn, G_FindConfigstringIndex, PrintMsg, SP_target_speaker, G_Spaw
 =================
 */
 void G_Error(int arg_0, int arg_1) {
-	int		local_18;
+	va_list	local_18;
 	char	local_1c[1024];
 
 	va_start(local_18, arg_1);
@@ -2372,7 +2372,7 @@ Called by: Info_SetValueForKey_Big, Info_SetValueForKey, Info_RemoveKey_Big, Inf
 =================
 */
 void Com_Error(, int arg_1, int arg_2) {
-	int		local_18;
+	va_list	local_18;
 	char	local_1c[1024];
 
 	va_start(local_18, arg_2);
@@ -2395,7 +2395,7 @@ Called by: Info_SetValueForKey_Big, Info_SetValueForKey, Com_sprintf, COM_ParseW
 =================
 */
 void Com_Printf(int arg_0, int arg_1) {
-	int		local_18;
+	va_list	local_18;
 	char	local_1c[1024];
 
 	va_start(local_18, arg_1);
@@ -3050,7 +3050,7 @@ void G_LogPrintf(int arg_0, int arg_1) {
 	char	local_20[7];
 	char	local_27[1017];
 	int		local_420;
-	int		local_424;
+	va_list	local_424;
 	int		local_428;
 	int		local_42c;
 	int		local_430;
@@ -17755,7 +17755,7 @@ Called by: BotAISetupClient, BotAI, BotTeamplayReport, BotReportStatus, BotTestA
 =================
 */
 void BotAI_Print(int arg_0, int arg_1, int arg_2) {
-	int		local_18;
+	va_list	local_18;
 	char	local_1c[2048];
 	int		local_81c;
 
@@ -17934,7 +17934,7 @@ void BotAI_BotInitialChat(int arg_0, int arg_1, int arg_2) {
 	int		local_50;
 	int		local_54;
 	int		local_58;
-	int		local_5c;
+	va_list	local_5c;
 	int		local_60;
 	int		local_64;
 	int		local_68;
@@ -27952,7 +27952,7 @@ Called by: G_ParseField, G_SpawnVector, G_ReadSessionData, BotReadSessionData, B
 int sscanf(int arg_0, int arg_1, int arg_2) {
 	int		local_c;
 	int		local_10;
-	int		local_14;
+	va_list	local_14;
 	int		local_18;
 	int		local_1c;
 	int		local_20;
@@ -42662,7 +42662,7 @@ Called by: Pickup_Team, Team_TouchEnemyFlag, Team_TouchOurFlag, Team_ReturnFlag,
 void PrintMsg(int arg_0, int arg_1, int arg_2) {
 	int		local_18;
 	char	local_1c[1024];
-	int		local_41c;
+	va_list	local_41c;
 	int		local_420;
 	int		local_424;
 	int		local_428;
@@ -49474,7 +49474,7 @@ Calls: Com_Printf, COM_GetCurrentParseLine, Q_vsnprintf
 =================
 */
 void COM_ParseError(int arg_0, int arg_1) {
-	int		local_18;
+	va_list	local_18;
 	int		local_1c;
 
 	va_start(local_18, arg_1);
@@ -49497,7 +49497,7 @@ Calls: Com_Printf, COM_GetCurrentParseLine, Q_vsnprintf
 =================
 */
 void COM_ParseWarning(int arg_0, int arg_1) {
-	int		local_18;
+	va_list	local_18;
 	int		local_1c;
 
 	va_start(local_18, arg_1);
@@ -50655,7 +50655,7 @@ Called by: Info_SetValueForKey_Big, Info_SetValueForKey, COM_BeginParseSession, 
 */
 int Com_sprintf(int arg_0, int arg_1, int arg_2, int arg_3) {
 	int		local_18;
-	int		local_1c;
+	va_list	local_1c;
 	int		local_20;
 
 	va_start(local_1c, arg_3);
@@ -50682,7 +50682,7 @@ Called by: G_TeamCommand, TeamplayInfoMessage, PrintMsg, Use_Target_Print, Conso
 =================
 */
 int va(int arg_0, int arg_1) {
-	int		local_18;
+	va_list	local_18;
 	int		local_1c;
 	int		local_20;
 	int		local_24;

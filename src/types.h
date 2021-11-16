@@ -8,6 +8,7 @@ typedef enum {
     T_SHORT,
     T_INT,
     T_CHAR_ARRAY,
+    T_VA_LIST,
     T_MAX
 } qvm_type_id_e;
 
@@ -26,5 +27,7 @@ typedef struct qvm_type_s {
 } qvm_type_t;
 
 qvm_type_t  *type_from_var(qvm_variable_t *var);
+
+extern qvm_type_t  qvm_types[T_MAX];
 
 #endif
