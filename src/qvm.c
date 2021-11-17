@@ -1065,8 +1065,6 @@ static int qvm_load_variadic_functions(qvm_t *qvm)
 
     printf("Loading variadic functions...");
 
-    // TODO: handle variadic globals variables
-
     // browse all functions
     for (unsigned int i = 0; i < qvm->functions_count; i++) {
         // get the current function
@@ -1078,7 +1076,7 @@ static int qvm_load_variadic_functions(qvm_t *qvm)
         // find all va_start calls
         for (opb = func->opblock_start; opb && opb != func->opblock_end; opb = opb->next)
             if (opb->info->id == OPB_ASSIGNATION && opb->opcode->value == 4)
-                if (opb->op2->info->id == OPB_LOCAL_ADR && opb->op2->variable->status == VS_LOCAL)
+                if ((opb->op2->info->id == OPB_LOCAL_ADR) || (opb->op2->info->id == OPB_GLOBAL_ADR))
                     if (opb->op1->info->id == OPB_LOCAL_ADR && opb->op1->variable->status == VS_ARG) {
                         opb->info = &qvm_opblocks_info[OPB_VA_START];
                         opb->op2->variable->type = &qvm_types[T_VA_LIST];
