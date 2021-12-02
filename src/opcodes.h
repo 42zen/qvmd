@@ -79,6 +79,7 @@ typedef struct qvm_opcode_info_s {
 } qvm_opcode_info_t;
 
 typedef struct qvm_opcode_s {
+	qvm_t				*qvm;
     unsigned int        address;
     qvm_opcode_info_t   *info;
     int                 value;

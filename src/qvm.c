@@ -304,6 +304,7 @@ static int qvm_load_opcodes(qvm_t *qvm)
         }
 
         // parse the opcode
+        qvm->opcodes[curr_instr].qvm = qvm;
         qvm->opcodes[curr_instr].address = curr_instr;
         qvm->opcodes[curr_instr].info = &qvm_opcodes_info[ope];
         qvm->opcodes[curr_instr].opblock = NULL;
