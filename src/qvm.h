@@ -48,6 +48,7 @@ typedef struct qvm_s {
     int             calls_total;
     int             calls_restored;
     float           restored_calls_perc;
+    file_t          *output_file;
 } qvm_t;
 
 qvm_t   *qvm_load(char *filename, char *map_filename);

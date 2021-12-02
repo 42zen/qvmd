@@ -49,6 +49,7 @@ static qvm_t *qvm_new(void)
     qvm.map = NULL;
     qvm.map_count = 0;
     qvm.restored_calls_perc = 0.0f;
+    qvm.output_file = NULL;
 
     // init all qvm sections
     for (int i = S_CODE; i < S_MAX; i++) {
@@ -387,6 +388,9 @@ static void qvm_load_functions_data(qvm_t *qvm)
 
             // initialize the function
             func_init(func);
+
+            // set the function qvm
+            func->qvm = qvm;
 
             // set the function address
             func->address = curr_instr;

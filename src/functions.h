@@ -8,6 +8,7 @@ typedef struct qvm_function_list_s  qvm_function_list_t;
 #include "variables.h"
 
 typedef struct qvm_function_s {
+    qvm_t               *qvm;
     unsigned int        address;
     char                name[64];
     unsigned int        stack_size;

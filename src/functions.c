@@ -24,6 +24,7 @@ void func_init(qvm_function_t *func)
     func->op_size = 0;
     func->locals_count = 0;
     func->variadic = 0;
+    func->qvm = NULL;
 }
 
 static qvm_function_t *func_new(void)
@@ -73,6 +74,9 @@ qvm_function_t *func_add_syscall(qvm_t *qvm, unsigned int address)
     // create the new function
     if (!(func = func_new()))
         return NULL;
+
+    // set the function qvm
+    func->qvm = qvm;
 
     // set the function name and address
     func->address = address;
