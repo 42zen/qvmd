@@ -14,9 +14,9 @@ static void     qvm_load_functions_data(qvm_t *qvm);
 static int      qvm_load_jumppoints(qvm_t *qvm);
 static int      qvm_load_opblocks(qvm_t *qvm);
 static int      qvm_load_syscalls(qvm_t *qvm);
-static int      qvm_load_syscalls_usage(qvm_t *qvm, qvm_opblock_t *opb);
+static int      qvm_load_syscalls_usage(qvm_opblock_t *opb);
 static int      qvm_load_variables(qvm_t *qvm);
-static int      qvm_load_variables_usage(qvm_t *qvm, qvm_opblock_t *opb);
+static int      qvm_load_variables_usage(qvm_opblock_t *opb);
 static int      qvm_load_variables_sections(qvm_t *qvm);
 static void     qvm_load_variables_globals_size(qvm_t *qvm);
 static void     qvm_load_variables_locals_size(qvm_t *qvm);
@@ -26,7 +26,7 @@ static int      qvm_load_variables_literals(qvm_t *qvm);
 static void     qvm_load_variables_types(qvm_t *qvm);
 static int      qvm_load_returns(qvm_t *qvm);
 static int      qvm_load_calls(qvm_t *qvm);
-static int      qvm_load_calls_opb(qvm_t *qvm, qvm_opblock_t *opb);
+static int      qvm_load_calls_opb(qvm_opblock_t *opb);
 static int      qvm_load_variadic_functions(qvm_t *qvm);
 
 static qvm_t *qvm_new(void)
@@ -483,6 +483,7 @@ static int qvm_load_opblocks(qvm_t *qvm)
         }
 
         // save the opblock infos
+        opb->qvm = qvm;
         opb->info = &qvm_opblocks_info[op->info->opblock_id];
         opb->opcode = op;
         op->opblock = opb;
@@ -554,6 +555,7 @@ static int qvm_load_opblocks(qvm_t *qvm)
             }
 
             // save the jumppoint opblock info
+            jmp_opb->qvm = qvm;
             jmp_opb->info = &qvm_opblocks_info[OPB_JUMP_POINT];
             jmp_opb->jumppoint = jmp;
             jmp_opb->function = curr_func;
@@ -648,7 +650,7 @@ static int qvm_load_syscalls(qvm_t *qvm)
     return 1;
 }
 
-static int qvm_load_syscalls_usage(qvm_t *qvm, qvm_opblock_t *opb)
+static int qvm_load_syscalls_usage(qvm_opblock_t *opb)
 {
     qvm_opblock_t   *call;
 
@@ -661,8 +663,8 @@ static int qvm_load_syscalls_usage(qvm_t *qvm, qvm_opblock_t *opb)
         return 1;
 
     // add the syscall if needed
-    if (!(call->function_called = func_find(qvm, call->child->opcode->value)))
-        if (!(call->function_called = func_add_syscall(qvm, call->child->opcode->value)))
+    if (!(call->function_called = func_find(opb->qvm, call->child->opcode->value)))
+        if (!(call->function_called = func_add_syscall(opb->qvm, call->child->opcode->value)))
             return 0;
 
     // add the calls and called_by
@@ -713,12 +715,12 @@ static int qvm_load_variables(qvm_t *qvm)
     return 1;
 }
 
-static int qvm_load_variables_usage(qvm_t *qvm, qvm_opblock_t *opb)
+static int qvm_load_variables_usage(qvm_opblock_t *opb)
 {
     // check if there is a constant or a local address loaded by load opcode
     if (opb->info->id == OPB_LOAD)
         if (opb->child->info->id == OPB_LOCAL_ADR || opb->child->info->id == OPB_CONST) {
-            if (!(opb->child->variable = var_get(qvm, opb->child->info->id != OPB_CONST ? opb->function : NULL, opb->child->opcode->value, opb->opcode->value, opb->function)))
+            if (!(opb->child->variable = var_get(opb->qvm, opb->child->info->id != OPB_CONST ? opb->function : NULL, opb->child->opcode->value, opb->opcode->value, opb->function)))
                 return 0;
             if (opb->child->info->id == OPB_CONST)
                 opb->child->info = &qvm_opblocks_info[OPB_GLOBAL_ADR];
@@ -727,7 +729,7 @@ static int qvm_load_variables_usage(qvm_t *qvm, qvm_opblock_t *opb)
     // check if there is a constant or a local address loaded by store opcode
     if (opb->info->id == OPB_ASSIGNATION)
         if (opb->op2->info->id == OPB_LOCAL_ADR || opb->op2->info->id == OPB_CONST) {
-            if (!(opb->op2->variable = var_get(qvm, opb->op2->info->id != OPB_CONST ? opb->function : NULL, opb->op2->opcode->value, opb->opcode->value, opb->function)))
+            if (!(opb->op2->variable = var_get(opb->qvm, opb->op2->info->id != OPB_CONST ? opb->function : NULL, opb->op2->opcode->value, opb->opcode->value, opb->function)))
                 return 0;
             if (opb->op2->info->id == OPB_CONST)
                 opb->op2->info = &qvm_opblocks_info[OPB_GLOBAL_ADR];
@@ -736,37 +738,37 @@ static int qvm_load_variables_usage(qvm_t *qvm, qvm_opblock_t *opb)
     // check if there is a constant or a local address loaded by block_copy opcode
     if (opb->info->id == OPB_STRUCT_COPY) {
         if (opb->op1->info->id == OPB_CONST || opb->op1->info->id == OPB_LOCAL_ADR) {
-            if (!(opb->op1->variable = var_get(qvm, opb->op1->info->id != OPB_CONST ? opb->function : NULL, opb->op1->opcode->value, 0, opb->function)))
+            if (!(opb->op1->variable = var_get(opb->qvm, opb->op1->info->id != OPB_CONST ? opb->function : NULL, opb->op1->opcode->value, 0, opb->function)))
                 return 0;
             if (opb->op1->info->id == OPB_CONST)
                 opb->op1->info = &qvm_opblocks_info[OPB_GLOBAL_ADR];
-            var_get(qvm, opb->op1->info->id != OPB_CONST ? opb->function : NULL, opb->op1->opcode->value + opb->opcode->value, 0, NULL);
+            var_get(opb->qvm, opb->op1->info->id != OPB_CONST ? opb->function : NULL, opb->op1->opcode->value + opb->opcode->value, 0, NULL);
         }
         if (opb->op2->info->id == OPB_CONST || opb->op2->info->id == OPB_LOCAL_ADR) {
-            if (!(opb->op2->variable = var_get(qvm, opb->op2->info->id != OPB_CONST ? opb->function : NULL, opb->op2->opcode->value, 0, opb->function)))
+            if (!(opb->op2->variable = var_get(opb->qvm, opb->op2->info->id != OPB_CONST ? opb->function : NULL, opb->op2->opcode->value, 0, opb->function)))
                 return 0;
             if (opb->op2->info->id == OPB_CONST)
                 opb->op2->info = &qvm_opblocks_info[OPB_GLOBAL_ADR];
-            var_get(qvm, opb->op2->info->id != OPB_CONST ? opb->function : NULL, opb->op2->opcode->value + opb->opcode->value, 0, NULL);
+            var_get(opb->qvm, opb->op2->info->id != OPB_CONST ? opb->function : NULL, opb->op2->opcode->value + opb->opcode->value, 0, NULL);
         }
     }
 
     // check if this is a local address
     if (opb->info->id == OPB_LOCAL_ADR)
-        if (!(opb->variable = var_get(qvm, opb->function, opb->opcode->value, 0, opb->function)))
+        if (!(opb->variable = var_get(opb->qvm, opb->function, opb->opcode->value, 0, opb->function)))
                 return 0;
 
     // load the variables from the child if needed
     if (opb->child)
-        return qvm_load_variables_usage(qvm, opb->child);
+        return qvm_load_variables_usage(opb->child);
 
     // load the variables from the operation 1 if needed
-    if (opb->op1 && !qvm_load_variables_usage(qvm, opb->op1))
+    if (opb->op1 && !qvm_load_variables_usage(opb->op1))
         return 0;
 
     // load the variables from the operation 2 if needed
     if (opb->op2)
-        return qvm_load_variables_usage(qvm, opb->op2);
+        return qvm_load_variables_usage(opb->op2);
 
     // success
     return 1;
@@ -1001,7 +1003,7 @@ static int qvm_load_calls(qvm_t *qvm)
     return 1;
 }
 
-static int qvm_load_calls_opb(qvm_t *qvm, qvm_opblock_t *opb)
+static int qvm_load_calls_opb(qvm_opblock_t *opb)
 {
     qvm_opblock_t   *tmp;
     qvm_opblock_t   *call;
@@ -1026,7 +1028,7 @@ static int qvm_load_calls_opb(qvm_t *qvm, qvm_opblock_t *opb)
         return 1;
 
     // increase the total of calls
-    qvm->calls_total++;
+    opb->qvm->calls_total++;
 
     // go to the next opblock
     tmp = opb->next;
@@ -1052,7 +1054,7 @@ static int qvm_load_calls_opb(qvm_t *qvm, qvm_opblock_t *opb)
     tmp->prev = opb->prev;
 
     // increase the total of calls restored
-    qvm->calls_restored++;
+    opb->qvm->calls_restored++;
 
     // change the value of the current opblock
     curr->next = tmp;

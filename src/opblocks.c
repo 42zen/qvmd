@@ -8,7 +8,7 @@ void                    opb_add(qvm_opblock_t *opb, qvm_opblock_t **list);
 void                    opb_print(file_t *file, qvm_opblock_t *opb);
 static qvm_opblock_t    *opb_load(qvm_opblock_t *opb, unsigned int size);
 qvm_opblock_t           *opb_is_call(qvm_opblock_t *opb);
-int                     opb_foreach(qvm_t *qvm, int (*func)(qvm_t *, qvm_opblock_t *));
+int                     opb_foreach(qvm_t *qvm, int (*func)(qvm_opblock_t *));
 
 qvm_opblock_info_t  qvm_opblocks_info[OPB_MAX] = {
 	{ OPB_UNDEF, 0 },
@@ -49,6 +49,7 @@ qvm_opblock_t *opb_new(void)
     }
 
     // initialize the opblock infos
+    opb->qvm = NULL;
     opb->info = NULL;
     opb->opcode = NULL;
     opb->prev = NULL;
@@ -372,13 +373,13 @@ qvm_opblock_t *opb_is_call(qvm_opblock_t *opb)
     return NULL;
 }
 
-int opb_foreach(qvm_t *qvm, int (*func)(qvm_t *, qvm_opblock_t *))
+int opb_foreach(qvm_t *qvm, int (*func)(qvm_opblock_t *))
 {
     qvm_opblock_t   *opb;
 
     // call the function given for each opblocks
     for (opb = qvm->opblocks; opb; opb = opb->next)
-        if (!func(qvm, opb))
+        if (!func(opb))
             return 0;
 
     // success

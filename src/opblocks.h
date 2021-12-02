@@ -51,6 +51,7 @@ typedef struct qvm_opblock_info_s {
 } qvm_opblock_info_t;
 
 typedef struct qvm_opblock_s {
+    qvm_t               *qvm;
     qvm_opblock_info_t  *info;
     qvm_opcode_t        *opcode;
     qvm_opblock_t       *prev;
@@ -75,7 +76,7 @@ qvm_opblock_t   *opb_pop(qvm_opblock_t **list);
 void            opb_add(qvm_opblock_t *opb, qvm_opblock_t **list);
 void            opb_print(file_t *file, qvm_opblock_t *opb);
 qvm_opblock_t   *opb_is_call(qvm_opblock_t *opb);
-int             opb_foreach(qvm_t *qvm, int (*func)(qvm_t *, qvm_opblock_t *));
+int             opb_foreach(qvm_t *qvm, int (*func)(qvm_opblock_t *));
 
 qvm_opblock_info_t  qvm_opblocks_info[OPB_MAX];
 
